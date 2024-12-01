@@ -1,0 +1,785 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweGNmNmE3NDU5N2VlOTNiMTI3MzI3ODRmZWE1NWQ2ZDY3MDY1MGI1NDc5MTk2YTU3ZWQzMjViNzk3ZTM5NTgxMzc=",
+      "id": "0xcf6a74597ee93b12732784fea55d6d670650b5479196a57ed325b797e3958137",
+      "title": "[PROPOSAL-010] Exclusion from possible airdrop of those who don’t read the text of the proposal",
+      "content": "# Summary\n\nThe proposal suggests excluding from the list of recipients of a possible future Airdrop all addresses that took part in bot detection votes on the snapshot.\n\nInitial post ([Exclusion from possible airdrop of those who don’t read the text of the proposal - Temperature Checks - GuruDAO Governance Forum (dex. guru)](https://gov.dex.guru/t/exclusion-from-possible-airdrop-of-those-who-don-t-read-the-text-of-the-proposal/8913))\n\n# Background\n\nOn 04/26/2022 and 05/05/2022 there were published proposals What option will bots prefer? ([1](https://snapshot.org/#/thegurudao.eth/proposal/0x4099606ae52125cc0f581dd0f7b0a4af6e0cf59527ac5a6fae9ab36fa1f8caf8), [2](https://snapshot.org/#/thegurudao.eth/proposal/0x276aeadbc8c68117dc677e6db275891281384e0dfe7c90d5b149389aa60eab32)) that were aimed to detect bots in the governance process. The proposals collected 441 and 165 votes despite the description “If you are a human, please do not vote on this.”. We have a reasonable opinion that all these votes were cast by bots.\n\n# Proposal\n\nExclude from the list of recipients of a possible future Airdrop ALL addresses that took part in the [seventh](https://snapshot.org/#/thegurudao.eth/proposal/0x4099606ae52125cc0f581dd0f7b0a4af6e0cf59527ac5a6fae9ab36fa1f8caf8) and [eleventh](https://snapshot.org/#/thegurudao.eth/proposal/0x276aeadbc8c68117dc677e6db275891281384e0dfe7c90d5b149389aa60eab32) (IN ONE OR BOTH) votes on the snapshot (What option will bots prefer?). \n\nThose people who took part in this vote showed by their actions that they do not read the text for which they vote, or at least they are not familiar with the accepted governance process. Such people do more harm to the DAO than good. DAO doesn’t need members who just mindlessly push buttons.\n\n# Pros\n\n- The proposal suggests a straightforward process to identify and exclude bot accounts from the possible future airdrop.\n\n# Cons\n\n- The proposal may affect participants who voted by accident.\n\n# Poll\n[https://discord.com/channels/779159507967672360/958820909991477318/973352305040711690](https://discord.com/channels/779159507967672360/958820909991477318/973352305040711690)",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9092B2EeBe2aA19BC626Bfd25BF225170c3a2d33",
+      "totalVotes": 7904,
+      "blockNumber": 14770025,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0xcf6a74597ee93b12732784fea55d6d670650b5479196a57ed325b797e3958137",
+      "startTime": {
+        "timestamp": 1652485929
+      },
+      "endTime": {
+        "timestamp": 1652745129
+      },
+      "startTimestamp": 1652485929,
+      "endTimestamp": 1652745129,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7217.0,
+          "choice": 0
+        },
+        {
+          "total": 341.0,
+          "choice": 2
+        },
+        {
+          "total": 346.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7217.0,
+          "choice": 0
+        },
+        {
+          "total": 346.0,
+          "choice": 1
+        },
+        {
+          "total": 341.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweDI3NmFlYWRiYzhjNjgxMTdkYzY3N2U2ZGIyNzU4OTEyODEzODRlMGRmZTdjOTBkNWIxNDkzODlhYTYwZWFiMzI=",
+      "id": "0x276aeadbc8c68117dc677e6db275891281384e0dfe7c90d5b149389aa60eab32",
+      "title": "[Proposal] What option will bots prefer?",
+      "content": "If you are a human, please do not vote on this.",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9E4BBaCB22803abCc782236dB63684Fd112Cf9f1",
+      "totalVotes": 165,
+      "blockNumber": 14720199,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0x276aeadbc8c68117dc677e6db275891281384e0dfe7c90d5b149389aa60eab32",
+      "startTime": {
+        "timestamp": 1651744800
+      },
+      "endTime": {
+        "timestamp": 1652004000
+      },
+      "startTimestamp": 1651744800,
+      "endTimestamp": 1652004000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 141.0,
+          "choice": 0
+        },
+        {
+          "total": 24.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 141.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 24.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweDM4MWZiNzQ2OTc5YjljZDRhYmMyMmNiZTRjZjFlYTM2ZDk1OWVlNWVkY2M1MDM0MDExNzFhYWNiYWNmMDFjYjU=",
+      "id": "0x381fb746979b9cd4abc22cbe4cf1ea36d959ee5edcc503401171aacbacf01cb5",
+      "title": "[PROPOSAL] DAO Treasury Infrastructure",
+      "content": "### Summary\n\nThe proposal suggests a treasury management infrastructure approach and states the required solutions from the platform point of view.\n\n### Background\n\nComing up with the proposal for treasury infrastructure we keep in mind the following ideas:\n\n- Be on-chain\n- Fully community government\n- Avoid gas fees for voting\n- Fraudulent transactions resistant\n\nWe believe that a treasury management infrastructure that is based on those principles will allow us to build a sustainable platform that the community trusts and is secure to resist any potential malicious actors.  \n\n### Proposal\n\nThe current proposal is going to introduce a treasury management infrastructure. \n\n*NOTE: From the process perspective, treasury management is a part of the general governance process and must follow its rules.*\n\nThe treasury infrastructure consists of the three layers that allow automatically and securely translate off-chain voting into on-chain execution:\n\n- Snapshot\n    - Snapshot is one of the most popular and convenient platforms for voting. It has been proved its status and become de facto a standard in DAO governance\n- Gnosis Safe\n    - The trusted platform to manage crypto assets with over $100B worth of digital assets stored. Gnosis Safe is a smart contract wallet running on Ethereum that requires a minimum number of people to approve a transaction before it can occur (M-of-N).\n- SafeSnap\n    - SafeSnap is a Gnosis Safe module that allows on-chain execution of Snapshot off-chain votes. Some of the leading projects using the SafeSnap module are [Yearn,](http://yearn.finance/) [SushiSwap,](https://sushi.com/) [Synthetix,](https://synthetix.io/) [Balancer,](https://balancer.exchange/) [mStable](http://mstable.org/), and many others. For a further breakdown of SafeSnap, check out the documentation from [Gnosis](https://blog.gnosis.pm/introducing-safesnap-the-first-in-a-decentralized-governance-tool-suite-for-the-gnosis-safe-ea67eb95c34f).\n\nThe detailed process of the treasury management is presented below:\n\nhttps://gov.dex.guru/uploads/default/original/2X/7/7a29da97d9535ae572d8112f181fce39c55dbdda.png\n\nGuruDAO treasury is 100% on-chain and community governed. Using the SafeSnap module from Gnosis, off-chain votes can be handled and processed for on-chain execution. For vote collection and verification, Snapshot is used by the DAO while the funds are stored in a Gnosis safe. As a safeguard, multi-sig is set up so that the owners are able to veto malicious actions and have power in the case of an emergency.\n\nSafeSnap safeguards are Gnosis Safe multisig owners that have a responsibility to review transactions and veto power to stop malicious ones in case of emergency. They do not have the power to execute any transaction on their own. The whole treasury management process is strictly tied with the general governance process.\n\nThe list of safeguards will be ratified additionally in a separate proposal. \n\n### Specifications\n\n- The platform deployment will occur when all the required smart contract details will be defined by GuruDAO.\n\n### Pros\n\n- The proposal suggests a lean and transparent process of treasury management where all key feature is taken into consideration.\n\n### Cons\n\n- The proposal doesn’t specify future safeguards/multisig owners, it should be considered in a separate proposal.\n\n### Poll\nhttps://gov.dex.guru/t/proposal-dao-treasury-infrastructure/8745/2",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9092B2EeBe2aA19BC626Bfd25BF225170c3a2d33",
+      "totalVotes": 9078,
+      "blockNumber": 14699138,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0x381fb746979b9cd4abc22cbe4cf1ea36d959ee5edcc503401171aacbacf01cb5",
+      "startTime": {
+        "timestamp": 1651506150
+      },
+      "endTime": {
+        "timestamp": 1651765350
+      },
+      "startTimestamp": 1651506150,
+      "endTimestamp": 1651765350,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 8953.0,
+          "choice": 0
+        },
+        {
+          "total": 49.0,
+          "choice": 2
+        },
+        {
+          "total": 76.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8953.0,
+          "choice": 0
+        },
+        {
+          "total": 76.0,
+          "choice": 1
+        },
+        {
+          "total": 49.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweDQyYzBkODkxMTQxMjEzMTJhNDQ5MDRhZjU3OGMxOGE0OWI0MWRjODdjNmQxNGUyN2RlOTc3MzRkNzFhNTU5YWU=",
+      "id": "0x42c0d89114121312a44904af578c18a49b41dc87c6d14e27de97734d71a559ae",
+      "title": "[PROPOSAL] Adopting veTokenomic",
+      "content": "### Summary\n\nThe proposal defines overall GuruDAO tokenomic model, veTokenomic parameters and describes the value capture process. \n\n### Background\n\nDexGuru isn’t traditional Saas, and $GURU token isn’t a traditional protocol governance token. Instead, we want to build first of a kind, genuinely community-owned Product DAO that would develop and deliver great tools for modern web3 traders.\n\nTraditional Saas business cash flow comes from monthly recurring subscriptions that fuel product development and marketing spending. What if we can replace recurring subscriptions with ve-Tokenomic flywheel and DAO-owned liquidity?\n\n### Proposal\n\n[ve-Tokenomic model](https://captainbtc.substack.com/p/the-pillars-of-tokenomics-and-the?s=r) allows us to create a long-term alignment between token holders, community, DAO, and the product. The core component of any good tokenomic is a balance between token supply (sell pressure) and token demand (buy pressure). DAO governed with vote escrowed token and controlling own liquidity can achieve perfect balance between supply and demand.\n\nSubscription-based monetization for DexGuru product always was a part of the plan. This is how it will work with DAO and ve-tokenomic. When users purchase paid subscription plan for DexGuru analytics platform, under the hood smart contract purchases $GURU from the $GURU/$ETH pool, and transfer $GURU tokens to a vested time lock safebox in exchange for platform access. This creates constant and predictable cashflow for GuruDAO and $veGURU tokenholders. DAO controls how vesting safebox splits the profits from DexGuru between DAO treasury and $veGURU tokenholders who earn a share of the revenue that the platform pays out.\n\nThis system is showcased in the graphic below.\n\nhttps://gov.dex.guru/uploads/default/original/2X/d/d53b98c59d0cbff9595bd86f6a3996b4c205cfe2.png\n\nParticipating in GuruDAO governance requires that an account have a balance of vote-escrowed GURU ($veGURU). $veGURU is a non-transferable ERC20 implementation, used to determine each account’s voting power. \n\n$veGURU is a token that is issued upon the locking of $GURU tokens in vote escrow smart contract. The amount of $veGURU received in exchange for $GURU tokens is dependent on the lock period. The longer $GURU tokens are locked for, the more $veGURU received in exchange. A user’s veGURU balance decays linearly as the remaining time until the GURU unlock decreases. \n\n**veTokenomics parameters:**\n\n- The maximum locking period: 4 years\n- The minimum locking period: 3 months\n- The locking weight: 4 years - 1:1 $veGURU/$GURU\n- veGURU token weight decreasing function: Linear\n- Token type: non-transferable ERC20\n\n> For example, a balance of 4000 GURU locked for one year provides the same amount of veGURU as 2000 GURU locked for two years, or 1000 GURU locked for four years. The voting power is equal to the amount of veGURU on a user’s balance.\n> \n\n### Specifications\n\nInitial Product parameters and values such as monthly subscription cost, trading pair address, profit share ratio, etc, will be defined in a different proposal.\n\n### Pros\n\n- veTokenomics provides a great balance of supply and demand and aligns with the proposed value capture approach.\n- DAO controls decision making on supply and demand and could find a balance\n- DAO-owned liquidity aims to maximize liquidity and improve capital efficiency and is a revenue-generating asset on its own.\n- Token holders have the ability to directly accrue their share of economic benefits.\n\n### Cons\n\n- A different tokenomics model maybe also applicable but it requires additional research.\n\n### Poll\nhttps://gov.dex.guru/t/proposal-adopting-vetokenomic/8573",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9092B2EeBe2aA19BC626Bfd25BF225170c3a2d33",
+      "totalVotes": 9437,
+      "blockNumber": 14687228,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0x42c0d89114121312a44904af578c18a49b41dc87c6d14e27de97734d71a559ae",
+      "startTime": {
+        "timestamp": 1651344114
+      },
+      "endTime": {
+        "timestamp": 1651603314
+      },
+      "startTimestamp": 1651344114,
+      "endTimestamp": 1651603314,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 9158.0,
+          "choice": 0
+        },
+        {
+          "total": 65.0,
+          "choice": 2
+        },
+        {
+          "total": 214.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9158.0,
+          "choice": 0
+        },
+        {
+          "total": 214.0,
+          "choice": 1
+        },
+        {
+          "total": 65.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweDBmMmUxMWY4MzRiNWE2Y2NkODBmYzVhZWVhZjRlOGY1NjkxYTgzZTkzZThkZjVmNjg5YmI5NDRkYjhjMGU2OTE=",
+      "id": "0x0f2e11f834b5a6ccd80fc5aeeaf4e8f5691a83e93e8df5f689bb944db8c0e691",
+      "title": "[PROPOSAL] Investigate airdrop farming and exclude large sybil attackers",
+      "content": "UPDATE:\n* I have made the summary as simple and clear as possible.\n* Clarified one line in the specification (thanks to keanu's comment): If the farmers try to sell their NFTs, innocent buyers will be included in the airdrop, even though they didn't vote in Snapshot before buying the NFT. The investigators will check that the buyers are not more farmers.\n\n**Summary**\n\n* **The DAO will engage the services of the Dex Guru team to investigate large-scale airdrop farming of the Guru Season Pass NFT.**\n* **We will remove large farmers who created 10+ addresses that minted Guru NFTs.**\n* **No one will be removed just for having low transactions on Ethereum, sending ETH to a friend, buying a lot of NFTs, or for being a small \"hunter\".**\n* **A list of large farmer addresses will be published and the community will have at least 3 days to check it.**\n* **Removing large-scale farmers is essential to create a truly decentralised DAO when the token launches.**\n\n**Background**\n\nIf you missed the draft proposal, please read it here to see the evidence of airdrop farming:\nhttps://gov.dex.guru/t/draft-proposal-remove-airdrop-farmers-sybil-attackers/8257\n\n*Proposal*\n\nThe DAO formally requests the services of the Dex Guru team to perform an investigation of airdrop farming.\n\n**Specifications**\n\nThe investigation will follow these rules:\n\n* An \"airdrop farmer\" is defined as one entity that appears to control at least 10 addresses that minted a Guru Season Pass NFT. Examples of such farmers have been shared earlier; they use Multisend or chains of addresses which makes them easy to separate from real users.\n* The investigation will check activity on all blockchains that Dex Guru operates on. People that do not use Ethereum but have normal activity on another blockchain will be safe.\n* If an airdrop farmer has sold their NFTs, or sells them in the future, the team will investigate whether this is an attempt to hide their NFTs in new addresses, or genuine sales to innocent buyers. Innocent buyers will be included in the airdrop, even though they didn't vote in Snapshot before buying the NFT.\n* A draft list of airdrop farmers will be published in Discord and the forum. The community will have at least 3 days to check it and make any objections. Genuine objections should be very rare due to the high standard of farmer identification (10+ linked addresses). The team will review objections and make corrections if needed. Then a final list will be published.\n* The airdrop farmers will be excluded from the airdrop and monitored until the GURU token launches in case they move their NFTs to new addresses.\n\nIf the investigators believe that there are other major farmers who do not meet the criteria above, they should share examples of these for the community to look at, but they will not be excluded from the airdrop unless the community decides so in a new proposal.\nAn example of this is users who have bought a lot of NFTs from OpenSea. Currently there has not been enough debate to decide on the best way to handle those accounts.\n\n**Clarifications**\n\n* Some people suggested criteria like \"30 transactions\", \"minted 4 NFTs\", or even more complicated rules. I do not believe that approach will solve the problem. Firstly, we have not fully investigated the strategies that the farmers have used, so we may miss a lot of them. Second, it might catch some real users, which we have to avoid.\n* We will not repeat Paraswap's mistake. I was excluded from Paraswap myself so I understand that people are worried they will be deleted. Paraswap performed simple filtering which removed thousands of real users and angered the community. That is not the right approach, and it is why we perform an actual investigation.\n* If you are a small \"airdrop hunter\", came to Dex Guru hoping for an airdrop, or use a few wallets (cold, hot, mobile, etc) - do not worry. We want you in the DAO. We only want to remove large-scale farmers who have abused the airdrop and made it unfair for everyone else.\n* There is no funding from the DAO to perform this investigation. With a successful GURU token launch, the Dex Guru team will receive their allocation of 20% of total supply (already defined).\n\n*Pros*\n\n* Create a truly decentralised DAO without a few individuals being able to control the votes, block progress, or crash the price.\n* If this proposal passes, the airdrop farmers will likely try to sell their NFTs on OpenSea. This is an opportunity to bring new people into the DAO to replace the farmers.\n* Keep all real users (and small-scale \"airdrop hunters\") who are making great contributions to the DAO already.\n\n*Cons*\n\n* The airdrop farmers will complain. This is unavoidable, but I believe they will lose focus quickly and move on to other farms once it is clear that they will not get a reward.\n\n*Poll*\n\nThis is a formal proposal for Snapshot voting.",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9092B2EeBe2aA19BC626Bfd25BF225170c3a2d33",
+      "totalVotes": 9967,
+      "blockNumber": 14679654,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0x0f2e11f834b5a6ccd80fc5aeeaf4e8f5691a83e93e8df5f689bb944db8c0e691",
+      "startTime": {
+        "timestamp": 1651242144
+      },
+      "endTime": {
+        "timestamp": 1651501344
+      },
+      "startTimestamp": 1651242144,
+      "endTimestamp": 1651501344,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 6828.0,
+          "choice": 0
+        },
+        {
+          "total": 404.0,
+          "choice": 2
+        },
+        {
+          "total": 2735.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6828.0,
+          "choice": 0
+        },
+        {
+          "total": 2735.0,
+          "choice": 1
+        },
+        {
+          "total": 404.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweDQwOTk2MDZhZTUyMTI1Y2MwZjU4MWRkMGY3YjBhNGFmNmUwY2Y1OTUyN2FjNWE2ZmFlOWFiMzZmYTFmOGNhZjg=",
+      "id": "0x4099606ae52125cc0f581dd0f7b0a4af6e0cf59527ac5a6fae9ab36fa1f8caf8",
+      "title": "[Proposal] What option will bots prefer?",
+      "content": "If you are a human, please do not vote on this.",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9E4BBaCB22803abCc782236dB63684Fd112Cf9f1",
+      "totalVotes": 441,
+      "blockNumber": 14662174,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0x4099606ae52125cc0f581dd0f7b0a4af6e0cf59527ac5a6fae9ab36fa1f8caf8",
+      "startTime": {
+        "timestamp": 1651004463
+      },
+      "endTime": {
+        "timestamp": 1651263663
+      },
+      "startTimestamp": 1651004463,
+      "endTimestamp": 1651263663,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 4
+        },
+        {
+          "total": 178.0,
+          "choice": 0
+        },
+        {
+          "total": 255.0,
+          "choice": 2
+        },
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 178.0,
+          "choice": 0
+        },
+        {
+          "total": 7.0,
+          "choice": 1
+        },
+        {
+          "total": 255.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweDI1ZDUyMDlkNzFjOTU4NjZiNWU4ZDk2YTBkOGI3M2IxMzc0ZmRlZWEzYzAyOGJlZDEzYTQ2YzljODA5YmU5ZWQ=",
+      "id": "0x25d5209d71c95866b5e8d96a0d8b73b1374fdeea3c028bed13a46c9c809be9ed",
+      "title": "[PROPOSAL] Eligibility for an airdrop",
+      "content": "\n\n### **Background**\n\n$GURU token will be launched in future to govern GuruDAO.The goal of the proposal is to define core criteria for a possible airdrop. In order to prevent spamming in govarnance channels in forum and discord, and as an appreciation to early contributors, an eligibility system for airdrop is designed regarding the values in the manifesto.\n\n### **Proposal**\n\n### **Definition**\n\nAirdrop is a token distribution method based on some criteria to decentralize the governance. It’s vital to choose right criteria not to distrupt the functionality of the GuruDAO. Airdrop criteria that forces DAO members to contribute via writing on DAO communication channels leads to lots of spam messages/topics on both Discord/Forum so this shouldn’t be considered. A draft of airdrop distribution system which is compatible with GuruDAO manifesto is prepared.\n\n### **Specifications**\n\nAirdrop should be distributed based on contributions of members towards GuroDAO during bootstrap phase, Member’s activeness is the most precious to a DAO, The activeness should be calculated in a decentralized manner, For this reason contributions will be calculated based on voting activities on Snapshot platform.\n\nAs a DAO we should attract and encourage more people to become GuruDAO members and take part in our decision makings, therefore every Guru Season Pass NFT Holder will be eligible for an airdrop upon meeting these criteria:\n\nParticipated in 50% or more voting activities on Snapshot platform: Eligible for Airdrop\n\nParticipated in 75% or more voting activities on Snapshot platform: Eligible for Airdrop with a multiplier of 1.5x\n\nSnapshot for voting activities will be taken on the TGE or After successfully finishing 10 proposals on Snapshot platform ( Whichever happens first )\n\n### **Pros**\n\nThe proposal gives the control of GuruDAO to only true preDAO members.\n\nThe proposal will eliminate airdrop hunters by using filters such as NFT pass holding and activeness on Snapshot platform\n\nTrue Dao members won’t get left behind only because they missed a few votings.\n\nReal active members of GuruDAO will receive a bit more of appreciation.\n\n### **Cons**\n\nMethods should be implemented in order to keep the community engaged after the snapshot is taken - This is a concern to any airdrop proposal\n",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9E4BBaCB22803abCc782236dB63684Fd112Cf9f1",
+      "totalVotes": 10202,
+      "blockNumber": 14654125,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0x25d5209d71c95866b5e8d96a0d8b73b1374fdeea3c028bed13a46c9c809be9ed",
+      "startTime": {
+        "timestamp": 1650894185
+      },
+      "endTime": {
+        "timestamp": 1651153385
+      },
+      "startTimestamp": 1650894185,
+      "endTimestamp": 1651153385,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 9988.0,
+          "choice": 0
+        },
+        {
+          "total": 55.0,
+          "choice": 2
+        },
+        {
+          "total": 159.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9988.0,
+          "choice": 0
+        },
+        {
+          "total": 159.0,
+          "choice": 1
+        },
+        {
+          "total": 55.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweDlkOGE0NDdkNWY0YzA0ZjA3MDUzMWJhZWMwZDVkNGY3YjBmOWNjZGIwMzZhYWIyZTY4NjI4YmFiMzQyOTM5ZDk=",
+      "id": "0x9d8a447d5f4c04f070531baec0d5d4f7b0f9ccdb036aab2e68628bab342939d9",
+      "title": "[PROPOSAL] DAO Goals",
+      "content": "# Summary\n\nThe proposal defines the high-level goals of GuruDAO and represents the first attempt to organize community efforts.\n\n# Background\n\nWe believe that the north star guiding GuruDAO is the path to joint profit. DexGuru is not a charity organization. As decided by the community, \"our mission is to create a participatory, community-driven economy powered by the $GURU token that enables the support, development, engineering, and adoption of the DexGuru and related products.\". The difficulty that we face is how to shape goals so that everyone in the community can become a meaningful contributor.\n\nThe idea is to propose goals that can be fulfilled by groups of highly self-organized people(sub-DAOs) and the broader community.\n\n# Proposal\n\nThree entities guide the DAO in organizing work:\n\n- Vision\n    - A vision statement describes the organization's purpose and what it wants to achieve.\n- Strategic Goals\n    - The strategic goals are the greater focus of the organization. It could be a financial focus, social plans, etc.\n- Objectives\n    - Objectives specify that the strategic goals are measurable, realistic, achievable, and assigned to specific responsible persons.\n        \n\n![image](ipfs://QmbJT2QxY8L8robiFf2meAjFiHzfbmAQCvaGi7iXTaa7CM)\n        \n\n### Vision\n\nUnder the ratified GuruDAO Manifesto, \"Our vision at GuruDAO is to build robust web3 products that people are excited to use. We want the community to drive development and be responsible for the progress of the products built by GuruDAO. \"\n\n### Strategic Goals\n\nFollowing our vision, we can specify three strategic goals that unite the whole community from a mid-/long-term perspective:\n\n- **DAO Building**\n    - GuruDAO is still in the very early stage of its development, and so is the whole DAO landscape. GuruDAO should prepare its unique formula/frameworks and processes to accomplish its goals. It's a never-ending process to build/change and become more efficient every day. Since this is a road untravelled, the ideal condition is not a point but a direction.\n- **Product Development**\n    - In a fast-changing DeFi world, it's crucial to build constantly. Whether this is to develop a product, launch new ones or adopt new features and protocols. GuruDAO must be a cutting-edge service provider. The community needs to play a vital role in market research and R&D prioritization to ensure that products are developing in the right direction.\n- **DAO Revenue Growth**\n    - Whether DexGuru revenue is split between GuruDAO stakeholders or added to the treasury, one of the top priorities is to secure income. GuruDAO will also specify income distribution and work to increase overall profit.\n\n### Objectives\n\nStrategic goals are analyzed and broken down into specific objectives. Turning a more extensive plan into smaller objectives makes the task seem smaller and more attainable. To kickstart this process, outlined below is a list of objectives tied to each goal. The community is responsible for turning them into specific, measurable, assignable, realistic, and time-related (SMART) actions. If the DAO disagrees with the objectives, they may propose different objectives and execute them.\n\n- **DAO Building**\n    - DAO Organizational structure\n    - Contribution process\n    - Community incentivization\n    - Education / GuruVersity\n- **Products Development**\n    - Product development (Dev Sub DAO responsibility)\n    - Grants for launching new products\n- **Revenue growth**\n    - $GURU tokenonomics\n    - Business Development\n    - Marketing\n\nThe idea is to propose the potential directions within each goal, including project-based activities, more suitable for sub-DAOs or dedicated contributors, as well as more scalable activities like GuruVersity and Marketing.\n\n# Specifications\n\n- N/A\n\n# Pros\n\n- The proposal suggests the direction of DAO development and further growth, leaving the community the ability to shape them and specify them in more detail.\n- The proposal helps set a framework for progress.\n\n# Cons\n\n- The proposal leaves SMART descriptions of the objectives to further community discussion.\n",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9E4BBaCB22803abCc782236dB63684Fd112Cf9f1",
+      "totalVotes": 10403,
+      "blockNumber": 14648232,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0x9d8a447d5f4c04f070531baec0d5d4f7b0f9ccdb036aab2e68628bab342939d9",
+      "startTime": {
+        "timestamp": 1650814054
+      },
+      "endTime": {
+        "timestamp": 1651073254
+      },
+      "startTimestamp": 1650814054,
+      "endTimestamp": 1651073254,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 10326.0,
+          "choice": 0
+        },
+        {
+          "total": 39.0,
+          "choice": 2
+        },
+        {
+          "total": 38.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10326.0,
+          "choice": 0
+        },
+        {
+          "total": 38.0,
+          "choice": 1
+        },
+        {
+          "total": 39.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweGJlMDliMDJmYjFkNWYzNTdjM2ZiZjA3NGUwNmQ0MmRlOTUxNmVlZTFkNTlmZjVkMTI5ZGNkN2U0ZmU3ZTlkYzQ=",
+      "id": "0xbe09b02fb1d5f357c3fbf074e06d42de9516eee1d59ff5d129dcd7e4fe7e9dc4",
+      "title": "Dev Sub-DAO Initiation",
+      "content": "### Summary\n\nThe proposal outlines the rights and limitations of the DexGuru team (also known as Dev sub-DAO). With the creation of GuruDAO, it is crucial that the Dev-sub DAO’s role is clear and that the DAO and sub-DAO are aligned with the vision, target and budget.\n\n### Background\n\nAs DexGuru transitions to a DAO structure in the form of GuruDAO, the DexGuru company and team will join GuruDAO as a sub-DAO. This sub-DAO will be formally known as Dev sub-DAO for all discussion purposes. Dev sub-DAO will continue to work on DexGuru as usual and focus on product development.\n\nDev sub-DAO does not receive any special status within GuruDAO due to the “core team” label. It acts as any other sub-DAO and is responsible for product development and GuruDAO technical platform maintenance (Discord, Discourse, Snapshot, etc.) within defined boundaries.\n\nDev sub-DAO has its own budget and does not require any funding from the GuruDAO for the following 12 months minimum.\n\n### Proposal\n\n**Vision**\n\nDev sub-DAO’s primary focus is building the DexGuru platform and is responsible for GuruDAO technical maintenance. The team is dedicated to product and GuruDAO development within its boundaries. The DexGuru vision is stated in the [product manifesto](https://blog.dex.guru/manifesto):\n\n> DexGuru is a design-driven company focused on providing the best trading experience possible. Our UI is easy to use and optimized to keep traders in touch with their markets. **Our goal is to make it easy to leverage on-chain data in a simple, understandable way so traders can finally take advantage of it.**\n> \n\nDev sub-DAO is a part of the GuruDAO, like any other sub-DAO. It does not have any special status or additional voting power or rights to make DAO-wide decisions on its own.\n\n**Initial Target**\n\nThe scope of the Dev sub-DAO responsibilities: \n\n- DexGuru product development\n- DexGuru product infrastructure maintenance\n- GuruDAO infrastructure maintenance\n\n**Budget**\n\nDev sub-DAO will be self-funded for the following 12 months. After this period, Dev sub-DAO may request additional funding using the standard proposal approach.\n\n**Milestones & Timeline**\n\nSince Dev sub-DAO does not require any initial funding from GuruDAO, it will continue to work as the main developer of the DexGuru platform in accordance with its planning process.\n\n**Reporting**\n\nDev sub-DAO is responsible for periodic DexGuru product updates, community calls and quarter updates.\n\n**Steward Responsible**\n\nNick Sawinyh - Nick continues to be responsible for DexGuru product. The same team of DexGuru will also continue on the product in business-as-usual way.\n\n### Specifications\n\nN/A\n\n### Pros\n\nThis proposal doesn’t add anything new to DexGuru / Dev sub-DAO operations, it just states the position and role in the new GuruDAO structure.\n\n### Cons\n\nN/A\n",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9E4BBaCB22803abCc782236dB63684Fd112Cf9f1",
+      "totalVotes": 10489,
+      "blockNumber": 14635082,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0xbe09b02fb1d5f357c3fbf074e06d42de9516eee1d59ff5d129dcd7e4fe7e9dc4",
+      "startTime": {
+        "timestamp": 1650636138
+      },
+      "endTime": {
+        "timestamp": 1650895338
+      },
+      "startTimestamp": 1650636138,
+      "endTimestamp": 1650895338,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 10387.0,
+          "choice": 0
+        },
+        {
+          "total": 47.0,
+          "choice": 2
+        },
+        {
+          "total": 55.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10387.0,
+          "choice": 0
+        },
+        {
+          "total": 55.0,
+          "choice": 1
+        },
+        {
+          "total": 47.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweGNmMTM2YmI5NzNlOWU5YmVkMjA1YWUwYWE1OGRhYzZkMDA3MTMwZmM1ZTI2ODIyZjY2M2NkYzdjZjhmZGU1ZGQ=",
+      "id": "0xcf136bb973e9e9bed205ae0aa58dac6d007130fc5e26822f663cdc7cf8fde5dd",
+      "title": "[PROPOSAL] Sub-DAO mechanics",
+      "content": "## Summary\n\nThe proposal defines the process of sub-DAO creation and funding, as well as the sub-DAO’s place in the GuruDAO organizational structure.\n\n## Background\n\nThe proposal's goal is to implement an organizational structure in the early stage of GuruDAO. There exists several unique organizational structures across DAOs that have all been considered. After careful review, a structure similar to GitcoinDAO seems to be the most sustainable, clear and at the same time effective from a management perspective. This proposal is the further development of GitcoinDAO mechanics.\n\n## Proposal\n\n### Definition\n\nA sub-DAO can be thought of as an atomic unit within the GuruDAO. It is a coordinated group of people with specific tasks and goals aligned with the DAO’s mission. These sub-DAOs are funded by the GuruDAO and are given a set budget by the GuruDAO upon creation.\n\nA sub-DAO is an independent entity and is free to set up its internal governance, processes, and structure without any approval from GuruDAO. \n\nIt is important to note that GuruDAO will not micromanage any sub-DAOs and will provide it with all necessary rights to operate per its goals and KPIs (Key Performance Indicators). When addressing internal sub-DAO issues, it is not necessary to create a GuruDAO-wide proposal, but instead, the sub-DAO will be given full autonomy to move forward on its own. \n\nBelow is a list of the rights maintained by a sub-DAO.\n\n- Right to define its own structure for pay.\n- Right to seek outside sources of funding.\n- Right communicate & cooperate with other sub-DAOs.\n\nGuruDAO's organizational structure may include multiple sub-DAOs, organized to complete a specific project, responsible for ongoing processes or lines of business.\n\n### Process\n\nCreating a sub-DAO requires a formal proposal only if it is requesting funding from GuruDAO. Otherwise, GuruDAO members may assemble to create a sub-DAO and carry out tasks without the approval of a formal proposal.\n\nA sub-DAO requesting funds from the GuruDAO treasury must apply for funding by making a formal proposal. \n\nFormal sub-DAO proposals must follow the standard governance proposal process and satisfy the following criteria:\n\n- Have a clear objective that aligns with the GuruDAO mission.\n- Name a steward who is directly responsible and willing to take ownership of the objective and accountability for meeting it.\n- Propose clear budgets and timelines for producing outcomes.\n\nThe initial sub-DAO funding proposal must include the following information:\n\n- Vision\n    \n    How does this project advance the GuruDAO goals or align with its values?\n    \n- Target\n    \n    What will be delivered by the sub-DAO using this funding?\n    \n- Budget\n    \n    What amount is required for the sub-DAO to achieve the initial target, and how will it be spent?\n    \n- Milestones & Timeline\n    \n    What are the key milestones for the initial target?\n    \n    What is the timeline for completing the initial target?\n    \n- Reporting\n    \n    How frequently and in what form is the sub-DAO going to report its status?\n    \n- Steward Responsible\n    \n    Who is the steward managing the project and accountable for its outcomes?\n    \n\nSubsequent proposals for additional funding must include the following information:\n\n- Initial Funding Assessment\n    \n    Was the initial target met? Was the project completed? Was it completed on time? Did it meet expectations? If the sub-DAO fails to deliver on something, what will be done to avoid those problems with the renewed funding?\n    \n- Renewal Targets\n    \n    What will be delivered by the sub-DAO using this funding?\n    \n- Renewal Budget requirements\n    \n    What amount is required for the sub-DAO to achieve its new target, and how will it be spent?\n    \n- Reporting\n    \n    How frequently and in what form is the sub-DAO going to report its status?\n    \n- Steward Responsible\n    \n    Who is the steward managing the project and accountable for its outcomes?\n    \n\n## Specifications\n\n- n/a\n\n## Pros\n\n- The proposal clearly outlines the mechanics and structure of a sub-DAO.\n- The proposed mechanics have a proven track record in GitcoinDAO.\n- The sub-DAO proposal is not a new concept, thus can be adopted quickly with an expected efficiency level.\n- The proposal allows for earned independence within a sub-DAO.\n\n## Cons\n\n- The sub-DAO proposal is based on social consensus and human collaboration rather than blockchain mechanics.",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9E4BBaCB22803abCc782236dB63684Fd112Cf9f1",
+      "totalVotes": 9659,
+      "blockNumber": 14603618,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0xcf136bb973e9e9bed205ae0aa58dac6d007130fc5e26822f663cdc7cf8fde5dd",
+      "startTime": {
+        "timestamp": 1650210012
+      },
+      "endTime": {
+        "timestamp": 1650469212
+      },
+      "startTimestamp": 1650210012,
+      "endTimestamp": 1650469212,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 9548.0,
+          "choice": 0
+        },
+        {
+          "total": 35.0,
+          "choice": 2
+        },
+        {
+          "total": 76.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9548.0,
+          "choice": 0
+        },
+        {
+          "total": 76.0,
+          "choice": 1
+        },
+        {
+          "total": 35.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweGY1NTFiMmMxMTM0ZWEzNzdhZjlmNzQzZTIxOGE5YTUzNjQzMjUzNzk5ODZlNDA3YTI3ZGE4MmQ4NzgzMTFiMDc=",
+      "id": "0xf551b2c1134ea377af9f743e218a9a5364325379986e407a27da82d878311b07",
+      "title": "[PROPOSAL] GuruDAO Manifesto",
+      "content": "## Summary\n\nThe proposal describes the vision and values of GuruDAO\n\n## Background\n\nWith the creation of any organization comes challenges in assembly. In order to combat these issues head on we’ve decided to present a proposal for the GuruDAO Manifesto. \n\nThis proposal aims to define the GuruDAO vision, mission, and shared values of its members. If passed, not only will this proposal be a stepping stone in building GuruDAO, but will be referenced in the future as an arbitrator any conflict that may arise.\n\n## Proposal\n\n### What is GuruDAO\n\nGuruDAO is a product-focused community of contributors that have come together to support and grow web3 products and infrastructure. GuruDAO’s flagship product, DexGuru is a trading terminal made for traders in DeFi era. Using DexGuru, traders are able to leverage on-chain data to take advantage of the latest market trends and place their trades with more conviction than ever before. The GuruDAO community will continue to bring new ideas, new contributions and eventually, develop new products. \n\n### Our Vision\n\nOur vision at GuruDAO is to build robust web3 products that people are excited to use. We want the community to drive development and be responsible for the progress of the products built by GuruDAO. \n\n### Our Mission\n\nOur mission is to create a participatory, community-driven economy powered by the $GURU token that enables the support, development, engineering, and adoption of the DexGuru and related products.\n\nThe best way of working towards this mission is to ensure community members see themselves as equal contributors to the project, aligned with the same goals. \n\n### Our Values\n\nAs a community, we believe in the core values that encourage us and unite toward community growth:\n\n- Decentralization\n    - There is no core team, there is no one single center of authority. People have their voice, are able to express themselves, and get organized into sub-DAOs to multiply their efforts. We believe in the natural ability of the community to shape itself to find the best organizational fit and work towards each goal.\n- Contribution\n    - Every member of the community is a contributor who dedicates their available resources towards DAO development and gets rewarded. Ignited by the same goal, we believe that the community may be distributed, diversified but first of all, it should be a team. We are in the same boat, so the way to success is to help each other.\n- Responsibility\n    - We encourage people to take responsibility for the community, business areas, and new initiatives. People are the greatest asset of the DAO, and only their input and endeavor will lead the community to success.\n- Transparency\n    - There is no single leader or management team, so everybody should have equal access to all information that affects DAO health.\n- Education\n    - We share the guru way - the path to becoming a guru is one of constant learning. Learning from theory, learning from others, and by ourselves.\n\n### Pledge and Standards\n\nIt is important to us not only to build, but to build responsibly. Whether building products or communities - it is essential that everyone feels safe and welcomed at all times. We believe it is extremely important to set the standards for GuruDAO from day one, which is why we have developed the pledge below.\n\nWe as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation. We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n\nExamples of behavior that contributes to a positive environment for our community include:\n\n- Demonstrating empathy and kindness toward other people\n- Being respectful of differing opinions, viewpoints, and experiences\n- Giving and gracefully accepting constructive feedback\n- Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\n- Focusing on what is best not just for us as individuals, but for the overall community.\n\nExamples of unacceptable behavior include:\n\n- The use of sexualized language or imagery, and sexual attention or advances of any kind\n- Trolling, insulting or derogatory comments, and personal or political attacks\n- Public or private harassment\n- Publishing others’ private information, such as a physical or email address, without their explicit permission\n- Other conduct which could reasonably be considered inappropriate in a professional setting.\n\n## Specifications\n\n- N/A\n\n## Pros\n\n* The proposal aims to breed a healthy and productive environment. \n* The proposal clearly outlines five essential values. \n* The proposal acts as a stepping stone for future GuruDAO growth. \n\n## Cons\n\n* The proposal may be missing some values that the members hold. \n* The proposal highlights five key values that the members may not prioritize.\n",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9E4BBaCB22803abCc782236dB63684Fd112Cf9f1",
+      "totalVotes": 9917,
+      "blockNumber": 14590371,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0xf551b2c1134ea377af9f743e218a9a5364325379986e407a27da82d878311b07",
+      "startTime": {
+        "timestamp": 1650031339
+      },
+      "endTime": {
+        "timestamp": 1650290539
+      },
+      "startTimestamp": 1650031339,
+      "endTimestamp": 1650290539,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 9841.0,
+          "choice": 0
+        },
+        {
+          "total": 23.0,
+          "choice": 2
+        },
+        {
+          "total": 53.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9841.0,
+          "choice": 0
+        },
+        {
+          "total": 53.0,
+          "choice": 1
+        },
+        {
+          "total": 23.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlZ3VydWRhb2V0aDpzbmFwc2hvdDoweDFjMjE5MmViNmZlNDZkMzNlMzYwM2E3ZWFmZmE0NmY0OGRmZmZhM2EzNzZjYTAzNWU5YzQxZTliY2Y0MjNiMzM=",
+      "id": "0x1c2192eb6fe46d33e3603a7eaffa46f48dfffa3a376ca035e9c41e9bcf423b33",
+      "title": "[PROPOSAL] Governance process",
+      "content": "### Summary\n\nThe proposal describes the governance process of the DAO\n\n### Background\n\nThe advised approach is based on the examples and best practices from other DAOs. The idea is to balance efficiency and process simplicity and create a straightforward lean process for the whole community. The process will help more people to engage in governance and reduce the time needed to make a decision.\n### Proposal\n\nAny idea or initiative coming from a community member that is going to be a DAO wide rule must follow a governance process composed of several steps:\n\n- Public Discussion and Temperature check\n- Formal Proposal\n- Voting\n\n **Public Discussion and Temperature Check**\n\nAny community member can bring up a GuruDAO related idea, problem, or proposal to the community for discussion. If they believe that DAO consensus on this idea is required, the proposer will initiate the discussion. It’s up to the proposer to get the momentum going.\n\nIn the case of active discussion, the proposer or active member can move the idea to the temperature check stage. A temperature check is a free form poll on discord or discourse that helps understand what the community feels about the initiative.\n\nFor the community’s convenience, the body of the poll should include:\n\n- A description\n- Key proposal features\n- Short discussion recap\n\nA temperature check can be launched in the free form of:\n\n- Discord emoji voting\n- Discourse poll on temperature check section\n\nTimeline: no timeline\n\nRequirements: no requirements\n\nPlatform: discord or discourse\n\n**Formal Proposal**\n\nAfter having reached a consensus on the Temperature Check, the initial proposer or another community member can submit the formal proposal to the governance forum. It’s up to the proposer to decide if a consensus around the topic is sufficient to move forward. It’s their responsibility to prepare the formal proposal.\n\nThe goal is to formally discuss the proposal and leave comments on the topic. Based on this discussion, the proposal is amended by the proposer to find consensus over the document.\n\nThe discussion period is at least 3 days(72 hours minimum). It may be more if there is active discussion - but no less. The proposer decides when or if the proposal is to move forward to the next step.\n\nDAO contributors must use the following template when publishing a proposal on Discourse:\n\n*Title*\n\n- *Short, clear description of the proposal*\n- *Should include [proposal] tag*\n\n*Summary*\n\n- *Describe the proposal topic*\n\n*Background*\n\n- *What problem or opportunity are you looking to solve?*\n- *Describe why the proposal is valuable to the community*\n\n*Proposal*\n\n- *Description of proposed changes*\n\n*Specifications*\n\n- *Technical details as applicable*\n\n*Pros*\n\n- *Reasons to vote for the proposal*\n\n*Cons*\n\n- *Potential reasons to vote against the proposal*\n\n*Poll*\n\n- *Temperature check voting, if it exists, and additional comments*\n\nOnce we want to have all the proposals unified and standardized, it is important to meet the proposal structure. If the proposal doesn’t meet the required format, it’s within the purview of the authority of the discourse moderator to reject the proposal. **In fact, it is the only reason to reject the proposal.**\n\n**Timeline**: 3+ days (72 hours minimum)\n\n**Requirements**: The proposal should meet the requisite format and the Temperature Check link should be attached.\n\n**Platform**: Discourse\n\n\n**Voting**\n\nOnce the discussion has been done on the discourse, the initial proposer or another community member publishes the final version of the proposal on Snapshot.\n\nThe voting platform is based on Gnosis Safe + Snapshot and the Safesnap module, allowing execution of off-chain votes. In case the proposal involves on-chain action, the proposer should prepare the required transaction.\n\n**Timeline**: 3 days (72 hours)\n\n**Quorum**: At DAO Bootstrap Phase we expect a participation quorum of at least 10% of the total NFTs supply to pass any proposal successfully. For GuruDAO itself we should define quorum and proposals creation threshold after we figure out and discuss $GURU tokenomic.\n\n**Platform**: Snapshot + Gnosis Safe.\n### Specifications\nN/A\n\n### Pros\nStraightforward governance process\n### Cons\nDiscuss the snapshot publishing threshold amount\n\n\n",
+      "protocol": "thegurudaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9E4BBaCB22803abCc782236dB63684Fd112Cf9f1",
+      "totalVotes": 10068,
+      "blockNumber": 14545673,
+      "externalUrl": "https://snapshot.org/#/thegurudao.eth/proposal/0x1c2192eb6fe46d33e3603a7eaffa46f48dfffa3a376ca035e9c41e9bcf423b33",
+      "startTime": {
+        "timestamp": 1649428358
+      },
+      "endTime": {
+        "timestamp": 1649687558
+      },
+      "startTimestamp": 1649428358,
+      "endTimestamp": 1649687558,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 10017.0,
+          "choice": 0
+        },
+        {
+          "total": 30.0,
+          "choice": 2
+        },
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10017.0,
+          "choice": 0
+        },
+        {
+          "total": 21.0,
+          "choice": 1
+        },
+        {
+          "total": 30.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 1270,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

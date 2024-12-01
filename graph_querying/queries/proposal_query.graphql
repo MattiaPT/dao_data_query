@@ -1,0 +1,25 @@
+https://gateway.thegraph.com/api/{api-key}/subgraphs/id/{subgraph-id}
+
+query Proposal {
+  proposals (first: 1000) {
+    id
+    state
+    creationTime
+    abstainDelegateVotes
+    abstainWeightedVotes
+    againstDelegateVotes
+    againstWeightedVotes
+    forDelegateVotes
+    forWeightedVotes
+    totalDelegateVotes
+    totalWeightedVotes
+    quorumVotes
+    delegatesAtStart
+    tokenHoldersAtStart
+  }
+  governances {
+    proposals
+    delegatedVotesRaw
+    totalTokenSupply
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6b25jaGFpbmtpZHo6b25jaGFpbjoweGE0MWJlYWYwMzFiOTBmM2IxNWMwMTM4NmM0Nzg3YTQyM2RiYjNiZGFhOWUyOTUzYWRhYjFjOGYxNDc1NWQ4YWE=",
+      "id": "0xa41beaf031b90f3b15c01386c4787a423dbb3bdaa9e2953adab1c8f14755d8aa",
+      "title": "Proposal 0xa41beaf031b90f3b15c01386c4787a423dbb3bdaa9e2953adab1c8f14755d8aa",
+      "content": " ",
+      "protocol": "onchainkidz",
+      "adapter": "onchain",
+      "proposer": "0x77afe2776742C59057E708fd705A1442575f307f",
+      "totalVotes": 1,
+      "blockNumber": 18315324,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1696905251
+      },
+      "endTime": {
+        "timestamp": 1697078051
+      },
+      "startTimestamp": 1696905251,
+      "endTimestamp": 1697078051,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18315324
+          },
+          "event": "pending",
+          "timestamp": 1696883651,
+          "txHash": "0xb2cba026abf7f89262bce824a9bb7df53ea740058ecf7876c143906437914ffd"
+        },
+        {
+          "time": {
+            "blockNumber": 18347645
+          },
+          "event": "executed",
+          "timestamp": 1697274683,
+          "txHash": "0xef6bfd758ab3c49bdee1d20944174dd146e51646dd627a8860ca10b5f965ac90"
+        },
+        {
+          "time": {
+            "blockNumber": 18332824
+          },
+          "event": "queued",
+          "timestamp": 1697095475,
+          "txHash": "0x6368f3add08e327bb71947174d5a16d5655130a2c17012d1680fe2cab83c8765"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696883945718,
+      "txHash": "0xb2cba026abf7f89262bce824a9bb7df53ea740058ecf7876c143906437914ffd",
+      "quorum": 1,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25jaGFpbmtpZHo6b25jaGFpbjoweDMyOTk3NTM5OTE5ZWYxMWU5ZDllOGU5MTVlMjdhZjQ3MjIxNmI3MmI1YjhmNDcyZGZiZmE2Y2E5YjRjMTU5MTg=",
+      "id": "0x32997539919ef11e9d9e8e915e27af472216b72b5b8f472dfbfa6ca9b4c15918",
+      "title": "Payment to DAO Founders",
+      "content": "Payment to DAO Founders",
+      "protocol": "onchainkidz",
+      "adapter": "onchain",
+      "proposer": "0x685703d88402adcc9529059149F11f65BF4236E9",
+      "totalVotes": 0,
+      "blockNumber": 17921326,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1692137243
+      },
+      "endTime": {
+        "timestamp": 1692310043
+      },
+      "startTimestamp": 1692137243,
+      "endTimestamp": 1692310043,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17921326
+          },
+          "event": "pending",
+          "timestamp": 1692115643,
+          "txHash": "0xe7ec3ce3747f6b9708c2ccca321701b82dd98407e7b87221b8690365b01a46f7"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692115859566,
+      "txHash": "0xe7ec3ce3747f6b9708c2ccca321701b82dd98407e7b87221b8690365b01a46f7",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25jaGFpbmtpZHo6b25jaGFpbjoweDQ4YzEyMWFlZDgzN2VkYjFlNGMxNTA3YjA3YjU2MzRmMDRlZjI5MmUzNzk2ZDllNTE4YzQ4YzhjYmFiNzVmY2M=",
+      "id": "0x48c121aed837edb1e4c1507b07b5634f04ef292e3796d9e518c48c8cbab75fcc",
+      "title": "Addition to contract parameters proposal",
+      "content": "<p>This proposal is an extended version of the earlier proposal except this one includes:</p><ol><li>Change in auction duration - It has been extended to 1 day to avoid any unnecessary burning of NFTs.</li></ol>",
+      "protocol": "onchainkidz",
+      "adapter": "onchain",
+      "proposer": "0x685703d88402adcc9529059149F11f65BF4236E9",
+      "totalVotes": 1,
+      "blockNumber": 16267715,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1672129463
+      },
+      "endTime": {
+        "timestamp": 1672475063
+      },
+      "startTimestamp": 1672129463,
+      "endTimestamp": 1672475063,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16304426
+          },
+          "event": "queued",
+          "timestamp": 1672485839,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16319797
+          },
+          "event": "executed",
+          "timestamp": 1672671035,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417636584,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25jaGFpbmtpZHo6b25jaGFpbjoweDFhNmYwNzRjZjEzNTcwNGI2NWJjMzBkY2Q3NWQxZDgyNDNiMzMyN2NlYjFkY2Q4ZTc3NGIwYTI4N2YyOTEyYmI=",
+      "id": "0x1a6f074cf135704b65bc30dcd75d1d8243b3327ceb1dcd8e774b0a287f2912bb",
+      "title": "Better Contract Parameters",
+      "content": "<p>This proposal proposes better contract parameters to enhance the growth of the DAO.</p><p><br></p><ol><li> Change in Voting Period and Voting Delay - Makes it faster to make proposals and have them voted upon.</li><li>Removal of Reserve Price on Auction - Make it accessible to everyone to bid on auctions without any lower limit.</li><li>Change in Icon - Proposes a new AI generated icon for our DAO which looks cooler.</li><li>0.2E being sent to the founders as their compensation. They were the ones to bid on the auctions therefore they’re being compensated back.</li></ol>",
+      "protocol": "onchainkidz",
+      "adapter": "onchain",
+      "proposer": "0x685703d88402adcc9529059149F11f65BF4236E9",
+      "totalVotes": 1,
+      "blockNumber": 16267692,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1672129187
+      },
+      "endTime": {
+        "timestamp": 1672474787
+      },
+      "startTimestamp": 1672129187,
+      "endTimestamp": 1672474787,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417636584,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25jaGFpbmtpZHo6b25jaGFpbjoweDE3NjE2NjE0NmI0YTEwOTkzZDc1ODNiYWM5YTlmYTJhNDczODIzMzFiMDUwYWU3YmRkNjA5MTdjMmNlYTc1ZjU=",
+      "id": "0x176166146b4a10993d7583bac9a9fa2a47382331b050ae7bdd60917c2cea75f5",
+      "title": "DAO Upgrade V1_1",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "onchainkidz",
+      "adapter": "onchain",
+      "proposer": "0xd1d1D4e36117aB794ec5d4c78cBD3a8904E691D0",
+      "totalVotes": 1,
+      "blockNumber": 16208254,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671412799
+      },
+      "endTime": {
+        "timestamp": 1671758399
+      },
+      "startTimestamp": 1671412799,
+      "endTimestamp": 1671758399,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16262534
+          },
+          "event": "queued",
+          "timestamp": 1671980651,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16276939
+          },
+          "event": "executed",
+          "timestamp": 1672154435,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417636584,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25jaGFpbmtpZHo6b25jaGFpbjoweDJjNWMyYTkyNmUxYTlkYWRmZDg2Yjg0Y2ViZGFiZTEyOWRkN2NiOWIxMzlmYWEwNWJlZDgyN2U0ODVmNjUxZDY=",
+      "id": "0x2c5c2a926e1a9dadfd86b84cebdabe129dd7cb9b139faa05bed827e485f651d6",
+      "title": "Better Parameters By Founders",
+      "content": "<p>We, the founders of OnChainKidz propose a change in voting period, voting delay, auction duration and reserve price.</p><p>Personally, we think these are better parameters than the ones before.</p><p><strong>Advantages:</strong></p><p><strong>REMOVED RESERVE PRICE</strong></p><p><strong>INCREASED AUCTION DURATION</strong></p>",
+      "protocol": "onchainkidz",
+      "adapter": "onchain",
+      "proposer": "0x685703d88402adcc9529059149F11f65BF4236E9",
+      "totalVotes": 1,
+      "blockNumber": 15974828,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1668594359
+      },
+      "endTime": {
+        "timestamp": 1668939959
+      },
+      "startTimestamp": 1668594359,
+      "endTimestamp": 1668939959,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16025193
+          },
+          "event": "queued",
+          "timestamp": 1669115795,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417636584,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25jaGFpbmtpZHo6b25jaGFpbjoweDExZjkzMjRkN2NiMDczMWNlZmU1NjNlNmE3OTU1OGJjZWU4NDc0Yjk4NGE1ZmQwMzc3MGY4MjE1YmM5YmNhZjY=",
+      "id": "0x11f9324d7cb0731cefe563e6a79558bcee8474b984a5fd03770f8215bc9bcaf6",
+      "title": "Withdraw Funds of Initial Bid by Founder",
+      "content": "<p>This Proposal has been created by the Founder to withdraw the initial bid that he put in as a way to test if the DAO was working properly.</p><p><br></p><p>One more such proposal will be proposed when we bid another time.</p>",
+      "protocol": "onchainkidz",
+      "adapter": "onchain",
+      "proposer": "0x685703d88402adcc9529059149F11f65BF4236E9",
+      "totalVotes": 1,
+      "blockNumber": 15946249,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1668249707
+      },
+      "endTime": {
+        "timestamp": 1668595307
+      },
+      "startTimestamp": 1668249707,
+      "endTimestamp": 1668595307,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15997888
+          },
+          "event": "queued",
+          "timestamp": 1668786407,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16025197
+          },
+          "event": "executed",
+          "timestamp": 1669115843,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417636584,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

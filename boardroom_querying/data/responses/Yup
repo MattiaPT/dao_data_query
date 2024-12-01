@@ -1,0 +1,946 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4NzExYzdlOTIzMWQ0MjlhNzkwYzJiNDFmODc2ZGJmZDY4MTAwNDVhZGQyY2IxNjIzN2Y5NDQyMjAwZTY1NmNmNg==",
+      "id": "0x711c7e9231d429a790c2b41f876dbfd6810045add2cb16237f9442200e656cf6",
+      "title": "YIP-7: Launching YUP Token to Base",
+      "content": "**Author(s)**\n\n- nir.eth\n- vern\n\n### **Summary**\n\nThis proposal seeks community approval for launching the YUP token on [Base](https://www.base.org/), an Ethereum Layer 2 (L2) scaling solution. The launch aims to leverage Base’s enhanced scalability and community alignment, improving the overall efficiency and user experience for YUP token holders. As part of this launch, the YUP token contract and its rewards mechanism may be redeployed on Base over time. Users will bridge their YUP tokens, ensuring a seamless transition without the need for token swapping. Furthermore, this proposal may introduce liquidity rewards for the YUP/ETH pair on Uniswap v3, incentivizing liquidity provision on the new platform. *Timeline and specifics for actual launch and in what phases it happens is TBD, this is just for consensus on the decision.*\n\n### **Rationale**\n\nMigrating to Base offers several benefits:\n\n- **Lower Transaction Costs**: Base’s L2 solution reduces gas fees, making transactions more affordable for users.\n- **Enhanced Scalability**: By leveraging Base’s scalability, the YUP ecosystem can support a higher volume of transactions, accommodating growth.\n- **Community Alignment:** A large majority of the web3 social community has embraced Base and has liquidity on Base. Migrating there\n- **Increased Liquidity Incentives**: Offering liquidity rewards for the YUP/ETH pair on Uniswap v3 on Base encourages liquidity provision, enhancing market depth and stability.\n\n### **Effect**\n\n- **Broadened Accessibility and Participation**: Lower costs and enhanced scalability make it easier for new users to join and existing users to engage more actively.\n- **Strengthened Liquidity**: Focusing liquidity provision to Uniswap v3 on Base aims to increase the liquidity pool's size, reducing slippage and improving trade execution for users.\n\n### **Specifications**\n\n- **Launch Process**: Users will bridge their YUP tokens to Base using a third-party bridge that facilitates easy and secure cross-chain transfers without swapping tokens.\n- **Token Contract and Rewards Mechanism**: Over time, the YUP token contract and its associated rewards mechanism may be deployed on Base, with mechanisms in place to ensure a smooth transition of functionalities.\n- **Liquidity Rewards**: Liquidity providers for the YUP/ETH pair on Uniswap v3 on Base may receive rewards, incentivizing participation and support for the token’s liquidity.\n\n### **Communication**\n\n- **Discussion Forum**: Users and stakeholders are encouraged to discuss the proposal and its implications on the official YUP discussion forum.\n- **Community Engagement**: Engagement and updates regarding the launch process will be actively managed through YUP’s official Discord channel.\n\n### **Quorum and Governance Notes**\n\n- **Minimum Quorum**: For the proposal to pass, participation from more than 5% of the circulating, non-treasury YUP tokens is required.\n- **Voting Mechanism**: Yes or No vote\n\n### **Proposal Question**\n\nDo you approve the launch of YUP token from Polygon to Base, including the potential deployment of the YUP token contract and rewards mechanism on Base over time, and the introduction of liquidity rewards for the YUP/ETH pair on Uniswap v3 on Base?",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x4303Ddc9943D862f2B205aF468a4A786c5137E76",
+      "totalVotes": 20,
+      "blockNumber": 19683274,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0x711c7e9231d429a790c2b41f876dbfd6810045add2cb16237f9442200e656cf6",
+      "startTime": {
+        "timestamp": 1713454605
+      },
+      "endTime": {
+        "timestamp": 1713800205
+      },
+      "startTimestamp": 1713454605,
+      "endTimestamp": 1713800205,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2565071.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2565071.5457228827,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1713454877825,
+      "txHash": "",
+      "quorum": 50000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4Mzg4N2U2ZmIyYWM2YjU5YTMzM2YyYjJlZGUyNDA3YjQ4ZTA0MDE1NmNlMGVlZTcwYjNkZjJhZTFlMjEzMTllYw==",
+      "id": "0x3887e6fb2ac6b59a333f2b2ede2407b48e040156ce0eee70b3df2ae1e21319ec",
+      "title": "YIP-6: Social Token Alliance YUP Token Swap",
+      "content": "Author: nir.eth\n\n## Summary\n\nThe team proposes swapping $25,000 of $YUP with five of the leading social token communities. This will have multiple benefits for Yup, including diversifying our treasury, aligning us with leading social token communities, and improving DAO2DAO relationships.\n\nThe Yup Treasury working group has been in talks with Treasury teams of these communities. We are seeking to build a long-term alliance among the leading communities in the sector that should bring Yup opportunities for years to come. This initial token swap is step one.\n\n## Motivation\n\nThis is an opportunity for Yup to pioneer a D2D model with other leaders in the space. Participating communities include Bankless DAO, Krause House, Cabin, DAOHaus, and Forefront. The following lists both immediate benefits and a few potential opportunities that could be spawned from such an alliance.\n\n### Benefits to Yup\n\n* Treasury Diversification: We would diversify into 5 of the leading social token communities in one swap. Token swaps are particularly valuable in that no $YUP would need to be sold on the open market (thus putting downward pressure on our token).\n* Yup would be aligning ourselves financially with some of the leading social token communities. This should lead to greater collaborations and more opportunities for our community.\n* Yup would establish metagovernance rights in the participating DAOs.\n* Yup would be pioneering a new form of multi-DAO Alliances.\n* Future opportunities for collaboration amongst Alliance partners may include joining lobbying efforts, contributor sharing, collateralized loans, liquidity solutions, a joint VC fund, and more.\n\n## Specifications\n\nYup would send $25,000 to a multi-sig wallet (of which we would be a signer). In return, we would receive:\n\n$5,000 of $CABIN\n$5,000 of $KRAUSE\n$5,000 of $HAUS\n$5,000 of $FF\n$5,000 of $BANK\n\nTokens would be subject to a minimum of a 3-year lock.\n\nFor more details, please respond here :)",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x4303Ddc9943D862f2B205aF468a4A786c5137E76",
+      "totalVotes": 30,
+      "blockNumber": 14855863,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0x3887e6fb2ac6b59a333f2b2ede2407b48e040156ce0eee70b3df2ae1e21319ec",
+      "startTime": {
+        "timestamp": 1653682175
+      },
+      "endTime": {
+        "timestamp": 1655410175
+      },
+      "startTimestamp": 1653682175,
+      "endTimestamp": 1655410175,
+      "currentState": "closed",
+      "choices": [
+        "Approve YIP-6",
+        "Reject YIP-6"
+      ],
+      "results": [
+        {
+          "total": 681201.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 681200.9505837717,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 50000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4YjlmNDZjYTU1ZDNhNjRmZDdjZmYzY2ZhYjc2NTU5NmVkZWRkMTFiMjYyODU0MGJmMmFiNmQ2MTYwNTFmMDk3YQ==",
+      "id": "0xb9f46ca55d3a64fd7cff3cfab765596ededd11b2628540bf2ab6d616051f097a",
+      "title": "UP-5: Adjusting LP Rewards Distribution",
+      "content": "**Author(s)**\n\n- [nir.eth](https://app.yup.io/kabessa)\n- vern\n\n### **Glossary**\n\n- Yup Treasury = The treasury of the Yup DAO, managed at [treasury.yup.eth](https://llama.community/#/yup/)\n- Curator/Creator Rewards = rewards earned by curators and creators collectively (currently set at 50% of daily emissions)\n- LP Rewards = rewards earned by liquidity providers for staking liquidity to the YUP/ETH LP pool on Uniswap and Quickswap\n\n## **Summary**\n\nThis proposal is intended for the community to achieve consensus on a change in the distribution of rewards, mainly away from liquidity providers and towards curators/DAO. Below are a few choices of different divisions of rewards for voters to rank.\n\n## **Rationale**\n\n- Liquidity incentives are too high and not as necessary at this point.\n- More curator/creator rewards mean more valuable content surfacing on the protocol.\n- Encourage contribution and involvement.\n\n## **Effect**\n\n- Fewer rewards for liquidity providers will push users to stake less and participate more, presumably reducing total liquidity but increasing protocol activity.\n- Higher real circulating token supply\n\n## **Specifications**\n\n- Current Reward Distribution:\n    - 50% to Curators and Creators\n    - 23% to Liquidity Providers\n    - 22% to Team\n    - 5% to the DAO’s Treasury\n\n## **Communication**\n\n- Discussion: [https://forum.yup.io/t/solving-lp-rewards-issue/244/14](https://forum.yup.io/t/solving-lp-rewards-issue/244/14)\n- Discord: [https://discord.gg/vz2XDT2W5B](https://discord.gg/vz2XDT2W5B)\n\n## **Quorum and Governance Notes**\n\nMinimum Quorum: More than 10% of circulating, non-treasury YUP must participate for a proposal to pass.\n\n### Ranked-choice voting\n\nWe'll be using Ranked-choice voting for this proposal. Each voter may select and rank any number of choices. Results are calculated by the instant-runoff counting method, meaning if your first choice isn't supported, your second will be your vote, and so on. [More here.](https://www.fairvotemn.org/)\n\n### Proposal\n\nHow should rewards be distributed between Liquidity Providers, Curators/Creators (C/C), and the DAO Treasury?",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x4303Ddc9943D862f2B205aF468a4A786c5137E76",
+      "totalVotes": 17,
+      "blockNumber": 14477062,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0xb9f46ca55d3a64fd7cff3cfab765596ededd11b2628540bf2ab6d616051f097a",
+      "startTime": {
+        "timestamp": 1648506127
+      },
+      "endTime": {
+        "timestamp": 1650234127
+      },
+      "startTimestamp": 1648506127,
+      "endTimestamp": 1650234127,
+      "currentState": "closed",
+      "choices": [
+        "LP = 15%, C/C = 55%, DAO = 8%",
+        "LP = 15%, C/C = 53%, DAO = 10%",
+        "LP = 12%, C/C = 58%, DAO = 8%",
+        "LP = 12%, C/C= 55%, DAO = 10%",
+        "LP = 18%, C/C = 54%, DAO = 6%",
+        "LP = 18%, C/C = 53%, DAO = 7%",
+        "LP = 20%, C/C = 52%, DAO = 6%",
+        "LP = 20%, C/C = 50%, DAO = 8%",
+        "No change"
+      ],
+      "results": [
+        {
+          "total": 266566.66,
+          "choice": 3
+        },
+        {
+          "total": 43939.008,
+          "choice": 2
+        },
+        {
+          "total": 3880.304,
+          "choice": 1
+        },
+        {
+          "total": 10.0,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 3880.303935568759,
+          "choice": 1
+        },
+        {
+          "total": 43939.00994485469,
+          "choice": 2
+        },
+        {
+          "total": 266566.64523457864,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        },
+        {
+          "total": 0.0,
+          "choice": 5
+        },
+        {
+          "total": 0.0,
+          "choice": 6
+        },
+        {
+          "total": 0.0,
+          "choice": 7
+        },
+        {
+          "total": 10.0,
+          "choice": 8
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OnFtYWx0bWVoYWt2MWo1dzdpcGRscjd1NXZ5ZmxscWwzemU3OHFtemJid2NlZnQ=",
+      "id": "QmaLTMehAKV1j5W7iPDLR7u5vYfLLQL3ZE78QmzBBwceft",
+      "title": "UP-4: Allocating Treasury Funds to Coordinape and DAO Quests",
+      "content": "## Authors\n\n- PBJ\n- Nir.eth\n- Lædybug\n\n## Glossary\n\nYUP Treasury = The treasury of the Yup DAO, managed at [treasury.yup.eth](https://llama.community/#/yup/)\n\n[Coordinape](https://coordinape.com/) = Tool for recognizing and rewarding DAO contributors [https://coordinape.com/](https://coordinape.com/)\n\n[DAO Quests](https://app.clickup.com/18031686/v/l/h6926-5020) = Platform for discovering and taking on DAO tasks \n\n## Summary\n\nCoordinape and DAO quests serve as our main channels for DAO members to participate and receive compensation for their contributions.\n\nDAO quests allow community members to assign themselves roles/tasks that suit their expertise and/or interest and receive a YUP bounty for completion. Whereas Coordinape allows them to share what they've contributed every month (or epoch), and then allocate points to those they believe deserve recognition and rewards.\n\nSo far, the team has established how many rewards each channel should receive. In order to move forward with these tools, we must come to a consensus as a DAO on how much of Yup's DAO treasury should be dedicated to these channels.\n\nCurrently, the Treasury receives 5% of daily YUP emissions via the Yup protocol, summing to ~139,460 YUP monthly.\n\nAll YUP in the treasury that's not allocated to DAO quests and Coordinape will be held until the DAO decides where the remaining funds should go.\n\n## **Communication**\n\n- Discussion: [https://forum.yup.io/t/allocating-treasury-funds-to-coordinape-and-dao-quests/362/2](https://forum.yup.io/t/allocating-treasury-funds-to-coordinape-and-dao-quests/362/2)\n- Discord: [https://discord.gg/vz2XDT2W5B](https://discord.gg/vz2XDT2W5B)\n\n## **Quorum and Governance Notes**\n\nMinimum Quorum: More than 2% of circulating, non-treasury YUP must participate for a proposal to pass.\n\n## **Ranked-choice voting**\n\nWe'll be using Ranked-choice voting for this proposal. Each voter may select and rank any number of choices. Results are calculated by the instant-runoff counting method, meaning if your first choice isn't supported, your second will be your vote, and so on. [More here.](https://www.fairvotemn.org/)\n\n## Proposal\n\nCome to a consensus on how much of Yup's Treasury Funds should be allocated to Coordinape and DAO Quests\n\nIn order to accommodate for growth and variability across time, we will implement a flexible-budget plan that sets a max-per-month limit for DAO Quests rather than a steadfast number.\n\nHow many rewards should be allocated to Coordinape (C) and DAO Quests (Q)?\n",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x8bFcF69d3183512a11b203D9598b8dA68694F2B6",
+      "totalVotes": 0,
+      "blockNumber": 13735154,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/QmaLTMehAKV1j5W7iPDLR7u5vYfLLQL3ZE78QmzBBwceft",
+      "startTime": {
+        "timestamp": 1638568800
+      },
+      "endTime": {
+        "timestamp": 1639778400
+      },
+      "startTimestamp": 1638568800,
+      "endTimestamp": 1639778400,
+      "currentState": "closed",
+      "choices": [
+        "C: 15k (~10%), Q: 45k (~32%)",
+        "C: 20k (~14%), Q: 45k (~32%)",
+        "C: 15k (~10%), Q: 40k (~28%)",
+        "C: 20k (~14%), Q: 40k (~28%)",
+        "C: 25k (~18%), Q: 50k (~36%)",
+        "C: 10k (~7%), Q: 35k (~25%)",
+        "C: 15k (~10%), Q: 30k (~21%)",
+        "C: 2k (~1%), Q: 5k (~4%)"
+      ],
+      "results": [],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 875.5361,
+          "choice": 0
+        },
+        {
+          "total": 7855.339360520958,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 503.2340014647224,
+          "choice": 3
+        },
+        {
+          "total": 19479.571676917916,
+          "choice": 4
+        },
+        {
+          "total": 0.0,
+          "choice": 5
+        },
+        {
+          "total": 3286.0841,
+          "choice": 6
+        },
+        {
+          "total": 0.0,
+          "choice": 7
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4MjUzNDdiOTg0YzYwOGY0ODZiNDBmZTMxODdhNTEzMjk4NmYyOTg5ZjU5YTY1MzRmZjVmMTJmM2UwZmVkMmZmNg==",
+      "id": "0x25347b984c608f486b40fe3187a5132986f2989f59a6534ff5f12f3e0fed2ff6",
+      "title": "The market value of project tokens ranks among the top 100?",
+      "content": "",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x7A8f55260fc7E8C982faf03c728f585fd78e1009",
+      "totalVotes": 0,
+      "blockNumber": 13803505,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0x25347b984c608f486b40fe3187a5132986f2989f59a6534ff5f12f3e0fed2ff6",
+      "startTime": {
+        "timestamp": 1639454400
+      },
+      "endTime": {
+        "timestamp": 1639540800
+      },
+      "startTimestamp": 1639454400,
+      "endTimestamp": 1639540800,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4NzE0ODBmYjk0MDcyNWM5N2U0NzlkZmViN2Y1ZjU2ZWIzYzE4YzVhYjZkYjM5ZDFhNDE3MjhhMDk4OWM2OWZiMA==",
+      "id": "0x71480fb940725c97e479dfeb7f5f56eb3c18c5ab6db39d1a41728a0989c69fb0",
+      "title": "Will our currency price rise to $1000 in the future?",
+      "content": "",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x4a178a75F78Da644B7E14D407fC14267015FFE9c",
+      "totalVotes": 0,
+      "blockNumber": 13776007,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0x71480fb940725c97e479dfeb7f5f56eb3c18c5ab6db39d1a41728a0989c69fb0",
+      "startTime": {
+        "timestamp": 1639108800
+      },
+      "endTime": {
+        "timestamp": 1639195200
+      },
+      "startTimestamp": 1639108800,
+      "endTimestamp": 1639195200,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4YzUyYTA0Y2M3YWI0NzQ2YjdlY2U5ZmZmNDI5NGQ4NjY5OTBjZGZiYzE3ZjI1MmVkNzlmZDY4N2JjOGY1NzRlZQ==",
+      "id": "0xc52a04cc7ab4746b7ece9fff4294d866990cdfbc17f252ed79fd687bc8f574ee",
+      "title": " Can I create a weekly report for the project ?",
+      "content": "",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x068b8A703872f8CBe5c6559FFcA068f698A777c0",
+      "totalVotes": 0,
+      "blockNumber": 13768977,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0xc52a04cc7ab4746b7ece9fff4294d866990cdfbc17f252ed79fd687bc8f574ee",
+      "startTime": {
+        "timestamp": 1639022400
+      },
+      "endTime": {
+        "timestamp": 1639108800
+      },
+      "startTimestamp": 1639022400,
+      "endTimestamp": 1639108800,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4YTdjZTA1ZmM0ZmI4YTBkYzNhYjg3Njk1ZWUyNGU0Yzc0MGM5OGE0Njk4MjJkMzljNTBkZGIyOGMzNTdmNGJmYw==",
+      "id": "0xa7ce05fc4fb8a0dc3ab87695ee24e4c740c98a469822d39c50ddb28c357f4bfc",
+      "title": "Does our community do a promotion at Christmas?",
+      "content": "",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0xC1Ec3B3B88D9a7c07554a09C28cD48b5bB13591b",
+      "totalVotes": 0,
+      "blockNumber": 13758446,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0xa7ce05fc4fb8a0dc3ab87695ee24e4c740c98a469822d39c50ddb28c357f4bfc",
+      "startTime": {
+        "timestamp": 1638849600
+      },
+      "endTime": {
+        "timestamp": 1638936000
+      },
+      "startTimestamp": 1638849600,
+      "endTimestamp": 1638936000,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4YTk2ZmM3OWYxMGU1ZTk1MmVmMTY2YWQ2ZDZkMThmODRiNTExMDUzOTVjYTkwOGViZDE3MDhmM2FkOGJiOTVhOA==",
+      "id": "0xa96fc79f10e5e952ef166ad6d6d18f84b51105395ca908ebd1708f3ad8bb95a8",
+      "title": "Can we plan an event for Christmas?",
+      "content": "",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0xF2f3Fb87906A1b7846Bc6d7f73b630964c369e6e",
+      "totalVotes": 0,
+      "blockNumber": 13726273,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0xa96fc79f10e5e952ef166ad6d6d18f84b51105395ca908ebd1708f3ad8bb95a8",
+      "startTime": {
+        "timestamp": 1638417600
+      },
+      "endTime": {
+        "timestamp": 1638504000
+      },
+      "startTimestamp": 1638417600,
+      "endTimestamp": 1638504000,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4YmY2YTlkNmE2NGQxZWFiZGNiZjA1NGYzYTRkOTEzZjIzOTM4ZTMxYWVhMThiZjg1MjA0OWM2MmI5N2IyYzlmZA==",
+      "id": "0xbf6a9d6a64d1eabdcbf054f3a4d913f23938e31aea18bf852049c62b97b2c9fd",
+      "title": "Can we consider cross-chain to other chains?",
+      "content": "",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x2f9B576605aDF7981962736C9318836d955BeEAF",
+      "totalVotes": 0,
+      "blockNumber": 13722073,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0xbf6a9d6a64d1eabdcbf054f3a4d913f23938e31aea18bf852049c62b97b2c9fd",
+      "startTime": {
+        "timestamp": 1638417600
+      },
+      "endTime": {
+        "timestamp": 1638504000
+      },
+      "startTimestamp": 1638417600,
+      "endTimestamp": 1638504000,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4NWYzMGZiMThiYzU5ZTZjM2JhYmE5YjhlZmNjZmZmYjRhMTcxZTFkNjAxNWI5MDZlYjQxMjBlYWE5YjI0NjI4Zg==",
+      "id": "0x5f30fb18bc59e6c3baba9b8efccfffb4a171e1d6015b906eb4120eaa9b24628f",
+      "title": "Can we plan an event for Christmas?",
+      "content": "",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0xAFB09e6EF90B6d0161Afe9E680Ea14B852a6134A",
+      "totalVotes": 0,
+      "blockNumber": 13725732,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0x5f30fb18bc59e6c3baba9b8efccfffb4a171e1d6015b906eb4120eaa9b24628f",
+      "startTime": {
+        "timestamp": 1638417600
+      },
+      "endTime": {
+        "timestamp": 1638504000
+      },
+      "startTimestamp": 1638417600,
+      "endTimestamp": 1638504000,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4MzYyODI2NmRhNzc1MDQwNWZkNGI1MzkxZjkwOGE4OThkZGU5M2U1YjQyODQyZThkNjhiODA4NzY5MDQzODQwZQ==",
+      "id": "0x3628266da7750405fd4b5391f908a898dde93e5b42842e8d68b808769043840e",
+      "title": "Can we plan an event for Christmas?",
+      "content": "",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x4349CC9B28fACe7785D2E871AD3999B0381FBe27",
+      "totalVotes": 0,
+      "blockNumber": 13726904,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0x3628266da7750405fd4b5391f908a898dde93e5b42842e8d68b808769043840e",
+      "startTime": {
+        "timestamp": 1638417600
+      },
+      "endTime": {
+        "timestamp": 1638504000
+      },
+      "startTimestamp": 1638417600,
+      "endTimestamp": 1638504000,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4NGQ0OGVjNmMyMDM3N2Y3MzRhNzU2ZGQwZmVmZjk4YmUwOWZhNzU4M2NlOTY3N2FjZTVjYTA1ZTBkMjIyZjlhMA==",
+      "id": "0x4d48ec6c20377f734a756dd0feff98be09fa7583ce9677ace5ca05e0d222f9a0",
+      "title": "I think we should expand to other applications like the meta-universe and so on",
+      "content": "I think we should expand to other applications like the meta-universe and so on",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0xBD0277A74c24C5E54D746777BeB3Fec0824e6e5f",
+      "totalVotes": 0,
+      "blockNumber": 13652642,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0x4d48ec6c20377f734a756dd0feff98be09fa7583ce9677ace5ca05e0d222f9a0",
+      "startTime": {
+        "timestamp": 1637380800
+      },
+      "endTime": {
+        "timestamp": 1637467200
+      },
+      "startTimestamp": 1637380800,
+      "endTimestamp": 1637467200,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OjB4MDYzMDMzYjYzYzgyNDE4ZGE5ZjIwNzllZTFlMGQ2NjMwNGJmZDcyOTBjYWM4NWIxN2M5ZGE1YjVkY2ExOTNmNg==",
+      "id": "0x063033b63c82418da9f2079ee1e0d66304bfd7290cac85b17c9da5b5dca193f6",
+      "title": "UP-3: Adjusting LP Rewards Distribution",
+      "content": "**Author(s)**\n\n- [nir.eth](https://app.yup.io/kabessa)\n- vern\n\n### **Glossary**\n\n- Yup Treasury = The treasury of the Yup DAO, managed at [treasury.yup.eth](https://llama.community/#/yup/)\n- Curator/Creator Rewards = rewards earned by curators and creators collectively (currently set at 50% of daily emissions)\n- LP Rewards = rewards earned by liquidity providers for staking liquidity to the YUP/ETH LP pool on Uniswap\n\n## **Summary**\n\nThis proposal is intended for the community to achieve consensus on a change in the distribution of rewards, mainly away from liquidity providers and towards curators/DAO. Below are a few choices of different divisions of rewards for voters to rank.\n\n## **Rationale**\n\n- Liquidity incentives are too high and not as necessary at this point.\n- More curator/creator rewards mean more valuable content surfacing on the protocol.\n- Encourage contribution and involvement.\n\n## **Effect**\n\n- Fewer rewards for liquidity providers will push users to stake less and participate more, presumably reducing total liquidity but increasing protocol activity.\n- Higher real circulating token supply\n\n## **Specifications**\n\n- Current Reward Distribution:\n    - 50% to Curators and Creators\n    - 23% to Liquidity Providers\n    - 22% to Team\n    - 5% to the DAO’s Treasury\n\n## **Communication**\n\n- Discussion: [https://forum.yup.io/t/solving-lp-rewards-issue/244/14](https://forum.yup.io/t/solving-lp-rewards-issue/244/14)\n- Discord: [https://discord.gg/vz2XDT2W5B](https://discord.gg/vz2XDT2W5B)\n\n## **Quorum and Governance Notes**\n\nMinimum Quorum: More than 10% of circulating, non-treasury YUP must participate for a proposal to pass.\n\n### Ranked-choice voting\n\nWe'll be using Ranked-choice voting for this proposal. Each voter may select and rank any number of choices. Results are calculated by the instant-runoff counting method, meaning if your first choice isn't supported, your second will be your vote, and so on. [More here.](https://www.fairvotemn.org/)\n\n### Proposal\n\nHow should rewards be distributed between Liquidity Providers, Curators/Creators (C/C), and the DAO Treasury?",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x4303Ddc9943D862f2B205aF468a4A786c5137E76",
+      "totalVotes": 0,
+      "blockNumber": 13595506,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/0x063033b63c82418da9f2079ee1e0d66304bfd7290cac85b17c9da5b5dca193f6",
+      "startTime": {
+        "timestamp": 1636650000
+      },
+      "endTime": {
+        "timestamp": 1637341200
+      },
+      "startTimestamp": 1636650000,
+      "endTimestamp": 1637341200,
+      "currentState": "closed",
+      "choices": [
+        "LP = 15%, C/C = 55%, DAO = 8%",
+        "LP = 15%, C/C = 53%, DAO = 10%",
+        "LP = 12%, C/C = 58%, DAO = 8%",
+        "LP = 12%, C/C= 55%, DAO = 10%",
+        "LP = 18%, C/C = 54%, DAO = 6%",
+        "LP = 18%, C/C = 53%, DAO = 7%",
+        "LP = 20%, C/C = 52%, DAO = 6%",
+        "LP = 20%, C/C = 50%, DAO = 8%",
+        "No change"
+      ],
+      "results": [],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 3265.2972548167018,
+          "choice": 0
+        },
+        {
+          "total": 7647.8076,
+          "choice": 1
+        },
+        {
+          "total": 4252.233095567841,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        },
+        {
+          "total": 36954.90548239541,
+          "choice": 5
+        },
+        {
+          "total": 293.891,
+          "choice": 6
+        },
+        {
+          "total": 2862.1954,
+          "choice": 7
+        },
+        {
+          "total": 140292.0,
+          "choice": 8
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OnFteHhjeWEyNWVpeHBzNndwNzFjemZ2dGJ0Y28zbnJ1ZzZrcGk4YTJrcnlkejE=",
+      "id": "QmXxCyA25EixPS6wP71czFvTbtco3nRUG6Kpi8A2kRYdZ1",
+      "title": "UP-2: Updates to Age/Activity",
+      "content": "This outlines adjustments to the age and activity coefficients used to calculate influence, and to the algorithm for normalizing activity. Currently, a user’s activity can be negative if the total rewards they’ve received are less than the total value of their votes. As a result, some users have a negative influence, and therefore are unable to receive rewards. The protocol was intentionally designed to penalize users for doing a large number of low-value votes, but the existing influence algorithm is overly punitive.\n\nTherefore, the influence algorithm should be adjusted in the following ways:\n\n1. The relative weight of age should increase from 0.33 to 0.4, and the weight of activity should decrease from 0.67 to 0.6.\n2. Activity, when factored into influence, should have a minimum value of zero. This guarantees that no accounts will ever have a negative influence while ensuring accounts with low-value votes are still penalized.\n",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x4303Ddc9943D862f2B205aF468a4A786c5137E76",
+      "totalVotes": 7,
+      "blockNumber": 13269668,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/QmXxCyA25EixPS6wP71czFvTbtco3nRUG6Kpi8A2kRYdZ1",
+      "startTime": {
+        "timestamp": 1632232800
+      },
+      "endTime": {
+        "timestamp": 1632326400
+      },
+      "startTimestamp": 1632232800,
+      "endTimestamp": 1632326400,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 693.7087,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 693.7086822667484,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OnFtZWFpejlpbTRyaHg3cnptN3N3Y2Jhb21idXhieDJyZGhldnZsZjVxcDkxYnA=",
+      "id": "QmeaiZ9iM4RhX7rZM7sWcbAombUxBX2rdHeVvLf5Qp91Bp",
+      "title": "UP-1: Use Boardroom",
+      "content": "### **Author(s)**\n\n- [nir.eth](https://app.yup.io/kabessa)\n\n### **Glossary**\n\n- Upgrade Proposal (UP)\n- [Boardroom](http://boardroom.info)\n- [Snapshot](https://docs.snapshot.page/)\n\n## **Summary**\n\nThis proposal is intended for the community to achieve consensus on the use of Boardroom as our main portal for governance and discourse, given the monthly $500 fee (in YUP). Boardroom is a new platform that utilizes snapshot governance, forum/calendar features, and more to give an all-in-one protocol/dao governance experience to communities and individuals. \n\n## **Rationale**\n\n- Make better asynchronous community decisions.\n- Governance process should be transparent and clear.\n- Encourage contribution and involvement.\n- Make sure opposing views can be heard and considered.\n- Make sure a proposal is technically feasible.\n- Keep the governance process moving and free of gridlock.\n\n## **Effect**\n\n- Opportunity\n    - Proposals will be standardized and decision making can be more effective.\n    - Increased Transparency and increased accessibility to “informed” Governance.\n\n## **Specifications**\n\n- Timeline: 3 months\n\n## Funding Request - Yes - Implementation requires funding\n\nIn order to utilize Boardroom, we propose paying Boardroom $500 in YUP every month for 3 months for their governance treasury. \n\n- ~$500 in YUP (7-day average price based on Uniswap YUP/ETH pair)\n- Delivery: 1st of March, April, and May\n- Payer: Yup Treasury (treasury.yup.eth)\n\n## **Communication**\n\n- Discussion: [https://forum.yup.io/proposals/p/up-use-boardroom](https://forum.yup.io/proposals/p/up-use-boardroom)\n- Discord\n",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0x4303Ddc9943D862f2B205aF468a4A786c5137E76",
+      "totalVotes": 11,
+      "blockNumber": 11927271,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/QmeaiZ9iM4RhX7rZM7sWcbAombUxBX2rdHeVvLf5Qp91Bp",
+      "startTime": {
+        "timestamp": 1614247200
+      },
+      "endTime": {
+        "timestamp": 1614592800
+      },
+      "startTimestamp": 1614247200,
+      "endTimestamp": 1614592800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 14100.777,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 14100.77739791898,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eXVwOnNuYXBzaG90OnFteGx6cGVwbHN2d3J0a3VyOGlqYnJ6eHZobmtlenQyazRobWpzYXprbmlnd2k=",
+      "id": "QmXLZpepLSvwRtKuR8iJbrzXvHNKezT2k4HmJsAZkNiGWi",
+      "title": "Test: Should we use snapshot?",
+      "content": "Should we use snapshot?",
+      "protocol": "yup",
+      "adapter": "snapshot",
+      "proposer": "0xD74b126baEAd23A1160494DD8BCa94a1081B150f",
+      "totalVotes": 1,
+      "blockNumber": 11468302,
+      "externalUrl": "https://snapshot.org/#/yup.eth/proposal/QmXLZpepLSvwRtKuR8iJbrzXvHNKezT2k4HmJsAZkNiGWi",
+      "startTime": {
+        "timestamp": 1608199200
+      },
+      "endTime": {
+        "timestamp": 1608890400
+      },
+      "startTimestamp": 1608199200,
+      "endTimestamp": 1608890400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

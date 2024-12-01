@@ -1,0 +1,397 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6d2VhcmViZWFuc3Byb3V0ZXRoOnNuYXBzaG90OjB4ZmE0NDE4NTc3MDM1ODY2ZTFmOWE0ZDY5Mjk3N2U5MDAyYjk4MTljNzk0MmJlOTA4OGUwNDE5YTVjMjk1YzhmZQ==",
+      "id": "0xfa4418577035866e1f9a4d692977e9002b9819c7942be9088e0419a5c295c8fe",
+      "title": "BSP-13: Irrigation Protocol Halborn Audit",
+      "content": "## Proposer\n\nRex on behalf of Irrigation Protocol\n\n## Introduction\n\nThe recent surge in high-profile security incidents, such as the Beanstalk flash loan attack, has highlighted the critical importance of implementing robust security measures and conducting thorough audits to safeguard users and their assets. Recognizing security in establishing trust with users throughout the development process, Irrigation Protocol has hired the security firm Halborn (known for its collaboration with Beanstalk) to conduct a comprehensive security audit of the protocol before launch. This audit will identify and resolve potential vulnerabilities, reinforcing the protocol's security, reliability, and readiness for widespread adoption.\n\n## Project Description\n\nAmong other capabilities, Irrigation Finance is preparing to offer a comprehensive suite of features, including a pod pricing oracle, a tranching system for liquid lending markets in Beanstalk pods, and zero-knowledge privacy peer-to-peer auction markets for tranched Beanstalk pods.\n\nIn addition to tranched Pods, other Bean assets (including Bean tokens on launch and Silo Deposits in the near future) will have the ability to be swapped via Irrigation's Auction Platform for a host of non-Bean assets, allowing conversion without putting downward pressure on Bean price.\n\nFinally, upon launch, the protocol will include the Irrigate function. Here, if a Water (governance) token holder elects to not withdraw their monthly rewards, those rewards will be converted to Bean and allocated a 5% bonus. The process provides enhanced rewards for patient Water token holders and upward pressure on Bean price when the Irrigate function occurs. Though this intermediary asset is subject to change, Irrigation plans to use Bean in this capacity for the foreseeable future.\n\n## Objectives\n\nThe objectives of this proposal are as follows:\n* Conduct a comprehensive security audit of Irrigation Protocol in collaboration with Halborn to identify and resolve potential vulnerabilities.\n* Ensure the protocol's security, reliability, and readiness for widespread adoption.\n* Enhance Beanstalk Protocol print and peg-oscillation capabilities through the suite of Irrigation Tools.\n\n## Budget\n\nIrrigation requests the remaining Bean in the Bean Sprout Multisig (21,333 Beans, to be reduced to 16,333 Beans should BSP-X pass), to be allocated towards covering a portion of the comprehensive security audit, including any required fixes or updates resulting from the audit.\n\n## Timeline\n\nThe timeline/sequence is as follows:\n* Halborn conducts security audit (approx. six weeks, underway for two weeks).\n* This proposal is submitted to the Beanstalk community for BSP vote.\n* Any necessary fixes or updates made to Irrigation based on audit results.\n* Final audit report is submitted to the community.\n* Irrigation Protocol launches (late August/early September).\n* Irrigation Protocol makes code available to the public (one month after launch).\n\n## Conclusion\n\nBy conducting a comprehensive security audit in collaboration with Halborn, Irrigation Protocol demonstrates its commitment to security, reliability, and user-centric development. The proposed security audit will identify and address potential vulnerabilities, bolstering the protocol's trustworthiness and readiness for widespread adoption.\n\nThis proposal showcases Irrigation’s dedication to maintaining a secure and thriving ecosystem and its desire to succeed alongside Beanstalk Protocol.\n\nThank you for your consideration!\n\n## References\n\n* Irrigation Protocol GitBook: https://docs.irrigation.finance/irrigation-protocol/\n* Halborn Blockchain Security: www.halborn.com",
+      "protocol": "wearebeansprouteth",
+      "adapter": "snapshot",
+      "proposer": "0xbC4de0a59D8aF0Af3e66e08e488400Aa6F8bB0FB",
+      "totalVotes": 102,
+      "blockNumber": 17642254,
+      "externalUrl": "https://snapshot.org/#/wearebeansprout.eth/proposal/0xfa4418577035866e1f9a4d692977e9002b9819c7942be9088e0419a5c295c8fe",
+      "startTime": {
+        "timestamp": 1688736939
+      },
+      "endTime": {
+        "timestamp": 1689168939
+      },
+      "startTimestamp": 1688736939,
+      "endTimestamp": 1689168939,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 11805032.0,
+          "choice": 0
+        },
+        {
+          "total": 213962.72,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 11805032.575049406,
+          "choice": 0
+        },
+        {
+          "total": 213962.724620032,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688737106486,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2VhcmViZWFuc3Byb3V0ZXRoOnNuYXBzaG90OjB4ZDZkZTdkOWRhNjIyZWUyNDkwYWViNDFjN2JhNzU5NzYyYTJiMjY3NTBhOGQ0MjMyNGQzMmFhMTAxOThkOTU5MQ==",
+      "id": "0xd6de7d9da622ee2490aeb41c7ba759762a2b26750a8d42324d32aa10198d9591",
+      "title": "BSP-X: Reward for Originating the Idea of Seed Parity for Unripe Assets",
+      "content": "**Proposer**\n\nDeFiChad\n\n\n**Summary**\n\nThis proposal proposes to reallocate 5,000 Beans from BSP-9 to reward bacchist and sync for originating the idea of Seed Parity for Unripe Assets; if approved, the reward will be split between them.\n\n\n**Purpose**\n\nIn September 2022, bacchist and sync came up with the idea of Seed Parity for Unripe Assets to better align incentives between pre-exploit Silo members and new users and to further support peg maintanence by removing the opportunity cost for conversions below peg from urBEAN3CRV to urBEAN.\n\nThe idea was originally raised during the Beanstalk University Call on 9/27/22, and in response to it publius remarked \"that's actually a great idea...that may actually be just a great idea...that's a very interesting idea\": https://www.youtube.com/watch?v=i9qXFDvGkcI&t=2422s\n\nbacchist and sync then started a DAO discussion to further explore the idea. The initial draft of the proposal they shared on Github ultimately prompted a more in depth technical discussion around its implementation, its subsequent development and inclusion in the Silo V3 BIP, and the broader community's support for it: https://gist.github.com/bacchist/8afdd0ab72b414e9673928130e0c944f\n\n\n**Community Support**\n\nbacchist first inquired about the community's support for a reward in early May. sync followed up after BF shared the draft Silo V3 BIP at the end of June. On both occasions, multiple community members and delegates expressed their support for a reward. \n\nbacchist and sync initially considered Beanstalk's community grant program as an option from which a reward may be issued, but were told it's unfunded moving forward and that it wouldn't be suitable. They were then advised by BF to propose a reward request to the DAO directly - hence this BSP.\n\n\n**Effective**\n\nUpon the passage of this BSP, the Bean Sprout multisig will send 2,500 Beans each to bacchist and sync, for a total of 5,000 Beans.",
+      "protocol": "wearebeansprouteth",
+      "adapter": "snapshot",
+      "proposer": "0x9c52dC78bd84007bF63987806f0aeEece0ef14a6",
+      "totalVotes": 93,
+      "blockNumber": 17620583,
+      "externalUrl": "https://snapshot.org/#/wearebeansprout.eth/proposal/0xd6de7d9da622ee2490aeb41c7ba759762a2b26750a8d42324d32aa10198d9591",
+      "startTime": {
+        "timestamp": 1688474400
+      },
+      "endTime": {
+        "timestamp": 1688906400
+      },
+      "startTimestamp": 1688474400,
+      "endTimestamp": 1688906400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 10360003.0,
+          "choice": 0
+        },
+        {
+          "total": 787498.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10360001.859652411,
+          "choice": 0
+        },
+        {
+          "total": 787498.7365244838,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688474765750,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2VhcmViZWFuc3Byb3V0ZXRoOnNuYXBzaG90OjB4NzdlODlmNzA5YzE2ZDliNDY2MzVjMjJmODE2ZTdmN2ZjYjJhZWI2MGVjZmFlOWRlMDhlMjlkYmJmYmVmYmQ0Yg==",
+      "id": "0x77e89f709c16d9b46635c22f816e7f7fcb2aeb60ecfae9de08e29dbbfbefbd4b",
+      "title": "BSP-11: Contract Intelligence on Chain to investigate the Governance Exploit of April 2022",
+      "content": "## Proposer\n\nipoandchill and sync.\n\n## Summary\nFund an in-depth investigation of the April 2022 governance exploit by Intelligence on Chain on behalf of the Beanstalk DAO.\n\nIntelligence on Chain is a UK-based blockchain investigations firm: https://intelligenceonchain.com/\n\nThis initiative proposes to reallocate the equivalent of **42,000 USDC** in BEAN from BSP-9. The proposal includes:\n\n1. An estimated two to three month investigation, culminating in a final report and a separate summary to be shared publicly.\n2. Automated monitoring for six months thereafter.\n3. An effort to recover funds, if possible.\n\n## Purpose\nMany members of the Beanstalk community have expressed support for an independent investigation of the April 2022 governance exploit to better connect the dots, per the recently successful investigation and recovery effort by Euler Finance for its nearly $200M exploit in March 2023: https://twitter.com/eulerfinance/status/1643269155116945409?s=20\n\nOn 3/30/23, Intelligence on Chain presented to the Beanstalk DAO about what an investigation of the April 2022 governance exploit would entail: https://www.youtube.com/watch?v=5-VfvgVDtVU&t=458s\n\nDuring the nearly one-hour long presentation and discussion, it was revealed by Publius and later clarified by Beanstalk Farms that shortly after Beanstalk's exploit, Lossless had flagged a wallet that was potentially linked to the hack on 4/25/22 and which had a deposit traced back to Kraken.\n\nConsidering this newly revealed information, the value proposition of an investigation was summarized by Intelligence on Chain's founder as follows: \n\n\"What I'm proposing is a way to look at and understand where these funds currently are through pattern recognition. If that leads to other centralized exchanges, then so be it. Does that lead to the original one? Maybe. Maybe not. There's a lot of unanswered questions here, and all I'm looking to do is maximize the information that you guys have to help you recover some of these funds.\" \n\n## Deliverables\nFor the estimated two to three month investigation, Intelligence on Chain will:\n\n- Run the scripts on the 100 ETH contract to pull data on 22,000+ transactions from Tornado Cash (TC) since the exploit.\n- Analyze each wallet and subsequent transactions.\n- Learn if wallets are/are not connected.\n- Map out each suspect wallet back to protocols or exchanges.\n- Build a log of suspect/non-suspect wallets.\n- Understand the incoming transactions to the exploiter's wallet.\n- Build out the automation required to monitor every suspect wallet and TC.\n\nThis work will culminate in a final report by Intelligence on Chain that documents all of its findings, which will be shared with its contacts at the authorities. \n\nSeparately, a summary of the report will be shared publicly, enabling anyone in the Beanstalk DAO to use it to file complaints with authorities in their respective locality.\n\nNote that any potentially sensitive information that may undermine a resolution of this matter if it were to be disclosed will not be included in the publicly shared summary. The final report will be reviewed with the BFC and the proposers of this BSP to confirm it was completed before the summary is shared publicly.\n\nAutomated tracking thereafter for six months will include monitoring alerts for every suspect wallet and TC.\n\nIntelligence on Chain will also engage in an effort to recover the funds if possible, though there are no guarantees of results. The extent of this effort will largely depend on the findings of the investigation.\n\n## Scope\nThe scope of this proposal is limited to conducting an authoritative investigation of Beanstalk's April 2022 governance exploit and the extensive amount of on-chain data since then on behalf of the Beanstalk DAO, with automated monitoring for a period of six months afterwards.\n\nIntelligence on Chain ultimately aims to identify patterns in the on-chain data and maximize available information to potentially aid in the recovery of funds. \nAs the results of such an investigation are unknowable beforehand, defining how the results will be acted upon ahead of then is impractical. Nevertheless, Intelligence on Chain will share its complete and final report that includes any potentially sensitive information with their contacts at the authorities. Separately, a summary of the report from Intelligence on Chain will be made publicly available, thus empowering any Beanstalk community member to then report to the authorities in their respective jurisdiction.\n\nDuring Beanstalk's DAO call on 4/21/23, the legal counsel representing Publius conveyed that the authorities were last provided information in regards to the exploit in July 2022. The counsel expressed that he would be happy to share any new information with the authorities, as well. Thus, the authorities may benefit from the additional information gathered from an investigation.\n\nIntelligence on Chain will also attempt a pursuit in hopes of recovering the funds if possible, though there are no guarantees of results.\n\nNote that while there is no guarantee of a recovery of funds as a result of this proposal, an in-depth investigation may nevertheless help to more definitively connect the dots, such that the authorities are better equipped to possibly act on the documented evidence and/or to potentially motivate the exploiter to return the funds voluntarily for the bounty previously approved by the Beanstalk DAO in BOP-2.\n\nThe importance of connecting the dots on possible links to better build a case was emphasized by Taylor Monahan from Metamask in a recent Twitter exchange regarding Beanstalk's exploit and the potential Kraken lead: https://twitter.com/tayvano_/status/1644071714673029120\n\nTaylor was among the contributors that Euler Finance acknowledged publicly as having supported their investigation and recovery effort, and her feedback echoes the above-mentioned value proposition of an investigation as explained by Intelligence on Chain's founder. \n\n## Effective \nUpon the passage of this BSP, the Bean Sprout multisig will convert the equivalent amount of BEAN to 42,000 USDC, and 25,000 USDC will then be sent to Intelligence on Chain to begin its estimated two to three month investigation.\n\nThe remaining 17,000 USDC will be sent to Investigation on Chain upon completion of the investigation and the public sharing of the summary of their final report, after which they will proceed with their six months of monitoring related work and their attempt at a recovery of funds if possible.\n\nNote that this engagement with Intelligence on Chain will span an estimated period of eight to nine months in total. This equates to a monthly cost of about 5,000 USD.\n\nAs a comparison, consider that Beanstalk Farms previously informed the community it was quoted 300,000 USD for a twelve-month retainer by Chainalysis in the past, and there were no guarantees of results in that proposed engagement either. This would have equated to a monthly cost of 25,000 USD.\n",
+      "protocol": "wearebeansprouteth",
+      "adapter": "snapshot",
+      "proposer": "0x9c52dC78bd84007bF63987806f0aeEece0ef14a6",
+      "totalVotes": 84,
+      "blockNumber": 17126400,
+      "externalUrl": "https://snapshot.org/#/wearebeansprout.eth/proposal/0x77e89f709c16d9b46635c22f816e7f7fcb2aeb60ecfae9de08e29dbbfbefbd4b",
+      "startTime": {
+        "timestamp": 1682463653
+      },
+      "endTime": {
+        "timestamp": 1682895653
+      },
+      "startTimestamp": 1682463653,
+      "endTimestamp": 1682895653,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 18082124.0,
+          "choice": 0
+        },
+        {
+          "total": 455792.66,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 18082123.478012174,
+          "choice": 0
+        },
+        {
+          "total": 455792.6553585494,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682464321155,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2VhcmViZWFuc3Byb3V0ZXRoOnNuYXBzaG90OjB4MjdkZTc5ODliNzNjZjNhNzU5YjhiZDliMzIxYTA3MjM5Y2YzMjg5Y2IwM2Q4ODg0Njg1MTUzNWU0Y2YwNDQ0ZQ==",
+      "id": "0x27de7989b73cf3a759b8bd9b321a07239cf3289cb03d88846851535e4cf0444e",
+      "title": "BSP-10: Award Pharos Protocol a Grant to Develop a Pod Lending Market",
+      "content": "## Proposer\n\nMod323 and Funderberker (co-founders of Pharos)\n\n## Summary\n\n[Pharos](https://www.pharosprotocol.com/) is an on-chain prime brokerage protocol that enables users to access, trade, and deploy leveraged positions with any on-chain asset or protocol.\n\nThis proposal proposes to reallocate 25,000 Beans from [BSP-9](https://app.bean.money/#/governance/0x44b39b42454e5b50e1da4fb28f2cc2645a4206434debf1109707efc7c741d5ca) to Pharos for the development and deployment of a lending market for Pods.\n\n## Purpose\n\nThe [Market](https://app.bean.money/#/market/buy) facilitates the exchange of Pods in the secondary market. A Pod lending market deployed by Pharos would enable using Pods as collateral against loans.\n\nMultiple roles will be needed to launch a MVP:\n\n#### Smart Contract Development:\n\nThe Pharos core smart contracts are in development. To facilitate Pod lending, a Pod oracle and liquidation mechanism needs to be developed.\n\n\n#### Front End Development:\n\nA frontend is needed in order to create, view, and interact with Pharos.\n\n### Example\n\nBorrower-A, a Beanstalk Farmer, takes out two loans: Position-1 from Lender-A and Position-2 from Lender-B. \n\nPosition-1 is an under-collateralized loan where the borrower took out a USDC loan and swapped it for ETH on Uniswap, effectively longing ETH with leverage. \n\nPosition-2 is an over-collateralized loan where the borrower borrowed ETH.\n\n![image](https://arweave.net/dA8AAzMgM0PqoGAY1VZwtDzMKFtwkELnHLov5B3v8AQ)\n\n### Risks\n\nPharos is a new protocol that is yet to launch. The goal would be to have the code audited before deployment (no guarantee), but this grant will not cover an audit. \n\n## Effective\n\nUpon passage of this BSP, 25,000 Beans will be sent from the Coop to Pharos.\n",
+      "protocol": "wearebeansprouteth",
+      "adapter": "snapshot",
+      "proposer": "0x0F53F811f603449293840DcE4CE981493569C262",
+      "totalVotes": 70,
+      "blockNumber": 17067459,
+      "externalUrl": "https://snapshot.org/#/wearebeansprout.eth/proposal/0x27de7989b73cf3a759b8bd9b321a07239cf3289cb03d88846851535e4cf0444e",
+      "startTime": {
+        "timestamp": 1681750800
+      },
+      "endTime": {
+        "timestamp": 1682182800
+      },
+      "startTimestamp": 1681750800,
+      "endTimestamp": 1682182800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 11381448.0,
+          "choice": 0
+        },
+        {
+          "total": 2452497.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 11381448.651655452,
+          "choice": 0
+        },
+        {
+          "total": 2452497.7667072145,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681746904684,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2VhcmViZWFuc3Byb3V0ZXRoOnNuYXBzaG90OjB4NDRiMzliNDI0NTRlNWI1MGUxZGE0ZmIyOGYyY2MyNjQ1YTQyMDY0MzRkZWJmMTEwOTcwN2VmYzdjNzQxZDVjYQ==",
+      "id": "0x44b39b42454e5b50e1da4fb28f2cc2645a4206434debf1109707efc7c741d5ca",
+      "title": "BSP-9: Fund the Development and Execution of The Coop ",
+      "content": "## Proposer\nBrean and Co.\n\n## Summary\nFund the Coop with 90,000 Beans for development, execution, and seeding of initial capital.\n\n## Purpose\nThe Coop is an implementation of the Liquity Chicken Bonds on the Beanstalk ecosystem. Chicken Bonds are a novel derivative built on top of liquity that organically builds protocol owned liquidity. Due to the similarities of liquity and beanstalk (namely, protocol native organic yield), we think that beanstalk would be a suitable stablecoin protocol to build chicken bonds on.\n\nMultiple roles will be needed to launch a MVP: \n\n#### (Essential) Smart Contract Development: \nCurrently being developed by Brean and Co.. Coop plans to utilize the ROOT token in order to accelerate development. Current progress is here: https://github.com/Brean0/Beansprout-Coop \n\nCompensation: 0 Beans will be transferred upon completion.\n\n#### (Essential) Front End Development: \nA web3 Frontend is needed in order to create, view, and interact with the coop bonds. This needs to be composable with both circulating and farmer balances, as well as beanstalk and root. Pipeline can be used to massively improve UX experience (for example, swapping USDC to BEAN, depositing into the silo, minting ROOT, and depositing into a coop bond, all in one transaction).\n\nCompensation: 15,000 Beans will be transferred upon completion.\n\n#### (Non-essential) UX Development:\n\nA good UX design would help facilitate adoption of coop bonds. \n\nUX Development is labeled “Non-essential” as someone could do both frontend and UX design, as well as utilize available UIs from chicken bonds.\n\nNote: “Nonessential” does not mean “not required”, but “not mandatory” for an MVP. Brean and Co will determine in a project timeline that development has progressed to a point where UX changes would delay the project significantly. \n\nCompensation: 10,000 Beans will be transferred upon completion.\n\n\n#### (Non-Essential) NFT Artwork: \n\nThe Coop bonds will implement on-chain dynamic svg NFTs. Current implementation design is here. https://github.com/Brean0/Beansprout-Coop/blob/main/image.png. While this is enough for an MVP, the coop is open for alternative designs. The design must be able to be generated on chain, without the need of a separate contract.\n\nNote: “Non-Essential” does not mean “not required”, but “not mandatory” for an MVP. Brean and Co will determine in a project timeline that development has progressed to a point where UX changes would delay the project significantly. \n\nCompensation: 5,000 Beans will be transferred upon completion.\n\nUpon deployment of the coop contracts, the remaining unspent beans will be given to the protocol to bootstrap (it will be allocated to the permanent pool, meaning the deposit is forfeited and the yield will permanently be given to bROOT holders). \n\n## Security\n - Chicken bond audits (Coinspect + Dedaub)\nhttps://github.com/liquity/ChickenBond/tree/main/LUSDChickenBonds/audits\n - Beanstalk Farm plans to allocate an audit stream for the COOP. \n\n### Risks\n\n- Chicken Bonds are a new and novel implementation, and (at least in beanstalk) has not been tested in the real world. The nature of open-source opens the door for exploits in bugs, flaws, and errors. \n- Coop plans to utilize an upgradeable proxy and a multisig with beanstalk and root community members to enact changes on the will of the token holders, as well as emergency changes. \n\n## Future work\n- Pending chicken bonds could theoretically be used as collateral to borrow BEAN/ROOTs. \n- Analytics can be developed on both the Coop NFT and bROOT token. \n- bROOT/ROOT or bROOT/BEAN could be whitelisted in the silo for stalk rewards, omitting the need for a 3% fee on Chicken In to incentivize liquidity. \n- Discussion on align liquity and the coop. Examples include:\n     - Participating in governance to push for a BEAN:LUSD pool. \n     - Allocating a portion of ROOTs in the permanent pool and swap for BEAN:LUSD LP\n- Discussion on utilizing ROOTs in permanent pool beyond the native yield\n    - Market making on paradox’s parimutuel bets.\n    - Purchasing pods on the market.\n    - (requires fungible stalk) exchanging stalk for bean, at times of excess demand, or exchanging beans for stalk at times of excess supply. \n\n## Effective \nUpon passage of this BSP, 90,000 Beans will be sent to the Coop address.\n\n",
+      "protocol": "wearebeansprouteth",
+      "adapter": "snapshot",
+      "proposer": "0xF9D183AF486A973b7921ceb5FdC9908D12AAb440",
+      "totalVotes": 68,
+      "blockNumber": 16091167,
+      "externalUrl": "https://snapshot.org/#/wearebeansprout.eth/proposal/0x44b39b42454e5b50e1da4fb28f2cc2645a4206434debf1109707efc7c741d5ca",
+      "startTime": {
+        "timestamp": 1669917600
+      },
+      "endTime": {
+        "timestamp": 1670349600
+      },
+      "startTimestamp": 1669917600,
+      "endTimestamp": 1670349600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 10561850.0,
+          "choice": 0
+        },
+        {
+          "total": 367819.6,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10561849.106632208,
+          "choice": 0
+        },
+        {
+          "total": 367819.5843622443,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2VhcmViZWFuc3Byb3V0ZXRoOnNuYXBzaG90OjB4MzVmYWNmYjIxYzE5ZWVhMDhmZWQyNjNhMGExMjdhYTkwN2ZhOGY3YjBjNzBhOTA5Yjk0MDNlMGYxMzcwYTI4MA==",
+      "id": "0x35facfb21c19eea08fed263a0a127aa907fa8f7b0c70a909b9403e0f1370a280",
+      "title": "BSP-8: Fund a New Halborn Audit Stream for One Month",
+      "content": "## Proposer\n\nBean Sprout\n\n## Summary\n\n* Pay Halborn 20,000 USDC worth of Beans to fund a fourth audit stream for one month as an extension of the Halborn Retainer Agreement. \n* This new audit stream is and intended to be used to expedite the audit and release of new code which implements:\n    * the Generalized Pipeline; and\n    * a contract developed by a 3rd party that will integrate Roots natively at launch.\n\n## Incentive Alignment\n\nHalborn has agreed to be compensated in Beans for the fourth audit stream and verbally expressed intent to retain long-term Bean exposure. This is a healthy setup that creates mutual interest in the success of Beanstalk.\n\n## Effective \n\nThe audit stream is slated to begin on 10/10/2022. Upon passage of this BSP, 20,000 USDC worth of Beans will be sent to Halborn, or used to reimburse the payer of the Beans. The Bean price at the time of payment will be used to determine the number of Beans sent to Halborn.\n",
+      "protocol": "wearebeansprouteth",
+      "adapter": "snapshot",
+      "proposer": "0x0F53F811f603449293840DcE4CE981493569C262",
+      "totalVotes": 133,
+      "blockNumber": 15697486,
+      "externalUrl": "https://snapshot.org/#/wearebeansprout.eth/proposal/0x35facfb21c19eea08fed263a0a127aa907fa8f7b0c70a909b9403e0f1370a280",
+      "startTime": {
+        "timestamp": 1665162000
+      },
+      "endTime": {
+        "timestamp": 1665594000
+      },
+      "startTimestamp": 1665162000,
+      "endTimestamp": 1665594000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 9868576.0,
+          "choice": 0
+        },
+        {
+          "total": 548870.75,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9868574.296558185,
+          "choice": 0
+        },
+        {
+          "total": 548870.7603528454,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2VhcmViZWFuc3Byb3V0ZXRoOnNuYXBzaG90OjB4N2IyZDU0ZjM2OTFmYTY1ZmM3ODRlMzM5ODQyNWQ1MThlYWI5M2QyMzNmM2FkMGFiZDNkODdiNTcyY2Y1YWIyZg==",
+      "id": "0x7b2d54f3691fa65fc784e3398425d518eab93d233f3ad0abd3d87b572cf5ab2f",
+      "title": "BSP-7: Fund Bean Portion of the Six-Month Halborn Retainer",
+      "content": "Proposer:\n\nBean Sprout\n\nSummary:\n\nPay Halborn 40,000 Beans to cover the Bean portion of the Halborn Retainer from Bean Sprout’s Q3 2022 budget. The total cost is 200,000 USDC and 40,000 Beans. Root Labs has agreed to cover the USDC portion of the Halborn payment.\n\nThe ongoing Halborn Retainer Agreement is slated to begin on 8/22/22. The retainer will cover three simultaneous audit streams for the first two months, and two simultaneous audit streams for the subsequent four months, for a total of 6 months.\n\nGoals:\n\n- Reaudit Beanstalk\n- Audit the Beanstalk UI\n- Facilitate rapid, deployment of audited upgrades to Beanstalk and Beanstalk-related projects\n- Establish a long-term, mutually-aligned relationship with a leading smart-contract auditing firm\n\nIncentive Alignment:\n\nHalborn has agreed to be partially compensated in Beans and verbally expressed intent to maintain long-term bean exposure. This is a healthy setup that creates mutual interest in the success of Beanstalk. \n\nEffective:\n\nThe audits are scheduled to begin on Monday August 22, 2022. Upon passage of this BSP, the 40,000 Beans will be sent to Halborn, or used to reimburse the payer of the Beans. \n",
+      "protocol": "wearebeansprouteth",
+      "adapter": "snapshot",
+      "proposer": "0xF808adAAb2B3A2dfa1d658cB9E187fF3b74CC0aC",
+      "totalVotes": 119,
+      "blockNumber": 15368211,
+      "externalUrl": "https://snapshot.org/#/wearebeansprout.eth/proposal/0x7b2d54f3691fa65fc784e3398425d518eab93d233f3ad0abd3d87b572cf5ab2f",
+      "startTime": {
+        "timestamp": 1660869540
+      },
+      "endTime": {
+        "timestamp": 1661301540
+      },
+      "startTimestamp": 1660869540,
+      "endTimestamp": 1661301540,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 5981401.0,
+          "choice": 0
+        },
+        {
+          "total": 164.50626,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5981400.634062398,
+          "choice": 0
+        },
+        {
+          "total": 164.506251,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

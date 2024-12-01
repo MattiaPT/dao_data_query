@@ -1,0 +1,1390 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDUxNjNlZTYyY2ZlNjQ5MTg0Njk4NDNiYWE2ZjFjZWJkZjM2ZjI2MDhhOTIxY2QxZTc2YzkxNjQ5MTdkOGYwNTk=",
+      "id": "0x5163ee62cfe64918469843baa6f1cebdf36f2608a921cd1e76c9164917d8f059",
+      "title": "Add VDOT ass new market in moonwell",
+      "content": "In the nascent ecosystem of interoperable blockchains, where seamless asset movement governs evolution, the emergence of VDOT transcends mere tokenization. Its inherent interweaving with the Moonbeam protocol, via direct integration within the native app, surpasses transactional utility, forging a strategic symbiosis. This synergetic coupling, mirrored by VDOT's esteemed presence on StellaSwap, a pivotal node within the Moonbeam firmament, underscores the mutual recognition of shared values and ambitious visions.\n\nTherefore, with an almost preordained inevitability, VDOT stands poised to join the prestigious consortium of assets supported by MoonWell. Each constituent within this carefully curated portfolio represents a meticulously chosen building block, meticulously woven into a tapestry of opportunity for its discerning user base. VDOT, with its unwavering commitment to the tenets of decentralization, its robust operational architecture, and its thriving, engaged community, epitomizes the very essence that MoonWell seeks to empower and champion.\n\nAdding VDOT is not merely an act of portfolio expansion; it signifies the forging of a potent nexus, a confluence of purpose in the service of progress. For MoonWell users, it unlocks a previously unexplored frontier, an opportunity to harness the multifaceted potential of VDOT within the dynamic Moonbeam environment. Conversely, for VDOT, it grants access to a vibrant, engaged community and a platform renowned for its unwavering dedication to user experience and cutting-edge innovation.\n\nThe inclusion of VDOT within MoonWell transcends the realm of strategic positioning; it orchestrates a symphony of purpose, a harmonious blend of ambition and shared values. This union represents a quantum leap not just for MoonWell and VDOT, but for the broader blockchain landscape, where interoperability and collaborative spirit pave the way for a bright, interconnected future. In this synergistic waltz, both platforms ascend, their combined radiance illuminating the path for others to follow.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xaf7D1FB1B94f6dbf258A5746E9f78DfbC00d41d1",
+      "totalVotes": 14,
+      "blockNumber": 5311208,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x5163ee62cfe64918469843baa6f1cebdf36f2608a921cd1e76c9164917d8f059",
+      "startTime": {
+        "timestamp": 1705389071
+      },
+      "endTime": {
+        "timestamp": 1705648271
+      },
+      "startTimestamp": 1705389071,
+      "endTimestamp": 1705648271,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 8159404.5,
+          "choice": 0
+        },
+        {
+          "total": 30986.904,
+          "choice": 2
+        },
+        {
+          "total": 3646065.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8159404.391634305,
+          "choice": 0
+        },
+        {
+          "total": 3646065.6133302343,
+          "choice": 1
+        },
+        {
+          "total": 30986.90392094426,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705389639501,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGUzMGIyZWMzMjRhZDA0Mzk3ZWI4NjRkZDQ2NGQzZjU3ZjQ0YzYzY2NmNjg0YzlhMTI2ZjlkZDM0OTA4ZmQ1Yzc=",
+      "id": "0xe30b2ec324ad04397eb864dd464d3f57f44c63ccf684c9a126f9dd34908fd5c7",
+      "title": "Reallocation of Nomad Collateral and Protocol Reserves for FRAX",
+      "content": "As described in the [Moonwell RFP forum post](https://forum.moonwell.fi/t/request-for-proposal-rfp-redemption-and-reallocation-of-nomad-collateral-and-protocol-reserves-for-frax-market-enhancement/746/3?u=luke) around bad debt, there are two paths forward to liquidate the Nomad Collateral.\n\nOne of these approaches is the standard approach, and the other is defined as the alternative approach.\n\nThe community can choose between the following options:\n1. Standard approach - with curly as community signer\n2. Alternative approach - with curly as community signer\n3. Do nothing\n\nBoth options 1 and 2 are beneficial to the overall health of Moonwell's liquidity and we hope to see the community vote for either of these options to restore liquidity to the markets.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xCd9aB569b86623daf1dd709533b6A1845Dac52e5",
+      "totalVotes": 51,
+      "blockNumber": 5268983,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0xe30b2ec324ad04397eb864dd464d3f57f44c63ccf684c9a126f9dd34908fd5c7",
+      "startTime": {
+        "timestamp": 1704872995
+      },
+      "endTime": {
+        "timestamp": 1705132195
+      },
+      "startTimestamp": 1704872995,
+      "endTimestamp": 1705132195,
+      "currentState": "closed",
+      "choices": [
+        "Standard - curly as signer",
+        "Alternative - curly as signer",
+        "Do nothing"
+      ],
+      "results": [
+        {
+          "total": 17603700.0,
+          "choice": 0
+        },
+        {
+          "total": 644412.3,
+          "choice": 2
+        },
+        {
+          "total": 108171.234,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 17603701.985011138,
+          "choice": 0
+        },
+        {
+          "total": 108171.2381230505,
+          "choice": 1
+        },
+        {
+          "total": 644412.2943100751,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704873524318,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGM4YzNkMmNlMmM5MDg3MWZjMTEwZTcxMmU1Y2I5OWVmMWZiMDJiMGFhNDc0NmI1ZDg1NDQ1ZWViMmM0MWNjMGY=",
+      "id": "0xc8c3d2ce2c90871fc110e712e5cb99ef1fb02b0aa4746b5d85445eeb2c41cc0f",
+      "title": "Add ACA (Acala) support for Lend/Borrow",
+      "content": "ACA is already supported for bridging directly through the moonbeam app.  It is tradeable via StellaSwap.  Acala is an official partner of Moonbeam. \n\nACA is a natural next asset to add to MoonWell's pool of supported assets.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x3e2511c9a1094846a00cBf5208f9D82B6871F6ae",
+      "totalVotes": 51,
+      "blockNumber": 5254009,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0xc8c3d2ce2c90871fc110e712e5cb99ef1fb02b0aa4746b5d85445eeb2c41cc0f",
+      "startTime": {
+        "timestamp": 1704690754
+      },
+      "endTime": {
+        "timestamp": 1704949954
+      },
+      "startTimestamp": 1704690754,
+      "endTimestamp": 1704949954,
+      "currentState": "closed",
+      "choices": [
+        "Add ACA",
+        "Do not add ACA"
+      ],
+      "results": [
+        {
+          "total": 9650550.0,
+          "choice": 0
+        },
+        {
+          "total": 9029912.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9650326.72235347,
+          "choice": 0
+        },
+        {
+          "total": 9030133.931553995,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704691134308,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDdkNWNhNmViZGY3MDRlYzRjZmViY2YxMmVmMWI4NDFmNjBiNjAzMTg5NzZkNTJjZGZhNzk3OTE5MWVlOTRjZmI=",
+      "id": "0x7d5ca6ebdf704ec4cfebcf12ef1b841f60b60318976d52cdfa7979191ee94cfb",
+      "title": "Options for Enhancing Liquidity in the FRAX Market on Moonbeam",
+      "content": "## Summary\n\nThis proposal is part of the [Roadmap for the Moonwell Community on Nomad Incident Recovery](https://forum.moonwell.fi/t/roadmap-for-the-moonwell-community-on-nomad-incident-recovery/732) recommended by Gauntlet.\n\nThe community has four options to choose from in order the address the liquidity concerns in the FRAX market on Moonbeam:\n\na. Use the remaining Nomad Collateral from Bad Debt\nb. Use Protocol Reserves\nc. Use funds from both options a/b\nd. Take no action\n\nGiven that both the Nomad Collateral and Protocol Reserves are meaningful in size, it may be best for the community to consider using both these sources of liquidity.\n\n## Background\n\nGauntlet has been working with community members to develop a roadmap, informing them about the options available for managing the assets affected by the Nomad exploit and the resulting bad debt. Currently, Moonbeam still holds Nomad assets as reserves and in collateralized positions. Concurrently, the FRAX market on Moonbeam faces outstanding bad debt due to limited on-chain liquidity. Measures can be implemented to recover the value of these exploited funds and use them to improve the liquidity environment of FRAX on Moonbeam. Gauntlet presented several options to help the community in repaying this debt and enhancing liquidity.\n\n### Nomad Collateral available for Redemption\nHere are the total Nomad collateral funds and their estimated value via the recovery refund discount: \n![Screenshot 2023-12-28 at 12.22.02 pm.png](ipfs://bafkreibe6ru6qupjkr3wdyauhxkpqkx3bseady4h735j3vekfikmmktqwe)\n\n*Prices of assets via chainlink as of 2023-12-20 21:59:00 UTC\n\nShould the community decide to take a selection of the nomad assets to exchange them for recovery funds, a community member would undertake the following actions to recover these assets and repay FRAX liquidity:\n\nPropose a Governance vote to transfer Nomad Collateral Funds from the deprecated Nomad liquidity pools to a Multisig wallet:\n\nThe removal of Nomad Collateral will need to be decided by the community, with options being either a reduction in reserves or the potential liquidation of bad debt positions and seizure of collateral.\n\nGauntlet recommends that the Multisig Wallet be controlled by multiple community stakeholders to ensure the security of the assets throughout the recovery process.\n\nThe Community Member responsible for the recovery process will need to follow the Nomad process. The responsible party will need to:\n\n- Complete KYC via the Nomad Recovery Portal 1. This verification can take up to 1–3 weeks for DAOs.\n- Transfer Nomad Assets to the Nomad Recovery Fund via a bridge to Mainnet.\nReceive an NFT.\n- Exchange the NFT for mainnet ETH, BTC, USDC.\n- After receiving the recovery funds from Nomad, the responsible party will need to exchange the assets for FRAX and bridge the assets back to Moonbeam.\n\nThe Moonbeam ecosystem does not have substantial liquidity to swap these assets on their local DEXes. Gauntlet proposes considering the mainnet for asset swaps, due to its generally lower slippage.\n\nCurrently, the FRAX Ferry has 3,952,468 FRAX available to bridge over to the Moonbeam ecosystem.\n\nThe FRAX recovery assets would need to be used to resolve liquidity issues within the FRAX liquidity pool. This can be achieved through multiple avenues but must be decided by the community. The options are:\n\n   a. Use the add reserves function 1 to add liquidity to the FRAX pool for suppliers to remove their position.\n   b. Disburse FRAX to impacted FRAX suppliers.\n   c. Pay down the FRAX bad debt positions.\n\n### Protocol Reserves\nHere are the total Protocol reserve funds:\n![Screenshot 2023-12-28 at 12.23.13 pm.png](ipfs://bafkreidekr52yhbivu33ot3z2u7jqe37ocevh54x5dorwshadlvjlrliei)\n    \n*Prices of assets via chainlink as of 2023-12-20 21:59:00 UTC\n\nFor this option, a community member must undertake the following actions to recover these assets to repay FRAX liquidity:\n\n1. Propose a Governance vote to transfer Protocol Reserve Funds from the listed liquidity pools to a Multisig Wallet for swapping the reserves for FRAX.\n    - The liquidity of DEXes on Moonbeam is a concern. Swapping $54k of GLMR for FRAX could result in approximately 5% slippage. Therefore, it is advisable to collaborate with Market Makers to enhance FRAX liquidity within the local DEXes or to move the assets off-chain to locate more favorable liquidity sources.\n\n2. The reserved FRAX assets would then be used to resolve liquidity issues within the FRAX liquidity pool. Similar to the Nomad Collateral Recovery Funds, the options are:\n   a. Utilize the add reserves function to inject liquidity into the FRAX pool, \nenabling suppliers to withdraw their positions.\n   b. Allocate FRAX to specific suppliers.\n   c. Reduce the FRAX bad debt positions.\n\n**Please note:** This is an initial Snapshot vote to determine which funds (Nomad collateral, protocol reserves), if any, should be used to address FRAX liquidity concerns. If options A, B, or C are chosen, additional governance proposals will be required to determine which community member(s) will handle Nomad asset redemption and swapping, transfer Nomad collateral and/or protocol reserves to multisig, distribution of newly swapped for FRAX, etc.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x7F953f11343408eBCcaEcd04eB0D1E6bacDEf87F",
+      "totalVotes": 57,
+      "blockNumber": 5175363,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x7d5ca6ebdf704ec4cfebcf12ef1b841f60b60318976d52cdfa7979191ee94cfb",
+      "startTime": {
+        "timestamp": 1703775600
+      },
+      "endTime": {
+        "timestamp": 1704034800
+      },
+      "startTimestamp": 1703775600,
+      "endTimestamp": 1704034800,
+      "currentState": "closed",
+      "choices": [
+        "Use remaining Nomad Collateral",
+        "Use Protocol Reserves",
+        "Use funds from both options a/b",
+        "Take no action"
+      ],
+      "results": [
+        {
+          "total": 82945.73,
+          "choice": 3
+        },
+        {
+          "total": 8070928.5,
+          "choice": 0
+        },
+        {
+          "total": 16442507.0,
+          "choice": 2
+        },
+        {
+          "total": 253501.77,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8070927.619637871,
+          "choice": 0
+        },
+        {
+          "total": 253501.76080117343,
+          "choice": 1
+        },
+        {
+          "total": 16442508.173806015,
+          "choice": 2
+        },
+        {
+          "total": 82945.72806139266,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703731136310,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGYyZDMxYjVmMzM0NDE5MDNmMWU2Mzc4YTg4M2NhZDNiZGQzZjBmMjQ0OWRiMGQyNjEyMTQ5MzBjNGQ0YmNkOGU=",
+      "id": "0xf2d31b5f33441903f1e6378a883cad3bdd3f0f2449db0d261214930c4d4bcd8e",
+      "title": "Warden <> Moonwell Aerodrome Liquidity Manager",
+      "content": "# Summary\nWarden Finance proposes to manage Aerodrome’s liquidity incentives allocation for the DAO. This proposal is conditional upon the success of the snapshot vote proposing to allocate 52.7M WELL tokens to incentivize Aerodrome DEX liquidity.\n\nThe Aerodrome liquidity manager role would complement our mandate to manage Moonwell Base reward distributions, as well as the risk management and analytics services that we already provide to the DAO.\n\n# Context\nThe Aerodrome liquidity manager is tasked with both managing WELL token incentives on Aerodrome, as well as keeping the Moonwell community informed of performance levels and any distribution changes in order to increase the liquidity of WELL on Base.\n\nThis proposal aims to enable the Warden Finance team as liquidity manager for Aerodrome DEX incentives on behalf of the community.\n\n# About us\nWarden Finance is a team of software engineers and financial analysts that have extensive experience in crypto, finance and software. We specialize in helping DeFi protocols manage risk and surface meaningful data with the help of custom tooling and in depth on-chain analysis. We strive to make DeFi more secure, comprehensible and empower its users to participate along with us.\n\nIn the past years, not only have we been closely collaborating with the Moonwell team, but we’ve also been working with multiple other notable projects and DAOs like AAVE, Compound, Uniswap, Euler, and Notional.\n\nOur biggest contribution to DeFi is our open risk & analytics platform.\n\nWe currently provide bi-weekly analysis of Moonwell’s risk parameters and propose parameters for new asset onboardings to Base in efforts to foster Moonwell’s growth. We believe that we have the right expertise and tools to help the DAO allocate DEX liquidity rewards.\n\n# Proposal\n## Motivation\nOur goal is to maintain deep liquidity levels for the WELL token on Base by allocating the incentives on Aerodrome in the most capital-efficient manner possible.\n\n## Key Principles\n* Quantitative-based approach: Our allocation optimization methodology maximizes capital efficiency by pondering the expected value of each individual strategy.\n* Transparency: Data points along with methodology will be available for the community. We will also provide monthly performance reports to the community and communicate any change.\n## Methodology\nTwo strategies are available to the Aerodrome liquidity manager in order to provide incentives for users to LP.\n\n* Bribing - Bribe veAERO holders using WELL tokens to vote on the WELL / WETH gauge, increasing AERO rewards allocation to WELL / WETH LPs.\n* Direct incentives - Offer WELL rewards to WELL / WETH LPs.\nEvery epoch, our model will determine whether it is expected to be more favorable to bribe veAERO holders or to incentivize the pool directly. If the expected value of bribing is positive, then we will allocate rewards towards bribing veAERO holders to vote on WELL / WETH gauge. Otherwise, we will allocate WELL incentives to directly incentivize LPs.\n\nAdditionally, as a launch partner for Aerodrome, Moonwell DAO may receive a veAERO voting power grant. Should the DAO receive the grant, we will ensure the voting power is directed towards increasing AERO incentives for WELL / WETH LPs. veAERO tokens will be re-locked on a regular basis in order to maintain voting power.\n\n## Scope\nWarden Finance is offering to manage the Aerodrome liquidity incentives for the total duration of the AERO incentives program, corresponding to 2 years or 100 epochs of 7 days.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x70cd17186aae48729f12dBA63Ba5a9aBE7b4116D",
+      "totalVotes": 91,
+      "blockNumber": 4291580,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0xf2d31b5f33441903f1e6378a883cad3bdd3f0f2449db0d261214930c4d4bcd8e",
+      "startTime": {
+        "timestamp": 1692977495
+      },
+      "endTime": {
+        "timestamp": 1693236695
+      },
+      "startTimestamp": 1692977495,
+      "endTimestamp": 1693236695,
+      "currentState": "closed",
+      "choices": [
+        "Yes ",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 21512634.0,
+          "choice": 0
+        },
+        {
+          "total": 5019222.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 21512640.28111225,
+          "choice": 0
+        },
+        {
+          "total": 5019222.079996674,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692978287269,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDI3NjM2ZmNlMjdkZDljYjlkY2Y0OGVkZTg4ODNjOTYyYTgzNDg5YWJlYzYxZGRiMmYzODU3MjFjYWE5YmU5MzY=",
+      "id": "0x27636fce27dd9cb9dcf48ede8883c962a83489abec61ddb2f385721caa9be936",
+      "title": "Options to give more utility to the well token",
+      "content": "Following the result of the snapshot “Add more utility to the $well token” where 99.7% of the community said they would like to add more utility to the $well token I would like to start the discussion of some possible alternatives.\nSince there are multiple ideas on how to increase the utility of the well token and we cannot do everything in one-go, the idea behind this snapshot is to choose one to start. My idea is to do this in 2-steps, in a first step the community should choose what’s the best option to start adding utility to the $well token and a second step we will go into more detail with the option that the community selected. We will then create a new snapshot with all the details and logic of the implementation of the option selected, so then someone with technical knowledge can implement it(for that probably we will need support from someone from Lunar Labs, for example Luke). On this 2nd phase I can help with creating some mockups and technical diagrams (user flows, architecture, etc…), since I have a bit of technical knowledge, since I was a developer in the beginning of my career, even though currently I’m a Product Owner in a traditional company.\n\nFind below the options I suggest to increase the utility of the well token:\n-\tTier system : \no\tWe can create different tiers based on the amount of well staked. I suggest 3 tiers:\n\tBase tier : <400000 well\n\tIntermediate tier : >400000 well and <1000000  well\n\tAdvanced tier : >1000 well\no\tIf we are in a lower tier we would receive less rewards when lending and pay more when borrowing, but if we are for example in advanced tier we would receive more rewards and pay less when borrowing\n\n-\tExclusive markets for token holders\no\tWe can expose specific markets for users that are above a certain threshold of staking, or BETA markets with high rewards before exposing them to all the audience. I would suggest above >400000 well, since this is the threshold to create a governance proposal.\n\n-\tOption to stake for 1 year with the possibility of withdrawal.\no\tWe would provide the option of staking for 1year without the possibility of withdrawing the funds. The minimum of staked well should be 400000 well. The advantage of the user is with this option we would give more well rewards compared to the currently withdrawal period (10 days)\n\n-\tNone of the above, I have a better idea\no\tPlease write your idea in the comments\n\nThanks everyone!",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xfb98fbcb48332aB8832E6F008C7fC5C59bcF8bF4",
+      "totalVotes": 86,
+      "blockNumber": 4290126,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x27636fce27dd9cb9dcf48ede8883c962a83489abec61ddb2f385721caa9be936",
+      "startTime": {
+        "timestamp": 1692960068
+      },
+      "endTime": {
+        "timestamp": 1693219268
+      },
+      "startTimestamp": 1692960068,
+      "endTimestamp": 1693219268,
+      "currentState": "closed",
+      "choices": [
+        "Tier system",
+        "Exclusive markets",
+        "Stake for 1 year ",
+        "None (put on comments your idea)"
+      ],
+      "results": [
+        {
+          "total": 6231368.5,
+          "choice": 3
+        },
+        {
+          "total": 19603176.0,
+          "choice": 0
+        },
+        {
+          "total": 1245832.6,
+          "choice": 2
+        },
+        {
+          "total": 138137.66,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 19603176.45549176,
+          "choice": 0
+        },
+        {
+          "total": 138137.6523026616,
+          "choice": 1
+        },
+        {
+          "total": 1245832.710378724,
+          "choice": 2
+        },
+        {
+          "total": 6231368.516147533,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692960566645,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDAxYTcwMGVkMjUwNmFkOTg3NjA4ZWU5ZDhjNDYwOTkzMmMyYmQ0MTA3OTM4ZDRjZjY5YTg2OTdmODZmY2NlMzg=",
+      "id": "0x01a700ed2506ad987608ee9d8c4609932c2bd4107938d4cf69a8697f86fcce38",
+      "title": "Aerodrome DEX Liquidity Incentives",
+      "content": "Aerodrome DEX Liquidity Incentives\n\nForum Proposal:\nhttps://forum.moonwell.fi/t/aerodrome-dex-liquidity-incentives/585\n\nSummary\nI propose allocating ~52.7M currently unallocated WELL tokens to be used to incentivize an Aerodrome (DEX) liquidity pool for the WELL token on Base. This allocation will be used to incentivize veAERO holders to vote for this new WELL-WETH pool on Aerodrome, increasing AERO emissions for the pool and boosting useful liquidity for the token on Base.\n\nWhat is Aerodrome?\nAerodrome is a decentralized exchange (DEX) that is launching on Base on August 28th. It aims to be Base’s “central AMM and liquidity layer”. Aerodrome follows in the footsteps of its sister protocol Velodrome on Optimism, which is far and away the most popular AMM on the network, currently holding $203M of the network’s $748M TVL, or Total Value Locked.\nhttps://medium.com/@aerodromefi/introducing-aerodrome-9af62848b876\nhttps://velodrome.finance\n\nHow Does Aerodrome Work?\nAerodrome functions differently than traditional Uniswap v2 or v3 AMMs. Instead of directly adding incentives to a pool, incentives are used to encourage veAERO holders to vote for a specific pool. The more veAERO holders vote for a pool, the higher the AERO emissions (rewards) will be for that pool. AERO can be locked for veAERO and voting takes place on a weekly basis, known as an “epoch”. \n\nBy leveraging this mechanism, the Moonwell community can effectively steer AERO emissions toward this newly established WELL-WETH pool, stimulating liquidity and aligning incentives. This not only attracts more liquidity providers but ensures a more dynamic and responsive liquidity environment for the WELL token on Base.\n\nFor more information regarding Aerodrome mechanics, please visit the Velodrome (sister protocol) documentation page or watch this explainer video.\nhttps://docs.velodrome.finance/liquidity\nhttps://www.youtube.com/watch?v=gjVov4AxZAs&feature=youtu.be\n\nMotivation\nBy creating and incentivizing an Aerodrome liquidity pool for the WELL token, we can encourage LP participation and boost useful liquidity for the token on Base. This initiative aligns with the goals of:\n--Increasing exposure and utilization of the WELL token on Base.\n--Creating additional opportunities for Moonwell community members and WELL token holders.\n--Those providing WELL liquidity to the pool will receive AERO emissions, which can be locked for veAERO and used to vote/direct more AERO incentives to the WELL pool.\n--Decreasing slippage for those looking to swap the WELL token on Base.\n--Leveraging the opportunity to become an Aerodrome launch partner ahead of their August 28th launch date, enhancing Moonwell's standing in the Base ecosystem.\n--Velodrome, the sister protocol of Aerodrome on Optimism, is far and away the most popular AMM on the network. There is a good chance that Aerodrome rises to a similar level of prominence on Base.\n--By creating a pool in time for their Aug 28th launch date, Moonwell will be able to participate in comarketing and be incorporated into their launch announcements.\n\nImplementation Details\n--Allocation: As pointed out in 0xrobinhood’s recent snapshot proposal, 1.05% of the WELL token supply (52,725,802.60 WELL) is currently unallocated, following public sale refunds. \nhttps://snapshot.moonwell.fi/#/proposal/0xe49bdd6e8be600e122c394c3c740e432169252881351f7beb6f3e2c8ede974a9\n--Utilization: This unallocated 1.05% of the WELL token supply will be utilized to incentivize veAERO holders to vote for the WELL-WETH  pool on Aerodrome.\n--This will in turn increase AERO emissions (rewards) on the pool, boosting LP participation and liquidity.\n--Incentives Management: An additional Snapshot proposal will be required to appoint an Aerodrome liquidity manager(s) from the Moonwell community or contributor pool. \n--This person(s) or entity will be tasked with both managing WELL token incentives on Aerodrome, as well as keeping the Moonwell community informed of performance levels and any distribution changes.\n\nVoting Options\n--Yes: A \"Yes\" vote signifies your support for the creation of a WELL - WETH pool on Aerdodrome and the allocation of ~52.7M WELL tokens to be utilized as incentives for this new pool.\n--No: A \"No\" vote indicates your preference for the status quo; no changes should be made.\n\nConclusion\nThis proposal marks a significant and timely opportunity for the Moonwell community, laying the foundation for further growth and an expanded presence in the Base ecosystem. By acting quickly to both establish and incentivize a new WELL-WETH pool on Aerodrome, we can strategically align ourselves with the anticipated Aerodrome launch on August 28th. This alignment should not only increase exposure to Moonwell but also foster greater community engagement. By leveraging Aerodrome’s unique mechanisms, we can bolster useful liquidity of the WELL token, create new opportunities for WELL holders, minimize slippage for those looking to swap, and fortify our standing within the rapidly evolving Base ecosystem.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x584A036143C23ea13Fe4c44652030247565f296A",
+      "totalVotes": 102,
+      "blockNumber": 4278145,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x01a700ed2506ad987608ee9d8c4609932c2bd4107938d4cf69a8697f86fcce38",
+      "startTime": {
+        "timestamp": 1692815090
+      },
+      "endTime": {
+        "timestamp": 1693074290
+      },
+      "startTimestamp": 1692815090,
+      "endTimestamp": 1693074290,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 25942318.0,
+          "choice": 0
+        },
+        {
+          "total": 3638418.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 25942642.814539593,
+          "choice": 0
+        },
+        {
+          "total": 3638418.433918032,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692815399356,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGNmY2E4YTMyMjQ4NDBlZDQ5Zjk2YmNjZGZiM2M4OWUwNGViYzA0ZWQxM2MzZGYzNTI0ZTdkM2E1ZDA5MTYxNjE=",
+      "id": "0xcfca8a3224840ed49f96bccdfb3c89e04ebc04ed13c3df3524e7d3a5d0916161",
+      "title": "Warden Finance - Moonwell Base Rewards Optimization",
+      "content": "# Summary\nWarden Finance proposes to manage and optimize the market rewards allocation on Moonwell’s Base deployment.\n\nThis additional role complements the risk management and analytics services that we already provide to the DAO. This role will enable us to further optimize the protocol’s growth and simplify interest rate model parameter updates.\n\n# Context\nFollowing MIP-B0’s vote and the successful deployment of Moonwell on Base chain, the protocol has been incentivizing markets using WELL. This snapshot indicates that the DAO wants to redirect 217,500,000 WELL from the ecosystem development funds to Base as incentives.\n\nCurrently, changes to the incentive distribution allocation go through governance. Over time these frequent updates will likely lead to governance fatigue and unnecessary overhead. The protocol’s governance contracts allow an admin to make those changes without overloading the governance process.\n\nThe admin role grants permissions to set reward stream settings (supply and borrow reward speeds, reward end and admin) for every market and reward token.\n\nThis proposal aims to enable the Warden Finance team to propose and implement reward emissions changes on behalf of the community based on our rewards allocation framework.\n\n# About us\nWarden Finance is a team of software engineers and financial analysts that have extensive experience in crypto, finance and software. We specialize in helping DeFi protocols manage risk and surface meaningful data with the help of custom tooling and in depth on-chain analysis. We strive to make DeFi more secure, comprehensible and empower its users to participate along with us.\n\nIn the past years, not only have we been closely collaborating with the Moonwell team, but we’ve also been working with multiple other notable projects and DAOs like AAVE, Compound, Uniswap, Euler, and Notional.\n\nOur biggest contribution to DeFi is our open risk & analytics platform.\n\nWe currently provide bi-weekly analysis of Moonwell’s risk parameters and propose parameters for new asset onboardings to Base in efforts to foster Moonwell’s growth. We believe that we have the right expertise and tools to help the DAO allocating incentives on Moonwell’s Base deployment.\n\n# Proposal\n## Objectives\nOur rewards distribution methodology aims to fulfill the following objectives:\n\n1. Help bootstrap new markets: Provide incentives for users to participate in markets that have initially very low liquidity.\n2. Incentivize sufficient liquidity: Provide incentives to attract and maintain sufficient liquidity to allow borrowers to interact with the protocol at scale.\n3. Generate sustainable growth for the protocol: Attract new lenders and borrowers and increase Moonwell’s lending market share on Base.\n4. Minimize friction: Minimize the frequency of interest rate curve updates and minimize the frequency of rewards changes. Previsible updates will help borrowers and lenders to confidently deploy funds to the protocol.\n## Key Principles\n* Quantitative-based approach: Our rewards optimization methodology takes into account specificities of individual markets and adapts to evolving market conditions.\n* Predictability: In order to provide better user experience, our rewards distribution model aims to be as consistent as possible through time.\n* Transparency: Data points along with methodology documentation will be available for the community on the Warden Risk & Analytics platform.\n## Methodology\nIn order to optimize rewards for the above goals, our methodology takes into consideration multiple factors.\n \n![image](ipfs://bafkreier6634axjerausy52u4uuh63xyupekded3jewimyuo7ckrechmfy)\n    \n### Market utilization and IRM concerns\nThe effective supply and borrow interest curves are determined by both interest rate curve models and reward rates. The resulting interest rate curve aims to maximize borrowing activity while mitigating risks associated with high utilization levels.\n\nWhile interest rate model changes are sometimes necessary for conducting major changes to the curve, reward adjustments offer an additional lever to influence the supply and borrow demand for individual markets.\n\nElasticity (responsiveness of suppliers & borrowers to changes in rates)\nRewards should be allocated to markets where the impact of rewards on supply and borrow rates is most likely to help generate sustainable growth.\n\nFor example, borrowing demand for WBTC and LST assets has historically been very inelastic to rates across most lending protocols.\n\nOn the other hand, demand for lending and borrowing stable assets is usually more elastic to rates.\n\n### Distribution of lenders and borrowers\nRewards may be useful to improve the distribution of lenders and borrowers by attracting new users to specific markets. A more diversified lender and borrower base can lead to more stable rates across time as no individual actor can heavily influence rates.\n\n#### Scale of the market\nReward rates should be set to some extent proportionally to market size.\n\nCompetitiveness with other lending protocols on Base\nIn order to capture market share, the protocol needs to offer competitive rates across different markets. This is especially true for markets that are used for popular strategies amongst DeFi users and are susceptible to attract big volumes.\n\n### Specific considerations for individual markets\nFor example, rewards should be optimized with consideration for specific leveraged yield strategies. This logic can be applied to multiple market pairs.\n\nUnder normal market conditions, we propose rebalancing incentives on a monthly basis. Rewards may need to be changed under exceptional circumstances (i.e significant market movements)\n\n# Scope\nWarden Finance is offering to manage the incentives distribution for the next 12 months, or 13 epochs of 28 days to follow the current Moonbeam and Moonriver schemes. A governance forum post will be put up before each period for discussion and transparency.\n\nAll current and future markets for the Base chain are in the scope of this proposal.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x70cd17186aae48729f12dBA63Ba5a9aBE7b4116D",
+      "totalVotes": 79,
+      "blockNumber": 4249494,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0xcfca8a3224840ed49f96bccdfb3c89e04ebc04ed13c3df3524e7d3a5d0916161",
+      "startTime": {
+        "timestamp": 1692468403
+      },
+      "endTime": {
+        "timestamp": 1692727603
+      },
+      "startTimestamp": 1692468403,
+      "endTimestamp": 1692727603,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 16191267.0,
+          "choice": 0
+        },
+        {
+          "total": 5839470.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 16191266.840890124,
+          "choice": 0
+        },
+        {
+          "total": 5839470.078443431,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692468496675,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGU0OWJkZDZlOGJlNjAwZTEyMmMzOTRjM2M3NDBlNDMyMTY5MjUyODgxMzUxZjdiZWI2ZjNlMmM4ZWRlOTc0YTk=",
+      "id": "0xe49bdd6e8be600e122c394c3c740e432169252881351f7beb6f3e2c8ede974a9",
+      "title": "Onboarding the Apollo Community to Artemis (community proposal)",
+      "content": "GM Everyone\n\n\n\nVoting Guidelines: 2 Options\n\n-Yes ( Apollo receives [1.05%] (equivalent to 52,725,802.60 WELL) \ncheck the release schedule and eligibility in the proposal.\n\n-No ( please provide feedback, in the comments or Forum )\n\nwe only received 1 Feedback, that was about the price action:) its a bit silly at the day of a big crypto crash.\n\n\n\nIntro\n\nFollowing the recent Multichain incident, the Apollo community discussed possible solutions and further procedures. As everyone knows these are not easy times for the Moonriver ecosystem. Potential solutions take time and depend on many different stakeholders. This is very unfortunate for the Apollo community, because before the first signs of a potential problem with Multichain appeared, Apollo was by far the largest Defi protocol in the Kusama ecosystem.\n\nProposal\n\nThe Apollo community would like to offer the following proposal to the Artemis community. It consists in rewarding the most loyal Apollo members and turning them into Artemis community members and WELL tokenholders. Many Web3 projects struggle to mobilize their Tokenholders for Governance, voter participation is very low and the quorum is only reached at the last moment. Unfortunately It’s no different with Moonwell. That’s why the Apollo community thinks the merger of Apollo and Artemis users is a win-win situation.\n\nTokenomics\n\nI can imagine that many shareholders have a say in the distribution of the tokens and that changes can only be implemented with great difficulty. That’s why the Apollo community studied the Transparency Report closely and found a suitable solution. We have found the following position in the Tokenomics, it is a refund from the public sale event. 1.05% total supply.\n\nNote: this includes adjustments that occurred after the public sale completion, where a total of $1,370,870.87 [1.05%] (equivalent to 52,725,802.60 WELL) were refunded after a public audit revealed ineligible transactions.\n\nSince this refund was not planned and every stakeholder and shareholder expected these tokens to be put into circulation, this has no negative impact if these tokens are subsequently distributed. From our point of view it is a happy coincidence, there will be no changes to the original token distribution and it is a good incentive for the loyal Apollo community to be part of the Artemis world of Moonwell.\n\nDistribution\n\nThe Apollo Community suggests the following distribution:\n\n1.05% equivalent to 52,725,802.6 WELL Tokens are Distributed to $Mfam safety module stakers ( stkMFAM Holders ) with a release schedule of 12months.\n\nEligibility criteria:\n\nHold stkMFAM at Multichain incident MIP 60\nHold at least the same amount of stkMFAM at the time of this proposal # [4898287]\nThe WELL tokens will be distributed evenly among the stkMFAM holders with the balance at the time of MIP60\n\nIn this way it can be ensured that nobody creates an advantage for themselves.\nThe release schedule should also emphasize once again that this proposal is intended to involve valuable community members to Artemis. More criteria can be added as well.\n\nTimeline\n\nThis proposal is open for discussion with the Artemis community. After the discussion period (3-4 days), there will be a snapshot 1 voting for WELL token holders with 2 options YES / NO. And the last step will be an on-chain voting with the WELL distribution to the Claims contract. As far as I know, this step is necessary when transferring out of the treasury.\n\nThere is no timeline for distribution to the Apollo community yet, nor is it the goal to use up unnecessary resources, so our suggestion is to use the resources that are available. For example the already developed 12 month release schedule from the public sale as well as the existing claims.moonwell website.\n\nNotes\n\nMany Dotsama projects are having a difficult time and with this proposal we can motivate other projects to involve the “canary” community more. As mentioned at the beginning, win-win situation.\n\nThere was no airdrop for Apollo users when Artemis was launched, but Apollo users were whitelisted for public sale. Moonwell decided against an airdrop for understandable reasons (not sustainable), but after 18 months one can assume loyal community members\n\nThe Apollo community is very open to offering the same for the Artemis community at a later date and making every Artemis member an Apollo member as well.\n\nthanks for reading, your Apollo community",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xbaA0b77700482d2C0c19f804e563C0B62c9934d3",
+      "totalVotes": 74,
+      "blockNumber": 4241788,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0xe49bdd6e8be600e122c394c3c740e432169252881351f7beb6f3e2c8ede974a9",
+      "startTime": {
+        "timestamp": 1692376200
+      },
+      "endTime": {
+        "timestamp": 1692635400
+      },
+      "startTimestamp": 1692376200,
+      "endTimestamp": 1692635400,
+      "currentState": "closed",
+      "choices": [
+        "YES, <3 for Apollo",
+        "NO, Please provide Feedback"
+      ],
+      "results": [
+        {
+          "total": 4165867.8,
+          "choice": 0
+        },
+        {
+          "total": 25045196.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4165868.2169893472,
+          "choice": 0
+        },
+        {
+          "total": 25045195.25220355,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692375557099,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDc2NGQ2MTQwMTA0NjRmZjg2ZGZmYThjOWUzNjk1NjA0NDMyZDcwNDM0ZjgzZjU1ZDk3NTBhNGVmMzQ3M2UwODM=",
+      "id": "0x764d614010464ff86dffa8c9e3695604432d70434f83f55d9750a4ef3473e083",
+      "title": "Add More Utility To The $WELL Token",
+      "content": "\"Hello everyone, with the recent deployment of Moonwell on Base, I believe it's the perfect time to add more utility to the WELL token, such as sharing platform revenues with WELL holders – a model similar to that of Radiant Capital, for example. I think it's crucial for us to differentiate ourselves from other protocols, which would likely increase our popularity and attract numerous new users. I understand that this could complicate matters with market regulators. Therefore, I would like to gauge the users' sentiment through a vote and determine if you agree with me or not.\"",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x155475353D0a4B0e64AB42C1C22186B2E2560e2c",
+      "totalVotes": 85,
+      "blockNumber": 4221226,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x764d614010464ff86dffa8c9e3695604432d70434f83f55d9750a4ef3473e083",
+      "startTime": {
+        "timestamp": 1692126479
+      },
+      "endTime": {
+        "timestamp": 1692385679
+      },
+      "startTimestamp": 1692126479,
+      "endTimestamp": 1692385679,
+      "currentState": "closed",
+      "choices": [
+        "Yes ",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 32878488.0,
+          "choice": 0
+        },
+        {
+          "total": 99082.11,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 32878527.059606824,
+          "choice": 0
+        },
+        {
+          "total": 99082.10929639048,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692126524086,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDRkM2NkMzk2YmQzMGNmYjJiMjJhZjMyY2E2MDQ2Y2QwNWViNmFjMDE2YmFmNDY5NzUzYTZhYTQ1MjBmYWRhMmM=",
+      "id": "0x4d3cd396bd30cfb2b22af32ca6046cd05eb6ac016baf469753a6aa4520fada2c",
+      "title": "WELL Rewards for Moonwell’s Base Deployment",
+      "content": "## Summary\n\nThe activation of the Moonwell protocol on Base, endorsed by the passage of [MIP-B0](https://gov.moonwell.fi/artemis/proposal/39), opens an exciting new chapter in Moonwell's development. The community now faces the strategic decision of determining how to allocate and distribute WELL incentives between the existing Moonbeam deployment and the new Base deployment. This proposal maps out various paths for consideration, placing this important decision squarely in the hands of the Moonwell community. \n\n## Background\nThe Lunar Technology Foundation has allocated [15% of the WELL token supply](https://medium.com/lunartechfdn/well-transparency-report-8dfeb91f5176) (750,000,000 WELL) over 4 years, to be used as protocol rewards to incentivize liquidity providers on Moonwell. These rewards are balanced across Moonwell’s Moonbeam markets through Moonwell Improvement Proposals, based on TVL in each market. The most recent example of such a proposal was [MIP-63](https://gov.moonwell.fi/artemis/proposal/38), which transfers 5,048,077 WELL tokens to the Moonwell comptroller contract, to be rewarded to liquidity providers (suppliers) on Moonwell’s Moonbeam markets over the next four weeks.\n\nAs Moonwell is activating on Base, a reevaluation of WELL emissions is essential to align with the community's preferences and strategic goals. Unlike Moonwell’s deployment on Moonbeam, which also has GLMR rewards, it is unclear whether there will be any ecosystem grants to put towards liquidity incentives on Base. It’s crucial that we act promptly to decide the best path forward for adding WELL liquidity incentives on Base markets.\n\nI have outlined a few potential options for the community to consider and vote upon below.\n\n## Options for Consideration\n**Redirect Unused Ecosystem Development Funds:**\n- 1,467,500,000 WELL or 29.35% of the total token supply has been allocated for Ecosystem Development. \n   - This allocation not only comprises the 15% (750m WELL over 4 years) currently being utilized to incentivize markets on Moonbeam, but also a 10% allocation for developer grants (500m WELL) and 4.35% additional unallocated funds (217.5m WELL).\n\n- The 217,500,000 WELL (4.35% of total supply) has not been utilized and could be allocated towards incentivizing markets on Base.\n   - The main advantage of this path would be that markets on Base could be incentivized more quickly. Other options below will require the passage of a new reward speed proposal like the aforementioned MIP-63, which take place every four weeks. \n\n**Split the Existing 750m WELL Currently Allocated for Liquidity Incentives:** \n- Split based on TVL (Total Value Locked)\n   - Proportionally split the currently allocated 750m WELL between Moonbeam and Base deployments based on the TVL in each network.\n- Fixed Percentage Split: Predetermined ratio of the currently allocated 750m WELL liquidity incentives between Moonwell’s Base and Moonbeam deployments.\n   - 50% to Base and 50% to Moonbeam\n   - 75% to Base and 25% to Moonbeam\n\n## Voting\nThis will be a ranked choice Snapshot vote. Please vote in order of preference:\n- Option 1 - Redirect previously unallocated liquidity incentives\n- Option 2 - Split existing allocation based on TVL\n- Option 3 - Fixed split of existing allocation (50% to Base and 50% to Moonbeam)\n- Option 4 - Fixed split of existing allocation (75% to Base and 25% to Moonbeam)\nBased on the results of this snapshot vote, the option with the highest community support will be implemented, ensuring that the distribution of WELL incentives aligns with the community's desires.\n\n## Conclusion\nThe activation of the Moonwell protocol on Base marks a momentous milestone, ushering in new possibilities and challenges alike. One of the first questions we as a community need to come together to decide upon is what WELL incentives will look like on Base and Moonbeam going forward.\n\nCommunity members are encouraged to engage in open dialogue on the [governance forum](http://https//govformlink.com), participate in snapshot voting, and help shape the future of WELL incentives on Moonwell’s Moonbeam and Base deployments. By placing this critical decision in the hands of the community, Moonwell continues to embody the principles of decentralized governance and community-driven development.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x7F953f11343408eBCcaEcd04eB0D1E6bacDEf87F",
+      "totalVotes": 157,
+      "blockNumber": 4171978,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x4d3cd396bd30cfb2b22af32ca6046cd05eb6ac016baf469753a6aa4520fada2c",
+      "startTime": {
+        "timestamp": 1691529208
+      },
+      "endTime": {
+        "timestamp": 1691788408
+      },
+      "startTimestamp": 1691529208,
+      "endTimestamp": 1691788408,
+      "currentState": "closed",
+      "choices": [
+        "Redirect unallocated incentives",
+        "Split existing allocation on TVL",
+        "50% to Base and 50% to Moonbeam",
+        "75% to Base and 25% to Moonbeam"
+      ],
+      "results": [
+        {
+          "total": 455668.47,
+          "choice": 3
+        },
+        {
+          "total": 29654658.0,
+          "choice": 0
+        },
+        {
+          "total": 4875053.5,
+          "choice": 2
+        },
+        {
+          "total": 341787.78,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 29654656.25574515,
+          "choice": 0
+        },
+        {
+          "total": 341787.76684486296,
+          "choice": 1
+        },
+        {
+          "total": 4875053.820577085,
+          "choice": 2
+        },
+        {
+          "total": 455668.4716240065,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1691529509660,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGE4ZDU2Yjc1ZDM1NzYxODA1YzNmYmU2MzMwNTdhMjQ4NGI3MDk0ZWRlMGUxMGU1MGRlNzg5MjZhOGU4NjdhZGQ=",
+      "id": "0xa8d56b75d35761805c3fbe633057a2484b7094ede0e10e50de78926a8e867add",
+      "title": "Gauntlet's Initial Recommendations for Moonwell on BASE and Cap Gaurdianship",
+      "content": "# Summary\nThis is a snapshot proposal for Gauntlet's Initial Recommendations for Moonwell on Base and to become Suppy/Borrow Cap Guardians. Here is a [link](https://forum.moonwell.fi/t/gauntlets-initial-recommendations-for-moonwell-on-base/536) to the forum post. Gauntlet will propose four risk recommendations in this forum regarding the Base protocol under one snapshot vote in which we will have the following options:\n\n- Risk averse w/ Supply/Borrow Cap Guardian\n- Risk tolerant w/ Supply/Borrow Cap Guardian\n- Risk averse w/o Supply/Borrow Cap Guardian\n- Risk tolerant w/o Supply/Borrow Cap Guardian\n\nWe have coalesced our Asset Risk tolerance and Gauntlet's Guardian proposal under one snapshot to simplify the voting process and provide clear next steps. By utilizing a cap guardian role, the community is better suited to optimize for capital efficiency and risk. Gauntlet has provided cap recs for Artemis and Apollo for 10+ months, and we are excited to continue supporting Moonwell for the BASE launch. **Gauntlet recommends becoming a Supply/Borrow Cap Guardian.**\n\n\n# Asset Recommendations\n\nRegarding the initial listing of assets on the Base Protocol, Gauntlet presents two options for Collateral Factors to the community. Option 1 is a highly conservative approach to testing the new Base mechanics. The conservatism stems from market risk, Gauntlet's primary focus, smart contracts, and other technical risks. Initially, the collateral factor will be set to 0 for these liquidity pools, with further recommendations to follow once user positions flow into the pools. On the other hand, Option 2 is less conservative and assumes that the community is more risk tolerant, and does not require extensive testing of BASE mechanics on a new chain.\n\n### Collateral Factor Options\n\n**Option 1 (Risk Averse)**\n| Asset | USDC | WETH | WBTC | cbETH | wstETH |\n| --- | --- | --- | --- | --- | --- |\n| Collateral Factor | 0% | 0% | 0% | 0% | 0% |\n\n**Option 2 (Risk Tolerant)**\n\n| Asset | USDC | WETH | WBTC | cbETH | wstETH |\n| --- | --- | --- | --- | --- | --- |\n| Collateral Factor | 80% | 75% | 70% | 73% | 73% |\n\n**Gauntlet plans to empower the community to choose between the 2 options by submitting a snapshot for community members to decide what collateral factors to list with these liquidity pools during the initialization of the Base protocol.**\n\n### General Recommendations\n\n**Regardless of the options chosen by the community, these parameter recommendations will remain applicable for all options.**\n\n**Risk Parameters**\n\n| Asset | USDC | WETH | WBTC | cbETH | wstETH |\n| --- | --- | --- | --- | --- | --- |\n| Liquidation Incentive | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 |\n| Supply Cap | 40,000,000 ($40M)  | 10,500 ($20M) | 330 ($10M) | 5,000 ($10M) | 3,700 ($8M) |\n| Borrow Cap | 32,000,000 ($32M)  | 6300 ($12M) | 132 ($4M) | 1500 ($3M) | 1110 ($2.3M) |\n\n**IR Recommendations**\n\n| IR Parameters | USDC | WETH | WBTC | cbETH | wsETH |\n| --- | --- | --- | --- | --- | --- |\n| Base | 0 | 0.02 | 0.02 | 0.01 | 0.01 |\n| Kink | 0.8 | .6 | .6 | .45 | .45 |\n| Multiplier | 0.05 | 0.15 | 0.15 | 0.2 | 0.2 |\n| Jump Multiplier | 2.5 | 3 | 3 | 3 | 3 |\n| Reserve Factor | 0.15 | 0.25 | 0.25 | 0.25 | 0.25 |\n\n\n# Supply & Borrow Cap Guardians Recommendation\n\n### Enable Gauntlet as Supply & Borrow Cap Guardian\n\nTo enhance risk management and promote efficient growth within the BASE protocol, Gauntlet proposes to serve as Supply and Borrow Cap Guardians, enabling the moonwell community to delegate the authority to adjust caps to our Gauntlet. Within the Moonwell technical [docs](https://docs.moonwell.fi/moonwell-finance/protocol-info/technical-docs/the-comptroller/guardian-roles#borrow-cap-guardian), it is stated that this Cap Guardian function “is useful if you wanted to delegate the adjustment of the borrow caps across markets to someone who specializes in these sorts of adjustments without giving them administrative access across the rest of the protocol.” As a community participant specializing in these adjustments, Gauntlet recommends being added as Guardian. We seek this guardianship for the following reasons:\n\n- **Proactive Cap Adjustments**: With this responsibility, we can promptly modify caps in response to market risk events, on-chain DEX liquidity fluctuations, and changes in liquidity pool usage.\n- **Streamlined Process:** Will simplify voting overhead and operations.\n- **Expedited Recommendations**: Gauntlet can recommend borrow and supply cap adjustments without being subject to the standard 3-day voting period and timelock, thereby increasing the speed of implementing cap changes.\n\nIf entrusted with Guardian, Gauntlet commits to adhere to the following limitations when making supply and borrow cap adjustments: \n\n- For each asset, only 1 **increase** is allowed every 5 days.\n- The supply cap can never be **increased** above 100% of the current one.\n- The borrow cap can never be **increased** above 100% of the current one.\n\nFurthermore, Gauntlet will ensure transparency and community engagement by notifying the community of cap changes and providing reasoning through forums.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xa28b7D23e9F8D8d5346A7901ecC9eC8ea48bAEcD",
+      "totalVotes": 147,
+      "blockNumber": 4070697,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0xa8d56b75d35761805c3fbe633057a2484b7094ede0e10e50de78926a8e867add",
+      "startTime": {
+        "timestamp": 1690302771
+      },
+      "endTime": {
+        "timestamp": 1690561971
+      },
+      "startTimestamp": 1690302771,
+      "endTimestamp": 1690561971,
+      "currentState": "closed",
+      "choices": [
+        "Risk averse w/ Cap Guardian",
+        "Risk tolerant w/ Cap Guardian",
+        "Risk averse w/o Cap Guardian",
+        "Risk tolerant w/o Cap Guardian"
+      ],
+      "results": [
+        {
+          "total": 2715434.2,
+          "choice": 3
+        },
+        {
+          "total": 7466770.0,
+          "choice": 0
+        },
+        {
+          "total": 30737.125,
+          "choice": 2
+        },
+        {
+          "total": 11364411.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 7466770.023066638,
+          "choice": 0
+        },
+        {
+          "total": 11364412.558174685,
+          "choice": 1
+        },
+        {
+          "total": 30737.125666582375,
+          "choice": 2
+        },
+        {
+          "total": 2715434.429573589,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690303526434,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDM5NjFhM2RkNzYzZTExZTgyYmI3N2E0MTBmM2JmZjNjYWIyZjU5NTg5ODgxZjkwMjAxYTdlNjBkOTE2OWU0Njc=",
+      "id": "0x3961a3dd763e11e82bb77a410f3bff3cab2f59589881f90201a7e60d9169e467",
+      "title": "MGP-4 Moonwell-ITB Risk Management Tools Phase II",
+      "content": "Authors: IntoTheBlock Research\nMay 30, 2023\n\n\n### Summary\n\nPhase I of ITB’s Risk Management Tools were successfully launched, with indicators being freely accessible through the following link 1. In addition, CSV downloads for each metric are available within the platform, API access was shared with core contributors and extensive documentation was provided diving into the indicators.\n\nTo further expand risk management capabilities for Moonwell, ITB seeks to apply for Phase II of the grant, targeting the following deliverables:\n  1.  10 new indicators to add to the risk dashboard\n  2. API access and CSV download for all metrics\n  3. Documentation of Moonwell’s risk indicators and general dynamics\n  4. Add Base (Coinbase L2) support for risk metrics\n\n### Overview\n\nOver the past two years IntoTheBlock has been heavily involved in DeFi. This started with the launch of DeFi Insights analytics and has grown significantly through our Institutional Quantitative Strategies (ITB Quant) service. ITB’s DeFi Quant platform acts as a gateway used by 20+ of the largest crypto institutions to access its DeFi yields via sophisticated quantitative strategies with appropriate risk management models. Moonwell’s strategy is one of the latest additions to the ITB DeFi Quant platform, with ITB clients depositing several millions into the protocol.\n\nTo streamline institutional adoption of DeFi, IntoTheBlock decided to make risk metrics and models accessible via APIs and analytics dashboards. The purpose of this proposal is to make these risk models available to Moonwell’s institutional and individual investors.\n\n### Motivation\n\nMonitoring and managing risk is paramount to any financial service. Recent events in the DeFi market prove that risk management is essential to accelerating the growth of the space. At ITB we believe that risk management in DeFi should be done out in the open, following crypto’s ethos, and not be a luxury expense.\n\nFollowing ITB’s experience safeguarding hundreds of millions into DeFi through advanced risk management models, we believe that expanding these tools and offering them to Moonwell would help make DeFi safer over the mid-to long-term. Enabling Moonwell’s community to monitor real-time economic risks should be a key factor in boosting institutional and retail investor confidence.\n\n### Implementation\n\nIntoTheBlock has structured this grant within two phases. After successfully shipping all deliverables from Phase I on time, IntoTheBlock is proposing to continue forward with Phase II with the following:\n- 10 new indicators to add to the risk dashboard (specific metrics are covered within the following document)\n- API access and CSV download for all metrics\n- Documentation of Moonwell’s risk indicators and general dynamics\n- Add Base (Coinbase L2) support for risk metrics\n\nThese indicators are open to modification after receiving feedback from the Moonwell community and other Moonwell contributors. IntoTheBlock is dedicated to maintain and expand the capabilities of the Moonwell risk monitoring solution that address changes to the protocol or market conditions.\n\n### Grant Milestones & Payments\n\nFor Phase II, IntoTheBlock is requesting a total of $30k upon the start of the aforementioned deliverables.\n\nWe are targeting a launch 30 days after the proposal passes for Phase II.\n\nThe exchange rate of WELL/USD will be the 30-day time-weighted average price (TWAP) prior to the date the proposal is submitted to an on-chain vote. The price source will be the close price of WELL published by CoinMarketCap.\n\nThe release of these milestones will also be accompanied with a marketing push from the IntoTheBlock team to increase the visibility of these tools.\n\n### Conclusion\n\nIntoTheBlock’s proposal looks to expand the offering of real time economic risk monitoring for the Moonwell protocol. The risk indicators included in this proposal are based on IntoTheBlock’s experience managing and monitoring risks for institutional clients depositing into Moonwell and similar protocols. This release is part of a broader effort to democratize access to risk management tools for all DeFi users, including those of the Moonwell protocol.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xa564B8fbB6542637ECf6fEde24F1CBFd2bE70103",
+      "totalVotes": 192,
+      "blockNumber": 3680996,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x3961a3dd763e11e82bb77a410f3bff3cab2f59589881f90201a7e60d9169e467",
+      "startTime": {
+        "timestamp": 1685547331
+      },
+      "endTime": {
+        "timestamp": 1685806531
+      },
+      "startTimestamp": 1685547331,
+      "endTimestamp": 1685806531,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 153912640.0,
+          "choice": 0
+        },
+        {
+          "total": 3289034.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 153912599.5093908,
+          "choice": 0
+        },
+        {
+          "total": 3289034.5841052365,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685547484030,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGUzYWI5MDI3OGYxNGIyNWQ0OThhN2VjYTI3NDU1OGE0MTRhYWVjOGJjZGYyMDE1YjFhY2ZlYmU4YTBiOWE4MzE=",
+      "id": "0xe3ab90278f14b25d498a7eca274558a414aaec8bcdf2015b1acfebe8a0b9a831",
+      "title": "Proposal To Reduce the Proposal Reward From 100,000 Well to 10,000 Well",
+      "content": "Moonwell’s community members are encouraged to submit proposals to improve the platform and community. However, the current proposal reward of 100,000 WELL may incentivize some individuals to write proposals for personal gain rather than for the benefit of the community. Therefore, we propose to reduce the proposal reward from 100,000 WELL to 10,000 WELL.\n\nThe reduction of the proposal reward from 100,000 WELL to 10,000 WELL will significantly reduce the risk of personal gain from proposal writing while still providing a fair compensation for the time and effort put into creating a proposal. The money saved from this reduction can be utilized for various incentive programs such as Crew3 Quests, which currently offers a first-place reward of only $100, which is ten times less than the current proposal reward. By reallocating the funds saved, we can offer more significant rewards for incentive programs, motivating community members to engage and participate more actively.\n\nMoreover, the funds saved from the proposal reward reduction can also be used to improve Moonwell’s marketing and advertising campaigns. An enhanced and more effective marketing and advertising strategy can attract more clients and create a more positive image in the media, ultimately driving growth and increasing the platform’s overall value.\n\nIn summary, by reducing the proposal reward from 100,000 WELL to 10,000 WELL, we can reduce the risk of personal gain and reallocate the funds saved to enhance Moonwell’s incentive programs and marketing efforts. We believe that these changes will benefit the community as a whole and help drive long-term growth and success for Moonwell. Therefore, we urge the community to consider this proposal and vote in favor of its implementation.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x0128cD2Dae8c8de4B6cCc48289e934b3d3057D35",
+      "totalVotes": 219,
+      "blockNumber": 3449736,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0xe3ab90278f14b25d498a7eca274558a414aaec8bcdf2015b1acfebe8a0b9a831",
+      "startTime": {
+        "timestamp": 1682713974
+      },
+      "endTime": {
+        "timestamp": 1682973174
+      },
+      "startTimestamp": 1682713974,
+      "endTimestamp": 1682973174,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 17718340.0,
+          "choice": 0
+        },
+        {
+          "total": 329963.28,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 17718340.932853226,
+          "choice": 0
+        },
+        {
+          "total": 332727.8695733121,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682714324323,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGFmYzQ5ZmEzN2UyYjI5NjM1MDZjZTE4OGJkZTgxMzNhNjY1ZWZjYmQ5ZjJlZmQyZjg5NGM0OTljZDhjYTIxZTE=",
+      "id": "0xafc49fa37e2b2963506ce188bde8133a665efcbd9f2efd2f894c499cd8ca21e1",
+      "title": "MGP-3 Anthias.xyz x Moonwell Liquidation Health Tooling Grant Proposal",
+      "content": "Title: MGP-3 [Anthias.xyz](https://www.anthias.xyz/) x Moonwell Liquidation Health Tooling Grant Proposal\nAuthor(s): 0xBroze + Anthias Team (0xBroze#1326 in Moonwell Discord)\nForum Discussion: https://forum.moonwell.fi/t/anthias-xyz-x-moonwell-liquidation-health-tooling-grant-proposal/461\nSubmission Date: April 24, 2023\n\n\n## Proposal Overview \n\n### Simple Summary\n\nThe Anthias team is proposing a grant to build a series of Moonwell-specific liquidation health dashboards for the Moonwell borrowing and lending markets. These analytics dashboards will exist for the Moonwell community, enabling stakeholders within the Moonwell borrowing & lending ecosystem to manage liquidation cascade risk and more. This analytics dashboard will be available for both Moonwell Artemis on Moonbeam and Moonwell Apollo on Moonriver, so all Moonwell users can more effectively monitor and manage liquidation risk. On top of this, we look forward to supporting the Base deployment of Moonwell as well and will integrate there too as part of this grant once that is launched. We look forward to building a long-term relationship with the Moonwellians and continually adding to these dashboards based on community feedback.\n\n### About Anthias + Abstract\n\nThe Anthias team is composed of three members of [Dartmouth Blockchain](https://dartmouthblockchain.com/). Our philosophy is to continually provide value to the blockchain ecosystem through shipping useful products and research. We have extensive experience in DeFi, having contributed at Primitive Finance, Yeti Finance, TempleDAO, and more. We have shipped multiple grants for [Euler](https://snapshot.org/#/eulerdao.eth/proposal/0x65a56c2a7f8ce23a814786517a4d4d1eb340f7ebc5058af47898aef23c36a04a) and [Aave](https://twitter.com/anthiasxyz/status/1643281017069813760?s=20) and have recently been approved for integrations with Compound V2 and V3 as well as Exactly Protocol.\n\nThis liquidation dashboard will improve the Moonwell stakeholder/token holder experience by allowing users to identify wallets close to liquidation on Moonwell and position themselves accordingly. The recent crash of May 2022 was caused largely by a series of liquidation cascades as large whale wallets were liquidated. As liquidators sold massive amounts of collateral on exchanges, collateral prices dropped, which resulted in more liquidations. We created Anthias to democratize liquidation health data of all wallets, so all users are able to manage liquidation risk more effectively.\n\n## Previous Work Showcase\n\n### Aave\n\n- We created our initial dashboard in June of 2022 to monitor liquidation health on Aave after the Terra/Luna collapse.\n- We completed our first grant for Aave in October of 2022. In this grant, we expanded our initial Aave dashboard to allow users to view historical liquidation health data in order to develop an even clearer picture around market risk.\n\n### Euler\n\n- We completed our first grant for Euler in September of 2022. This grant was to integrate our initial liquidation health dashboard with Euler.\n- Our second Euler grant was completed in January of 2023. With this grant, we expanded our tool suite for Euler to do Value at Risk monitoring and simulations, in-depth asset and health score filtering, and a more granular wallet view to show covariance among assets individual users were borrowing and supplying.\n\n### Compound\n\n- We were approved for our first integration with Compound V2 and V3 in March of 2023. This grant is to integrate our initial liquidation health dashboard with both Compound V2 and V3.\n\n### Exactly\n\n- We were approved for our first integration with Exactly Protocol in February of 2023. This grant is to integrate our initial liquidation health dashboard with Exactly on both Ethereum and Optimism.\n\n## Motivation\n\nThere are a number of risk vectors in borrowing and lending protocols, including smart contract risk, price oracle manipulation risk, governance / pool management risk, and market risk (liquidations + bad debt). As protocols like Moonwell continue to onboard more users, it is increasingly important to equip users with necessary risk-management analytics for healthy activity. Safeguarding users against risk ensures the long-term sustainability of the protocol, as well as an improved user experience (competitive differentiation with other borrowing and lending protocols).\n\nProjects like Gauntlet Network and RiskDAO have showcased what is possible with on-chain analytics for DeFi. On a longer term horizon, we hope to expand on previous projects in two ways: historical data and granular daily data. We will store various metrics (some already live at Anthias.xyz), including Aggregate Liquidation Health, Total Collateral Value at Risk, Wallets at Risk, and more. Users will be able to monitor the historical trends of these metrics, while also viewing granular breakdowns of these metrics per day. We see Anthias as a useful public good for various stakeholders within the Moonwell ecosystem to manage risk: the DAO governors, users (borrowers and lenders), and researchers. The Anthias team prides itself on making risk management tools usable by all stakeholders–we will continue that mission via these tools for the Moonwell community.\n\n## Specification & Implementation\n\nWe are proposing a grant to fund the development of integrating a Moonwell dashboard with Anthias.xyz for the Moonwell borrowing and lending market with the deliverables listed below:\n\n- Live metrics presented: Active Wallets, Wallets at Risk, and Aggregate Liquidation Score\n- Table view presented: Active Wallets (includes address, supply amount, borrow amount, and liquidation health)\n- Graph view presented: Active wallets (includes liquidation health and wallet size visualization)\n- The ability for users to download a CSV of the data presented in the Table View, so that data can be used in modeling\n- Wallet View that displays collateral and debt by asset for individual wallets\n\nThese deliverables will be live for Moonwell Artemis on Moonbeam and Moonwell Apollo on Moonriver as well as Moonwell on Base once that is live. \n\n### Cost\n\nThe cost of this integration for our team will be $17k upon completion of the dashboard. This payment will be used for the following costs:\n- Database storage ($500)\n- Server hosting ($50)\n- Nodes ($450)\n- Contributor compensation ($16,000)\n\nThe deliverables will be live at www.anthias.xyz/Moonwell. These dashboards will be live for 6 months at which point the community can determine whether it would like to fund the Anthias team on a per-quarter basis to maintain server costs.\n\nThis cost includes all the integrations specified above (Moonwell Artemis on Moonbeam, Moonwell Apollo on Moonriver, and Moonwell on Base once that is live).\n\n### How long will development take?\n\nWe estimate development time to take 6-7 weeks from approval. Based on feedback from community members, we plan to continue iterating and shipping out new and useful features.\n\n### Voting\n\n- Yes - I approve the proposal\n- No - I do not approve the proposal",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x389E3d1c46595aF7335F8C6D3e403ce2E8a9cf8A",
+      "totalVotes": 268,
+      "blockNumber": 3423683,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0xafc49fa37e2b2963506ce188bde8133a665efcbd9f2efd2f894c499cd8ca21e1",
+      "startTime": {
+        "timestamp": 1682386202
+      },
+      "endTime": {
+        "timestamp": 1682645402
+      },
+      "startTimestamp": 1682386202,
+      "endTimestamp": 1682645402,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 11083753.0,
+          "choice": 0
+        },
+        {
+          "total": 31468052.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 11083753.810466643,
+          "choice": 0
+        },
+        {
+          "total": 31468050.750226736,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682386703773,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDdkNzNhMzM0MjU4OGJhMmIxYWEzNDZlOWZlNjU2YjYxZDY5ZWE3MjMzMGNkMWNiYzE0ODFlM2EwZjY1OWM5MjQ=",
+      "id": "0x7d73a3342588ba2b1aa346e9fe656b61d69ea72330cd1cbc1481e3a0f659c924",
+      "title": "MGP-2 Warden Finance Risk & Tooling Grant Proposal",
+      "content": "\nTitle: Warden Finance Risk & Tooling Grant Proposal\nAuthor(s): Hugo Boisselle-Morin <hugo@shippooor.xyz>\nRelated Discussions: - https://forum.moonwell.fi/t/mip-39-activate-moonwell-on-base-mainnet/414\nSubmission Date: 2023-04-03\n\n## Summary\n\nThis proposal aims to formalize how Warden would support Moonwell in the following areas:\n\n* Tooling and infrastructure - Support Moonwell Artemis, Apollo and Moonwell on Base chain on the [Warden Finance risk & analytics platform](https://www.warden.finance/), giving free access to advanced protocol exploration and risk tooling to the community.\n* Risk management service - Governance parameters recommendations and help with onboarding Moonwell on Base chain\n\nWe have discussed this proposal with contributors from Lunar Labs. This proposal aims to create additional risk tooling for the community and further decentralize Moonwell’s risk management.\n\n## Overview\n\n### Tooling and infrastructure\n\nBy giving Moonwell users access to the Warden Finance risk & analytics platform, the community will have access to the following capabilities: \n\n\n#### Explore\n\n* **Search and browse everything ([link](https://www.warden.finance/accounts?protocols=Aave&protocols=Euler&protocols=morpho_compound&protocols=morpho_aave&protocols=compound_v3))** - Explore all Moonwell accounts, complete transactions history and liquidations through a smooth UI and powerful search, filter and sort capabilities. Here are a few concrete examples:\n    * Search accounts by strategy (i.e long USDC and short ETH)\n    * Filter transactions by specific asset and date range (i.e USDC liquidations during depeg event).\n* **In-depth account details ([link](https://www.warden.finance/accounts/0x777777c9898d384f785ee44acfe945efdff5f3e0))**- Access details about any account’s health and history. See any account’s historical net worth, profit & loss, portfolio, health metrics and liquidation prices for all assets in the portfolio.\n\n\n#### Simulate\n\n* **Self-serve risk management** - Measure the exact impact of any market conditions and governance parameter change on your account’s health using the Warden simulation engine.\n* **Risk manager tooling ([link](https://www.warden.finance/liquidation-backtesting))** - Open access to the tools that our team uses to measure risk and provide recommendations. (Liquidation prices, Collateral at Risk, Liquidation Backtesting, Asset Risk Assessments)  \n* **Asset onboarding and monitoring dashboards ([link](https://www.warden.finance/tokens/COMP))** - For every major assets on Moonbeam. Moonriver and Base, measure the following risk metrics in real time:\n    * Oracle price vs market price feed\n    * Volatility metrics (i.e max downturn, daily volatility)\n    * Slippage\n    * List of all dex pools\n    * Historical dex liquidity\n    * Holders concentration.\n\n\n### Risk management service\n\nIn complement to the tooling, the Warden Finance team is proposing to offer the following services:\n\n* Propose governance parameter recommendations for CF, IRMs, borrow and supply caps that aim to provide a trade-off between the two following poles:\n    1. Improve market efficiency\n    2. Maintain level of risk exposure that is desirable by the community\n* Review parameter recommendations from other contributors such as Gauntlet by assessing the output against our model. \n* Publish a full analysis recommending an initial set of assets and parameters for onboarding Moonwell on Base chain.\n\n## Motivation\n\n### How this proposal will help Moonwell\n\nThe end goal of this proposal is to help improve the Moonwell ecosystem in the following areas: **risk management, transparency and decentralization**\n\n#### Risk Management\n\nThrough our service and platform, we aim to improve market efficiency and have better control over risk, which we think is a clear benefit for the community. Our platform is free for everyone to use, allowing anyone in the community to run simulations, identify risk vectors and easily quantify those risks.\n\n\n#### Transparency\n\nThe platform gives the community access to the complete picture of the Moonwell Apollo and Artemis systems through a comprehensive user experience. It also allows understanding how risk may impact one’s portfolio in a way humans can comprehend. \n\n\n#### Decentralization\n\nThe tools are available to everyone for free so anyone can use them to propose risk parameter updates and measure the impact of any proposed change. Warden empowers everyone in the DeFi community to make data-driven risk decisions. \n\n\n### About Warden Finance\n\nWarden helps DeFi protocols identify and manage risks. With the help of our [open risk & analytics platform](http://warden.finance), we propose parameter recommendations based on our in-house research, participate in governance, and build custom risk tools.\n\nWarden has been contributing to DeFi since 2021. So far, we have collaborated with Euler, Notional, Morpho, Compound, AAVE, Uniswap, Instadapp and Olympus protocols. We started as builders, helping protocols surface data in a meaningful way through an extensive set of dashboards, subgraphs and data extraction tools.\n\n\n* [Warden Finance - Risk & Analytics Platform for DeFi](https://www.warden.finance/)\n* [Dune Analytics Dashboards](https://dune.com/shippooordao)\n* [Notional Info Dashboard](https://info.notional.finance/)\n* [Uniswap Subgraph Extractor](https://www.warden.finance/export/extractooor/uniswap?chain=Ethereum&table=uniswapDayDatas)\n* [Euler Sugraph](https://thegraph.com/hosted-service/subgraph/euler-xyz/euler-mainnet)\n\nThe Warden Finance platform was released in Q4 2022 as part of a risk & tooling partnership with the Euler protocol.\n\nThe platform encompasses a set of tools for exploring DeFi accounts, running simulations, backtesting strategies and stress-testing protocols. Warden empowers everyone in the DeFi community to make data-driven risk decisions.\n\nWe also are active DAO contributors and delegates. We are delegates on Morpho and Euler. We review governance proposals and provide recommendations for our areas of expertise (tech, risk, data science). We are active forum contributors. Here are a few recent notable contributions:\n\n\n\n* [Euler - eIP 47 - Promote rETH to collateral tier](https://forum.euler.finance/t/eip-47-promote-reth-to-collateral-tier-contingent-on-chainlink-deploying-a-proper-oracle/525)\n* [Euler - eIP 52 - Update IRM models for wstETH, cbETH & rETH](https://forum.euler.finance/t/eip-52-update-the-irm-models-for-wsteth-cbeth-reth/673)\n* [Euler - Stablecoin Depeg Event Thread](https://forum.euler.finance/t/stablecoins-depeg-event-thread/868)\n\n\n### Our Values\n\n**Transparency**. In the best interest of the community, our platform will always be accessible and open for feedback. We have created tools that are accessible to the public in order to make our proposals as transparent and cohesive as possible.\n\n**Data-driven**. Every recommendation we make is based on cold hard data that is accessible and verifiable by anyone. Through the Warden Finance platform, we carry a holistic picture of the protocol and can accurately measure the impact of any change in the system.\n\n**Quality**. Risk management is mission critical for protocols, and we believe the tools and recommendations should live up to that standard. We build products that are made to be used and meant to be trusted.\n\n\n## Implementation\n\n\n### Tooling and infrastructure\n\nThe Warden Finance team will take charge of implementing the Moonwell Apollo, Artemis and Base integration to the Warden Finance platform. \n\nThe team will also take care of hosting, maintenance and support for the users.\n\n\n### Risk management service\n\n\n#### Monthly risk assessment reports & recommendations reviews\n\nWe will provide recommendations on a monthly basis for the following parameters:\n\n* Collateral factor\n* Borrow cap\n* Liquidation incentive / close factor\n* Interest Rate Models (base rate, kink rate, max rate, kink utilization, reserve fees)\n* Treasury (harvesting decisions & adjacent recommendations)\n\nWe will review recommendations from other contributors such as Gauntlet by assessing the output against our model, and provide adjustments if needed.\n\n\n#### Onboarding Moonwell on Base \n\nIn order to help Moonwell with bootstrapping on Base, we will publish a full analysis providing the following recommendations:\n\n* Suggested set of assets to be onboarded, along with an analysis of all of the risk-related metrics for each of them (oracles, volatility, slippage, dex liquidity, …)\n* Recommended parameters for each of those assets\n\n\n#### Budget and timeline\n\nTimeline: Moonwell Artemis and Apollo integrations on the Warden Finance platform will be available within 4 weeks after the proposal is accepted.\n\nBudget: $62.5k per quarter. With the first payment paid up front to cover for initial development costs.\n\nPeriod: Mar 2023 to Mar 2024 (1 year)\n\nWe are a team of three (Hugo Boisselle-Morin, David Dallaire & Philippe Labrecque) with deep experience in crypto, tech, and finance. The proposed grant will cover infrastructure cost ($5K per month to run our simulation platform) as well as contributors' time and expertise.\n\nWe will post quarterly updates on what we have delivered to the DAO and post monthly risk assessments on the Forum.\n\n\n#### Review period\n\nWe propose a 3 month review period where the DAO can terminate the engagement if it is not satisfied by our performance. Given our track record and past contributions we think it is unlikely that such action should be taken.\n\n## Voting\n\n* Yes - I approve the above proposal\n* No - I refuse the above proposal\n",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xd80F2F298ee8282981F50c95db6F109919370d8c",
+      "totalVotes": 253,
+      "blockNumber": 3278998,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x7d73a3342588ba2b1aa346e9fe656b61d69ea72330cd1cbc1481e3a0f659c924",
+      "startTime": {
+        "timestamp": 1680552513
+      },
+      "endTime": {
+        "timestamp": 1680811713
+      },
+      "startTimestamp": 1680552513,
+      "endTimestamp": 1680811713,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 28981556.0,
+          "choice": 0
+        },
+        {
+          "total": 3066969.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 29308440.03131419,
+          "choice": 0
+        },
+        {
+          "total": 2948855.871256154,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680552817098,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGQzMjE5YTI2ZDgxNjJhNzgwNjQzMzVhMGRiODE1YjMzZmY1ZTllMGM3MDdhOTNlMDc3OTU4ZjIwOTRhZTM3ODc=",
+      "id": "0xd3219a26d8162a78064335a0db815b33ff5e9e0c707a93e077958f2094ae3787",
+      "title": "MIP-39: Activate Moonwell on Base Mainnet",
+      "content": "**Summary**\n\nI propose that the Moonwell community vote to authorise the activation of the Moonwell protocol on Base mainnet with the aims of (1) increasing accessibility to Moonwell and (2) connecting the Polkadot and Kusama ecosystems to the world of decentralised finance.\n\nBase is an Ethereum Layer 2 incubated by Coinbase. Activating Moonwell on Base will broaden the Moonwell community to include users of the world’s second-largest centralised exchange, helping Moonwell expand cross-chain interoperability on a value-aligned chain.\n\n**About Base**\n\nBase 1 is a Layer 2 (L2) blockchain developed on the Ethereum network, jointly created by Coinbase and Optimism. Since Base operates as an optimistic rollup, it provides substantial enhancements in scalability compared to L1 Ethereum, while maintaining its security from the Ethereum base layer. Following the testnet launch on February 24, 2023, it is expected that Base mainnet will launch in the coming months.\n\nSmart contracts on Base will be deployed and executed on its Ethereum Virtual Machine (EVM) execution layer. Base goes even further than EVM compatibility and achieves EVM equivalence, or full compliance with the Ethereum yellow paper. This means that developers can be confident that any program that runs on Ethereum will be fully compatible with Base.\n\nBuilt on Bedrock, the first iteration of the OP Stack, Base leverages Optimism’s frameworks for scalability and development. The OP Stack is a set of MIT-licensed open-source software that anyone can use or fork, and represents a vision for Ethereum scalability and modularity. With standardisation and compatibility, comes the potential for interoperable L2s including Base to manifest into a larger “Superchain”. Base will also contribute to Optimism’s RetroPGF model, incentivising the development of the open-source public goods that our digital world relies upon.\n\nCoinbase is a proven leader in the digital asset space. After publicising its on-chain ambitions nearly 7 years ago in their “Secret Master Plan,” Base’s release marks the next milestone towards realising their goal of creating a financial system consisting of decentralised applications on an open and globally accessible network with a user base of one billion people.\n\nAdditionally, Coinbase has made significant contributions to Ethereum, particularly in the development of EIP-4844 (sharding), which will dramatically lower fees and gas on Ethereum L2s, with the aim of bringing transaction costs below the “1 cent per transaction” threshold.\n\nCoinbase intends to progressively decentralise Base. In 2023 alone, Coinbase will work towards progressing Base and Optimism mainnet from a Stage 0 rollup to a Stage 1 rollup, with a significant level of decentralisation and trustlessness.\n\n**Motivation**\n\nActivating Moonwell on Base mainnet offers a number of benefits to the Moonwell community, including opportunities to:\n\n- Expand cross-chain interoperability\n- Unlock a massive target audience, Coinbase users\n- Build on shared values\n\n*Expand cross-chain interoperability*\n\nThe launch of Base offers an opportunity to connect the entire DotSama ecosystem with Ethereum in a way that wasn’t possible before. The Moonwell protocol now has the capability of going cross-chain and bringing the best assets from the ecosystem to millions of Coinbase users, including GLMR and DOT.\n\nSince the Moonwell community first activated Apollo just over a year ago, we have pursued the goal of connecting the Polkadot and Kusama ecosystems to the world of decentralised finance. The Moonwell community also shares the Moonbeam vision of connected smart contracts with EVM as the base layer.\n\nThis vision is supported by the cross-chain integrations and features available on Moonbeam, which will allow Moonwell to integrate and expand to Base, reaching even more people.\n\n*Unlock a massive target audience, Coinbase users*\n\nBase represents a massive target audience for Moonwell — Coinbase’s 110m verified users (over 8.5m of which remain active during the recent bear market). Coinbase’s retail mobile app now includes a “web3” tab that enables Coinbase users to seamlessly interact with dapps and move assets across the ecosystem. If Moonwell reaches only 10% of active Coinbase users, we can potentially add 850,000 new users to our community, which is equivalent to 2x DeFi’s current unique users per month.\n\nActivating Moonwell on Base means exposing up to 110m users to the world of decentralised finance and familiarising them with our existing activations on Moonbeam and Moonriver.\n\nAs one of the first projects to activate on the Base testnet, Moonwell will enjoy early mover benefits (specifically in attracting sufficient liquidity) and join a community of web3 giants like Aave, Sushiswap, and Chainlink on Base mainnet.\n\n*Build on shared values*\n\nThe activation of Moonwell on Base signifies not only considerable expansion possibilities for the community but also the security and trust-centric values of Coinbase, which closely resonate with the fundamental principles of the Moonwell community.\n\nThese values attracted now-Moonwell contributors Luke Youngblood and Octavius, each of whom joined Coinbase in 2018-2019. During his 3-year career at Coinbase, Luke helped build Staking Rewards, another example of Coinbase beginning to build directly on L1 protocols. Octavius helped build the cold storage systems that enable Coinbase to protect billions of dollars in crypto.\n\nThe Moonwell protocol on Base will be governed by WELL token holders. It is expected that Halborn Security will complete audits of all new functionality enabled. Additionally, Moonwell markets are protected from price manipulation and secured by Chainlink oracle price feeds. Risk management platform Gauntlet Network runs frequent economic simulations to ensure that asset risk parameters are set to safe values.\n\n**Implementation**\n\nImplementation of MIP-39 will include the following:\n- Halborn Security will provide audits of new functionality in the Moonwell protocol, including new cross-chain capabilities.\n- When sufficient liquidity and Chainlink price feeds are available, the Moonwell community will have the opportunity to vote for activation of the Moonwell protocol on Base mainnet.\n\n**Voting**\n\nAll Moonwell community members are encouraged to vote on this proposal. Voting options include:\n\n- Yes: Activate the Moonwell protocol on Base mainnet\n- No: Make no change\n\n**Conclusion**\n\nBuilding on Base will be instrumental to expanding and growing the Moonwell community. I am massively excited about the possibility of the Moonwell community increasing accessibility to Moonwell and connecting the Polkadot and Kusama ecosystems to the world of decentralised finance via entering the Base ecosystem, especially so early in its development.\n\nTo summarise, activating Moonwell on Base presents an excellent opportunity to expand cross-chain interoperability. Base will offer Moonwell access to a massive target audience with similar values to our community.\n\nThe arrival of Base has created an opportunity for the Moonwell community to connect Moonbeam and the greater Polkadot ecosystem with Ethereum in a way that wasn’t previously possible before. Let’s bring the power of DeFi to the next billion users!",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x7F953f11343408eBCcaEcd04eB0D1E6bacDEf87F",
+      "totalVotes": 364,
+      "blockNumber": 3255781,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0xd3219a26d8162a78064335a0db815b33ff5e9e0c707a93e077958f2094ae3787",
+      "startTime": {
+        "timestamp": 1680266700
+      },
+      "endTime": {
+        "timestamp": 1680525900
+      },
+      "startTimestamp": 1680266700,
+      "endTimestamp": 1680525900,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 52600268.0,
+          "choice": 0
+        },
+        {
+          "total": 1361.2568,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 54034573.905569024,
+          "choice": 0
+        },
+        {
+          "total": 1361.2567616685617,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680262911511,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDI5NGEyYzYwZWY0ODBiNGY0NTI2Zjg1YjkzYzNmYTcyZTg5ZjNhMmUyYmU0ZmU3MGFiNTlhM2RlYjA2MjdkMDg=",
+      "id": "0x294a2c60ef480b4f4526f85b93c3fa72e89f3a2e2be4fe70ab59a3deb0627d08",
+      "title": "MGP-1  Moonwell IntoTheBlock Risk Management Tools",
+      "content": "Moonwell-ITB Risk Management Tools\n\nAuthors: IntoTheBlock Research\n\nUpdated February 21, 2023\n\nSummary\n\nIntoTheBlock (ITB) is applying for a grant to build a suite of risk management solutions for Moonwell and its community.\n\nDashboards to monitor general and asset-specific risk indicators\nAPI access and CSV download for all metrics\nDocumentation of Moonwell’s risk indicators and general dynamics\nThe dashboard will be hosted in a new risk management area within IntoTheBlock’s platform. Data for each indicator is published and updated daily for Moonwell Artemis’s users to track the protocol’s economic risk landscape. The ITB team will add support for more assets and update indicators plus its status reports every quarter.\n\nOverview\n\nOver the past two years IntoTheBlock has been heavily involved in DeFi. This started with the launch of DeFi Insights analytics and has grown significantly through our Institutional Quantitative Strategies (ITB Quant) service. ITB’s DeFi Quant platform acts as a gateway used by 20+ of the largest crypto institutions to access its DeFi yields via sophisticated quantitative strategies with appropriate risk management models. Moonwell’s strategy is one of the latest additions to the ITB DeFi Quant platform, with ITB clients depositing several millions into the protocol.\n\nTo streamline institutional adoption of DeFi, IntoTheBlock decided to make risk metrics and models accessible via APIs and analytics dashboards. The purpose of this proposal is to make these risk models available to Moonwell’s institutional and individual investors.\n\nMotivation\n\nMonitoring and managing risk is paramount to any financial service. Recent events in the DeFi market prove that risk management is essential to accelerating the growth of the space. At ITB we believe that risk management in DeFi should be done out in the open, following crypto’s ethos, and not be a luxury expense.\n\nFollowing ITB’s experience safeguarding hundreds of millions into DeFi through advanced risk management models, we believe that expanding these tools and offering them to Moonwell would help make DeFi safer over the mid-to long-term. Enabling Moonwell’s community to monitor real-time economic risks should be a key factor in boosting institutional and retail investor confidence.\n\nImplementation\n\nIntoTheBlock proposes to split the grant in two phases. Phase I will include the following:\n\nDashboard with 50% of ITB’s proposed risk indicators (highlighted in green in this spreadsheet 2)\nAPI access and csv downloads for these metrics\nCorresponding documentation\nPhase II will consist of shipping the remaining 50% of indicators, along with their API access, csv downloads and documentation.\n\nThe following demo link for ITB’s Benqi dashboard 1 showcases what the product experience will look like.\n\nThese indicators are open to modification after receiving feedback from the Moonwell community and other Moonwell contributors\" IntoTheBlock is dedicated to maintain and expand the capabilities of the Moonwell risk monitoring solution that address changes to the protocol or market conditions. Along this line, ITB plans to add analytics for wormhole-bridged assets.\n\nGrant Milestones & Payments\n\nFor Phase I, IntoTheBlock is requesting a total of $30k upon start of the following:\n\nMoonwell risk dashboard with 50% of indicators\nDocumentation on indicators\nAPI access\nCSV data download functionality\nWe are targeting a launch 60 days after the proposal passes for Phase I.\n\nThe exchange rate of WELL/USD will be the 30-day time-weighted average price (TWAP) prior to the date the proposal is approved. The price source will be the close price of WELL published by CoinMarketCap.\n\nThe release of these milestones will also be accompanied with a marketing push from the IntoTheBlock team to increase the visibility of these tools. The ITB team will then review Moonwell’s community feedback and take it into consideration prior to submitting a separate proposal for Phase II for an additional $30k, bringing the total amount to $60k.\n\nConclusion\n\nIntoTheBlock’s proposal looks to enable real time economic risk monitoring for the Moonwell protocol. The risk indicators included in this proposal are based on IntoTheBlock’s experience managing and monitoring risks for institutional clients depositing into Moonwell and similar protocols. This release is part of a broader effort to democratize access to risk management tools for all DeFi users, including those of the Moonwell protocol.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xa564B8fbB6542637ECf6fEde24F1CBFd2bE70103",
+      "totalVotes": 254,
+      "blockNumber": 3063143,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x294a2c60ef480b4f4526f85b93c3fa72e89f3a2e2be4fe70ab59a3deb0627d08",
+      "startTime": {
+        "timestamp": 1677805664
+      },
+      "endTime": {
+        "timestamp": 1678064864
+      },
+      "startTimestamp": 1677805664,
+      "endTimestamp": 1678064864,
+      "currentState": "closed",
+      "choices": [
+        "Yes ",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 127282184.0,
+          "choice": 0
+        },
+        {
+          "total": 11296039.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 127282174.80969182,
+          "choice": 0
+        },
+        {
+          "total": 11315097.077539869,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGFlZTIzNDI5ZjU0M2EwNjUyYmJhYjRmNjkzZGZhNjg5MGFmZDhhMzRjMzMzYjk4MTNmMWRiNjAzOGQzYmViZmM=",
+      "id": "0xaee23429f543a0652bbab4f693dfa6890afd8a34c333b9813f1db6038d3bebfc",
+      "title": "Paying Debt partially with WELL",
+      "content": "For now, protocol is giving $WELL as a supply APY. I suggest taking $WELL as a burrow APY as well. \n\nDown below is structures of both supply / burrow APY.\n| Supply APY | Burrow APY | \n|---|---|\n|![asd.png](ipfs://bafkreiedcu4k76gakpn3t53egttg72tveli2n2u54eydo735y6jbn4qihu)|![123.png](ipfs://bafkreiepcr523q5scwu3l45vponeq5a2tym3ru3ipwynrh5dsijy22ysom)|\n    \nYou can see debts are paid merely with burrowed assets.\nI suggest we split small percentage to $WELL.\n\nDown below is the result.\n| Burrow APY - now | Burrow APY - to be | \n|---|---|\n |![123.png](ipfs://bafkreiepcr523q5scwu3l45vponeq5a2tym3ru3ipwynrh5dsijy22ysom)|![aaa.png](ipfs://bafkreiepdr46ty3xy2mxcmbool7dkubbeehilgyghex5sldeohhc4gkydu)|\n    \nStill, demanding user self to pay $WELL would be ineffective.  So i suggest automating this procedure with users payments. Down below Luke suggested using Gelato, i think its great idea.\n\n- https://forum.moonwell.fi/t/paying-debt-partially-with-well/181/13\n\nLets create new supply and demand cycle for $WELL.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x67Eea7a2e81F7228C98Ea6ddb3BD4C4849A55554",
+      "totalVotes": 169,
+      "blockNumber": 2307086,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0xaee23429f543a0652bbab4f693dfa6890afd8a34c333b9813f1db6038d3bebfc",
+      "startTime": {
+        "timestamp": 1668568761
+      },
+      "endTime": {
+        "timestamp": 1668827961
+      },
+      "startTimestamp": 1668568761,
+      "endTimestamp": 1668827961,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "Abstain",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 12866634.0,
+          "choice": 0
+        },
+        {
+          "total": 4271094.0,
+          "choice": 2
+        },
+        {
+          "total": 229602.44,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 12866635.252098044,
+          "choice": 0
+        },
+        {
+          "total": 229602.4348359447,
+          "choice": 1
+        },
+        {
+          "total": 4271094.024897298,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGU2ODEyMDJjNzIyYjE1M2MwOWY5MDg1ZTQ5ZDRhMzFkMjY0MzgwYjU0NDNmYjBlN2Y3NmQzYzUwNTYxYTc1MmE=",
+      "id": "0xe681202c722b153c09f9085e49d4a31d264380b5443fb0e7f76d3c50561a752a",
+      "title": "Asset Listing Framework",
+      "content": "# Background\n\nTo guide best practices to the Community, Gauntlet aims to provide a standard framework for assessing market risk when listing assets and enabling assets as collateral. Managing collateral listings is essential to the growth of the protocol. As new assets in DeFi proliferate and older assets fall out of favor, Moonwell must list and delist assets to maintain its usefulness as a protocol. Given 2 weeks of notice and strong community buy-in, Gauntlet will conduct risk assessments prior to new assets being listed.\n\nThis interplays with [Open Zeppelin’s Asset listing guide](https://github.com/OpenZeppelin/compound-assets-listing) and is focused specifically on market risk and how Gauntlet will support the asset listing process in Moonwell.\n\nThroughout the asset listing and collateral enablement processes, Gauntlet's goal is to ensure that insolvency and liquidity risks are minimized and that when liquidations occur, they can be done so healthily with incentivized liquidators. In order to be unbiased, Gauntlet will not explicitly support any asset listing but instead provides the below framework as guidance for the community.\n\n# Asset listing\n\nGauntlet will assess a given asset's liquidity and other market characteristics to be added to the protocol. **We ask that the party putting forward the proposal for asset listing include the following data:**\n\n- Market cap of the token\n- Total supply\n- Largest liquidity sources (exchanges including CEX and DEX)\n- Volatility per our definition [https://maker-report.gauntlet.network/int_vol](https://maker-report.gauntlet.network/int_vol) (30 day, 90 day, 1 year) (we can also help with this)\n- Average daily trading volume on CEX and DEX\n- [Gini coefficient and Herfindahl index](https://insights.glassnode.com/assessing-the-distribution-of-erc20-tokens-on-the-ethereum-network/) of token balances\n\nGauntlet will relay our findings to the community and make parameter recommendations for **Reserve Factor** and **Borrow Cap. We always recommend that Collateral Factor be set to 0 on the initial listing.** Our goal with this initial analysis is to ensure that liquidations will be feasible with the amount of supply and borrow expected to be added initially. \n\n## Reserve Factor\n\nThe Reserve Factor is more straightforward on the initial listing. We generally recommend 15% for stablecoins and 25% for non-stablecoin assets. These guidelines will evolve over time.\n\n## Borrow Cap\n\nIn general, it is prudent to err on the conservative side for Borrow Cap, as this is a direct lever for us to ensure that Moonwell can minimize losses in an infinite mint attack (and other attacks). The community needs to decide whether a given asset should be turned on for borrowing (some assets may not make sense, i.e., rebasing assets like stETH). If the community decides to turn an asset on for borrowing, Gauntlet will conduct analysis to set the asset’s Borrow Cap.\n\nGauntlet’s goal with setting the Borrow Cap on initial listing is to predict the estimated supply in Moonwell in a mature state and then being conservative to ensure that there are no unforeseen technical risks that cause protocol failure or outsized insolvencies. \n\nIn particular, Gauntlet will set Borrow Cap in the following way:\n\nFor a non-stablecoin asset, the asset will be compared with similar assets already on Moonwell. Its Borrow Cap should be set as the minimum of 50% of the supply of similar assets in Moonwell or 1% of the circulating market cap of the token. By similarity, we are looking at both:\n\n- Comparable utility of the token (i.e., pure governance, staked derivatives, etc.)\n- Comparable market structure of the token (i.e., similar market caps, ADV, vol, GINI)\n\nThe idea behind using the minimum here is to establish an upper limit relative to the token’s circulating supply and ensure that the asset is compared to other similar assets on Moonwell.\n\nFor stablecoins, we recommend no Borrow Cap because stablecoins usually have high organic demand for borrow and thus a high utilization rate, leading to more protocol revenue. \n\nOver time we will raise and potentially remove the Borrow Cap from all assets (as long as the community is comfortable with it. [Maker](https://www.comp.xyz/t/reducing-mkr-borrow-cap/2959) was a good example of keeping and lowering the Borrow Cap to prevent governance attacks.)\n\n# Collateral Enablement\n\nEnabling Collateral can be one of the riskiest phases for a new asset coming onto Moonwell. Gauntlet’s general recommendation is a conservative, phased approach. New market risks are introduced when an asset is enabled as collateral. The community should assess the technical risks and follow [OpenZeppelin’s framework](https://github.com/OpenZeppelin/compound-assets-listing). Below, we outline the relevant market risks and recommendations.\n\n**The community should take the first step in proposing that an asset is enabled as collateral by publishing a post on the Moonwell Community Forums.** This forum post should contain the metrics outlined above (market cap of the token, total supply, etc.). Should there be enough community support behind enabling this asset as collateral (i.e. via a poll), Gauntlet will then provide a market risk analysis as described below. \n\n### Gauntlet Analysis for Collateral Enablement:\n\nSufficient liquidity is required for an asset prior to enabling it as collateral. A cautious test of this is the combined slippage across all liquidity sources to measure how well a given asset can be absorbed into the market (a signal that may change upon asset listing). \n\n**We recommend that the combined (CEX + DEX) slippage be less than 5% for a sell order of either $300k or 10% of total asset supplied in Moonwell (whichever is greater) before enabling an asset as collateral.** Gauntlet formulated this guideline by analyzing existing assets in Moonwell and their supplies. Then, Gauntlet modeled what the market could healthily absorb using our combined slippage model. \n\nHere is a simplified example using FRAX. For new asset listings, Gauntlet would use its slippage models, but to make the example simpler we can look at 1inch liquidity for FRAX. As of 2022-10-25, there is $7.6M of FRAX supplied in Moonwell Artemis and $13.2M in Moonwell Apollo, so max($300k, 10% of supply) equates to a $2.1M order. Looking at 1inch, we see that a $2.1M order would hit around 0.18% slippage (2022-10-25; 1inch is only DEX liquidity, so slippage numbers are better when including CEX data). \n\nNote that this is an initial guideline to broadly understand the liquidity of a given asset. As Gauntlet conducts analysis on new assets coming to the protocol, we may provide more granular analysis (i.e., around the distribution of users and around asset classes) that deviates from this guideline when we determine there is a better understanding of the market risks.\n\nOur approach is purposely conservative and leans on consistent parameter tuning to increase capital efficiency over a longer time frame in a safer manner. \n\nIt must be the case that the community supports a given asset to be turned on as collateral. This is not an assessment that can be made purely from a market risk lens, as the non-market risk side can pose a more existential threat to Moonwell (i.e., smart contract bugs).  \n\nAfter the community decides they want an asset turned on as collateral, Gauntlet’s general recommendation will start conservatively at a **20-30% CF.** This will be assessed on a per asset basis. The goal is to give enough time to the asset at a low collateralization ratio to make sure that mechanisms are working as intended. After 2 weeks of collateral enablement, Gauntlet’s ongoing parameter tuning work through simulation optimization will consider increasing Collateral Factors based on the actual usage data and market conditions as long as it is safe to do so from an insolvency risk perspective.\n\nThus, this phased approach to collateral enablement starts with conservative Collateral Factor parameterization. After the asset is enabled as collateral, Gauntlet’s financial modeling platform will continue to ingest data on how usage and market conditions evolve. At this stage, through a more thorough understanding of risk via our simulation models. Gauntlet can optimize for capital efficiency to the protocol.\n\n# Guidelines\n\n- Gauntlet will not conduct simulations using fake data to assess the risk.\n    - Simulations do not lend well to this type of listing when there is no prior data. Gauntlet has in the past used borrower distributions from similar assets to assess risk. However, this has been a weak signal given how different each asset’s usage behavior is when actually incorporated into the lending platform. As such, Gauntlet will not conduct simulation analysis to predict user behavior ahead of an asset’s listing.\n- Gauntlet will not assess any of the following areas of non-market risk and instead defer to OpenZeppelin and the community on the below:\n    - Oracle risk\n    - Infinite mint attacks\n    - Governance attacks\n    - Smart contract risk\n    - Centralization risk\n    - Other technical risks\n    - Gauntlet will treat the asset as if it serves its underlying purpose correctly and will not assess ancillary aspects of the token design. It is up to the community to decide whether a given asset belongs in the protocol.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xa28b7D23e9F8D8d5346A7901ecC9eC8ea48bAEcD",
+      "totalVotes": 134,
+      "blockNumber": 2299550,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0xe681202c722b153c09f9085e49d4a31d264380b5443fb0e7f76d3c50561a752a",
+      "startTime": {
+        "timestamp": 1668476869
+      },
+      "endTime": {
+        "timestamp": 1668736069
+      },
+      "startTimestamp": 1668476869,
+      "endTimestamp": 1668736069,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 16891776.0,
+          "choice": 0
+        },
+        {
+          "total": 86203.625,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 16891775.89438558,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 86203.62757342467,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDdjOTZlNGQzMzFkYjI5NzdhNDk5YTg3YjAyOGE1OGQwZjJhMGJkMzQzYzY4ZjVlYTEwZTc0ZDRjZjZhMzg3ZjY=",
+      "id": "0x7c96e4d331db2977a499a87b028a58d0f2a0bd343c68f5ea10e74d4cf6a387f6",
+      "title": "Bridges: Path Forward",
+      "content": "## Summary\n- Following the Nomad exploit, our community has to start putting up signal votes to poll for which bridge they would like to use going forward. Below is a robust process of analysis for key design decisions affecting the community largely reproduced verbatim from [this article](https://stellaswap.medium.com/rebuilding-strategy-a-framework-for-evaluating-bridges-on-moonbeam-359701c5c461) by StellaSwap. The credit for this analysis belongs to the StellaSwap team. \n- Three bridges: Multichain, Axelar, and Wormhole are compared on the basis of three aspects: Security, Financial Coverage, and User Experience. The bridges were chosen on the basis of being likely candidates to become ecosystem partners. \n- The proposed vote is a Ranked Choice vote that also offers “Other” (use forum) and “No Bridge” as options. \n\n\n## Introduction\nMoonwell Artemis mitigated the damage from the Nomad exploit by quickly disabling borrowing when the attack started, but the ecosystem needs to fill the void left over after the exploit. Looking ahead entails planning for the infrastructure towards rebuilding. It is therefore vital to ensure that there is a robust and rigorous process of analysis for key design decisions affecting the community.\n## Potential Bridges on Moonbeam\n- **MultiChain**: Multichain is a cross-chain router protocol that is currently one of the most popular bridges in DeFi. With a total TVL exceeding $2.5 billion across 62 different blockchain networks, Multichain has possibly the largest market share in the space.\n- **Axelar**: Axelar is a permissionless overlay network that has been at the forefront of pioneering work on cross-chain communication with its general message passing (GMP). Axelar was recently chosen as the official cross chain service provider for Osmosis, the largest DEX on Cosmos.\n- **Wormhole**: Wormhole is a generalized cross-chain messaging platform connecting high-value blockchains together, with applications leveraging the messaging layer to facilitate interoperability between ecosystems. Wormhole is backed by Jump, a behemoth with tentacles across market-making, a venture capital arm and, increasingly, a team of in-house developers who contribute to projects on several major blockchains.\n\n## Bridge Evaluation Parameters\nThis section discusses several parameters to evaluate a bridge.\n- Security: The most vital factor for evaluation, covering trust mechanism and security assurances. The former covers the spectrum of trust assumptions embedded within their logic and (operational) verifiers instituted in the system, while the latter covers the depth of audits, code deployment process and external bounties.\n- Financial Coverage: The degree of financial backing, whether internally embedded within the protocol’s model (i.e. reserve fund) or externally via a network of backers, in the adverse event of any exploit.\n- User Experience: The overall experience when using a bridge including usability, intuitiveness, speed and slippage, amongst other things.\nWe shall explore each parameter for each of the aforementioned protocols together with the context of the general Moonbeam ecosystem.\n\n\n## Evaluation Parameter #1: Security\nIt is no surprise that the biggest hacks recorded in DeFi are bridge exploits, as the cumulative amount of funds locked in bridges make them a primary target for attackers. The Nomad exploit underlined the need for a comprehensive and fully robust security framework; it is simply not enough to have a secure architectural logic without a corresponding emphasis on secure operational measures. In fact, 3 out of 4 of the biggest bridge hacks — Ronin, Womhole and most recently Nomad — was due to operational failures.\nIt is therefore vital to analyze the full-suite of security elements that not only include the architectural logic, but also — with equal emphasis — the respective operational security measures and safety measures determining the protocol’s code quality.\n\n![Security.png](ipfs://bafkreidby5h4ocf2f2zgn3s4m6jqmz6ljj6fi4tbf55vyxjuptdfdv76la) \n#### Multichain\nMultichain utilizes secure multi-party computation (SMPC) to run threshold signature schemes (TSS) for the creation of public keys and for the signature of messages. Thes validation nodes trustlessly control externally owned accounts (EOAs) with public addresses corresponding to the split private key. These EOAs are then used to store & transport assets to the destination chain ; they simply check whether the sender’s address is trusted relative to verifying the message itself. The Multichain network currently consists of 24 SMPC nodes, run by different institutions, and requires a majority of nodes to come together to verify messages. Multichain’s security is dependent on the reputational security of the SMPC nodes, which assumes an honest majority of more than 1/2 of all nodes. 13 signatories are needed to send data cross-chain and 12 nodes need to collude to censor messages. Multichain is currently testing their enhanced MPC version called fastMPC, which offers increased speed, better performance and enhanced security. No proxy contracts are used on the network and Multichain ensures that there is a designated and separated ETH EOA address to lock funds.\n#### Axelar\nAxelar runs on a decentralized Proof-of-Stake network predicated on Cosmos SDK, where validators are elected by token holders and given voting rights on a pro-rata basis, weighted by the stake delegated to them. Cross-chain messages are verified by the Axelar network via a (t,n)-threshold signature scheme where the voting power of the signers, normalized to n, must be greater than t, the protocol threshold, to sign a message. The Axelar network currently has a maximum of 50 validators and must exceed a 66.67% voting majority to sign messages. Another unique feature of Axelar is that it is in the midst of implementing a quadratic voting mechanism to further increase decentralization of the network. This is groundbreaking work since concentration of power has been a heavily discussed topic with regards to POS systems.\n#### Wormhole\nWormhole uses a Proof-of-Authority Guardian network as an oracle and a permissionless relayer network to transmit messages cross-chain. There are currently 19 Guardians that runs full nodes for each of Wormhole’s supported chains and listens for messages emitted by Wormhole’s core contracts on each chain. These Guardians verify and sign these messages, and thereafter relays them to one another on a P2P network. Once a message is received, signatures from more than 2/3 of the Guardians (or at least 13 Guardians), it’s relayed to the target chain. A byproduct of this design is that it allows for a completely trustless relayer network to land the message on the destination chain. Since these messages are signed by the Guardians, it is not possible to either change the contents of the message or censor it as anyone can run a relayer to submit any message. The security guarantee of Wormhole comes from the reputational authority of the Guardians, which is made up of 19 of the largest staking and infrastructure providers in Web3. 13 Guardians would need to collude to sign a false message, and 7 Guardians would need to collude to censor a message. Moreover, the existing Guardian set has the ability to vote to remove or replace Guardians.\n    \n## Evaluation Parameter #2: Financial Coverage\nClose to $2 billion has been compromised in cross-chain exploits so far in 2022. This is expected to be a recurring theme in DeFi, given the infancy of the technology. Cross-chain bridges are especially vulnerable, given the sheer amount of funds locked in their respective smart contracts. As robust and comprehensive the security of a protocol is, there is no guarantee that it can protect itself from any and every threat.\nTherefore, it is vital to assess a bridge’s ability from a financial coverage point-of-view. Generally, a bridge that possess the financial capacity to backstop losses due to an exploit would exhibit greater levels of confidence. Let’s take a look at two opposite examples of bridges with financial coverage;\nNomad Bridge Exploit: Nomad bridge was exploited on the 1st of August this year, resulting in a loss of more than $186 million. As the defacto bridge of Moonbeam, many affected users saw their funds diminish in value and thee overall ecosystem TVL plummeted from $187 million to sub-$60 million. Users and affected protocols, like StellaSwap, is still awaiting for the resolution plan from Nomad\nWormhole Bridge Hack: On Feb 2 this year, Wormhole’s bridge was exploited for $320 million (120k ETH). Within 24 hours, the vulnerability was fixed and the bridge resumed operations after Jump Crypto, the backers of Wormhole, backstopped the bridge. As users were made whole, confidence was restored and ecosystem TVL recovered within days.\nIt would therefore be advantageous for a bridge to possess deep pockets in order to backstop losses due to exploits and hacks. This section takes a look at the financial capacity of each bridge.\n![Financial Coverage.png](ipfs://bafkreidwgb5e3m6eedmqs7jdlwosyhyuyvkmrzp32mh6xrzk2oadl4tcpa)\n\n#### Multichain\nMultichain has showed a great precedent in backstopping the losses from exploits, ensuring that users are made whole. The reaction of their exploits entailed the creation of a security fund, to ensure that there will be a sustainable source of funds for potential exploits down the line.\n#### Axelar\nAxelar on the other hand, has not suffered from any exploit to their credit. However, it must be put into context that Axelar launched this year and is the youngest bridge thus far, and therefore it may not be in the firing line for hackers just yet. A good buffer that has been implemented is their insurance fund that is inherent in their tokenomics.\n#### Wormhole\nAlthough Wormhole has suffered one of the largest exploits in DeFi, Wormhole exhibited the highest confidence for financial coverage. The $320M shortfall was covered in under 24 hours, as compared to Multichain’s response, in which they confirmed their reimbursement plan approximately a month after their latest hack. Beyond that, the prominence of Jump across the cryptocurrency system is well-known and goes beyond financial coverage, as they have expertise and networks across major financial functions. For instance, Jump’s capital deployment in Solana has been measured to surpass billions of dollars across the functions of market-making, arbitraging and institutional networks. Granted, this does not pertain directly to the function of bridging, but it represents a highly beneficial proposition to assess as it could enrich the entire ecosystem.\n\n## Evaluation Parameter #3: User Experience\nIn the long-run, the popularity of any bridge will depend on its usability and overall user experience. Users must generally be happy with the bridging experience for a bridge to be successful. StellaSwap has worked with Multichain, Axelar, Nomad and Celer, allowing us to fully understand the variables that goes into analyzing an optimized user experience when it comes to bridging.\n\nAcross the board, the latency and fees is pretty standard and falls in line with the general expectations of users. Multichain stands tall in terms of connectivity, with comprehensive support across numerous blockchain networks and asset support. Although Axelar is the youngest bridge, their pace of growth is lightning with 17 blockchain networks so far, with their recent achievement being selected as the defacto bridge for Osmosis, the leading DEX on Cosmos. Wormhole is seemingly employing a more focused approach towards Layer-1 integration.\nUI/UX wise, Multichain and Wormhole edges out Axelar incrementally.\n \n![User Experience.png](ipfs://bafkreihxhf5cjpu27j2atgz4562okpwqrw3rylqcuszywgssnqetid7wxi)\n     \n\n    ",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xEC640f1Dbe4C3E880c69c988cA5398028F770266",
+      "totalVotes": 0,
+      "blockNumber": 1823342,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x7c96e4d331db2977a499a87b028a58d0f2a0bd343c68f5ea10e74d4cf6a387f6",
+      "startTime": {
+        "timestamp": 1662627232
+      },
+      "endTime": {
+        "timestamp": 1662886432
+      },
+      "startTimestamp": 1662627232,
+      "endTimestamp": 1662886432,
+      "currentState": "closed",
+      "choices": [
+        "Multichain",
+        "Axelar",
+        "Wormhole",
+        "Other",
+        "No Bridge"
+      ],
+      "results": [],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 14041508.1842066,
+          "choice": 0
+        },
+        {
+          "total": 139873380.18089372,
+          "choice": 1
+        },
+        {
+          "total": 301408205.75617635,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 1183103.8800001347,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDhhYWZlMmJlMzcyZGE5OWEwMDNmZmMyYjQ0NjlmYTVkNjFhMTU1YmU4ODJhNDgxNGUxYzQ3YWM1ZjFmMWI0YzM=",
+      "id": "0x8aafe2be372da99a003ffc2b4469fa5d61a155be882a4814e1c47ac5f1f1b4c3",
+      "title": "Paths towards re-enabling borrowing on Moonwell",
+      "content": "As described in the attached discussion, I've proposed two paths towards re-enabling borrowing. This snapshot is to gauge interest in which people tend to lean towards.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xb2F5a22Bd154924402cf31a95e61587f0f1edE3c",
+      "totalVotes": 0,
+      "blockNumber": 1721722,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x8aafe2be372da99a003ffc2b4469fa5d61a155be882a4814e1c47ac5f1f1b4c3",
+      "startTime": {
+        "timestamp": 1661363087
+      },
+      "endTime": {
+        "timestamp": 1661622287
+      },
+      "startTimestamp": 1661363087,
+      "endTimestamp": 1661622287,
+      "currentState": "closed",
+      "choices": [
+        "Path 1 -- Ramp down CF",
+        "Path 2 -- Instant zero CF",
+        "Other (please share in forum)"
+      ],
+      "results": [],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 930926.504365514,
+          "choice": 0
+        },
+        {
+          "total": 302239776.7686776,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vbndlbGwtZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDA4NjllY2IwYjk2MGY2MWU3ZmEzZDQ3MjA2YjgxOTU3NTY3YWZlNDY4NjcyYjI4MmIxYWRhYTE2NDcwZmU1ZDg=",
+      "id": "0x0869ecb0b960f61e7fa3d47206b81957567afe468672b282b1adaa16470fe5d8",
+      "title": "Break Glass Guardian",
+      "content": "## Summary:\nAs part of the rollout of governance for the Moonwell Protocol, the Moonwell Community needs to establish and ratify a community multisig controlling one of the major safety mechanisms built into the Moonwell Governance Module.\n\nSpecifically, this community multisig will be able to formally declare an emergency, and cut over administrative control of arbitrary protocol components to the `governanceReturnGuardian` address defined in the MoonwellArtemisGovernor contract.\n\nThe following three community members have volunteered for this “Break Glass Guardian” role:\nx0s0l (https://twitter.com/x0s0l), a.k.a. Solar Ape - 0x2228375a0bd358fA2d04aAb70cf057cFf7C863C7, Solar Ape is an anonymous co-founder of the decentralized exchanges Solarbeam and Solarflare.  He's also a contributor to the Moonwell Apollo and Artemis protocols.\n\n0xMaki (https://twitter.com/0xmaki) - 0x8C48d0Dd4074f4839fCc20EA6715e2982001ED7a, 0xMaki is a semi-anonymous contributor mainly known for cofounding Sushiswap, currently working towards an omnichain ecosystem via LayerZero, and for helping LPs maximize their yield at Aura finance. He is Daoist and while he isn’t angel investing, advising numerous projects, or signing transactions on the 10s of multisigs keeping him up at night (Aave, Stargate, Balancer, 88mph, etc.), he loves getting involved with NFT art with implication in the Moonbirds & Nouns communities.\n\nNiko (https://twitter.com/n1kod3m) (myself) - 0xcCA82a517870b00fb31BC93A38025f042b5CC2EE, I am a co-founder of the decentralized trading platform Firefly and a quantum physicist by trade.\n\nThis multisig will have a 2/3 requirement such that any 2 of these parties working in tandem can declare a formal emergency in the protocol. The community multisig being established here is a hard blocker for rolling out formal governance on-chain. This multisig has been deployed and can be viewed here - https://multisig.moonbeam.network/mbeam:0x5402447a0db03EeE98c98b924F7d346bd19cdD17/settings/owners \n\n\n## Proposal:\nWithin the Moonwell Governance Module, there is a 2-party security mechanism built in to help the protocol recover in a decentralized manner in case of some sort of security vulnerability. \n\nThis 2-party mechanism involves a “Break Glass Guardian” role and a “Governance Return Guardian” role working together in order to give administrative control within the protocol to the address defined in the `governanceReturnGuardian` variable.\n\nThe “Break Glass Guardian” is responsible for declaring an emergency in the protocol, and the only action they can take is to set the administrator of the Moonwell Protocol components to the `governanceReturnAddress`, but importanty, the “Break Glass Guardian” can not set that variable.\n\nThe “Governance Return Guardian” is responsible for setting the `governanceReturnAddress`, and has no other abilities in the protocol.\n\nTherefore, the “Break Glass Guardian” multisig needs to be established in order for the protocol’s governance to officially go live.\n\nThis proposal advocates for the “Break Glass Guardian” role to be fulfilled with a multisig initially made up of the following community members:\nx0s0l (https://twitter.com/x0s0l), a.k.a. Solar Ape - 0x2228375a0bd358fA2d04aAb70cf057cFf7C863C7, Solar Ape is an anonymous co-founder of the decentralized exchanges Solarbeam and Solarflare.  He's also a contributor to the Moonwell Apollo and Artemis protocols.\n\n0xMaki (https://twitter.com/0xmaki) - 0x8C48d0Dd4074f4839fCc20EA6715e2982001ED7a, 0xMaki is a semi-anonymous contributor mainly known for cofounding Sushiswap, currently working towards an omnichain ecosystem via LayerZero, and for helping LPs maximize their yield at Aura finance. He is Daoist and while he isn’t angel investing, advising numerous projects, or signing transactions on the 10s of multisigs keeping him up at night (Aave, Stargate, Balancer, 88mph, etc.), he loves getting involved with NFT art with implication in the Moonbirds & Nouns communities.\n\nNiko (https://twitter.com/n1kod3m) (myself) - 0xcCA82a517870b00fb31BC93A38025f042b5CC2EE, I am a co-founder of the decentralized trading platform Firefly and a quantum physicist by trade.\n\nAdditionally, it’s desirable to grow this multisig to at least 5 community members in the coming weeks, requiring at least 3 signers to come to a consensus and allowing for 2 key holders to sustain key loss without impacting the integrity of this functionality. Community members can be added/removed as desired with snapshot votes in the future.\n\nWithin the protocol, there is also the notion of a “Sunset Period”, controlled by the `guardianSunset` variable, currently set to end on`1676142714`, i.e. Saturday, February 11, 2023 7:11:54 PM GMT (https://www.epochconverter.com/?q=1676142714). After this period the DAO can elect to remove this functionality from the DAO contract and render the “Break Glass Guardian” and “Governance Return Guardian” roles inert.\n\n## Ratification:\nIf a majority of voters vote YAY on the protocol, the proposed community multisig (https://multisig.moonbeam.network/mbeam:0x5402447a0db03EeE98c98b924F7d346bd19cdD17/settings/owners) will be promoted to the protocol “break glass guardian” by setting `breakGlassGuardian` variable to 0x5402447a0db03EeE98c98b924F7d346bd19cdD17.\nIf a majority of voters vote NAY, or the proposal fails to hit quorum, this proposal will be considered defeated.",
+      "protocol": "moonwell-governanceeth",
+      "adapter": "snapshot",
+      "proposer": "0xcCA82a517870b00fb31BC93A38025f042b5CC2EE",
+      "totalVotes": 0,
+      "blockNumber": 1675117,
+      "externalUrl": "https://snapshot.org/#/moonwell-governance.eth/proposal/0x0869ecb0b960f61e7fa3d47206b81957567afe468672b282b1adaa16470fe5d8",
+      "startTime": {
+        "timestamp": 1660786196
+      },
+      "endTime": {
+        "timestamp": 1661045396
+      },
+      "startTimestamp": 1660786196,
+      "endTimestamp": 1661045396,
+      "currentState": "closed",
+      "choices": [
+        "YAY",
+        "NAY"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 21588317.46267371,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

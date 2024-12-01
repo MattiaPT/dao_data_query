@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Y29tcG91bmRncmFudHM6c25hcHNob3Q6cW1ucGhrcWx5bW1xZGd6ZXN1bGhtNnVlc2V3d2tyY3lpbW83eGF2NTJ2c3A1Mg==",
+      "id": "QmNphkqLYmmQDGzESuLHM6UESEwWKRcYimo7xAV52VSp52",
+      "title": "Fund a Compound Grants Boardroom Integration",
+      "content": "Boardroom is an integrated governance and management platform improving distributed decisionmaking across crypto networks. Our current interface implementation was built to closely mirror the governance process of any DAO or distributed community, regardless what crypto governance framework they are using, by separating decisions into three simple steps:\n\n1. Ideation\n2. Voting\n3. Execution\n\nThe funding requested in this proposal will support the integration of the Compound Grants process onto the Boardroom portal, creating a new hub that will enable the program and its managers to:\n\n1. Prioritize new ideas and RFPs based on community sentiment (ideation forum)\n2. Gauge stakeholder / tokenhoder support for submitted proposals (voting)\n3. Track and share details and disclosure of multisig approvals, payouts, and transactions to grantees (payroll and treasury management)\n\n### Goals\nThe goal of the integration is to increase transparency and external stakeholder input into the Compound Grants prioritization, filtering, and approval process. The Boardroom portal can provide a single source of information and truth for the grants process, adding a level of disclosure and community participation that will create context and traceability for future grant distributions and approvals.\n\n### Milestones\nThe integration process will be completed in one single implementation step and should take no more than one week. \n\n### Funding Request and Budget Breakdown\nInitial implementation and onboarding: $1,240\n- Senior Engineer ($100/hour) - 6 hours of SDK and Subgraph work and QA\n- Frontend Developer (80/hour) - 8 hours on frontend integration work and QA\n\nOngoing testing, feature additions, support, and general QA: $500 a month, 12 months\n- Senior Engineer ($100/hour) - 2 hours a month on testing and QA\n- Frontend Developer (80/hour) - 2 hours on UI fixes, support, and feature additions\n- Team Support and QA ($70/hour) - 2 hours on community and team support\n\nTotal Funding Request: $7,240\n\n### Relevant Links\n[Boardroom's Landing Page](https://www.boardroom.info)\n[Boardroom's Application](https://www.app.boardroom.info)",
+      "protocol": "compoundgrants",
+      "adapter": "snapshot",
+      "proposer": "0xc1a69F906Ce4366C0C77e0219b3132FeA0969231",
+      "totalVotes": 6,
+      "blockNumber": 12255009,
+      "externalUrl": "https://snapshot.org/#/compoundgrants.eth/proposal/QmNphkqLYmmQDGzESuLHM6UESEwWKRcYimo7xAV52VSp52",
+      "startTime": {
+        "timestamp": 1618628428
+      },
+      "endTime": {
+        "timestamp": 1619150452
+      },
+      "startTimestamp": 1618628428,
+      "endTimestamp": 1619150452,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 0.9480989,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.9480988876705432,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y29tcG91bmRncmFudHM6c25hcHNob3Q6cW1kenRyd3J6ZWtmNHloY2dka3k0Yzlnd2VnNnBmejZ3MXZjMTFkNW44N3E2bQ==",
+      "id": "QmdzTRwRzEkF4yhCgdkY4c9GWEg6pfZ6W1VC11D5n87q6M",
+      "title": "iTest",
+      "content": "this should be hidden",
+      "protocol": "compoundgrants",
+      "adapter": "snapshot",
+      "proposer": "0xCf01547b6a3a41C459985EBA6874FEeaE0e3Fe8D",
+      "totalVotes": 2,
+      "blockNumber": 12180380,
+      "externalUrl": "https://snapshot.org/#/compoundgrants.eth/proposal/QmdzTRwRzEkF4yhCgdkY4c9GWEg6pfZ6W1VC11D5n87q6M",
+      "startTime": {
+        "timestamp": 1617642000
+      },
+      "endTime": {
+        "timestamp": 1617728400
+      },
+      "startTimestamp": 1617642000,
+      "endTimestamp": 1617728400,
+      "currentState": "closed",
+      "choices": [
+        "yes it is",
+        "no it aint"
+      ],
+      "results": [
+        {
+          "total": 1.0544038,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0544038126020685,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

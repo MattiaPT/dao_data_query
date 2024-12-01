@@ -1,0 +1,391 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6c3RhcmtuZXRldGg6c25hcHNob3Q6MHg4Y2YxNWM1NDM3NzUwMzFjYThhODk2MDc0N2MwMGI1MDFkMGE2ZTRiYWVmOGNhODUxODcwMWY3M2Y5OGQ2MWNi",
+      "id": "0x8cf15c543775031ca8a8960747c00b501d0a6e4baef8ca8518701f73f98d61cb",
+      "title": "Starknet Alpha v0.13.0",
+      "content": "## Starknet Alpha v0.13.0 Vote\nThe Starknet Governance Committee is excited to announce the launch of the third vote on Starknet protocol upgrade - Starknet Alpha v0.13.0.\nThe vote is now live on the [Starknet Governance Hub](https://governance.starknet.io/voting-proposals) for five days. Delegates will be able to vote any time between January 4th, 2024, 12 PM UTC, and January 8th, 2024, 12 PM UTC. Everyone with voting power (STRK token holders and delegates) is invited to vote on whether to approve this version (Starknet Alpha v0.13.0) for Mainnet deployment. The vote will be conducted via Snapshot and will require a simple majority.\n\nYou can find more information about How to vote on the [ Starknet Governance Hub](https://governance.starknet.io/learn/how_to_vote). Besides voting, we encourage ALL Starknet community members, even those without voting power, to engage in discussing this version and voice their opinions about the proposed upgrade all community members are welcome to share their feedback on this version upgrade to Mainnet. They can do so in the [ community Forum post](https://community.starknet.io/t/starknet-v0-13-0-support-for-fee-payment-in-strk-reduced-transaction-fees/109608/4) and/or on Snapshot. Just click the vote's proposal link and take part in navigating the future of Starknet.\n\n## Starknet Alpha v0.13.0 Information\nStarknet Alpha [v0.13.0](https://github.com/starkware-libs/cairo-lang/releases/tag/v0.13.0) focuses on 2 aspects: It lays the groundwork for a new transaction version, v3, and it will facilitate a significant reduction in transaction fees.\nStarknet Alpha v0.13.0 has been deployed on Goerli testnet and Sepolia testnet on December 12th and December 13th, respectively.\n\nHere are the relevant links for Starknet Alpha v0.13.0:\n-   V0.13.0 vote proposal on the Starknet Governance Hub\n-   Core components:\n     -  Blockifier [v0.4.0](https://github.com/starkware-libs/blockifier/releases/tag/v0.4.0)\n     -   Cairo v[2.4.0](https://github.com/starkware-libs/cairo/releases/tag/v2.4.0)\n     -   OS ([cairo-lang v0.13.0](https://github.com/starkware-libs/cairo-lang/releases/tag/v0.13.0))\n-   Full nodes are supporting the new transaction types and RPC v0.6.0:\n     -   Pathfinder [v0.10.2](https://github.com/eqlabs/pathfinder/releases/tag/v0.10.2)\n     -   Juno [v0.9.0](https://github.com/NethermindEth/juno/releases/tag/v0.9.0)\n     -   Papyrus [v0.2.0](https://github.com/starkware-libs/papyrus/releases/tag/v0.2.0)\n-   Explanations:\n     -   [Community Forum post](https://community.starknet.io/t/starknet-v0-13-0-support-for-fee-payment-in-strk-reduced-transaction-fees/109608)\n     -   [Starknet Alpha v0.13.0 Release Notes](https://docs.starknet.io/documentation/starknet_versions/version_notes/#version0.13.0)\n     - v3 transactions: [SNIP-8](https://github.com/starknet-io/SNIPs/blob/main/SNIPS/snip-8.md) and [SNIP-10](https://github.com/ob1337/SNIPs/blob/snip-10/SNIPS/snip-10.md)",
+      "protocol": "starkneteth",
+      "adapter": "snapshot",
+      "proposer": "0x7D137AA5ae86A1861f1b53CC9524F2e2431884D6",
+      "totalVotes": 129,
+      "blockNumber": 18919704,
+      "externalUrl": "https://snapshot.org/#/starknet.eth/proposal/0x8cf15c543775031ca8a8960747c00b501d0a6e4baef8ca8518701f73f98d61cb",
+      "startTime": {
+        "timestamp": 1704369600
+      },
+      "endTime": {
+        "timestamp": 1704715200
+      },
+      "startTimestamp": 1704369600,
+      "endTimestamp": 1704715200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 395683140.0,
+          "choice": 0
+        },
+        {
+          "total": 2164502.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1595683239.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 2164502.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704199117256,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3RhcmtuZXRldGg6c25hcHNob3Q6MHhkYTlmNTIyOGRiNGNmNzBkMDU3NDc0ZTJlMGE2NDRjZjYyNjkyNWEyZGE1YWE0YjVmYTUzMTdmYjczOWViN2Ni",
+      "id": "0xda9f5228db4cf70d057474e2e0a644cf626925a2da5aa4b5fa5317fb739eb7cb",
+      "title": "[Test] Starknet Alpha v0.13.0 Vote",
+      "content": "This is a test vote, results are not binding.\n\nAre you aligned anon?",
+      "protocol": "starkneteth",
+      "adapter": "snapshot",
+      "proposer": "0x7D137AA5ae86A1861f1b53CC9524F2e2431884D6",
+      "totalVotes": 68,
+      "blockNumber": 18883448,
+      "externalUrl": "https://snapshot.org/#/starknet.eth/proposal/0xda9f5228db4cf70d057474e2e0a644cf626925a2da5aa4b5fa5317fb739eb7cb",
+      "startTime": {
+        "timestamp": 1703764800
+      },
+      "endTime": {
+        "timestamp": 1704024000
+      },
+      "startTimestamp": 1703764800,
+      "endTimestamp": 1704024000,
+      "currentState": "closed",
+      "choices": [
+        "most aligned 🧭📈",
+        "least aligned🧭📉",
+        "starknet is ethereum "
+      ],
+      "results": [
+        {
+          "total": 62777504.0,
+          "choice": 0
+        },
+        {
+          "total": 70939264.0,
+          "choice": 2
+        },
+        {
+          "total": 77708130.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 62777505.0,
+          "choice": 0
+        },
+        {
+          "total": 77708123.0,
+          "choice": 1
+        },
+        {
+          "total": 70939252.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703759356798,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3RhcmtuZXRldGg6c25hcHNob3Q6MHhlMzY2NmRjZmFlY2RkODcxYmJhZDFjMmY4ODI4NjFkMmJiMGEyNmViMjdhZWFiMzY2NzljNDk4ZjJhMWM4NmMy",
+      "id": "0xe3666dcfaecdd871bbad1c2f882861d2bb0a26eb27aeab36679c498f2a1c86c2",
+      "title": "Starknet Alpha v0.12.0",
+      "content": "Starknet Alpha v0.12.0 has been deployed on Goerli Testnet. Voters now have a 5-day period to examine the upgraded version as it runs on Goerli. During this time, they can vote on whether to approve it for Mainnet deployment via this Snapshot proposal.\nIf the proposal gains a majority of ‘YES’ votes at the end of the 5-day voting period, the proposal passes, and Starknet Mainnet will be upgraded to v0.12.0 accordingly.\n\nBelow are the relevant links for the current vote:\n\nGitHub tags\n- Starknet:\n  - https://github.com/starkware-libs/cairo-lang/releases/tag/v0.12.0\n\n    - https://github.com/starkware-libs/blockifier/releases/tag/v0.1.0-rc0\n\n    - https://github.com/starkware-libs/papyrus/releases/tag/v0.1.2-alpha\n\n    - https://github.com/lambdaclass/cairo-vm/releases/tag/v0.6.0\n\n- Cairo:\n  - https://github.com/starkware-libs/cairo/releases/tag/v2.0.0\n\n\n**Explanations**\n- [Starknet Alpha v0.12.0 Blog post](https://www.starknet.io/en/posts/ecosystem/starknet-quantum-leap-major-throughput-improvements-are-here)\n\n**Discussion**\n- [Starknet Alpha v0.12.0 community forum discussion thread](https://community.starknet.io/t/proposal-starknet-alpha-v0-12-0/95997)\n- [Starknet Alpha v0.12.0 explained in Starknet Community Call #47](https://www.starknet.io/posts/community-calls/starknet-alpha-v0120)",
+      "protocol": "starkneteth",
+      "adapter": "snapshot",
+      "proposer": "0x7D137AA5ae86A1861f1b53CC9524F2e2431884D6",
+      "totalVotes": 111,
+      "blockNumber": 17629005,
+      "externalUrl": "https://snapshot.org/#/starknet.eth/proposal/0xe3666dcfaecdd871bbad1c2f882861d2bb0a26eb27aeab36679c498f2a1c86c2",
+      "startTime": {
+        "timestamp": 1688576239
+      },
+      "endTime": {
+        "timestamp": 1689008239
+      },
+      "startTimestamp": 1688576239,
+      "endTimestamp": 1689008239,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 287056200.0,
+          "choice": 0
+        },
+        {
+          "total": 17073168.0,
+          "choice": 2
+        },
+        {
+          "total": 14754144.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1490106989.0,
+          "choice": 0
+        },
+        {
+          "total": 14754144.0,
+          "choice": 1
+        },
+        {
+          "total": 17073168.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688576921957,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3RhcmtuZXRldGg6c25hcHNob3Q6MHg3MzY0YzQ4Y2UwYWU4MmQ5NmI3ODM4MWFjOWQ1Y2EzMzA0ZDU4ZmZjMGZiODQ0MDBlZDMwMTlhZDAwZTNlNTNj",
+      "id": "0x7364c48ce0ae82d96b78381ac9d5ca3304d58ffc0fb84400ed3019ad00e3e53c",
+      "title": "👉👈  [ TEST ] Starknet Alpha 0.12 Vote",
+      "content": "This is a test vote, results are not binding.",
+      "protocol": "starkneteth",
+      "adapter": "snapshot",
+      "proposer": "0x77EC061aC11df6b42Af3784BCE835A5feAF247Dd",
+      "totalVotes": 41,
+      "blockNumber": 17622751,
+      "externalUrl": "https://snapshot.org/#/starknet.eth/proposal/0x7364c48ce0ae82d96b78381ac9d5ca3304d58ffc0fb84400ed3019ad00e3e53c",
+      "startTime": {
+        "timestamp": 1688500440
+      },
+      "endTime": {
+        "timestamp": 1688586840
+      },
+      "startTimestamp": 1688500440,
+      "endTimestamp": 1688586840,
+      "currentState": "closed",
+      "choices": [
+        "Yes, More TPS Daddy 👉👈",
+        "No, Less TPS Daddy 😔",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 113519776.0,
+          "choice": 0
+        },
+        {
+          "total": 7427072.0,
+          "choice": 2
+        },
+        {
+          "total": 4958048.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 113519773.0,
+          "choice": 0
+        },
+        {
+          "total": 4958048.0,
+          "choice": 1
+        },
+        {
+          "total": 7427072.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688502045478,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3RhcmtuZXRldGg6c25hcHNob3Q6MHgwMDg4OWJjNDY4NTA5NjEwZTUxNmU4NjAyZjAwYjIxY2E4YzMyNDY2ZGQ0ZjAxNDBlY2EzOGJlY2I3ZjQwYmVm",
+      "id": "0x00889bc468509610e516e8602f00b21ca8c32466dd4f0140eca38becb7f40bef",
+      "title": "Starknet Alpha v0.11.0 ",
+      "content": "Starknet Alpha v0.11.0 has been deployed on Goerli Testnet. Voters now have a 6-day period to examine the upgraded version as it runs on Goerli. During this time, they can vote whether to approve it for Mainnet deployment via Snapshot.\nIf the proposal gains a majority of ‘YES’ votes during the six-day voting period, the proposal passes and Starknet mainnet will be upgraded accordingly.\n\n\nBelow is the relevant links for the current vote\nGitHub tags - \nStarknet: \nhttps://github.com/starkware-libs/cairo-lang/releases/tag/v0.11.0\nhttps://github.com/starkware-libs/cairo-lang/releases/tag/v0.11.0.1  (*Small CLI fix) \nCairo 1: https://github.com/starkware-libs/cairo/releases/tag/v1.0.0-alpha.6\nStarknet Alpha v0.11.0 explained in [docs.starknet.io](https://docs.starknet.io/documentation/starknet_versions/upcoming_versions/#what_to_expect)\nStarknet Alpha v0.11.0 [Medium post](https://medium.com/@starkware/starknet-alpha-v0-11-0-the-transition-to-cairo-1-0-begins-30442d494515)\nStarknet Alpha v0.11.0 explained in [Starknet Community Call #32](https://www.starknet.io/en/posts/community-calls)\n\n\n**Discussion**\nStarknet Alpha v0.11.0 [Discussion thread](https://community.starknet.io/t/proposal-starknet-alpha-v0-11-0/50334)\nStarknet Alpha v0.11.0 [Community Call](https://youtube.com/live/yh4F7Eii8Lw?feature=share) (22.3.2023, 3 pm GMT)",
+      "protocol": "starkneteth",
+      "adapter": "snapshot",
+      "proposer": "0x7D137AA5ae86A1861f1b53CC9524F2e2431884D6",
+      "totalVotes": 75,
+      "blockNumber": 16877077,
+      "externalUrl": "https://snapshot.org/#/starknet.eth/proposal/0x00889bc468509610e516e8602f00b21ca8c32466dd4f0140eca38becb7f40bef",
+      "startTime": {
+        "timestamp": 1679414652
+      },
+      "endTime": {
+        "timestamp": 1679933052
+      },
+      "startTimestamp": 1679414652,
+      "endTimestamp": 1679933052,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 405173020.0,
+          "choice": 0
+        },
+        {
+          "total": 7042254.0,
+          "choice": 2
+        },
+        {
+          "total": 7042254.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1615736717.0,
+          "choice": 0
+        },
+        {
+          "total": 7042254.0,
+          "choice": 1
+        },
+        {
+          "total": 7042254.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679416798328,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3RhcmtuZXRldGg6c25hcHNob3Q6MHg5ZDUzNWUyYTE0Y2JlMWYzNGNlMzczMmNhNzY1YmVjZDNlY2NjMTAzZmRlNzg0Y2EyM2YwNzFkZTI3NmYzZjky",
+      "id": "0x9d535e2a14cbe1f34ce3732ca765becd3eccc103fde784ca23f071de276f3f92",
+      "title": "TEST] Starknet Alpha V 0.11 Vote",
+      "content": "Test",
+      "protocol": "starkneteth",
+      "adapter": "snapshot",
+      "proposer": "0x77EC061aC11df6b42Af3784BCE835A5feAF247Dd",
+      "totalVotes": 60,
+      "blockNumber": 16827510,
+      "externalUrl": "https://snapshot.org/#/starknet.eth/proposal/0x9d535e2a14cbe1f34ce3732ca765becd3eccc103fde784ca23f071de276f3f92",
+      "startTime": {
+        "timestamp": 1678812926
+      },
+      "endTime": {
+        "timestamp": 1679244926
+      },
+      "startTimestamp": 1678812926,
+      "endTimestamp": 1679244926,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 239436620.0,
+          "choice": 0
+        },
+        {
+          "total": 35211272.0,
+          "choice": 2
+        },
+        {
+          "total": 52816904.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1464084525.0,
+          "choice": 0
+        },
+        {
+          "total": 52816905.0,
+          "choice": 1
+        },
+        {
+          "total": 21126762.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678813320594,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

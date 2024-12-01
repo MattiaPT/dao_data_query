@@ -1,0 +1,914 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4YmQyOTA5NjFkNTJjOTgzNmYzMTcyZWY4M2Q5YTBjMDgzYzNlN2Q2ZTg5ZTgzYmMzMjAwN2JmOGJmZjE5MThjMQ==",
+      "id": "0xbd290961d52c9836f3172ef83d9a0c083c3e7d6e89e83bc32007bf8bff1918c1",
+      "title": "Dissolve the DAO",
+      "content": "This proposal distributes the treasury pro rata to every token holder with 2+ tokens in their wallet. This is a simpler solution than trying to determine every wallet's buy-in price, if someone else wants to do it that way please do.",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0xf2BE0cD090b3Ab2d98B6b18EBC7ca25A6c18c85A",
+      "totalVotes": 3,
+      "blockNumber": 20441216,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1722692411
+      },
+      "endTime": {
+        "timestamp": 1723038011
+      },
+      "startTimestamp": 1722692411,
+      "endTimestamp": 1723038011,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20479782
+          },
+          "event": "canceled",
+          "timestamp": 1723070879,
+          "txHash": "0xe0d3fbf8e5779b0f8bc81598572eec968d65abb7ae81323804be280e08cc1d7a"
+        },
+        {
+          "time": {
+            "blockNumber": 20477059
+          },
+          "event": "queued",
+          "timestamp": 1723038095,
+          "txHash": "0x2ab39cedc6b8de792ca5c56a6f6f26a354763ff1eebec6c8af6e1e9d5f7c54f6"
+        },
+        {
+          "time": {
+            "blockNumber": 20441216
+          },
+          "event": "pending",
+          "timestamp": 1722606011,
+          "txHash": "0x6497ccc31e085fdea197edc90344c375611b2a096dfba9875e3ee9d05356e4fd"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1722606221666,
+      "txHash": "0x6497ccc31e085fdea197edc90344c375611b2a096dfba9875e3ee9d05356e4fd",
+      "quorum": 6,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4ODljMmYwZGI5ZTRjM2FkMmJhNjQwODNlMjVkZjE3YTQ3NGYwODU5MmM5YzU1ZmE1NGVjYTJhZDJjNmUxMjBkYg==",
+      "id": "0x89c2f0db9e4c3ad2ba64083e25df17a474f08592c9c55fa54eca2ad2c6e120db",
+      "title": "Rage Quit",
+      "content": "I would like to rage quit this failed DAO at book value minus 10%. Book value of the 6 tokens I hold is 0.54 ETH and this proposal requests 0.486 ETH. When this proposal passes I will send my tokens to the DAO treasury.\n\nPlease reach out on blockscan if you have any questions or comments. https://chat.blockscan.com/\n\nThanks",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0xf2BE0cD090b3Ab2d98B6b18EBC7ca25A6c18c85A",
+      "totalVotes": 6,
+      "blockNumber": 19977984,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1717101995
+      },
+      "endTime": {
+        "timestamp": 1717447595
+      },
+      "startTimestamp": 1717101995,
+      "endTimestamp": 1717447595,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 21.0,
+          "choice": 0
+        },
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19977984
+          },
+          "event": "pending",
+          "timestamp": 1717015595,
+          "txHash": "0xf9081d6c62bd5ce010153404ae515715855419301a58afba68ce2754785f6efe"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 21.0,
+          "choice": 0
+        },
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1717015996373,
+      "txHash": "0xf9081d6c62bd5ce010153404ae515715855419301a58afba68ce2754785f6efe",
+      "quorum": 6,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4MWQ2NWIxZGU2MzFhYmJhNTljZTkxMWVhOWI4MDUwOWNmN2Q3OTk5NjBlMWNmNzllNDU0Nzk3YzJjM2MwNDUyNA==",
+      "id": "0x1d65b1de631abba59ce911ea9b80509cf7d799960e1cf79e454797c2c3c04524",
+      "title": "Art Haus x ENERGY Grant Transfer",
+      "content": "### A New Proposal\n\nDuring the voting period for [Prop 11: ENERGY x Art Haus Merger](https://nouns.build/dao/ethereum/0x65e0fed751abca42bc82006f84e31f5cd95d6d66/vote/11), 19 tokens expressed interest in an alternative plan. Rather than pursuing a merger, the proposed approach suggests redirecting the remaining funds from the BuilderDAO grant (20.5 ETH) to ENERGY. This would enable ENERGY to execute [the original proposal ](https://nouns.build/dao/ethereum/0xdf9b7d26c8fc806b1ae6273684556761ff02d422/vote/32)of 12 curated droposals. A subsequent proposal would be introduced onchain to disburse the remaining Art Haus Treasury to the membership (0.09 ETH per token).\n\nThis revised proposition is designed to be mutually beneficial for all stakeholders. Based on current auction prices, Art Haus members interested in joining ENERGY could acquire 2 tokens for each distributed Art Haus token. This approach ensures ENERGY receives the necessary funds to fulfill the initial Builder proposal and actively contribute to onchain arts initiatives.\n\nccarella.eth, [the proposer of the initial Builder proposal](https://nouns.build/dao/ethereum/0xdf9b7d26c8fc806b1ae6273684556761ff02d422/vote/32), will champion the effort inside ENERGY to ensure the realization of the initial vision.\n\nThis is the first of two proposals and it sends the remaining Builder DAO grant to an ENERGY multi-sig. Since the Art Haus Treasury is on Ethereum Mainnet and ENERGY's is on Zora Network, a multi-sig intermediary is required to bridge the Mainnet ETH to Zora Network and then transfer to the ENERGY Treasury.\n\n### The Multi-sig\nThe multi-sig address:\n\neth:[0x2E9fa413991A2c3173cBE6f0B06708F870011c86](https://etherscan.io/address/0x2E9fa413991A2c3173cBE6f0B06708F870011c86)\n\n- gami.eth\n- joshuafisher.eth\n- ccarella.eth\n- sorenwrenn.eth\n- thenounishprof.eth\n\n\nplease see the [Cancelled Proposal 11](https://nouns.build/dao/ethereum/0x65e0fed751abca42bc82006f84e31f5cd95d6d66/vote/11) for additional background information.",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0x3B60e31CFC48a9074CD5bEbb26C9EAa77650a43F",
+      "totalVotes": 6,
+      "blockNumber": 19166147,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1707271967
+      },
+      "endTime": {
+        "timestamp": 1707617567
+      },
+      "startTimestamp": 1707271967,
+      "endTimestamp": 1707617567,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 17.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19166147
+          },
+          "event": "pending",
+          "timestamp": 1707185567,
+          "txHash": "0xeb597de8a3e3920948e43b9e2e6c772baf175a9da48b4fa181f5b9e5e3b4f407"
+        },
+        {
+          "time": {
+            "blockNumber": 19229121
+          },
+          "event": "executed",
+          "timestamp": 1707949091,
+          "txHash": "0x24a0f65c14099b8e48b16d7048451ee7c22888aeaba1aa394790ac59a9e795fe"
+        },
+        {
+          "time": {
+            "blockNumber": 19205423
+          },
+          "event": "queued",
+          "timestamp": 1707661775,
+          "txHash": "0xa9b2d8dfd7356dd4167e4f926a769caa918c9be5cbd5a9ca3509f0311aa19714"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 17.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707186145257,
+      "txHash": "0xeb597de8a3e3920948e43b9e2e6c772baf175a9da48b4fa181f5b9e5e3b4f407",
+      "quorum": 6,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4MjM5YTFmNTgxMmMzMmRkZTRhYTM4OTFkMDI4YWQ4MDMzMjM0ODViNDBhNDg2ZjhhOTNhODdkYTNlNGIzNGEzYg==",
+      "id": "0x239a1f5812c32dde4aa3891d028ad803323485b40a486f8a93a87da3e4b34a3b",
+      "title": "ENERGY x Art Haus Merger",
+      "content": "### TLDR;\n\nThe purpose of this Proposal is to merge ENERGY & Art Haus into one DAO dedicated to supporting the arts & creative technology on Zora Network.\n\n### About Energy\n\nENERGY was created on August 8, 2023 by 13 members of the Zora community as a creative grants collective whose goal is to fund creative arts and engineering projects on Zora Network. It has 38 Members who exists at the intersection of Nouns and the Zora Community. It has had active Governance with multiple proposals on chain each month of its existence. It has beautiful generative Zorb token art and is the first DAO on Zora Network. It has funded a number of art projects including:\n\n* A grant to [Newtro Arts](https://www.newtro.xyz/), who have been featured on the Zora homepage multiple times.\n\n* The [Kismet Casa Creators House](https://twitter.com/KismetCasa) at Bright Moments Argentina (watch).\n\n* Training a stable diffusion model on [TITLES* using Energy’s artwork](https://twitter.com/titlesxyz/status/1712285464730775565).\n\n* Participating in a [Zorbs contest on TITLES* in collaboration with Zora ](https://twitter.com/titlesxyz/status/1701677905171079408) by providing our model for the contest.\n\n* Contribution to [MODEL-WIP](https://model-wip.com/) to commission an artist to produce a body of work, train an image generation model on that work.\n\n* A grant to Finnish artists using the [Alusta platform to mint NFTs on Zora Network](https://alusta.art/) in partnership with the Finish National Gallery.\n\n* A [droposal of Energy](https://zora.co/collect/zora:0xb468a04854e81102d297c6d8e13af8445f5a0406) token artwork.\n\n* A [droposal to commemorate](https://zora.co/collect/zora:0x2b1a039a4b74b89f95fd05403e7d1d4478bed04a) Kismet Casa.\n\nENERGY has collaborated with Zora and there is no shortage of opportunities to collaborate with them and other art organizations. The ENERGY Treasury is currently at 1.79 ETH and its total auction sales has been 2.36 ETH, demonstrating the impact it can achieve with limited resources.\n\n### About Art Haus\n\nArt Haus was created on January 5, 2023 by Gami and ccarella.eth purchased the first 2 tokens. The goal of Art Haus was to create a collective arts patronage. Proceeds from the Daily Auction were intended to commission nounish art. Proposals were to be submitted to ceate these CC0 works as NFT droposals. Minting proceeds were to be split between artist and treasury. Since January 5th, 20 members joined Art Haus. 1 Droposal has been released by the collective, Art Haus by Messhup on January 17, 2023. Since then the DAO has struggled in finding the momentum to achieve its goal of arts patronage. The Membership is full of amazing people from the Nouns ecosystem but Art Haus has never been anyone’s priority. The DAO remains without token art.\n\nThe Art Haus Treasury is currently 26.2179 ETH, which represents a lot of potential impact on the arts. 25 ETH came from BuilderDAO Proposal 32 on February 18th, 2023. Authored by ccarella.eth, the proposal it stated the 25 ETH was to commission 12 artists for creation of works released via “droposals”. Momentum has slowed towards that goal.\n\n### ENERGY x Art Haus, A powerful patron of the arts.\n\nTogether ENERGY and Art Haus have the people, resources, momentum and opportunities to support art and artists. It can satisfy the original vision of Art Haus and the aligned vision of ENERGY. The endless possibilities include collaborating with National Galleries, empowering members to curate their own art shows, onboarding artists, collaborating with art collectors, hosting creator houses around the world, meetups at crypto and art conferences and working with both independent and major artists across genres. With a combined Treasury of 28 ETH, close ties with Zora, Nouns and The Park and the talent and will of the membership to deploy the Treasury in support of the arts, the new ENERGY can be a force for good in the world.\n\n### How it works\n\nThis will be the first merger of 2 Noun’ish DAOs. Here are the Proposed Logistics.\n\n* Art Haus votes to approve this Proposal. If approved it transfers its Treasury to a 3/5 multisig and pauses it’s auction.\n\n* The 3/5 multisig will be 2 members representing ENERGY, 2 members representing Art Haus and Prof Werder as a representative of both DAOs as well as BuilderDAO.\n\n* ENERGY votes on a proposal to airdrop ENERGY tokens on all Art Haus Members. Members will receive an equivalent amount of token in ENERGY as they currently have on Art Haus. (ie if you have 5 Art Haus token, you will get 5 ENERGY tokens)\n\n* On execution the 3/5 multisig swaps the Mainnet ETH for Zora ETH and sends it to the ENERGY Treasury\n\n* As one DAO we commission and artists to commemorate the event with a Droposal.\n\n### The Multi-sig\n\nThe multi-sig address: \n\neth:0x2E9fa413991A2c3173cBE6f0B06708F870011c86\n\n**Art Haus**\n* gami.eth\n* joshuafisher.eth\n\n**ENERGY**\n* ccarella.eth\n* sorenwrenn.eth\n\n**Builder DAO**\n* thenounishprof.eth\n\n### Post-Merger Plans\n\n1. We should create a new Mission statement from the new DAO which is even more inclusive of supporting the Arts onchain.\n\n2. We should execute the initial Art Haus plan in the BuilderDAO prop and commission 12 artists for droposals.\n\n### The New Energy\n\nWe stand at a pivotal moment, not just for ENERGY and Art Haus, but for the future of art and innovation within the Zora Network. This merger isn’t simply a union of resources, it’s a collision of passions, igniting a creative supernova.\n\nFor months, ENERGY has blazed a trail, seeding artistic projects, collaborating with Zora giants, and etching its legacy as the network’s first DAO. Its vibrancy is undeniable, yet its impact, limited by resources.\n\nArt Haus, meanwhile, carries a treasure trove of potential. Its treasury hums with 26 ETH, an artistic war chest primed for deployment.\n\nThis merger should not be viewed as an ending. We see it as **the dawn of a new era**. A united ENERGYxArt Haus will be a powerhouse of artistic patronage, a beacon for creators, and a testament to the boundless possibilities of collaboration.\n\nImagine curated art shows co-organized by members. Picture creator houses bursting with creative energy across the globe. Envision collaborations with national galleries, crypto conferences, and major artists of all genres. This isn’t a pipe dream, it’s the tangible future within our grasp.\n\nThis merger isn’t just about merging treasuries; it’s about merging dreams. It’s a vote for audacity, for artistic revolution, for leaving an indelible mark on the canvas of Web3.\n\nLet’s unleash the true power of the membership of this new combined DAO.\n\n",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0x3B60e31CFC48a9074CD5bEbb26C9EAa77650a43F",
+      "totalVotes": 9,
+      "blockNumber": 19141236,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1706969687
+      },
+      "endTime": {
+        "timestamp": 1707315287
+      },
+      "startTimestamp": 1706969687,
+      "endTimestamp": 1707315287,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19141236
+          },
+          "event": "pending",
+          "timestamp": 1706883287,
+          "txHash": "0x8ba302cac7bde1721f35cf216a77c97554de9493dc76cc5aeba5a806ebe59dd2"
+        },
+        {
+          "time": {
+            "blockNumber": 19166096
+          },
+          "event": "canceled",
+          "timestamp": 1707184943,
+          "txHash": "0x6f19f66ee069ab39e984bb64c78a3e3f0285d6271ac807d94bcf053ddc4514ba"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706883841656,
+      "txHash": "0x8ba302cac7bde1721f35cf216a77c97554de9493dc76cc5aeba5a806ebe59dd2",
+      "quorum": 6,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4MTAyMDI5NjNmYmNkNDA3NjllYWUzYzMyZTkyNjMyNmQzYjQzNmZiZmMyNWQxYzNiMDc2ZGI5NzI4YTM4NTE3OQ==",
+      "id": "0x10202963fbcd40769eae3c32e926326d3b436fbfc25d1c3b076db9728a385179",
+      "title": "Website - art.haus",
+      "content": "# Design\nThe website is designed to feel very contemporary similar to how many fine art brands like Sotheby's while still maintaining the fun visuals that CC0 and nounish culture embody. \n\n![image](https://ipfs.decentralized-content.com/ipfs/bafybeih3au2pfcy43n7hlt4fjriww2ow5pgjiq2ma3wk3osdtnnzkzvuhq)\n\nThe theme that the design is based around is a blank canvas, since all Art Haus tokens begin as a blank canvas and eventually get replaced with commissioned artwork. The landing page showcases the latest commissioned artwork by the DAO with an effect revealing the blank canvas as the user moves their mouse. \n\n![image](https://ipfs.decentralized-content.com/ipfs/bafybeihumecljxnorxrdoqulmukbtkys44eehbipcsxdxwtro6hlvlviyu)\n\nThe website will also include a gallery page that will provide a Zora fyp like view of all the commissioned work with details on the artist, date, description, and a link to mint or purchase the droposal on the secondary.\n\n![image](https://ipfs.decentralized-content.com/ipfs/bafybeibgrjjcyrwnzakjkdtnhcqtq4kawn52i5ja6xhkqe4s6rotwocvdu)\n\n# Maintenance\nThe backend of the website will be managed by Notion allowing anyone with access to easily add commissioned works, change the landing page image, and any other content that is displayed on the website.\n\n# Deadline\nAs of July 27th the design has been completed as shown above and the development process has started with a goal of being completed by the 8th of August.\n\n# Budget\n\n- 1.5 ETH\n- 1 Art Haus Token",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0xE3ff24a97BFB65CAdEF30F6Ad19a6EA7E6F6149d",
+      "totalVotes": 5,
+      "blockNumber": 17827917,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1691073011
+      },
+      "endTime": {
+        "timestamp": 1691418611
+      },
+      "startTimestamp": 1691073011,
+      "endTimestamp": 1691418611,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 23.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17827917
+          },
+          "event": "pending",
+          "timestamp": 1690986611,
+          "txHash": "0xd2ff2b9d04ffb95d88b953e868b50ab9cff78a7f1e1538f95348761693a12ee9"
+        },
+        {
+          "time": {
+            "blockNumber": 17878732
+          },
+          "event": "executed",
+          "timestamp": 1691600903,
+          "txHash": "0x652895bec7a4996781996758c624c98389aaf97132f30f29f193acfe2ff6a153"
+        },
+        {
+          "time": {
+            "blockNumber": 17864299
+          },
+          "event": "queued",
+          "timestamp": 1691426363,
+          "txHash": "0xe9fe470395063db8fb05858c6fdc04487f491bb32acce48633e3f058680865c0"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 23.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690986695397,
+      "txHash": "0xd2ff2b9d04ffb95d88b953e868b50ab9cff78a7f1e1538f95348761693a12ee9",
+      "quorum": 5,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4YTQ3M2NjYWExNGZmZDEwMzZhMzAyZjA5YTNiYTcyNmYyYTExNDkzMmE0ZmIyMjY0MGJhZjY1NzNmN2Y4YzRkZA==",
+      "id": "0xa473ccaa14ffd1036a302f09a3ba726f2a114932a4fb22640baf6573f7f8c4dd",
+      "title": "Art Hausparty Nouniversary party in Miami as an IRL launch for Art Haus DAO",
+      "content": "## tl:dr: Art Haus sponsored event for the 2nd Nouniversary at Hodler Gallery in Miami with an artist talk and art exhibition with Cory Van Lew. \n\n![](https://hackmd.io/_uploads/SktOcUt9n.png)\n![](https://hackmd.io/_uploads/SktOcUt9n.png)\nNOTE: Messhup will be creating a POAP with a party version of his original Art Haus piece. This is just an inspiration and will NOT be the final version.\n\n**Let's get this Art Haus Party started! This prop is to request 3 eth for an event that will both celebrate the Nouniversary with a live activation that will be streamed, as well as official launch Art Haus DAO.**\n\n* August 8, 2023, 6 pm to 8 pm at Hodler Gallery, Miami\n* Artist Cory Van Lew has been commissioned to attend and exhibit his recent nounish fine art painting (is the first of its kind?) and to give an artist talk about this and his work. Cory has incorporated nouns glasses into many of his digital works but this is the first physical piece.\n* Media Sponsor: as Cory is a TIMEpieces artist, TIMEpieces has agreed to be a media sponsor and will cohost the twitter spaces with the artist talk as well as promote the event on their social platforms.\n* The IRL event will be for 88 people with a stream to The Noun Square YouTube and Twitter Spaces for greater reach and capture for distribution of the evergreen content.\n* I am also working on securing PizzaDAO as a sponsor and expect to confirm this next week.\n\nThis event will serve multiple purposes by profliferating nounish art as is the goal of Art Haus; introduce Art Haus DAO to a wider audience; and as a nounish DAO built on Nouns Builder, provide exposure for BuilderDAO as well. \n\nThis will also reach the artist audience whose attention we'd like to capture. This event will help to kickstart Art Haus.\n\n\n## Hodler Gallery\n\nHodler Gallery is an NFT focused art gallery in the Wynwood section of Miami. They often hold NFT related events. The detailed invoice can be found the dao talk area of the Art Haus discord. They are fans of Nouns and are excited to hold this event.\n\nWe will have 8 frames with 2 reserved for Cory, 2 for TIMEpieces media sponsorship and the rest for nounish art work and our event logo.\n\nMore information about Hodler Gallery:\nTwitter: @hodlergallery  https://twitter.com/hodlergallery\nWebsite: https://www.hodlergallery.com/\n![](https://hackmd.io/_uploads/SkLz0IF9h.png)\n\n![](https://hackmd.io/_uploads/SkLz0IF9h.png)\n\n\n## Cory Van Lew\n\n\"Cory Van Lew is a Visual artist known for his particular use of bright color, to invoke positivity with good intentions. Pulling from moments of his life, Van Lew uses his “Theory of Transmission” to communicate and create works of art. Since his entry into the NFT community, Cory has taken stronghold as one of the prominent artists in the space, working with celebrities such as Mike Tyson, Jake Paul and Teyana Taylor.\"  from https://coryvanlew.com/bio/\n\nCory has incorporated nouns glasses into custom pfp creations as well as the Rug Radio pfp collection. But it is his new physical painting that caught nounsfolk's attention. This may be the first nounish fine art piece and it is quite special. This piece will be on display at the event and Cory will discuss his nounish journey as part of an artist talk at the event.\n![](https://hackmd.io/_uploads/rkWKkDt9h.png)\n\n![](https://hackmd.io/_uploads/rkWKkDt9h.png)\n\n\nMore about this amazing nounish art: \nhttps://twitter.com/coryvanlew/status/1672999735928528896?s=20\nhttps://twitter.com/coryvanlew/status/1680567404533784578?s=20\n\nMore information about Cory Van Lew:\nTwitter: @coryvanlew  https://twitter.com/coryvanlew\nWebsite: https://coryvanlew.com/\n\n## **Budget**\n\nThe total ask for this prop is 3 eth to be distributed as follows: \n\nHodler Gallery: .95 eth payment to 0x9d2daCbd15f1D2F14ed36C4B6e374b2d496d93ff \nfor rental, non-alcoholic beverages and staff. A cash bar will also be available for guests.\n\nCory Van Lew: 1 eth artist payment to 0x78cc9467d447eFFeEe552250F1b14E622Ae48562\n\nMesshup: .1 eth artist payment to 0x0C66d954d9cb1ebDF4E37a000262323C83655e70 messhup.eth to adapt original work for event POAP\n\nProf Werder: .25 payment to 0xCEEd9585854F12F81A0103861b83b995A64AD915 thenounishprof.eth for planning and coordination -- this effort has already taken about 5 hours of coordination and I expect that will quadruple in the next two weeks. Prof will be coordinating with all parties, including media and streaming.\n\nSwag and incidentals: .7 eth to 0xBDb00bE8f4a16c0467E6B9Bc1865354682a59284 arthaus.thenounishprof.eth for Stickers, napkins, cake and food in addition to PizzaDAO sponsorship which has not yet been confirmed. Any unused eth from this line item will be returned to the treasury.\n\nTIMEpieces media sponsorship: in kind -- 2 of the gallery frames will be reserved for rotating TIMEpieces art work.\n\nPizzaDAO: in kind - PizzaDAO logo will be on all media pieces in exchange for pizza. This will be confirmed this upcoming week when the team returns from ethcc.\n\nOther sponsors to be listed on event media: \nBuilderDAO and The Noun Square\n\n## Let's get the Art Haus party started and celebrate 2 years of nounish art!\n\n\n",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 9,
+      "blockNumber": 17749242,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1690122239
+      },
+      "endTime": {
+        "timestamp": 1690467839
+      },
+      "startTimestamp": 1690122239,
+      "endTimestamp": 1690467839,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 36.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17786054
+          },
+          "event": "queued",
+          "timestamp": 1690480835,
+          "txHash": "0x2eb923be448ef89cb1510673cc4aa5503a114d4dcc3d195c9233462bec3f59ff"
+        },
+        {
+          "time": {
+            "blockNumber": 17749242
+          },
+          "event": "pending",
+          "timestamp": 1690035839,
+          "txHash": "0xdaeaf640c5954d155db390c0213352c2364639f20e8e3dff4a2ddee89ab1b965"
+        },
+        {
+          "time": {
+            "blockNumber": 17800473
+          },
+          "event": "executed",
+          "timestamp": 1690655159,
+          "txHash": "0xe7f7c2eeb53cbf099ccac5f3e4699b7ffdf44ba7b4789964e09f894db038d2cd"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 36.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690036278919,
+      "txHash": "0xdaeaf640c5954d155db390c0213352c2364639f20e8e3dff4a2ddee89ab1b965",
+      "quorum": 5,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4ZjE4YTkxNTM4NGJmYTFjYzJmMGVhNDdiMDQ2YzZmOGE0YTUyN2VhMmE5NGVkYzVkMWEyNGI1NGM3NzM1ZTRlOA==",
+      "id": "0xf18a915384bfa1cc2f0ea47b046c6f8a4a527ea2a94edc5d1a24b54c7735e4e8",
+      "title": "SetOwner on Art Haus by MΞSSHUP",
+      "content": "This proposal sets the contract owner of our first ever NFT drop to the treasury.\n\nI mistakenly set treasury as admin and then removed myself, when I should have transferred contract owner. Attached transaction should address the issue and result in creator being shown as treasury, which following proposal prior to this one, will resolve as arthaus.eth",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0x387a161C6b25aA854100aBaED39274e51aaffffd",
+      "totalVotes": 1,
+      "blockNumber": 17164393,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1683011267
+      },
+      "endTime": {
+        "timestamp": 1683356867
+      },
+      "startTimestamp": 1683011267,
+      "endTimestamp": 1683356867,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17200094
+          },
+          "event": "queued",
+          "timestamp": 1683358427,
+          "txHash": "0x7f376cda07770f7fb495a6ed589891618ce29277596e349bf47b00c6c4cd7653"
+        },
+        {
+          "time": {
+            "blockNumber": 17220945
+          },
+          "event": "executed",
+          "timestamp": 1683611663,
+          "txHash": "0x0ff8dbc64e595220b2096d08cafc1fd6ac219f3e41ef9404f48566187fca5e55"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682925080648,
+      "txHash": "",
+      "quorum": 4,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4M2M4YWI4NTVmMDc0Zjc1NzcyN2MyMjJmZmFiOWRhYmUxZjFjOWU1OThmNWU1YjIyNTljY2ZkMjdkNWRhYTAwNQ==",
+      "id": "0x3c8ab855f074f757727c222ffab9dabe1f1c9e598f5e5b2259ccfd27d5daa005",
+      "title": "Set reverse record to arthaus.eth",
+      "content": "In preparation for our upcoming series of artist drops and onboarding, this simple proposal sets the reverse record from the treasury to be arthaus.eth",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0x387a161C6b25aA854100aBaED39274e51aaffffd",
+      "totalVotes": 1,
+      "blockNumber": 17164278,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1683009875
+      },
+      "endTime": {
+        "timestamp": 1683355475
+      },
+      "startTimestamp": 1683009875,
+      "endTimestamp": 1683355475,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17199909
+          },
+          "event": "queued",
+          "timestamp": 1683356171,
+          "txHash": "0xe50398d6996ad7d4b7f5aaba9d03a33693fa08310d454342ae2b11c58d6110ba"
+        },
+        {
+          "time": {
+            "blockNumber": 17220931
+          },
+          "event": "executed",
+          "timestamp": 1683611495,
+          "txHash": "0x778b3d34bbe16aa3c53f680c8a24cbc96723bd7f20fd936a7c42f391667762f0"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682923968295,
+      "txHash": "",
+      "quorum": 4,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4MjE0MjQxMTVkODY5OWJmY2I0YWYwZGJjZjY4N2NmZWMxMmE5NmYxZTNiYTk1ZjQzZDBlZWFkYmM4YzZlN2QyNA==",
+      "id": "0x21424115d8699bfcb4af0dbcf687cfec12a96f1e3ba95f43d0eeadbc8c6e7d24",
+      "title": "Adjust our reserve price",
+      "content": "This is a proposal to increase the reserve price of our bi-daily auction to .069 ETH\n\nThis is meant as a simple change in order to prevent low contested bids from adding little to no value to the treasury",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0xE3f27DEFf96fe178e87559F36Cbf868B9E75967D",
+      "totalVotes": 0,
+      "blockNumber": 16987837,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1680848711
+      },
+      "endTime": {
+        "timestamp": 1681194311
+      },
+      "startTimestamp": 1680848711,
+      "endTimestamp": 1681194311,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16988549
+          },
+          "event": "canceled",
+          "timestamp": 1680771227,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680762367025,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4OTAzZGNmNTE5OWJhNjQ3Zjg5Mjg3ZjQzZmUyMzRmMjVmNTA2YTk3M2JkNDMwZGQ2ZjM2N2Y1YWUzNDkzNzc3Yg==",
+      "id": "0x903dcf5199ba647f89287f43fe234f25f506a973bd430dd6f367f5ae3493777b",
+      "title": "Adjusting our reserve price",
+      "content": "This is a proposal to increase the reserve price of our bi-daily auction to .069 ETH\n\nThis is meant as a simple change in order to prevent low contested bids from adding little to no value to the treasury.",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0xE3f27DEFf96fe178e87559F36Cbf868B9E75967D",
+      "totalVotes": 4,
+      "blockNumber": 16987829,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1680848579
+      },
+      "endTime": {
+        "timestamp": 1681194179
+      },
+      "startTimestamp": 1680848579,
+      "endTimestamp": 1681194179,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 25.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17034749
+          },
+          "event": "queued",
+          "timestamp": 1681336991,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 17073200
+          },
+          "event": "executed",
+          "timestamp": 1681816403,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 25.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680762367025,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4MDZhMmIzOWY3MGI4MmM3MzM5MGQ4MzYzNGEyM2FiNDcyYjFmZDQ3NzdmMDkxMThhMzJmMDJlNGIwNmMzOTdlZg==",
+      "id": "0x06a2b39f70b82c73390d83634a23ab472b1fd4777f09118a32f02e4b06c397ef",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-02-18",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.</p><br><h3>Airdrop</h3><p>Ability for DAOs to assign minters and airdrop tokens.</p>",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 3,
+      "blockNumber": 16655269,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1676806655
+      },
+      "endTime": {
+        "timestamp": 1677152255
+      },
+      "startTimestamp": 1676806655,
+      "endTimestamp": 1677152255,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 11.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16720164
+          },
+          "event": "queued",
+          "timestamp": 1677508595,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16745717
+          },
+          "event": "executed",
+          "timestamp": 1677819047,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417206244,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4ZmI4NDM4YWM4ZjE3MzYwZDhmMGIxMzliOTE4ZDk3Mzk3YzVhNDg3YTZmZjM0ZDgzM2VmMDk0ODg5ZGE1NDAyOA==",
+      "id": "0xfb8438ac8f17360d8f0b139b918d97397c5a487a6ff34d833ef094889da54028",
+      "title": "Change auction duration to 12 hours",
+      "content": "<p>In order to onboard quality members to our DAO at a faster rate, I propose that we change our auction cadence to 12 hours. During this period, I will actively work (and encourage others to do so as well!) to bring in new and unique members.</p><p>If this proposal is approved, I will later propose returning to a 24-hour auction cadence once we reach a sufficient number of unique members, approximately 30-50.</p>",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0xE3f27DEFf96fe178e87559F36Cbf868B9E75967D",
+      "totalVotes": 3,
+      "blockNumber": 16506712,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1675012139
+      },
+      "endTime": {
+        "timestamp": 1675357739
+      },
+      "startTimestamp": 1675012139,
+      "endTimestamp": 1675357739,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16544258
+          },
+          "event": "queued",
+          "timestamp": 1675378919,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16576896
+          },
+          "event": "executed",
+          "timestamp": 1675772807,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417206244,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4ZGY4MDM0MGYxYjU5YjFhNTY4NWQ1YTg1Yjg5MjJmYzY2MWEyZDY4ZGFkNzJjYzU3NWQ2YWI3NzM1Zjk0MmE1NQ==",
+      "id": "0xdf80340f1b59b1a5685d5a85b8922fc661a2d68dad72cc575d6ab7735f942a55",
+      "title": "Art Haus by Messhup as our first edition mint",
+      "content": "<p><strong>TLDR:</strong> Combined artist commission proposal and NFT droposal.</p><p>![](https://i.imgur.com/pxNlM3V.jpg)</p><p>Following an incredible response to the \"droposal\" concept popularised by <a href=\"https://nouns.wtf/vote/190\" rel=\"noopener noreferrer\" target=\"_blank\">Nouns DAO proposal 190</a>, I am proposing that Art Haus commission and release \"Art Haus by MΞSSHUP.\"</p><p>Released under <a href=\"https://creativecommons.org/share-your-work/public-domain/cc0/\" rel=\"noopener noreferrer\" target=\"_blank\">CC0 licensing</a> into the public domain, the work's layers shall later be included as traits for our member NFT visuals (currently blank canvas) through a collaborative curatorial effort.&nbsp;</p><p>This proposal commissions the artist's work for 0.5 ETH and deploys it as an NFT timed open edition. Minting will be priced at 0.0069 ETH and open for a period of 7 days. Proceeds will be split between Art Haus (50%) and Messhup (50%) using a <a href=\"https://app.0xsplits.xyz/accounts/0x03360e4dC1686416D71310c56EcD7467a51f2906/\" rel=\"noopener noreferrer\" target=\"_blank\">0xSplits contract</a>.</p><p>The timed open edition will be minted using Zora who take a 5% cut of mint proceeds.</p><h2>Droposal</h2><p><strong>Title:</strong>&nbsp;Art Haus by MΞSSHUP</p><p><strong>Description:</strong>&nbsp;This piece created by Messhup is the first Art Haus commissioned work and our first ever DAO minted edition. Art Haus is a collective arts patronage. Daily auction proceeds commission nounish art. Proposals are submitted to deploy these CC0 works as NFT drops, aka droposals. Minting proceeds are split between artist and treasury. DAO artwork begins as a blank canvas. Traits come later from layers of commissioned works. Curation is key.</p><p><strong>Symbol:</strong>&nbsp;KEY0001</p><p><strong>Edition Type:</strong>&nbsp;Timed Open Edition</p><p><strong>Start date:</strong>&nbsp;January 21st, 8am UTC</p><p>End date: January 28th, 8am UTC</p><p><strong>Price:</strong>&nbsp;0.0069 ETH</p><p><strong>Split Address</strong></p><p>0x03360e4dC1686416D71310c56EcD7467a51f2906</p><p><strong>Messhup Address</strong></p><p>0x0c66d954d9cb1ebdf4e37a000262323c83655e70</p><p><strong>Art Haus Treasury</strong></p><p>0x2c1dF19C48Ba6F5bD4F518b535879dB6ac97578f</p><p><strong>Artwork on IPFS</strong></p><p>ipfs://bafybeif7qdbahbyqkqt6xpm4evxnhxi25tdvklf3xth2e323uwdlny7qlu</p><p><em>0xigami.eth (Art Haus founder) is set as collection defaultAdmin to update any potential issues with metadata + salesConfig upon contract deploy and will then transfer ownership to Art Haus Treasury when finalised.</em></p>",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0x387a161C6b25aA854100aBaED39274e51aaffffd",
+      "totalVotes": 3,
+      "blockNumber": 16389431,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1673597303
+      },
+      "endTime": {
+        "timestamp": 1673942903
+      },
+      "startTimestamp": 1673597303,
+      "endTimestamp": 1673942903,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16429729
+          },
+          "event": "queued",
+          "timestamp": 1673997179,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16444337
+          },
+          "event": "executed",
+          "timestamp": 1674173387,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417206244,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aGF1czpvbmNoYWluOjB4NWE5ZmYyOGUyZGM4OGM0ZTY4Y2I4Y2UyNWVjYTc4Y2E5ZTY4NzIxMmQzMTgyYWU5YWI5YTk4NmM5NTA5NTFmMQ==",
+      "id": "0x5a9ff28e2dc88c4e68cb8ce25eca78ca9e687212d3182ae9ab9a986c950951f1",
+      "title": "ArtHaus 1 Fund Prop House Round 1",
+      "content": "<p>This is a Proposal to create a Prop House Multisig and fund it with 1 ETH to start Art Haus’ first Prop House round.</p><p>### Prop House Multisig</p><p>The Prop House Multisig is responsible for distributing funds to winners of Art Haus’ Prop House Rounds.</p><p>The Multisig Address is: eth:0x6B0eDF6B0361B1018ebb1192dc302c5129792e9c</p><p><br></p><p>The Signers:</p><p>* 0xigami.eth (eth:0x387a161C6b25aA854100aBaED39274e51aaffffd)</p><p>* ccarella.eth (eth:0x3B60e31CFC48a9074CD5bEbb26C9EAa77650a43F)</p><p><br></p><p>5 Members in total will be added to the multi-sig before the Prop House funds must be distributed. The multi-sig will require 3/5 approvals.&nbsp;</p><p>### Budget&nbsp;</p><p>* The total budget of this Proposal is 1 ETH</p><p>* All funds will be used to pay Prop House winners</p>",
+      "protocol": "artHaus",
+      "adapter": "onchain",
+      "proposer": "0x3B60e31CFC48a9074CD5bEbb26C9EAa77650a43F",
+      "totalVotes": 2,
+      "blockNumber": 16371696,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1673383295
+      },
+      "endTime": {
+        "timestamp": 1673728895
+      },
+      "startTimestamp": 1673383295,
+      "endTimestamp": 1673728895,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417206244,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,714 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHhlNDg4OWQ5NjVhZjdjMGJiZGU0ZThkMmIzMTc0MzE5ZDllODdkZjcxMDY2MDc4MWI4Njk2YzMxODViNTY0MGM3",
+      "id": "0xe4889d965af7c0bbde4e8d2b3174319d9e87df710660781b8696c3185b5640c7",
+      "title": "Move remaining funds to Based Mingos",
+      "content": "Moving the remaining funds from this DAO to Based Mingos on Base. Funds will be swap to Base eth and then sent to the Based Mingos treasury. Cost of the gas from this prop submission will be deducted. ",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 1,
+      "blockNumber": 19235321,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1708110575
+      },
+      "endTime": {
+        "timestamp": 1708456175
+      },
+      "startTimestamp": 1708110575,
+      "endTimestamp": 1708456175,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19235321
+          },
+          "event": "pending",
+          "timestamp": 1708024163,
+          "txHash": "0x5773ecc0592d1c550e1d22369fc658fe7c781967c60b394a4e1292651ca31b68"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708024183889,
+      "txHash": "0x5773ecc0592d1c550e1d22369fc658fe7c781967c60b394a4e1292651ca31b68",
+      "quorum": 5,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHgxNTJjMWVkMzMzMDBkNjlmNmQxZTAyOGRmZTQzN2Q3NTRmYjcwN2FlZjFmODEzOTYxMWFhMGEyNTI5YTY3MmI0",
+      "id": "0x152c1ed33300d69f6d1e028dfe437d754fb707aef1f8139611aa0a2529a672b4",
+      "title": "Move remaining funds to Based Mingos",
+      "content": "This prop will move the remaining funds from Just the Flamingo to Based Mingos. Prof will swap the eth for Base eth and send to the new treasury.",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 0,
+      "blockNumber": 18934019,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1704458315
+      },
+      "endTime": {
+        "timestamp": 1704803915
+      },
+      "startTimestamp": 1704458315,
+      "endTimestamp": 1704803915,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18934019
+          },
+          "event": "pending",
+          "timestamp": 1704371915,
+          "txHash": "0x39894bb640093c9bf24fff001820778de295a09cbd85a430182117e2b17bca81"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704372092100,
+      "txHash": "0x39894bb640093c9bf24fff001820778de295a09cbd85a430182117e2b17bca81",
+      "quorum": 5,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHgxYzMzZjlkNWMwYzVkZmU2Y2QxOGYzZDI4ZjMxYjFhOGZjZWZlN2M5MWFlZDc2ZTVmNGRhOWI2YmU5YTNhMTFi",
+      "id": "0x1c33f9d5c0c5dfe6cd18f3d28f31b1a8fcefe7c91aed76e5f4da9b6be9a3a11b",
+      "title": "moving to Base",
+      "content": "With the launch of Based Mingos, we are moving this experimental DAO to Base, an L2. This will provide better opportunity to experiment for those unfamiliar with nounish DAOs as was intended. \n\nI'll be using the bridge at Base.org to swap eth for base eth and moving those funds into the Based Mingos treasury (minus .2 for expenses of this move and time spent).\n\nPlease go to the Based Mingos site at: http://basedmingos.wtf/\n",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 2,
+      "blockNumber": 18084366,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1694173895
+      },
+      "endTime": {
+        "timestamp": 1694519495
+      },
+      "startTimestamp": 1694173895,
+      "endTimestamp": 1694519495,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 12.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18084366
+          },
+          "event": "pending",
+          "timestamp": 1694087495,
+          "txHash": "0x06ebe15d72dbdb3102f1f52e08cc16a314f44b5fe8a0be55594897a8c79fb3aa"
+        },
+        {
+          "time": {
+            "blockNumber": 18152568
+          },
+          "event": "queued",
+          "timestamp": 1694914571,
+          "txHash": "0x4971dc03b3c2f01bf27114608425ea596d38998dc002d2a87129db570a0c85d5"
+        },
+        {
+          "time": {
+            "blockNumber": 18171829
+          },
+          "event": "executed",
+          "timestamp": 1695149159,
+          "txHash": "0x6dfcd49a49bdc04b521cfcdc3ae4b001c4a95965c53873926979455415599da2"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 12.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1694088102957,
+      "txHash": "0x06ebe15d72dbdb3102f1f52e08cc16a314f44b5fe8a0be55594897a8c79fb3aa",
+      "quorum": 5,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHg3MDcyMmJmMDdjMGIxYTE3MmEzNDUyNGRmYzg4NzcyMjA5MmJhYWVkYzEwOGQ3YTIzYzFhNDRiODYxZWY5MjRk",
+      "id": "0x70722bf07c0b1a172a34524dfc887722092baaedc108d7a23c1a44b861ef924d",
+      "title": "Moving to Based Mingos -- pausing Just the Flamingo",
+      "content": "With the launch of Based Mingos and all holders airdropped Based Mingos, we are going to pause this auction.",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 2,
+      "blockNumber": 18084316,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1694173295
+      },
+      "endTime": {
+        "timestamp": 1694518895
+      },
+      "startTimestamp": 1694173295,
+      "endTimestamp": 1694518895,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 12.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18084316
+          },
+          "event": "pending",
+          "timestamp": 1694086895,
+          "txHash": "0x8c438f29a85bc2b3ea87034f6b907ca59c80877dfe6992c68bd5088e3e969b55"
+        },
+        {
+          "time": {
+            "blockNumber": 18152566
+          },
+          "event": "queued",
+          "timestamp": 1694914547,
+          "txHash": "0x9842b1d1f7a13e93844e5c5bd08cbcdde5f8a52ce67761ae4936c5f041e2025e"
+        },
+        {
+          "time": {
+            "blockNumber": 18171824
+          },
+          "event": "executed",
+          "timestamp": 1695149099,
+          "txHash": "0x8109e059b7bedca73aaea4c1332f27c26609a0696f95fd51a9a732213242037b"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 12.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1694087449842,
+      "txHash": "0x8c438f29a85bc2b3ea87034f6b907ca59c80877dfe6992c68bd5088e3e969b55",
+      "quorum": 5,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHhjZmI1ZThlYTI1OTIxZjc5NDg5MDliODIxN2RjYzBiNmFiMjQxOGU4MWRkMjQ0NmUwZTIyNmQ0M2FkZTg4NjFm",
+      "id": "0xcfb5e8ea25921f7948909b8217dcc0b6ab2418e81dd2446e0e226d43ade8861f",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-04-10",
+      "content": "![](https://i.imgur.com/HrQKZMG.png)\n\n## Summary\n\nThis proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.\n\n### Airdrop\n\nAbility for DAOs to assign minters and airdrop tokens.\n",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 1,
+      "blockNumber": 17019492,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1681236947
+      },
+      "endTime": {
+        "timestamp": 1681582547
+      },
+      "startTimestamp": 1681236947,
+      "endTimestamp": 1681582547,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17019492
+          },
+          "event": "pending",
+          "timestamp": 1681150547,
+          "txHash": "0x6c4fa54b541ec74d59dcb41407b4c7f7f7e08b0764b89427af255356a583c749"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681155553295,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHgwYTdmMWQ2ZGY0N2NmZGQxOWMzYmYyYzAyYjBiMjkzODlhMGZmMTllMDMzNmE3NmJkNmQxZDMxNmQzYWZkNzA4",
+      "id": "0x0a7f1d6df47cfdd19c3bf2c02b0b29389a0ff19e0336a76bd6d1d316d3afd708",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-03-24",
+      "content": "![](https://i.imgur.com/HrQKZMG.png)\n\n## Summary\n\nThis proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.\n\n### Airdrop\n\nAbility for DAOs to assign minters and airdrop tokens.\n",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 0,
+      "blockNumber": 16898119,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1679756495
+      },
+      "endTime": {
+        "timestamp": 1680102095
+      },
+      "startTimestamp": 1679756495,
+      "endTimestamp": 1680102095,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16898119
+          },
+          "event": "pending",
+          "timestamp": 1679670095,
+          "txHash": "0x341937fbe9ec4c9b20db5f1e0f7e31177352efc31b03979a962ae5763430b3b2"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679670281401,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHhjMzY0ODJlOWVhMzE2OWMzNGY0MmY5OGZjNjU3OWI3MWEzMWViNTk1MjNhNmQyNzNiNjYzOWZiNTY4YWU4ZDlk",
+      "id": "0xc36482e9ea3169c34f42f98fc6579b71a31eb59523a6d273b6639fb568ae8d9d",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-02-15",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.</p><br><h3>Airdrop</h3><p>Ability for DAOs to assign minters and airdrop tokens.</p>",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 1,
+      "blockNumber": 16636098,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1676574155
+      },
+      "endTime": {
+        "timestamp": 1676919755
+      },
+      "startTimestamp": 1676574155,
+      "endTimestamp": 1676919755,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16681164
+          },
+          "event": "queued",
+          "timestamp": 1677034547,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417003045,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHg0OTlhZGY3MTJiMzVkZWYzZjdiY2ZlMGRkNTRjODIzNGIwM2RjYzJlMjdiZDhhZjM4Mjg4ZjY1ZGE2MWU3ZmNj",
+      "id": "0x499adf712b35def3f7bcfe0dd54c8234b03dcc2e27bd8af38288f65da61e7fcc",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-02-14",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.</p>",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 0,
+      "blockNumber": 16631223,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1676515235
+      },
+      "endTime": {
+        "timestamp": 1676860835
+      },
+      "startTimestamp": 1676515235,
+      "endTimestamp": 1676860835,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16636084
+          },
+          "event": "canceled",
+          "timestamp": 1676487587,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417003045,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHhhZjJhMDhlOWRkMWMxNjJmYzU3ODU0Y2E2ZTRkYTI2NmM3NDdiODliYTdkNzE4ZDExZWZjMWVhMzQ4MWUyM2Vm",
+      "id": "0xaf2a08e9dd1c162fc57854ca6e4da266c747b89ba7d718d11efc1ea3481e23ef",
+      "title": "DAO Upgrade V1_1",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0xd1d1D4e36117aB794ec5d4c78cBD3a8904E691D0",
+      "totalVotes": 8,
+      "blockNumber": 16208236,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671412583
+      },
+      "endTime": {
+        "timestamp": 1671758183
+      },
+      "startTimestamp": 1671412583,
+      "endTimestamp": 1671758183,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 13.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16261290
+          },
+          "event": "queued",
+          "timestamp": 1671965627,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16298282
+          },
+          "event": "executed",
+          "timestamp": 1672411727,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417003045,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHg5ZTJkYTE4ZmYxOGMwYjczMjBjMzVmZGMyY2FhNmUzNDlkMmExOWU1OTRiNGQzYjk1OTg3OWNlNjk5OWU4NzQy",
+      "id": "0x9e2da18ff18c0b7320c35fdc2caa6e349d2a19e594b4d3b959879ce6999e8742",
+      "title": "Flamingo themed Prop House",
+      "content": "<p>Let's run a flamingo themed Prop House to kick off this DAO!  Since we have only a small amount in the treasury, I'm suggesting a small round of 1 winner at .2 eth. </p><p>This proposal will also allow us to test the transaction function and make sure it is now working properly.  </p><p>#LetsFlockingGo </p>",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 3,
+      "blockNumber": 16015742,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1669088159
+      },
+      "endTime": {
+        "timestamp": 1669433759
+      },
+      "startTimestamp": 1669088159,
+      "endTimestamp": 1669433759,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16064886
+          },
+          "event": "queued",
+          "timestamp": 1669595183,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16116245
+          },
+          "event": "executed",
+          "timestamp": 1670214899,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417003045,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHhhYzQ3ZTRkOGYyYmEyYzlmODI2MDU0ZmI1MmJhMGUzZDU1OTRkMjMyNWU5OTdiNmIxMjQxZWFmZWMwMzlkYTYz",
+      "id": "0xac47e4d8f2ba2c9f826054fb52ba0e3d5594d2325e997b6b1241eafec039da63",
+      "title": "Change The Flamingo Head",
+      "content": "<p>If we have too many flamingos, we won't have enough fish, so we must add the grouper to the heads to maintain ecological balance. Think of the planet.</p><p>I demand 0.1 ETH as a reward for saving the world. </p><p>Thank you. </p><p>P.S. This is a joke to test the veto mechanism. </p>",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0x51dB76E1a34dB3216d39077B5fAd69f02FEB6982",
+      "totalVotes": 6,
+      "blockNumber": 15948062,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1668271643
+      },
+      "endTime": {
+        "timestamp": 1668617243
+      },
+      "startTimestamp": 1668271643,
+      "endTimestamp": 1668617243,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 2
+        },
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15986723
+          },
+          "event": "canceled",
+          "timestamp": 1668651695,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417003045,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6anVzdHRoZWZsYW1pbmdvOm9uY2hhaW46MHg1NThjZDVkZTYwMzEwNGU5ZTdmNzU0MmZmOTJkYzNkMTYyNDI5YzM3ZDNlN2JjNDU3OGY4ZTRjMDRjMzIxMTNj",
+      "id": "0x558cd5de603104e9e7f7542ff92dc3d162429c37d3e7bc4578f8e4c04c32113c",
+      "title": "Update description and test out proposal feature",
+      "content": "<p><strong>Proposal 1 </strong>is to update the collection description to include a link to a <a href=\"https://justtheflamingo.notion.site/Just-the-Flamingo-283654a2480c4adca3ddacae89af93d6\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>Notion document </strong></a>where additional information can be added and serve as a website for the project for the time being.</p><p>But primarily this prop is to test out the prop features including a transaction to send .001 eth to thenounishprof.eth as a first reimbursement of costs to deploy the project. A total of .2 eth was funded by thenounishprof.eth to <a href=\"https://etherscan.io/address/0xb4729c2e027c49e761587617ecb4506bb7e04d33\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>justtheflamingo.eth</strong></a><strong> </strong>to fund the project. This will be a first reimbursement towards that. </p><p>(notes for posterity: there is no option at the moment to add images or video to a prop and all proposals at the moment appear to need to change the settings of the project in order to kick off the proposal form.)</p>",
+      "protocol": "justtheflamingo",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 4,
+      "blockNumber": 15903404,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1667732723
+      },
+      "endTime": {
+        "timestamp": 1668078323
+      },
+      "startTimestamp": 1667732723,
+      "endTimestamp": 1668078323,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15963206
+          },
+          "event": "queued",
+          "timestamp": 1668367835,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15986747
+          },
+          "event": "executed",
+          "timestamp": 1668651983,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417003045,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,1173 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweDFlOTJjZTQxMTNlMmU5MmQ1MGMyYjkzZTI1NjBhNmNmMzA0ODQzYzA1ZWY4NTRhZGE3ZTAwNzBhMDM2YzY0YjY=",
+      "id": "0x1e92ce4113e2e92d50c2b93e2560a6cf304843c05ef854ada7e0070a036c64b6",
+      "title": "Proposal to Adjust Chain Parameters",
+      "content": "We need to increase the signed block window to avoid nodes slashing when maintaining job are necessary. The default voting period is 2 minutes, and we need to increase it to 2days so that our voting can be casted.\nParameters\",\n    \"changes\": [\n      {\n        \"subspace\": \"slashing\",\n        \"key\": \"SignedBlocksWindow\",\n        \"value\": \"20000\"\n      },{\n        \"subspace\": \"gov\",\n        \"key\": \"depositparams\",\n        \"value\": {\"max_deposit_period\": \"172800000000000\"}\n      },{\n        \"subspace\": \"gov\",\n        \"key\": \"votingparams\",\n        \"value\": {\"voting_period\": \"172800000000000\"}\n      }",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0x668758627A14871CD4cC78Cd20b5bB9aea0b9996",
+      "totalVotes": 1,
+      "blockNumber": 20712466,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0x1e92ce4113e2e92d50c2b93e2560a6cf304843c05ef854ada7e0070a036c64b6",
+      "startTime": {
+        "timestamp": 1725877863
+      },
+      "endTime": {
+        "timestamp": 1726137063
+      },
+      "startTimestamp": 1725877863,
+      "endTimestamp": 1726137063,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1004298940.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "approval",
+      "indexedResult": [
+        {
+          "total": 1004298970.361,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1725877891646,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweGExMWJkYTg0ZGZjZGZiN2MxZDBjY2M2MzIzMDI3YTUwNzNiMTA4ZTEwZDMwZDU1ZTZkMjQxMWQxYmVhZDdjNzY=",
+      "id": "0xa11bda84dfcdfb7c1d0ccc6323027a5073b108e10d30d55e6d2411d1bead7c76",
+      "title": "Marketing together with CNHO tokens!",
+      "content": "We are to market the project with CNHO together.\nThe website is https://cnho.io\nThe new project is basically a stablecoin service DAO\nThe team will corporate with the Offshore DAO and include their in this space.\nIf you agree vote Yes,\nElse vote No.",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0xdaFa879f659Bba79011130cfA6537Ab3E1ABdD97",
+      "totalVotes": 23,
+      "blockNumber": 20081134,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0xa11bda84dfcdfb7c1d0ccc6323027a5073b108e10d30d55e6d2411d1bead7c76",
+      "startTime": {
+        "timestamp": 1718260392
+      },
+      "endTime": {
+        "timestamp": 1722407520
+      },
+      "startTimestamp": 1718260392,
+      "endTimestamp": 1722407520,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 1004300540.0,
+          "choice": 0
+        },
+        {
+          "total": 19575116.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1004300594.361,
+          "choice": 0
+        },
+        {
+          "total": 19575124.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718261017807,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweGZkZmRlNzA0NTliYzdlMGIxMjQ0NzIwMWUzMDg4NTkyMTQ1OWE2MDNmMDA0NGU0NjJkNjQwNzFkMjY0MjRiYzA=",
+      "id": "0xfdfde70459bc7e0b12447201e30885921459a603f0044e462d64071d26424bc0",
+      "title": "Offer tokens for mobile app testors",
+      "content": "We have our apps alpha developed.\nBoth IOS and Android  app are under app stores reviewing.\nWe need some helpers to do the testing work and reviewing on the app stores.\nThus, I propose that we offer 10000 $atc token for this specific bounty online.",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0x7B97369A8156Cef665a20FFB4E8154E6C62ba132",
+      "totalVotes": 653,
+      "blockNumber": 39346646,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0xfdfde70459bc7e0b12447201e30885921459a603f0044e462d64071d26424bc0",
+      "startTime": {
+        "timestamp": 1676524356
+      },
+      "endTime": {
+        "timestamp": 1677647520
+      },
+      "startTimestamp": 1676524356,
+      "endTimestamp": 1677647520,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "Np"
+      ],
+      "results": [
+        {
+          "total": 75985910.0,
+          "choice": 0
+        },
+        {
+          "total": 22555924.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 75985909.0,
+          "choice": 0
+        },
+        {
+          "total": 22555922.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweDVmZGIzNWVlMGZkZGZkMjgwZWJkNGI1ZTIzYWQyMDVhYzI4ZGVkYmQ4MDJjYTMwN2FhMDcwYTc3NjEwOTQ5M2E=",
+      "id": "0x5fdb35ee0fddfd280ebd4b5e23ad205ac28dedbd802ca307aa070a776109493a",
+      "title": "Develop our alashoo mobile app.",
+      "content": "I suggest that we have a mobile app that can help us use the alashoo dapp better.\n1. More friendly user interface\n2. Wallet integration in mobile app\n3. Release an NFT for the community awareness\n4.Stable coins integration\n",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0x664809554176bA98d32ae30fa05dC2DC0c02B0Ce",
+      "totalVotes": 654,
+      "blockNumber": 35997753,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0x5fdb35ee0fddfd280ebd4b5e23ad205ac28dedbd802ca307aa070a776109493a",
+      "startTime": {
+        "timestamp": 1669271914
+      },
+      "endTime": {
+        "timestamp": 1672459200
+      },
+      "startTimestamp": 1669271914,
+      "endTimestamp": 1672459200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 56492096.0,
+          "choice": 0
+        },
+        {
+          "total": 41219284.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 56492105.0,
+          "choice": 0
+        },
+        {
+          "total": 41219285.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweDEwYzQzMzEzNjk1MTE3NWY1ODAwNTRjZTRhNzlkMjgxYTJlYWU3YWEyMDZjNzk3NjdhNDQwZTMyNzJkYjUxOTI=",
+      "id": "0x10c433136951175f580054ce4a79d281a2eae7aa206c79767a440e3272db5192",
+      "title": "AIRDROP for community.",
+      "content": "I propose that we airdrop tokens to our community users.\nThose who is eligible are:\n1. NFT holders from Polygon:https://opensea.io/collection/alatelecoin-airdrop-eligible-pass\n2.Our alpha users\n3.Famous communities like AAVE and UNISWAP.\nI suggest that 8M tokens to be dropped to these users.\nAnd we should first make it happen before year 2023.\n",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0xC5132FAb49ac3f759fd73596B4a37dc1297337c2",
+      "totalVotes": 653,
+      "blockNumber": 35015740,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0x10c433136951175f580054ce4a79d281a2eae7aa206c79767a440e3272db5192",
+      "startTime": {
+        "timestamp": 1667195684
+      },
+      "endTime": {
+        "timestamp": 1669780800
+      },
+      "startTimestamp": 1667195684,
+      "endTimestamp": 1669780800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 61189240.0,
+          "choice": 0
+        },
+        {
+          "total": 23975504.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 61189237.0,
+          "choice": 0
+        },
+        {
+          "total": 23975504.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweGRjZDQ1MTkxMGIwZjI4M2E1OTlhNzU3ZjU3YjFhODI3ODg1MTdkOTQ5ODVhMDNjZjA5Y2I1YTUwODQzZGNmYTk=",
+      "id": "0xdcd451910b0f283a599a757f57b1a82788517d94985a03cf09cb5a50843dcfa9",
+      "title": "Roadmap Proposal from DEVs",
+      "content": "We are releasing our roadmap 2024 on Medium.com, check the details here and vote on snapshot.\nhttps://alashoo.medium.com/the-alashoo-roadmap-2024-6915914e44d1",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0xE9256A6AEcA001EA5Ca55f287e16A7eD90E88888",
+      "totalVotes": 656,
+      "blockNumber": 29258072,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0xdcd451910b0f283a599a757f57b1a82788517d94985a03cf09cb5a50843dcfa9",
+      "startTime": {
+        "timestamp": 1654567819
+      },
+      "endTime": {
+        "timestamp": 1656561600
+      },
+      "startTimestamp": 1654567819,
+      "endTimestamp": 1656561600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 65993512.0,
+          "choice": 0
+        },
+        {
+          "total": 2903096.0,
+          "choice": 2
+        },
+        {
+          "total": 29692068.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 65993473.0,
+          "choice": 0
+        },
+        {
+          "total": 29692073.0,
+          "choice": 1
+        },
+        {
+          "total": 2903096.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweGE3ZjY0ZTY2NjA4NGQxZTA5M2JmNzE3ZDMyZjFmZjU0ZGJmMjJkNzEzY2NmMmMyNGQzMDcyYjFjNGZhMDRhOTc=",
+      "id": "0xa7f64e666084d1e093bf717d32f1ff54dbf22d713ccf2c24d3072b1c4fa04a97",
+      "title": "Making a mining plan for ATC distribution.",
+      "content": "I am thinking about making a mining plan for ATC distribution.\nBy doing so, we can improve our community involvement in this project.\nI will be doing a draft if this proposal gets approved, and push the whole thing forward.",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0x3AB11168D24660eA1F0CBBC0b4492595e89202E3",
+      "totalVotes": 102,
+      "blockNumber": 29465109,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0xa7f64e666084d1e093bf717d32f1ff54dbf22d713ccf2c24d3072b1c4fa04a97",
+      "startTime": {
+        "timestamp": 1655012540
+      },
+      "endTime": {
+        "timestamp": 1655271740
+      },
+      "startTimestamp": 1655012540,
+      "endTimestamp": 1655271740,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 32682244.0,
+          "choice": 0
+        },
+        {
+          "total": 292755.0,
+          "choice": 2
+        },
+        {
+          "total": 70549.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 32682249.0,
+          "choice": 0
+        },
+        {
+          "total": 70549.0,
+          "choice": 1
+        },
+        {
+          "total": 292755.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweDRjNGZiNTQ5MTlkN2Q4ZDI5N2FhN2Y3ZmU0ZGZmOWU5NDM2YjgxYTAxOTVmNGFhZDg5Y2NhNjUxNDAyN2IzNzM=",
+      "id": "0x4c4fb54919d7d8d297aa7f7fe4dff9e9436b81a0195f4aad89cca6514027b373",
+      "title": "Proposal to promote community awareness",
+      "content": "In this proposal, I suggest that we  have 2.5M $atc token is to be dropped to the community, rewarding 50 $atc to anyone who:\n1.Join https://discord.com/invite/KMYy8d7vcr\n2.Like/RT/Follow @apenft\n3.Comment your Ethereum address + tag 3 friends",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0x02c63b89C8B493b7e583b5FdBCC39385D374A410",
+      "totalVotes": 650,
+      "blockNumber": 29217465,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0x4c4fb54919d7d8d297aa7f7fe4dff9e9436b81a0195f4aad89cca6514027b373",
+      "startTime": {
+        "timestamp": 1654478482
+      },
+      "endTime": {
+        "timestamp": 1654920000
+      },
+      "startTimestamp": 1654478482,
+      "endTimestamp": 1654920000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 61002456.0,
+          "choice": 0
+        },
+        {
+          "total": 13724711.0,
+          "choice": 2
+        },
+        {
+          "total": 23606514.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 61002452.0,
+          "choice": 0
+        },
+        {
+          "total": 23606528.0,
+          "choice": 1
+        },
+        {
+          "total": 13724711.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweDAyNDVkN2Q2MTYyNzdhOWZmNmM5YjRhNTg5N2NkNjA5NTRiMGU5ZmVjNmU1NjFmOTI2N2IwYjQ4YTAwNTRmMDk=",
+      "id": "0x0245d7d616277a9ff6c9b4a5897cd60954b0e9fec6e561f9267b0b48a0054f09",
+      "title": "Should ERC 20 holders be part of the governance?",
+      "content": "We have 664 holders of the erc 20  ATC token holders.\nCurrently we only allow the NFT holders on polygon to vote, Should ERC 20 holders be part of the governance?",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0xD619513007F5166D9B496f9E723120CE72AAA1AA",
+      "totalVotes": 651,
+      "blockNumber": 29066791,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0x0245d7d616277a9ff6c9b4a5897cd60954b0e9fec6e561f9267b0b48a0054f09",
+      "startTime": {
+        "timestamp": 1654158632
+      },
+      "endTime": {
+        "timestamp": 1654417832
+      },
+      "startTimestamp": 1654158632,
+      "endTimestamp": 1654417832,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 64979504.0,
+          "choice": 0
+        },
+        {
+          "total": 33434382.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 64979469.0,
+          "choice": 0
+        },
+        {
+          "total": 33434383.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweGE1MDQzM2YwMGIxZmFkNTg5OTNjNzk0MmYyZDU5NzMyYWM4YWY2YjA0YjYxMWFkNzU3OGIzYmYzMWUzMTI5MjM=",
+      "id": "0xa50433f00b1fad58993c7942f2d59732ac8af6b04b611ad7578b3bf31e312923",
+      "title": "Starting a twitter space to promote the DAO awareness!",
+      "content": "We can start a space in social media and do some talk show to make more people aware of AlatelecoinDAO.",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0x60845e49f0A755f5297d265358d3649eD18d3999",
+      "totalVotes": 868,
+      "blockNumber": 23319471,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0xa50433f00b1fad58993c7942f2d59732ac8af6b04b611ad7578b3bf31e312923",
+      "startTime": {
+        "timestamp": 1641257101
+      },
+      "endTime": {
+        "timestamp": 1641861901
+      },
+      "startTimestamp": 1641257101,
+      "endTimestamp": 1641861901,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO",
+        "I don't know"
+      ],
+      "results": [
+        {
+          "total": 868.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 868.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweDJhN2JmMWNiZTFkOGI4MzFkY2RmODgwZDI3NzViNGIwYWM5NjY0M2QzN2Y3MzJhYWY5NjkyZGFhOTgwMmE1N2M=",
+      "id": "0x2a7bf1cbe1d8b831dcdf880d2775b4b0ac96643d37f732aaf9692daa9802a57c",
+      "title": "We should start using mutilsign.",
+      "content": "To protect our community from moral risk of the holders of treasury, we should build up a plan for multisign.",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0xa4Ca5Bd44E524af2201234B5BDAf3a1741F0999a",
+      "totalVotes": 866,
+      "blockNumber": 23319353,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0x2a7bf1cbe1d8b831dcdf880d2775b4b0ac96643d37f732aaf9692daa9802a57c",
+      "startTime": {
+        "timestamp": 1641256908
+      },
+      "endTime": {
+        "timestamp": 1641861708
+      },
+      "startTimestamp": 1641256908,
+      "endTimestamp": 1641861708,
+      "currentState": "closed",
+      "choices": [
+        "We should now",
+        "We should, but in the future",
+        "No idea"
+      ],
+      "results": [
+        {
+          "total": 866.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 866.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweDhjYmNkYTMwNWVmY2ZmYjJlZDc0MGM5NTc4MDU5MjQ3NzBkMzQ5MTQ1MmY0ZjRlZDQ4MzdhODg5MDM5ZDlmYjM=",
+      "id": "0x8cbcda305efcffb2ed740c957805924770d3491452f4f4ed4837a889039d9fb3",
+      "title": "The December 2021 $ATC reward for DAO members.",
+      "content": "We have the contributors for ATC DAO in DEC.2021 as below.\n1.0xce5c7cd2e76758eba7b890d5097f68a0507a1111\nEvent:Attending the Xmas DAO talk in HongShan\nTime Spent: 4 hours\nForm: Offline\nEvent Links:https://app.poap.xyz/admin/events/hongshan-dao-talk-attendance2-2021\n2. 0x23f3f2C216b58243Ef9C6a222405bDFDB5722181\nEvent:Attending the Xmas DAO talk in HongShan\nTime Spent: 4 hours\nForm: Offline\nEvent Links:https://app.poap.xyz/admin/events/hongshan-dao-talk-attendance2-2021\n3. 0x95dc1848Ad0c92CF0656f0600FE65353489855D1\nEvent:Attending the Xmas DAO talk in HongShan\nTime Spent: 4 hours\nForm: Offline\nEvent Links:https://app.poap.xyz/admin/events/hongshan-dao-talk-attendance2-2021\n4. 0x8C7Dc800DAfB1f9CE9b947E1D5ff47B157776d60\nEvent:Attending the Xmas DAO talk in HongShan\nTime Spent: 4 hours\nForm: Offline\nEvent Links:https://app.poap.xyz/admin/events/hongshan-dao-talk-attendance2-2021\nWe propose to reward these members with $ATC token airdrop with 3 possible airdrop amount and drop like this:\n1.100 $ATC/ 300$ATC/ 500$ATC\n2.Airdrop before March 2022\n3.Direct drop on Ethereum without claiming fee\n\nIt is the community to decide now.",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0xDC1d9CF6BC54bBFE1878DC1a469Cce2ff8BDE5dC",
+      "totalVotes": 4155,
+      "blockNumber": 22972077,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0x8cbcda305efcffb2ed740c957805924770d3491452f4f4ed4837a889039d9fb3",
+      "startTime": {
+        "timestamp": 1640494370
+      },
+      "endTime": {
+        "timestamp": 1641099170
+      },
+      "startTimestamp": 1640494370,
+      "endTimestamp": 1641099170,
+      "currentState": "closed",
+      "choices": [
+        "100 ATC",
+        "300 ATC",
+        "500 ATC",
+        "No rewards"
+      ],
+      "results": [
+        {
+          "total": 4217.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4217.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweGU2YmRkZjg5MjgwNTQ0YWE2NzgzZGFlODNmYTk0YWQ2YmZlNDA4MTQzNmI5YjAxMjgyYjI0M2U2NTZhMDFmMGY=",
+      "id": "0xe6bddf89280544aa6783dae83fa94ad6bfe4081436b9b01282b243e656a01f0f",
+      "title": "The Proposal to Reward DAO members with $ATC tokens",
+      "content": "DAO members are the most important part of ATC DAO. Rewarding our members according to their contributions is crucial in building a REAL DAO. So far, we have lots of forms that members help building with their work, say:\n1. Attending the DAO events, online& offline;\n2. Doing founding jobs for the DAO, like coding, designing& communicating;\n3. Funding the DAO by purchasing the ATCP NFTs on Polygon;\nhttps://opensea.io/collection/alatelecoin-airdrop-eligible-pass\n4. Promoting our Colony space and social medias, building the DAO brand;\n5. Governing the DAO with proposing&voting.\nThe core team members have been thinking for a long time and finally come up with a proposal to do it properly based on principals below.\n1. Using the $ATC token airdrop to reflect and respect every contribution made by the community members.\n2. Distributing the reward base on value they created.\n3. Distributing rewards on a regular time schedule, say monthly.\n4. Making a standard procedure from proposing to voting to acting.\n5. Appointing a core member for the guarding the procedure above.\nThis is the base work flows for reward distributing.\n1. Recording the work done by DAO members using POAPs.\nhttps://app.poap.xyz/admin/events/\nEvery time a member do something good for the DAO, we hand out a POAP to record it.\n2. Collect all the POAPs holders list on a monthly base, and proposing the reward distribution plan on snapshot spaces. \nhttps://snapshot.org/#/younghwang.eth\nLet the DAO decide if the plan for that month is proper.\n3.Distribute the ATC token based on the voted proposals using Colony on xDAI chain.\nhttps://xdai.colony.io/colony/atc\nIf you think this is good for the community, please vote below. Thanks!",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0xA47D3e4a93Ebf2bB7D54E38D97E37575F36e111a",
+      "totalVotes": 4144,
+      "blockNumber": 22970900,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0xe6bddf89280544aa6783dae83fa94ad6bfe4081436b9b01282b243e656a01f0f",
+      "startTime": {
+        "timestamp": 1640493404
+      },
+      "endTime": {
+        "timestamp": 1641098204
+      },
+      "startTimestamp": 1640493404,
+      "endTimestamp": 1641098204,
+      "currentState": "closed",
+      "choices": [
+        "FOR",
+        "AGAINST",
+        "NO IDEA"
+      ],
+      "results": [
+        {
+          "total": 4205.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4205.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 2.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweGIwN2Q2MWY4NzU5NjliMTYwZGM0NDA5Mzg2MWJjNGZhYzgzZGQwZDQ0ZDdmYTRhNWFhZGQwYTc3ZDU2MzUxNDU=",
+      "id": "0xb07d61f875969b160dc44093861bc4fac83dd0d44d7fa4a5aadd0a77d5635145",
+      "title": "Grant funding for mutual growth in GameFi and Metaverse",
+      "content": "For whom it may concern,\n\nI am writing here regarding a marketing offer proposal. I am Marin and I am the content writer for GameFi Corner and have partnered up with a good friend of mine who has experience in marketing and e-commerce.\n\nGameFi Corner is a newsletter exclusively aimed at blockchain gaming and metaverse. We handpick the most up to date information and create content that is suitable and engaging to read.\n\nOur goal is to make GameFi a better place by making it accessible and educate everyone who is interested to make more informed decisions. We also want to collaborate with sponsors who believe in our development and positive future outcomes for everyone including the community, sponsors who partner up with us and GameFi Corner itself.\n\nWe see success when partnerships can truly benefit from one another like an interconnected chain. One provides with the sponsor, funding and in return we will contribute all our specific GameFi knowledge through extensive research and investment in paid advertisements so we can create traffic for both Alatelecoin DAO and GameFi Corner.\n\nWe will measure our success by analysing on how many users have clicked on your link / banner we will include in our texts. The more subscribers we can bring thanks to your potential funding, the more successful we will both become. Of course we are open to hear also other proposals on how we can benefit together.\n\nWe have just started writing for 1 month and collected more than 150 organic subscribers but with paid marketing we plan to reach at least 5000 subscribers in a few months. My friend has many years of experience in affiliate marketing and e-commerce ads which gives us an additional confidence boost to reach our goal.\n\nLink to our project: https://gameficorner.substack.com/\n\nYours faithfully,\nMarin",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0x6Ff10F8C5c90AEcA26Dc91e377cd9f619A583a96",
+      "totalVotes": 0,
+      "blockNumber": 22836477,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0xb07d61f875969b160dc44093861bc4fac83dd0d44d7fa4a5aadd0a77d5635145",
+      "startTime": {
+        "timestamp": 1640195409
+      },
+      "endTime": {
+        "timestamp": 1640800209
+      },
+      "startTimestamp": 1640195409,
+      "endTimestamp": 1640800209,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweDE4YWFiMGNlODkyNzA5ODE4MmY5OGQ0ZmExOGFkNjFkMWMwZDhlZDFlNDM3NGUzZDRkN2I1MDU5MWVhZjYyM2Q=",
+      "id": "0x18aab0ce8927098182f98d4fa18ad61d1c0d8ed1e4374e3d4d7b50591eaf623d",
+      "title": "Redesign the DAO logo.",
+      "content": "We need a modern and crypto style logo for the DAO",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0xF3A5c3db3Fe3d5d7CBE5862aA150DD1382778888",
+      "totalVotes": 2677,
+      "blockNumber": 22730576,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0x18aab0ce8927098182f98d4fa18ad61d1c0d8ed1e4374e3d4d7b50591eaf623d",
+      "startTime": {
+        "timestamp": 1639963679
+      },
+      "endTime": {
+        "timestamp": 1640568479
+      },
+      "startTimestamp": 1639963679,
+      "endTimestamp": 1640568479,
+      "currentState": "closed",
+      "choices": [
+        "OK",
+        "Not OK"
+      ],
+      "results": [
+        {
+          "total": 3000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3000.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweDlhMzUzOTc1YWViYmMxMzdjNTllMTFhMmRkM2ExZGJhNzA5ZWQ5MGU0YjU4Nzc5OTBlZDJkZWZjMWM4ZTRjZjI=",
+      "id": "0x9a353975aebbc137c59e11a2dd3a1dba709ed90e4b5877990ed2defc1c8e4cf2",
+      "title": "We should increase the revenue for DAO treasury.",
+      "content": "The Dao treasury is about to be built up. We should increase our fee ratio to 2.5%.",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0x0797a15A3b9183993Af0552a5af024eE16dc0111",
+      "totalVotes": 2675,
+      "blockNumber": 22730513,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0x9a353975aebbc137c59e11a2dd3a1dba709ed90e4b5877990ed2defc1c8e4cf2",
+      "startTime": {
+        "timestamp": 1639963582
+      },
+      "endTime": {
+        "timestamp": 1640568382
+      },
+      "startTimestamp": 1639963582,
+      "endTimestamp": 1640568382,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 2998.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2998.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweDUwNzk5YTliMzY4M2UxZmM0MmQ4OGZmMjEyNzQ5MjlmNDE3ODNjN2JlOWNmY2YxYjAwMDViMTE3NTc3NDJhZDU=",
+      "id": "0x50799a9b3683e1fc42d88ff21274929f41783c7be9cfcf1b0005b11757742ad5",
+      "title": "Start a MEME contest for ATC",
+      "content": "The community is too weak. Few knows about ATC. Let's start a MEME contest.\n1. Reward:10,000ATC\n2.Base: Twitter/Discord\n3.Period: 3 months starting from Feb 2022",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0xD619513007F5166D9B496f9E723120CE72AAA1AA",
+      "totalVotes": 612,
+      "blockNumber": 22456425,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0x50799a9b3683e1fc42d88ff21274929f41783c7be9cfcf1b0005b11757742ad5",
+      "startTime": {
+        "timestamp": 1639356569
+      },
+      "endTime": {
+        "timestamp": 1639961369
+      },
+      "startTimestamp": 1639356569,
+      "endTimestamp": 1639961369,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Not Sure"
+      ],
+      "results": [
+        {
+          "total": 1791.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1791.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweGJiOWEyMzlkMTNlYzhmOTY5ZWM5NzY2ZjdiNTE4YjQ4ODc3NjQ1NjIwODFiOWNlNWI2YjZiYTA5MzA4YTEwZWM=",
+      "id": "0xbb9a239d13ec8f969ec9766f7b518b4887764562081b9ce5b6b6ba09308a10ec",
+      "title": "The community treasury should be built.",
+      "content": "The ATC community has been built up in a very patient way.\nI think it is time to put this on the table.\nLet's start to build up the community treasury based on these fundamentals:\n1.The Treasury should be kept by a multisigned wallet on Gnosis. The signers should be selected from the community.\n2.The income for treasury must be generated from the Alashoo DAPP.\n3.10,000,000 ATC token distributed to the Treasury on initial token distribution.",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0x95a031fF447938b7DBC6fB5E5c67Be10D32D1888",
+      "totalVotes": 607,
+      "blockNumber": 22456187,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0xbb9a239d13ec8f969ec9766f7b518b4887764562081b9ce5b6b6ba09308a10ec",
+      "startTime": {
+        "timestamp": 1639356353
+      },
+      "endTime": {
+        "timestamp": 1639961153
+      },
+      "startTimestamp": 1639356353,
+      "endTimestamp": 1639961153,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Not Sure"
+      ],
+      "results": [
+        {
+          "total": 1787.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1787.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweDVhMTExNDZhY2JmZmMwMDY0NTUxN2E4YWZhYjJlMzdiZWM0ZTA3YmE0N2M4MTkyNzBlNzFjZWI1YjgzMDM3M2E=",
+      "id": "0x5a11146acbffc00645517a8afab2e37bec4e07ba47c819270e71ceb5b830373a",
+      "title": "How Should the DAO airdrop ATCDROP NFT holders?",
+      "content": "",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0xe338accD5CFF1F2C96345c145D7a5A50dd776346",
+      "totalVotes": 456,
+      "blockNumber": 22183433,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0x5a11146acbffc00645517a8afab2e37bec4e07ba47c819270e71ceb5b830373a",
+      "startTime": {
+        "timestamp": 1638756499
+      },
+      "endTime": {
+        "timestamp": 1639361299
+      },
+      "startTimestamp": 1638756499,
+      "endTimestamp": 1639361299,
+      "currentState": "closed",
+      "choices": [
+        "Random by their Token ID",
+        "Random by Chances",
+        "Fixed amount token dropped"
+      ],
+      "results": [
+        {
+          "total": 2123.0,
+          "choice": 0
+        },
+        {
+          "total": 19.0,
+          "choice": 2
+        },
+        {
+          "total": 226.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2123.0,
+          "choice": 0
+        },
+        {
+          "total": 226.0,
+          "choice": 1
+        },
+        {
+          "total": 19.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eW91bmdod2FuZ2V0aDpzbmFwc2hvdDoweGZjMjU0YTUzNDkyYjIzYmQ3ZTRlZWY1ODE5ZjM4NmQ1MThmZjY1NjliNWI0YWE2NjZhNjNiOTBjY2VmMmRmZDM=",
+      "id": "0xfc254a53492b23bd7e4eef5819f386d518ff6569b5b4aa666a63b90ccef2dfd3",
+      "title": "Should we build up our website before our BETA?",
+      "content": "Release more info about the project is good for building the community.",
+      "protocol": "younghwangeth",
+      "adapter": "snapshot",
+      "proposer": "0xdaFa879f659Bba79011130cfA6537Ab3E1ABdD97",
+      "totalVotes": 455,
+      "blockNumber": 22183787,
+      "externalUrl": "https://snapshot.org/#/younghwang.eth/proposal/0xfc254a53492b23bd7e4eef5819f386d518ff6569b5b4aa666a63b90ccef2dfd3",
+      "startTime": {
+        "timestamp": 1638754063
+      },
+      "endTime": {
+        "timestamp": 1639358863
+      },
+      "startTimestamp": 1638754063,
+      "endTimestamp": 1639358863,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2365.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2365.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961377487,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

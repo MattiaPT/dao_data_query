@@ -1,0 +1,1 @@
+/home/mattia/mounts/desk/studium/0_bachelor_thesis/bachelor_thesis/graph_querying/target/debug/graph_querying: /home/mattia/mounts/desk/studium/0_bachelor_thesis/bachelor_thesis/graph_querying/src/main.rs /home/mattia/mounts/desk/studium/0_bachelor_thesis/bachelor_thesis/graph_querying/src/utils.rs

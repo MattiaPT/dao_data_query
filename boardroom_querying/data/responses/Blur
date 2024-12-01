@@ -1,0 +1,169 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Ymx1cjpvbmNoYWluOjUwMzUzMzQyNzE3MTY1NjY0MDkyMDM4NjEzNTUzNjQwNjUyNzY4Njk1NDQzOTU0NzEyMzc2NTg2ODIzNzExMTg3OTY3NTk5NzkxNTQx",
+      "id": "50353342717165664092038613553640652768695443954712376586823711187967599791541",
+      "title": "Set final governance parameters",
+      "content": "Set the following parameters\n\n**Governor**\n\n- Quorom: 120,000,000 tokens\n- Voting Delay: 1 block (already set)\n- Voting Period: 100800 blocks (~2 weeks)\n- Proposal Threshold: 30,000,000 tokens\n\n**TimelockController**\n\n- Minimum Delay: 172800 seconds (2 days)",
+      "protocol": "blur",
+      "adapter": "onchain",
+      "proposer": "0x2ec1C79e71594373123d7B86d5847eEf1Ce0a475",
+      "totalVotes": 1,
+      "blockNumber": 16622675,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1676325575,
+      "endTimestamp": 1676327387,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2999998500.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16622825
+          },
+          "event": "active",
+          "timestamp": 1676327387,
+          "txHash": "0x9ea4ceb8ba71c1f45a9dffbf9fa5c22ddf192e57c3e4c50946b55c9e246d0e77"
+        },
+        {
+          "time": {
+            "blockNumber": 16623411
+          },
+          "event": "executed",
+          "timestamp": 1676334443,
+          "txHash": "0xef26d23766311fea0d0798ced7ea9615b6ee4ef50e6224354dd1d470a460ff0f"
+        },
+        {
+          "time": {
+            "blockNumber": 16622674
+          },
+          "event": "pending",
+          "timestamp": 1676325563,
+          "txHash": "0x9ea4ceb8ba71c1f45a9dffbf9fa5c22ddf192e57c3e4c50946b55c9e246d0e77"
+        },
+        {
+          "time": {
+            "blockNumber": 16623224
+          },
+          "event": "queued",
+          "timestamp": 1676332199,
+          "txHash": "0x545ef1f9c78738df74e79f9bb61cbe4bfae7d840fbafbb3f38330cee3987b2bb"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 2999998500.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929383292,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymx1cjpvbmNoYWluOjEwOTQzNjAyMjkzNDAzOTA3MjY4MTU5NDM1NzU1NDk5ODQ5MTUxMTczNTQ5OTYxNzEyMDc4MTkxMzQwMTc2ODI0OTc2NzMzODU0NDc1MA==",
+      "id": "109436022934039072681594357554998491511735499617120781913401768249767338544750",
+      "title": "Test Increase Threshold",
+      "content": "Increase proposal threshold from 1 to 10 tokens",
+      "protocol": "blur",
+      "adapter": "onchain",
+      "proposer": "0x2ec1C79e71594373123d7B86d5847eEf1Ce0a475",
+      "totalVotes": 1,
+      "blockNumber": 16528805,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1675192187,
+      "endTimestamp": 1675193987,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 3000000000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16528955
+          },
+          "event": "active",
+          "timestamp": 1675193987,
+          "txHash": "0x6946d5ca0b63b71f967d5b9dd7be86af7c86def9dce63625a0b2ea67777e2b88"
+        },
+        {
+          "time": {
+            "blockNumber": 16528966
+          },
+          "event": "queued",
+          "timestamp": 1675194119,
+          "txHash": "0x9f2cd9d5a29b90106ea7f3094f6a269848a476bd9023ff975a463b880d1e3ed4"
+        },
+        {
+          "time": {
+            "blockNumber": 16528804
+          },
+          "event": "pending",
+          "timestamp": 1675192175,
+          "txHash": "0x6946d5ca0b63b71f967d5b9dd7be86af7c86def9dce63625a0b2ea67777e2b88"
+        },
+        {
+          "time": {
+            "blockNumber": 16529160
+          },
+          "event": "executed",
+          "timestamp": 1675196447,
+          "txHash": "0x37d28e7a136bcd01685e9e510d6a3968bdb783afcb7d64a979b2e9848e7dd99d"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 3000000000.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929383292,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

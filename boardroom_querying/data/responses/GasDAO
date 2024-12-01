@@ -1,0 +1,1254 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOm9uY2hhaW46OTU4MjU2NDg2MDU1NTAwNzY1NTk2NzY3NDQzNzE3OTk1MDIxODI1MTYzNjYwNzczMjEzNjA2MzQ2NDQ0MjQ2Nzc3NDU2MTc0ODMzODI=",
+      "id": "95825648605550076559676744371799502182516366077321360634644424677745617483382",
+      "title": "Seed GAS Staking Contract",
+      "content": "Seed GAS Staking Contract pursuant to [https://snapshot.gasdao.org/#/proposal/0x3aa2b70cdaf31ead29cd2820840220d9f7e3752c751d293b373ae69e3324f06b](<https://snapshot.gasdao.org/#/proposal/0x3aa2b70cdaf31ead29cd2820840220d9f7e3752c751d293b373ae69e3324f06b>).\n\n",
+      "protocol": "gasdao",
+      "adapter": "onchain",
+      "proposer": "0xE18260C2483562E7CE5FfCab7a6142598F36aF2A",
+      "totalVotes": 48,
+      "blockNumber": 14546572,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1649440204,
+      "endTimestamp": 1650058275,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10058315000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14592390
+          },
+          "event": "active",
+          "timestamp": 1650058275,
+          "txHash": "0x5ed90885a08f50fdb47986b7b7d07ae5a2e760c295c2090dbc9765d12a0d641d"
+        },
+        {
+          "time": {
+            "blockNumber": 14592460
+          },
+          "event": "queued",
+          "timestamp": 1650059391,
+          "txHash": "0x1b8d5bb3254cda3ea2763bf58f2b0fd1535cc53beb7c157f177e8e167093f785"
+        },
+        {
+          "time": {
+            "blockNumber": 14546571
+          },
+          "event": "pending",
+          "timestamp": 1649440184,
+          "txHash": "0x5ed90885a08f50fdb47986b7b7d07ae5a2e760c295c2090dbc9765d12a0d641d"
+        },
+        {
+          "time": {
+            "blockNumber": 14592468
+          },
+          "event": "executed",
+          "timestamp": 1650059511,
+          "txHash": "0x12697a9d9c75efe3bdc57dc60a5d761d633c9237b8e3caabda243c7d6babb9e8"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10058315000.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4M2FhMmI3MGNkYWYzMWVhZDI5Y2QyODIwODQwMjIwZDlmN2UzNzUyYzc1MWQyOTNiMzczYWU2OWUzMzI0ZjA2Yg==",
+      "id": "0x3aa2b70cdaf31ead29cd2820840220d9f7e3752c751d293b373ae69e3324f06b",
+      "title": "GHIP 4: Distributing Gas Token Rewards",
+      "content": "GHIP 1: Gas-less GAS Token “Staking” passed on 1/04/2022 and set the reward period for 2 months ending on 3/04/2022 [You can read the proposal here](https://snapshot.org/#/gasdao.eth/proposal/0x4cc748f7778117c7b62bd8d479b5d8ebd1b33b9163455b6cd5aaa0848069728b). This proposal is the follow-up to begin the on-chain process of seeding the Gas-less staking airdrop. \n\nThis proposal effectively set aside 30B (3% of the outstanding supply) for staking rewards. The staking rewards can be seen in this CSV [here](https://s3.wasabisys.com/gasdao/rewards_final.csv). The purpose of GHIP 4 is to repoll the community that they are in favor of distributing the rewards now to all “stakers\".\n\nExecution:\nThe GAS staking contract will look like: https://github.com/gasdao/gasdao/blob/main/contracts/GasDaoStaking.sol\nIf this proposal passes, the contract above will be deployed and a website claim page will be set up. \nThe first step on-chain is to send GAS tokens from the treasury to a Merkle airdrop contract controlled by the Timelock controller, a sample is shown above. \nProposal arguments to seed the staking contract:\ntargets = [0x6Bba316c48b49BD1eAc44573c5c871ff02958469]\nvalues = [0],\ncalldatas = [transfer(GasDaoTokenStakingRewardContract_Address, 30B)]\ndescription = “Seed GAS staking contract.”",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0xf28E9401310E13Cfd3ae0A9AF083af9101069453",
+      "totalVotes": 29,
+      "blockNumber": 14482151,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x3aa2b70cdaf31ead29cd2820840220d9f7e3752c751d293b373ae69e3324f06b",
+      "startTime": {
+        "timestamp": 1648571184
+      },
+      "endTime": {
+        "timestamp": 1648742400
+      },
+      "startTimestamp": 1648571184,
+      "endTimestamp": 1648742400,
+      "currentState": "closed",
+      "choices": [
+        "In Favor",
+        "Not in Favor",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1089185500.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1089185764.2113433,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOm9uY2hhaW46MzM2MzY1NzYzMzYxMDg3MzIzOTQ3OTUyMjcxMTk3NDExMDQ4OTUxNzYwMzQwNjQ0NTc5NjU2ODc2NzcxMjc3NjM0NjkwMjA3NzM0NjU=",
+      "id": "33636576336108732394795227119741104895176034064457965687677127763469020773465",
+      "title": "Sushi LP Incentives ",
+      "content": "Sushi LP Incentives",
+      "protocol": "gasdao",
+      "adapter": "onchain",
+      "proposer": "0xE18260C2483562E7CE5FfCab7a6142598F36aF2A",
+      "totalVotes": 47,
+      "blockNumber": 13980217,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1641850995,
+      "endTimestamp": 1642462234,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 24779086.0,
+          "choice": 2
+        },
+        {
+          "total": 11585093000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14026035
+          },
+          "event": "active",
+          "timestamp": 1642462234,
+          "txHash": "0x9fe09238a38b029dade4342bf71c7701a4d2a2dedf3afd3a8eb9a4c91d450474"
+        },
+        {
+          "time": {
+            "blockNumber": 14026858
+          },
+          "event": "executed",
+          "timestamp": 1642472819,
+          "txHash": "0xe46ec17e932665b7c72e0e01323b833c10618fbf3b0882c67bacab810c1ca93f"
+        },
+        {
+          "time": {
+            "blockNumber": 14026848
+          },
+          "event": "queued",
+          "timestamp": 1642472693,
+          "txHash": "0xba46d18b2e6bc8fb0877846941104549333e94ac3920cd57193f1042b8844a11"
+        },
+        {
+          "time": {
+            "blockNumber": 13980216
+          },
+          "event": "pending",
+          "timestamp": 1641850993,
+          "txHash": "0x9fe09238a38b029dade4342bf71c7701a4d2a2dedf3afd3a8eb9a4c91d450474"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 11585093000.0,
+          "choice": 1
+        },
+        {
+          "total": 24779086.0,
+          "choice": 2
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4OWQ0ZDg0ZGVmMjM5NmVjMWM5NDFiMTI2MmEyZjU3N2Q4Yzc0Yzc0ZmQwYmE0MTg1ZjExYWMzY2ViY2Q3NDNiZg==",
+      "id": "0x9d4d84def2396ec1c941b1262a2f577d8c74c74fd0ba4185f11ac3cebcd743bf",
+      "title": "Reduce airdrop claiming window by removing Claim Button on website and thus terminating airdrop by Jan14 1pm UTC",
+      "content": "",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0x23EfAfCB55d199eEf9896a0A54371f77CFb10cE0",
+      "totalVotes": 57,
+      "blockNumber": 13978606,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x9d4d84def2396ec1c941b1262a2f577d8c74c74fd0ba4185f11ac3cebcd743bf",
+      "startTime": {
+        "timestamp": 1641825900
+      },
+      "endTime": {
+        "timestamp": 1641938400
+      },
+      "startTimestamp": 1641825900,
+      "endTimestamp": 1641938400,
+      "currentState": "closed",
+      "choices": [
+        "Yes Reduce Airdrop Window",
+        "No Reduce Airdrop Window"
+      ],
+      "results": [
+        {
+          "total": 3721233400.0,
+          "choice": 0
+        },
+        {
+          "total": 7522556400.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3721234036.7964,
+          "choice": 0
+        },
+        {
+          "total": 7522555723.818217,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4MmZjMjMyODRhMzFkOTkzMjZmZWQ2Mjg2ODcwNzI2MjU2MTAxNGZlNDk2NTQ5Y2UzNTdlMmYxZjc0ZWJlYzJhMA==",
+      "id": "0x2fc23284a31d99326fed62868707262561014fe496549ce357e2f1f74ebec2a0",
+      "title": "GHIP 3: Sushi LP Incentives ",
+      "content": "Over the past week, many community members have come forward asking for a proposal to allocate DAO funds to LP incentives to encourage $GAS holders to stake liquidity on DEXs such as Sushi or Uniswap. The team explicitly did not want to launch an LP without getting the consent of the DAO and **the various pools set up on Uniswap and Sushiswap were done so by community members**. You can find our heatcheck for this proposal [here](https://snapshot.org/#/gasdao.eth/proposal/0x81eeb0c04076db27dfd3a8a66f76d2e7fb52b09ba723ba564f922642c0448756). We are proposing sending 30B Gas Tokens (10% of treasury) to the Sushi reward contract with an initial reward period of 6 months. We can send more Gas Tokens in the future if we decide to. \n\n**Rationale**: Our primary reason for supporting LP Incentives is that it will reward users who forfeit their governance rights with Gas Tokens that they can acquire for voting purposes while they are providing liquidity. It will also attract new users to Gas and help stabilize some activity that is coming from airdrop claims. Successful projects have deep liquidity pools which we currently do not have. We chose Sushi because they make it easy to integrate rewards into their system, have already set up the GasRewarder contract for us, and will likely also contribute $Sushi rewards to the contract. The proposal is for 10% of the treasury (3% of the total supply) for a period of 6M to coincide with the end of the airdrop claim to encourage a deeper liquidity pool during the Airdrop period.  \n\n**Execution**: [Sushi has already set up the GasRewarder contract](https://etherscan.io/address/0x256e23dbcd898da965cfb5d90e0123fd4475d308), the transaction to initiate this [can be found here](https://etherscan.io/tx/0x354c86b0e6a35c50f7b51d4fa4d7ccf00afc72a10b8fc088af6828c6769debfb). The onchain proposal is below: \n\nProposal arguments to fund the Sushi Onsen GasRewarder contract:\nTargets = [0x6Bba316c48b49BD1eAc44573c5c871ff02958469]\nValues = [0]\nCalldatas = [0xa9059cbb000000000000000000000000256e23dbcd898da965cfb5d90e0123fd4475d308000000000000000000000000000000000000000060ef6b1aba6f072330000000]\n\nWe will also communicate to Sushi to set the rewards per second to exhaust 30B gas over six months. We can add to this reward contract in the future if the program is successful. \n\n**Pros**: This will help stabilize Gas Tokens and reduce the volatility from airdrop claim activity and those holders who chose to exit the community while attracting new members who have not claimed by giving them confidence in the DAO. It will also attract new members who will want to provide liquidity and further incentivize community members who are already doing so. It also does this in a decentralized way so that the DAO is not initializing a liquidity pool nor owning its own liquidity. It also allows the Dev team to concentrate on 2.0 without the overhang of having to set up our own liquidity incentivizing contract and leverages the Sushi ecosystem to take care of instructions. Successful protocols that have bootstrapped without previous funding have previously relied on this primitive of LP incentives and we are following that model. \n\n**Cons**: 10% of the treasury is a large investment to make and it will also concentrate liquidity on Sushi, meaning that community members who have provided liquidity on Uniswap will likely have to migrate. The timing of this is also coinciding with the release of 2.0, which might take some attention away from our great initiatives that we have planned. ",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0xf28E9401310E13Cfd3ae0A9AF083af9101069453",
+      "totalVotes": 103,
+      "blockNumber": 13967973,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x2fc23284a31d99326fed62868707262561014fe496549ce357e2f1f74ebec2a0",
+      "startTime": {
+        "timestamp": 1641688200
+      },
+      "endTime": {
+        "timestamp": 1641774600
+      },
+      "startTimestamp": 1641688200,
+      "endTimestamp": 1641774600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5043878000.0,
+          "choice": 0
+        },
+        {
+          "total": 45227984.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5043877258.228008,
+          "choice": 0
+        },
+        {
+          "total": 45227985.503558695,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4YzQ3MDBlNmI4ZTI5NDZhMDQyM2QyMjgwZTBiMTZiOGFmNTFkZDk4YTA2MjMwNDVmNTI4YzM0NjJmZWMzNjJhOA==",
+      "id": "0xc4700e6b8e2946a0423d2280e0b16b8af51dd98a0623045f528c3462fec362a8",
+      "title": "GHSP 1 On EIP-1559: (GAS Holder Snapshot Poll #1) ",
+      "content": "As one of the largest on-chain DAOs representing Ethereum’s most active users, we want to create useful referendums/polls, GHSPs, for the rest of the Ethereum community and to help direct resources. Our first one is on EIP-1559. \n\nEIP-1559 introduced “a transaction pricing mechanism that includes fixed-per-block network fee that is burned and dynamically expands/contracts block sizes to deal with transient congestion.” It split a transaction’s gas price into two parts: a base fee, which is burned, and a miner tip, which is given to the miner as a reward. The base fee is fixed per block, and modulates based on network congestion.\n\nDid you as a power Ethereum user know about EIP-1559 before it was released, and did it improve your user experience on Ethereum?\n",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0xf28E9401310E13Cfd3ae0A9AF083af9101069453",
+      "totalVotes": 143,
+      "blockNumber": 13928195,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0xc4700e6b8e2946a0423d2280e0b16b8af51dd98a0623045f528c3462fec362a8",
+      "startTime": {
+        "timestamp": 1641155400
+      },
+      "endTime": {
+        "timestamp": 1641760200
+      },
+      "startTimestamp": 1641155400,
+      "endTimestamp": 1641760200,
+      "currentState": "closed",
+      "choices": [
+        "knew, improved UI",
+        "didn’t know, improved UI",
+        "knew, didn't improve UI",
+        "didn't know, didn't improve UI"
+      ],
+      "results": [
+        {
+          "total": 18988616.0,
+          "choice": 3
+        },
+        {
+          "total": 851314750.0,
+          "choice": 0
+        },
+        {
+          "total": 5666004500.0,
+          "choice": 2
+        },
+        {
+          "total": 77829250.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 851314969.8194277,
+          "choice": 0
+        },
+        {
+          "total": 77829248.13772023,
+          "choice": 1
+        },
+        {
+          "total": 5666002886.882135,
+          "choice": 2
+        },
+        {
+          "total": 18988616.067839615,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4NGNjNzQ4Zjc3NzgxMTdjN2I2MmJkOGQ0NzliNWQ4ZWJkMWIzM2I5MTYzNDU1YjZjZDVhYWEwODQ4MDY5NzI4Yg==",
+      "id": "0x4cc748f7778117c7b62bd8d479b5d8ebd1b33b9163455b6cd5aaa0848069728b",
+      "title": "GHIP 1: Gas-less GAS Token \"Staking\" ",
+      "content": "The [heat check](https://snapshot.org/#/gasdao.eth/proposal/0x277d50e163ba3152692f4f242b38e1d65ee684e10c701aa354aac01aacd3af28) for Gas-less GAS staking has passed. As indicated in the [roadmap](https://mirror.xyz/gasdao.eth/oK-twc7QGL1Vi5kMiiGNCYzH3ZsqkLZsMd_FUFxJqc4), the next step for having this action be passed by the DAO is a formal consensus check on Snapshot. \n\n**Rationale**: The Gas DAO’s primary mission is to give a voice to Ethereum’s most active users through the governance of a decentralized permission-less DAO. The Gas DAO community was quite vocal though numerous channels asking for single sided staking. Classic single sided staking would result in a loss of governance rights, this proposal effectively fulfills the goals of single sided staking through encouraging governance participation while also continuing to reward the networks most active users through a gas \"rebate\". \n\n**Execution**:\nThe GAS staking contract could look like: https://github.com/gasdao/gasdao/blob/main/contracts/GasDaoStaking.sol\nThe first step on-chain is to send GAS tokens from the treasury to a Merkle airdrop contract controlled by the Timelock controller. After the staking period ends there will be another on-chain proposal to start the Merkle airdrop.\nProposal arguments to seed the staking contract:\ntargets = [0x6Bba316c48b49BD1eAc44573c5c871ff02958469]\nvalues = [0],\ncalldatas = [transfer(GasDaoTokenStakingRewardContract_Address, 30B)]\ndescription = “Seed GAS staking contract.”\n\n**Pros**: This proposal effectively takes supply offline for an extended period of time like single-sided staking would do without compromising Gas DAO’s core mission as users would not have to give away their governance rights to a staking contract. \n\nIt also allows for active users of the network to continue to be rewarded in the form of Gas tokens. \n\nIt further encourages Gas DAO adoption by incentivizing new users to participate in Gas DAO governance. \n\n**Cons**:\nIf the DAO cannot reach consensus on which Merkle airdrop to set at the end of the staking period, then the airdrop will not happen. \n\nClaiming rewards will still require gas at the end of the airdrop. \n\nUsers who hold and delegate $GAS but do not use the network over the next 2 months will not be rewarded. \n\n",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0xf28E9401310E13Cfd3ae0A9AF083af9101069453",
+      "totalVotes": 135,
+      "blockNumber": 13929522,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x4cc748f7778117c7b62bd8d479b5d8ebd1b33b9163455b6cd5aaa0848069728b",
+      "startTime": {
+        "timestamp": 1641173400
+      },
+      "endTime": {
+        "timestamp": 1641346200
+      },
+      "startTimestamp": 1641173400,
+      "endTimestamp": 1641346200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4926933500.0,
+          "choice": 0
+        },
+        {
+          "total": 28268564.0,
+          "choice": 2
+        },
+        {
+          "total": 86344360.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4926932574.574414,
+          "choice": 0
+        },
+        {
+          "total": 86344357.34507239,
+          "choice": 1
+        },
+        {
+          "total": 28268562.377136275,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4ODFlZWIwYzA0MDc2ZGIyN2RmZDNhOGE2NmY3NmQyZTdmYjUyYjA5YmE3MjNiYTU2NGY5MjI2NDJjMDQ0ODc1Ng==",
+      "id": "0x81eeb0c04076db27dfd3a8a66f76d2e7fb52b09ba723ba564f922642c0448756",
+      "title": "Heatcheck: Sushi LP Incentives",
+      "content": "Over the past few days, many community members have come forward asking for a proposal to allocate DAO funds to LP incentives to encourage $GAS holders to stake liquidity on DEXs such as Sushi or Uniswap. The team explicitly did not want to launch an LP without getting the consent of the DAO and **the various pools set up on Uniswap and Sushiswap were done so by community members**. \n\nWe recognize that those community members **lose their governance rights** by staking liquidity and want to do this to compensate them for their community service and loss of governance rights.  \n\nCommunity members have already reached out to Sushiswap to be apart of their [Onsen Program](https://docs.sushi.com/faq-1/onsen-faq). We propose sending 10% of the DAO Treasury to Sushi to reward LP stakers until the funds are exhausted. \n",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0xf28E9401310E13Cfd3ae0A9AF083af9101069453",
+      "totalVotes": 179,
+      "blockNumber": 13929345,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x81eeb0c04076db27dfd3a8a66f76d2e7fb52b09ba723ba564f922642c0448756",
+      "startTime": {
+        "timestamp": 1641171600
+      },
+      "endTime": {
+        "timestamp": 1641344400
+      },
+      "startTimestamp": 1641171600,
+      "endTimestamp": 1641344400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2567269600.0,
+          "choice": 0
+        },
+        {
+          "total": 4146877000.0,
+          "choice": 2
+        },
+        {
+          "total": 930445440.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2567269923.22074,
+          "choice": 0
+        },
+        {
+          "total": 930445524.9562289,
+          "choice": 1
+        },
+        {
+          "total": 4146877319.32396,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4NzAxNzQwYmZlYjQ4MGFkN2E4Mzk1NDJhYWM0OTU0YmI2MDdjY2JlMTljMzkyYTJhZDliZTMzNzFmZjgxMGE1Nw==",
+      "id": "0x701740bfeb480ad7a839542aac4954bb607ccbe19c392a2ad9be3371ff810a57",
+      "title": "GHSP 2: Was Vitalik's Twitter Isolation A Good Idea?",
+      "content": "As stated in GHSP 1, we want to take advantage of Gas DAO's distribution to take activity weighted pulses of the Ethereum community. Vitalik has recently returned to twitter and posted a poll asking if it was a good idea that he took a break in 2021. He limited it to followees only to ensure quality, what better way to create a high quality poll for him than by polling the most active users of the network he created? \n\nThe question is simple: Was Vitalik's Twitter isolation in 2021 a good idea? \n\nLink: https://twitter.com/VitalikButerin/status/1477770740871139333?s=20  ",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0xf28E9401310E13Cfd3ae0A9AF083af9101069453",
+      "totalVotes": 79,
+      "blockNumber": 13928813,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x701740bfeb480ad7a839542aac4954bb607ccbe19c392a2ad9be3371ff810a57",
+      "startTime": {
+        "timestamp": 1641163500
+      },
+      "endTime": {
+        "timestamp": 1641336300
+      },
+      "startTimestamp": 1641163500,
+      "endTimestamp": 1641336300,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3861718500.0,
+          "choice": 0
+        },
+        {
+          "total": 1300829800.0,
+          "choice": 2
+        },
+        {
+          "total": 269450400.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3861718738.8769712,
+          "choice": 0
+        },
+        {
+          "total": 269450450.35426694,
+          "choice": 1
+        },
+        {
+          "total": 1300829820.290331,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4MzQ3NjgzZWEzNGViOTRkMWVhN2I0ODI0YmNjZGQzNzY5MGY0MTRmYzE2Njg0MGIxNmVkZThhYzZjOGI4YzVkYQ==",
+      "id": "0x347683ea34eb94d1ea7b4824bccdd37690f414fc166840b16ede8ac6c8b8c5da",
+      "title": "Find a security auditor to audit the gas contract and front-end code and publish the results",
+      "content": "I propose to find a security auditor to audit the gas contract and front-end code and publish the results so that people can receive $gas with confidence. The cost of the audit would be paid from the DAO treasury.\n\n提议找一家安全审计机构对gas合约和前端代码进审计并公布结果，这样人们就可以放心的领取$gas了。审计费用从DAO财库支付。",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0x10Dbfcfd43B1C9bCcA0b5D0D895E528965f1A09b",
+      "totalVotes": 42,
+      "blockNumber": 13932244,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x347683ea34eb94d1ea7b4824bccdd37690f414fc166840b16ede8ac6c8b8c5da",
+      "startTime": {
+        "timestamp": 1641211200
+      },
+      "endTime": {
+        "timestamp": 1641297600
+      },
+      "startTimestamp": 1641211200,
+      "endTimestamp": 1641297600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1309218600.0,
+          "choice": 0
+        },
+        {
+          "total": 1903945.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1309218825.5759003,
+          "choice": 0
+        },
+        {
+          "total": 1903945.51842776,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OnFtdHFuZWxjZjN6NDg1bW1kdDV2anNldnFxdmd6djhhamtoYXI3ZnRwcmlhcTY=",
+      "id": "QmTQNeLCF3z485mmdT5vJSEvQqVgZV8AjkHaR7FtPRiAq6",
+      "title": "another adive for Heat Check: New Contributors $Gas Allocation and Vesting Plan",
+      "content": "give 2% of the total supply to core contributer,and the rest of 10% of the total supply can be added to the liqulity instead of burning them.",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0x01039fDD4D2CeC94E3625E3962e817eA8F51A2a8",
+      "totalVotes": 33,
+      "blockNumber": 13907155,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/QmTQNeLCF3z485mmdT5vJSEvQqVgZV8AjkHaR7FtPRiAq6",
+      "startTime": {
+        "timestamp": 1640923200
+      },
+      "endTime": {
+        "timestamp": 1641268800
+      },
+      "startTimestamp": 1640923200,
+      "endTimestamp": 1641268800,
+      "currentState": "closed",
+      "choices": [
+        "agree",
+        "still burning them"
+      ],
+      "results": [
+        {
+          "total": 32922308.0,
+          "choice": 0
+        },
+        {
+          "total": 626211260.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 32922308.101034224,
+          "choice": 0
+        },
+        {
+          "total": 626211261.3532978,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4M2RlMjNkODYwZTczMmU5MzU1YTg2ZjdiYjg4ZGViYTc4ZGEyZDE5NjE1YmNhYzhkYTU1ZDc5NmZkMzk3M2EzNQ==",
+      "id": "0x3de23d860e732e9355a86f7bb88deba78da2d19615bcac8da55d796fd3973a35",
+      "title": "Reduce the token allocation to founders",
+      "content": "Given that the objective of GAS DAO is to lend voice to Ethereum network users & promote decentralized opinion forming, the 15% token allocation to founders creates the risk of disproportionate voting power with a limited number of people. More so when the per-user airdrop was capped at 0.01% to ensure a fair distribution. For the DAO to be credible, the voting power needs to be more distributed. \n\nThe proposal is to significantly reduce the token allocation for the founders and move the rest to the DAO Treasury. The revised allocation to founders should be finalized through a separate voting.\n\nShare your vote on if this should be done.",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0x9AD85d7C0f7eFF3D0718C3A3A032557558F7048b",
+      "totalVotes": 112,
+      "blockNumber": 13902013,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x3de23d860e732e9355a86f7bb88deba78da2d19615bcac8da55d796fd3973a35",
+      "startTime": {
+        "timestamp": 1640797200
+      },
+      "endTime": {
+        "timestamp": 1641229200
+      },
+      "startTimestamp": 1640797200,
+      "endTimestamp": 1641229200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1986378500.0,
+          "choice": 0
+        },
+        {
+          "total": 30677310.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1986378463.4985175,
+          "choice": 0
+        },
+        {
+          "total": 30677309.742151525,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4NjkwYzY4YWUyN2I2NjhhMDgxMWE2NmI1YzQ4MzJlYWQ4MjE3YTgwMTE1ZDkzYjMzMjgzYzU4NjU5MjQyODNkYQ==",
+      "id": "0x690c68ae27b668a0811a66b5c4832ead8217a80115d93b33283c5865924283da",
+      "title": "Proposal to change deadline to claim $GAS",
+      "content": "The deadline to claim $GAS token is May 1st, 2022. I believe there is no need for window to claim to be so big. 1 week should be long enough for everyone who cares.\n\nRespect those who are partying and celebrating end of the year so give them 3 days after. let's make the deadline to claim Jan 4th, 2022, and burn the unclaimed tokens after\n\nChose below if you want the change to take place or not",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0x4E5Cd9f42B7feEb07343190EA7DFE00Ea2Dab096",
+      "totalVotes": 142,
+      "blockNumber": 13900126,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x690c68ae27b668a0811a66b5c4832ead8217a80115d93b33283c5865924283da",
+      "startTime": {
+        "timestamp": 1640775600
+      },
+      "endTime": {
+        "timestamp": 1641207600
+      },
+      "startTimestamp": 1640775600,
+      "endTimestamp": 1641207600,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [
+        {
+          "total": 2581706000.0,
+          "choice": 0
+        },
+        {
+          "total": 200511260.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2581705688.607018,
+          "choice": 0
+        },
+        {
+          "total": 200511260.89184672,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4Mjc3ZDUwZTE2M2JhMzE1MjY5MmY0ZjI0MmIzOGUxZDY1ZWU2ODRlMTBjNzAxYWEzNTRhYWMwMWFhY2QzYWYyOA==",
+      "id": "0x277d50e163ba3152692f4f242b38e1d65ee684e10c701aa354aac01aacd3af28",
+      "title": "Heat Check: Gas-less GAS Staking",
+      "content": "A main goal of Gas DAO is to attract the most active users of the Ethereum network and to have those users participate in the DAO through on and off-chain voting. We are proposing an innovative, gas-free way that allows GAS holders to “stake” their tokens and earn GAS based on the Ethereum gas they spend while their tokens are “staked”.\n\nThe staking mechanism works as follows. All you need to do to “stake” is to delegate your tokens (eg via https://www.withtally.com/governance/gasdao) to yourself or someone else. By delegating, you will both be participating in GAS governance and also effectively “staking” your GAS tokens.\n\nThe Gas DAO will compute on a rolling basis the amount of Ethereum gas you use, weighted by your median GAS tokens delegated over the past 40000 blocks (2 weeks), and propose another GAS airdrop proportional to this amount for everyone who “staked”, with the airdrop occurring roughly two months from now. The earlier you delegate and the more gas you use, the more GAS tokens you will earn. Also, a reminder that when you transfer your tokens to another address, you lose out on the staking rewards and your on and off-chain voting rights. The funds for the airdrop will come from the DAO treasury. One potential amount is 10% of the DAO treasury, or 30B gas tokens. With the staking airdrop, .\n\nWe believe that this innovative gas-less staking mechanism both distributes GAS to the most essential voices in the Ethereum and encourages GAS holders to participate in governance and serves two of our three core mission values. Another benefit is that users can still vote on Snapshot votes and maintain your on-chain voting power while their tokens are staked (not true with other protocols).\n",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0xf28E9401310E13Cfd3ae0A9AF083af9101069453",
+      "totalVotes": 273,
+      "blockNumber": 13916323,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x277d50e163ba3152692f4f242b38e1d65ee684e10c701aa354aac01aacd3af28",
+      "startTime": {
+        "timestamp": 1640997900
+      },
+      "endTime": {
+        "timestamp": 1641170700
+      },
+      "startTimestamp": 1640997900,
+      "endTimestamp": 1641170700,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 10577943000.0,
+          "choice": 0
+        },
+        {
+          "total": 75816610.0,
+          "choice": 2
+        },
+        {
+          "total": 185722780.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10577938191.299349,
+          "choice": 0
+        },
+        {
+          "total": 185722775.91084468,
+          "choice": 1
+        },
+        {
+          "total": 75816614.10133432,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4ODgyYmY0NDU0NGM3NGVlMzkyYjc3ZmViYTMyNGJhNDQzYjJlMjNhY2JhYjRlNGEwNjM3MmVjOTBlZWM3ZjllZQ==",
+      "id": "0x882bf44544c74ee392b77feba324ba443b2e23acbab4e4a06372ec90eec7f9ee",
+      "title": "借马斯克的推文为$GAS助威",
+      "content": "在马斯克推文下，集体为 $GAS 喊单助威，助力 🚀 $GAS TO THE MOON 🌕",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0xC1fa11Be8Ab9cbCBcA5c4d2Eee9853CB1E64F8aa",
+      "totalVotes": 10,
+      "blockNumber": 13916185,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x882bf44544c74ee392b77feba324ba443b2e23acbab4e4a06372ec90eec7f9ee",
+      "startTime": {
+        "timestamp": 1640995740
+      },
+      "endTime": {
+        "timestamp": 1641096000
+      },
+      "startTimestamp": 1640995740,
+      "endTimestamp": 1641096000,
+      "currentState": "closed",
+      "choices": [
+        "$GAS TO THE MOON",
+        "MOON"
+      ],
+      "results": [
+        {
+          "total": 717923970.0,
+          "choice": 0
+        },
+        {
+          "total": 183714.61,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 717923975.5828148,
+          "choice": 0
+        },
+        {
+          "total": 183714.6068155378,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4OTc2Yzk0NDRkODIwYTY4MWUzYjQyYWM0OGQ4NDUzMTQ2Nzk4YzA0MTEzOGRkZDk2YWJiNWFmMjAwNDIxNTQ3NA==",
+      "id": "0x976c9444d820a681e3b42ac48d8453146798c041138ddd96abb5af2004215474",
+      "title": "Hire a UI/UX designer to reflect the roadmap on the main page",
+      "content": "We need to hire a a UI/UX to develop a proper landing page for the Gas Dao reflecting the roadmap the team put together in the following  link:\nhttps://mirror.xyz/gasdao.eth/oK-twc7QGL1Vi5kMiiGNCYzH3ZsqkLZsMd_FUFxJqc4\n",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0x24E6D835F23b9716af984F6604625C6b074015Cd",
+      "totalVotes": 48,
+      "blockNumber": 13907991,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x976c9444d820a681e3b42ac48d8453146798c041138ddd96abb5af2004215474",
+      "startTime": {
+        "timestamp": 1640887200
+      },
+      "endTime": {
+        "timestamp": 1641024000
+      },
+      "startTimestamp": 1640887200,
+      "endTimestamp": 1641024000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1407597300.0,
+          "choice": 0
+        },
+        {
+          "total": 3329798.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1407597257.213025,
+          "choice": 0
+        },
+        {
+          "total": 3329798.3931406373,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4N2RiMTVhYWY0ZDc4ZDdjNjMzOTE1YmVhZWIwNjhkYThmZDY2YWVkNGVhZjAzYTY0NTM5NTc3MGM3NTFmM2RhOA==",
+      "id": "0x7db15aaf4d78d7c633915beaeb068da8fd66aed4eaf03a645395770c751f3da8",
+      "title": "Heat Check: Multisig Dev Fund",
+      "content": "Developers do not have much incentive to reduce the gas usage of the contracts they develop. **We will be submitting a governance proposal to start a grant system for developers across the world that are researching ways to reduce EVM gas usage**. The funds will be sent to a 7/10 multi-sig wallet that will review Google form proposals and put the most promising ones up to a Snapshot vote. If you support this effort, vote yes.",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0xf28E9401310E13Cfd3ae0A9AF083af9101069453",
+      "totalVotes": 196,
+      "blockNumber": 13903773,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x7db15aaf4d78d7c633915beaeb068da8fd66aed4eaf03a645395770c751f3da8",
+      "startTime": {
+        "timestamp": 1640828100
+      },
+      "endTime": {
+        "timestamp": 1641000900
+      },
+      "startTimestamp": 1640828100,
+      "endTimestamp": 1641000900,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3473930800.0,
+          "choice": 0
+        },
+        {
+          "total": 7194514.0,
+          "choice": 2
+        },
+        {
+          "total": 17077444.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3473930639.121497,
+          "choice": 0
+        },
+        {
+          "total": 17077443.81425746,
+          "choice": 1
+        },
+        {
+          "total": 7194513.441832773,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4NWFiNTg2ZDM3Y2E3OTVjMzgzYWYzYTQ4OGVhNTRjYmJkNmE0YmYwNTkzZDQ1MjZhZTQwOGJkYTNmZjNkM2NjNg==",
+      "id": "0x5ab586d37ca795c383af3a488ea54cbbd6a4bf0593d4526ae408bda3ff3d3cc6",
+      "title": "Heat Check: Open Zeppelin Grant",
+      "content": "Open-Zeppelin contracts have been an amazing development for the Ethereum Network, making it much safer and saving users billions of dollars from scams. **However, their security and simplicity come at the cost of gas usage**. It is well known that Open-Zeppelin contracts use a lot of gas. For example, see this [blog post](https://medium.com/coinmonks/the-cannibalization-of-nfts-by-openzeppelin-by-insanely-high-gas-prices-cd2c9a7c1e7). We believe that security and gas efficiency can exist synergistically, and so, we will be submitting a governance proposal to send 2.5B ΞGAS to the Open-Zeppelin foundation, **urging them to build a new version of Open-Zeppelin, Open-Zeppelin-LowGas that uses 25-50% less gas without sacrificing security**. Also, by having Open-Zeppelin own GAS tokens, that allows them to vote on proposals, which will be important moving forward as they are so essential to the Ethereum network. We propose sending 2.5B GAS tokens to Open Zeppelin to fund this effort.",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0xf28E9401310E13Cfd3ae0A9AF083af9101069453",
+      "totalVotes": 203,
+      "blockNumber": 13903786,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x5ab586d37ca795c383af3a488ea54cbbd6a4bf0593d4526ae408bda3ff3d3cc6",
+      "startTime": {
+        "timestamp": 1640827800
+      },
+      "endTime": {
+        "timestamp": 1641000600
+      },
+      "startTimestamp": 1640827800,
+      "endTimestamp": 1641000600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4158998300.0,
+          "choice": 0
+        },
+        {
+          "total": 5168241.0,
+          "choice": 2
+        },
+        {
+          "total": 49391696.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4158998407.5575247,
+          "choice": 0
+        },
+        {
+          "total": 49391697.684112325,
+          "choice": 1
+        },
+        {
+          "total": 5168240.835249347,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4ODYyNTc4ZGNlZmVlNDY1ZGM0NjJkOTlhY2Y5Mjc4OGQwNWVmNGI1NjdkYWQwN2I1NDkyZDAwNWRhOGY4OTZkMA==",
+      "id": "0x862578dcefee465dc462d99acf92788d05ef4b567dad07b5492d005da8f896d0",
+      "title": "Deploy a UniV3 staking program ",
+      "content": "\nIntroduction:\n\nEthereans love to farm. They do it all day and night - apes, penguins and wizards alike. But farming in DeFi is not always well-managed, and the hard-earned harvests of farmers are often at risk. Covenant farming contracts allow us to farm safely and on our own terms and across multiple AMMs simultaneously. Anyone can create, host or stake in Free and Locked setups without having to trust anyone.\n\nBuild a farming contract with multiple customizable setups. Covenants farming contracts can be extended and governed by a wallet, an automated contract, a DAO or a DFO.\n\nDesigned for Uniswap v3, these contracts enable secure farming and customizable price curves.\n\nThe contracts can be deployed instantly by using the front end at https://covenants.eth.link/#/farm/dapp\n\nProposal:\n\nTo initiate a farming schedule using Covenants to incentivize a UniV3 range decided on by the community. This would allow us to start the incentives right away without having to do extra coding and implementation work\n\n",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0x69eF61AFc3AA356e1ac97347119d75cBdAbEF534",
+      "totalVotes": 84,
+      "blockNumber": 13901348,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0x862578dcefee465dc462d99acf92788d05ef4b567dad07b5492d005da8f896d0",
+      "startTime": {
+        "timestamp": 1640800800
+      },
+      "endTime": {
+        "timestamp": 1640970000
+      },
+      "startTimestamp": 1640800800,
+      "endTimestamp": 1640970000,
+      "currentState": "closed",
+      "choices": [
+        "Implement UniV3 LP Incentives ",
+        "Do Nothing"
+      ],
+      "results": [
+        {
+          "total": 925805760.0,
+          "choice": 0
+        },
+        {
+          "total": 5488022.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 925805497.8999014,
+          "choice": 0
+        },
+        {
+          "total": 5488022.437989855,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2FzZGFvOnNuYXBzaG90OjB4YTdiZDYyNWVmNTg4YWMzODBmMTJhY2E0M2ZhNzgzNDM0NGYzOTgyOGE1MDBmY2Y0Mjc5ZWY4ODIyNjhkY2VhYQ==",
+      "id": "0xa7bd625ef588ac380f12aca43fa7834344f39828a500fcf4279ef882268dceaa",
+      "title": "# Heat Check: New Contributors $Gas Allocation and Vesting Plan",
+      "content": "Based on the GasDao roadmap, core contributor allocation reduced from 15% to 12% of the total supply, 6 month vest period.\nHowever, that's still 666,000,000 $GAS emission for contributors per day.\n\n1,000,000,000,000 GAS * 12% / (6 * 30) = 666,000,000 GAS\n\nThis kind of allocation may be fair for a startup in silicon valley, but it is definitely too much for a DAO.\n\nSo we propose as below:\nTotal $GAS allocation to the core contributor further reduced to 2% of the total supply, vesting period extends from 6 months to 24 months.\n10% of $GAS which is originally for core contributors needs to be burned.\n\nWe know this would be tough for the core contributors, and the only reason we as a community are asking this is that we want GasDao to really become the biggest and most divested DAO in Ethereal and WEB3.0.\n\nAppreciate what you have done and WAGMI!\n",
+      "protocol": "gasdao",
+      "adapter": "snapshot",
+      "proposer": "0xCDA290c181862e3D299AAf280c9fd647f98d4Ad6",
+      "totalVotes": 81,
+      "blockNumber": 13905051,
+      "externalUrl": "https://snapshot.org/#/gasdao.eth/proposal/0xa7bd625ef588ac380f12aca43fa7834344f39828a500fcf4279ef882268dceaa",
+      "startTime": {
+        "timestamp": 1640844000
+      },
+      "endTime": {
+        "timestamp": 1640930400
+      },
+      "startTimestamp": 1640844000,
+      "endTimestamp": 1640930400,
+      "currentState": "closed",
+      "choices": [
+        "Agree",
+        "Disagree"
+      ],
+      "results": [
+        {
+          "total": 2845686800.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2845686028.948451,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

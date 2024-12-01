@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bW9vZGJvYXJkZGFvOm9uY2hhaW46MHg1NDA4ZDA0NDJjMDRjNjUzZjdjYWFhMTA3ODI3ODgyMTdkNmJkZDQyNDFhNTdhOWU1YWZjMGY1OTYyODg5ZTg1",
+      "id": "0x5408d0442c04c653f7caaa10782788217d6bdd4241a57a9e5afc0f5962889e85",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-03-24",
+      "content": "![](https://i.imgur.com/HrQKZMG.png)\n\n## Summary\n\nThis proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.\n\n### Airdrop\n\nAbility for DAOs to assign minters and airdrop tokens.\n",
+      "protocol": "moodboardDao",
+      "adapter": "onchain",
+      "proposer": "0x9E6870952C5f7264AAC963bb6aFB1e0b97f63914",
+      "totalVotes": 0,
+      "blockNumber": 16898074,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1679755955
+      },
+      "endTime": {
+        "timestamp": 1680101555
+      },
+      "startTimestamp": 1679755955,
+      "endTimestamp": 1680101555,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16898074
+          },
+          "event": "pending",
+          "timestamp": 1679669555,
+          "txHash": "0x4c4b8876da9ecdf1e60b1b31ce4454787b5a240aa6b3f424079ab0e82953661a"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679669673217,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9vZGJvYXJkZGFvOm9uY2hhaW46MHg2ODliNjQ2NjdhYjU0YTljMjkzNWNjYWFjMjFhN2U4YmZkMDMwYjNjOTI3MWVjMWI2ZDM0ZjY4NzU0YmFlYzcy",
+      "id": "0x689b64667ab54a9c2935ccaac21a7e8bfd030b3c9271ec1b6d34f68754baec72",
+      "title": "Post deploy changes",
+      "content": "",
+      "protocol": "moodboardDao",
+      "adapter": "onchain",
+      "proposer": "0xd5e44b72e44E8Dff72f3C01E9256747f78688761",
+      "totalVotes": 1,
+      "blockNumber": 16494310,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1674862499
+      },
+      "endTime": {
+        "timestamp": 1675208099
+      },
+      "startTimestamp": 1674862499,
+      "endTimestamp": 1675208099,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16533695
+          },
+          "event": "queued",
+          "timestamp": 1675251203,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417473787,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,457 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6ZWR1bm91bnM6b25jaGFpbjoweGIzZDUzODM1ZWVmOTI0N2M0NmM3MTNlYzY5ZDQ0NTc4ODBkMzQyNTBlYTY0OTA1MDNmYmI0ZjJmYWMwZTMzNzA=",
+      "id": "0xb3d53835eef9247c46c713ec69d4457880d34250ea6490503fbb4f2fac0e3370",
+      "title": "Edu Nouns - cont. migration to L2",
+      "content": "Transfer of funds from the Edu Nouns (eth) treasury to the Edu Nouns (base) treasury.\n\nNext steps:\n* transfer 0.59335 ETH from Edu Nouns (eth) treasury to edunouns.eth wallet,\n* bridge 0.59335 ETH from eth to base\n* transfer 0.59335 ETH from edunouns.eth wallet to Edu Nouns (base) treasury - 0xde5eca844dd199ff0aa75e687071c5768d2e3d75",
+      "protocol": "eduNouns",
+      "adapter": "onchain",
+      "proposer": "0xE674a02341a0710FECB87B25DBC538cdA2648aDC",
+      "totalVotes": 2,
+      "blockNumber": 20592494,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1724603303
+      },
+      "endTime": {
+        "timestamp": 1724948903
+      },
+      "startTimestamp": 1724603303,
+      "endTimestamp": 1724948903,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 20.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20650451
+          },
+          "event": "executed",
+          "timestamp": 1725130199,
+          "txHash": "0x7eace9d7ada445590da34a449f61657938849ca2476d810ec67e592d4038cbf0"
+        },
+        {
+          "time": {
+            "blockNumber": 20635973
+          },
+          "event": "queued",
+          "timestamp": 1724955419,
+          "txHash": "0xda71a0c1bb26be02ba0786da3933e22532104ba66845512bd13b35a79418da59"
+        },
+        {
+          "time": {
+            "blockNumber": 20592494
+          },
+          "event": "pending",
+          "timestamp": 1724430503,
+          "txHash": "0xf9b8d8c0a3e81f645192aa180512939299e2c2416a5012f91c7fe2948a71a461"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 20.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1724430969943,
+      "txHash": "0xf9b8d8c0a3e81f645192aa180512939299e2c2416a5012f91c7fe2948a71a461",
+      "quorum": 6,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWR1bm91bnM6b25jaGFpbjoweGQ4MDI3ZmVlZjhkZGQyYjdlMDNiNGIwNGU5ODhmN2ZhMjU4MjVhNThjMzE4NDI3N2RkNzUxYzE2MzkxOTBlMWQ=",
+      "id": "0xd8027feef8ddd2b7e03b4b04e988f7fa25825a58c3184277dd751c1639190e1d",
+      "title": "Migration to L2 ",
+      "content": "Hi,\n\nWe propose to migrate Edu Nouns to the base chain.\n\nNext steps:\n* pause the auctions of the current NFT.\n* we will create a new collection on the base chain.\n* we will make aidrop NFT to all current holders (1:1).\n* we will transfer the funds accumulated in the vault to the vault on the base chain.\n\nUnfortunately, we do not have an automatic migration function provided and will make a manual migration to L2.",
+      "protocol": "eduNouns",
+      "adapter": "onchain",
+      "proposer": "0xE674a02341a0710FECB87B25DBC538cdA2648aDC",
+      "totalVotes": 3,
+      "blockNumber": 20318386,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1721297447
+      },
+      "endTime": {
+        "timestamp": 1721643047
+      },
+      "startTimestamp": 1721297447,
+      "endTimestamp": 1721643047,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 24.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20318386
+          },
+          "event": "pending",
+          "timestamp": 1721124647,
+          "txHash": "0x38560f4a6a1194a1375a23804f58014ce23df124380c5e69ff5a91b7c23c2c83"
+        },
+        {
+          "time": {
+            "blockNumber": 20403711
+          },
+          "event": "executed",
+          "timestamp": 1722153611,
+          "txHash": "0xd41861c4cbe696a3868e6d8ce2710920a074faaa35ad349e181a46068ed74642"
+        },
+        {
+          "time": {
+            "blockNumber": 20382952
+          },
+          "event": "queued",
+          "timestamp": 1721903123,
+          "txHash": "0xc2e41209bbdd57043cf394d7a6f14f0f5006be192cd3d6cf275356a59af615ec"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 24.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1721124884415,
+      "txHash": "0x38560f4a6a1194a1375a23804f58014ce23df124380c5e69ff5a91b7c23c2c83",
+      "quorum": 6,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWR1bm91bnM6b25jaGFpbjoweDRmMWI3ZDI3YjQ5MmI3NmIyZTZlNTE4NDYxY2ZmN2U3ZmFlNmQzNmJlNjEwMDkxMDU1NGZkNTM2Y2UwMTBjZDk=",
+      "id": "0x4f1b7d27b492b76b2e6e518461cff7e7fae6d36be6100910554fd536ce010cd9",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-02-18",
+      "content": " ",
+      "protocol": "eduNouns",
+      "adapter": "onchain",
+      "proposer": "0x893Ba288FB38Da59672C5a2aA8091639832e1153",
+      "totalVotes": 0,
+      "blockNumber": 20176644,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1719587099
+      },
+      "endTime": {
+        "timestamp": 1719932699
+      },
+      "startTimestamp": 1719587099,
+      "endTimestamp": 1719932699,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20182059
+          },
+          "event": "canceled",
+          "timestamp": 1719479651,
+          "txHash": "0x2850d624fb5ba33c7e15f7ae140f226e2342c6c4f8040f0d168c81885ddfbf09"
+        },
+        {
+          "time": {
+            "blockNumber": 20176644
+          },
+          "event": "pending",
+          "timestamp": 1719414299,
+          "txHash": "0xc33e8419678db2ff9e0ef45943689a35bff42fc6a7488ab8cba8ebbaa2000c70"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719414342636,
+      "txHash": "0xc33e8419678db2ff9e0ef45943689a35bff42fc6a7488ab8cba8ebbaa2000c70",
+      "quorum": 6,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWR1bm91bnM6b25jaGFpbjoweGQ0NTU5YzRkMGIwODE3YjhhNDM4MDk4N2JjNzNkZjY2YjRiY2Q2NTBjZWY5MWQyMjc5ZjVkMjZhOTQyN2MyYjY=",
+      "id": "0xd4559c4d0b0817b8a4380987bc73df66b4bcd650cef91d2279f5d26a9427c2b6",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-02-18",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.</p><p><br></p><h3>Airdrop</h3><p>Ability for DAOs to assign minters and airdrop tokens.</p>",
+      "protocol": "eduNouns",
+      "adapter": "onchain",
+      "proposer": "0xE674a02341a0710FECB87B25DBC538cdA2648aDC",
+      "totalVotes": 2,
+      "blockNumber": 16655786,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1676899355
+      },
+      "endTime": {
+        "timestamp": 1677244955
+      },
+      "startTimestamp": 1676899355,
+      "endTimestamp": 1677244955,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 12.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16704347
+          },
+          "event": "queued",
+          "timestamp": 1677316487,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16776193
+          },
+          "event": "executed",
+          "timestamp": 1678189307,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417397564,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWR1bm91bnM6b25jaGFpbjoweDc3NjA2ZWY1YzhmN2I2ZmRlZTk0ZTBiZDc5YzA0OWYwNGE1MjBlNWYyMDg1OGE4MDE0NThkMTY0YTVmYzRmNGU=",
+      "id": "0x77606ef5c8f7b6fdee94e0bd79c049f04a520e5f20858a801458d164a5fc4f4e",
+      "title": "New website",
+      "content": "<p>Project website:</p><p>https://edunouns.xyz</p><p>![](https://cheer-up.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd0445101-8cce-4fc2-8857-f9e479d6fc19%2FEduNouns.png?id=891a1da0-50b7-4f71-b2e2-781b1a43e5cd&amp;table=block&amp;spaceId=273a20a6-ed20-4dbf-a89b-e28aa3f2fbf1&amp;width=2000&amp;userId=&amp;cache=v2) </p>",
+      "protocol": "eduNouns",
+      "adapter": "onchain",
+      "proposer": "0x48eab89c643a7E45D3a1029003F90536b2598008",
+      "totalVotes": 2,
+      "blockNumber": 16576115,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1675849775
+      },
+      "endTime": {
+        "timestamp": 1676195375
+      },
+      "startTimestamp": 1675849775,
+      "endTimestamp": 1676195375,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 11.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16619271
+          },
+          "event": "queued",
+          "timestamp": 1676284475,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16635380
+          },
+          "event": "executed",
+          "timestamp": 1676479055,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417397564,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWR1bm91bnM6b25jaGFpbjoweDU0MDk2MmZlMmQ4MzVhODNlYzc2ZjY2YWY2YmNkMTUxMTJkZDk0MDkwYjViOWFkMjY4MWJhMjk1NjNmOTNiMmU=",
+      "id": "0x540962fe2d835a83ec76f66af6bcd15112dd94090b5b9ad2681ba29563f93b2e",
+      "title": "DAO voting",
+      "content": "<p>Proposal Threshold - 1%</p><p>Voting Period - 4 days</p><p>Voting Delay - 2 days</p>",
+      "protocol": "eduNouns",
+      "adapter": "onchain",
+      "proposer": "0xE674a02341a0710FECB87B25DBC538cdA2648aDC",
+      "totalVotes": 3,
+      "blockNumber": 16227409,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671643811
+      },
+      "endTime": {
+        "timestamp": 1671989411
+      },
+      "startTimestamp": 1671643811,
+      "endTimestamp": 1671989411,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16619298
+          },
+          "event": "queued",
+          "timestamp": 1676284799,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16655779
+          },
+          "event": "executed",
+          "timestamp": 1676726471,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417397564,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWR1bm91bnM6b25jaGFpbjoweDM4ZjQ3MDRkMWMyN2RjZDg0Y2Q2YmM2ZWY1ZjRjZDExOTVkZWEwYzRlYmY1MDFjZGUzYmY3YjE4YjQ5ZTRkZWI=",
+      "id": "0x38f4704d1c27dcd84cd6bc6ef5f4cd1195dea0c4ebf501cde3bf7b18b49e4deb",
+      "title": "DAO Upgrade V1_1",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "eduNouns",
+      "adapter": "onchain",
+      "proposer": "0xd1d1D4e36117aB794ec5d4c78cBD3a8904E691D0",
+      "totalVotes": 1,
+      "blockNumber": 16208323,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671413639
+      },
+      "endTime": {
+        "timestamp": 1671759239
+      },
+      "startTimestamp": 1671413639,
+      "endTimestamp": 1671759239,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16619305
+          },
+          "event": "queued",
+          "timestamp": 1676284883,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16655774
+          },
+          "event": "executed",
+          "timestamp": 1676726411,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417397564,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

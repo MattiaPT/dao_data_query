@@ -1,0 +1,4616 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg0ZjQ1NDFjNzE2YzM0MDEzN2VkZDA3OWNjODNiNzc3NTQxZDkwOGFmOThjOWQ3YjdiZmM5NzgxZjU5MGUxNjFj",
+      "id": "0x4f4541c716c340137edd079cc83b777541d908af98c9d7b7bfc9781f590e161c",
+      "title": "Fugu's compensation for Polygon Grant organization",
+      "content": "As you know it, we have various clients that are coming from Polygon grants.\nIn the last months, 14 Polygon projects have been completed, and 15 are being processed (total value: about $170k).\n\nFugu initiated the contact and closed the deal with Polygon grants.\nHe spent lot of time and energy in it, but was not compensated for the work he produced.\nThat includes:\n- the business deal, \n- the Polygon management (he does monthly calls + emergency calls + chatting in the telegram group + all the admin stuff for us to get paid, including being KYCed with them) \n- the new clients welcoming (contacting + introducing CRE8R to the new client, which was not always simple)\n\nAs a reminder, Sales used to be paid 10% of the total budget (minus DAO fees) in normal bundles.\nFugu did not introduce \"sales fees\" in this Polygon budget because it would have reduced too much the available budget to actually produce content.\nBut doing the same maths would lead to a $10,8k bonus:\n(170k revenu - 17k DAO fee)*10% = 15,3k\nThis is just for the sales.\nIt does not include all the weekly work done by Fugu.\n\nI think it would be fair to compensate Fugu for all the work previously done.\nWhen I asked him if he was compensated for that work (and realised he was not) he told me he would not ask the normal amount but would appreciate a 2-3k reward for all the past work + sales.\n\nAs this proposal applies to former work, the compensation amount would be taken from the DAO treasury.\nThe DAO has more than the necessary funds so it would not be a problem.\n\nI invite you to vote for the compensation you think fair, keeping in mind how strategic this deal was for the DAO in a bear market.\n$0: refused\n$1k: lower than asked\n$2k: low level asked\n$3k: high level asked\n$4k: more than asked\n\nWe will consider the average of the votes as the compensation that will be sent to Fugu (a%*0 + b%*1 + c%*2 + d%*3 + e%*4)/(a+b+c+d+e)\n\nNote: The Project Manager will work separetely on an organization for the future Polygon projects to see how the work of Fugu can be compensated in a sustainable way, without needing any future vote for additional compensation.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x110f0b1FAa1cB6EEd49883f960808C95F609f6fd",
+      "totalVotes": 0,
+      "blockNumber": 16235500,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x4f4541c716c340137edd079cc83b777541d908af98c9d7b7bfc9781f590e161c",
+      "startTime": {
+        "timestamp": 1671654986
+      },
+      "endTime": {
+        "timestamp": 1672484400
+      },
+      "startTimestamp": 1671654986,
+      "endTimestamp": 1672484400,
+      "currentState": "closed",
+      "choices": [
+        "$0 - rejected",
+        "$1000 - lower than asked",
+        "$2000 - low level asked",
+        "$3000 - high level asked",
+        "$4000 - higher than asked"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 9596.109787710571,
+          "choice": 2
+        },
+        {
+          "total": 2771194.329217305,
+          "choice": 3
+        },
+        {
+          "total": 672885.503116075,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhmMGRiNGJjNTY3MWYzOWVjNDQ5YzQ3OTJhMWM2YmZmMGZjM2YwNWM2MDJiYmQyMWU5ODA1MGM2ZDMwZTllZWJj",
+      "id": "0xf0db4bc5671f39ec449c4792a1c6bff0fc3f05c602bbd21e98050c6d30e9eebc",
+      "title": "Beef up the Balancer Pool on Arbitrum",
+      "content": "Add 15 ETH & matching CRE8R (80/20) to the CRE8R/ETH pool on Arbitrum\n ( https://app.balancer.fi/#/arbitrum/pool/0xe1b40094f1446722c424c598ac412d590e0b3ffb000200000000000000000076\n )\n\nGives more choice for creators who want to exit on Arbitrum instead of Fantom. \n\nWe also have a gauge on Balancer so there may be some $BAL to be earned if we get votes. \n\nThere is 30ETH sitting in the Arbitrum Multsig. This proposal uses half of that. \n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 16135542,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xf0db4bc5671f39ec449c4792a1c6bff0fc3f05c602bbd21e98050c6d30e9eebc",
+      "startTime": {
+        "timestamp": 1670181587
+      },
+      "endTime": {
+        "timestamp": 1670440787
+      },
+      "startTimestamp": 1670181587,
+      "endTimestamp": 1670440787,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg4NjZiNzdkYmM0NDc1NjRhZmM1MzYzYWQzNmM1NzU2OTRlYzk1OWUzY2M1YzY4OGMzODBjMDY1YjkyZmE1YTJi",
+      "id": "0x866b77dbc447564afc5363ad36c575694ec959e3cc5c688c380c065b92fa5a2b",
+      "title": "Beef up the Balancer Pool on Arbitrum",
+      "content": "Add 15 ETH & matching CRE8R (80/20) to the CRE8R/ETH pool on Arbitrum\n ( https://app.balancer.fi/#/arbitrum/pool/0xe1b40094f1446722c424c598ac412d590e0b3ffb000200000000000000000076\n )\n\nGives more choice for creators who want to exit on Arbitrum instead of Fantom. \n\nWe also have a gauge on Balancer so there may be some $BAL to be earned if we get votes. \n\nThere is 30ETH sitting in the Arbitrum Multsig. This proposal uses half of that. \n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 16113506,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x866b77dbc447564afc5363ad36c575694ec959e3cc5c688c380c065b92fa5a2b",
+      "startTime": {
+        "timestamp": 1670181587
+      },
+      "endTime": {
+        "timestamp": 1670440787
+      },
+      "startTimestamp": 1670181587,
+      "endTimestamp": 1670440787,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 282082.252431525,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg5ZmNiZmFiMGU2ZjJjNTY0Yjc0NmFlY2UzMDgyN2JiZGI2NjA5Yjg0NThmZDM5YzM5OTI1NWZlYTQ2ZTc2MGQy",
+      "id": "0x9fcbfab0e6f2c564b746aece30827bbdb6609b8458fd39c399255fea46e760d2",
+      "title": "CRE8R YOLO BuyBacks",
+      "content": "Recently CRE8R DAO has voted for the 20% of the DAO’s take on revenue to be used to buy back CRE8R from the market. I personally think this is not enough to be truly meaningful. So I proposed an idea for discussion here. \n\nhttps://discord.com/channels/860395547567587328/1029916544442056734/1039939990592962580\n\nIt’s really quite simple TBH. Take ALL the income from a client and use it ALL to buy back CRE8R (laddered in--not a single green candle) and then pay all content creators in CRE8R. Campaign budgets will no longer be considered in USD for payment, rather in a portion of the bought tokens that that USD were able to buy will be divided between the content creators. \n\nHere is an image \n![image](ipfs://bafkreigloun32kvbcfmjmirapjm3nsfmwoh5pivgpmauj37s6incyi7cfe)\n    \n\nPeople that don’t want anything to do with CRE8R token, can sell right back into the pool. However, this model will grant some creators the opportunity to hodl a token, knowing that there will be steady buying pressure for that token. \n\nThere should be a few adjustments. \n\nFirst off all because there is a small amount of loss in USD value, from trading fees, and slippage. We can vote to reduce the DAO’s take from 20% to several lower amounts. You will see them below expressed as a “DAO 15%” which means the DAO now takes only 15% of the total bought tokens. These tokens can be used for internal work, grants, emissions on the pool or such. And this number can be easily changed in the future via another governance proposal.\n\nI strongly believe that there needs to be NO MORE inflation of the token for this to work well. So voting FOR this in any way also is voting FOR locking the remaining tokens in the treasury in a time lock contract. I suggest we try 6 months for now. For simplicity sake, variants on this time lock will not be voted on here. Rather a follow up vote will take place to consider how long this time lock should be for.\n\nTo judge if this YOLO buy back passes, we will compare ALL the FOR votes, versus the NO to see if we will do the buyback.. Then, if the FORs are in majority, we will compare the FOR votes to see how much the DAO will keep.\n\nI strongly believe, and have since we birthed the CRE8R token, that we need to align the project with the governance token of the DAO. The token, as it currently is, has very little utility, and I think this is the best, and simplest way to achieve these goals.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0xA67D2c03c3cfe6177a60cAed0a4cfDA7C7a563e0",
+      "totalVotes": 0,
+      "blockNumber": 16014827,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x9fcbfab0e6f2c564b746aece30827bbdb6609b8458fd39c399255fea46e760d2",
+      "startTime": {
+        "timestamp": 1668990798
+      },
+      "endTime": {
+        "timestamp": 1669489200
+      },
+      "startTimestamp": 1668990798,
+      "endTimestamp": 1669489200,
+      "currentState": "closed",
+      "choices": [
+        "FOR - DAO 20%",
+        "FOR - DAO 15%",
+        "FOR - DAO 10%",
+        "FOR - DAO 5 %",
+        "NO - Keep paying USDC"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6296381.111501682,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 7011960.572598293,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 3923955.8295181794,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg5Nzg1NWIxNGQxMzEyYjI2YzY4ZDQ3ZTllOWYwNzIxZDU5MWUzYWY3OWZkMDFlNDgxZmM2MmQ4MmYyZGY2ZDlk",
+      "id": "0x97855b14d1312b26c68d47e9e9f0721d591e3af79fd01e481fc62d82f2df6d9d",
+      "title": "test",
+      "content": "need to check ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 15993196,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x97855b14d1312b26c68d47e9e9f0721d591e3af79fd01e481fc62d82f2df6d9d",
+      "startTime": {
+        "timestamp": 1668729887
+      },
+      "endTime": {
+        "timestamp": 1668989087
+      },
+      "startTimestamp": 1668729887,
+      "endTimestamp": 1668989087,
+      "currentState": "closed",
+      "choices": [
+        "y",
+        "n"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4073799.639480561,
+          "choice": 0
+        },
+        {
+          "total": 280046.1757014306,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhkYjRlODhmMjkzMDY2NTQzMTE2NDE0YjIwZDlmZTY5NThiYWM1ODZjMjE1ZDlkOWM4NmY0N2FmYjFhNDM0ZGQz",
+      "id": "0xdb4e88f293066543116414b20d9fe6958bac586c215d9d9c86f47afb1a434dd3",
+      "title": "test",
+      "content": "",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 15993076,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xdb4e88f293066543116414b20d9fe6958bac586c215d9d9c86f47afb1a434dd3",
+      "startTime": {
+        "timestamp": 1668728423
+      },
+      "endTime": {
+        "timestamp": 1668987623
+      },
+      "startTimestamp": 1668728423,
+      "endTimestamp": 1668987623,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 49921.42433259344,
+          "choice": 0
+        },
+        {
+          "total": 20212.15015293499,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgyNTIxMGMwMTRmZDdhOTkzZDFkNTU3ODU4MTc3YWUzNjY5NDE4NmU2OGEyNjkyZmNiMjE4ZDc2MTEwZjk1YzFj",
+      "id": "0x25210c014fd7a993d1d557858177ae36694186e68a2692fcb218d76110f95c1c",
+      "title": "CRE8R Tokenomics Upgrade Proposal 1: Buybacks",
+      "content": "\n\nThis is the first in a series of proposals relating to the upgrade of CRE8R DAO tokenomics.\n\nThankyou to everyone who has given feedback and engaged in productive discussion around a range of topics related to buybacks, revenue sharing, F100 NFT and generally aligning incentives between the various participants in our ecosystem.\n\nThis document gives a more detailed outline of the issues being discussed.\n\nhttps://docs.google.com/document/d/1WY92wYniBvN9et7LTNLRDFTNVu8QocHwPAP-xfY9BpU/edit?usp=sharing\n\nEach proposal in this series will be simple, straight forward and short.\n\nProposal #1 - Buybacks\n\nUse 50% of all new DAO revenue to preform buybacks of the $CRE8R token.\n\nThis policy is intended as a short term measure (3-6 months) and is updateable via governance.\n\nTokens bought back will be held in treasury for future use, not burned.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 15858026,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x25210c014fd7a993d1d557858177ae36694186e68a2692fcb218d76110f95c1c",
+      "startTime": {
+        "timestamp": 1667098610
+      },
+      "endTime": {
+        "timestamp": 1667357810
+      },
+      "startTimestamp": 1667098610,
+      "endTimestamp": 1667357810,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 728637.9440619047,
+          "choice": 0
+        },
+        {
+          "total": 20212.15015293499,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg0MzdmNGJjMzRmYTAyYjY2OWMzMTFlMWE1NDkyMzNkMDJlZDc5NTcxYjYxMjRkZGM4ZTk4NTg4NWRjODkwMWYx",
+      "id": "0x437f4bc34fa02b669c311e1a549233d02ed79571b6124ddc8e985885dc8901f1",
+      "title": "CRE8R Tokenomics Upgrade Proposal 1: Buybacks",
+      "content": "\n\nThis is the first in a series of proposals relating to the upgrade of CRE8R DAO tokenomics.\n\nThankyou to everyone who has given feedback and engaged in productive discussion around a range of topics related to buybacks, revenue sharing, F100 NFT and generally aligning incentives between the various participants in our ecosystem.\n\nThis document gives a more detailed outline of the issues being discussed.\n\nhttps://docs.google.com/document/d/1WY92wYniBvN9et7LTNLRDFTNVu8QocHwPAP-xfY9BpU/edit?usp=sharing\n\nEach proposal in this series will be simple, straight forward and short.\n\nProposal #1 - Buybacks\n\nUse 50% of all new DAO revenue to preform buybacks of the $CRE8R token.\n\nThis policy is intended as a short term measure (3-6 months) and is updateable via governance.\n\nTokens bought back will be held in treasury for future use, not burned.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 15858005,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x437f4bc34fa02b669c311e1a549233d02ed79571b6124ddc8e985885dc8901f1",
+      "startTime": {
+        "timestamp": 1667098358
+      },
+      "endTime": {
+        "timestamp": 1667357558
+      },
+      "startTimestamp": 1667098358,
+      "endTimestamp": 1667357558,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgxNmFiMGEyYmZkYjdkMzRjNmY5MTFhZmJjM2U3NDk1ZjFjNjNjZjg1NjhhY2E5YWJhYTZiOGU4ODk1NzhmYjIw",
+      "id": "0x16ab0a2bfdb7d34c6f911afbc3e7495f1c63cf8568aca9abaa6b8e889578fb20",
+      "title": "CRE8R Tokenomics Upgrate Proposal 1: Buybacks",
+      "content": "This is the first in a series of proposals relating to the upgrade of CRE8R DAO tokenomics.\n\nThankyou to everyone who has given feedback and engaged in productive discussion around a range of topics related to buybacks, revenue sharing, F100 NFT and generally aligning incentives between the various participants in our ecosystem. \n\nThis document gives a more detailed outline of the issues being discussed. \n\nhttps://docs.google.com/document/d/1WY92wYniBvN9et7LTNLRDFTNVu8QocHwPAP-xfY9BpU/edit?usp=sharing\n\nEach proposal in this series will be simple, straight forward and short. \n\nProposal #1 - Buybacks\n\nUse 50% of all new DAO revenue to preform buybacks of the $CRE8R token. \n\nThis policy is intended as a short term measure (3-6 months) and is updateable via governance. \n\nTokens bought back will be held in treasury for future use, not burned. ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 15715040,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x16ab0a2bfdb7d34c6f911afbc3e7495f1c63cf8568aca9abaa6b8e889578fb20",
+      "startTime": {
+        "timestamp": 1665370850
+      },
+      "endTime": {
+        "timestamp": 1665968400
+      },
+      "startTimestamp": 1665370850,
+      "endTimestamp": 1665968400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4914752.266224565,
+          "choice": 0
+        },
+        {
+          "total": 569584.7448708505,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgzZGM1MWY0N2I2ODk5ZWYzMWI4MGY4YTM4NTQyMDY1MTk4NDQzNTE2ODRjOTliYWFkMzg5MzliODVmYTQyMWEz",
+      "id": "0x3dc51f47b6899ef31b80f8a3854206519844351684c99baad38939b85fa421a3",
+      "title": "AmpliFi Proposal [Reloaded] Now with F100 NFT voting. A video & much more!!",
+      "content": "\nSupplementary Video with more details and explanation of timeline: https://youtu.be/bZ4NCKmqdjM\n\nThe request below represent what it will take to make AmpliFi a major source of new clients, creators, network, and revenue for CRE8R DAO.\n\nPlease note:\n\nTotal budget request:\n\nMax 75k over 3 months for dev + 50k For 2 months of CRE8R standard package + 50k AmpliFi campaign Budget across 2x campaigns to promote AmpliFi it'self + supplementing any client campaign budget if needed.\n\nTotal: 175k USD worth of $CRE8R.\n\nthat the proposed dev budget is a MAX budget for up to 3 months of dev work and related work to make sure AmpliFi does what it needs to do and is functional and usable for real campaigns in a timely manner.\n-The CRE8R DAO campaigns budget is available to all our DAO members to bring to life at least two month long CRE8R DAO campaign to help AmpliFi reach our goals (more clients, bigger campaign budgets, extra revenue streams for CRE8Rs etc etc)\n\n-The AmpliFi campaign budgets are designed to demonstrate what a modest incentive campaign can do to kickstart a new project (in this case that project is AmpliFi). Creators will of course also be able to share in this budget ON TOP of what they earn for creating content for AmpliFi campaigns both for CRE8R DAO AND for AmpliFi Client Campaigns.\n\nRequesting: Max 25k USD worth of $CRE8R per month for 3-6 months of dev budget.\nMax total For First 3 months: $75k USD in $CRE8R over 3 months.\n\nThis will be used to pay devs & any other needed services to build out:\n\n-System for adding CRE8R DAO content to AmpliFi using CRE8R CMS!!\n-A campaign using AmpliFi to market Amplifi & attract AmpliFi users.\n-System for tracking and displaying data about onchain & offchain KPIs for AmpliFi campaigns (see https://boosted-bribes.cre8r.vip/ as an example of us already doing this is some basic form).\n-System for Handling AmpliFi payouts (this is also applicable to bribe payouts).\n-Setup for Hundred finance AmpliFi campaign & any other campaigns that\nrequire setup over the next 3 months.\n\nRequesting: 50k USD worth of $CRE8R for CRE8R DAO AmpliFi campaign\n\nThis will be used to pay creators for 2x our standard $25k package to create content and marketing materials around AmpliFi.\n\nb1407012649a262100fb6a1686039dbe8824e364.jpeg\n\nRequesting 50kUSD worth of $CRE8R as AmpliFi budget Across two AmpliFi Campaigns:\nCampaign 1: (Targeting DAO's/Protocols as potential AmpliFi Clients).\n\n-to payout to AmpliFi users for the AmpliFi Campaign to promote AmpliFi to DAO's / Protocols.\n\n-The KPI for this campaign will be offchain. We will be giving AmpliFi users unique links to a landing page about AmpliFi where potential clients can book a call.\n\nROI: If we get 2 clients from this it pays for itself. If we get 4 clients its 100% ROI.\n\nPayout Date: Referrers are paid only IF and WHEN protocols sign up via their referral links (or they can prove that the client came from their bizdev work.\n\nExact Budget TBD\n\nCampaign 2:\n\nTargeting publications, influencers, content creators, to become referrers for AmpliFi campaigns.\n\nThe KPI for this campaign will be measured by AmpliFi referrers who connect their twitter account / wallet address & send out referral links on AmpliFi campaigns for CRE8R DAO clients. So the KPIs become a function of the client campaign KPIs.\n\nPayout Date / Criteria:\n\nPayout would be prorata after the first 5 AmpliFi client AmpliFi campaigns are completed.\n\nExact Budget TBD (probably 80% of 50k USD total AmpliFi Campaign budget).\n\nNote some of this total budget of 50k could also be used to supplement clients AmpliFi budget. ie Aave offers 100k USD in $AAVE so we supplement with 10k USD in CRE8R for example.\n\nLinks:\nBoosted Bribes: https://boosted-bribes.cre8r.vip/\nAmpliFi: https://amplifi.cre8r.vip/\n\nDiscourse Discussion: https://discourse.cre8r.vip/t/cre8r-amplifi-vision-budget-request/110\n\nDiscord discussion: https://discord.com/channels/860395547567587328/968683985062494228",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 14809522,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x3dc51f47b6899ef31b80f8a3854206519844351684c99baad38939b85fa421a3",
+      "startTime": {
+        "timestamp": 1653027932
+      },
+      "endTime": {
+        "timestamp": 1653287132
+      },
+      "startTimestamp": 1653027932,
+      "endTimestamp": 1653287132,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO!!!!",
+        "Yes But w/ 50% budget decrease "
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 404048.3086571199,
+          "choice": 0
+        },
+        {
+          "total": 143996.170154241,
+          "choice": 1
+        },
+        {
+          "total": 44893.49541097728,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhjNjFmZWQwMTc2YzM4MjEwNzM1MTIwOGJhYTJjNjc0OGUzZGU1NjA4OGUyMWVhYmU1ZjJlZjQwZjk5ZDZjMGVl",
+      "id": "0xc61fed0176c382107351208baa2c6748e3de56088e21eabe5f2ef40f99d6c0ee",
+      "title": "How to handle CRE8R in bbMINOR (stablecoin+CRE8R) in next Beets voting round",
+      "content": "https://beets.fi/#/pool/0x8c63702d4d4a521a6a8ecec8ab8f7ce9d1d6299e000200000000000000000443\n\nCRE8R In F-Major: https://beets.fi/#/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140\n\nThe plan is to offer uncapped bribes & payout according to Boosted Bribes system: https://cre8r.vip/boosted-bribes/\n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 14741700,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xc61fed0176c382107351208baa2c6748e3de56088e21eabe5f2ef40f99d6c0ee",
+      "startTime": {
+        "timestamp": 1652089680
+      },
+      "endTime": {
+        "timestamp": 1652348880
+      },
+      "startTimestamp": 1652089680,
+      "endTimestamp": 1652348880,
+      "currentState": "closed",
+      "choices": [
+        "Unlimited bribes on both pools",
+        "Unlimited bribes on bbMINOR only",
+        "Unlimited bribes on F-Major only"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 76423.3755814326,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 308393.1406485288,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhiZmRhYjVmZDEwZjUyYTcyY2I4MzMyMGE4ZTRmMjI5NzFjZTk5OWI0NzBlYzA2MDRjYjA1ZDEyOThkOTRjYTMx",
+      "id": "0xbfdab5fd10f52a72cb83320a8e4f22971ce999b470ec0604cb05d1298d94ca31",
+      "title": "Salary for Full-Timers",
+      "content": "Currently there are 3 people in the DAO who are working at least 15hrs a week (often more) on tasks that do not fit into the current payment categories.\n\nThose people are:\n► Dunks\n► Ceazor\n► Fugu\n\nWe have methods that so far have been working well for paying bonuses for making sales, for content creation, and for being a PM. Everything else however, does not have a proper system. Making a proper and fair system is the purpose of this snapshot.\n\nWhile it has been tried, Coordinape simply doesn't work for this, especially because there are not enough peers who know about the full-scope of the work being done to fairly reward it by giving points.\n\nAlthough 3 DAO members were mentioned above, their positions are by no means permanent. If they stop doing their duties, payment will be cut or stopped. If others step up and begin to take on a similar level of responsibility, they will be added. \n\nSIX MONTHS from the end of this snapshot, the activities of the DAO members concerned will be reviewed and the salary amount will go up for vote again by the F100 (can be increased/reduced in the vote)\n\nBelow is a partial list of the current responsibilities carried out by each of the 3 DAO members mentioned above:\n\nDunks\n►Building https://amplifi.cre8r.vip/, running sales, dev, etc for that. \n►Bribes\n►Partnerships\n►Integrations\n►Managing website & Twitter (and he does A LOT of shitposting 😂)\n►F100 NFTs\n+ more\n\nCeazor\n► Disperse all payouts\n► Setup and Manage F100 Streams\n► Manage Treasury Farms\n► Rake back / buyback CRE8R from bribes\n► Monitor the Beets Farm\n► Work with dunks to manage the bribes\n► Outreach with protocols to setup partnerships for CRE8R token\n► Generally promote CRE8RDAO\n► Select high quality creators to onboard\n+ more\n\nFugu:\n► Daily Fish 🐡\n► Weekly Meeting host\n► keeping track of dao financials\n► making sure all payments go out on time and DAO sticks to schedule\n► Managing Twitter North America shift\n► onboarding new CRE8Rs, including 1 on 1 phone calls\n► playing \"bad cop\" (aka. offboarding 🤣 )\n► dealing with grievances \n► dao tweaks and proposals\n► Damage control (make up for financial losses in the past)\n► Going to conferences and representing CRE8R 🙂\n+ more\n\nFor this proposal, several options for monthly payment are given. Choose the one that you believe is most appropriate considering the above. The minimum amount on the snapshot is the absolute minimum we are prepared to do accept for the above tasks.\n\nNOTE:  Each F100 member has one vote.  Snapshot is currently set to give all F100 holder equal voting power. This does not take into account CRE8R token held anywhere.\n\nAlso this I going to be paid out in CRE8R",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 12,
+      "blockNumber": 14596991,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xbfdab5fd10f52a72cb83320a8e4f22971ce999b470ec0604cb05d1298d94ca31",
+      "startTime": {
+        "timestamp": 1650121262
+      },
+      "endTime": {
+        "timestamp": 1650686400
+      },
+      "startTimestamp": 1650121262,
+      "endTimestamp": 1650686400,
+      "currentState": "closed",
+      "choices": [
+        "$3000 in CRE8R",
+        "$3500 in CRE8R",
+        "$4000 in CRE8R",
+        "$4500 in CRE8R",
+        "$5000 in CRE8R"
+      ],
+      "results": [
+        {
+          "total": 744000.0,
+          "choice": 4
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 744000.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgwYTQ0NjkzMjhmNTdlN2IzMjZkMjM5YmI4ZjZjOTEyMzRmZjEwNWExZjdlNzlmYTU4MWY4Njk3NGJkYTI3OTAx",
+      "id": "0x0a4469328f57e7b326d239bb8f6c91234ff105a1f7e79fa581f86974bda27901",
+      "title": "Pikachu for F100",
+      "content": "The case for Pikachu to get F100:\n► close to the required amount of $$$ earned anyways\n► participates a lot in the DAO on top of content creation\n► great artist\n► the lolz\n\n![pikachu artist.png](ipfs://QmYXL6hoPdd7gyHrmdx1bKQui5gArHUKrpz4msFMnUmJZF)\n\nHow can you refuse this guy? 👆",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 12,
+      "blockNumber": 14558363,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x0a4469328f57e7b326d239bb8f6c91234ff105a1f7e79fa581f86974bda27901",
+      "startTime": {
+        "timestamp": 1649599777
+      },
+      "endTime": {
+        "timestamp": 1649858977
+      },
+      "startTimestamp": 1649599777,
+      "endTimestamp": 1649858977,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 744000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 744000.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgyN2EwNjY5NmQyMTgyOTc1MDk3Y2Y3M2I2MTEwYWNiNDg1YWZkNzQ4OTNmYzg3NWMyMTM3N2IxZjg2Y2Y5NmY5",
+      "id": "0x27a06696d2182975097cf73b6110acb485afd74893fc875c21377b1f86cf96f9",
+      "title": "Fiery Dev for F100",
+      "content": "Fiery Dev ( https://twitter.com/dev_enjoys )\n\nHas been a very good friend to CRE8R DAO over the last couple of months.\n\n-Voted up our Gauges on SpiritSwap at first for free and then at very reasonable bribe with great terms \n-Did a OTC with us for CRE8R <> BOMB and put votes on the Solidly gauges for that (we didn't bribe for that) which allowed us to farm a ton of SOLID tokens etc\n-Introduced some awesome people to the DAO that became creators!\n-Introduced us to several protocols where we now have vaults etc for $CRE8R!\n\nBut most of all he has been a very good advisor to our multisig about potential partnerships & bribe, arbitrage related stuff. His experience and understand of the space and willingness to help us are very much appreciated & giving the F100 is one way we can say thankyou. \n\nPlus we trust that he will vote on proposals in a way that is good for the DAO. \n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 10,
+      "blockNumber": 14513099,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x27a06696d2182975097cf73b6110acb485afd74893fc875c21377b1f86cf96f9",
+      "startTime": {
+        "timestamp": 1648988926
+      },
+      "endTime": {
+        "timestamp": 1649248126
+      },
+      "startTimestamp": 1648988926,
+      "endTimestamp": 1649248126,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 620000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 620000.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg2MGEyMzE1MTNmNWFkZTU2ZjIzYjE5NDgwOGU4YjZlMDA4YzE1YzRkZGI5YmE3MTgyMjk0YzcxOWZkYTIxZjIz",
+      "id": "0x60a231513f5ade56f23b194808e8b6e008c15c4ddb9ba7182294c719fda21f23",
+      "title": "Burn $CRE8R 🔥",
+      "content": "Only about 5% of total CRE8R is circulating. The rest is just chilling in Multisig wallets on Fantom Ethereum & Polygon. \n\nWe will be needing CRE8R for things like liquidity mining incentives, treasury swaps, internal work payments, bonuses to add to stablecoin  payments for work on campaigns etc etc.\n\nBut there is plenty available for all of this and room to burn some too?\n\nWhy burn?\n\n-Burning $CRE8R is good for all CRE8R holders, & those who have \n multisig & Founding 100 vesting as they have a larger % of the total supply. \n-The sooner we burn the better since we have not done any deals that give out massive amounts of CRE8R to any entity - which would give an even larger % of total supply after burn\n-Burning can bring the total supply down to to a more manageable & realistic number. ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 15,
+      "blockNumber": 14462168,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x60a231513f5ade56f23b194808e8b6e008c15c4ddb9ba7182294c719fda21f23",
+      "startTime": {
+        "timestamp": 1648302921
+      },
+      "endTime": {
+        "timestamp": 1648774800
+      },
+      "startTimestamp": 1648302921,
+      "endTimestamp": 1648774800,
+      "currentState": "closed",
+      "choices": [
+        "0%",
+        "10%",
+        "20%",
+        "30%",
+        "40%",
+        "50%",
+        "60%"
+      ],
+      "results": [
+        {
+          "total": 186000.0,
+          "choice": 3
+        },
+        {
+          "total": 124000.0,
+          "choice": 5
+        },
+        {
+          "total": 372000.0,
+          "choice": 4
+        },
+        {
+          "total": 248000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 248000.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 186000.0,
+          "choice": 3
+        },
+        {
+          "total": 372000.0,
+          "choice": 4
+        },
+        {
+          "total": 124000.0,
+          "choice": 5
+        },
+        {
+          "total": 0.0,
+          "choice": 6
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhhZGIwZTY5YWIwMmFjMjk2NTE3NjE4NTMyN2FkYTk3N2E5MTg2ZTJlYjc1ODJlOWZiMGVjMWQ5MzQ4MTA2NDdl",
+      "id": "0xadb0e69ab02ac2965176185327ada977a9186e2eb7582e9fb0ec1d934810647e",
+      "title": "Burn per Client?",
+      "content": "In the last meeting, Ceazor brought up an idea about burning tokens for the signing of every client as has been discussed with various people. \n\nRemember, we don't have to use the name \"burn\" we can try some other naming like \"building the foundation\" \n\nCRE8R tokens will be sent to the CRE8R token contract and will be irretrievable \n\n🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱\n\nShould we burn token each time a client pays us for a contract, and if so how many?",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 11,
+      "blockNumber": 14462174,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xadb0e69ab02ac2965176185327ada977a9186e2eb7582e9fb0ec1d934810647e",
+      "startTime": {
+        "timestamp": 1648302652
+      },
+      "endTime": {
+        "timestamp": 1648699200
+      },
+      "startTimestamp": 1648302652,
+      "endTimestamp": 1648699200,
+      "currentState": "closed",
+      "choices": [
+        "No burn",
+        "888",
+        "8,888",
+        "88,888",
+        "0.08"
+      ],
+      "results": [
+        {
+          "total": 558000.0,
+          "choice": 3
+        },
+        {
+          "total": 62000.0,
+          "choice": 0
+        },
+        {
+          "total": 62000.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 62000.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 62000.0,
+          "choice": 2
+        },
+        {
+          "total": 558000.0,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhmMGMyYTI4MjFmN2EwYzY3OGVjM2JhYTUzMTYyNjFjYWI4NWRiY2ZlYTJmOTM5N2FkOGNhODI4NGQwZGEzYWJj",
+      "id": "0xf0c2a2821f7a0c678ec3baa5316261cab85dbcfea2f9397ad8ca8284d0da3abc",
+      "title": "CRE8R Gauge 2 (April 2022)",
+      "content": "According to the snapshot we have a budget of 100,000 CRE8R tokens to allocate to the following metrics. \n\nAdd to the Beet’s farm - This will enlengthen the time we have rewards but not affect the APY. If we want to adjust the APY, we can put a new snapshot for this.\n\nAdd to POL on Spirit - This will cause us to sell half of this allocation to FTM and put the rest of CRE8R with the FTM into the LP. \n\nAllocate to InternalWork - These allocation will be given to the Coordinape Circle for ALL internal work - This is likely important.\n\nSpecial Grant (2390-CRE8R in pool now)- Are to be used for any sort of marketing, such as paying for campaigns for projects that we think should gain our support. Another snapshot MUST be produced to allocate this pool of funds to those projects. \n\nBurn them forever -  These tokens will be sent to the CRE8R Token contract and lost forever.\n\nClients section has been removed. \n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 12,
+      "blockNumber": 14443692,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xf0c2a2821f7a0c678ec3baa5316261cab85dbcfea2f9397ad8ca8284d0da3abc",
+      "startTime": {
+        "timestamp": 1648054037
+      },
+      "endTime": {
+        "timestamp": 1648526400
+      },
+      "startTimestamp": 1648054037,
+      "endTimestamp": 1648526400,
+      "currentState": "closed",
+      "choices": [
+        "Beets farm",
+        "POL on SPIRITSwap",
+        "Internal Work",
+        "Special Grant Pool",
+        "Burn them"
+      ],
+      "results": [
+        {
+          "total": 124000.0,
+          "choice": 19
+        },
+        {
+          "total": 62000.0,
+          "choice": 29
+        },
+        {
+          "total": 186000.0,
+          "choice": 0
+        },
+        {
+          "total": 62000.0,
+          "choice": 39
+        },
+        {
+          "total": 62000.0,
+          "choice": 13
+        },
+        {
+          "total": 62000.0,
+          "choice": 49
+        },
+        {
+          "total": 186000.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 252133.33333333337,
+          "choice": 0
+        },
+        {
+          "total": 112633.33333333331,
+          "choice": 1
+        },
+        {
+          "total": 305866.6666666667,
+          "choice": 2
+        },
+        {
+          "total": 52700.000000000015,
+          "choice": 3
+        },
+        {
+          "total": 20666.666666666664,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg1NzhmOTcwOGIxZTdjZjhjZjVjNGIzM2EyY2RkNWE0MzRmYzFkY2U1MGRkOTkyZGIwODY0ODNhYjg3NzliZjRk",
+      "id": "0x578f9708b1e7cf8cf5c4b33a2cdd5a434fc1dce50dd992db086483ab8779bf4d",
+      "title": "Increase Treasury Allotment From Budget - 15% ---> 20% (attempt #2)",
+      "content": "I don't believe it's written down anywhere as \"law\", but we've had a convention for a long time to typically allocate 15% of what a client pays us for a project budget to the treasury, and the rest goes out to pm, cre8rs, sale etc.\n\nex. client pays 20k --> 3k stays in treasury.\n\nThis is what we have now.\n\nI propose to raise the treasury allocation to 20% for the following reasons:\n\n1. More money for the DAO, which is a good thing because it allows us to grow, fund different initiatives, build a solid treasury, and do measures to support the price of $CRE8R.\n\nI think we can all agree that we're in some type of bear market-ish period and in this environment the most important thing is to survive. Those who don't just merely survive, but thrive (as we are, but will do even more after this snapshot) will be those best positioned when the next bull is ready.\n\n2. Even after paying cre8rs more than their expectations often, we still end up with a decent amount of extra budget. What to do with that extra budget? Often we divide the majority and split it among all the cre8rs. This is fine, but at some point it becomes ridiculous ex. weird situations like where the bonuses end up being more than the initial payment people were set to get (or at least a significant % increase). This is especially true for people who did only 1 item for the client. Not only is it kind of silly to 2x (or more) payments arbitrarily, but it makes other cre8rs unhappy to see people who did very little work suddently getting double what they got. $500-600 for a single thumbnail etc.\n\nSo, what does this mean for you as a cre8r?\n\nSince we've recently increased out budgets to 25k, likely no noticeable change at all. You just end up being part of a DAO with more formalized processes, and a solid treasury behind it.\n\nGM. LFG. WAGMI",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 16,
+      "blockNumber": 14403843,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x578f9708b1e7cf8cf5c4b33a2cdd5a434fc1dce50dd992db086483ab8779bf4d",
+      "startTime": {
+        "timestamp": 1647517795
+      },
+      "endTime": {
+        "timestamp": 1647776995
+      },
+      "startTimestamp": 1647517795,
+      "endTimestamp": 1647776995,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 744000.0,
+          "choice": 0
+        },
+        {
+          "total": 248000.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 744000.0,
+          "choice": 0
+        },
+        {
+          "total": 248000.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgyYTZmNmJhNTAzNzVlY2UzYzFkYzE3MzkxMDhiZTg2OGRhMmQ1YmMxYTI1MWIzYmNhNWE5YmZmMmE3NDkyZmNm",
+      "id": "0x2a6f6ba50375ece3c1dc1739108be868da2d5bc1a251b3bca5a9bff2a7492fcf",
+      "title": "test",
+      "content": "",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 1,
+      "blockNumber": 14403830,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x2a6f6ba50375ece3c1dc1739108be868da2d5bc1a251b3bca5a9bff2a7492fcf",
+      "startTime": {
+        "timestamp": 1647517588
+      },
+      "endTime": {
+        "timestamp": 1647776788
+      },
+      "startTimestamp": 1647517588,
+      "endTimestamp": 1647776788,
+      "currentState": "closed",
+      "choices": [
+        "d",
+        "d"
+      ],
+      "results": [
+        {
+          "total": 62000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 62000.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhkNmIzOGE4NjU5ZjYxMjc2MTQ5MWEwMTcwMzQ5Y2U1NjU3ZGU0YTlhNzExZjQ0ZjUzNmYzZTZhMzNmYTUzMzE5",
+      "id": "0xd6b38a8659f612761491a0170349ce5657de4a9a711f44f536f3e6a33fa53319",
+      "title": "Increase Treasury Allotment From Budget - 15% ---> 20%",
+      "content": "I don't believe it's written down anywhere as \"law\", but we've had a convention for a long time to typically allocate 15% of what a client pays us for a project budget to the treasury, and the rest goes out to pm, cre8rs, sale etc.\n\nex. client pays 20k --> 3k stays in treasury.\n\nThis is what we have now. \n\nI propose to raise the treasury allocation to 20% for the following reasons:\n\n1. More money for the DAO, which is a good thing because it allows us to grow, fund different initiatives, build a solid treasury, and do measures to support the price of $CRE8R.\n\nI think we can all agree that we're in some type of bear market and in this environment the most important thing is to survive. Those who don't just merely survive, but thrive (as we are, but will do even more after this snapshot) will be those best positioned when the next bull is ready.\n\n2. Even after paying cre8rs more than their expectations often, we still end up with a decent amount of extra budget. What to do with that extra budget? Often we divide the majority and split it among all the cre8rs. This is fine, but at some point it becomes ridiculous ex. weird situations like where the bonuses end up being more than the initial payment people were set to get (or at least a significant % increase). This is especially true for people who did only 1 item for the client. Not only is it kind of silly to 2x (or more) payments arbitrarily, but it makes other cre8rs unhappy to see people who did very little work suddently getting double what they got. $500-600 for a single thumbnail etc.\n\nSo, what does this mean for you as a cre8r?\nSince we've recently increased out budgets to 25k, likely no noticeable change at all. You just end up being part of a DAO with more formalized processes, and a solid treasury behind it.\n\nGM. LFG. WAGMI",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 0,
+      "blockNumber": 14397197,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xd6b38a8659f612761491a0170349ce5657de4a9a711f44f536f3e6a33fa53319",
+      "startTime": {
+        "timestamp": 1647429809
+      },
+      "endTime": {
+        "timestamp": 1647689009
+      },
+      "startTimestamp": 1647429809,
+      "endTimestamp": 1647689009,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhkNzJlOWEwN2JiZmQxYzIyNjczY2YwZDY0YTZhNGUzMmVkM2M0ZTlhNjI1ZDQzODQ1ZGViMzFhN2E4NmUyOTk5",
+      "id": "0xd72e9a07bbfd1c22673cf0d64a6a4e32ed3c4e9a625d43845deb31a7a86e2999",
+      "title": "[Test] Weekly CRE8R Bribe Budget Gauge",
+      "content": "Weekly Total CRE8R Allocated to bribes is set in another vote.\n \nWeekly Total CRE8R allocated to emissions (ie CRE8R loaded into beets farm as rewards to LPs) is set in another vote. \n\nThis vote sets percent split bribe budget for each pool. \n\nExample total weekly public (not including existing bribe agreements) bribe budget is 100,000 CRE8R and it can be spread across the current 3 pools we have. Explicitly this CRE8R will be paid to inSPIRIT, fBEETS, SOLID voters who vote on our pools prorata. \n\nIt does not include existing or new private bribe agreements.  \n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 14323803,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xd72e9a07bbfd1c22673cf0d64a6a4e32ed3c4e9a625d43845deb31a7a86e2999",
+      "startTime": {
+        "timestamp": 1646442286
+      },
+      "endTime": {
+        "timestamp": 1646701486
+      },
+      "startTimestamp": 1646442286,
+      "endTimestamp": 1646701486,
+      "currentState": "closed",
+      "choices": [
+        "Beethovan CRE8R - FTM 80/20 ",
+        "SpiritSwap - CRE8R - FTM 50/50",
+        "Solidly Bomb - CRE8R - BOMB "
+      ],
+      "results": [],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgzZGQ3ZTJlNmVjNzdiYjJmMzI3Zjc5N2Y0OGNjYzIwODg1NjIwZGJmM2FmZDJiZGY1YjAzYTY2YTczZjA1OGQx",
+      "id": "0x3dd7e2e6ec77bb2f327f797f48ccc20885620dbf3afd2bdf5b03a66a73f058d1",
+      "title": "CRE8R Gauge 1",
+      "content": "According to the snapshot we have a budget of 100,000 CRE8R tokens to allocate to the following metrics. \n\n* Add to the Beet’s farm - This will enlengthen the time we have rewards but not affect the APY. If we want to adjust the APY, we can put a new snapshot for this.\n\n* Add to POL on Spirit - This will cause us to sell half of this allocation to FTM and put the rest of CRE8R with the FTM into the LP. \n\n* Allocate to InternalWork - These allocation will be given to the Coordinape Circle for ALL internal work - This is likely important.\n\n* Clients - The next few selections will boost the budget on our client campaigns to be paid in CRE8R.\n\n* Special Grant - Are to be used for any sort of marketing, such as paying for campaigns for projects that we think should gain our support. Another snapshot MUST be produced to allocate this pool of funds to those projects. \n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 6,
+      "blockNumber": 14266528,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x3dd7e2e6ec77bb2f327f797f48ccc20885620dbf3afd2bdf5b03a66a73f058d1",
+      "startTime": {
+        "timestamp": 1645675674
+      },
+      "endTime": {
+        "timestamp": 1646020800
+      },
+      "startTimestamp": 1645675674,
+      "endTimestamp": 1646020800,
+      "currentState": "closed",
+      "choices": [
+        "Beet's Farm",
+        "POL on Spirit",
+        "Internal Work",
+        "Infinity Skies (Client)",
+        "Vader (Client)",
+        "SpiritSwap (Client)",
+        "Special Grant Pool"
+      ],
+      "results": [
+        {
+          "total": 62001.0,
+          "choice": 22
+        },
+        {
+          "total": 62001.0,
+          "choice": 19
+        },
+        {
+          "total": 11093.122,
+          "choice": 0
+        },
+        {
+          "total": 124002.016,
+          "choice": 39
+        },
+        {
+          "total": 0.0075098407,
+          "choice": 24
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 79034.51998486082,
+          "choice": 0
+        },
+        {
+          "total": 17033.51252419208,
+          "choice": 1
+        },
+        {
+          "total": 141035.52371519516,
+          "choice": 2
+        },
+        {
+          "total": 4340.070395254763,
+          "choice": 3
+        },
+        {
+          "total": 4340.070395254763,
+          "choice": 4
+        },
+        {
+          "total": 7113.350943173033,
+          "choice": 5
+        },
+        {
+          "total": 6200.100395254763,
+          "choice": 6
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg3NWQ1YmQ5YWY1NmM0M2I4OTI3ZGVjMzdkZmFjN2IyMTk4YjdjZjBkNmJkNDA3YjIwOWVhMmEwYmUwYzdhNmZi",
+      "id": "0x75d5bd9af56c43b8927dec37dfac7b2198b7cf0d6bd407b209ea2a0be0c7a6fb",
+      "title": "Gauge our Emissions",
+      "content": "I would like to propose that we start a monthly snapshot gauge. \nit will use weighted votes like this proposal does with the following choices\n\nAdd to Beet's Farm\nAdd to POL on Spirit\nAllocate to InternalWork\nClient 1\nClient 2\nClient....\nSpecial Grants\n\nAdding to the beets farm will enlengthen the current emissions. Currently there are about 2 months left as the current emission rate.\n\nAdding to POL will force us to sell half these tokens and add them to the CRE8R-FTM LP on Spirit swap, but will allow us to farm more Spirit there.\n\nAllocate to internalWork will create the budget size for the coordinape internal work circle. \n\nClient 1.... will allocate to that specific client's current campaign and have the likelihood that more content will be created. Everyone will get a share of budget tokens (USDC) and CRE8R bonus on top of each piece. \n\nThe following might not be the best way to vote for this proposal, but i wanted to illustrate what these will be like. We need to decide how much our budget should be for this. If you wish to vote against this idea. Please put 100% of your votes in 0 CRE8R \n\nLast month we emited roughly 150K worth of CRE8r  via the Farms, internal work, BRICK dev work, and special grants (Clipto, Witnet)\n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 14,
+      "blockNumber": 14234475,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x75d5bd9af56c43b8927dec37dfac7b2198b7cf0d6bd407b209ea2a0be0c7a6fb",
+      "startTime": {
+        "timestamp": 1645246980
+      },
+      "endTime": {
+        "timestamp": 1645506180
+      },
+      "startTimestamp": 1645246980,
+      "endTimestamp": 1645506180,
+      "currentState": "closed",
+      "choices": [
+        "50,000 CRE8R",
+        "100,000 CRE8R",
+        "150,000 CRE8R",
+        "200,000 CRE8R",
+        "0 CRE8R"
+      ],
+      "results": [
+        {
+          "total": 62001.004,
+          "choice": 3
+        },
+        {
+          "total": 62001.0,
+          "choice": 5
+        },
+        {
+          "total": 329953.56,
+          "choice": 0
+        },
+        {
+          "total": 124002.0,
+          "choice": 39
+        },
+        {
+          "total": 124377.86,
+          "choice": 99
+        },
+        {
+          "total": 62001.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 218351.69458620375,
+          "choice": 0
+        },
+        {
+          "total": 279380.41297355056,
+          "choice": 1
+        },
+        {
+          "total": 173602.79999999996,
+          "choice": 2
+        },
+        {
+          "total": 93001.502159772,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgwMWYyM2ZjY2JmMTM5MzRiMGZlMGM2NmQ4Nzc1YmJiOWZhMWRkYjk5MDE4ZDM4MmJmNTc5NDBjNjY0ZTc5YzRj",
+      "id": "0x01f23fccbf13934b0fe0c66d8775bbb9fa1ddb99018d382bf57940c664e79c4c",
+      "title": "Use $CRE8R tokens to “bribe” inSPIRIT voters",
+      "content": "Many of you have seen APR on SpiritSwap CRE8R/FTM\nhttps://app.spiritswap.finance/#/farms/allfarms\n\nThis is a result of our partnership with SpiritSwap where as part of the deal SpiritSwap added our gauge and gave us some initial votes.\n\nIt is also a result of this giga chad\n\nhttps://snapshot.org/#/cre8r.eth/proposal/0x2492b013c3c3922552e566df61a53666e8f66a97e38833f5a5c6df80be676952\n\nCRE8R DAO treasury is providing liquidity with 300k USD worth of CRE8R/FTM & farming Spirit.\n\nThese inSPIRIT voters are creating a situation where all CRE8R/FTM LPs are able to earn high APR paid in $SPIRIT. This is good for CRE8R DAO and our token holders!\n\nWe have an opportunity to use CRE8R tokens to \"bribe\" inSPIRIT voters to increase/continue their votes weekly on the SpiritSwap gauges.\n\nThere are two ways to do this.\n\n1, Create an airdrop offer open to all inSPIRIT voters where we airdrop x CRE8R tokens prorata to CRE8R/inSPIRIT gauge voters. The outcome of this will initially be unknown. ie only after the fact will we be able to acertain/predict how much extra APR will we get from week to week ( gauge votes happen weekly).\n\n2, Make deals with individual inSPIRIT whales with a fixed % of earnings that flowing back to the treasury flowing back to inSPIRIT whales as a \"retrospective bribe\". This is 100% predictable effectively giving us a fixed 50% discount on inSPIRIT OTC!\n\nie CRE8R treasury is able to harvest x amount of SPIRIT verifiably because of x vote from x inSPIRIT whale therefore treasury pays out 50% of the USD value of SPIRIT returns to x_whale in the form of CRE8R.\n\nTreasury farms 30kUSD worth of SPIRIT & pays 15kUSD worth of CRE8R as a \"retrospective bribe\". x_Whale agrees to LP 100% of CRE8R/FTM and LOCK the LPs for x years (impossible to sell till unlock time).\n\nThis is both a hypothetical example for future whales & a real offer that is on the table.\n\nShould we...",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 18,
+      "blockNumber": 14233768,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x01f23fccbf13934b0fe0c66d8775bbb9fa1ddb99018d382bf57940c664e79c4c",
+      "startTime": {
+        "timestamp": 1645236730
+      },
+      "endTime": {
+        "timestamp": 1645495930
+      },
+      "startTimestamp": 1645236730,
+      "endTimestamp": 1645495930,
+      "currentState": "closed",
+      "choices": [
+        "Do Both",
+        "Do Neither",
+        "Only airdrop",
+        "Only inSPIRIT whales"
+      ],
+      "results": [
+        {
+          "total": 292699.5,
+          "choice": 3
+        },
+        {
+          "total": 744012.0,
+          "choice": 0
+        },
+        {
+          "total": 62001.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 744012.0109444092,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 62001.0,
+          "choice": 2
+        },
+        {
+          "total": 292699.4956915316,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgyNDkyYjAxM2MzYzM5MjI1NTJlNTY2ZGY2MWE1MzY2NmU4ZjY2YTk3ZTM4ODMzZjVhNWM2ZGY4MGJlNjc2OTUy",
+      "id": "0x2492b013c3c3922552e566df61a53666e8f66a97e38833f5a5c6df80be676952",
+      "title": "Client Proposal",
+      "content": "Wallet holding CRE8R:\thttps://debank.com/profile/0x5d22db0ddc365dbdc0983441e2906d51855a142d\n\nContact Info:\tDiscord: fierydev#4953\nProject Website:\thttps://fbomb.finance/\nProject Docs:\thttps://docs.fbomb.finance/\nStandard Package:\tYes\nProposed Payment:\t100% in USD Stable coins (USDs)\n\nSpecial Note:\t\"I'm currently voting for the Cre8r Spirit pool using 11 million inSPIRIT in good faith so I can expediate this! \nI also hold ~150k Cre8r\nDheerajShah can vouch for me too!\nhttps://twitter.com/dev_enjoys\nI hope Ceazor remembers me! He featured my Node 37 while making the staking on FTM vid!\"",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 6,
+      "blockNumber": 14224361,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x2492b013c3c3922552e566df61a53666e8f66a97e38833f5a5c6df80be676952",
+      "startTime": {
+        "timestamp": 1645110921
+      },
+      "endTime": {
+        "timestamp": 1645156800
+      },
+      "startTimestamp": 1645110921,
+      "endTimestamp": 1645156800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Onboard as client",
+        "No, perhaps later"
+      ],
+      "results": [
+        {
+          "total": 391954.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 391954.4957071367,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhjNjEyY2JlM2QzMGQ1MmNhZDU3MDFmNGFmOTVhYzc4MDIxYTk4ZjNiZTEyMjUxZmRkZDJiODc4MzRhZjY0ZmNh",
+      "id": "0xc612cbe3d30d52cad5701f4af95ac78021a98f3be12251fddd2b87834af64fca",
+      "title": "CRE8R FAAS",
+      "content": "This idea is quite simple.\n\nThe overall idea is that we use our treasury to farm tokens and distribute them to CRE8R token holders. \n\nThe easiest way to do this is to add them as rewards on the Beethoven-x BLP Farm. Ceazor has confirmed that adding unlimited types of tokens to this farm is possible. \n\nTo start, we can transfer all of our Protocol Owned Liquidity into the Spiritswap farm to farm the SPIRIT tokens. Once a month, or week, we harvest the rewards. 1st we lock an amount needed to maintain our inSPIRIT voting power (or we increase/decrease it sometimes)\n\nThe rest we add as rewards to the BLP Farm. \n\n* As a CRE8R holder, in this system, it is likely best to put your tokens in the BLP. \n\n* It will also benefit the DAO in the long term if you too lock SPIRIT for inSPIRIT and vote up the gauge too.\n\n* Ceazor, will continue to use his fBEET to vote for the CRE8R pool, and if you like, you should consider staking (not locking) BEETs to vote this pool up too.\n\nAs this system develops, we can use other funds that are in our wallet to farm other rewards to add to this farm. Perhaps, taking a portion of our payment in gov tokens to immediately put here. ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 10,
+      "blockNumber": 14185709,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xc612cbe3d30d52cad5701f4af95ac78021a98f3be12251fddd2b87834af64fca",
+      "startTime": {
+        "timestamp": 1644596100
+      },
+      "endTime": {
+        "timestamp": 1644811200
+      },
+      "startTimestamp": 1644596100,
+      "endTimestamp": 1644811200,
+      "currentState": "closed",
+      "choices": [
+        "Let's do FAAS",
+        "Nah.. "
+      ],
+      "results": [
+        {
+          "total": 404792.3,
+          "choice": 0
+        },
+        {
+          "total": 93042.61,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 404792.326426133,
+          "choice": 0
+        },
+        {
+          "total": 93042.60926803637,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgxNDJlMDI3NmI5NjExMDllNTEwOWUxY2QwNjYyNjNiZmFiYjc3NTY4ZDVlMDEzNGQ1YTk1MTIzODkzOTA5ODM0",
+      "id": "0x142e0276b961109e5109e1cd066263bfabb77568d5e0134d5a95123893909834",
+      "title": "F100 For Dsine (attempt 2)",
+      "content": "There was a problem with snapshot on the last vote so it didn't work.\n\nGive Dsine F100?",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 15,
+      "blockNumber": 14172420,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x142e0276b961109e5109e1cd066263bfabb77568d5e0134d5a95123893909834",
+      "startTime": {
+        "timestamp": 1644416700
+      },
+      "endTime": {
+        "timestamp": 1644685200
+      },
+      "startTimestamp": 1644416700,
+      "endTimestamp": 1644685200,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 771999.94,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 771999.8872497801,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhlYmZmM2RjMzFhMzc5YzM2YzgxMDAxNWU3ZTM5YWFkMmMzNTcyYjFmYmI5OTQwY2JmNWQ4YzhiZTNlODAyMDc2",
+      "id": "0xebff3dc31a379c36c810015e7e39aad2c3572b1fbb9940cbf5d8c8be3e802076",
+      "title": "F100 For DSINE",
+      "content": "Dsine is our resident Discord wizard.\n\nDsine good. ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 0,
+      "blockNumber": 14159745,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xebff3dc31a379c36c810015e7e39aad2c3572b1fbb9940cbf5d8c8be3e802076",
+      "startTime": {
+        "timestamp": 1644247800
+      },
+      "endTime": {
+        "timestamp": 1644426000
+      },
+      "startTimestamp": 1644247800,
+      "endTimestamp": 1644426000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg5ODZiZjhlMjIwZWZjOTlhYmNkNzBmMGFmMDEwYzdhNzgxYjYyNTg1YTMwMjgyMDM2ZjRjNWFmNTcyOWY1OThk",
+      "id": "0x986bf8e220efc99abcd70f0af010c7a781b62585a30282036f4c5af5729f598d",
+      "title": "Collab: Biz Dev DAO (this is just a test).",
+      "content": "\nTesting proposal template for https://snapshot.org/#/cre8r.eth/proposal/0xbe870609c3c594a39c7ce9e376f7f1522137935981609b5adde34507333c78c5\n\n*Contact*\n\nProposer twitter account: @adeptcamp\nProject twitter account: @bizdevdao\nContact discord handle: @dunks411\n\n*Project/Protocol Basic Info*\n\nWebsite link: \nDiscord link:\nProject short description: A DAO for DeFi biz devs\n\n*Offer/Deal Info*\n\nDoes this project require the standard 1 month CRE8R DAO content marketing package (yes/no): Yes\n\nDoes this project require or offer something other than the basic CRE8R DAO content marketing package (yes/no): yes\n\nDeal details: BDD to give 20% of $SHAKE token supply for ongoing support from CRE8R DAO\nDeal duration: 1 Month standard package + ongoing support/collaboration\n\n*Payment details*\n\nDoes this project offer $25,000 USDC upfront payment to cre8rdao.eth: No\nDoes this project offer $12500 USDC & 12500 (or more in project governance token): Yes\n\nTotal payment in USDC: $12500\nTotal payment in $SHAKE: 25m (20% of total supply)\n\nYour project tokenomics links (coingecko or docs): \n\n*Discussion*\n\nDiscord Discussion: \nDiscourse Discussion: https://discourse.cre8r.vip/t/should-cre8r-dao-help-summon-biz-dev-dao/70\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 14155346,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x986bf8e220efc99abcd70f0af010c7a781b62585a30282036f4c5af5729f598d",
+      "startTime": {
+        "timestamp": 1644195600
+      },
+      "endTime": {
+        "timestamp": 1644282000
+      },
+      "startTimestamp": 1644195600,
+      "endTimestamp": 1644282000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhiZTg3MDYwOWMzYzU5NGEzOWM3Y2U5ZTM3NmY3ZjE1MjIxMzc5MzU5ODE2MDliNWFkZGUzNDUwNzMzM2M3OGM1",
+      "id": "0xbe870609c3c594a39c7ce9e376f7f1522137935981609b5adde34507333c78c5",
+      "title": "The CRE8R Tokenized Client Onboarder",
+      "content": "\nOne of the main purposes of holding client tokens in treasury is to align incentives with our clients. We all see the value of this. We should also expect our clients to align incentives with our DAO. \n\nWe are proposing that we start asking new clients to first buy a certain, quantity or value, of CRE8R tokens before then can be considered for client onboarding. \n\nOnce they have bought, say 20K $CRE8R, then they will be eligible to make a new snapshot proposal in the CRE8RDAO snapshot.\n\nWe will provide them with:\n\n* The landing page explaining the process\n* The landing page with a RA’s flow of our pitch and what they will get\n* A link to the CRE8R liquidity pools, or even a UI on our page to buy\n* A link to the snapshot\n* A template for the snapshot.\n\n\nThe snapshot template will require the following info.\n\n* URL to project page.\n* URL to Doc/medium\n* Contact info\n\nWith options to choose.\n\n1. Decline to take this project as a client\n2. 25K USDC (or stable)\n3. Some percentage of USDC/Gov token\n4. All gov tokens (in USD value) \n\nThis process will allow us to spend less time negotiating with new clients, as well as add some buying pressure for our CRE8R token. Worst case scenario, we net gain the trading fees, if all clients buy and sell tokens after the proposal is posted. However, it's more likely that clients will either hold these tokens, LP farm them, or even neglect to sell them.\n\nThis may allow us to start to transition to payments in CRE8R to creators, and thus allow us to take in client gov tokens to align us with them.\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 13,
+      "blockNumber": 14132777,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xbe870609c3c594a39c7ce9e376f7f1522137935981609b5adde34507333c78c5",
+      "startTime": {
+        "timestamp": 1643888700
+      },
+      "endTime": {
+        "timestamp": 1644061500
+      },
+      "startTimestamp": 1643888700,
+      "endTimestamp": 1644061500,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [
+        {
+          "total": 173441.0,
+          "choice": 0
+        },
+        {
+          "total": 480385.7,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 173440.99688334772,
+          "choice": 0
+        },
+        {
+          "total": 480385.7312695275,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg2ZDQyNWYzYzFjN2FhMjZjZjQ2NjI3NDk4ZDhjNjhjOGM5NTkyNjY0MGYzM2RlYjcxZjkyOGVlY2UxMTVlMWQ5",
+      "id": "0x6d425f3c1c7aa26cf46627498d8c68c8c95926640f33deb71f928eece115e1d9",
+      "title": "Buybacks",
+      "content": "On my trip, I thought a lot about the CRE8R token and the \"utility\". \n\nAfter I returned, I discussed some ideas with Bee. We came up with a decent, low effort idea. \n\nThat is to use 5% (of the 15% we take) client payments to buy back CRE8R and add them to the rewards for the CRE8R-FTM Beets pool. This pool is a 80/20 pool, and can usually take single sided injections of CRE8R quite comfortably. \n\nThe consequences are that:\n1. we lose 5% of our yield farming power\n2. we provide more exit liquidity\n\nThe pros are:\n1 we add buying pressure, but not a crazy amount\n2. we encourage people to build LPs and add depth to this.\n\nChoice:\n1.  I don't know.\n2. No, let's keep it all Yield Farming.\n3. Yes. Start buying CRE8R with the 5% of new client payment. \n4. Yes, calculate the 5% of all our past payments and make a big payment. I wild guess is this  ~20k",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 11,
+      "blockNumber": 14091805,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x6d425f3c1c7aa26cf46627498d8c68c8c95926640f33deb71f928eece115e1d9",
+      "startTime": {
+        "timestamp": 1643342400
+      },
+      "endTime": {
+        "timestamp": 1643601600
+      },
+      "startTimestamp": 1643342400,
+      "endTimestamp": 1643601600,
+      "currentState": "closed",
+      "choices": [
+        "I don't know",
+        "No, let's keep it all YFing",
+        "Yes, buy it with new money",
+        "Yes, buy it w/ retro n future"
+      ],
+      "results": [
+        {
+          "total": 184191.48,
+          "choice": 2
+        },
+        {
+          "total": 317668.47,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 317668.4703571745,
+          "choice": 1
+        },
+        {
+          "total": 184191.4856318284,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgwNzVlMWMxY2VmNzlmODM5ZmRkZjJhNzc4NzBkZWNjOTAyMGMyZTQxMzRlNWY4ZjFjYmRlNzJmZDBiNTE0ZWI1",
+      "id": "0x075e1c1cef79f839fddf2a77870decc9020c2e4134e5f8f1cbde72fd0b514eb5",
+      "title": "Test delegation",
+      "content": "",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 7,
+      "blockNumber": 14039742,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x075e1c1cef79f839fddf2a77870decc9020c2e4134e5f8f1cbde72fd0b514eb5",
+      "startTime": {
+        "timestamp": 1642600800
+      },
+      "endTime": {
+        "timestamp": 1642813200
+      },
+      "startTimestamp": 1642600800,
+      "endTimestamp": 1642813200,
+      "currentState": "closed",
+      "choices": [
+        "t",
+        "b"
+      ],
+      "results": [
+        {
+          "total": 144396.83,
+          "choice": 0
+        },
+        {
+          "total": 226234.22,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 144396.8285310055,
+          "choice": 0
+        },
+        {
+          "total": 226234.2071128823,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhkZjkxMTA3ZGI3NzIzNTk1ODgxNmViZTFkZmYxNDg4MGQwM2Q5NTJjMDBkOGIwMzRhZWZhZjUxYzgyYTllMjA3",
+      "id": "0xdf91107db77235958816ebe1dff14880d03d952c00d8b034aefaf51c82a9e207",
+      "title": "test",
+      "content": "",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 3,
+      "blockNumber": 14027028,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xdf91107db77235958816ebe1dff14880d03d952c00d8b034aefaf51c82a9e207",
+      "startTime": {
+        "timestamp": 1642467600
+      },
+      "endTime": {
+        "timestamp": 1642554000
+      },
+      "startTimestamp": 1642467600,
+      "endTimestamp": 1642554000,
+      "currentState": "closed",
+      "choices": [
+        "t",
+        "b"
+      ],
+      "results": [
+        {
+          "total": 66860.16,
+          "choice": 0
+        },
+        {
+          "total": 20719.15,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 66860.15560073826,
+          "choice": 0
+        },
+        {
+          "total": 20719.15087257589,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg4MWZlZGNkZWE0NDkzODRmZGMwNmFkY2MwNWQ2NTVmYmM2OTJlNTMxYzJhNzk1ZDk5Y2I5NzZlMjU5MzJlZDkz",
+      "id": "0x81fedcdea449384fdc06adcc05d655fbc692e531c2a795d99cb976e25932ed93",
+      "title": "Liquidity Mining & Incentives",
+      "content": "Make 2m $CRE8R available for:\n\n- 6 Months for Liquidity Mining Programs on Ethereum/Polygon/Fantom\n-UMA KPI Options Programs\n-Contests / Giveaways etc\n\nWe provide these three usecases in one proposal so that we can move swiftly and have authority to make use of the 2m budget without needing to constantly run snapshots.\n\nThe 2m is the max we could use without another snapshot. It does not mean it will all be used. ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 15,
+      "blockNumber": 14001500,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x81fedcdea449384fdc06adcc05d655fbc692e531c2a795d99cb976e25932ed93",
+      "startTime": {
+        "timestamp": 1642122000
+      },
+      "endTime": {
+        "timestamp": 1642381200
+      },
+      "startTimestamp": 1642122000,
+      "endTimestamp": 1642381200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 617349.0,
+          "choice": 0
+        },
+        {
+          "total": 62001.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 617349.0278263523,
+          "choice": 0
+        },
+        {
+          "total": 62001.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg4NjYyYjMzYjY5ZTE1MzBmNmU4YmUwZDI0ZTAyODY1MDIwOWQ1NDRjYWUyZmNmMTVjYmYxZjZmYjM0ZDVkMDVj",
+      "id": "0x8662b33b69e1530f6e8be0d24e028650209d544cae2fcf15cbf1f6fb34d5d05c",
+      "title": "Minimum exposure for each piece of content submitted to Coordinape",
+      "content": "One of the consistent feedback from all the clients we have worked with is not having the impact they were looking for through our social media reach. \n\nIn an attempt to increase our impact with the budget we’re given by the projects, the project management team propose that every piece of published content (videos, clips, articles, podcasts, etc.) needs to have a minimum of 100 views/clicks/downloads by the contract end date in order to be eligible for Coordinape payment distribution.\n\n** Obviously there are exceptions in certain circumstances such as when a client asks for a video explainer for their docs or a graphic header for Twitter. These outlier cases will be at the discretion of the PM **\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0xBc005Fa1476d6E4f582B6B067D15D4ed512536ae",
+      "totalVotes": 12,
+      "blockNumber": 13987022,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x8662b33b69e1530f6e8be0d24e028650209d544cae2fcf15cbf1f6fb34d5d05c",
+      "startTime": {
+        "timestamp": 1641941400
+      },
+      "endTime": {
+        "timestamp": 1642114200
+      },
+      "startTimestamp": 1641941400,
+      "endTimestamp": 1642114200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, let's go with it",
+        "No, this is a bad idea"
+      ],
+      "results": [
+        {
+          "total": 528639.94,
+          "choice": 0
+        },
+        {
+          "total": 62001.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 528639.9336532064,
+          "choice": 0
+        },
+        {
+          "total": 62001.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhhZGFhZGMzMDYzNjVmZWM0OTYxMjc4YTMzODA4MTg5YTYyNjY0YmFjYzA3N2VlOWFjMzA4M2UwM2Y2OTMwODFi",
+      "id": "0xadaadc306365fec4961278a33808189a62664bacc077ee9ac3083e03f693081b",
+      "title": "Proposal by Rootdraws",
+      "content": "Rootdraws has offered the proposal to partner with the Based team and Metagame project, and airdrop them $CRE8R tokens in exchange for their contribution/services.\n\nProposal: https://rootdraws.substack.com/p/cre8r-sub-guild-network\n\nA few F100 members have shared their concerns about the legitimacy of this proposal and the capability of those teams to provide the value for the Cre8r DAO.\n\nShould the Cre8r DAO proceed with the proposal by Rootdraws and move to the voice discussion stage, or should it be skipped?",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x38dAEa6f17E4308b0Da9647dB9ca6D84a3A7E195",
+      "totalVotes": 23,
+      "blockNumber": 13971448,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xadaadc306365fec4961278a33808189a62664bacc077ee9ac3083e03f693081b",
+      "startTime": {
+        "timestamp": 1641733200
+      },
+      "endTime": {
+        "timestamp": 1642078800
+      },
+      "startTimestamp": 1641733200,
+      "endTimestamp": 1642078800,
+      "currentState": "closed",
+      "choices": [
+        "Proceed with the proposal",
+        "Skip it",
+        "I'm not sure"
+      ],
+      "results": [
+        {
+          "total": 102736.66,
+          "choice": 0
+        },
+        {
+          "total": 328324.94,
+          "choice": 2
+        },
+        {
+          "total": 771293.6,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 102736.65531318117,
+          "choice": 0
+        },
+        {
+          "total": 771293.636334128,
+          "choice": 1
+        },
+        {
+          "total": 328324.91026257776,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgzZDQ5MzY0ZDkzYTMwN2VlMWNhMjBmM2E4ZGNhZTdlYjM1ODVjYzFlNjY2Y2JhNDM5ZmYwNzlkYWRmYWI0NGZi",
+      "id": "0x3d49364d93a307ee1ca20f3a8dcae7eb3585cc1e666cba439ff079dadfab44fb",
+      "title": "Test voting with NFT Multiplier plus CRE8R tokens",
+      "content": "",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 2,
+      "blockNumber": 13957026,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x3d49364d93a307ee1ca20f3a8dcae7eb3585cc1e666cba439ff079dadfab44fb",
+      "startTime": {
+        "timestamp": 1641564000
+      },
+      "endTime": {
+        "timestamp": 1641862800
+      },
+      "startTimestamp": 1641564000,
+      "endTimestamp": 1641862800,
+      "currentState": "closed",
+      "choices": [
+        "It works",
+        "It doesn't",
+        "It kinda works"
+      ],
+      "results": [
+        {
+          "total": 62001.0,
+          "choice": 0
+        },
+        {
+          "total": 102232.21,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 62001.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 102232.20711288229,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg5ZDViN2Y5ZGNhNGIzZWM3N2YxYWMyMmE5YzExNTk1OWQxZDU3NGFkN2NkYWZlODJiNWQxN2IxMjZlNTY0ZTg3",
+      "id": "0x9d5b7f9dca4b3ec77f1ac22a9c115959d1d574ad7cdafe82b5d17b126e564e87",
+      "title": "Test voting with NFT Multiplier plus CRE8R tokens",
+      "content": "",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 4,
+      "blockNumber": 13957032,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x9d5b7f9dca4b3ec77f1ac22a9c115959d1d574ad7cdafe82b5d17b126e564e87",
+      "startTime": {
+        "timestamp": 1641477600
+      },
+      "endTime": {
+        "timestamp": 1641862800
+      },
+      "startTimestamp": 1641477600,
+      "endTimestamp": 1641862800,
+      "currentState": "closed",
+      "choices": [
+        "It works",
+        "It doesn't",
+        "It kinda works"
+      ],
+      "results": [
+        {
+          "total": 131679.75,
+          "choice": 0
+        },
+        {
+          "total": 1001.6475,
+          "choice": 2
+        },
+        {
+          "total": 102232.21,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 131679.74964572242,
+          "choice": 0
+        },
+        {
+          "total": 102232.20711288229,
+          "choice": 1
+        },
+        {
+          "total": 1001.6475098404762,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhkMWI4YTAwODMyOWJiYzFlNmIzMWY5MmY5MDRlYjJiYjIxZDgxNTA2MjE0NjQwYzU2NDlkNzZiMmU0ZDJjODJk",
+      "id": "0xd1b8a008329bbc1e6b31f92f904eb2bb21d81506214640c5649d76b2e4d2c82d",
+      "title": "Test",
+      "content": "just a test",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 2,
+      "blockNumber": 13957002,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xd1b8a008329bbc1e6b31f92f904eb2bb21d81506214640c5649d76b2e4d2c82d",
+      "startTime": {
+        "timestamp": 1641477600
+      },
+      "endTime": {
+        "timestamp": 1641776400
+      },
+      "startTimestamp": 1641477600,
+      "endTimestamp": 1641776400,
+      "currentState": "closed",
+      "choices": [
+        "it works",
+        "it doesnt"
+      ],
+      "results": [
+        {
+          "total": 7679.7495,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 7679.749645722413,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhiYmUzNGM1Y2QxZTQ1MWEzNWFiOWQ0MzU3MDNhNjM1YmY4MWQ2YzEzYTVlNTg2NDA5MmExOWFjZWM4NTQ1ZjY5",
+      "id": "0xbbe34c5cd1e451a35ab9d435703a635bf81d6c13a5e5864092a19acec8545f69",
+      "title": "F100 for SaraJoy aka X00000s aka \"the singer\"",
+      "content": "So, much like Fvanstry SaraJoy aka. X00000s aka. X0S aka @sarahartman, deserves an F100. This is my formal nomination and if you guys agree (or disagree) vote accordingly.\n\nWhy Now? \n\nAs was the case Fvanstry, she is pretty close to the requirements in any case, but her output is constantly top notch.\n\nShe made the God Mode song, the Genomes.io song, the CitaDAO song, (and upcoming songs for Vader and xDollar and more 👀) which are both awesome.\n\nWe consistently use her work in our \"best of portfolio\" and use it to bring clients on board and make sales.\n\nAnd shes the only person in the DAO with a blue check on twitter. 🔥✅ ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 10,
+      "blockNumber": 13933955,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xbbe34c5cd1e451a35ab9d435703a635bf81d6c13a5e5864092a19acec8545f69",
+      "startTime": {
+        "timestamp": 1641233100
+      },
+      "endTime": {
+        "timestamp": 1641402000
+      },
+      "startTimestamp": 1641233100,
+      "endTimestamp": 1641402000,
+      "currentState": "closed",
+      "choices": [
+        "GIVE HER F100 NOW",
+        "NAH, DO IT LATER"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgxZjEyMjFlYTEwYmZjZThmNGJmZmI0ZjY5YzAwYmJiNzU1ZTg4NTkzYjE5OGM4MzQ3ZTkyYjI3NjI2MzUxOGU5",
+      "id": "0x1f1221ea10bfce8f4bffb4f69c00bbb755e88593b198c8347e92b276263518e9",
+      "title": "60k $CRE8R Budget 1 Month Campaign For Clipto DAO",
+      "content": "⚠️ Re-doing this snapshot after Dunks' version only had YES and both possible answers ⚠️\n\nHow it\nstarted: https://twitter.com/CliptoDAO/status/1474777048656887808\n\nHow its going: \nhttps://github.com/Clipto-Platform\n\n60k coordinape circle for people within our DAO + People From Clipto DAO to create: Animations, Memes, Explainers, etc in the build up to and during the first month of CliptoDAO launch.\nWhy?\n\nGab is one of the founders and biggest supporters of our DAO and he's doing this cool project. We should support that.\n\nMaybe one day $CLIPTO ;)\n🔥🔥\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 10,
+      "blockNumber": 13933939,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x1f1221ea10bfce8f4bffb4f69c00bbb755e88593b198c8347e92b276263518e9",
+      "startTime": {
+        "timestamp": 1641232800
+      },
+      "endTime": {
+        "timestamp": 1641402000
+      },
+      "startTimestamp": 1641232800,
+      "endTimestamp": 1641402000,
+      "currentState": "closed",
+      "choices": [
+        "YES - LFG",
+        "NO - нет"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg5YzI1N2NkM2NiYjc4OGQ4YWY2NzM3OGIwMmU5YzEyNTgwOGE3YWFkZGE5MjNkZDZkZWExYjFkNDRiYzljYWYy",
+      "id": "0x9c257cd3cbb788d8af67378b02e9c125808a7aadda923dd6dea1b1d44bc9caf2",
+      "title": " 60k $CRE8R Budget 1 Month Campaign For Clipto DAO",
+      "content": "How it started: https://twitter.com/CliptoDAO/status/1474777048656887808\n\nHow its going: https://github.com/Clipto-Platform\n\n60k coordinape circle for people within our DAO + People From Clipto DAO to create: Animations, Memes, Explainers, etc in the build up to and during the first month of CliptoDAO launch. \n\nWhy? \n\nGab is one of the founders and biggest supporters of our DAO and he's doing this cool project. We should support that.\n\nMaybe one day $CLIPTO ;)",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 2,
+      "blockNumber": 13897233,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x9c257cd3cbb788d8af67378b02e9c125808a7aadda923dd6dea1b1d44bc9caf2",
+      "startTime": {
+        "timestamp": 1640739600
+      },
+      "endTime": {
+        "timestamp": 1640912400
+      },
+      "startTimestamp": 1640739600,
+      "endTimestamp": 1640912400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "Yes"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgxNWRjNWI0NzgzMjlhYzI0NjZkOTAyMDU1M2VkZGU2M2M4MTdlNzU4ZjU3ZTI2ZjE4OWUzYjM5NDI5ZjU5NWI4",
+      "id": "0x15dc5b478329ac2466d9020553edde63c817e758f57e26f189e3b39429f595b8",
+      "title": "F100 For FVANSTRY",
+      "content": "Hello frens, our dear fren @fvanstry deserves the F100 for exceptional work done to date. He is the cre8r behind the God Mode video which has over 12k views and is the current pinned post on our twitter page. \n\nHe also did great work for Coordinape and CitaDAO (with more to come). Everything he has done so far is amazing, has made the clients very happy, and is included in the portfolio of work we show to prospective clients. This helps with our sales as it demonstrates the quality of what we can provide and brings in more money and credibility to the DAO.\n\nHe has not earned 5k yet as per the usual F100 requirements, but his work has provided at least that amount of value to the DAO, and its actually not fair to have the amount in USD because the God Mode vid is considered internal work and is paid out in $CRE8R.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 12,
+      "blockNumber": 13894223,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x15dc5b478329ac2466d9020553edde63c817e758f57e26f189e3b39429f595b8",
+      "startTime": {
+        "timestamp": 1640701500
+      },
+      "endTime": {
+        "timestamp": 1640883600
+      },
+      "startTimestamp": 1640701500,
+      "endTimestamp": 1640883600,
+      "currentState": "closed",
+      "choices": [
+        "Give him F100 now",
+        "No."
+      ],
+      "results": [
+        {
+          "total": 12.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 12.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgwN2U4NjgzMTYxMmMzYThjMzc1ZGI1YmIzOWE3NTUzZmFhMTI1ZjI3ZWJhZWIxN2EzYjBiNDg5NGE2ODIxZjI1",
+      "id": "0x07e86831612c3a8c375db5bb39a7553faa125f27ebaeb17a3b0b4894a6821f25",
+      "title": "Testing  hal.xyz integration",
+      "content": "gfdgfsgsdfgdsfg sfgfgsdfg sdfgsdfgsfg ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 13895445,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x07e86831612c3a8c375db5bb39a7553faa125f27ebaeb17a3b0b4894a6821f25",
+      "startTime": {
+        "timestamp": 1640739600
+      },
+      "endTime": {
+        "timestamp": 1640826000
+      },
+      "startTimestamp": 1640739600,
+      "endTimestamp": 1640826000,
+      "currentState": "closed",
+      "choices": [
+        "test",
+        "xtest "
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg3NjM1YWNjZjMxYzljY2Q1MDU4MWYyOGQ2ZDlhMTZhZDJmODE4NzBiNThiY2E4MTBmYmNhYWE2OGRjMTZjNzIz",
+      "id": "0x7635accf31c9ccd50581f28d6d9a16ad2f81870b58bca810fbcaaa68dc16c723",
+      "title": "Testing  hal.xyz integration",
+      "content": "gfdgfsgsdfgdsfg sfgfgsdfg sdfgsdfgsfg ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 0,
+      "blockNumber": 13895445,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x7635accf31c9ccd50581f28d6d9a16ad2f81870b58bca810fbcaaa68dc16c723",
+      "startTime": {
+        "timestamp": 1640739600
+      },
+      "endTime": {
+        "timestamp": 1640826000
+      },
+      "startTimestamp": 1640739600,
+      "endTimestamp": 1640826000,
+      "currentState": "closed",
+      "choices": [
+        "test",
+        "xtest "
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgyYjI3NDViMzc1NjQyODg4NWM3YWY0ZGRhMmYyZDRlZGM1MzZkYzA2NmMwYjg0YjFhMDdjNjkyNWVhYjI1NTIy",
+      "id": "0x2b2745b3756428885c7af4dda2f2d4edc536dc066c0b84b1a07c6925eab25522",
+      "title": "ETH at idle",
+      "content": "I propose we use send our ETH to Fantom, deposit it into Hundred finance, borrow 30% of the value in USDT and deposits that to farm more HND tokens. \n\nWhen we unwind this position we will have more debt than collateral, so we may need to sell some HND tokens to cover this debt increase.\n\nOR\n\nwe can simply put the ETH 50% into \nbeefy \nmooscreamETH 5% apy (at this time)\nmoogeistETH 11% apy \n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 2,
+      "blockNumber": 13787870,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x2b2745b3756428885c7af4dda2f2d4edc536dc066c0b84b1a07c6925eab25522",
+      "startTime": {
+        "timestamp": 1639281600
+      },
+      "endTime": {
+        "timestamp": 1639454400
+      },
+      "startTimestamp": 1639281600,
+      "endTimestamp": 1639454400,
+      "currentState": "closed",
+      "choices": [
+        "Eth to HND",
+        "ETH 50/50 beefy",
+        "ETH all in mooscream",
+        "Eth all in moogeist",
+        "ETH on ETHereum! Find somewhere!"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhlZTJkODRmY2Q1ZDJlZjViZDVhNzljNWYyODA5MzFjNDExN2E2NzRjYjY1YzVmYWM1MTU2ZTNjMzRkOTdmMjE2",
+      "id": "0xee2d84fcd5d2ef5bd5a79c5f280931c4117a674cb65c5fac5156e3c34d97f216",
+      "title": "Launch CRE8R DAO 2.0 GOD MODE",
+      "content": "This proposal makes 200,000 - 400,000 $CRE8R Tokens available over the next 3 months to pay for:\n\n-Smart contract development / deploy. \n-Frontend development ie GOD MODE UI\n-Content Marketing for GOD MODE\n-Community Managers for GOD MODE / CRE8R DAO\n-Frontend / Branding Design for GOD MODE\n-GOD MODE policy team formation\n-Business Development for GOD MODE / CRE8R DAO\n-Recruiting / Onboarding for the above roles\n\nTaking the average price of $CRE8R sold $0.42USD this amounts to between $82,000 and $168,000\n\n50% upfront. 50% streamed over 1 year. \n\n3 Coordinape Circles 1 per month 33% of budget for each. ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 6,
+      "blockNumber": 13773651,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xee2d84fcd5d2ef5bd5a79c5f280931c4117a674cb65c5fac5156e3c34d97f216",
+      "startTime": {
+        "timestamp": 1639098000
+      },
+      "endTime": {
+        "timestamp": 1639270800
+      },
+      "startTimestamp": 1639098000,
+      "endTimestamp": 1639270800,
+      "currentState": "closed",
+      "choices": [
+        "200k $CRE8R",
+        "400k $CRE8R",
+        "Against."
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 6.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgxODQxZTZlZTNmMWY0ZWRmNTM4OTE2ZGUxNGM3YzdlNTVlMjYyNjc5MTQ4NmQzMmJkNDAyYjUzYjFiNmM1YWE0",
+      "id": "0x1841e6ee3f1f4edf538916de14c7c7e55e2626791486d32bd402b53b1b6c5aa4",
+      "title": "How should we grant the @CRE8R role on our Discord server? ",
+      "content": "Currently having the @CRE8R role will have the following access:\n\n1. All of our ongoing clients' channels\n2. All of our CRE8R chat channels which include all of our marketing branding strategies/ operation/ workflow/ recruiting & hiring/ God mode  \n3. CRE8R DAO Finances Spreadsheet\n\nI propose that we ask all the new joiners to drop their portfolio + social media links in the #talent-pool channel where currently a group of us who normally do the onboarding can all review profiles and get input from each other regarding each person's suitability for our DAO. Once there's collective consensus, we get back to the suitable candidates and grant them the @CRE8R role. \n\nI believe this will solve the following issues we're currently running into: \n\n1. Handing out the CRE8R roles to people who may not be suitable for our DAO work to begin with\n2. Granting access to those that are only here to lurk + receive alpha\n3. Spending hours in DMs & voice chat answering questions with people who have no intention or are not suitable to contribute",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0xBc005Fa1476d6E4f582B6B067D15D4ed512536ae",
+      "totalVotes": 11,
+      "blockNumber": 13760212,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x1841e6ee3f1f4edf538916de14c7c7e55e2626791486d32bd402b53b1b6c5aa4",
+      "startTime": {
+        "timestamp": 1638903300
+      },
+      "endTime": {
+        "timestamp": 1639051200
+      },
+      "startTimestamp": 1638903300,
+      "endTimestamp": 1639051200,
+      "currentState": "closed",
+      "choices": [
+        "@CRE8R after #talen-pool process",
+        "@CRE8R to anyone"
+      ],
+      "results": [
+        {
+          "total": 11.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 11.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhjMDY2NDgwY2E0YjQ5ZGJkNzA4Mzk2NGQ3NDlhN2I0NWNmMGI0Njg0MzNmZjQ3NDc5Yjc1MTczZWMwNTIxMWZi",
+      "id": "0xc066480ca4b49dbd7083964d749a7b45cf0b468433ff47479b75173ec05211fb",
+      "title": "F100 Badger for Nardie + Behuzer",
+      "content": "Both Nardie and Behuzer were in the DAO before earning requirements were changed from 3K to 5K. Both have done exceptional work and should be admitted because the rules were changed for them in the middle. Do you support giving the F100 to Nardie + Behuzer?",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 9,
+      "blockNumber": 13723032,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xc066480ca4b49dbd7083964d749a7b45cf0b468433ff47479b75173ec05211fb",
+      "startTime": {
+        "timestamp": 1638390000
+      },
+      "endTime": {
+        "timestamp": 1638642000
+      },
+      "startTimestamp": 1638390000,
+      "endTimestamp": 1638642000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No to both of them",
+        "No to one of them (dm me who)"
+      ],
+      "results": [
+        {
+          "total": 9.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg5MDgwODcyMzYxMDlmYzlmNzcxMTQzYzQwNDA3NTAyYjlmNmZkNTQ1MzhlZmQ2Njg5NTgxYmEyNDUwOGRhM2Y2",
+      "id": "0x908087236109fc9f771143c40407502b9f6fd54538efd6689581ba24508da3f6",
+      "title": "GIVE",
+      "content": "Give Coordinape team a founding 100 NFT.\n\nWhy because this tool has helped us found our DAO and they should own a share of it.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 5,
+      "blockNumber": 13725017,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x908087236109fc9f771143c40407502b9f6fd54538efd6689581ba24508da3f6",
+      "startTime": {
+        "timestamp": 1638406800
+      },
+      "endTime": {
+        "timestamp": 1638493200
+      },
+      "startTimestamp": 1638406800,
+      "endTimestamp": 1638493200,
+      "currentState": "closed",
+      "choices": [
+        "GiVE",
+        "Don't GIve"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg2OWIxOThhMjRjY2Q5MjlmNWNhNTBhNDJjOWY0ODAxZjkyNDllNDFjZTQ1NDQwZjcxNjI2NjZmMjM4M2VmNzQw",
+      "id": "0x69b198a24ccd929f5ca50a42c9f4801f9249e41ce45440f7162666f2383ef740",
+      "title": "Coordinape Weighted Gives",
+      "content": "After discussions with core members of some well known DAOs (Bankless, FWB, Gitcoin +) they pretty much all unanimously suggest we switch to a weighted GIVEs system.\n\nWhat this means is that CRE8Rs with more experience will be given more GIVEs than n00bs. The reason for this is because the longer you're in the DAO, the more you know who the other cre8rs are, what they do, they value of the GIVEs, the value of the work itself, etc.\n\nIn our first internal Coordinape I saw the downsides of everyone being given 100 by default first hand - many of the people were new to the DAO and literally had no idea who they were and what they did. On the contrary, those who have been around and are active, had a way better idea of how to allocate appropriately.\n\nPerhaps in the future we can have a more complex calculation based on some sort of metrics like discord activity or total GIVEs received but here are the options for a potential first step:",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 8,
+      "blockNumber": 13674114,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x69b198a24ccd929f5ca50a42c9f4801f9249e41ce45440f7162666f2383ef740",
+      "startTime": {
+        "timestamp": 1637715600
+      },
+      "endTime": {
+        "timestamp": 1637931600
+      },
+      "startTimestamp": 1637715600,
+      "endTimestamp": 1637931600,
+      "currentState": "closed",
+      "choices": [
+        "Keep each person gets 100 gives",
+        "F100 = 100 / Non F100 = 50",
+        "F100 = 150 / Non F100 = 50",
+        "MSIG= 200, F100= 150, Non = 100"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 3
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 6.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg0NjQ3YjdlZTIxMDczODEyZGRiODMyMzU2MWNiY2U4N2U4MzE0MTQ4NzcwZWJlZGY3NzFjYTZmZWMzNDAxN2M4",
+      "id": "0x4647b7ee21073812ddb8323561cbce87e8314148770ebedf771ca6fec34017c8",
+      "title": "Copper LBP",
+      "content": "Start LBP with the following settings: https://cdn.discordapp.com/attachments/877510859998523432/911911014835032074/unknown.png\n\nThis should raise somewhere between 500K & 5m which would be used for starting liquidity for CRE8R/ETH & potentially $BRICK/FRAX (if God Mode proposal passes - If not then we have a deepish balancer LP pool).\n\n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 15,
+      "blockNumber": 13657254,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x4647b7ee21073812ddb8323561cbce87e8314148770ebedf771ca6fec34017c8",
+      "startTime": {
+        "timestamp": 1637456400
+      },
+      "endTime": {
+        "timestamp": 1637888400
+      },
+      "startTimestamp": 1637456400,
+      "endTimestamp": 1637888400,
+      "currentState": "closed",
+      "choices": [
+        "Yes ",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 15.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 15.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHhiNzBkNjdlMWY5YjlkODZiNGYyODI1YTlmMWZkZjUwOGEwZjc0MmEwNzc2NmNmZmViNmY1OWJiM2RhZDkzZDZl",
+      "id": "0xb70d67e1f9b9d86b4f2825a9f1fdf508a0f742a07766cffeb6f59bb3dad93d6e",
+      "title": "Rebalance Treasury",
+      "content": "\nIn preparation for the project currently known as GOD MODE :)\nWe should be shooting for a treasury that looks something like:\n60% Stables 30% Network Tokens 10% Client Gov tokens\n\nCurrently we are close to 75% network tokens (64 ETH value is $250k).\n\nIf we go ahead and sell 5-10% of CRE8R tokens via a copper LBP we should be able to raise 1-2m which would put things back roughly in balance but currently we are waaaay overweight in ETH. \n\nEthereum foundation recently sold some ETH which has traditionally stood them in good stead to carry on their work. We should take a leaf out of their book and do the same. \n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 9,
+      "blockNumber": 13642408,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0xb70d67e1f9b9d86b4f2825a9f1fdf508a0f742a07766cffeb6f59bb3dad93d6e",
+      "startTime": {
+        "timestamp": 1637244000
+      },
+      "endTime": {
+        "timestamp": 1637323200
+      },
+      "startTimestamp": 1637244000,
+      "endTimestamp": 1637323200,
+      "currentState": "closed",
+      "choices": [
+        "Sell 50% Of ETH",
+        "Sell 100% of ETH",
+        "Keep the ETH",
+        "Keep  ETH but do USDC LBP asap"
+      ],
+      "results": [
+        {
+          "total": 8.0,
+          "choice": 2
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        },
+        {
+          "total": 8.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHg4NDM2OTVmMjA0MmY4NTBjMTg0MDYyNWRiOWUzZmQ5NjVmODQzN2I0YTA3YTE4ZmQ2ZGIyM2I2MDA4ZWFmYjM5",
+      "id": "0x843695f2042f850c1840625db9e3fd965f8437b4a07a18fd6db23b6008eafb39",
+      "title": "Genomes Incentives",
+      "content": "This is what Genomes will be giving to our DAO treasury according to how much ETH they raise in MISO:\nhttps://docs.google.com/spreadsheets/d/19YKMhGnLWHWCjaBUud1LEVQwLWRGwgLTgmLi-HaVwIg/edit#gid=0\n\nConsidering the above and also that they have paid 10k (not 20K)\nHow much CRE8R tokens should we use to incentivise our campaign to help them reach their goal?\n\nWe can't give them Zero as that would be breaking the original deal made by sales team that secured the campaign in the first place. \n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 6,
+      "blockNumber": 13610393,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x843695f2042f850c1840625db9e3fd965f8437b4a07a18fd6db23b6008eafb39",
+      "startTime": {
+        "timestamp": 1636851600
+      },
+      "endTime": {
+        "timestamp": 1637024400
+      },
+      "startTimestamp": 1636851600,
+      "endTimestamp": 1637024400,
+      "currentState": "closed",
+      "choices": [
+        "10k",
+        "20k",
+        "30k",
+        "40k",
+        "50k"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 5.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6MHgwMGVmM2MwMjA2MTUyZTM5YjNjMWI1YmUzNjIxOTlmYmU2ZmM4ZGQwMjY5NDk2ZjM2ZWQ2YjAzM2FlMmI3YmVl",
+      "id": "0x00ef3c0206152e39b3c1b5be362199fbe6fc8dd0269496f36ed6b033ae2b7bee",
+      "title": "Put USDC to work",
+      "content": "I would like to propose we put our USDC from our Spiritswap payment\n\n15000USDC to work in one of the following beefy vaults\n\ncrv gUSDC/fUSDT/DAI - 77% (currently) (geist tokens)\nsteady beet - USDC/DAI - 29%\nziggy and MIM - USDC/fUSDT/MIM - 28%\n\nhttps://app.beefy.finance/#/fantom\n\ncheck them out here",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 8,
+      "blockNumber": 13593979,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/0x00ef3c0206152e39b3c1b5be362199fbe6fc8dd0269496f36ed6b033ae2b7bee",
+      "startTime": {
+        "timestamp": 1636621200
+      },
+      "endTime": {
+        "timestamp": 1636707600
+      },
+      "startTimestamp": 1636621200,
+      "endTimestamp": 1636707600,
+      "currentState": "closed",
+      "choices": [
+        "crvgCRV",
+        "Steady Beets",
+        "Ziggy and MIM"
+      ],
+      "results": [
+        {
+          "total": 8.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1idXllYWo3Z250a24zempiYm1qamoydnpsaHI0ZmdyeDRjeTNieXRhZHNqaQ==",
+      "id": "QmbuyEAj7GNtKn3zJBbMJjj2VZLHR4FgrX4CY3BytADsJi",
+      "title": "Workflow Processes & Admin & Miscellaneous Budget",
+      "content": "We have 30k CRE8R tokens available for Vision Mission Branding and Content Marketing over 3months. \n\nThe plan was for working groups to form and propose budget / plan for themselves for the remaining 70k that has been approved. \n\nIt has become apparent that this is dragging and we need to be able to pay out tokens for workflow processes (systems design, setup, improvement) and admin (all the stuff that we do on a daily basis that keeps the DAO functioning). \n\nThis proposal bundles up all that into one thing 70k CRE8R tokens over 3 months for everything. \n\nI have had countless conversations that go like this: \n\nPerson 1: \"OK thing x needs to get done do we have budget for that? And which working group should this be organised under? \n\nPerson 2: \"Oh that should go under workflow and processes but we have not passed the snapshot for that yet. Hmm should  we just put it under vision mission branding?\n\nPerson 3 \"Nah thats disorganised. We really need to get around to making the snapshot for workflow and processes. \n\n/end\n\nWell this is that snapshot. \n\nExamples of how this budget is to be spent. \n\n-Admin-\n\nAdmin of website, YT channel, discord, token streaming, social media accounts, tools, google drive, trello,  MULTISIG*. \n\n*See Fugu's new financial section which is extremely valuable to keep our finances organised. He has done that will zero certainty about getting paid (because there is no budget for that stuff defined) this proposal fixes that. \n\n-Workflow / Processes-\n\nGo checkout the workflow processes channel to see all the stuff we are already working on. And we are only scratching the surface.\n\n70k is max budget for 3 months it does not have to all get spent. It does not mean all of it will be distributed. \n\n\n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 7,
+      "blockNumber": 13489720,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmbuyEAj7GNtKn3zJBbMJjj2VZLHR4FgrX4CY3BytADsJi",
+      "startTime": {
+        "timestamp": 1635210000
+      },
+      "endTime": {
+        "timestamp": 1635469200
+      },
+      "startTimestamp": 1635210000,
+      "endTimestamp": 1635469200,
+      "currentState": "closed",
+      "choices": [
+        "nah 35k is enough",
+        "70k is good",
+        "No. Peeps should jst work 4 free"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 6.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1ybGplazM1Ymhuajc1eHZldmpjOXpzdnZ4amt1Z2htcHVmcGdsaDZsbGtrZg==",
+      "id": "QmRLJEk35bhnJ75XvEVJC9zSVVxjkuGhMPuFPgLH6LLkkF",
+      "title": "Idle Eth is ethgly",
+      "content": "I would like to propose we put \n20 ETH\nof our idle ETH into the Mushrooms vault. \n\nhttps://mushrooms.finance/vaults\n\nThe protocol is currently displaying \n27.9% Adjusted APR\n\nIt's running a strategy where is uses the ETH to borrow USDP to farm yield on curve. \n\nI have had many conversations with the devs of this protocol and can vouch for their intents and abilities. \n\nwe can also, if we want stake our vault share to farm Mushroom tokens\n0.62% Total APR\nbut i don't think this is needed and would warrant the gas..\n\nThere is also the idea that we might need this ETH to LP in the near future. \n\nI suspect the cost to enter and exit will be 0.02 x 2 = 0.04ETH\n\n20 ETH x 0.25 = 5\n5/ 365days = 0.0136\n\nso therefore, it will take approximately 3-4 days to recoup the gas loss\n\nNOTE!\nThis proposal ends on  Oct 26, 2021, if the APR changes drastically to the downside on this time. Then this proposal is invalidated!!\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 7,
+      "blockNumber": 13472379,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmRLJEk35bhnJ75XvEVJC9zSVVxjkuGhMPuFPgLH6LLkkF",
+      "startTime": {
+        "timestamp": 1634974200
+      },
+      "endTime": {
+        "timestamp": 1635220800
+      },
+      "startTimestamp": 1634974200,
+      "endTimestamp": 1635220800,
+      "currentState": "closed",
+      "choices": [
+        "Hodl the ETH. no 🍄",
+        "Vault the ETH",
+        "Vault and farm 🍄"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW16c3VsbjZ3ZXFzaXJlczloa2NodHAxa2RmcHV6anl4cjR1dHA4aXdxbTcycA==",
+      "id": "QmZSULn6weqsires9HkcHTp1kDFpuZJyXr4UtP8iWqm72P",
+      "title": "Sell the NFT?",
+      "content": "The debate as to whether to sell our NFT or not has been creating some duress in our DAO.. and I would like to ask to settle this once and for all. \n\nI think its a good time to ask as our snapshots are more actively voted on. \n\nFYI. \n\nour NFT 100 selling price is currently going for 2ETH\nour NFT 100 are eligible for 62K CRE8R\n\nSince the most recent vote (4/5) was for continuing we must honor this.. and continue until this is settled. \n\nif we continue to sell them, we can stop again in the future. ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 10,
+      "blockNumber": 13440848,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmZSULn6weqsires9HkcHTp1kDFpuZJyXr4UtP8iWqm72P",
+      "startTime": {
+        "timestamp": 1634547300
+      },
+      "endTime": {
+        "timestamp": 1634979300
+      },
+      "startTimestamp": 1634547300,
+      "endTimestamp": 1634979300,
+      "currentState": "closed",
+      "choices": [
+        "Sell them for now",
+        "Stop",
+        "Sell them until 50 NFTs out",
+        "Sell them until 75 NFTs out"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 2
+        },
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 3.0,
+          "choice": 1
+        },
+        {
+          "total": 7.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW10amZkbXhrYWxoY3BocmFja3ZiOHp1YWR2M3pyYXN3dnVsanZhMXk2dmdtcw==",
+      "id": "QmTjFDmXkaLhCPHRaCkvB8zUadV3zRasWVULJVa1Y6VgmS",
+      "title": "Provide $5K Liquidity For HOP Protocol",
+      "content": "Hello frens,\nWe have a treasury with a bunch of stables sitting in it. They are doing nothing. Why not provide liquidity on Hop? They will probably have a token soon and you know what that means. Potentially promising.\nhttps://hop.exchange/",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 13,
+      "blockNumber": 13384699,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmTjFDmXkaLhCPHRaCkvB8zUadV3zRasWVULJVa1Y6VgmS",
+      "startTime": {
+        "timestamp": 1633791600
+      },
+      "endTime": {
+        "timestamp": 1634400000
+      },
+      "startTimestamp": 1633791600,
+      "endTimestamp": 1634400000,
+      "currentState": "closed",
+      "choices": [
+        "LFG",
+        "This idea is stupid"
+      ],
+      "results": [
+        {
+          "total": 13.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 13.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW16YmdmdW1mcWlpajh4YmpqZWhhNmM4cGN1cno3cndxcHF6ZWpxYmplazQ3dw==",
+      "id": "QmZBgFuMfQiij8xBjJeHA6C8PCuRZ7RWqPQZEjqBjEk47W",
+      "title": "Token Dis - Vest or No",
+      "content": "This is a follow up vote for this proposal. \n\nhttps://snapshot.org/#/cre8r.eth/proposal/QmWny9fnGyw4X8LiaD9ggfFMfU7ZnDQgWeHJfHuTbsLTCP\n\nPeople are concerned that these tokens should be vesting.. So this is proposal assume that one above passed.. \n\nShould we vest? You can vote on multiple choices\n\nVesting will be for 1 year, via sablier on Ethereum Main net.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 11,
+      "blockNumber": 13401821,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmZBgFuMfQiij8xBjJeHA6C8PCuRZ7RWqPQZEjqBjEk47W",
+      "startTime": {
+        "timestamp": 1634017500
+      },
+      "endTime": {
+        "timestamp": 1634356800
+      },
+      "startTimestamp": 1634017500,
+      "endTimestamp": 1634356800,
+      "currentState": "closed",
+      "choices": [
+        "Vest MSig",
+        "Vest F100",
+        "Vest Discord",
+        "Dont Vest Msig",
+        "Dont Vest F100",
+        "Dont Vest Discord"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "approval",
+      "indexedResult": [
+        {
+          "total": 11.0,
+          "choice": 0
+        },
+        {
+          "total": 10.0,
+          "choice": 1
+        },
+        {
+          "total": 5.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 1.0,
+          "choice": 4
+        },
+        {
+          "total": 2.0,
+          "choice": 5
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW13bnk5Zm5neXc0eDhsaWFkOWdnZmZtZnU3em5kcWd3ZWhqZmh1dGJzbHRjcA==",
+      "id": "QmWny9fnGyw4X8LiaD9ggfFMfU7ZnDQgWeHJfHuTbsLTCP",
+      "title": " Token Initial Distribution",
+      "content": "\n**SUMMARY**\n\nThis is a proposal to distribute some CRE8R tokens.\n\n**BACKGROUND**\n\n* Some Cre8rs are concerned about the tax implications of distributing tokens post assignment of value.\n\n* Some Cre8rs have done a lot of admin, and marketing, work that has gone unrewarded.\n\n* In order to get whitelisted for Bancor LPs, we need to have the token distributed somewhat. So I would like to propose some. \n*(This proposal is not agreeing to use bancor as our LP,  just to get the option to do so)*\n\n\n**SPECIFICATION**\n\nThe $CRE8R token has a max supply of 88,888,888\n\nThe proposal is to allocate 8,888,888 tokens (10% of the MSup) for immediate and later distributions.\n\n* 25% of the 8,888,888 to the Multisig.\n\nThey have been here since the start.\nThey have done many things to take us where we are today.\n{insert your validations, or conflict below}\nIf this is to pass, that would be 2,222,222 tokens or 370,370 (rounded) each\n\n* 70% of the 8,888,888 to the F100 NFT holders\n\nThey have earned their place in the DAO\nThey will continue to partake in further projects\nWe won’t need to add CRE8R tokens to individual Circles\n{insert your validations, or conflict below}\nIf this is to pass, that would be 6,222,222 tokens or 62,222 (rounded) each - Many of these will remain in the treasury until all F100 NFT have been given and earners that become eligible after the value is assigned via an LP will be streamed via sablier\n\n* 5% to the people that have been active in the discord channel proportional to their activity. Dunks can explain this better than me. \n\nThese people are also the dao, and they deserve compensation. We COULD consider this also a way to recruit more to the discord, but I worry about this.\nIf this is to pass, that would be 444,444 tokens or assuming 620 members 717 (rounded) each\n*Dunks has a tool to grade people in the discord based on their contribution so although it the total is divided by the members, they will not all receive equal shares.*\n\nFor the discussion: \n\nhttps://discourse.cre8r.vip/t/cre8r-distribution-proposal/36",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 12,
+      "blockNumber": 13391425,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmWny9fnGyw4X8LiaD9ggfFMfU7ZnDQgWeHJfHuTbsLTCP",
+      "startTime": {
+        "timestamp": 1633838400
+      },
+      "endTime": {
+        "timestamp": 1634356800
+      },
+      "startTimestamp": 1633838400,
+      "endTimestamp": 1634356800,
+      "currentState": "closed",
+      "choices": [
+        "GIB dem CRE8Rs",
+        "GIB no-one"
+      ],
+      "results": [
+        {
+          "total": 12.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 12.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1wa3FqYjRscGJpZ3A4anJ0c3Nva2ZkZWtzZ3FvYmp2eHJzNHhkeW1jampyYg==",
+      "id": "QmPkqjB4LpBiGP8JrTsSoKfDekSGQoBJVxRs4XdymcjJrb",
+      "title": "Update F100 Requirement",
+      "content": "*In order for CRE8RS to earn the role of F100, they must meet ALL the following criteria:\n\n- 3 months of participation with CRE8R Dao (participation = Discord, weekly meetings, Discourse and Coordinape)\n- 3 epochs through Coordinape\n- Earned $5000\n- There may be other instances where participants don't create content and/or are in special circumstances. We will need deal with these on a case by case basis.  \n\n**NOTE** F100 membership can be revoked if: \n- They do not vote in Snapshot + Coordinape 10 times in total\n- Display behaviours that are unlawful and/or inappropriate for the reputation of the DAO\n\nFor more info regarding why we're updating F100 requirement, please refer to these two Discourse posts:\n\n https://discourse.cre8r.vip/t/f100-rights-rules-and-responsibilities-token-distribution/41\n\nhttps://discourse.cre8r.vip/t/cre8r-distribution-proposal/36/9",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0xBc005Fa1476d6E4f582B6B067D15D4ed512536ae",
+      "totalVotes": 8,
+      "blockNumber": 13407355,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmPkqjB4LpBiGP8JrTsSoKfDekSGQoBJVxRs4XdymcjJrb",
+      "startTime": {
+        "timestamp": 1634091180
+      },
+      "endTime": {
+        "timestamp": 1634320800
+      },
+      "startTimestamp": 1634091180,
+      "endTimestamp": 1634320800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, let's go with the update",
+        "Not, let's not change"
+      ],
+      "results": [
+        {
+          "total": 8.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1iaGt2YXc5cnhlemZleXBxY3pvOHljZmZtenBydWtlcnFoMTcyMmhudjZ5bg==",
+      "id": "QmbhKVaw9RxEZFeYPqczo8YCfFMzpRuKerQh1722HnV6yn",
+      "title": "15K Bean ????",
+      "content": "THis is asking what we do with the BEANs we have in the MSig.\n\nNOTE: 15k *.15 = 2250 Treasury share\n\n* If SOW all the beans,, we can't pay anyone but its becomes 180K beans if and when the pod line clears\n\n* If we SOW  2250 Beans they become 27K beans\n\n* If we Silo, we hope it brrs above peg",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 1,
+      "blockNumber": 13415444,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmbhKVaw9RxEZFeYPqczo8YCfFMzpRuKerQh1722HnV6yn",
+      "startTime": {
+        "timestamp": 1634203800
+      },
+      "endTime": {
+        "timestamp": 1634317200
+      },
+      "startTimestamp": 1634203800,
+      "endTimestamp": 1634317200,
+      "currentState": "closed",
+      "choices": [
+        "Sell all 15K ~1USD",
+        "Sell 12750 ~1USD / Sow 2250",
+        "Silo them all",
+        "Sell 12750 / Silo 2250",
+        "Sow em all",
+        "Silo them all"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 4
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 1.0,
+          "choice": 4
+        },
+        {
+          "total": 0.0,
+          "choice": 5
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW15MTFqd2hyejFhc212cDFxMTFjZXdiNHh4OXd6eXRnbmlldTF6b3Vzd3V2dg==",
+      "id": "QmY11jWhrZ1asmVp1Q11CEwB4XX9wzYtgniEu1ZouSWUVV",
+      "title": " Proposal to get bowtiednerd into the founding 100",
+      "content": "Title: Proposal to get bowtiednerd into the founding 100\nDate Created: 12th Oct 2021\n\nSUMMARY\n\nBowtiednerd and me (bowtiedmtgoat) are co-founders of The Reading Ape. There are two of us working on the content but for simplicity, we’re using only one account to vote. That’s my account. As such bowtiednerd will need to go through this path to get voted in instead of the usual criteria way, because he won’t ever have fulfilled the criteria based on his account alone. I think that’s not fair for him.\n\nReasons:\n\nWe have a total of 7 epochs, getting over 6k USDC since we joined the DAO, so this is more than enough for the criteria for 2 persons to be eligible for the F100\n\nOur voting address and wallet for payment from the DAO is this: 0x46236f725FDc61DF68e6AB12D094Cf5995a15802, so feel free to verify. Most are in eth mainnet and a part of it is in polygon.\n\nI always believed in deeds, not words. I hope both of us have proven to be valuable members of the DAO through our actions, not merely in words.\n\nWould love to hear if there are anyone who opposes this? Please state why and I hope to address this.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 8,
+      "blockNumber": 13407131,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmY11jWhrZ1asmVp1Q11CEwB4XX9wzYtgniEu1ZouSWUVV",
+      "startTime": {
+        "timestamp": 1634000400
+      },
+      "endTime": {
+        "timestamp": 1634173200
+      },
+      "startTimestamp": 1634000400,
+      "endTimestamp": 1634173200,
+      "currentState": "closed",
+      "choices": [
+        "LFG",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 8.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1udnF3cHIzZWE2d2txbWg0aTJ4NDFxeXVyY3pmdXllbXc5M3hjN2Y3YWlobQ==",
+      "id": "QmNVqwPr3Ea6wkQMH4i2x41QYUrCZFUyemW93xc7f7AiHm",
+      "title": "Put all 15K USDC in farm",
+      "content": "This is to put our whole 15K on ftm in a curve pool to farm SPELL until the end of the contract and then we can pull it out and payout everyone. \n\nthe earned SPELL stays in the treasury. but the trading fee increase is added to the budge for coordinape",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 8,
+      "blockNumber": 13404417,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmNVqwPr3Ea6wkQMH4i2x41QYUrCZFUyemW93xc7f7AiHm",
+      "startTime": {
+        "timestamp": 1634052900
+      },
+      "endTime": {
+        "timestamp": 1634094000
+      },
+      "startTimestamp": 1634052900,
+      "endTimestamp": 1634094000,
+      "currentState": "closed",
+      "choices": [
+        "put in work",
+        "hodl the USDC"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1ieGhhbm53ejN2amN2dmdkNGVieHh3YnMxMW16enV2czhnNXQyMTFxbW1ueQ==",
+      "id": "QmbxHannwz3VJCvvgd4ebXXWbS11mZZuVS8G5t211QmMny",
+      "title": "Should we implement the 'vouching' system for our payment distribution via Coordinape?",
+      "content": "In the past few epochs we have used the 'content filtering' system. However, this has been highly controversial. You may be thinking:  why do we need 'filtering or vouching' for our content? \n\n📌 The simple answer to that is: We are a marketing DAO and the quality of our content should be one of our top priorities.\n\nThe 'content filtering' system filters on the content level. The new 'vouching' system will filter on the 'CRE8R' level. How will this work?\n\n1. Coordinape has the vouching system built in. \n2. New CRE8RS (or ones that haven't made $2k + participated in 3 or more epochs) will need to be nominated by 1 'seasoned' CRE8R and then vouched in by 2 other 'seasoned' CRE8RS. \n3. There is no waiting period. Say if our next Coordinape epoch is 'Infinity Skies' and we have a few new CRE8RS that want to get compensated for their work. All they need is 1 nominator and 2 other cre8rs who vouch for them to enter the epoch.  This whole vouching ordeal can be done 1 or 2 days ahead of the start of the epoch.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0xBc005Fa1476d6E4f582B6B067D15D4ed512536ae",
+      "totalVotes": 10,
+      "blockNumber": 13391176,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmbxHannwz3VJCvvgd4ebXXWbS11mZZuVS8G5t211QmMny",
+      "startTime": {
+        "timestamp": 1633874400
+      },
+      "endTime": {
+        "timestamp": 1634061600
+      },
+      "startTimestamp": 1633874400,
+      "endTimestamp": 1634061600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, let's do it! ",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1zYXVhdGRmOWdrOXV4bG5ndWRueGVtcHplYzVtcHA5azk0amhxajZmZHhuag==",
+      "id": "QmSAUatdf9GK9UxLnGUdnxeMPzEc5Mpp9k94JHqJ6fDxnj",
+      "title": "30k $CRE8R Tokens Budget For Vision, Branding & Marketing",
+      "content": "Reposting with much more detail based on feedback from the last proposal which passed. Good to make sure we have proper consensus on this. \n\nFull proposal here:\n\nhttps://discourse.cre8r.vip/t/30k-cre8r-tokens-budget-for-vision-branding-marketing/35\n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 7,
+      "blockNumber": 13326617,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmSAUatdf9GK9UxLnGUdnxeMPzEc5Mpp9k94JHqJ6fDxnj",
+      "startTime": {
+        "timestamp": 1632880800
+      },
+      "endTime": {
+        "timestamp": 1633140000
+      },
+      "startTimestamp": 1632880800,
+      "endTimestamp": 1633140000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW14bDlxbHlhZHpxaTl4bWdmYXF4cnE5M2N0bXppeGtwZXBjbmVzczE2aTFwaA==",
+      "id": "QmXL9qLYaDzQi9xMGfAqXrQ93CtMZiXKPepCNESS16i1PH",
+      "title": "30k $CRE8R Tokens Budget For Vision, Branding & Marketing",
+      "content": "This proposal makes 30K CRE8R tokens available for a Coordinape circle.\n\nThe purpose of this is to bring all our creators together to discuss and work on documenting our vision and brand and then help more people understand who we are, what we do and how they can get involved. \n\nLets work together and come up with a vision that we can all agree on, and be proud of. \n\nAnd then go share it with world. \n\nWe already passed the proposal for 100k $CRE8R tokens budget we are applying for a share of that budget (not extra). \n\n10k per month distributed via coordinape. Anyone can join using the vouching system ( https://discourse.cre8r.vip/t/remove-content-filtering-system-replace-with-vouching-system/34 ). \n\n\n\n\n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 6,
+      "blockNumber": 13302909,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmXL9qLYaDzQi9xMGfAqXrQ93CtMZiXKPepCNESS16i1PH",
+      "startTime": {
+        "timestamp": 1632621600
+      },
+      "endTime": {
+        "timestamp": 1632880800
+      },
+      "startTimestamp": 1632621600,
+      "endTimestamp": 1632880800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW16NXdnYnRwZ2VqbHp5MnVmcGNqdHBlMnVldWx0ODMyY3ltYnZxcGd3YXplZw==",
+      "id": "QmZ5WgbTPgEjLZy2ufpcJtPe2uEULT832cymBVQpGWaZeG",
+      "title": "100k CRE8R Tokens to be made available for initiativesor working groups",
+      "content": "Problem:\nCurrently people are only paid to create content for client projects, not for any other work they do. \n\nSo there is no clear mechanism to move the DAO forward.\n\n\nObjective:\nReward people to propose, discuss, do & manage things that are not being paid for currently by Coordinape.\n\nSolution:\nIn this weeks meeting we discussed \"Working Groups\" which are initiatives to improve an specific aspect of the DAO. Currently these are organised into threads. \n\nThe idea of this is pretty simple. Weekly meetings cover too much stuff and there is to many open conversations in discord that are not being worked through to a conclusion. So now we can make dedicated groups that anyone can join. These groups will create proposals (for budget or otherwise) which will be voted on in snapshot if needed. \n\nThe members of these working groups should be rewarded for their effort! This proposal makes that possible.\n\nCurrent examples of active working groups (please note each one of these needs to apply for their share of the 100k budget). \n\nAlso note these groups may apply for additional budget which is outside of the 100k which is purely to reward working group members. \n\n-Token Use \n-Workflow Processes \n-Incentives for joining working groups and participating and getting the result \n-Strategy For Campaigns \n-Content Marketing For CRE8R DAO\n-Incentives program for KPI based clients\n\nWe ( @Bee926#4033 @PassiveCrypto#6857 @dunks411  ) propose  100k CRE8R Tokens to be made available for working groups. Each group will need to make their own proposals for their share of that budget.\n\nWorking groups can have their own Coordinape circles to distribute their share of the CRE8R tokens.\n\nThe proposals for share of 100k budget will need to pass certain criteria which may include:\n\n-timeline\n-specific, measurable results\n-etc\n\nThis criteria itself will be a work in progress that can be futher defined based on feedback from proposals. Founding 100 will be required to vote and give feedback the working groups proposals.  \n\nFinal note:\nThere is no timeline for the use of this 100k. Working groups can apply for as little or as much as they feel they need and the timeline and deliverables will be defined in those proposals. If all the 100k budget gets allocated then it will be up to the DAO to renew this budget or not. \n\nThis proposal just provides a basic framework and gives some permission to DAO members to apply for budget. \n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 8,
+      "blockNumber": 13238400,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmZ5WgbTPgEjLZy2ufpcJtPe2uEULT832cymBVQpGWaZeG",
+      "startTime": {
+        "timestamp": 1631757600
+      },
+      "endTime": {
+        "timestamp": 1632016800
+      },
+      "startTimestamp": 1631757600,
+      "endTimestamp": 1632016800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 8.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1zbW1ibGJ4d3h4MnJnc2Q4bGJpcHNkc3Y2ZnBuYjJsb3V0dzQ2M2tkZXpkZw==",
+      "id": "QmSmmbLbXwXx2RGSd8LbiPsDSV6fPNb2LoutW463Kdezdg",
+      "title": "Adding F100 to CoorApe",
+      "content": "This is a simply proposal. I would like to add ALL of the F100 to EVERY coordinape circle. They would be default opt-out. And should only opt-in if they contributed to this content.\n\nI think this will add a helpful dilution of GIB value and help to mitigate low quality/low reach content from receiving so much.\n\nChoices\nYES - Add all the F100 to every circle with default opt-out\nNO - Only allow people that produced content to give GIBs\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 11,
+      "blockNumber": 13214976,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmSmmbLbXwXx2RGSd8LbiPsDSV6fPNb2LoutW463Kdezdg",
+      "startTime": {
+        "timestamp": 1631505600
+      },
+      "endTime": {
+        "timestamp": 1631851200
+      },
+      "startTimestamp": 1631505600,
+      "endTimestamp": 1631851200,
+      "currentState": "closed",
+      "choices": [
+        "YES - F100 all in",
+        "NO -  Only contributors"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW12Z25kZWlrY3ZyaXJjbzVkamVqbXNwdWVrYW15bmF5eG12dHpkcXhteWFxZQ==",
+      "id": "QmVgNDeiKCvrirCo5dJEJMsPUEKaMyNaYxMvtZdQxmyAqe",
+      "title": "Disquality Memes From Meme Generator Sites (Imgflip etc.) from Coordinape",
+      "content": "Far too often CRE8RS are going to meme generator sites such as imgflip.com  or others, writing in some text, and submitting that as work for the Epoch. In my opinion this should not count for the Coordinape because it is low effort, and low quality, especially because much of the time, the watermark from the website is still visible in the corner. These kinda of things are embarrassing to showcase to clients and as we're maturing as a DAO we need to up the quality, and in the case of memes, LOLZ of our work. It is also a major waste of resources because these kinds of memes are getting some CRE8RS hundreds of dollars each epoch. 💰 ➡ 🗑️\n\n🛑 WE NEED TO END THIS. 🛑\n\nThat's why I am making this snapshot vote. We need work we are proud to showcase, not the kind of memes you find on the Telegram of a third tier rug on BSC. \n\nThat isn't to say if you have a silly meme idea and want to run it off quickly, Tweet it out, or whatever using one of these sites it shouldn't be allowed, but it should be disqualified from the coordinape.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x72eA986B93b63bc0e0d146b850003C2e6FF187aC",
+      "totalVotes": 11,
+      "blockNumber": 13135331,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmVgNDeiKCvrirCo5dJEJMsPUEKaMyNaYxMvtZdQxmyAqe",
+      "startTime": {
+        "timestamp": 1630440000
+      },
+      "endTime": {
+        "timestamp": 1630857600
+      },
+      "startTimestamp": 1630440000,
+      "endTimestamp": 1630857600,
+      "currentState": "closed",
+      "choices": [
+        "No more money for these memes 🛑",
+        "Keep these kind of memes in  ✅"
+      ],
+      "results": [
+        {
+          "total": 9.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1mMXpiamNwdnRsbWFheDE3ejR5b21xZjI5cHRyZ2FmdnE0amV4N3dqYWdxdQ==",
+      "id": "Qmf1zBJCPVtLmaAx17z4Yomqf29PtrgafVq4jeX7WJaGQu",
+      "title": "Continue Selling Founding 100 NFT ",
+      "content": "It has been suggested that we have other ways to raise money for liquidity which is true. But even these ways (pfp project) will cost money as well. PFP project needs devs and artists plus a lot of design and planning. \n\nIt may take months to do the PFP project properly without it being a low quality cash grab. If we are going to do it properly we should have money in treasury to pay for what we need not asking people to do stuff for equity (isn't that the suggested reason we don't want to sell our founding 100 NFT LOL?!?!). \n\nConsider the numbers 2% (rounded it up its actually 1.75%) share of DAO for min 50ETH (doesn't count price increase per epoch).  = 50ETH. Which is 150,000USD. \n\nThis puts full valuation at $7500,000 \n\nWith price increase per epoch we may not sell these fast (that's good we want to save a lot for creators) but the people who buy them will buy them for a reason. Because they want to be part of this and they will be paying a lot of money for that privilege! \n\nWe are not just selling a 1.75% (half of 3.5% assuming half sell half earned) share of the DAO we are offering different kinds of people who are not creators a chance to join us and help us in many ways. Clients can buy these if they want to be able to vote or we can gift them to repeat clients. People who like the project and have vision and energy to help steer it in the right direction can buy these and join in our early governance as well as helping with biz dev and internal processes, knowing that they are working on something they own a share of. \n\nAlso it gives these NFT's real value NOW. They are purchasable but you as a creator can earn them WHILE getting paid for client work. It also puts an incentive to work hard and get them quick because they can get bought up. Otherwise they can just sit there for months with no urgency to earn them. \n\nPlease stick to the original design of this. We have already sold one and the guy who bought it is super cool! Maybe chat with him and find out his perspective? IMO he is already a great asset to the DAO. \n\nNo matter what we need to honour his share of the tokens when they launch.   ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 7,
+      "blockNumber": 13107610,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/Qmf1zBJCPVtLmaAx17z4Yomqf29PtrgafVq4jeX7WJaGQu",
+      "startTime": {
+        "timestamp": 1630116000
+      },
+      "endTime": {
+        "timestamp": 1630634400
+      },
+      "startTimestamp": 1630116000,
+      "endTimestamp": 1630634400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1zeThzZGhrcnBndzh2dGtnbzZuenBneGttOHd0OGFtcXVqa2FpeXhmeHYyNA==",
+      "id": "QmSY8sDhkrpGW8vTkgo6NZPGXkM8Wt8AmQuJkaiyxfxV24",
+      "title": "BowTied Founding 100",
+      "content": "These guys smash it. Bring them in!\n\nThey earned it: https://etherscan.io/address/0x46236f725fdc61df68e6ab12d094cf5995a15802#tokentxns",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 7,
+      "blockNumber": 13107647,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmSY8sDhkrpGW8vTkgo6NZPGXkM8Wt8AmQuJkaiyxfxV24",
+      "startTime": {
+        "timestamp": 1630116000
+      },
+      "endTime": {
+        "timestamp": 1630461600
+      },
+      "startTimestamp": 1630116000,
+      "endTimestamp": 1630461600,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1hd25uNG1mc2N3bmJuZndkYmNoaXV5a2p0eXM0dWR2bXY4OG9ucDFhbWw1ZQ==",
+      "id": "QmawnN4MFSCwnbnfWdbChiUYkjTyS4udvmV88oNp1aML5e",
+      "title": "Buy ETH with Treasury",
+      "content": "FOR - Convert our holding in $DAI to $ETH\nAgainst - Leave $DAI in our Treasury\n\nRecently, I had issues with dispersing $DAI out of the MSig. However, I think I might have found a solution to this and might be able to do it afterall. \n\nThat being said, I had some interesting conversations with people as an outcome of this. \n\nSome said, \n- we are all Degens and holding ETH is what we do.\n- the cost to send ETH (gas) is cheaper than any other ERC20\n- if stables are sent, it limits the usability. USDC-->ETH--->shitcoin\n- if ETH doesn't makes it we all NGMI\n- ETH has upside\n- we could very simply make each GIVE worth x amount of ETH (ie 0.003ETH)\n- holding USDs in the war-chest is very irresponsible as it could be yielding somewhere.\n\nOthers said\n- ETH might dump soon in USD value.\n- The bigger the pool the better.\n- USDs historically has better yield in deFi (if we were to actually deploy it)\n- trading fees between USDs are lower then tkn-ETH LPs\n- one of our former clients has a use case for USDC (BMI) whereas none of our clients have one for ETH only.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x3c5Aac016EF2F178e8699D6208796A2D67557fe2",
+      "totalVotes": 8,
+      "blockNumber": 13107647,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmawnN4MFSCwnbnfWdbChiUYkjTyS4udvmV88oNp1aML5e",
+      "startTime": {
+        "timestamp": 1630123200
+      },
+      "endTime": {
+        "timestamp": 1630382400
+      },
+      "startTimestamp": 1630123200,
+      "endTimestamp": 1630382400,
+      "currentState": "closed",
+      "choices": [
+        "FOR Vitalik",
+        "Against Vitalik"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1zbjZicXdwa3V1ZHdkc3M0a3NjaHNuYXRkYmRlZWZ3aWJwamU0c3FrYWN6aQ==",
+      "id": "QmSN6bqwpKuUdwdSs4KSChsNAtDbDEEFwiBPJe4sQkAcZi",
+      "title": "Put 10k in BMI",
+      "content": "\"$BMI is good shit\"\n\n-Ceazor",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 8,
+      "blockNumber": 13107647,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmSN6bqwpKuUdwdSs4KSChsNAtDbDEEFwiBPJe4sQkAcZi",
+      "startTime": {
+        "timestamp": 1630116000
+      },
+      "endTime": {
+        "timestamp": 1630375200
+      },
+      "startTimestamp": 1630116000,
+      "endTimestamp": 1630375200,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1udHlnd2hydjR4aHpxajFwcXNhdnR0N2w3eWZxOGpuc3BxYnlzZ3R4emdxaQ==",
+      "id": "QmNtyGwHrV4XHzqj1PqSavtT7L7YFQ8jNsPQbYSGtXZGqi",
+      "title": "receive = recieb",
+      "content": "i before e is correct usage here.  ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 2,
+      "blockNumber": 13049029,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmNtyGwHrV4XHzqj1PqSavtT7L7YFQ8jNsPQbYSGtXZGqi",
+      "startTime": {
+        "timestamp": 1629079200
+      },
+      "endTime": {
+        "timestamp": 1630375200
+      },
+      "startTimestamp": 1629079200,
+      "endTimestamp": 1630375200,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "YES"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1mYWR5YWhpdWRhdWRld2ZtemR3eG50NWRxZHc1eHJtcXg5YWdudjRyeXVnNw==",
+      "id": "QmfAdYahiudauDeWfMzDwXnT5DqDw5xrMqx9agnV4RYug7",
+      "title": "GIVE = GIB",
+      "content": "",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 2,
+      "blockNumber": 13047582,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmfAdYahiudauDeWfMzDwXnT5DqDw5xrMqx9agnV4RYug7",
+      "startTime": {
+        "timestamp": 1629165600
+      },
+      "endTime": {
+        "timestamp": 1630375200
+      },
+      "startTimestamp": 1629165600,
+      "endTimestamp": 1630375200,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW12aG5xa24yM3Nidng3aGZwaWxwOGt4dGF4dGx2NDh5aWo5dGZvaGNremY2OA==",
+      "id": "QmVhnQkn23SBVx7HfPiLp8kxtaxtLv48yiJ9tfoHcKzF68",
+      "title": "Add Trite to Founding 100",
+      "content": "He has been running an initiative interviewing CRE8Rs as well as running office hours and working on internal processes. ",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 5,
+      "blockNumber": 13102329,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmVhnQkn23SBVx7HfPiLp8kxtaxtLv48yiJ9tfoHcKzF68",
+      "startTime": {
+        "timestamp": 1630029600
+      },
+      "endTime": {
+        "timestamp": 1630375200
+      },
+      "startTimestamp": 1630029600,
+      "endTimestamp": 1630375200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW1xbm5kcGY5bGZ4YWdmcXhyd2lmcHpnYnJseThhOG1menlvMmJxMjI5ZTdkMw==",
+      "id": "QmQnnDPF9LFXagfqxrWiFpzGBrLy8A8MFZyo2bq229E7d3",
+      "title": "Farm $COMFI CRE8R DAO Treasury",
+      "content": "This is a signalling vote only. \nWe may be able to get smart contract risk insurance on this as well?\n\nWe know the protocol is unique, solid and profitable. We know fees will be turned on at some point. We know APY is crazy high atm and with 5x up and 5x down we basically cancel out a large % of our risk. \n\nFarming runs for two months. We could keep enough in treasury to pay out the next couple of epochs and pull more out when needed.\n\nShould we ape it?\n\n",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x069e85D4F1010DD961897dC8C095FBB5FF297434",
+      "totalVotes": 1,
+      "blockNumber": 13096791,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmQnnDPF9LFXagfqxrWiFpzGBrLy8A8MFZyo2bq229E7d3",
+      "startTime": {
+        "timestamp": 1629856800
+      },
+      "endTime": {
+        "timestamp": 1630029600
+      },
+      "startTimestamp": 1629856800,
+      "endTimestamp": 1630029600,
+      "currentState": "closed",
+      "choices": [
+        "0%",
+        "25%",
+        "50%",
+        "100%"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlOHJldGg6c25hcHNob3Q6cW14YXdzcHFtY3F2ZWg3dmhseHFkc24xYXRyOTN4dDlvcnB0eHlmcGF5enRzcA==",
+      "id": "QmXaWspQmcQVEh7VhLXqdSN1aTR93xt9orPTXYFPAyZTsp",
+      "title": "We should be able to say gm whenever we want.",
+      "content": "We should be able to say gm in #gm whenever we want.",
+      "protocol": "cre8reth",
+      "adapter": "snapshot",
+      "proposer": "0x4Ee34BA6c5707f37C8367fd8AEF43F754435F588",
+      "totalVotes": 2,
+      "blockNumber": 13049095,
+      "externalUrl": "https://snapshot.org/#/cre8r.eth/proposal/QmXaWspQmcQVEh7VhLXqdSN1aTR93xt9orPTXYFPAyZTsp",
+      "startTime": {
+        "timestamp": 1629284400
+      },
+      "endTime": {
+        "timestamp": 1629295200
+      },
+      "startTimestamp": 1629284400,
+      "endTimestamp": 1629295200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,437 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6ZWFydGhmdW5kOnNuYXBzaG90OjB4YjU4YmM3M2RlM2Q0MzM4YzY5OWVhZWFiMzdhMDY2M2QwZTJkOTAwZDY5MmY2MTM3N2M1ZjM0MzcwN2RkNjgxMg==",
+      "id": "0xb58bc73de3d4338c699eaeab37a0663d0e2d900d692f61377c5f343707dd6812",
+      "title": "🌍 Proposal EFP-07: change to team and investor token vesting contract",
+      "content": "Summary\n‣ Protect the long-term goals of the project by locking team and private sale tokens for a further period of time\n‣ Delay unlocking of locked tokens from 06/01/2024 to 01/01/2025, three years after 1Earth was minted and launched.\n\nMotivation\n\nWith the altcoin market as it is and our ongoing concerns with KuCoin, we don’t believe it is fair nor right for the long-term health of the project to start unlocking team tokens that will increase the circulating supply.\n\nAs such, the team has decided to propose postponing the start of the 5-year vesting period for until 01 January 2025 (by then 3 years post-token launch) so that the project can recover from this set back and grow into the platform we all believe it can be.\n\nWe will reevaluate the situation again in January 2025 to decide whether to push the team and investor vesting back further.\n\nTechnical information\n\nThis extension will continue to use the Liquidity Pool token (1EarthLP) that entitles each token holder to a pro-rata portion of the liquidity every month until all of the tokens in the pool have been sold.\n\nAll investment and team tokens have been added to a liquidity pool that supports the security of the project and ensures optimal price execution.\nOnce the vesting period begins, a trusted and vetted third party will act independently to liquidate the available pool of private tokens based on a percentage of the previous daily volume, so it does not negatively impact the market. All proceeds will be distributed to investors proportionately according to their LP tokens.\n\nThis liquidation will be done sustainably to protect the long-term health of the project and is likely to result in 5 years of monthly distributions for private investors and the team to collect from the EarthFund investor portal.",
+      "protocol": "earthfund",
+      "adapter": "snapshot",
+      "proposer": "0x7fCb6b551C23018741E299e1e213697d539Ca978",
+      "totalVotes": 11,
+      "blockNumber": 19974754,
+      "externalUrl": "https://snapshot.org/#/earthfund.eth/proposal/0xb58bc73de3d4338c699eaeab37a0663d0e2d900d692f61377c5f343707dd6812",
+      "startTime": {
+        "timestamp": 1716976578
+      },
+      "endTime": {
+        "timestamp": 1717596000
+      },
+      "startTimestamp": 1716976578,
+      "endTimestamp": 1717596000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, extend by 6 months",
+        "No, don't extend by 6 months"
+      ],
+      "results": [
+        {
+          "total": 15939489.0,
+          "choice": 0
+        },
+        {
+          "total": 1870847.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 15939489.086740796,
+          "choice": 0
+        },
+        {
+          "total": 1870847.3008763983,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716976920718,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWFydGhmdW5kOnNuYXBzaG90OjB4YWIzODJkYTk5OGY3OThlMDI1MjhmMTFhZTVlNTA3ZjY1ZGFmNzhjYjllM2ZmZWZiY2VmNjcyYjVjZWFjZWQwYg==",
+      "id": "0xab382da998f798e02528f11ae5e507f65daf78cb9e3ffefbcef672b5ceaced0b",
+      "title": "🌍 Proposal EFP-06: change to team and investor token vesting contract",
+      "content": "Summary\n\n‣ Protect the long-term goals of the project by locking team and private sale tokens for a further period of time\n\n‣ Delay unlocking of locked tokens from 11/19/2023 to 06/01/2024, two and a half years after 1Earth was minted and launched on KuCoin.\n\nMotivation\n\nWe’ve just launched EarthFund 2.0 and are gearing up for a push when the market turns. These efforts should bolster interest in 1Earth. We don’t believe it makes sense to start unlocking team tokens that will increase the circulating supply.\n\nAs such, the team has decided to propose postponing the start of the 5-year vesting period for until 01 June 2024 (by then 2 and a half years post-token launch) so that the project can grow and flourish unencumbered by an increased circulating supply.\n\nWe will reevaluate the situation again in May 2024 to decide whether to push the team and investor vesting back further.\n\nTechnical information\n\nThis extension will continue to use the Liquidity Pool token (1EarthLP) that entitles each token holder to a pro-rata portion of the liquidity every month until all of the tokens in the pool have been sold.\n\nAll investment and team tokens have been added to a liquidity pool that supports the security of the project and ensures optimal price execution.\n\nOnce the vesting period begins, a trusted and vetted third party will act independently to liquidate the available pool of private tokens based on a percentage of the previous daily volume, so it does not negatively impact the market. All proceeds will be distributed to investors proportionately according to their LP tokens.\n\nThis liquidation will be done sustainably to protect the long-term health of the project and is likely to result in 5 years of monthly distributions for private investors and the team to collect from the EarthFund investor portal.",
+      "protocol": "earthfund",
+      "adapter": "snapshot",
+      "proposer": "0x7fCb6b551C23018741E299e1e213697d539Ca978",
+      "totalVotes": 15,
+      "blockNumber": 18534887,
+      "externalUrl": "https://snapshot.org/#/earthfund.eth/proposal/0xab382da998f798e02528f11ae5e507f65daf78cb9e3ffefbcef672b5ceaced0b",
+      "startTime": {
+        "timestamp": 1699539123
+      },
+      "endTime": {
+        "timestamp": 1700110800
+      },
+      "startTimestamp": 1699539123,
+      "endTimestamp": 1700110800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, extend by 6 months",
+        "No, don't extend"
+      ],
+      "results": [
+        {
+          "total": 22838782.0,
+          "choice": 0
+        },
+        {
+          "total": 632700.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 22952566.16083854,
+          "choice": 0
+        },
+        {
+          "total": 632700.1943137775,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1699539465948,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWFydGhmdW5kOnNuYXBzaG90OjB4NzYwOGQ3YTVjNmY4ZjY2MGIwYTA4MmMyNzM3NjliZThkZjdjMjNhZDExYTE3NTgxMmM5ZWQ1MjVmYTZiMWU5OQ==",
+      "id": "0x7608d7a5c6f8f660b0a082c273769be8df7c23ad11a175812c9ed525fa6b1e99",
+      "title": "🌍 Proposal EFP-06: change to team and investor token vesting contract",
+      "content": "Summary\n\n‣ Protect the long-term goals of the project by locking team and private sale tokens for a further period of time\n\n‣ Delay unlocking of locked tokens from 11/19/2023 to 06/01/2024, two and a half years after 1Earth was minted and launched on KuCoin.\n\nMotivation\n\nWe’ve just launched EarthFund 2.0 and are gearing up for a push when the market turns. These efforts should bolster interest in 1Earth. We don’t believe it makes sense to start unlocking team tokens that will increase the circulating supply.\n\nAs such, the team has decided to propose postponing the start of the 5-year vesting period for until 01 June 2024 (by then 2 and a half years post-token launch) so that the project can grow and flourish unencumbered by an increased circulating supply.\n\nWe will reevaluate the situation again in May 2024 to decide whether to push the team and investor vesting back further.\n\nTechnical information\n\nThis extension will continue to use the Liquidity Pool token (1EarthLP) that entitles each token holder to a pro-rata portion of the liquidity every month until all of the tokens in the pool have been sold.\n\nAll investment and team tokens have been added to a liquidity pool that supports the security of the project and ensures optimal price execution.\n\nOnce the vesting period begins, a trusted and vetted third party will act independently to liquidate the available pool of private tokens based on a percentage of the previous daily volume, so it does not negatively impact the market. All proceeds will be distributed to investors proportionately according to their LP tokens.\n\nThis liquidation will be done sustainably to protect the long-term health of the project and is likely to result in 5 years of monthly distributions for private investors and the team to collect from the EarthFund investor portal.",
+      "protocol": "earthfund",
+      "adapter": "snapshot",
+      "proposer": "0x7fCb6b551C23018741E299e1e213697d539Ca978",
+      "totalVotes": 1,
+      "blockNumber": 18526613,
+      "externalUrl": "https://snapshot.org/#/earthfund.eth/proposal/0x7608d7a5c6f8f660b0a082c273769be8df7c23ad11a175812c9ed525fa6b1e99",
+      "startTime": {
+        "timestamp": 1699439010
+      },
+      "endTime": {
+        "timestamp": 1700024400
+      },
+      "startTimestamp": 1699439010,
+      "endTimestamp": 1700024400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, extend the vesting",
+        "No, do not extend the vesting "
+      ],
+      "results": [
+        {
+          "total": 4698.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4698.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1699439025772,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWFydGhmdW5kOnNuYXBzaG90OjB4MDI1ZjUyNTEzODM4MjBlZWEwNGNmMjZiNGYyOWNiZjI5OWViNjc2NzgzMmI1ZWVjOTQ1NTI1MWFkM2Y4ZjVmMA==",
+      "id": "0x025f5251383820eea04cf26b4f29cbf299eb6767832b5eec9455251ad3f8f5f0",
+      "title": "EFP-5: EarthFund DAO to contribute assets to newly formed entity",
+      "content": "## Summary:\n\n* EarthFund DAO will seek to raise money from institutional investors.\n* EarthFund DAO will form a new Delaware entity (“Newco”) through which the investment funds will be raised.\n* The investment monies will be used to continue the development of the Newco platform and further market EarthFund’s solutions.\n* EarthFund DAO will contribute assets (i.e., all intellectual property, including but not limited to brand, platform, and software) to Newco in exchange for 20% of the equity of Newco. \n\n## Motivation: \n\nIn the last quarter, we’ve been meeting with investors intending to secure between $12M and $15M in venture capital to continue the development and growth of the EarthFund platform.\n\n**Conversations are heading in a positive direction, but to secure investment, they wanted to see three things:**\n\n* A team of experienced entrepreneurs, advisors, and team members that have what it takes to build a winning product. (We satisfy all criteria.)\n* A working product with a strong addressable market and functionality. (We satisfy all criteria.)\n* A roadmap for growth with no barriers to execution. (We have a roadmap and a clear strategy for growth, but we need to secure investment to really scale up our efforts and grow the team with the view of growing EarthFund into a billion-dollar company.)\n\nAnd due to the legal uncertainty of DAOs, the role of the EarthFund DAO was another barrier for investors. \n\nAs such, our advisors have recommended establishing a new company — EarthFund Inc — to own and control the assets and intellectual property of EarthFund. \n\nBecause we didn’t want to remove or reduce the role of the EarthFund DAO in the management of the platform, vetting causes and helping shape the projects/causes on the platform, we came up with the following solution.\n\n\n### **Our proposal for the relationship between EarthFund and the new company**\n\nThe management of EarthFund DAO proposes the following:\n\n* **EarthFund DAO will seek to raise money** from institutional investors.\n* **EarthFund DAO will form a new Delaware entity** (“Newco”) through which the investment funds will be raised.\n* The **investment monies will be used to continue the development of the Newco platform** and further market EarthFund’s solutions.\n* EarthFund DAO has recently created and launched a DAO launchpad, KYC solution, donation router, grant/rewards contract, token minting tool, Discord bot, and more… all of which enable prospective customers to launch a decentralized community without spending months or years developing their own platform.\n* **EarthFund DAO will contribute assets **(i.e., all intellectual property, including but not limited to brand, platform, and software)** to Newco in exchange for 20% of the equity of Newco.** (The remaining equity in Newco will be allocated to investors and to current and future Newco leadership as an incentive.)\n* **EarthFund DAO will receive common shares of Newco** with no voting rights except as described below.\n* EarthFund DAO management believes that the value of EarthFund’s interest in Newco (i.e., 20%) will far exceed the current value of EF DAO on a stand-alone basis.\n* EarthFund DAO and Newco will work closely together to maintain a fair ecosystem for DAO communities on Newco’s platform.\n* EarthFund DAO will receive quarterly shareholder updates from Newco\n* **EarthFund DAO will be responsible for the ‘Browse Communities’** section of the Newco platform (what communities are included, featured, removed, etc.)\n* **EarthFund DAO will be entitled to their pro-rata share of sales proceeds if Newco is sold.**\n* **EarthFund DAO will receive its pro-rata distributions from the profits of Newco if Newco chooses to distribute profits (vs. reinvest).**\n* EarthFund DAO will have a vote on how it uses distributions or possible sales proceeds.\n\n\n## **Have your say**\n\nVoting to approve this proposal will allow EarthFund to seek the investment it needs to continue growing and developing the platform despite market conditions. \n\nIt is our goal to use the investment to grow the EarthFund platform into one of Web3.0’s biggest companies and aim for these stretch goals in the next 12 months: \n\n\n* launch 1000+ communities\n* Raise $100M in donations\n* Facilitate $5M in community rewards\n* Fund 20K+ world-saving grants\n\n### Voting approval can help us make these goals a reality. \n\nThank you, as always, for your support. \n",
+      "protocol": "earthfund",
+      "adapter": "snapshot",
+      "proposer": "0x7fCb6b551C23018741E299e1e213697d539Ca978",
+      "totalVotes": 21,
+      "blockNumber": 16075134,
+      "externalUrl": "https://snapshot.org/#/earthfund.eth/proposal/0x025f5251383820eea04cf26b4f29cbf299eb6767832b5eec9455251ad3f8f5f0",
+      "startTime": {
+        "timestamp": 1669718758
+      },
+      "endTime": {
+        "timestamp": 1670864400
+      },
+      "startTimestamp": 1669718758,
+      "endTimestamp": 1670864400,
+      "currentState": "closed",
+      "choices": [
+        "Approve formation of new entity",
+        "Reject formation of new entity"
+      ],
+      "results": [
+        {
+          "total": 35118564.0,
+          "choice": 0
+        },
+        {
+          "total": 322636.62,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 39670997.09114596,
+          "choice": 0
+        },
+        {
+          "total": 322636.63,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWFydGhmdW5kOnNuYXBzaG90OjB4YjZlNTI4MmRiZTY0YTYwMmMwZGM3ZDg5ZjEzMWZiYjk5MGYyMWEzNDczNjUzOTc0NmVhMDY3ZWZlZTcyNTA2NQ==",
+      "id": "0xb6e5282dbe64a602c0dc7d89f131fbb990f21a34736539746ea067efee725065",
+      "title": "🌍 EFP-4: change to token vesting contract",
+      "content": "## Summary\n\n‣ Protect the long-term goals of the project by locking team and private sale tokens for a further 12 months.\n\n‣ Delay unlocking of locked tokens from 11/19/2022 to 11/19/2023, two years after 1Earth was minted and launched on KuCoin.\n\n## Motivation\n\nWe’re very close to launching the platform and are in the process of securing investment. All of this together with the marketing efforts post-launch, should bolster interest in 1Earth. We don’t believe it makes sense to start unlocking team tokens that will increase the circulating supply.\n\nAs such, the team has decided to propose postponing the start of the 5-year vesting period for another year (by then 2 years post-token launch) so that the project can grow and flourish unencumbered by the selling of team, private, or treasury tokens.\n\n## Technical information\n\nThis extension will continue to use the Liquidity Pool token (1EarthLP) that entitles each token holder to a pro-rata portion of the liquidity every month until all of the tokens in the pool have been sold.\n\nAll investment and team tokens have been added to a liquidity pool that supports the security of the project and ensures optimal price execution. \n\nOnce the vesting period begins, a trusted and vetted third party will act independently to liquidate the available pool of private tokens based on a percentage of the previous daily volume, so it does not negatively impact the market. All proceeds will be distributed to investors proportionately according to their LP tokens.\n\nThis liquidation will be done sustainably to protect the long-term health of the project and is likely to result in 5 years of monthly distributions for private investors and the team to collect from the EarthFund investor portal.\n\n**For more information about EarthFund, please visit: earthfund.io**\n",
+      "protocol": "earthfund",
+      "adapter": "snapshot",
+      "proposer": "0x7fCb6b551C23018741E299e1e213697d539Ca978",
+      "totalVotes": 9,
+      "blockNumber": 15724907,
+      "externalUrl": "https://snapshot.org/#/earthfund.eth/proposal/0xb6e5282dbe64a602c0dc7d89f131fbb990f21a34736539746ea067efee725065",
+      "startTime": {
+        "timestamp": 1665491854
+      },
+      "endTime": {
+        "timestamp": 1665936000
+      },
+      "startTimestamp": 1665491854,
+      "endTimestamp": 1665936000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, extend the vesting",
+        "No, do not extend the vesting"
+      ],
+      "results": [
+        {
+          "total": 9704273.0,
+          "choice": 0
+        },
+        {
+          "total": 4735291.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9704272.463901963,
+          "choice": 0
+        },
+        {
+          "total": 4735290.936495881,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWFydGhmdW5kOnNuYXBzaG90OjB4YzE1NDAyYzI3NTkwNWEyYmFlZjZkMTM2Y2M1YzcwM2U2NjNkNTBiYTY0YjY5NTE1OWIzZGU0ZTY4YTViYTNjZQ==",
+      "id": "0xc15402c275905a2baef6d136cc5c703e663d50ba64b695159b3de4e68a5ba3ce",
+      "title": "🌍 EFP-3: Launch Carbon Removal Cause on EarthFund platform",
+      "content": "![](https://earthfund.s3.us-east-2.amazonaws.com/neveralone/earthfund_cause.png)\n\n## Summary\n\n* Launch the Carbon Removal as the second cause on the EarthFund platform\n* Mint 1 million CarbonCommons ERC-20 governance tokens\n* The Carbon Removal Cause is founded by Dr. Lucy Tweed\n\n[You can review Dr. Tweed’s pitch deck here for more information.](https://www.dropbox.com/s/fd90zjfo3oi6ij9/Carbon%20Removal%20DAO%20Introduction%20Deck%20v.3.pdf?dl=0)\n\n## Motivation\n\nWe have the opportunity to partner with Dr. Lucy Tweed, an associate researcher with ties to Columbia University and Cambridge University, to launch a cause that seeks to remove carbon from the Earth’s atmosphere and reverse the effects of climate change.\n\nMore specifically, Dr. Tweed wants to launch a cause that funds carbon removal projects run by (or with direct involvement of) communities that rebalance the carbon cycle by:\n\n* Protecting existing carbon-rich ecosystems\n* Restoring ecosystems such as forests, wetlands, mangroves, and sea-grass beds\n* Regenerating soils through regenerative agriculture\n* Piloting new approaches to carbon removal such as biochar and enhanced weathering\n\nThe Carbon Removal cause’s mission is to support communities around the world to reclaim the sovereignty of their land by funding nature-based carbon removal projects that put local livelihoods and environmental justice front and center.\n\n### The cause will look like this\n\n![](https://earthfund.s3.us-east-2.amazonaws.com/neveralone/neveralone_snapshot.png)\n\n### Proposal\n\n* Add Carbon Removal Cause to the platform\n* Mint CarbonCommons ERC-20 governance token\n* Create CarbonCommons ERC-20 smart contract\n* Create Carbon Removal Gnosis multi-sig wallet\n* Create a separate Snapshot governance system for gasless voting\n* Add Carbon Removal manifesto and vision\n* Create Carbon Removal ENS subdomain \n* Create the Carbon Removal subdomain on the EarthFund platform— carboncommons.earthfund.io\n* Allow crypto donations for Carbon Removal projects\n",
+      "protocol": "earthfund",
+      "adapter": "snapshot",
+      "proposer": "0x7fCb6b551C23018741E299e1e213697d539Ca978",
+      "totalVotes": 19,
+      "blockNumber": 15140721,
+      "externalUrl": "https://snapshot.org/#/earthfund.eth/proposal/0xc15402c275905a2baef6d136cc5c703e663d50ba64b695159b3de4e68a5ba3ce",
+      "startTime": {
+        "timestamp": 1657801450
+      },
+      "endTime": {
+        "timestamp": 1658131200
+      },
+      "startTimestamp": 1657801450,
+      "endTimestamp": 1658131200,
+      "currentState": "closed",
+      "choices": [
+        "Cause Approved",
+        "Cause Rejected"
+      ],
+      "results": [
+        {
+          "total": 31150998.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 31150997.206515748,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWFydGhmdW5kOnNuYXBzaG90OjB4NThkYWZmMzRlZjA2ZDQxNmVmNmU2MjRmZWY2OGY2N2I2MjJkNzhiNGEzNGMwN2ZkMTIxMDMxNTFiMjc5ZWIyNQ==",
+      "id": "0x58daff34ef06d416ef6e624fef68f67b622d78b4a34c07fd12103151b279eb25",
+      "title": "🌍 EFP-2: Launch Mental Health and Wellbeing Cause on EarthFund platform",
+      "content": " ![Launch Mental Health and Wellbeing Cause on EarthFund platform](https://earthfund.s3.us-east-2.amazonaws.com/neveralone/earthfund_cause.png)\n\n# Summary\n\n* Launch the Mental Health and Wellbeing as the first cause on the EarthFund platform\n* Mint 1 million NeverAlone ERC-20 governance tokens\n* The Mental Health and Wellbeing Cause is founded by Dr Deepak Chopra, Gabriella Wright and Poonacha Machaiah\n\n# Motivation\n\nWe have the opportunity to launch the platform with a high-profile partnership with The Chopra Foundation while also helping facilitate fundraising and support for projects that tackle the mental health crisis around the world. \n\n### The cause will look like this\n\n ![Mental Health and Wellbeing Cause on EarthFund platform](https://earthfund.s3.us-east-2.amazonaws.com/neveralone/neveralone_meta.png)\n\n# Proposal\n\n* Add Mental Health and Wellbeing Cause to the platform\n* Mint NeverAlone ERC-20 governance token\n* Create NeverAlone ERC-20 smart contract\n* Create Mental Health and Wellbeing Gnosis multi-sig wallet\n* Create a separate Snapshot governance system for gasless voting\n* Add Mental Health and Wellbeing manifesto and vision\n* Create Mental Health and Wellbeing ENS subdomain \n* Create the NeverAlone subdomain on the EarthFund platform— neveralone.earthfund.io\n* Allow crypto donations for Mental Health and Wellbeing Causes\n* Seed this first Cause with a few sponsored projects\n",
+      "protocol": "earthfund",
+      "adapter": "snapshot",
+      "proposer": "0x7fCb6b551C23018741E299e1e213697d539Ca978",
+      "totalVotes": 18,
+      "blockNumber": 14938067,
+      "externalUrl": "https://snapshot.org/#/earthfund.eth/proposal/0x58daff34ef06d416ef6e624fef68f67b622d78b4a34c07fd12103151b279eb25",
+      "startTime": {
+        "timestamp": 1654858710
+      },
+      "endTime": {
+        "timestamp": 1655179140
+      },
+      "startTimestamp": 1654858710,
+      "endTimestamp": 1655179140,
+      "currentState": "closed",
+      "choices": [
+        "Cause Approved",
+        "Cause Rejected"
+      ],
+      "results": [
+        {
+          "total": 21893098.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 21893098.2365644,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZWFydGhmdW5kOnNuYXBzaG90OjB4YjFjZjIyMGU0YTAyZmYzNWZjMWU0NTdmNjI2MmI3YTBiZjRlOTczMDlmNTEzNzg5YmI0ODliNjk5MzliOTA1Ng==",
+      "id": "0xb1cf220e4a02ff35fc1e457f6262b7a0bf4e97309f513789bb489b69939b9056",
+      "title": "🌍 EFP-1: change to token vesting contract ",
+      "content": "Summary:\n\n‣ Protect the long-term goals of the project and restore trust in the community by locking team and private sale tokens.\n\n‣ Extend the vesting schedule for the EarthFund team and private sale investors from 1-year vesting to 5-year vesting. \n\n‣ Delay unlocking of locked tokens from 02/15/2022 to 11/19/2022, one year after TGE.\n\n‣ Combine all seed, team, and private sale tokens into a pool that yields monthly distributions for investors without negatively impacting the market.\n\nMotivation: \n\nOur initial launch on KuCoin opened 1Earth at $1.50, rather than our intended price of $0.005.  \n\nThis caused early open market buyers to overpay for the token, while also showing 1Earth significantly down in the price charts. In reality, it was just the opposite, with 1Earth up by 70x.\n\nOur team is working closely with the KuCoin team on possible joint solutions to address the impact of the technical issues from the initial launch. However, before we proceed, we need to proactively make sure that there will be no more block sales affecting the token price suddenly. \n\nLikewise, we think that a show of long-term involvement with the project to our community will rebuild the trust lost during the token launch and subsequent downturn. \n\nProposal: \n\nWe’re proposing using the model created by another successful token to protect the long-term health of the project and produce consistent distributions for our investors.\n\nThis would involve pooling all investment and team tokens into a liquidity pool that supports the security of the project and ensures optimal price execution.\n\nTo do this, we would amend the 1Earth vesting schedule to commence on November 19, 2022.\n\nAt this time, a trusted and vetted third party will act independently to liquidate the available pool of private tokens based on a percentage of the previous daily volume so it does not negatively impact the market. All proceeds will be distributed to investors proportionately according to their LP tokens.  \n\nThis liquidation will be done sustainably to protect the long-term health of the project, and is likely to result in 5 years of monthly distributions for you to collect from the EarthFund investor portal.\n\nTechnical information:\n\nThis change will involve the issuance of a Liquidity Pool token (1EarthLP) that will entitle each token holder to a pro-rata portion of the liquidity every month until all of the tokens in the pool have been sold.  \n\nEach month, investors will be able to connect their wallets to the token holder portal and collect EarthFund distributions in USDT (Tether).\n\nFor more information about EarthFund, please visit: earthfund.io\n",
+      "protocol": "earthfund",
+      "adapter": "snapshot",
+      "proposer": "0x7fCb6b551C23018741E299e1e213697d539Ca978",
+      "totalVotes": 10,
+      "blockNumber": 13992863,
+      "externalUrl": "https://snapshot.org/#/earthfund.eth/proposal/0xb1cf220e4a02ff35fc1e457f6262b7a0bf4e97309f513789bb489b69939b9056",
+      "startTime": {
+        "timestamp": 1642006800
+      },
+      "endTime": {
+        "timestamp": 1642395540
+      },
+      "startTimestamp": 1642006800,
+      "endTimestamp": 1642395540,
+      "currentState": "closed",
+      "choices": [
+        "Yes, extend the vesting",
+        "No, do not extend the vesting"
+      ],
+      "results": [
+        {
+          "total": 8540374.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8540373.910613332,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

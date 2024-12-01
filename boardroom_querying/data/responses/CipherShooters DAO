@@ -1,0 +1,119 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Y2lwaGVyc2hvb3RlcnNldGg6c25hcHNob3Q6MHhiMTdhMzdhNWEzMzU1OWRjYzVlYWM4ZjRiODExOGVkYzQxNWZiOWQwMzRlYWRkNDEwZjFlMmQzMTQ2NjAwZjRm",
+      "id": "0xb17a37a5a33559dcc5eac8f4b8118edc415fb9d034eadd410f1e2d3146600f4f",
+      "title": "Create a exclusive Discord channel for Cipher Core Holders over 100k",
+      "content": "# Cipher Core Exclusive Channel\n\nWe are proposing an exclusive Cipher Core holder channel in the Ciphershooters Official Discord server. \n\nThis channel gives large governance holders a direct communication channel with developers, community holders, and other interested parties. \n\nThis channel will be used to discuss new releases, roadmap items, ideas, partnerships, and much more! \n",
+      "protocol": "ciphershooterseth",
+      "adapter": "snapshot",
+      "proposer": "0xDE29485dF7e941866442ceb25DCe1b9c64D02A26",
+      "totalVotes": 4,
+      "blockNumber": 30529552,
+      "externalUrl": "https://snapshot.org/#/ciphershooters.eth/proposal/0xb17a37a5a33559dcc5eac8f4b8118edc415fb9d034eadd410f1e2d3146600f4f",
+      "startTime": {
+        "timestamp": 1657380433
+      },
+      "endTime": {
+        "timestamp": 1657897200
+      },
+      "startTimestamp": 1657380433,
+      "endTimestamp": 1657897200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 299442.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 299442.0011377025,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y2lwaGVyc2hvb3RlcnNldGg6c25hcHNob3Q6MHhkM2RiNmEzYmJiZjUzYjMxN2JkZmViMjFhYjYyYjM2MWMwMmIyZDYxOTk5MjkwM2IwMmZjN2Q1MmI0MTE5YWRk",
+      "id": "0xd3db6a3bbbf53b317bdfeb21ab62b361c02b2d619992903b02fc7d52b4119add",
+      "title": "Introduce CipherCity Control Center mechanics",
+      "content": "# Summary\n\nWe propose to add a CipherCity Control Center entity that can be captured by operators. It will resemble  “[King of the Hill](https://en.wikipedia.org/wiki/King_of_the_Hill_(game))” game mechanics.\n\nCC has an owner operator. Ownership can be recaptured by other operators by fighting with the current owner.\n\n### Reward\n\nDuring the “coup” new owner receives a one-time reward that is determined by the level of the fallen owner.\n\n### Coup (change of the ownership after the fight)\n\nTo claim the right to be a new owner, an operator should fight the current owner and win the fight\n\nIf the fight is lost by the attacker, the attacker pays “compensation” to the owner.\n\n### Fight mechanics\n\nLet A be an attacker, D – current owner.\n\nWhen a coup attempt happens, attacking owner-operator free to choose any weapon he has to fight with: *A.weapon*\n\nWhen a player becomes a owner (during another coup) he specifies the weapon he would like to “deposit” to use for his defense: *D.weapon*\n\nFight function has the following form:\n\n```\ncoup_outcome = f(A.operator, A.weapon, D.operator, D.weapon, rand)\ncoup_outcome in { success, failure}\n```\n\nWhen the king was attacked and his stamina got depleted, he receives an “immunity” until his stamina restores enough for another fight.\n\nAlternatively we can allow the owner to keep battling even with no stamina but make him “weak”. This allows players to be able to potentially earn more from playing King of the Hill than regular combat if they are good.\n\n### Implementation details\n\nWe can start the hill with a default enemy that gives rewards on the first take of the hill by an operator.\n\nWe propose to implement CC entity as [ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) token for the reasons outlined below.\n\n### Future considerations\n\n- To add a stream of rewards that the owner has access to as long as they remain an owner.\n- To experiment with fight mechanics: e.g. win 3 battles during 10 minutes period to perform a coup.\n- To transform CipherCity Command Center as the first parcel of land in CipherCity and add more parcels.\n- In the first version there will be no cap on the level of the operator that can be an owner. However to make this mechanics accessible to players of lower levels, we can introduce new “locations” to conquer. Those new locations can have a maximum level of an attacking operators and their weapons.\n\n### Parameters to be determined\n\n- Reward for becoming the owner\n- Compensation to the owner for failed coup attempt\n- Function of coup outcome\n\n# References\n\n### King of the Hill mechanics\n\n[King of the Hill mechanics in Team Fortress](https://wiki.teamfortress.com/wiki/King_of_the_Hill)\n\n[King of the Hill (game) - Wikipedia](https://en.wikipedia.org/wiki/King_of_the_Hill_(game))\n\n### P2P battles mechanics\n\n[Dragonereum whitepaper, page 10](https://dragonereum.io/dragonereum-whitepaper.pdf)\n\n[Axie Infinity PvP battles](https://medium.com/axie-infinity/everything-we-know-about-axie-battles-ba4f929286b6)",
+      "protocol": "ciphershooterseth",
+      "adapter": "snapshot",
+      "proposer": "0x0be81F52642969952D470bbE0F50de78D1b3D085",
+      "totalVotes": 6,
+      "blockNumber": 30464966,
+      "externalUrl": "https://snapshot.org/#/ciphershooters.eth/proposal/0xd3db6a3bbbf53b317bdfeb21ab62b361c02b2d619992903b02fc7d52b4119add",
+      "startTime": {
+        "timestamp": 1657244100
+      },
+      "endTime": {
+        "timestamp": 1657814400
+      },
+      "startTimestamp": 1657244100,
+      "endTimestamp": 1657814400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 364189.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 364189.45971337426,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

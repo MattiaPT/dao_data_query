@@ -1,0 +1,188 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6eG5vdW5zOm9uY2hhaW46MHhjNTZiNmNlZWIxNmU4YjQzNTJlNjA2OTQwMWI5YzY0ZDU3Y2E4Mjc0NjU3MmRkY2NmMjRhYmYzMzhlNGNlMjU0",
+      "id": "0xc56b6ceeb16e8b4352e6069401b9c64d57ca82746572ddccf24abf338e4ce254",
+      "title": "XNouns Admin",
+      "content": "Provision funds for \na) settling of XNouns auctions gas fees \nb) setup of XNouns.eth ENS \nc) setup of a multi-sig for acquiring future XCOPY Editions",
+      "protocol": "xnouns",
+      "adapter": "onchain",
+      "proposer": "0xd40B63bF04a44e43fBFE5784bCf22ACaAB34a180",
+      "totalVotes": 7,
+      "blockNumber": 16729929,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1677713447
+      },
+      "endTime": {
+        "timestamp": 1678059047
+      },
+      "startTimestamp": 1677713447,
+      "endTimestamp": 1678059047,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 30.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16765496
+          },
+          "event": "queued",
+          "timestamp": 1678059347,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16779843
+          },
+          "event": "executed",
+          "timestamp": 1678233599,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417143536,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eG5vdW5zOm9uY2hhaW46MHg1NWFiYTUyZjAwNDdlMmIwMzc4MjU5YWJjNzdiYTIxNDJjNzhmMTQ0Y2Q2MDk0ODY4MTY3OTBkNWRmZWY4MGE3",
+      "id": "0x55aba52f0047e2b0378259abc77ba2142c78f144cd609486816790d5dfef80a7",
+      "title": "XNouns Acquire XCOPY",
+      "content": "XNouns Acquire XCOPY Edition",
+      "protocol": "xnouns",
+      "adapter": "onchain",
+      "proposer": "0xd40B63bF04a44e43fBFE5784bCf22ACaAB34a180",
+      "totalVotes": 11,
+      "blockNumber": 16729904,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1677713147
+      },
+      "endTime": {
+        "timestamp": 1678058747
+      },
+      "startTimestamp": 1677713147,
+      "endTimestamp": 1678058747,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 33.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16765491
+          },
+          "event": "queued",
+          "timestamp": 1678059287,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16779839
+          },
+          "event": "executed",
+          "timestamp": 1678233551,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417143536,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eG5vdW5zOm9uY2hhaW46MHg2ZWIxNjY0NmFiOThkNDYzMzEwNTgyM2FjYzBhZGY0N2E2ZjNmNDhkOTM4YzY2YTY0YTY2ZGIxN2E1MzZmN2Ix",
+      "id": "0x6eb16646ab98d4633105823acc0adf47a6f3f48d938c66a64a66db17a536f7b1",
+      "title": "DAO Upgrade V1_1",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "xnouns",
+      "adapter": "onchain",
+      "proposer": "0xd1d1D4e36117aB794ec5d4c78cBD3a8904E691D0",
+      "totalVotes": 2,
+      "blockNumber": 16208274,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671413051
+      },
+      "endTime": {
+        "timestamp": 1671758651
+      },
+      "startTimestamp": 1671413051,
+      "endTimestamp": 1671758651,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 14.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16299281
+          },
+          "event": "queued",
+          "timestamp": 1672423751,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16345720
+          },
+          "event": "executed",
+          "timestamp": 1672983671,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417143536,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

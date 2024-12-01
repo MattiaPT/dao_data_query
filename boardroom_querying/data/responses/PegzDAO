@@ -1,0 +1,141 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6cGVnemRhbzpvbmNoYWluOjE=",
+      "id": "1",
+      "title": "Jagged Membership Proposal",
+      "content": "Grant Membership to this Pegz owner.",
+      "protocol": "pegzdao",
+      "adapter": "onchain",
+      "proposer": "0x0eF56CA5af589aEBa59C682309C545D88c4FB654",
+      "totalVotes": 1,
+      "blockNumber": 14598804,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1650156824
+      },
+      "endTime": {
+        "timestamp": 1650761624
+      },
+      "startTimestamp": 1650156824,
+      "endTimestamp": 1650761624,
+      "currentState": "executed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14598915
+          },
+          "event": "queued",
+          "timestamp": 1650146611,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14689995
+          },
+          "event": "executed",
+          "timestamp": 1651381303,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14598915
+          },
+          "event": "pending",
+          "timestamp": 1650146611,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cGVnemRhbzpvbmNoYWluOjA=",
+      "id": "0",
+      "title": "Pegz 110",
+      "content": "allocation",
+      "protocol": "pegzdao",
+      "adapter": "onchain",
+      "proposer": "0x31413166836aeC2f3F8C99cc899593564f60EB5d",
+      "totalVotes": 1,
+      "blockNumber": 14168744,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1644368024
+      },
+      "endTime": {
+        "timestamp": 1644972824
+      },
+      "startTimestamp": 1644368024,
+      "endTimestamp": 1644972824,
+      "currentState": "executed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 25.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14168753
+          },
+          "event": "queued",
+          "timestamp": 1644367836,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14391818
+          },
+          "event": "executed",
+          "timestamp": 1647356204,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14168753
+          },
+          "event": "pending",
+          "timestamp": 1644367836,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,4096 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo1Ng==",
+      "id": "56",
+      "title": "Proposal #56: New cheater penalisation",
+      "content": "Unregister new cheating relayer and withdraw his balance to governance\ncheating tx: https://etherscan.io/tx/0xe1369db2ee6b2f6583d8eaff8138bb349ea1b7472f78db1b6f74dd4c00378824\nThe contract code is the same as proposal #55.\n\nThe reward for submitting proposals and paying gas is 50 TORN.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x94596B6A626392F5D972D6CC4D929a42c2f0008c",
+      "totalVotes": 7,
+      "blockNumber": 20151493,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1719110702
+      },
+      "endTime": {
+        "timestamp": 1719542702
+      },
+      "startTimestamp": 1719110702,
+      "endTimestamp": 1719542702,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 125460.19,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1719542702,
+          "txHash": "0xe278105556ab186f3fe914520a2aefb1c95b6e26b66fd9cd8c19cc43d1025dbe"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1719542702,
+          "txHash": "0xe278105556ab186f3fe914520a2aefb1c95b6e26b66fd9cd8c19cc43d1025dbe"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1719542702,
+          "txHash": "0xe278105556ab186f3fe914520a2aefb1c95b6e26b66fd9cd8c19cc43d1025dbe"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 125460.19,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719110730865,
+      "txHash": "0xe278105556ab186f3fe914520a2aefb1c95b6e26b66fd9cd8c19cc43d1025dbe",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo1NQ==",
+      "id": "55",
+      "title": "Proposal #55: New cheater penalisation",
+      "content": "Unregister new cheating relayer and withdraw his balance to governance\ncheating tx: https://etherscan.io/tx/0xba9ff9c960fb1ad1856b271d887c7a7c3328abe2e8f0afeb38ed0847b1d0dc68\nThe contract code is the same as proposal #42.\n\nThe reward for submitting proposals and paying gas is 100 TORN.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x94596B6A626392F5D972D6CC4D929a42c2f0008c",
+      "totalVotes": 6,
+      "blockNumber": 19630135,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1712811386
+      },
+      "endTime": {
+        "timestamp": 1713243386
+      },
+      "startTimestamp": 1712811386,
+      "endTimestamp": 1713243386,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 176537.23,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1713243386,
+          "txHash": "0xcf40d290a8a6a10e6989b87471fbf699da47a1f1670538ef10b1036795e56438"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1713243386,
+          "txHash": "0xcf40d290a8a6a10e6989b87471fbf699da47a1f1670538ef10b1036795e56438"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1713243386,
+          "txHash": "0xcf40d290a8a6a10e6989b87471fbf699da47a1f1670538ef10b1036795e56438"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 176537.25,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712811614919,
+      "txHash": "0xcf40d290a8a6a10e6989b87471fbf699da47a1f1670538ef10b1036795e56438",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo1NA==",
+      "id": "54",
+      "title": "Proposal 54: reclaim remaining funds and cancel the sablier stream paying butterfly-effect.eth",
+      "content": "This proposal is a resubmission of Proposal 50. This proposal reclaims the remaining unstreamed funds back to Tornado Cash Governance and cancels the Sablier stream which currently pays butterfly-effect.eth according to Proposal 45 created at https://etherscan.io/address/0xc4217881856cA15c320B32A87F9ab3Ed17a5A9d0#code. \nThe relevant Sablier streamId (105469) to be cancelled can be verified by looking at the input data of the following transaction: https://etherscan.io/tx/0x7dcf3cd8daa200b94ad45419ec71075ef73ed94d55ae24d51e2e604074f9fb02.\nFeel free to review the logic of this proposal by looking at https://etherscan.io/address/0x182d6675d03baf0df94fb82f4dc570c86cf34111#code. \nIn the meantime I will post a tool that allows anyone to simulate this, past and future proposals themselves. Sincerely, oblock.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xF55e5D50A4f6755FDcA30a4ae1AC12f92D8e1907",
+      "totalVotes": 7,
+      "blockNumber": 19466318,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1710821366
+      },
+      "endTime": {
+        "timestamp": 1711253366
+      },
+      "startTimestamp": 1710821366,
+      "endTimestamp": 1711253366,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 112040.805,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "pending",
+          "timestamp": 1711253366,
+          "txHash": "0xeb1caa356bb69f3f7f24511c609696007e7c103beb018401b323bef894fd325a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1711253366,
+          "txHash": "0xeb1caa356bb69f3f7f24511c609696007e7c103beb018401b323bef894fd325a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1711253366,
+          "txHash": "0xeb1caa356bb69f3f7f24511c609696007e7c103beb018401b323bef894fd325a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1711253366,
+          "txHash": "0xeb1caa356bb69f3f7f24511c609696007e7c103beb018401b323bef894fd325a"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 112040.805,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710821370556,
+      "txHash": "0xeb1caa356bb69f3f7f24511c609696007e7c103beb018401b323bef894fd325a",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo1Mw==",
+      "id": "53",
+      "title": "Proposal #53: New cheater penalisation",
+      "content": "Unregister new cheating relayer and withdraw his stake to Governance. Current proposal doesn't require any compensation to proposer (Theo).\n\nThere is no forum topic, because forum is currently down due to scammers abuse report.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9Ff3C1Bea9ffB56a78824FE29f457F066257DD58",
+      "totalVotes": 2,
+      "blockNumber": 19397187,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1709983142
+      },
+      "endTime": {
+        "timestamp": 1710415142
+      },
+      "startTimestamp": 1709983142,
+      "endTimestamp": 1710415142,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 167197.53,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1710415142,
+          "txHash": "0x04be28baf10a72759e5b5401bd75493c2f06c51a731733a041753dffc1a1d765"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1710415142,
+          "txHash": "0x04be28baf10a72759e5b5401bd75493c2f06c51a731733a041753dffc1a1d765"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1710415142,
+          "txHash": "0x04be28baf10a72759e5b5401bd75493c2f06c51a731733a041753dffc1a1d765"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 167197.53,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709983196367,
+      "txHash": "0x04be28baf10a72759e5b5401bd75493c2f06c51a731733a041753dffc1a1d765",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo1Mg==",
+      "id": "52",
+      "title": "Proposal #52: Restore UI IPFS",
+      "content": "Restore old safe IPFS, which was created by me (Theo).\nIPFS: https://gateway.ipfs.io/ipfs/bafybeib4rg5gx7plrvzasrrqa3tcb3tnzm2goxhteaxsbem6hjpzsgihbu\nCurrent proposal doesn't require any compensation to proposer.\n\nThere is no forum topic, because forum is currently down due to scammers abuse report.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x7C199A0f301913212cfAB3756c3ed8F5B8927713",
+      "totalVotes": 7,
+      "blockNumber": 19382809,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1709808710
+      },
+      "endTime": {
+        "timestamp": 1710240710
+      },
+      "startTimestamp": 1709808710,
+      "endTimestamp": 1710240710,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 6650.3193,
+          "choice": 0
+        },
+        {
+          "total": 173222.66,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1710240710,
+          "txHash": "0xf6cde648ed798597b6fa2195e525da7ca8cfeed920553a41f56dece888046420"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1710240710,
+          "txHash": "0xf6cde648ed798597b6fa2195e525da7ca8cfeed920553a41f56dece888046420"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1710240710,
+          "txHash": "0xf6cde648ed798597b6fa2195e525da7ca8cfeed920553a41f56dece888046420"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 6650.3193,
+          "choice": 0
+        },
+        {
+          "total": 173222.66,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709809209255,
+      "txHash": "0xf6cde648ed798597b6fa2195e525da7ca8cfeed920553a41f56dece888046420",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo1MQ==",
+      "id": "51",
+      "title": "Proposal #51: New cheater penalisation",
+      "content": "Unregister new cheating relayer and withdraw his stake to Governance. Current proposal doesn't require any compensation to proposer (Theo).\n\nThere is no forum topic, because forum is currently down due to scammers abuse report.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9Ff3C1Bea9ffB56a78824FE29f457F066257DD58",
+      "totalVotes": 3,
+      "blockNumber": 19339778,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1709289554
+      },
+      "endTime": {
+        "timestamp": 1709721554
+      },
+      "startTimestamp": 1709289554,
+      "endTimestamp": 1709721554,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 164574.45,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1709721554,
+          "txHash": "0xa8963f398df81c21e64ff6bb2b62406b1f11075cb7c397962f85c896cb50fa9a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1709721554,
+          "txHash": "0xa8963f398df81c21e64ff6bb2b62406b1f11075cb7c397962f85c896cb50fa9a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1709721554,
+          "txHash": "0xa8963f398df81c21e64ff6bb2b62406b1f11075cb7c397962f85c896cb50fa9a"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 164574.45,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709289635890,
+      "txHash": "0xa8963f398df81c21e64ff6bb2b62406b1f11075cb7c397962f85c896cb50fa9a",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo1MA==",
+      "id": "50",
+      "title": "cancel the sablier stream paying butterfly-effect",
+      "content": "This proposal reclaims 42 days worth of unstreamed funds back to governance and cancels the Sablier stream which currently remunerates butterfly-effect according to proposal 45. See the following link https://etherscan.io/address/0x12EaCe01a2c62FBF823f0c0891234AaC624AA341#code to review the proposal implementation. Yours truly, oblock.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xF55e5D50A4f6755FDcA30a4ae1AC12f92D8e1907",
+      "totalVotes": 0,
+      "blockNumber": 19332552,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1709202302
+      },
+      "endTime": {
+        "timestamp": 1709634302
+      },
+      "startTimestamp": 1709202302,
+      "endTimestamp": 1709634302,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1709634302,
+          "txHash": "0x05213c438633169f9255db2b06ac61ab3c1198ad39977b38b945562a270e2a92"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1709634302,
+          "txHash": "0x05213c438633169f9255db2b06ac61ab3c1198ad39977b38b945562a270e2a92"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709202651068,
+      "txHash": "0x05213c438633169f9255db2b06ac61ab3c1198ad39977b38b945562a270e2a92",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo0OQ==",
+      "id": "49",
+      "title": "Unregister new cheater",
+      "content": "Unregister new cheating relayer and withdraw his balance to governance\ncheating tx: https://etherscan.io/tx/0xd3be3b2fee39dc4d4918bfc3d3d0e7dcde9244cf52440bdabe434eb7b25bc96b\nThe contract code is the same as proposal #42",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x94596B6A626392F5D972D6CC4D929a42c2f0008c",
+      "totalVotes": 0,
+      "blockNumber": 19324767,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1709108066
+      },
+      "endTime": {
+        "timestamp": 1709540066
+      },
+      "startTimestamp": 1709108066,
+      "endTimestamp": 1709540066,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1709540066,
+          "txHash": "0x0280d5cfb384e8143510d89d1429b3014d9ec996c5d03cdcdc1749aaf45d41ce"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1709540066,
+          "txHash": "0x0280d5cfb384e8143510d89d1429b3014d9ec996c5d03cdcdc1749aaf45d41ce"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709108450389,
+      "txHash": "0x0280d5cfb384e8143510d89d1429b3014d9ec996c5d03cdcdc1749aaf45d41ce",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo0OA==",
+      "id": "48",
+      "title": "Proposal 48 - Airdrop votes",
+      "content": "Airdrop only voting right, without real tokens\n\nTopic: https://forum.tornado.ws/t/proposals-47-48-airdrop/322\n\nIf you vote for this proposal, DO NOT VOTE FOR previous proposal, vote AGAINST or ignore it - check explanation on forum",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xe443cbad516eE9b00A2CbE7F884A4bb314776dE3",
+      "totalVotes": 12,
+      "blockNumber": 19269438,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1708438574
+      },
+      "endTime": {
+        "timestamp": 1708870574
+      },
+      "startTimestamp": 1708438574,
+      "endTimestamp": 1708870574,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 221320.72,
+          "choice": 0
+        },
+        {
+          "total": 153184.8,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1708870574,
+          "txHash": "0x3df4e47cb8cf76b8d7676eb5ca1803866b18c288eb14f79e046a5468e4c84246"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1708870574,
+          "txHash": "0x3df4e47cb8cf76b8d7676eb5ca1803866b18c288eb14f79e046a5468e4c84246"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 221320.72,
+          "choice": 0
+        },
+        {
+          "total": 153184.78,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708438808849,
+      "txHash": "0x3df4e47cb8cf76b8d7676eb5ca1803866b18c288eb14f79e046a5468e4c84246",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo0Nw==",
+      "id": "47",
+      "title": "Proposal 47 - sablier airdrop",
+      "content": "Start airdrop with sablier-based tokens distribution\n\nTopic: https://forum.tornado.ws/t/proposals-47-48-airdrop/322\n\nIf you vote for this proposal, DO NOT VOTE FOR next proposal, vote AGAINST or ignore it - check explanation on forum",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xeb3E49Af2aB5D5D0f83A9289cF5a34d9e1f6C5b4",
+      "totalVotes": 16,
+      "blockNumber": 19269381,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1708437878
+      },
+      "endTime": {
+        "timestamp": 1708869878
+      },
+      "startTimestamp": 1708437878,
+      "endTimestamp": 1708869878,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 313809.12,
+          "choice": 0
+        },
+        {
+          "total": 102409.48,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1708869878,
+          "txHash": "0x5d519ea203bde1e69249e80ddc854b6966f49d66432e35e39ea83ba8a268b73d"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1708869878,
+          "txHash": "0x5d519ea203bde1e69249e80ddc854b6966f49d66432e35e39ea83ba8a268b73d"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 313809.1,
+          "choice": 0
+        },
+        {
+          "total": 102409.47,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708438209181,
+      "txHash": "0x5d519ea203bde1e69249e80ddc854b6966f49d66432e35e39ea83ba8a268b73d",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo0Ng==",
+      "id": "46",
+      "title": "Proposal 46 - fix proposals state and update docs",
+      "content": "Update proposal state function to show old proposals correctly on website and update docs corresponding to changes made in proposals 41 and 44\n\nTopic: https://forum.tornado.ws/t/proposal-46-fix-proposals-state-and-update-docs/318",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xeb3E49Af2aB5D5D0f83A9289cF5a34d9e1f6C5b4",
+      "totalVotes": 7,
+      "blockNumber": 19126266,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1706701802
+      },
+      "endTime": {
+        "timestamp": 1707133802
+      },
+      "startTimestamp": 1706701802,
+      "endTimestamp": 1707133802,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 190201.3,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1707133802,
+          "txHash": "0xbc242dacbbe71cbbad85fccd751eb29b0452f1fcfc0601c5d5b9fe55a7e022f3"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1707133802,
+          "txHash": "0xbc242dacbbe71cbbad85fccd751eb29b0452f1fcfc0601c5d5b9fe55a7e022f3"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1707133802,
+          "txHash": "0xbc242dacbbe71cbbad85fccd751eb29b0452f1fcfc0601c5d5b9fe55a7e022f3"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 190201.31,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706701893604,
+      "txHash": "0xbc242dacbbe71cbbad85fccd751eb29b0452f1fcfc0601c5d5b9fe55a7e022f3",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo0NQ==",
+      "id": "45",
+      "title": "Proposal 45 - official dev",
+      "content": "Sign on new official dev to deal with big proposals problem (https://forum.tornado.ws/t/big-proposals-problem/300) and develop Tornado faster and reliable\n\nTopic - https://forum.tornado.ws/t/proposal-45-official-dev/309",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xeb3E49Af2aB5D5D0f83A9289cF5a34d9e1f6C5b4",
+      "totalVotes": 7,
+      "blockNumber": 18928947,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1704310646
+      },
+      "endTime": {
+        "timestamp": 1704742646
+      },
+      "startTimestamp": 1704310646,
+      "endTimestamp": 1704742646,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 181303.56,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1704742646,
+          "txHash": "0x74d0b88b6a58e36d0a938704091f8047d59735c0b784ac1796d1a0fd149ff856"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1704742646,
+          "txHash": "0x74d0b88b6a58e36d0a938704091f8047d59735c0b784ac1796d1a0fd149ff856"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1704742646,
+          "txHash": "0x74d0b88b6a58e36d0a938704091f8047d59735c0b784ac1796d1a0fd149ff856"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 181303.56,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704310787525,
+      "txHash": "0x74d0b88b6a58e36d0a938704091f8047d59735c0b784ac1796d1a0fd149ff856",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo0NA==",
+      "id": "44",
+      "title": "Proposal 44 - Force withdrawals via relayers",
+      "content": "Many users avoid Tornado Cash fee and do not pay to stakers 0.3% for each withdrawal. We can not change contract, but we can force withdrawal only via relayer in UI. Proposal also contains minor improvements like changing censored rpc etc.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x7C199A0f301913212cfAB3756c3ed8F5B8927713",
+      "totalVotes": 12,
+      "blockNumber": 18869211,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1703585810
+      },
+      "endTime": {
+        "timestamp": 1704017810
+      },
+      "startTimestamp": 1703585810,
+      "endTimestamp": 1704017810,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 256596.84,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1704017810,
+          "txHash": "0xce909639282189c70a64eb1acb933e74d7874874947bf39c3eea7a0cfcb5fca4"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1704017810,
+          "txHash": "0xce909639282189c70a64eb1acb933e74d7874874947bf39c3eea7a0cfcb5fca4"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1704017810,
+          "txHash": "0xce909639282189c70a64eb1acb933e74d7874874947bf39c3eea7a0cfcb5fca4"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 256596.83,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703585938367,
+      "txHash": "0xce909639282189c70a64eb1acb933e74d7874874947bf39c3eea7a0cfcb5fca4",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo0Mw==",
+      "id": "43",
+      "title": "Proposal 43 - official uncensored swap interface",
+      "content": "Build uncensored Uniswap UI with simple TORN swaps and add it to official Tornado ENS subdomain: swap.tornadocash.eth\n\nInterface is available for tests: http://tornado-uniswap.eth.limo/\n\nTopic: https://forum.tornado.ws/t/proposal-43-official-uncensored-swap-interface/295",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xeb3E49Af2aB5D5D0f83A9289cF5a34d9e1f6C5b4",
+      "totalVotes": 8,
+      "blockNumber": 18840855,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1703241770
+      },
+      "endTime": {
+        "timestamp": 1703673770
+      },
+      "startTimestamp": 1703241770,
+      "endTimestamp": 1703673770,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 156084.52,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "pending",
+          "timestamp": 1703673770,
+          "txHash": "0xb21091608163742983e35ff8e7337f49b32ab39cfd8f41889f0e3af40c0a1cd7"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1703673770,
+          "txHash": "0xb21091608163742983e35ff8e7337f49b32ab39cfd8f41889f0e3af40c0a1cd7"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1703673770,
+          "txHash": "0xb21091608163742983e35ff8e7337f49b32ab39cfd8f41889f0e3af40c0a1cd7"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1703673770,
+          "txHash": "0xb21091608163742983e35ff8e7337f49b32ab39cfd8f41889f0e3af40c0a1cd7"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 156084.52,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703241721570,
+      "txHash": "0xb21091608163742983e35ff8e7337f49b32ab39cfd8f41889f0e3af40c0a1cd7",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo0Mg==",
+      "id": "42",
+      "title": "Proposal 42 - Unregister new cheater",
+      "content": "Unregister new cheating relayer and withdraw his balance to governance\n\nTopic: https://forum.tornado.ws/t/proposal-42-unregister-new-cheater-and-operator-discussion/285",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x7C199A0f301913212cfAB3756c3ed8F5B8927713",
+      "totalVotes": 5,
+      "blockNumber": 18768449,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1702364150
+      },
+      "endTime": {
+        "timestamp": 1702796150
+      },
+      "startTimestamp": 1702364150,
+      "endTimestamp": 1702796150,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 176148.17,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1702796150,
+          "txHash": "0x9fcb680545c3ef896cf3dcbdaba054f3588271e977247794d6d658791d52eb5a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1702796150,
+          "txHash": "0x9fcb680545c3ef896cf3dcbdaba054f3588271e977247794d6d658791d52eb5a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1702796150,
+          "txHash": "0x9fcb680545c3ef896cf3dcbdaba054f3588271e977247794d6d658791d52eb5a"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 176148.17,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1702364859911,
+      "txHash": "0x9fcb680545c3ef896cf3dcbdaba054f3588271e977247794d6d658791d52eb5a",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo0MQ==",
+      "id": "41",
+      "title": "Proposal 41 - Increase quorum and relayer registration thresholds",
+      "content": "Increase voting quorum threshold to 100000 TORN\nIncrease relayer registration threshold to 5000 TORN\n\nTopic: https://forum.tornado.ws/t/increase-voting-quorum-and-relayer-registration-threshold/283",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xeb3E49Af2aB5D5D0f83A9289cF5a34d9e1f6C5b4",
+      "totalVotes": 5,
+      "blockNumber": 18754514,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1702195730
+      },
+      "endTime": {
+        "timestamp": 1702627730
+      },
+      "startTimestamp": 1702195730,
+      "endTimestamp": 1702627730,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 107280.83,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1702627730,
+          "txHash": "0xd8831f7ee979c3ef85b24c5e1713cfdb003cdc86ce18c1dc4ba03b76c9af157e"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1702627730,
+          "txHash": "0xd8831f7ee979c3ef85b24c5e1713cfdb003cdc86ce18c1dc4ba03b76c9af157e"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1702627730,
+          "txHash": "0xd8831f7ee979c3ef85b24c5e1713cfdb003cdc86ce18c1dc4ba03b76c9af157e"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 107280.83,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1702195999877,
+      "txHash": "0xd8831f7ee979c3ef85b24c5e1713cfdb003cdc86ce18c1dc4ba03b76c9af157e",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo0MA==",
+      "id": "40",
+      "title": "Proposal 40 - burn 25% of TORN supply",
+      "content": "Burn 25% of TORN supply ( 2,500,000 TORN ) to increase the value of TORN. The supply will unlikely be released otherwise it will only decrease TORN value.\n\nBurning the supply should be considered safe since the governance could unlock 2 million TORN in the future.\n\nSee the context of the full proposal at https://tornado-swap-proposal.eth.link https://tornado-swap-proposal.eth.limo https://forum.tornado.ws/t/burn-25-torn-supply-distribute-airdrop-to-stakers/280\n\nVoting on this proposal will also grant to receive an airdrop of the new coming TORN exchange.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x0c7dEdE1734095153a496D2bD75f5d49b084d52A",
+      "totalVotes": 7,
+      "blockNumber": 18724279,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1701829370
+      },
+      "endTime": {
+        "timestamp": 1702261370
+      },
+      "startTimestamp": 1701829370,
+      "endTimestamp": 1702261370,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 98564.336,
+          "choice": 0
+        },
+        {
+          "total": 47173.418,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "pending",
+          "timestamp": 1702261370,
+          "txHash": "0x50ae0be3609fe9ecbc693b216a613ae24f7fa63aefae190a73b41b448451bfd9"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1702261370,
+          "txHash": "0x50ae0be3609fe9ecbc693b216a613ae24f7fa63aefae190a73b41b448451bfd9"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1702261370,
+          "txHash": "0x50ae0be3609fe9ecbc693b216a613ae24f7fa63aefae190a73b41b448451bfd9"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 98564.336,
+          "choice": 0
+        },
+        {
+          "total": 47173.418,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701829309212,
+      "txHash": "0x50ae0be3609fe9ecbc693b216a613ae24f7fa63aefae190a73b41b448451bfd9",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjozOQ==",
+      "id": "39",
+      "title": "Proposal #39: Project costs reimbursement",
+      "content": "Compensation for the costs of paying for all mandatory services to maintain the normal operation of the project for the next year (until December, 2024)\n\nDetailed info on forum:\nEnglish topic - https://forum.tornado.ws/t/proposal-39-project-expenses-reimbursement/255\nRussian topic - https://forum.tornado.ws/t/proposal-39/251",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9Ff3C1Bea9ffB56a78824FE29f457F066257DD58",
+      "totalVotes": 16,
+      "blockNumber": 18643294,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1700849834
+      },
+      "endTime": {
+        "timestamp": 1701281834
+      },
+      "startTimestamp": 1700849834,
+      "endTimestamp": 1701281834,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 73157.125,
+          "choice": 0
+        },
+        {
+          "total": 126067.29,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1701281834,
+          "txHash": "0xd609e9ec87146c4fa7c19e7b60a6a7d88da7d612df99ec58c79a92c6f1c6d6fd"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1701281834,
+          "txHash": "0xd609e9ec87146c4fa7c19e7b60a6a7d88da7d612df99ec58c79a92c6f1c6d6fd"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1701281834,
+          "txHash": "0xd609e9ec87146c4fa7c19e7b60a6a7d88da7d612df99ec58c79a92c6f1c6d6fd"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 73157.13,
+          "choice": 0
+        },
+        {
+          "total": 126067.28,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1700850278605,
+      "txHash": "0xd609e9ec87146c4fa7c19e7b60a6a7d88da7d612df99ec58c79a92c6f1c6d6fd",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjozOA==",
+      "id": "38",
+      "title": "Proposal 38 - Compensating for relayers in oracle attacks",
+      "content": "Compensating for relayers being incorrectly burned torn in oracle attacks\nTopic: https://forum.tornado.ws/t/proposal-38-compensating-for-relayers-in-oracle-attacks/240",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9b78e16456c8C0A1FE386894c6f1E7F7C0104ADC",
+      "totalVotes": 6,
+      "blockNumber": 18614107,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1700496794
+      },
+      "endTime": {
+        "timestamp": 1700928794
+      },
+      "startTimestamp": 1700496794,
+      "endTimestamp": 1700928794,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 432.67,
+          "choice": 0
+        },
+        {
+          "total": 48062.246,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1700928794,
+          "txHash": "0x8f2ebc620b7c0fceaeb1751167cb4fafd0a973e635c649c90f7bf54cc4b6b561"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1700928794,
+          "txHash": "0x8f2ebc620b7c0fceaeb1751167cb4fafd0a973e635c649c90f7bf54cc4b6b561"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1700928794,
+          "txHash": "0x8f2ebc620b7c0fceaeb1751167cb4fafd0a973e635c649c90f7bf54cc4b6b561"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1700928794,
+          "txHash": "0x8f2ebc620b7c0fceaeb1751167cb4fafd0a973e635c649c90f7bf54cc4b6b561"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 432.67,
+          "choice": 0
+        },
+        {
+          "total": 48062.25,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1700497365596,
+      "txHash": "0x8f2ebc620b7c0fceaeb1751167cb4fafd0a973e635c649c90f7bf54cc4b6b561",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjozNw==",
+      "id": "37",
+      "title": "Proposal 37 - unregister all cheating relayers",
+      "content": "Unregister all cheating relayers to prevent cheating with 500 torn\nTopic: https://forum.tornado.ws/t/proposal-37-unregister-all-cheating-relayers/233",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x7C199A0f301913212cfAB3756c3ed8F5B8927713",
+      "totalVotes": 6,
+      "blockNumber": 18549249,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1699712546
+      },
+      "endTime": {
+        "timestamp": 1700144546
+      },
+      "startTimestamp": 1699712546,
+      "endTimestamp": 1700144546,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 93914.445,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1700144546,
+          "txHash": "0x3df5cddd1acb13481d10b6109a9c3e6bc2058148cc589da2325801058ab4f4cc"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1700144546,
+          "txHash": "0x3df5cddd1acb13481d10b6109a9c3e6bc2058148cc589da2325801058ab4f4cc"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1700144546,
+          "txHash": "0x3df5cddd1acb13481d10b6109a9c3e6bc2058148cc589da2325801058ab4f4cc"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1700144546,
+          "txHash": "0x3df5cddd1acb13481d10b6109a9c3e6bc2058148cc589da2325801058ab4f4cc"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 93914.445,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1699715121393,
+      "txHash": "0x3df5cddd1acb13481d10b6109a9c3e6bc2058148cc589da2325801058ab4f4cc",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjozNg==",
+      "id": "36",
+      "title": "Proposal 36 - restore relayers",
+      "content": "Restore mistakenly unregistered relayers in proposal 32\n\nTopic: https://forum.tornado.ws/t/proposal-36-restore-relayers/232",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xeb3E49Af2aB5D5D0f83A9289cF5a34d9e1f6C5b4",
+      "totalVotes": 9,
+      "blockNumber": 18549061,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1699710278
+      },
+      "endTime": {
+        "timestamp": 1700142278
+      },
+      "startTimestamp": 1699710278,
+      "endTimestamp": 1700142278,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 15904.196,
+          "choice": 0
+        },
+        {
+          "total": 75900.72,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1700142278,
+          "txHash": "0xb8941eb36393a3c3d8326e2a88b9cb55b2349584f1ec05f15964016fe21518a9"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1700142278,
+          "txHash": "0xb8941eb36393a3c3d8326e2a88b9cb55b2349584f1ec05f15964016fe21518a9"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1700142278,
+          "txHash": "0xb8941eb36393a3c3d8326e2a88b9cb55b2349584f1ec05f15964016fe21518a9"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1700142278,
+          "txHash": "0xb8941eb36393a3c3d8326e2a88b9cb55b2349584f1ec05f15964016fe21518a9"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 15904.196,
+          "choice": 0
+        },
+        {
+          "total": 75900.72,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1699710852783,
+      "txHash": "0xb8941eb36393a3c3d8326e2a88b9cb55b2349584f1ec05f15964016fe21518a9",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjozNQ==",
+      "id": "35",
+      "title": "Cheating relayers penalisation",
+      "content": "Reset relayers balance, and torn back to governance. If executed, give gas back to developer say 15 TORN.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xf3B2e52f2ab3d206975F436EA0AC3856AB3ECDE7",
+      "totalVotes": 10,
+      "blockNumber": 18531971,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1699503758
+      },
+      "endTime": {
+        "timestamp": 1699935758
+      },
+      "startTimestamp": 1699503758,
+      "endTimestamp": 1699935758,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 52179.805,
+          "choice": 0
+        },
+        {
+          "total": 2653.2976,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1699935758,
+          "txHash": "0x411f0561ae274f5d9981f5b9e9688a220cff10acde2fea2e47772524cbaecb59"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1699935758,
+          "txHash": "0x411f0561ae274f5d9981f5b9e9688a220cff10acde2fea2e47772524cbaecb59"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 52179.8,
+          "choice": 0
+        },
+        {
+          "total": 2653.2976,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1699503841298,
+      "txHash": "0x411f0561ae274f5d9981f5b9e9688a220cff10acde2fea2e47772524cbaecb59",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjozNA==",
+      "id": "34",
+      "title": "Proposal 34 - cheating relayers patch",
+      "content": "Unregister all cheating relayers, restore mistakenly unregistered relayers and compensate them downtime at the expense of cheaters and add operator functionality to relayer contract for possibly future use, if cheating relayers problem will still actual after this proposal (I do not think so).\n\nTopic (read all posts): https://forum.tornado.ws/t/proposal-34-cheating-relayers-patch/227",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xeb3E49Af2aB5D5D0f83A9289cF5a34d9e1f6C5b4",
+      "totalVotes": 7,
+      "blockNumber": 18499448,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1699110374
+      },
+      "endTime": {
+        "timestamp": 1699542374
+      },
+      "startTimestamp": 1699110374,
+      "endTimestamp": 1699542374,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 55864.336,
+          "choice": 0
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1699542374,
+          "txHash": "0xa19a775660bc8f1336ab3dd32ec4c6e10989bf79da91e7c8702d496d1f6c5609"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1699542374,
+          "txHash": "0xa19a775660bc8f1336ab3dd32ec4c6e10989bf79da91e7c8702d496d1f6c5609"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 55864.34,
+          "choice": 0
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1699110648529,
+      "txHash": "0xa19a775660bc8f1336ab3dd32ec4c6e10989bf79da91e7c8702d496d1f6c5609",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjozMw==",
+      "id": "33",
+      "title": "Proposal #33: Compensation for relayers",
+      "content": "Compensate losses due to recent attack on relayers: https://forum.tornado.ws/t/relayer-attack-analysis-and-mitigation/199/2\n\nDetails on forum:\nEnglish topic - https://forum.tornado.ws/t/proposal-33-compensation-for-relayers/225\nRussian topic - https://forum.tornado.ws/t/proposal-33/224\n\nP.S.\nI, as a developer, do not support or promote this proposal, I do not encourage you to vote for it or against it and wont vote myself - I am only a technical implementer who created the proposal and provided some additional information about it, DYOR.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9Ff3C1Bea9ffB56a78824FE29f457F066257DD58",
+      "totalVotes": 7,
+      "blockNumber": 18446959,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1698475154
+      },
+      "endTime": {
+        "timestamp": 1698907154
+      },
+      "startTimestamp": 1698475154,
+      "endTimestamp": 1698907154,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 84349.51,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1698907154,
+          "txHash": "0xa6b9c0ff383c3a45d9ad5bcff7107d9a2d4db3793cc39df2feaed5531e8eab5e"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1698907154,
+          "txHash": "0xa6b9c0ff383c3a45d9ad5bcff7107d9a2d4db3793cc39df2feaed5531e8eab5e"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1698907154,
+          "txHash": "0xa6b9c0ff383c3a45d9ad5bcff7107d9a2d4db3793cc39df2feaed5531e8eab5e"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1698907154,
+          "txHash": "0xa6b9c0ff383c3a45d9ad5bcff7107d9a2d4db3793cc39df2feaed5531e8eab5e"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 84349.51,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698475258142,
+      "txHash": "0xa6b9c0ff383c3a45d9ad5bcff7107d9a2d4db3793cc39df2feaed5531e8eab5e",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjozMg==",
+      "id": "32",
+      "title": "Proposal 32 - Unregister cheating relayers",
+      "content": "This proposal seeks to finally patch a loophole in Tornado relayers contract which allowed cheating relayers after nullifying their balance to stake again about 40 torn and be listed in the previous ui and old local version from archived Github.\n\nTopic: https://forum.tornado.ws/t/proposal-32-unregister-cheating-relayers/222\n\nLets smash all cheaters!",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xeb3E49Af2aB5D5D0f83A9289cF5a34d9e1f6C5b4",
+      "totalVotes": 9,
+      "blockNumber": 18434807,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1698328442
+      },
+      "endTime": {
+        "timestamp": 1698760442
+      },
+      "startTimestamp": 1698328442,
+      "endTimestamp": 1698760442,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 30095.959,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1698760442,
+          "txHash": "0xb5e1530825a8d694484da8fa35feedee8cefbbb596cd9fa652f40550caf13f5a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1698760442,
+          "txHash": "0xb5e1530825a8d694484da8fa35feedee8cefbbb596cd9fa652f40550caf13f5a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1698760442,
+          "txHash": "0xb5e1530825a8d694484da8fa35feedee8cefbbb596cd9fa652f40550caf13f5a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1698760442,
+          "txHash": "0xb5e1530825a8d694484da8fa35feedee8cefbbb596cd9fa652f40550caf13f5a"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 30095.959,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698328605806,
+      "txHash": "0xb5e1530825a8d694484da8fa35feedee8cefbbb596cd9fa652f40550caf13f5a",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjozMQ==",
+      "id": "31",
+      "title": "Proposal #31: Finalize sources decentralization",
+      "content": "Details on forum:\nEnglish topic - https://forum.tornado.ws/t/proposal-31-finalize-sources-decentralization/209\nRussian topic - https://forum.tornado.ws/t/proposal-31-tornado/205\n\nP.S. Writing here so that relayers who are not in the chat can clearly see: read topic about attack (https://forum.tornado.ws/t/relayer-attack-analysis-and-mitigation/199) and reinstall new software version. It isn't required, but you can lose ETH balance if wouldn't do this.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9Ff3C1Bea9ffB56a78824FE29f457F066257DD58",
+      "totalVotes": 9,
+      "blockNumber": 18386066,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1697738954
+      },
+      "endTime": {
+        "timestamp": 1698170954
+      },
+      "startTimestamp": 1697738954,
+      "endTimestamp": 1698170954,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 107384.97,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1698170954,
+          "txHash": "0xa01033863115e157b5b82559eb77bbec4b1c1039eac7b664bb824cfec66cf07b"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "pending",
+          "timestamp": 1698170954,
+          "txHash": "0xa01033863115e157b5b82559eb77bbec4b1c1039eac7b664bb824cfec66cf07b"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1698170954,
+          "txHash": "0xa01033863115e157b5b82559eb77bbec4b1c1039eac7b664bb824cfec66cf07b"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1698170954,
+          "txHash": "0xa01033863115e157b5b82559eb77bbec4b1c1039eac7b664bb824cfec66cf07b"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 107384.97,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1697738919473,
+      "txHash": "0xa01033863115e157b5b82559eb77bbec4b1c1039eac7b664bb824cfec66cf07b",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjozMA==",
+      "id": "30",
+      "title": "Proposal #30: Tornado sources decentralization",
+      "content": "Complete decentralization of Tornado Cash sources: all sites, services, software and npm packages.\n\nDetailed info on forum:\nEnglish topic - https://forum.tornado.ws/t/proposal-30-tornado-sources-decentralization/182\nRussian topic - https://forum.tornado.ws/t/proposal-30-tornado/181",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9Ff3C1Bea9ffB56a78824FE29f457F066257DD58",
+      "totalVotes": 10,
+      "blockNumber": 18268617,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1696319330
+      },
+      "endTime": {
+        "timestamp": 1696751330
+      },
+      "startTimestamp": 1696319330,
+      "endTimestamp": 1696751330,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 40117.992,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1696751330,
+          "txHash": "0x1a627a96ba010fffd0708e22c33c6af05b4e43246f1e0201acfb6ef7150e1b42"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1696751330,
+          "txHash": "0x1a627a96ba010fffd0708e22c33c6af05b4e43246f1e0201acfb6ef7150e1b42"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1696751330,
+          "txHash": "0x1a627a96ba010fffd0708e22c33c6af05b4e43246f1e0201acfb6ef7150e1b42"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1696751330,
+          "txHash": "0x1a627a96ba010fffd0708e22c33c6af05b4e43246f1e0201acfb6ef7150e1b42"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 40117.992,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696319487995,
+      "txHash": "0x1a627a96ba010fffd0708e22c33c6af05b4e43246f1e0201acfb6ef7150e1b42",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoyOQ==",
+      "id": "29",
+      "title": "Proposal #29: Update IPFS content hashes and addresses on ENS",
+      "content": "Set all updates made in the last four months on core Tornado Cash services (main site, Nova, documentation, software for relayers) into the ENS. \n\nDetailed info on forum:\nEnglish topic - https://forum.tornado.ws/t/proposal-29-update-ipfs-content-hashes-and-addresses-on-ens/171\nRussian topic - https://forum.tornado.ws/t/proposal-29-ui-ens/170\n\nThis proposal keeps relayers on the Ethereum Mainnet backwards compatible with older versions of the main site (Classic UI), however relayers will still need to update their software if the proposal is accepted.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9Ff3C1Bea9ffB56a78824FE29f457F066257DD58",
+      "totalVotes": 8,
+      "blockNumber": 18037003,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1693514546
+      },
+      "endTime": {
+        "timestamp": 1693946546
+      },
+      "startTimestamp": 1693514546,
+      "endTimestamp": 1693946546,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 34803.375,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1693946546,
+          "txHash": "0x3d5e1c921b3195ec3d15090f84089f6591ae7e9a180a5e821b0954f1a702eec9"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1693946546,
+          "txHash": "0x3d5e1c921b3195ec3d15090f84089f6591ae7e9a180a5e821b0954f1a702eec9"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1693946546,
+          "txHash": "0x3d5e1c921b3195ec3d15090f84089f6591ae7e9a180a5e821b0954f1a702eec9"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1693946546,
+          "txHash": "0x3d5e1c921b3195ec3d15090f84089f6591ae7e9a180a5e821b0954f1a702eec9"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 34803.375,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1693514939742,
+      "txHash": "0x3d5e1c921b3195ec3d15090f84089f6591ae7e9a180a5e821b0954f1a702eec9",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoyOA==",
+      "id": "28",
+      "title": "Proposal #28: Next quarter remuneration and bounty",
+      "content": "Pay developer remuneration and project costs reimbursement (RPC, servers and so on) for the next quarter since the period of the previous contract initiated by proposal #19 has ended.\nIn addition, it would be worth paying a bounty reward (check this topic - https://forums.tornadocash.community/t/contributor-bounty-program/34) to community developer, which was promised by Gozzy (previous developer).\n\nForum topic (English): https://forum.tornado.ws/t/proposal-28-next-quarter-remuneration-and-bounty/158\nForum topic (Russian): https://forum.tornado.ws/t/proposal-28-bounty/156",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x5cEe50832CD91A6d3BC6fc353A1aD971B158dD1E",
+      "totalVotes": 8,
+      "blockNumber": 17842500,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1691162834
+      },
+      "endTime": {
+        "timestamp": 1691594834
+      },
+      "startTimestamp": 1691162834,
+      "endTimestamp": 1691594834,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 97560.45,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1691594834,
+          "txHash": "0x1bef5487484fe023eebb5c105401f1b6215e3f85919a6ecb9d023941fab35fe1"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1691594834,
+          "txHash": "0x1bef5487484fe023eebb5c105401f1b6215e3f85919a6ecb9d023941fab35fe1"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1691594834,
+          "txHash": "0x1bef5487484fe023eebb5c105401f1b6215e3f85919a6ecb9d023941fab35fe1"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1691594834,
+          "txHash": "0x1bef5487484fe023eebb5c105401f1b6215e3f85919a6ecb9d023941fab35fe1"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 97560.45,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1691162932550,
+      "txHash": "0x1bef5487484fe023eebb5c105401f1b6215e3f85919a6ecb9d023941fab35fe1",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoyNw==",
+      "id": "27",
+      "title": "Proposal #27: Update IPFS content hashes and addresses on ENS",
+      "content": "Set all updates made in the last three months on main tornado services (main site, Nova, documentation, software for relayers) into the ENS. \n\nDetailed info on forum:\nEnglish topic - https://forum.tornado.ws/t/proposal-27-update-ipfs-content-hashes-and-addresses-on-ens/155\nRussian topic - https://forum.tornado.ws/t/proposal-27-ipfs-ens/150\n\nImportant info for relayers:\nIf the current proposal will be accepted and executed, the current version of the software for relayers (4.1.4 for Ethereum Mainnet, 5.0.0-beta for sidechains) will be marked as deprecated and relayers with the current version wont be listed in the UI (cannot be selected on main site). More info in forum topic, read it please.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9Ff3C1Bea9ffB56a78824FE29f457F066257DD58",
+      "totalVotes": 13,
+      "blockNumber": 17819591,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1690886234
+      },
+      "endTime": {
+        "timestamp": 1691318234
+      },
+      "startTimestamp": 1690886234,
+      "endTimestamp": 1691318234,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 107470.15,
+          "choice": 0
+        },
+        {
+          "total": 38320.445,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1691318234,
+          "txHash": "0xd63b0d355b6dd612944ac5a0925b8df3c88134fb8a7ce3882da3660ebdfa6ec5"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1691318234,
+          "txHash": "0xd63b0d355b6dd612944ac5a0925b8df3c88134fb8a7ce3882da3660ebdfa6ec5"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 107470.15,
+          "choice": 0
+        },
+        {
+          "total": 38320.453,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690886734078,
+      "txHash": "0xd63b0d355b6dd612944ac5a0925b8df3c88134fb8a7ce3882da3660ebdfa6ec5",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoyNg==",
+      "id": "26",
+      "title": "Proposal #26: Paid listing on Coinstore",
+      "content": "Proposal to list TORN on Coinstore (https://www.coinstore.com).\nForum topic: https://forum.tornado.ws/t/proposal-26-paid-listing-on-coinstore/147\n\nDISCLAIMER\nI, as a developer, do not support or promote this proposal, I do not encourage you to vote for it or against it - I am only a technical implementer who created the proposal and provided some additional information about it. The original topic created by Coinstore employee is here (https://forum.tornado.ws/t/listing-tornado-cash-on-coinstore/145), DYOR.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9Ff3C1Bea9ffB56a78824FE29f457F066257DD58",
+      "totalVotes": 5,
+      "blockNumber": 17730010,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1689803318
+      },
+      "endTime": {
+        "timestamp": 1690235318
+      },
+      "startTimestamp": 1689803318,
+      "endTimestamp": 1690235318,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 32674.67,
+          "choice": 0
+        },
+        {
+          "total": 4042.4915,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1690235318,
+          "txHash": "0x2792df76061185567ee466ac9dc8f756a9c3e111c893a063b7341a157af1c910"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1690235318,
+          "txHash": "0x2792df76061185567ee466ac9dc8f756a9c3e111c893a063b7341a157af1c910"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 32674.67,
+          "choice": 0
+        },
+        {
+          "total": 4042.4915,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689803530021,
+      "txHash": "0x2792df76061185567ee466ac9dc8f756a9c3e111c893a063b7341a157af1c910",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoyNQ==",
+      "id": "25",
+      "title": "Proposal #25: Restore old staking rewards",
+      "content": "Restore rewards that were before the hack to those stakers, who didn't have time to withdraw them, because in Proposal 22 Governance Staking contracts was redeployed and all rewards were nullified.\n\nDetails in English: https://forum.tornado.ws/t/proposal-25-restore-staking-rewards/113\nDetails in Russian: https://forum.tornado.ws/t/proposal-25/112\n",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9Ff3C1Bea9ffB56a78824FE29f457F066257DD58",
+      "totalVotes": 21,
+      "blockNumber": 17492630,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1686921398
+      },
+      "endTime": {
+        "timestamp": 1687353398
+      },
+      "startTimestamp": 1686921398,
+      "endTimestamp": 1687353398,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 78137.61,
+          "choice": 0
+        },
+        {
+          "total": 92896.51,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1687353398,
+          "txHash": "0xa1451b023e85f3470b2b89a709a453c57cd782a72c892d4f517feaa6c6f5f5f1"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1687353398,
+          "txHash": "0xa1451b023e85f3470b2b89a709a453c57cd782a72c892d4f517feaa6c6f5f5f1"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1687353398,
+          "txHash": "0xa1451b023e85f3470b2b89a709a453c57cd782a72c892d4f517feaa6c6f5f5f1"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 78137.61,
+          "choice": 0
+        },
+        {
+          "total": 72183.3,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686921821977,
+      "txHash": "0xa1451b023e85f3470b2b89a709a453c57cd782a72c892d4f517feaa6c6f5f5f1",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoyNA==",
+      "id": "24",
+      "title": "Proposal #24: project costs reimbursement",
+      "content": "Reimbursement for the maintenance of the project and its infrastructure: RPC's, servers, gas for the deployment of new large contracts, and so on.\n\nDetails in English: https://forum.tornado.ws/t/proposal-24-project-costs-reimbursement/102\nDetails in Russian: https://forum.tornado.ws/t/proposal-24/104 ",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xfa2176D82cbA00d54998E6C37616b75ceCef08a0",
+      "totalVotes": 10,
+      "blockNumber": 17440837,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1686291350
+      },
+      "endTime": {
+        "timestamp": 1686723350
+      },
+      "startTimestamp": 1686291350,
+      "endTimestamp": 1686723350,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 29247.973,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1686723350,
+          "txHash": "0x985dbfd66c818aa3a497b34b7da57f7c70c9be3a6b1044df36f49a47ce0a27bd"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1686723350,
+          "txHash": "0x985dbfd66c818aa3a497b34b7da57f7c70c9be3a6b1044df36f49a47ce0a27bd"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1686723350,
+          "txHash": "0x985dbfd66c818aa3a497b34b7da57f7c70c9be3a6b1044df36f49a47ce0a27bd"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1686723350,
+          "txHash": "0x985dbfd66c818aa3a497b34b7da57f7c70c9be3a6b1044df36f49a47ce0a27bd"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 29247.973,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686291574880,
+      "txHash": "0x985dbfd66c818aa3a497b34b7da57f7c70c9be3a6b1044df36f49a47ce0a27bd",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoyMw==",
+      "id": "23",
+      "title": "Proposal #23: Cheating relayers penalisation",
+      "content": "https://forum.tornado.ws/t/proposal-23-cheating-relayers-penalisation/95/1",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x9Ff3C1Bea9ffB56a78824FE29f457F066257DD58",
+      "totalVotes": 15,
+      "blockNumber": 17429285,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1686150614
+      },
+      "endTime": {
+        "timestamp": 1686582614
+      },
+      "startTimestamp": 1686150614,
+      "endTimestamp": 1686582614,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 12822.6,
+          "choice": 0
+        },
+        {
+          "total": 75708.25,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1686582614,
+          "txHash": "0xa52191036fccdbb44421b6628640eb1b1bfd6b1bc4ab7aac6bf3ed2b91656d4f"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "pending",
+          "timestamp": 1686582614,
+          "txHash": "0xa52191036fccdbb44421b6628640eb1b1bfd6b1bc4ab7aac6bf3ed2b91656d4f"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1686582614,
+          "txHash": "0xa52191036fccdbb44421b6628640eb1b1bfd6b1bc4ab7aac6bf3ed2b91656d4f"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1686582614,
+          "txHash": "0xa52191036fccdbb44421b6628640eb1b1bfd6b1bc4ab7aac6bf3ed2b91656d4f"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1686582614,
+          "txHash": "0xa52191036fccdbb44421b6628640eb1b1bfd6b1bc4ab7aac6bf3ed2b91656d4f"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 12822.6,
+          "choice": 0
+        },
+        {
+          "total": 75708.26,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686150555049,
+      "txHash": "0xa52191036fccdbb44421b6628640eb1b1bfd6b1bc4ab7aac6bf3ed2b91656d4f",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoyMg==",
+      "id": "22",
+      "title": "Proposal #22: Governance and rewards patch after exploit",
+      "content": "This proposal seeks to patch the vulnerability which allowed the recent exploit to occur and also rebuilds infrastructure which was incapacitated by it.\n\nMajor changes:\n1. Adding protection from metamorphic contracts to Governance voting process;\n2. Redeploying Governance Staking proxy contract to nullify bugged rewards;\n3. Return of tokens lost due to a bug in Governance Staking;\n4. Redeploying Governance Staking logic contract and Relayer Registry logic contract to change the staking address to the current one.\n\nForum topic: https://forum.tornado.ws/t/proposal-22-patch-governance-rebuild-infrastructure/67",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xfa2176D82cbA00d54998E6C37616b75ceCef08a0",
+      "totalVotes": 10,
+      "blockNumber": 17357872,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1685281298
+      },
+      "endTime": {
+        "timestamp": 1685713298
+      },
+      "startTimestamp": 1685281298,
+      "endTimestamp": 1685713298,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 39874.426,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1685713298,
+          "txHash": "0x1988b3f1eeee141a1d92ff4217ff223ac22f479f7660d495b59169dfa62b7c1b"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1685713298,
+          "txHash": "0x1988b3f1eeee141a1d92ff4217ff223ac22f479f7660d495b59169dfa62b7c1b"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1685713298,
+          "txHash": "0x1988b3f1eeee141a1d92ff4217ff223ac22f479f7660d495b59169dfa62b7c1b"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1685713298,
+          "txHash": "0x1988b3f1eeee141a1d92ff4217ff223ac22f479f7660d495b59169dfa62b7c1b"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 39874.426,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685282223066,
+      "txHash": "0x1988b3f1eeee141a1d92ff4217ff223ac22f479f7660d495b59169dfa62b7c1b",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoyMQ==",
+      "id": "21",
+      "title": "Proposal 21",
+      "content": "",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xd99b4C7372cC245965Bf24A1762d76228201A4b0",
+      "totalVotes": 52,
+      "blockNumber": 17307566,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1684670018
+      },
+      "endTime": {
+        "timestamp": 1685102018
+      },
+      "startTimestamp": 1684670018,
+      "endTimestamp": 1685102018,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 517000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1685102018,
+          "txHash": "0x8564a3761146ad6a15be1789d95b767ee5287b0ce71010edaa7bd48ffbd2560a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1685102018,
+          "txHash": "0x8564a3761146ad6a15be1789d95b767ee5287b0ce71010edaa7bd48ffbd2560a"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1685102018,
+          "txHash": "0x8564a3761146ad6a15be1789d95b767ee5287b0ce71010edaa7bd48ffbd2560a"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 517000.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684670319098,
+      "txHash": "0x8564a3761146ad6a15be1789d95b767ee5287b0ce71010edaa7bd48ffbd2560a",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoyMA==",
+      "id": "20",
+      "title": "Proposal #20: Relayer registry penalization",
+      "content": "Penalize following relayers who is cheating the protocol.\nThe staked balances of these relayers are not burned at all, so the staking reward of valid participants are not properly paid.\n\n0xcBD78860218160F4b463612f30806807Fe6E804C tornadope.eth\n0x94596B6A626392F5D972D6CC4D929a42c2f0008c 0xgm777.eth\n0x065f2A0eF62878e8951af3c387E4ddC944f1B8F4 0xtorn365.eth\n0x18F516dD6D5F46b2875Fd822B994081274be2a8b abc321.eth\n\nUse same logic of proposal #16.",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x592340957eBC9e4Afb0E9Af221d06fDDDF789de9",
+      "totalVotes": 9,
+      "blockNumber": 17249553,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1683962654
+      },
+      "endTime": {
+        "timestamp": 1684394654
+      },
+      "startTimestamp": 1683962654,
+      "endTimestamp": 1684394654,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 72422.11,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1684394654,
+          "txHash": "0x34605f1d6463a48b818157f7b26d040f8dd329273702a0618e9e74fe350e6e0d"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1684394654,
+          "txHash": "0x34605f1d6463a48b818157f7b26d040f8dd329273702a0618e9e74fe350e6e0d"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1684394654,
+          "txHash": "0x34605f1d6463a48b818157f7b26d040f8dd329273702a0618e9e74fe350e6e0d"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1684394654,
+          "txHash": "0x34605f1d6463a48b818157f7b26d040f8dd329273702a0618e9e74fe350e6e0d"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 72422.11,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683962995519,
+      "txHash": "0x34605f1d6463a48b818157f7b26d040f8dd329273702a0618e9e74fe350e6e0d",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoxOQ==",
+      "id": "19",
+      "title": "Proposal #19: New developer, future plans and remuneration",
+      "content": "https://forum.tornado.ws/t/proposal-19-new-dev-plans-for-project-development-and-remuneration/21",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xfa2176D82cbA00d54998E6C37616b75ceCef08a0",
+      "totalVotes": 6,
+      "blockNumber": 17182077,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1683139862
+      },
+      "endTime": {
+        "timestamp": 1683571862
+      },
+      "startTimestamp": 1683139862,
+      "endTimestamp": 1683571862,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 26786.459,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1683571862,
+          "txHash": "0x223e83f18cba885dc1ad907b805c28ee159621c43dd18fe2673a131389fb2d8c"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1683571862,
+          "txHash": "0x223e83f18cba885dc1ad907b805c28ee159621c43dd18fe2673a131389fb2d8c"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1683571862,
+          "txHash": "0x223e83f18cba885dc1ad907b805c28ee159621c43dd18fe2673a131389fb2d8c"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1683571862,
+          "txHash": "0x223e83f18cba885dc1ad907b805c28ee159621c43dd18fe2673a131389fb2d8c"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 26786.459,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683140182615,
+      "txHash": "0x223e83f18cba885dc1ad907b805c28ee159621c43dd18fe2673a131389fb2d8c",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoxOA==",
+      "id": "18",
+      "title": "Audit reimbursement and remuneration Q2",
+      "content": "https://forums.tornadocash.community/t/18-audit-reimbursement-and-remuneration-q2/150",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x647e9e26DA82C29AAFbbFB1C3f45d916AA9b300d",
+      "totalVotes": 10,
+      "blockNumber": 17069186,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1681767398
+      },
+      "endTime": {
+        "timestamp": 1682199398
+      },
+      "startTimestamp": 1681767398,
+      "endTimestamp": 1682199398,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 78531.45,
+          "choice": 0
+        },
+        {
+          "total": 51403.996,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1682199398,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1682199398,
+          "txHash": "0xc7bc4c2514d89eaded985ab56c3bad2105b971ee6de4b05282a5b36719203a50"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 78531.45,
+          "choice": 0
+        },
+        {
+          "total": 51404.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681767813697,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoxNw==",
+      "id": "17",
+      "title": "ENS IPFS updates",
+      "content": "https://forums.tornadocash.community/t/17-ens-ipfs-updates/142",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x04700e0Ef1bCD91d36e7CE63FE93d651DFB272cA",
+      "totalVotes": 5,
+      "blockNumber": 17069102,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1681766366
+      },
+      "endTime": {
+        "timestamp": 1682198366
+      },
+      "startTimestamp": 1681766366,
+      "endTimestamp": 1682198366,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 106048.38,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1682198366,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1682198366,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1682198366,
+          "txHash": "0xd9d2920191634687067905ce24666f3b1513dbb0752b52e1393107250a98eb4e"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 106048.38,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681766571654,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoxNg==",
+      "id": "16",
+      "title": "Proposal #16: #16: Relayer registry penalisation and configuration",
+      "content": "https://forums.tornadocash.community/t/16-relayer-registry-penalisation-and-configuration/129",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x08d19484246a987411e04a7F098E36F92cad4f24",
+      "totalVotes": 4,
+      "blockNumber": 17069057,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1681765826
+      },
+      "endTime": {
+        "timestamp": 1682197826
+      },
+      "startTimestamp": 1681765826,
+      "endTimestamp": 1682197826,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 44304.754,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1682197826,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1682197826,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1682197826,
+          "txHash": "0xfa4bd6e44ec18032c74578e44888f67b501eef999954a0ebbb81f9f9527df090"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1682197826,
+          "txHash": "0xfa4bd6e44ec18032c74578e44888f67b501eef999954a0ebbb81f9f9527df090"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 44304.758,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681765984747,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoxNQ==",
+      "id": "15",
+      "title": "Proposal 15",
+      "content": "",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x08d19484246a987411e04a7F098E36F92cad4f24",
+      "totalVotes": 18,
+      "blockNumber": 16216935,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671431186
+      },
+      "endTime": {
+        "timestamp": 1671863186
+      },
+      "startTimestamp": 1671431186,
+      "endTimestamp": 1671863186,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 23784.752,
+          "choice": 0
+        },
+        {
+          "total": 99738.84,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1671863186,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1671863186,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1671863186,
+          "txHash": "0x176db8bd59422d270478206261c254ef515a5db7db329b6cce05a9e70c6112d4"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 23784.752,
+          "choice": 0
+        },
+        {
+          "total": 99738.84,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoxNA==",
+      "id": "14",
+      "title": "Proposal 14",
+      "content": "",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x08d19484246a987411e04a7F098E36F92cad4f24",
+      "totalVotes": 10,
+      "blockNumber": 16139894,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1670501414
+      },
+      "endTime": {
+        "timestamp": 1670933414
+      },
+      "startTimestamp": 1670501414,
+      "endTimestamp": 1670933414,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 26687.975,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "active",
+          "timestamp": 1670933414,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "pending",
+          "timestamp": 1670933414,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "queued",
+          "timestamp": 1670933414,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1670933414,
+          "txHash": "0x0e9c2b3fb6795277b4ab5debe009a481ff78f2bb5c1e4eeab82bc02e3c9b417d"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1670933414,
+          "txHash": "0x0e9c2b3fb6795277b4ab5debe009a481ff78f2bb5c1e4eeab82bc02e3c9b417d"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 26687.975,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoxMw==",
+      "id": "13",
+      "title": "Proposal #13: Treasury diversification proposal",
+      "content": "Short proposal description: If this proposal is accepted, 50,000 TORN-v-1 will be sold against WETH at a 20% discount, during a 14 days 1INCH limit order crowdsale to diversify the governance treasury (minimum TORN buying price is fixed at 0.008 ETH).\\n\\n \n\nTORN-v-1 is a vesting TORN token that must be transferred to governance. After TORN-v-1 being transferred into the governance contract, 1 TORN-v-1 is directly transformed into 1 TORN, giving access to the staking yield and the vote. Then, the investor will have to wait for 365 days to be able to unstake.\n\\n\\n Full proposal description on this link: https://torn.community/t/treasury-diversification-proposal/2652",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xDdbfCEd30862c0105673B38dFf5e941cf48830e4",
+      "totalVotes": 32,
+      "blockNumber": 15045025,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1656505832
+      },
+      "endTime": {
+        "timestamp": 1656937832
+      },
+      "startTimestamp": 1656505832,
+      "endTimestamp": 1656937832,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 118681.15,
+          "choice": 0
+        },
+        {
+          "total": 54990.906,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1656937832,
+          "txHash": "0x4a50b5b30f03a7e9eb115ee15f7ee4a2828f928de9f7e19f6e6c33c6c78536b1"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoxMg==",
+      "id": "12",
+      "title": "Proposal #12: Tornado Cash Community Fund 2022 Grant",
+      "content": "Tornado Cash Community Fund Grant for 2022.\n\nIf this proposal is voted favorably, 100,000 TORN, including 35,000 TORN at once and 65,000 TORN spread over 12 months (with Sablier) will be allocated to the community fund. \n\nThe purpose of this proposal is to ensure that the community fund has the necessary funds to continue to finance the development of the Tornado Cash DAO, as well as to ensure the capacity to pay the Immunefi bug bounties.\n    \n~ bt11ba   \n\nForum post link : https://torn.community/t/community-fund-grant-2022/",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xDdbfCEd30862c0105673B38dFf5e941cf48830e4",
+      "totalVotes": 41,
+      "blockNumber": 14737291,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1652029707
+      },
+      "endTime": {
+        "timestamp": 1652461707
+      },
+      "startTimestamp": 1652029707,
+      "endTimestamp": 1652461707,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 55731.89,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1652461707,
+          "txHash": "0x2a16771f904418a553cc0a885a1e581bee5ac5dd5261cb97d024a0abc3b04f14"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1652461707,
+          "txHash": "0x2a16771f904418a553cc0a885a1e581bee5ac5dd5261cb97d024a0abc3b04f14"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoxMQ==",
+      "id": "11",
+      "title": "Proposal 11",
+      "content": "",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x647e9e26DA82C29AAFbbFB1C3f45d916AA9b300d",
+      "totalVotes": 26,
+      "blockNumber": 14237491,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1645287868
+      },
+      "endTime": {
+        "timestamp": 1645719868
+      },
+      "startTimestamp": 1645287868,
+      "endTimestamp": 1645719868,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 32673.945,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1645719868,
+          "txHash": "0x5df4da2f0738e436bb06af69e929b65137f752a5c4771f123e280a036732cffa"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1645719868,
+          "txHash": "0x5df4da2f0738e436bb06af69e929b65137f752a5c4771f123e280a036732cffa"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoxMA==",
+      "id": "10",
+      "title": "Proposal 10",
+      "content": "",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x647e9e26DA82C29AAFbbFB1C3f45d916AA9b300d",
+      "totalVotes": 44,
+      "blockNumber": 14203592,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1644832318
+      },
+      "endTime": {
+        "timestamp": 1645264318
+      },
+      "startTimestamp": 1644832318,
+      "endTimestamp": 1645264318,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 32239.48,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1645264318,
+          "txHash": "0x5ace388e3bcf2ce5f0411dea88ec6c6d266c36f70b2068efb37c4d6d90940bdb"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1645264318,
+          "txHash": "0x5ace388e3bcf2ce5f0411dea88ec6c6d266c36f70b2068efb37c4d6d90940bdb"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo5",
+      "id": "9",
+      "title": "Proposal #9. Governance Vault and Gas Upgrade",
+      "content": "The tornado.cash governance contract holds at the point of writing around 274,000 TORN tokens.\n\nThese TORN tokens may come from multiple sources:\n\nTORN locked by users.\nTORN released from the vesting contract.\nTORN accidentally sent into the contract by outside users.\nMixing TORN locked by users with the last two leads to inconveniences and issues:\n\nGovernance can vote to use locked TORN.\nAmount of vested / locked TORN has to be calculated by looking into transaction history.\nFor this reason, a governance contract upgrade is required.\n\nhttps://torn.community/t/proposal-9-governance-vault-and-gas-upgrade/1476\n\nApproved by Ghosts",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xdf68609daFADd058E4fA24D34A7b7d6B0731e9Ad",
+      "totalVotes": 14,
+      "blockNumber": 13391314,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1633874905
+      },
+      "endTime": {
+        "timestamp": 1634134105
+      },
+      "startTimestamp": 1633874905,
+      "endTimestamp": 1634134105,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 23344.566,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1634134105,
+          "txHash": "0xc4fadcbe9971d56c7a2fdc8ea3fa90d57e8f4e2f934f07c5165dcac56d2c143b"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1634134105,
+          "txHash": "0xc4fadcbe9971d56c7a2fdc8ea3fa90d57e8f4e2f934f07c5165dcac56d2c143b"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo4",
+      "id": "8",
+      "title": "Proposal 8: Governance Upgrade",
+      "content": "Read all about it:\n\nhttps://torn.community/t/proposal-8-governance-upgrade-lock-user-funds-in-separate-vault/1232",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x8a14E4af27e6e6feC7063a47982D8E300a3787FE",
+      "totalVotes": 11,
+      "blockNumber": 12935913,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1627770465
+      },
+      "endTime": {
+        "timestamp": 1628029665
+      },
+      "startTimestamp": 1627770465,
+      "endTimestamp": 1628029665,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 7585.55,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1628029665,
+          "txHash": "0x2dc5dd4c94709beabc37dad74c748f0042d770b48b8de38b4dfad492aa79fa27"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo3",
+      "id": "7",
+      "title": "Proposal #7: Tornado Cash Community Fund",
+      "content": "The Tornado Cash Community Fund is proposed to be seeded with 5% of the total protocol treasury. This includes an initial allocation of 22,916.66 TORN with an additional 4,583.33 TORN added per month for one year. The purpose of these funds is to reward active community contributors who play a key role in the growth of Tornado Cash.\n\nFull proposal: https://torn.community/t/proposal-7-tornado-cash-community-fund",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0x8a14E4af27e6e6feC7063a47982D8E300a3787FE",
+      "totalVotes": 40,
+      "blockNumber": 12549782,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1622566829
+      },
+      "endTime": {
+        "timestamp": 1622826029
+      },
+      "startTimestamp": 1622566829,
+      "endTimestamp": 1622826029,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 381.048,
+          "choice": 0
+        },
+        {
+          "total": 24803.164,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1622826029,
+          "txHash": "0x9e5037dcc377706ec379b22d2e465f10eed9b7f397f441d42e0b6da69591b086"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1622826029,
+          "txHash": "0x9e5037dcc377706ec379b22d2e465f10eed9b7f397f441d42e0b6da69591b086"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo2",
+      "id": "6",
+      "title": "Proposal #6: TORN Staking/Liquidity mining program",
+      "content": "Distribute 120k TORN for a liquidity mining campaign on the Uniswap ETH/TORN pair lasting 6 months.\n120k is about 43% of the currently available TORN token in the treasury and about 2.4% of the total treasury funds vested over 5 years. 6 months would means that the campaign will last until late October 2021.\nThe contract used for the distribution is very the popular staking contract from Synthetix. It was audited by Sigma Prime in February 2020. This contract was also used by the Uniswap team in their original UNI distribution, Sushiswap, and many more Defi projects.\n\ncommunity post for more details: https://torn.community/t/proposal-6-torn-liquidity-mining-program/765",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xB40A916277FcB5Db234a98cA2417444EC448B470",
+      "totalVotes": 28,
+      "blockNumber": 12240420,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1618433067
+      },
+      "endTime": {
+        "timestamp": 1618692267
+      },
+      "startTimestamp": 1618433067,
+      "endTimestamp": 1618692267,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 1034.3197,
+          "choice": 0
+        },
+        {
+          "total": 29009.646,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1618692267,
+          "txHash": "0x7fa9b27ebf8a66de3f7e2768ff7b2accc40f87e9b6b6a228553633e95439d8f2"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1618692267,
+          "txHash": "0x7fa9b27ebf8a66de3f7e2768ff7b2accc40f87e9b6b6a228553633e95439d8f2"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo1",
+      "id": "5",
+      "title": "Proposal #5: Add AP reward for DAI, cDAI and WBTC pool",
+      "content": "The new DAI, cDAI and WBTC pools currently have a very low deposit count resulting in a very weak anonymity set. We propose to incentivize pool usage with AP reward without changing the TORN inflation schedule.\n\n\n\nLast month, new Tornado Cash anonymity pools were added. However, they suffer from a very low deposit count making them useless. \n\n\n\nTo address the low number of deposits, we propose to add AP rewards for these new pools. Important, adding AP reward does not change the TORN circulating supply schedule. The AP is swapped for TORN in the same AMM as the current ongoing ETH pool mining. It means that no additional TORN tokens are put toward mining.\n\n\n\n**IMPORTANT NOTE: THIS PROPOSAL DOES NOT INCREASE THE TORN INFLATION RATE**\n\n\nsee the full post here: https://torn.community/t/proposal-5-add-ap-reward-for-dai-cdai-and-wbtc-pool/717",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xB40A916277FcB5Db234a98cA2417444EC448B470",
+      "totalVotes": 50,
+      "blockNumber": 12213722,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1618078411
+      },
+      "endTime": {
+        "timestamp": 1618337611
+      },
+      "startTimestamp": 1618078411,
+      "endTimestamp": 1618337611,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 17179.219,
+          "choice": 0
+        },
+        {
+          "total": 28937.547,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1618337611,
+          "txHash": "0x3217af474927d443ab94b2199a57caf8ee095877dd06a8bcfd10f45851552694"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1618337611,
+          "txHash": "0x3217af474927d443ab94b2199a57caf8ee095877dd06a8bcfd10f45851552694"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjo0",
+      "id": "4",
+      "title": "Proposal #4: Tornado Trees upgrade",
+      "content": "TORN Mining is currently stuck because nobody is paying for the gas cost of updating the Merkle tree. This proposal would introduce a new Merkle tree leveraging Zero Knowledge proof that would be an order of magnitude cheaper to update and would therefore unstuck mining.\n\nThe tree contract is initialized with the latest Merkle root of the old tree contract. The new tree takes over from here. That means that if you are currently farming AP, you are not affected, you will be able to claim AP as expected once the tree is updated\n\nThe proposal will register the following pools with mining enabled:\n\n0.1 ETH 0x12D66f87A04A9E220743712cE6d9bB1B5616B8Fc\n1 ETH 0x47CE0C6eD5B0Ce3d3A51fdb1C52DC66a7c3c2936\n10 ETH 0x910Cbd523D972eb0a6f4cAe4618aD62622b39DbF\n100 ETH 0xA160cdAB225685dA1d56aa342Ad8841c3b53f291\n\nSee this community post for more details: https://torn.community/t/proposal-4-tornado-trees-upgrade/636",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xB40A916277FcB5Db234a98cA2417444EC448B470",
+      "totalVotes": 61,
+      "blockNumber": 12111059,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1616714540
+      },
+      "endTime": {
+        "timestamp": 1616973740
+      },
+      "startTimestamp": 1616714540,
+      "endTimestamp": 1616973740,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 26103.654,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1616973740,
+          "txHash": "0x6fcd46266dedb72382f066aba98c94baf9b9f7ad09fe57bde812cbde534e5c71"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1616973740,
+          "txHash": "0x6fcd46266dedb72382f066aba98c94baf9b9f7ad09fe57bde812cbde534e5c71"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoz",
+      "id": "3",
+      "title": "Implement fee sharing model",
+      "content": "Currently all rewards go to LPs, reducing utility value for token holders who are just getting diluted for nothing. \n\nSplit token rewards and fees 50/50 between LPs and token holders as per Curve Finance token model - rewards can optionally be time weighted to create velocity sinks, and incentivise long term thinking.\n\n\n\n",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xc8E68D674Df0Eab152926C4F0EE7D0ac0745c715",
+      "totalVotes": 16,
+      "blockNumber": 12022719,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1615538823
+      },
+      "endTime": {
+        "timestamp": 1615798023
+      },
+      "startTimestamp": 1615538823,
+      "endTimestamp": 1615798023,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 18.581026,
+          "choice": 0
+        },
+        {
+          "total": 3797.6553,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1615798023,
+          "txHash": "0xd80847db1cae69f854384318aaea478a4ab7006fc31279154ab01c9860859c70"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjoy",
+      "id": "2",
+      "title": "Proposal #2: Lower the vote quorum",
+      "content": "See: https://torn.community/t/proposal-2-lower-the-vote-quorum/95",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xE61fB2E9aBbD278Ce3829Ea93E858AfE198A5f8a",
+      "totalVotes": 30,
+      "blockNumber": 11785194,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1612380915
+      },
+      "endTime": {
+        "timestamp": 1612640115
+      },
+      "startTimestamp": 1612380915,
+      "endTimestamp": 1612640115,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 511.27396,
+          "choice": 0
+        },
+        {
+          "total": 9463.536,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1612640115,
+          "txHash": "0x565ba34e0b3b1f76f151aaf93a52b72a06a70f4fccc89024bf11adf33494f9ca"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9ybmFkb2Nhc2g6b25jaGFpbjox",
+      "id": "1",
+      "title": "Proposal 1",
+      "content": "",
+      "protocol": "tornadocash",
+      "adapter": "onchain",
+      "proposer": "0xb3E7C32d7C328AEabc8F34e90a879326b6482750",
+      "totalVotes": 111,
+      "blockNumber": 11784949,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1612377704
+      },
+      "endTime": {
+        "timestamp": 1612636904
+      },
+      "startTimestamp": 1612377704,
+      "endTimestamp": 1612636904,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 25860.326,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "closed",
+          "timestamp": 1612636904,
+          "txHash": "0x3db80b1fa7eb4ed441fa7df64ec1d8a2c254a73590a314d22a6366904e2f0bb1"
+        },
+        {
+          "time": {
+            "blockNumber": null
+          },
+          "event": "executed",
+          "timestamp": 1612636904,
+          "txHash": "0x3db80b1fa7eb4ed441fa7df64ec1d8a2c254a73590a314d22a6366904e2f0bb1"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

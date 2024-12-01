@@ -1,0 +1,305 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aXZhZGFvOm9uY2hhaW46MHhmMTJmM2E1Yzc5ZWVhOWZhOGRlM2UxZWEwYjBkMGFjYjY1NDVmZjAxM2VjMThkYzk2MzRiYjI3ZTdhZDEyNGQ4",
+      "id": "0xf12f3a5c79eea9fa8de3e1ea0b0d0acb6545ff013ec18dc9634bb27e7ad124d8",
+      "title": "Proposal 0xf12f3a5c79eea9fa8de3e1ea0b0d0acb6545ff013ec18dc9634bb27e7ad124d8",
+      "content": " ",
+      "protocol": "artivaDao",
+      "adapter": "onchain",
+      "proposer": "0xB8FA1F523976008e9dB686fCfDb5e57f1cA43F50",
+      "totalVotes": 1,
+      "blockNumber": 18376935,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1697714843
+      },
+      "endTime": {
+        "timestamp": 1698060443
+      },
+      "startTimestamp": 1697714843,
+      "endTimestamp": 1698060443,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18376935
+          },
+          "event": "pending",
+          "timestamp": 1697628443,
+          "txHash": "0x9e922a1480c876c92a391de4ff62faef9daf1bb664c4f3fb60ffc42141e41a0c"
+        },
+        {
+          "time": {
+            "blockNumber": 18412670
+          },
+          "event": "queued",
+          "timestamp": 1698060491,
+          "txHash": "0x015a016826dcf155b37fc50ae36c8869a9f92b6c8c12278d59b3e16a93f7d6ff"
+        },
+        {
+          "time": {
+            "blockNumber": 18426965
+          },
+          "event": "executed",
+          "timestamp": 1698233471,
+          "txHash": "0x70de1e20025cecd4e4cd5303e55cb1555c0d76db04e533ffef1ec97c64f06137"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805274749,
+      "txHash": "0x9e922a1480c876c92a391de4ff62faef9daf1bb664c4f3fb60ffc42141e41a0c",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aXZhZGFvOm9uY2hhaW46MHgyMTE2MmVjMTRlYTA1OGEwZGQwYjU0NDc4MzM5N2E3OWYxZTI4NjExY2FkY2JmMGIzODc3NWEwYTAyOGQzOTI2",
+      "id": "0x21162ec14ea058a0dd0b544783397a79f1e28611cadcbf0b38775a0a028d3926",
+      "title": "Proposal 0x21162ec14ea058a0dd0b544783397a79f1e28611cadcbf0b38775a0a028d3926",
+      "content": "[]",
+      "protocol": "artivaDao",
+      "adapter": "onchain",
+      "proposer": "0xB8FA1F523976008e9dB686fCfDb5e57f1cA43F50",
+      "totalVotes": 0,
+      "blockNumber": 18214364,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1695750239
+      },
+      "endTime": {
+        "timestamp": 1696095839
+      },
+      "startTimestamp": 1695750239,
+      "endTimestamp": 1696095839,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18214364
+          },
+          "event": "pending",
+          "timestamp": 1695663839,
+          "txHash": "0x5ade38a84e88428e1ddb5b4d713452245463788468ffb531f1b78ace6c8ec99a"
+        },
+        {
+          "time": {
+            "blockNumber": 18232193
+          },
+          "event": "canceled",
+          "timestamp": 1695879323,
+          "txHash": "0xf4b2fe39c8218392f2dcbcffc0f1b8bd3639b9ef6ffb76cd1286c81b883c7744"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805274749,
+      "txHash": "0x5ade38a84e88428e1ddb5b4d713452245463788468ffb531f1b78ace6c8ec99a",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aXZhZGFvOm9uY2hhaW46MHg2NmY2MjMxZjcxZGQxOTY5ODY3NDRkNjhlNWZmM2E3ZjI2MmM5YjM3MTc5MGY0OTExOTAyODAzYTRkOWQxYzY0",
+      "id": "0x66f6231f71dd196986744d68e5ff3a7f262c9b371790f4911902803a4d9d1c64",
+      "title": "Nouns Builder Upgrade v1.2.0",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.2 to add several features improvements and bug fixes.</p>",
+      "protocol": "artivaDao",
+      "adapter": "onchain",
+      "proposer": "0xfd637806e0D22Ca8158AB8bb5826e6fEDa82c15f",
+      "totalVotes": 1,
+      "blockNumber": 18096787,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1694324099
+      },
+      "endTime": {
+        "timestamp": 1694669699
+      },
+      "startTimestamp": 1694324099,
+      "endTimestamp": 1694669699,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18096787
+          },
+          "event": "pending",
+          "timestamp": 1694237699,
+          "txHash": "0xe193ef6a00fae10b1f2a423660bceaa98575d0b91613c06e70a0cad6cba3c083"
+        },
+        {
+          "time": {
+            "blockNumber": 18110082
+          },
+          "event": "canceled",
+          "timestamp": 1694398679,
+          "txHash": "0xf7242d901d1a5e83bdf4cc5cc19d34fdb62163fc1874a0c7517172d227e775f0"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805274749,
+      "txHash": "0xe193ef6a00fae10b1f2a423660bceaa98575d0b91613c06e70a0cad6cba3c083",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aXZhZGFvOm9uY2hhaW46MHhkNjA3NGZlY2NjNDQ3YTA4NjhhMjlhMzZiMTY4MWZlYTAzNjYzYjdlMjZkN2M4MTFjMTlmMzdjNzhjZjg2YmY4",
+      "id": "0xd6074feccc447a0868a29a36b1681fea03663b7e26d7c811c19f37c78cf86bf8",
+      "title": "Nouns Builder Upgrade v1.2.0",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.2 to add several features\nimprovements and bug fixes.</p>",
+      "protocol": "artivaDao",
+      "adapter": "onchain",
+      "proposer": "0xfd637806e0D22Ca8158AB8bb5826e6fEDa82c15f",
+      "totalVotes": 1,
+      "blockNumber": 18079107,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1694110295
+      },
+      "endTime": {
+        "timestamp": 1694455895
+      },
+      "startTimestamp": 1694110295,
+      "endTimestamp": 1694455895,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18079107
+          },
+          "event": "pending",
+          "timestamp": 1694023895,
+          "txHash": "0x78d556330846eaa72896c414a7dbda3c7f45abcc4eeef71ed0ae14ba405d38d4"
+        },
+        {
+          "time": {
+            "blockNumber": 18086339
+          },
+          "event": "canceled",
+          "timestamp": 1694111339,
+          "txHash": "0xefd39fef86a5eb784a5b8e381adde6cd015a6d44b0c50b18776f87f965651958"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805274749,
+      "txHash": "0x78d556330846eaa72896c414a7dbda3c7f45abcc4eeef71ed0ae14ba405d38d4",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJ0aXZhZGFvOm9uY2hhaW46MHhhNWM3MWMwZjQ0MjNhNzM0ZTlkODE1M2EzODg0NmNkYzlhNTFiMGFiYTE1NGUyMjc3M2I2MGU5ZTMxN2NlMTU2",
+      "id": "0xa5c71c0f4423a734e9d8153a38846cdc9a51b0aba154e22773b60e9e317ce156",
+      "title": "DAO Upgrade V1_1",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "artivaDao",
+      "adapter": "onchain",
+      "proposer": "0xd1d1D4e36117aB794ec5d4c78cBD3a8904E691D0",
+      "totalVotes": 1,
+      "blockNumber": 16208236,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671412583
+      },
+      "endTime": {
+        "timestamp": 1671758183
+      },
+      "startTimestamp": 1671412583,
+      "endTimestamp": 1671758183,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16208236
+          },
+          "event": "pending",
+          "timestamp": 1671326183,
+          "txHash": "0xfd972cccec90fa3fcc02c8c6be20d10108928ed3004c0bd099bfd49ec132e88a"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805274749,
+      "txHash": "0xfd972cccec90fa3fcc02c8c6be20d10108928ed3004c0bd099bfd49ec132e88a",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

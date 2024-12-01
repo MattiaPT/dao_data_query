@@ -1,0 +1,791 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweDQ2YjVmYzIyYzcxZThjMzdkZGY3MDBiMzM4NzdmMjg0ZjJhNWI4NmFlNzQ2N2VkMjU3OGI2YTg3MDI3NjAwMmI=",
+      "id": "0x46b5fc22c71e8c37ddf700b33877f284f2a5b86ae7467ed2578b6a870276002b",
+      "title": "Bridge and Send ETH to BASE DAO",
+      "content": "This will bridge our ETH and send to our new BASE Lil Toadz DAO wallet.  Final phase in migration to L2!",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0xCF4e26a7e7eAe4b3840dd31C527096e1265AB990",
+      "totalVotes": 1,
+      "blockNumber": 19457752,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1710803591
+      },
+      "endTime": {
+        "timestamp": 1711149191
+      },
+      "startTimestamp": 1710803591,
+      "endTimestamp": 1711149191,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 12.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19457752
+          },
+          "event": "pending",
+          "timestamp": 1710717191,
+          "txHash": "0x13b830560e71a04ce69d79385b78d4ee4c5a809c7ddccd00fa7a099f43715b85"
+        },
+        {
+          "time": {
+            "blockNumber": 19493833
+          },
+          "event": "queued",
+          "timestamp": 1711154927,
+          "txHash": "0xb3c3504020fb4f3816358a8dd49e5e2ea897212d2ca5eb42e7322d4245a8f42b"
+        },
+        {
+          "time": {
+            "blockNumber": 19517346
+          },
+          "event": "executed",
+          "timestamp": 1711440731,
+          "txHash": "0x5bca7f7cc3f0e8ccbaabd5cbf6393e0fd45f06fadc7690bfc0c7567358b3cfc8"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 12.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710717687886,
+      "txHash": "0x13b830560e71a04ce69d79385b78d4ee4c5a809c7ddccd00fa7a099f43715b85",
+      "quorum": 11,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweDA3NjI4YzBhZmUwYWRlMThhM2ZkMDhmYWY2MDRjYTE3MDk1ZWY0MGVhOTI3MDRiYWY2MzU3NDdlOGQ4YTRiYzI=",
+      "id": "0x07628c0afe0ade18a3fd08faf604ca17095ef40ea92704baf635747e8d8a4bc2",
+      "title": "Migrate DAO to BASE L2",
+      "content": "This prop will migrate our Lil Toadz DAO to BASE chain!!",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0xCF4e26a7e7eAe4b3840dd31C527096e1265AB990",
+      "totalVotes": 1,
+      "blockNumber": 19314776,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1709073671
+      },
+      "endTime": {
+        "timestamp": 1709419271
+      },
+      "startTimestamp": 1709073671,
+      "endTimestamp": 1709419271,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 18.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19314776
+          },
+          "event": "pending",
+          "timestamp": 1708987271,
+          "txHash": "0xadc00bd1a78f85785b3e4cc9077354de270b6c036b27365b00212a7948bb8159"
+        },
+        {
+          "time": {
+            "blockNumber": 19357370
+          },
+          "event": "queued",
+          "timestamp": 1709501879,
+          "txHash": "0x7efa819c53db1af9fbfb44a84831c170bc27032cb60558717c58ea0dd1dee763"
+        },
+        {
+          "time": {
+            "blockNumber": 19381353
+          },
+          "event": "executed",
+          "timestamp": 1709791103,
+          "txHash": "0xb8fa2bd542fa7e651f366ea8bffea82de2f95bf36dba77fa2e2d6136294adac4"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 18.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708987318314,
+      "txHash": "0xadc00bd1a78f85785b3e4cc9077354de270b6c036b27365b00212a7948bb8159",
+      "quorum": 11,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweDAwOTkwNzgwM2IyYzMzNzU1MzA3OGIxOTc2MThkYWYyMWE1ZDk4OWYxYjQwMGE3MGExMjM2ZDk5MmI0ZjQ0NTM=",
+      "id": "0x009907803b2c337553078b197618daf21a5d989f1b400a70a1236d992b4f4453",
+      "title": "Move to BASE L2",
+      "content": "OK- this proposal is for: \n\n- Migrating to L2 Chain\n- L2 Chain is BASE\n- Voting delay changed to (2) days\n- Voting period changed to (2) days\n(These were options recommended by Builder DAO website)\n\nAuctions will be cheaper and the BASE community is very supportive of projects that use their chain! ",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0xCF4e26a7e7eAe4b3840dd31C527096e1265AB990",
+      "totalVotes": 2,
+      "blockNumber": 19264868,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1708469579
+      },
+      "endTime": {
+        "timestamp": 1708815179
+      },
+      "startTimestamp": 1708469579,
+      "endTimestamp": 1708815179,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 26.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19264868
+          },
+          "event": "pending",
+          "timestamp": 1708383179,
+          "txHash": "0x3a1663b2d26b0a8a72b5402fcad4fd6cc6d0d6b81ecd901e0c944d6774660d6c"
+        },
+        {
+          "time": {
+            "blockNumber": 19277509
+          },
+          "event": "canceled",
+          "timestamp": 1708536407,
+          "txHash": "0x9381d72c6431211cff54d9c8a8a9486ba0fceb6899fb6a28bf99648e3c3b840a"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 26.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708383700688,
+      "txHash": "0x3a1663b2d26b0a8a72b5402fcad4fd6cc6d0d6b81ecd901e0c944d6774660d6c",
+      "quorum": 11,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweDVkZTJkN2Q3N2FiOTY3NWIxNDdiNGEzM2FkOTIyYjYxNGMzZjBiNzAxOTM3OWM3YTYyNjFiMDQyNzE3MDM3NjQ=",
+      "id": "0x5de2d7d77ab9675b147b4a33ad922b614c3f0b7019379c7a6261b04271703764",
+      "title": "Pause Auctions",
+      "content": "THIS ONLY IS TO PAUSE AUCTIONS SO WE CAN MOVE TO L2 CHAIN. \n\nWe will then vote on what chain we will move to in a different prop.",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0xCF4e26a7e7eAe4b3840dd31C527096e1265AB990",
+      "totalVotes": 3,
+      "blockNumber": 19206365,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1707759683
+      },
+      "endTime": {
+        "timestamp": 1708105283
+      },
+      "startTimestamp": 1707759683,
+      "endTimestamp": 1708105283,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 15.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19286344
+          },
+          "event": "executed",
+          "timestamp": 1708643543,
+          "txHash": "0x3bc6337d6be8ef6ce4dff9c2d2088ae4eafdbcb4e43b5100303104b96e54929b"
+        },
+        {
+          "time": {
+            "blockNumber": 19271561
+          },
+          "event": "queued",
+          "timestamp": 1708464167,
+          "txHash": "0xeeff871041223cfc0b7a84d802708c2709eb19b19c5b51b2cc5a5b4c3ab5d773"
+        },
+        {
+          "time": {
+            "blockNumber": 19206365
+          },
+          "event": "pending",
+          "timestamp": 1707673283,
+          "txHash": "0xac1a8323a1b233cbe621f3af20575f58c3eb0139d758ea5961bd420b0dd7f0b8"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 15.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707673426931,
+      "txHash": "0xac1a8323a1b233cbe621f3af20575f58c3eb0139d758ea5961bd420b0dd7f0b8",
+      "quorum": 11,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweGFiMGIwNjUwZDRhYWQ2N2JkYmYwZDUyNWE2MmIwNDljYzdiYWQ3NmY1MjA3ZGJhZGQ0NjJjOGU5MmU4YWU1NDA=",
+      "id": "0xab0b0650d4aad67bdbf0d525a62b049cc7bad76f5207dbadd462c8e92e8ae540",
+      "title": "New DAO Artwork via ilustradora",
+      "content": "Excited that [ilustradora](https://twitter.com/ilustradoraeth) is open for doing this- amazing artist! \n\nOur pixelated Lil Toadz will be hand drawn in her style as cute, teeny, lil tiny toadz.  She will be drawing all of the individual layers for 1 ETH. \n\nThis should bring some attention to our Lil DAO and will create some demand as we switch over to Base L2 soon! \n\n!vibe\n\n![image](https://ipfs.decentralized-content.com/ipfs/bafybeihmqdmj45p4kwufjoxyj2bmvbdzhestbjt5r5ntwbnysvcaaolihi)\n\n![image](https://ipfs.decentralized-content.com/ipfs/bafybeidddoiq3pwgq3cbmbjqgr2woeq4k3x7cyxsab2zksku26gphcge4u)\n\n![image](https://ipfs.decentralized-content.com/ipfs/bafybeicw6c4bgcprnmg2luglj57hslr753sxvpzgjw2yotfk6neei5ymrm)",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0xCF4e26a7e7eAe4b3840dd31C527096e1265AB990",
+      "totalVotes": 5,
+      "blockNumber": 19164679,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1707254231
+      },
+      "endTime": {
+        "timestamp": 1707599831
+      },
+      "startTimestamp": 1707254231,
+      "endTimestamp": 1707599831,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 25.0,
+          "choice": 0
+        },
+        {
+          "total": 23.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19164679
+          },
+          "event": "pending",
+          "timestamp": 1707167831,
+          "txHash": "0x42de350f599d861e5f173575b933fe96a9582bfb3fc8cd918337f13011421728"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 25.0,
+          "choice": 0
+        },
+        {
+          "total": 23.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707169114178,
+      "txHash": "0x42de350f599d861e5f173575b933fe96a9582bfb3fc8cd918337f13011421728",
+      "quorum": 11,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweDQ5Nzc4ZDljOTUxNDVkNjQyN2ZiMzBjOTI4NDJjNGUxN2JlOTk0ZjRiNjBmMjQ2ZjhjOGVlNGE3NjY4ZjM3NjM=",
+      "id": "0x49778d9c95145d6427fb30c92842c4e17be994f4b60f246f8c8ee4a7668f3763",
+      "title": "Buy 2nd Toad",
+      "content": "Let’s buy another CrypToadz!  Very cheap right now and can give us something fun to do :) ",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0xCF4e26a7e7eAe4b3840dd31C527096e1265AB990",
+      "totalVotes": 6,
+      "blockNumber": 18408170,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1698092363
+      },
+      "endTime": {
+        "timestamp": 1698437963
+      },
+      "startTimestamp": 1698092363,
+      "endTimestamp": 1698437963,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 46.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18443910
+          },
+          "event": "queued",
+          "timestamp": 1698438275,
+          "txHash": "0xfa5721f7ff54f26d4186c09a82c51c8f43e4acabc1cdc8432b8e74d888abd029"
+        },
+        {
+          "time": {
+            "blockNumber": 18463633
+          },
+          "event": "executed",
+          "timestamp": 1698676871,
+          "txHash": "0x4d8c31db5cf9f55d0655bc9d7228f1eded1db362abaa6c3b13999deccb607b48"
+        },
+        {
+          "time": {
+            "blockNumber": 18408170
+          },
+          "event": "pending",
+          "timestamp": 1698005963,
+          "txHash": "0xbe31618b47f76c7c2baeb6d1bccab6bfd1fe3229acd679bb352faf8cdf77e948"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 46.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698006573216,
+      "txHash": "0xbe31618b47f76c7c2baeb6d1bccab6bfd1fe3229acd679bb352faf8cdf77e948",
+      "quorum": 11,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweDBkZGFmNWFiZDI4YWFkMDMyM2I5OTE4YWQyYjI0ZWFiMDkyN2NiOTc0MzczZTZjZjBjMTRmYjlhNzIzYmI1MTQ=",
+      "id": "0x0ddaf5abd28aad0323b9918ad2b24eab0927cb974373e6cf0c14fb9a723bb514",
+      "title": "Art - Lore Token Burn pt 2 - Sticker Campaign at NYC Toadz Event",
+      "content": "Greta Gremplin and Zamees are currently executing on an art + lore concept to generate visibility for the DAO that leverages recenty popular token gamification (VVs, Defy, Nyan, etc). \n\nI would like to add a bit of IRL flair to the experiment. The Crytoadz are hosting a holders only event at NFT NYC coming up soon. \n\n* Stickers printed of each of the complete pieces of toad lore , visual illustration done by Greta Gremplin \n* Handed out personally, as a set, to guests at the holders-only Cryptoadz event.\n* Recipients of the sticker packs will be encouraged to mint the set of Lore tokens on the spot for an extra limited edition sticker of Zoltar!! \n* These stickers will present our first IRL collectable oppurtunity for the Lil Toadz DAO!\n \n This will give me the chance to engage individual guests at the event, all of witch will be Cryptoadz holders, about the Lil Toadz DAO and the mission of our Sub DAO! I will discuss our most recent proposal passed by the Cryptoadz for the Crytoadz Consensys and our overall goals for the project currently and in the future!\n \n I will produce 300 packs of 4 stickers in each and a limited amount of Zoltar stickers for \"on the spot\" minters of the Lore token drop! \n \n Budget -\n * 5 sticker designs, 1300 stickers total - .1 eth per design \n * IRL recruitment - .19 eth \n \n Total ask - .69 ETH\n \n \n ![](https://i.imgur.com/0p7oMMCm.jpg) ![](https://i.imgur.com/EAjkq5Om.jpg)",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0xf9d71b5fB8345F2508C1302a74d4362DEAb7D104",
+      "totalVotes": 0,
+      "blockNumber": 16999141,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1680987815
+      },
+      "endTime": {
+        "timestamp": 1681333415
+      },
+      "startTimestamp": 1680987815,
+      "endTimestamp": 1681333415,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17003905
+          },
+          "event": "canceled",
+          "timestamp": 1680959675,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680901508871,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweDJhMzFkZDBmNDZjN2Y5NWJhOWU2YTNiNzYwZDk4ZDgxYjkxMDBjYWZiMzM1YzY0MGM1MDAyM2NlNmQ4MzkyYTQ=",
+      "id": "0x2a31dd0f46c7f95ba9e6a3b760d98d81b9100cafb335c640c50023ce6d8392a4",
+      "title": "Change Auctions to 1 Day",
+      "content": "With gas being an issue and auctions slowing down because of the expenses, I'm proposing we make the auction times 1 day (24 hours).  This can help with the auction time and the expenses of settling.",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0xCF4e26a7e7eAe4b3840dd31C527096e1265AB990",
+      "totalVotes": 6,
+      "blockNumber": 16990566,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1680882767
+      },
+      "endTime": {
+        "timestamp": 1681228367
+      },
+      "startTimestamp": 1680882767,
+      "endTimestamp": 1681228367,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 18.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17059879
+          },
+          "event": "queued",
+          "timestamp": 1681653371,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 17074872
+          },
+          "event": "executed",
+          "timestamp": 1681836935,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 18.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680796548956,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweDk3MThhYTU2NjFkNGNhNWFiOTY3NTE2NzYxZjkzOTY2OTQ3NDE5MWEzMDhmZDZjYjBkZTNkNTIzZTIwOTcwNWI=",
+      "id": "0x9718aa5661d4ca5ab967516761f939669474191a308fd6cb0de3d523e209705b",
+      "title": "Art + Lore Token Burn to Generate Buzz & Recruitment",
+      "content": "<p>Greta Gremplin and Zamees will execute an art + lore concept to generate visibility for the DAO that leverages recenty popular token gamification (VVs, Defy, Nyan, etc). We’d like to run a small scale test of our idea, funding will include:</p><ul><li><br></li><li>4 pieces of toad lore accompanied by a visual illustration</li><li>1 released every week, for 3 weeks as a free mint</li><li>Collecting all 3 of these will allow for a free mint of the full story (all 4 combined) or can mint for .0069 eth</li></ul><p><br></p><p>The collaborative concept has evolved as Zamees has been piecing together the existing CrypToadz lore, dreaming up stories for the not-yet-explained gaps of how things came to be, drafting lore around the creation and purpose of Lil Toadz and sending our explorer Toadz on missions into the past and future to recover artifacts that will help craft a Toadz Archive of the Living (TAL).&nbsp;</p><p>Our definition of success for this prop does center mostly on brand attention, so we’ll be monitoring the conversation in multiple DAOs and would like to see several thousand mints for the first piece of art. We’ll also be monitoring whether this is a good recruitment tool for new bidders (and community members), and will evaluate how to optimize and continue this project if we see decent “success” as loosely defined in this paragraph (and with the approval of the DAO, of course!).</p>",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0x0B288181E0315D1888aB5a324a1496D3B5419beb",
+      "totalVotes": 6,
+      "blockNumber": 16685487,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1677173651
+      },
+      "endTime": {
+        "timestamp": 1677519251
+      },
+      "startTimestamp": 1677173651,
+      "endTimestamp": 1677519251,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 37.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16721196
+          },
+          "event": "queued",
+          "timestamp": 1677521087,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16741821
+          },
+          "event": "executed",
+          "timestamp": 1677771563,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417556869,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweDg3NmZmOTUxZWQwMWEwNjYxNzZhNGNlZTliMzEyMTA1MjAxNjliNWYyYTFlYjZkMmM2NmFkMTE5MGQ4NTIzMTI=",
+      "id": "0x876ff951ed01a066176a4cee9b31210520169b5f2a1eb6d2c66ad1190d852312",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-02-15",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.</p><br><h3>Airdrop</h3><p>Ability for DAOs to assign minters and airdrop tokens.</p>",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0x51cc84A3f979B3035BC8aA32ec45680a63828e87",
+      "totalVotes": 1,
+      "blockNumber": 16635114,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1676562263
+      },
+      "endTime": {
+        "timestamp": 1676907863
+      },
+      "startTimestamp": 1676562263,
+      "endTimestamp": 1676907863,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 11.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16691588
+          },
+          "event": "queued",
+          "timestamp": 1677161267,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16734439
+          },
+          "event": "executed",
+          "timestamp": 1677681851,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417556869,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweGJhMzE5N2Y1ZjFjOTczZTc5OTM4OTU0ZTE0ZDEwZmI4NDY0ZTQ3NGQ3ZThhZGE2NDg5ZTI5NWM2Y2ZiNThmNzk=",
+      "id": "0xba3197f5f1c973e79938954e14d10fb8464e474d7e8ada6489e295c6cfb58f79",
+      "title": "Buy Our First CrypToadz",
+      "content": "<p>This is a proposal to buy our first CrypToadz!  </p><p><br></p><p>Asking for 1.6ETH.  We will put up 3 Toadz for a vote in the verified chat in Discord.  Remaining ETH (if any) will be sent back to the DAO wallet. </p><p><br></p><p>I know this will eat up a lot of our current treasury, but think it's a great step towards some good !vibes</p>",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0x51cc84A3f979B3035BC8aA32ec45680a63828e87",
+      "totalVotes": 11,
+      "blockNumber": 16513966,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1675099691
+      },
+      "endTime": {
+        "timestamp": 1675445291
+      },
+      "startTimestamp": 1675099691,
+      "endTimestamp": 1675445291,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 25.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16551556
+          },
+          "event": "queued",
+          "timestamp": 1675467059,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16566350
+          },
+          "event": "executed",
+          "timestamp": 1675645547,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417556869,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGlsdG9hZHpkYW86b25jaGFpbjoweDRiYmU3NDZiZmUxN2E3ZDkxYmY3NjM5MjM2N2ViY2I4NTIwNzg1NTdhZTEyYWRmMjgwZGEzODkxMDJhN2E5NjU=",
+      "id": "0x4bbe746bfe17a7d91bf76392367ebcb852078557ae12adf280da389102a7a965",
+      "title": "Change Artwork for more Rarity",
+      "content": "<p>Currently, Builder app has Lil Toadz layers that are not the correct rarity (and some don't even fit together).  This proposal is to create a fresh batch of Lil Toadz to make them all on-point:</p><p>Woody will print 5,000 new Lil Toadz (coming out of pocket for .25ETH) and weed out any that don't work/fit.  This will create a Lil Toadz collection similar to the original CrypToadz! </p><p><strong>Please note: when doing this, they will be single images and will NOT contain layer metadata (until Builder platform is updated to accept metadata files).</strong></p>",
+      "protocol": "lilToadzDao",
+      "adapter": "onchain",
+      "proposer": "0x51cc84A3f979B3035BC8aA32ec45680a63828e87",
+      "totalVotes": 8,
+      "blockNumber": 16498453,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1674912551
+      },
+      "endTime": {
+        "timestamp": 1675258151
+      },
+      "startTimestamp": 1674912551,
+      "endTimestamp": 1675258151,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 18.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16535351
+          },
+          "event": "queued",
+          "timestamp": 1675271243,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417556869,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

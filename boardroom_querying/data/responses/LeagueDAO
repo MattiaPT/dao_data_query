@@ -1,0 +1,221 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bGVhZ3VlZGFvZXRoOnNuYXBzaG90OjB4MGVkMWM3YzE0YmE5NmE1YjVkNzg0NWUxYTY1NzM5NzRjMzNhMzk4NTI1ZTA4ZDgwNDYwYmUxMDI2MDc4ZmFiNw==",
+      "id": "0x0ed1c7c14ba96a5b5d7845e1a6573974c33a398525e08d80460be1026078fab7",
+      "title": "LDIP-4 Use $LEAG token to determine Fantasy League Draft Order",
+      "content": "## SUMMARY\nThis is a proposal is to use $LEAG tokens to determine the order of Player Drafts in V2 of the LeagueDAO Fantasy Football protocol.\n\n## DESCRIPTION\nAs refresher, the 2022 League will utilize the Mega-League structure discussed in prior forum posts. There will be one LeagueDAO sponsored Mega-League that is comprised of 12-team Divisions.\n\nEach Division will have its own Player Token Draft where Team Owners will purchase the 20 +/- player nfts that will make up their team.\n\nFor the Player Draft, we will be using a Serpentine or Snake Draft format. Team Owners will be ordered 1-12 and get to pick and purchase a player NFT only once their turn comes up in the order.\n\nThe proposal is to determine the draft order for each Division in the 2022 Fantasy Football League according to the amount of $LEAG or $vLEAG tokens each Team Owner holds in their wallet. The Team Owner with the most $LEAG and/or $vLEAG in their wallet will get the first pick in their Division’s Player NFT Draft. Team Owners that do not hold any $LEAG tokens will be ordered at random among the remaining spots left after the Team Owners who hold $LEAG.\n\n### MOTIVATION\nThis is part of an on-going effort to integrate the $LEAG token into our protocols so that it serves as a base value with utility across different facets of the fantasy sports game model.\n\nThis proposal gives a strategic advantage to the LeagueDAO community and also provides an alternative to having all draft positions assigned at random. We see this use case of the $LEAG token as competitive perk but not something that would significantly disrupt the game by giving $LEAG holders or whales an unnecessary advantage in the League.\n\n## TECHNICAL DETAILS\nWe would include $LEAG and $vLEAG tokens to ensure that community members who have staked their $LEAG tokens in the DAO in order to participate in governance are not punished for this. $vLEAG tokens are the ERC-20 tokens you receive when you stake $LEAG tokens in the DAO.\n\n## ARGUMENTATION\n\n### FOR\nSimple application of the $LEAG token into a core component of the game that creates a meaningful competitive advantage for those who hold the token\nGameifies the Draft order process. Once a Team Owner is assigned to a Division they can see the initial draft order and now have a way secure a better position in the draft, they are not stuck with the initial position they are assigned.\nBecause of the number of skill players in the football league and the depth of fantasy rosters, as well as injuries and other factors that arise during the season, getting the #1 draft pick does not immediately correlate to a winning team. So those who do not hold League still have a fair opportunity to win their Division and the Mega-League.\n\n### AGAINST\nThis has the potential to create a significant strategic advantage for whales and as a result impact the game experience for the average team owner.\n\n### SNAPSHOT VOTE\nIf you believe we should go forward with the proposed utility, vote 'Yes'\nIf you believe we need to edit this proposal and continue discussion on the topic, vote 'No'\n\n## Forum Discussion\nhttps://forum.leaguedao.com/t/ldip-4-use-leag-token-to-determine-player-draft-order/75",
+      "protocol": "leaguedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xe38413308e48fFF7b634EF3510Bc304b8575c13D",
+      "totalVotes": 23,
+      "blockNumber": 14675299,
+      "externalUrl": "https://snapshot.org/#/leaguedao.eth/proposal/0x0ed1c7c14ba96a5b5d7845e1a6573974c33a398525e08d80460be1026078fab7",
+      "startTime": {
+        "timestamp": 1651182739
+      },
+      "endTime": {
+        "timestamp": 1651593600
+      },
+      "startTimestamp": 1651182739,
+      "endTimestamp": 1651593600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 4099956.5,
+          "choice": 0
+        },
+        {
+          "total": 2575475.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4099956.223797461,
+          "choice": 0
+        },
+        {
+          "total": 2575475.638713308,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGVhZ3VlZGFvZXRoOnNuYXBzaG90OjB4ZjhmNGI5Y2YxMzRlMDlhYTQxZTBhNmY4OWFkYWI4OWM4M2QyZjA2NGJhNDA0YTYwZGYzNWIwYTZkNDFlNTM1Nw==",
+      "id": "0xf8f4b9cf134e09aa41e0a6f89adab89c83d2f064ba404a60df35b0a6d41e5357",
+      "title": "LDIP- 3 $LEAG Token and Fantasy League Marketplace",
+      "content": "## SUMMARY\nThis outlines a proposed use case for the $LEAG token within the LeagueDAO Fantasy Football protocol. This feature would be included in V2 of the Fantasy League Protocol, which will launch with the 2022 Fantasy Football Season.\n\n## DESCRIPTION\nThe proposed use case is as follows:\n\nThe Fantasy League will have an NFT marketplace component where users participating in the League can purchase “Free Agent” Player NFTs. Free Agents meaning the players were not purchased by a different team in the user’s division during the Player Draft (see the forum post outlining of the V2 protocol).\n\nOur proposal is that we make the $LEAG token the main currency for the free agent marketplace by limiting users to using LEAG tokens to purchase free agents during the fantasy season.\n\n## MOTIVATION\nOur aim is to make the $LEAG token an Anchor Value in our Protocols. This means building circular utility for the token that enhances the game model and creates unique incentives or competitive advantages for holders.\n\n## TECHNICAL DETAILS\nThe $LEAG collected by the DAO from those sales are added to the weekly league rewards paid out to users across the league.\n\nSo in effect we are re-distributing the $LEAG used to purchase Free Agents to other users across the League to use to buy free agents for their own teams.\n\n## ARGUMENTATION\n\n### FOR\nThis is simple application of the $LEAG token that ties it to a core component of the Fantasy Sports game, buying and selling free agents during the season.\n\nIn competitive fantasy sports leagues there is demand for free agents as other players get hurt or when unknown players emerge as top performers mid-season.\n\nThere is a competitive advantage to users who hold large bags of $LEAG tokens, but the Player Draft and Roster Limitations utilized in the league curb the impact of whales who try to control the availability of free agents. A user can still win their division without having to purchase every free agent that is available.\n\nAdditionally, by re-distributing the $LEAG collecting from Free Agent sales to the rest of the league as a boost to the stable coin rewards users earn each week, we are creating a flywheel that allows users who don’t already have $LEAG tokens to purchase free agent players without having to buy $LEAG themselves.\n\n### AGAINST\nThe argument against this model is that we risk creating a Pay to Win scenario where users have to buy additional $LEAG just to compete in the league.\n\nThere is also the concern that we would be giving an unfair advantage to whales who can afford to buy and spend lots of $LEAG tokens.\n\nThe Arguments against this proposal take into account the concern that while we might be creating new utility for the $LEAG token, we would be doing so at the expense of Gameplay and user experience.\n\n## SNAPSHOT VOTE\nIf you believe we should go forward with the proposed utility, vote 'Yes'\nIf you believe we need to edit this proposal and continue discussion on the topic, vote 'No'\n\nLink to the forum discussion: https://forum.leaguedao.com/t/ldip-3-leag-token-and-fantasy-league-marketplace/69",
+      "protocol": "leaguedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xe38413308e48fFF7b634EF3510Bc304b8575c13D",
+      "totalVotes": 29,
+      "blockNumber": 14635597,
+      "externalUrl": "https://snapshot.org/#/leaguedao.eth/proposal/0xf8f4b9cf134e09aa41e0a6f89adab89c83d2f064ba404a60df35b0a6d41e5357",
+      "startTime": {
+        "timestamp": 1650643135
+      },
+      "endTime": {
+        "timestamp": 1650988800
+      },
+      "startTimestamp": 1650643135,
+      "endTimestamp": 1650988800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 16253511.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 16253510.655912304,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGVhZ3VlZGFvZXRoOnNuYXBzaG90OjB4YjBjZjNhOTUwYmQ2YzVmYjNjNjlhYWNmMmIyN2ZmYTJhZWMzMzI4MjExMDMzY2EyYTk4YmU2YjM4ZjJmYzdkNQ==",
+      "id": "0xb0cf3a950bd6c5fb3c69aacf2b27ffa2aec3328211033ca2a98be6b38f2fc7d5",
+      "title": "March Madness Watch Party ",
+      "content": "\n**Background:**\nEvent Title: March Madness Watch Party\nProduced by: Knights of Degen\nHosting Organization: Knights of Degen and LeagueDAO\nEvent Date: Saturday, March 19th, 2022\nEvent Time: 1:30 - 5:30 PM\nVenue: Top Golf Las Vegas\nAttendees: Up to ~30\n\n**Budget:**\n$15,000\n--------------------------------------------------------------------------------------\n**Event Description:**\nTo promote the launch of Non-Fungible Brackets, the core team is  proposing that LeagueDAO approves the spend of $15,000 to sponsor a co-branded March Madness watch party in partnership with the Knights of Degens community in Las Vegas during the first round of the NCAA Tournament on Saturday March 19th, 2022.\n\nFrom 1:30pm - 5:30pm on March 19th, 2022, attendees (token-holders and VIP guests) will be able to meet up at the Top Golf in Las Vegas to watch the NCAA Tournament. Attendees will have access to golf bays, pool cabanas and an open bar.  This event will be closed to the public; only token holders from LeagueDAO and Knights of Degen will be allowed to attend. \n\nLeagueDAO will receive marketing activations in the form of social media posts, virtual and physical signage and other collateral as a sponsor of this party. \n\nAdditionally, the LeagueDAO will create custom branded Basketball Jerseys to give away during the event to help create additional social collateral to promote the LeagueDAO brand. \n\n*Who are the Knights of Degen?*\nKnights of Degen is a collection of 8,888 NFT degenerate gamblers that spend their days in the Degen Tavern sports bar wagering on anything and everything.  Each KoD is generated from over 188 possible traits, including body type, armor, weapon, and headwear.  Every Degen token holder receives exclusive access to Discord and community information such as daily sports betting tips and AMA participation alongside \"major sports and cultural happenings.\"\n\n--------------------------------------------------------------------------------------\n**Objectives:**\n1. Drive more Non-Fungible Bracket Mints\n2. Grow the LeagueDAO Community\n\n**How we will achieve through this event:**\n- Use the event to promote the launch of Non-Fungible Brackets to the Knights of Degen Community in the lead up to the launch of the tournament.\n- Create marketing collateral from attendees at the event to use to grow the LeagueDAO community. \n- Create an event template that LeagueDAO can replicate for in the future with other partners.\n- Drive engagement during the tournament to promote the NFB feature of modifying your bracket mid-tournament. \n\n**Pros:**\nAlignment with a similar minded community that is excited about the convergence of web3 and sports. \n\n**Cons:**\nThe budget could be allocated towards other promotional activities or development. \n\nOptions: Yes ; No \n",
+      "protocol": "leaguedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xe38413308e48fFF7b634EF3510Bc304b8575c13D",
+      "totalVotes": 20,
+      "blockNumber": 14250654,
+      "externalUrl": "https://snapshot.org/#/leaguedao.eth/proposal/0xb0cf3a950bd6c5fb3c69aacf2b27ffa2aec3328211033ca2a98be6b38f2fc7d5",
+      "startTime": {
+        "timestamp": 1645463313
+      },
+      "endTime": {
+        "timestamp": 1645664400
+      },
+      "startTimestamp": 1645463313,
+      "endTimestamp": 1645664400,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 7465652.5,
+          "choice": 0
+        },
+        {
+          "total": 5122300.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7465653.012259033,
+          "choice": 0
+        },
+        {
+          "total": 5122300.487180063,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGVhZ3VlZGFvZXRoOnNuYXBzaG90OjB4ZWM0ZDgzNTE0MzQxMjU1YzUwN2JmZTU1YzU2MTFlNTg0YWI1ODMxYzU4MDBlMTdhODkxMzFkYjZkMDJkOTUxYg==",
+      "id": "0xec4d83514341255c507bfe55c5611e584ab5831c5800e17a89131db6d02d951b",
+      "title": "Nomo Player Token: Buyback",
+      "content": "We have been listening to feedback from people minting player tokens and need to community to weigh in on the Nomo Player Token Buyback. \n\nConcept: Give early minters who minted players that have no chance play and generate points the opportunity to exchange their player token for the opportunity to mint another player.  This stands to benefit the community members that took part in this first mint and ended up with players that stand little to no chance to score any points in the league.\n\nIf a player meets the eligibility criteria, which will be based on the total number of snaps played. We are specifically limiting this to the practice squad level players that don't actually play each week.The minter can opt-in to swap their player token for 300 DAI. \n\nThe core team will use the DAI that went to the \ntreasury from the sale of Player Tokens to buy back players for the same price as the mint.  This gives the minter the chance to  mint a new player token. \n\nCurrent DAI in DAO Treasury from 20% of Nomo Token Sales: 62,760\n\n________________________________________________________________________\nBuyback Timing: \nStart: Friday 11/19, 5:00 PM EST\nEnd: Tuesday 11/23, 5:00 PM EST\n________________________________________________________________________\n\nEligibility Rules:\n- 764 players with the lowest total number of snaps played for the 2021 season, to date. *Means they played under 40 total snaps this season. \n- Players on the Injured Reserve (IR) are not eligible if they do not meet the snap count criteria. \n- Buyback will continue until the DAI in the wallet is gone or we hit the deadline. Whichever comes first. \n- First come, first serve. \n\nSteps:\n1. Check if your players are eligible\n2. Submit your Player Tokens ID# and your wallet address in a new ticket via the discord Support Bot. #📝feature-requests \n3. We will confirm that the player is eligible\n4. If the player is eligible, we will ask you to send the Player Token to the this Wallet Address that is owner by the DAO: 0x5FBd8AE80e26D82922f69aa51A99737dCd748f12\n6. Once we have received the player we will transfer 300 DAI to your address. \n\nCheck if your players are eligible here: https://docs.google.com/spreadsheets/d/1uigClPp1UqJpgxMqRYneJi9RrWKYdMGWjMgem7b2TBk/edit?usp=sharing\n",
+      "protocol": "leaguedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xe38413308e48fFF7b634EF3510Bc304b8575c13D",
+      "totalVotes": 14,
+      "blockNumber": 13641744,
+      "externalUrl": "https://snapshot.org/#/leaguedao.eth/proposal/0xec4d83514341255c507bfe55c5611e584ab5831c5800e17a89131db6d02d951b",
+      "startTime": {
+        "timestamp": 1637283600
+      },
+      "endTime": {
+        "timestamp": 1637370000
+      },
+      "startTimestamp": 1637283600,
+      "endTimestamp": 1637370000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 4313941.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4313941.262942482,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

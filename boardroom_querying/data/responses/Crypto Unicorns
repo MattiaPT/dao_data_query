@@ -1,0 +1,4442 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDc0ODk2ODIwNWUxMTcwNWNkNzUwZjRlMTZhMTE3Y2I1NTYyYThlMDYzMzdkODk0Zjk1OGFjZWZhNGE5NWVkMDI=",
+      "id": "0x748968205e11705cd750f4e16a117cb5562a8e06337d894f958acefa4a95ed02",
+      "title": "Treasury Distribution and DAO Dissolution",
+      "content": "Abstract\nThe purpose of this proposal is to liquidate all remaining assets and then distribute the whole treasury to the community, then we would close the project for good so that everyone can move on.\n\nMotivation\nIt seems like many do not want to see the continuation of the project through a DAO because they do not believe it will survive after October 31st, 2024. As such, distributing whatever is remaining between the community and closing up the project seems to be the most logical path forward.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 24,
+      "blockNumber": 266720397,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x748968205e11705cd750f4e16a117cb5562a8e06337d894f958acefa4a95ed02",
+      "startTime": {
+        "timestamp": 1729665712
+      },
+      "endTime": {
+        "timestamp": 1730097712
+      },
+      "startTimestamp": 1729665712,
+      "endTimestamp": 1730097712,
+      "currentState": "active",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1094272.0,
+          "choice": 0
+        },
+        {
+          "total": 24410632.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1094271.9859472548,
+          "choice": 0
+        },
+        {
+          "total": 28410631.177944742,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729662379082,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDIwNjJlNDU1MTVkY2M1NGQ1NDY1ZWI4YmM4YWI2MDRjNzE2N2RhNDg1NTI5MGE3NjgxMjc5YzJmM2YzNjEzNmY=",
+      "id": "0x2062e45515dcc54d5465eb8bc8ab604c7167da4855290a7681279c2f3f36136f",
+      "title": "An Update in Tokenomics",
+      "content": "Abstract\nThis proposal aims to reallocate the remaining P&E funds to the Ecosystem Fund to the Ecosystem Fund.\n\nMotivation\nThe Ecosystem Fund serves as the primary financial resource for the DAO, enabling the allocation of funds to developers, contributors, and service providers. In the current environment, it’s increasingly vital for the DAO to maximize its resources to support aspiring contributors and foster the growth and sustainability of the Ecosystem.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 14,
+      "blockNumber": 264781701,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x2062e45515dcc54d5465eb8bc8ab604c7167da4855290a7681279c2f3f36136f",
+      "startTime": {
+        "timestamp": 1729178632
+      },
+      "endTime": {
+        "timestamp": 1729610632
+      },
+      "startTimestamp": 1729178632,
+      "endTimestamp": 1729610632,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 71198.97,
+          "choice": 0
+        },
+        {
+          "total": 1012092.75,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 23671198.971510462,
+          "choice": 0
+        },
+        {
+          "total": 1012092.759255898,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729175651966,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGY3N2QzOTI1MjdhM2Y2ZGZiNmQ1MTFlY2JjNzE1NmY2YjQ2ODAyNmYxOTExNGJmMDkwNTA3YWY4MGQzYTc5ZGQ=",
+      "id": "0xf77d392527a3f6dfb6d511ecbc7156f6b468026f19114bf090507af80d3a79dd",
+      "title": "End UniWU Grant",
+      "content": "Abstract\nSince the core game went offline on August 31, 2024, the author believes that the subscription to pay for the usage of UniWu should be put to an end. This proposal is to take effect immediately after the snapshot is completed.\n\nMotivation\nThe motivation to write this proposal is to reduce CU treasury expenditures to the bare minimum since the treasury does not have much more funds left. For the good of all the CU community, we need to reduce our treasury burn rate as much as possible to survive this next period.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 13,
+      "blockNumber": 264781214,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xf77d392527a3f6dfb6d511ecbc7156f6b468026f19114bf090507af80d3a79dd",
+      "startTime": {
+        "timestamp": 1729178539
+      },
+      "endTime": {
+        "timestamp": 1729610539
+      },
+      "startTimestamp": 1729178539,
+      "endTimestamp": 1729610539,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 787573.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 24387572.98076636,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729175651966,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDgzOTAxMmY1MTQzNDRjMzMzNTlmMWY5ZWVkYzI1YmQyNGI0NGZmMmIwMTJhMWViZmQxNmM4YjdmOGJhZmJjYTM=",
+      "id": "0x839012f514344c33359f1f9eedc25bd24b44ff2b012a1ebfd16c8b7f8bafbca3",
+      "title": "Season 5 Governance Council Special Election",
+      "content": "Abstract\nAs two (2) of the elected councilor for the Season 5 Governance Council resigned from office, the DAO shall now call for an emergency election.\n\nDetails\nAs indicated the Crypto Unicorns Guiding Principle Article 8h, vacancies are filled following a special/emergency election. Please vote for the candidate you support. Two (2) council seats need to be filled so the top two (2) candidates with the most votes will fill the empty seat.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 9,
+      "blockNumber": 260959771,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x839012f514344c33359f1f9eedc25bd24b44ff2b012a1ebfd16c8b7f8bafbca3",
+      "startTime": {
+        "timestamp": 1728217059
+      },
+      "endTime": {
+        "timestamp": 1728649059
+      },
+      "startTimestamp": 1728217059,
+      "endTimestamp": 1728649059,
+      "currentState": "closed",
+      "choices": [
+        "Dipbeak ",
+        "Terra \"DeRisk\" Rekt ",
+        "NFTGibby"
+      ],
+      "results": [
+        {
+          "total": 100540.88,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "quadratic",
+      "indexedResult": [
+        {
+          "total": 72671.03851717207,
+          "choice": 0
+        },
+        {
+          "total": 14282.87207020141,
+          "choice": 1
+        },
+        {
+          "total": 13586.971875126528,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1728214047604,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDM2MGE0MGI3NmI5OTU4Zjk5Y2UyM2RiOWYzY2Y1NWU1NWI5YWFmYjZmNjIwNjk2MTRkYzJjM2FmZTcwMDI5NjY=",
+      "id": "0x360a40b76b9958f99ce23db9f3cf55e55b9aafb6f62069614dc2c3afe7002966",
+      "title": "Reduction in Councilor’s Season Rewards",
+      "content": "Abstract\nSince the treasury does no longer have the funds to sustain expenditures of a large team. I believe that it is time to reduce the reward given to Councilors from $1,000 per season to $0, the role should be voluntary moving forward (season = 6-month period. Since the game will be coming down for an unknown time and the DAO does not have money to review funding proposals, the work required by Councilors will also be less. \n\nMotivation\nThe motivation to write this proposal is to reduce CU treasury expenditures to the bare minimum since the treasury does not have much more funds left. For the good of all the CU community, we need to reduce our treasury burn rate as much as possible to survive this next period. If we are able to survive this period and flourish again, then another proposal may be submitted to justify the changes of increasing the stipend. Right now we need to put the survival of the community first.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 19,
+      "blockNumber": 254185353,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x360a40b76b9958f99ce23db9f3cf55e55b9aafb6f62069614dc2c3afe7002966",
+      "startTime": {
+        "timestamp": 1726511503
+      },
+      "endTime": {
+        "timestamp": 1726943503
+      },
+      "startTimestamp": 1726511503,
+      "endTimestamp": 1726943503,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2118590.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 25718590.614787426,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1726508962603,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGYxYzE5YjRiZTE2MjkxNzQ3YjMyMzZiZTU5YTAyZTM1MjAxY2JkZDM3NTk5MTkzZjU1ZTE3MDA1NTZkMjY5MzI=",
+      "id": "0xf1c19b4be16291747b3236be59a02e35201cbdd37599193f55e1700556d26932",
+      "title": "Reduction in Guardians/Keepers Rewards",
+      "content": "Abstract\nSince the treasury does no longer have the funds to sustain expenditures of a large team. The Authors believes that it is time to reduce budget for our support expenses while trying to also focus on covering support in different timezones. The budget cap for support would be set to $1,500 monthly in total, giving the LG CM the authority to distribute this amount based on the merit program they have set. \n\nMotivation\nThe motivation to write this proposal is to reduce CU treasury expenditures to the bare minimum since the treasury does not have much more funds left. For the good of all the CU community, we need to reduce our treasury burn rate as much as possible to survive this next period. If we are able to survive this period and flourish again, then another proposal may be submitted to justify the changes of increasing the team. Right now we need to put the survival of the community first.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 19,
+      "blockNumber": 254184829,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xf1c19b4be16291747b3236be59a02e35201cbdd37599193f55e1700556d26932",
+      "startTime": {
+        "timestamp": 1726511371
+      },
+      "endTime": {
+        "timestamp": 1726943371
+      },
+      "startTimestamp": 1726511371,
+      "endTimestamp": 1726943371,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2115209.0,
+          "choice": 0
+        },
+        {
+          "total": 3381.7,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 25715208.914787427,
+          "choice": 0
+        },
+        {
+          "total": 3381.7,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1726508962603,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGUyOTA5MmY1NGNjODc0NzQ5OGY0ODVhMDI1MzA2ODZlMTVjN2YzZWIyODliM2MwNGRkOTNiNzlmMzQ3YmVkOTI=",
+      "id": "0xe29092f54cc8747498f485a02530686e15c7f3eb289b3c04dd93b79f347bed92",
+      "title": "Hard Reset - Towards a DAO-Centric, Fully On-Chain Ecosystem",
+      "content": "Abstract\nIn light of the current state of the treasury and the unsustainable costs of maintaining the core game in its current form, a hard reset is unavoidable. We propose to reallocate resources to replacing the core game with a fully on-chain experience. This proposal aims to reduce treasury burn, implement a codified deflationary economic model, and enhance product alignment with the DAO and community.\n\nMotivation\nRecent developments have made it clear that we must adopt a different approach to building within the DAO. The Crypto Unicorns core land game, as a hybrid experience, requires ongoing management of traditional servers, live operations infrastructure, as well as ongoing design and product effort. This requires continuous management of both technical infrastructures and in-game economic policy. In contrast, a fully on-chain game operates autonomously, eliminating the need for centralized control and significantly reducing long-term maintenance costs.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 46,
+      "blockNumber": 248660484,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xe29092f54cc8747498f485a02530686e15c7f3eb289b3c04dd93b79f347bed92",
+      "startTime": {
+        "timestamp": 1725120319
+      },
+      "endTime": {
+        "timestamp": 1725552319
+      },
+      "startTimestamp": 1725120319,
+      "endTimestamp": 1725552319,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 6135554.5,
+          "choice": 0
+        },
+        {
+          "total": 335334.6,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 29735554.324922476,
+          "choice": 0
+        },
+        {
+          "total": 335334.5727312975,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1725116978306,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDgyYWZjYmU5YTFiMDEwMWEwYmM1ODQyZjNmYTJlNGY3ODU4NWU0Y2Y4YmY2NDRmZTMwYTViNzgwMjA3YjM2Yzk=",
+      "id": "0x82afcbe9a1b0101a0bc5842f3fa2e4f78585e4cf8bf644fe30a5b780207b36c9",
+      "title": "Season 5 Governance Council Election",
+      "content": "Abstract\nPursuant to the Crypto Unicorns Charter, the DAO shall elect 11 community members who shall serve as the Governance Council. The Governance Council will act as gatekeepers to proposals being sent to Snapshot for an official DAO vote. Each term lasts 6 months with the incoming council being elected near the end of every term/season. \n\nDetails\nEach wallet address will vote using the quadratic voting strategy, allowing everyone to distribute their votes to multiple candidates as they see fit.\n\nPlease vote for the candidate(s) you support.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 79,
+      "blockNumber": 222629033,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x82afcbe9a1b0101a0bc5842f3fa2e4f78585e4cf8bf644fe30a5b780207b36c9",
+      "startTime": {
+        "timestamp": 1718587808
+      },
+      "endTime": {
+        "timestamp": 1719019808
+      },
+      "startTimestamp": 1718587808,
+      "endTimestamp": 1719019808,
+      "currentState": "closed",
+      "choices": [
+        "Councilwoman Zyori ",
+        "darthschmitty",
+        "Ethereal",
+        "Eyolis",
+        "Gabe | ShazbotWarrior",
+        "GoliathRulz (\"THUD Master\")",
+        "Invoko",
+        "KeizerMc",
+        "lgJeff",
+        "Neviolo | Nonlinear",
+        "Prof",
+        "TheTruth Pirate",
+        "timetraveler",
+        "TrKing"
+      ],
+      "results": [
+        {
+          "total": 4225.196,
+          "choice": 3999
+        },
+        {
+          "total": 332.03806,
+          "choice": 59
+        },
+        {
+          "total": 528858.2,
+          "choice": 9
+        },
+        {
+          "total": 260.0,
+          "choice": 259
+        },
+        {
+          "total": 5400.0,
+          "choice": 5399
+        },
+        {
+          "total": 54209.742,
+          "choice": 4
+        },
+        {
+          "total": 3392724.5,
+          "choice": 0
+        },
+        {
+          "total": 649.5695,
+          "choice": 99999
+        },
+        {
+          "total": 2061.495,
+          "choice": -1
+        },
+        {
+          "total": 400.0,
+          "choice": 89
+        },
+        {
+          "total": 479.0,
+          "choice": 13
+        },
+        {
+          "total": 489060.3,
+          "choice": 2
+        },
+        {
+          "total": 16976.5,
+          "choice": 99
+        },
+        {
+          "total": 612587.75,
+          "choice": 12
+        },
+        {
+          "total": 8487.349,
+          "choice": 24
+        },
+        {
+          "total": 43480.094,
+          "choice": 49
+        },
+        {
+          "total": 262469.06,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "quadratic",
+      "indexedResult": [
+        {
+          "total": 608115.14375722,
+          "choice": 0
+        },
+        {
+          "total": 891845.6336773832,
+          "choice": 1
+        },
+        {
+          "total": 265915.87196686724,
+          "choice": 2
+        },
+        {
+          "total": 236142.65426507013,
+          "choice": 3
+        },
+        {
+          "total": 441666.7768311272,
+          "choice": 4
+        },
+        {
+          "total": 353776.5733270753,
+          "choice": 5
+        },
+        {
+          "total": 215174.37660203592,
+          "choice": 6
+        },
+        {
+          "total": 642423.7447460457,
+          "choice": 7
+        },
+        {
+          "total": 123446.89225779,
+          "choice": 8
+        },
+        {
+          "total": 298757.92623639223,
+          "choice": 9
+        },
+        {
+          "total": 235766.7658924254,
+          "choice": 10
+        },
+        {
+          "total": 7850.226668591619,
+          "choice": 11
+        },
+        {
+          "total": 1095328.3951716714,
+          "choice": 12
+        },
+        {
+          "total": 6449.810881781698,
+          "choice": 13
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718585064997,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDU4NDFjNTk5MDZhMjZkNDM1NzExZTE3MWY2YjVlY2Q4YjdmZDEyYzUyYjU5ZjJlODMzYjcwN2ZkMDYzOGZlMTY=",
+      "id": "0x5841c59906a26d435711e171f6b5ecd8b7fd12c52b59f2e833b707fd0638fe16",
+      "title": "Community Support & Knowledge Sharing",
+      "content": "Abstract\nThe DAO proposal aims to establish a Community Support and Creator role for Keepers and Guardians within the “Crypto Unicorns” community through decentralized governance. The proposal focuses on creating a self-sustaining educational ecosystem to empower members with cryptocurrency knowledge and support. By fostering a supportive and engaging community culture, Guardians and Keepers can attract and retain users, ensuring continued participation and mutual assistance. The proposal also emphasizes the importance of rewarding Guardians and Keepers to provide career growth and discourage misconduct.\n\nMotivation\nGuardians and Keepers derive from a diverse range of individuals to provide guidance and education in this complex field for newcomers.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 59,
+      "blockNumber": 222622842,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x5841c59906a26d435711e171f6b5ecd8b7fd12c52b59f2e833b707fd0638fe16",
+      "startTime": {
+        "timestamp": 1718585810
+      },
+      "endTime": {
+        "timestamp": 1719017810
+      },
+      "startTimestamp": 1718585810,
+      "endTimestamp": 1719017810,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 4412068.0,
+          "choice": 0
+        },
+        {
+          "total": 6815.7954,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 32012067.52045376,
+          "choice": 0
+        },
+        {
+          "total": 6815.79517071256,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718583485773,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDIyOTEzNzY5Y2FmNjc4OTY3MDc4ZDZkY2FkOTU4OThjM2FkZGEwNzg2NTcyMjA1YjY0NTUyMzcxNDlhZWE5ZWI=",
+      "id": "0x22913769caf678967078d6dcad95898c3adda0786572205b6455237149aea9eb",
+      "title": "Deflationary In-game Token Burn",
+      "content": "Abstract\nIn addition to (and separate from) the recently proposed Buyback & Burn system, the author proposes embedding further deflationary mechanisms into Crypto Unicorns’ tokenomics. In conversations with the LG team, there is a mutual desire to explore building a burn mechanism based on player-driven, in-game spending activities. The authors proposes that when $CU is used in-game it is burned from supply on a weekly basis.\n\nMotivation\nDeflationary tokenomics are straightforward to understand and can attract more participants to our ecosystem. To date, over 64.8M $RBW (6.48M $CU) has been utilized by players in the game. Linking token deflation to in-game usage naturally reduces the total supply of $CU, aligning with increased activity across our growing ecosystem.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 387,
+      "blockNumber": 217819657,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x22913769caf678967078d6dcad95898c3adda0786572205b6455237149aea9eb",
+      "startTime": {
+        "timestamp": 1717383090
+      },
+      "endTime": {
+        "timestamp": 1717815090
+      },
+      "startTimestamp": 1717383090,
+      "endTimestamp": 1717815090,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 6178939.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 33778961.164102234,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1717379718622,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDM0OTZmNzM1YjBmZDY2MTcyNjJhZWVmNDAwMzBjOWZkMmFjNThjYmRiODk1MGIxZWQwZjJiMTdmYjY2Yzc2NDg=",
+      "id": "0x3496f735b0fd6617262aeef40030c9fd2ac58cbdb8950b1ed0f2b17fb66c7648",
+      "title": "Tokenomics Update: Buy and Burn",
+      "content": "Abstract\nThe author proposes upgrading $CU tokenomics by introducing a Buyback & Burn system with the upcoming migration to XAI. If approved by the DAO, 50% of all future ETH Treasury inflows will be used to buy $CU and burn it. This will reduce the total supply and increase liquidity simultaneously.\n\nMotivation\nDeflationary tokenomics are easy to understand and can be leveraged to attract more people to our ecosystem. By tying all revenue (from primary sales, secondary sales, LP fees, etc.) to the purchase and burn of $CU tokens, we can support the value of our ecosystem over the long term.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 392,
+      "blockNumber": 217819228,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x3496f735b0fd6617262aeef40030c9fd2ac58cbdb8950b1ed0f2b17fb66c7648",
+      "startTime": {
+        "timestamp": 1717382984
+      },
+      "endTime": {
+        "timestamp": 1717814984
+      },
+      "startTimestamp": 1717382984,
+      "endTimestamp": 1717814984,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 6171012.5,
+          "choice": 0
+        },
+        {
+          "total": 134469.56,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 33771034.72607248,
+          "choice": 0
+        },
+        {
+          "total": 134469.57655,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1717379718622,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGZjNjIyMmIyN2FlMTA1ZjNjMDE4NDAxMWYyOGY5OTdhZGZkYjJhN2QzZDgzOTQwZjczNmFiNWIwMjk1ZTRiNTk=",
+      "id": "0xfc6222b27ae105f3c0184011f28f997adfdb2a7d3d83940f736ab5b0295e4b59",
+      "title": "Season 4 Governance Council Special Election",
+      "content": "Abstract\nAs three (3) of the elected councilor for the Season 4 Governance Council were removed from the office, the DAO shall now call for an emergency election.\n\nDetails\nAs indicated by CUIP-004 -Governance Council Installation, vacancies are filled following a special/emergency election. Please vote for the candidate you support. Three (3) council seat needs to be filled so the top three (3) nominees with the most votes will fill the empty seat.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 83,
+      "blockNumber": 214871098,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xfc6222b27ae105f3c0184011f28f997adfdb2a7d3d83940f736ab5b0295e4b59",
+      "startTime": {
+        "timestamp": 1716640772
+      },
+      "endTime": {
+        "timestamp": 1717072772
+      },
+      "startTimestamp": 1716640772,
+      "endTimestamp": 1717072772,
+      "currentState": "closed",
+      "choices": [
+        "Gabe | ShazbotWarrior",
+        "Prof",
+        "Lemonade",
+        "Radamh",
+        "Kaizers",
+        "GoliathRulz (\"THUD Master\")",
+        "Segarion"
+      ],
+      "results": [
+        {
+          "total": 58.692776,
+          "choice": 44
+        },
+        {
+          "total": 3340.0,
+          "choice": 9
+        },
+        {
+          "total": 2061.495,
+          "choice": 1465116671
+        },
+        {
+          "total": 10427.391,
+          "choice": 9999
+        },
+        {
+          "total": 202474.83,
+          "choice": 29
+        },
+        {
+          "total": 351397.5,
+          "choice": 4
+        },
+        {
+          "total": 3205895.0,
+          "choice": 0
+        },
+        {
+          "total": 11250.0,
+          "choice": 499999999
+        },
+        {
+          "total": 415012.94,
+          "choice": 2
+        },
+        {
+          "total": 4345.6357,
+          "choice": 99
+        },
+        {
+          "total": 245.75,
+          "choice": 49
+        },
+        {
+          "total": 1243799.9,
+          "choice": 1
+        },
+        {
+          "total": 200.0,
+          "choice": 27
+        }
+      ],
+      "events": [],
+      "type": "quadratic",
+      "indexedResult": [
+        {
+          "total": 2328126.524499105,
+          "choice": 0
+        },
+        {
+          "total": 1125446.0234433769,
+          "choice": 1
+        },
+        {
+          "total": 555778.971175454,
+          "choice": 2
+        },
+        {
+          "total": 129735.53944378096,
+          "choice": 3
+        },
+        {
+          "total": 327248.97708686604,
+          "choice": 4
+        },
+        {
+          "total": 889255.6785475584,
+          "choice": 5
+        },
+        {
+          "total": 94917.52268465352,
+          "choice": 6
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716637627316,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDdjMjA2ZmI2YzQwNWYyZWQyZmEyNTEwZGVlNmFjZWNjOTU0NjlkZjJiMjU1NjMxMDVjMjYwNWY5NWYzMDM5OWY=",
+      "id": "0x7c206fb6c405f2ed2fa2510dee6acecc95469df2b25563105c2605f95f30399f",
+      "title": "UniWU.me Extension",
+      "content": "Abstract\nIt’s already been six months of the uniwu.me 3 app, there’s been a lot done, but there’s more to come. Support for the project has helped mitigate the closure of Hawku and the problems of choosing good unicorns and lands, and a lot of things have even become more convenient. Now the great migration to a fast and cheap XAI blockchain awaits us, and that will require reworking the server side of the app.\n\nMotivation\n- The app solves many player problems (from quests and gene selection, to jousting tournaments and leaderboards) and increases engagement.\n- The app is stable and evolving along the way.\n- Migrating to the different blockchain requires changing many parts of the application and ensuring stability after the change.\n\nThis proposal extends the grant period for the UniWU.me app to cover the items above.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 72,
+      "blockNumber": 211902427,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x7c206fb6c405f2ed2fa2510dee6acecc95469df2b25563105c2605f95f30399f",
+      "startTime": {
+        "timestamp": 1715879680
+      },
+      "endTime": {
+        "timestamp": 1716311680
+      },
+      "startTimestamp": 1715879680,
+      "endTimestamp": 1716311680,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 13550747.0,
+          "choice": 0
+        },
+        {
+          "total": 2448600.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 13550747.670622995,
+          "choice": 0
+        },
+        {
+          "total": 2448600.9963992643,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1715876263337,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDE2MjdhMTBkYTQzYWIwMmQ2NzhmYTgyZTgxMTNjMjZlZmY0NDJmZjg3ZDkzZjkwODExNzY0YjVmZDI4MGEzNjc=",
+      "id": "0x1627a10da43ab02d678fa82e8113c26eff442ff87d93f90811764b5fd280a367",
+      "title": "Wallet Suspension Appeal: Blazz",
+      "content": "Abstract\nThis proposal is an implementation of CUIP-026 - Ban Implementation Policy where it says:\n\n- If a participant’s suspension is found to be valid upon reinvestigation, they can appeal the decision through the Crypto Unicorns DAO. \n\nMotivation\nThis proposal seeks to appeal the suspension of Blazz's wallet address, stemming from the unintended consequence of a bug in Rainbow Rumble that resulted in the duplication of $RBW deposits into Unicorn Party. Unaware of this bug, the author claims to have unintentionally engaged in what appeared to be opportunistic behavior, leading to the suspension. The proposal provides a comprehensive account of events, accompanied by evidence refuting the stated reason for the suspension.\n\nPlease vote to approve or reject the appeal.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 84,
+      "blockNumber": 54737640,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x1627a10da43ab02d678fa82e8113c26eff442ff87d93f90811764b5fd280a367",
+      "startTime": {
+        "timestamp": 1710618700
+      },
+      "endTime": {
+        "timestamp": 1711050700
+      },
+      "startTimestamp": 1710618700,
+      "endTimestamp": 1711050700,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 145757170.0,
+          "choice": 0
+        },
+        {
+          "total": 40202.12,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 145757169.21037623,
+          "choice": 0
+        },
+        {
+          "total": 40202.121921451166,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710615171085,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDQ0Y2Y4MmIyYTM5NzUxZGJlNGI1NDZlMjBiOGJjMDM4Mzc3ZDBjZDRhYzQyYjhhZmVjN2JhMTY5NmFlOTMxMGY=",
+      "id": "0x44cf82b2a39751dbe4b546e20b8bc038377d0cd4ac42b8afec7ba1696ae9310f",
+      "title": "Release of Unencrypted Tuning JSON Files",
+      "content": "Abstract\nThis proposal aims to support developers who are building tools and/or possibly interested in building tools for the Crypto Unicorns DAO. It is a request for the team responsible for the main game to provide Unencrypted Tuning Data every maintenance patch for every tuning updates.\n\nMotivation\n- Transparency - Author believes that this will make it better for everyone to release an Unencrypted JSON file of the tuning data for builders to use/integrate\n- Ease of Integration - A standard data that everyone can just access will make it easier for developers to come in, build their UI  and show the data to public\n- Ease of Bug Finding - Users or builders can help find inconsistencies.\n- Time saving - Author is constraint on time to create a guide for other builders on how to extract and unencrypt JSON file.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 86,
+      "blockNumber": 54737379,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x44cf82b2a39751dbe4b546e20b8bc038377d0cd4ac42b8afec7ba1696ae9310f",
+      "startTime": {
+        "timestamp": 1710618114
+      },
+      "endTime": {
+        "timestamp": 1711050114
+      },
+      "startTimestamp": 1710618114,
+      "endTimestamp": 1711050114,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 139069230.0,
+          "choice": 0
+        },
+        {
+          "total": 88093.52,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 139069255.2370552,
+          "choice": 0
+        },
+        {
+          "total": 88093.5233877365,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710614626365,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGMyZTZiNDQyOGUyYWMwMmFmMGY1M2RmZDJmZjA1NzRmZjQ5YzhjMTVjYjk4YzcwODJmZTBlNjJmYjlmMDcwYTQ=",
+      "id": "0xc2e6b4428e2ac02af0f53dfd2ff0574ff49c8c15cb98c7082fe0e62fb9f070a4",
+      "title": "Migrating RBW and Converting to CU Token",
+      "content": "Abstract\nWith the game moving to XAI, we propose the migration of the Rainbow Token (RBW), whose immutable contract is on Polygon, to Crypto Unicorns (CU) tokens on Arbitrum. As part of the migration, RBW will convert to CU on a 10:1 basis. A token migration contract will be made available by April 2024 at the earliest. Staked RBW (sRBW) will be migrated and converted automatically with assistance from the Vault team.\n\nMotivation\nGiven the immutable nature of the RBW’s contract, it's impossible to directly transfer it to Arbitrum when the game migrates to XAI. To move RBW, the token must be bridged from Polygon, introducing an additional layer of complexity that may hinder user onboarding. This migration will:\n\n-Strengthen the Crypto Unicorns brand identity by aligning the primary value token with the overarching name of the game & IP\n-Simplify marketing for CU token by making the association between the game and token more intuitive\n-Streamline the user onboarding process",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 469,
+      "blockNumber": 54181195,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xc2e6b4428e2ac02af0f53dfd2ff0574ff49c8c15cb98c7082fe0e62fb9f070a4",
+      "startTime": {
+        "timestamp": 1709394685
+      },
+      "endTime": {
+        "timestamp": 1709826685
+      },
+      "startTimestamp": 1709394685,
+      "endTimestamp": 1709826685,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 192138000.0,
+          "choice": 0
+        },
+        {
+          "total": 476056.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 192139701.46357512,
+          "choice": 0
+        },
+        {
+          "total": 476056.8168931134,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709391253322,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGU4YTZhYjE2NDQ0M2Y0NzI2YWMwYjY2YmQwNjI5MTYyZmYxZDgxYWE2OGI1NGRhZjRlYTliNGZlZGUzZTM1Mzg=",
+      "id": "0xe8a6ab164443f4726ac0b66bd0629162ff1d81aa68b54daf4ea9b4fede3e3538",
+      "title": "Twilight Tactics S2 Reschedule",
+      "content": "Abstract\nThis proposal invites members of our community to decide on rescheduling events related to Shadowcorns and the transition to XAI blockchain. In short, we suggest postponing “Twilight Tactics: Season 2” until the XAI migration is complete. This approach aims to enhance the gameplay experience and allows our blockchain team to dedicate their efforts fully to the migration.\n\nMotivation\nThe Shadowcorn collection, with its limited availability, has become a valuable asset in our ecosystem, attracting new users with its straightforward utility of on-chain gameplay and collectibility.\n\nThe transition to XAI promises significant improvements, especially for Twilight Tactics gameplay, which fully operates on-chain. We anticipate that the introduction of ultra-fast, gas-free transactions will increase player engagement beyond what was observed in Season 1.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 98,
+      "blockNumber": 53594667,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xe8a6ab164443f4726ac0b66bd0629162ff1d81aa68b54daf4ea9b4fede3e3538",
+      "startTime": {
+        "timestamp": 1708101712
+      },
+      "endTime": {
+        "timestamp": 1708533712
+      },
+      "startTimestamp": 1708101712,
+      "endTimestamp": 1708533712,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 62283568.0,
+          "choice": 0
+        },
+        {
+          "total": 8825.329,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 262283664.5425208,
+          "choice": 0
+        },
+        {
+          "total": 8825.328899461154,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708098176775,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGE5NDEyMmFkM2Y5Y2ZlYWQxODE3MWE0Y2RmNDdiNWZlMGQ2MThmNmQyZTNjOTY4NGM3NTA5MzY3OGE3MDQ1ZGM=",
+      "id": "0xa94122ad3f9cfead18171a4cdf47b5fe0d618f6d2e3c9684c75093678a7045dc",
+      "title": "IP Transfer and a Separate CU DAO Entity",
+      "content": "Abstract\nThe CU DAO is poised to make a big leap towards decentralization by establishing an independent entity endowed with inherent rights and governed by its own bylaws.\n\nMotivation\nWe have an unwavering belief in the vast potential of the web3 space and it continues to inspire us to cultivate a community-owned IP.\n\nThis proposal transfers the general IP and treasury assets to an independent Crypto Unicorns DAO, and ratifies its charter.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 97,
+      "blockNumber": 52995515,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xa94122ad3f9cfead18171a4cdf47b5fe0d618f6d2e3c9684c75093678a7045dc",
+      "startTime": {
+        "timestamp": 1706785605
+      },
+      "endTime": {
+        "timestamp": 1707217605
+      },
+      "startTimestamp": 1706785605,
+      "endTimestamp": 1707217605,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 50677692.0,
+          "choice": 0
+        },
+        {
+          "total": 1309.3289,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 250677789.30908293,
+          "choice": 0
+        },
+        {
+          "total": 1309.3288994611546,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706782368736,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDQ2MjA4N2EyOGZhZjU2MDY1M2NjN2I2NDVhMjk4MmNkMTcxY2EzNDg0MjA4ODBkZWNmYzdhZTNjYTIwZGFhN2I=",
+      "id": "0x462087a28faf560653cc7b645a2982cd171ca348420880decfc7ae3ca20daa7b",
+      "title": "Community Support and Creator",
+      "content": "Abstract\nThis DAO proposal aims to establish a Community Support and Creator for Keepers and Guardians Role within the “Crypto Unicorns” community, leveraging the power of decentralized governance. By creating a self-sustaining educational ecosystem, this proposal seeks to empower community members with the knowledge and support they need to navigate the cryptocurrency landscape successfully.\n\nIt is imperative to ensure Guardians & Keepers are rewarded to provide upward mobility and discourage any rogue behavior due to the loss of meaningful reward and career trajectory.\n\nMotivation\nGuardians and Keepers derive from a diverse range of individuals to provide guidance and education in this complex field for newcomers. However, we are on the bleeding edge of tech and the availability of reliable and accessible educational resources often falls short. By implementing the Community Support & Community Creator, we can foster a collaborative and decentralized approach to education.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 167,
+      "blockNumber": 52395083,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x462087a28faf560653cc7b645a2982cd171ca348420880decfc7ae3ca20daa7b",
+      "startTime": {
+        "timestamp": 1705418872
+      },
+      "endTime": {
+        "timestamp": 1705850872
+      },
+      "startTimestamp": 1705418872,
+      "endTimestamp": 1705850872,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 121194950.0,
+          "choice": 0
+        },
+        {
+          "total": 3351185.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 121556808.8645854,
+          "choice": 0
+        },
+        {
+          "total": 3351185.431777783,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705415716896,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGYzZGNmNDU0MjY4OWZlYmRiNzc5NzM5YzQ4Y2NhNjcxNWIyYmEzNmY4ODBjMmQyM2Q3N2NiZDEwMjI1OTAyMWE=",
+      "id": "0xf3dcf4542689febdb779739c48cca6715b2ba36f880c2d23d77cbd102259021a",
+      "title": "Unicorn Gladiators",
+      "content": "Abstract\nTo implement a purely skill based game that utilizes the CU IP to attract more competitive players to the ecosystem. This game will focus solely on high level decision making and risk vs reward scenarios, much like poker.\n\nMotivation\nRecently we have had a proposal brought forth for a new game to CU that I personally felt was lacking in a lot of areas, was very redundant and was asking for large upfront funding based on nothing but an idea for a game. I found this predatory and would like to offer the community an alternative option, a strategic game that is truly skill based. There will be 0 pay to win mechanics and stats on unicorns and shadowcorns will have no effects. Our team comes from an e-sports background and we value competitive integrity, deep decision making and balance above all else.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 164,
+      "blockNumber": 52394980,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xf3dcf4542689febdb779739c48cca6715b2ba36f880c2d23d77cbd102259021a",
+      "startTime": {
+        "timestamp": 1705418646
+      },
+      "endTime": {
+        "timestamp": 1705850646
+      },
+      "startTimestamp": 1705418646,
+      "endTimestamp": 1705850646,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 232791810.0,
+          "choice": 0
+        },
+        {
+          "total": 91704096.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 232791819.13912615,
+          "choice": 0
+        },
+        {
+          "total": 92065951.67168608,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705415090119,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDk0Y2NhNTRlNmIzZjUyZjA5NjZkMWQ3NGVlNDE5OGJhM2FjMzcwMzhhOWMzN2E3ODc0MDlmYjM5Y2VhZWEyOTU=",
+      "id": "0x94cca54e6b3f52f0966d1d74ee4198ba3ac37038a9c37a787409fb39ceaea295",
+      "title": "Unicorn Fight Club",
+      "content": "Abstract\nTo create a fast paced, interactive, strategic and balanced pvp game loop in which stats matter and all classes have their strengths and weaknesses.\n\nThis pvp game loop will allow for players to enter into direct competition to win the prize pool plus a high chance to permanently capture a unicorn from the opponent’s deck. The game will utilize strategic player inputs that require both player knowledge and skill.\n\nMotivation\nLG has put out a call for builders to contribute to the ecosystem on top of LG’s various initiatives. They have made clear that racing, true RPG and other game loops are not the top priority. It’s also clear that jousting as it exists now has some challenges in balancing the meta and they do not intend to make all classes relevant. It’s time to take matters into our own hands. This proposal is to build the game loop that the community has been asking for: pvp, degen af, balanced, skill-based, fast, simple and fun.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 166,
+      "blockNumber": 52394923,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x94cca54e6b3f52f0966d1d74ee4198ba3ac37038a9c37a787409fb39ceaea295",
+      "startTime": {
+        "timestamp": 1705418526
+      },
+      "endTime": {
+        "timestamp": 1705850526
+      },
+      "startTimestamp": 1705418526,
+      "endTimestamp": 1705850526,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 123750490.0,
+          "choice": 0
+        },
+        {
+          "total": 1918087.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 124112349.56875975,
+          "choice": 0
+        },
+        {
+          "total": 1918087.812916836,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705415090119,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGVkMDJhNTlkODBiM2NjN2U0ODAxMTE5YTgyNzc5NTE3NWQ5NTA2ZmNkZmE1NzI5NWM2MTExMDMyOWZlYTk1NTI=",
+      "id": "0xed02a59d80b3cc7e4801119a827795175d9506fcdfa57295c61110329fea9552",
+      "title": "Season 4 Governance Council Election",
+      "content": "Abstract\nAs the CUIP-004 - Governance Council Installation indicated that each council season lasts 6 month, we now officially open the election for our Season 2 Governance Council members. The Governance Council will act as gatekeepers to proposals being sent to Snapshot for an official DAO vote.\n\nDetails\nAs the recently approved CUIP-010 mandates, each wallet address will vote using the quadratic voting strategy, allowing everyone to distribute their votes to multiple candidates as they see fit.\n\nPlease vote for the candidate(s) you support.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 98,
+      "blockNumber": 51420781,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xed02a59d80b3cc7e4801119a827795175d9506fcdfa57295c61110329fea9552",
+      "startTime": {
+        "timestamp": 1703249446
+      },
+      "endTime": {
+        "timestamp": 1703681446
+      },
+      "startTimestamp": 1703249446,
+      "endTimestamp": 1703681446,
+      "currentState": "closed",
+      "choices": [
+        "Illest 3.0",
+        "Dipbeak",
+        "jbp3",
+        "timetraveler",
+        "Invoko",
+        "Lev0x Popcorn",
+        "Ethereal",
+        "Eyolis",
+        "IslandGirl🏝",
+        "Dijkstra's Revenge | Nonlinear",
+        "wasper"
+      ],
+      "results": [
+        {
+          "total": 2481596.0,
+          "choice": 22
+        },
+        {
+          "total": 37401.367,
+          "choice": 15
+        },
+        {
+          "total": 16047.5,
+          "choice": 26
+        },
+        {
+          "total": 844428.4,
+          "choice": 19
+        },
+        {
+          "total": 62161.418,
+          "choice": 3
+        },
+        {
+          "total": 19368.0,
+          "choice": 37
+        },
+        {
+          "total": 3287678.2,
+          "choice": 5
+        },
+        {
+          "total": 16170094.0,
+          "choice": 0
+        },
+        {
+          "total": 47050.72,
+          "choice": 39
+        },
+        {
+          "total": 460094.66,
+          "choice": 89
+        },
+        {
+          "total": 64486.805,
+          "choice": 16
+        },
+        {
+          "total": 6358837.0,
+          "choice": 99
+        },
+        {
+          "total": 3192.0,
+          "choice": 32
+        },
+        {
+          "total": 2135.0,
+          "choice": 7
+        },
+        {
+          "total": 19701.0,
+          "choice": 1410065407
+        },
+        {
+          "total": 1199.68,
+          "choice": 19999
+        },
+        {
+          "total": 213447.62,
+          "choice": 49
+        },
+        {
+          "total": 4867.5,
+          "choice": 1
+        },
+        {
+          "total": 2457.5,
+          "choice": 23
+        },
+        {
+          "total": 52.0,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": "quadratic",
+      "indexedResult": [
+        {
+          "total": 3599757.575041339,
+          "choice": 0
+        },
+        {
+          "total": 5004697.92966904,
+          "choice": 1
+        },
+        {
+          "total": 1132420.637932984,
+          "choice": 2
+        },
+        {
+          "total": 4620468.909612558,
+          "choice": 3
+        },
+        {
+          "total": 667552.3205810905,
+          "choice": 4
+        },
+        {
+          "total": 8138696.261384391,
+          "choice": 5
+        },
+        {
+          "total": 687199.6047681257,
+          "choice": 6
+        },
+        {
+          "total": 989823.34518998,
+          "choice": 7
+        },
+        {
+          "total": 3720672.732063584,
+          "choice": 8
+        },
+        {
+          "total": 729775.0319928739,
+          "choice": 9
+        },
+        {
+          "total": 805232.7634391404,
+          "choice": 10
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703245924880,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDY2MWE1YWE4NjNhYmZkYTczMGMyZjY0OTM3ZDNiZDBlZDM0Y2RiNWRlZWZkNmVmYTY5YTRjMDNkMzIzNTk4OTg=",
+      "id": "0x661a5aa863abfda730c2f64937d3bd0ed34cdb5deefd6efa69a4c03d32359898",
+      "title": "Governance Council Activation",
+      "content": "Abstract\nOver the past three seasons, our governance system has evolved through learning from our community’s distinct needs, leading to improvement in our governance framework. The governance council, initially established to “ensure that the community has a voice today while preparing for a future when the community takes over the majority of voting power,” has encountered several challenges:\n\n- Insufficient participation in forums by the governance council.\n- Insufficient communication to the community regarding the rationale behind decisions.\n- Low engagement in review processes.\n\nThis proposal aims to comprehensively improve the operations related to the governance council by employing a more merit-based approach and relying on social proof. Adopting this proposal would effectively supersede the provisions of CUIP-004.\n\nMotivation\n- To enhance the existing governance framework\n- To prepare the council for the next step into our path to decentralization",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 94,
+      "blockNumber": 51420488,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x661a5aa863abfda730c2f64937d3bd0ed34cdb5deefd6efa69a4c03d32359898",
+      "startTime": {
+        "timestamp": 1703248790
+      },
+      "endTime": {
+        "timestamp": 1703680790
+      },
+      "startTimestamp": 1703248790,
+      "endTimestamp": 1703680790,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 36510972.0,
+          "choice": 0
+        },
+        {
+          "total": 100690.22,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 36510986.56472219,
+          "choice": 0
+        },
+        {
+          "total": 100690.22192601812,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703245387824,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDRiYmE2YWEwNWY5YWE3YzVjYzk2ZGZkZDMxOGVhZTFmMWZmM2RlNzJjYzk0YmFlNTcyMDYwMWE1ZjRmNDYxYzc=",
+      "id": "0x4bba6aa05f9aa7c5cc96dfdd318eae1f1ff3de72cc94bae5720601a5f4f461c7",
+      "title": "The Hub Land",
+      "content": "Abstract\nThe current game is lacking a starting point for the players as well as a starting land that can be allowed to onboard new players. Additionally, the game currently has no “center” and multiple websites with different looks and feel don’t help that. The concept behind this is to:\n\n- Create a sense of “start here” in the game;\n- Allow for new players to have a landing point where all things in the game expand from; and\n- Increase the ability for the game to have a center point where players expect to see “new stuff” spawn / expand from.\n\nMotivation\nTo increase the sense of “the heart of the game” and to onboard new player easier by pointing them to the starting point, which will be a real starting point provided by the game. Many players don’t know where to start, but with this new “hub land” it is the main landing point of the player experience and can be used as a point where other aspects of the game can spawn from.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 96,
+      "blockNumber": 51420436,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x4bba6aa05f9aa7c5cc96dfdd318eae1f1ff3de72cc94bae5720601a5f4f461c7",
+      "startTime": {
+        "timestamp": 1703248681
+      },
+      "endTime": {
+        "timestamp": 1703680681
+      },
+      "startTimestamp": 1703248681,
+      "endTimestamp": 1703680681,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 33091392.0,
+          "choice": 0
+        },
+        {
+          "total": 33134376.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 33091395.538994245,
+          "choice": 0
+        },
+        {
+          "total": 33134376.521527924,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703245387824,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGYyNWRlOTlmOWU4YWMwODk0YTJlM2ZkZjNiMzg5MzFlNmRlNGUyYmZiNzE0MDgwODk0ZmVhZWM2ZTQxN2U5ZDI=",
+      "id": "0xf25de99f9e8ac0894a2e3fdf3b38931e6de4e2bfb714080894feaec6e417e9d2",
+      "title": "UniWU.me Growth",
+      "content": "Abstract\nThis proposal expands on the features of the Deep Dive App or the UniWU.me website. The app was planned to unlock the potential of unicorn genes and display how cool some unicorns are. With the announcement of Hawku closing down, the author decided to make sure players weren’t left alone with the less desirable alternative that is OS. The author however, cannot just can’t do the additional amount of work for next to nothing.\n\nMotivation\n-In our metaverse a lot of things are changing very quickly, we need to adapt faster while the market is favorable.\n-We have new cycles coming up that require attention and additional visualizations and engagement.\n-The application was originally intended to be more specialized, and sustainable expansion is not possible without additional support.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 105,
+      "blockNumber": 50617069,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xf25de99f9e8ac0894a2e3fdf3b38931e6de4e2bfb714080894feaec6e417e9d2",
+      "startTime": {
+        "timestamp": 1701446738
+      },
+      "endTime": {
+        "timestamp": 1701878738
+      },
+      "startTimestamp": 1701446738,
+      "endTimestamp": 1701878738,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 50323508.0,
+          "choice": 0
+        },
+        {
+          "total": 33299824.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 50372195.19091204,
+          "choice": 0
+        },
+        {
+          "total": 33299823.881666552,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701443450629,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDlkMDZjMWI3OGIwYTQyYmVmODQ5MmE5MTBmMGFiMjMxYmIzMTFkMjUzZDBjZDEzM2MxODQyMmUyZjVjMDMyZDI=",
+      "id": "0x9d06c1b78b0a42bef8492a910f0ab231bb311d253d0cd133c18422e2f5c032d2",
+      "title": "UnicornParty.com",
+      "content": "Abstract\nSurf Labs, the developers of Unicorn Party (UP), founded by industry veterans in gaming, ad-tech and crypto, propose the transformation of UP into a standalone real-money (Fiat + Crypto) skill-based arcade. This initiative aims to enhance the game’s accessibility to players unfamiliar with web3 and expand the influence of the Crypto Unicorns IP.\n\nMotivation\nSurf Labs is incredibly excited about the opportunity to move UP to an external game, which will grant us increased independence and responsibility. We have strong belief that venturing into this new territory will establish CU as the trailblazers with a strong, high mass market appeal presence and act as a powerful attractor, inspiring numerous developers to explore fresh avenues of creativity utilizing the Crypto Unicorns intellectual property.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 144,
+      "blockNumber": 47677594,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x9d06c1b78b0a42bef8492a910f0ab231bb311d253d0cd133c18422e2f5c032d2",
+      "startTime": {
+        "timestamp": 1695015070
+      },
+      "endTime": {
+        "timestamp": 1695447070
+      },
+      "startTimestamp": 1695015070,
+      "endTimestamp": 1695447070,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 39744664.0,
+          "choice": 0
+        },
+        {
+          "total": 124359544.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 239744762.75427648,
+          "choice": 0
+        },
+        {
+          "total": 124359561.64762744,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695013495963,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDkxYTYwODZhMGIyZDEzZjg5M2U0NTFiZDhkN2FiYTljNzRiM2E5MjY3MTU3ZTJmNDhiNDIyYjE3MWZiYzRmNmU=",
+      "id": "0x91a6086a0b2d13f893e451bd8d7aba9c74b3a9267157e2f48b422b171fbc4f6e",
+      "title": "Deep Dive App",
+      "content": "Abstract\nThis is proposal that seeks to request a grant to develop the a Crypto Unicorns Deep Dive App.\n\n- Our game has great depth, which is difficult to show without additional tools.\n- Without involvement in the depths of the game, the game’s economy cannot be successful.\n- Everything cannot be implemented in the game itself and we need a webapp like Wowhead for World of Warcraft.\n\nMotivation\nMany people do not understand how genes and boosters work, players give up and stop trying to breed top unicorns. It is difficult to choose a unicorn for breeding, quests, and jousting.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 145,
+      "blockNumber": 47677059,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x91a6086a0b2d13f893e451bd8d7aba9c74b3a9267157e2f48b422b171fbc4f6e",
+      "startTime": {
+        "timestamp": 1695013873
+      },
+      "endTime": {
+        "timestamp": 1695445873
+      },
+      "startTimestamp": 1695013873,
+      "endTimestamp": 1695445873,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 122159150.0,
+          "choice": 0
+        },
+        {
+          "total": 2208621.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 122159219.09316044,
+          "choice": 0
+        },
+        {
+          "total": 2208621.679551235,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695010435342,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDk1ZmYyMjA4YzdkMDllN2U2MjMwMGQxMjFmZmY3NjE4M2Y0ZTM0YjdmOWEzZDIyNDZhOWViZTljNTYzYmVhMDI=",
+      "id": "0x95ff2208c7d09e7e62300d121fff76183f4e34b7f9a3d2246a9ebe9c563bea02",
+      "title": "UnicornParty,com",
+      "content": "Abstract\nSurf Labs, the developers of Unicorn Party (UP), founded by industry veterans in gaming, ad-tech and crypto, propose the transformation of UP into a standalone real-money (Fiat + Crypto) skill-based arcade. This initiative aims to enhance the game’s accessibility to players unfamiliar with web3 and expand the influence of the Crypto Unicorns IP.\n\nMotivation\nSurf Labs is incredibly excited about the opportunity to move UP to an external game, which will grant us increased independence and responsibility. We have strong belief that venturing into this new territory will establish CU as the trailblazers with a strong, high mass market appeal presence and act as a powerful attractor, inspiring numerous developers to explore fresh avenues of creativity utilizing the Crypto Unicorns intellectual property.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 0,
+      "blockNumber": 47676551,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x95ff2208c7d09e7e62300d121fff76183f4e34b7f9a3d2246a9ebe9c563bea02",
+      "startTime": {
+        "timestamp": 1695012760
+      },
+      "endTime": {
+        "timestamp": 1695444760
+      },
+      "startTimestamp": 1695012760,
+      "endTimestamp": 1695444760,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695009652791,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDFmOWZjNmM4MWI1Nzc4MGU5YjdmZTk3ODRlYzQxNTgwNjhkMmVjZGIxNWJmMTc5OThiNmJhZjM4M2E3ZGQ2NTc=",
+      "id": "0x1f9fc6c81b57780e9b7fe9784ec4158068d2ecdb15bf17998b6baf383a7dd657",
+      "title": "Marketing Proposal",
+      "content": "Abstract\nThe number of daily active users of Crypto Unicorns has not significantly increased since the game launched last year, and the team has spent very little of the treasury on marketing. I propose we use $80,000 USDC from the EFund fund for me to hire and manage a marketing team to market Crypto Unicorns on social media.\n\nMotivation\nTo significantly increase the number of daily active users\nTo significantly increase the price of RBW",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 247,
+      "blockNumber": 45788006,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x1f9fc6c81b57780e9b7fe9784ec4158068d2ecdb15bf17998b6baf383a7dd657",
+      "startTime": {
+        "timestamp": 1690914266
+      },
+      "endTime": {
+        "timestamp": 1691346266
+      },
+      "startTimestamp": 1690914266,
+      "endTimestamp": 1691346266,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 247348530.0,
+          "choice": 0
+        },
+        {
+          "total": 3871725.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 247348568.8050509,
+          "choice": 0
+        },
+        {
+          "total": 3871725.782654224,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690911214045,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDA5NzVmZDQwZGNmMTU0MDBlM2FlOGQxYjE5YjdjMDdmOGFkNjBhMjlmMjFjNTNlZThlOTExNzRkOWZhMTAzODA=",
+      "id": "0x0975fd40dcf15400e3ae8d1b19b7c07f8ad60a29f21c53ee8e91174d9fa10380",
+      "title": "Community Support and Educators",
+      "content": "Abstract\nThis DAO proposal aims to establish a Community Support Educators for Keepers and Guardians Role within the “Crypto Unicorns” community, leveraging the power of decentralized governance. By creating a self-sustaining educational ecosystem, this proposal seeks to empower community members with the knowledge and support they need to navigate the cryptocurrency landscape successfully.\n\nMotivation\nGuardians and Keepers derive from a diverse range of individuals to provide guidance and education in this complex field for newcomers. However we are on the bleeding edge of Tech and the availability of reliable and accessible educational resources often falls short. By implementing a Community Support Educators for Guardians and Keepers within a DAO framework, we can foster a collaborative and decentralized approach to education, ensuring members receive accurate and up-to-date information while promoting peer-to-peer support.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 240,
+      "blockNumber": 45787981,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x0975fd40dcf15400e3ae8d1b19b7c07f8ad60a29f21c53ee8e91174d9fa10380",
+      "startTime": {
+        "timestamp": 1690914215
+      },
+      "endTime": {
+        "timestamp": 1691346215
+      },
+      "startTimestamp": 1690914215,
+      "endTimestamp": 1691346215,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 243938220.0,
+          "choice": 0
+        },
+        {
+          "total": 7416182.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 243938278.8165962,
+          "choice": 0
+        },
+        {
+          "total": 7416182.049219834,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690911214045,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGVjM2YxODRkZGE3OGU4NzRkY2QwNjBkZTM0YTZmYmZiNzRjYTJjMTAzNzA2YTNkY2E2MjliYWU3YzZkOTZiNDA=",
+      "id": "0xec3f184dda78e874dcd060de34a6fbfb74ca2c103706a3dca629bae7c6d96b40",
+      "title": "Bug Bounty Program Renewal and Revision II",
+      "content": "Abstract\nThis is a renewal for Bug bounty for another 6 months. I believe in encouraging and supporting community members to continually invest in and participate in the success of the project. Rewarding participation in bug hunts and community moderation enables DAO to collectively take ownership of what is being built together. This proposal seeks to renew the current proposal that ended this June 2023.\n\nMotivation\nWe wish to continually incentivize the community’s participation in finding bugs that cover in-game usability issues and issues with the official websites.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 234,
+      "blockNumber": 45787941,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xec3f184dda78e874dcd060de34a6fbfb74ca2c103706a3dca629bae7c6d96b40",
+      "startTime": {
+        "timestamp": 1690914096
+      },
+      "endTime": {
+        "timestamp": 1691346096
+      },
+      "startTimestamp": 1690914096,
+      "endTimestamp": 1691346096,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 249139150.0,
+          "choice": 0
+        },
+        {
+          "total": 1285327.6,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 249139170.29043087,
+          "choice": 0
+        },
+        {
+          "total": 1285327.6505403067,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690911214045,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGUyNzRjMWI5ZDhmNjdkYWMzZjY3MTNiODgzNjE4YmNmNWM0ODkzZmNmYTI1ZDI0NWJjNTljOTQ2MWY2MzkxNzc=",
+      "id": "0xe274c1b9d8f67dac3f6713b883618bcf5c4893fcfa25d245bc59c9461f639177",
+      "title": "Season 3 Governance Council Special Election",
+      "content": "Abstract\nAs one of the elected councilor for the Season 3 Governance Council has left the office, the DAO shall now call for an emergency election.\n\nDetails\nAs indicated by CUIP-004 -Governance Council Installation, vacancies are filled following a special/emergency election. Please vote for the candidate you support. Only one (1) council seat needs to be filled.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 147,
+      "blockNumber": 45535130,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xe274c1b9d8f67dac3f6713b883618bcf5c4893fcfa25d245bc59c9461f639177",
+      "startTime": {
+        "timestamp": 1690367595
+      },
+      "endTime": {
+        "timestamp": 1690799595
+      },
+      "startTimestamp": 1690367595,
+      "endTimestamp": 1690799595,
+      "currentState": "closed",
+      "choices": [
+        "ForsakeN",
+        "sauliusj.eth",
+        "Venticello"
+      ],
+      "results": [
+        {
+          "total": 2597926.8,
+          "choice": 25999999
+        },
+        {
+          "total": 2135.0,
+          "choice": 59
+        },
+        {
+          "total": 12.0,
+          "choice": 999
+        },
+        {
+          "total": 70102.836,
+          "choice": 9
+        },
+        {
+          "total": 28010.0,
+          "choice": 19
+        },
+        {
+          "total": 5239.46,
+          "choice": 5
+        },
+        {
+          "total": 86446.95,
+          "choice": 29
+        },
+        {
+          "total": 433.29,
+          "choice": 4
+        },
+        {
+          "total": 30841302.0,
+          "choice": 0
+        },
+        {
+          "total": 387140.88,
+          "choice": 10
+        },
+        {
+          "total": 46063.906,
+          "choice": 6
+        },
+        {
+          "total": 5926941.0,
+          "choice": 39
+        },
+        {
+          "total": 2035.0,
+          "choice": 36
+        },
+        {
+          "total": 5462.689,
+          "choice": 2499
+        },
+        {
+          "total": 78644.05,
+          "choice": 2
+        },
+        {
+          "total": 72560696.0,
+          "choice": 99
+        },
+        {
+          "total": 34487.96,
+          "choice": 32
+        },
+        {
+          "total": 51950.0,
+          "choice": 7
+        },
+        {
+          "total": 1199.68,
+          "choice": 1499
+        },
+        {
+          "total": 260076.58,
+          "choice": 49
+        },
+        {
+          "total": 6303965.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "quadratic",
+      "indexedResult": [
+        {
+          "total": 33554384.90490262,
+          "choice": 0
+        },
+        {
+          "total": 63609519.76104056,
+          "choice": 1
+        },
+        {
+          "total": 22126366.868045986,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690364723651,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDZmOTA0MzAwOWZjOWM3ZTFmOWE4YzM2ZGM2Mzk1MTY0Y2ZlMDQyZDE0NmU3ODEzODI4NmNjMjVhYzAxN2YyODQ=",
+      "id": "0x6f9043009fc9c7e1f9a8c36dc6395164cfe042d146e78138286cc25ac017f284",
+      "title": "Bug Bounty Program Renewal and Revision",
+      "content": "Abstract\nThis is a renewal for Bug bounty for another 6 months. The author believes in encouraging and supporting community members to continually invest in and participate in the success of the project. Rewarding participation in bug hunts and community moderation enables DAO to collectively take ownership of what is being built together. This proposal seeks to renew the current proposal that will end this June 2023.\n\nMotivation\n- The author wishes for the DAO to continually incentivize the community’s participation in finding bugs that cover in-game usability issues and issues with the official websites.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 124,
+      "blockNumber": 45184168,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x6f9043009fc9c7e1f9a8c36dc6395164cfe042d146e78138286cc25ac017f284",
+      "startTime": {
+        "timestamp": 1689594628
+      },
+      "endTime": {
+        "timestamp": 1690026628
+      },
+      "startTimestamp": 1689594628,
+      "endTimestamp": 1690026628,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 30545428.0,
+          "choice": 0
+        },
+        {
+          "total": 116850.445,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 30545433.096490286,
+          "choice": 0
+        },
+        {
+          "total": 116850.4464269534,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDVjOGM1NmUyZDY0MzNmNmQ3YjJlMGU0N2EzZWFiYTMyMWFiNmEzMmJiMmY1YTJiMTQzMmJlZDUxMWY3MjM2MzY=",
+      "id": "0x5c8c56e2d6433f6d7b2e0e47a3eaba321ab6a32bb2f5a2b1432bed511f723636",
+      "title": "Revised Knowledge Base, Price Bots, and Tools v2",
+      "content": "Abstract\nAs Crypto Unicorns move towards new releases, patch updates, it is important to have Tools that can save the community time on analysing, while keeping the excitement in the game. This proposal focuses on Building Tools, & Maintaining Knowledge base for the game.\n\nMotivation\nToday, Keizer has been continuously building the Knowledge base file along with some tools like Gathering Simulation, Token Price bots, RMP Market Trend, Website, & Reports for more than 14 months. Keizer would like to continue his passion on providing the tools for the community.\n\nRe-Submission\nRe-submission of the proposal is put in because the author still believes that this an important proposal for the community and that this will help the community within its duration.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 190,
+      "blockNumber": 44743873,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x5c8c56e2d6433f6d7b2e0e47a3eaba321ab6a32bb2f5a2b1432bed511f723636",
+      "startTime": {
+        "timestamp": 1688633583
+      },
+      "endTime": {
+        "timestamp": 1689065583
+      },
+      "startTimestamp": 1688633583,
+      "endTimestamp": 1689065583,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 242581860.0,
+          "choice": 0
+        },
+        {
+          "total": 45393560.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 242581872.82495585,
+          "choice": 0
+        },
+        {
+          "total": 45393560.36370293,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDdjYzllYTJjODc3MGNlNzNjOWE2ZjNlYjRiY2M5NDVmZWE0ZDI5NzRjYzFjYmU2YTU5ZmYxOTRjNGQ5ZWE1NDI=",
+      "id": "0x7cc9ea2c8770ce73c9a6f3eb4bcc945fea4d2974cc1cbe6a59ff194c4d9ea542",
+      "title": "Ban Policy Implementation",
+      "content": "Summary\nWe are committed in building a sustainable ecosystem that provides a fair and enjoyable experience for all participants. To preserve the integrity of our ecosystem, we believe that the DAO should implement a ban policy that addresses activities that violate the Terms of Service as well as other malicious activities that are detrimental to the Crypto Unicorns DAO, economy, community, game, and all associated products.\n\nMotivation\n- To preserve the integrity of our ecosystem\n- To safeguard the economy from malicious actors without affecting players’ regular gameplay experience",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 192,
+      "blockNumber": 44743762,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x7cc9ea2c8770ce73c9a6f3eb4bcc945fea4d2974cc1cbe6a59ff194c4d9ea542",
+      "startTime": {
+        "timestamp": 1688633349
+      },
+      "endTime": {
+        "timestamp": 1689065349
+      },
+      "startTimestamp": 1688633349,
+      "endTimestamp": 1689065349,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 281722620.0,
+          "choice": 0
+        },
+        {
+          "total": 6091427.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 281722642.9610103,
+          "choice": 0
+        },
+        {
+          "total": 6091427.580211172,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDdhNmRlNWExMWZmMDEzNTAwZWNmZDdkNzYyODI1M2Y2NTY4YzU1Njk5M2VmNjk2YjliYWEzYTE4MzVlNjE5ZTY=",
+      "id": "0x7a6de5a11ff013500ecfd7d7628253f6568c556993ef696b9baa3a1835e619e6",
+      "title": "Season 3 Governance Council Election",
+      "content": "Abstract\nAs the CUIP-004 - Governance Council Installation indicated that each council season lasts 6 month, we now officially open the election for our Season 2 Governance Council members. The Governance Council will act as gatekeepers to proposals being sent to Snapshot for an official DAO vote.\n\nDetails\nAs the recently approved CUIP-010 mandates, each wallet address will vote using the quadratic voting strategy, allowing everyone to distribute their votes to multiple candidates as they see fit.\n\nPlease vote for the candidate(s) you support.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 221,
+      "blockNumber": 44283970,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x7a6de5a11ff013500ecfd7d7628253f6568c556993ef696b9baa3a1835e619e6",
+      "startTime": {
+        "timestamp": 1687617074
+      },
+      "endTime": {
+        "timestamp": 1688049074
+      },
+      "startTimestamp": 1687617074,
+      "endTimestamp": 1688049074,
+      "currentState": "closed",
+      "choices": [
+        "AldanAlx",
+        "aume27rrpmp.nft",
+        "Bahis",
+        "cuppy",
+        "Daalex",
+        "ForsakeN",
+        "Gabe | ShazbotWarrior",
+        "inevit",
+        "IslandGurl",
+        "jbp3",
+        "kora",
+        "lgJeff",
+        "mat",
+        "mitchv",
+        "Neviolo | Nonlinear",
+        "0xgains",
+        "Radamh",
+        "terrarekt",
+        "TheTruth",
+        "Venticello",
+        "Vyona",
+        "Zyori"
+      ],
+      "results": [
+        {
+          "total": 500500.0,
+          "choice": 65
+        },
+        {
+          "total": 66756948.0,
+          "choice": 9
+        },
+        {
+          "total": 202135740.0,
+          "choice": 19
+        },
+        {
+          "total": 44816.938,
+          "choice": 3
+        },
+        {
+          "total": 292287.66,
+          "choice": 28
+        },
+        {
+          "total": 19996.219,
+          "choice": 5
+        },
+        {
+          "total": 5901946.5,
+          "choice": 29
+        },
+        {
+          "total": 5244.14,
+          "choice": 4
+        },
+        {
+          "total": 65836588.0,
+          "choice": 0
+        },
+        {
+          "total": 79822.99,
+          "choice": 1316134910
+        },
+        {
+          "total": 19701.0,
+          "choice": 99999
+        },
+        {
+          "total": 34210.0,
+          "choice": -1
+        },
+        {
+          "total": 80.0,
+          "choice": 39
+        },
+        {
+          "total": 152752.17,
+          "choice": 499
+        },
+        {
+          "total": 3085.006,
+          "choice": 2
+        },
+        {
+          "total": 5065.254,
+          "choice": 199
+        },
+        {
+          "total": 6342529.0,
+          "choice": 99
+        },
+        {
+          "total": 74829.98,
+          "choice": 32
+        },
+        {
+          "total": 4385.625,
+          "choice": 7
+        },
+        {
+          "total": 367825.0,
+          "choice": 100
+        },
+        {
+          "total": 2422.5,
+          "choice": 24
+        },
+        {
+          "total": 205044.78,
+          "choice": 191
+        },
+        {
+          "total": 4929.9956,
+          "choice": 1410065407
+        },
+        {
+          "total": 378488.25,
+          "choice": 49
+        },
+        {
+          "total": 5797370.0,
+          "choice": 1
+        },
+        {
+          "total": 74799.35,
+          "choice": 18
+        },
+        {
+          "total": 74664.18,
+          "choice": 23
+        }
+      ],
+      "events": [],
+      "type": "quadratic",
+      "indexedResult": [
+        {
+          "total": 28387085.038191963,
+          "choice": 0
+        },
+        {
+          "total": 733028.9201054088,
+          "choice": 1
+        },
+        {
+          "total": 13996.61999052026,
+          "choice": 2
+        },
+        {
+          "total": 22626977.88488689,
+          "choice": 3
+        },
+        {
+          "total": 5363719.564460651,
+          "choice": 4
+        },
+        {
+          "total": 418332.12659849133,
+          "choice": 5
+        },
+        {
+          "total": 582570.3699567002,
+          "choice": 6
+        },
+        {
+          "total": 22959.674070645484,
+          "choice": 7
+        },
+        {
+          "total": 42894475.512723945,
+          "choice": 8
+        },
+        {
+          "total": 16259178.058438163,
+          "choice": 9
+        },
+        {
+          "total": 39477734.422689386,
+          "choice": 10
+        },
+        {
+          "total": 38720445.102172986,
+          "choice": 11
+        },
+        {
+          "total": 52314.23370628952,
+          "choice": 12
+        },
+        {
+          "total": 2346851.024520261,
+          "choice": 13
+        },
+        {
+          "total": 37007839.06707639,
+          "choice": 14
+        },
+        {
+          "total": 13207801.785078676,
+          "choice": 15
+        },
+        {
+          "total": 33808.99583163669,
+          "choice": 16
+        },
+        {
+          "total": 47791617.95212585,
+          "choice": 17
+        },
+        {
+          "total": 274199.2904326112,
+          "choice": 18
+        },
+        {
+          "total": 3132555.0262610726,
+          "choice": 19
+        },
+        {
+          "total": 16120332.62014548,
+          "choice": 20
+        },
+        {
+          "total": 39648265.16918578,
+          "choice": 21
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDFhYmI5MGE1MDZhMzUyZTUxZDU4N2IwZWU4YzM4N2MwYjEyOWVhMDE4YWE3NzM0NWZlN2I1YzJkZWZhN2QxNTA=",
+      "id": "0x1abb90a506a352e51d587b0ee8c387c0b129ea018aa77345fe7b5c2defa7d150",
+      "title": "Renewal for Mod Reward Program",
+      "content": "Abstract\nAs the existing Mod Program is ending, we wish to propose the extension of the existing Mod Reward Program for another 6 months for the following reasons. Rewarding participation in community moderation enables us to collectively take ownership of what we are building together. This proposal seeks to renew for CUIP-003 proposal which will end soon.\n\nMotivation\nWe wish to encourage Guardians [Mod Team] to continually support Crypto Unicorns community members.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 201,
+      "blockNumber": 43980348,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x1abb90a506a352e51d587b0ee8c387c0b129ea018aa77345fe7b5c2defa7d150",
+      "startTime": {
+        "timestamp": 1686929873
+      },
+      "endTime": {
+        "timestamp": 1687361873
+      },
+      "startTimestamp": 1686929873,
+      "endTimestamp": 1687361873,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 33670068.0,
+          "choice": 0
+        },
+        {
+          "total": 54918440.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 33670069.77294123,
+          "choice": 0
+        },
+        {
+          "total": 54918445.0954513,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGY5ZGY1Y2NkMTNiMDcyNzc5ZDMzMTY2NzViYmQ4YmJlZjgyYWQ4NWQ4OGZkZDBmZGY5NjhkNDUxZDFmZjFiZDI=",
+      "id": "0xf9df5ccd13b072779d3316675bbd8bbef82ad85d88fdd0fdf968d451d1ff1bd2",
+      "title": "Knowledge Base, Price Bots, and Tools v2",
+      "content": "Abstract\nAs Crypto Unicorns move towards new releases, patch updates, it is important to have Tools that can save the community time on analysing, while keeping the excitement in the game. This proposal focuses on Building Tools, & Maintaining Knowledge base for the game.\n\nMotivation\nToday, Keizer has been continuously building the Knowledge base file along with some tools like Gathering Simulation, Token Price bots, RMP Market Trend, Website, & Reports for more than 14 months [The KB started March 18, 2022 as a UNIM Cheat sheet and eventually grow from there]. Keizer would like to continue his passion on providing the tools for the community.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 192,
+      "blockNumber": 43980155,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xf9df5ccd13b072779d3316675bbd8bbef82ad85d88fdd0fdf968d451d1ff1bd2",
+      "startTime": {
+        "timestamp": 1686929450
+      },
+      "endTime": {
+        "timestamp": 1687361450
+      },
+      "startTimestamp": 1686929450,
+      "endTimestamp": 1687361450,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 31661184.0,
+          "choice": 0
+        },
+        {
+          "total": 55982208.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 31661176.254925944,
+          "choice": 0
+        },
+        {
+          "total": 55982201.16569099,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDFiZTExZTRjNWZkOTAwMmZhZTViYzNiNmQ5ZjRkNTY4NTMyYTZkYmE1NmY3YzkyMzMyYWJmNzQxYTRiMTY4ZTc=",
+      "id": "0x1be11e4c5fd9002fae5bc3b6d9f4d568532a6dba56f7c92332abf741a4b168e7",
+      "title": "Breeding and Evolution Cost Changes",
+      "content": "Summary\n\nWe have been monitoring community sentiments and breeding data since the new cost of breeding was implemented as per CUIP-017 voting and we concluded that the current costs are a big obstacle in our path to growth. As time is a rare comodity in the crypto space, we think that we need to react now, before it becomes a bigger issue.\n\nMotivation\n\nCUIP-017 proposal, while correctly addressing the community request of increasing the breeding and evolution fees, came with an unfortunately bad balance to UNIM/RBW which in turn caused unim sinking to breeding to reach all time lows in the past 2 weeks. We consider that the best path forward to protect UNIM and set a good foundation for potential growth would be to incentivize breeders to use as many breeding points as possible, especially breeding fully to all 8 breeding points. To incentivize sinking through breeding we propose to change breeding and evolution costs to a more balanced approach.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 803,
+      "blockNumber": 43372082,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x1be11e4c5fd9002fae5bc3b6d9f4d568532a6dba56f7c92332abf741a4b168e7",
+      "startTime": {
+        "timestamp": 1685549267
+      },
+      "endTime": {
+        "timestamp": 1685981267
+      },
+      "startTimestamp": 1685549267,
+      "endTimestamp": 1685981267,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 155991280.0,
+          "choice": 0
+        },
+        {
+          "total": 7214296.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 155992306.64101434,
+          "choice": 0
+        },
+        {
+          "total": 7214296.009196166,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDg0OGQ4ZjQwZmE0NTNlZDQ1Y2JjZDg3OTZjNmIzMmE3YzJkODZmODY4OWFjNDViY2Y1NTcxM2Q2NjJiMDliNWY=",
+      "id": "0x848d8f40fa453ed45cbcd8796c6b32a7c2d86f8689ac45bcf55713d662b09b5f",
+      "title": "Crypto Unicorns Name Change",
+      "content": "Summary\nCrypto Unicorns has come a very long way since Launch and Laguna Games is gearing up to launch some awesome game loops and in game features in the near future. Now is the time to present the IP in a way that attracts players beyond the web3 spectrum.\n\nMotivation\nThis new naming convention is intended to broaden appeal to a much larger audience beyond just cryptocurrency and NFT enthusiasts. This would help attract players that would otherwise have no interest or be put off by a game that involves blockchain in any way. This would also future-proof branding by creating our own game identity that is different from other stigmatized NFT games. The merchandising potential almost writes itself and would have more broad appeal to those that may not even want to play.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 795,
+      "blockNumber": 43372031,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x848d8f40fa453ed45cbcd8796c6b32a7c2d86f8689ac45bcf55713d662b09b5f",
+      "startTime": {
+        "timestamp": 1685549121
+      },
+      "endTime": {
+        "timestamp": 1685981121
+      },
+      "startTimestamp": 1685549121,
+      "endTimestamp": 1685981121,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 17608020.0,
+          "choice": 0
+        },
+        {
+          "total": 343610270.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 17608019.749983996,
+          "choice": 0
+        },
+        {
+          "total": 343611270.67604476,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGExYTI2Mjk3MjMwYTc4Y2U0NDAzODJjODc2YmZkNzBlZmZmOGJkZDI5YmY2YzllMGI3YTZjODY5YWQwZjM0NjM=",
+      "id": "0xa1a26297230a78ce440382c876bfd70efff8bdd29bf6c9e0b7a6c869ad0f3463",
+      "title": "Team RPG Battle Loop Selection",
+      "content": "Summary\nTeam RPG is our industry-first initiative to include the community in the earliest stages of game development. Ultimately, the community shall vote on which game mode will be launched for Team RPG.\n\nLaguna Games launched the Team RPG prototype in Match 3 and Autobattler game modes developed by Altitude Games. The two game modes allow players to participate at different levels - proactive vs. passive playstyles. After ~(5) five weeks of testing, we now ask the players to vote on the game mode that ultimately gets built as the Team RPG.\n\nGoals for the Initiative\n-Set up an open dialogue between the Game Developers and Players, incorporating collaboration and decentralization into the process of game development.\n-Engage community governance participation for a major Crypto Unicorns decision.\n-Introduce a new battle loop to players under the Unicorn Multiverse that interconnects with the core farming loop.\n-Provide a new game loop focused on Unicorn skills and roles.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 213,
+      "blockNumber": 42842743,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xa1a26297230a78ce440382c876bfd70efff8bdd29bf6c9e0b7a6c869ad0f3463",
+      "startTime": {
+        "timestamp": 1684391132
+      },
+      "endTime": {
+        "timestamp": 1684823132
+      },
+      "startTimestamp": 1684391132,
+      "endTimestamp": 1684823132,
+      "currentState": "closed",
+      "choices": [
+        "Match 3",
+        "Auto Battler"
+      ],
+      "results": [
+        {
+          "total": 108394624.0,
+          "choice": 0
+        },
+        {
+          "total": 20440778.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 108394630.49431404,
+          "choice": 0
+        },
+        {
+          "total": 20440776.09231406,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGVlMGU3M2M3N2U3YWI1YjY0NDFmN2YxYWRiYTg5Y2RkMDg1YmNmYmZmZDZkMTdiZTA5NzQ1YjRkMDhiNmRhN2Q=",
+      "id": "0xee0e73c77e7ab5b6441f7f1adba89cdd085bcfbffd6d17be09745b4d08b6da7d",
+      "title": "Crypto Unicorns Evolution Tool",
+      "content": "Summary\n\nThe Crypto Unicorns Evolution Tool is a game analytics tool that seeks to provide users with strategic data and deep insights into the evolution mechanics of the game. The Evolution Tool will be developed by the team behind BreederDAO’s Playcore 1 (an analytics and content aggregator for blockchain gaming).\n\nMotivation\n\nThrough close collaboration with Laguna Games, the Playcore team previously had the chance to create a fully-functional Breeding Tool for the Crypto Unicorn (CU) ecosystem that allowed users to analyze and delve deeper into one of the game’s core mechanics—breeding.\n\nThe next logical step then after the Breeding Tool is the proposed “Evolution Tool” which, among others, aims to provide new users with a good understanding of the flow of Crypto Unicorns’ breeding mechanics (i.e., from Breeding → Hatching → Evolution).",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 340,
+      "blockNumber": 42774122,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xee0e73c77e7ab5b6441f7f1adba89cdd085bcfbffd6d17be09745b4d08b6da7d",
+      "startTime": {
+        "timestamp": 1684242537
+      },
+      "endTime": {
+        "timestamp": 1684674537
+      },
+      "startTimestamp": 1684242537,
+      "endTimestamp": 1684674537,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 4208402.5,
+          "choice": 0
+        },
+        {
+          "total": 133243550.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4208402.8526864955,
+          "choice": 0
+        },
+        {
+          "total": 133243561.8411712,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDFjNjFkZWQ1NjA1YWNlNWQwZTFhMDk2Yzc5NDUyNzgzZTdjNGMyNThmMDIyZmY5MjcyYTdmZjg4NTBmMDVmYjI=",
+      "id": "0x1c61ded5605ace5d0e1a096c79452783e7c4c258f022ff9272a7ff8850f05fb2",
+      "title": "LVM RBW Changes",
+      "content": "Summary\nWe are proposing an increase in the RBW cost for LVM minting.\n\nMotivation\nAfter the RBW emissions reduction, RBW emissions to incentivize staking and LPing sit at 50,625 daily. The RMP sees roughly 65k of daily RBW volume, resulting in a net sink of 3.25k RBW per day. Between breeding and evolving, we typically see 40k RBW sunk each day. From the LVM, we see around 20 land mints per day, resulting in a net sink of 1k RBW. All in all, we are removing ~44K RBW from the supply each day versus the ~50k of RBW inflation.\n\nWith jousting, there is a 10% rake on entries that flow to the treasury. Potions will prove critical to the success in tournaments. The launch of jousting will likely increase breeding/evolution spend as demand for high stat corns picks up too. However, we believe it will not be sufficient. That is why we are proposing to increase the LVM RBW cost in this proposal.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 959,
+      "blockNumber": 40972480,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x1c61ded5605ace5d0e1a096c79452783e7c4c258f022ff9272a7ff8850f05fb2",
+      "startTime": {
+        "timestamp": 1680257054
+      },
+      "endTime": {
+        "timestamp": 1680689054
+      },
+      "startTimestamp": 1680257054,
+      "endTimestamp": 1680689054,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 71669410.0,
+          "choice": 0
+        },
+        {
+          "total": 23063522.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 71669719.93016061,
+          "choice": 0
+        },
+        {
+          "total": 23063521.895628568,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDI5NzhlZDFmODVhZGRhNDJjYWE2ZTE3YTIxYmFkODAyNjkzYzYxNTAyNzc2MzAxZmY3YjZiZTNlNTlhYjk4NTk=",
+      "id": "0x2978ed1f85adda42caa6e17a21bad802693c61502776301ff7b6be3e59ab9859",
+      "title": "RBW and UNIM Breeding Changes",
+      "content": "Summary\nWe made a huge step forward in improving the tokenomics of RBW by reducing staking emissions by 60% via CUIP-016, but we believe there is more work yet to be done in order to set CU up for the best shot at long term success. \n\nMotivation\nThe sentiment within the community has been rather mixed around how drastically the RBW breeding input costs should be changed. We have community members advocating for a 5x increase in breeding / evo costs to maximize RBW burn, on the other hand we have community members saying this will hurt new players far too much. A solution to appease both camps is to implement a dynamic breeding fee based on the amount of breeding points unicorns have remaining, similar to how UNIM breeding costs are calculated. As the unicorn population grows, so too does the total amount of UNIM emitted each day. Therefore, we have come up with different scenarios in an effort to address every community member’s concerns.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 947,
+      "blockNumber": 40972314,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x2978ed1f85adda42caa6e17a21bad802693c61502776301ff7b6be3e59ab9859",
+      "startTime": {
+        "timestamp": 1680256755
+      },
+      "endTime": {
+        "timestamp": 1680688755
+      },
+      "startTimestamp": 1680256755,
+      "endTimestamp": 1680688755,
+      "currentState": "closed",
+      "choices": [
+        "No Change",
+        "Conservative",
+        "Moderate",
+        "Aggressive",
+        "Very Aggressive"
+      ],
+      "results": [
+        {
+          "total": 7064437.0,
+          "choice": 3
+        },
+        {
+          "total": 61262524.0,
+          "choice": 4
+        },
+        {
+          "total": 25901726.0,
+          "choice": 0
+        },
+        {
+          "total": 697535.0,
+          "choice": 2
+        },
+        {
+          "total": 1957543.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 25901720.42163063,
+          "choice": 0
+        },
+        {
+          "total": 1957543.851785077,
+          "choice": 1
+        },
+        {
+          "total": 697535.0206422966,
+          "choice": 2
+        },
+        {
+          "total": 7064436.962425648,
+          "choice": 3
+        },
+        {
+          "total": 61262525.15605325,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDZkMDY4MWE5NDRjMTVhYTM4NDFjOTc2OTg3NzBkNzljOGNjNGRhOTc2OWQxMTk3Nzk3ODZlYjY5NzQ3ZmRjOWU=",
+      "id": "0x6d0681a944c15aa3841c97698770d79c8cc4da9769d119779786eb69747fdc9e",
+      "title": " Staking Emission Reduction II",
+      "content": "Summary\nThe Snapshot vote for CUIP-015 - Staking Emission Reduction has concluded, with 56.50% voting against the proposal and 43.50% voting in favor. This is equivalent to 100,605,460 votes, or 55.33% of our total voting population. The relatively narrow margin between the voting options compelled us to examine the voter distribution more closely. Only 95 wallets (13.46%) voted against the proposal, while 611 wallets (85.54%) voted in favor of the proposal. Given that the majority of DAO members support reducing staking emissions, we felt it was necessary to reopen the dialogue on reducing the staking emissions.\n\nMotivation\nAfter reading through the forum and Discord discussions we have modified the original proposal in the hopes of alleviating some community concerns with CUIP-015. We believe that the changes to this proposal provide a compromise while still allowing us to achieve the original goal of reducing emissions to prepare our community for growth.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 985,
+      "blockNumber": 39848283,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x6d0681a944c15aa3841c97698770d79c8cc4da9769d119779786eb69747fdc9e",
+      "startTime": {
+        "timestamp": 1677692274
+      },
+      "endTime": {
+        "timestamp": 1678124274
+      },
+      "startTimestamp": 1677692274,
+      "endTimestamp": 1678124274,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 239202910.0,
+          "choice": 0
+        },
+        {
+          "total": 53980056.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 239205070.53016853,
+          "choice": 0
+        },
+        {
+          "total": 53980053.146465175,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDM4NDUxZDRmZDEwZDcyYjQyZjk2MTZkNzljNTkzOWU5Nzg2ZTI3ODU1ZTBkMzA4M2ExYjc5YzdmZjFiNzE4MTQ=",
+      "id": "0x38451d4fd10d72b42f9616d79c5939e9786e27855e0d3083a1b79c7ff1b71814",
+      "title": "Staking Emission Reduction",
+      "content": "Summary\n\nThe Delphi Proposal has kicked off a much needed discussion inside the CU DAO. While their proposal is a good first step we believe the reallocation of staking emissions to game leaderboards is unnecessary.\n\nMotivation\n\nWe believe constraining the daily emission of RBW tokens is necessary to properly set up our community for growth. Reallocation of the reduced staking rewards to game leaderboards is not necessary as we have plenty of rewards in the P&E pool to properly incentivize engagement. Thus, we suggest simply reducing RBW emissions to the Single Side pool.\n\nDetails\n\nReduce weekly RBW emissions for Staking by 75% from 690,410 to 172,602.\nIncrease weekly RBW emissions for RBWLP by 100% from 78,211 to 156,422.\nThis will result in a net reduction of 439,597 RBW per week.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 706,
+      "blockNumber": 39127163,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x38451d4fd10d72b42f9616d79c5939e9786e27855e0d3083a1b79c7ff1b71814",
+      "startTime": {
+        "timestamp": 1676019606
+      },
+      "endTime": {
+        "timestamp": 1676451606
+      },
+      "startTimestamp": 1676019606,
+      "endTimestamp": 1676451606,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 43759320.0,
+          "choice": 0
+        },
+        {
+          "total": 56846144.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 43759319.69662085,
+          "choice": 0
+        },
+        {
+          "total": 56846140.34594919,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGEzN2UyYTliYmM2Y2ZiMTZiNGY2YzI1YWFjZGM0MTk2ZWE1NmI4NGEwYjhlNmVkZTE5MmYwYTY0MTQ5OTgxYjA=",
+      "id": "0xa37e2a9bbc6cfb16b4f6c25aacdc4196ea56b84a0b8e6ede192f0a64149981b0",
+      "title": "Poop Scrolls: Uses and Function",
+      "content": "## Summary\n\nThe product team would like to revamp the meta around the poop collection. This will be done by introducing poop scrolls as one of the possible rewards when collecting unicorn poop in the farming game loop. There are two paths at which we can integrate the poop scrolls into the meta, but either paths ultimately allow for a more engaging experience around the poop collection feature while also enabling us to achieve product-specific goals.\n\n## Motivation\n\nIntroducing poop scrolls into the poop collection feature is expected to achieve the following:\n\n* Add an extra incentive for players to log in to the game daily\n* Add an extra layer of fun by implement an engaging mini-game\n* Add an additional lever that works to decrease seed output from poop collection\n* Add an extra variable to the economic depth of the game",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 659,
+      "blockNumber": 38730719,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xa37e2a9bbc6cfb16b4f6c25aacdc4196ea56b84a0b8e6ede192f0a64149981b0",
+      "startTime": {
+        "timestamp": 1675144232
+      },
+      "endTime": {
+        "timestamp": 1675576232
+      },
+      "startTimestamp": 1675144232,
+      "endTimestamp": 1675576232,
+      "currentState": "closed",
+      "choices": [
+        "Option 1: As crafting material",
+        "Option 2: As exchange quest item"
+      ],
+      "results": [
+        {
+          "total": 17158392.0,
+          "choice": 0
+        },
+        {
+          "total": 59566408.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 17158406.61226163,
+          "choice": 0
+        },
+        {
+          "total": 59566410.997144885,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDEyMmFjMmE2YWM3YWNlNjQzYmQ1NWFlMTFkZDM2ZjVjZDI0ZGJjNGMzZGI5NjgxYmRlOTllZmJiM2ZlZGEzMTc=",
+      "id": "0x122ac2a6ac7ace643bd55ae11dd36f5cd24dbc4c3db9681bde99efbb3feda317",
+      "title": " Ecosystem Grant: Knowledge Base, Price Bots, and Tools",
+      "content": "Abstract\nAs Crypto Unicorns move towards new releases, patch updates, it is important to have Tools that can save the community time on analysing, while keeping the excitement in the game. This proposal focuses on Building Tools, & Maintaining Knowledge base for the game. The goal is to be able to build more tools for CU and make it public.\n\nMotivation\nKeizerMc🦊#0001 has been continuously building the knowledge base file along with some tools like Gathering Simulation, Token Price bots, RMP Market Trend, Website, & Reports for more than 8 months [The KB started March 18, 2022 as a UNIM Cheat sheet and eventually grew from there].  KeizerMc🦊#0001 would like to continue passionately working on these tools and providing them to the community through an Ecosystem Fund grant. ",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 157,
+      "blockNumber": 37022449,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x122ac2a6ac7ace643bd55ae11dd36f5cd24dbc4c3db9681bde99efbb3feda317",
+      "startTime": {
+        "timestamp": 1671465356
+      },
+      "endTime": {
+        "timestamp": 1671897356
+      },
+      "startTimestamp": 1671465356,
+      "endTimestamp": 1671897356,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 58550852.0,
+          "choice": 0
+        },
+        {
+          "total": 627052.56,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 58550857.67978289,
+          "choice": 0
+        },
+        {
+          "total": 627052.5936679238,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGY5MWYwMTg3M2I1N2Q5ZTc3N2Q2NDMzZTg4Yzc3NTg4YzRiN2RjMmQ0NTE0Zjc0ODZjNDUwNDUxMzkwMGFiMDk=",
+      "id": "0xf91f01873b57d9e777d6433e88c77588c4b7dc2d4514f7486c4504513900ab09",
+      "title": "Season 2 Governance Council Election",
+      "content": "Abstract\nAs the CUIP-004 - Governance Council Installation indicated that each council season lasts 6 month, we now officially open the election for our Season 2 Governance Council members. The Governance Council will act as gatekeepers to proposals being sent to Snapshot for an official DAO vote.\n\nDetails\nAs the recently approved CUIP-010 mandates, each wallet address will vote using the quadratic voting strategy, allowing everyone to distribute their votes to multiple candidates as they see fit.\n\nPlease vote for the candidate(s) you support.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 224,
+      "blockNumber": 37021719,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xf91f01873b57d9e777d6433e88c77588c4b7dc2d4514f7486c4504513900ab09",
+      "startTime": {
+        "timestamp": 1671464182
+      },
+      "endTime": {
+        "timestamp": 1671896182
+      },
+      "startTimestamp": 1671464182,
+      "endTimestamp": 1671896182,
+      "currentState": "closed",
+      "choices": [
+        "timetraveler#3516",
+        "JackyAce#2174",
+        "KeizerMc🦊#0001",
+        "404#6225",
+        "terrarekt#9169",
+        "PopCorn#4131",
+        "Venticello#5783",
+        "darthschmitty#7417",
+        "Invoko#7584",
+        "EL#9541",
+        "THE PSYCHO 🔪#2215",
+        "OnnGusta#4358",
+        "Dipbeak#9372",
+        "TheGenji#9001",
+        "NFTGibby#5051",
+        "lgJeff#7494",
+        "Vyona#4332",
+        "BroccDaRock#6208"
+      ],
+      "results": [
+        {
+          "total": 4258.0,
+          "choice": 4299
+        },
+        {
+          "total": 867687.5,
+          "choice": 69
+        },
+        {
+          "total": 4138.3247,
+          "choice": 59
+        },
+        {
+          "total": 19769.277,
+          "choice": 999
+        },
+        {
+          "total": 17389.828,
+          "choice": 119
+        },
+        {
+          "total": 258494.55,
+          "choice": 9
+        },
+        {
+          "total": 15643194.0,
+          "choice": 19
+        },
+        {
+          "total": 57.5,
+          "choice": 9999
+        },
+        {
+          "total": 31686.05,
+          "choice": 3
+        },
+        {
+          "total": 18157.576,
+          "choice": 19999999
+        },
+        {
+          "total": 1857193.0,
+          "choice": 29
+        },
+        {
+          "total": 4406925.0,
+          "choice": 4
+        },
+        {
+          "total": 15079286.0,
+          "choice": 0
+        },
+        {
+          "total": 15250.0,
+          "choice": 96
+        },
+        {
+          "total": 61489.1,
+          "choice": 10
+        },
+        {
+          "total": 46936.098,
+          "choice": 1316134910
+        },
+        {
+          "total": 34370.96,
+          "choice": 35
+        },
+        {
+          "total": 2028.0,
+          "choice": -1
+        },
+        {
+          "total": 40000.0,
+          "choice": 31
+        },
+        {
+          "total": 28241.031,
+          "choice": 14
+        },
+        {
+          "total": 17879.807,
+          "choice": 9999999
+        },
+        {
+          "total": 2000.0,
+          "choice": 2
+        },
+        {
+          "total": 374415.7,
+          "choice": 99
+        },
+        {
+          "total": 2004.0,
+          "choice": 32
+        },
+        {
+          "total": 4008.4802,
+          "choice": 12
+        },
+        {
+          "total": 17047556.0,
+          "choice": 24
+        },
+        {
+          "total": 83767.93,
+          "choice": 1410065407
+        },
+        {
+          "total": 22238.75,
+          "choice": 25
+        },
+        {
+          "total": 2044.0,
+          "choice": 2099
+        },
+        {
+          "total": 263908.9,
+          "choice": 49
+        },
+        {
+          "total": 22245.174,
+          "choice": 20
+        },
+        {
+          "total": 671175.2,
+          "choice": 1
+        },
+        {
+          "total": 2000.0,
+          "choice": 1999
+        }
+      ],
+      "events": [],
+      "type": "quadratic",
+      "indexedResult": [
+        {
+          "total": 5983117.604665564,
+          "choice": 0
+        },
+        {
+          "total": 4552893.258247277,
+          "choice": 1
+        },
+        {
+          "total": 10684380.954177711,
+          "choice": 2
+        },
+        {
+          "total": 2946354.387013453,
+          "choice": 3
+        },
+        {
+          "total": 6481525.113368265,
+          "choice": 4
+        },
+        {
+          "total": 608325.2787706597,
+          "choice": 5
+        },
+        {
+          "total": 731597.2874451214,
+          "choice": 6
+        },
+        {
+          "total": 5292442.9778881995,
+          "choice": 7
+        },
+        {
+          "total": 150634.09856687346,
+          "choice": 8
+        },
+        {
+          "total": 2082523.543190757,
+          "choice": 9
+        },
+        {
+          "total": 1621517.562388239,
+          "choice": 10
+        },
+        {
+          "total": 2080942.214576792,
+          "choice": 11
+        },
+        {
+          "total": 4164369.970299923,
+          "choice": 12
+        },
+        {
+          "total": 2639773.299493124,
+          "choice": 13
+        },
+        {
+          "total": 188400.514891718,
+          "choice": 14
+        },
+        {
+          "total": 1009988.546226312,
+          "choice": 15
+        },
+        {
+          "total": 5541794.213698754,
+          "choice": 16
+        },
+        {
+          "total": 191214.41394317168,
+          "choice": 17
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGZjNTQ1ZDAxZDU4ODk0N2UxYWE1ZWQwYmNlMzAwZjYwN2Q4ZWE5NjY2NGU5YjMwOGZmNjU3MDcyMzVmMDYxNzg=",
+      "id": "0xfc545d01d588947e1aa5ed0bce300f607d8ea96664e9b308ff65707235f06178",
+      "title": "Quadratic Voting for Multi-choice Votes on Snapshot",
+      "content": "Summary\nAs we move through the process of progressive decentralization, we expect that we will be voting on more multi-choice proposals. We propose to implement a quadratic voting strategy for all multi-choice votes on Snapshot. Implementing a quadratic voting system for multi-choice votes is expected to open the discussions to a wider audience by allowing voters to express how strongly they support the choices, by balancing the voting powers, and by allowing representation for all community members.\n\nMotivation\nWe believe that it is important for all stakeholders to have access to a mechanism that will best signal their preferences and how strongly they feel about them. We hope to:\n-Install a system that better represents individual stakeholder participation\n-Introduce a mechanism that allows players to choose more than one option in proposals with multiple choices\n-Give players access to a mechanism that allows them to express how strongly they feel about the choices they’re making",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 229,
+      "blockNumber": 36783322,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xfc545d01d588947e1aa5ed0bce300f607d8ea96664e9b308ff65707235f06178",
+      "startTime": {
+        "timestamp": 1670944701
+      },
+      "endTime": {
+        "timestamp": 1671376701
+      },
+      "startTimestamp": 1670944701,
+      "endTimestamp": 1671376701,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 27185164.0,
+          "choice": 0
+        },
+        {
+          "total": 26434020.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 27185162.512709856,
+          "choice": 0
+        },
+        {
+          "total": 26434021.819312703,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGUyZDhmM2ExZGU1MTRiZDE0NWQ5Yjg2M2FjMGFmODRkMGZlNTNlYjk2ZDdhYTI0ZTRiMzU4MWIyNDM3YTY0YTA=",
+      "id": "0xe2d8f3a1de514bd145d9b863ac0af84d0fe53eb96d7aa24e4b3581b2437a64a0",
+      "title": "Mod Program Reward Amendments",
+      "content": "Abstract\nWe believe in encouraging and supporting community members to continually invest in and participate in the success of the project. Rewarding participation in bug hunts and community moderation enables us to collectively take ownership of what we are building together. This proposal seeks to amend how incentives are disbursed for CUIP-003.\n\nMotivation\nWe wish to encourage our passionate mod team to continually support other community members, especially as we enter the growth phase.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 212,
+      "blockNumber": 36617048,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xe2d8f3a1de514bd145d9b863ac0af84d0fe53eb96d7aa24e4b3581b2437a64a0",
+      "startTime": {
+        "timestamp": 1670590453
+      },
+      "endTime": {
+        "timestamp": 1671022453
+      },
+      "startTimestamp": 1670590453,
+      "endTimestamp": 1671022453,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 63339252.0,
+          "choice": 0
+        },
+        {
+          "total": 149606.05,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 63339267.02620818,
+          "choice": 0
+        },
+        {
+          "total": 149606.0476510109,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDAwYmJmMjQ2MTg0ZjlkNDUzNjJkMDdmOTY5NGRhMzUxMTQ2M2U0MTgwNWYzMjU1YmQ3NjRjNDMyYzRhOGFlMzc=",
+      "id": "0x00bbf246184f9d45362d07f9694da3511463e41805f3255bd764c432c4a8ae37",
+      "title": "Bug Bounty Reward Amendments",
+      "content": "Abstract\nWe believe in encouraging and supporting community members to continually invest in and participate in the success of the project. Rewarding participation in bug hunts and community moderation enables us to collectively take ownership of what we are building together. This proposal seeks to amend how incentives are disbursed for CUIP-003.\n\nMotivation\nWe wish to continually incentivize the community’s participation in finding bugs that cover in-game usability issues and issues with the official websites.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 248,
+      "blockNumber": 36617015,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x00bbf246184f9d45362d07f9694da3511463e41805f3255bd764c432c4a8ae37",
+      "startTime": {
+        "timestamp": 1670590337
+      },
+      "endTime": {
+        "timestamp": 1671022337
+      },
+      "startTimestamp": 1670590337,
+      "endTimestamp": 1671022337,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 59744300.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 59744322.56559973,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGQ2YTE4ODc1ODFjYzViYTAwZjcwMjZlZTA2ODZlNmNhZWZlMWVlMTlkMmJkMWQ0MGNkMjgxMzAyOTFlNjc4NWQ=",
+      "id": "0xd6a1887581cc5ba00f7026ee0686e6caefe1ee19d2bd1d40cd28130291e6785d",
+      "title": "Team and Investor RBW Token Lock Extension",
+      "content": "Summary\nWith the protracted bear market in our midst, we believe that now is the time to renew our commitment to the long-term success of Crypto Unicorns IP and ecosystem. To this effect, we propose to extend the Team and Investor RBW Allocation Lock Period from a 1-year lock and 24-month linear unlock to a 2-year lock and a 24-month linear unlock.\n\nMotivation\nWe believe that now is the perfect time to build and grow. By extending the lock period, the team is further incentivized to continue their work in development and better position the Crypto Unicorns ecosystem for growth.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 478,
+      "blockNumber": 35869527,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xd6a1887581cc5ba00f7026ee0686e6caefe1ee19d2bd1d40cd28130291e6785d",
+      "startTime": {
+        "timestamp": 1669006525
+      },
+      "endTime": {
+        "timestamp": 1669438525
+      },
+      "startTimestamp": 1669006525,
+      "endTimestamp": 1669438525,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 117584390.0,
+          "choice": 0
+        },
+        {
+          "total": 242645.47,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 117584438.53455532,
+          "choice": 0
+        },
+        {
+          "total": 242645.47639313783,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDIyZDA2OWNhZmZkMzEwZjY2NDUxNDhjYTAzNjIwYjc4ZGIzN2FlMDM4OGM5ODgzN2FkNDRhNTFiNzYzODFmNGM=",
+      "id": "0x22d069caffd310f6645148ca03620b78db37ae0388c98837ad44a51b76381f4c",
+      "title": "Staking v2 Proposal",
+      "content": "Abstract\nStaking is a mechanism in the nascent web3 industry that incentivizes holding behavior and encourages voting participation. Early iterations of staking mechanisms have an inherent flaw in that they incentivize passive staking vs. active participation. In Crypto Unicorns, staking RBW and voting allows players to participate in making decisions that affect the future of the IP.\n\nWe believe that active players are in the best position to signal our direction as a DAO. We plan to be the first in the industry to create a more aligned staking experience by incentivizing active community and game participation via an innovative badge system. This badge system will enable active players to increase their timelock-based sRBW multiplier for higher staking rewards vs. passive stakers. To apply all this, we need to migrate to a new staking contract.\n\nMotivation\nWe believe in incentivizing active players with higher rewards\nWe believe in empowering active players to participate in governance",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 335,
+      "blockNumber": 35647743,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x22d069caffd310f6645148ca03620b78db37ae0388c98837ad44a51b76381f4c",
+      "startTime": {
+        "timestamp": 1668541014
+      },
+      "endTime": {
+        "timestamp": 1668973014
+      },
+      "startTimestamp": 1668541014,
+      "endTimestamp": 1668973014,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 53575020.0,
+          "choice": 0
+        },
+        {
+          "total": 8352327.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 53575017.96567452,
+          "choice": 0
+        },
+        {
+          "total": 8352327.387694479,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDdmNmJhYTRmOTIwNDJmY2EzMGE0MjFlYWViODA4MzcxMWY1MDA0MzBlZjViNGQ1YjU4MmJjZWYyZDQ5ZDE2MjI=",
+      "id": "0x7f6baa4f92042fca30a421eaeb8083711f500430ef5b4d5b582bcef2d49d1622",
+      "title": "Building a Custom Marketplace",
+      "content": "Abstract\nMerkle Root would like to request the funds to build, secure, and maintain a marketplace for all the assets you use in the game: unicorns, lands, RBW, UNIM, shadowcorns, drops, etc. We want this all to be traded in a central location with low fees and high confidence in the security and accuracy of the marketplace and listings.\n\nMotivation\nCurrently, the primary platform for buying and selling Crypto Unicorns (CU) and CU Land is OpenSea. This platform presents a number of problems and challenges that this proposal seeks to address:\n\n1. OS allows the listing of Crypto Unicorns and Lands that are currently locked into the game.\n2. OS updates meta-data infrequently, leading to the possibility of purchasing a Unicorn or Land that has material different from how it is described in the listing.\n3. OpenSea currently requires that the Unicorns market and Land market be separate “marketplaces”.\n4. OpenSea takes 2.5% of all purchases, taking the value out of the CU meta-verse.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 424,
+      "blockNumber": 31362369,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x7f6baa4f92042fca30a421eaeb8083711f500430ef5b4d5b582bcef2d49d1622",
+      "startTime": {
+        "timestamp": 1659293807
+      },
+      "endTime": {
+        "timestamp": 1659725807
+      },
+      "startTimestamp": 1659293807,
+      "endTimestamp": 1659725807,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 13599917.0,
+          "choice": 0
+        },
+        {
+          "total": 32995390.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 13599918.19013526,
+          "choice": 0
+        },
+        {
+          "total": 32995391.626866315,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDA0YmM5YWNhOTU0ZjI0ZmE2OWFmZjdjNWM4MTU2M2ZjNWNlN2UyYWNiYjRjZmQxYTAxMTc3NmJjN2QwNjI4NTU=",
+      "id": "0x04bc9aca954f24fa69aff7c5c81563fc5ce7e2acbb4cfd1a011776bc7d062855",
+      "title": "Season 1 Governance Council Election",
+      "content": "Abstract\nWith the approval of the CUIP-004 - Governance Council Installation, we now set the stage as we work to progressively decentralize authority within the Crypto Unicorns DAO. The Governance Council will act as gatekeepers to proposals being sent to Snapshot for an official DAO vote.\n\nDetails\nEach wallet address will vote using a weighted voting strategy, allowing everyone to distribute their votes.\n\nPlease vote for the candidate(s) you support.",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 426,
+      "blockNumber": 30120491,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x04bc9aca954f24fa69aff7c5c81563fc5ce7e2acbb4cfd1a011776bc7d062855",
+      "startTime": {
+        "timestamp": 1656474491
+      },
+      "endTime": {
+        "timestamp": 1656906491
+      },
+      "startTimestamp": 1656474491,
+      "endTimestamp": 1656906491,
+      "currentState": "closed",
+      "choices": [
+        "Invoko#7584",
+        "timetraveler#3516",
+        "404#6225",
+        "KeizerMc#0001",
+        "nhoohin (ตังค์)#1346",
+        "Venticello#5783",
+        "Maxbrand99#5913",
+        "terrarekt#9169",
+        "CaptainBoat#8861",
+        "Jrb#6048",
+        "Mama_Psycho#0537",
+        "Kice#6702",
+        "Rubick#1173",
+        "DaBoZz#5824",
+        "sfxfox#2470",
+        "TheGenji#9001",
+        "darthschmitty#7417",
+        "Emrald06#7567",
+        "Kelly Likes Crypto#3353",
+        "SparklyUnicorn#315",
+        "ArtToRich#9336"
+      ],
+      "results": [
+        {
+          "total": 2040.0,
+          "choice": 116
+        },
+        {
+          "total": 4000.0,
+          "choice": 3999
+        },
+        {
+          "total": 432780.0,
+          "choice": 69
+        },
+        {
+          "total": 31512.383,
+          "choice": 999
+        },
+        {
+          "total": 125.0,
+          "choice": 124
+        },
+        {
+          "total": 2014.4128,
+          "choice": 99999998
+        },
+        {
+          "total": 8347.5,
+          "choice": 103
+        },
+        {
+          "total": 2159.7468,
+          "choice": 2000
+        },
+        {
+          "total": 700519.3,
+          "choice": 700518
+        },
+        {
+          "total": 156126.66,
+          "choice": 9
+        },
+        {
+          "total": 40714.39,
+          "choice": 40699
+        },
+        {
+          "total": 213070.56,
+          "choice": 19
+        },
+        {
+          "total": 32681.748,
+          "choice": 9999
+        },
+        {
+          "total": 250.0,
+          "choice": 30
+        },
+        {
+          "total": 1077648.9,
+          "choice": 3
+        },
+        {
+          "total": 2004.0,
+          "choice": 17
+        },
+        {
+          "total": 49046.266,
+          "choice": 5
+        },
+        {
+          "total": 2466.8938,
+          "choice": 2465
+        },
+        {
+          "total": 4522.2783,
+          "choice": 29
+        },
+        {
+          "total": 377023.7,
+          "choice": 4
+        },
+        {
+          "total": 30122092.0,
+          "choice": 0
+        },
+        {
+          "total": 179296.02,
+          "choice": 1000001
+        },
+        {
+          "total": 2004.0,
+          "choice": 1316134910
+        },
+        {
+          "total": 3000.0,
+          "choice": 10
+        },
+        {
+          "total": 4500.0,
+          "choice": 31
+        },
+        {
+          "total": 133666.9,
+          "choice": 14
+        },
+        {
+          "total": 63220.848,
+          "choice": 2
+        },
+        {
+          "total": 8798.815,
+          "choice": 16
+        },
+        {
+          "total": 200.0,
+          "choice": 699
+        },
+        {
+          "total": 15675.767,
+          "choice": 199
+        },
+        {
+          "total": 2922651.5,
+          "choice": 99
+        },
+        {
+          "total": 16977.145,
+          "choice": 9998
+        },
+        {
+          "total": 87440.89,
+          "choice": 32
+        },
+        {
+          "total": 2008.0,
+          "choice": 53
+        },
+        {
+          "total": 2203887.5,
+          "choice": 7
+        },
+        {
+          "total": 4008.4802,
+          "choice": 100000003
+        },
+        {
+          "total": 3370.8994,
+          "choice": 78
+        },
+        {
+          "total": 84893.414,
+          "choice": 24
+        },
+        {
+          "total": 3901.105,
+          "choice": 1410065407
+        },
+        {
+          "total": 19195.531,
+          "choice": 94
+        },
+        {
+          "total": 50000.0,
+          "choice": 19999
+        },
+        {
+          "total": 44159.934,
+          "choice": 49
+        },
+        {
+          "total": 7000.0,
+          "choice": 33
+        },
+        {
+          "total": 144817.38,
+          "choice": 1
+        },
+        {
+          "total": 8000.0,
+          "choice": 7999
+        },
+        {
+          "total": 10504.215,
+          "choice": 18
+        },
+        {
+          "total": 7933.699,
+          "choice": 1999
+        },
+        {
+          "total": 2032.0,
+          "choice": 27
+        },
+        {
+          "total": 48837.28,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 712219.0778246216,
+          "choice": 0
+        },
+        {
+          "total": 1107656.7528777623,
+          "choice": 1
+        },
+        {
+          "total": 1798734.593239434,
+          "choice": 2
+        },
+        {
+          "total": 1118143.39791343,
+          "choice": 3
+        },
+        {
+          "total": 156414.2794498594,
+          "choice": 4
+        },
+        {
+          "total": 3517.218567159748,
+          "choice": 5
+        },
+        {
+          "total": 2858106.0937340413,
+          "choice": 6
+        },
+        {
+          "total": 274694.4962351142,
+          "choice": 7
+        },
+        {
+          "total": 29677.86581342898,
+          "choice": 8
+        },
+        {
+          "total": 788263.1840955927,
+          "choice": 9
+        },
+        {
+          "total": 1450101.831639781,
+          "choice": 10
+        },
+        {
+          "total": 2321263.126390624,
+          "choice": 11
+        },
+        {
+          "total": 3926666.312697641,
+          "choice": 12
+        },
+        {
+          "total": 5673482.399613374,
+          "choice": 13
+        },
+        {
+          "total": 3330001.9021976003,
+          "choice": 14
+        },
+        {
+          "total": 1765962.865896707,
+          "choice": 15
+        },
+        {
+          "total": 10454531.125878127,
+          "choice": 16
+        },
+        {
+          "total": 16693.12899777722,
+          "choice": 17
+        },
+        {
+          "total": 597671.1914578159,
+          "choice": 18
+        },
+        {
+          "total": 914349.8605433194,
+          "choice": 19
+        },
+        {
+          "total": 44979.35300248697,
+          "choice": 20
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweGFjMTNhMTJiZmExNmM3MThkOGQ5ZmFmZDUxNzkyNGE0NGNhM2ZkZDdkZGQ2MDhiMDQxYWIxMGU4MWMwN2Q2YjQ=",
+      "id": "0xac13a12bfa16c718d8d9fafd517924a44ca3fdd7ddd608b041ab10e81c07d6b4",
+      "title": "DAO Operations - Governance Council Installation",
+      "content": "Abstract\nAs we work to progressively decentralize authority within the Crypto Unicorns DAO it is important that we take the next step outlined in the Governance - Phase 1 post to elect a community led governance council. This council will take over from the Laguna Games team and be initially responsible for determining which Draft Proposals make it to an official Snapshot vote.\n\nMotivation\nThe Crypto Unicorns DAO is an experiment in progressive decentralization. We are just a few months into a multi-year process of distributing ownership to active participants. The creation of the governance council will remove Laguna Games as the gatekeeper to proposals being sent to Snapshot for an official DAO vote. Leveraging a council of active community members will ensure that the community has a voice today while preparing for a future when the community takes over the majority of voting power.\n\nDetails\nhttps://forum.cryptounicorns.fun/t/dao-operations-governance-council-installation-live/4952",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0xa2C41Baf9522166F63C27465554D5ad962E1b191",
+      "totalVotes": 361,
+      "blockNumber": 29579171,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0xac13a12bfa16c718d8d9fafd517924a44ca3fdd7ddd608b041ab10e81c07d6b4",
+      "startTime": {
+        "timestamp": 1655260002
+      },
+      "endTime": {
+        "timestamp": 1655692002
+      },
+      "startTimestamp": 1655260002,
+      "endTimestamp": 1655692002,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 37245248.0,
+          "choice": 0
+        },
+        {
+          "total": 24335.557,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 37245258.64855404,
+          "choice": 0
+        },
+        {
+          "total": 24335.55674750473,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDU5NmVmMTQ3ZGRmZWYyYzlmMzMxYjM1MzRmOTI3YzEyZGI1YjIyODY5ODUyNDc1MjRiMDMxN2NkNmQzZDQ5YWQ=",
+      "id": "0x596ef147ddfef2c9f331b3534f927c12db5b2286985247524b0317cd6d3d49ad",
+      "title": "Ecosystem Grant - Community Engagement & Rewards",
+      "content": "Abstract\nIn order to encourage the community to get involved and align the success of the community with the success of its members, we propose the following grant programs.\n\nMotivation\nThe Crypto Unicorns community is already full of passionate people working to make this project stronger. We believe this program will reward community members for their efforts to improve the game and support the community.\n\nDetails\nhttps://forum.cryptounicorns.fun/t/ecoystem-grant-community-engagement-rewards-in-progress/4406",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0x149B5C8D045A5C8F5a3e1069A3A58Fa86619B3ae",
+      "totalVotes": 639,
+      "blockNumber": 27998328,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x596ef147ddfef2c9f331b3534f927c12db5b2286985247524b0317cd6d3d49ad",
+      "startTime": {
+        "timestamp": 1651859078
+      },
+      "endTime": {
+        "timestamp": 1652291078
+      },
+      "startTimestamp": 1651859078,
+      "endTimestamp": 1652291078,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 31365416.0,
+          "choice": 0
+        },
+        {
+          "total": 2315854.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 31365423.82530803,
+          "choice": 0
+        },
+        {
+          "total": 2315854.960746906,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDViMjg0OTZmMTBiOWEyMWEwMmZmZGJjOGM5YzJjODBkZTFiMDUzMGJkZjQ0NGE4NjM3NGYwYmQwYTJiNDg4MDU=",
+      "id": "0x5b28496f10b9a21a02ffdbc8c9c2c80de1b0530bdf444a86374f0bd0a2b48805",
+      "title": "LP Staking Proposal - RBW/wETH",
+      "content": "Abstract\n\nWith this proposal we intend to setup a reward program for players providing long-term liquidity to the RBW/wETH trading pair on Balancer (Polygon).\n\nMotivation\n\nIt’s vital to our economic growth that we have enough liquidity to allow players to enter and exit with minimal slippage. Increasing liquidity reduces slippage and decreases the barrier to trading. While this can be a double edged sword we intend to leverage a locking mechanism + leaderboard to align incentives with those willing to take on higher risk of impermanent loss.\n\nDetails\nhttps://forum.cryptounicorns.fun/t/lp-staking-proposal-rbw-weth-in-progress/4133",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0x149B5C8D045A5C8F5a3e1069A3A58Fa86619B3ae",
+      "totalVotes": 655,
+      "blockNumber": 27377795,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x5b28496f10b9a21a02ffdbc8c9c2c80de1b0530bdf444a86374f0bd0a2b48805",
+      "startTime": {
+        "timestamp": 1650496833
+      },
+      "endTime": {
+        "timestamp": 1650928833
+      },
+      "startTimestamp": 1650496833,
+      "endTimestamp": 1650928833,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 37632452.0,
+          "choice": 0
+        },
+        {
+          "total": 45240.04,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 37632456.22396721,
+          "choice": 0
+        },
+        {
+          "total": 45240.038934600685,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGdjcnlwdG91bmljb3Juc2V0aDpzbmFwc2hvdDoweDU4YjRmNjdiMTE2MmRkY2IwNzJmMzNlYmRmOWUyZmRjOTIzNzQyNWFjYmZhYmI4MDIxNWI1OTQzYmVlYmFlYjQ=",
+      "id": "0x58b4f67b1162ddcb072f33ebdf9e2fdc9237425acbfabb80215b5943beebaeb4",
+      "title": "Ecosystem Grants - Round 1",
+      "content": "Abstract -\n\nBuilding a game with the ambitions and scale of Crypto Unicorns (CU) is an endeavor that takes a big community. In addition to our core team, we work with partners around the world to bring their specific expertise to the world of CU. In order to support their efforts and align their motivations over the long term, we propose to grant them RBW tokens from the Ecosystem Fund.\n\nMotivation -\n\nFrom the outset we knew community partners would be important to the project, so we created the Ecosystem Token Fund. This fund, defined in the Whitepaper, is set at 100MM RBW tokens and is intended to engage and align our partners’ long-term contributions and commitment to our amazing community.\n\nDetails - https://forum.cryptounicorns.fun/t/ecosystem-grants-round-1",
+      "protocol": "lgcryptounicornseth",
+      "adapter": "snapshot",
+      "proposer": "0x149B5C8D045A5C8F5a3e1069A3A58Fa86619B3ae",
+      "totalVotes": 1187,
+      "blockNumber": 26868737,
+      "externalUrl": "https://snapshot.org/#/lgcryptounicorns.eth/proposal/0x58b4f67b1162ddcb072f33ebdf9e2fdc9237425acbfabb80215b5943beebaeb4",
+      "startTime": {
+        "timestamp": 1649376713
+      },
+      "endTime": {
+        "timestamp": 1649808713
+      },
+      "startTimestamp": 1649376713,
+      "endTimestamp": 1649808713,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 36071320.0,
+          "choice": 0
+        },
+        {
+          "total": 1151514.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 36071275.77316111,
+          "choice": 0
+        },
+        {
+          "total": 1151514.7338821627,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960570394,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

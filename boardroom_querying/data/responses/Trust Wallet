@@ -1,0 +1,1069 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6MHhhMTBhM2FjYWQxNjQyYjQ2MjYzZTRjMjRkYzJjYjRiMjA4NWYzMmY3YzcwN2ZmYzE2Y2ZhZGNjNWExOWI2Yjdl",
+      "id": "0xa10a3acad1642b46263e4c24dc2cb4b2085f32f7c707ffc16cfadcc5a19b6b7e",
+      "title": "Proposal to Burn Locked TWTs for Enhanced Capitalization",
+      "content": "For a considerable amount of time, numerous community proposals have been submitted. While these proposals met the outlined criterias (total amount of votes is equal to at least 4% of the total TWT BEP20 circulating + 51% or higher voted “Yes” + voting period should be at least 5 days), they remained unaddressed by the team. None of the five community proposals have progressed to the development stage.\n\n(**All of them:**\n1. Dust clean-up of Binance exchange addresses on both chains (bep2 and bep20) https://governance.trustwallet.com/#/proposal/bafkreidurq5durtzvrsy3rwhdhkkafoe56q5gnozhsrf37coytxihu2qga\n2. Launch Trust Wallet Marketing Learn2Earn Platform https://governance.trustwallet.com/#/proposal/Qmaf2cNqPfxZ5tkVsnQumVFXzr4KfrgZGLv76TAC3c5LTM\n3. Integrate Mina into Trust Wallet https://governance.trustwallet.com/#/proposal/QmUcqkPcGgzG5zotQp2jxMj642gcUELH1J9rurT1DG25hq\n4. Trust Wallet Governance Reform Proposal https://governance.trustwallet.com/#/proposal/Qmb3JktZr3AyC3yM87DvjTTyicSRso75ZFiWPZgzfj9Crx\n5. Develop and integrate Trust wallet name service (TWNS) https://governance.trustwallet.com/#/proposal/QmarKgqhMPAkPF9ei73as3H4G1Gmyd3ncyjY59F8ejijXW\n)\n\n**Proposal Summary:**\nUndeterred, the community now presents the sixth proposal, in the anticipation that the team will give heed. This proposal seeks to address the issue of locked TWTs. According to CoinMarketCap (CMC), the current TWT supply is 416,649,900, with a total supply of 999,668,148 TWT. This results in 583,018,248 tokens that have remained untouched for over two years. The proposal recommends that these locked tokens be left undisturbed and, furthermore, calls for the team to execute a burn of these dormant tokens. This action aims to underscore the project's capitalization strength and enhance the sustainability of TWT tokenomics.\n\n**Proposal Details:**\nThe primary objective of this proposal is to address the locked TWTs that have remained untouched for an extended period, thus contributing to the improvement of TWT tokenomics. The proposal seeks to demonstrate a commitment to the sustainability and capitalization of the Trust Wallet token. \n\nThis proposal does not advocate unlocking additional tokens. Instead, it advocates burning the remaining locked tokens. The proposal aims to send a strong signal to the community and the broader cryptocurrency market about the dedication of the project to sound tokenomics and long-term value.\n\nWe kindly request the Trust Wallet Team to review this proposal and provide their valuable feedback and support.",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0x8945C74BC560Adc5Df965a775E082EFD6A0AD213",
+      "totalVotes": 425,
+      "blockNumber": 33172475,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/0xa10a3acad1642b46263e4c24dc2cb4b2085f32f7c707ffc16cfadcc5a19b6b7e",
+      "startTime": {
+        "timestamp": 1699022179
+      },
+      "endTime": {
+        "timestamp": 1700231580
+      },
+      "startTimestamp": 1699022179,
+      "endTimestamp": 1700231580,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1649513.9,
+          "choice": 0
+        },
+        {
+          "total": 1179.4807,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1649513.52272388,
+          "choice": 0
+        },
+        {
+          "total": 1179.4807273247536,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1699022503075,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6MHg0NmQ4ODJhMGFhN2YyZjY0NzM5NmZmYmIxMDY4MTZlN2M2NDg0YWVmZjM0NTMzOWMxZjRkYjJkZThiNjc2ZjRk",
+      "id": "0x46d882a0aa7f2f647396ffbb106816e7c6484aeff345339c1f4db2de8b676f4d",
+      "title": "Ethereum Hard Fork vs. Aptos",
+      "content": "# **Proposal Summary**\n\nNow that the Merge is complete and ETH, a separatist proof-of-work (PoW) blockchain, ETHPoW, [forked from Ethereum's Merge](https://cointelegraph.com/news/breaking-historic-day-for-crypto-as-ethereum-merge-to-proof-of-stake-occurs), went live on Sept. 15, 2022. We want to get community guidance on prioritizing ETHW as it seems to be the leading hard fork, however there are questions if it will be sustainable long term. \n\nSince we have limited resources, we want to compare two options ETHW vs [Aptos](https://aptoslabs.com/), a promising layer 1 blockchain still in testnet phase. We would start planning for Trust Wallet compatibility for day 1 of their main net launch.\n\n# **What is ETHW?**\n\nSee their [linktree](https://linktr.ee/ethw) and [Twitter](https://twitter.com/EthereumPoW?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1556518172945027072%7Ctwgr%5E305fe65e470a0ee40b9ae42a265d495ad699a544%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fcointelegraph.com%2Fnews%2Fwhat-the-fork-ethereum-s-potential-forked-ethw-token-is-trading-under-100) for more info and latest info.\n\n[From Investopedia:](https://www.investopedia.com/ethw-goes-live-6674485)\n\nThe EthereumPoW network is a [fork](https://www.investopedia.com/terms/h/hard-fork.asp) of the Ethereum network. In simple terms, a fork changes the functionality of the blockchain network drastically. ** EthereumPoW is born because a small but vocal group of the crypto community believes that the network should stick to the proof-of-work consensus mechanism. Many of these are miners, who wish to hold onto their revenue as Ethereum has switched to the [proof-of-stake](https://www.investopedia.com/terms/p/proof-stake-pos.asp) mechanism on September 15. In recent months, prominent crypto miner Chandler Guo and others have campaigned for ETHW, claiming [Ethereum 2.0](https://www.investopedia.com/ethereum-2-0-6455959) will drive crypto miners out of work.**\n\nThe native token for the EthereumPoW network is ETHW, though this is only supported by some exchanges. Individuals can trade on these exchanges, with the token available for spot trading on exchanges like FTX, ByBit, and BitMart.\n\nThe EthereumPoW team released an update to accompany the mainnet launch, informing readers of some changes and fixes. Since the launch, there have been over 1.7 billion transactions. The total number of addresses holding ETHW now stands at over 254 million.\n\n## Projects Taking to ETHPoW Network\n\nIn the short time since the launch of the EthereumPoW network, several projects have begun supporting the ecosystem. These include many decentralized [wallets](https://www.investopedia.com/terms/b/bitcoin-wallet.asp), [decentralized exchanges](https://www.investopedia.com/tech/what-are-centralized-cryptocurrency-exchanges/#:~:text=Differences%20Between%20Centralized%20and%20Decentralized%20Exchanges), and other [Web3](https://www.investopedia.com/web-20-web-30-5208698) platforms. A few examples are Uniswap V3, MetaMask, and DefiEdge.\n\n[Mining pools](https://www.investopedia.com/terms/m/mining-pool.asp#:~:text=A%20mining%20pool%20is%20a,otherwise%20successfully%20mining%20for%20cryptocurrency.), which have switched to other networks following Ethereum's transition to a proof-of-stake, have also begun [mining](https://www.investopedia.com/news/how-get-established-cryptocurrency-miner/) ETHW. F2pool and others have begun diverting resources to the token, with the mining pool making up 41.7% of the known [hash rate](https://www.investopedia.com/terms/h/hash.asp). Woolypooly has 21.5% of the block distribution, followed by 2miners at 14.1%.\n\nNearly a dozen exchanges support ETHW at the moment, with FTX having the highest volume of $47 million over the last 24 hours. Meanwhile, Coinbase has confirmed that it would consider listing forked Ethereum. More exchanges are expected to support the project in the coming days.\n\n## **How does the ETHW airdrop work?**\n\nFrom [ETHW’s medium](https://medium.com/@ETHW/faqs-fd2fba846eca):\n\nIt is actually not an airdrop. With the ETHW hard fork, all addresses that have ETH on the Ethereum network, will have the equivalent number of ETHW on the EthereumPoW network. Remember in the old DeFi Summer days, you can simply switch to a new network by adding its RPC info? So just wait for the mainnet, your ETHW will show up once you add ETHW RPC to your wallet, as long as your wallet has ETH at the time of the fork.\n\n---\n\n# **What Is Aptos?**\n\nFrom : [https://learn.bybit.com/altcoins/what-is-aptos/](https://learn.bybit.com/altcoins/what-is-aptos/)\n\n**Aptos is a proposed Layer 1 blockchain that uses the [Move programming language](https://101blockchains.com/move-programming-language-tutorial/). The cryptocurrency promises users increased scalability, reliability, security and usability.**\n\nAptos is still in the very early stages of planning. It hasn’t generated any Aptos coins yet or published an official white paper. However, crypto experts are already beginning to discuss the Aptos blockchain, and it's raised millions of dollars from investors. Aptos will be a Layer 1 blockchain built with a Rust-based programming language called Move. Planned features include a parallel execution engine, high-level security features and low transaction costs.\n\nThe Aptos blockchain is generating all this hype because of its intriguing past. The blockchain is based on the Diem blockchain initiative (from Meta) that was recently abandoned. The Aptos crypto is being created by Diem developers, and will use the programming language originally created for Diem. It will still focus on Diem's original goals of creating a scalable, fast blockchain. In addition, it hopes to offer additional features that will make the crypto more accessible to average users.\n\n### **Who Is Aptos Labs?**\n\nAptos Labs is the team behind the Aptos project. They currently lead a diverse team of developers, engineers and strategists headed by co-founders Mo Shaikh and Avery Ching.\n\nShaikh and Ching met when they worked together on the Diem blockchain project at Meta. Shaikh specializes in scaling products, and has experience in the private equity and venture capital markets. Meanwhile, Ching was one of the principal software engineers at Meta and has led many exciting and innovative development projects in the past. When Meta chose to discontinue the Diem project, Shaikh and Ching decided to join together to create Aptos Labs.\n\nAptos Labs’ motto is \"Building a Layer 1 for everyone.\" The company is dedicated to creating the safest, most-reliable network possible. Though they've been around only a short time, their mission has already gained a lot of support. In two financing rounds, Aptos Labs has managed to raise[over $350 million in funding](https://www.coindesk.com/business/2022/07/25/aptos-labs-raises-150m-to-revive-diem-in-ftx-ventures-led-funding-round/), launched its developer testnet, and successfully handled millions of transactions and thousands of nodes.\n\n### **How Does the Aptos Blockchain Work?**\n\nThough it's not fully operational yet, the Aptos blockchain is already hitting impressive targets. Currently, it can process 130,000 transactions per second (TPS) while maintaining security and reliability. A few revolutionary concepts are at work behind Aptos' impressive performance.\n\n### **Binance investment in Aptos**\n\nFrom [Binance Blog](https://www.binance.com/en/blog/ecosystem/binance-labs-boosts-strategic-investment-in-aptos-labs-to-expand-commitment-to-infrastructure-building-2732278535201777034)\n\n[Binance Labs](https://labs.binance.com/), the venture capital arm and accelerator of Binance, has made a strategic investment in [Aptos Labs](https://aptoslabs.com/), a next-generation layer-1 blockchain built with safety and user experience in mind. This is a   follow-on investment that comes after the [first round](https://www.binance.com/en/blog/ecosystem/binance-labs-makes-strategic-investment-in-aptos-labs-for-the-industry-adoption-acceleration-421499824684903620) of funding announced in March this year and further expands Binance Labs’ commitment to infrastructure building.\n\nYi He, Co-Founder of Binance and Head of Binance Labs, said: \"We’re excited to be working closely with the Aptos team. At Binance, we’ve always believed in the power of blockchain technology to benefit the masses, just like the Internet. However, infrastructure building remains a bottleneck within the industry. We believe that the technological competitiveness of the Aptos team could bring increased scalability to the blockchain infrastructure while also supporting novel use cases for Web3.\"\n\nTo continue building a secure and scalable blockchain, Aptos will use the funds raised to expand the team and support the development of its innovative layer-1 infrastructure. The team will also build out ecosystem initiatives and tooling to further grow the Aptos community.\n\n### **Trade-off for Trust Wallet Users**\n\nIf Trust Wallet does not build support for ETHW, the team will work on adding Aptos test net support as well as main net when it launches. Note, if we do not support ETHW, users could still use another ETHW compatible wallet to access their ETHW.\n\nIf users would prefer the ability to view ETHW balance in Trust Wallet following the fork, Aptos support could be delayed.\n\n### **Additional Resources:**\n\n- [Aptos Website](https://aptoslabs.com/)\n- [Decrypt coverage on ETHW launch](https://decrypt.co/109884/ethereum-fork-ethpow-gets-off-to-rocky-start)",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 375,
+      "blockNumber": 21392810,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/0x46d882a0aa7f2f647396ffbb106816e7c6484aeff345339c1f4db2de8b676f4d",
+      "startTime": {
+        "timestamp": 1663363441
+      },
+      "endTime": {
+        "timestamp": 1663710300
+      },
+      "startTimestamp": 1663363441,
+      "endTimestamp": 1663710300,
+      "currentState": "closed",
+      "choices": [
+        "Prioritize ETHW support",
+        "Continue Aptos Integreation"
+      ],
+      "results": [
+        {
+          "total": 1952671.0,
+          "choice": 0
+        },
+        {
+          "total": 4033096.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1952670.765266347,
+          "choice": 0
+        },
+        {
+          "total": 4033095.9691988775,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6YmFma3JlaWR1cnE1ZHVydHp2cnN5M3J3aGRoa2thZm9lNTZxNWdub3poc3JmMzdjb3l0eGlodTJxZ2E=",
+      "id": "bafkreidurq5durtzvrsy3rwhdhkkafoe56q5gnozhsrf37coytxihu2qga",
+      "title": "Dust clean-up of Binance exchange addresses on both chains (bep2 and bep20)",
+      "content": "Proposal Title\nDust clean-up of Binance exchange addresses on both chains (bep2 and bep20)\n\nProposal Introduction\nWelcome to the next governance opportunity for Trust Wallet users and TWT holders! Here you can vote on whether the Trust Wallet and Binance teams should clean up the exchange addresses which are currently holding dust amounts of TWT to show more transparency and prudence for the community. We propose to scrape all the Binance-controlled user exchange addresses periodically (once a month) and collect all this dust (even addresses holding 0.000000000000000001 twt) to a single Binance Hot Wallet.\n\nProposal Request\nTo be a pioneer in providing true information about own token holders.\n\nProposal Details\nHere is how CeFi and DeFi platforms interact:\n— If you want to deposit assets from your non-custodial wallet (DeFi) to your exchange account (CeFi), Binance generates a unique address tied to your account.\n— If Binance wants to have more of this asset to meet its own needs, it ‘sponges’ tokens from depositing addresses to its hot wallet.\n— If you want to withdraw assets from your exchange account (CeFi) to your non-custodial wallet (DeFi), the withdrawal comes from the Binance hot wallet address (not from your Binance deposit address).\n\nhttps://docs.google.com/presentation/d/1kTTv0seJkhV3l9_bgKctUOXbrj1iNRV-70WDOZc9tE0/edit#slide=id.p\n\nAnd here we are facing an issue: once deposited on the exchange, sold and converted to BNB, a small amount of TWT still stays on the users exchange addresses which are controlled by Binance.\nHere is the list of the Top-100 k addresses holding TWT on the bep20 chain:\nhttps://docs.google.com/spreadsheets/d/1H42Y8uX8xzsKUlzXVeIEu3VKcrH8nwLUiuSKZJlE8p4/edit#gid=937281263\nWe can see that even amongst the Top-100k token holder addresses (out of almost 300 k addresses) possess less than 1 TWT. And a huge part of them are the Binance deposit addresses. So we can assume that more than 50% of TWT-holding addresses which belong to Binance hold less than 1 TWT which have been stuck there for a few years. This dust is under Binance control, but the exchange has never touched the addresses which hold less than 1000 TWT. The situation is the same on the bep2 chain: there are almost 60 k TWT holders, and a lot of them possess a dust of TWT on their exchange addresses. So the number of the token holder addresses has been increasing over time on both explorers. But in reality the amount of tokens no longer belongs to the Binance users, they belong to Binance itself.\n\nProposal Motivation\nTrust Wallet is fortunate to be a part of the Binance ecosystem. Thus, from time to time Binance has cleared up its exchange addresses holding >1k TWT. According to the bep20 explorer analysis, over the past 12 months this action was only made five times, but concerning solely the exchange addresses with more than 1k TWT. As a result, both explorers are showing insanely wrong numbers of TWT holders now.\nUnfortunately, it allows fraudsters to speculate, which creates difficulties for regular users to count real TWT holders. It just doesn’t reflect reality. Our goal is to clean up all these exchange addresses (with less than 1k TWT in possession)  — to provide trustworthy and reliable information. This move seems easy and simple to do periodically, perhaps on a monthly basis.\n\nBenefits for TWT Holders\nWe know there are thousands of TWT holders. And we want to know how many of us are actually there.\n\nBenefits for Trust Wallet\nOne more step to build confidence.\n\nBenefits for Binance\nMore tokens in direct possession.\n\nUseful Links\nTWT on bep20: https://bscscan.com/token/0x4b0f1812e5df2a09796481ff14017e6005508003#balances\nTWT on bep2: https://explorer.bnbchain.org/asset/holders/TWT-8C2\n",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0x5b05bF7c49709d410077cc12F4d4914F1755AccE",
+      "totalVotes": 362,
+      "blockNumber": 20150603,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/bafkreidurq5durtzvrsy3rwhdhkkafoe56q5gnozhsrf37coytxihu2qga",
+      "startTime": {
+        "timestamp": 1659628947
+      },
+      "endTime": {
+        "timestamp": 1660208400
+      },
+      "startTimestamp": 1659628947,
+      "endTimestamp": 1660208400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 7983024.0,
+          "choice": 0
+        },
+        {
+          "total": 441442.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7983023.074726413,
+          "choice": 0
+        },
+        {
+          "total": 441442.139999147,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6MHgyZWI2NzIwNzYwZDU5NTc1NTBkYzM3MGE0MThhM2EwNzU3MmFhMGQ3NzMyODBkNDQzYzY5OTgzOGI3ODY2OWVi",
+      "id": "0x2eb6720760d5957550dc370a418a3a07572aa0d773280d443c699838b78669eb",
+      "title": "Integrate Ronin or Terra v2",
+      "content": "## **Proposal Summary**\n\nRonin and Terra are both two popular chains with great community. But both of them suffer from attacks of different scales that result in big, negative influence. Are they worth the technical resource or distraction? Which one do you think the positives outweighs the cost more to prioritize integration? \n\n## What is Ronin?\n\nRonin is an Ethereum-linked sidechain developed by [Sky Mavis](https://www.skymavis.com/) for the famous Axie Infinity game that pioneers the play-to-earn model. Axie Infinity has a robust in-game economy which relies on various Ethereum-based cryptocurrencies. The Ronin blockchain allows game players to send 100 free transactions per day to address the problem of Ethereum’s high gas fees.\n\nOn March 23, 2022, the Ronin Network experienced an attack which resulted in approximately $620 million worth of ETH and USDC being stolen from users’ addresses.\n\nOn April 6th, Sky Mavis announced a funding round lead by Binance, with participation from Andreessen Horowitz and others, to help reimburse users impacted by the hack. Sky Mavis also announced changes to their validator governance amongst other security measures to prevent a similar attack from happening again.\n\n## What is Terra v2?\n\nFollowing the collapse of the Terra ecosystem in May 2022, Terra’s governance token LUNA dropped almost to 0. The community voted to restart the blockchain in an attempt to [revive the Terra blockchain](https://agora.terra.money/t/terra-ecosystem-revival-plan-2-passed-gov/18498). The existing Terra blockchain would subsequently be renamed to Terra Classic with its asset being renamed to Luna Classic / USTC. An airdrop to qualified Luna holders is planned for May 27, 2022 based on Terra project team’s [token distribution plan](https://agora.terra.money/t/terra-ecosystem-revival-plan-2-amended/18498).  \n\nFor more information, please refer to the following:\n\n- [Terra Ecosystem Revival Plan 2 [PASSED GOV]](https://agora.terra.money/t/terra-ecosystem-revival-plan-2-amended/18498)\n- [Terra Builders Alliance: Rebirth Terra Network](https://station.terra.money/proposal/1623)\n\nSupport for Terra v2 would require additional development work as it’s an entirely new blockchain and will result the team to push back integration work with all the other chains. Specifically, the work to implement Terra v2 would come at the cost of currently in-progress efforts for [Ronin](https://explorer.roninchain.com) support.\n\n### **Trade-off for Trust Wallet Users**\n\nIf Trust Wallet does not build support for the new Terra blockchain, the team will continue working on adding Ronin support. This will enable Trust Wallet users to manage and transact their Axies directly. In this case, Terra users could still use another wallet such as Terra Station to access their airdropped Luna funds on the new Terra blockchain.\n\nIf users would prefer the ability to view their LUNA balance in Trust Wallet following the airdrop, Ronin support will be delayed.\n\n### Additional Resources:\n\n- [Ronin Technical Details](https://whitepaper.axieinfinity.com/technology/ronin-ethereum-sidechain)\n- [Ronin Hack Community Alert](https://roninblockchain.substack.com/p/community-alert-ronin-validators?s=w)\n- [Terra Revival Plan](https://agora.terra.money/t/terra-ecosystem-revival-plan-2-passed-gov/18498)\n- [Binance Plans for Supporting Luna Airdrop](https://www.binance.com/en/support/announcement/c52fa3c686be4b2b9d5df50de15847ec)",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 1355,
+      "blockNumber": 18178361,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/0x2eb6720760d5957550dc370a418a3a07572aa0d773280d443c699838b78669eb",
+      "startTime": {
+        "timestamp": 1653691290
+      },
+      "endTime": {
+        "timestamp": 1653868800
+      },
+      "startTimestamp": 1653691290,
+      "endTimestamp": 1653868800,
+      "currentState": "closed",
+      "choices": [
+        "Integrate Ronin",
+        "Integrate Terra v2"
+      ],
+      "results": [
+        {
+          "total": 14024453.0,
+          "choice": 0
+        },
+        {
+          "total": 4958180.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 14024448.831336295,
+          "choice": 0
+        },
+        {
+          "total": 4958180.435590108,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW1hZjJjbnFwZnh6NXRrdnNucXVtdmZ4enI0a2ZyZ3pnbHY3NnRhYzNjNWx0bQ==",
+      "id": "Qmaf2cNqPfxZ5tkVsnQumVFXzr4KfrgZGLv76TAC3c5LTM",
+      "title": "Launch Trust Wallet Marketing Learn2Earn Platform",
+      "content": "\nProposal Introduction\nWelcome to the next governance opportunity for Trust Wallet users and TWT holders! Here you can vote on whether the Trust Wallet team should build more opportunities for Trust Wallet users and TWT holders to be part of DeFi infrastructure, experience more mechanics, and allow its users to learn more in order to earn interest that way. Some of the things that we’ll speak about in this proposal have already been carried out by the Trust Wallet team (such as educational videos on YouTube, articles on Trust Wallet blog, partnerships with Bifi Finance and Thorchain, etc). We propose to intensify such activities, thus making Trust Wallet users and TWT holders real players in the crypto ecosystem.\n\nProposal Request\nTo encourage more people to discover Trust Wallet, we offer to launch a wallet user/token holder offerings platform in Trust Wallet for user acquisition and retention. Making simple and entry-free marketing learn2earn events for TW users and TWT holders with partners/contributors/advertisers.\nThis new platform/dapp will allow people to get educated while safely using the wallet and apps — and get rewarded.\n\nProposal Details\nOffer a possibility for Trust Wallet users and TWT holders to discover DeFi instruments. Make Trust Wallet users and TWT holders unique participants in events and part of the crypto economy. Bring Trust Wallet users and TWT holders new partnerships/branding support/earning possibilities/educational tools.\nEach educational program may consist of text/audio/video/interactive/demo materials in the testing blockchain with faucet tokens. This will allow users to discover DeFi without the risk of losing money. The goal is to launch a program every month.\n\nProposal Motivation\nThere are many great projects that want to grow their user base on launch. It can be incredibly easy to encourage new projects to make their token distribution through Trust Wallet for its users and token holders by using Trust Wallet wide app distribution and social media network power. Also, Trust Wallet can increase the amount of users that will download iOS and Android apps — and join the marketing platform for interesting projects. Making partnerships with others is a good idea to increase Trust Wallet expansion.\n\nThe essential goal of crypto is to eliminate intermediaries and middlemen and allow principal players to connect and interact with each other directly. Trust Wallet is one of the top traffic providers for dapps. This configuration seems misrepresented and unfair. In our vision, the actual position of Trust Wallet should be like any other traffic provider: let’s keep the users in TW and distribute traffic for exterior players under certain circumstances (partnership, advertising, etc). We demand/ask/request/beg Trust Wallet Team to no longer be a traffic provider for other dapps, but to keep its users to itself and to become a marketing platform that will work for benefiting its users and its native token holders. We want to participate in events, earn interest and open the world of Defi with Trust Wallet partners and contributors on a direct basis.\n\nAt least once a month Trust Wallet Team should not only accept offers that will come from outside and pick potential partners by high level requirements, but search, find, and attract projects to launch their pools/events/airdrops on TW marketing platform with no limits only for BSC projects, or something.\n\n\nSelection of projects should be strong and scrupulous, and have mandatory points, including (but not limited to):\n— audits passed on X different reputable bases\n— a community with more than X k users\n— MAU with more than X k\n— proposals on TWT utility in their project/product\n— deflationary/fixed max supply\n— as a warranty, any partner should lock a certain amount of TWT in case of a rugpull (the lock then will be used to reward all the participants)\n\nBenefits for TWT Holders\n— earning a small amount of tokens from partnerships\n— a partner may propose to buy back and burn a certain amount of TWT\n— achieving new crypto experience in Learn-2-Earn Mechanics\n— getting a chance to be whitelisted and participate in partners’ token sales\n— etc.\n\nBenefits for TW Users\nOpportunities to earn interest / get practice/education in demo mode / become a true DeFi user by using Trust Wallet as a demo activity before going real.\n\nBenefits for Trust Wallet\n— new crypto users onboarding and education through Learn-2-Earn mechanics with partners. Attraction of new users\n— Trust Wallet as a key platform to use Binance Launchpad games to not only get them and sell them, but also to have immediate access to partners’ tokens usage — play, pay, etc. (on exchanges tokens exist to be bought and sold, in DeFi they can be immediately used)\n— Trust delegates main work to the partner, no need to spend team resources.\n— Trust Wallet and partners can share knowledge and experience\n— a decision can be made by users: Trust Wallet Governance\n\nWhitelisting for existing TW users and TWT holders in the platform activities\nCan be implemented in different ways:\nAll TW users holding >=100/1000/100000 TWT 14-day average get a chance to participate.\nAll TW users who made 10/100/1000 transactions.\nAll TW users with eth, bnb and sol on their addresses.\nAll TW users who did a screen-shot while accessing mnemonic phrase.\nAll TW users who didn’t use the in-app browser.\n1+2+3, and other filters\nTo prevent fraud we should continue to be unpredictable and vary the filters from one launch to another. Plus: every user may participate and get educated with our projects. But only those that conform to certain conditions will get rewarded.\n\nWhat are the projects\nE.g. We ourselves decided to follow a trend and tried to find a potential partner for the Trust Wallet marketing platform in the NFT sector on BSC. AirNFT and XPmarket are ready to distribute its tokens and NFTs for Trust Wallet users and TWT holders. We are not allowed to share exact numbers of tokens and NFTs to be released, and we should let both sides collaborate and find a right way for this partnership. With this example we just want to show that TW is a highly appreciated project that others want to collaborate with: partners need traffic, TW wants its users to be loyal and happy. It’s an absolute win-win.\nThemes to discover\n— depositing fiat\n— what is gas, why and how to change it\n— security (keeping 12 words, do not answer in dm, scam tokens, etc.)\n— sending transactions in various chains\n— bridge features\n— what is slippage\n— how to add new assets with address contracts\n— etc.\n\nAssociated Projects’ Allocations\nIt’s up to authorized members of the partner/contributor/advertiser side and Trust Wallet core team to figure out the precise mechanics/details for each event.\n\nMechanics\nEvery partnership event has 2 sections:\n1. Learn section, where users can get educated about crypto in a gamified way.\n2. Earn section, where users should pass some test (to prove their knowledge and for whitelisted addresses — to get some partner’s tokens).\n\nOne of possible procedures\n1. Announcing a partnership with an L2E event (let’s say: Trust Wallet X AirNFT).\n2. Snapshot condition: To have a chance to participate, TW users should have made a screenshot of their mnemonic phrase prior to the launch of the event.\nOptional (to fight abusing and cut bots):\na. We can allow one user per IP.\nb. The address should have some coins/tokens on depo.\nc. There could also be a tier system where users should hold some TWT (100 tokens, >1000 TWT, >10 k TWT, >100 k TWT), but even the 10-fold differences in asset volume should give about 20% difference in drop allocation.)\n3. User enters the app and connects his wallet. If they’re eligible (see p. 2), they get access to a lesson about security in crypto. If not, they get a notification that they can attend the lesson and pass the test, but they won’t be rewarded for that.\n4. After the lesson the user should fill out a test form.\n5. First thousand/million/billion who have answered more than 50% of questions (and eligible on the snapshot) got a partnership airdrop from AirNFT.\n6. In the next event the snapshot condition should be changed.\n\nAdditional info\nTest questions should be randomized in order, and in points of possible answers, and in points of possible questions, and in their quantity as well (the whole test will have 30 questions, but each user should answer a randomly selected ten, adding, denying and confirming answers in both versions of the same question):\nExample:\nAll of a sudden you receive an airdrop of some unknown tokens to your address. You check the price, and see that they cost more than $100 k. What should you do next?\nA. I’m lucky! I will immediately sell them.\nB. I'm an honest guy/girl, I should burn them.\nC. It’s a scam, even if it has value. I won’t touch it.\nThe second version of the same question:\n«What should you not do next?» with the same answers.\n\nNext steps\nAs Trust Wallet community members, we — the proposers, being active Trust Wallet community members — believe in decentralization, have a vision to bring mass adoption to crypto. We are back and front developers, designers, copywriters, accountants, data-scientists, and managers. Of course, Trust Wallet Team may just take this idea and build the platform on its own. But if needed, we have enough expertise to be involved in building this kind of platform/dapp if TW team would like to collaborate with its community. The key thing is to launch it under any conditions.\n\nUseful Links\n1. WHO launched by SafePal.\n2. Pancakeswap IFO platform and its syrop pools.\n3. Any other launchpad, like Trustpad, Polkastarter, Lightning, etc.\n4. Learn-2-Earn platform Rabbithole.\n5. Binance Academy, Coinbase Earn, Coinmarketcap Earn.\n\nProposed by\nSerob Khachatryan @serobkhachatryan\nJake @de_levi\nMichael @lovkiy1337\nRasim Khafizov @BlockchainRos\nAlex @Scdeadline\nArtur Kirjakulov @EnchStyle\nDanya Piunov @danyapiunov\n",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0x5b05bF7c49709d410077cc12F4d4914F1755AccE",
+      "totalVotes": 1450,
+      "blockNumber": 16515626,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/Qmaf2cNqPfxZ5tkVsnQumVFXzr4KfrgZGLv76TAC3c5LTM",
+      "startTime": {
+        "timestamp": 1648663880
+      },
+      "endTime": {
+        "timestamp": 1649235600
+      },
+      "startTimestamp": 1648663880,
+      "endTimestamp": 1649235600,
+      "currentState": "closed",
+      "choices": [
+        "yep",
+        "nope"
+      ],
+      "results": [
+        {
+          "total": 22625770.0,
+          "choice": 0
+        },
+        {
+          "total": 623111.7,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 22625781.47754543,
+          "choice": 0
+        },
+        {
+          "total": 623111.7102081266,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6MHhlODc0NDMyNjU0OGQ1ODJjYzQwYmU2ZmNlMWM0YWJkZmFlNzg0NzE4NjU1NDM0YTZjNTc0OGFjYjBiNWFlNmI3",
+      "id": "0xe8744326548d582cc40be6fce1c4abdfae784718655434a6c5748acb0b5ae6b7",
+      "title": "Add Support for Osmosis",
+      "content": "## **Proposal Summary**\n\nTrust Wallet is looking to add support for Osmosis, which is the first automated market maker (AMM) built with the Cosmos SDK. \n\n## What is Osmosis?\n\nOsmosis is a decentralized exchange specifically built for Cosmos, with plans to expand to more blockchains. The [Osmosis DEX liquidity](https://info.osmosis.zone/) has seen a significant increase since its launch last June of 2021 reaching an all-time high of over $730 million this December.\n\nOsmosis runs as an application-specific chain (\"appchain\") which provides the flexibility for defi innovations which are not possible on a shared virtual machine. Osmosis is quite similar to Balancer in allowing users to flexibly provide liquidity to pools with different ratios which is called Superfluid Staking. With Superfluid Staking, LPs can stake their LP tokens on Osmosis, thereby earning pro rata staking rewards in OSMO such that token holders can compound staking and liquidity yields - while the network suffers no reduction in security.\n\n**The Osmo Token**\n\n**OSMO**, the governance token of Osmosis was not sold or pre-mined, but instead it was distributed only to network participants such as liquidity providers, developers, stakers, and more. The main use-case of the OSMO token is as follows:\n\n- Reward liquidity providers\n- Governance token used for voting in protocol upgrades.\n- Network fee in Osmosis.\n1. On-chain storage constraints; and\n2. Unsustainable consensus mechanisms\n\n### **Benefit to Trust Wallet**\n\nOsmosis ranks first among Cosmos Inter-Blockchain Communication (IBC)-enabled chains by number of IBC transactions. IBC enables independent blockchains to connect, transact, exchange tokens and other data, scale, and thrive in an interconnected network. Integrating Osmosis will be the first step in allowing Trust Wallet users to experience the Cosmos standard for blockchain interoperability. \n\n### Additional Resources:\n\n- [Osmosis: A Hub AMM](https://medium.com/osmosis/osmosis-a-hub-amm-c4c12788f94c)\n- [Osmosis Zone](https://osmosis.zone/)",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 544,
+      "blockNumber": 14036092,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/0xe8744326548d582cc40be6fce1c4abdfae784718655434a6c5748acb0b5ae6b7",
+      "startTime": {
+        "timestamp": 1641178800
+      },
+      "endTime": {
+        "timestamp": 1641783600
+      },
+      "startTimestamp": 1641178800,
+      "endTimestamp": 1641783600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 9170605.0,
+          "choice": 0
+        },
+        {
+          "total": 354905.1,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9170598.51462157,
+          "choice": 0
+        },
+        {
+          "total": 354905.08958900574,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6MHgwNWZjZmZjNzY5NGY2ZjViMWU3OTI0OGZmNjQwZDZkZDVhNDYwZTBlOGRkNzQzOGFiZmRhNjg0ZjVlYmMxZjRm",
+      "id": "0x05fcffc7694f6f5b1e79248ff640d6dd5a460e0e8dd7438abfda684f5ebc1f4f",
+      "title": "Add Support for Arweave",
+      "content": "## **Proposal Summary**\n\nTrust Wallet is looking to add support for Arweave, which is a data storage protocol that enables permanent storage of digital assets such as transactions, smart contracts, Web pages, videos, images, and more, directly on its native blockchain.\n\n## What is Arweave?\n\n**Arweave** is a protocol that allows you to store data with a single upfront fee. The protocol matches people who have hard drive space to spare with those individuals and organizations that need to store data or host content permanently.\n\nThe Arweave team has created a censorship-free new data storage protocol on a blockchain-like structure called the Blockweave. The Blockweave is based on a novel proof of access consensus mechanism that makes truly permanent, low-cost data storage available for the first time.\n\nThe Blockweave solves two fundamental problems currently associated with public decentralized blockchains:\n\n1. On-chain storage constraints; and\n2. Unsustainable consensus mechanisms\n\nThe Blockweave forms the underlying data structure of the Permaweb. An arrangement of data, web pages and decentralized applications hosted on the Blockweave and accessible via normal web browsers.\n\nThe native Arweave token (AR) token is a crucial foundation for network security of the Arweave ecosystem. The AR token has two primary use cases:\n\n1. rewards network miners; and \n2. pays for data upload fees within the network\n\n### **Benefit to Trust Wallet**\n\nArweave intends to considerably alter standards of the data storage industry, and to create a new internet where information is perpetually accessible. A variety of applications have already been built on the permaweb, which allows you to archive websites and store your code on the blockchain. Additionally, Arweave can be used for the permanent storage of NFTs which is one of the main functionalities of the Trust Wallet app.\n\n### Additional Resources:\n\n- [Arweave Wiki](https://arwiki.wiki/#/en/main)\n- [Binance Research](https://research.binance.com/en/projects/arweave)",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 578,
+      "blockNumber": 13626305,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/0x05fcffc7694f6f5b1e79248ff640d6dd5a460e0e8dd7438abfda684f5ebc1f4f",
+      "startTime": {
+        "timestamp": 1639969200
+      },
+      "endTime": {
+        "timestamp": 1640574000
+      },
+      "startTimestamp": 1639969200,
+      "endTimestamp": 1640574000,
+      "currentState": "closed",
+      "choices": [
+        "Yep",
+        "Nope"
+      ],
+      "results": [
+        {
+          "total": 8859820.0,
+          "choice": 0
+        },
+        {
+          "total": 84478.984,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8859817.778648116,
+          "choice": 0
+        },
+        {
+          "total": 84478.98410900179,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6MHgwZGZhZjNhNDlkMDE5NTVjYWIxMGViNmJiYzYyODQwNjYxYmIzNmM0OTJkMzBmMzNhY2Q2NGJlMDljODc0OGRl",
+      "id": "0x0dfaf3a49d01955cab10eb6bbc62840661bb36c492d30f33acd64be09c8748de",
+      "title": "Add Support for Celo",
+      "content": "## **Proposal Summary**\n\nTrust Wallet is looking to add support for Celo, is global payments infrastructure that makes financial tools accessible to anyone with a mobile phone.\n\n## What is Celo?\n\nCelo is an open-sourced Proof-of-Stake (PoS) blockchain designed to support stablecoins and tokenized assets with an algorithmic reserve-backed stability mechanism. The Celo Alliance is a non-profit organization whose mission is to facilitate financial inclusion by developing a blockchain-based financial ecosystem.\n\nThe Celo platform utilizes Celo Gold (CGLD), its native token, for the following:\n\n1. fees for sending assets on the network\n2. manage the price stability of the Celo Dollar (cUSD)\n3. propose and vote on protocol changes\n4. join the network as a validator\n\nCGLD is designed to make it easy for anyone with a smartphone to send, receive, and store stablecoins without needing a crypto wallet.\n\n### **Benefit to Trust Wallet**\n\nCelo is a blockchain aimed to bring crypto right to your phone. This completely mirrors the goals of the Trust Wallet app which is to \"make crypto more accessible\". It also paves the way to decentralized applications that allow every Trust Wallet user to access the possibilities of decentralized finance (DeFi) and trustless transactions on the Celo network. \n\n### Additional Resources:\n\n- [A Look at the Celo Whitepaper](https://medium.com/celoorg/a-look-at-the-celo-whitepaper-c0061118ffd4)\n- [Binance Research](https://research.binance.com/en/projects/celo)",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 887,
+      "blockNumber": 13270714,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/0x0dfaf3a49d01955cab10eb6bbc62840661bb36c492d30f33acd64be09c8748de",
+      "startTime": {
+        "timestamp": 1638846000
+      },
+      "endTime": {
+        "timestamp": 1639450800
+      },
+      "startTimestamp": 1638846000,
+      "endTimestamp": 1639450800,
+      "currentState": "closed",
+      "choices": [
+        "Yep",
+        "Nope"
+      ],
+      "results": [
+        {
+          "total": 11029296.0,
+          "choice": 0
+        },
+        {
+          "total": 26260.863,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 11029294.535977967,
+          "choice": 0
+        },
+        {
+          "total": 26260.862234315948,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW11Y3FrcGNnZ3pnNXpvdHFwMmp4bWo2NDJnY3VlbGgxajlydXJ0MWRnMjVocQ==",
+      "id": "QmUcqkPcGgzG5zotQp2jxMj642gcUELH1J9rurT1DG25hq",
+      "title": "Integrate Mina into Trust Wallet",
+      "content": " Proposal Summary\n\nMina Protocol is an open source decentralized blockchain platform. This proposal seeks to integrate Mina’s native MINA tokens with Trust Wallet, enabling users to store, send, and receive MINA and interact with Mina’s growing ecosystem.\n\n What is Mina Protocol?\n\nMina is a layer one protocol designed to deliver on the original promise of blockchain — true decentralization, scale and security. \n\nMina offers an elegant solution to the storage and decentralization problems of traditional blockchains: replacing the blockchain with an easily verifiable, consistent-sized cryptographic proof. Mina dramatically reduces the amount of data each user needs to download. Instead of verifying the entire chain from the beginning of time, participants fully verify the network and transactions using recursive zero knowledge proofs (or zk-SNARKs). Nodes can then store the small proof, as opposed to the entire chain. And because it’s a consistent size, Mina stays accessible — even as it scales to many users and accumulates years of transaction data.\n\nMina enables privacy-preserving programmability via Snapps. Snapps are a new type of decentralized application (dapp) that use cryptography to conduct trustless blockchain transactions. Using the power of zk-SNARKs, or zero knowledge Succinct Non-interactive Arguments of Knowledge, Snapps can prove knowledge without needing to expose all pieces of information. Only the bare minimum of details need to be shared, no more than is absolutely required, to complete the transaction. You have complete control over which data you want to share and under what terms or conditions you want to share it.\n\n What is MINA?\n\nThe MINA token is the native currency of the Mina blockchain, and is required to participate in block production and purchasing of SNARK proofs, via the Snarketplace. It also powers Snapps applications. \n\n\nMINA is an inflationary currency with no supply cap. All tokenholders can stake or delegate to receive their proportional fraction of the inflation, with no lockup or bonding required to do so.\nThere will be up to a total of 1 billion MINA tokens (excluding future block rewards) distributed at launch, which will fully unlock over 8 years. (“Initial Distribution”)\n\n Mina Ecosystem\n\nMina went live on mainnet on March 23, 2021 and the ecosystem has rapidly grown in terms of block producers, ecosystem partners & applications, and community growth.\n\nMany of the Mina ecosystem tools and projects can be found here: https://minacrypto.com/directory/mina-tools/\n\nFor more on Snapps, please visit -> https://www.youtube.com/watch?v=H_JQjPDwAH0\n\n Community \n\nMore participants and users are joining Mina community channels to discuss new projects, technical topics, and more.  With the Snapps features rolling out to mainnet in Q1 2022 there is already plenty of interest from the developer community. Since mainnet, there has been tremendous growth on channels ranging from Twitter, Discord, to Telegram:\n\nTwitter:  148.2K followers\nDiscord: 32.3K members\nTelegram: 58.9K members\n\n Motivation\n\nThe demand for an integration with Trust Wallet has merged from holders to developers for increasing snapps (dapps) activities on the blockchain. Supporting the Mina Protocol will give an access to DeFi, Gaming and NFT projects that will be launched soon. The upcoming ecosystem of snapps will help Trust Wallet further grow its community.\n\n Associated Project Stats\n\nToken Circulating Supply: 869,446,252 MINA (November 11, 2021)\nToken Value: 5.10 USD/MINA (November 11, 2021)\nhttps://coinmarketcap.com/currencies/mina/\nToken Purpose: Staking and securing the network, value transfer, and transaction fee\nConsensus Mechanism: Ouroboros Samasika\nExchanges: Binance, Kraken, Coinlist, CoinEx, OKE and more\nhttps://coinmarketcap.com/currencies/mina/markets/\n    \n Links\n\nBlockchain Explorer:\nhttps://minaexplorer.com/\nhttps://mina.staketab.com/\nhttps://hubble.figment.io/mina/chains/mainnet\nWebsite:\nhttps://minaprotocol.com/\nTwitter:\nhttps://twitter.com/MinaProtocol\nDiscord:\nhttps://discord.gg/SaNaZvAC\nGithub:\nhttps://github.com/MinaProtocol/mina\nIntegration specs\nhttps://docs.minaprotocol.com/en/advanced/client-sdk or https://github.com/MinaProtocol/c-reference-signer \n\n Proсessing:\n\nIntegration can be done via GraphQL API\nhttps://docs.minaprotocol.com/en/developers/graphql-api\nA set of Rosetta APIs will be available soon.\nFor more info please contact Brian McKenna (brian.mckenna@minaprotocol.com). Also please check out #wallets in Mina Discord.\n\n Acknowledgements\n\nGreat thanks to the TW community members for being important part in creating and applying this proposal:\nSerob Khachatryan @serobkhachatryan",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0x5b05bF7c49709d410077cc12F4d4914F1755AccE",
+      "totalVotes": 842,
+      "blockNumber": 12745374,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/QmUcqkPcGgzG5zotQp2jxMj642gcUELH1J9rurT1DG25hq",
+      "startTime": {
+        "timestamp": 1637312400
+      },
+      "endTime": {
+        "timestamp": 1638522000
+      },
+      "startTimestamp": 1637312400,
+      "endTimestamp": 1638522000,
+      "currentState": "closed",
+      "choices": [
+        "yep",
+        "nope"
+      ],
+      "results": [
+        {
+          "total": 10589898.0,
+          "choice": 0
+        },
+        {
+          "total": 1100.6821,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 10589892.472140905,
+          "choice": 0
+        },
+        {
+          "total": 1100.682189570529,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW13ZG5lMWh1dnVmYTlzYnkyazZhNXMxejhkbWYycDJ1d2R3YW5memNuYnl5Mw==",
+      "id": "QmWDnE1HuvUfA9Sby2k6a5s1z8DMf2p2uWDwaNfZcnbYY3",
+      "title": "Add Support for Terra",
+      "content": "## **Proposal Summary**\n\nTrust Wallet is looking to add support for Terra, a blockchain protocol that uses fiat-pegged stable coins to power price-stable global payments systems.\n\n## What is Terra?\n\nTerra is from South Korea’s, Terraform Labs. It aims to address three key blockchain challenges:\n\n1. low speed by organizing nodes to facilitate better peer-to-peer communication\n2. centralization of dapps by providing decentralized hosting\n3. integration with the web by simplifying development through the use of familiar web tools (HTML and Javascript)\n\nTerra has two native coins, LUNA and stable coin TerraUSD (UST). The dual coin system allows TerraUSD’s peg to USD to be achieved via arbitrage rather than reserves. Additionally Terra plans to add cross-chain interoperability with Ethereum and Solana.\n\nUltimately Terra allows the creation of regional stablecoins that are crypto-collateralized rather than pegged to a specific fiat currency. In turn, this should allow the creation of a new, faster and lower-cost payment network without the volatility typically associated with crypto assets.\n\n### **Benefit to Trust Wallet**\n\nTerra is dependent trading activity from arbitragers to maintain stablecoin prices. By giving Trust Wallet users the ability to stake LUNA, they benefit by:\n\n1. receiving transaction gas fees\n2. tax fees\n3. Rewards and profit pools from seigniorage activity\n\n### Additional Resources:\n\n- [Terra Foundation](https://azcoinnews.com/terra-blockchain-a-guide-for-newbies.html)\n- [Binance Research](https://research.binance.com/en/projects/terra)",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 1221,
+      "blockNumber": 10928694,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/QmWDnE1HuvUfA9Sby2k6a5s1z8DMf2p2uWDwaNfZcnbYY3",
+      "startTime": {
+        "timestamp": 1631678400
+      },
+      "endTime": {
+        "timestamp": 1632283200
+      },
+      "startTimestamp": 1631678400,
+      "endTimestamp": 1632283200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 19393922.0,
+          "choice": 0
+        },
+        {
+          "total": 1227.9738,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 19394017.494469084,
+          "choice": 0
+        },
+        {
+          "total": 1227.9737900394164,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW16ZzJyamRtenB4eHR3ZWptZmZsZm5keTR2aGZ6enNkank0ZXZkbjNhanExeQ==",
+      "id": "QmZG2RJDMZpxXtweJmFFLFnDy4vhfzzsDJy4eVDn3AjQ1Y",
+      "title": "Add Support for Arbitrum, Fantom, Heco, and Optimism",
+      "content": "## **Proposal Summary**\n\nTrust Wallet is looking to add support for the following EVM-compatible blockchains and scaling protocols:\n\n- Arbitrum\n- Fantom\n- Heco\n- Optimism\n\nThese blockchains will give Trust Wallet users access to a broader selection of DApps, and enable higher speed and lower-cost transactions.\n\n## **What is Arbitrum?**\n\nArbitrum is an Ethereum optimistic rollup-based layer 2 scaling protocol developed by Offchain Labs. The Arbitrum One sidechain works by combining multiple pieces of data from a smart contract execution before writing a cryptographic hash of the \"rolled up\" transaction to the Ethereum blockchain. This reduces Ethereum computing resources while preserving privacy. \n\nArbitrum is supported by many popular DApps including SushiSwap, Curve, Aave, Balancer, Uniswap and more.\n\n## **What is Fantom?**\n\nFantom is a smart contract platform that seeks to improve decentralization, security, and speed. It is powered by a protocol called Lachesis which allows the consensus mechanism to be both asynchronous and Byzantine fault-tolerant, i.e. secure and decentralized without sacrificing speed.\n\n## What is Heco?\n\nHeco is short for Huobi Ecochain, a public EVM compatible blockchain developed by Huobi Global. Launched in December 2021, HECO acts as a competitor to Binance's Smart Chain. HECO also offers the ability to transfer Smart Chain tokens to HECO at a 1:1 peg for hBSC offers gas fee discounts in accordance with users' Huobi Token holdings.\n\n## **What is Optimism?**\n\nOptimism is an Ethereum Layer 2 scaling solution that pioneered the concept of optimistic rollups  to reduce transaction fees and latency. Optimism supports all Ethereum development tools, thus making the process of porting Dapps fast and simple. Optimism is currently supported by key projects including 1Inch, Celar, Uniswap, Debank and others.\n\n### **Benefit to Trust Wallet**\n\nSupport for additional blockchains  allows Trust Wallet users to store a greater number of coins and tokens. Furthermore, layer 2 supports enables the benefits of DeFi/Dapps with lower fees and transaction times.\n\n### Additional Resources:\n\n- [Arbitum Homepage](https://portal.arbitrum.one/)\n- [Fantom Homepage](https://www.fantom.foundation)\n- [Heco Chain Homepage](https://www.hecochain.com/en-us/)\n- [Optimism Homepage](https://optimism.io/)",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 993,
+      "blockNumber": 10586675,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/QmZG2RJDMZpxXtweJmFFLFnDy4vhfzzsDJy4eVDn3AjQ1Y",
+      "startTime": {
+        "timestamp": 1630641600
+      },
+      "endTime": {
+        "timestamp": 1631246400
+      },
+      "startTimestamp": 1630641600,
+      "endTimestamp": 1631246400,
+      "currentState": "closed",
+      "choices": [
+        "Yes!",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 17691592.0,
+          "choice": 0
+        },
+        {
+          "total": 9027.74,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 17691592.174747575,
+          "choice": 0
+        },
+        {
+          "total": 9027.740532320217,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW1hbmtmeG1rd2d4bjNjYXhxYXhpZW5mYTJ1bDl0ZXAyZHB6NHBoMzRoNjQ0NQ==",
+      "id": "QmanKFxMkWGxN3caxqaxienFa2UL9Tep2dpz4ph34H6445",
+      "title": "Integrate 1Inch Protocol into Trust Wallet",
+      "content": "## **Proposal Summary**\n\n1Inch is a DEX aggregator that identifies the best asset prices across several liquidity sources. This proposal outlines a plan to integrate the 1Inch Aggregation Protocol into Trust Wallet to enable EVM-compatible asset swaps, along with the benefits of doing so.\n\n## **What is 1Inch?**\n\nThe 1Inch aggregation protocol scrapes DeFi exchanges across Ethereum, Binance Smart Chain, and Polygon and identifies the lowest-cost way to execute a given trade net of slippage and fees. This may involve swapping an asset for several intermediary assets before arriving at the desired asset.\n\n1Inch also has a governance token called 1INCH which can be used to affect how the platform is run. 1INCH is traded on several exchanges including, Binance, Coinbase, KuCoin, Huobi, FTX, and OKEx, and can also be earned by providing liquidity into the platform’s liquidity pool.\n\n## Implementation Details\n\n1Inch protocol will replace the existing swap functionality in Trust Wallet which is currently powered by a combination of Uniswap and Pancakeswap.\n\n### **Benefit to Trust Wallet**\n\nWith this integration, Trust Wallet users will be able to swap between ERC20/BEP20/Polygon assets natively in the app. Additionally, 1Inch’s broad coverage means a greater number of swappable asset pairs, smaller slippage, and lower prices and fees compared to the current swap mechanism. At a technical level, implementation of 1Inch protocol means a reduction of code complexity and reduces future maintenance overhead.\n\n### Additional Resources:\n\n- [https://1inch.io](https://1inch.io/)\n- [1Inch Token info](https://coinmarketcap.com/currencies/1inch/)",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 2019,
+      "blockNumber": 10495772,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/QmanKFxMkWGxN3caxqaxienFa2UL9Tep2dpz4ph34H6445",
+      "startTime": {
+        "timestamp": 1630382400
+      },
+      "endTime": {
+        "timestamp": 1630987200
+      },
+      "startTimestamp": 1630382400,
+      "endTimestamp": 1630987200,
+      "currentState": "closed",
+      "choices": [
+        "Yay",
+        "Nah"
+      ],
+      "results": [
+        {
+          "total": 27243258.0,
+          "choice": 0
+        },
+        {
+          "total": 5650.4287,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 27243362.793236095,
+          "choice": 0
+        },
+        {
+          "total": 5650.428533046162,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW1iM2prdHpyM2F5YzN5bTg3ZHZqdHR5aWNzcnNvNzV6Zml3cHpnemZqOWNyeA==",
+      "id": "Qmb3JktZr3AyC3yM87DvjTTyicSRso75ZFiWPZgzfj9Crx",
+      "title": "Trust Wallet Governance Reform Proposal",
+      "content": "Disclaimer\n\nSince the launch of TWT in early 2020, the crypto industry has faced a lot of changes — new products, possibilities and instruments. It is important that Trust Wallet’s Governance System stays up to do date to allow innovation. Here are some proposals which can be integrated as a package or individually. This proposal is intended to be advisory rather than mandatory.\n\n1. Reduction in twt quantity for the proposal creation by the community members \nReason: Since 2020 twt price has increased significantly. Only a small proportion of twt holders has a chance to submit a proposal and interact with the Team by proposing updates. \nRealization: Keep the 1M threshold rule. For those who have less (100k >= X < 1M) there will be a possibility to lock the tokens and make an appeal to invite other twt holders to delegate their tokens and pool 1 mln twt within 48 hours to deliver sufficient quantity of tokens — and make the proposal active.\nBenefit: More people could be involved in governance (only 7 addresses have >=1 mln tokens, almost 150 addresses have >=100 k tokens: August 9, 2021). A possibility to invite and delegate tokens will motivate the community members to research for like-minded people and create high value proposals.\nReferences and useful links: https://docs.snapshot.org/strategies\n2. Employment of twt from staking and farming pools in governance votings\nReason: A lot of twt are locked in liquidity pools.\nRealization: To avoid manipulations only for pools with >=$1 mln TVL and liquidity pair must be with well known and respectful tokens, as bnb/busd/btcb/beth. LP token is a subject for snapshots, same as we have currently. So we have 4 snapshots: at the Start of an appeal, at the Start of the posting of the proposal, at the moment of Vote, at the End of the voting, and LP providers will have a voting power lesser than from these 4 snaps, and will be excluded from the voting on the appeal. Moreover, some relatively sudden voting announcements leave a lot of people outside of this activity, as there is either no notice, or the notice is too short. Such timing issues cut off a significant chunk of users from expressing their opinion.  A similar mechanism is implemented on Yieldwatch, which can be used as an example.  \nBenefit: as Defi users are motivated and often advanced crypto users, this step will encourage them to participate in governance, and will provide a fair tool for them to vote, without risks to their LP activity.\nReferences and useful links: https://docs.venus.io/docs/governance#queue\nhttps://yieldwatch.medium.com/paywall-is-live-access-pro-holding-watch-9f3722a5925f\n3. Restructuring the communication between the Team and the Community\nReason: Now it’s unclear how the Team should react to the community’s proposals. Do they find them useful, workable, or perspective on any level?\nRealization: When the community proposal hits all the important factors for being reviewed by the Team, the Team is obligated to respond within 30 days. This may be a response in no particular form on the TW site, but with concrete valuation and opinion on it.\nBenefit: Such accountability will encourage a clearer and honest discussion between all parties. Receiving the feedback from the Team will help all the parties involved to better understand each other and improve anticipations.\nReferences and useful links: https://forum.cream.finance/\n4. Supporting all of the community proposals on Trust Wallet social media accounts\nReason: Having 1 mln twt doesn’t mean that the proposer has enough influence on social media to gather people and involve them in participation to his proposal. Currently, Trust Wallet holds a relative monopoly over what proposals receive traction. With 1M twitter and 0.5M telegram followers the Team is able to push some or hide other ideas, leading to transparency issues. \nRealization: Any community proposal published on the governance sector of the TW site should be supported by TW social media accounts to inform other community members and invite them to participate. Especially on twitter and tg-announcement channels. Essentially, community proposals should be treated the same way as if they were coming from the core team. \nBenefit: Wider information shared — more people involved — fairer result at the end.\nReferences and useful links: https://twitter.com/TrustWalletApp/status/1413128277581963264\nhttps://twitter.com/TrustWalletApp/status/1387405626049843200\nhttps://t.me/trust_announcements/254\nhttps://t.me/trust_announcements/253\n \nAcknowledgements to the TW community members:\nRasim Khafizov @BlockchainRos\nArtur @EnchStyle\nJake @de_levi\nSerob Khachatryan @serobkhachatryan\nk k @Kikcha\nDima @dima_truman\n\nGreat thanks to the Alfa https://t.me/alfablock for being important part in creating this proposal\n",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0x070a8CcF3989d64956b40B91d7f28f52320481F9",
+      "totalVotes": 1207,
+      "blockNumber": 10117967,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/Qmb3JktZr3AyC3yM87DvjTTyicSRso75ZFiWPZgzfj9Crx",
+      "startTime": {
+        "timestamp": 1629190800
+      },
+      "endTime": {
+        "timestamp": 1629795600
+      },
+      "startTimestamp": 1629190800,
+      "endTimestamp": 1629795600,
+      "currentState": "closed",
+      "choices": [
+        "Yep",
+        "Nope"
+      ],
+      "results": [
+        {
+          "total": 21655692.0,
+          "choice": 0
+        },
+        {
+          "total": 102331.23,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 21655681.01158227,
+          "choice": 0
+        },
+        {
+          "total": 102331.22941835145,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW1hcmtncWhtcGFrcGY5ZWk3M2FzM2g0ZzFnbXlkM25jeWp5NTlmOGVqaWp4dw==",
+      "id": "QmarKgqhMPAkPF9ei73as3H4G1Gmyd3ncyjY59F8ejijXW",
+      "title": "Develop and integrate Trust wallet name service (TWNS) ",
+      "content": "Summary\n\nUtilize TWT to acquire a user regulated and managed, BSC NFT based, user friendly version of payment address(es), that will be generated in a special Dapp and native interface of the Trust Wallet. \nTWT will be use as a payment token to generate and store a part of unique code that will contain short user’s name, like Viktor.tw with user preregistered addresses of his wallet (i.e. one such name domain will be used to save address of multiple blockchains, such as Bitcoin, Ethereum, Polkadot, etc.).\n\nAdoption\n\nWe see an opportunity to make a BSC smart contract that will mint corresponding NFT on BSC blockchain, that will be the key to short address name system, that will hold key to modify the data that will be stored separately from NFT. This system will utilize both TWT storage and usage as value transfer.\nTo use the system, we propose an analogue to domain trading system or some mobile operators also use it. And it will have 2 separate parts: Business and Independent. \nBusiness domains will work on proof-based rental system, where a business owner will have to verify his ownership rights. This can be achieved via showing the proof of webpage ownership, company registration documents or any other eligible way. I.e. if someone want to claim Pepsi.tw, then the proof will required. There will also be an exception for high profile individuals (i.e. V. Radchenko, V. Buterin, CZ…), that will have to follow business approach. \nIndividual (i.e. private) address can be claimed for permanent ownership or rented via a subscription model. Hence, anyone who wishes to use his own unique name will be able to do so for a fixed fee. \nThe Dapp will have a database section where the most up-to-date information on the ownership and linked addressed will be held. We expect the system to work in such a way:\nName=SPECIALNEEDS.tw\nCHAINID BTC=bc1…….\nCHAINID ETH=0x……..\nThis is a dynamic database, so user with iLove.tw NFT domain can use it as the key to rewrite the data, i.e. modifying linked address for small fee in TWT. \n\nHow it will work for the users end.\n\nLet’s assume a user wants to have a unique address, hence he acquires TWT from on open market. We will use 10k as an example. The user will go to the Dapp, connect via Trust Wallet TWNS.nft (we as an example, but this does sound cool) and logins. The system will scan the wallet for the presence of tokens to verify sufficient balance. Then, a search bar will be available to search for the corresponding address and verify it availability. If the address is available, then user is presented with two options:\n1.  Purchase the address for indefinite ownership. The price will be set to a higher level\n2.  Rent the address for a yearly subscription. The option will be significantly cheaper compared to purchase.\nOnce one of the options was selected, the user will go back to the dapp into database section, where the user will be able to link his new iLove.tw wallet with his public keys for corresponding blockchains. This action will have a small fee (every change will be a subject to fees in TWT).\nCongratulations. You have successfully linked your long, human unreadable address to a simple and easy to remember address. It has never been easier to accept church dotation via god.tw (this address will be reserved for the good until ID check is passed).\nOn the tech side Trust Wallet make a check for address as it does every time when a user types something into field, the system will identify “.tw” as a proper extension/format and makes a request to special off chain server, that will scan BSC for that iLove.tw with needed chain id and return a proper address back to the wallet. \nThere some additional idea worth further brainstorming and consideration:\nIt will be an additional benefit if Trust wallet users will able to preload the list off addresses by default into Dapps database section.\n\nTo buy or rent the NFT, or maybe even access the Dapps functionality, users will have to hold TWT. Hence, if user want a rare or popular name, then he will have to hold. Prolonged holding may also be used as a system to provide the discounts. \n\nMotivation\n\nThere is a problem – blockchain addresses are long, human unreadable and unmemorisable, hard to work with for ordinary and even experienced users, and occasionally lead to the loses due to the errors. \nThere is a known and already used method to overcome this problem, DNS and its decentralised analogue ENS. Both of them are known as a useful tool to help people to use the Internet and Ethereum and help to communicate between human and machines more comfortably. \nSo, as blockchain industry grew in last couple of years, we see a need to provide Trust wallet (and others) users a way to easily control their addresses and give them more options to request payments.\n\nBenefit to the Trust Wallet\n\nWith this integration, Trust Wallet users will be allowed to human readable versions of addresses as an alternative and use one sequence for all their frequently used blockchain. In addition, the fee charged in TWT during this process can be pooled into a Decentralized Treasury for the community needs. This means that Mint Activity translates into long-term funding for the Trust Wallet community.\n\nReferences and useful links\n\nhttps://en.m.wikipedia.org/wiki/Domain_Name_System\nhttps://trustwallet.com/blog/getting-eth-domain\n\nAcknowledgements to the TW community members:\n\nk k @Kikcha\nRasim Khafizov @BlockchainRos\nArtur @EnchStyle\nDima @Pigsed\nRamil7913 @Ramil7913\nJake @de_levi\nAndrey @andrey2911\nSerob Khachatryan @serobkhachatryan\n\nGreat thanks to the Alfa https://t.me/alfablock for being important part in creating this proposal",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0x070a8CcF3989d64956b40B91d7f28f52320481F9",
+      "totalVotes": 1040,
+      "blockNumber": 9617646,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/QmarKgqhMPAkPF9ei73as3H4G1Gmyd3ncyjY59F8ejijXW",
+      "startTime": {
+        "timestamp": 1627722000
+      },
+      "endTime": {
+        "timestamp": 1628326800
+      },
+      "startTimestamp": 1627722000,
+      "endTimestamp": 1628326800,
+      "currentState": "closed",
+      "choices": [
+        "Yep",
+        "Nope"
+      ],
+      "results": [
+        {
+          "total": 25007852.0,
+          "choice": 0
+        },
+        {
+          "total": 104735.21,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 25007853.689574156,
+          "choice": 0
+        },
+        {
+          "total": 104735.20276130606,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW13OGs0bDljY2FkYXp4a20xZmxma3Q3ZjFrdTU2b3hxNmJ0emI3ZDg2d3c0aA==",
+      "id": "QmW8K4L9cCaDAZxKM1FLFKt7F1ku56oxQ6btzB7d86Ww4h",
+      "title": "Integrate Polygon into Trust Wallet",
+      "content": "## Summary\n\nPolygon is currently the leading Ethereum scaling solution. Its PoS commit chain is currently live, production ready and supports 500+ DApps. A number of DeFi blue-chips like QuickSwap, AAVE, Curve, SushiSwap, Balancer, CREAM etc. are leading the “DeFi Summer” activities on Polygon contributing over 6B in TVL! The community has embraced Polygon’s low gas fees, high throughput and rich ecosystem of users and developers. \n\n## Adoption\n\nThere are currently over 200k DAU, 500+ DApps across DeFi, NFT and Gaming, and over 1.3M wallet addresses on the Polygon PoS commit-chain. We have $10M on an average in-flow from chains like BSC and HECO for DeFi activities. You can find more analytics here at [Nansen](https://pro.nansen.ai/polygon), [AAVE](https://aavescan.com/?version=polygon) and [Sushi](https://twitter.com/RaphaelSignal/status/1406234551618244611).\n\n## Motivation\n\nSupporting the Polygon network opens an array of blue-chip DeFi, Gaming and NFT projects that will be accessible to the Trust Wallet community. The growing ecosystem of DApps and users spread across the globe will help Trust Wallet further grow its community. \n\nUsers of 500+ DApps want to access the Trust wallet to use projects that are built on Polygon and we want to support them by completing this integration. As more and more DEX’s integrate with Polygon, we foresee users may want to transfer tokens between networks. Trust wallet supporting swap functionality would simplify the user’s journey significantly; increasing the number of transactions and the user base of Trust Wallet !\n\n## References and useful links\n\nData\n- Defillama\n- - https://defillama.com/chain/Polygon\n- Nansen\n- - https://pro.nansen.ai/\n- Polygonscan\n- - https://polygonscan.com/charts\n\nWebsite\n- http://polygon.technology/\n\nTwitter\n- https://twitter.com/0xPolygon\n\nYouTube\n- Polygon TVL\n- - https://www.youtube.com/c/PolygonTV\n- Polygon Explainer by Finematics\n- - https://youtu.be/IijtdpAtOt0\n",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 899,
+      "blockNumber": 8960301,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/QmW8K4L9cCaDAZxKM1FLFKt7F1ku56oxQ6btzB7d86Ww4h",
+      "startTime": {
+        "timestamp": 1625716800
+      },
+      "endTime": {
+        "timestamp": 1626321600
+      },
+      "startTimestamp": 1625716800,
+      "endTimestamp": 1626321600,
+      "currentState": "closed",
+      "choices": [
+        "Yep",
+        "Nope"
+      ],
+      "results": [
+        {
+          "total": 15346483.0,
+          "choice": 0
+        },
+        {
+          "total": 2843.9197,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 15346477.794545883,
+          "choice": 0
+        },
+        {
+          "total": 2843.9196026564396,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW1zZXE0ZDZxeHZnM2xoYnlndmZicmRvbnJ4Y3F6ZTNwb3ZwYWFnNGFoOHlocA==",
+      "id": "QmSeq4d6QxvG3LHBYgVfBrDoNrXcqze3PovpAAg4Ah8yhP",
+      "title": "Integrate Avalanche into Trust Wallet",
+      "content": "## **Proposal Summary**\n\nAvalanche is an open source decentralized blockchain platform. This proposal seeks to integrate Avalanche’s native AVAX tokens with Trust Wallet, enabling users to store, send, and receive AVAX and interact with Avalanche’s growing DeFi ecosystem.\n\n## **What is Avalanche?**\n\nAvalanche is an open-source decentralized blockchain platform that can launch financial primitives, decentralized applications and new interoperable blockchains. Avalanche solves the issue of scalability, speed and composability with blockchain. Avalanche accomplishes this with two key differences: Avalanche consensus and a flexible architecture. Avalanche consensus is a third-generation consensus protocol that comes after Classical consensus and Nakamoto consensus. Avalanche consensus combines the best qualities of Classical and Nakamoto consensus, where it is robust, quick, and scalable. The flexible architecture of Avalanche enables the creation of subnetworks that can be permissioned or permissionless and use a custom virtual machine. Currently, Avalanche supports the Ethereum Virtual Machine (EVM), which enables any developer familiar with solidity to deploy EVM compatible applications and products.\n\nThe mission of Avalanche is to provide a blockchain infrastructure that is scalable and flexible to accommodate any financial product, blockchain application, and service to deliver the internet of finance.\n\n## **What is AVAX?**\n\nAVAX is the native Avalanche token, which is used to maintain the security of the network with validator staking rewards and transaction fees. Transaction fees can be used for peer-to-peer transactions, contract creation, and subnetwork deployments.\n\n360,000,000 AVAX tokens were issued on mainnet, September 21st, 2020. The issued tokens are under a lock-up schedule, which can be found [here](https://info.avax.network/#unlocking_schedule).\n\nAVAX has a fixed capped supply of 720,000,000 AVAX with a deflationary model, where AVAX transaction fees are burned. Currently, there is [over 63,000 AVAX fees burned](https://burnedavax.com/).\n\n### **Avalanche Ecosystem**\n\nAvalanche went live on mainnet on September 21, 2020 and the ecosystem has rapidly grown in three categories: validators, ecosystem partners & applications, and community growth.\n\n### **Validators**\n\nThere are currently over 900 full block-producing validators participating in consensus on Avalanche, which makes it one of the most global decentralized participating networks, after Bitcoin and Ethereum.\n\n### **Ecosystem Partners & Applications**\n\nAvalanche has seen a rapid rate of adoption with ecosystem partners, integrations and Dapp deployments. There are 160+ ecosystem partners and applications on Avalanche with dozens more in integration and forthcoming: [https://www.avax-projects.com/](https://www.avax-projects.com/).\n\n![avax projects](https://cloudflare-ipfs.com/ipfs/QmU2QkUAZGPuFhfiauR8YwA9LDt5vypYvwJU9BSjoDG8cy)\n\n### **Community Growth**\n\nMore developers, participants, and users are joining Avalanche community channels to discuss new projects, technical topics, and more. Since mainnet (September 21, 2020), there has been tremendous growth on channels ranging from Twitter, Discord, to Telegram:\n\n- Twitter grew over 410% to 68,700 followers\n- Discord grew over 285% to 13,350 members\n- Telegram grew over 210% to 18,900 members\n\n### **Motivation**\n\nAvalanche has a rapidly growing ecosystem and the demand for an integration with Trust Wallet has increased, from wallet users to developers. Also, by integrating Avalanche, the Trust Wallet ecosystem will have the opportunity to attract new users and expand the community.\n\n### **Associated Project Stats**\n\n- Token Circulating Supply: 128,677,813 AVAX (April 26, 2021)\n- Token Max Supply: 720,000,000 AVAX\n- Token Value: 25.37 USD/AVAX (April 26, 2021)\n- - [https://coinmarketcap.com/currencies/avalanche/](https://coinmarketcap.com/currencies/avalanche/)\n- Token Purpose: Staking and securing the network, value transfer, and transaction fees\n- Consensus Mechanism: [Avalanche Consensus](https://www.avalabs.org/whitepapers)\n- Exchanges: Binance, Huobi, Okex, OkCoin, FTX, Paribu, Bitfinex and more\n- - [https://coinmarketcap.com/currencies/avalanche/markets/](https://coinmarketcap.com/currencies/avalanche/markets/)\n- Trading Volume: $259,439,601 (April 26, 2021)\n- - [https://coinmarketcap.com/currencies/avalanche/](https://coinmarketcap.com/currencies/avalanche/)\n- Number of transactions: 1,484,523 transactions (April 26, 2021)\n- Number of Wallet Addresses: 67,846 (April 26, 2021)\n\n## **Useful Links**\n\n- Blockchain Explorer: \n- - [https://explorer.avax.network/](https://explorer.avax.network/)\n- - [https://avascan.info/](https://avascan.info/)\n- Website: \n- - [https://www.avalabs.org/](https://www.avalabs.org/)\n- Twitter: \n- - [https://twitter.com/avalancheavax](https://twitter.com/avalancheavax)\n- Github: \n- - [https://github.com/ava-labs](https://github.com/ava-labs)\n- Communications/PR Contact: \n- - [https://www.avalabs.org/contact](https://www.avalabs.org/contact)",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 540,
+      "blockNumber": 6953951,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/QmSeq4d6QxvG3LHBYgVfBrDoNrXcqze3PovpAAg4Ah8yhP",
+      "startTime": {
+        "timestamp": 1619582400
+      },
+      "endTime": {
+        "timestamp": 1620187200
+      },
+      "startTimestamp": 1619582400,
+      "endTimestamp": 1620187200,
+      "currentState": "closed",
+      "choices": [
+        "Yep",
+        "Nope"
+      ],
+      "results": [
+        {
+          "total": 2596539.5,
+          "choice": 0
+        },
+        {
+          "total": 122.366264,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2596541.1463738685,
+          "choice": 0
+        },
+        {
+          "total": 122.36626752102757,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW14dXB6OHdwa3p3Y3RwbnB1ZGJmdnh2YmRuaGVvd3dvd3VkZXB5a2k1YTY1Yg==",
+      "id": "QmXUPz8WpKZwctPNpuDbfVXvBDnheowwowuDePYKi5a65B",
+      "title": "Integrate THORChain into Trust Wallet",
+      "content": "## **Proposal Summary**\n\nTHORChain is an open source decentralized liquidity protocol network that launched its mainnet on 13 April 2021. This proposal outlines a plan to integrate the THORChain Network in two phases:\n\n1. Store, Send and Receive their RUNE in Trust Wallet\n2. Support cross-chain SWAP functionality in the wallet\n\n## What is THORChain\n\nTHORChain is a decentralized cross-chain liquidity protocol based on [Tendermint](https://tendermint.com/) & [Cosmos-SDK](https://cosmos.network/) and utilizing [Threshold Signature Schemes](https://eprint.iacr.org/2019/114.pdf) (TSS). It does not peg or wrap assets, it simply determines how to move them in response to user-actions. THORChain observes incoming user deposits to vaults, executes business logic (swap, add/remove liquidity), and processes outbound transactions. THORChain is primarily a leaderless vault manager, ensuring that every stage of the process is byzantine-fault-tolerant. THORChain's primary objective is to be resistant to centralization and capture whilst facilitating cross-chain liquidity. THORChain only secures the assets in its vaults, and has economic guarantees that those assets are safe. \n\n### Tokenomics\n\nRUNE, the native token of THORChain, is used:\n\n1. As a security bond by THORNodes to secure the network\n2. As a liquidity asset for pools\n3. The quote currency of the network\n4. Collateral for synthetic assets\n5. Collateral for lending (planned)\n6. Collateral for a stable coin (planned)\n\nIt has extremely strong value accrual and can be valued at “3X TVL” due to the Incentive Pendulum of the network, which attempts to control security and liquidity.\n\n### Supply Distribution\n\nA maximum of 500,000,000 RUNE were created on Binance Chain as a BEP2 asset. The following is the current breakdown of the asset:\n\n- Public (42%): 210M RUNE\n- Protocol Reserve (40%): 200M RUNE\n- Team (10%): 50M RUNE\n- Seed (5%): 26M RUNE\n- Treasury (3%): 15M RUNE\n\nOriginally $1.5M was funded for the project via a public sale in 2019, but since then the treasury has grown to over $200M, with around $30M in liquid assets. This treasury is used to fund the protocol, ecosystem and liquidity. Team is subject to a lockup period until mainnet launched (can’t transact or liquidate RUNE) It's slated for July 2021 which will vest over a year. These allocations were necessary to motivate a team of engineers for 3 years to build very complex infrastructure. The Protocol Reserve of 200M RUNE is used to pay Node Operators and LPs for the next 10+ years. The Reserve is topped up by the system continuously by transaction fees and will never run out. \n\n### PHASE 1: THOR.RUNE support\n\nThe first phase is to allow users to hold, send and receive THOR.RUNE tokens in the wallet:\n\n- wallet RPC: [rpc.thorchain.info](http://rpc.thorchain.info/)\n- BIP39: `931`\n- ChainID: `thorchain`\n\n### PHASE 2: Cross-chain Swaps\n\nTHORChain can be used to facilitate cross-chain swaps between supported Layer1 assets in a permission less manner. The integration should be done after:\n\n1. THORChain has stably run at least 3 ~ 6 months without security incident\n2. Pools are deeply liquid (over $10M per pool)\n3. There are at least 21 THORNodes (decentralized)\n\nThe integration involves connecting to THORChain and allowing users to make SWAP transactions between assets. THORChain developers will be consulted to ensure the integration is done properly and safely.\n\n### Benefit to Trust Wallet\n\nWith this integration, Trust Wallet users will be allowed to access decentralized, permissionless cross-chain swaps directly from their wallets and never need to deposit into exchanges or leave the wallet. In addition, the integration may also add Affiliate Fees on each swap (5-10 basis points) which could be used to buy and hold TWT tokens off the pool into a Decentralized Treasury for the community. This means that Swap Activity translates into long-term funding for the Trust Wallet community.\n\n#### Project Stats\n\nToken Circulating Supply: 230M Token \n\nMax Supply: 500,000,000 RUNE\n\nToken Purpose: Security, Liquidity, Collateral, Consensus Mechanism, Proof of Bond\n\nExchanges: Binance, FTX, BEPSwap, ASGARDEX\n\nTrading Volume: $200M\n\nNumber of Holders: 20k\n\nTVL: $650M\n\nRanking: Top 10 DeFi Coin on [CMC](https://coinmarketcap.com/view/defi/) and [CoinGecko](https://www.coingecko.com/en/defi)\n\n### Useful Links:\n\nWebsites:\n\n- [thorchain.org](http://thorchain.org/)\n- [thorchain.com](http://thorchain.com/)\n\nExplorers:\n\n- [thorchain.net](http://thorchain.net/)\n- [thorchain.network](https://thorchain.network)\n- [viewblock.io/thorchain](https://viewblock.io/thorchain)\n- [thorchain.delphidigital.io/thorchain/chaosnet](https://thorchain.delphidigital.io/thorchain/chaosnet)\n\nInterfaces:\n\n- [thorswap.finance](https://thorswap.finance)\n- [asgard.exchange](https://asgard.exchange)\n- [decentralfi.io](https://decentralfi.io/)\n- [shapeshift.com](http://shapeshift.com/)",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 465,
+      "blockNumber": 6741772,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/QmXUPz8WpKZwctPNpuDbfVXvBDnheowwowuDePYKi5a65B",
+      "startTime": {
+        "timestamp": 1618977600
+      },
+      "endTime": {
+        "timestamp": 1619582400
+      },
+      "startTimestamp": 1618977600,
+      "endTimestamp": 1619582400,
+      "currentState": "closed",
+      "choices": [
+        "Yep",
+        "Nope"
+      ],
+      "results": [
+        {
+          "total": 5528976.0,
+          "choice": 0
+        },
+        {
+          "total": 3320.4727,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5528977.040447088,
+          "choice": 0
+        },
+        {
+          "total": 3320.4725068159264,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW1ya3pqdnFuOG04d3B1c2d1bjJibmJkbHdzbm50ajJ4dmdqc3d1bWIzamN6ag==",
+      "id": "QmRKzJVqN8m8WpUSGun2bnBdLWSNNtj2xVGJsWUMb3jCZJ",
+      "title": "Add support for Solana tokens (SPL) and KIN’s migration to Solana",
+      "content": "Welcome to the second governance opportunity for TWT holders! Here you can vote on whether you think SPL token support should be added to [Trust Wallet](https://trustwallet.com/) and to support KIN's migration to Solana.\n\nThis may seem like two proposals but it is actually just one!\n\nThe KIN community have used Trust Wallet for several years as their primary wallet and have been a very loyal community. KIN is migrating to SOLANA on 8 December 2020 and will become a SPL token -- so if we do not support them they will need to find another wallet.\n\n## Proposal Request\n\nThe request is to add support for SPL tokens by 8 December 2020 benefiting both the KIN and SOLANA community.\n\n## Proposal Motivation\n\nThe KIN Community love Trust Wallet, and after several years as loyal users we do not want to lose our primary choice of wallet.\n\nFor the SOLANA community, SPL is an ERC20-like token program for the Solana blockchain, as new and interesting apps are built on Solana, these users will need to find a trust worthy and reliable wallet solution to store their tokens.\n\nBoth the KIN community and the SOLANA community would benefit, as by adding support for SPL Tokens, Trust Wallet taps into TWO powerful communities and continues to grow its user base.\n\n## Associated Projects\n\n### KIN\n\nKin is a cryptocurrency used as money within a digital ecosystem of consumer applications and services. Today it is integrated into 40 mobile apps across the Google and Apple play stores, with more than 3 million everyday users earning and spending KIN every month. In the race to mass adoption, KIN is a serious contender.\n\n### SOLANA\n\nSolana is a high-performance blockchain supporting builders around the world creating apps that scale today. Founded by former Qualcomm, Intel, and Dropbox engineers in late-2017, Solana is a single-chain, delegated-Proof-of-Stake protocol whose focus is on delivering scalability without sacrificing decentralization or security. The token program on Solana is the 'SPL token which is not presently supported by Trust Wallet.\n\n*HINT: When KIN migrates to SOLANA it will be the ultimate win-win for a fast consumer ready cryptocurrency experience with near instant confirmation times.*\n\n## Useful Links\n\n**Websites:**\n\nwww.kin.org\nwww.solana.com\n\n**Reddit communities:**\n\nhttps://www.reddit.com/r/KinFoundation/\nhttps://www.reddit.com/r/solana/",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 3240,
+      "blockNumber": 2360669,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/QmRKzJVqN8m8WpUSGun2bnBdLWSNNtj2xVGJsWUMb3jCZJ",
+      "startTime": {
+        "timestamp": 1605715200
+      },
+      "endTime": {
+        "timestamp": 1607011140
+      },
+      "startTimestamp": 1605715200,
+      "endTimestamp": 1607011140,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5244555.0,
+          "choice": 0
+        },
+        {
+          "total": 1192728.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5244557.881286963,
+          "choice": 0
+        },
+        {
+          "total": 1192728.7613230906,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJ1c3R3YWxsZXQ6c25hcHNob3Q6cW1zdjUzeHV5aTI4eGZkbmhkaGJ2cDJ6cXd6ZWV3cW5iY2FkZWRyaTlwYzZleQ==",
+      "id": "QmSV53XuYi28XfdNHDhBVp2ZQwzeewQNBcaDedRi9PC6eY",
+      "title": "Integrate Filecoin into Trust Wallet",
+      "content": "Welcome to the first governance opportunity for TWT holders! Here you can vote whether you think the Filecoin blockchain should be integrated into Trust Wallet. \n\n# Proposal Summary\n\nFilecoin is an open source decentralized storage network that launched its mainnet today, October 15 2020. This proposal aims to integrate the Filecoin Network into Trust Wallet.\n\n1. Store their FIL in Trust Wallet\n2. Send and receive FIL tokens\n\n## What is Filecoin\n\nFilecoin is a decentralized storage network. Users pay to store their files on storage miners, and storage miners earn units of FIL for storing files. Storage miners are computers responsible for storing files and proving they have stored the files correctly over time. \n\nFilecoin is a popular project that began with a SAFT that raised $200M in 2017. According to coinmarketcap Filecoin Futures have more than $20 million USD in trading volume in 24 hours, an amount that rivals many of the coins in the top 100. \n\nFilecoin works with IPFS are complementary systems for storing and sharing data in the distributed web. IPFS was created by Protocol Labs, the creators of Filecoin, in 2015. Both systems are free, open-source, and share several building blocks, including data representation formats and certain network communication protocols. However, IPFS does not include a built-in mechanism to incentivize the storage of data for other people. This is the challenge Filecoin aims to solve. \n\n## Tokenomics\n\nA maximum of 2,000,000,000 FIL will ever be created. 10% were allocated for fundraising, of which 7.5% were sold in the 2017 token sale, and the 2.5% remaining were allocated for ecosystem development, future fundraising, and/or other uses described in 2017. \n\n15% were allocated to Protocol Labs (including 4.5% for the PL team & contributors), and 5% were allocated to the Filecoin Foundation. The other 70% of all tokens are allocated to miners, as mining rewards, “for providing data storage service, maintaining the blockchain, distributing data, running contracts, and more.”\n\nUsers pay for storage with FIL.\n\n# Motivation\n\nWe (Trust Wallet team) are always striving to add more blockchains that will be essential for developers, wallet users and TWT token holders. We choose blockchains carefully based on the impact they will have for our community.\n\nThe more popular blockchains Trust Wallet supports, the better. By integrating popular blockchains Trust Wallet can tap into powerful communities and grow its user base. \n\n# Wallet Core Contribution\n\nRichard (https://github.com/terorie) is one of the earliest community contributors of wallet core, he did the Filecoin implementation and will get 10,000 TWT rewards for his excellent work.\n\n\n# Project Stats\n\nToken Circulating Supply: TBD\n\nToken Max Supply: 2,000,000,000 FIL\n\nToken Value: TBD\nToken Purpose: Payment and rewards for decentralized storage.\nConsensus Mechanism: Proof of Storage, Proof of Space\nExchanges: Binance, Gemini, Kraken, Huobi\nTrading Volume: TBD\nNumber of Holders: TBD\nNumber of transactions: TBD\n\n# Useful Links\n\nWebsite: https://filecoin.io/  \nBlockchain Explorer: https://filscan.io/  \n",
+      "protocol": "trustwallet",
+      "adapter": "snapshot",
+      "proposer": "0xF4c5acD9fDf8E6bCb285D60C4B083f8A02e7816a",
+      "totalVotes": 1242,
+      "blockNumber": 11060250,
+      "externalUrl": "https://snapshot.org/#/trustwallet/proposal/QmSV53XuYi28XfdNHDhBVp2ZQwzeewQNBcaDedRi9PC6eY",
+      "startTime": {
+        "timestamp": 1602691200
+      },
+      "endTime": {
+        "timestamp": 1603166400
+      },
+      "startTimestamp": 1602691200,
+      "endTimestamp": 1603166400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 876166.3,
+          "choice": 0
+        },
+        {
+          "total": 152.65,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 876166.1766759597,
+          "choice": 0
+        },
+        {
+          "total": 152.65000176912727,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961296924,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

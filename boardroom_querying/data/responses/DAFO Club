@@ -1,0 +1,211 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6ZGFmb2NsdWI6b25jaGFpbjoz",
+      "id": "3",
+      "title": "Proposal 3",
+      "content": "Democratize DAFO with a « Pay What You Want » model",
+      "protocol": "dafoclub",
+      "adapter": "onchain",
+      "proposer": "0xfd637806e0D22Ca8158AB8bb5826e6fEDa82c15f",
+      "totalVotes": 1,
+      "blockNumber": 17986806,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1692907271,
+      "endTimestamp": 1693116143,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 11.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18014126
+          },
+          "event": "queued",
+          "timestamp": 1693237619,
+          "txHash": "0xba080cfa1d8d84c946497743899a44f9880792d7fa14163af4f852107def2b0c"
+        },
+        {
+          "time": {
+            "blockNumber": 17986805
+          },
+          "event": "pending",
+          "timestamp": 1692907259,
+          "txHash": "0xa8ae7dbe97d3a1f6b65503d9e61fdc18faae7b6c2bed43dc27b1a85792b58efc"
+        },
+        {
+          "time": {
+            "blockNumber": 18028418
+          },
+          "event": "executed",
+          "timestamp": 1693410659,
+          "txHash": "0xf46bf3122bda82059e428c31279e70be826e1a4abb6e88c1589d14967ccc5bc2"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 11.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692907497765,
+      "txHash": "0xa8ae7dbe97d3a1f6b65503d9e61fdc18faae7b6c2bed43dc27b1a85792b58efc",
+      "quorum": 11,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGFmb2NsdWI6b25jaGFpbjoy",
+      "id": "2",
+      "title": "Democratize DAFO with a « Pay What You Want » model (and set a new Minter)",
+      "content": "# Join us, whoever you are\nWe loved and still love the Daily Auction model from Nouns.wtf and will love this model forever. **However, in the current bear market\ncontext on top of super high gaz fees, if we want to truly walk the talk of our \"Join our fam, whoever you are\" core principle, DAFOUNDERS are proposing today to remove the Daily Auction for a limited period of time in order to open DAFO membership to whoever wants to contribute what he.she.they want to give to the DAFO treasury.**\n\n##Consequently, in order to achieve and properly excute Proposal 1, we need to set a new Minter.",
+      "protocol": "dafoclub",
+      "adapter": "onchain",
+      "proposer": "0x50F41D856a8F4C749C0119a1B170c15df90D15EB",
+      "totalVotes": 2,
+      "blockNumber": 17251962,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1683991979,
+      "endTimestamp": 1684203203,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 19.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17271544
+          },
+          "event": "queued",
+          "timestamp": 1684231283,
+          "txHash": "0x916d1dc397e6b28ce4d636a9f5bce31803e8fbaf68fca32cb58b2a03660e0f41"
+        },
+        {
+          "time": {
+            "blockNumber": 17251961
+          },
+          "event": "pending",
+          "timestamp": 1683991967,
+          "txHash": "0xe19325b65069c5ce166ea2eb4fa2291faff2284f93050e09bda45736ef4d0a36"
+        },
+        {
+          "time": {
+            "blockNumber": 17286584
+          },
+          "event": "executed",
+          "timestamp": 1684414715,
+          "txHash": "0xc22a8ebc3c74b2722c2657e8eb7638b22e8b9e43b35ebdcfa9c9ce3da089b833"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 19.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684167423876,
+      "txHash": "0xe19325b65069c5ce166ea2eb4fa2291faff2284f93050e09bda45736ef4d0a36",
+      "quorum": 10,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGFmb2NsdWI6b25jaGFpbjox",
+      "id": "1",
+      "title": "Democratize DAFO membership with a « Pay What You Want » model",
+      "content": "# Join us, whoever you are\nWe loved and still love the Daily Auction model from Nouns.wtf and will love this model forever. **However, in the current bear market\ncontext on top of super high gaz fees, if we want to truly walk the talk of our \"Join our fam, whoever you are\" core principle, DAFOUNDERS are proposing today to remove the Daily Auction for a limited period of time in order to open DAFO membership to whoever wants to contribute what he.she.they want to give to the DAFO tresory.**",
+      "protocol": "dafoclub",
+      "adapter": "onchain",
+      "proposer": "0x1b49716Db9e849d6a182cfEF1262Be54BA3955d3",
+      "totalVotes": 1,
+      "blockNumber": 17251515,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1683986531,
+      "endTimestamp": 1684197791,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 8.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17251514
+          },
+          "event": "pending",
+          "timestamp": 1683986519,
+          "txHash": "0xc44dedcb31397a5365a75355d97bb37b82c19a496a5e13a7e600449ae1f57f5c"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 8.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684167423876,
+      "txHash": "0xc44dedcb31397a5365a75355d97bb37b82c19a496a5e13a7e600449ae1f57f5c",
+      "quorum": 10,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

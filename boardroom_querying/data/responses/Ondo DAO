@@ -1,0 +1,657 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6b25kb2RhbzpvbmNoYWluOjEw",
+      "id": "10",
+      "title": "[FIP-08] - Release of the ONDO token lock-up",
+      "content": "The Ondo Foundation is excited to announce a significant milestone in our journey: the proposed release of the ONDO token lock-up. This marks a pivotal moment, aligning our community toward a future of open, transparent, and efficient global finance.\n\nRead the full proposal here: \n\n<https://forum.fluxfinance.com/t/fip-08-release-of-the-ondo-token-lock-up/563>",
+      "protocol": "ondoDao",
+      "adapter": "onchain",
+      "proposer": "0x118919e891D0205A7492650AD32E727617FA9452",
+      "totalVotes": 459,
+      "blockNumber": 18987534,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1705022795,
+      "endTimestamp": 1705283663,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 612111.7,
+          "choice": 0
+        },
+        {
+          "total": 32983872.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18987533
+          },
+          "event": "pending",
+          "timestamp": 1705022783,
+          "txHash": "0x7eafa5cece21a6589f69a3289fd8412da6aae4174b96aab24f14b95e43886b1f"
+        },
+        {
+          "time": {
+            "blockNumber": 19009471
+          },
+          "event": "queued",
+          "timestamp": 1705287719,
+          "txHash": "0x90e07eef24877c0dd3c8fcf541260b530e6671b0696e7f591a283f7e0ea6851c"
+        },
+        {
+          "time": {
+            "blockNumber": 19016823
+          },
+          "event": "executed",
+          "timestamp": 1705376447,
+          "txHash": "0x56e3971cd9152a8703b8f597c5bdc64ddd1de2350e734de2b5845951a6424134"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705023250932,
+      "txHash": "0x7eafa5cece21a6589f69a3289fd8412da6aae4174b96aab24f14b95e43886b1f",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25kb2RhbzpvbmNoYWluOjk=",
+      "id": "9",
+      "title": "FIP-07: Update to Chainlink Constrained OUSG Oracle",
+      "content": "",
+      "protocol": "ondoDao",
+      "adapter": "onchain",
+      "proposer": "0x118919e891D0205A7492650AD32E727617FA9452",
+      "totalVotes": 49,
+      "blockNumber": 18414692,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1698084935,
+      "endTimestamp": 1698346283,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1978148.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18459229
+          },
+          "event": "queued",
+          "timestamp": 1698623531,
+          "txHash": "0x9190ca5c71defdb6817a0fd3f3f4d46750390fb2816bacfc5553ff3d227355e1"
+        },
+        {
+          "time": {
+            "blockNumber": 18470456
+          },
+          "event": "executed",
+          "timestamp": 1698759527,
+          "txHash": "0x3a1fabe5de6aa55bcc14b3a4918d43194c5e6bd1265de7d4669689e168f72c6b"
+        },
+        {
+          "time": {
+            "blockNumber": 18414691
+          },
+          "event": "pending",
+          "timestamp": 1698084923,
+          "txHash": "0x72de2d78bc11118a66f2cf0eaabcc2bc283da17c5c6953b2c2dde47de7ae88b7"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698086096755,
+      "txHash": "0x72de2d78bc11118a66f2cf0eaabcc2bc283da17c5c6953b2c2dde47de7ae88b7",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25kb2RhbzpvbmNoYWluOjg=",
+      "id": "8",
+      "title": "FIP-06: Adjustments to the Yield Curves",
+      "content": "",
+      "protocol": "ondoDao",
+      "adapter": "onchain",
+      "proposer": "0x118919e891D0205A7492650AD32E727617FA9452",
+      "totalVotes": 66,
+      "blockNumber": 17944305,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1692393515,
+      "endTimestamp": 1692654755,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2082099.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17976735
+          },
+          "event": "executed",
+          "timestamp": 1692785579,
+          "txHash": "0x6e9ef2043aa0b5b314560f9603c52bcbc23a0f7ba61ec0ca394f263d8cb71094"
+        },
+        {
+          "time": {
+            "blockNumber": 17966635
+          },
+          "event": "queued",
+          "timestamp": 1692663575,
+          "txHash": "0x63d81d16dd47e806926768f14ef35f6893083a9559c2f3f7bc5455b401ab7f77"
+        },
+        {
+          "time": {
+            "blockNumber": 17944304
+          },
+          "event": "pending",
+          "timestamp": 1692393503,
+          "txHash": "0x5cd100e7a1ac4851d5b0a5a2ac4c640f0be771f7a1fd1209d107c41fad7bdf4e"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692393701041,
+      "txHash": "0x5cd100e7a1ac4851d5b0a5a2ac4c640f0be771f7a1fd1209d107c41fad7bdf4e",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25kb2RhbzpvbmNoYWluOjc=",
+      "id": "7",
+      "title": "FIP-04: Decentralize Oracles & IR Model",
+      "content": "",
+      "protocol": "ondoDao",
+      "adapter": "onchain",
+      "proposer": "0x118919e891D0205A7492650AD32E727617FA9452",
+      "totalVotes": 85,
+      "blockNumber": 17124668,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1682442587,
+      "endTimestamp": 1682704799,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1898.2245,
+          "choice": 0
+        },
+        {
+          "total": 3323357.8,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17146571
+          },
+          "event": "queued",
+          "timestamp": 1682708471,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 17157460
+          },
+          "event": "executed",
+          "timestamp": 1682840687,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682442710016,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25kb2RhbzpvbmNoYWluOjY=",
+      "id": "6",
+      "title": "FIP-02: Add FRAX Support",
+      "content": "",
+      "protocol": "ondoDao",
+      "adapter": "onchain",
+      "proposer": "0x118919e891D0205A7492650AD32E727617FA9452",
+      "totalVotes": 174,
+      "blockNumber": 16735244,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1677691595,
+      "endTimestamp": 1677954359,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 21763.092,
+          "choice": 2
+        },
+        {
+          "total": 28697684.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16757877
+          },
+          "event": "queued",
+          "timestamp": 1677966899,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16770916
+          },
+          "event": "executed",
+          "timestamp": 1678125143,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 21763.092,
+          "choice": 2
+        },
+        {
+          "total": 28697668.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929471895,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25kb2RhbzpvbmNoYWluOjU=",
+      "id": "5",
+      "title": "Initialize Comptroller & OUSG Market",
+      "content": "",
+      "protocol": "ondoDao",
+      "adapter": "onchain",
+      "proposer": "0x118919e891D0205A7492650AD32E727617FA9452",
+      "totalVotes": 0,
+      "blockNumber": 16735073,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1677689531,
+      "endTimestamp": 1677952271,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16735201
+          },
+          "event": "canceled",
+          "timestamp": 1677691067,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929471895,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25kb2RhbzpvbmNoYWluOjQ=",
+      "id": "4",
+      "title": "FIP-01: Add USDT Support & Set Stablecoin CF to 0",
+      "content": "",
+      "protocol": "ondoDao",
+      "adapter": "onchain",
+      "proposer": "0x118919e891D0205A7492650AD32E727617FA9452",
+      "totalVotes": 229,
+      "blockNumber": 16678221,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1676998763,
+      "endTimestamp": 1677261491,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 29090.91,
+          "choice": 0
+        },
+        {
+          "total": 18181.818,
+          "choice": 2
+        },
+        {
+          "total": 30396674.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16700028
+          },
+          "event": "queued",
+          "timestamp": 1677264023,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16708727
+          },
+          "event": "executed",
+          "timestamp": 1677369803,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 29090.91,
+          "choice": 0
+        },
+        {
+          "total": 18181.818,
+          "choice": 2
+        },
+        {
+          "total": 30396684.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929471895,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25kb2RhbzpvbmNoYWluOjM=",
+      "id": "3",
+      "title": "Initialize USDC & DAI markets",
+      "content": "",
+      "protocol": "ondoDao",
+      "adapter": "onchain",
+      "proposer": "0xD2e6E930E25456fFcD4Df0124563cC334F3284f4",
+      "totalVotes": 594,
+      "blockNumber": 16522181,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1675112339,
+      "endTimestamp": 1675373147,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 70000.0,
+          "choice": 0
+        },
+        {
+          "total": 28456.666,
+          "choice": 2
+        },
+        {
+          "total": 47651812.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16543840
+          },
+          "event": "queued",
+          "timestamp": 1675373855,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16550992
+          },
+          "event": "executed",
+          "timestamp": 1675460279,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 70000.0,
+          "choice": 0
+        },
+        {
+          "total": 28456.666,
+          "choice": 2
+        },
+        {
+          "total": 47651812.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929471895,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b25kb2RhbzpvbmNoYWluOjI=",
+      "id": "2",
+      "title": "Initialize Comptroller & OUSG Market",
+      "content": "",
+      "protocol": "ondoDao",
+      "adapter": "onchain",
+      "proposer": "0x118919e891D0205A7492650AD32E727617FA9452",
+      "totalVotes": 511,
+      "blockNumber": 16522172,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1675112231,
+      "endTimestamp": 1675373039,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 24000.0,
+          "choice": 0
+        },
+        {
+          "total": 30909.09,
+          "choice": 2
+        },
+        {
+          "total": 47096848.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16543836
+          },
+          "event": "queued",
+          "timestamp": 1675373807,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16550989
+          },
+          "event": "executed",
+          "timestamp": 1675460243,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 24000.0,
+          "choice": 0
+        },
+        {
+          "total": 30909.092,
+          "choice": 2
+        },
+        {
+          "total": 47096940.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929471895,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

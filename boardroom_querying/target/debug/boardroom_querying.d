@@ -1,0 +1,1 @@
+/home/mattia/mounts/desk/studium/0_bachelor_thesis/bachelor_thesis/boardroom_querying/target/debug/boardroom_querying: /home/mattia/mounts/desk/studium/0_bachelor_thesis/bachelor_thesis/boardroom_querying/src/main.rs /home/mattia/mounts/desk/studium/0_bachelor_thesis/bachelor_thesis/boardroom_querying/src/utils.rs

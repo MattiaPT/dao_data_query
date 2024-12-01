@@ -1,0 +1,598 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Z2VsYXRvOnNuYXBzaG90OjB4NDcwZTEwY2E3N2ZhZTYzMTA3NGM2MTllNTZhNDhhZDAyMDlhOGI0OGM5ZDI2OWY3NjBmNGI5N2Q2MzczOWQyNA==",
+      "id": "0x470e10ca77fae631074c619e56a48ad0209a8b48c9d269f760f4b97d63739d24",
+      "title": "GEL Staking Economics V1 and the GEL Flywheel: Incentivizing Gelato Node Operators and Driving Sustainable Growth",
+      "content": "Building upon the initial proposal “Node Operator Staking Wave 1”, which focused on the permissioning of the inaugural cohort of Gelato node operators, this proposal serves as a continuation and delves into the first generation staking economics for node operators in the Gelato Network.\n\nThe purpose of this proposal is to outline the first version of staking economics of the Gelato Network, addressing the structure, rewards, and incentives for node operators. The proposal seeks ratification from the GEL community, to reserve 750,000 GEL tokens from the network growth treasury, to be spent on the first period of the GEL Staking V1 node operator incentive scheme.",
+      "protocol": "gelato",
+      "adapter": "snapshot",
+      "proposer": "0x28bB9385A588EF4747264D19B9A9F1603591680c",
+      "totalVotes": 11,
+      "blockNumber": 17812318,
+      "externalUrl": "https://snapshot.org/#/gelato.eth/proposal/0x470e10ca77fae631074c619e56a48ad0209a8b48c9d269f760f4b97d63739d24",
+      "startTime": {
+        "timestamp": 1690856048
+      },
+      "endTime": {
+        "timestamp": 1691288048
+      },
+      "startTimestamp": 1690856048,
+      "endTimestamp": 1691288048,
+      "currentState": "closed",
+      "choices": [
+        "YES, reserve 750k GEL ",
+        "NO, don't reserve 750k GEL"
+      ],
+      "results": [
+        {
+          "total": 260387.19,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 260387.1760374824,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690798649105,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2VsYXRvOnNuYXBzaG90OjB4YjhhMDAxMzVhYmI2YmFhZjYxNDYyYjkwYzcxYzQ4YmRkYWEzNGRhYzdhMzEzZWQ1ZGIzY2UxMjM0Y2I5NzA0Mw==",
+      "id": "0xb8a00135abb6baaf61462b90c71c48bddaa34dac7a313ed5db3ce1234cb97043",
+      "title": "Node Operator Staking Wave 1",
+      "content": "To further Gelato’s decentralization, we are seeking a consensus from the Gelato DAO in ratifying the permissioning of the next cohort of Gelato Node Operators. This proposal will contribute to increase the decentralization of the network and the utility of its native token, GEL, by enabling node operators to stake GEL, to participate in executing Gelato users’ tasks on the network.\n\nSee this forum post for a general outline about this proposal:\nhttps://commonwealth.im/gelatonetwork/discussion/11360-node-operator-staking-wave-1\n\nOptions\nOption 1 - YES\nYes, onboard the new node operators onto the Gelato Network.\n\nOption 2 - NO\nNo, do not onboard the new node operators onto the Gelato Network.",
+      "protocol": "gelato",
+      "adapter": "snapshot",
+      "proposer": "0x28bB9385A588EF4747264D19B9A9F1603591680c",
+      "totalVotes": 29,
+      "blockNumber": 17229988,
+      "externalUrl": "https://snapshot.org/#/gelato.eth/proposal/0xb8a00135abb6baaf61462b90c71c48bddaa34dac7a313ed5db3ce1234cb97043",
+      "startTime": {
+        "timestamp": 1683779353
+      },
+      "endTime": {
+        "timestamp": 1684211353
+      },
+      "startTimestamp": 1683779353,
+      "endTimestamp": 1684211353,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1184038.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1184037.8727326817,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690391655778,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2VsYXRvOnNuYXBzaG90OjB4NTZjMzYyMjIzM2YyNTM1MjNkMmE5ZmZkMGNjZTFjYTI2ZTM0NjY0ZmNiMzA1MzU4MjdhNzE3NTUzZmZlZDMzYw==",
+      "id": "0x56c3622233f253523d2a9ffd0cce1ca26e34664fcb30535827a717553ffed33c",
+      "title": "Accelerating Gelato's Growth: Proposal to Allocate 20% of GEL Supply for Future Financing Rounds",
+      "content": "Proposal to allocate approximately 20% of the total GEL supply or roughly 43% of the current Gelato DAO treasury to future financing rounds in order to accelerate Gelato’s growth and realise its Roadmap 2.0.\n\nSee this forum post for a general outline about this proposal:\nhttps://commonwealth.im/gelatonetwork/discussion/11006-accelerating-gelatos-growth-proposal-to-allocate-20-of-gel-supply-or-43-of-current-dao-treasury-for-future-financing-rounds\n\nOptions\n\nOption 1 - Yes\nAccelerate Gelato's Growth and allocate approximately 20% of the total GEL supply for future financing rounds.\n\nOption 2 - No\nDo not accelerate Gelato's Growth and allocate approximately 20% of the total GEL supply for future financing rounds.",
+      "protocol": "gelato",
+      "adapter": "snapshot",
+      "proposer": "0x28bB9385A588EF4747264D19B9A9F1603591680c",
+      "totalVotes": 31,
+      "blockNumber": 17166975,
+      "externalUrl": "https://snapshot.org/#/gelato.eth/proposal/0x56c3622233f253523d2a9ffd0cce1ca26e34664fcb30535827a717553ffed33c",
+      "startTime": {
+        "timestamp": 1683013930
+      },
+      "endTime": {
+        "timestamp": 1683445930
+      },
+      "startTimestamp": 1683013930,
+      "endTimestamp": 1683445930,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2169000.0,
+          "choice": 0
+        },
+        {
+          "total": 241555.27,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2168999.7152584307,
+          "choice": 0
+        },
+        {
+          "total": 241555.25370305812,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690391655778,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2VsYXRvOnNuYXBzaG90OjB4MjlkNjEwMjc2ZjkzM2EyOTFjMTU4ZDIxMmI2YzU1YjJlNzE5MTczYTQ0OTBiNTQ3NjllMzFjYjgwNTRhODUxMw==",
+      "id": "0x29d610276f933a291c158d212b6c55b2e719173a4490b54769e31cb8054a8513",
+      "title": "[Liquidity] Accelerating Pre Token Sale Private Investor Vestings ",
+      "content": "Proposal to decide whether to accelerate pre token sale private investor vestings that are still locked until September 13th, 2023. \n\nSee this forum post for a general outline about this proposal:\n\nhttps://commonwealth.im/gelatonetwork/discussion/10001-proposal-accelerating-private-investor-vestings\n\nOptions: \n\nOption 1 - Yes: \n\nAccelerate private investor vestings before end of February 2023. This means that all tokens from pre token sale private investors that are currently still locked will be unlocked and transferable by the end of Feb 23. \n\nOption 2 - No:\n\nDo not accelerate private investor vestings and leave them as they are. This means they will remain locked and unlock on September 13th 23. ",
+      "protocol": "gelato",
+      "adapter": "snapshot",
+      "proposer": "0xAabB54394E8dd61Dd70897E9c80be8de7C64A895",
+      "totalVotes": 35,
+      "blockNumber": 16635511,
+      "externalUrl": "https://snapshot.org/#/gelato.eth/proposal/0x29d610276f933a291c158d212b6c55b2e719173a4490b54769e31cb8054a8513",
+      "startTime": {
+        "timestamp": 1676538339
+      },
+      "endTime": {
+        "timestamp": 1676970339
+      },
+      "startTimestamp": 1676538339,
+      "endTimestamp": 1676970339,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 9139711.0,
+          "choice": 0
+        },
+        {
+          "total": 524738.1,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9139711.504492236,
+          "choice": 0
+        },
+        {
+          "total": 524738.0817542323,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690391655778,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2VsYXRvOnNuYXBzaG90OjB4M2IyMzAzZjc1ZDkyNjM3OTZmZTVhMTJiNWY3NjNlYmU3YmJkMTExYmY3YmNmNGNkNzkwZDUxODkxY2RmYjU2Yw==",
+      "id": "0x3b2303f75d9263796fe5a12b5f763ebe7bbd111bf7bcf4cd790d51891cdfb56c",
+      "title": "[BD & Marketing] Increasing Gelato’s Growth Budget",
+      "content": "Link to proposal summary:\n\nhttps://forum.gelato.network/t/proposal-have-defi-dave-earn-referral-bonuses-for-growth-efforts/447/2?u\n\n-----------\n\nRequested Budget:\n\nAllocate a Marketing & BD Budget of 5,250,000.00 GEL which is roughly 2.5% of the initial DAO treasury. This should enable Gelato to kickstart a more aggressive marketing and BD campaign starting in May for the foreseeable future, probably lasting for at least one year. Estimating an exact time frame for how long the budget would last is always difficult because the $GEL price is quite volatile, but this should definitely work for the next 12 months.\n\nImportant to note: The GEL Budget will of course not come into circulation all at once, but slowly and steadily via smaller payments to hackathon winners, influencers that spread the word about Gelato and Business Developers like Dave who bring traction to the project. The higher the $GEL price will be over the next months, the longer this budget will last!\n\nShould Gelato DAO execute the outlined security budget proposal?",
+      "protocol": "gelato",
+      "adapter": "snapshot",
+      "proposer": "0xAabB54394E8dd61Dd70897E9c80be8de7C64A895",
+      "totalVotes": 21,
+      "blockNumber": 14570347,
+      "externalUrl": "https://snapshot.org/#/gelato.eth/proposal/0x3b2303f75d9263796fe5a12b5f763ebe7bbd111bf7bcf4cd790d51891cdfb56c",
+      "startTime": {
+        "timestamp": 1649819355
+      },
+      "endTime": {
+        "timestamp": 1650078555
+      },
+      "startTimestamp": 1649819355,
+      "endTimestamp": 1650078555,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1358161.5,
+          "choice": 0
+        },
+        {
+          "total": 25306.18,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1358161.3758413964,
+          "choice": 0
+        },
+        {
+          "total": 25306.179868872605,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690391655778,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2VsYXRvOnNuYXBzaG90OjB4NGU1ODNkMjRhMDllMjkzN2M2MDIwYzNiYzg2ZmFkMzdiOWQ0MTA5M2U1ZjRmM2YzZTBhMTk3NjdlYmYyOGEyMA==",
+      "id": "0x4e583d24a09e2937c6020c3bc86fad37b9d41093e5f4f3f3e0a19767ebf28a20",
+      "title": "Release G-UNI as separate DAO from Gelato & rebrand it as Arrakis",
+      "content": "Proposal to vote on whether G-UNI should be spinning out of Gelato into its own separate DAO called Arrakis. \n\nSee this forum post for a general outline about this proposal: \n\nhttps://forum.gelato.network/t/release-g-uni-as-separate-dao-from-gelato-rebrand-it-as-arrakis-finance/364\n\nThere are 2 options that can be voted on if you are in favour of releasing G-UNI. They differ in how the token distribution is formalized. \n\nSee this forum post for a comparison between the two \"yes\" options, Option 1 & Option 2: \n\nhttps://forum.gelato.network/t/important-options-for-upcoming-g-uni-spinoff-vote/421\n\nTLDR:\n\nOption 1: \n\n50% Future LPs, 22.5% Arrakis Team / Investors, 13.8% vesting GEL holders, 1.2% Liquid GEL holders, 5% Arrakis Community Fund, 5% Project Airdrop, 2.5% User Airdrop\n\nOption 2: \n\n50% Future LPs, 22% Arrakis Team / Investors, 13% vesting GEL holders, 3% Liquid GEL holders, 4.5% Arrakis Community Fund, 5% Project Airdrop, 2.5% User Airdrop\n\nNote: \n\nIf the cumulative “yes” votes exceed the total “no” votes, even though “no” votes have a higher percentage of the votes that each “yes” option respectively, the outcome of this vote is still counted as “yes” and there will be a follow up vote which will decide whether Option #1 or Option #2 will be chosen. \n\nIf one of the \"yes\" options wins, the Gelato Core Team will transfer ownership over the G-UNI contracts to the Arrakis Team which will continue with the operations of the system and will build its own community around the project.",
+      "protocol": "gelato",
+      "adapter": "snapshot",
+      "proposer": "0xAabB54394E8dd61Dd70897E9c80be8de7C64A895",
+      "totalVotes": 132,
+      "blockNumber": 14450717,
+      "externalUrl": "https://snapshot.org/#/gelato.eth/proposal/0x4e583d24a09e2937c6020c3bc86fad37b9d41093e5f4f3f3e0a19767ebf28a20",
+      "startTime": {
+        "timestamp": 1648206028
+      },
+      "endTime": {
+        "timestamp": 1648465228
+      },
+      "startTimestamp": 1648206028,
+      "endTimestamp": 1648465228,
+      "currentState": "closed",
+      "choices": [
+        "Yes - Option 1",
+        "Yes - Option 2",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 6355725.5,
+          "choice": 3
+        },
+        {
+          "total": 5156328.0,
+          "choice": 0
+        },
+        {
+          "total": 40259.832,
+          "choice": 2
+        },
+        {
+          "total": 10745159.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5156327.474301856,
+          "choice": 0
+        },
+        {
+          "total": 10745157.87597347,
+          "choice": 1
+        },
+        {
+          "total": 40259.83160957006,
+          "choice": 2
+        },
+        {
+          "total": 6355725.533866113,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690391655778,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2VsYXRvOnNuYXBzaG90OjB4NDYzNDI4YmFmODZhNjAwZmRjOGJlYzg2YmQzMTljMmYxMjNkZmI4NGFkMGE3NzcxNjkzNDIyNTVjZTBhODZlYg==",
+      "id": "0x463428baf86a600fdc8bec86bd319c2f123dfb84ad0a777169342255ce0a86eb",
+      "title": "[Security] Increasing Gelato’s Security Budget, Bounties and Refunds",
+      "content": "Link to proposal summary:\n\nhttps://forum.gelato.network/t/security-increasing-gelato-s-security-budget-bounties-and-refunds/340\n\n---\n\nRequested Budget Breakdown (taking $2.30 per GEL - the closing price of 4th of January 2022):\n\nRefunds: $780.000,00 (337,662.00 GEL)\nBounties: $210.000,00 (91,305.00 GEL)\nFuture Security Budget: $2.000.000,00 (869,566.00 GEL)\nTotal: 1,298,533.00 GEL (0.62% of current Gelato DAO treasury)\n\nShould Gelato DAO execute the outlined security budget proposal?",
+      "protocol": "gelato",
+      "adapter": "snapshot",
+      "proposer": "0xAabB54394E8dd61Dd70897E9c80be8de7C64A895",
+      "totalVotes": 37,
+      "blockNumber": 13945293,
+      "externalUrl": "https://snapshot.org/#/gelato.eth/proposal/0x463428baf86a600fdc8bec86bd319c2f123dfb84ad0a777169342255ce0a86eb",
+      "startTime": {
+        "timestamp": 1641387420
+      },
+      "endTime": {
+        "timestamp": 1641646620
+      },
+      "startTimestamp": 1641387420,
+      "endTimestamp": 1641646620,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1140732.2,
+          "choice": 0
+        },
+        {
+          "total": 4136.5596,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1140732.280943854,
+          "choice": 0
+        },
+        {
+          "total": 4136.559752864021,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690391655778,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2VsYXRvOnNuYXBzaG90OjB4NzQ5YWRmMTE4NDUyZTUzY2FhZTdlMDM5ZjE3ODg5ZTE2MmVkNjdkOTk2MzkwMTA4ZWEyY2FmMDIwYTQwYTE4Nw==",
+      "id": "0x749adf118452e53caae7e039f17889e162ed67d996390108ea2caf020a40a187",
+      "title": "ETHGlobal Web3Jam Hackathon Winners",
+      "content": "Gelato DAO Proposal #3\n\nSummary: \n\nOver the last few months, we've been supporting builders and hackers in the Web3 space. Last month, we sponsored ETHGlobal's Web3Jam Hackathon — 10 amazing projects built on Gelato, and 5 teams stood out and won the final prizes. \n\nWe will be awarding multiple prizes totaling $4k for the winners, using 1,460 GEL from the Gelato DAO treasury for the payouts.\n\n\nHere are the winners and prize breakdown: \n\nMost creative use of Ice Cream: \nCompoundNChill: $1,000 worth of $GEL tokens\nContingent convertibles powered yield aggregator using protocol owned liquidity to drive emissions token liquidity and price to attract and retain capital. \n\nBest use cases: \n\n1. Backer: $750 worth of $GEL tokens\nA web3 version of Patreon. Backer uses Gelato to monitor and process membership cancellations.\n\n2. Decentralized Roulette: $750 worth of $GEL tokens\nA truly decentralized roulette game, utilizing Gelato to automate the game sequencing steps and make VRF requests.\n\n3. Plottery: $750 worth of $GEL tokens \nA decentralized lottery system for DAOs to raise funds from the community. It uses Gelato to take snapshots of block-hash and choose the lottery winner.\n\n4. Robusta: $750 worth of $GEL tokens\nA protocol that enables users to buy and sell the options on Uniswap v3, using Gelato automation, NFT, and Web3.\n\nCheck out the Winners here!\nhttps://twitter.com/gelatonetwork/status/1463616108372525057?s=20\n\n \n",
+      "protocol": "gelato",
+      "adapter": "snapshot",
+      "proposer": "0x8d0f1Afc37f6b4C2119362f3F0A98c65941C998F",
+      "totalVotes": 27,
+      "blockNumber": 13759217,
+      "externalUrl": "https://snapshot.org/#/gelato.eth/proposal/0x749adf118452e53caae7e039f17889e162ed67d996390108ea2caf020a40a187",
+      "startTime": {
+        "timestamp": 1638893527
+      },
+      "endTime": {
+        "timestamp": 1639152727
+      },
+      "startTimestamp": 1638893527,
+      "endTimestamp": 1639152727,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "YES!"
+      ],
+      "results": [
+        {
+          "total": 643820.8,
+          "choice": 0
+        },
+        {
+          "total": 13823.729,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "approval",
+      "indexedResult": [
+        {
+          "total": 242913.24981143867,
+          "choice": 0
+        },
+        {
+          "total": 68809.46005796202,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690391655778,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2VsYXRvOnNuYXBzaG90OjB4YzRhMWVjNDE1ZTNlNDdhZjRiYjRlNGQxYzMyNzM4ZGVkNTk0YzQ1OTNkMjZhMDNhOTY0Y2E0NzUyMjgwNjI0Zg==",
+      "id": "0xc4a1ec415e3e47af4bb4e4d1c32738ded594c4593d26a03a964ca4752280624f",
+      "title": "[Liquidity]: Bootstrapping Uniswap v3 liquidity using G-UNI via Olympus Pro",
+      "content": "For more context about the specifics of this proposal, please check this forum post:\n\nhttps://forum.gelato.network/t/making-gel-liquid-bootstrapping-uniswap-v3-liquidity-on-ethereum-using-g-uni-via-olympus-pro/325\n\nTLDR: \n\nUse 6,310,350.00 GEL (3%) from the Gelato DAO treasury to execute the outlined liquidity provision strategies.\n\nThe first strategy will be to start the process of developing \"Protocol Owned Liquidity\" controlled by the Gelato DAO via Olympus Pro on Ethereum Mainnet using G-UNI as LP tokens. This will make the GEL / ETH trading pair on Uniswap v3 more liquid and enables people to trade GEL with less slippage. \n\nAfterwards, more liquidity enhancing strategies will be outlined and can be voted upon separately. \n\nQuestion: \n\nShould Gelato DAO execute the outlined liquidity provision strategies?",
+      "protocol": "gelato",
+      "adapter": "snapshot",
+      "proposer": "0xAabB54394E8dd61Dd70897E9c80be8de7C64A895",
+      "totalVotes": 54,
+      "blockNumber": 13735159,
+      "externalUrl": "https://snapshot.org/#/gelato.eth/proposal/0xc4a1ec415e3e47af4bb4e4d1c32738ded594c4593d26a03a964ca4752280624f",
+      "startTime": {
+        "timestamp": 1638643779
+      },
+      "endTime": {
+        "timestamp": 1638902979
+      },
+      "startTimestamp": 1638643779,
+      "endTimestamp": 1638902979,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2913716.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2913716.076537968,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690391655778,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z2VsYXRvOnNuYXBzaG90OjB4NDlhOTczMTE2ZjA3NjZiMGY3NzYwZTQ4NDE0OWEwYWZlODJkOGVlMmMxZGRmY2RhMDYxNzQ2YjQyNzFlMjI4NA==",
+      "id": "0x49a973116f0766b0f7760e484149a0afe82d8ee2c1ddfcda061746b4271e2284",
+      "title": "Gelato Art Vernissage Contest",
+      "content": "Thank you to all who participated in the Gelato Art Vernissage on the Gelato Forum. There really is an abundance of talented artists within the Gelato Community, and we’ve narrowed it down to our 5 favorites. This was not an easy decision by any means!\n\nView all of the beautiful submissions!\nhttps://forum.gelato.network/t/gelatos-art-vernissage/206/71\n\nWe are really excited to be kicking off the Gelato DAO in a fun and inspiring way.\n\nThe top 3 artworks from Art Vernissage will be chosen by $GEL token holders in a public vote held by the Gelato DAO.\n\n1st Place: $2,500 USD worth of GEL tokens\n2nd Place: $1,000 USD worth of GEL tokens\n3rd Place: $500 USD worth of GEL tokens\n\nHere you can view the 5 chosen shortlisted winners and their respective titles.\n\nhttps://docs.google.com/document/d/11b85v8P6xMZYy1PIk2JwwMDV_ph6OEZVW9H3lW2nsow/edit?usp=sharing\n\n\"Geloticons\" - skippy\n\"Gelato & Chill\" - jtp\n“The Future Is Automated” - PATRYK\n\"Reach Gelato in París”- destinyincode\n \"Paint The Future” - 0x2qss\n\nPlease vote with your delegated GEL tokens on the artworks and their respective titles below - ranking them by your most preferred to the least.\n\nThis proposal will use of 1035 GEL of the Gelato DAO's treasury to transfer the prize money to the winners upon completion of this Proposal",
+      "protocol": "gelato",
+      "adapter": "snapshot",
+      "proposer": "0x8d0f1Afc37f6b4C2119362f3F0A98c65941C998F",
+      "totalVotes": 82,
+      "blockNumber": 13714541,
+      "externalUrl": "https://snapshot.org/#/gelato.eth/proposal/0x49a973116f0766b0f7760e484149a0afe82d8ee2c1ddfcda061746b4271e2284",
+      "startTime": {
+        "timestamp": 1638359120
+      },
+      "endTime": {
+        "timestamp": 1638618320
+      },
+      "startTimestamp": 1638359120,
+      "endTimestamp": 1638618320,
+      "currentState": "closed",
+      "choices": [
+        "Geloticons",
+        "Gelato & Chill",
+        "The Future Is Automated",
+        "Reach Gelato in París",
+        "Paint The Future"
+      ],
+      "results": [
+        {
+          "total": 48601.953,
+          "choice": 3
+        },
+        {
+          "total": 255475.62,
+          "choice": 4
+        },
+        {
+          "total": 7421618.0,
+          "choice": 0
+        },
+        {
+          "total": 119812.64,
+          "choice": 2
+        },
+        {
+          "total": 99556.78,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 7421617.810125656,
+          "choice": 0
+        },
+        {
+          "total": 99556.77682889494,
+          "choice": 1
+        },
+        {
+          "total": 119812.64659955176,
+          "choice": 2
+        },
+        {
+          "total": 48601.95204437713,
+          "choice": 3
+        },
+        {
+          "total": 255475.644861565,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690391655778,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

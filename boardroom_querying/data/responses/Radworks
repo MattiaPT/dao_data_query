@@ -1,0 +1,2566 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjI1",
+      "id": "25",
+      "title": "[RGP-17] Upgrade Governance Contracts to OZ Governor [September 24 Cycle]",
+      "content": "",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x7dCaCF417BA662840DcD2A35b67f55911815dD7e",
+      "totalVotes": 8,
+      "blockNumber": 20826607,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1727255039,
+      "endTimestamp": 1727463311,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4676719.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20826606
+          },
+          "event": "pending",
+          "timestamp": 1727255027,
+          "txHash": "0xe4f054e468fa1f478a88b2efc6b7e77e93a55edf8d98232241b19bd6a7492f3a"
+        },
+        {
+          "time": {
+            "blockNumber": 20862429
+          },
+          "event": "executed",
+          "timestamp": 1727686787,
+          "txHash": "0x8d7026762c8681241e17deab0a555d7063c43ee1e39157af7f62c7745c84e735"
+        },
+        {
+          "time": {
+            "blockNumber": 20847986
+          },
+          "event": "queued",
+          "timestamp": 1727512691,
+          "txHash": "0xd5e1fc8f36cf6baebeb3a4f07fe3d1b8374a9cc9bcb0ba223528fce19ce5b4b4"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1727255287468,
+      "txHash": "0xe4f054e468fa1f478a88b2efc6b7e77e93a55edf8d98232241b19bd6a7492f3a",
+      "quorum": 4000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjI0",
+      "id": "24",
+      "title": "Upgrade to Governor Bravo",
+      "content": "",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x7dCaCF417BA662840DcD2A35b67f55911815dD7e",
+      "totalVotes": 1,
+      "blockNumber": 20822548,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1727206127,
+      "endTimestamp": 1727414435,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1146617.0,
+          "choice": 0
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20822547
+          },
+          "event": "pending",
+          "timestamp": 1727206115,
+          "txHash": "0x13314c484e390b1eb81aedd9318f387a5905d6bc82fb2fb0f9d0a5c758a70d8c"
+        },
+        {
+          "time": {
+            "blockNumber": 20826523
+          },
+          "event": "canceled",
+          "timestamp": 1727254031,
+          "txHash": "0x8667cb92396e4ca2a192eb5c828552a60854440ade963269b779dd22462c3fc4"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1727207249866,
+      "txHash": "0x13314c484e390b1eb81aedd9318f387a5905d6bc82fb2fb0f9d0a5c758a70d8c",
+      "quorum": 4000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjIz",
+      "id": "23",
+      "title": "[RGP-25] - Start the Radworks Seed Network (RSN) Org ",
+      "content": "**If executed, this proposal will transfer 193 381 RAD from the Radworks Treasury to the RSN Org.**\n\n**RFC**: <https://community.radworks.org/t/rfc-rgp-25-start-the-radworks-seed-network-rsn-org/3520>&#x20;\n\n**Formal Review**: <https://community.radworks.org/t/formal-review-rgp-25-start-the-radworks-seed-network-rsn-org/3528>\n\n**Note**: The RAD amount requested has been updated to reflect the price of the last thirty days.\n\n\n\n0x31c8eacbffdd875c74b94b077895bd78cf1e64a3 is the RAD contract\n\n0x8da8f82d2bbdd896822de723f55d6edf416130ba is the Radworks Treasury address.\n\n0x40E985f47e89ad88A7863F6DAb60A04118193932 is the RSN multi-sig.",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x69dceee155C31eA0c8354F90BDD65C12FaF5A00a",
+      "totalVotes": 10,
+      "blockNumber": 19720922,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1713909467,
+      "endTimestamp": 1714118363,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4300205.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19777083
+          },
+          "event": "executed",
+          "timestamp": 1714588223,
+          "txHash": "0x46d9245481d5808852eb4e2257ebe6f4cc5d0fcc56dbc91cadac0a5c683dacd1"
+        },
+        {
+          "time": {
+            "blockNumber": 19759639
+          },
+          "event": "queued",
+          "timestamp": 1714377611,
+          "txHash": "0xd2b0190411d28e8220baf37e57f91c3489a0a77dee20ce31dde0a38535acaa5f"
+        },
+        {
+          "time": {
+            "blockNumber": 19720921
+          },
+          "event": "pending",
+          "timestamp": 1713909455,
+          "txHash": "0xc31875bdc3f9b9ae5174e2cb18ca45c63ba707c8eeb0f0d0156bb67dba69cdd3"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1713909619807,
+      "txHash": "0xc31875bdc3f9b9ae5174e2cb18ca45c63ba707c8eeb0f0d0156bb67dba69cdd3",
+      "quorum": 4000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjIy",
+      "id": "22",
+      "title": "[RGP-23] Start the Radicle Integrations & Tooling Org",
+      "content": "After receiving community approval via a Discourse poll, the proposal authors of \\[RPG-23] have decided to resubmit RGP-23 for an emergency vote. Find full context and Discourse poll results here: <https://community.radworks.org/t/submission-rgp-23-start-the-radicle-integrations-tooling-org/3515/3>\n\nIf executed, this proposal will:\n\n1. Transfer 175 000 USDC from the Radworks Treasury to the Radicle Integrations & Tooling Org multi-sig\n2. Transfer 66 114.79 RAD from the Radworks Treasury to the Radicle Integrations & Tooling Org multi-sig\n\n## Notes\n\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is the USDC contract (<https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48>).\n\n0x31c8eacbffdd875c74b94b077895bd78cf1e64a3 is the RAD contract (<https://etherscan.io/token/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3>).\n\n0x8da8f82d2bbdd896822de723f55d6edf416130ba is the Radworks Treasury address.\n\n0xBC60231C54710B018e3a5b00d9D9c4f99C581dFc is the Radicle Integrations & Tooling Multisig\n\n### ACTIONS\n\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 0 \"transfer(address,uint256)\" 0xBC60231C54710B018e3a5b00d9D9c4f99C581dFc 175000000000\n\n0x31c8eacbffdd875c74b94b077895bd78cf1e64a3 0 \"transfer(address,uint256)\" 0xBC60231C54710B018e3a5b00d9D9c4f99C581dFc 66114790000000000000000",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 10,
+      "blockNumber": 19588618,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1712308919,
+      "endTimestamp": 1712518127,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4378842.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19623738
+          },
+          "event": "executed",
+          "timestamp": 1712734055,
+          "txHash": "0xab99762d6b1589042e96adf1d8e5bb7e7e30ad207ace76a6475f965a5d3fea4d"
+        },
+        {
+          "time": {
+            "blockNumber": 19588617
+          },
+          "event": "pending",
+          "timestamp": 1712308907,
+          "txHash": "0x04b8deaad7f0038bc13071f3dc9e053f1cbc09e0e97ef7f241205fec3ce4085f"
+        },
+        {
+          "time": {
+            "blockNumber": 19609024
+          },
+          "event": "queued",
+          "timestamp": 1712555975,
+          "txHash": "0xe6b16fad3ccf1731694ed070ea50af2a1ee7f203d94e157e34e2edbcf6fb8e60"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712309391595,
+      "txHash": "0x04b8deaad7f0038bc13071f3dc9e053f1cbc09e0e97ef7f241205fec3ce4085f",
+      "quorum": 4000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjIx",
+      "id": "21",
+      "title": "[RGP-23] Start the Radicle Integrations & Tooling Org",
+      "content": "If executed, this proposal will:\n\n\n\n1. Transfer 178 494.31 USDC from the Radworks Treasury to the Radicle Integrations & Tooling Org multi-sig\n2. Transfer 80 488.70 RAD from the Radworks Treasury to the Radicle Integrations & Tooling Org multi-sig\n\n\n\n## Notes\n\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is the USDC contract (https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48).\n\n0x31c8eacbffdd875c74b94b077895bd78cf1e64a3 is the RAD contract (https://etherscan.io/token/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3).\n\n0x8da8f82d2bbdd896822de723f55d6edf416130ba is the Radworks Treasury address.\n\n0xBC60231C54710B018e3a5b00d9D9c4f99C581dFc is the Radicle Integrations & Tooling Multisig\n\n\n\n### ACTIONS\n\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 0 \"transfer(address,uint256)\" 0xBC60231C54710B018e3a5b00d9D9c4f99C581dFc 178494310000\n\n0x31c8eacbffdd875c74b94b077895bd78cf1e64a3 0 \"transfer(address,uint256)\" 0xBC60231C54710B018e3a5b00d9D9c4f99C581dFc 80488700000000000000000",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 7,
+      "blockNumber": 19520812,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1711482935,
+      "endTimestamp": 1711696295,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1448178.4,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19520811
+          },
+          "event": "pending",
+          "timestamp": 1711482923,
+          "txHash": "0x83dc8d2c617acc83c1d5b9a01369f5cf56426d81c8885efb6cb7220708468fce"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711483235050,
+      "txHash": "0x83dc8d2c617acc83c1d5b9a01369f5cf56426d81c8885efb6cb7220708468fce",
+      "quorum": 4000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjIw",
+      "id": "20",
+      "title": "[RGP-20] Grants Org Proposal 2024",
+      "content": "If executed, this proposal will:\n\n1\\. Transfer 250,000 USDC from the Radworks Treasury to the Radworks Grant Program's multi-sig\n\n2\\. Transfer 100,000 RAD from the Radworks Treasury to the Radworks Grant Program's multi-sig\n\nPlease see discussions here:\n\n* &#x20;Discussion: <https://community.radworks.org/t/discussion-rgp-20-grants-org-proposal-2024/3403>\n* &#x20;Formal Review: <https://community.radworks.org/t/formal-review-rgp-grants-org-proposal-2024/3419>\n\nPlease see Grants Program repo here (to be mirrored on Radicle in future):\n\n* &#x20;<https://github.com/radicle-foundation/radworks-grants>\n\n\\## Notes\n\n* &#x20;\\`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48\\` is the USDC contract (https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48).\n* &#x20;\\`0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3\\` is the RAD contract (https://etherscan.io/token/0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3).\n* &#x20;\\`0x8da8f82d2bbdd896822de723f55d6edf416130ba\\` is the Radworks Treasury address.\n* &#x20;\\`0x394B920c5d39E0Ca40fCa2871569B6B90D750c7c\\` is the Radworks Grants Program's multi-sig address.\n\n\\## ACTIONS ##\n\n\\`\\`\\`\n\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 0 \"transfer(address,uint256)\" 0x394B920c5d39E0Ca40fCa2871569B6B90D750c7c 250000000000\n\n0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3 0 \"transfer(address,uint256)\" 0x394B920c5d39E0Ca40fCa2871569B6B90D750c7c 100000000000000000000000\n\n\\`\\`\\`",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 6,
+      "blockNumber": 19068612,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1706003759,
+      "endTimestamp": 1706213003,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4359219.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19068611
+          },
+          "event": "pending",
+          "timestamp": 1706003747,
+          "txHash": "0xe55b3e655f6279334f370e239b5aa3eb11c9c0e919c77e433894cef297330d55"
+        },
+        {
+          "time": {
+            "blockNumber": 19089875
+          },
+          "event": "queued",
+          "timestamp": 1706261207,
+          "txHash": "0x73db038708d9847f3978d5f97e664afa065b638d9235c65ce13f8755470f33e6"
+        },
+        {
+          "time": {
+            "blockNumber": 19111036
+          },
+          "event": "executed",
+          "timestamp": 1706517431,
+          "txHash": "0x94610c89cfd0056f45ab1e2f6f985899e6c04186352e6c45399e65f5f6715e9d"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706004217615,
+      "txHash": "0xe55b3e655f6279334f370e239b5aa3eb11c9c0e919c77e433894cef297330d55",
+      "quorum": 4000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjE5",
+      "id": "19",
+      "title": "[RGP-21] Foundation Org Proposal 2024",
+      "content": "\\# \\[RGP-21] Foundation Org Proposal 2024\n\n\n\nIf executed, this proposal will:\n\n\n\n1\\. Transfer 400,877 USDC from the Radicle Treasury to a multi-sig controlled by the Foundation Org to support the 2024 work of the Operations, Strategy, and Governance Committee, as well as Foundation administration.\n\n\n\n\\*\\*How was this proposal discussed?\\*\\*\n\nPlease see discussions here:\n\n\\* Discussion: <https://community.radworks.org/t/discussion-rgp-21-foundation-org-proposal-2024/3404>\n\n\\* Formal Review: <https://community.radworks.org/t/formal-review-rgp-21-foundation-org-proposal-2024/3420>\n\n\\* Snapshot Poll: <https://snapshot.org/#/gov.radworks.eth/proposal/0x3b41fadaba26f961905a0d4d0854320dec014a5c96ee690a1b2ff245cd42c4fa>\n\n\n\n\\## Notes\n\n\\* \\`0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48\\` is the USDC contract (https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48).\n\n\\* \\`0x8da8f82d2bbdd896822de723f55d6edf416130ba\\` is the Radworks Treasury address.\n\n\\* \\`0x85C6CeEeb8E1A2E49D23cE8b9E0e59413FDb8bbB\\` is the Foundation Council Multisig&#x20;\n\n\n\n\n\n\\## ACTIONS ##\n\n\\`\\`\\`\n\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 0 \"transfer(address,uint256)\" 0x85C6CeEeb8E1A2E49D23cE8b9E0e59413FDb8bbB 400877000000\n\n\\`\\`\\`",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 8,
+      "blockNumber": 18671111,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1701186503,
+      "endTimestamp": 1701395339,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4776761.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18671110
+          },
+          "event": "pending",
+          "timestamp": 1701186491,
+          "txHash": "0x3c0ebcc614ebdd29eadd18b159ba2e08b875006897601aecf5e60497daba1703"
+        },
+        {
+          "time": {
+            "blockNumber": 18693420
+          },
+          "event": "queued",
+          "timestamp": 1701456143,
+          "txHash": "0x205d7feb47a62c0644d4050e296ee1ad67fd6a921b365e784fcaafe7e65b9fc1"
+        },
+        {
+          "time": {
+            "blockNumber": 18712805
+          },
+          "event": "executed",
+          "timestamp": 1701690539,
+          "txHash": "0x2f14d5e536bb9180e3a8967ce4b17d3f304722ce43914c97392dbbc2f188947b"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701187153083,
+      "txHash": "0x3c0ebcc614ebdd29eadd18b159ba2e08b875006897601aecf5e60497daba1703",
+      "quorum": 4000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjE4",
+      "id": "18",
+      "title": "[RGP-18] Radicle Org Proposal 2024",
+      "content": "",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x464D78a5C97A2E2E9839C353ee9B6d4204c90B0b",
+      "totalVotes": 8,
+      "blockNumber": 18670710,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1701181595,
+      "endTimestamp": 1701390479,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4776761.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18670709
+          },
+          "event": "pending",
+          "timestamp": 1701181583,
+          "txHash": "0xe0a9deea47004c0306386ff8cd8de32d2d2ec737a7b5d65a347d719f994db228"
+        },
+        {
+          "time": {
+            "blockNumber": 18693418
+          },
+          "event": "queued",
+          "timestamp": 1701456119,
+          "txHash": "0x647e7f4adb79969d50513de256658ac3bd50852fc73d43da53a930a5a4293cdc"
+        },
+        {
+          "time": {
+            "blockNumber": 18713131
+          },
+          "event": "executed",
+          "timestamp": 1701694487,
+          "txHash": "0x97a42b4fe10c944276dbacc2bbbe6cb07bcf6bbe116c704f0eda2a9524ef23da"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701182262312,
+      "txHash": "0xe0a9deea47004c0306386ff8cd8de32d2d2ec737a7b5d65a347d719f994db228",
+      "quorum": 4000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjE3",
+      "id": "17",
+      "title": "[RGP-19] Drips Org Proposal 2024",
+      "content": "If executed, this proposal will:\n\n1. transfer 1183278 USDC from the Radworks Treasury to the Safe of the Public Goods Association (core maintainers of Drips)\n\n* Discussion: <https://community.radworks.org/t/discussion-rgp-19-drips-org-proposal-2024/3409>\n* Snapshote vote: <https://snapshot.org/#/gov.radworks.eth/proposal/0xb46862a0c4a151cfb24ac40adf57e72ce2ae67e6e1b63849c229f6f2861d3d89>\n* Formal review: <https://community.radworks.org/t/formal-review-rgp-19-drips-org-proposal-2024/3422>\n\n## Notes\n\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is the USDC contract\n\n0x8da8f82d2bbdd896822de723f55d6edf416130ba is the Radworks Treasury&#x20;\n\n0xcC7d34C76A9d08aa0109F7Bae35f29C1CE35355A is the Safe of Public Goods Association",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x69dceee155C31eA0c8354F90BDD65C12FaF5A00a",
+      "totalVotes": 9,
+      "blockNumber": 18670162,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1701174971,
+      "endTimestamp": 1701383867,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4519482.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18670161
+          },
+          "event": "pending",
+          "timestamp": 1701174959,
+          "txHash": "0xff582a0dc5276b5707bbaf47ba1642cd3d9fbdc0b7151db97e3244d7f8a34234"
+        },
+        {
+          "time": {
+            "blockNumber": 18693413
+          },
+          "event": "queued",
+          "timestamp": 1701456059,
+          "txHash": "0x14bbcc9b0cc0ce834d99802199ae3b027093369f12dfe5b7e0500b6f77cea43a"
+        },
+        {
+          "time": {
+            "blockNumber": 18712121
+          },
+          "event": "executed",
+          "timestamp": 1701682283,
+          "txHash": "0x867bbaea4b78baf0525ba67561c2cc0c1aef3fc267157584c9bba71b72f04a92"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701175322432,
+      "txHash": "0xff582a0dc5276b5707bbaf47ba1642cd3d9fbdc0b7151db97e3244d7f8a34234",
+      "quorum": 4000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjE2",
+      "id": "16",
+      "title": "16 - Fund Radworks Dependencies with Drips",
+      "content": "If executed, this proposal will:\n\n1. transfer 500000 USDC and 373134 RAD from the Radworks Treasury and deposit them to the Drips Protocol\n2. stream the above funds to the following Drip List over one year https://www.drips.network/app/drip-lists/50330452048867519181028275890986093327647919805766323166158196453514 that further funds the software dependencies of the Radicle, Drips and Grants orgs.\n\n## How was this proposal discussed?\n\n- Discussion: https://community.radworks.org/t/formal-review-rgp-16-fund-radworks-dependencies-with-drips/3367\n- Snapshote vote: https://snapshot.org/#/gov.radicle.eth/proposal/0xf0c5ff136876ce04b030a46cefb0f7b6dc23a0087a99389f54567d36e09d7666\n\n## Notes\n\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is the USDC contract.\n0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3 is the RAD contract.\n0x8da8f82d2bbdd896822de723f55d6edf416130ba is the Radworks Treasury.\n0xd0Dd053392db676D57317CD4fe96Fc2cCf42D0b4 is the Drips contract (main contract of the Drips protocol).\nhttps://www.drips.network/app/drip-lists/50330452048867519181028275890986093327647919805766323166158196453514 is the Drip List with the Radworks allocation. It's controlled by this NFT that the Radworks Treasury holds https://etherscan.io/tx/0xb2a0c3c99e812ecb545689ba7f83405c7960c79641785765cd2c6596ae5c44ec",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x69dceee155C31eA0c8354F90BDD65C12FaF5A00a",
+      "totalVotes": 15,
+      "blockNumber": 18027129,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1693395035,
+      "endTimestamp": 1693604063,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1581122.2,
+          "choice": 0
+        },
+        {
+          "total": 4008170.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18044757
+          },
+          "event": "queued",
+          "timestamp": 1693608275,
+          "txHash": "0xec19fe238adc76d564b849b5d771bf86bb6453804cfd7fa80116c335849ff194"
+        },
+        {
+          "time": {
+            "blockNumber": 18059053
+          },
+          "event": "executed",
+          "timestamp": 1693781435,
+          "txHash": "0x0a72b65611e7458e7b3fab5f4b059e6bc2a3f11aae2550e5aa7628df9baa2836"
+        },
+        {
+          "time": {
+            "blockNumber": 18027128
+          },
+          "event": "pending",
+          "timestamp": 1693395023,
+          "txHash": "0x47d2e40cf623da6d302390ca2fc0bab1f60198418ec5a03abd01414b08c40428"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1693395544759,
+      "txHash": "0x47d2e40cf623da6d302390ca2fc0bab1f60198418ec5a03abd01414b08c40428",
+      "quorum": 4000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweGYwYzVmZjEzNjg3NmNlMDRiMDMwYTQ2Y2VmYjBmN2I2ZGMyM2EwMDg3YTk5Mzg5ZjU0NTY3ZDM2ZTA5ZDc2NjY=",
+      "id": "0xf0c5ff136876ce04b030a46cefb0f7b6dc23a0087a99389f54567d36e09d7666",
+      "title": "[RGP - 16] - Fund Radworks Dependencies with Drips",
+      "content": "|Author:|lftherios|\n| --- | --- |\n|Type:|Treasury Distribution|\n|Created:|2023-07-14|\n|Status:|active|\n\n## Purpose\n\nThe purpose of this proposal is to allocate funds through the Drips toolkit, to support the critical software dependencies of our DAO. By providing sustainable financial support to these essential projects over the course of one year, we aim to foster their growth, ensure their continued maintenance, and fortify the overall resilience and success of our DAO ecosystem.\n\n## Overview\n\nI propose to allocate a total of $1 million in RAD and USDC, split between the two tokens, to fund our critical dependencies. This funding will be distributed over a period of one year, allowing for consistent and reliable support to the projects that are crucial to our operations.\n\nThe Radicle, Drips and Grants sub-DAOs have created their own Drip Lists with their selected dependencies and the percentage allocation, and the proposal is for the DAO to fund them.\n\nWith regards to tokens, I believe that using RAD and USDC in equal amounts is the right approach. USDC provides a reliable and stable income for the recipients, while RAD gives recipients the ability to participate in the decision making of radworks and shape its future.\n\nConsidering the estimated number of 30-50 projects as recipients (an estimate I got by talking to different org leads), the proposed $1 million funding has the potential to make a significant impact. By distributing resources through Drips, we streamline the funding process, eliminating unnecessary complexity and ensuring that financial support seamlessly reaches its intended recipients.\n\n## Flow of Funds & Recipients\n\n1. Each sub-DAO (Drips, Radicle and Grants) has created one Drip List each with their critical dependencies (see below all recipients for each list)\n2. As part of the proposal code, radworks will create a Drip List that contains these three Drip Lists with the following configuration:\n    - [Drips Dependencies](https://www.drips.network/app/drip-lists/48495160997488293670723292622742268320163565037397170198477469637178) (45%)\n    - [Radicle Dependencies](https://www.drips.network/app/drip-lists/34625983682950977210847096367816372822461201185275535522726531049130) (45%)\n    - Grants Org Dependencies (10%)*\n3. radworks deposits funds to the Drips protocol and starts streaming $1m RAD and USDC over 1 year\n\n*Grants Drip List will be provided later today\n\nThe rationale for proposing the above orgs and weights is based on the fact that they are the ones that are software focused and as a result have critical software dependencies. The above allocation has been coordinated with the respected org leads (@cloudhead & @bordumb).\n\nAnother that it's important to note is that each sub-\nwill have the ability to change their list over the course of a year, as their dependencies evolve. For transparency reasons, we require every org that changes their Drip List recipients to provide an update on the forum about what change is being made and why, by posting it as a reply to the final proposal post. \n\nWe also strictly outline that dependancies on Drip Lists should be external recipients (outside of Radworks ecosystem) to avoid conflict of interest. No library developed and maintained by a sub-DAO contributor should be included or considered.\n\n## More Questions & Answers\n\n- Proposal Code & risks?\n\nThe proposal code is currently being developed and will be shared here in the next few days. The code will be thoroughly tested in advance and a risk report will be shared here before the final vote.\n\n- What happens after the funds have been streamed / does the support process for recipients of the funds being streamed look like? How dependancies will be notified and supported after the streaming starts to make sure they know how to claim funds\n\nOur Partnerships lead will reach out to each project or maintainer using their preferred communication channel (tw, gh, email, etc). A set of scripts have been crafted.\n\nThe aim is to inform them about the funding they’ll receive and provide some context about our work and sources of the funding. We’ll offer assistance in getting started, onboarding, and addressing any inquiries they have.\n\nOnce they claim those funds (or if they decide not to), we’ll conduct a user research session or questionnaire to gather feedback. This feedback will help us identify strengths, weaknesses, and opportunities for improvement in our approach.\n\n- What about software projects that are in multiple lists?\n\nThis is totally ok and will be allowed, as this means that this software project is having impact in more than one sub-DAO and that should be reflected on the relevant lists.\n\n## Objectives\n\nThe objectives of this proposal are as follows:\n\n1. Ecosystem Resilience: Strengthening our critical dependencies is vital to the overall resilience of our DAO ecosystem. By ensuring the continuous support and maintenance of these projects, we safeguard the stability and reliability of our infrastructure. This, in turn, enhances our ability to fulfill our mission and serve our community effectively.\n\n2. Collaboration and Interdependence: Through this funding initiative, we emphasize the spirit of collaboration and interdependence within our ecosystem. By supporting our critical dependencies, we acknowledge the significant contributions they make to our success. This fosters a mutually beneficial relationship where the success of our DAO is intricately tied to the achievements of our dependencies. In addition, we create an opportunity to strengthen our relationship with them and onboard them to our ecosystem.\n\n3. Long-Term Sustainability: The allocation of funds over a one-year period demonstrates our commitment to the long-term sustainability of our critical dependencies. By providing consistent financial support, we create an environment where these projects can thrive, attracting additional contributors and establishing a foundation for their continued development and maintenance.\n\n4. Drips Ecosystem Growth: By adopting Drips as the mechanism for this proposal, we have the opportunity to showcase its strengths and attract new users.\n\nDrips' features, such as per-second streaming, flexibility in token choice as well as its flexible identity model where funders can stream to any git forge url (in addition to an Ethereum address), ensure a streamlined and user-friendly experience for both our DAO and the recipients of funding.\n\nOverall, this proposal embodies our commitment to the long-term success of our DAO and the interconnected projects that contribute to our achievements.",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xDdEa8D3444e125478cbaA6a678509DfbACef123f",
+      "totalVotes": 8,
+      "blockNumber": 17962621,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0xf0c5ff136876ce04b030a46cefb0f7b6dc23a0087a99389f54567d36e09d7666",
+      "startTime": {
+        "timestamp": 1692615649
+      },
+      "endTime": {
+        "timestamp": 1693234800
+      },
+      "startTimestamp": 1692615649,
+      "endTimestamp": 1693234800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3385825.5,
+          "choice": 0
+        },
+        {
+          "total": 1581122.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3385825.5616927072,
+          "choice": 0
+        },
+        {
+          "total": 1581122.2670975602,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692616120102,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweGZkZTBhNmMwOGIzNTg4ZDQ0YmQ2ZTg2NThkMTVmNDdlNDlhZTY2ODBkMzJjZmQzYjY2OGNkN2JkYjc3YWRkMjU=",
+      "id": "0xfde0a6c08b3588d44bd6e8658d15f47e49ae6680d32cfd3b668cd7bdb77add25",
+      "title": "Migrate this space",
+      "content": "Migrate this space to gov.radworks.eth",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0x2f0963E77cA6AC0c2Dad1Bf4147B6B40e0dD8728",
+      "totalVotes": 0,
+      "blockNumber": 17991483,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0xfde0a6c08b3588d44bd6e8658d15f47e49ae6680d32cfd3b668cd7bdb77add25",
+      "startTime": {
+        "timestamp": 1692963868
+      },
+      "endTime": {
+        "timestamp": 1693223068
+      },
+      "startTimestamp": 1692963868,
+      "endTimestamp": 1693223068,
+      "currentState": "closed",
+      "choices": [
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692964414116,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjE1",
+      "id": "15",
+      "title": "15 - Start the Drips Org",
+      "content": "# Start the Drips Org\n\nIf executed, this proposal will:\n\n\n1. Transfer 1,520,566.55 USDC from the Radicle Treasury to a multi-sig controlled by the Drips Org to support the development of the Drips protocol and application in 2023.\n\n## How was this proposal discussed?\n\nDiscussion: https://radicle.community/t/discussion-drips-org-proposal-2023/3289\nFormal Review: https://radicle.community/t/formal-review-rgp-15-start-the-drips-org/3306\nSnapshot: https://snapshot.org/#/gov.radicle.eth/proposal/0x79e6a3d6dfefd24815e6a38ef4a0bdadf26f18e9e0cbdad855bd6ec9a6894294\n\n## Notes\n\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 is the USDC contract.\n0xcC7d34C76A9d08aa0109F7Bae35f29C1CE35355A is the Drips Org Multisig",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0xc100BFC680A73E0072ff287964b8bf850217eFb6",
+      "totalVotes": 7,
+      "blockNumber": 17122789,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1682419811,
+      "endTimestamp": 1682629535,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 4969780.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17144259
+          },
+          "event": "queued",
+          "timestamp": 1682680475,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 17172417
+          },
+          "event": "executed",
+          "timestamp": 1683022355,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682420304428,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjE0",
+      "id": "14",
+      "title": "14 - Start the Radicle Org",
+      "content": "# Start the Radicle Org\n\nIf executed, this proposal will:\n\n1. Transfer 1,784,378 USDC from the Radicle Treasury to a multi-sig controlled by the Radicle Org to support the development of the Radicle Stack in 2023.\n\n## How was this proposal discussed?\n* Discussion: <https://radicle.community/t/discussion-radicle-org-proposal-2023/3288>\n* Formal Review: <https://radicle.community/t/formal-review-rgp-14-start-the-radicle-org/3304>\n* Snapshot Poll: <https://snapshot.org/#/gov.radicle.eth/proposal/0xdfd05adad347d495ac8b38c857a817725d42cbc27a7608aecb137b763227e638>\n\n## Notes\n* `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` is the USDC contract.\n* `0x4016Ce2f73100138831CAf716f30EEC3ef1dFa1D` is the Radicle Org Multisig",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x464D78a5C97A2E2E9839C353ee9B6d4204c90B0b",
+      "totalVotes": 6,
+      "blockNumber": 17122033,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1682410607,
+      "endTimestamp": 1682620307,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 4148310.2,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17144254
+          },
+          "event": "queued",
+          "timestamp": 1682680415,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 17172428
+          },
+          "event": "executed",
+          "timestamp": 1683022487,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682410668825,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweDgwYTFmOTJmOTVmMzQ4ZDYwZWVhYzE2MjcyYmFlOTQwY2ExYjkwNDc4ZjcwYTcyY2YzNDI2M2Y1Y2Y0OGMyYmI=",
+      "id": "0x80a1f92f95f348d60eeac16272bae940ca1b90478f70a72cf34263f5cf48c2bb",
+      "title": "Start the Grants Org",
+      "content": "**If executed, this proposal will:**\n\nApprove the continuation of the Grants Org to advise and fund grant projects that contribute to the Radicle ecosystem and the broader web3 space. \n\nIt is important to note that this proposal will not include any on-chain work (e.g. transfer of funds) as the Grants Org is already funded and will simply use optimistic funding as outlined in the [Formal Review](https://radicle.community/t/formal-review-radicle-grants-program-continuation/3075) and [Discussion](https://radicle.community/t/discussion-grants-org-proposal-2023/3290).\n\n**How was this proposal discussed?**\n\nPlease see discussions here:\n\n- Temperature Check: https://radicle.community/t/temperature-check-radicle-grants-program/2461/8\n- Discussion: https://radicle.community/t/discussion-grants-org-proposal-2023/3290\n- Formal Review: https://radicle.community/t/formal-review-radicle-grants-program-continuation/3075",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xcAa3a3c852442F06806170D137248bb21ddb0E1B",
+      "totalVotes": 15,
+      "blockNumber": 17066102,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0x80a1f92f95f348d60eeac16272bae940ca1b90478f70a72cf34263f5cf48c2bb",
+      "startTime": {
+        "timestamp": 1681732801
+      },
+      "endTime": {
+        "timestamp": 1682362826
+      },
+      "startTimestamp": 1681732801,
+      "endTimestamp": 1682362826,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 5500231.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5500231.176718281,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681730452016,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweGRmZDA1YWRhZDM0N2Q0OTVhYzhiMzhjODU3YTgxNzcyNWQ0MmNiYzI3YTc2MDhhZWNiMTM3Yjc2MzIyN2U2Mzg=",
+      "id": "0xdfd05adad347d495ac8b38c857a817725d42cbc27a7608aecb137b763227e638",
+      "title": "[RGP-14] - Start the Radicle Org",
+      "content": "> ❗️ @abbey is posting this on behalf of @cloudhead\n\n| Author(s): | `cloudhead`, `zlatan` |\n| ---------- | ----------------- |\n| Type:      | `executeable` - `org`               |\n| Created:   | `2023-03-22`        |\n| Status:    | `active`            |\n\n## Purpose\n\nThe Radicle Org aims to develop a fully-sovereign code collaboration stack called \"Radicle\".\n\nRadicle is designed to be a secure, decentralized and powerful alternative to code forges such as GitHub and GitLab while preserving user sovereignty and freedom.\n\nSpecifically, Radicle attempts to address the following problems:\n\n* Platform risk\n    * GitHub and others have been known to censor projects as well as shutdown developer accounts (eg. youtube-dl)\n    * GitHub is closed source and its ToS allows them to change and remove functionality at will.\n    * GitHub and others create lock-in via their non-git features, eg. issues, pull requests etc.\n    * GitHub trains Copilot on user data without consent.\n    * GitHub and others can choose to monetize any feature at any time, requiring users to pay for something they weren't paying for before.\n    * GitHub and others are built as monolithic platforms that are not adaptable and changeable by users.\n* Open access\n    * GitHub and others are not available in all countries due to trade embargos and require an account\n      for interacting with the platform.\n* Privacy\n    * GitHub and others have access to all private user repositories.\n* Data ownership\n    * GitHub and others own their user's data and this data is not part of the git repository, hence it cannot be migrated.\n* Security\n    * By not using cryptography, GitHub's security model allows hackers and/or employees to forge user data\n      without evidence to the user.\n* Availability\n    * When GitHub or GitLab are down, there is no possible access to the service. Only the source code remains accessible.\n\nBy providing the following solutions:\n\n* Users are able to run their own nodes without reliance on any third parties. They cannot be de-platformed.\n* All social artifacts (eg. comments, issues etc.) are stored in git, and thus easy to migrate, backup and\n  access both online and offline. Users own their data.\n* Radicle is always available, since it is local-first. Users don't need internet access to carry out a majority of tasks.\n* Radicle uses public-key cryptography throughout the product and protocol, removing the need for trust in third-parties.\n  Every social artifact or piece of code can be verified by anyone.\n* Radicle plans to add end-to-end encryption to git repositories, protecting all user data from third-parties.\n* Radicle is open source and permissibly licensed.\n* Radicle is censorship resistant: any node on the network can choose to host a radicle repository and make it\n  available to others.\n* Radicle is an open protocol that can change and adapt to user needs and a changing world.\n\n## Annual Strategy & Quarterly Objectives\n\n### Objectives\n\n* Get closer to GitHub core feature parity.\n    * This is the primary goal, and is elaborated on in the Roadmap section.\n    * GitHub's core features are considered to be:\n        * Repository hosting\n        * Issues\n        * Pull Requests\n        * Actions (CI/CD)\n        * User profiles\n        * Orgs\n        * Search\n        * Notifications\n    * We will focus on the first four to five\n* Stabilize the technology stack \n    * Stabilize the protocol specification via Radicle Improvement Proposals (RIPs).\n    * Stabilize reference implementation (`heartwood`).\n    * Add any required supporting features to the web.\n* Relaunch (social-)media presence\n    * Launch a technical blog\n        * Promote to the FOSS/Linux communities.\n    * Re-launch website (https://radicle.xyz)\n    * Re-launch Twitter account (@radicle)\n    * Build a presence on decentralized media (eg. mastodon, nostr)\n\n### Roadmap\n\n* Q2 2023: External/public release to \"community\"\n    * Focused on FOSS communities, P2P, Bitcoin\n    * Code Review functionality\n        * This includes inline comments and discussions around code.\n    * Overhaul of `app.radicle.xyz` application using new brand\n        * New landing page.\n        * Patches & Issues.\n        * Basic repository discovery.\n    * Community seed node\n        * Users can specify whether or not they want to be \"tracked\"\n* Q3 2023: Identities\n    * Initial R&D on *Radicle Identities*\n        * The goal is for users to have an easy way to associate metadata\n          to their DID, eg. avatar, name, links etc. in a peer-to-peer way.\n* Q4 2023: CI/CD\n    * Launch of CI/CD functionality in Radicle\n        * We intend to launch our own take on CI/CD that runs peer-to-peer.\n        \nIf time permits, we will also work on:\n\n* Launch of *Secure artifacts*\n    * We intend to launch our own take of GitHub \"Releases\". This can be\n      described as a way of doing cryptographically-secure binary releases\n      using Radicle's trust model.\n    \n## Organizational Structure\n\n### Legal Structure\n\nCorporate entity (Sárl) based in Switzerland, with `@cloudhead` as managing director.\n\n### Contributors\n\n* `@cloudhead` -- project lead -- *full-time*\n* `@zlatan` -- project & community management -- *part-time*\n* `@rudolfs` -- software engineering on web -- *full-time*\n* `@sebastinez` -- software engineering on web -- *full-time*\n* `@dave` -- software engineer on heartwood -- *full-time*\n* `@slackcoder` -- software engineering on heartwood -- *part-time*\n* `@erikli` -- software engineering on heartwood -- *part-time*\n* `@fintohaps` -- software engineering on heartwood -- *full-time*\n* `@adaszko` -- systems operations on heartwood -- *full-time*\n\n## Communication\n\n* Core team development & support: https://radicle.zulipchat.com\n* Core team repositories: https://app.radicle.xyz/seeds/seed.radicle.xyz\n* GitHub: https://github.com/radicle-dev\n* Twitter: https://twitter.com/radicle\n* Mastodon: https://mastodon.radicle.xyz\n* Monthly dev calls (TBD)\n\n## Reporting & Success Criteria\n\nThe primary objective for this year is to stabilize the stack and get closer to feature parity\nwith other forges. However, some metrics will be used internally to track growth:\n\n* Number of repositories published on the network\n* Number of nodes online\n* Commit activity on published repositories\n* Social activity (patches, discussions, issues, etc.)\n* \"Key\" projects using Radicle\n* Number of members on Zulip\n* Number of contributors to core stack\n\n## Timeline & Budget\n\nThe total budget requested for 2023 is **$1,784,378**. See the [extended Formal Review](https://radicle.community/t/executeable-rgp-14-start-the-radicle-org/3304) for a detailed budget overview.\n\n* **Development costs**: contributor pay for a team of ~12, R&D costs\n* **Buffer**: 10% of the development costs as buffer, covers hosting & services\n* **Offsites**: we plan on having two offsites this year\n* **Set up costs**: initial costs of setting up legal structure\n* **Operational fees**: payment processing for fiat payment\n\nThis includes room to hire two more engineers and one designer. Unused budget will be carried over to the next year.\n\n## Fund Management\n\n* DAO funds will be received on a 3:2 multisig (Safe)\n    * `@cloudhead` as signer, plus one or two Foundation council members as backups.\n* Funds to be paid in fiat will be paid out by Skyline Digital.\n* Payouts will be done by the company accountant on a monthly basis.",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 17,
+      "blockNumber": 17067270,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0xdfd05adad347d495ac8b38c857a817725d42cbc27a7608aecb137b763227e638",
+      "startTime": {
+        "timestamp": 1681744043
+      },
+      "endTime": {
+        "timestamp": 1682348700
+      },
+      "startTimestamp": 1681744043,
+      "endTimestamp": 1682348700,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7115306.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7115305.773002668,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681744259867,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweDc5ZTZhM2Q2ZGZlZmQyNDgxNWU2YTM4ZWY0YTBiZGFkZjI2ZjE4ZTllMGNiZGFkODU1YmQ2ZWM5YTY4OTQyOTQ=",
+      "id": "0x79e6a3d6dfefd24815e6a38ef4a0bdadf26f18e9e0cbdad855bd6ec9a6894294",
+      "title": "[RGP-15] - Start the Drips Org",
+      "content": "> ❗️ @abbey is posting this on behalf of @lftherios\n\nThank you for all your comments on the informal discussion thread. I incorporated your feedback and have adjusted this post accordingly.\n\n# Drips Org Proposal\n\n|Author:| @lftherios |\n| --- | --- |\n|Type:|`consensus` - `org` |\n|Created:| `2023-04-03` |\n|Status:| `active` |\n\n## Purpose\n\nThe team’s mission is to enable FOSS developers to financially thrive.\n\nIn short, the Drips Org is taking on the problem of [FOSS sustainability](https://fosssustainability.com/) / funding public goods. We develop novel [protocols](https://github.com/radicle-dev/drips-contracts), tools and applications that enable new value flows for developers in order to receive funds from their users & supporters.\n\n## Annual Strategy & Quarterly Objectives\n\nQ2-23\n\n1. Publicly launch Drips v2 contracts and application.\n2. Integrate social-linking (verified credentials + oracles) within the Drips app.\n3. Research multi-chain governance options in order to potentially deploy Drips v2 contracts on more EVM networks.\n4. Build & ship “[Continuous Dependency Funding](https://www.figma.com/file/vyI7f996JF8zwhnXwAwXdC/💦-Drips-V2?t=M3znHI6hfLtnbuQN-0)” experience within the Drips app.\n5. Build & ship “Awesome lists” experience within the Drips app.\n6. Continue to iterate on core experiences based on user feedback.\n\nQ3&Q4 23\n\n1. Continue to iterate on core experiences (streaming and splitting funds, public funding profile with ability to send/receive/split funds) based on user feedback.\n2. Integrate the Radicle code collaboration protocol, with the assumption that it has a stable release.\n3. Conduct an additional audit, in the scenario that our Total Value Locked in the protocol increases above $1m\n4. Potentially deploy Drips v2 contracts on more relevant EVM networks (Optimism, Arbitrum, Polygon)\n\n*Objectives*\n\nOur only objective for this year is to prove Product/Market fit for drips.network. We will know we have accomplished that when:\n\na. We see increased usage and retention on the below metrics and\n\nb. We plan to conduct surveys with our users and follow the Superhuman approach (ie asking “how disappointed you would be if the service wasn’t around” and measuring “very disappointed %”)\n\nThe main metric comes from the Superhuman approach that I mention above. You can read more about it here: [How Superhuman Built an Engine to Find Product Market Fit | First Round Review](https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit). \n\nThe key metric there is 40% of survey participants answering “very disappointed” on the question “how would you feel if the product wasn’t available anymore”.\n\n*Metrics*\n\n* Monthly Value Transacted*\n* Daily Value Transacted*\n* Monthly Unique Addresses Transacting\n* Daily Unique Addresses Transacting\n* Total Value Locked\n* FOSS projects / Public Goods raising funds with Drips\n\n*This includes value from gives, streams but not from top-ups. It also requires a price oracle for all ERC-20 pairs.\n\nWe plan to provide a public Dune Analytics Dashboard, so any community member can track those metrics. We also plan to provide commentary on how to read these metrics on our Radicle community updates.\n\n## Organizational Structure\n\nWe are establishing a non-for-profit association in CH, where all core contributors can become members. Decision making is based on one member one vote.\n\nThe Association is an independent legal entity with legal capacity. It is governed by Swiss law. The official language of the association is English.\n\nThe founding members plan to elect an executive committee (yearly term) that will be leading day-to-day strategy, execution & operations.\n\n### Founding Members\n\n* lftherios (current project lead)\n* json (product & application development)\n* jtourkos (product, SDK & application development)\n* everett (product & application development)\n* brandonhaslegs (design)\n\n### Contractors\n\n* IgorZuk (smart contract development)\n* Manuel (smart contract development)\n* earthwindfirewater (research & strategy)\n* LukeF (business development)\n\n## Communication\n\n* drips.network\n* Discord: a new Discord will be set up solely focused on Drips\n* Github: a new Github org will be set-up solely focused on Drips development\n* Twitter: [twitter.com/dripsnetwork ](http://twitter.com/dripsnetwork)\n\nCurrent repos:\n\nhttps://github.com/radicle-dev/drips-app-v2\nhttps://github.com/radicle-dev/drips-js-sdk\nhttps://github.com/radicle-dev/radicle-drips-docs\nhttps://github.com/radicle-dev/drips-landing-page\nhttps://github.com/radicle-dev/drips-contracts\n\n## Reasoning & Analysis\n\nThe Drips org is building and maintaining resilient and decentralized protocols, tools and applications that create new value flows for FOSS developers.\n\nAt the core of our work is the Drips protocol, a crypto native protocol for streaming and splitting funds on Ethereum. The Drips protocol provides continuous/recurring infrastructure for developers to receive and share funds with each other. We believe that it’s the most complete solution for developers to receive funds for their FOSS work in crypto.\n\nSome of its differentiating factors are:\n\n* it’s optimised for millions of supporters (not for single streams)\n* has continuous settlement (or streams by the second)\n* it’s trust minimized and\n* comes with many handy features like programmatic splitting of funds, which allows for graph style routing of funds from one project to another\n\n## Reporting & Success Criteria\n\nSuccess for us means impact on the FOSS ecosystem / public goods space.\n\nIn 2023 we want to see projects and individuals that contribute free and open source software and / or public goods raise new (additional) funding via our tools & infrastructure.\n\nFor objectives and metrics see section above.\n\nWith regards to accountability, all of our work and finances will remain public, so the RAD community can monitor our progress and spending.\n\n## Timeline & Budget\n\nThe total budget requested for 2023 is **$1,520,566.55**. See the extended [Formal Review](https://radicle.community/t/formal-review-rgp-15-start-the-drips-org/3306) for a detailed budget overview.\n\n## Fund Management\n\nWe plan to use a multi-sig (gnosis safe with 3/5 signatures) with all current members as signers. We won’t use a bank account. Crypto to FIAT conversions will take place through Skyline Digital and that's why you see the fees on our budget.",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 15,
+      "blockNumber": 17069315,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0x79e6a3d6dfefd24815e6a38ef4a0bdadf26f18e9e0cbdad855bd6ec9a6894294",
+      "startTime": {
+        "timestamp": 1681768944
+      },
+      "endTime": {
+        "timestamp": 1682348400
+      },
+      "startTimestamp": 1681768944,
+      "endTimestamp": 1682348400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 5464079.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5464079.338717049,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681769428419,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjEz",
+      "id": "13",
+      "title": "Start the Foundation Org",
+      "content": "If executed, this proposal will:\n\n1. Transfer 3,660,993 USDC from the Radicle Treasury to a multi-sig controlled by the Foundation Org to support the 2023 work of the Operations, Marketing, and Governance Committee, as well as Foundation administration.\n\n**How was this proposal discussed?**\nPlease see discussions here:\n* Temperature Check: https://radicle.community/t/temperature-check-start-the-foundation-org/3272\n* Discussion: https://radicle.community/t/discussion-start-the-foundation-org/3278\n* Formal Review: https://radicle.community/t/formal-review-start-the-foundation-org/3280\n* Snapshot Poll: https://snapshot.org/#/gov.radicle.eth/proposal/0x23fc3572c0ae8e6e50850f3ba33e634d64a248ebbb9b88c3082f8bc9b01dfbed\n\n## Notes\n* `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` is the USDC contract (https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48).\n* `0x85C6CeEeb8E1A2E49D23cE8b9E0e59413FDb8bbB` is the Foundation Council USDC Multisig (Radicle Core Team Budgets)",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x464D78a5C97A2E2E9839C353ee9B6d4204c90B0b",
+      "totalVotes": 8,
+      "blockNumber": 16967630,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1680514295,
+      "endTimestamp": 1680726443,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 4887633.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17025313
+          },
+          "event": "executed",
+          "timestamp": 1681221731,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16990241
+          },
+          "event": "queued",
+          "timestamp": 1680792383,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680514468306,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjEy",
+      "id": "12",
+      "title": "Start the Foundation Org",
+      "content": "If executed, this proposal will:\n\n1. Transfer 3,660,993 USDC from the Radicle Treasury to a multi-sig controlled by the Foundation Org to support the 2023 work of the Operations, Marketing, and Governance Committee, as well as Foundation administration.\n\n**How was this proposal discussed?**\nPlease see discussions here:\n* Temperature Check: https://radicle.community/t/temperature-check-start-the-foundation-org/3272\n* Discussion: https://radicle.community/t/discussion-start-the-foundation-org/3278\n* Formal Review: https://radicle.community/t/formal-review-start-the-foundation-org/3280\n* Snapshot Poll: https://snapshot.org/#/gov.radicle.eth/proposal/0x23fc3572c0ae8e6e50850f3ba33e634d64a248ebbb9b88c3082f8bc9b01dfbed\n\n## Notes\n* `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` is the USDC contract (https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48).\n* `0x8da8f82d2bbdd896822de723f55d6edf416130ba` is the Radicle Treasury address.\n* `0x85C6CeEeb8E1A2E49D23cE8b9E0e59413FDb8bbB` is the Foundation Council USDC Multisig (Radicle Core Team Budgets)",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x464D78a5C97A2E2E9839C353ee9B6d4204c90B0b",
+      "totalVotes": 5,
+      "blockNumber": 16940618,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1680186071,
+      "endTimestamp": 1680395807,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 2014321.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680186211556,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweDIzZmMzNTcyYzBhZThlNmU1MDg1MGYzYmEzM2U2MzRkNjRhMjQ4ZWJiYjliODhjMzA4MmY4YmM5YjAxZGZiZWQ=",
+      "id": "0x23fc3572c0ae8e6e50850f3ba33e634d64a248ebbb9b88c3082f8bc9b01dfbed",
+      "title": "Start the Foundation Org",
+      "content": "## **Proposal Champions**\n\nAbbey - @abbey | abbey#5646\nAnge - @ange | ange#8727\nSally - @sllyllyd | sllyllyd (she/her)#3512\n\n## Temperature Check 👇\nhttps://radicle.community/t/temperature-check-start-the-foundation-org/3272\n\n## Discussion\nhttps://radicle.community/t/discussion-start-the-foundation-org/3278\n\n# Overview \nIn order to clarify the role of the Radicle Foundation (also referred to as “Foundation” below) within the Radicle ecosystem, increase transparency around the Foundation’s use of funds, and communicate the intentions for the Foundation’s ongoing allocations from the Radicle Treasury, the Foundation Council is putting forward this proposal to make the Radicle Foundation an official “Organization” (also referred to as “Org” or “Foundation Org” below) within the RadicleDAO. This proposal is part of the outcome of *\"Workstream 1. Proposed Org Design\"* as laid out in https://radicle.community/t/the-next-phase-of-the-radicledao/2776. It outlines the continuation of the project's decentralization that was initiated with the https://radicle.community/t/11-phase-0-transition-to-the-dao/3026 proposal. It also initiates the first stage of Radicle's \"org shift\" as described in https://radicle.community/t/org-design-update-an-evolution-of-radicle-s-org-s/3248.\n\nBy framing itself as an Org within the RadicleDAO, the Foundation will receive funding to continue fulfilling its foundation purpose: supporting projects and people developing resilient, non-extractive peer-to-peer technologies that promote Internet freedom. Because the RadicleDAO is undergoing a [brand evolution](https://radicle.community/t/an-evolution-of-radicle-s-brand-s/3224/15) and “Radicle” has evolved into two products (Radicle, the code collaboration protocol, and Drips, the funding protocol), the name “Radicle Foundation” is no longer accurate. The Foundation, therefore, will likely rename itself a name that is more compatible with its purpose. There will be communication on this topic in the near future.\n\n# Mandate\nThe Radicle Foundation is, among others, the RadicleDAO’s trusted real-world entity. It has been a key force in progressively decentralizing the RadicleDAO and will continue leading the RadicleDAO’s decentralization efforts in Q1 2023 in line with the Foundation’s purpose. Since September 2022 it’s been [funded directly by the RadicleDAO](https://radicle.community/t/temperature-check-phase-0-transition-to-the-dao/2989). Now that the project’s product and engineering teams ([Drips](https://www.drips.network/) and [Radicle](https://radicle.xyz/)) are [forming their own Orgs](https://radicle.community/t/org-design-update-an-evolution-of-radicle-s-org-s/3248), which will be funded directly by the RadicleDAO, the Foundation shall be re-positioned as an Org that provides the RadicleDAO and its Orgs (including Radicle and Drips) with operations, legal, marketing, community, and governance-related support. \n\nTherefore, the Foundation Org will, to provide the support to the RadicleDAO ecosystem as the Foundation Org, setup three operational bodies: “Operations,” “Marketing,” and “Governance.” The Foundation will enable these bodies and their contributors, guiding their prioritization of work based on the needs of the RadicleDAO and its Orgs. While the goal is to have Operations as well as Marketing provide their support on a consultancy basis to (and paid for by) other Orgs within the RadicleDAO ecosystem, it’s unclear exactly how the new Orgs should budget for these services now. Therefore, the Foundation will provide Operation and Marketing support to Orgs in 2023 free of charge (to the extent such service is in line with the Foundation purpose), with the intention of providing clear, ongoing reporting to these Orgs to understand the amount of support being provided and clarify the kind of deliverables required, which will be used to inform future budgeting. \n\nFor at least the medium term, while the product and engineering Orgs are navigating their journey towards product-market-fit, the Foundation will act as a provider of these “support services” within the Foundation’s purpose. The Foundation will support the autonomy of these teams as they mature and develop. Once the product and engineering Orgs have better defined their needs for these “support services”, the Operations, Marketing, and Governance bodies can mature their own operations and spin out as independent, DAO-funded Orgs with the support of the Foundation. \n\nFor the long-term, the Foundation will also fulfill roles that are better suited to a legal entity, such as the maintenance of RadicleDAO’s intellectual property and initiation of RadicleDAO’s legal analysis and action.\n\n# Foundation Purpose and Background \nEstablished in 2020, Radicle Foundation is a Swiss non-profit foundation with the purpose of supporting projects and people developing resilient, non-extractive peer-to-peer technologies that promote Internet freedom. The technologies it is currently supporting include [Radicle](https://radicle.xyz/), a peer-to-peer code collaboration stack for decentralized communities, and [Drips](https://www.drips.network/), a social funding network for dripping funds to creators.\n\nThe Foundation was a critical vehicle for deploying capital to support the maintenance and core development of the Radicle and Drips stacks as well as other resilient, non-extractive peer-to-peer technologies. Since 2021, the Foundation Council has coordinated project-wide strategy and objectives in order to ensure the effective and impactful allocation of capital to the Radicle and Drips projects. Furthermore, a prime directive of the Foundation has been to support the development and growth of collective community infrastructure that can be employed to [further decentralize the RadicleDAO project](https://radicle.community/t/the-path-to-increasing-decentralization-within-radicle/2417) - including the social infrastructure necessary to support healthy and effective community governance. While the Foundation has been the key supporter of most core Radicle and Drips development up until this point, the intention has always been to ultimately fund all project development and governance initiatives via the Treasury of the RadicleDAO. \n\n## Transitioning the Foundation to the RadicleDAO\nThe Foundation was already allocated [3 million USDC from the RadicleDAO](https://radicle.community/t/formal-review-phase-0-transition-to-the-dao/3007) in September 2022 to fund approximately six months of Radicle and Drips development. While the Foundation has been working to put the scaffolding in place for Radicle and Drips development to be funded directly by the RadicleDAO, this funding initiative in September 2022 represented a step in progressively transitioning aspects of the projects where possible. As part of the next phase of the project’s [“transition to the DAO”](https://radicle.community/t/the-next-phase-of-the-radicledao/2776), the Foundation intends to operate as an Org within the RadicleDAO, while remaining an independent legal entity with its own governance structure. This will not only enable the DAO to support the ongoing work of the Foundation, but also presents an opportunity to make the budget, costs, requirements, and processes at the Foundation related to the Foundation’s work for the RadicleDAO more transparent. \n\n# Initiatives\nThe Foundation’s focus in 2023 can be split into three categories of initiatives:\n\n1. **Org Support**, which includes operations, legal, community, and marketing-related work that will be done in support of (and in prioritization with) Orgs within the RadicleDAO. This will also include the stewarding of decentralization efforts (i.e. help Orgs to “launch” and get setup within the RadicleDAO) in Q2 2023.  \n\n2. **RadicleDAO Support**, which includes operations, legal, community, marketing, and governance-related support that strengthens the resiliency and growth of the RadicleDAO ecosystem more broadly. This includes brokering relationships with third-party “DAO service providers,” branding services for the RadicleDAO, maintaining the RadicleDAO ecosystem’s IP (including managing the RadicleDAO’s trademarks), facilitating discussions around the governance of the RadicleDAO with its stakeholders, and tracking the evolving real-world legal risks.\n3. **Foundation Health**, which includes the maintenance of a healthy and functioning Foundation that meets its obligations with regards to its Swiss jurisdiction and its supervisory authority (ESA).\n\n## Reporting and Documentation\nThe Foundation will publicly share the following on [radicle.community](https://radicle.community/):\n* An annual report similar to the one sent to the Foundation’s supervisory authority, focusing on the Foundation’s work for the RadicleDAO (Q1/Q2 2024)\n* A proposed annual budget for the following year (2024) relating to the Foundation’s work for the RadicleDAO (Q4 2023)\n* A financial report with how funds were spent as well as the status of the Foundation's funds from the RadicleDAO, focusing on the Foundation’s expenses related to the RadicleDAO (Q4 2023)\n* Quarterly reports that breakdown the operations, legal, marketing, and community-related services provided to the Orgs\n\n# Budget for 2023\nThe funds allocated to the Radicle Foundation from the RadicleDAO in [September 2022](https://radicle.community/t/formal-review-phase-0-transition-to-the-dao/3007) have paid for the work of “Core Teams” and general Foundation operational costs through February 2023. \n\nFor this proposal, the Radicle Foundation is requesting **3,660,992.78 USDC**. This will support the work of the Operations, Marketing, and Governance Committees, as well as general Foundation administration costs, through December 2023. These funds will also support the work of Radicle and Drips contributors through April 2023.\n\n | Component      | Requested Budget |\n| ----------- | ----------- |\n| Foundation Administration | CHF272,900.00       |\n| Operations Committee  | CHF296,217.00        |\n| Marketing Committee  | CHF1,006,739.00        |\n| Governance Committee  | CHF567,130.00        |\n| Radicle + Drips (through April)  | CHF570,858.00        |\n| Radicle + Drips (transition buffer)  | CHF720,000.00        |\n\n\nThe requested budget also includes a “buffer” to relieve financial pressure from the Foundation (and the new Orgs) as they navigate the formation, scoping, and budgeting of their new Orgs. This buffer can be used to cover the costs of Radicle and Drips contributors should there be any delay in the launch of Radicle and Drips Orgs beyond April 2023. The Foundation will return any unused “buffer” to the RadicleDAO Treasury or apply it towards the budget requested for future years.\n\nAs mentioned in the Mandate, while the intention will be for most work outlined as “Org Support” to ultimately be paid for by individual Orgs, it’s unclear exactly what budget will be required to cover these needs. Therefore, the Foundation will provide this support to the Orgs free of charge in 2023. Future Org budgets (likely starting in 2024) will be informed by reporting provided to the Org by the Foundation in 2023, indicating how support from the Foundation committees is being used. \n\nIn September, the Foundation was also allocated 1.5mil RAD by the RadicleDAO to set up vesting contracts with contributors as part of the [Distribution of Ownership](https://radicle.community/t/distribution-of-ownership-workstream/2886) initiative. The Foundation set up the majority of these in 2022, however, there are vesting contracts that will need to be setup in 2023 in anticipation of new contributors to the Foundation Org. Therefore, the Radicle Foundation intends to continue to manage these vesting contracts for new contributors on behalf of the RadicleDAO. The return of any remaining RAD to the RadicleDAO Treasury and the transfer of control of the vesting contracts (from the Foundation to the Orgs of the respective contributors) will be communicated in a future post.\n\nSee more details on the proposed Foundation Org budget in [this spreadsheet](https://docs.google.com/spreadsheets/d/1fPlDR875pVYjCfZhlUJP6eqoMJG8PZJyOlzCPLY4NBQ/edit?usp=sharing).\n\n# Budget Implementation\n* Multi-sig wallet: [0x85C6CeEeb8E1A2E49D23cE8b9E0e59413FDb8bbB](https://gnosis-safe.io/app/eth:0x85C6CeEeb8E1A2E49D23cE8b9E0e59413FDb8bbB/transactions/history)\n    * Signers: @cloudhead, @abbey, @lftherios, @sllyllyd\n* Payout Cadence\n    * Foundation will be paid once by the Treasury for the whole 2023 budget. Any unused “buffer” budget that is unused will be returned to the Treasury or applied towards the Foundation Org budget requested for future years.\n\n# Technical Implementation\n\n## Proposal Code\n\nThe proposal will transfer the USDC amount to the Foundation multisig, which is controlled by four signers, with a two out of four quorum. The signers will consist of the Foundation Council (@abbey @lftherios @cloudhead) and the Foundations Op Rep (@sllyllyd).\n\n```\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 0 \"transfer(address,uint256)\" 0x85C6CeEeb8E1A2E49D23cE8b9E0e59413FDb8bbB 3660993000000\n```\n",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 16,
+      "blockNumber": 16872272,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0x23fc3572c0ae8e6e50850f3ba33e634d64a248ebbb9b88c3082f8bc9b01dfbed",
+      "startTime": {
+        "timestamp": 1679356378
+      },
+      "endTime": {
+        "timestamp": 1679929200
+      },
+      "startTimestamp": 1679356378,
+      "endTimestamp": 1679929200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 6300151.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6300150.858701844,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679416753460,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweDNmZjgwMjRmZDdkNDc0ZmE2M2NhZmFjZTRmODBmMzRiZTFiYzk1MzEyZGQxYjQ5MTQxNmIzODE2MmMxMTkxMWQ=",
+      "id": "0x3ff8024fd7d474fa63caface4f80f34be1bc95312dd1b491416b38162c11911d",
+      "title": "Governance Improvements Proposal",
+      "content": "### **Proposal Champions**\nShelby Steidl - @shelb_ee | shelb_ee#9785\nAbbey Titcomb - @abbey | abbey#5646\n\n# Purpose\n\nThe following proposal is an overview of governance updates supporting the DAO’s adoption of a new ecosystem model. The proposed updates are made by the Community & Governance team and are based in learnings gathered throughout the last year of stewarding the DAO. These updates also aim to make it easier for RadicleDAO members to follow governance proposals, participate in governance, and understand the DAO’s ecosystem model.\n\n# Overview & Background\n\nThe Radicle project is on the journey of “[transitioning to the DAO ](https://radicle.community/t/the-next-phase-of-the-radicledao/2776)”. As part of this journey, the RadicleDAO is adopting a new ecosystem model (explained in [Next Steps: Introducing the Core Development Org ](https://radicle.community/t/org-design-next-steps-introducing-the-core-development-org/3039), where teams & contributors organize themselves within independent **Orgs**. Each Org exhibits its own governance processes and manages its own funds. Orgs are funded through RadicleDAO and its treasury, meaning that they will need to maintain mission-alignment and create regular governance proposals to receive treasury funding.\n \n![image](ipfs://bafkreibtmkwj35oh5gbp73wpzryjb5rf4nxm7dsrvsworwvy276wxcvsne)\n    \n*Radicle Ecosystem Model*\n\n# Implementation\n\n**Proposal Actions:**\n\n* Merge: [add governance manual v2 by abbey-titcomb · Pull Request #2 · radicle-dev/radicle-governance · GitHub ](https://github.com/radicle-dev/radicle-governance/pull/2)\n* Merge: [add contributing.md by abbey-titcomb · Pull Request #3 · radicle-dev/radicle-governance · GitHub ](https://github.com/radicle-dev/radicle-governance/pull/3)\n* Merge: [add proposal templates by abbey-titcomb · Pull Request #4 · radicle-dev/radicle-governance · GitHub ](https://github.com/radicle-dev/radicle-governance/pull/4)\n\nThe two major additions to Radicle’s off-chain governance process are the **Governance Manual** and **Proposal Directory/Template Library.** These two governance resources introduce an assortment of updates that we believe will make governance of the RadicleDAO cleaner, simpler, and more effective.\n\n### Governance Manual\n\nSee: [PR#2 ](https://github.com/radicle-dev/radicle-governance/pull/2) & [PR#3 ](https://github.com/radicle-dev/radicle-governance/pull/3)\n\nUp until now, Radicle’s governance process has lived on [radicle.community](http://radicle.community/) ([see here](https://radicle.community/t/readme-radicle-governance-process/526)) and is maintained by the Radicle Foundation’s Governance Team contributors. With the introduction of the Governance Manual, the governance process can be managed by the RadicleDAO. Radicle’s [Governance Manual ](https://github.com/radicle-dev/radicle-governance/blob/94fd085165e6a41ca61fcea987c969712f130928/manual.md) will be a living document outlining all processes, cycles, and rules related to governance of the RadicleDAO and its Treasury. This Governance Manual will live in a version-controlled repository ([radicle-dev/radicle-governance](https://github.com/radicle-dev/radicle-governance)) and can only be updated through a formal off-chain vote (see [contributing.md ](https://github.com/radicle-dev/radicle-governance/pull/3)).\n\nThe Governance Manual presents some changes to to Radicle’s on-chain and off-chain governance processes. These changes are being introduced by the Community & Governance Team based on learnings taken from facilitating governance over the last year.\n\n**These updates include the:**\n\n* Removal of the **Temperature Check** step from the Governance Process\n\n  * In theory, **Temperature Checks** are meant to be informal discussions around an initial idea or question, with the goal of developing a potential proposal. Yet in practice, we found proposers submitting detailed proposal drafts, typically expected in the Discussion step. While Temperature Checks will remain as an informal label for discussions on the forum, it is removed as a required step in the governance process.\n* Introduction of a **formal proposal numbering scheme** and **proposal types**: executable, executable-org, social, consensus (e.g. `[Executeable][RGP - #] - [PROPOSAL TITLE]`)\n  * This will make keeping track of proposals a lot easier for contributors. The numbering of proposals throughout their journey of the governance process will make it easier to keep track of multiple active proposals at one time rather than remembering the name. The explicit mention of the proposal type in the proposal title will allow voters to know if the proposals requires an on-chain action or just needs off-chain social consensus. You can find definitions and examples of all proposal types in the Proposal Directory & Template Library (currently [PR#4 ](https://github.com/radicle-dev/radicle-governance/pull/4/files))\n* Introduction of **monthly proposal cycles**\n  * Monthly cycles will sync voting periods and establish a manageable cadence for governance participants. It will also make the proposal process more straight forward and reliable for proposal authors. We understand that emergencies may come up and will not fit in these cycles. There will be a process for emergency proposal requests.\n* Transition of governance process from Discourse to GitHub (see [contributing.md ](https://github.com/radicle-dev/radicle-governance/pull/3))\n  * Version-controlled documentation of the governance process will be *crucial to track and learn from changes over time*. We also have included a clear process for updating the governance process, which had not existed before.\n\n*The full description of proposed changes can be found in [PR#2](https://github.com/radicle-dev/radicle-governance/pull/2/commits/99e7716f4942b6b2a3f246d71f1a290c9dfac404).*\n\n### Proposal Directory & Template Library\n\nSee [PR#4 ](https://github.com/radicle-dev/radicle-governance/pull/4) for an overview of the proposed templates.\n\nA new library of proposal templates will make it easier for community members to draft and post proposals. The directory helps folks better determine where proposals should be posted within the DAO based on their goals & objectives.\n\nThe [Proposal Directory & Template Library ](https://github.com/radicle-dev/radicle-governance/pull/4/files) provides contributors with a set of templates that can be used to create proposals to the RadicleDAO and its various Orgs.\n\n# Reasoning & Analysis\n\nWe believe that these governance updates will greatly improve the way the RadicleDAO is governed. The Governance Manual and Proposal Template Library introduce updates that will make it easier to participate in the RadicleDAO, which we believe will support the long-term stewardship of a self-sustaining, freely accessible, open-source ecosystem.\n",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 16,
+      "blockNumber": 16771261,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0x3ff8024fd7d474fa63caface4f80f34be1bc95312dd1b491416b38162c11911d",
+      "startTime": {
+        "timestamp": 1678129423
+      },
+      "endTime": {
+        "timestamp": 1678723200
+      },
+      "startTimestamp": 1678129423,
+      "endTimestamp": 1678723200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4564129.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4564129.398845771,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweGY5NWIwZTAzYzkyZjlmMmRmOTc2Y2FkNmM1MTIxMzgzZjRlZmM4ODcxNjJkMGJmNmI1OWNjNTUwNzAwYmNlZWM=",
+      "id": "0xf95b0e03c92f9f2df976cad6c5121383f4efc887162d0bf6b59cc550700bceec",
+      "title": "Radicle Grants Continuation - Continuation",
+      "content": "Temperature Check: https://radicle.community/t/temperature-check-radicle-grants-program/2461\n\nDiscussion: https://radicle.community/t/discussion-radicle-grants-program-continuation/3019/6\n\nFormal Review: https://radicle.community/t/formal-review-radicle-grants-program-continuation/3075",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xcAa3a3c852442F06806170D137248bb21ddb0E1B",
+      "totalVotes": 11,
+      "blockNumber": 15718476,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0xf95b0e03c92f9f2df976cad6c5121383f4efc887162d0bf6b59cc550700bceec",
+      "startTime": {
+        "timestamp": 1665374456
+      },
+      "endTime": {
+        "timestamp": 1665979205
+      },
+      "startTimestamp": 1665374456,
+      "endTimestamp": 1665979205,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4133689.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4133689.7980826544,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjEx",
+      "id": "11",
+      "title": "[Phase 0] Transition to the DAO",
+      "content": "Temperature Check: https://radicle.community/t/temperature-check-phase-0-transition-to-the-dao/2989?u=abbey\n\nDiscussion: https://radicle.community/t/discussion-phase-0-transition-to-the-dao/3001\n\nFormal Review: https://radicle.community/t/formal-review-phase-0-transition-to-the-dao/3007\n\nSnapshot vote: https://snapshot.org/#/gov.radicle.eth/proposal/0x646e92794f8ea0abb333ed264dc8d8a3df7ceae909186f88701b3237852e61fb\n\nGithub: https://github.com/radicle-dev/radicle-governance/blob/main/proposals/phase_0_transition.proposal",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 10,
+      "blockNumber": 15447582,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1661962290,
+      "endTimestamp": 1662201175,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 5836739.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15478296
+          },
+          "event": "executed",
+          "timestamp": 1662386884,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15465755
+          },
+          "event": "queued",
+          "timestamp": 1662213223,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweDY0NmU5Mjc5NGY4ZWEwYWJiMzMzZWQyNjRkYzhkOGEzZGY3Y2VhZTkwOTE4NmY4ODcwMWIzMjM3ODUyZTYxZmI=",
+      "id": "0x646e92794f8ea0abb333ed264dc8d8a3df7ceae909186f88701b3237852e61fb",
+      "title": "[Phase 0] Transition to the DAO",
+      "content": "# [Formal Review] [Phase 0] Transition to the DAO\n\nAs outlined in [The Next Phase of the RadicleDAO](https://radicle.community/t/the-next-phase-of-the-radicledao/2776#2-distribution-of-ownership-13) post, the project’s next decentralization goal is to have the scaffolding in place to transition Core Teams to the DAO by **November 2022** with initial teams transitioned by **February 2023**.\n\nThis proposal outlines *Phase 0* of this transition which transitions Radicle’s **development runway** and **contributor token rewards** to the DAO. It requests **3M USDC** to fund six months of Core Teams operational budgets (until February 2023) and **1.9M RAD** to distribute among Radicle contributors who joined the project post- token launch.\n\n>❗**Note:** The original estimations included in the Temperature Check and Discussion (2mUSDC and 1M RAD) have been updated to accurately reflect the calculations that were conducted when preparing the proposal. More details on the numbers are included below. \n\nA full overview of Background, Purpose, and Impact can be found in the [Temperature Check](https://radicle.community/t/temperature-check-phase-0-transition-to-the-dao/2989?u=abbey) and [Discussion](https://radicle.community/t/discussion-phase-0-transition-to-the-dao/3001?u=abbey) posts. This post outlines notable changes and additional information that have been included after the Discussion post. \n\n## Design Approach\n\n### Contributor Compensation\n\nThe total USDC amount was calculated based on an annual estimate of all Core Team budgets (CHF ~2.6m), with an additional allocation for hires made over the next sixth months, Foundation expenses (CHF ~5k) — which include accounting, legal, and event sponsorship costs — and an additional 10% \"buffer\" for extraneous situations. \n\n### Contributor Rewards\n\nAs outlined, each qualified contributor will be granted **1.5x their annual estimated fee in RAD**, vested over **4 years**, with a **one year cliff** from their contract start date (i.e. if they leave before the end of their first year, they don’t get any RAD). A contributor’s “annual estimated fee” is based on their daily/hourly rate and amount of time spent on Radicle.\n\nQualified contributors include every contributor who currently holds a contract with the Radicle Foundation, community contributors selected by the Foundation, and future hires that are planned for the next sixth months.\n\n\n## Technical Implementation \n\n### Proposal Code\n\nAfter further consideration, the proposal will transfer the USDC amounts and RAD amounts to two separate multi-sigs. Both will be controlled by four signers, with a two out of four quorum. The signers will consist of the Foundation Council (@abbey @lftherios @cloudhead) and the Foundations Op Lead (@ange). \n\n```\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 0 \"transfer(address,uint256)\" 0x85C6CeEeb8E1A2E49D23cE8b9E0e59413FDb8bbB 3000000000000\n0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3 0 \"transfer(address,uint256)\" 0xBA6D95426467a55b007345dBC6292127EbcE71C4 1900000000000000000000000\n\n````\n\n### Vesting Contracts\n\nEach contributor will have their tokens allocated an on-chain vesting contract, with a 1 year cliff and four year vesting period. The “vesting start date” of each vesting contract will be the date the contributor first started working for the Foundation. These vesting contracts will be created by the Foundation Council over the next couple of months. The vesting contracts should be configured to ensure maximum flexibility for the DAO to upgrade the contracts as it sees fit, as well as create new ones for future contributors.\n\nThe goal is to transfer ownership of these vesting contracts to the DAO to decentralize control of contributor incentivization. ",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 12,
+      "blockNumber": 15396567,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0x646e92794f8ea0abb333ed264dc8d8a3df7ceae909186f88701b3237852e61fb",
+      "startTime": {
+        "timestamp": 1661199479
+      },
+      "endTime": {
+        "timestamp": 1661785200
+      },
+      "startTimestamp": 1661199479,
+      "endTimestamp": 1661785200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 6163640.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6163639.615623794,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjEw",
+      "id": "10",
+      "title": "Radicle // Gitcoin Public Goods Alliance",
+      "content": "Formal Review: https://radicle.community/t/formal-review-radicle-gitcoin-public-goods-alliance/2931\n\nTemperature Check: https://radicle.community/t/temperature-check-radicle-gitcoin-public-goods-alliance/2874\n\nSnapshot vote: https://snapshot.org/#/gov.radicle.eth/proposal/bafkreia4tl25spzwtys4kfns3iiuj32n2wugyupa6adg6mlxwg77a3bzx4\n\nGithub: https://github.com/llama-community/gtc-rad-public-goods-alliance\n\nContract: https://etherscan.io/address/0x5800d9a00551168adb4d68b3304ea781dbced658#code",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x464D78a5C97A2E2E9839C353ee9B6d4204c90B0b",
+      "totalVotes": 8,
+      "blockNumber": 15353255,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1660665008,
+      "endTimestamp": 1660901788,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 6225198.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15417598
+          },
+          "event": "queued",
+          "timestamp": 1661547824,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15434550
+          },
+          "event": "executed",
+          "timestamp": 1661782454,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 4156418.5,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjk=",
+      "id": "9",
+      "title": "Radicle // Gitcoin Public Goods Alliance",
+      "content": "Formal Review: https://radicle.community/t/formal-review-radicle-gitcoin-public-goods-alliance/2931\n\nTemperature Check: https://radicle.community/t/temperature-check-radicle-gitcoin-public-goods-alliance/2874\n\nSnapshot vote: https://snapshot.org/#/gov.radicle.eth/proposal/bafkreia4tl25spzwtys4kfns3iiuj32n2wugyupa6adg6mlxwg77a3bzx4\n\nGithub: https://github.com/llama-community/gtc-rad-public-goods-alliance",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x464D78a5C97A2E2E9839C353ee9B6d4204c90B0b",
+      "totalVotes": 8,
+      "blockNumber": 15315152,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1660145595,
+      "endTimestamp": 1660380428,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 932861.25,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 932861.25,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDpiYWZrcmVpYTR0bDI1c3B6d3R5czRrZm5zM2lpdWozMm4yd3VneXVwYTZhZGc2bWx4d2c3N2EzYnp4NA==",
+      "id": "bafkreia4tl25spzwtys4kfns3iiuj32n2wugyupa6adg6mlxwg77a3bzx4",
+      "title": "Radicle // Gitcoin Public Goods Alliance",
+      "content": "Authors: @schlabach @Kydo from Llama\n\n## Functional description\n\n## Summary\nWe propose a Public Goods Alliance be formed between Radicle and Gitcoin. Radicle and Gitcoin will provide a mutual grant of their respective native tokens (RAD and GTC) to the partner DAO’s treasury. Voting power from these tokens will be delegated to multisigs controlled by the partner DAO. Gitcoin will receive a range of RAD (dependent upon the final grant rate) and Radicle will receive 500,000 GTC, making both DAOs top 10 delegates in one another’s governance [1].\n\nProposed Voting Process\nTwo committees (one committee from each community) of 3 representatives will be chosen to focus on metagovernance in each community. Committee representative selection will be in three phases to minimize starting costs and encourage experimentations.\n\nInitialization Phase (six months): one representatives will come from the Radicle community, while one representative will be from the Llama team. Community representatives should have the context needed to make decisions on most proposals that Gitcoin is putting up for votes. Community representative should be selected from the current contributor/team base. Llama representative will facilitate communication, ideate on future metagovernance committee structures, and handle possible disagreements.\nExperimentation Phase (12 months): two representatives will come from the Radicle community, while one representative will be from the Llama team. Interested community representatives will be self-nominated and ratified by the current governance group. Representative selection standards will be formalized and published. Llama representative will handle possible disagreements.\nMaturation Phase (indefinite): three representatives will come from the Radicle community. Interested community representatives will be self-nominated and ratified by the current governance group.\n*The timeline proposed above is subject to change based on the progress of the metagovernance committee.\n\nAfter the proposal is executed, both DAOs agree to hold the others’ tokens for a minimum of 2 years.\n\nThe committees should vote independently, though the two should collaborate on joint governance proposals and initiatives relating to the strategic alliance. At least one community representative should attend monthly updates in the other community to gain context and explore possible synergies.\n\nThe committee will be responsible for keeping track of all proposals in the other community and bringing them to their respective community for discussion. For each proposal, the committee will vote on behalf of their respective community, informed by their community’s values, the goals of the Public Goods Alliance, and feedback from the broader community.\n\nReporting & Criteria for Success\nIn order to allow the communities to evaluate the success of the alliance, it’s important to provide comprehensive, objective reporting on how the partnership is working. Reporting should be done on a monthly and quarterly basis to share results with both communities. Below are several ideas about how to gauge the success and progress of the alliance.\n\nGovernance\nParticipation rate in each other’s governance votes\nNumber of proposals posted in each other’s forum by the committee\nNumber of comments posted in each other’s forum by the committee\nThe impact of cross-governance participation, with a particular focus on the major or contentious proposals\nSocial\nNumber of co-sponsored events and their attendance\nCommunity sentiment regarding the partnership and overall governance involvement (e.g. community members’ willingness to hold the other protocol’s tokens, voting on the other community’s proposals)\nProduct\nNumber of development hours contributed to joint projects\nJoint features / products / integrations shipped or in-flight\nThe quarterly review might include the above information and additionally report on:\n\nFurthering Gitcoin and Radicle’s primary mission\nWhether and how the partnership has helped Gitcoin build and fund public goods on web3\nWhether and how the partnership has helped Radicle develop resilient, peer-to-peer collaboration software\nCollab / interoperability\nCross-community interoperability and its growth trajectory\nOther synergies, or the lack thereof\nRagequit Options\nIn the event that one party wants to reverse the deal after the mutual grant has been executed, Gitcoin and Radicle will need to strike a new agreement and run it through the governance process. Considering the operational complexities, compromise of the future roadmap, and damage of capital and goodwill the other community may endure, the party that initiates the reversal should reasonably expect less lenient terms, such as a partial return of the originally granted assets. Each DAO may choose to leave the alliance and return tokens within one month of the proposal being executed.\n\nCompensation\nLlama\n\nLlama will charge $20k in RAD for the work involved in strategy analysis for the alliance and potential synergies, writing the initial proposal, coordinating with Gitcoin and Radicle teams and incorporating feedback, pricing analysis, legal analysis and approval, Snapshot proposal and follow up with stewards, smart contracts to implement the proposal, and set up of meta governance committee.(Llama will charge $20k in GTC from Gitcoin as well.)\n\nMetagovernance committee representatives\n\nNon-Llama representatives will be compensated based on each DAOs decision. For the first iteration of the committee which is made up of core team members from each respective DAOs, community representatives might not be compensated separately since each respective DAOs already are paying them. In the future, when we start recruiting community members to become committee representatives, clear guidelines on compensation should be in place to encourage a healthy incentive structure. Llama representative will not be paid in the committee.\n\nPurpose\nAs web3-native DAOs, Gitcoin and Radicle share similar missions of growing the public goods ecosystem. The Gitcoin and Radicle communities have rallied around this public goods mission and informally worked together over the last few years, co-hosting events and integrating Radicle in Kernel. In the future, Gitcoin and Radicle can benefit from more product integrations and a closer relationship.\n\nAs the two operate in similar spaces and have complementary focuses, Llama believes a formal Public Goods Alliance between the two DAOs would be mutually beneficial.\n\nWe view this alliance as a unique opportunity to formalize the partnership that has developed over the last few years by gaining a governance stake in each other’s communities. The alliance will allow the communities to:\n\nCollaborate on a shared vision through governance in each other’s communities: The mutual grant makes Gitcoin and Radicle major governance stakeholders in one another’s communities. Each community will have influence in the other’s governance process, enabling them to best represent their interests and to more closely collaborate on a shared open-source vision.\nDevelop synergistic features and products: A formal partnership and vested token interest creates opportunity for closer collaboration on features and products that will benefit both communities. This could provide the necessary support for joint development on things such as using Radicle’s decentralized identity for Gitcoin Grants and Gitcoin becoming a de facto funding mechanism for open source projects on Radicle.\nSet precedent for future community alliances: Both Gitcoin and Radicle’s treasury strategies outline the basis for mutual grants and community collaborations being influential to the success of the protocols. This alliance can serve as a basis and provide the template for future collaborations for Gitcoin, Radicle, and the larger web3 ecosystem. In the future, and with alliance-member approval, more DAOs could be brought into the alliance.\nDiversify each DAO’s governance base: Today, the distribution of voting power at both DAOs is concentrated in the hands of internal contributors. Both DAOs would benefit from a more diverse voter base, especially one that includes a like-minded partner DAO as one of its top stakeholders. To achieve this, Llama proposes that Gitcoin receive RAD (depending on final grant rate) and Radicle receive 500,000 GTC, formalizing the alliance between the two DAOs and making each DAO a top 10 delegate in each other’s governance.\nBackground\nAbout Llama\nLlama builds economic infrastructure for DAOs. We are an opinionated layer on top of DeFi protocols that helps DAOs take treasury actions including treasury diversification, liquidity provisioning, token swaps, and more.\n\nAs part of our goal to grow the DAO economy, Llama has engaged with key stakeholders from the Gitcoin (Scott) and Radicle (Abbey) communities to propose a Public Goods Alliance.\n\nYou can view some of our work here 1.\n\nAbout Gitcoin\nGitcoin is a platform for funding public goods. Gitcoin’s mission is to help build an Internet that is open source, collaborative, and economically empowering. Along with Gitcoin Grants, Gitcoin has made other important contributions to the public goods ecosystem through its Kernel accelerator and research into anti-sybil technology. Gitcoin also hosts events, hackathons, and educates users about how to get involved in web3.\n\nReasoning is described in the Purpose section above.\n\nLink to Temperature Check\nRadicle: [Temperature Check] Radicle // Gitcoin Public Goods Alliance - #6 by abbey 1\n\nGitcoin’s discussion: Gitcoin // Radicle Public Goods Alliance [Temp Check] - #15 by Kydo - 🤝Partnerships - Gitcoin Governance\n\nGitcoin’s snapshot: Snapshot\n\nReasoning & analysis\nThe case for the proposal is described in the Purpose section above. A summary of the pros and cons is summarized below:\n\nPros:\n\nDissemenate Radicle’s message on decentralized open-source software.\nIncrease Radicle’s user base.\nBuild synergistic product offers with Gitcoin around open source software.\nDecentralized the Radicle DAO ownership structure.\nJumpstart future collaboration with other public goods DAOs and organizations.\nCons:\n\nTreasury value decreases due to GTC depreciation.\nTechnical implementation\nLlama will write the code for all governance payloads and set up the multisigs for each metagovernance committees. Code will be reviewed by external reviewers and each community’s engineering team.\n\nThe set up will consist of one smart contract and two multisigs. The contract will facilitate the mutual grant transferring process. It has one function which transfers RAD and GTC to the other DAO’s treasury. The two 1/3 multisigs are gnosis safes which the voting power will be delegated to. Votes will be executed out of the 1/3 multisig controlled by representatives. The multisig only holds the delegated voting power and is designed for the committee representatives to more effectively execute votes.\n\nThree governance payloads will need to be approved by Gitcoin and Radicle in this order.\n\nPayload 1 (for Radicle): approve the contract to transfer X RAD to Gitcoin’s treasury address (0x57a8865cfB1eCEf7253c27da6B4BC3dAEE5Be518) on behalf of the Radicle treasury. X will be determined by a 90-day TWAP.\n\nOn the day of the first proposal on Radicle, conversion rate between GTC and RAD will be determined by a 90-day TWAP calculated from Binance’s price feed. Both RAD and GTC’s trading volume mainly happen on Binance, therefore Binance is selected.\n\nPayload 2 (for Gitcoin): 1. approve the contract to transfer 500,000 GTC to Radicle’s treasury (0x8dA8f82d2BbDd896822de723F55D6EdF416130ba) on behalf of the Gitcoin treasury. 2. Call the grant() function in the contract. 3. Delegate RAD voting power to Gitcoin’s metagovernance committee multisig. 4. Transfer pre-defined amount of GTC to Llama treasury.\n\nPayload 3 (for Radicle): delegate GTC voting power to Radicle’s metagovernance committee multisig. Transfer pre-defined amount of RAD to Llama treasury.\n\nOn Radicle’s side, since two payloads need to be executed, two on-chain governance proposals will need to be passed. Therefore, to simplify the process, this discussion and its future snapshot vote will serve as the requirement for both on-chain proposals (if the snapshot passes).\n\nImpact\nAs Gitcoin is the leading public goods funding platform, Radicle would gain notable governance power through this proposal. With this governance power, Radicle could increase growth by integrating with Gitcoin’s numerous functions, from public good funding to developer education. Also, this proposal would serve as an example for future DAO2DAO collaboration which has been a theme in the community. More impacts are covered in the Purpose section.\n\nOpen questions\nWho are the committee representative from Radicle?\n\n[1] Source: Radicle delegates, Gitcoin delegates.",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xa89bb3b142197d11be1d6290c1D77ee6C783c15A",
+      "totalVotes": 9,
+      "blockNumber": 15121986,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/bafkreia4tl25spzwtys4kfns3iiuj32n2wugyupa6adg6mlxwg77a3bzx4",
+      "startTime": {
+        "timestamp": 1657555200
+      },
+      "endTime": {
+        "timestamp": 1658160000
+      },
+      "startTimestamp": 1657555200,
+      "endTimestamp": 1658160000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Make No Change",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 6922974.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6922974.673405429,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjg=",
+      "id": "8",
+      "title": "Set name registration fee to zero",
+      "content": "Set the name registration fee to `0`, which will no longer require\nusers to hold RAD to register `.radicle.eth` names.\n\nDiscussion: <https://radicle.community/t/discussion-remove-name-registration-fee/2583>\nSnapshot: <https://snapshot.org/#/gov.radicle.eth/proposal/QmW64iqHQPAHRHdBV2jqG476XJChoY5Ji8FwgdszhghGaZ>\n\n## Addresses\n\n* `0x37723287Ae6F34866d82EE623401f92Ec9013154`: The Radicle Registrar\n\n## ACTIONS ##\n\n```\n0x37723287Ae6F34866d82EE623401f92Ec9013154 0 \"setRadRegistrationFee(uint256)\" 0\n```\n",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x464D78a5C97A2E2E9839C353ee9B6d4204c90B0b",
+      "totalVotes": 11,
+      "blockNumber": 14437002,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1647964543,
+      "endTimestamp": 1648195885,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 5127054.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14480793
+          },
+          "event": "queued",
+          "timestamp": 1648553040,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14525187
+          },
+          "event": "executed",
+          "timestamp": 1649152126,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 5127054.5,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjc=",
+      "id": "7",
+      "title": "6 - Radicle Ecosystem Growth Fund [EGF] - Start Funding",
+      "content": "If executed, this proposal will:\n\n1. Transfer 500,000 USDC from the Radicle Treasury to the Radicle Ecosystem Growth Fund's multi-sig\n2. Transfer 10,123 RAD from the Radicle Treasury to the Radicle Ecosystem Growth Fund's multi-sig\n\n**How was this proposal discussed?**\nPlease see discussions here:\n* Temperature Check: https://radicle.community/t/temperature-check-growth-workstream/2509\n* Discussion: https://radicle.community/t/discussion-radicle-ecosystem-growth-fund/2671\n* Formal Review: https://radicle.community/t/formal-review-radicle-ecosystem-growth-fund-egf/2721\n* Snapshot Poll: https://snapshot.org/#/gov.radicle.eth/proposal/0x16400b2c86d6ebdea246372182f18a17394435d9e31f9749ebaad89e37f3eb25\n\n## Notes\n* `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` is the USDC contract (https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48).\n* `0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3` is the RAD contract (https://etherscan.io/token/0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3).\n* `0x8da8f82d2bbdd896822de723f55d6edf416130ba` is the Radicle Treasury address.\n* `0x60A22232D40486c8E6A7699d02Bdc01f37ACb22f` is the Radicle EGF multi-sig address.\n",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 8,
+      "blockNumber": 14436781,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1647961480,
+      "endTimestamp": 1648193239,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 5096712.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14480753
+          },
+          "event": "queued",
+          "timestamp": 1648552507,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14525164
+          },
+          "event": "executed",
+          "timestamp": 1649151784,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 5096712.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjY=",
+      "id": "6",
+      "title": "6 - Radicle Ecosystem Growth Fund [EGF] - Start Funding",
+      "content": "If executed, this proposal will:\n\n1. Transfer 500,000 USDC from the Radicle Treasury to the Radicle Ecosystem Growth Fund's multi-sig\n2. Transfer 10,123 RAD from the Radicle Treasury to the Radicle Ecosystem Growth Fund's multi-sig\n\n**How was this proposal discussed?**\nPlease see discussions here:\n* Temperature Check: https://radicle.community/t/temperature-check-growth-workstream/2509\n* Discussion: https://radicle.community/t/discussion-radicle-ecosystem-growth-fund/2671\n* Formal Review: https://radicle.community/t/formal-review-radicle-ecosystem-growth-fund-egf/2721\n* Snapshot Poll: https://snapshot.org/#/gov.radicle.eth/proposal/0x16400b2c86d6ebdea246372182f18a17394435d9e31f9749ebaad89e37f3eb25\n\n## Notes\n* `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` is the USDC contract (https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48).\n* `0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3` is the RAD contract (https://etherscan.io/token/0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3).\n* `0x8da8f82d2bbdd896822de723f55d6edf416130ba` is the Radicle Treasury address.\n* `0x60A22232D40486c8E6A7699d02Bdc01f37ACb22f` is the Radicle EGF multi-sig address.\n",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 9,
+      "blockNumber": 14391708,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1647354930,
+      "endTimestamp": 1647587407,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 3323376.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 3323376.5,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweDE2NDAwYjJjODZkNmViZGVhMjQ2MzcyMTgyZjE4YTE3Mzk0NDM1ZDllMzFmOTc0OWViYWFkODllMzdmM2ViMjU=",
+      "id": "0x16400b2c86d6ebdea246372182f18a17394435d9e31f9749ebaad89e37f3eb25",
+      "title": "Should the Treasury fund the Radicle Ecosystem Growth Fund?",
+      "content": "> 🚨 Please formally review the [full proposal](https://radicle.community/t/formal-review-radicle-ecosystem-growth-fund-egf/2721) on Discourse before voting. It includes full details on the proposed change and implementation. 🚨\n\n# Overview\nThis proposal is to fund the Radicle Ecosystem Growth Fund (, an ecosystem fund governed by a \"squad\" of Radicle Core Team and ecosystem members an expertise in growth. The goal of the EGF is fund initiatives that drive awareness, engagement, and adoption of the Radicle stack. The proposed budget is $500k USDC (grants) and 10,123 RAD (compensation) to be distributed over the course of 6 months.\n\n* [Proposal Code](https://github.com/radicle-dev/radicle-governance/blob/main/proposals/start_funding.proposal)\n* [Temperature Check](https://radicle.community/t/temperature-check-growth-workstream/2509)\n* [Discussion](https://radicle.community/t/discussion-radicle-ecosystem-growth-fund/2671)\n\n# **Functional Description**\n\nThe proposal is to start MVPing the [Radicle EGF](https://radicle.community/t/discussion-radicle-ecosystem-growth-fund/2671). The focus of which will be on funding initiatives that drive awareness, engagement, and adoption of the Radicle stack. We have very strong early signals of product market fit with users and platforms looking to join our ecosystem. Once these have been proven out with activated users and integrations we need to build a playbook to focus on scaling and optimising.\n\nRadicle’s current focus is on building and growing adoption of a secure and uncensorable code infrastructure, collective code governance, and new ways to earn for open source. This \"Growth DAO\" will use all methods to grow adoption of the protocols and interfaces in this network.\n\n### Types of Initiatives\n\nInitiatives can be proposed by any member of the Radicle community and must follow the same format as the format established by Radicle. They cannot be free-form. This is to ensure some level of equality when assessing multiple applicants.\n\nWe expect that in Season 1 of the EGF, most initiatives will come from the core Radicle team. Over time, the line between core member based initiatives and community ones should blur. This will be a key part of Radicle’s progressive decentralisation.\n\n### Scope\n\nThe first season will last **6 months**. Proposals will be reviewed on a rolling basis. Every 2 weeks proposals will be assessed by Committee Members.\n\nWe envision projects in the following categories\n\n1. Growth contributors\n2. Hackathon/event sponsorships\n3. Content/media channel sponsorships\n4. Educational content sponsorships\n5. Product driven growth development\n6. Gas reimbursements\n\n> Note: Details above are subject to change based on our experience providing [grants](https://radicle.community/t/formal-review-radicle-grants-program-v2/2582).\n\n## **Budget & Timeline**\n\n* Amount: $500,000 (USDC)\n* Length: 6 months\n\n## **Team & Responsibilities**\n\n### Radicle EGF (Multi-Sig)\n\nThe below group will act as signers of the EGF [multi-sig ](https://docs.radicle.xyz/docs/connecting-to-ethereum/creating-an-org#creating-an-org). The multi-sig votes here will act as both approval of growth initiatives as well as the funding of initiatives.\n\nThe EGF will be governed by a group made up for core team, community, and ecosystem members that have expertise in growth. We believe this approach balances fast decision making, guided by a deep understanding of what is best for the project. Having community and ecosystem members in the group ensures that community and ecosystem perspectives are represented as initiatives are proposed.\n\nMembers include:\n\n* [Nassar ](https://twitter.com/nassarhayat) (Radicle)\n* [Matt ](https://www.linkedin.com/search/results/all/?keywords=matt%20osborn&origin=RICH_QUERY_SUGGESTION&position=0&searchId=19199f4c-c407-4954-9e0f-788ebc233d52&sid=LpP) (Radicle)\n* [Abbey](https://twitter.com/abbey_titcomb) (Radicle)\n* [Thom](https://twitter.com/thomcummings) (Radicle)\n* [Dimitar ](https://twitter.com/Stanimiroff) (Community)\n* [Nadia](https://twitter.com/nad8802) (Community)\n* [Richard ](https://twitter.com/richlitt) (Ecosystem)\n* [Shah](https://twitter.com/0xShah) (Ecosystem)\n\n### Committee compensation\n\nNon-radicle core members will be compensated with $2000 per month in RAD for their position on the committee. \n\n***What is total amount of compensation needed?***\nWe use the following assumptions to find the total USD-denominated amount of RAD needed to cover committee compensation over 6 months.\n\n```\nnon_core_committee_members = 4\ngrants_program_lengths_in_months = 6\nmonthly_compensation_usd = 2000\ntotal_rad_compensation_usd = non_core_committee_members * grants_program_lengths_in_months * monthly_compensation_usd\ntotal_rad_compensation_usd = $48,000\n```\n\nSo we need roughly $48,000 worth of RAD to compensate committee members over the 6 month period.\n\n***How will we handle volatility in RAD:USD?***\nWe start with the following information about historical prices over the past 2 months:\n\n`average_price = $7.96`\n`standard_deviation = $2.27`\n`perc_buffer_for_market_downturn = 0.2`\n\nSo we propose the below formula to protect against large fluctuations downward in price:\n\n```\nRAD to Transfer = $48,000 / (AVG Price over 6 months - STD of price) * (1 + perc_buffer_for_market_downturn)\nRAD to Transfer = $48,000 / ($7.96 - $2.27) * 1.2\nRAD to Transfer = $48,000 / $5.69 * 1.2 \nRAD to Transfer = 10,123\n```\n\n***How will the conversion be made at the end of each month?***\n\nThis will be paid out in RAD, with the conversion being made based on the average spot price in the last 7 days of each month. The payment will be made at the end of each month.\n\nFor example, if the average spot price were $10:1RAD at the end of the month, then each committee member would receive 200RAD for the month.\n\n***Why is there a 20% buffer?***\nGiven the current market conditions and current price being close to bottom it is prudent to add a 20% buffer to required RAD. \n\n***What happens to funds not paid out to initiatives or committee members?***\nThese will either be rolled into the next round or transferred back to the treasury if we decide to change direction. \n\n### Growth Lead\n\nAs mentioned in the forums, the Radicle Governance Working Group has been wanting to see a growth initiative focused DAO setup and this has been spearheaded by @nas (core team).\n\nThe EGF lead will also be complemented by a committee made up of core contributors + community members. Here’s what the Growth Lead role consists of:\n\n* Organising and processing initiative ideas: this will include ideas from core Radicle members or open applications from the community (e.g. requests for hackathon sponsorships)\n* Initial screening of proposals: Committee Members and Core Team members should trust that they will only have to assess proposals who have met a high bar.\n* Scheduling review calls: this will include scheduling calls between proposers and any relevant Committee Members and/or Core Team\n* Tracking delivery/progress: The Growth Lead will track and review delivery and ROI on initiatives to share with the committee and wider community.\n* Multi-Sig voting: the Growth Lead will communicate to relevant Committee Members when a vote for finalized work is in order.\n\nThe core goal of the Growth Lead is to build the Radicle ecosystem.\n\n## **Program Structure & Process**\n\n### **Implementation**\n\n1. EGF will be setup as a multisig (Safe -> 0x60A22232D40486c8E6A7699d02Bdc01f37ACb22f)\n2. EGF members will be added to the multisig\n3. The members will contribute to and review a strategy for this round of the EGF.\n4. Initiatives can be proposed by core team, radicle community, or the wider web3 ecosystem using a templated markdown document\n\n### Application Process\n\n*Location:* there will be an AirTable based application.\n\n*Process:* it will ask the Applicant for information like their name/pseudonym, org they represent, GitHub, twitter or other previous work material. It will also ask for details on ROI for Radicle from funding their proposal.\n\n### Initiative Approval\n\nThe Growth Lead is to communicate Multi-Sig voting due dates and any required secondary assessments. Review meetings will occur on the last Friday of every month subject to Committee Member availability.\n\nIn leu of synchronous interviews, Committee Members may assess applicants asynchronously by providing written questions for the applicant(s) to respond to. This must be done in a timely manner (i.e. several days prior to when the final assessment takes place).\n\nOnce reviewed, an initiative will need final approval via a multi-sig vote on a project for the initial payment (see *Payment* section below).\n\n### Payment\n\nPayment agreements will be based on milestone, streaming, or upfront basis subject to what is most appropriate for the initiative. We aim to use [drips.network](http://drips.network) in order to transfer funds from the EGF to wallets specified by projects.\n\n# **Purpose**\n\nThe reasoning behind starting a EGF is to add structure, process, and automation to the funding of new contributors and community members that want to propose and see growth initiatives implemented. This will help us put our best foot forward in decentralising Radicle.\n\nThe purpose of this entire exercise comes down to three main goals.\n\n1. **Growth**\nInitially the efforts at the top of the funnel will be about growing an audience, understanding their reality and needs, understanding their blockers, and maintaining their engagement with the Radicle network. Whilst we build out the radicle stack to become invaluable and core infrastructure, we will need to leverage a number of tools at out disposal. Once we have started seeing adoption we should move towards starting to build our growth systems, models, and initiatives. Acquisition, Activation, Retention, Referral, and Revenue.\n\n2. **Adoption/Activation:**\n“The objective here is for more and more decentralised communities to use Radicle on a frequent basis for community-critical operations. This could take the form of using Radicle as an active mirror for their Github/Gitlab projects, using Radicle orgs for organisation management and releases or funding their operations through Radicle”\n\n3. **Progressive decentralisation:**\nRadicle is meant to enable the decentralisation of governance and contributions to free and open-source software. As a result, Radicle itself should be self-governed, self-funded, and self-built for and by the Radicle community. This also aligns with the third high-level objective of the Radicle Foundation.\n\n# **High level KPIs**\n\n1. Develop a clear strategy for growth of the radicle ecosystem that is repeatable and scalable.\n2. Number of initiatives funded\n3. Number of integrations by partners of ecosystem protocols\n\n# **Relevant Forum Discussions**\n\nh\n\n# **Reasoning & analysis**\n\n### **Pros**\n* The pros largely follow the *Purpose* section above\n  * Progressive decentralisation: almost by definition, a grants program decentralises\n  * Team growth: the EGF can become a powerful channel for attracting community contributors as well as new core members\n  * Network user growth: the EGF will bring in more developers wanting to use radicle and teams wanting to build on radicle.\n\n### **Cons**\n* There is a risk of projects not working out as expected\n\n# **Technical implementation**\n\n### Treasury Funding\n\n* Amount: $500,000\n* Period: 6 months\n* At the end of the period, the money should be sent back to the Treasury\n\nAt the end of the 6 months, a new season must be announced, go through [the normal governance process](https://radicle.community/t/readme-radicle-governance-process/526).\n\n\n# **Impact**\n\n(Note: largely covered above in the *Purpose* section, so summarised below)\n\n* User Growth\n* Adoption/activation\n* Progressive decentralization: self-sustaining (community funded/community built) growth from community contributors",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 14,
+      "blockNumber": 14209382,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0x16400b2c86d6ebdea246372182f18a17394435d9e31f9749ebaad89e37f3eb25",
+      "startTime": {
+        "timestamp": 1644919200
+      },
+      "endTime": {
+        "timestamp": 1645524000
+      },
+      "startTimestamp": 1644919200,
+      "endTimestamp": 1645524000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4971478.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4971478.525081047,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweDcwNDAyNWU1NzdmZjdlNGUyMDI5ODVkMzQyYzMwMjg1YzRkMGQzMjBhMThjMzRiNzY0YWE5YjRkZDM4ZmQ4ZWM=",
+      "id": "0x704025e577ff7e4e202985d342c30285c4d0d320a18c34b764aa9b4dd38fd8ec",
+      "title": "Should the name registratio fee be set to zero?",
+      "content": "> 🚨 Please formally review the [official draft](https://radicle.community/t/formal-review-v2-remove-name-registration-fee/2720) of the proposal on Discourse before voting. It includes full details on the proposed change and implementation. 🚨\n\n> This post revives the [Remove name registration fee](https://radicle.community/t/formal-review-v1-remove-name-registration-fee/2604/16) proposal and resubmits it for formal review so it can meet participation requirements and move into the final phase of governance. \n\n# Proposal Champions\n\nNassar Hayat - @nas | nas#9634\nAbbey Titcomb - @abbey | abbey#5646\nCloudhead - @cloudhead | cloudhead#2904\n\n# Description\n\nThis proposal is to set the Radicle name registration fee to `0` (`\"setRadRegistrationFee(uint256)\" 0`). \n\nThe goal of this initiative is to support the adoption of Radicle features by reducing the cost and effort required to create & link on-chain identities (ENS names).\n\n## Purpose & Background\nToday's hosted platforms benefit from the network effects that come with centralized server-side data hosting. Peer-to-peer systems lack this global namespace and the discoverability that comes with it. With Radicle Registrar, you can register globally unique names under the **radicle.eth** domain (e.g. cloudhead.radicle.eth) for Radicle profile and Orgs. These are interoperable and self-sovereign usernames that resolve to an Ethereum address. They can be used to recognize users not only within the Radicle network, but also throughout the global Ethereum network. \n\nIn order to register a name with the Radicle Registrar (to acquire a `radicle.eth` name) it cost 10 RAD:\n\n## **Reasoning & Analysis**\n\nTo register a Radicle name, if a user doesn't have RAD they have to exchange something in order to get RAD (cc @bordumb for the user flow).\n\nThis incurs 3 bits of overhead:\n* The time it takes to exchange something for RAD\n* The opportunity cost of making that exchange (e.g. volatility of RAD)\n* The gas costs to make that exchange\n\nFor a feature that's meant to be as easy as registering a username, the current RAD fee introduces a barrier to entry/adoption that diminishes user experience. Additionally, current L1 gas prices add far too much cost to be assumed by the average user.\n\nWhile the fee was originally set as a way to create utility and drive demand for RAD, the positive effect of value captured with the fee is nominal when compared to the experienced negative effect of user drop-off when onboarding. We believe that the positive network effects of designing for easiest adoption & onboarding will result in a more substantial net-gain for the project.\n\n## **Technical Implementation**\n\nDrafted proposal code can be found in the alt-clients org, in the radicle-governance repository.\n\nhttps://app.radicle.network/alt-clients.radicle.eth/rad:git:hnrkeoptyqxgg5rwjdaqxo47y6odkxitgc51y/tree/64dcc28bdec74e0f0c7649853c635c30dc1d3559/proposals/set-name-registration-fee-to-zero.proposal\n\n> This change to the registration to remove a RAD fee will be in place indefinitely, unless superseded by a future proposal reinstating the price.",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 18,
+      "blockNumber": 14204017,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0x704025e577ff7e4e202985d342c30285c4d0d320a18c34b764aa9b4dd38fd8ec",
+      "startTime": {
+        "timestamp": 1644854400
+      },
+      "endTime": {
+        "timestamp": 1645459200
+      },
+      "startTimestamp": 1644854400,
+      "endTimestamp": 1645459200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4946306.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4946306.104718991,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjU=",
+      "id": "5",
+      "title": "Radicle Grants Wave 1 - Start Funding",
+      "content": "If executed, this proposal will: \n\n1. Transfer 1.0M USDC from the Radicle Foundation to the Radicle Grant Program's multi-sig\n2. Transfer 44,108 RAD from the Radicle Foundation to the Radicle Grant Program's multi-sig\n\n**How was this proposal discussed?**\nPlease see discussions here:\n* Temperature Check: https://radicle.community/t/temperature-check-radicle-grants-program/2461/8\n* Formal Discussion (V1): https://radicle.community/t/formal-review-radicle-grants-program-v1/2548\n* Formal Discussion (V2): https://radicle.community/t/formal-review-radicle-grants-program-v2/2582/22\n* Snapshot Poll (94% Approval): https://snapshot.org/#/gov.radicle.eth/proposal/0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff\n\nPlease see Grants Program repo here (to be mirrored on Radicle in future):\n* https://github.com/radicle-dev/radicle-grants\n\n## Notes\n* `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` is the USDC contract (https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48).\n* `0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3` is the RAD contract (https://etherscan.io/token/0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3).\n* `0x8da8f82d2bbdd896822de723f55d6edf416130ba` is the Radicle Treasury address.\n* `0x394B920c5d39E0Ca40fCa2871569B6B90D750c7c` is the Radicle Grants Program's multi-sig address.\n\n## Radicle Grants Org\nPlease find pertinent metadata for the Org here: https://app.radicle.network/orgs/0x8e9c37cc9a8fbb96400954c1ef2b351176fe0803\n",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 12,
+      "blockNumber": 13958958,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1641566929,
+      "endTimestamp": 1641797402,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 5236866.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13991125
+          },
+          "event": "queued",
+          "timestamp": 1641996335,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14024616
+          },
+          "event": "executed",
+          "timestamp": 1642443409,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 5236866.5,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDpxbXc2NGlxaHFwYWhyaGRidjJqcWc0NzZ4amNob3k1amk4ZndnZHN6aGdoZ2F6",
+      "id": "QmW64iqHQPAHRHdBV2jqG476XJChoY5Ji8FwgdszhghGaZ",
+      "title": "Should the Radicle smart contracts be adjusted to remove the name registration fee ",
+      "content": "🚨 Please formally review the [official draft](https://radicle.community/t/discussion-remove-name-registration-fee/2583) of the proposal on Discourse before voting. It includes full details on the proposed change and implementation. 🚨\n\n# Proposal Champions\n\nNassar Hayat - [@nassarhayat](https://twitter.com/nassarhayat) | nas#9634\nCloudhead - [@cloudhead](https://twitter.com/cloudhead) | cloudhead#2904\n\n# Description\n\nWe’d like the radicle name registration fee to be removed. The goal of this initiative is to support the adoption of Radicle Orgs by reducing cost and effort when onboarding.\n\n## Purpose & Background\n\n### [[Temperature Check] Remove name registration fee](https://radicle.community/t/temperature-check-remove-name-registration-fee/2516)\n> Currently, registering a name costs 10 RAD. Though in itself, the amount is high in $ terms, another issue is that we require all users to buy RAD before registering a name. This means they have to go on Uniswap and exchange some ETH or USDC for RAD, before being able to register a name.\n> \n\n> Since name registration is integral to creating an identity on Radicle as well as creating an Org, and is part of the onboarding process, any friction there will slow down growth of the network.\n> \n\n> I propose that we set the registration fee to `0`, which will no longer require users to hold RAD, and focus on the other areas (eg. Radicle Funding) to drive demand for the token.\n> \n\n\n## **Reasoning & Analysis**\n\n1. This fee was originally set as a way to create utility and drive demand for RAD alongside usage. The business models of p2p networks have evolved and it is no longer necessary to charge for the creation of a radicle name. \n2. Gas prices are also high right now it adds far too much cost, which results in major drop-off when onboarding. \n3. The radicle network benefits from network effects and thus shouldn't create blockers for users joining \n\n## **Technical Implementation**\n\n- call `setRadRegistrationFee(0)`\n- [https://github.com/radicle-dev/radicle-contracts/blob/master/contracts/Registrar.sol#L279](https://github.com/radicle-dev/radicle-contracts/blob/master/contracts/Registrar.sol#L279)\n\n## **Impact**\n\nThis proposal will make it easier and less expensive for new users to onboard which we believe will help support long-term adoption of Radicle features.",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0x52217bAD145A7a80D510f24A9572781D260f33D3",
+      "totalVotes": 27,
+      "blockNumber": 13709618,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/QmW64iqHQPAHRHdBV2jqG476XJChoY5Ji8FwgdszhghGaZ",
+      "startTime": {
+        "timestamp": 1638219600
+      },
+      "endTime": {
+        "timestamp": 1638824400
+      },
+      "startTimestamp": 1638219600,
+      "endTimestamp": 1638824400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 886530.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 886529.9535147507,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweGU5MTU4YzBlNjU2OTE4ZjIwN2Y3NmFmMGIwNWZlZWZjZTJjZjA3YzAyZTU4Mjk0NDgyNTM3M2VlYmQ0ZGRhZmY=",
+      "id": "0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff",
+      "title": "Should the Radicle Treasury fund the proposed Radicle Grants Program?",
+      "content": "**🚨 Please formally review the [official draft](https://radicle.community/t/formal-review-radicle-grants-program-v2/2582) of the RGP proposal on Discourse before voting. It includes full details on the proposed program structure and implementation. 🚨**\n\n# **Description** \n\nThe proposal is to start the Radicle Grants Program (RGP). The purpose of which will be to collect, assess, approve, and fund solutions to problems within the Radicle ecosystem.\n\nIn other words, the aim is to directly support open source initiatives that help grow the Radicle product, community, and the greater Free and Open Source Software (FOSS) and Web3 community at large.\n\n# **Budget & Timeline**\n\n**Amount:** $1,000,000 (USDC)\n**Length:** 6 months\n\n> *Grant funding and compensation for committee members will be controlled by the RGP's multi-sig. As Radicle decentralizes, the budget may fall under a different group entirely and/or utilize Radicle Funding/Drips. Any new arrangements will be assessed at the end of the 6 months. See the Compensation section below for more details.*\n \n# **Implementation**\n\n**A fundamental goal for the RGP is to dogfood Radicle in order to build a web3-wide model for sustainable software development.** This comes down to 3 main uses of Radicle:\n\n- The RGP Committee will be its own [Org](https://radicle.community/t/feature-update-orgs/2132). \n- Committee members will be added as [members of the Org](https://docs.radicle.xyz/docs/connecting-to-ethereum/adding-members). \n- Grantees post work to relevant [Projects](https://docs.radicle.xyz/docs/using-radicle/creating-projects) within Radicle's core codebase for assessment by Core Dev maintainers. This workflow would be handled with [forks + patches](https://docs.radicle.xyz/docs/using-radicle/viewing-and-merging-patches) with the final anchored commits acting as the \"proof of work\" for grantees.\n- Finally, once Radicle Funding is ready, RGP's Org could pay out to grantee Orgs for their work via [Drips](https://radicle.community/t/feedback-on-nft-community-tokens/2455).\n\nFor an overview of  the proposed implementation for the RGP, please refer to the [official draft proposal](https://radicle.community/t/formal-review-radicle-grants-program/2548) on Discourse. \n\n# **Team & Responsibilities**\n\n## RGP Committee\n\nThe group outlined below will act as the RGP committee and will be the signers of the RGP Org's [multi-sig](https://docs.radicle.xyz/docs/connecting-to-ethereum/creating-an-org#creating-an-org). These committee members will be responsible for approving grants and distributing funding to grant projects.\n\nThe Radicle Grants Committee is made up of core Radicle team members, Radicle community members, and outside individuals who have related domain expertise within the Web3 ecosystem.  Committee members will all be paid at a rate of $150/hour of work.\n\nCurrent committed members include:\n\n- [Grants Lead - Bordumb](https://twitter.com/bordumbb) (Radicle Community)\n-- [Abbey Titcomb](https://twitter.com/abbey_titcomb) (Core Team)\n- [Kei Kreutler](https://twitter.com/keikreutler) (Ecosystem)\n- [Nader Dabit](https://twitter.com/dabit3) (Ecosystem)\n- [Nassar Hayat](https://twitter.com/nassarhayat) (Core Team)\n- Reverie (comprised of [Derek Hsue](https://twitter.com/derek_hsue) and [Larry Sukernik](https://twitter.com/lsukernik) from the Radicle Community)\n\nThe Grants Committee will finalized by the Grants Lead in the coming weeks. \n\n### Grants Lead\n\nThe Radicle Governance Working Group chose [bordumb.eth](https://twitter.com/bordumbb) to lead the RGP after publishing an [open call for applicants](https://radicle.community/t/looking-for-a-radicle-grants-program-lead/2489). The Grants Lead will also be funded via the proposed RGP budget.\n\n# Technical Implementation\n\nThis proposal calls for a distribution ($1,000,000 USDC) from the Radicle Treasury. This first grants period will last 6 months. At the end of period, any remaining funds will be sent back to the Treasury.\n\nAt the end of the 6 months, a new grants wave will be announced and go through the normal governance process.\n",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 26,
+      "blockNumber": 13639009,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0xe9158c0e656918f207f76af0b05feefce2cf07c02e582944825373eebd4ddaff",
+      "startTime": {
+        "timestamp": 1637251200
+      },
+      "endTime": {
+        "timestamp": 1637856000
+      },
+      "startTimestamp": 1637251200,
+      "endTimestamp": 1637856000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 712751.94,
+          "choice": 0
+        },
+        {
+          "total": 100.0,
+          "choice": 2
+        },
+        {
+          "total": 43740.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 712751.9620068163,
+          "choice": 0
+        },
+        {
+          "total": 43740.0,
+          "choice": 1
+        },
+        {
+          "total": 100.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDoweDRjMjg5ZGQ3NjE5NTcwYTA4ZGZmY2JiOTg3YjY2ZDI5ZGJiYjc0N2NmNWM0NzhlYmM3NzNmMDMwNGYxNWY3NzM=",
+      "id": "0x4c289dd7619570a08dffcbb987b66d29dbbb747cf5c478ebc773f0304f15f773",
+      "title": "Should the Radicle Treasury fund the proposed Radicle Grants Program?",
+      "content": "**🚨 Please formally review the [official draft](https://radicle.community/t/formal-review-radicle-grants-program/2548) of the RGP proposal on Discourse before voting. It includes full details on the proposed program structure and implementation. 🚨**\n\n# **Description** \n\nThe proposal is to start the Radicle Grants Program (RGP). The purpose of which will be to collect, assess, approve, and fund solutions to problems within the Radicle ecosystem.\n\nIn other words, the aim is to directly support open source initiatives that help grow the Radicle product, community, and the greater Free and Open Source Software (FOSS) and Web3 community at large.\n\n# **Budget & Timeline**\n\n**Amount:** $1,000,000 (USDC)\n**Length:** 6 months\n\n- Roughly 75% of the budget will be allocated to fund grant projects. \n- The remaining budget will be used to compensate committee members.\n\n> *Grant funding and compensation for committee members will be controlled by the RGP's multi-sig. As Radicle decentralizes, the budget may fall under a different group entirely and/or utilize Radicle Funding/Drips. Any new arrangements will be assessed at the end of the 6 months.*\n \n# **Implementation**\n\n**A fundamental goal for the RGP is to dogfood Radicle in order to build a web3-wide model for sustainable software development.** This comes down to 3 main uses of Radicle:\n\n- The RGP Committee will be its own [Org](https://radicle.community/t/feature-update-orgs/2132). \n- Committee members will be added as [members of the Org](https://docs.radicle.xyz/docs/connecting-to-ethereum/adding-members). \n- Grantees post work to relevant [Projects](https://docs.radicle.xyz/docs/using-radicle/creating-projects) within Radicle's core codebase for assessment by Core Dev maintainers. This workflow would be handled with [forks + patches](https://docs.radicle.xyz/docs/using-radicle/viewing-and-merging-patches) with the final anchored commits acting as the \"proof of work\" for grantees.\n- Finally, once Radicle Funding is ready, RGP's Org could pay out to grantee Orgs for their work via [Drips](https://radicle.community/t/feedback-on-nft-community-tokens/2455).\n\nFor an overview of  the proposed implementation for the RGP, please refer to the [official draft proposal](https://radicle.community/t/formal-review-radicle-grants-program/2548) on Discourse. \n\n# **Team & Responsibilities**\n\n## RGP Committee\n\nThe group outlined below will act as the RGP committee and will be the signers of the RGP Org's [multi-sig](https://docs.radicle.xyz/docs/connecting-to-ethereum/creating-an-org#creating-an-org). These committee members will be responsible for approving grants and distributing funding to grant projects.\n\nThe Radicle Grants Committee is made up of core Radicle team members, Radicle community members, and outside individuals who have related domain expertise within the Web3 ecosystem.\n\nCurrent committed members include:\n\n- [Grants Lead - Bordumb](https://twitter.com/bordumbb) (Radicle Community)\n- [Abbey Titcomb](https://twitter.com/abbey_titcomb) (Core Team)\n- [Nassar Hayat](https://twitter.com/nassarhayat) (Core Team)\n- [Derek Hsue](https://twitter.com/derek_hsue) (Radicle Community)\n- [Larry Sukernik](https://twitter.com/lsukernik) (Radicle Community)\n- [Shelby Steidl](https://twitter.com/shelby_steidl) (Radicle Community)\n- [Nader Dabit](https://twitter.com/dabit3) (Ecosystem)\n\nThe Grants Committee will decided on by the Grants Lead in the coming weeks. \n\n### Grants Lead\n\nThe Radicle Governance Working Group chose [bordumb.eth](https://twitter.com/bordumbb) to lead the RGP after publishing an [open call for applicants](https://radicle.community/t/looking-for-a-radicle-grants-program-lead/2489). The Grants Lead will also be funded via the proposed RGP budget.\n\n# Technical Implementation\n\nThis proposal calls for a distribution ($1,000,000 USDC) from the Radicle Treasury. This first grants period will last 6 months. At the end of period, any remaining funds will be sent back to the Treasury.\n\nAt the end of the 6 months, a new grants wave will be announced and go through the normal governance process.\n",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0xEA95cfB5Dd624F43775b372db0ED2D8d0073E91C",
+      "totalVotes": 16,
+      "blockNumber": 13531452,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/0x4c289dd7619570a08dffcbb987b66d29dbbb747cf5c478ebc773f0304f15f773",
+      "startTime": {
+        "timestamp": 1635782400
+      },
+      "endTime": {
+        "timestamp": 1636214400
+      },
+      "startTimestamp": 1635782400,
+      "endTimestamp": 1636214400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 31893.426,
+          "choice": 0
+        },
+        {
+          "total": 293.75394,
+          "choice": 2
+        },
+        {
+          "total": 21970.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 31893.425919975365,
+          "choice": 0
+        },
+        {
+          "total": 21970.0,
+          "choice": 1
+        },
+        {
+          "total": 293.753939707595,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDpxbWVwcGd4d281cTlnaXB6ZmthMzJybnhheW9vM2xyZnJxZHVpbmZ0YnUzbDNz",
+      "id": "QmepPgXwo5q9GipZFKa32rnxaYoo3LrfRqduinftbU3L3S",
+      "title": "Distribute 151614.2475 of the LBP unsold tokens to the LBP holders in proportion to their contribution",
+      "content": "\n## Functional Description\n\nIt's being proposed that distributing 151614.2475 RAD from Radicle Treasury with 6 months' lock time to [the LBP holders][hd] who holds 559728.7298901365 RAD from the LBP till now by the RAD they bought in LBP.\n\n1. Count the LBP holders, maybe base on [this script][ts]\n2. Distribute RAD to the holders\n\n\n## Purpose\n\nThis distribution would help the project by putting more votes into the hands of individual community members for helping radicle being more decentralized. \n\nSince this is the first proposal not drafted by the core team, this proposal could be a template for more community-driven proposals whatever it will pass or not, and it would encourage more community members to join the governance of radicle.\n\nThe amount of this distribution depends on the UNIX timestamp of the first commit of [OSCOIN][oc], the date, the dream starts, for regarding and respecting the perseverance of the Radicle Team.\n\n\n\n## Background\n\nOn February 25th, ~3.75% of the Radicle token supply available for interested parties within the Radicle community. It used Balancer a decentralized exchange and leverages a mechanism called Liquidity Bootstrapping.\n\nOver 1800 new token holders participated in the event, claiming over 50% of the RAD tokens put on Balancer at the beginning of the event. This event raised ~$25M in the Radicle Treasury, a smart contract controlled fully and transparently by Radicle token holders.\n\nSince [Exit LBP & add Uniswap liquidity?][ea], the unsold RADs has been back to the radicle treasury, and after [transfering 287k RADs to Uniswap pool][tl], there are around 1.45M RADs left from LBP.\n\nEarly supporters of Radicle were able to become part of the community by buying the Rad token for $1.5 USD. LBP supporters paid between $10 and $30. LBP contributors support the project just as much as the early backers who were allowed to join in for just $1.5 and should be rewarded for it with a \nshare of the unsold tokens. There are already more than enough tokens available in the treasury to be used for other purposes.\n\n\n\n## Link to previous discussions\n\n* https://radicle.community/t/discussion-should-unsold-rad-be-distributed-amongst-lbp-contributors/1527\n\n* https://radicle.community/t/discussion-should-the-remaining-rad-balances-from-the-lbp-event-be-distributed-amongst-lbp-contributors/1674\n\n* https://radicle.community/t/structured-discussion-distribute-lbp-unsold-tokens-to-the-people-who-contributed-to-the-lbp-in-proportion-to-their-contribution/1944\n\n\n\n## Reasoning & analysis\n\nThe community has been discussed this proposal for really a long time and we took several polls for surveying should we put forward this proposal.\n\n* https://radicle.community/t/structured-discussion-distribute-lbp-unsold-tokens-to-the-people-who-contributed-to-the-lbp-in-proportion-to-their-contribution/1944/42\n\n  * Distribute 50% unsold tokens to the LBP contributors\n  * Only distribute tokens to the LBP contributors who haven't sold their token\n  * Distribute RADs by how many RADs he/she exchanged in LBP\n  * Set a limit for distributing RADs to one contributor\n\n* https://radicle.community/t/structured-discussion-distribute-lbp-unsold-tokens-to-the-people-who-contributed-to-the-lbp-in-proportion-to-their-contribution/1944/58\n\n  * Lock the distributing RADs for 6 months\n  * Unlock the distributing RADs every 6 weeks\n  * Unlock fixed proportion every time unlock\n\n* https://radicle.community/t/structured-discussion-distribute-lbp-unsold-tokens-to-the-people-who-contributed-to-the-lbp-in-proportion-to-their-contribution/1944/69\n\n  * Continue this proposal\n\n* https://radicle.community/t/structured-discussion-distribute-lbp-unsold-tokens-to-the-people-who-contributed-to-the-lbp-in-proportion-to-their-contribution/1944/73\n\n  * Distribute tokens by the UNIX epoch timestamp of the initial commits of OSCOIN, the date, the dream starts.\n\n\nIn the last poll we vote to distribute 15161.42475 RAD, 0.027 per RAD, after calculating it over again, it can not achieve the purpose of putting more votes into the hands of individual community members, so it is 151614.2475 RAD now.\n\n\n\n## Technical Implementation\n\nTransfering the distributed RAD to LBP holders one by one takes too much gas, this proposal requires a function in [radicle-contracts][rc] that can drop or set claimable RAD to the LBP holders' address.\n\n\n\n## Impact\n\nThe LBP holders are not selling their RAD in a short time, instead, they hold their RAD for the longest time, this proposal hardly can add liquidity to the market but distribute more votes to the individual community members, besides, this will encourage more community members holding their RAD.\n\n\n\n## Open Questions\n\n* There is a lot of community members who join radicle as holders after the LBP, how could we set a mechanism benefiting the RAD holders?\n\n* It seems [radicle-contracts][rc] doesn't have a function that can execute this proposal immediately, if this proposal passes, who will be writing the code?\n\n\n[sd]: https://radicle.community/t/structured-discussion-distribute-lbp-unsold-tokens-to-the-people-who-contributed-to-the-lbp-in-proportion-to-their-contribution/1944/79\n[oc]: http://oscoin.io/\n[ea]: https://snapshot.org/#/gov.radicle.eth/proposal/QmVypVPUPzHkM4VWSdVx5DHL7o2Xxxvydd85dEQaEyh9Fg\n[tl]: https://etherscan.io/token/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3?a=0x8da8f82d2bbdd896822de723f55d6edf416130ba\n[hd]: https://github.com/radicle-unofficial/holders/blob/main/lbp_holders.json\n[rc]: https://github.com/radicle-dev/radicle-contracts\n[ts]: https://github.com/radicle-unofficial/holders",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0x1137b52aD2398E0A6106f329Ca7C57DEAD39778D",
+      "totalVotes": 124,
+      "blockNumber": 12154595,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/QmepPgXwo5q9GipZFKa32rnxaYoo3LrfRqduinftbU3L3S",
+      "startTime": {
+        "timestamp": 1617336000
+      },
+      "endTime": {
+        "timestamp": 1618113600
+      },
+      "startTimestamp": 1617336000,
+      "endTimestamp": 1618113600,
+      "currentState": "closed",
+      "choices": [
+        "Aye",
+        "Nay"
+      ],
+      "results": [
+        {
+          "total": 78136.27,
+          "choice": 0
+        },
+        {
+          "total": 123126.414,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 78136.27844211143,
+          "choice": 0
+        },
+        {
+          "total": 123126.4018172782,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjQ=",
+      "id": "4",
+      "title": "Exit LBP & add Uniswap liquidity",
+      "content": "This is a proposal to complete the LBP event by exiting the pool. To maintain\na liquid market, 4M USDC and 400K RAD are added to a Uniswap trading pair.\n\nIf executed, this proposal will:\n\n1. Remove liquidity from the LBP, by swapping the RADP pool tokens for the underlying assets (RAD and USDC)\n2. Return the 3.5M USDC loan to the Radicle Foundation\n3. Approve Uniswap router proxy for 5M USDC\n4. Approve Uniswap router proxy for 500K RAD\n5. Add liquidity to Uniswap RAD/USDC pair via the Uniswap router\n\nAfter execution, the Timelock holds all Uniswap LP tokens for the RAD/USDC pair.\n\nTo prevent front-running, the RAD/USDC balances are set through the Uniswap\nrouter *proxy* contract, deployed at `0xB76FC4EbE4fC0CC34AF440Ad79565A68Bfcb095e`.\nOnly the Radicle Foundation can set these balances, via the `setLiquidity`\nfunction. This contract function must be called as close as possible to the\nexecution of this proposal, to provide liquidity at the correct market price.\n\n## Notes\n\n* For this proposal to go through, the LBP must have at least 1M RAD and 20M USDC.\n* `0x750dD34Fb165bE682fAe445793AB9ab9729CDAa3` is the CRP Pool.\n* `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` is the USDC contract.\n* `0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3` is the RAD contract.\n* `0x055E29502153aEDcFDaE8Fc15a710FF6fb5e10C9` is the Radicle Foundation address.\n* `0xB76FC4EbE4fC0CC34AF440Ad79565A68Bfcb095e` is the Uniswap router proxy contract.",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x2f0963E77cA6AC0c2Dad1Bf4147B6B40e0dD8728",
+      "totalVotes": 19,
+      "blockNumber": 12029477,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1615628739,
+      "endTimestamp": 1615858817,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 6333263.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12048881
+          },
+          "event": "queued",
+          "timestamp": 1615887332,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12061887
+          },
+          "event": "executed",
+          "timestamp": 1616060601,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 6333263.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDpxbXZ5cHZwdXB6aGttNHZ3c2R2eDVkaGw3bzJ4eHh2eWRkODVkZXFhZXloOWZn",
+      "id": "QmVypVPUPzHkM4VWSdVx5DHL7o2Xxxvydd85dEQaEyh9Fg",
+      "title": "Exit LBP & add Uniswap liquidity?",
+      "content": "\n### **Functional description**\nThis is a proposal to complete the LBP event by closing the pool and transferring the remaining RAD/USDC balances to the Radicle Treasury. To maintain a liquid market, it is also being proposed that 4M USDC and 400K RAD are added to a Uniswap trading pair.\n\n### **Purpose**\nTo officially end the Radicle LBP event, return the remaining balances to the community-owned Treasury, and support the growth of the network by adding liquidity to the popular decentralized exchange, Uniswap.\n\n\n### **Background**\nThe Radicle LBP was a 48h event that allowed anyone to acquire RAD for USDC by swapping on a Balancer Liquidity Bootstrapping Pool.\n\nThe event successfully concluded on February 27th, with over 24M USDC raised for the community treasury. After pausing the trading on the LBP, there was still a lot of interest in trading RAD. This interest was discussed on [radicle.community](https://radicle.community/c/governance/16) (see [here](https://radicle.community/t/discussion-what-are-the-next-steps-for-liquidity/1663/24) and [here](https://radicle.community/t/discussion-should-unsold-rad-be-distributed-amongst-lbp-contributors/1527/131)). In response to this sentiment, the core team created a Snapshot poll to unpause swapping on the Balancer LBP.\n\nSince the Balancer pool weights converged to 50/50, the pool effectively functioned as a regular DEX, providing an immediate, short term solution, as the liquidity in the pool cannot be transfered anywhere else without a formal governance proposal. The Snapshot poll passed with a strong majority.\n\nSince then, the community-started [RAD/ETH Uniswap pool](https://info.uniswap.org/pair/0xf2f98cbd5d84640a2c5cfda5c996cd830067bc95) has surpassed the [volume of the Radicle LBP pool](https://pools.balancer.exchange/#/pool/0x824603f89e27af953cab03a82017e4a74dd4df73/).\n\n### **Reasoning & analysis**\nTransferring the remaining balances of the Radicle LBP to the Radicle Treasury is the cleanest way to end the LBP event. Radicle's Liquidity Bootstrapping pool was only meant to last 48hrs (See [LBP FAQ](https://lbp.radicle.network/faq.html)). The pool was unpaused to support liquidity for RAD.\n\nAdditionally, **transferring the balances is a necessary step that needs to be taken before evaluating the community proposals for *what* to do with the remaining balances of the LBP event.** There are open discussions for [redistributing the unsold tokens to participants in the LBP](https://radicle.community/t/structured-discussion-distribute-lbp-unsold-tokens-to-the-people-who-contributed-to-the-lbp-in-proportion-to-their-contribution/1944/11) and/or using the remaining balances to [provide liquidity in numerous decentralized exchanges](https://radicle.community/t/proposal-add-liquidity-to-dexes-using-remaining-tokens-from-lbp-and-raised-usdc/1597/26).\n\nThis proposal will successfully close the Balancer pool and move its liquidity to a RAD/USDC pair on Uniswap.\n\n### **Impact**\nClosing the Balancer pool and moving its liquidity to Uniswap will ensure an accessible and liquid market for RAD token holders. This will support the health of the network by reducing price volatility and cultivating deep liquidity for RAD. \n\n### **Open questions**\n❗️ We'd like to reduce the time required for formal review from 5 days to 2 days to move this proposal forward. The reasoning behind this ask is that this proposal has always been planned but was delayed due to the community's desire for immediate liquidity. Since this proposal is also blocking the formal evaluation of other community proposals regarding the use of these balances, we believe moving this proposal through a quicker formal review is appropriate.\n\n### **Technical implementation**\n*A proposal has already been created by @cloudhead. Please refer to the details below.*\n\nIf executed, this proposal will:\n\n1. Remove liquidity from the LBP, by swapping the RADP pool tokens for the underlying assets (RAD and USDC)\n2. Return the 3.5M USDC loan to the Radicle Foundation\n3. Approve Uniswap router for 4M USDC\n4. Approve Uniswap router for 400K RAD\n5. Add liquidity to Uniswap RAD/USDC pair via the Uniswap router\n\nAfter execution, the Timelock holds all Uniswap LP tokens for the RAD/USDC pair.\n\n### Notes\n\n* For this proposal to go through, the LBP must have at least 2M RAD and 22M USDC.\n* `0x750dD34Fb165bE682fAe445793AB9ab9729CDAa3` is the CRP Pool.\n* `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` is the USDC contract.\n* `0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3` is the RAD contract.\n* `0x055E29502153aEDcFDaE8Fc15a710FF6fb5e10C9` is the Radicle Foundation address.\n* `0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D` is the UniswapV2Router02 contract.\n* `0x8dA8f82d2BbDd896822de723F55D6EdF416130ba` is the Timelock contract.\n\n### Actions ##\n\n```\n0x750dD34Fb165bE682fAe445793AB9ab9729CDAa3 0 \"exitPool(uint256,uint256[])\" 99999900000000000000 [2000000000000000000000000,22000000000000]\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 0 \"transfer(address,uint256)\" 0x055E29502153aEDcFDaE8Fc15a710FF6fb5e10C9 3500000000000\n0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3 0 \"approve(address,uint256)\" 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D 400000000000000000000000\n0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 0 \"approve(address,uint256)\" 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D 4000000000000\n0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D 0 \"addLiquidity(address,address,uint256,uint256,uint256,uint256,address,uint256)\" 0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 400000000000000000000000 4000000000000 0 0 0x8dA8f82d2BbDd896822de723F55D6EdF416130ba 1815284486\n```",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0x464D78a5C97A2E2E9839C353ee9B6d4204c90B0b",
+      "totalVotes": 52,
+      "blockNumber": 12012197,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/QmVypVPUPzHkM4VWSdVx5DHL7o2Xxxvydd85dEQaEyh9Fg",
+      "startTime": {
+        "timestamp": 1615402800
+      },
+      "endTime": {
+        "timestamp": 1615575600
+      },
+      "startTimestamp": 1615402800,
+      "endTimestamp": 1615575600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 1958821.1,
+          "choice": 0
+        },
+        {
+          "total": 3981.7012,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1958821.4452463428,
+          "choice": 0
+        },
+        {
+          "total": 3981.7013295544994,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpzbmFwc2hvdDpxbWJwc2hyd2N5MnRqeGQ4ZWxmbnk5YmtseXNnN203aGl0Zm1qb2oxbmhoc3d3",
+      "id": "QmbpshrWcy2TJxd8eLfny9bkLYsg7M7HiTFMJoj1nHHsWW",
+      "title": "Should swapping on the Balancer LBP be unpaused?",
+      "content": "The Balancer LBP was a 48h event that allowed anyone to acquire RAD for \nUSDC.\n\nThe event has now successfully concluded, with 24M USDC raised, but there is still a lot of interest in trading RAD. However there is very little liquidity.\n\nSince the [Balancer pool][pool] weights have converged to 50/50, this pool could effectively function as a regular DEX, as opposed to an auction, if swapping was unpaused.\n\nThis is an immediate, short term solution, as the liquidity in the pool cannot be transfered anywhere else without a formal governance proposal.\n\n[pool]: https://pools.balancer.exchange/#/pool/0x824603F89e27aF953cAB03a82017e4a74dd4Df73/",
+      "protocol": "radicle",
+      "adapter": "snapshot",
+      "proposer": "0x2f0963E77cA6AC0c2Dad1Bf4147B6B40e0dD8728",
+      "totalVotes": 241,
+      "blockNumber": 11945317,
+      "externalUrl": "https://snapshot.org/#/gov.radicle.eth/proposal/QmbpshrWcy2TJxd8eLfny9bkLYsg7M7HiTFMJoj1nHHsWW",
+      "startTime": {
+        "timestamp": 1614510000
+      },
+      "endTime": {
+        "timestamp": 1614596400
+      },
+      "startTimestamp": 1614510000,
+      "endTimestamp": 1614596400,
+      "currentState": "closed",
+      "choices": [
+        "Unpause swapping",
+        "Do nothing"
+      ],
+      "results": [
+        {
+          "total": 1242918.2,
+          "choice": 0
+        },
+        {
+          "total": 48112.496,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1242918.2133843694,
+          "choice": 0
+        },
+        {
+          "total": 48112.48589026032,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjM=",
+      "id": "3",
+      "title": "Liquidity Bootstrapping Pool",
+      "content": "*Radicle is progressively decentralizing its network by distributing\ndecision-making power to a wider group of people.*\n\nThis is a proposal to make 3.75% of the Radicle token supply available for\ninterested parties within the Radicle community. It uses [Balancer](https://balancer.finance/),\na decentralized exchange and leverages a mechanism called [Liquidity Bootstrapping](https://medium.com/balancer-protocol/building-liquidity-into-token-distribution-a49d4286e0d4).\n\nThe purpose of this proposal is to:\n\n* Distribute the Radicle token among the wider Radicle community, beyond early\ncontributors and team members.\n* Build deep liquidity for the Radicle network, setting it up for long-term\nsuccess.\n* Begin price discovery for the Radicle token.\n\nProceeds from the event will be held by the Radicle Treasury, a smart contract\nfully controlled by the Radicle token holders.\n\nRead more about the Radicle Treasury [here](https://radicle.xyz/blog/introducing-rad.html).\n\n**LBP specifications**\n\n* Pool tokens: `RAD` and `USDC`\n* RAD start balance: 3.75M\n* USDC start balance: 3.5M\n* RAD start weight: 92.5\n* RAD end weight: 50\n* USDC start weight: 7.5\n* USDC end weight: 50\n* Swap fee: 0.5%\n* Duration: 2 days\n* Sale address: `0x864fDEF96374A2060Ae18f83bbEc924f174D6b35`\n* CRP address: `0x750dD34Fb165bE682fAe445793AB9ab9729CDAa3`\n\n**What is a Liquidity Bootstrapping Pool?**\n\nBalancer’s Liquidity Bootstrapping Pool (LBP) is a Balancer pool that\nautomatically adjusts its token weights over time. This applies downwards price\npressure on the token and disincentivizes front-running, speculation and whale\nbuying. See Balancer’s [Liquidity Bootstrapping Pool\nFAQ](https://docs.balancer.finance/smart-contracts/smart-pools/liquidity-bootstrapping-faq)\nfor more information.\n\n**Why a Liquidity Bootstrapping Pool?**\n\nThe Liquidity Bootstrapping Pool is a battle-tested mechanism for price\ndiscovery and liquidity building. It’s been successfully used by numerous teams\nincluding [Hydra](https://hydradx.substack.com/p/hydradx-faq), [APY\nFinance](https://medium.com/apyfinance/apy-finance-tge-on-balancers-lbp-liquidity-bootstrapping-pool-2690dd245a16),\nand [Perpetual\nprotocol](https://medium.com/perpetual-protocol/why-we-chose-to-distribute-perp-using-a-balancer-liquidity-bootstrapping-pool-aac7f1ab6181).\n\n**How was this proposal discussed?**\n\nThis proposal was put together by early contributors behind the\nRadicle project.\n\nMoving forward, all proposals will be discussed openly and developed through the\nformal governance process. This process is meant to be owned and developed\ncollectively by the Radicle community. More information can be found on\n[https://radicle.community](https://radicle.community/).\n\n---\n\n**Additional resources**\n\n[Why we chose to distribute PER using a Balancer Liquidity Bootstrapping Pool](https://medium.com/perpetual-protocol/why-we-chose-to-distribute-perp-using-a-balancer-liquidity-bootstrapping-pool-aac7f1ab6181)\n\n[HydraDX FAQ](https://hydradx.substack.com/p/hydradx-faq)\n\n[APY Finances' LBP Step by Step Guide](https://medium.com/apyfinance/apy-finances-lbp-step-by-step-guide-8a46d9ade88c)\n\n[APY.Finance TGE on Balancer’s LBP (Liquidity Bootstrapping Pool)](https://medium.com/apyfinance/apy-finance-tge-on-balancers-lbp-liquidity-bootstrapping-pool-2690dd245a16)",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x641eDB587867a703E132a4210d63e93C52AA97fF",
+      "totalVotes": 44,
+      "blockNumber": 11896847,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1613863803,
+      "endTimestamp": 1614094163,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 7106600.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11927445
+          },
+          "event": "executed",
+          "timestamp": 1614271143,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 11914421
+          },
+          "event": "queued",
+          "timestamp": 1614097973,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 7106600.5,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjI=",
+      "id": "2",
+      "title": "\"# Liquidity Bootstrapping Pool",
+      "content": "This is a proposal to make 3.75% of the Radicle token supply available for\ninterested parties within the Radicle community. It outlines a proposed\nLiquidity Bootstrapping event on the decentralized exchange named\n[Balancer](https://balancer.finance/), using a mechanism called [Liquidity\nBootstrapping\nPool](https://medium.com/balancer-protocol/building-liquidity-into-token-distribution-a49d4286e0d4).\n\nThe purpose of this distribution event is to:\n\na) Distribute the Radicle token among the wider Radicle community beyond early\ncontributors and team members.\n\nb) Build deep liquidity for the Radicle network, setting it up for long-term\nsuccess.\n\nProceeds from the event will be controlled by the Radicle Treasury, a smart\ncontract fully controlled by the Radicle token holders. The proceeds **will\nnot** go directly to the core-team. Instead, they will be available for\ndistribution via governance of the Radicle Treasury.\n\nRead more about the Radicle Treasury\n[here](https://radicle.xyz/blog/introducing-rad.html).\n\n**What is a Liquidity Bootstrapping Pool?**\n\nBalancer’s Liquidity Bootstrapping Pool (LBP) is a Balancer pool that\nautomatically adjusts its pool weights over time. This applies downward price\npressure on the token and disincentivizes front-running, speculation and whale\nbuying. See Balancer’s [Liquidity Bootstrapping Pool\nFAQ](https://docs.balancer.finance/smart-contracts/smart-pools/liquidity-bootstrapping-faq)\nfor more information.\n\n**Why a Liquidity Bootstrapping Pool?**\n\nThe liquidity bootstrapping pool is a battle-tested mechanism for price\ndiscovery and building liquidity. It’s been successfully used by numerous teams\nincluding [Hydra](https://hydradx.substack.com/p/hydradx-faq), [APY\nFinance](https://medium.com/apyfinance/apy-finance-tge-on-balancers-lbp-liquidity-bootstrapping-pool-2690dd245a16),\nand [Perpetual\nprotocol](https://medium.com/perpetual-protocol/why-we-chose-to-distribute-perp-using-a-balancer-liquidity-bootstrapping-pool-aac7f1ab6181).\n\n**How was this proposal discussed?**\n\nThis proposal was put together by a number of early contributors behind the\nRadicle project. One of the main goals of this proposal is to distribute\ngoverning power among a wider group of people to ensure a healthy and\nproductive governing community.\n\nMoving forward, all proposals will be discussed openly and developed through a\nformal governance process. This process is meant to be owned and developed\ncollectively by the Radicle community. More information can be found on\n[https://radicle.community](https://radicle.community/).\n\n---\n\n**Additional resources**\n\n[Why we chose to distribute PER using a Balancer Liquidity Bootstrapping Pool](https://medium.com/perpetual-protocol/why-we-chose-to-distribute-perp-using-a-balancer-liquidity-bootstrapping-pool-aac7f1ab6181)\n\n[HydraDX FAQ](https://hydradx.substack.com/p/hydradx-faq)\n\n[APY Finances' LBP Step by Step Guide](https://medium.com/apyfinance/apy-finances-lbp-step-by-step-guide-8a46d9ade88c)\n\n[APY.Finance TGE on Balancer’s LBP (Liquidity Bootstrapping Pool)](https://medium.com/apyfinance/apy-finance-tge-on-balancers-lbp-liquidity-bootstrapping-pool-2690dd245a16)\"",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x641eDB587867a703E132a4210d63e93C52AA97fF",
+      "totalVotes": 1,
+      "blockNumber": 11883175,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1613682962,
+      "endTimestamp": 1613913082,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 272023.56,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11894259
+          },
+          "event": "canceled",
+          "timestamp": 1613830482,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 272023.56,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmFkaWNsZTpvbmNoYWluOjE=",
+      "id": "1",
+      "title": "\"This is a proposal to make 3.75% of the Radicle token supply available for",
+      "content": "interested parties within the Radicle community. It outlines a proposed\nLiquidity Bootstrapping event on the decentralized exchange named\n[Balancer](https://balancer.finance/), using a mechanism called [Liquidity\nBootstrapping\nPool](https://medium.com/balancer-protocol/building-liquidity-into-token-distribution-a49d4286e0d4).\n\nThe purpose of this distribution event is to:\n\na) Distribute the Radicle token among the wider Radicle community beyond early\ncontributors and team members.\n\nb) Build deep liquidity for the Radicle network, setting it up for long-term\nsuccess.\n\nProceeds from the event will be controlled by the Radicle Treasury, a smart\ncontract fully controlled by the Radicle token holders. The proceeds **will\nnot** go directly to the core-team. Instead, they will be available for\ndistribution via governance of the Radicle Treasury.\n\nRead more about the Radicle Treasury\n[here](https://radicle.xyz/blog/introducing-rad.html).\n\n**What is a Liquidity Bootstrapping Pool?**\n\nBalancer’s Liquidity Bootstrapping Pool (LBP) is a Balancer pool that\nautomatically adjusts its pool weights over time. This applies downward price\npressure on the token and disincentivizes front-running, speculation and whale\nbuying. See Balancer’s [Liquidity Bootstrapping Pool\nFAQ](https://docs.balancer.finance/smart-contracts/smart-pools/liquidity-bootstrapping-faq)\nfor more information.\n\n**Why a Liquidity Bootstrapping Pool?**\n\nThe liquidity bootstrapping pool is a battle-tested mechanism for price\ndiscovery and building liquidity. It’s been successfully used by numerous teams\nincluding [Hydra](https://hydradx.substack.com/p/hydradx-faq), [APY\nFinance](https://medium.com/apyfinance/apy-finance-tge-on-balancers-lbp-liquidity-bootstrapping-pool-2690dd245a16),\nand [Perpetual\nprotocol](https://medium.com/perpetual-protocol/why-we-chose-to-distribute-perp-using-a-balancer-liquidity-bootstrapping-pool-aac7f1ab6181).\n\n**How was this proposal discussed?**\n\nThis proposal was put together by a number of early contributors behind the\nRadicle project. One of the main goals of this proposal is to distribute\ngoverning power among a wider group of people to ensure a healthy and\nproductive governing community.\n\nMoving forward, all proposals will be discussed openly and developed through a\nformal governance process. This process is meant to be owned and developed\ncollectively by the Radicle community. More information can be found on\n[https://radicle.community](https://radicle.community/).\n\n---\n\n**Additional resources**\n\n[Why we chose to distribute PER using a Balancer Liquidity Bootstrapping Pool](https://medium.com/perpetual-protocol/why-we-chose-to-distribute-perp-using-a-balancer-liquidity-bootstrapping-pool-aac7f1ab6181)\n\n[HydraDX FAQ](https://hydradx.substack.com/p/hydradx-faq)\n\n[APY Finances' LBP Step by Step Guide](https://medium.com/apyfinance/apy-finances-lbp-step-by-step-guide-8a46d9ade88c)\n\n[APY.Finance TGE on Balancer’s LBP (Liquidity Bootstrapping Pool)](https://medium.com/apyfinance/apy-finance-tge-on-balancers-lbp-liquidity-bootstrapping-pool-2690dd245a16)\"",
+      "protocol": "radicle",
+      "adapter": "onchain",
+      "proposer": "0x641eDB587867a703E132a4210d63e93C52AA97fF",
+      "totalVotes": 0,
+      "blockNumber": 11882777,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1613677471,
+      "endTimestamp": 1613907875,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11883056
+          },
+          "event": "canceled",
+          "timestamp": 1613681473,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

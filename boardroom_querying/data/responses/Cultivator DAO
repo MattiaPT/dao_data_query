@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Y3VsdGl2YXRvcmRhb2V0aDpzbmFwc2hvdDoweGQ1MTIzNDVlYjZjOWI3YmJmNTdiMjhhOGI0ZjdkYzQ2ZDMxYWI2YzE5YWM4YWQ1ZGU0NjA1ZmE1MmZjYjllOTg=",
+      "id": "0xd512345eb6c9b7bbf57b28a8b4f7dc46d31ab6c19ac8ad5de4605fa52fcb9e98",
+      "title": "Election for the Initial Cultivators",
+      "content": "A ranked choice vote for the initial cohort of Cultivators. The following candidates have been nominated by the Lens Builder community. Of the 9 below, the top 5 selected by the community will serve as the initial Cultivators of the DAO. \n\npealco.lens - Data Scientist, Aave Companies\njenny.lens- Head of Product, Aave Companies\nyoginth.lens - Lead Maintainer, Lenster\nsasicodes.lens - Lead Maintainer, Lenstube\nnilesh.lens - CEO, Orb\njoonatan.lens - CEO, Phaver\nchopan.lens - VP of Product, POAP\nfeiwian.lens - Crypto Researcher\n0xjean.lens - Comms, Kleros",
+      "protocol": "cultivatordaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x52EAF3F04cbac0a4B9878A75AB2523722325D4D4",
+      "totalVotes": 20988,
+      "blockNumber": 33475998,
+      "externalUrl": "https://snapshot.org/#/cultivatordao.eth/proposal/0xd512345eb6c9b7bbf57b28a8b4f7dc46d31ab6c19ac8ad5de4605fa52fcb9e98",
+      "startTime": {
+        "timestamp": 1664216383
+      },
+      "endTime": {
+        "timestamp": 1664475583
+      },
+      "startTimestamp": 1664216383,
+      "endTimestamp": 1664475583,
+      "currentState": "closed",
+      "choices": [
+        "pealco.lens",
+        "feiwian.lens",
+        "chopan.lens",
+        "jenny.lens",
+        "yoginth.lens",
+        "sasicodes.lens",
+        "nilesh.lens",
+        "0xjean.lens",
+        "joonatan.lens"
+      ],
+      "results": [
+        {
+          "total": 43038.0,
+          "choice": 3
+        },
+        {
+          "total": 16072.0,
+          "choice": 5
+        },
+        {
+          "total": 60855.0,
+          "choice": 4
+        },
+        {
+          "total": 408769.0,
+          "choice": 0
+        },
+        {
+          "total": 20975.0,
+          "choice": 6
+        },
+        {
+          "total": 33335.0,
+          "choice": 2
+        },
+        {
+          "total": 22516.0,
+          "choice": 7
+        },
+        {
+          "total": 35819.0,
+          "choice": 1
+        },
+        {
+          "total": 50692.0,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 410034.0,
+          "choice": 0
+        },
+        {
+          "total": 35820.0,
+          "choice": 1
+        },
+        {
+          "total": 33436.0,
+          "choice": 2
+        },
+        {
+          "total": 43141.0,
+          "choice": 3
+        },
+        {
+          "total": 60860.0,
+          "choice": 4
+        },
+        {
+          "total": 16072.0,
+          "choice": 5
+        },
+        {
+          "total": 21076.0,
+          "choice": 6
+        },
+        {
+          "total": 22516.0,
+          "choice": 7
+        },
+        {
+          "total": 51001.0,
+          "choice": 8
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

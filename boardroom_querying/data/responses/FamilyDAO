@@ -1,0 +1,508 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6ZmFtaWx5ZGFvOm9uY2hhaW46MHg4MTU5NDAwYTA1YjExMmEyMjg0NGNiNmNmNmVmMzU2YTI2MjhkMmYzYzU5YmQ1ODhhNmM3NWE3NzhlM2RlYTQz",
+      "id": "0x8159400a05b112a22844cb6cf6ef356a2628d2f3c59bd588a6c75a778e3dea43",
+      "title": "Closing Project ",
+      "content": "Proposing that since this project has been dormant for over six months, and with the recent attempts to drain the treasury, that we distribute the current treasury to the core team members. This distribution will compensate core team members for their efforts in developing this project. Specifically the treasury will be divided as follows:\n\n.2eth to borrowlucid\n.76eth each to blockchain-papa, cryptowitch and ooli \n",
+      "protocol": "familydao",
+      "adapter": "onchain",
+      "proposer": "0x57893e666BD15E886D74751B0879361A3383b57A",
+      "totalVotes": 3,
+      "blockNumber": 18268635,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1696405871
+      },
+      "endTime": {
+        "timestamp": 1696665071
+      },
+      "startTimestamp": 1696405871,
+      "endTimestamp": 1696665071,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18268635
+          },
+          "event": "pending",
+          "timestamp": 1696319471,
+          "txHash": "0x0eb6859f94f118846f82b77acdb60658d8088e430433e426edcbf10e57111cb9"
+        },
+        {
+          "time": {
+            "blockNumber": 18300479
+          },
+          "event": "queued",
+          "timestamp": 1696704263,
+          "txHash": "0x190021054c54e7627dd472c5c36a55c5785d0bf69cf9edc30be784d63a34575c"
+        },
+        {
+          "time": {
+            "blockNumber": 18341607
+          },
+          "event": "executed",
+          "timestamp": 1697201711,
+          "txHash": "0xa2d007cff2e1fac744b7dc3676906b981d21e8c23a0e8cf3c6f2c4b9be775c12"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696319567866,
+      "txHash": "0x0eb6859f94f118846f82b77acdb60658d8088e430433e426edcbf10e57111cb9",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZmFtaWx5ZGFvOm9uY2hhaW46MHhhOGExMmY5MzY4Mjg4YjNjNzhiZDM4NDFlNDI1NTgyMDMyYmE1YWU5OGUwMzJkMjYxOGEzODAyYmY0ZWFkOGI0",
+      "id": "0xa8a12f9368288b3c78bd3841e425582032ba5ae98e032d2618a3802bf4ead8b4",
+      "title": "Withdraw and Pause",
+      "content": "Given the bad actors in the ecosystem trying to drain dormant DAO treasuries, we have decided to withdraw the funds from the treasury back to the team wallet and pause the auctions until further notice.",
+      "protocol": "familydao",
+      "adapter": "onchain",
+      "proposer": "0x9B99d7ce9E39c68aB93348fd31FD4C99f79E4B19",
+      "totalVotes": 4,
+      "blockNumber": 18217017,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1695782207
+      },
+      "endTime": {
+        "timestamp": 1696041407
+      },
+      "startTimestamp": 1695782207,
+      "endTimestamp": 1696041407,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18217017
+          },
+          "event": "pending",
+          "timestamp": 1695695807,
+          "txHash": "0xf1bde4b0499b9139ee957bd612740417c10620a54ddfd0d2f57c9469b55bf5ce"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695696242367,
+      "txHash": "0xf1bde4b0499b9139ee957bd612740417c10620a54ddfd0d2f57c9469b55bf5ce",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZmFtaWx5ZGFvOm9uY2hhaW46MHhiNzM1ZDZmNzcxODc2ZmYxZTRiYWRiYjVmNWIzNTNjMTFkNmI1YTcwMWI1NWU0ZGZiYTg1ZGRkYTY5ZDhkMDQ2",
+      "id": "0xb735d6f771876ff1e4badbb5f5b353c11d6b5a701b55e4dfba85ddda69d8d046",
+      "title": "FamilyDAO x MiniHackers - Onboarding the future generation of blockchain innovators",
+      "content": "**MiniHackers - web3 activations designed to inspire kids **\n\nIRL events in web3 and tech rarely consider providing content for the incoming generation of innovators. In the best scenarios ‘child-care’ is provided, but rarely leverages the opportunity to excite the next cohort of thinkers and builders.  \n\nMiniHackers creates engaging and exciting spaces at web3 conferences and events. These spaces provide content and programming with young thinkers in mind. While MiniHackers spaces and programming are designed to cater to any children in attendance, they also serve as physical reminders to those with, or considering, young families, that web3 is a space that embraces the next generation of innovators and those that are raising them.   Overview: Founded during ETHBogota by 5 & 7 year old sisters, Ariah and Eirie Mier y Teran, MiniHackers secured a public good recognition by Polygon at the event (https://ethglobal.com/showcase/minihackers-i9w55). Since then, MiniHackers has hosted a children’s space at F3ST in Atlanta, Georgia and co-hosted an educational event at the World Trade Center alongside Miss O Cool Girls, SuperRare, and Ledger. This summer MiniHackers will be partnering with the Otis Redding Foundation to provide web3 education to girls in music and STEM programs in central Georgia.   In support of the work Ariah and the MiniHackers team have been doing in organizing web3 and blockchain camps and spaces for kids, the organizers of EDCon have asked Ariah to speak at speak at this month’s event in Montenegro. Other speakers at the event include Vitalik Buterin (Ethereal Foundation), Sergey Nazarov (Chainlink), and Scott Moore (GitCoin).   Why support?\n\nThere is a need for education and awareness about web3 among students, which will help to inspire the next generation of innovators\nMiniHackers helps to increase the diversity and inclusivity of the web3 community by providing scholarships and bounties to local youth\nBy supporting MiniHackers’ initiatives FamilyDAO is increasing their visibility and reputation as supporters of family-friendly and educational initiatives\n  Use of funds: Official Sponsor of MiniHackers initiative at EDCon in Montenegro\n\nSponsor Benefits:\n\nReceive logo recognition as a supporter on digital content\nVerbal recognition & logo during main stage presentation at EDCon\nFamilyDAO x MiniHackers PDF worksheets for the FamilyDAO community (sample: https://www.canva.com/design/DAFgCtHulww/n9chEmCFHk9Cao3TKezSsw/view?utm_content=DAFgCtHulww&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)\nSocial media tags throughout the event\nFirst opportunities for exposure at future MiniHackers activations and events\nGood vibes for supporting youth in web3 \nAdded Benefits:\n\nFamilyDAO member representation in Montenegro during EDCon and the associated side events, including DAO Montenegro (https://cryptoevents.xyz/EdconSideEvents)\n  Team: Ariah MyT (@theminihackers) - Co-Founder Eirie MyT (@theminihackers) - Co-Founder (not traveling to EDCon) Britt MyT (@blockchainmom_) - Programming Director David MyT (@blockchain_papa) - Art Director (not traveling to EDCon)",
+      "protocol": "familydao",
+      "adapter": "onchain",
+      "proposer": "0xfd637806e0D22Ca8158AB8bb5826e6fEDa82c15f",
+      "totalVotes": 4,
+      "blockNumber": 18073757,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1694045471
+      },
+      "endTime": {
+        "timestamp": 1694304671
+      },
+      "startTimestamp": 1694045471,
+      "endTimestamp": 1694304671,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18073757
+          },
+          "event": "pending",
+          "timestamp": 1693959071,
+          "txHash": "0x9fbc2f07bb25eab26ae96af0d9dd402440cc8f73ccf1782814c1653e2c2d8e83"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1693959680006,
+      "txHash": "0x9fbc2f07bb25eab26ae96af0d9dd402440cc8f73ccf1782814c1653e2c2d8e83",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZmFtaWx5ZGFvOm9uY2hhaW46MHhjNmI1YzM3ODkxNDVhYWZkNDMxMzA3YzQ0ODQ1ZTZmNDMzZDNlZmUzMzk2M2JjYWRhOGI4NjFmYTkxODVjNWYw",
+      "id": "0xc6b5c3789145aafd431307c44845e6f433d3efe33963bcada8b861fa9185c5f0",
+      "title": "FamilyDAO x MiniHackers - Onboarding the future generation of blockchain innovators",
+      "content": "**MiniHackers - web3 activations designed to inspire kids **\n\nIRL events in web3 and tech rarely consider providing content for the incoming generation of innovators. In the best scenarios ‘child-care’ is provided, but rarely leverages the opportunity to excite the next cohort of thinkers and builders.  \n\nMiniHackers creates engaging and exciting spaces at web3 conferences and events. These spaces provide content and programming with young thinkers in mind. While MiniHackers spaces and programming are designed to cater to any children in attendance, they also serve as physical reminders to those with, or considering, young families, that web3 is a space that embraces the next generation of innovators and those that are raising them.\n \n**Overview:**\nFounded during ETHBogota by 5 & 7 year old sisters,  Ariah and Eirie Mier y Teran, MiniHackers secured a public good recognition by Polygon at the event (https://ethglobal.com/showcase/minihackers-i9w55). Since then, MiniHackers has hosted a children’s space at F3ST in Atlanta, Georgia and co-hosted an educational event at the World Trade Center alongside Miss O Cool Girls, SuperRare, and Ledger. This summer MiniHackers will be partnering with the Otis Redding Foundation to provide web3 education to girls in music and STEM programs in central Georgia.\n \nIn support of the work Ariah and the MiniHackers team have been doing in organizing web3 and blockchain camps and spaces for kids, the organizers of EDCon have asked Ariah to speak at speak at this month’s event in Montenegro. Other speakers at the event include Vitalik Buterin (Ethereal Foundation), Sergey Nazarov (Chainlink), and Scott Moore (GitCoin).\n \n**Why support?**\n\n- There is a need for education and awareness about web3 among students, which will help to inspire the next generation of innovators\n- MiniHackers helps to increase the diversity and inclusivity of the web3 community by providing scholarships and bounties to local youth\n- By supporting MiniHackers’ initiatives FamilyDAO is increasing their visibility and reputation as supporters of family-friendly and educational initiatives\n\n \n**Use of funds:**\nOfficial Sponsor of MiniHackers initiative at EDCon in Montenegro\n\n**Sponsor Benefits:**\n\n- Receive logo recognition as a supporter on digital content\n- Verbal recognition & logo during main stage presentation at EDCon\n- FamilyDAO x MiniHackers PDF worksheets for the FamilyDAO community (sample: https://www.canva.com/design/DAFgCtHulww/n9chEmCFHk9Cao3TKezSsw/view?utm_content=DAFgCtHulww&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)\n- Social media tags throughout the event\n- First opportunities for exposure at future MiniHackers activations and events\n- Good vibes for supporting youth in web3 \n\n**Added Benefits:**\n\n- FamilyDAO member representation in Montenegro during EDCon and the associated side events, including DAO Montenegro (https://cryptoevents.xyz/EdconSideEvents)\n\n \n**Team:**\nAriah MyT (@theminihackers) - Co-Founder\nEirie MyT (@theminihackers) - Co-Founder (not traveling to EDCon)\nBritt MyT (@blockchainmom_) - Programming Director\nDavid MyT (@blockchain_papa) - Art Director (not traveling to EDCon)\n",
+      "protocol": "familydao",
+      "adapter": "onchain",
+      "proposer": "0x75A1E0a311A2486217d94C716D3f48861B54A753",
+      "totalVotes": 2,
+      "blockNumber": 17269528,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1684293059
+      },
+      "endTime": {
+        "timestamp": 1684552259
+      },
+      "startTimestamp": 1684293059,
+      "endTimestamp": 1684552259,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17269528
+          },
+          "event": "pending",
+          "timestamp": 1684206659,
+          "txHash": "0x032c2e378ea8a1a3c7f2ae9da1c984c71664aedaf895748adc241803140b137a"
+        },
+        {
+          "time": {
+            "blockNumber": 17321610
+          },
+          "event": "queued",
+          "timestamp": 1684840931,
+          "txHash": "0x54bc792453dd45278e89e79bf9449c211516e695a7c3b1cb775d4ad947c98488"
+        },
+        {
+          "time": {
+            "blockNumber": 17337350
+          },
+          "event": "executed",
+          "timestamp": 1685032163,
+          "txHash": "0xcc16065f782cf2cb8dc0748cccce376fd2bed7fa4a6c05baaa96e79c7c517212"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684207232964,
+      "txHash": "0x032c2e378ea8a1a3c7f2ae9da1c984c71664aedaf895748adc241803140b137a",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZmFtaWx5ZGFvOm9uY2hhaW46MHgzZDYzZjY5MGJmNGQxMDg1MWVhNjA4OGI0OTA2MDcxMDM5YzE5NTIyMTEzNGVjYjQ0NmIxY2Q1YjA3MDhlOTU5",
+      "id": "0x3d63f690bf4d10851ea6088b4906071039c195221134ecb446b1cd5b0708e959",
+      "title": "Execution Refund",
+      "content": "<p>Forgot to activate the vote previously and it auto-ended</p>",
+      "protocol": "familydao",
+      "adapter": "onchain",
+      "proposer": "0x75A1E0a311A2486217d94C716D3f48861B54A753",
+      "totalVotes": 1,
+      "blockNumber": 16671125,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1676999087
+      },
+      "endTime": {
+        "timestamp": 1677258287
+      },
+      "startTimestamp": 1676999087,
+      "endTimestamp": 1677258287,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16671125
+          },
+          "event": "pending",
+          "timestamp": 1676912687,
+          "txHash": "0x9fef78ef4443f961853609916e4262ed6c16aba12e564ef69f03f780a22f0b74"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417001158,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZmFtaWx5ZGFvOm9uY2hhaW46MHg3Mjg5N2JiY2Y0OGI2MWE5NjM4NmE0ODhmMWU0ZjgwYjZmMDdiNTM0NjhkYzk0NjgxZjk1YmU1ZmZhYzUxYWIw",
+      "id": "0x72897bbcf48b61a96386a488f1e4f80b6f07b53468dc94681f95be5ffac51ab0",
+      "title": "Contract Execution Gas",
+      "content": "",
+      "protocol": "familydao",
+      "adapter": "onchain",
+      "proposer": "0x75A1E0a311A2486217d94C716D3f48861B54A753",
+      "totalVotes": 0,
+      "blockNumber": 16485993,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1674762155
+      },
+      "endTime": {
+        "timestamp": 1675021355
+      },
+      "startTimestamp": 1674762155,
+      "endTimestamp": 1675021355,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16485993
+          },
+          "event": "pending",
+          "timestamp": 1674675755,
+          "txHash": "0x5864c5a736ccfdc11ec3cf9594bfe7d43fb11c711fc5e47eddfc19d670d7b0b2"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417001158,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZmFtaWx5ZGFvOm9uY2hhaW46MHhjNDg0ZDA0M2Q4ZWMwYWJmY2E1NWE3OWNjMDcwYzRjMGY4M2FlZDM0ODkyOWUxYWJkMGQ0MGQxNWY5NmY0ODkz",
+      "id": "0xc484d043d8ec0abfca55a79cc070c4c0f83aed348929e1abd0d40d15f96f4893",
+      "title": "Proposal to update description duration and reserve",
+      "content": "<p>This proposal seeks to change the duration of auctions, amend the reserve bid, and update the description to explain the settlement/bidding process. These changes will increase our ability to onboard members, create a sustainable organization, and improve clarity on settlements for potential new members.</p><p><br></p><p>-The description will be updated to encourage a new potential Family member to settle the previous auction in order to start a new auction.</p><p>-The duration of the auction will be reduced to 18 minutes. The number 18 was chosen for its numerological significance, symbolizing success.</p><p>// Note that this *does not mean there will be an auction every 18 minutes.* An auction will only begin when someone is ready to settle the previous auction and place their bid. This allows an engaged potential new member to secure their participation within the group without needing to check back over the next ~24 hours. //</p><p>-The reserve price will be updated to .18 to sync with the auction timing and ensure sustenance of the DAO’s ability to achieve it’s missions.</p><p><br></p><p>Next steps would be to add functionality akin to <a href=\"https://lilblockparty.wtf/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(220, 161, 13);\">https://lilblockparty.wtf/</a> that allows the next bidder to choose their FamilyNoun and add the additional information on settling, bidding, and the FaNounders/Nouns mints to the main auction area of the page (https://lilnouns.wtf/ and https://nouns.wtf/).</p>",
+      "protocol": "familydao",
+      "adapter": "onchain",
+      "proposer": "0x75A1E0a311A2486217d94C716D3f48861B54A753",
+      "totalVotes": 2,
+      "blockNumber": 16436094,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1674160295
+      },
+      "endTime": {
+        "timestamp": 1674419495
+      },
+      "startTimestamp": 1674160295,
+      "endTimestamp": 1674419495,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16466577
+          },
+          "event": "queued",
+          "timestamp": 1674441647,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16485736
+          },
+          "event": "executed",
+          "timestamp": 1674672647,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417001158,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZmFtaWx5ZGFvOm9uY2hhaW46MHgyMWQ3NTY2OTYxZjg5YzUyNTY4NjNjY2Y4MjBlNTdiZTMwZmQyNGRlM2FiMDYzMWJkMWE2MmQ5NWFhYzdjZTQ5",
+      "id": "0x21d7566961f89c5256863ccf820e57be30fd24de3ab0631bd1a62d95aac7ce49",
+      "title": "Change minimum bid to zero point one and change voting period to 3 days",
+      "content": "<p>To be re-evaluated in a few weeks</p>",
+      "protocol": "familydao",
+      "adapter": "onchain",
+      "proposer": "0x90E75A68A7d17a75a71920d624a52a9037F2F88E",
+      "totalVotes": 2,
+      "blockNumber": 16362216,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1673269067
+      },
+      "endTime": {
+        "timestamp": 1673614667
+      },
+      "startTimestamp": 1673269067,
+      "endTimestamp": 1673614667,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16403778
+          },
+          "event": "queued",
+          "timestamp": 1673684039,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16422728
+          },
+          "event": "executed",
+          "timestamp": 1673912819,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417001158,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,1086 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHgxN2I0NWRmMGJiMTdkYjA3NTQyN2VhZmM4MWQzNzU2OTUzMzMxODkwNDJmYzkzYWY2MGJhMTI2ZDhkZDVjMTRi",
+      "id": "0x17b45df0bb17db075427eafc81d375695333189042fc93af60ba126d8dd5c14b",
+      "title": "oA51 Emission Epoch # 7",
+      "content": "This is a proposal for the oA51 emission on the A51 strategies across different DEXs and Chains. The reward pool for this epoch is 6,769.82 oA51 distributed among 5 different strategies. Only those users who are either Balancer LP's of A51/ETH pool or Quickswap LP's of A51/MATIC pool can vote for their weightage in the emission to be distributed. Each epoch is 15 days long.\n\nThe rewards will be distributed based on the overall users share of liquidity in the A51 strategies and Balancer A51/ETH pool, to maximise your rewards, make sure to have greater liquidity share in the balancer pool.\n\nAt the end of each epoch, the rewards will be airdropped to the LP addresses.\n\nRead more details on: https://a51-finance.gitbook.io/a51-finance/tokenomics/foo-tokenomics\n\nStrategies =\n[\"0xfdedb94e2f90059b8aa6f1122a5d78bcb4d8f519600b904828d8ce756ad0aa7c\",\n\"0xdec701ad1652efe2ee48daa582d1fca798e48d4b820f41a40be5dd2972ff76d9\",\n\"0xa3bb53c1262dad1c3855ce3ef89c59669e4efeb6b02a7d583b18d57d51c6590f\",\n\"0x4fa677272f9c7c30913c6c388ffc13912b19e21592867194c2f69e022d1760c3\",\n\"0x9e482d9f5ea599083597070f54b1d2b0968231bed50cfd2860aeb7588749eccc\"\n]",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x389e7877F2E63575b11b46bed14AAB6a824F8557",
+      "totalVotes": 1,
+      "blockNumber": 266734454,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0x17b45df0bb17db075427eafc81d375695333189042fc93af60ba126d8dd5c14b",
+      "startTime": {
+        "timestamp": 1729665882
+      },
+      "endTime": {
+        "timestamp": 1730977200
+      },
+      "startTimestamp": 1729665882,
+      "endTimestamp": 1730977200,
+      "currentState": "active",
+      "choices": [
+        "ETH-USDC-0.008-Baseswap-Base",
+        "USDC-USDbC-0.008-Baseswap-Base",
+        "ETH-USDbC-0.008-Baseswap-Base",
+        "WBTC-ETH-0.05-Uniswap-Arbitrum",
+        "ETH-USD+-0.01-Uniswap-Arbitrum"
+      ],
+      "results": [
+        {
+          "total": 4236.4966,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 4236.496407460241,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729666472721,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHhmOGFlMmYwNTM0NzMxNzBiMmRhYzQ4M2FlYzU1NGZiZGRmZjNiYWNiYzk4YzJlZTNmYzczYTUyZmRiYjdhMDg5",
+      "id": "0xf8ae2f053473170b2dac483aec554fbddff3bacbc98c2ee3fc73a52fdbb7a089",
+      "title": "oA51 Emission Epoch # 6",
+      "content": "This is a proposal for the oA51 emission on the A51 strategies across different DEXs and Chains. The reward pool for this epoch is 6,769.82 oA51 distributed among 5 different strategies. Only those users who are either Balancer LP's of A51/ETH pool or Quickswap LP's of A51/MATIC pool can vote for their weightage in the emission to be distributed. Each epoch is 15 days long.\n\nThe rewards will be distributed based on the overall users share of liquidity in the A51 strategies and Balancer A51/ETH pool, to maximise your rewards, make sure to have greater liquidity share in the balancer pool.\n\nAt the end of each epoch, the rewards will be airdropped to the LP addresses.\n\nRead more details on: https://a51-finance.gitbook.io/a51-finance/tokenomics/foo-tokenomics\n\nStrategies =\n[\"0xfdedb94e2f90059b8aa6f1122a5d78bcb4d8f519600b904828d8ce756ad0aa7c\",\n\"0xa3bb53c1262dad1c3855ce3ef89c59669e4efeb6b02a7d583b18d57d51c6590f\",\n\"0x9688cfa60006a12d044d2f70e34626f20c959c1d4badf15c91a05cda895cbcc9\",\n\"0x507f41dd9ddc9d978ba04c663deeeac8d0a58956550ceb5a5a635ed22a7f5812\",\n\"0xf77ef079b9c1dedfab4717ae43904335877dcd71e496daeb54408f60d6912297\"\n]",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x389e7877F2E63575b11b46bed14AAB6a824F8557",
+      "totalVotes": 4,
+      "blockNumber": 259929407,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0xf8ae2f053473170b2dac483aec554fbddff3bacbc98c2ee3fc73a52fdbb7a089",
+      "startTime": {
+        "timestamp": 1727953961
+      },
+      "endTime": {
+        "timestamp": 1729249260
+      },
+      "startTimestamp": 1727953961,
+      "endTimestamp": 1729249260,
+      "currentState": "closed",
+      "choices": [
+        "ETH-USDC-0.008-Baseswap-Base",
+        "ETH-USDbC-0.008-Baseswap-Base",
+        "EURC-USDC-0.008-Baseswap-Base",
+        "ETH-cbBTC-0.035-Baseswap-Base",
+        "ETH-RDNT-0.045-Baseswap-Base"
+      ],
+      "results": [
+        {
+          "total": 13987.576,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 290.84034263369875,
+          "choice": 0
+        },
+        {
+          "total": 290.84034263369875,
+          "choice": 1
+        },
+        {
+          "total": 290.84034263369875,
+          "choice": 2
+        },
+        {
+          "total": 290.84034263369875,
+          "choice": 3
+        },
+        {
+          "total": 12824.215810165291,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1727954815598,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHg0MjRiMjg2MTE5ZDA0MjgwMGM0ZDIzNThlNjZhYWVhMDZiMjg1ZjY2Zjg5YzhiMWMwM2QzN2FmZjg2YWI0YjQ0",
+      "id": "0x424b286119d042800c4d2358e66aaea06b285f66f89c8b1c03d37aff86ab4b44",
+      "title": "oA51 Emission Epoch # 5",
+      "content": "This is a proposal for the oA51 emission on the A51 strategies across different DEXs and Chains. The reward pool for this epoch is 6,769.82 oA51 distributed among 5 different strategies. Only those users who are either Balancer LP's of A51/ETH pool or Quickswap LP's of A51/MATIC pool can vote for their weightage in the emission to be distributed. Each epoch is 15 days long.\n\nThe rewards will be distributed based on the overall users share of liquidity in the A51 strategies and Balancer A51/ETH pool, to maximise your rewards, make sure to have greater liquidity share in the balancer pool.\n\nAt the end of each epoch, the rewards will be airdropped to the LP addresses.\n\nRead more details on: https://a51-finance.gitbook.io/a51-finance/tokenomics/foo-tokenomics\n\nStrategies =\n[\n\"0xfdedb94e2f90059b8aa6f1122a5d78bcb4d8f519600b904828d8ce756ad0aa7c\",\n\"0x93f2d993e8baac9c921226c4021bdf1d835a91991fdb14cd425c77e4aeaef993\",\n\"0x3a72e743eeeea919a05236b69886c6004dd3d338c001233a75b42ebaf20ac17c\",\n\"0x58164a68dfe115a2d1c07f299709a7e89c81913c4f26887d501c7f9448b65816\",\n\"0xd7521d176416b0a820d34e41c3a65845a3339c50093e8533b96a62b6a25ec867\"]",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x389e7877F2E63575b11b46bed14AAB6a824F8557",
+      "totalVotes": 4,
+      "blockNumber": 254457181,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0x424b286119d042800c4d2358e66aaea06b285f66f89c8b1c03d37aff86ab4b44",
+      "startTime": {
+        "timestamp": 1726576610
+      },
+      "endTime": {
+        "timestamp": 1727872560
+      },
+      "startTimestamp": 1726576610,
+      "endTimestamp": 1727872560,
+      "currentState": "closed",
+      "choices": [
+        "ETH-USDC-0.008-Baseswap-Base",
+        "ETH-USDC-0.008-Baseswap-Base",
+        "ETH-USDC-0.008-Baseswap-Base",
+        "ETH-USD+-0.05-Uniswap-Arbitrum",
+        "USDC-USDT-0.01-Uniswap-Optimism"
+      ],
+      "results": [
+        {
+          "total": 15844.704,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 5577.628910654673,
+          "choice": 0
+        },
+        {
+          "total": 263.1854700093055,
+          "choice": 1
+        },
+        {
+          "total": 5981.143665469233,
+          "choice": 2
+        },
+        {
+          "total": 3759.561598743159,
+          "choice": 3
+        },
+        {
+          "total": 263.1854700093055,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1726576783796,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHgxNWMzZjg3ZWJhODc5ZDkzMmU1MjViOWNlZjlkYTEwZGJiY2YzZmY1MDA3MjE0OWZmNjdkYjc2YzQ4M2VlYzZh",
+      "id": "0x15c3f87eba879d932e525b9cef9da10dbbcf3ff50072149ff67db76c483eec6a",
+      "title": "oA51 Emission Epoch # 4",
+      "content": "This is a proposal for the oA51 emission on the A51 strategies across different DEXs and Chains. The reward pool for this epoch is 6,769.82 oA51 distributed among 5 different strategies. Only those users who are either Balancer LP's of A51/ETH pool or Quickswap LP's of A51/MATIC pool can vote for their weightage in the emission to be distributed. Each epoch is 15 days long.\n\nThe rewards will be distributed based on the overall users share of liquidity in the A51 strategies and Balancer A51/ETH pool, to maximise your rewards, make sure to have greater liquidity share in the balancer pool.\n\nAt the end of each epoch, the rewards will be airdropped to the LP addresses.\n\nRead more details on: https://a51-finance.gitbook.io/a51-finance/tokenomics/foo-tokenomics\n\nStrategies =\n[\n\"0x58164a68dfe115a2d1c07f299709a7e89c81913c4f26887d501c7f9448b65816\",\n\"0x4fa677272f9c7c30913c6c388ffc13912b19e21592867194c2f69e022d1760c3\",\n\"0xb1ddd93ce9b7dd715079f1e99c38421663e53b1749c264ff4e692812bec5aa9a\",\n\"0x5aed3e45f41a56952071b4cf09eb98193a130195cc40ee849c3131fe4996aa4a\",\n\"0xddc1e1b4ab3c58314d1efe6f387e56d57418f9dee6e846ecf28ad4e4bd47daa0\"]",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x389e7877F2E63575b11b46bed14AAB6a824F8557",
+      "totalVotes": 2,
+      "blockNumber": 249357943,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0x15c3f87eba879d932e525b9cef9da10dbbcf3ff50072149ff67db76c483eec6a",
+      "startTime": {
+        "timestamp": 1725292506
+      },
+      "endTime": {
+        "timestamp": 1726513140
+      },
+      "startTimestamp": 1725292506,
+      "endTimestamp": 1726513140,
+      "currentState": "closed",
+      "choices": [
+        "ETH-USD+-0.05-Uniswap-Arbitrum",
+        "WBTC-ETH-0.05-Uniswap-Arbitrum",
+        "tBTC-ETH-0.05-Uniswap-Arbitrum",
+        "ETH-USDC-0.05-Uniswap-Base",
+        "ETH-BRETT-0.3-Uniswap-Base"
+      ],
+      "results": [
+        {
+          "total": 4967.0137,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 277.4233796111154,
+          "choice": 0
+        },
+        {
+          "total": 3857.319968079564,
+          "choice": 1
+        },
+        {
+          "total": 277.4233796111154,
+          "choice": 2
+        },
+        {
+          "total": 277.4233796111154,
+          "choice": 3
+        },
+        {
+          "total": 277.4233796111154,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1725293131157,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHg2ZGYwMDM5OTQ1MzQ1MzA5YTJiNDA5ZmZiOWJiMTM1OGJhZjc2YzBmYWUzNTI5MmUxZmQ3YmMxYjc3OTIxMGE3",
+      "id": "0x6df0039945345309a2b409ffb9bb1358baf76c0fae35292e1fd7bc1b779210a7",
+      "title": "oA51 Emission Epoch # 3",
+      "content": "This is a proposal for the oA51 emission on the A51 strategies across different DEXs and Chains. The reward pool for this epoch is 6,769.82 oA51 distributed among 5 different strategies. Only those users who are either Balancer LP's of A51/ETH pool or Quickswap LP's of A51/MATIC pool can vote for their weightage in the emission to be distributed. Each epoch is 15 days long.\n\nThe rewards will be distributed based on the overall users share of liquidity in the A51 strategies and Balancer A51/ETH pool, to maximise your rewards, make sure to have greater liquidity share in the balancer pool.\n\nAt the end of each epoch, the rewards will be airdropped to the LP addresses.\n\nRead more details on: https://a51-finance.gitbook.io/a51-finance/tokenomics/foo-tokenomics",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x389e7877F2E63575b11b46bed14AAB6a824F8557",
+      "totalVotes": 3,
+      "blockNumber": 243061395,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0x6df0039945345309a2b409ffb9bb1358baf76c0fae35292e1fd7bc1b779210a7",
+      "startTime": {
+        "timestamp": 1723710115
+      },
+      "endTime": {
+        "timestamp": 1725130740
+      },
+      "startTimestamp": 1723710115,
+      "endTimestamp": 1725130740,
+      "currentState": "closed",
+      "choices": [
+        "WBTC-ETH-0.05-Uniswap-Arbitrum",
+        "ETH-USDC-0.05-Uniswap-Arbitrum",
+        "USDC-sFRAX-0.008-Baseswap-Base",
+        "USDC-USDT-0.01-Uniswap-Optimism",
+        "USDB-ETH-0.05-Uniswap-Blast"
+      ],
+      "results": [
+        {
+          "total": 4670.3867,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 3659.874367615668,
+          "choice": 0
+        },
+        {
+          "total": 252.62805162546567,
+          "choice": 1
+        },
+        {
+          "total": 252.62805162546567,
+          "choice": 2
+        },
+        {
+          "total": 252.62805162546567,
+          "choice": 3
+        },
+        {
+          "total": 252.62805162546567,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1723710220494,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHg1NTZhYWJiMzU5YTZjYWFkNGQzNjIwMTBkZjM4MThhMTFlZWFiMTI3NDAyMzJhNzFmNDMzZTRmMTVhMjlhYTEx",
+      "id": "0x556aabb359a6caad4d362010df3818a11eeab12740232a71f433e4f15a29aa11",
+      "title": "oA51 Emission Epoch # 2",
+      "content": "This is a proposal for the oA51 emission on the A51 strategies across different DEXs and Chains. The reward pool for this epoch is 6,769.82 oA51 distributed among 5 different strategies. Only those users who are either Balancer LP's of A51/ETH pool or Quickswap LP's of A51/MATIC pool can vote for their weightage in the emission to be distributed. Each epoch is 15 days long.\n\nThe rewards will be distributed based on the overall users share of liquidity in the A51 strategies and Balancer A51/ETH pool, to maximise your rewards, make sure to have greater liquidity share in the balancer pool.\n\nAt the end of each epoch, the rewards will be airdropped to the LP addresses.\n\nRead more details on: https://a51-finance.gitbook.io/a51-finance/tokenomics/foo-tokenomics",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x389e7877F2E63575b11b46bed14AAB6a824F8557",
+      "totalVotes": 3,
+      "blockNumber": 239640248,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0x556aabb359a6caad4d362010df3818a11eeab12740232a71f433e4f15a29aa11",
+      "startTime": {
+        "timestamp": 1722849215
+      },
+      "endTime": {
+        "timestamp": 1723661940
+      },
+      "startTimestamp": 1722849215,
+      "endTimestamp": 1723661940,
+      "currentState": "closed",
+      "choices": [
+        "WBTC-ETH-0.05-Uniswap-Arbitrum",
+        "ETH-USDC-0.05-Uniswap-Arbitrum",
+        "USDC-sFRAX-0.008-Baseswap-Base",
+        "USDC-USDT-0.01-Uniswap-Optimism",
+        "USDB-ETH-0.05-Uniswap-Blast"
+      ],
+      "results": [
+        {
+          "total": 4226.6123,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 3274.7614954381465,
+          "choice": 0
+        },
+        {
+          "total": 237.9626937041589,
+          "choice": 1
+        },
+        {
+          "total": 237.9626937041589,
+          "choice": 2
+        },
+        {
+          "total": 237.9626937041589,
+          "choice": 3
+        },
+        {
+          "total": 237.9626937041589,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1722849358835,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHg4ZGE2YWUzMDFlMDlkNDA1YzI0YmQ0YzkyMjgwZjZjOGVkMjRlYTgyNTM4ZDI1MjE3NGJlN2E3NGUwZTBkMzMz",
+      "id": "0x8da6ae301e09d405c24bd4c92280f6c8ed24ea82538d252174be7a74e0e0d333",
+      "title": "Burn unclaimed A51 tokens",
+      "content": "This proposal is created to decide on the fate of the unclaimed A51 tokens. According to the A51 stats dashboard, 349,313 A51 tokens are still unclaimed by the PILOT holders which equates to 50% of the initial community drop 120 days after the launch. Check the stats here: https://dune.com/a51finance/a51-stats\n\nConsidering that there has been ample time between the token migration and now, we should move towards setting a deadline for the token migration after which all the unclaimed tokens would be burnt.\n\nThe first proposal is to set 1 July as the final deadline 2 months from now and 6 months after the token migration. The second proposal is to set 1 October as the deadline 5 months from now, and 9 months from the token migration date.\n\nPros to burn unclaimed A51 tokens\nThis will eliminate any supply overhang that might scare new investors and they will be confident that there won’t be any new tokens coming into circulation all of a sudden.",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0xbe7fFBCE16fDb8114E21eb41efb715C7B62998a6",
+      "totalVotes": 9,
+      "blockNumber": 56455516,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0x8da6ae301e09d405c24bd4c92280f6c8ed24ea82538d252174be7a74e0e0d333",
+      "startTime": {
+        "timestamp": 1714561855
+      },
+      "endTime": {
+        "timestamp": 1715080140
+      },
+      "startTimestamp": 1714561855,
+      "endTimestamp": 1715080140,
+      "currentState": "closed",
+      "choices": [
+        "Deadline: 1 July",
+        "Deadline: 1 October",
+        "There should be no deadline"
+      ],
+      "results": [
+        {
+          "total": 82544.96,
+          "choice": 0
+        },
+        {
+          "total": 5800.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 82544.96206304271,
+          "choice": 0
+        },
+        {
+          "total": 5800.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1714562038467,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHgyZjZiNTZmMzliNjdlNjQxZmU3Y2IzOWMyYzIyNDk3MjhlYmRkNjZlYmVlM2IxMDI2MzQzMTE0ZmYxYjg4NGVj",
+      "id": "0x2f6b56f39b67e641fe7cb39c2c2249728ebdd66ebee3b1026343114ff1b884ec",
+      "title": "A51 token launch date proposal",
+      "content": "This proposal is created to take a decision on the much awaited token launch date of A51 Finance. Considering the current bullish market sentiment, it's the suitable time to launch the token with fresh tokenomics and sound features of A51 Finance. \n\nHaving said that there are some PROS to launching as early as in last week of December as well as launching in the 2nd week of January.\n\nPros to launch in late December:\n\n- Current market is bullish which may support the liquidity strength and price discovery.\n\n- PILOT token holders will have early chance to claim the A51 tokens.\n\nPros to launch in early January:\n- During the last week of December, the market usually goes down due to the holidays which may mean early sells and resistance in price discovery. So early january could be more suitable in terms of market recovery.\n\n- In December, the testnet competition will commence which will run for the whole month, as well as the audit for the product is expected to be submitted by mid december to last 10 days of december. This means that the mainnet launch will happen by late january. Launching in early january means there will be less gap between token and product launch.",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x389e7877F2E63575b11b46bed14AAB6a824F8557",
+      "totalVotes": 11,
+      "blockNumber": 18728050,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0x2f6b56f39b67e641fe7cb39c2c2249728ebdd66ebee3b1026343114ff1b884ec",
+      "startTime": {
+        "timestamp": 1701875266
+      },
+      "endTime": {
+        "timestamp": 1702479840
+      },
+      "startTimestamp": 1701875266,
+      "endTimestamp": 1702479840,
+      "currentState": "closed",
+      "choices": [
+        "Launch in early January 2024",
+        "Launch in late December 2023"
+      ],
+      "results": [
+        {
+          "total": 36987.582,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 36987.57973335237,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701876152923,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHhhMjFhOWI5NGYzYjVmNzE2MzZhMTA5YjYyYTA5MzYzMTEwMTM1MGUwZWE4ZThkNGJmMGJiNDhiOGU1YTJhZDNi",
+      "id": "0xa21a9b94f3b5f71636a109b62a093631101350e0ea8e8d4bf0bb48b8e5a2ad3b",
+      "title": "Brand Transformation Consensus: The grand shift in the identity of Unipilot ",
+      "content": "GM PILOTs\n\nAs we journey through the frontier of Defi, we're excited to share our vision for the future. Unipilot has been our trusted companion, evolving with us and introducing Unipilot V3 with advanced features. Yet, we've encountered limitations tied to a single DEX and our brand's scope.\n\nToday, to counter that limitation, we propose a transformation: A51 Finance. This brand represents our vision to explore multi-chain DeFi. A51 Finance embodies dynamism and adaptability, symbolising our commitment to the ever-changing DeFi landscape. It will encompass the utility of the current existing protocol and offer a much bigger and broader set utilities to its users.\n  \n![image](ipfs://bafkreidnhwes3hhet2jamf6tzqcc6ffr4257yb2vzooams4gbayrxj4ccq)\n    \nExplore the proposal in depth: https://docs.google.com/document/d/1Il6lAwczY7YDn4Q_KE8YF1kjzZzJseP-6FuvpAoGPds/edit?usp=sharing",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x389e7877F2E63575b11b46bed14AAB6a824F8557",
+      "totalVotes": 12,
+      "blockNumber": 18178077,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0xa21a9b94f3b5f71636a109b62a093631101350e0ea8e8d4bf0bb48b8e5a2ad3b",
+      "startTime": {
+        "timestamp": 1695224755
+      },
+      "endTime": {
+        "timestamp": 1695841140
+      },
+      "startTimestamp": 1695224755,
+      "endTimestamp": 1695841140,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 48234.434,
+          "choice": 0
+        },
+        {
+          "total": 5285.756,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 48234.43358156299,
+          "choice": 0
+        },
+        {
+          "total": 5285.756143894615,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695225036872,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHgyMWUzMDUwMjZhNWI5ZjUxNWNhN2VhMjY1ODkyYjdlOTViYjdkNTAwYjk1MzI0NDExYTUzMzNiMmZlZjNjZDgz",
+      "id": "0x21e305026a5b9f515ca7ea265892b7e95bb7d500b95324411a5333b2fef3cd83",
+      "title": "Proposal: Unipilot V3 (Transition from CLM to ALP)",
+      "content": "We're proposing a transition from CLM to ALP (Autonomous Liquidity Protocol) which addresses the limitations in the CLM, such as exposure to permanent loss, limited control over asset repositioning, and a one-size-fits-all approach. ALP empowers liquidity providers with customisable strategies, including basic and pro modes, while introducing a comprehensive tokenomics model, staking options, and governance by vePilot token holders. Future plans include multi-chain expansion and a native DEX with ALP features.\n\nFor more understanding you can review \nV3 docs: https://unipilot-v3.gitbook.io/unipilot-v3/\n\nSlide Deck: https://docs.google.com/presentation/d/1xb3DQ3E8RDNsuoVOI9weSAmEixE_KhBRTAFs5vKku8g/edit?usp=sharing\n\nExplainer video: https://www.youtube.com/watch?v=AgOZT3U8zio",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x389e7877F2E63575b11b46bed14AAB6a824F8557",
+      "totalVotes": 20,
+      "blockNumber": 18093925,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0x21e305026a5b9f515ca7ea265892b7e95bb7d500b95324411a5333b2fef3cd83",
+      "startTime": {
+        "timestamp": 1694203225
+      },
+      "endTime": {
+        "timestamp": 1694804340
+      },
+      "startTimestamp": 1694203225,
+      "endTimestamp": 1694804340,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 71759.54,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 71759.5428334436,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1694203310599,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHhmMTNmMjFiNzhmMzczNTcxMTAxNDgwMjMxOTljNTE4MjhjMDVhODlkZmRmMjQ5YTBlZWMxMDQ1ZjVlNjM1NDQz",
+      "id": "0xf13f21b78f37357110148023199c51828c05a89dfdf249a0eec1045f5e635443",
+      "title": "Proposal: Spend $5k sponsoring The Defiant",
+      "content": "The Defiant is a defi-focused crypto educator with 116k followers on YouTube. Here is their channel: https://www.youtube.com/c/TheDefiant\n\nThis proposal is to spend $5k to secure FOUR, 30-second spots in their Defiant Weekly video shows on YouTube during August. I've been in contact with The Defiant before and this usually costs $10k but they have a half price promo for August bringing it down to $5k.\n\nWe will provide the script for The Defiant to use. The cost for this will come from the Unipilot marketing pot, which contains $PILOT.\n\n",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x1e13e5B5ACBB0C3F0fDe50fE7661fdF75df8F932",
+      "totalVotes": 14,
+      "blockNumber": 15197761,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0xf13f21b78f37357110148023199c51828c05a89dfdf249a0eec1045f5e635443",
+      "startTime": {
+        "timestamp": 1658563642
+      },
+      "endTime": {
+        "timestamp": 1658779200
+      },
+      "startTimestamp": 1658563642,
+      "endTimestamp": 1658779200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 63399.17,
+          "choice": 0
+        },
+        {
+          "total": 6010.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 63399.17554879456,
+          "choice": 0
+        },
+        {
+          "total": 6010.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHhhZjMyZTM0Yjk1NWFiYjhiYjM2NDI1MjU2NTUwZmU3NGMyMjk4ZTVmZWZhMzNhYWUyNjdmNzZjMTk4OWFhZjQw",
+      "id": "0xaf32e34b955abb8bb36425256550fe74c2298e5fefa33aae267f76c1989aaf40",
+      "title": "Proposal: End $PILOT farming",
+      "content": "Farming has been a feature on Unipilot since launch, designed to incentivise the provision of liquidity. However, with most of the Active pairs providing triple-digit returns to LPs via earned liquidity fees, the extra returns from farming are not a strong additional incentive and lead to increased $PILOT inflation and sell pressure. This in turn harms those who decide to buy and hold $PILOT. \n\nBy ending farming, we can significantly reduce $PILOT inflation, which combined with the imminent launch of staking and other improvements to tokenomics, would benefit our community of holders.",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x1e13e5B5ACBB0C3F0fDe50fE7661fdF75df8F932",
+      "totalVotes": 20,
+      "blockNumber": 14997299,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0xaf32e34b955abb8bb36425256550fe74c2298e5fefa33aae267f76c1989aaf40",
+      "startTime": {
+        "timestamp": 1655738878
+      },
+      "endTime": {
+        "timestamp": 1655830800
+      },
+      "startTimestamp": 1655738878,
+      "endTimestamp": 1655830800,
+      "currentState": "closed",
+      "choices": [
+        "Yes - end farming",
+        "No - continue farming"
+      ],
+      "results": [
+        {
+          "total": 63422.48,
+          "choice": 0
+        },
+        {
+          "total": 2064.5476,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 63422.4812396842,
+          "choice": 0
+        },
+        {
+          "total": 2064.547693502602,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHgzZTQ2YzJjY2VjZTA0MzdkOTRhMDZmYTk5MmFhNjRmNzM3M2RkY2RiYzY5ZTNmOWFhNzViMWNhOTE2NWVlMjc1",
+      "id": "0x3e46c2ccece0437d94a06fa992aa64f7373ddcdbc69e3f9aa75b1ca9165ee275",
+      "title": "Proposal: Make the Index Fund productive",
+      "content": "Under the current system, revenue earned by the Unipilot protocol is sent to the index fund, which is currently worth $230,000 (link below). Assets in the fund are idle and are not productive. \n\nhttps://etherscan.io/address/0x95477f96f78ec38916b5457030387d844e886ab3#tokentxns\n\nThis proposal suggests that we make this capital productive by using these funds to add liquidity on Unipilot, likely to the USDC/ETH pair. To do this, we would swap all non-ETH, non-PILOT assets in the index fund to USDC and then swap as necessary any ETH to USDC so that we have the required ratio of ETH and USDC for adding liquidity.\n\nThis protocol-owned liquidity would be incredibly productive as 1) returns in this vault are typically in excess of 100% APR and 2) the protocol would earn 100% of fees earned from the liquidity vs. the usual 20% that it earns from users’ liquidity. Therefore, adding just $200k of protocol-owned liquidity would be equivalent to TVL rising by $1m in terms of revenue generated. \n\nThis move could grow the treasury (previously called \"index fund\") in an exponential manner. For example, with an APR of 100%, $200,000 would turn into $400,000 after one year and $800,000 after two years, ceteris paribus. \n\nIncreasing returns for the treasury means higher rewards for stakers, as well as reduced $PILOT token emission (inflation), as the revenue generated can also be used to cover costs such as salaries and growth. And remember, as the protocol continues to generate revenue, more can be added to these positions to further increase returns.\n",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x1e13e5B5ACBB0C3F0fDe50fE7661fdF75df8F932",
+      "totalVotes": 18,
+      "blockNumber": 14984632,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0x3e46c2ccece0437d94a06fa992aa64f7373ddcdbc69e3f9aa75b1ca9165ee275",
+      "startTime": {
+        "timestamp": 1655550551
+      },
+      "endTime": {
+        "timestamp": 1655755200
+      },
+      "startTimestamp": 1655550551,
+      "endTimestamp": 1655755200,
+      "currentState": "closed",
+      "choices": [
+        "Yes - make the fund productive",
+        "No - stick to status quo"
+      ],
+      "results": [
+        {
+          "total": 55363.19,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 55363.194910148166,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHgxYTY2Yzk2ZjQ3OWU2ZWE3OGJhNjE4ZDMyMzZkM2MzNDA0ZGU3OGUzMzI2Y2MwZmMyYzVmNTI3N2NkZWI0ZjEw",
+      "id": "0x1a66c96f479e6ea78ba618d3236d3c3404de78e3326cc0fc2c5f5277cdeb4f10",
+      "title": "Proposal for voting on staking reward token",
+      "content": "This proposal is the continuation of the improved Unipilot tokenomics. The purpose of this proposal is to decide the token in which the staking rewards will be dispatched. The staking rewards will be calculated by taking the 40% of the past month revenue generated in the index fund.",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x389e7877F2E63575b11b46bed14AAB6a824F8557",
+      "totalVotes": 30,
+      "blockNumber": 14960303,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0x1a66c96f479e6ea78ba618d3236d3c3404de78e3326cc0fc2c5f5277cdeb4f10",
+      "startTime": {
+        "timestamp": 1655190000
+      },
+      "endTime": {
+        "timestamp": 1655449200
+      },
+      "startTimestamp": 1655190000,
+      "endTimestamp": 1655449200,
+      "currentState": "closed",
+      "choices": [
+        "ETH",
+        "USDC",
+        "DAI"
+      ],
+      "results": [
+        {
+          "total": 38939.223,
+          "choice": 0
+        },
+        {
+          "total": 16592.885,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 38939.228915707354,
+          "choice": 0
+        },
+        {
+          "total": 16592.88391816582,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHhlZTY2MWMwNTc5YmEzMzhlMGQ4YjNmNGRhZGUxOGM3NzQzMmUxOGUxYTQ5OTExODhhMTk4ODUzN2JkODI2YTMw",
+      "id": "0xee661c0579ba338e0d8b3f4dade18c77432e18e1a4991188a1988537bd826a30",
+      "title": "Should we implement the new tokenomics proposal",
+      "content": "This tokenomics proposal is the improvement in the current tokenomics of Unipilot. It features the inclusion of the most requested staking from our community. We also focused on decreasing the PILOT emission and distributing the staking rewards from the organic revenue generated in the index fund. \n\nThis proposal discusses:\ni) Unipilot Staking and xPILOT.\nii) Staking rewards in actual tokens from the index fund.\niii) Proportion of staking rewards each month for staking.\niv) Shift towards sustainable ecosystem with the transition to DAO as a north star.\n\nRead the proposal: https://drive.google.com/file/d/1rwXATCLQBB9fCvlXdAb_7zHjwmBfs8ey/view?usp=sharing\n \n![Unipilot Tokenomics Arch.png](ipfs://Qmb9vKGtBYA8dyEHTP3mFrLmQDJkXPZKdZmCnL7Gzqitkc)\n    ",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x389e7877F2E63575b11b46bed14AAB6a824F8557",
+      "totalVotes": 20,
+      "blockNumber": 14943040,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0xee661c0579ba338e0d8b3f4dade18c77432e18e1a4991188a1988537bd826a30",
+      "startTime": {
+        "timestamp": 1654932501
+      },
+      "endTime": {
+        "timestamp": 1655190000
+      },
+      "startTimestamp": 1654932501,
+      "endTimestamp": 1655190000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 40985.133,
+          "choice": 0
+        },
+        {
+          "total": 4605.6836,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 40985.13351929053,
+          "choice": 0
+        },
+        {
+          "total": 4605.683613638793,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHgwOTBiNzE3ZmVjYTUwNzk1ZGMyZDVmNmE3NDI3ZWViMDViODBhNWNjZTJiZTUwM2Q3MjRlNjM4YWE4NTEwYTE4",
+      "id": "0x090b717feca50795dc2d5f6a7427eeb05b80a5cce2be503d724e638aa8510a18",
+      "title": "Should Unipilot pay for Etherscan banner adverts to obtain more users?",
+      "content": "Etherscan is a good place for marketing as it is visited presumably exclusively by Ethereum users, whereas other websites such as Coingecko will be visited by many who dont use Ethereum.\n\nThe cost to advertise on Etherscan is $12 per 1,000 impressions, with a minimum spend of $1,200, so this proposal is to spend $1,200 on banner ads on Etherscan. This would reach around 100,000 people.\n\nThe cost of the advertising would come from Unipilot's marketing pot.\n\nThis proposal was raised by community member @AxelSega",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0x1e13e5B5ACBB0C3F0fDe50fE7661fdF75df8F932",
+      "totalVotes": 17,
+      "blockNumber": 14926040,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0x090b717feca50795dc2d5f6a7427eeb05b80a5cce2be503d724e638aa8510a18",
+      "startTime": {
+        "timestamp": 1654681586
+      },
+      "endTime": {
+        "timestamp": 1654945200
+      },
+      "startTimestamp": 1654681586,
+      "endTimestamp": 1654945200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 25231.117,
+          "choice": 0
+        },
+        {
+          "total": 5194.5923,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 25231.117634097816,
+          "choice": 0
+        },
+        {
+          "total": 5194.59210940951,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6MHhlN2I2MzgyM2IwYTEyYjNmMjFiYzhiMWJiNzE1MWRlZjUyOGE5NmI1NDQxZWQ5YWFhMzAxNjFlMDA2ZTNjZGU3",
+      "id": "0xe7b63823b0a12b3f21bc8b1bb7151def528a96b5441ed9aaa30161e006e3cde7",
+      "title": "How we should distribute the $PILOT Uniswap Liquidity fees?",
+      "content": "Most of the liquidity on Uniswap is owned by the Project which is locked. \nThis liquidity earns a lot of fees regularly.\nRight now we have around 3500+ $PILOT and 22+ ETH in it.\n\nThe ETH will be all added to PILOT Index Fund, but we want to hear from the community if we want to use the $PILOT tokens in another way",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0xfb8E7183057f2472F859738dC9622cC74e09820B",
+      "totalVotes": 56,
+      "blockNumber": 13658912,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/0xe7b63823b0a12b3f21bc8b1bb7151def528a96b5441ed9aaa30161e006e3cde7",
+      "startTime": {
+        "timestamp": 1637499600
+      },
+      "endTime": {
+        "timestamp": 1637672400
+      },
+      "startTimestamp": 1637499600,
+      "endTimestamp": 1637672400,
+      "currentState": "closed",
+      "choices": [
+        "Add to Index Fund",
+        "Boost the Farming",
+        "Use for  $PILOT Staking Rewards"
+      ],
+      "results": [
+        {
+          "total": 22016.533,
+          "choice": 0
+        },
+        {
+          "total": 50590.508,
+          "choice": 2
+        },
+        {
+          "total": 229.19669,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 22016.534329773975,
+          "choice": 0
+        },
+        {
+          "total": 229.1967000347714,
+          "choice": 1
+        },
+        {
+          "total": 50590.50488086356,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pcGlsb3RldGg6c25hcHNob3Q6cW16N3NuajJyZ3o4cmRjcnZhZnN5eWdkNWszdG82czNkbmF4cnplenk2amp0cw==",
+      "id": "QmZ7SNj2RgZ8RdCrVaFsYYGD5k3to6s3DNAxRZEZy6jJts",
+      "title": "Put a cap of $50,000/Month to LM Rewards.",
+      "content": "Preface:\nWe started LM Program 2 months ago with the sole purpose of increasing liquidity, to encourage people we had an APY of 480% which was supposed to gradually decrease as we have enough liquidity available.\nCurrently, we have around $2.5M of liquidity available and we believe the time is here to have a max cap of LM Rewards in order to reduce the selling pressure.\n\nProposal\nIn order to protect the token sell-off by users through LM Rewards, we propose to have pre-defined $50,000 of LM Rewards each month.\nThis can be divided equally to everyone taking part in the Liquidity mining program upto an APY of 480%.",
+      "protocol": "unipiloteth",
+      "adapter": "snapshot",
+      "proposer": "0xfb8E7183057f2472F859738dC9622cC74e09820B",
+      "totalVotes": 20,
+      "blockNumber": 13282979,
+      "externalUrl": "https://snapshot.org/#/unipilot.eth/proposal/QmZ7SNj2RgZ8RdCrVaFsYYGD5k3to6s3DNAxRZEZy6jJts",
+      "startTime": {
+        "timestamp": 1632380400
+      },
+      "endTime": {
+        "timestamp": 1632726000
+      },
+      "startTimestamp": 1632380400,
+      "endTimestamp": 1632726000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, put a cap of $50,000.",
+        "No, don't put any cap."
+      ],
+      "results": [
+        {
+          "total": 33642.027,
+          "choice": 0
+        },
+        {
+          "total": 14123.424,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 33642.02731193655,
+          "choice": 0
+        },
+        {
+          "total": 14123.424375877405,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

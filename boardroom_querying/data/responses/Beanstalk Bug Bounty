@@ -1,0 +1,719 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4OTcxMjE0YjFhZTc4NDdjNzQzNzA0YzMwMTRjOTJmNDdlOGM4YTE1MWNjNzg2YTRmMDUxOWMyYzg2MjRiZWVjZA==",
+      "id": "0x971214b1ae7847c743704c3014c92f47e8c8a151cc786a4f0519c2c8624beecd",
+      "title": "BIR-13: Minting Unripe LP During Convert",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Summary\n\n* Mint 10,000 Beans to the whitehat that reported the issue related to minting additional Unripe LP during Conversions; and\n* Mint 1,000 Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [BIC Process](https://docs.bean.money/governance/beanstalk/bic-process)\n* [Safe Transaction](https://app.safe.global/transactions/tx?safe=eth:0xa9bA2C40b263843C04d344727b954A545c81D043&id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0x17f906751890a8fbe660554952d5669e80bde7b534baef7989ac3148090a22c7)\n\n## Bug\n\nA bug was submitted through Immunefi that allows an Unripe Bean Depositor to mint additional Unripe LP by sending Beans or ETH to the BEAN:ETH Well before Converting. This is because Unripe Bean to Unripe LP Converts are implemented with the `sync` Well Implementation function rather than `addLiquidity`.\n\n## Fix\n\nChange `sync` to `addLiquidity` in `LibFertilizer.addUnderlying`.\n\nGiven the low impact and likelihood of this issue being exploited (it is unprofitable to execute), the BCM determined that an EBIP is not necessary. The goal is to include this fix in an upcoming BIP.\n\n## Determination\n\nThe BIC determined that the practicable economic damage of this issue is zero given that an attack would never be profitable. However, the most appropriate impact in scope for this report is \"Illegitimate minting of protocol native assets\", i.e., High severity, as a result of the potential for minting additional Unripe LP.\n\nFor these reasons, the BIC has determined that this bug report be rewarded 10,000 Beans.\n\n* Potential practicable economic damage: $0\n* Impact: High — _Illegitimate minting of protocol native assets_\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 10,000 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0xd7E167AB2A4bC910619ACB0CC36B7707Ab8816d6`](https://etherscan.io/address/0xd7E167AB2A4bC910619ACB0CC36B7707Ab8816d6)\n\nWe propose 1,000 Beans are minted to the following address in order to pay the 10% fee to Immunefi:\n* [`0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b`](https://etherscan.io/address/0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b)",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xd1f4544975D265f1c87f618351e8BFa8f4EEd77E",
+      "totalVotes": 5,
+      "blockNumber": 19308373,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x971214b1ae7847c743704c3014c92f47e8c8a151cc786a4f0519c2c8624beecd",
+      "startTime": {
+        "timestamp": 1708912800
+      },
+      "endTime": {
+        "timestamp": 1709172000
+      },
+      "startTimestamp": 1708912800,
+      "endTimestamp": 1709172000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708910451551,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4YzljMjRlNTM4MDhiZjdkZTg2ZjU0YzI3YTJkMGE3MWI5ZGNiYjkxNmI3NGU5NDkzZDUyMWU2YjY0ZmU4ZDYzZQ==",
+      "id": "0xc9c24e53808bf7de86f54c27a2d0a71b9dcbb916b74e9493d521e6b64fe8d63e",
+      "title": "BIR-11: Stalk Ownership Griefing (Reproposal)",
+      "content": "*Note: This is a reproposal of [BIR-10](https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x3247308cde62b6bc55a82e61224887817f2f81dabba0dfd007a97178585b65bd), where the BIC informally agreed on the bounty amount but the Snapshot vote was not able to get 4 signatures before end of the Voting Period.*\n\n## Proposer\n\nBeanstalk Immunefi Committee\n\n## Summary\n\n* Mint 1,000 Beans to the whitehat that reported the Stalk ownership griefing issue; and\n* Mint 100 Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [BIC Process](https://docs.bean.money/governance/beanstalk/bic-process)\n* [Safe Transaction](https://app.safe.global/transactions/tx?safe=eth:0xa9bA2C40b263843C04d344727b954A545c81D043&id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0x917e0ab28c89154944155f104a467f88eff35a672bc3308a3eb73c1343369470)\n\n## Bug\n\nBy calling `transferDeposit` with an `amount` of `0`, anyone is able to steal 1 `root` (an internal accounting variable used to track Stalk ownership) at a time from any other user for the cost of gas.\n\n## Fix\n\nAdd a `require` statement that checks that the `amount` in `transferDeposit` is greater than 0.\n\nGiven the low impact and likelihood of this issue being exploited (it is unprofitable to execute), the BCM determined that an EBIP is not necessary. The goal is to include this fix in an upcoming BIP.\n\n## Determination\n\nThe BIC determined that the impact of this issue is low given that `roots` cannot be redeemed for any underlying value and the costs of any form of an \"attack\" would not be profitable by a significant margin. Thus, the most applicable impact in scope is griefing and any \"attack\" related to this bug report would have an extremely low likelihood. \n\nFor these reasons, the BIC has determined that this bug report be rewarded 1,000 Beans.\n\n* Potential practicable economic damage: N/A\n* Impact: Medium — _Griefing (e.g. no profit motive for an attacker, but damage to the users or the protocol)_\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 1,000 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0x47E6B4a6cB47EB7C7D30820c7C460183Cf7Abd5b`](https://etherscan.io/address/0x47E6B4a6cB47EB7C7D30820c7C460183Cf7Abd5b)\n\nWe propose 100 Beans are minted to the following address in order to pay the 10% fee to Immunefi:\n* [`0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b`](https://etherscan.io/address/0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b)",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0x6e7308fd175B51c4eeE8a422a4219d8B9C380A0b",
+      "totalVotes": 4,
+      "blockNumber": 19166489,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0xc9c24e53808bf7de86f54c27a2d0a71b9dcbb916b74e9493d521e6b64fe8d63e",
+      "startTime": {
+        "timestamp": 1707192000
+      },
+      "endTime": {
+        "timestamp": 1707451200
+      },
+      "startTimestamp": 1707192000,
+      "endTimestamp": 1707451200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707189996039,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4NjZiN2ZhN2Q1Y2FiM2Y5N2Y4YTY4NTAwNGJmNDY1YjhhYjYwM2VkYzU1YmI5ZDViMjRlYTkyZDY0MTczYTUwYQ==",
+      "id": "0x66b7fa7d5cab3f97f8a685004bf465b8ab603edc55bb9d5b24ea92d64173a50a",
+      "title": "BIR-12: Earned Beans Theft",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Summary\n\n* Mint 50,000 Beans to the whitehat that reported the theft of Earned Beans issue; and\n* Mint 5,000 Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [BIC Process](https://docs.bean.money/governance/beanstalk/bic-process)\n* [Safe Transaction](https://app.safe.global/transactions/tx?safe=eth:0xa9bA2C40b263843C04d344727b954A545c81D043&id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0xa7f7da59294dc0ceb17e973f24bf7de446a4f54edd0fc5b8e514c487c4cb47d3)\n\n## Bug\n\nA bug was submitted through Immunefi that allows a user to potentially steal unclaimed Earned Beans during the 10 block Vesting Period at the beginning of the Season, depending on the value of `s.newEarnedStalk`. \n\nThis was due to an inconsistency in the number of `roots` minted when Depositing compared to the number of `roots` burnt when Withdrawing. By repeatedly Withdrawing and Depositing Beans, an attacker could increase the Stalk/`root` ratio and thus inflate their total Stalk balance before then calling `plant`. This attack could have been profitable based on the value of `s.newEarnedStalk`.\n\n## Fix\n\nGiven that the Seed Gauge System replaces the Vesting Period, in the meantime the best route is to remove the Vesting Period logic altogether and revert when `withdrawDeposit(s)` is called during the first 10 blocks of the Season. \n\nAt the time of execution of this EBIP, based on the value stored at `s.newEarnedStalk`, this attack was not profitable. However, the attack was profitable at various times over the last few months (i.e., some Earned Beans could be stolen for profit).\n\nThis was fixed in [EBIP-14](https://github.com/BeanstalkFarms/Beanstalk/pull/762).\n\n## Determination\n\nThe BIC determined that it is not practical to precisely quantify the practicable economic damage in this report as a result of the exploit being more or less profitable at different times.\n\nThe report points out that during various Seasons over the last few months, the attack has been profitable by various amounts, including a particular Season (and following Seasons until certain conditions changed) where up to 20,000 Beans could have been stolen in each block during the 10 block Vesting Period.\n\nGiven this economic damage that could occur at various points in time, the BIC has determined that this bug report be rewarded 50,000 Beans.\n\n* Potential practicable economic damage: N/A\n* Impact: High (_Theft of unclaimed yield_)\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 50,000 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0xd7E167AB2A4bC910619ACB0CC36B7707Ab8816d6`](https://etherscan.io/address/0xd7E167AB2A4bC910619ACB0CC36B7707Ab8816d6)\n\nWe propose 5,000 Beans are minted to the following address in order to pay the 10% fee to Immunefi:\n* [`0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b`](https://etherscan.io/address/0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b)",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0x6e7308fd175B51c4eeE8a422a4219d8B9C380A0b",
+      "totalVotes": 4,
+      "blockNumber": 19166500,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x66b7fa7d5cab3f97f8a685004bf465b8ab603edc55bb9d5b24ea92d64173a50a",
+      "startTime": {
+        "timestamp": 1707192000
+      },
+      "endTime": {
+        "timestamp": 1707451200
+      },
+      "startTimestamp": 1707192000,
+      "endTimestamp": 1707451200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707189996039,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4MzI0NzMwOGNkZTYyYjZiYzU1YTgyZTYxMjI0ODg3ODE3ZjJmODFkYWJiYTBkZmQwMDdhOTcxNzg1ODViNjViZA==",
+      "id": "0x3247308cde62b6bc55a82e61224887817f2f81dabba0dfd007a97178585b65bd",
+      "title": "BIR-10: Stalk Ownership Griefing",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Summary\n\n* Mint 1,000 Beans to the whitehat that reported the Stalk ownership griefing issue; and\n* Mint 100 Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [BIC Process](https://docs.bean.money/governance/beanstalk/bic-process)\n* [Safe Transaction](https://app.safe.global/transactions/tx?safe=eth:0xa9bA2C40b263843C04d344727b954A545c81D043&id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0xdd4e4e8cdc55a61ed736967a18d9478c34a96afd6dcaa298759857460d89ec20)\n\n## Bug\n\nBy calling `transferDeposit` with an `amount` of `0`, anyone is able to steal 1 `root` (an internal accounting variable used to track Stalk ownership) at a time from any other user for the cost of gas.\n\n## Fix\n\nAdd a `require` statement that checks that the `amount` in `transferDeposit` is greater than 0.\n\nGiven the low impact and likelihood of this issue being exploited (it is unprofitable to execute), the BCM determined that an EBIP is not necessary. The goal is to include this fix in an upcoming BIP.\n\n## Determination\n\nThe BIC determined that the impact of this issue is low given that `roots` cannot be redeemed for any underlying value and the costs of any form of an \"attack\" would not be profitable by a significant margin. Thus, the most applicable impact in scope is griefing and any \"attack\" related to this bug report would have an extremely low likelihood. \n\nFor these reasons, the BIC has determined that this bug report be rewarded 1,000 Beans.\n\n* Potential practicable economic damage: N/A\n* Impact: Medium — _Griefing (e.g. no profit motive for an attacker, but damage to the users or the protocol)_\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 1,000 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0x47E6B4a6cB47EB7C7D30820c7C460183Cf7Abd5b`](https://etherscan.io/address/0x47E6B4a6cB47EB7C7D30820c7C460183Cf7Abd5b)\n\nWe propose 100 Beans are minted to the following address in order to pay the 10% fee to Immunefi:\n* [`0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b`](https://etherscan.io/address/0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b)",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF",
+      "totalVotes": 3,
+      "blockNumber": 19130437,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x3247308cde62b6bc55a82e61224887817f2f81dabba0dfd007a97178585b65bd",
+      "startTime": {
+        "timestamp": 1706756400
+      },
+      "endTime": {
+        "timestamp": 1707015600
+      },
+      "startTimestamp": 1706756400,
+      "endTimestamp": 1707015600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706760100138,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4M2I2MTQ4YmNiNDg3MmRmNmQ2NzI0ODhkOTRjYWViZmNmZDkyNGExY2Y3NzhkMzhmMGY3Y2Y3ZTBlMGQzZDJmYw==",
+      "id": "0x3b6148bcb4872df6d672488d94caebfcfd924a1cf778d38f0f7cf7e0e0d3d2fc",
+      "title": "BIR-10: Stalk Ownership Griefing",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Summary\n\n* Mint 1,000 Beans to the whitehat that reported the Stalk ownership griefing issue; and\n* Mint 100 Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [BIC Process](https://docs.bean.money/governance/beanstalk/bic-process)\n* [Safe Transaction](https://app.safe.global/transactions/tx?safe=eth:0xa9bA2C40b263843C04d344727b954A545c81D043&id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0xdd4e4e8cdc55a61ed736967a18d9478c34a96afd6dcaa298759857460d89ec20)\n\n## Bug\n\nBy calling `transferDeposit` with an `amount` of `0`, anyone is able to steal 1 `root` (an internal accounting variable used to track Stalk ownership) at a time from any other user for the cost of gas.\n\n## Fix\n\nAdd a `require` statement that checks that the `amount` in `transferDeposit` is greater than 0.\n\nGiven the low impact and likelihood of this issue being exploited (it is unprofitable to execute), the BCM determined that an EBIP is not necessary. The goal is to include this fix in an upcoming BIP.\n\n## Determination\n\nThe BIC determined that the impact of this issue is low given that `roots` cannot be redeemed for any underlying value and the costs of any form of an \"attack\" would not be profitable by a significant margin. Thus, the most applicable impact in scope is griefing and any \"attack\" related to this bug report would have an extremely low likelihood. \n\nFor these reasons, the BIC has determined that this bug report be rewarded 1,000 Beans.\n\n* Potential practicable economic damage: N/A\n* Impact: Medium — _Griefing (e.g. no profit motive for an attacker, but damage to the users or the protocol)_\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 1,000 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0x47E6B4a6cB47EB7C7D30820c7C460183Cf7Abd5b`](https://etherscan.io/address/0x47E6B4a6cB47EB7C7D30820c7C460183Cf7Abd5b)\n\nWe propose 100 Beans are minted to the following address in order to pay the 10% fee to Immunefi:\n* [`0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b`](https://etherscan.io/address/0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b)",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF",
+      "totalVotes": 0,
+      "blockNumber": 19130361,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x3b6148bcb4872df6d672488d94caebfcfd924a1cf778d38f0f7cf7e0e0d3d2fc",
+      "startTime": {
+        "timestamp": 1706752800
+      },
+      "endTime": {
+        "timestamp": 1707012000
+      },
+      "startTimestamp": 1706752800,
+      "endTimestamp": 1707012000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706751717145,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4NzViYzJiZmZlYjRjMzhlM2JjNjRiMGJkZTA5YjQ1NDVhNTIzZjY2MzM0ZDYxZTA4NjZkYjJkODg0YzU2MTYyZg==",
+      "id": "0x75bc2bffeb4c38e3bc64b0bde09b4545a523f66334d61e0866db2d884c56162f",
+      "title": "BIR-8: Root Permit Redemption Griefing",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Summary\n\n* Mint 1,000 Beans to the whitehat that reported the griefing issue in the Root contract; and\n* Mint 100 Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [BIC Process](https://docs.bean.money/governance/beanstalk/bic-process)\n* [Safe Transaction](https://app.safe.global/transactions/tx?safe=eth:0xa9bA2C40b263843C04d344727b954A545c81D043&id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0xacfe6a078a0ca2cabc63d1cc1c1b653473d1a18594773d569bc22a7061796ac9)\n\n## Bug\n\n### Expected Behavior\n\nThe `redeemWithFarmBalancePermit` function in the Root contract utilizes the permit function so that approve and redeem operations can happen in a single transaction.\n\n### Attack\n\nERC20Permit uses the nonces mapping for replay protection. Once a signature is verified and approved, the nonce increases, invalidating the same signature being replayed.\n\n`redeemWithFarmBalancePermit` expects the holder to sign their tokens and provide the signature to the contract as part of the permit data. When a `redeemWithFarmBalancePermit` transaction is in the mempool, an attacker can take this signature and call the permit function on the token themselves.\n\nSince this is a valid signature, the token accepts and increases the nonce. This makes the spender's transaction fail whenever it gets mined.\n\n## Determination\n\nBased on the bug bounty program, this submission's ( Smart Contract - Medium ) reward is based on a set of internal criteria established by the BIC (with a minimum reward of USD 1 000), primarily taking into account the exploitability of the bug, the impact it causes and likelihood of the vulnerability presenting itself.\n\nThe BIC determined that the impact of this issue is low given the that the Root contract is not functional (Roots cannot be redeemed as a result of the Beanstalk Silo V3 upgrade) and the low value of assets in the contract.\n\nGiven this, the BIC has determined that this report qualifies for a reward of 1,000 Beans. \n\n* Potential practicable economic damage: N/A\n* Impact: Medium _(Griefing — no profit motive for an attacker, but damage to the users or the protocol)_\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 1,000 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0x5BDe67C6850Ca8D7B324a2b740C7F6E99Aa694C0`](https://etherscan.io/address/0x5BDe67C6850Ca8D7B324a2b740C7F6E99Aa694C0)\n\nWe propose 100 Beans are minted to the following address in order to pay the 10% fee to Immunefi:\n* [`0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b`](https://etherscan.io/address/0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b)",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF",
+      "totalVotes": 5,
+      "blockNumber": 18924553,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x75bc2bffeb4c38e3bc64b0bde09b4545a523f66334d61e0866db2d884c56162f",
+      "startTime": {
+        "timestamp": 1704258000
+      },
+      "endTime": {
+        "timestamp": 1704517200
+      },
+      "startTimestamp": 1704258000,
+      "endTimestamp": 1704517200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704257946555,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4M2E2Y2U4MjZmNjVmYzE5ODU2NWE2ZDM1ODUyZjIxY2RlOTU1MTQxNzQxMDUyYWQzNGUyZjE1ZDM3NTgyMGUxMg==",
+      "id": "0x3a6ce826f65fc198565a6d35852f21cde955141741052ad34e2f15d375820e12",
+      "title": "BIR-9: Beanstalk Subgraph Mitigatable DoS",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Summary\n\n* Mint 1,000 Beans to the whitehat that reported the mitigatable DoS (Denial of Service) issue in the Beanstalk Subgraph; and\n* Mint 100 Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [BIC Process](https://docs.bean.money/governance/beanstalk/bic-process)\n* [Safe Transaction](https://app.safe.global/transactions/tx?safe=eth:0xa9bA2C40b263843C04d344727b954A545c81D043&id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0xa0ec2733c90eab002923bb13615976d06345da54923daa97ff92860f99df0cc9)\n\n## Bug\n\nAn attacker can DoS attack the GraphQL endpoint that serves the Beanstalk Subgraph. DoS attacks on centralized infrastructure (the subgraph is currently hosted on a Hetzner server) are not entirely mitigatable, but the current cloud server settings can be improved to mitigate this issue. A DoS attack on the subgraph would render parts of the UI temporarily unusable.\n\n## Determination\n\nBased on the bug bounty program, this submission's ( Website and Applications - High ) reward is based on a set of internal criteria established by the BIC (with a minimum reward of USD 1 000), primarily taking into account the exploitability of the bug, the impact it causes and likelihood of the vulnerability presenting itself.\n\nThe BIC determined that the impact of this issue is low given the minimal temporary downtime that would be caused by an attack. The report also describes a DDoS attack on the Beanstalk subgraph, not the UI hosted at [app.bean.money](https://app.bean.money/), which can partially function without the subgraph. \n\nGiven this, the BIC has determined that this report qualifies for a reward of 1,000 Beans. \n\n* Potential practicable economic damage: N/A\n* Impact: High _(A temporary or self-correcting loss of website availability, i.e., a mitigatable vulnerability to DDoS)_\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 1,000 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0x38bce8c1ca5a061aa8e2b4750c18ba3efb27ced9`](https://etherscan.io/address/0x38bce8c1ca5a061aa8e2b4750c18ba3efb27ced9)\n\nWe propose 100 Beans are minted to the following address in order to pay the 10% fee to Immunefi:\n* [`0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b`](https://etherscan.io/address/0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b)",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF",
+      "totalVotes": 5,
+      "blockNumber": 18924569,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x3a6ce826f65fc198565a6d35852f21cde955141741052ad34e2f15d375820e12",
+      "startTime": {
+        "timestamp": 1704258000
+      },
+      "endTime": {
+        "timestamp": 1704517200
+      },
+      "startTimestamp": 1704258000,
+      "endTimestamp": 1704517200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704257946555,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4M2RmNDg5OTc0MWRiNjNlNjZlNTE5MzkxNjZkZjczN2JkYjExNjZiZTE4NjMzZGQyZGQ3OGZkY2U0NWRkMjJiZA==",
+      "id": "0x3df4899741db63e66e51939166df737bdb1166be18633dd2dd78fdce45dd22bd",
+      "title": "BIR-7: Verify Whitelisted Pool for Converts",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Summary\n\n* Mint 1,100,000 Beans to the whitehat that reported the issue that led to the removal of the `convert` function in [EBIP-12](https://arweave.net/AFsSqT2HE67IHqtxafvbluoZApdyofiHmvwGmzjTUPU); and\n* Mint 110,000 Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [BIC Process](https://docs.bean.money/governance/beanstalk/bic-process)\n* [Safe Transaction](https://app.safe.global/transactions/tx?safe=eth:0xa9bA2C40b263843C04d344727b954A545c81D043&id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0x8fdb3f518d97fa09543efb9880e256283395d8f6014aa72fe7bbf2b4ae883eb4)\n* [EBIP-12: Remove Convert](https://arweave.net/zAtoxAMBSIVvJTPz45nXPT0lUbgU5Krw5MJ-SWwEmSI)\n* [EBIP-13: Re-Add Convert](https://arweave.net/zKpHhC4c8NhJecrEGHQ8F_vhrLVVEqdGKrQODSoIKbg)\n\n## Bug\n\nSince Replant and prior to this EBIP, Converts did not validate that the pool being Converted in is whitelisted, which would have allowed an attacker to Convert all Beans in the the Beanstalk contract into their own Bean Deposits (which could then be Withdrawn and sold).\n\n## Fix\n\nAdd `require` statements in `LibWellConvert` that verify that the Well being Converted in is whitelisted.\n\nThis was fixed in EBIP-13.\n\n## Determination\n\nThe BIC determined that the funds at risk were all of the Beans in the Beanstalk contract (~22.8M at the time of the report) given that an attacker could have Converted all of these Beans into their own Bean Deposits (which could then be Withdrawn and sold).\n\nGiven this, the BIC has determined that this report qualifies for the max reward on Immunefi of 1.1M Beans. \n\n* Potential practicable economic damage: >$11M\n* Impact: Critical (_Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield_)\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 1,100,000 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0x278cdd1F886F967Ab1EA7b942575B08FAB50383D`](https://etherscan.io/address/0x278cdd1F886F967Ab1EA7b942575B08FAB50383D)\n\nWe propose 110,000 Beans are minted to the following address in order to pay the 10% fee to Immunefi:\n* [`0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b`](https://etherscan.io/address/0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b)",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xDf7D34df31eFdD4a5bDA4c093109FB9391E5197e",
+      "totalVotes": 4,
+      "blockNumber": 18631006,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x3df4899741db63e66e51939166df737bdb1166be18633dd2dd78fdce45dd22bd",
+      "startTime": {
+        "timestamp": 1700701200
+      },
+      "endTime": {
+        "timestamp": 1700960400
+      },
+      "startTimestamp": 1700701200,
+      "endTimestamp": 1700960400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1700701534923,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4N2M2MjBjMjI5YzA1MTUxNDU2MmUyNzBmNTgzYjkxNTkzMjU2M2I0YmQzMjNmMzViNDI4N2ZiMmVkMjQ1ODUxMw==",
+      "id": "0x7c620c229c051514562e270f583b915932563b4bd323f35b4287fb2ed2458513",
+      "title": "BIR-6: Instantaneous ETH/USD Price",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Summary\n\n* Mint 10,000 Beans to the whitehat that reported the issue fixed in [EBIP-11](https://arweave.net/9ZA_3YPeGyQVtS8wbDeN7MSTprGDzegq5iIewnAAxx4); and\n* Mint 1,000 Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [BIC Process](https://docs.bean.money/governance/beanstalk/bic-process)\n* [Safe Transaction](https://app.safe.global/transactions/tx?safe=eth:0xa9bA2C40b263843C04d344727b954A545c81D043&id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0x3246f5fb18d6106bc5ccdbaf7c4f242a5827dc81aeb1c7708e425a76dae62937)\n* [EBIP-11: Upgrade Minting Oracle to 60 Minute TWA ETH/USD Price](https://arweave.net/9ZA_3YPeGyQVtS8wbDeN7MSTprGDzegq5iIewnAAxx4)\n\n## Bug\n\nWhen determining how many Beans/Soil to mint, Beanstalk calculated the price of ETH in USD using the instantaneous price from the Chainlink ETH/USD data feed and compared it 15 minute TWA prices in the ETH:USDC and ETH:USDT 0.05% fee Uniswap V3 pools. \n\nWhen minting Beans during a `gm` call, Beanstalk compared this USD price of ETH with the TWA reserves of Beans and ETH in Multi Flow to calculate the TWA deltaB in the BEANETH Well. Because the Chainlink price in the former was not time weighted, the TWA deltaB calculated at the end of the Season would be higher than necessary if the ETH price was increasing. Similarly, the TWA deltaB calculated at the end of the Season would be lower than necessary if the ETH price was decreasing.\n\n## Fix\n\nAdd support for querying a time weighted average (TWA) ETH/USD price from Chainlink.\n\nUpgrade the ETH/USD price that the Well minting oracle uses to:\n* 60 minute TWA price from the ETH/USD Chainlink data feed; and\n* 60 minute TWA prices from the ETH:USDC and ETH:USDT 0.05% fee Uniswap V3 pools. \n\nThis was fixed in EBIP-11.\n\n## Determination\n\nBased on the Immunefi Bug Bounty Program, this submission's reward is capped at the lower of (a) 10% of practicable economic damage, or (b) 10,000 Beans. Bug reports that do not come with a PoC and code implementing a fix may qualify for a maximum of up to 30% of said reward.\n\nThe BIC determined that it is not possible to calculate the funds at risk or practicable economic damage for this issue given that it is not exploitable by a malicious actor and is only realized via ETH price changes.\n\nHowever, despite the issue not being exploitable and the report not including code implementing a fix, the BIC has determined that this particular bug report be rewarded 10,000 Beans given the significance of the issue.\n\n* Potential practicable economic damage: N/A\n* Impact: High (_Illegitimate minting of protocol native assets_)\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 10,000 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0x2b816A1afb2CFA9Fb13e3f4d5487f0689187FBdB`](https://etherscan.io/address/0x2b816A1afb2CFA9Fb13e3f4d5487f0689187FBdB)\n\nWe propose 1,000 Beans are minted to the following address in order to pay the 10% fee to Immunefi:\n* [`0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b`](https://etherscan.io/address/0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b)",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF",
+      "totalVotes": 4,
+      "blockNumber": 18466047,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x7c620c229c051514562e270f583b915932563b4bd323f35b4287fb2ed2458513",
+      "startTime": {
+        "timestamp": 1698706800
+      },
+      "endTime": {
+        "timestamp": 1698966000
+      },
+      "startTimestamp": 1698706800,
+      "endTimestamp": 1698966000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698706155628,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4MzJiMWQ5Mjk4NTgwODhkYzdhNDI1MjdiYTFiN2M0Y2Y4N2Y5ZTE1ZjhmNzA3NTZkNjAzMjIxNDQ3OWU4ZWMxZA==",
+      "id": "0x32b1d929858088dc7a42527ba1b7c4cf87f9e15f8f70756d6032214479e8ec1d",
+      "title": "BIR-5: Bean to LP Well Convert",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Summary\n\nMint 100,000 Beans to the whitehat that reported the issue fixed in [EBIP-10](https://arweave.net/im3PLE28EkO_eMo4fPmtcTYBJFRErxZ_44I_LWPDIB8).\n\n## Links\n\nPer the process outlined in [BIR Execution](https://docs.bean.money/governance/beanstalk/bic-process#execution), once a BIR passes, the Beanstalk Community Multisig (BCM) executes it by minting Beans to the whitehat's address in order to cover the bug bounty. No fee is minted in this instance because this bug was reported directly to the BIC outside of the Immunefi platform.\n\n* [Safe Transaction](https://app.safe.global/transactions/tx?safe=eth:0xa9bA2C40b263843C04d344727b954A545c81D043&id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0xdcf5acc203b023c3d4c7486f226a545f94a66adb4294021efd012fd6ecf692b2)\n* [EBIP-10: Fix Bean to LP Well Convert](https://arweave.net/im3PLE28EkO_eMo4fPmtcTYBJFRErxZ_44I_LWPDIB8)\n\n## Bug\n\nIn Wells (i.e., only BEANETH currently), Farmers could Convert Deposited Beans to Deposited LP tokens past peg. Additionally, If a Farmer had enough Deposited Beans to Convert past peg, it was possible for that Farmer to Convert Deposited Beans to Deposited LP tokens up to the total amount of Beans in the Beanstalk contract. \n\nThis was because in `LibWellConvert._wellAddLiquidityTowardsPeg`, Beanstalk was Converting (1) the amount the user input (`beans`), rather than (2) the minimum of the amount the user input and the amount required to Convert to peg (`beansConverted`).\n\n## Fix\n\nUpgrade Beanstalk to only allow Converts from Beans to LP tokens in Wells up to (2), i.e., `beansConverted`.\n\nThis was fixed in EBIP-10.\n\n## Determination\n\nThe BIC determined that the funds at risk were all of the Beans in the Beanstalk contract (~23M) given that an attacker could have Converted all of these Beans into BEANETH Well LP tokens, removed the liquidity and sold the Beans. The amount of ETH that could be stolen combined with the subsequent crash in the Bean price would have resulted economic damage of over $11M.\n\nGiven this, the BIC has determined that this report would qualify for the max reward on Immunefi of 1.1M Beans. However, the whitehat has graciously accepted an offer of 100,000 Beans as a reward, given their long term alignment with Beanstalk.\n\n* Potential practicable economic damage: >$11M\n* Impact: Critical (_Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield_)\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 100,000 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0x7E38De5f3053d579474A02ccc257A2F3C626AC75`](https://etherscan.io/address/0x7E38De5f3053d579474A02ccc257A2F3C626AC75)",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF",
+      "totalVotes": 4,
+      "blockNumber": 18466034,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x32b1d929858088dc7a42527ba1b7c4cf87f9e15f8f70756d6032214479e8ec1d",
+      "startTime": {
+        "timestamp": 1698706800
+      },
+      "endTime": {
+        "timestamp": 1698966000
+      },
+      "startTimestamp": 1698706800,
+      "endTimestamp": 1698966000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698706155628,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4NjNmZGRiMWU5YzIyYTViOThkZWZiNjA3YTViNjUyMDQ0NGEwZWYwODczNjQ0NTIzODEzMmM3MDJhMmEwZTRmYQ==",
+      "id": "0x63fddb1e9c22a5b98defb607a5b6520444a0ef08736445238132c702a2a0e4fa",
+      "title": "BIR-3: transferTokenFrom External Balances",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Bug Bounty Process Note\n\nPer the process outlined in [BIR Execution](https://docs.bean.money/governance/beanstalk/bic-process#execution), once a BIR passes, the Beanstalk Community Multisig (BCM) executes it by:\n* Minting Beans to the whitehat's address in order to cover the bug bounty; and\n* Minting Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [Safe Transaction](https://app.safe.global/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/transactions/tx?id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0x0c104fb1b6216a31827d2572bcc5b4cfef9174a5da2c904dfe5657146c2ef712)\n* [EBIP-5: Remove transferTokenFrom Function](https://arweave.net/rihDlnrjmAlFHRmsR3OeP3svGXcxFy_h1dEb0akpylk)\n\n## Bug\n\nIn `transferTokenFrom(...)`, only the allowance for Farm (`INTERNAL`) balances from `msg.sender` was checked, not Circulating (`EXTERNAL`) balances. Therefore, anyone could successfully call the `transferTokenFrom(...)` function with `EXTERNAL` as `fromMode`, their own address as `recipient` and the address of a Farmer who had Circulating assets that were approved to be used by Beanstalk as `sender`.\n\n## Fix\n\nChange `transferTokenFrom(...)` to `transferInternalTokenFrom(...)` such that the function always transfers with `INTERNAL` `fromMode`.\n\nThis was fixed in [EBIP-6](https://arweave.net/o0cB9SKHQq1y_KqIRZ8oK-xLjtSiTXuiT5dGmkwxygI).\n\n## Determination\n\nThe BIC determined that:\n\n* The funds at risk were roughly $3.1M (see [EBIP-5](https://arweave.net/rihDlnrjmAlFHRmsR3OeP3svGXcxFy_h1dEb0akpylk));\n* Any funds at risk were **assets that users had approved to be used by Beanstalk**;\n* **At most 537k Beans** could have been used to remove value from the BEAN:3CRV liquidity pool; and\n* Any non-Bean funds at risk could not have resulted in any loss of value in Beanstalk (apart from marginal amounts of BEAN3CRV LP, urBEAN and urBEAN3CRV).\n\nWhile the purpose of the bug bounty program is to increase the security of Beanstalk and is not necessarily concerned with non-Bean assets outside of Beanstalk, the BIC acknowledges that a large portion of the funds at risk due to this vulnerability fall into the latter category.\n\nGiven this, the BIC has determined that the Bean portion of the funds at risk be rewarded the full 10% reward and the remaining non-Bean assets outside of Beanstalk at risk be rewarded 5%:\n\n537,000 * 0.1 + ((3,100,000 - 537,000) * 0.05) = 181,850 Beans. \n\n* Potential practicable economic damage: ~$537,000 of damage to Beanstalk and ~$2,563,000 of other damage\n* Impact: Critical (_Direct theft of any user funds, whether at-rest or in-motion, other than unclaimed yield_)\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 181,850 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0x8E9935504736e1716a9b64FE65791A59bb8B2A99`](https://etherscan.io/address/0x8E9935504736e1716a9b64FE65791A59bb8B2A99)\n\nWe propose 18,185 Beans are minted to the following address in order to pay the 10% fee to Immunefi:\n* [`0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b`](https://etherscan.io/address/0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b)\n",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF",
+      "totalVotes": 4,
+      "blockNumber": 16035274,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x63fddb1e9c22a5b98defb607a5b6520444a0ef08736445238132c702a2a0e4fa",
+      "startTime": {
+        "timestamp": 1669240800
+      },
+      "endTime": {
+        "timestamp": 1669500000
+      },
+      "startTimestamp": 1669240800,
+      "endTimestamp": 1669500000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4NjBmNmZjZjI1YzNmZTc2MDAzNTM1NzA4ZDliMTQzOTZkYWNlNjU5ZmRkYjJkNmM3MDc2ZGE4ZWNjZTg0ODQwZQ==",
+      "id": "0x60f6fcf25c3fe76003535708d9b14396dace659fddb2d6c7076da8ecce84840e",
+      "title": "BIR-4: Root Token Redemptions ",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Bug Bounty Process Note\n\nPer the process outlined in [BIR Execution](https://docs.bean.money/governance/beanstalk/bic-process#execution), once a BIR passes, the Beanstalk Community Multisig (BCM) executes it by:\n* Minting Beans to the whitehat's address in order to cover the bug bounty; and\n* Minting Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [Safe Transaction](https://app.safe.global/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/transactions/tx?id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0x5cbe4141ae9a46cba144443d1f1b1c1e1ac348ea2946e3c51a9e46c5a9609883)\n* [ERIP-0: Redeem Fix](https://arweave.net/7fjU88EiBrvbLK8oW_GRld4DsSxYfm0yLVvm0x7ywnM)\n\n## Bug\n\nAccording to Section 3.3 of the [Root whitepaper](https://roottoken.org/root.pdf#subsection.3.3), the amount of Roots to be Redeemed from a set of Deposits  is derived from the maximum percentage change in the BDV, Stalk and Seeds of Root as a result of the Redemption.\n\nHowever, in the Root code, the Roots to Redeem used the mininum instead of the maximum which allowed the user to receive more Bean Deposits than they were supposed to when Redeeming. \n\n## Fix\n\nUpdate the `_transferDeposits()` function to subtract the minimum amount remaining from the supply in accordance with Section 3.3 of the [Root whitepaper](https://roottoken.org/root.pdf#subsection.3.3). Because subtraction occurs in the `_transferDeposits()` function, subtracting the maximum amount remaining from the supply resulted in the minimum of the change in BDV, Stalk and Seeds per Root required to Redeem being used instead of the maximum.\n\nThis was fixed in [ERIP-0](https://arweave.net/7fjU88EiBrvbLK8oW_GRld4DsSxYfm0yLVvm0x7ywnM).\n\n## Determination\n\nAlthough the Root token was not previously defined as in-scope, the BIC has decided due to the combination of the following reasons to offer a bounty for discovery of the bug and formally include the Root token contract in the Immunefi bug bounty program moving forward:\n\n* The BIC had already determined to include the contract in the bug bounty program, but had not formalized it;\n* The contract was audited by Halborn; and\n* The contract has already started to attract a significant amount of Beans/BDV. \n\nAs a result of this vulnerability, Root holders were able to Redeem for Bean Deposits with fewer Roots than they otherwise would. However, the scale at which this vulnerability could manifest itself was marginal. About ~8,500 Roots had been Redeemed across 12 transactions and an additional ~226 Beans were received from those Redemptions than expected.\n\nGiven that:\n* It would require time and significant capital to steal any meaningful portion of the underlying BDV of Root;\n* The current underlying BDV of Root is about 165k;\n* Extrapolating the loss of Beans in past Redemptions due to this vulnerability to the current underlying BDV results in `(165,000 * 226) / 8500 = ~4387` Beans; and\n* The minimum reward for High Impact (_Theft of unclaimed yield_) is 10,000 Beans:\n\nThe BIC determined that this bug report be rewarded 10,000 Beans.\n\n* Potential practicable economic damage: ~$4,387\n* Impact: High (_Theft of unclaimed yield_)\n* Entitled to reward: Yes\n\n## Beans Minted\n\nThe `init` function on the following `InitMint` contract is called:\n* [`0x077495925c17230E5e8951443d547ECdbB4925Bb`](https://etherscan.io/address/0x077495925c17230E5e8951443d547ECdbB4925Bb#code)\n\nWe propose 10,000 Beans are minted to the following address in order to pay the bounty to the whitehat:\n* [`0x39fAEF970Fba6822cC99f0270b32170Fe85B792e`](https://etherscan.io/address/0x39fAEF970Fba6822cC99f0270b32170Fe85B792e)\n\nWe propose 1,000 Beans are minted to the following address in order to pay the 10% fee to Immunefi:\n* [`0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b`](https://etherscan.io/address/0x2BC5fFc5De1a83a9e4cDDfA138bAEd516D70414b)\n",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF",
+      "totalVotes": 4,
+      "blockNumber": 16035284,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x60f6fcf25c3fe76003535708d9b14396dace659fddb2d6c7076da8ecce84840e",
+      "startTime": {
+        "timestamp": 1669240800
+      },
+      "endTime": {
+        "timestamp": 1669500000
+      },
+      "startTimestamp": 1669240800,
+      "endTimestamp": 1669500000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4YjA3YzNmZjgxMTJjMDE4NDk2ODFhNjI5ODBiNTQ5OTU5OTk5MGUyNmUwMWQ5Y2EyNDRmZDY0ODM3ODNlY2UyYw==",
+      "id": "0xb07c3ff8112c01849681a62980b5499599990e26e01d9ca244fd6483783ece2c",
+      "title": "BIR-2: V1 Pod Order Backwards Compatibility",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## Bug Bounty Process Note\n\nPer the process outlined in [BIR Execution](https://docs.bean.money/governance/beanstalk/bic-process#execution), once a BIR passes, the Beanstalk Community Multisig (BCM) executes it by:\n* Minting Beans to the whitehat's address in order to cover the bug bounty; and\n* Minting Beans to Immunefi's address in order to cover the 10% fee.\n\n## Links\n\n* [Gnosis Transaction](https://app.safe.global/eth:0xa9bA2C40b263843C04d344727b954A545c81D043/transactions/tx?id=multisig_0xa9bA2C40b263843C04d344727b954A545c81D043_0x4c242b8f0a8d0bf9a3a72c5e4812ccb515a44aef8fb5b6997d22b91b5e2db05b)\n* [EBIP-4: Remove V1 Pod Order Functions](https://arweave.net/WE73eyNcrbkCSZBAQerylbQ8VAoPjD0HBhVM6-OARVg)\n\n## Bug\n\nCancelling V1 Pod Orders that were created before and Cancelled after [BIP-29](https://arweave.net/OfWylBAxD5KyGJBWrQto2EyeYpzc-MqfaroXMQ1bk5w) was committed would return the number of Pods Ordered in Beans times the price per Pod, rather than the Beans initially locked in the V1 Pod Order. \n\n## Fix\n\nUpdate `s.podOrders[id]` for the `id`s of the 3 remaining V1 Pod Orders from the number of Pods Ordered to the number of Beans locked. This was fixed in [EBIP-6](https://arweave.net/o0cB9SKHQq1y_KqIRZ8oK-xLjtSiTXuiT5dGmkwxygI).\n\nNotably, because the whitehat returned the extra 9,228.946824 Beans they received from Cancelling their Pod Order to Beanstalk (see [return transaction](https://etherscan.io/tx/0x09ad148ba695a05d08fd0726b9927411f94eceede13a730d4550f52ce9dc5e7d)), no Beans need to be minted to Beanstalk as part of the fix.\n\n## Determination\n\nAs described in [EBIP-4](https://arweave.net/WE73eyNcrbkCSZBAQerylbQ8VAoPjD0HBhVM6-OARVg), this bug would have only resulted in an excess of ~105,121 Beans being distributed to the 3 remaining addresses that created a V1 Pod Order before [BIP-29](https://arweave.net/OfWylBAxD5KyGJBWrQto2EyeYpzc-MqfaroXMQ1bk5w) was committed. This loss would have only been realized if Farmers withdrew **all remaining assets** from Beanstalk (Farm balances, the Silo, etc.). \n\nNote: the report did not come with a Proof of Concept nor code implementing the fix.\n\n* Potential practicable economic damage: None, due to the reasons regarding the likelihood of losses being realized outlined above. \n* Impact: Medium (_Smart contract unable to operate due to lack of token funds_)\n* Entitled to reward: Yes\n\n## Bounty Amount\n\n* 11,000 Beans will be minted to the whitehat's address for the bounty; and\n* 1,100 Beans will be minted to Immunefi's address in order to cover the 10% fee.\n",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF",
+      "totalVotes": 4,
+      "blockNumber": 15999905,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0xb07c3ff8112c01849681a62980b5499599990e26e01d9ca244fd6483783ece2c",
+      "startTime": {
+        "timestamp": 1668812400
+      },
+      "endTime": {
+        "timestamp": 1669071600
+      },
+      "startTimestamp": 1668812400,
+      "endTimestamp": 1669071600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrYnVnYm91bnR5ZXRoOnNuYXBzaG90OjB4MWRhMjMxNDk0ZmU4Y2Y4NWVkYzUwYmYxNDhiODU1N2IzZGU4YjAzNTQwMTg2MDJiOTIwNzU2MzRkMGUxZjQwOQ==",
+      "id": "0x1da231494fe8cf85edc50bf148b8557b3de8b0354018602b92075634d0e1f409",
+      "title": "BIR-1: Pod Listing Cancellation",
+      "content": "## Proposer\n\nBeanstalk Immunefi Committee\n\n## BIR Process Note\n\nOnce a BIR passes, the Beanstalk Community Multisig (BCM) executes it by:\n- Minting the corresponding number of Beans to cover the bug bounty and the 10% fee from Immunefi;\n- Transferring the Beans corresponding to the bounty to the submitting party’s address; and\n- Transferring the Beans corresponding to the 10% fee to Immunefi’s address.\n\n## Bug\n\nFarmers could cancel Pod Listings on behalf of Farmers by calling the `fillPodListing(...)` function with an input `beanAmount = 0`.\n\n## Fix\n\nAdd the following check: `require(amount > 0, \"Marketplace: Must fill > 0 Pods.\");`.\n\nThe fix has been reviewed by Halborn.\n\nSee [EBIP-3: Pod Listing Cancellation](https://github.com/BeanstalkFarms/Beanstalk-Governance-Proposals/blob/master/bip/ebip/ebip-3-pod-listing-cancellation.md).\n\n## Determination\n\n* Potential practicable economic damage: This bug would not have resulted in any loss of funds.\n* Impact: Medium\n* Entitled to reward: Yes\n\n## Bounty Amount\n\n7,500 Beans. A total of 8,250 Beans will be minted by the BCM in order to cover both the bug bounty and the 10% Immunefi fee.",
+      "protocol": "beanstalkbugbountyeth",
+      "adapter": "snapshot",
+      "proposer": "0xFEA5EB68F3a12c41261a6d16E7f974fd8B4Ab9FF",
+      "totalVotes": 4,
+      "blockNumber": 15828877,
+      "externalUrl": "https://snapshot.org/#/beanstalkbugbounty.eth/proposal/0x1da231494fe8cf85edc50bf148b8557b3de8b0354018602b92075634d0e1f409",
+      "startTime": {
+        "timestamp": 1666746749
+      },
+      "endTime": {
+        "timestamp": 1667005949
+      },
+      "startTimestamp": 1666746749,
+      "endTimestamp": 1667005949,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

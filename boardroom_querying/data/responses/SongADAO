@@ -1,0 +1,533 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6c29uZ2FkYW9ldGg6c25hcHNob3Q6MHgxZjZiYmRiY2I1NmI1MzgwNTE4MjllMzg1YzU0MmU3MzM0NTM5NDg0ZWIzOTcxZTFmYWVjNGYwM2MwODUyMzJi",
+      "id": "0x1f6bbdbcb56b538051829e385c542e7334539484eb3971e1faec4f03c085232b",
+      "title": "Shall we pay Jonathan half of what the DAO made in the 2023 fiscal year so far and start giving him half of what each song earns",
+      "content": "As discussed on Discord, I am having trouble paying my bills! \n\nIt's interesting because the idea of giving the DAO 100% of the revenue from the songs was born of the hope that my original song a day drop would sell out, and I'd be set financially, thereby making it possible for the DAO to keep it all. So while the drop did indeed sell out, with all that has happened in the last two years, my family is now as financially precarious as ever, so I'm really hoping we can pass this amendment!\n\nThe DAO's fiscal year begins on November 1st, and from that day until now we've made 24 eth. So half would be 12.\n\nThe next step would be to use the subgraph stuff that Alan is setting up to automatically send me half of what each song makes each day.\n\nIf eth were ever to recover, it would most certainly be possible to change this back, but until then, I think this can work. \n\nHere's the google sheet of the csv from etherscan from nov 1 until today:\n\nhttps://docs.google.com/spreadsheets/d/1H4f3tkcbOmNgexCOLQ66XAOdL9oOx0g5Xm1M-ookLOE/edit#gid=61046677",
+      "protocol": "songadaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x2a2C412c440Dfb0E7cae46EFF581e3E26aFd1Cd0",
+      "totalVotes": 20,
+      "blockNumber": 16947662,
+      "externalUrl": "https://snapshot.org/#/songadao.eth/proposal/0x1f6bbdbcb56b538051829e385c542e7334539484eb3971e1faec4f03c085232b",
+      "startTime": {
+        "timestamp": 1680271664
+      },
+      "endTime": {
+        "timestamp": 1680444464
+      },
+      "startTimestamp": 1680271664,
+      "endTimestamp": 1680444464,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 20.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 20.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680272107837,
+      "txHash": "",
+      "quorum": 20,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c29uZ2FkYW9ldGg6c25hcHNob3Q6MHg1NzcxMTJkMjhkOWYyMWY4MWQ0YjNiZmE2OTc2MWZjNzQyZDZmNjY0OTNmMzM3MWI1MTc0MzZhNzI2ZmJjZDcz",
+      "id": "0x577112d28d9f21f81d4b3bfa69761fc742d6f66493f3371b517436a726fbcd73",
+      "title": "Shall we reimburse Jonathan $14,699 for his travel expenses?",
+      "content": "In October and November, I did a bunch of traveling for Song A Day/DAO! I performed in Bogota at DevCon, I got on stage at HNFT fest in Barcelona and I gave a talk and improvised a song with a group of songwriters in Copenhagen. \n\nYou can see the expenses here: \n\n \n![Screenshot 2023-01-09 at 2.44.11 PM.png](ipfs://bafkreieuzqatpynzvbyra42sk6zzo4hmwj4pqveruvffakfxvzw73pibaa)\n    https://discord.com/channels/879744958880428043/907787044149940254/1062094737747746957",
+      "protocol": "songadaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3d9456Ad6463a77bD77123Cb4836e463030bfAb4",
+      "totalVotes": 20,
+      "blockNumber": 16378620,
+      "externalUrl": "https://snapshot.org/#/songadao.eth/proposal/0x577112d28d9f21f81d4b3bfa69761fc742d6f66493f3371b517436a726fbcd73",
+      "startTime": {
+        "timestamp": 1673380413
+      },
+      "endTime": {
+        "timestamp": 1673553213
+      },
+      "startTimestamp": 1673380413,
+      "endTimestamp": 1673553213,
+      "currentState": "closed",
+      "choices": [
+        "Yes!",
+        "No!"
+      ],
+      "results": [
+        {
+          "total": 20.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 20.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 20,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c29uZ2FkYW9ldGg6c25hcHNob3Q6MHg3NWY3NjE4ODk5YmY0ODZkMGE2ZTVjMjRiYTU4MTI0NTRiZjEwZmQ2ZmM2YjliMGU1YTdmZmZjMjc4OTQxNDFk",
+      "id": "0x75f7618899bf486d0a6e5c24ba5812454bf10fd6fc6b9b0e5a7fffc27894141d",
+      "title": "Shall We Grant Jonathan Permission To Make Large USDC Purchases For Tax Purposes? ",
+      "content": "**Summary**\nThis is basically a hedge. In the event that the DAO ever comes into a large sum of money, we need to be ready for taxes. Me and my wife found this out the hard way!\n\nSo, our rule of thumb now is: If you get a large sum of eth, convert half of it to USDC or fiat right away. That way, even if the price tanks, you’ll still have enough dollars to pay taxes.\n\n**Motivation**\nWhen we made 750 eth from selling out song a day, we didn’t do this, and we regret it. If, by some miracle, we make that much again on song #5000, I want to make sure I have the leeway to do this for tax season.\n\n**Proposal**\nI am seeking permission to convert 35% of our treasury into USDC. I would do this in consultation with our accountant and also the core DAO group who comes to the Tuesday meetings (3pmEST in the dao).\n\n**Team & Resources**\nNo resources needed, just permission.",
+      "protocol": "songadaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3d9456Ad6463a77bD77123Cb4836e463030bfAb4",
+      "totalVotes": 25,
+      "blockNumber": 15492989,
+      "externalUrl": "https://snapshot.org/#/songadao.eth/proposal/0x75f7618899bf486d0a6e5c24ba5812454bf10fd6fc6b9b0e5a7fffc27894141d",
+      "startTime": {
+        "timestamp": 1662590893
+      },
+      "endTime": {
+        "timestamp": 1662763693
+      },
+      "startTimestamp": 1662590893,
+      "endTimestamp": 1662763693,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 25.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 25.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 30,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c29uZ2FkYW9ldGg6c25hcHNob3Q6MHhhNWFhNjE1YTA0ODU0OWZhOWE5MzVhMzk5NTk0YjYwMTZjYzE0ZTNhYWVlZWEzYmViZjhjODhiZTRlYWZhOTRj",
+      "id": "0xa5aa615a048549fa9a935a399594b6016cc14e3aaeeea3bebf8c88be4eafa94c",
+      "title": "Shall We Move Most Voting To An \"Emoji Consensus\" Mechanism?",
+      "content": "***Summary***\nPer discussions in our weekly meeting, I am proposing that we move most treasury votes off chain and do an “emoji consensus” mechanism. Many DAOs do this, including all Tribute Labs DAOs (Flamingo, Noize, etc).\n\n***Motivation***\nIn our weekly meetings, a lot of really great ideas get discussed, and there’s a real barrier to making them all happen: Each time we want to fund something, we have to do an on chain vote with at least 30 votes. This means that for the two days the vote is live, I have to run around like a mad man, trying to make sure we reach quorum. We want to make this easier.\n\n***Proposal***\nWe are proposing a similar system to what all Tribute Labs DAOs use. It involves posting a poll on a special Voter-only channel. Different levels of funding require different numbers of votes. This is the vote schedule we discussed in our latest weekly call:\n\nPrice … Votes Needed\n0-1Ξ … 5\n1-2Ξ … 10\n2-3Ξ … 15\n3-4Ξ … 20\n4-5Ξ … 25\n.> 5 … Moves to on-chain\n\n***Team & Resources***\nNo real resources needed!",
+      "protocol": "songadaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3d9456Ad6463a77bD77123Cb4836e463030bfAb4",
+      "totalVotes": 25,
+      "blockNumber": 15360714,
+      "externalUrl": "https://snapshot.org/#/songadao.eth/proposal/0xa5aa615a048549fa9a935a399594b6016cc14e3aaeeea3bebf8c88be4eafa94c",
+      "startTime": {
+        "timestamp": 1660766576
+      },
+      "endTime": {
+        "timestamp": 1660939376
+      },
+      "startTimestamp": 1660766576,
+      "endTimestamp": 1660939376,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 25.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 25.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 30,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c29uZ2FkYW9ldGg6c25hcHNob3Q6MHg1OGQyOTc2NDM0YTFmYzZhYmQ4YWUyMWQ1MTNhZmU0NjcxYmVlNTJiZTU2N2YzNzQyZjI0MDVkM2YzZmRiODZi",
+      "id": "0x58d2976434a1fc6abd8ae21d513afe4671bee52be567f3742f2405d3f3fdb86b",
+      "title": "Shall We Repay Jonathan For Minting and Accountant Fees?",
+      "content": "I have spent 9.19 eth on gas fees since Jan 1 in minting Song A Day everyday. I would like to recoup this cost from the DAO! Also, my wife and I paid a co-op accountant $10,000 to retain his services.\n\nYou can see the gas fees on this spreadsheet. The gas fees are column K. If you total the fees for “exec transaction” (which is minting, auction approval and auction beginning) as well as “end auction”, you get the total of 9.19.\n\nHere is the receipt 1 from paying the accountant 1.\n\nMotivation\nI was going to maybe wait until the end of the year to recoup this, but with the down turn, honestly, we need the money.\n\nProposal\nFor the 9.19 in gas fees, I’m requesting to be paid in eth. For the $10k for the accountant, I am suggesting we take $5k from our fiat bank account (which as about $7k currently) as well as another $5k in eth.\n\nTeam & Resources\nI’ll take this opportunity to also ask if there’s anyone who’d be willing to help organize our work with the accountant. My wife and I could use some help!",
+      "protocol": "songadaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3d9456Ad6463a77bD77123Cb4836e463030bfAb4",
+      "totalVotes": 34,
+      "blockNumber": 14986547,
+      "externalUrl": "https://snapshot.org/#/songadao.eth/proposal/0x58d2976434a1fc6abd8ae21d513afe4671bee52be567f3742f2405d3f3fdb86b",
+      "startTime": {
+        "timestamp": 1655578341
+      },
+      "endTime": {
+        "timestamp": 1655751141
+      },
+      "startTimestamp": 1655578341,
+      "endTimestamp": 1655751141,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 34.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 34.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 30,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c29uZ2FkYW9ldGg6c25hcHNob3Q6MHgxZTY5N2M3MDIyNTI0OWFlNzZkNzk5N2Q1NTkwMTExNTY2MjRmMDk3NzRiOTE1YzBmNWZlY2IzYmVlNWY4ZWZh",
+      "id": "0x1e697c70225249ae76d7997d559011156624f09774b915c0f5fecb3bee5f8efa",
+      "title": "Shall We Create The Song-a-Day Collector Rewards System?",
+      "content": "Summary & Motivation\nThe idea is to incentivize collecting Song A Day NFTs! To help raise the floor price by creating a gamified system of collecting.\n\nProposal\n@aLANparty will Create a “pokedex” style collection page for Song a Day. See the example (created by @jonathanmann) here 1.\n\nCollection Grid Interface\nCreate a page that displays various traits grouped into tiers.\nWhen a user connects their wallet to the site the various traits will be populated with NFTs in their collection that have those traits.\nIf songs have multiple traits that appear in the grid, the song will appear in each trait’s square.\nIf multiple songs fit the same tier that tier’s box will show all songs (similar to the way iOS shows folders)\nWhen hovering over a square (or tapping on mobile), There will be a small window that appears showing larger versions of the NFTs.\nIf the NFTs in the hover popup are click they will launch a modal window with the youtube video of the NFT.\nTheir will be one special tier that is tied to multiple super rare traits instead of a single trait. Any NFT that fits at least one of the related super rare traits will appear here.\nCollection Leaderboard\nThere will be a leaderboard that shows a list of top collectors with the most song-a-day NFTs in their collection.\n\nCollection Reward Tiers\nEach group tier will have a reward that is given to the user if they fill in all the blocks for the tier.\nSpecific rewards are still TBD.\n\nSome rewards will require the collection of contact info. If a reward requires contact info the reward tier will present a “Claim Reward” button to the user. They can use this to submit their data. This will email their submission to a Song-A-Day team member who will handle fulfillment of the reward.\n\nSome rewards will not require any user data collection, and these rewards will be partially automated. A script will be run that monitors blockchain events on the Song-A-Day contract, and sends emails to a Song-a-Day team member to alert them when a wallet qualifies for a reward.\n\nTeam & Resources\nThe site will be coded by @aLANparty and designed by his wife! They made the whole PFP minting site.\n\nDesign Time: 6 hours\nCoding Time: 20 hours\nRate: $70 per hour\n\nFunding amount and address\nAlan is requesting $1820 - paid in eth.\n\nA “yes” vote signifies the funds should be sent.",
+      "protocol": "songadaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3d9456Ad6463a77bD77123Cb4836e463030bfAb4",
+      "totalVotes": 31,
+      "blockNumber": 14986544,
+      "externalUrl": "https://snapshot.org/#/songadao.eth/proposal/0x1e697c70225249ae76d7997d559011156624f09774b915c0f5fecb3bee5f8efa",
+      "startTime": {
+        "timestamp": 1655578278
+      },
+      "endTime": {
+        "timestamp": 1655751078
+      },
+      "startTimestamp": 1655578278,
+      "endTimestamp": 1655751078,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 31.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 31.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 30,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c29uZ2FkYW9ldGg6c25hcHNob3Q6MHgzZDA5MGI1ZWQ4Y2I1NzllNjA2NDE3MDJiNmYzMjk3MGMwZTdjZTY2Mjg5ZjBkZjE3OTE2YjU5MWE0NDQwZTc0",
+      "id": "0x3d090b5ed8cb579e60641702b6f32970c0e7ce66289f0df17916b591a4440e74",
+      "title": "Shall We Fund \"Song Dust\" (Ranking songs & Having Fun?)",
+      "content": "# Summary & Motivation #\nCreate “Song Dust”-- a platform for listeners to contribute to finding the best songs in fun categories.\n\nWe want listeners to have more fun things to do–especially those who can’t afford a whole NFT. Listeners can use small amounts of $SONG (aka Song dust) to vote on the existing corpus of songs in fun categories. If future voters agree with you, can earn more song dust, adding to game-like, fun aspect of it.\n\nThe voting process repeats in “seasons,” with a show (fun get-together) for each season where the best songs discovered during the season are enjoyed in a virtual party.\n\nA great side-effect is everyone will have access to better ranking and categorization to help explore Song-a-Day.\n\n# Proposal #\nThe team will build the “Song Dust” curation app in four epochs. Each epoch has specific deliverables subject to review and feedback from DAO members.\n\nSince Song Dust will progress in seasons, there will be the opportunity to make changes to the platform based on learning from past seasons. This leaves the door open for future proposals. This proposal covers the features needed for season one, and the start (voting cycle) of season two.\n\nA more detailed view of the Season 1-1.5 proposal is here. 2\n\n***Epoch 1:***\n💡 **We decided to first design and implement the platform's core functionality due to some technical benefits and time reduction of the whole process. A category page is where you can see the list of nominated songs and able to perform two main actions; vote for a song(main flow) and nominate a song.**\n[ ] Category page UI/UX design\n[ ] Front-end implementation setup\n[ ] Review the design\n***Epoch 2:***\n💡 **After reviewing the previous epoch’s UI/UX design, we go for full implementation of the category page.**\n[ ] Full implementation of the Category page\n[ ] User test and feedback\n***Epoch 3:***\n💡 **After reviewing the feedback we gathered in the previous epoch we make the adjustments accordingly.**\n[ ] Design Homepage\n[ ] Design Profile Page\n[ ] Update the preview section based on user tests and feedback in epoch 2\n[ ] Review the design\n***Epoch 4:***\n💡 **This is the final epoch in which we Implement the two remaining pages, and then we go for user tests and feedback. This epoch may be split into two parts due to work adjustments based on the workload.**\n[ ] Full implementation of the Homepage\n[ ] Full implementation of the Profile page\n[ ] User test and feedback\n[ ] Make adjustments accordingly\nGithub\nSong Dust code is open-source. Progress can be charted on the team’s github repo 1.\n\n# Team & Resources #\n@yazdaaniam : Project manager. He has 4 years of experience with business administration, including fulfilling key roles on BrightID core team.\n@alimahdiyar - frontend developer\n@beigiz - UI / UX designer\n@sina - smart contracts\n\nFunding amount and address\nThe team is requesting 5 ETH to be sent to @yazdaaniam 's address 0x2Fe95bA46D36e6Bbc8d3bbC6BF3F18c85C91f3aF .\n\nA “yes” vote signifies the funds should be sent.",
+      "protocol": "songadaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3d9456Ad6463a77bD77123Cb4836e463030bfAb4",
+      "totalVotes": 31,
+      "blockNumber": 14768906,
+      "externalUrl": "https://snapshot.org/#/songadao.eth/proposal/0x3d090b5ed8cb579e60641702b6f32970c0e7ce66289f0df17916b591a4440e74",
+      "startTime": {
+        "timestamp": 1652465787
+      },
+      "endTime": {
+        "timestamp": 1652638587
+      },
+      "startTimestamp": 1652465787,
+      "endTimestamp": 1652638587,
+      "currentState": "closed",
+      "choices": [
+        "Yes (fund)",
+        "NO (don't fund)"
+      ],
+      "results": [
+        {
+          "total": 31.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 31.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 30,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c29uZ2FkYW9ldGg6c25hcHNob3Q6MHg0NGVmMDY5N2Q0MDFiZmJhNDVjZjM3YWVkY2MyNmZlYzllYWU4MGM5MGI4MGVmZWYzODY4ZGRmYjY2MjIzNDc0",
+      "id": "0x44ef0697d401bfba45cf37aedcc26fec9eae80c90b80efef3868ddfb66223474",
+      "title": "Shall We Hire The PFP Artist To Create More PFP Traits?",
+      "content": "AUTHOR\nIt’s me, Jonathan Mann\n\nSUMMARY\nBefore the Big S.A.D Drop and the launch of SongADAO, I had hired Dave Homer to create a bunch of illustrated layers for a PFP. I limited him to the traits from years 1 and 2 of Song A Day, because having him do more would have cost more than I was willing to spend. I paid him 4eth and he created 117 layers that you can see here 2.\n\nNow that we have a test site that is live 4 (go here and play with it, it’s super fun!), the question becomes: Do we want him to create layers based on the traits for years 3-13?\n\nAs a reminder: The PFP will be available ONLY to Voters. Once the site is fully ready to go, Voters will be able to build and mint their own PFP, which will be a non-transferable, soulbound NFT that literally represents your membership in the SongADAO co-op.\n\nMOTIVATION\nThe motivation behind including traits from years 3-13 in the PFP minting experience is simple: It’s just about having more options. Also, there’s some traits that are very fun and relevant to our culture, i.e. NFTs, ethereum, etc.\n\nPROPOSAL\nThere are total of 140 1 more traits to be created. Dave has quoted us 5 eth to create all of them, and he says it can be done in a month from when he gets payment.\n\nTEAM & RESOURCES\nThe work will be done by Dave, but our own @Misterplus and @aLANparty are working on building the site.\n\nYES VOTE WOULD COST\n5 eth + gas\n\nNO VOTE MEANS\nWe stick with just the 117 traits from years 1 and 2 for the PFPs.",
+      "protocol": "songadaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3d9456Ad6463a77bD77123Cb4836e463030bfAb4",
+      "totalVotes": 31,
+      "blockNumber": 14444391,
+      "externalUrl": "https://snapshot.org/#/songadao.eth/proposal/0x44ef0697d401bfba45cf37aedcc26fec9eae80c90b80efef3868ddfb66223474",
+      "startTime": {
+        "timestamp": 1648063304
+      },
+      "endTime": {
+        "timestamp": 1648236104
+      },
+      "startTimestamp": 1648063304,
+      "endTimestamp": 1648236104,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 30.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 30.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c29uZ2FkYW9ldGg6c25hcHNob3Q6MHhhNzQ3NDEyZGVmMzI1MmUyYjU4NjA2MTM4MGQ4NTI4YzM0NDIxZWZjMjgzMmVjOTk5YzIzZTZhODZmNDBjMzI0",
+      "id": "0xa747412def3252e2b586061380d8528c34421efc2832ec999c23e6a86f40c324",
+      "title": "Shall We Seed NFTX Vault With Floor SAD? ",
+      "content": "Authors\nquag (Core @ NFTX, proud owner of many SADs)\n\nSummary\nThis proposal suggests using a small portion of DAO Treasury funds to purchase a fixed amount of SAD songs and pair them with the corresponding ETH in an NFTX vault.\n\nMotivation\nSong-A-DAO provides ‘Protocol Owned Liquidity’ (POL) of their NFTs with a permanently liquid price floor; giving total confidence to participants that they can instantly buy, sell, and swap their songs. The DAO acts as a buyer of last (or first!) resort while capturing the fees of this activity. The benefits of this approach are starting to become more obvious and The Purrnelope’s Country Club project seeded an NFTX vault as part of their roadmap. Having a liquid $SONG token opens up opportunities throughout DeFi as we are slowly beginning to see the possibilities of backed NFTs (such as borrowing against PUNK on Rari) in the landscape.\n\nThe biggest potential downsides I can see are impermanent loss and missing royalties. The former can be mitigated by utilising NFTX’s ‘single side staking’, where you can earn fees by staking only the NFT and not pairing with ETH. The latter I believe would at least partially (and maybe more) be accounted for in the form of vault fees from the buy, sell, and swap activity in the vault.\n\nProposal\nClear a budget to purchase ~80 SAD NFTs (~2% supply)\nPair 50 with the corresponding ETH to supply liquidity in NFTX vault\nStake the remaining 30 to provide additional inventory and offset impermanent loss.\n\nOpportunity\nSong owners can swap, buy, and sell instantly\nComposable $SONG ERC-20 token that is backed by the NFTs\nSong owners could stake their $SONG to earn yield\nContinues to show participation in web3 space\nThe DAO becomes the primary fee capturer of fungible SAD activity (POL)\n\nTeam & Resources\n@quag would take the lead on this:\nBased on today’s (Feb 9, 2022) price, a sweep of 80 SADs using gem.xyz would be 9.37 ETH.\n\nThe floor price would be temporarily raised from 0.06 to 0.17 so a decision would need to be made on what the price should be set at when seeding the vault. (To try and prop up the new 0.15 floor or market make back at the old floor.) Or split the difference. Somewhere around 0.1 would seem reasonable? 50 @ 0.1 would require 5 ETH as liquidity.\n\nYes vote would cost:\nGem sweep: 10 ETH\nNFTX Vault setup: 0.5-1 ETH (NFTX vault setup costs )\nPool liquidity: 5 ETH (more/less depending on price chosen)\nMisc gas: 0.5 ETH\n\nTotal required: ~16 ETH\n\nNo vote means:\nWe’d spend no money and not set up a vault.",
+      "protocol": "songadaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3d9456Ad6463a77bD77123Cb4836e463030bfAb4",
+      "totalVotes": 40,
+      "blockNumber": 14172907,
+      "externalUrl": "https://snapshot.org/#/songadao.eth/proposal/0xa747412def3252e2b586061380d8528c34421efc2832ec999c23e6a86f40c324",
+      "startTime": {
+        "timestamp": 1644423600
+      },
+      "endTime": {
+        "timestamp": 1644596400
+      },
+      "startTimestamp": 1644423600,
+      "endTimestamp": 1644596400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 40.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 40.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c29uZ2FkYW9ldGg6c25hcHNob3Q6MHgwNzZmMjZjZGI2M2Y3MWU1ZmIxOGI5NDhmNzU5ODM0MGQyZTMzYmZhZmJjYWZmODBhNzk3OWI3MGFiNWY1YTA3",
+      "id": "0x076f26cdb63f71e5fb18b948f7598340d2e33bfafbcaff80a7979b70ab5f5a07",
+      "title": "OOPS THAT PROPOSAL IS BUSTED",
+      "content": "We are still working this out. This is a test proposal. if you're reading this, please vote on this one, so we can make sure everything is working! WE ARE BREAKING NEW GROUND HERE PEOPLE!",
+      "protocol": "songadaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3d9456Ad6463a77bD77123Cb4836e463030bfAb4",
+      "totalVotes": 5,
+      "blockNumber": 14172469,
+      "externalUrl": "https://snapshot.org/#/songadao.eth/proposal/0x076f26cdb63f71e5fb18b948f7598340d2e33bfafbcaff80a7979b70ab5f5a07",
+      "startTime": {
+        "timestamp": 1644417420
+      },
+      "endTime": {
+        "timestamp": 1644421020
+      },
+      "startTimestamp": 1644417420,
+      "endTimestamp": 1644421020,
+      "currentState": "closed",
+      "choices": [
+        "What a time to be alive",
+        "Each moment is so precious"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

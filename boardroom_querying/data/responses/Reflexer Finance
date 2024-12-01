@@ -1,0 +1,3413 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjUy",
+      "id": "52",
+      "title": "October 2024 Distro and Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 1,
+      "blockNumber": 21024603,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1729642139,
+      "endTimestamp": 1730201495,
+      "currentState": "active",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 37720.188,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 21018003
+          },
+          "event": "pending",
+          "timestamp": 1729562495,
+          "txHash": "0x6e58b80b2fa7313b2c07fcc11c3c6956862a1937aeb6c065e62b1b49a58e389c"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729563440529,
+      "txHash": "0x6e58b80b2fa7313b2c07fcc11c3c6956862a1937aeb6c065e62b1b49a58e389c",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjUx",
+      "id": "51",
+      "title": "Update Controller Params and Set Pull Funds Threshold to 0",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 1,
+      "blockNumber": 20910049,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1728260339,
+      "endTimestamp": 1728821291,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 37720.188,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20975296
+          },
+          "event": "executed",
+          "timestamp": 1729047611,
+          "txHash": "0xe939e2c0a57a08a5d81ac56436662de7ff5de6542422194cb7bfeb91a228e08c"
+        },
+        {
+          "time": {
+            "blockNumber": 20903449
+          },
+          "event": "pending",
+          "timestamp": 1728180791,
+          "txHash": "0xf80c9c9209f8801cfb6cb5603de426e71ed5cd4544cf57795ec1ab96bd35c4a0"
+        },
+        {
+          "time": {
+            "blockNumber": 20966016
+          },
+          "event": "queued",
+          "timestamp": 1728935567,
+          "txHash": "0x40d52edc7b4019eec9d745f9a42369d1eef0d86d9c6577aa03975a5a9c00dc7d"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1728181226706,
+      "txHash": "0xf80c9c9209f8801cfb6cb5603de426e71ed5cd4544cf57795ec1ab96bd35c4a0",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjUw",
+      "id": "50",
+      "title": "September 2024 Distro and Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 2,
+      "blockNumber": 20780556,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1726699643,
+      "endTimestamp": 1727260451,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1183.34,
+          "choice": 0
+        },
+        {
+          "total": 35484.188,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20773956
+          },
+          "event": "pending",
+          "timestamp": 1726619963,
+          "txHash": "0x47a4c37c2cd1d6db2d3b64f091a3d563eb5269a25b1e71f221045e40bb12d7dd"
+        },
+        {
+          "time": {
+            "blockNumber": 20829173
+          },
+          "event": "queued",
+          "timestamp": 1727286047,
+          "txHash": "0x1291aab41017273f9ce369a03c1b303704d6e6df73ef25fca5f07ed0751614b4"
+        },
+        {
+          "time": {
+            "blockNumber": 20836894
+          },
+          "event": "executed",
+          "timestamp": 1727379023,
+          "txHash": "0xdcb74aba019b5c49951f0abfa4c29cb5fa4d8451120a7e30e6e8c680fcbafd43"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1726620495285,
+      "txHash": "0x47a4c37c2cd1d6db2d3b64f091a3d563eb5269a25b1e71f221045e40bb12d7dd",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjQ5",
+      "id": "49",
+      "title": "Update RAI controller to use HAI controller params",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 4,
+      "blockNumber": 20636401,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1724960579,
+      "endTimestamp": 1725521399,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1183.34,
+          "choice": 0
+        },
+        {
+          "total": 35724.207,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20629801
+          },
+          "event": "pending",
+          "timestamp": 1724880839,
+          "txHash": "0xecbed8cc53e21c3daae165bda14bcfff0db1597ce1a83eb0125dee661c9dfb5a"
+        },
+        {
+          "time": {
+            "blockNumber": 20773300
+          },
+          "event": "canceled",
+          "timestamp": 1726612043,
+          "txHash": "0x6ac21ccdd7433ecfa428baac937755ec4cc1dde6ddec0dee0889abe36e42161b"
+        },
+        {
+          "time": {
+            "blockNumber": 20688533
+          },
+          "event": "queued",
+          "timestamp": 1725589307,
+          "txHash": "0x052a3cf0c6304821163498efc778a81137bfd13c588acff7d483e32d953ce2b0"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1724881122194,
+      "txHash": "0xecbed8cc53e21c3daae165bda14bcfff0db1597ce1a83eb0125dee661c9dfb5a",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjQ4",
+      "id": "48",
+      "title": "August 2024 Distro and Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 4,
+      "blockNumber": 20573891,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1724205851,
+      "endTimestamp": 1724767355,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 30803.19,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20628478
+          },
+          "event": "executed",
+          "timestamp": 1724864903,
+          "txHash": "0xd0ed2e384f354eb6a4b0a90a888b73d5dc11a466fc8256749badac7d2489ad4e"
+        },
+        {
+          "time": {
+            "blockNumber": 20621262
+          },
+          "event": "queued",
+          "timestamp": 1724777855,
+          "txHash": "0xba251bb0cf8c0a6d16cb1e6c5fcc177475523cdb1ae4791777c65a7aaceb5e3b"
+        },
+        {
+          "time": {
+            "blockNumber": 20567291
+          },
+          "event": "pending",
+          "timestamp": 1724126171,
+          "txHash": "0x692a2a0fb8159e639df0678d2d4796b855b0e04252a6c46ac50d0bddc9d1e10d"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1724126970482,
+      "txHash": "0x692a2a0fb8159e639df0678d2d4796b855b0e04252a6c46ac50d0bddc9d1e10d",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjQ3",
+      "id": "47",
+      "title": "July 2024 Incentives & Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 2,
+      "blockNumber": 20349033,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1721494055,
+      "endTimestamp": 1722054947,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 20744.814,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20399494
+          },
+          "event": "queued",
+          "timestamp": 1722102719,
+          "txHash": "0x502fb38bda09b53034c6960226a8bdd2c2a491ee53c0c6f80430099a6446f590"
+        },
+        {
+          "time": {
+            "blockNumber": 20406836
+          },
+          "event": "executed",
+          "timestamp": 1722191231,
+          "txHash": "0xb88db4b6265618350f6443ac7655f7585fae51623db69829e12a5ba74c85787b"
+        },
+        {
+          "time": {
+            "blockNumber": 20342433
+          },
+          "event": "pending",
+          "timestamp": 1721414471,
+          "txHash": "0xe84a41c8c9a22ad8d8737be55c4028a7c235feac81bdc63d7f638a74b8b90765"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1721414797179,
+      "txHash": "0xe84a41c8c9a22ad8d8737be55c4028a7c235feac81bdc63d7f638a74b8b90765",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjQ2",
+      "id": "46",
+      "title": "June 2024 Incentives & Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 7,
+      "blockNumber": 20129219,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1718841539,
+      "endTimestamp": 1719403151,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 25343.19,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20122619
+          },
+          "event": "pending",
+          "timestamp": 1718761763,
+          "txHash": "0x7f284be8f98ae8c66ae83e2884283aa8e045b9c493f423a4375733ff0d6feaac"
+        },
+        {
+          "time": {
+            "blockNumber": 20184314
+          },
+          "event": "executed",
+          "timestamp": 1719506855,
+          "txHash": "0xa0e96911a7d31c4b93d84eb3e92a1ed51c1072bbccbd5668ce2141e4af9ff749"
+        },
+        {
+          "time": {
+            "blockNumber": 20176680
+          },
+          "event": "queued",
+          "timestamp": 1719414731,
+          "txHash": "0x9bc306f7a5decf2efbe3b2bb225408f5e2a9438ce0772e967f6eff7a9034ff29"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718762115639,
+      "txHash": "0x7f284be8f98ae8c66ae83e2884283aa8e045b9c493f423a4375733ff0d6feaac",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjQ1",
+      "id": "45",
+      "title": "May 2024 Incentives & Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 3,
+      "blockNumber": 19906190,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1716148367,
+      "endTimestamp": 1716710087,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 22711.19,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19963792
+          },
+          "event": "executed",
+          "timestamp": 1716844103,
+          "txHash": "0x16688c1ee6239392ef56623ea0d6d88ca8507aaea16cea06a0afc0237d9f7f2c"
+        },
+        {
+          "time": {
+            "blockNumber": 19955568
+          },
+          "event": "queued",
+          "timestamp": 1716744803,
+          "txHash": "0x621cc6246b5b4451c04558de8287adf5b4c79c4b490785e6796632db51915446"
+        },
+        {
+          "time": {
+            "blockNumber": 19899590
+          },
+          "event": "pending",
+          "timestamp": 1716068639,
+          "txHash": "0x72f750a53a74ff303fe5f53568b465d8cad6e570655be037b154d5c1753114f4"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716069104105,
+      "txHash": "0x72f750a53a74ff303fe5f53568b465d8cad6e570655be037b154d5c1753114f4",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjQ0",
+      "id": "44",
+      "title": "April 2024 Incentives & Payroll, Refill Distributor",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 2,
+      "blockNumber": 19714300,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1713829511,
+      "endTimestamp": 1714391651,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 20687.19,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19770067
+          },
+          "event": "executed",
+          "timestamp": 1714503527,
+          "txHash": "0x466b29d6371adf1472dc3fbf449858a9c842b10da86d83fe8580b4fa0c4b36ec"
+        },
+        {
+          "time": {
+            "blockNumber": 19761871
+          },
+          "event": "queued",
+          "timestamp": 1714404647,
+          "txHash": "0x9fc5207a60cd6caf1528b8bfa0c976498ad56a2103ce510346ef372f8eca7ad6"
+        },
+        {
+          "time": {
+            "blockNumber": 19707700
+          },
+          "event": "pending",
+          "timestamp": 1713749795,
+          "txHash": "0xb7facf4ccd66bfb831ca154f5ccb4b6e6f847645b110ff618004a00aca2a0329"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1713749939916,
+      "txHash": "0xb7facf4ccd66bfb831ca154f5ccb4b6e6f847645b110ff618004a00aca2a0329",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjQz",
+      "id": "43",
+      "title": "Mar 2024 Incentives & Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 3,
+      "blockNumber": 19483812,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1711033487,
+      "endTimestamp": 1711601099,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 48116.465,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19530319
+          },
+          "event": "queued",
+          "timestamp": 1711601183,
+          "txHash": "0xc7b342891a44d4e77580e21425d20fc4f744d8cdc8bf7861d1fbc4722dc755f1"
+        },
+        {
+          "time": {
+            "blockNumber": 19541251
+          },
+          "event": "executed",
+          "timestamp": 1711734659,
+          "txHash": "0x02ef18b2c0a5b9121832018885ecab7dfa6d5ad2eca560b7799435a75ebfeac7"
+        },
+        {
+          "time": {
+            "blockNumber": 19477212
+          },
+          "event": "pending",
+          "timestamp": 1710953459,
+          "txHash": "0x9bca5b8de6ef3d5eb057c46e789f94c2022bf1fdf053c1f7f32698644cc32f13"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710954004158,
+      "txHash": "0x9bca5b8de6ef3d5eb057c46e789f94c2022bf1fdf053c1f7f32698644cc32f13",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjQy",
+      "id": "42",
+      "title": "Feb 2024 Incentives & Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 3,
+      "blockNumber": 19284849,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1708625531,
+      "endTimestamp": 1709187635,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 47199.883,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19278249
+          },
+          "event": "pending",
+          "timestamp": 1708545371,
+          "txHash": "0x7d1e38258b512b2dbc8594068bdbccb81c3d872801a52737e954024e55cb7268"
+        },
+        {
+          "time": {
+            "blockNumber": 19338828
+          },
+          "event": "queued",
+          "timestamp": 1709278043,
+          "txHash": "0x0fa1d82d72e7852463bc4643cb29751ffc89331a34d9a69cb0359301bd583119"
+        },
+        {
+          "time": {
+            "blockNumber": 19351634
+          },
+          "event": "executed",
+          "timestamp": 1709432615,
+          "txHash": "0x77d997b2339989de86eb262a285df06c521ed7d789bacadbd80dd35a2d31bc0c"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708545635832,
+      "txHash": "0x7d1e38258b512b2dbc8594068bdbccb81c3d872801a52737e954024e55cb7268",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjQx",
+      "id": "41",
+      "title": "Jan 2024 Incentives & Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 4,
+      "blockNumber": 19035358,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1705600379,
+      "endTimestamp": 1706164259,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 30547.602,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19028758
+          },
+          "event": "pending",
+          "timestamp": 1705520615,
+          "txHash": "0x0a25eb8a3451fa97ae24abed83fc72f23d303f74c164d9f27ec81b3a40753b2c"
+        },
+        {
+          "time": {
+            "blockNumber": 19084285
+          },
+          "event": "queued",
+          "timestamp": 1706193611,
+          "txHash": "0xaf32d9d2aaba3f4138cccf615350740fb03a7ab9c0a2c5467440849b0cb94b2c"
+        },
+        {
+          "time": {
+            "blockNumber": 19092456
+          },
+          "event": "executed",
+          "timestamp": 1706292383,
+          "txHash": "0xe48a1d314332ea8e1a62fabe4e6a3d93a48f4fa519a391b8baaf00acebe9eb7a"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705521074261,
+      "txHash": "0x0a25eb8a3451fa97ae24abed83fc72f23d303f74c164d9f27ec81b3a40753b2c",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjQw",
+      "id": "40",
+      "title": "Dec 15th payroll / incentives and RAI oracle migration",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 7,
+      "blockNumber": 18864258,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1703525735,
+      "endTimestamp": 1704089867,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 45728.883,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18857658
+          },
+          "event": "pending",
+          "timestamp": 1703445575,
+          "txHash": "0x88404c1ffa11d72c1e73c3e4014c8ffce4e229d162463b3910f381e73acec918"
+        },
+        {
+          "time": {
+            "blockNumber": 18914836
+          },
+          "event": "queued",
+          "timestamp": 1704139451,
+          "txHash": "0x7002b4c1f8408cbcb5e4398b234ca2c5a413bd28021a894d0582d518ad94cdc2"
+        },
+        {
+          "time": {
+            "blockNumber": 18928957
+          },
+          "event": "executed",
+          "timestamp": 1704310703,
+          "txHash": "0xfdd0e1135ac2b866e297e95702f2e709b99d3f199e727f61fa89daf1de7a774e"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703446208019,
+      "txHash": "0x88404c1ffa11d72c1e73c3e4014c8ffce4e229d162463b3910f381e73acec918",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjM5",
+      "id": "39",
+      "title": "November 2023 Incentives & Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 3,
+      "blockNumber": 18614285,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1700498891,
+      "endTimestamp": 1701061523,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 20855.137,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18607685
+          },
+          "event": "pending",
+          "timestamp": 1700418983,
+          "txHash": "0x0d5b28ad4deedd871a19131cc205523c87be73c2b15f88b65187d7c54256dbf9"
+        },
+        {
+          "time": {
+            "blockNumber": 18660923
+          },
+          "event": "queued",
+          "timestamp": 1701063179,
+          "txHash": "0xc1db1079dacc65e954f52ec664b0ef2e22785f49d0fc37ac40df7917d419d4a0"
+        },
+        {
+          "time": {
+            "blockNumber": 18672448
+          },
+          "event": "executed",
+          "timestamp": 1701202619,
+          "txHash": "0xccb30a8449c3021d951f4178ac5968375b0d413b8ccb024b1caaa49829b89dfe"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1700419214552,
+      "txHash": "0x0d5b28ad4deedd871a19131cc205523c87be73c2b15f88b65187d7c54256dbf9",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjM4",
+      "id": "38",
+      "title": "October 2023 Incentives & Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 8,
+      "blockNumber": 18392823,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1697820467,
+      "endTimestamp": 1698382871,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 29653.553,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18386223
+          },
+          "event": "pending",
+          "timestamp": 1697740763,
+          "txHash": "0x6b67ee117a736d092f8840fd3f24b32121d4a7ecedaaaa4c6e587e7942ed630f"
+        },
+        {
+          "time": {
+            "blockNumber": 18452648
+          },
+          "event": "queued",
+          "timestamp": 1698543899,
+          "txHash": "0x504bc141e1b176471e269bc32f2f3ccd2bbeb4fdd7c0933922537460ad38572c"
+        },
+        {
+          "time": {
+            "blockNumber": 18460073
+          },
+          "event": "executed",
+          "timestamp": 1698633803,
+          "txHash": "0xd43e0a95fc286b0d1758e2ad5e733385fc60628b36b9c72269b828daea7b8b12"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1697740766792,
+      "txHash": "0x6b67ee117a736d092f8840fd3f24b32121d4a7ecedaaaa4c6e587e7942ed630f",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjM3",
+      "id": "37",
+      "title": "September 2023 Incentives & Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 7,
+      "blockNumber": 18170526,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1695133379,
+      "endTimestamp": 1695695915,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 38738.273,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18222289
+          },
+          "event": "queued",
+          "timestamp": 1695759599,
+          "txHash": "0x7097db6211db48e229e673401ab516c0da452851e09e211858f161482e3cf773"
+        },
+        {
+          "time": {
+            "blockNumber": 18236016
+          },
+          "event": "executed",
+          "timestamp": 1695925667,
+          "txHash": "0x5965e42c223893fe01b38e6ecce435a9827621d25368a00c926a811ef58d800b"
+        },
+        {
+          "time": {
+            "blockNumber": 18163926
+          },
+          "event": "pending",
+          "timestamp": 1695053483,
+          "txHash": "0xa1c4b7597f7cf4d62d7288e29a3ae241b22ee53e3a5652cdd02f084764d34e85"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695054082666,
+      "txHash": "0xa1c4b7597f7cf4d62d7288e29a3ae241b22ee53e3a5652cdd02f084764d34e85",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjM2",
+      "id": "36",
+      "title": "RaidGuild Global Settlement UI Payment",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 6,
+      "blockNumber": 18028827,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1693415627,
+      "endTimestamp": 1693978007,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 38595.9,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18078395
+          },
+          "event": "queued",
+          "timestamp": 1694015303,
+          "txHash": "0xc855ffb10f494342d0f73571785f09cdbe4f951326fabc3e0b0b5605ea3b8091"
+        },
+        {
+          "time": {
+            "blockNumber": 18022227
+          },
+          "event": "pending",
+          "timestamp": 1693335755,
+          "txHash": "0x7b5b8a393d86ac641dcdb76b13d0f65159a6cda7c601910a99be0e6ec902666f"
+        },
+        {
+          "time": {
+            "blockNumber": 18085582
+          },
+          "event": "executed",
+          "timestamp": 1694102195,
+          "txHash": "0x27d6d730aff33778949f23dcf4d1a0eb7370664a2c3883f75e5e3ac9ef06bc95"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1693336251502,
+      "txHash": "0x7b5b8a393d86ac641dcdb76b13d0f65159a6cda7c601910a99be0e6ec902666f",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjM1",
+      "id": "35",
+      "title": "August 2023 Incentives & Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 3,
+      "blockNumber": 17959861,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1692581687,
+      "endTimestamp": 1693143611,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 34365.953,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17953261
+          },
+          "event": "pending",
+          "timestamp": 1692501863,
+          "txHash": "0x6dcc5fb6c79a30e2b9067efb6b1a54d47a7d13e0cfe03e0886556b300c96f7bb"
+        },
+        {
+          "time": {
+            "blockNumber": 18010160
+          },
+          "event": "queued",
+          "timestamp": 1693189703,
+          "txHash": "0x943bc7c0bc20a73d46378c51a7acfdd138a03b4e516c7442ad20f922808952cc"
+        },
+        {
+          "time": {
+            "blockNumber": 18021835
+          },
+          "event": "executed",
+          "timestamp": 1693331015,
+          "txHash": "0x3500577fe31a44c34b383945e66853d646d99085c33c2e0dcb856f4b115d5b43"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692502135957,
+      "txHash": "0x6dcc5fb6c79a30e2b9067efb6b1a54d47a7d13e0cfe03e0886556b300c96f7bb",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjM0",
+      "id": "34",
+      "title": "July 2023 Incentives and Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 4,
+      "blockNumber": 17745040,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1689985091,
+      "endTimestamp": 1690547111,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 60312.25,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17794135
+          },
+          "event": "queued",
+          "timestamp": 1690578575,
+          "txHash": "0x77cb3f56483aceefc0ea3bcc99b968122aaf6565056677010601bf96f79651d2"
+        },
+        {
+          "time": {
+            "blockNumber": 17802158
+          },
+          "event": "executed",
+          "timestamp": 1690675535,
+          "txHash": "0x6e2917fa93a08cb3f259dab73c1ca0af8c366d06dea07061dac6ddf8df88be0a"
+        },
+        {
+          "time": {
+            "blockNumber": 17738440
+          },
+          "event": "pending",
+          "timestamp": 1689905219,
+          "txHash": "0xf05663adb6e2c06c27e1bc57948712a79b60accba9700ffe3603cb8b259219cf"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689905373834,
+      "txHash": "0xf05663adb6e2c06c27e1bc57948712a79b60accba9700ffe3603cb8b259219cf",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjMz",
+      "id": "33",
+      "title": "Monthly incentives distribution + DAO Payroll ",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 2,
+      "blockNumber": 17538762,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1687480619,
+      "endTimestamp": 1688045411,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 33544.97,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17532162
+          },
+          "event": "pending",
+          "timestamp": 1687400471,
+          "txHash": "0x777657fb9b2ac4edf19ac5002711574e1c0a10dba7534bce288ca8bea9ca72e5"
+        },
+        {
+          "time": {
+            "blockNumber": 17585301
+          },
+          "event": "queued",
+          "timestamp": 1688045879,
+          "txHash": "0x55c943e7a90691fc67769dbe0f9c2c411adf686c31949c8da2b30872ca9a34aa"
+        },
+        {
+          "time": {
+            "blockNumber": 17594098
+          },
+          "event": "executed",
+          "timestamp": 1688152451,
+          "txHash": "0xc64c0a7e0cef6678d54bbc8b96b0ce04006e4694627dcaaf4709c7e6ecdea823"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1687401087809,
+      "txHash": "0x777657fb9b2ac4edf19ac5002711574e1c0a10dba7534bce288ca8bea9ca72e5",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjMy",
+      "id": "32",
+      "title": "Remove old Tellor oracle",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 2,
+      "blockNumber": 17404007,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1685842283,
+      "endTimestamp": 1686409031,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 40606.027,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17397407
+          },
+          "event": "pending",
+          "timestamp": 1685761943,
+          "txHash": "0x2e38e49c4245f1a495c3c778a39eb9b9bd10298169270719bd527350abed9ffa"
+        },
+        {
+          "time": {
+            "blockNumber": 17496738
+          },
+          "event": "queued",
+          "timestamp": 1686971135,
+          "txHash": "0xf647ccf42ef3272a9da90fb05f71fac9864ce96031bb11db9d364019722fd429"
+        },
+        {
+          "time": {
+            "blockNumber": 17529701
+          },
+          "event": "executed",
+          "timestamp": 1687370663,
+          "txHash": "0x7610df4b59940476014ae3e5a2dba733991c94073b2a5087115374651cec1816"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685762406788,
+      "txHash": "0x2e38e49c4245f1a495c3c778a39eb9b9bd10298169270719bd527350abed9ffa",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjMx",
+      "id": "31",
+      "title": "May 2023 Payroll & Incentives",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 4,
+      "blockNumber": 17331158,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1684956899,
+      "endTimestamp": 1685521571,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 45581.36,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17379459
+          },
+          "event": "queued",
+          "timestamp": 1685543411,
+          "txHash": "0x8b739be1dc0cd004fa4c1c55c871cdabf5d9a4efc527b47d544c8e46cda7e351"
+        },
+        {
+          "time": {
+            "blockNumber": 17386780
+          },
+          "event": "executed",
+          "timestamp": 1685632439,
+          "txHash": "0xca856c1d2e75d1a9f45cd371ce4ce3bea7bfeb04cf4a6d6a3358f66f248c6466"
+        },
+        {
+          "time": {
+            "blockNumber": 17324558
+          },
+          "event": "pending",
+          "timestamp": 1684876811,
+          "txHash": "0xcce3e57235fe4816839543c243734bd6a356fca03bac2bb1c7e179583414119f"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684877291857,
+      "txHash": "0xcce3e57235fe4816839543c243734bd6a356fca03bac2bb1c7e179583414119f",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjMw",
+      "id": "30",
+      "title": "Slowdown OSM Proposal #30",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 3,
+      "blockNumber": 17148603,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1682733095,
+      "endTimestamp": 1683297815,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 21386.188,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17224504
+          },
+          "event": "queued",
+          "timestamp": 1683654911,
+          "txHash": "0xc7bf93f65c70ab3b13afc2f31133f59223c14de556b494d7814c42a80d581e9d"
+        },
+        {
+          "time": {
+            "blockNumber": 17232171
+          },
+          "event": "executed",
+          "timestamp": 1683748151,
+          "txHash": "0x81319830062952d6f102bf68a2f57b387727fe12948a13ce80105d8980792ed3"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682653140172,
+      "txHash": "",
+      "quorum": 20000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjI5",
+      "id": "29",
+      "title": "April 2023 Incentives and DAO Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 2,
+      "blockNumber": 17084328,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1681952207,
+      "endTimestamp": 1682517263,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 41106.027,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17131847
+          },
+          "event": "queued",
+          "timestamp": 1682529587,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 17141701
+          },
+          "event": "executed",
+          "timestamp": 1682649395,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681872155641,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjI4",
+      "id": "28",
+      "title": "Update stability fee from 2% to .5%",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 3,
+      "blockNumber": 16992781,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1680823523,
+      "endTimestamp": 1681067567,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 24565.074,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17018689
+          },
+          "event": "queued",
+          "timestamp": 1681140671,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 17025885
+          },
+          "event": "executed",
+          "timestamp": 1681228751,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680742359721,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjI3",
+      "id": "27",
+      "title": "Update Voting Period to Max",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 4,
+      "blockNumber": 16929838,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1680055139,
+      "endTimestamp": 1680297203,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 25138.805,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16986157
+          },
+          "event": "queued",
+          "timestamp": 1680741695,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16993666
+          },
+          "event": "executed",
+          "timestamp": 1680834431,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679975004144,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjI2",
+      "id": "26",
+      "title": "March 15th Incentives and Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 3,
+      "blockNumber": 16884276,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1679502011,
+      "endTimestamp": 1679744099,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 38615.39,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16906345
+          },
+          "event": "queued",
+          "timestamp": 1679769995,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16915694
+          },
+          "event": "executed",
+          "timestamp": 1679883347,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679423137582,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjI1",
+      "id": "25",
+      "title": "Add new Tellor Oracle",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 3,
+      "blockNumber": 16809243,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1678591259,
+      "endTimestamp": 1678833203,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 32462.855,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16906359
+          },
+          "event": "queued",
+          "timestamp": 1679770163,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16923222
+          },
+          "event": "executed",
+          "timestamp": 1679974703,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678591387450,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjI0",
+      "id": "24",
+      "title": "Feb 15th Incentives and Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 4,
+      "blockNumber": 16688750,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1677126839,
+      "endTimestamp": 1677369335,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 39075.816,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16714841
+          },
+          "event": "queued",
+          "timestamp": 1677443999,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16809311
+          },
+          "event": "executed",
+          "timestamp": 1678592099,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 39075.82,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjIz",
+      "id": "23",
+      "title": "Increase Voting Delay to Max Allowed",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 3,
+      "blockNumber": 16631769,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1676435423,
+      "endTimestamp": 1676676911,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 31409.25,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16809279
+          },
+          "event": "queued",
+          "timestamp": 1678591715,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16822681
+          },
+          "event": "executed",
+          "timestamp": 1678754315,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjIy",
+      "id": "22",
+      "title": "update Ki",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0x297BF847Dcb01f3e870515628b36EAbad491e5E8",
+      "totalVotes": 2,
+      "blockNumber": 16623643,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1676337251,
+      "endTimestamp": 1676578127,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 46675.92,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16649120
+          },
+          "event": "queued",
+          "timestamp": 1676645351,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16809321
+          },
+          "event": "executed",
+          "timestamp": 1678592219,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 46675.92,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjIx",
+      "id": "21",
+      "title": "Disable staking",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 5,
+      "blockNumber": 16623499,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1676335511,
+      "endTimestamp": 1676576375,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 24670.654,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16649118
+          },
+          "event": "queued",
+          "timestamp": 1676645327,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16809323
+          },
+          "event": "executed",
+          "timestamp": 1678592243,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 3776.5764,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjIw",
+      "id": "20",
+      "title": "January 2023 DAO Payroll and Incentive Distribution",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 3,
+      "blockNumber": 16473542,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1674525575,
+      "endTimestamp": 1674766115,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 45974.062,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16499165
+          },
+          "event": "queued",
+          "timestamp": 1674834743,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16809324
+          },
+          "event": "executed",
+          "timestamp": 1678592255,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjE5",
+      "id": "19",
+      "title": "December 2022 DAO Payroll and Incentive Distribution",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 2,
+      "blockNumber": 16230342,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1671592751,
+      "endTimestamp": 1671832883,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 26789.06,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16271412
+          },
+          "event": "queued",
+          "timestamp": 1672087667,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16283607
+          },
+          "event": "executed",
+          "timestamp": 1672234799,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 26789.06,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjE4",
+      "id": "18",
+      "title": "Update staking rewards to 87.5 FLX",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xf655E9643871C4Ff9Ee2832f975E35723393704c",
+      "totalVotes": 2,
+      "blockNumber": 16155973,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1670695415,
+      "endTimestamp": 1670936027,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 32923.19,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16349489
+          },
+          "event": "executed",
+          "timestamp": 1673029199,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16221165
+          },
+          "event": "queued",
+          "timestamp": 1671482087,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjE3",
+      "id": "17",
+      "title": "Monthly Distro + DAO Payroll",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 3,
+      "blockNumber": 16028039,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1669150271,
+      "endTimestamp": 1669391075,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 34000.88,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16048515
+          },
+          "event": "queued",
+          "timestamp": 1669397651,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16221155
+          },
+          "event": "executed",
+          "timestamp": 1671481967,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjE2",
+      "id": "16",
+      "title": "Adjust pinger rewards parameters for governed contracts",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 2,
+      "blockNumber": 15969338,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1668441731,
+      "endTimestamp": 1668682451,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 29938.2,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16018780
+          },
+          "event": "queued",
+          "timestamp": 1669038443,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16221151
+          },
+          "event": "executed",
+          "timestamp": 1671481919,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjE1",
+      "id": "15",
+      "title": "DAO Payroll + Monthly incentives distro",
+      "content": "",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 3,
+      "blockNumber": 15792243,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1666304267,
+      "endTimestamp": 1666544651,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 36794.285,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15833113
+          },
+          "event": "executed",
+          "timestamp": 1666797731,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15818259
+          },
+          "event": "queued",
+          "timestamp": 1666618079,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjE0",
+      "id": "14",
+      "title": "Proposal 14",
+      "content": "Attach backup oracle overlay (ETH, chainlink + tellor), ungovern ETH OSM.",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 7,
+      "blockNumber": 15684723,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1665006923,
+      "endTimestamp": 1665247631,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 37662.22,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15725384
+          },
+          "event": "queued",
+          "timestamp": 1665497531,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15818195
+          },
+          "event": "executed",
+          "timestamp": 1666617287,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjEz",
+      "id": "13",
+      "title": "Proposal 13",
+      "content": "DAO Payroll and Monthly incentive distribution",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 6,
+      "blockNumber": 15598719,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1663968323,
+      "endTimestamp": 1664208755,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 32238.533,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15625321
+          },
+          "event": "queued",
+          "timestamp": 1664289323,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15818138
+          },
+          "event": "executed",
+          "timestamp": 1666616603,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjEy",
+      "id": "12",
+      "title": "Proposal 12",
+      "content": "DAO Payroll and Monthly incentive distribution",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 1,
+      "blockNumber": 15592832,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1663897331,
+      "endTimestamp": 1664137607,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15598682
+          },
+          "event": "canceled",
+          "timestamp": 1663967879,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjEx",
+      "id": "11",
+      "title": "Proposal 11",
+      "content": "Monthly DAO Payroll + Incentives distribution",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 1,
+      "blockNumber": 15571205,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1663634699,
+      "endTimestamp": 1663876979,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 5456.715,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15571418
+          },
+          "event": "canceled",
+          "timestamp": 1663637279,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjEw",
+      "id": "10",
+      "title": "Proposal 10",
+      "content": "DAO lead trial period payroll",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0x297BF847Dcb01f3e870515628b36EAbad491e5E8",
+      "totalVotes": 3,
+      "blockNumber": 15398538,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1661283622,
+      "endTimestamp": 1661560043,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 37174.44,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15460438
+          },
+          "event": "queued",
+          "timestamp": 1662139582,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15818061
+          },
+          "event": "executed",
+          "timestamp": 1666615667,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjk=",
+      "id": "9",
+      "title": "Proposal 9",
+      "content": "DAO Payroll + Monthly Incentives Distribution",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 7,
+      "blockNumber": 15372122,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1660923352,
+      "endTimestamp": 1661195554,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 33296.43,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15396882
+          },
+          "event": "queued",
+          "timestamp": 1661261926,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15818111
+          },
+          "event": "executed",
+          "timestamp": 1666616279,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjg=",
+      "id": "8",
+      "title": "Proposal 8",
+      "content": "Stop three year Sablier stream for DAO lead",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 4,
+      "blockNumber": 15347070,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1660581169,
+      "endTimestamp": 1660853322,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1060.9274,
+          "choice": 0
+        },
+        {
+          "total": 32159.902,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15367912
+          },
+          "event": "queued",
+          "timestamp": 1660865238,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15818047
+          },
+          "event": "executed",
+          "timestamp": 1666615499,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1060.9274,
+          "choice": 0
+        },
+        {
+          "total": 32159.902,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjc=",
+      "id": "7",
+      "title": "Proposal 7",
+      "content": "Update gas price oracle value (debt floor adjuster).",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 5,
+      "blockNumber": 15309556,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1660069809,
+      "endTimestamp": 1660340908,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 31577.11,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15347002
+          },
+          "event": "queued",
+          "timestamp": 1660580024,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15818150
+          },
+          "event": "executed",
+          "timestamp": 1666616747,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 31577.11,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjY=",
+      "id": "6",
+      "title": "Proposal 6",
+      "content": "This proposal will change the current governance timelock to the main RAI Pause. After this proposal passes governance will own the system, being able to edit parameters that have not been ungoverned.",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 77,
+      "blockNumber": 15264171,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1659457994,
+      "endTimestamp": 1659726272,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 33645.094,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15298084
+          },
+          "event": "executed",
+          "timestamp": 1659914115,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15284367
+          },
+          "event": "queued",
+          "timestamp": 1659729961,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 33645.094,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjU=",
+      "id": "5",
+      "title": "Proposal 5",
+      "content": "Fixing 3 year Sablier stream for DAO Member (fixes proposal #3)",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0xff34019e145590EBc9402277a780970BbAF9A83a",
+      "totalVotes": 14,
+      "blockNumber": 15213593,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1658777349,
+      "endTimestamp": 1659045454,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 30573.627,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15233776
+          },
+          "event": "queued",
+          "timestamp": 1659049096,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15240868
+          },
+          "event": "executed",
+          "timestamp": 1659144427,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 30573.627,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjQ=",
+      "id": "4",
+      "title": "Proposal 4",
+      "content": "Mint 169K FLX for the DAO",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0x084fD804f2fAFEfB7a92C77579a4cb8Cf48Cc57a",
+      "totalVotes": 3,
+      "blockNumber": 15122515,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1657558705,
+      "endTimestamp": 1657823914,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 27910.39,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15143389
+          },
+          "event": "queued",
+          "timestamp": 1657836272,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15153851
+          },
+          "event": "executed",
+          "timestamp": 1657975897,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 27910.39,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjM=",
+      "id": "3",
+      "title": "Proposal 3",
+      "content": "Start three year Sablier stream for DAO member",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0x084fD804f2fAFEfB7a92C77579a4cb8Cf48Cc57a",
+      "totalVotes": 6,
+      "blockNumber": 15087768,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1657094558,
+      "endTimestamp": 1657361101,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 30192.77,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15107722
+          },
+          "event": "queued",
+          "timestamp": 1657361253,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15114710
+          },
+          "event": "executed",
+          "timestamp": 1657453488,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 30192.77,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjI=",
+      "id": "2",
+      "title": "Proposal 2",
+      "content": "Monthly DAO Payments - July 2022",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0x084fD804f2fAFEfB7a92C77579a4cb8Cf48Cc57a",
+      "totalVotes": 7,
+      "blockNumber": 15056278,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1656673949,
+      "endTimestamp": 1656940038,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 29120.654,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15078255
+          },
+          "event": "queued",
+          "timestamp": 1656966931,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15084864
+          },
+          "event": "executed",
+          "timestamp": 1657054909,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 29120.654,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cmVmbGV4ZXJmaTpvbmNoYWluOjE=",
+      "id": "1",
+      "title": "Proposal 1",
+      "content": "\"Monthly DAO member payments covering initial six weeks for two members\"",
+      "protocol": "reflexerfi",
+      "adapter": "onchain",
+      "proposer": "0x084fD804f2fAFEfB7a92C77579a4cb8Cf48Cc57a",
+      "totalVotes": 12,
+      "blockNumber": 14975693,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1655417596,
+      "endTimestamp": 1655714872,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 31220.521,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14995807
+          },
+          "event": "queued",
+          "timestamp": 1655717703,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15003708
+          },
+          "event": "canceled",
+          "timestamp": 1655837687,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 31220.521,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

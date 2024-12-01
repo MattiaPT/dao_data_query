@@ -1,0 +1,1379 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDoweGVmZjc5M2NiNGJmY2M0YmJjNjdmMGFkNzczZTA0YWQyMDZiYzA0ZThmNTRlMzFhYWFjNzlmOTRlMjQ0ZjM5Nzc=",
+      "id": "0xeff793cb4bfcc4bbc67f0ad773e04ad206bc04e8f54e31aaac79f94e244f3977",
+      "title": "LIP-5 Migrate to a new contract to support OpenSea's blocklist",
+      "content": "# Summary\n\nOpenSea has [released a blog post](https://opensea.io/blog/announcements/on-creator-fees/) about a new blocklist feature intended to\nenforce creator fees on secondary sales.\n\nThis is a proposal to migrate to a new contract that attempts to enforces creator fees on chain using [the OpenSea OperatorFilterRegistry tool](https://github.com/ProjectOpenSea/operator-filter-registry). This will allow us to support OpenSea's blocklist and remain eligible for creator fees from secondary sales on OpenSea.\n\n# Motivation\n\nOpenSea has stated that they will not support creator fees for new collections that don't use the OperatorFilterRegistry tool. Loot currently has a 5% creator fee, which may be lost if we don't migrate to a new contract.\n\n# Specifications\n\nThe new contract will be deployed to Ethereum mainnet. Existing Loot holders will be able to migrate their Loot to the new contract by calling a function on the new contract. The migrate function will burn the legacy Loot and mint new Loot on the new contract with the same ID. Migrating will be free and just cost gas.",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x7E5507281F62C0f8d666beAEA212751cD88994b8",
+      "totalVotes": 32,
+      "blockNumber": 15923870,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/0xeff793cb4bfcc4bbc67f0ad773e04ad206bc04e8f54e31aaac79f94e244f3977",
+      "startTime": {
+        "timestamp": 1667893186
+      },
+      "endTime": {
+        "timestamp": 1671134400
+      },
+      "startTimestamp": 1667893186,
+      "endTimestamp": 1671134400,
+      "currentState": "closed",
+      "choices": [
+        "Migrate to a new contract",
+        "Do nothing"
+      ],
+      "results": [
+        {
+          "total": 18.0,
+          "choice": 0
+        },
+        {
+          "total": 26.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 18.0,
+          "choice": 0
+        },
+        {
+          "total": 26.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDoweGQ3NWU0YTJjYTViMTdhM2QyZGFmY2YxY2ExMzU1ZmNlMzliMzQyZTczYTUzNGNkNzRkOGE2YjYwYjU4NjQ0OTQ=",
+      "id": "0xd75e4a2ca5b17a3d2dafcf1ca1355fce39b342e73a534cd74d8a6b60b5864494",
+      "title": "LIP-4 Remove snapshot quorum for LIPs",
+      "content": "\n### Summary\n\n\nThis is a proposal to remove snapshot quorum (currently set at 10%) and replace it with a 7 day voting period.\n\n### Motivation\n\nAchieving a 10% quorum on LIPs is a daunting task. While quorum has mostly been met for important votes, rallying voters can be time consuming. At this point in the Loot Project, we should let engaged community members decide the outcome of votes, and worry less about reaching a certain threshold. Increasing the minimum vote time (days that the vote is open) to 7 days achieves the same goal as a quorum in preventing gaming of the voting system, without forcing undecided, uninterested, or busy community members to vote.\n\n### Specifications\nSince snapshot quorum rules are norms, no technical adjustments are needed to implement this change. This proposal applies only to snapshot quorum and all other LIP rules follow LIP-1:\n\nhttps://loot-talk.com/t/lip-1-loot-improvement-proposals-establish-framework-and-guidelines/828\n\nLIPs must still go through the community feedback phase, which should prevent any undiscussed proposals from being implemented. \n",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x37b2ee54A9C20eca0010DafCF6Eb2d5cA45B5ACe",
+      "totalVotes": 75,
+      "blockNumber": 14250736,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/0xd75e4a2ca5b17a3d2dafcf1ca1355fce39b342e73a534cd74d8a6b60b5864494",
+      "startTime": {
+        "timestamp": 1645464852
+      },
+      "endTime": {
+        "timestamp": 1646164800
+      },
+      "startTimestamp": 1645464852,
+      "endTimestamp": 1646164800,
+      "currentState": "closed",
+      "choices": [
+        "Remove quorum ",
+        "Keep quorum at 10%"
+      ],
+      "results": [
+        {
+          "total": 192.0,
+          "choice": 0
+        },
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 192.0,
+          "choice": 0
+        },
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDoweGI4YzM3NzQ3YTdjYzg2ZWQ0NTNiZGZkOWM2NjIzYzMyZjE5ZjljM2Q4MmYyNGIxYWQyOTAyZmJlMmIxN2MzMDY=",
+      "id": "0xb8c37747a7cc86ed453bdfd9c6623c32f19f9c3d82f24b1ad2902fbe2b17c306",
+      "title": "Should I buy more loot?",
+      "content": "",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0xAa1ac9cD61344161a0E264095c93A78Af5144DfE",
+      "totalVotes": 34,
+      "blockNumber": 13708424,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/0xb8c37747a7cc86ed453bdfd9c6623c32f19f9c3d82f24b1ad2902fbe2b17c306",
+      "startTime": {
+        "timestamp": 1638183600
+      },
+      "endTime": {
+        "timestamp": 1640948400
+      },
+      "startTimestamp": 1638183600,
+      "endTimestamp": 1640948400,
+      "currentState": "closed",
+      "choices": [
+        "yes!",
+        "absolutely!"
+      ],
+      "results": [
+        {
+          "total": 38.0,
+          "choice": 0
+        },
+        {
+          "total": 20.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 38.0,
+          "choice": 0
+        },
+        {
+          "total": 20.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDoweGFhOGQ1MDgxYzZhMGZiMTlhYmY4ODY4ODI1ZDg3YWE1ZDkxNGJjZjFjNWFmZGEwMWQ1OGExNmE1YzM0YTM0NjM=",
+      "id": "0xaa8d5081c6a0fb19abf8868825d87aa5d914bcf1c5afda01d58a16a5c34a3463",
+      "title": "Loot Retroactive Community Funding (Round 1)",
+      "content": "### Description\n\nBeginning the process of allocating Royalty DAO funds is of utmost importance to keep momentum in the Loot ecosystem. If we spend the money, we will support great projects and keep builders building. Due to the gas challenges of allocating small grants with on-chain voting, we propose an initial block grant, allocated to retroactively fund great public goods projects. We propose an initial block grant of 25 Eth, allocated to public goods projects using quadratic voted via snapshot vote. The proposal has three steps of which the first has been completed: discussion and selection of included public goods projects for round 1, snapshot vote for fund allocation, on-chain treasury vote for execution. If successful, it could become a regular process, similar to Gitcoin Grants. Given ongoing discussion in the Loot discord, the following projects have been selected for the first round of funding. \n\n### Projects\n\nThere are many public goods projects in the loot ecosystem, projects that have provided significant value to the Loot Ecosystem, often while collecting zero or minimal fees. Retroactive funding allocates treasury funds to these projects for previous work, incentivizing them to continue to build the Loot ecosystem. The projects selected for the first round are as follows: \n\n- LootWatcher (https://www.lootwatcher.com/)\n- The Herald (https://lootproject.substack.com/)\n- Loot Swag (https://lootswag.io/)\n- Loot Bibliotheca (https://bibliothecaforloot.com/loot)\n- Loot Exchange (https://www.loot.exchange/)\n- Dom (@dhof)\n- LootMart (https://www.lootmart.xyz/)\n- Loot Rarity (https://github.com/bpierre/loot-rarity)\n- George (Loot Discord)\n\nAll projects will be given the option to abstain from funding prior to the on-chain vote. \n\n### Snapshot Vote (Below)\n\nThis vote uses quadratic voting to determine the allocation of the 25 Eth block. Quadratic voting provides voting power to both the quantity of votes received and the number of individual wallets that vote for a specific project and allows voters to spread voting power across options. This mechanism is useful to limit the power of large holders in skewing community consensus. Notably, the snapshot vote does not result in fund allocation. The final distribution will be put up to on-chain voting using the Loot Royalty DAO voting mechanisms.\n\n### On-chain Treasury Vote (Next)\n\nAfter the allocation is determined, an on-chain Loot Royalty DAO vote will be held where the allocation of the funds will be set in accordance with the snapshot vote. Upon approval of this proposal, funds will be allocated to each project.\n\n### Why batch?\n\nBatching small grants funding is useful to improve the efficiency of proposals. Since voting is on-chain, there are gas fees. This means that small allocations face a high relative externality. While various mechanisms to circumvent this issue have been discussed, block allocations are the easiest solution in the near term. Snapshot allows for off-chain allocations to be decided by the community, which can then be used in an on-chain treasury vote. \n",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x37b2ee54A9C20eca0010DafCF6Eb2d5cA45B5ACe",
+      "totalVotes": 108,
+      "blockNumber": 13735432,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/0xaa8d5081c6a0fb19abf8868825d87aa5d914bcf1c5afda01d58a16a5c34a3463",
+      "startTime": {
+        "timestamp": 1638815400
+      },
+      "endTime": {
+        "timestamp": 1639425600
+      },
+      "startTimestamp": 1638815400,
+      "endTimestamp": 1639425600,
+      "currentState": "closed",
+      "choices": [
+        "LootWatcher",
+        "The Herald",
+        "Loot Swag",
+        "Loot Bibliotecha",
+        "Loot Exchange",
+        "Dom (@dhof)",
+        "LootMart",
+        "Loot Rarity",
+        "George (Discord)"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 101
+        },
+        {
+          "total": 2.0,
+          "choice": 11
+        },
+        {
+          "total": 27.0,
+          "choice": 9
+        },
+        {
+          "total": 3.0,
+          "choice": 19
+        },
+        {
+          "total": 3.0,
+          "choice": 3
+        },
+        {
+          "total": 2.0,
+          "choice": 29
+        },
+        {
+          "total": 13.0,
+          "choice": 4
+        },
+        {
+          "total": 264.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 50
+        },
+        {
+          "total": 20.0,
+          "choice": 2
+        },
+        {
+          "total": 8.0,
+          "choice": 99
+        },
+        {
+          "total": 15.0,
+          "choice": 12
+        },
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "quadratic",
+      "indexedResult": [
+        {
+          "total": 26.029467013891463,
+          "choice": 0
+        },
+        {
+          "total": 41.17802803854303,
+          "choice": 1
+        },
+        {
+          "total": 11.987181957594109,
+          "choice": 2
+        },
+        {
+          "total": 132.6953713586625,
+          "choice": 3
+        },
+        {
+          "total": 82.4860787215443,
+          "choice": 4
+        },
+        {
+          "total": 38.973458784098185,
+          "choice": 5
+        },
+        {
+          "total": 12.291462042132576,
+          "choice": 6
+        },
+        {
+          "total": 18.811957995641173,
+          "choice": 7
+        },
+        {
+          "total": 15.546994087892722,
+          "choice": 8
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbWVzeXZkd3d1MTZpdGpmZmNkc3V6MWY3NHZwbHZkb2h0cGh5bHlubmttNndr",
+      "id": "QmeSyvDWwU16itjfFCdSUZ1f74vPLVDoHtpHYLynNkm6WK",
+      "title": "Propsoal to End Voting",
+      "content": "The ones who build on Loot are the ones that make the world and future we want to use.  Voting is pointless, and a waste of time.  Either go out and build, or use the things built and have fun.\n\nThis is a proposition to end voting. You can vote below if you want.",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x38A4D889a1979133FbC1D58F970f0953E3715c26",
+      "totalVotes": 28,
+      "blockNumber": 13168278,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmeSyvDWwU16itjfFCdSUZ1f74vPLVDoHtpHYLynNkm6WK",
+      "startTime": {
+        "timestamp": 1630837200
+      },
+      "endTime": {
+        "timestamp": 1635675600
+      },
+      "startTimestamp": 1630837200,
+      "endTimestamp": 1635675600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "Also, Yes"
+      ],
+      "results": [
+        {
+          "total": 123.0,
+          "choice": 0
+        },
+        {
+          "total": 42.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 123.0,
+          "choice": 0
+        },
+        {
+          "total": 42.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbWVrcmJ4Y3F4MnZlbDkzcm9wbHJnb212NGQ4Nnk1dnJucXF3N2Z0dW1uMXIy",
+      "id": "QmeKrBXcQx2VeL93roPLRGomV4D86Y5VrNQqW7fTUmN1r2",
+      "title": "LIP-2: Transfer 200 owner bags into a community directed treasury",
+      "content": "In order to burn the keys to the Loot contract, we need to decide the fate of the 200 owner bags. This is a proposal to transfer the bags into a community directed treasury that would activate after 90 days.\n\nPlease see the full details and discussion around this proposal on the Loot Talk forums: https://loot-talk.com/t/lip-3-transfer-200-owner-bags-into-a-community-directed-treasury/1775\n\n- Voting **For** this proposal means you are in favor of establishing a community directed treasury as outlined in the proposal above.\n\n- Voting **Against** this proposal means you are in favor of looking for a different approach — such as multiple treasuries like [this proposal by John Sterlacci](https://loot-talk.com/t/proposal-split-200-owner-bags-between-several-different-community-factions/1790).",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+      "totalVotes": 252,
+      "blockNumber": 13366975,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmeKrBXcQx2VeL93roPLRGomV4D86Y5VrNQqW7fTUmN1r2",
+      "startTime": {
+        "timestamp": 1633536000
+      },
+      "endTime": {
+        "timestamp": 1633881600
+      },
+      "startTimestamp": 1633536000,
+      "endTimestamp": 1633881600,
+      "currentState": "closed",
+      "choices": [
+        "FOR: Establish the treasury",
+        "AGAINST: Look into alternatives"
+      ],
+      "results": [
+        {
+          "total": 1163.0,
+          "choice": 0
+        },
+        {
+          "total": 79.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1163.0,
+          "choice": 0
+        },
+        {
+          "total": 79.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbWU2cmVuNGZ1cHhrbGJtODljamVsNHU4d2tlZ2NobnV2eXppeGZiZGhmcTN0",
+      "id": "Qme6rEn4FupXKLBM89cJeL4U8WkEGChNuVyziXfbdHFq3t",
+      "title": "LIP-3: Set marketplace royalty before burning the keys",
+      "content": "### Summary\n\nIn accordance with [LIP-0](https://loot-talk.com/t/lip-0-burn-the-keys-to-the-loot-contract/1218), the keys which control the Loot contract will soon be burned. These keys control the ability to set royalties. This is a proposal to set a royalty before the keys are burned, and direct the funds to an on-chain treasury controlled by Loot owners.\n\nIf approved, the same royalty will be set across all marketplaces:\n\n- Open Sea\n- Rarible\n- Loot Exchange\n\nFuture marketplaces can leverage Rarible's on-chain registry to detect and apply royalties.\n\n### Arguments For\n\n1) Setting a royalty on popular marketplaces like Open Sea would create an immediate inflow of funds to a treasury, enabling experimentation in community funding, without needing to wait for community marketplaces to grow market share.\n\n2) Setting a royalty on Open Sea evens the playing field with community marketplaces. With no royalty, these marketplaces may struggle to attract sellers, and will be forced to undercut Open Sea's fee, limiting the total amount of royalties that can be raised.\n\n### Arguments Against\n\n1) Any form of fundraising and distribution could lead to centralization of decision making, and debates over what is \"official\" and what should be funded.\n\n2) Community may become reliant on Open Sea, rather than being forced to create alternative fundraising mechanisms.\n\n### Related Discussions\n\nFor more in-depth discussion of the pros and cons, see the threads below:\n\n* [LIP-0: Burn the keys to the Loot contract](https://loot-talk.com/t/lip-0-burn-the-keys-to-the-loot-contract/1218)\n* [Proposal: Set royalties on Open Sea to help Community Marketplaces](https://loot-talk.com/t/proposal-set-royalties-on-open-sea-to-help-community-marketplaces/1733)\n* [Proposal to Fund Development and Confer Benefits by Charging Royalty Fee](https://loot-talk.com/t/proposal-to-fund-development-and-confer-benefits-by-charging-royalty-fee/778)\n\n### Comparisons\n\nHere are some examples of royalties collected by other popular collections:\n\n* Meebits = 0%\n* Bored Ape Yacht Club = 2.5%\n* 0N1 Force = 5%\n* Art Blocks = 7.5%\n* XCOPY = 10%\n\n### Specification\n\nThe proposal is to send royalties to the same community-governed treasury that was created for the [Loot Exchange](https://www.loot.exchange/). It is a Compound-style on-chain voting system (forked from [NounsDAO](https://nouns.wtf/)) that uses Loot balances for governance (one vote per bag).\n\n* [Background post on the Treasury](https://loot-talk.com/t/community-treasury-an-experiment-in-loot-funding/1728)\n* [Voting Dashboard](https://www.royaltydao.com/)\n* [Wallet Address (0x8cFDF9E9f7EA8c0871025318407A6f1Fbc5d5a18)](https://etherscan.io/address/0x8cFDF9E9f7EA8c0871025318407A6f1Fbc5d5a18)\n* [Github](https://github.com/lootexchange/community-treasury)\n\nThe idea is for it to be a \"Royalty DAO\", with the narrow focus of collecting and allocating royalties from multiple marketplaces. Although it was deployed by the Loot Exchange team, they do not control it. It is controlled by Loot owners.\n\nIf the community chooses an amount above 0, the following steps will be taken:\n\n1. Dom logs into Open Sea and configures the royalties amount and destination\n2. Dom follows the instructions [here](https://docs.rarible.org/asset/royalties-on-a-external-collection) to set the same royalties on the Rarible registry\n\n### Disclaimers\n\n1) Once the keys are burned, the royalties cannot be changed (it's likely Open Sea could change them if petitioned by the community, but the mechanism is unknown). So it's important to pick a number that makes sense long term.\n\n2) Although forked from audited and battle-tested contracts with a [minimal diff](https://github.com/lootexchange/community-treasury/tree/main/packages/contracts/diffs), the treasury contracts are still new and untested.\n\n3) Open Sea charges a platform fee of 2.5%. Any royalties would be on top of this fee (so a 5% royalty will result in a 7.5% total fee).\n\n### Vote\n\nWhat should the royalty be?",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0xD5c0D17cCb9071D27a4F7eD8255F59989b9aee0d",
+      "totalVotes": 189,
+      "blockNumber": 13373418,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/Qme6rEn4FupXKLBM89cJeL4U8WkEGChNuVyziXfbdHFq3t",
+      "startTime": {
+        "timestamp": 1633525200
+      },
+      "endTime": {
+        "timestamp": 1633870800
+      },
+      "startTimestamp": 1633525200,
+      "endTimestamp": 1633870800,
+      "currentState": "closed",
+      "choices": [
+        "0%",
+        "2.5%",
+        "5%",
+        "7.5%",
+        "10%"
+      ],
+      "results": [
+        {
+          "total": 17.0,
+          "choice": 3
+        },
+        {
+          "total": 11.0,
+          "choice": 4
+        },
+        {
+          "total": 15.0,
+          "choice": 0
+        },
+        {
+          "total": 525.0,
+          "choice": 2
+        },
+        {
+          "total": 332.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 15.0,
+          "choice": 0
+        },
+        {
+          "total": 332.0,
+          "choice": 1
+        },
+        {
+          "total": 525.0,
+          "choice": 2
+        },
+        {
+          "total": 17.0,
+          "choice": 3
+        },
+        {
+          "total": 11.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbXFlODlwYW5rdGVzMTExcHF3dW5oYW9xOHR3Z2l1Y3l6MmZ4a2FqY3NlYzN4",
+      "id": "QmQE89PaNkTeS111PqwuNHAoq8TwgiucYZ2FxKAjCsec3x",
+      "title": "New token Issuance for Loot",
+      "content": "The Loot ecosystem has been becoming increasingly fragmented. In particular, one of the reasons is the relationship between Loot and $AGLD. Currently, there is a serious separation between those who hold the Loot and those held by $AGLD.\n\nSo, I would like to make the following suggestions.\n\n1. Issuing new token($ AGLD) derived from Loot. \nThis will serve as a governance token for Loot, but without restrictions.\n\n2. Loot : mLoot = 8,000 : 1,308,004\n - mLoot Holders can get 0.6079% of Total Tokens = (8,000/1,316,005)*100%\n - Loot Holders can get 99.3921% of Total Tokens\n\n3. The token distribution is as follows.\n - 20% of tokens will be able to minted on the day of initial token distribution\n - 80% of tokens will be able to minted evenly over 36 months.\n\n\nIn this way, the demand for Loot and mLoot will steadily increase, and the relationship between Loot and $AGLD will become clear. \n\nWe can anticipate that $AGLD can serve as a governance token for Loot ecosystem in the long term.\n",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x1EAc5345e9F0DD3a581823adAe2bbA3Bc189Dd23",
+      "totalVotes": 20,
+      "blockNumber": 13320498,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmQE89PaNkTeS111PqwuNHAoq8TwgiucYZ2FxKAjCsec3x",
+      "startTime": {
+        "timestamp": 1632970800
+      },
+      "endTime": {
+        "timestamp": 1633662000
+      },
+      "startTimestamp": 1632970800,
+      "endTimestamp": 1633662000,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Not Accept"
+      ],
+      "results": [
+        {
+          "total": 50.0,
+          "choice": 0
+        },
+        {
+          "total": 68.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 50.0,
+          "choice": 0
+        },
+        {
+          "total": 68.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbXRxbWl0YmszZjR6OWIyZnB5d25qNmNneDFnczQzeDRrejN5bmZnYXc2enVp",
+      "id": "QmTqMiTbK3f4Z9b2fPywnJ6Cgx1gs43x4kZ3ynfGaW6zui",
+      "title": "Make Associated NFT's The Default For Future Derivatives ",
+      "content": "Loot Character earlier today announced \"Associative NFTs\" for their website, which basically lets users mint a character and by default, that character is associated with that bag. Meaning if the current owner were to ever transfer (say in a sale or even moving to a hardware wallet for example) they wouldn't even have to worry about it as it would move automatically basically. \n\nI think this also has the benefit of allowing users flexibility - people wouldn't have to worry about minting and \"ruining\" the value of a loot bag because if they were to ever sell it, the derivatives would go to the new owner as well. \n\nOf course this IS NOT permanently binding. I'm sure there are ways to unwrap into an individual ERC (not sure what code this would be, not technical) but yeah. \n\nAs the Loot metaverse continues to grow, it's going to be harder and harder to find out which derivatives bag x has minted, and websites that check bags for what has been minted will always be a step behind the pace of innovation.\n\nI see literally no downside but if there is I'd love to hear it to perhaps address in a future proposal.  ",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0xe2ca0b055aD5d58Dc2daa61F022C86725C6AfD62",
+      "totalVotes": 33,
+      "blockNumber": 13195822,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmTqMiTbK3f4Z9b2fPywnJ6Cgx1gs43x4kZ3ynfGaW6zui",
+      "startTime": {
+        "timestamp": 1631206800
+      },
+      "endTime": {
+        "timestamp": 1633021200
+      },
+      "startTimestamp": 1631206800,
+      "endTimestamp": 1633021200,
+      "currentState": "closed",
+      "choices": [
+        "loot derivs. should associate",
+        "i want them separate "
+      ],
+      "results": [
+        {
+          "total": 73.0,
+          "choice": 0
+        },
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 73.0,
+          "choice": 0
+        },
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbWJodXV4MWd6cXJzN2VxOXY3Y3pxN2o5a3BlYzk2a2xodXRrcmRydWZiZ2Nj",
+      "id": "QmbHUUX1GZQRS7eQ9v7cZQ7J9kpEC96KLhUtkrDrufBGCc",
+      "title": "LIP-1: Formalize the LIP process",
+      "content": "Please see the full details of the proposal on the Loot Talk forums: https://loot-talk.com/t/lip-1-loot-improvement-proposals-establish-framework-and-guidelines/828\n\nAs we near the end of the vote on LIP-0, it is clear that the Loot community must now make a series of critical decisions on the fate of the remaining Loot bags. Until this point, the process through which we have gathered community sentiment and held Snapshot votes has been organic (and often messy). We believe there is an opportunity now to align the community around a shared framework for decision making. This will provide clarity and introduce a predictable process for how community discussions become formal proposals and ultimately votes that influence the future of Loot. \n\nIn LIP-1 we have defined a set of guidelines and standards for the lifecycle of community proposals and Snapshot votes. This framework provides a foundation which we argue enables the Loot community to build consensus and cements the legitimacy of our decision making powers. \n\nAuthor: @hierux\nCo-signers: @tracheopteryx, @paperhands\n ",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0xAfAB37e854e2EDb2aa9E2830c6BFcd3eEf5C4C32",
+      "totalVotes": 495,
+      "blockNumber": 13205186,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmbHUUX1GZQRS7eQ9v7cZQ7J9kpEC96KLhUtkrDrufBGCc",
+      "startTime": {
+        "timestamp": 1631376000
+      },
+      "endTime": {
+        "timestamp": 1631721600
+      },
+      "startTimestamp": 1631376000,
+      "endTimestamp": 1631721600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 2163.0,
+          "choice": 0
+        },
+        {
+          "total": 110.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2163.0,
+          "choice": 0
+        },
+        {
+          "total": 110.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbWVwdnRibm1xNDhhdDJramFrd2hxOGNxcXM3dGh4bmI0MnBhZGk1cmVoMWR5",
+      "id": "QmepVTBNmq48AT2KjAKWHq8cqQS7thxnB42Padi5Reh1dy",
+      "title": "LIP-0: Burn the keys to the Loot Contract",
+      "content": "Please see the details of the proposal on the community run Loot Talk forum: https://loot-talk.com/t/lip-0-burn-the-keys-to-the-loot-contract/1218\n\nApologies, but this vote will be duplicative of the existing “Burn the Keys” proposal in order to get a completely fresh start.",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0xF296178d553C8Ec21A2fBD2c5dDa8CA9ac905A00",
+      "totalVotes": 387,
+      "blockNumber": 13186448,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmepVTBNmq48AT2KjAKWHq8cqQS7thxnB42Padi5Reh1dy",
+      "startTime": {
+        "timestamp": 1631073600
+      },
+      "endTime": {
+        "timestamp": 1631462400
+      },
+      "startTimestamp": 1631073600,
+      "endTimestamp": 1631462400,
+      "currentState": "closed",
+      "choices": [
+        "Burn the keys",
+        "Keep the keys"
+      ],
+      "results": [
+        {
+          "total": 2119.0,
+          "choice": 0
+        },
+        {
+          "total": 264.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2119.0,
+          "choice": 0
+        },
+        {
+          "total": 264.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbWNiZHk1ZGJlZXZpNjV6bHk0YXl3Y3pzY2I1NGtwYXp6cW5wa2lwdjlnOGVy",
+      "id": "QmcBdY5dbeeVi65ZLy4AywCZScb54KpazzqnPkiPV9g8Er",
+      "title": "Never accept AGLD as a governance token",
+      "content": "AGLD as a governance token creates a conflict of interest between loot holders and AGLD holders. It also seems unnecessary - voting seems to work perfectly well using loot itself as a governance token rather than a supplementary token. Accordingly I propose that AGLD is never accepted as the governance token and loot itself is used instead. ",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0xEd96092bD6790453212cFCb4D3d8240280F1973c",
+      "totalVotes": 158,
+      "blockNumber": 13170604,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmcBdY5dbeeVi65ZLy4AywCZScb54KpazzqnPkiPV9g8Er",
+      "startTime": {
+        "timestamp": 1630915200
+      },
+      "endTime": {
+        "timestamp": 1631433600
+      },
+      "startTimestamp": 1630915200,
+      "endTimestamp": 1631433600,
+      "currentState": "closed",
+      "choices": [
+        "Never accept AGLD",
+        "Leave open accepting AGLD"
+      ],
+      "results": [
+        {
+          "total": 349.0,
+          "choice": 0
+        },
+        {
+          "total": 834.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 349.0,
+          "choice": 0
+        },
+        {
+          "total": 834.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbXd2aGlneWJzc2g4cHFna2FydGNjZGZ5NGszZDIxb3Zxem5lZDdoNnMxdmxw",
+      "id": "QmWvHiGybSsh8PQGkArTccDFY4K3d21ovqZned7h6s1vLp",
+      "title": "Cast Divine Disintegration +1 on Loot DAO ",
+      "content": "The market is the mechanism that votes on what directions the original Loot contract unfolds\n\nAs they relate to the original Loot contract..\nThese proposals are premature-optimization and special interest. \nThey are against the spirit of Loot, but also, futile\n\nThey have no governing authority over the already-deployed Loot contract\n\nIf you want royalty-based funding on original Loot contract trading, create a superior trading contract & site that wins in the market and takes 2.5%",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x113d754Ff2e6Ca9Fd6aB51932493E4F9DabdF596",
+      "totalVotes": 64,
+      "blockNumber": 13168253,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmWvHiGybSsh8PQGkArTccDFY4K3d21ovqZned7h6s1vLp",
+      "startTime": {
+        "timestamp": 1630512000
+      },
+      "endTime": {
+        "timestamp": 1631289600
+      },
+      "startTimestamp": 1630512000,
+      "endTimestamp": 1631289600,
+      "currentState": "closed",
+      "choices": [
+        "Divine Disintegration of DAO +1 ",
+        "Continue Votes"
+      ],
+      "results": [
+        {
+          "total": 324.0,
+          "choice": 0
+        },
+        {
+          "total": 667.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 324.0,
+          "choice": 0
+        },
+        {
+          "total": 667.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbXlnOWsyamhhYnBseHhoYTdqMjN2bXd5cWdkemN2dGEzN2ZtYjIxdm1heXlt",
+      "id": "QmYg9k2jhabPLxxhA7J23vMWyQgdZcvtA37FMb21vMaYym",
+      "title": "Incorporate mloot into the loot  ， achieve equal expansion",
+      "content": "For the long-term goal, to equalize loot and mloot, it is shameful for those discussing prices",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x4bc5C78e60Ba157119D8292F5C1F1A2c9be142C7",
+      "totalVotes": 100,
+      "blockNumber": 13171828,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmYg9k2jhabPLxxhA7J23vMWyQgdZcvtA37FMb21vMaYym",
+      "startTime": {
+        "timestamp": 1630929600
+      },
+      "endTime": {
+        "timestamp": 1631188800
+      },
+      "startTimestamp": 1630929600,
+      "endTimestamp": 1631188800,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 0
+        },
+        {
+          "total": 654.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2.0,
+          "choice": 0
+        },
+        {
+          "total": 654.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbXhlNHNuenVxd3Y1ZXE5YWl2dmUyYWZ3ZmVhY2pqeGJ1cHBtdGZoZ3pvejdn",
+      "id": "QmXe4sNzUqWv5EQ9aiVVE2afwfeAcjJXBUPpMTfHGZoz7g",
+      "title": "Burn the Keys to Loot",
+      "content": "For Loot to be able to live on as a self sustaining project, it needs to be left the way it was built, for others to build upon it.  The best future for Loot is for the keys to the contract to be burned, so that no DAO or person can usurp it in the future.",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x38A4D889a1979133FbC1D58F970f0953E3715c26",
+      "totalVotes": 90,
+      "blockNumber": 13181383,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmXe4sNzUqWv5EQ9aiVVE2afwfeAcjJXBUPpMTfHGZoz7g",
+      "startTime": {
+        "timestamp": 1631011320
+      },
+      "endTime": {
+        "timestamp": 1631182800
+      },
+      "startTimestamp": 1631011320,
+      "endTimestamp": 1631182800,
+      "currentState": "closed",
+      "choices": [
+        "Burn the Keys",
+        "Keep Voting on Things"
+      ],
+      "results": [
+        {
+          "total": 684.0,
+          "choice": 0
+        },
+        {
+          "total": 294.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 684.0,
+          "choice": 0
+        },
+        {
+          "total": 294.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbW52Z2VtdWJqNzFmaHBjamJnanJmZG5nZHBleGdnc3F2eG1lZ25wcnJsM2Fu",
+      "id": "QmNVgeMuBj71fhPcJBGjRfdNGDPExgGSQVxMegnPrRL3aN",
+      "title": "Accept AGLD as governance (Revised)",
+      "content": "This proposal aims to take the first step in solving our community governance model, so that the wider goals of value creation and development support across the ecosystem can begin to be implemented. If passed, we can then vote on future proposals regarding DAO funding, inflation (if any), etc. \n\nProposal: \nOfficially Accept AGLD as the Loot hyperverse governance token",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x2A1Ca52f11A7F0aA923A6739d49c69004C7246e1",
+      "totalVotes": 538,
+      "blockNumber": 13170009,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmNVgeMuBj71fhPcJBGjRfdNGDPExgGSQVxMegnPrRL3aN",
+      "startTime": {
+        "timestamp": 1630902600
+      },
+      "endTime": {
+        "timestamp": 1631075400
+      },
+      "startTimestamp": 1630902600,
+      "endTimestamp": 1631075400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1499.0,
+          "choice": 0
+        },
+        {
+          "total": 1380.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1499.0,
+          "choice": 0
+        },
+        {
+          "total": 1380.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbXltZ3E5eXczOWlyZHN3ZHdnZ3BqYzlxNHFzam5oc2ptamRhMzRubXY4YnB6",
+      "id": "QmYmGq9Yw39irDSWDWGgpJc9q4qSjnHSJmjDA34nMV8BPz",
+      "title": "Should royalties on secondary sales be implemented to fund game development and content generation?",
+      "content": "This proposal would implement a royalty fee on all secondary market Loot transactions, with thoughts on funding community development and content creation to be determined later in subsequent votes. There is currently no royalty charged on any sales.  \n\nThe complete thread on the subject is posted by @trial0r (discord) here:  https://loot-talk.com/t/proposal-to-fund-development-and-confer-benefits-by-charging-royalty-fee/778\n\nHad royalties been charged, more than $US15,000,000 would have been generated.  \n\n",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x668d564f2525a655B195CDDD140aAA9b995330b2",
+      "totalVotes": 259,
+      "blockNumber": 13166895,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmYmGq9Yw39irDSWDWGgpJc9q4qSjnHSJmjDA34nMV8BPz",
+      "startTime": {
+        "timestamp": 1630861200
+      },
+      "endTime": {
+        "timestamp": 1631034000
+      },
+      "startTimestamp": 1630861200,
+      "endTimestamp": 1631034000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, with 2.5% royalty.",
+        "Yes, with 5.0% royalty.",
+        "Yes, with 7.5% royalty.",
+        "No."
+      ],
+      "results": [
+        {
+          "total": 347.0,
+          "choice": 3
+        },
+        {
+          "total": 937.0,
+          "choice": 0
+        },
+        {
+          "total": 37.0,
+          "choice": 2
+        },
+        {
+          "total": 80.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 937.0,
+          "choice": 0
+        },
+        {
+          "total": 80.0,
+          "choice": 1
+        },
+        {
+          "total": 37.0,
+          "choice": 2
+        },
+        {
+          "total": 347.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbXI0eWNlc2d0cGx3N2t3Z2drNmV1bXJobXB4bGdqcWg0YzNiaWV0anFoY2J3",
+      "id": "QmR4yCeSgTpLW7KWGGk6eUmRHMpXLGJqH4c3biEtjQhcbW",
+      "title": "Accept AGLD as our governance token",
+      "content": "This proposal aims to take the first step in solving our community governance model, so that the wider goals of value creation and development support across the ecosystem can begin to be implemented.\n\nProposal:\n\n- Officially Accept AGLD as the Loot hyperverse governance token\n- Increase the supply of AGLD by 25% to 100,000,000 and burn the keys\n- Allocate the new supply to staking and development reward funds (details to be discussed in later proposals)",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0xae3AbA783eB04d67bF9D12838C0E58aE88e5a62e",
+      "totalVotes": 150,
+      "blockNumber": 13166762,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmR4yCeSgTpLW7KWGGk6eUmRHMpXLGJqH4c3biEtjQhcbW",
+      "startTime": {
+        "timestamp": 1630859400
+      },
+      "endTime": {
+        "timestamp": 1631012400
+      },
+      "startTimestamp": 1630859400,
+      "endTimestamp": 1631012400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 169.0,
+          "choice": 0
+        },
+        {
+          "total": 816.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 169.0,
+          "choice": 0
+        },
+        {
+          "total": 816.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbXpteDdxdmJrdzdhb3FqZXExa2JidzZwZWppeDV3ZnRyZ2xkN2NyYWJ2a2Iy",
+      "id": "QmZMX7qVBKW7AoQjEq1kbBw6pEjix5wFTRgLd7cRABVKb2",
+      "title": "Two-round voting mechanism",
+      "content": "In order to empower the Loot community with wider democratic rights, I suggest that the future voting be divided into two rounds, the first round for AGLD holders to vote, if the proposal is approved, then for LOOT holders to vote, and the second round for implementation",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x17101fd39F439B98140434b07eA8B853Be54fa0F",
+      "totalVotes": 44,
+      "blockNumber": 13153908,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmZMX7qVBKW7AoQjEq1kbBw6pEjix5wFTRgLd7cRABVKb2",
+      "startTime": {
+        "timestamp": 1630728000
+      },
+      "endTime": {
+        "timestamp": 1630900800
+      },
+      "startTimestamp": 1630728000,
+      "endTimestamp": 1630900800,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [
+        {
+          "total": 303.0,
+          "choice": 0
+        },
+        {
+          "total": 9.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 303.0,
+          "choice": 0
+        },
+        {
+          "total": 9.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbW5zdzJndG1iZHp6eXN6djdiYTdjNm5xc3B1aHRqdjZ2Z3NxeGtxNXcyNm55",
+      "id": "QmNsw2gtmBdZzYsZv7BA7C6nqspuHtjv6vGSqxkQ5W26nY",
+      "title": "Loot tier - AGLD Voting Mechanism",
+      "content": "In order to empower the Loot community with wider democratic rights (without dividing the community into groups that receive AGLD airdrops and those that don’t) I suggest the following options for future voting structures:\n\nOption A: Loot type and token\n-OG Loot + $AGLD = ability to vote on Lootverse statecraft.\n-MLoot + $AGLD = ability to vote on gameplay. \n-More $AGLD in wallet = higher voting power within the parameters of your Loot type.\n\nOption B: Token only \n-$AGLD for Lootverse statecraft\n-Silver version for gameplay \n",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x66cd193d0C0Fb3B9b44Dd371107617A7e9f38184",
+      "totalVotes": 26,
+      "blockNumber": 13153908,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmNsw2gtmBdZzYsZv7BA7C6nqspuHtjv6vGSqxkQ5W26nY",
+      "startTime": {
+        "timestamp": 1630728000
+      },
+      "endTime": {
+        "timestamp": 1630900800
+      },
+      "startTimestamp": 1630728000,
+      "endTimestamp": 1630900800,
+      "currentState": "closed",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Other (please add to this )"
+      ],
+      "results": [
+        {
+          "total": 28.0,
+          "choice": 0
+        },
+        {
+          "total": 103.0,
+          "choice": 2
+        },
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 28.0,
+          "choice": 0
+        },
+        {
+          "total": 4.0,
+          "choice": 1
+        },
+        {
+          "total": 103.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbXZ6d2szZnN4OXVqcGRja21qNXptMmtmNmh0eXNza3k2bWNlMThiamNzZGV5",
+      "id": "QmVZWk3fsx9ujPdCKmJ5zM2KF6hTySSKy6McE18bjcSDEY",
+      "title": "Should AGLD get voting rights?",
+      "content": "Sentiment check to see if Loot holders think it's a good idea to give some form of voting rights to AGLD holders.",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x850B57Fa5E6cf7dD624aC9287a2C7c79b342D7A8",
+      "totalVotes": 116,
+      "blockNumber": 13148070,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmVZWk3fsx9ujPdCKmJ5zM2KF6hTySSKy6McE18bjcSDEY",
+      "startTime": {
+        "timestamp": 1630605600
+      },
+      "endTime": {
+        "timestamp": 1630864800
+      },
+      "startTimestamp": 1630605600,
+      "endTimestamp": 1630864800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 573.0,
+          "choice": 0
+        },
+        {
+          "total": 444.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 573.0,
+          "choice": 0
+        },
+        {
+          "total": 444.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vdGRhbzpzbmFwc2hvdDpxbWF5bXJkaGU1Z2tuZDNqZHRrb3gzeG1wbHZzZHhod2V1dng1bmdoYnNycGRt",
+      "id": "QmaymRDHE5GkNd3JDTkox3XmpLVsDxHWeuvX5NgHbSRpDM",
+      "title": "How should we handle different Loot tiers?",
+      "content": "The goal of this proposal is to gather sentiment from Loot holders on how we should think about different tiers of Loot (e.g. xLoot, Synthetic Loot, etc).\n\n#### Option A\n We should not have any official stance on what derivatives / extensions to Loot are \"legit\" or not\n\n#### Option B\n1. original loot. 8k\n2. xloot. we accept it. 8k. mid tier.\n3. yloot. we build it. controllable supply by community. we can drop yloot on a schedule that makes sense can can be changed. uncommon tier. \n4. zloot. we rename synthetic loot to zloot. everyone has it, for free. common tier\n\n#### Option C\n\n1. Fixed supply OG Loot\n2. Dynamic supply loot, controlled by the DAO. we can drop yloot on a schedule that makes sense can can be changed. uncommon tier. \n3. Synthetic Loot, everyone has it, for free. common tier",
+      "protocol": "lootdao",
+      "adapter": "snapshot",
+      "proposer": "0x850B57Fa5E6cf7dD624aC9287a2C7c79b342D7A8",
+      "totalVotes": 192,
+      "blockNumber": 13149230,
+      "externalUrl": "https://snapshot.org/#/loot-dao.eth/proposal/QmaymRDHE5GkNd3JDTkox3XmpLVsDxHWeuvX5NgHbSRpDM",
+      "startTime": {
+        "timestamp": 1630605600
+      },
+      "endTime": {
+        "timestamp": 1630864800
+      },
+      "startTimestamp": 1630605600,
+      "endTimestamp": 1630864800,
+      "currentState": "closed",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C"
+      ],
+      "results": [
+        {
+          "total": 726.0,
+          "choice": 0
+        },
+        {
+          "total": 82.0,
+          "choice": 2
+        },
+        {
+          "total": 163.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 726.0,
+          "choice": 0
+        },
+        {
+          "total": 163.0,
+          "choice": 1
+        },
+        {
+          "total": 82.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

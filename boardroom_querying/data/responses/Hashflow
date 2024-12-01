@@ -1,0 +1,1558 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhiNTcyYTkyYTA5ZTRiMThmNTY2ZDY4MzU3YWM0MzE2Y2Q4OWFmMmNhMjAzN2Y1ZTdlYWMwM2ZhZTBiMDA4NzRk",
+      "id": "0xb572a92a09e4b18f566d68357ac4316cd89af2ca2037f5e7eac03fae0b00874d",
+      "title": "Hashflow ZK Settlement Layer Proposal",
+      "content": "Simple Summary:\n\n- Hashflow Foundation’s R&D department continues to invest resources to find ways to better architect the next generation of exchanges and we would like to present our most recent findings. A key finding from this research is that the best trade-off between performance and safety is leveraging zero-knowledge (ZK) technology to build application roll-ups (exchanges).\n\n- Currently, the exchange landscape offers products that are either:\n\n  - Scalable and performant, but not transparent\n  - Transparent, but not scalable and performant\n- This proposal suggests an addition to Hashflow’s suite of products to include a ZK Settlement layer to eliminate the need for exchanges to choose between performance and security:\n\n  - This ZK Settlement layer will allow any exchange (new or existing) to seamlessly integrate ZK verification while leveraging a public data availability (DA) layer.\n  - This feature can be added by any exchange application without altering their existing infrastructure, ensuring that performance and user experience remain uncompromised.\n- By utilizing Hashflow, exchanges can enhance their security and privacy features with minimal disruption, providing their users with a robust and efficient trading environment.\n\n- The ZK layer will be a product addition and is not intended to replace any existing Hashflow products or services.\n\nAbstract:\n\n- Hashflow should strive to create products and features to support its users and the market at large. Since its inception in 2021, Hashflow has processed over $20B in total volume. Hashflow has also demonstrated its technical prowess by being one of the first RFQ DEXs, offering the first bridgeless cross-chain swaps in DeFi, as well as the first native swap integration between EVM chains and Solana.\n\n- While pioneering the RFQ exchange model, Hashflow’s ethos has always been to protect user funds (it is one of the first MEV-resistant protocols). However, the current DeFi stack has been forced to make abrupt trade-offs between security and performance.\n\n- For background, recent statistics indicate that the vast majority of trading volume on Hashflow is non-native (i.e. does not originate from users trading directly on Hashflow’s UI). Over the past year, non-native volume comprised nearly 94% of Hashflow’s total volume. This reflects the team’s focus on a highly competitive B2B product to drive volume, revenue, and growth.\n\n- In line with this B2B strategy, the ZK settlement layer represents another strong opportunity to generate value for Hashflow token holders and exchange users more broadly.\n\n- xchanges currently in the market are either low throughput or do not offer solvency guarantees.\n\n- Hashflow should ensure that users need not be subjected to this trade-off between security and performance.\n\n- Hashflow’s ZK settlement layer would eliminate the need for this compromise, allowing DeFi users to onboard both safely and efficiently.\n\n- Additionally, this can create additional token utilities for HFT, including (but not limited to):\n\n  - Hashflow could receive fees from ZK layer users that can be:\n    - Used for HFT buybacks/burn\n    - Distributed to HFT stakers\n  - HFT could be staked by ZK layer users to:\n    - Reduce proof verification costs\n    - Reduce rev share %\n\nProposal:\n\n- If approved, Hashflow will move forward with the development of the ZK layer, and will signal this publicly.\n- If approved, Hashflow will spend requisite internal resources to promote and market the product, although not to the exclusion of existing products. Marketing efforts, however, may focus more squarely on the ZK layer as opposed to retail marketing for DEX/Aggregator products (as the overwhelming majority of volume and fees are derived from non-native sources).\n\nBenefits (Pros):\n- Offer a new vertical to expand Hashflow’s footprint as a premier B2B product suite\n- Generate more revenue, add more token utility for HFT, and strengthen the HFT ecosystem\n\nDownside (Cons):\n- Implementation and marketing costs incurred by Hashflow Foundation",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9DA611df85f50F21C72ea175342ddd6c7E595917",
+      "totalVotes": 122,
+      "blockNumber": 20185074,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xb572a92a09e4b18f566d68357ac4316cd89af2ca2037f5e7eac03fae0b00874d",
+      "startTime": {
+        "timestamp": 1719688882
+      },
+      "endTime": {
+        "timestamp": 1719948082
+      },
+      "startTimestamp": 1719688882,
+      "endTimestamp": 1719948082,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 372620.1,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 372620.1676120256,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719516135309,
+      "txHash": "",
+      "quorum": 25000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhhNzM1MDRmY2IxOGMzZDNiNWFlNDFjZWQ2NDJhNzg4MzIwYzE3YzkxMWUzYmM2MjkxOTc2ZGYxZWM4OGYzOGU1",
+      "id": "0xa73504fcb18c3d3b5ae41ced642a788320c17c911e3bc6291976df1ec88f38e5",
+      "title": "Deploy Hashflow and Aggregator+ on Base",
+      "content": "Simple Summary\n\nHashflow Foundation will deploy the Hashflow protocol and Aggregator+ to the Base Mainnet chain.\n\nAbstract\n\nBase has emerged as one of the top Layer 2 chains. Based on DefiLlama, it is a top-5 chain in Trading Volume and a top-10 chain in TVL. It ranks higher in both of those metrics than 3 other chains supported by the protocol today (Optimism, Avalanche, and Polygon).\n\nMoreover, the growth of Base has been accelerating lately, which can be seen in other metrics as well, such as the number of deployed protocols. This trend is likely to continue.\n\nLastly, the most popular protocols on Base (i.e. Uniswap) are already supported by Aggregator+ on other chains. This means that deploying Aggregator+ with top tier liquidity and pricing is achievable with relatively low effort.\n\nSpecification\n\n- the Hashflow Protocol will be deployed on Base and advertised to both Makers and Takers to start integration\n- Aggregator+ will be deployed on Base\n- additional contract audits are not required\n\nBenefits\n\n- liquidity on the Base chain, serving more traders and their needs\n\nDownsides\n\n- N/A",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9DA611df85f50F21C72ea175342ddd6c7E595917",
+      "totalVotes": 119,
+      "blockNumber": 20177891,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xa73504fcb18c3d3b5ae41ced642a788320c17c911e3bc6291976df1ec88f38e5",
+      "startTime": {
+        "timestamp": 1719602262
+      },
+      "endTime": {
+        "timestamp": 1719861462
+      },
+      "startTimestamp": 1719602262,
+      "endTimestamp": 1719861462,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 239051.19,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 239051.2198246069,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719429628777,
+      "txHash": "",
+      "quorum": 25000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHgxODk0YTY1NmQ0MDgyNTBmZDU3YjA1NDlmNWZhZjNkOTJjY2E2ZWI3MGRlNWIzMjc0ZWZlYTBhOTBkZDAyYjlj",
+      "id": "0x1894a656d408250fd57b0549f5faf3d92cca6eb70de5b3274efea0a90dd02b9c",
+      "title": "Terminate trading rewards",
+      "content": "Simple Summary: Terminate trading rewards.\n\nAbstract: Currently, we distribute 350k HFT monthly for trading rewards. This is pretty solid amount of tokens that can be used in a better way (marketing campaigns, collaborations, etc)\n\nThe original idea of trading rewards was to reward community before and after token launch and attract new users. Now it seems to be unreasonable to spend that much tokens for this exact purpose. We could find a better solution for these rewards (to be discussed by community in case this proposal accepted)\n\nMotivation:\n\nAmount is high, rewards distributed widely, based on volume.\n\nSpecification & Rationale: See above.\n\nBenefits (Pros):\n\n- Better utility and distribution for community\n\nDownside (Cons):\n\n- Large traders will no longer be earning additional rewards",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9DA611df85f50F21C72ea175342ddd6c7E595917",
+      "totalVotes": 103,
+      "blockNumber": 20163286,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x1894a656d408250fd57b0549f5faf3d92cca6eb70de5b3274efea0a90dd02b9c",
+      "startTime": {
+        "timestamp": 1719425980
+      },
+      "endTime": {
+        "timestamp": 1719685180
+      },
+      "startTimestamp": 1719425980,
+      "endTimestamp": 1719685180,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 229317.08,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 229317.01246573075,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719253827215,
+      "txHash": "",
+      "quorum": 25000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHg0MmNjOGZjOWM5ZWM1NTFlMjQzMmMzMDMxYzc2YmJkZGQ5YzNjYzJjZjU3OGM5YzZmZDM5NmQ1NWFhYTFkOThi",
+      "id": "0x42cc8fc9c9ec551e2432c3031c76bbddd9c3cc2cf578c9c6fd396d55aaa1d98b",
+      "title": "Allow for multiple staking vaults with different amounts and expiries",
+      "content": "Author(s): @gxmxni\nRelated Discussions: N/A\nSubmission Date: May 27 2024\n\nSimple Summary\n\nThis proposal adds the ability to stake different amounts of HFT for different periods of time using the same wallet, thus creating multiple “vaults”. The veHFT (governing power) of the wallet is then calculated as the sum of the veHFT in each vault.\n\nAbstract\n\nToday, every user (denoted by a wallet) is limited to one staking vault. The staked amount can always be increased. The stake duration can also be increased (up to a maximum of 4 years). However, staking different amounts for different periods of time requires the use of multiple wallets.\n\nFor example, if DAO member X stakes 1 million HFT for 3 months, they cannot stake another 100,000 HFT for a different period (e.g. 1 year) without switching wallets.\n\nThis is untidy for multiple reasons:\n\n- managing multiple wallets for the purpose of only interacting with one protocol is not friendly UX\n- on-chain credentials usually don’t transfer between wallets (e.g. the boost offered by the Creation’s Coffer)\n- voting on a HIP requires multiple actions (one for each wallet)\n\nSpecification\n\nThe implementation of this proposal will include multiple (technical) layers, as documented below.\n\nSmart Contract code changes\n\nThe StakingVault contract will be modified to support multiple vaults per user. When staking, the user will choose which vault they want to interact with, via a vault index.\n\nAllowing for an arbitrarily large number of vaults could raise DoS / UX concerns, so the number of vaults will be limited to 10 to begin with.\n\nThe contract will compute the stake power as an aggregate of the stake power in every vault opened by a user.\n\nHashflow App changes\n\nThe Hashflow Staking UX will be redesigned to display and allow for the creation of multiple vaults.\n\nSnapshot algorithm change\n\nThe ABI of the stake power method will be preserved, so the same Snapshot strategy will be used (with a different target contract).\n\nBackward compatibility with current vault\n\nEvery vault in the current StakingVault contract will be regarded as an additional vault for each user, and stitching will be done at every layer where necessary:\n\n- the Hashflow App\n- the Snapshot Governance portal (voting power from both contracts will be added)\n\nCode audits\n\nAn audit will be required for the new contracts. This audit will be funded by the Hashflow Foundation.\n\nBenefits\n- users only need to use one wallet in order to stake for different amounts of time\n\nDownside\n- funds and engineering resources need to be allocated\n\nVoting\n- yes - implement the multi-vault structure\n- no - keep the single-vault structure currently in place",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9DA611df85f50F21C72ea175342ddd6c7E595917",
+      "totalVotes": 33,
+      "blockNumber": 20113441,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x42cc8fc9c9ec551e2432c3031c76bbddd9c3cc2cf578c9c6fd396d55aaa1d98b",
+      "startTime": {
+        "timestamp": 1718823583
+      },
+      "endTime": {
+        "timestamp": 1719082783
+      },
+      "startTimestamp": 1718823583,
+      "endTimestamp": 1719082783,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 192213.34,
+          "choice": 0
+        },
+        {
+          "total": 108854.266,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 192213.34904139125,
+          "choice": 0
+        },
+        {
+          "total": 108854.26401194822,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718652629038,
+      "txHash": "",
+      "quorum": 25000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhlNDcyODNhMmI0N2FjMzczNzEyMjJlNmY3ZTllNDFjOGYyZWY5ZGM5MDNiNjA5ODE5NWVlZjU3NzNlMjBjNTFi",
+      "id": "0xe47283a2b47ac37371222e6f7e9e41c8f2ef9dc903b6098195eef5773e20c51b",
+      "title": "Use ARB rewards from Arbitrum to support the growth of the Hashflow community/products",
+      "content": "Simple Summary:\n\nThis proposal suggests distributing ARB token rewards from the Arbitrum Foundation to Hashflow users in order to foster growth, adoption, and usage of the Hashflow protocol, as well as to reward Hashflow’s loyal users.\nAbstract:\n\nIn March 2023, Hashflow received 386,311 ARB tokens 2 in community rewards from the Arbitrum Foundation as an early participant in its ecosystem. Since deploying on Arbitrum in 2022, Hashflow has seen significant trade volume and user growth on Arbitrum.\n\nWe want to continue to support those who have supported us, as well as attract new and loyal community members. As the former Chief Marketing Officer of Arbitrum, I propose that we distribute these tokens to new and existing Hashflow/Arbitrum users via community incentive programs.\n\nThese tokens will be distributed to users via programs that are not limited to but may include usage incentives, affiliate incentives, and community contests, and will be administered by the Hashflow Foundation on behalf of the community.\n\nBenefits (Pros):\n\nIncreased product adoption and user growth for the Hashflow protocol.\nContinue to foster a community of loyal, active DeFi natives that share in the success of Hashflow.\n\nDownside (Cons):\n\nNone.\n\nVoting:\n\nYes to support the use of the ARB tokens by the Hashflow foundation\nNo to keep the ARB tokens in the DAO treasury",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9DA611df85f50F21C72ea175342ddd6c7E595917",
+      "totalVotes": 212,
+      "blockNumber": 19213772,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xe47283a2b47ac37371222e6f7e9e41c8f2ef9dc903b6098195eef5773e20c51b",
+      "startTime": {
+        "timestamp": 1707935863
+      },
+      "endTime": {
+        "timestamp": 1708195063
+      },
+      "startTimestamp": 1707935863,
+      "endTimestamp": 1708195063,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 386838.22,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 387346.91660343326,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707763103878,
+      "txHash": "",
+      "quorum": 25000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHgwMTRhMTA1MTdiNDZmODk1NTgzZGUxNTcxMzczMzE0N2NhOTYwZjE4YTQwYzQ1ZDY2NTNkYjdhMTUwNzk3YmE3",
+      "id": "0x014a10517b46f895583de15713733147ca960f18a40c45d6653db7a150797ba7",
+      "title": "Add protocol fees",
+      "content": "Summary\n\nHashflow is currently positioned as one of the top DEX protocols; arguably the top DEX with zero slippage. Hashflow’s token (HFT) has been traded on markets for almost a year now. However, HFT holders and HFT stakers receive almost no benefit from the growth of the platform. This proposal is to suggest that Hashflow begin charging trading fees and allow existing and new HFT holders and stakers to receive some of those fees.\n\nOverview\n\nSince the launch of HFT in Nov 2022, trading volume has been increasing as Hashflow grows and integrates with other protocols. Many of these protocols (such as 1inch, etc.) charge fees on trades that are routed through Hashflow, however Hashflow itself does not charge fees.\n\nIt is important to offer utility for the token beyond governance voting ability. Activating fees on Hashflow and sharing this revenue with token holders will create more utility and attract more and more users to buy, hold and stake the token. Revenue from fees can also be used to buy back and burn HFT tokens, further increasing demand for HFT and benefiting all token holders.\n\nSimilar protocols (such as GMX, etc.) already charge fees and share them with token holders and they are able to benefit their community. Hashflow needs to do the same.\n\nAdding fees will also have the effect of lowering trade volume but it is something that needs to be done. Victor and the team can find ways to experiment with different fee structures until there is a balance but that process must begin now.\n\nTechnical Specification\n\n- Similar to how others charge fees on Hashflow integration, Hashflow will determine a fee to charge for each trade\n- Victor and team can build a way to assess what fees can be charged\n- Fees will be trackable on-chain\n- Fees will be shared between the token holders and the foundation\nFor Hashflow blue-chip pairs, we test a dynamic fee, where the fee charged on a given trade would be a function of our market maker’s quote on that pair. If the quote is highly competitive, then there would be a larger fee opportunity than if it was less competitive. For non blue-chip pairs, we start by testing out a static fee and refining it over time to ensure that the quotes remain competitive. The goal is to charge the maximum fee possible without making the quote uncompetitive\n- Hashflow team continue to iterate until the right balance between fees and competitiveness is reached\n\nFee Distribution\n\nThe fees will be distributed according to the following:\n\n- 30% - HFT token buy back\n- 50% - HFT token holders who stake their tokens (pro-rata)\n- 20% - Hashflow foundation\n\nBenefits (Pros):\n\n- Rewards for long term holders and stakers\n- Increased demand / utility for HFT\n\nDownside (Cons):\n\n- Less competitive prices can lead to less volume sometimes",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9DA611df85f50F21C72ea175342ddd6c7E595917",
+      "totalVotes": 144,
+      "blockNumber": 18357955,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x014a10517b46f895583de15713733147ca960f18a40c45d6653db7a150797ba7",
+      "startTime": {
+        "timestamp": 1697572049
+      },
+      "endTime": {
+        "timestamp": 1697831249
+      },
+      "startTimestamp": 1697572049,
+      "endTimestamp": 1697831249,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 309857.47,
+          "choice": 0
+        },
+        {
+          "total": 15.24305,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 310277.18788432534,
+          "choice": 0
+        },
+        {
+          "total": 15.24304963850837,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1697399442565,
+      "txHash": "",
+      "quorum": 25000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhiNjVlMWY0NGRmOTYxYWM3ZmJmZTI4NTg2YTkzNDNhYzk0NjI1NWQzYWYzMzhhNGFkN2Y0YTQ2ZjA0MDQxNDQ5",
+      "id": "0xb65e1f44df961ac7fbfe28586a9343ac946255d3af338a4ad7f4a46f04041449",
+      "title": "Support trader claim trading rewards for API source",
+      "content": "Simple Summary:\nUpdate Hashflow trading API to make trader be able to claim their trading rewards.\n\nAbstract:\nCurrently, Hashflow give trading reward to those who used Hashflow Front End and Hashflow API for their trading. For normal FE user, they can easily claim their reward in Ethereum mainnet through Hashflow Front End. But for API user, the rewards has been credit to trader wallet (which usually a contract). Since Hashflow deployed on various chains so this trader-contract does not really exist in Ethereum mainnet, and trader-contract can not use Hashflow FE also. So in the end, they could not actually claim the trading rewards even the rewards has been credit.\n\nThe proposal is to support API user can claim their trading reward. These users will also be reviewed before receiving rewards. This could be implemented as following:\n\nfor newly request: Hashflow API will include a field rewardWallet, once user use the quote from Hashflow API to trading, Hashflow will credit the rewards to that wallet in Ethereum regardsless of where you trade.\n\nfor retroactive wallets which already have trading rewards before this proposal be implemented:\n\nif the rewards had been credit to contract-trader address, Hashflow will migrate that rewards to a different wallet (based on user tickets on Discord). for Discord verification, user have to perform a trade through Hashflow or make a trader-contract transaction to provide that they own that trader wallet as condition agreed before the transaction (timing and amount, etc…).\n\nat the time of implemented this update, there maybe some rewards expired. Hashflow will have 30 days period for API trader to create a ticket on Discord for rewards wallet migration. In that 30 days if API user did completed the rewards wallet migration, Hashflow will extends that rewards for more 7 days from the day of migration rewards (which mean they will have 7 days from the time migration to claim the rewards, after 7 days rewards will be expired as designed). After 30 day of rewards wallet migration, all the rewards that expired will not be changed.\n\nSpecification & Rationale:\nSee above.\n\nMotivation:\n\nNot only Hashflow, but also other exchanges do have their majority of trading via API key. These trading source is very essential to all platforms and give platforms sustainable growth as well as easier to approach more user.\nThis is one of the way to growing the ecosystem and widen the popular of our DEX, make our trading more flexible for everyone with multiple purpose, bring Hashflow as a top choice of trading source, which attract more traffic (volume) to our DEX.\n\nBenefits (Pros):\n\n- make API user can claim their reward, then they can “really” be incentive, so they could take part in GOV and ecosystem equivalent to their contribute as equal to normal user.\n- platforms, trading venture with strategy of trading and control their PNL will have more reasons to use Hashflow as trading source (as long as our advantage of zero-slippage rate).\n- platforms could freely think of ways to use this rewards (incentive user, keep in treasury, etc). This could make protocols more flexible, make Hashflow the most popular DEX.\n\nDownside (Cons):\nn/a\n\nVoting\n\nyes: agree with this proposal\nno: do not agree with this proposal",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x9DA611df85f50F21C72ea175342ddd6c7E595917",
+      "totalVotes": 71,
+      "blockNumber": 18330062,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xb65e1f44df961ac7fbfe28586a9343ac946255d3af338a4ad7f4a46f04041449",
+      "startTime": {
+        "timestamp": 1697234887
+      },
+      "endTime": {
+        "timestamp": 1697494087
+      },
+      "startTimestamp": 1697234887,
+      "endTimestamp": 1697494087,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 182246.22,
+          "choice": 0
+        },
+        {
+          "total": 876.4672,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 182577.0979691885,
+          "choice": 0
+        },
+        {
+          "total": 876.4672068317105,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1697062757553,
+      "txHash": "",
+      "quorum": 25000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHgzMzEzM2VlNWQ1OTM1YzRmNWNjYTYxOTJmZjFiNTE0MDJhYzU5N2RiMDE0YTEyMGQ4YjhkMTZmZDU2OTRiNzVl",
+      "id": "0x33133ee5d5935c4f5cca6192ff1b51402ac597db014a120d8b8d16fd5694b75e",
+      "title": "Re-assign forfeited unvested grants and staking rewards & make unvested token grants and staking rewards un-expirable",
+      "content": "Simple Summary:\nRe-allocate the forfeited unvested token grants and staking rewards because it affected active users which was not the intended consequence when implementing the 60-day expiry rule. The intention was to target inactive users.\nMake unvested token grants and staking rewards unexpirable, only vested token grants and trading rewards can expire from now on.\nAbstract: this proposal corrects what has been an unexpected treatment to some early users of the protocol that were unaware of this new 60-day expiry rule and that were not helped by the vague UI warning. This does not not prevent these tokens to eventually be forfeited if the users are inactive for a long period, which respects the original objective.\nSpecification:\nOn Jan 2 2023, the DAO approved a proposal to expire HFT grants that have not been claimed for at least 60 days. This proposal has since been implemented by the DAO as intended.\nThe objective of this proposal was clear: avoid wasting resources on inactive users, and it is a good objective.\nSince then, it has been clear that many affected users did not understand that if they did not claim their small vested rewards, then they would lose both their vested rewards (claimable) and their large unvested rewards (unclaimable) and also their staking rewards (claimable).\nThe User Interface showed a warning to users that were at risk, but the wording was not clear: You have 123 HFT about to expire. Claim HFT now in order to avoid forfeiting your rewards.\nThere are many reported cases of users that had a couple HFT tokens to claim (vested), and thousands of HFT unvested, which were all forfeited in one go. This was not clear to users. The User Interface should have either said:\nClaim HFT now in order to avoid forfeiting all yours rewards (vested and unvested and staking rewards) or better Claim HFT now in order to avoid forfeiting all your rewards (123.456 HFT). Highlighting the number of tokens that are at risk would have been clearer, which is why many users are now confused and it is highlighting an important point to address.\nWHY IS THIS AN ISSUE THE DAO SHOULD CARE ABOUT\nWe can debate if the affected users deserved to have their HFT tokens forfeited, that is subjective and there will be two camps.\nWe cannot debate that the affected users who lost unvested tokens or staking rewards had actually earned these tokens fairly in the first place, by being community members one way or an other and probably still being active community members.\nThis whole industry started with Bitcoin and a fundamental property: you own your coins without having to trust anyone. No one can take them away from you. You do not need to log back on your wallet every two months to check they are still there, or the latest governance proposal.\nPassing a proposal that forces future rewards to have to be claimed within 60 days or else they are forfeited is one thing, but to make it affect old tokens that were awarded a year before the proposal was implemented and that are locked for another 1-4 years is very different.\nBehind these affected addresses there are real people with real lives. Perhaps they were offline for 2 months. Perhaps their owner unfortunately died, and they have children that would have figured out how to claim these tokens in a couple months. This is extreme but this is why the concept of property and predictability of rules are so important. You can change the rules for future rewards, but changing the rules for old rewards is a dangerous precedent, especially during a period when these tokens were meant to be locked, adding to the confusion.\nI think the Hashflow proposal started with a good intention which should be kept, the DAO needs a way to get back rewards that go unclaimed for too long. But it had the unintended consequences of affecting active users and it should be corrected.\nProposal:\nRe-allocate the expired HFT grants that were vesting over four years to users on the original terms (effectively undoing the forfeiture that occured in 2023)\nRe-allocated the expired HFT staking rewards that were forfeited on the original terms (effectively undoing the forfeiture that occured in 2023)\nMake unvested token grants and staking rewards un-expirable\nBenefits (Pros):\nsets a good precedent that DAOs should not affect old rewards with new rules, and shows that the Hashflow DAO is fair towards its early users and stakers.\nensures the DAO can get the rewards of inactive users back as they vest and go unclaimed over the months or years, excluding staking rewards permanently from this treatment.\nshows good faith towards active users who were genuinely confused or unaware of the details and implication of the current 60-day rule.\nmakes staking more attractive as there is no need to claim frequently and potentially waste gas\nDownside (Cons):\nthe rewards might add sell pressure, but this point was already addressed by locking these tokens linearly over 4 years and that is still a valid mitigant.\nVoting:\nYes, in favour of re-assigning forfeited grants from unvested token grants and staking rewards, and both making unvested tokens unexpirable until they vest and making staking rewards unexpirable permanently.\nNo, against this proposal.",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x11a1ecf4C51cA94a74c75b76E66FCce612E7207f",
+      "totalVotes": 140,
+      "blockNumber": 17556053,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x33133ee5d5935c4f5cca6192ff1b51402ac597db014a120d8b8d16fd5694b75e",
+      "startTime": {
+        "timestamp": 1687863654
+      },
+      "endTime": {
+        "timestamp": 1688122854
+      },
+      "startTimestamp": 1687863654,
+      "endTimestamp": 1688122854,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 196329.1,
+          "choice": 0
+        },
+        {
+          "total": 113005.08,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 196329.09272915765,
+          "choice": 0
+        },
+        {
+          "total": 113005.08592887977,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1687691395910,
+      "txHash": "",
+      "quorum": 25000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHg0NTljYjIzOGUzN2I5OWQ0OGE2NTY2NjExMjM5ZTJjM2MxMDdiNDY0ZmJjYjE0MDVmYWFjNzhlNjM3ODg0MjBj",
+      "id": "0x459cb238e37b99d48a6566611239e2c3c107b464fbcb1405faac78e63788420c",
+      "title": "Upgrade rewards expiration algorithm",
+      "content": "Simple Summary:\nThis proposal is aimed to change rewards expiration algorithm. With current Ethereum Mainnet high gas fees, some users are not ready to claim low amounts of HFT tokens, as a result, some NFT rewards may expire. With this solution, the new minimal thresholds will be set: 1000+ HFT for 60-days expiration period (after reaching the amount, expiration algorithm will be triggered) and 365-days period for less than 1000 tokens. Also Unvested rewards will be excluded from the algorithm.\nAbstract:\nThe are 3 points in this proposal:\nChange expiration algorithm\nThe minimum threshold of “1000 unclaimed HFT” will be set at which “60-days” expiration algorithm is triggered.\nFor rewards that are less than 1000 HFT (<1000), timelines will be changed. Instead of using 60 days I suppose to use 365-days period, so users with low amounts will have an opportunity to claim within a year.\nCreate additional alert\nAs soon as the algorithm is triggered (user earns >= 1000.00 HFT), user will see new alert in UI with message “n days left before m tokens expire”.\nEliminate unvested rewards from the algorithm\nSince these rewards are unvested, I believe that they should not fall under the criteria of the expiration algorithm. However this solution will not apply to the vested (unlocked) ones, they still can be expired.\nMotivation\nBy implementing this proposal we’ll improve the expiration algorithm, so more users will be able to accumulate unclaimed rewards without the need to claim low amounts of tokens every 60 days. Also NFT rewards holders won’t need to worry about their unvested token.\nSpecification & Rationale:\nThis proposal would require Hashflow team to upgrade the algorithm and create a new alert.\nBenefits (Pros):\nmore users will have the opportunity to claim rewards\nusers will get notified about exact number of days they have to claim their rewards\nunvested rewards cannot expire\nDownside (Cons):\nn/a\nVoting\nyes for the algorithm to be changed\nno to keep current logic of algorithm",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x11a1ecf4C51cA94a74c75b76E66FCce612E7207f",
+      "totalVotes": 136,
+      "blockNumber": 17555980,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x459cb238e37b99d48a6566611239e2c3c107b464fbcb1405faac78e63788420c",
+      "startTime": {
+        "timestamp": 1687862805
+      },
+      "endTime": {
+        "timestamp": 1688122005
+      },
+      "startTimestamp": 1687862805,
+      "endTimestamp": 1688122005,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 214103.95,
+          "choice": 0
+        },
+        {
+          "total": 97119.51,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 214103.96252677872,
+          "choice": 0
+        },
+        {
+          "total": 97119.50666811076,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1687690190685,
+      "txHash": "",
+      "quorum": 25000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHgyZTM0NGZkNjMzZDg0Y2FlN2E0NjZkNjA1MDg2ZTc0YTNjMzU0ODc0OTA1MmRmMDE5ZjkxMzQ4NjE0MzExN2Zk",
+      "id": "0x2e344fd633d84cae7a466d605086e74a3c3548749052df019f913486143117fd",
+      "title": "Upgrade the Hashflow Governance structure",
+      "content": "Simple Summary:\n\nThis proposal changes the phases of Hashflow Governance in order to both create more rigor / structure, and allow for more voices to be heard. It introduces a multi-stage governance process that allows for more thorough discussions on the proposals and requires more details to be shared prior to passing a vote. Given that the previous proposal was voted “for” but had trouble reaching quorum, the quorum requirements have been relaxed in this version, which constitutes the only difference between this and the previous version.\n\nAbstract:\n\nWe propose to change the governance process into the following phases:\n\nPhase 1: Request for Comment\n\nUser creates forum post to gather initial comments.\n\nProposal maturity:\n\nIt must be reviewed & commented on for a minimum of 5 days\nIt must comply with the designated template\nIt must contain all relevant information that would be in the HIP\nIt must have thoughtful discussions addressing feedback from the community\nPhase 2: Temp Check\n\nAfter the 5 days comment period, community member can submit a first [Temp Check] Snapshot vote to gauge initial consensus:\n\nVoting period: 2 days\nCreate poll: 5K veHFT\nMajority (50%) passes\nQuorum: 10K veHFT\nPhase 3: HIP\n\nIf proposal passes the initial [Temp Check], it will advance and become “HIP”\n\nThe user:\n\nTags forum post title with [HIP]\nIncorporates any last iterations based on feedback\nGuardians:\n\nThey are notified to approve or veto\nNeed majority approval before it can be submitted by community for final vote\nThe same forum post remains open for minimum of 3 days before final vote\nCommunity submits final Snapshot:\n\nVoting starts after 48h\nVoting period: 3 days\nCreate poll: 25K veHFT\nMajority (50%) passes\nQuorum: 25K veHFT\nMotivation:\n\nThe proposal has the following objectives:\n\nDrive & grow active participation by meaningful stakeholders within governance\nStreamline end-to-end process & comms\nPromote a decentralized community\nSpecification & Rationale:\n\nThis change would require:\n\nchanges to the existing Snapshot page\ncreating another Snapshot page for Temp Check (Snapshot only supports one configuration per page)\nchanges to forum categories / templates\nBenefits (Pros):\n\nmore time for people to get familiar with the proposals\nhigher degree of decentralization\nmore rigor and quality around the contents of the proposal\nDownside (Cons):\n\nlonger time to pass proposals\nVoting\n\nyes for the structure to change\nno for the structure to stay the same",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 161,
+      "blockNumber": 17388700,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x2e344fd633d84cae7a466d605086e74a3c3548749052df019f913486143117fd",
+      "startTime": {
+        "timestamp": 1685742355
+      },
+      "endTime": {
+        "timestamp": 1686174355
+      },
+      "startTimestamp": 1685742355,
+      "endTimestamp": 1686174355,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 139469.95,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 139470.0065749889,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685656302707,
+      "txHash": "",
+      "quorum": 100000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhhMDQ5YmMyMzdiNzdlNzZlMzI0NmY4Y2YyOTU3OTMyZTY3NzY5NDNkMmVmMDUzY2M4MDNjZjRiNjdlYWI1Zjhl",
+      "id": "0xa049bc237b77e76e3246f8cf2957932e6776943d2ef053cc803cf4b67eab5f8e",
+      "title": "Upgrade the Hashflow governance process",
+      "content": "Simple Summary:\n\nThis proposal changes the phases of Hashflow Governance in order to both create more rigor / structure, and allow for more voices to be heard. It introduces a multi-stage governance process that allows for more thorough discussions on the proposals and requires more details to be shared prior to passing a vote.\n\nAbstract:\n\nWe propose to change the governance process into the following phases:\n\nPhase 1: Request for Comment\n\nUser creates forum post to gather initial comments.\n\nProposal maturity:\n\n- It must be reviewed & commented on for a minimum of 5 days\n- It must comply with the designated template\n- It must contain all relevant information that would be in the HIP\n- It must have thoughtful discussions addressing feedback from the community\n\nPhase 2: Temp Check\n\nAfter the 5 days comment period, community member can submit a first [Temp Check] Snapshot vote to gauge initial consensus:\n\n- Voting period: 2 days\n- Create poll: 10K veHFT\n- Majority (50%) passes\n- Quorum: 15K veHFT\n\nPhase 3: HIP\n\nIf proposal passes the initial [Temp Check], it will advance and become “HIP”\n\nThe user:\n- Tags forum post title with [HIP]\n- Incorporates any last iterations based on feedback\n\nGuardians:\n- They are notified to approve or veto\n- Need majority approval before it can be submitted by community for final vote\n- The same forum post remains open for minimum of 3 days before final vote\n\nCommunity submits final Snapshot:\n- Voting starts after 48h\n- Voting period: 3 days\n- Create poll: 100K veHFT\n- Majority (50%) passes\n- Quorum: 100K veHFT\n\nMotivation:\n\nThe proposal has the following objectives:\n- Drive & grow active participation by meaningful stakeholders within governance\n- Streamline end-to-end process & comms\n- Promote a decentralized community\n\nSpecification & Rationale:\n\nThis change would require:\n- changes to the existing Snapshot page\n- creating another Snapshot page for Temp Check (Snapshot only supports one configuration per page)\n- changes to forum categories / templates\n\nBenefits (Pros):\n- more time for people to get familiar with the proposals\n- higher degree of decentralization\n- more rigor and quality around the contents of the proposal\n\nDownside (Cons):\n- longer time to pass proposals\n\nVoting\n- yes for the structure to change\n- no for the structure to stay the same",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 234,
+      "blockNumber": 17175722,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xa049bc237b77e76e3246f8cf2957932e6776943d2ef053cc803cf4b67eab5f8e",
+      "startTime": {
+        "timestamp": 1683149110
+      },
+      "endTime": {
+        "timestamp": 1683581110
+      },
+      "startTimestamp": 1683149110,
+      "endTimestamp": 1683581110,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 11584.136,
+          "choice": 0
+        },
+        {
+          "total": 3257.8845,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 11593.599394950475,
+          "choice": 0
+        },
+        {
+          "total": 3257.884451265388,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683063150049,
+      "txHash": "",
+      "quorum": 100000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHg0NTZmYjkyNzAzOGI4YjQ0N2YyMGQ1NmQxNDBjNDE1NGMxNTRhNDA4NjUzMjU3OGU2NThjZTEyNWM1ZTVhZTk5",
+      "id": "0x456fb927038b8b447f20d56d140c4154c154a4086532578e658ce125c5e5ae99",
+      "title": "Make locked-vault rewards less restrictive ",
+      "content": "Make rewards awarded to HFT stakers less restrictive, as outlined in the forum proposal. ",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 78,
+      "blockNumber": 16543068,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x456fb927038b8b447f20d56d140c4154c154a4086532578e658ce125c5e5ae99",
+      "startTime": {
+        "timestamp": 1675450975
+      },
+      "endTime": {
+        "timestamp": 1675882975
+      },
+      "startTimestamp": 1675450975,
+      "endTimestamp": 1675882975,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 324479.66,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 324479.62294673704,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhmYjZlMTIwYmM3ZWIwOTIyNzI4Zjk4NzM2MjVkN2Q5ZjJkODU3NDg4NTkwMzQ4M2JkYjhjYjgzZjlmNDhiMGVi",
+      "id": "0xfb6e120bc7eb0922728f9873625d7d9f2d8574885903483bdb8cb83f9f48b0eb",
+      "title": "​ Put NFT-based HFT in sanctuary, align NFT vesting period with team and early backers",
+      "content": "Simple Summary: Alter HFT rewards as follows:\nVest all to-date unvested HFT for NFT holders according to the following schedule:\n\nIf the total unvested amount is <25K HFT: 100% vested and unlocked at one-year cliff (linearly over a 60-day period beginning on Nov 7, 2023)\n\nOtherwise, if the total unvested amount is <50K HFT: 50% vested and unlocked at one-year cliff (linearly over a 60-day period beginning on Nov 7, 2023)\n50% vested and unlocked daily over the 12 months thereafter\n\nOtherwise, if the total unvested amount is <75K HFT: 33.33% vested and unlocked at one-year cliff (linearly over a 60-day period beginning on Nov 7, 2023) 66.66% vested and unlocked daily over the 24 months thereafter\n\nFor all other users: 25% vested and unlocked at one-year cliff (linearly over a 60-day period beginning on Nov 7, 2023)\n75% vested and unlocked daily over the 36 months thereafter\n\n\nPut the NFT holder HFT awards in a “sanctuary” – neither the amount nor the vesting schedule would be changeable by any subsequent proposal.\n\nAbstract: The Hashflow community has been divided, and the polarization is apparent given the focus of recent proposals. These proposals have generated dissent between the first camp, who want to eliminate emissions, and the second camp, who are loyal users who want to keep the rights to their previously earned HFT (and rightly so).\n\nThis proposal recommends a way forward that would be amenable to both camps, and would allow governance to focus on what matters the most: improving the trading experience, creating new technology and new partnerships, launching the Hashverse, and creating more utility for HFT.\n\nOn the one hand, we would extend vesting pertaining to NFTs. This should allow for Hashverse to be fully rolled out (more token utility), and resonate with the community members who are fighting to slow down emissions.\n\nOn the other hand, NFT holders would a) get their rewards in full b) not have to worry about subsequent proposals trying to alter their rewards.\n\nMany NFTs were purchased on secondary markets and these owners have expressed their concerns about their tokens being treated in a manner that is inconsistent with other Hashflow early backers. This proposal addresses those concerns by standardizing these vesting periods and rendering these tokens immune to any further DAO proposals.\n\nFor 1: A snapshot would be taken of all unvested HFT for NFT holders. Distribution of this balance would be paused until the one-year cliff, at which point, 25% of this balance would be unlocked and distributed linearly over a 60-day period beginning on Nov 7, 2023. The remaining 75% of the balance of unvested HFT would be distributed evenly and monthly over the following 36 months (once the initial 25% has been fully distributed).\n\nFor 2: There is no need for formal implementation. Any subsequent proposal attempting to amend these terms shall be deemed to pose systemic risk to the DAO.\n\nBenefits (Pros): Finding a way to unite the community and have it focus on the best interest of the protocol.\n\nDownside (Cons): Not a lot, given the current state of things.\n\nVoting: “Yes” to implement, “No” to skip",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34536515a0Ed4AB658d32DdcDBbCC06653bA95CE",
+      "totalVotes": 843,
+      "blockNumber": 16312562,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xfb6e120bc7eb0922728f9873625d7d9f2d8574885903483bdb8cb83f9f48b0eb",
+      "startTime": {
+        "timestamp": 1672670494
+      },
+      "endTime": {
+        "timestamp": 1673102494
+      },
+      "startTimestamp": 1672670494,
+      "endTimestamp": 1673102494,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 5334573.0,
+          "choice": 0
+        },
+        {
+          "total": 665425.9,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5334574.182415699,
+          "choice": 0
+        },
+        {
+          "total": 665425.7327241068,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHgxZWU0OWEwY2JmNGU5NGNiYzhkZmQ1ZjFkNGVlMDQ4MTc5Njg1YzIzMTFlZDM0NjRjMDYxYjY2MjQ2MzBhN2Vh",
+      "id": "0x1ee49a0cbf4e94cbc8dfd5f1d4ee048179685c2311ed3464c061b6624630a7ea",
+      "title": "Add TRYB / USDC Public Pools",
+      "content": "The BiLira (TRYB) token is a full-reserve Turkish Lira stablecoin that is available on Ethereum, Avalanche, Polygon, Solana, Algorand and BSC networks, issued and managed by the BiLira company and backed 1:1 with the Turkish Lira. BiLira goes through regular audits performed by independent 3rd parties which can be found here 3. We are proposing to open TRYB and USD stablecoin public pools on Ethereum, Avalanche, Polygon and BNB.",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 806,
+      "blockNumber": 16310051,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x1ee49a0cbf4e94cbc8dfd5f1d4ee048179685c2311ed3464c061b6624630a7ea",
+      "startTime": {
+        "timestamp": 1672640077
+      },
+      "endTime": {
+        "timestamp": 1673072077
+      },
+      "startTimestamp": 1672640077,
+      "endTimestamp": 1673072077,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2276280.2,
+          "choice": 0
+        },
+        {
+          "total": 389835.84,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2276280.2314203843,
+          "choice": 0
+        },
+        {
+          "total": 389835.8201287927,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHg1OTA3NDJkODkxNDlmMzZjNmJiYzY0MGJjNTg4ZWZlY2FlYmZiODY5NTYzZDhkZWE1MzQ0ZTJmZTljMmFiNDkx",
+      "id": "0x590742d89149f36c6bbc640bc588efecaebfb869563d8dea5344e2fe9c2ab491",
+      "title": "Expire HFT grants that have not been claimed for over 60 days",
+      "content": "HFT is meant for users who engage with the protocol, and is a reward conveying governing power in exchange for loyalty and involvement. Some users never claim their HFT. The suggestion is to re-assign those HFT back to the DAO treasury an recycle them for future initiatives.\n\n[Read more on the forum page]",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 663,
+      "blockNumber": 16278046,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x590742d89149f36c6bbc640bc588efecaebfb869563d8dea5344e2fe9c2ab491",
+      "startTime": {
+        "timestamp": 1672254266
+      },
+      "endTime": {
+        "timestamp": 1672686266
+      },
+      "startTimestamp": 1672254266,
+      "endTimestamp": 1672686266,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1177620.4,
+          "choice": 0
+        },
+        {
+          "total": 64068.934,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1177620.0453985792,
+          "choice": 0
+        },
+        {
+          "total": 64068.93650033762,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHg3ODRmNGQ4ZTkyZmUzNTY3YWYxY2VkNmYxMGVjNTU3MjQzZDZhZDAwZTc4MjY1NjNiZTU3YjFlODhkMzEzMTlj",
+      "id": "0x784f4d8e92fe3567af1ced6f10ec557243d6ad00e7826563be57b1e88d31319c",
+      "title": "Terminate vesting of HFT to NFT holders who hold less than 20% of claimed HFT",
+      "content": "Terminate vesting of HFT immediately to NFT holders who held or staked less than 20% of the HFT that they claimed from Dec 7, 2022 to Dec 19, 2022. Exempted wallets are those that held or staked at least 40% of the HFT that they claimed over the first 30 days post-TGE (Nov 7, 2022).\n\nBenefits (Pros):\n- Eliminate significant and recurring sell pressure on HFT\n- Use tokens to instead support protocol and community growth and development\n- Create a healthy ecosystem that attracts others to hold HFT and participate in governance\n\nDownside (Cons):\n- Upset NFT holders who have already profited at the expense of the protocol\n\nVoting:\n- “Yes” to terminate HFT vesting for NFT holders that fit the criteria\n- “No” to continue HFT vesting for NFT holders that fit the criteria",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xfca9A2F04ea5bf0dB0d20a5B1931EF7073d5411C",
+      "totalVotes": 804,
+      "blockNumber": 16259799,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x784f4d8e92fe3567af1ced6f10ec557243d6ad00e7826563be57b1e88d31319c",
+      "startTime": {
+        "timestamp": 1672034213
+      },
+      "endTime": {
+        "timestamp": 1672466213
+      },
+      "startTimestamp": 1672034213,
+      "endTimestamp": 1672466213,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 4043463.0,
+          "choice": 0
+        },
+        {
+          "total": 1424726.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4043462.994857251,
+          "choice": 0
+        },
+        {
+          "total": 1424726.7275646909,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhkZWM2YjdmNGZmZTk0OWVlZjdlYTU4ODI5MmVjOGYyMzZiNzMxNGQzMTI2NjVlMWY2MWJhYjc1NWVmOGIxODM0",
+      "id": "0xdec6b7f4ffe949eef7ea588292ec8f236b7314d312665e1f61bab755ef8b1834",
+      "title": "Vest all NFT HFT rewards Immediately",
+      "content": "Vest all remaining HFT awards coming from NFTs immediately.",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 524,
+      "blockNumber": 16202126,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xdec6b7f4ffe949eef7ea588292ec8f236b7314d312665e1f61bab755ef8b1834",
+      "startTime": {
+        "timestamp": 1671252521
+      },
+      "endTime": {
+        "timestamp": 1671425321
+      },
+      "startTimestamp": 1671252521,
+      "endTimestamp": 1671425321,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 216919.8,
+          "choice": 0
+        },
+        {
+          "total": 2110453.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 216919.82183228576,
+          "choice": 0
+        },
+        {
+          "total": 2110453.57233,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHg2MjYzMDkzZTNkMzg5MjI5MDNkNThiZTNjN2QwZjFiNWY4ZGJmM2M1OWZhZjgzNTA2YzY2OWY4NmY2YzQxODZm",
+      "id": "0x6263093e3d38922903d58be3c7d0f1b5f8dbf3c59faf83506c669f86f6c4186f",
+      "title": "Defining voting parameters to optimize future improvement proposals ",
+      "content": "Change voting structure, per the proposal outlined on the forum.",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 804,
+      "blockNumber": 16187761,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x6263093e3d38922903d58be3c7d0f1b5f8dbf3c59faf83506c669f86f6c4186f",
+      "startTime": {
+        "timestamp": 1671079168
+      },
+      "endTime": {
+        "timestamp": 1671251968
+      },
+      "startTimestamp": 1671079168,
+      "endTimestamp": 1671251968,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 781377.5,
+          "choice": 0
+        },
+        {
+          "total": 3052.857,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 781377.8430235323,
+          "choice": 0
+        },
+        {
+          "total": 3052.8569298152943,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhhMTE1NjNlNjI1YzQwMTE1OGE3ZWZkNTYxODEyMjBlNTM4MjNkZjE5MjFlYjc0ZDc4ZmJiYWVlY2MxMTJiNGRi",
+      "id": "0xa11563e625c401158a7efd56181220e53823df1921eb74d78fbbaeecc112b4db",
+      "title": "Re-Vote: Change the vesting schedule for HFTs from NFT rewards",
+      "content": "Simple summary:\nIncrease token blocking period for NFT reward by 4 months until HashVerse is fully launched, after which vesting will depend on the number of HFT.\n\nDuring the development of the project, there were various types of rewards (for community activity, various contests, trade rewards).\n\nAll of them, for the most part, were in the form of NFTs, which were endowed with a certain amount of HFT.\n\nSome activities were rewarded by NFT that were endowed with an unreasonably large number of HFT tokens.\n\nThis fact prompted people who were not interested in the project, but had a speculative interest in getting hold of these NFTs as much as possible, as well as buying them up on the secondary market.\n\nMost of these people had constant complaints about the project regarding the TGE date, which for objective reasons was postponed several times until product development and security were improved.\n\nThe main motivation was to free up their investment, but not to follow the interests and goals of the project.\n\nThe result we were able to observe during the TGE period and the statistics showed that most of these wallets sent the token for sale (as a consequence, made a profit, as most purchases were made at 0.30-0.40 cents per HFT).\n\nThe current unlock rules need to be reviewed because true fans, users and contributors to the project experience unequal treatment with speculators, which is unfair and inconsistent with the principles of decentralization, because large HFT reset stimulates constant selling.\n\nThis proposal will bring all participants (speculators, investors, opponents and supporters) into a level and fair playing field that is consistent with true decentralization principles, where management will truly belong to true supporters in a tangibly equal playing field, help keep the token price down and keep it from excessive selling pressure.\n\nMotivation:\n\nFairness in future voting decisions\nGetting rid of excessive sales pressure\nEquality among project followers and keeping decentralization values\nAttractiveness to potential investors and maintaining the sentiment of current token holders\nSpecification and rationale:\nExtending the token lock-in period by 4 months from the TGE date (March 7, 2022).\n\npeople with > 200K to vest = 1250 HFT daily\npeople with > 100K to vest = 1000 HFT daily\npeople with > 50K to vest = 750 HFT daily\nrest = 500 HFT daily\nBenefits (Pros):\n\nReducing the pressure on the token by sellers\nIncreased attractiveness of the project\nHolders remain in a stable position as conditions for them remain the same\nMinuses (Cons):\nSome moral dissatisfaction on the part of speculators\n\nVoting:\nYes - for it to be implemented, No - for it not to be implemented",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 538,
+      "blockNumber": 16115813,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xa11563e625c401158a7efd56181220e53823df1921eb74d78fbbaeecc112b4db",
+      "startTime": {
+        "timestamp": 1670209758
+      },
+      "endTime": {
+        "timestamp": 1670382558
+      },
+      "startTimestamp": 1670209758,
+      "endTimestamp": 1670382558,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 603726.8,
+          "choice": 0
+        },
+        {
+          "total": 632204.9,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 603726.7522216779,
+          "choice": 0
+        },
+        {
+          "total": 632204.8447339816,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhjNjNjNTE3NmEyNDYwZmUxZmIyYTY0MjE3ZjU2ZDA3MWY4MmZmZTZiOGYwMTQwNWZjMmNkN2NiZTg5MTQzY2Vm",
+      "id": "0xc63c5176a2460fe1fb2a64217f56d071f82ffe6b8f01405fc2cd7cbe89143cef",
+      "title": "Change the vesting schedule for HFTs from NFT rewards",
+      "content": "Simple summary:\nIncrease token blocking period for NFT reward by 4 months until HashVerse is fully launched, after which vesting will depend on the number of HFT.\n\nDuring the development of the project, there were various types of rewards (for community activity, various contests, trade rewards).\n\nAll of them, for the most part, were in the form of NFTs, which were endowed with a certain amount of HFT.\n\nSome activities were rewarded by NFT that were endowed with an unreasonably large number of HFT tokens.\n\nThis fact prompted people who were not interested in the project, but had a speculative interest in getting hold of these NFTs as much as possible, as well as buying them up on the secondary market.\n\nMost of these people had constant complaints about the project regarding the TGE date, which for objective reasons was postponed several times until product development and security were improved.\n\nThe main motivation was to free up their investment, but not to follow the interests and goals of the project.\n\nThe result we were able to observe during the TGE period and the statistics showed that most of these wallets sent the token for sale (as a consequence, made a profit, as most purchases were made at 0.30-0.40 cents per HFT).\n\nThe current unlock rules need to be reviewed because true fans, users and contributors to the project experience unequal treatment with speculators, which is unfair and inconsistent with the principles of decentralization, because large HFT reset stimulates constant selling.\n\nThis proposal will bring all participants (speculators, investors, opponents and supporters) into a level and fair playing field that is consistent with true decentralization principles, where management will truly belong to true supporters in a tangibly equal playing field, help keep the token price down and keep it from excessive selling pressure.\n\nMotivation:\n\nFairness in future voting decisions\nGetting rid of excessive sales pressure\nEquality among project followers and keeping decentralization values\nAttractiveness to potential investors and maintaining the sentiment of current token holders\nSpecification and rationale:\nExtending the token lock-in period by 4 months from the TGE date (March 7, 2022).\n\npeople with > 200K to vest = 1250 HFT daily\npeople with > 100K to vest = 1000 HFT daily\npeople with > 50K to vest = 750 HFT daily\nrest = 500 HFT daily\nBenefits (Pros):\n\nReducing the pressure on the token by sellers\nIncreased attractiveness of the project\nHolders remain in a stable position as conditions for them remain the same\nMinuses (Cons):\nSome moral dissatisfaction on the part of speculators\n\nVoting:\nYes - for it to be implemented, No - for it not to be implemented",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xfD79013cbB1FF64Cf19a0dE3D59657f6eCA3E257",
+      "totalVotes": 348,
+      "blockNumber": 16094802,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xc63c5176a2460fe1fb2a64217f56d071f82ffe6b8f01405fc2cd7cbe89143cef",
+      "startTime": {
+        "timestamp": 1669956179
+      },
+      "endTime": {
+        "timestamp": 1670128979
+      },
+      "startTimestamp": 1669956179,
+      "endTimestamp": 1670128979,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 252391.02,
+          "choice": 0
+        },
+        {
+          "total": 142963.56,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 252390.97858555795,
+          "choice": 0
+        },
+        {
+          "total": 142963.57019410084,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhmZTg5MjA5YWM5YmE0NzNjMTljNTUxNzkxYTc3N2Y4Y2IzMWNjZmFlYWJlNGRjYTJjZjY4NDk2ZTRmMTc4MmUz",
+      "id": "0xfe89209ac9ba473c19c551791a777f8cb31ccfaeabe4dca2cf68496e4f1782e3",
+      "title": "Proposal to change the Claiming Criteria of the Vested HFTs from NFT rewards",
+      "content": "Change Claiming Criteria based on the forum proposal.",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 345,
+      "blockNumber": 16086371,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xfe89209ac9ba473c19c551791a777f8cb31ccfaeabe4dca2cf68496e4f1782e3",
+      "startTime": {
+        "timestamp": 1669854529
+      },
+      "endTime": {
+        "timestamp": 1670027329
+      },
+      "startTimestamp": 1669854529,
+      "endTimestamp": 1670027329,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 193401.17,
+          "choice": 0
+        },
+        {
+          "total": 210407.66,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 193401.17856020795,
+          "choice": 0
+        },
+        {
+          "total": 210407.67225476977,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHg2M2NiMzUyODc5OTI3OThmYmE2ZjMyMzYxMDJmOWExMGZlYzg0NmVhNDJlNDVmZjIwOGE0YzEwYmRkNjgwYTMx",
+      "id": "0x63cb35287992798fba6f3236102f9a10fec846ea42e45ff208a4c10bdd680a31",
+      "title": "Scale down LP rewards",
+      "content": "Reduce LP rewards to 300K tokens monthly.",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 295,
+      "blockNumber": 16072657,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x63cb35287992798fba6f3236102f9a10fec846ea42e45ff208a4c10bdd680a31",
+      "startTime": {
+        "timestamp": 1669688869
+      },
+      "endTime": {
+        "timestamp": 1669861669
+      },
+      "startTimestamp": 1669688869,
+      "endTimestamp": 1669861669,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 562268.1,
+          "choice": 0
+        },
+        {
+          "total": 32641.322,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 562268.1371509342,
+          "choice": 0
+        },
+        {
+          "total": 32641.322434256635,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhlOGZlMzQ4NTEwYTYwNGQ5ZjVkNzdlMzQxMDc2M2UzZWYwMTA0OWY0ZTg1MWE2NjE2NDRhZjMwMWZiZDIwODg2",
+      "id": "0xe8fe348510a604d9f5d77e3410763e3ef01049f4e851a661644af301fbd20886",
+      "title": "Business Partnership with PancakeSwap",
+      "content": "Work with PancakeSwap on setting a Syrup Pool + HFT/BUSD liquidity pool combo. Details on the forum.",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 278,
+      "blockNumber": 16072650,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xe8fe348510a604d9f5d77e3410763e3ef01049f4e851a661644af301fbd20886",
+      "startTime": {
+        "timestamp": 1669688773
+      },
+      "endTime": {
+        "timestamp": 1669861573
+      },
+      "startTimestamp": 1669688773,
+      "endTimestamp": 1669861573,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 421206.56,
+          "choice": 0
+        },
+        {
+          "total": 167450.42,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 421206.5636762689,
+          "choice": 0
+        },
+        {
+          "total": 167450.3947930904,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHgwZmU2MDJhNTMzYjEwZmFiOTNhNjZiMTU1NzcwYmE5NDhmZjIzMjA5NDEyNDg3ZWMxYmEzYzVhNGQ3NTM1N2Vm",
+      "id": "0x0fe602a533b10fab93a66b155770ba948ff23209412487ec1ba3c5a4d75357ef",
+      "title": "Allow #hashgang to use their HFT LP tokens to vote",
+      "content": "Augment the governance voting process to count “deposited” HFT tokens equally to any other HFT so that we don’t disadvantage the most loyal #hashgang.",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 421,
+      "blockNumber": 16065878,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x0fe602a533b10fab93a66b155770ba948ff23209412487ec1ba3c5a4d75357ef",
+      "startTime": {
+        "timestamp": 1669607190
+      },
+      "endTime": {
+        "timestamp": 1669779990
+      },
+      "startTimestamp": 1669607190,
+      "endTimestamp": 1669779990,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 648091.06,
+          "choice": 0
+        },
+        {
+          "total": 954.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 648091.142753715,
+          "choice": 0
+        },
+        {
+          "total": 954.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHhkYmI5ODBkZjQzNzI5ZGZkOTRmM2M3ZTljODZkNzA0MGRjNDAyMmM3Y2VkZjYyZjIwYzUxYjQyYjIzYjFmM2Y1",
+      "id": "0xdbb980df43729dfd94f3c7e9c86d7040dc4022c7cedf62f20c51b42b23b1f3f5",
+      "title": "Build HashVerse on its own chain, with HFT as utility token",
+      "content": "Simple Summary: Build and deploy HashVerse contracts on a dedicated chain (could be a side chain). Use HFT as main utility token.\n\nAbstract: There are multiple chain choices that we can make when building the HashVerse. For example, it could be built on Ethereum, Polygon, or Avalanche.\n\nLearning from past experiences (see Otherside mint), the TPS of the metaverse is going to be limited by the TPS of the chain that it runs on. Many popular apps (BAYC, Wolf Game) have spiked gas prices in the past, making UX quite terrible for their users.\n\nAs a further example, Avalanche introduced subnets to solve for this exact problem. DFK is a great example of how a subnet can work independently and not clog the entire chain, while sometimes achieving higher TPS than the base chain.\n\nWhile this proposal DOES NOT suggest a solution for which technology to use, it suggest that HashVerse lives on a separate chain, and HFT is the utility (gas) token on that chain. On top of better UX, this greatly increases the utility of HFT.\n\nTogether with that, a few fundamental pieces of infrastructure would also have to be built:\n\nCross-Chain bridges for NFTs\nCross-Chain bridges for HFT\nNative NFT marketplace in the HashVerse\nMotivation: This proposal aims to both create better UX in the HashVerse (cheaper, faster transactions), as well as increase HFT utility.",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xfD79013cbB1FF64Cf19a0dE3D59657f6eCA3E257",
+      "totalVotes": 484,
+      "blockNumber": 16064485,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0xdbb980df43729dfd94f3c7e9c86d7040dc4022c7cedf62f20c51b42b23b1f3f5",
+      "startTime": {
+        "timestamp": 1669590370
+      },
+      "endTime": {
+        "timestamp": 1669763170
+      },
+      "startTimestamp": 1669590370,
+      "endTimestamp": 1669763170,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 323336.4,
+          "choice": 0
+        },
+        {
+          "total": 376913.56,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 323336.53056049894,
+          "choice": 0
+        },
+        {
+          "total": 376913.5432005462,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHg2MzRjMWExOGRhNDVlODMxYThjY2VhOGMyMTU2ZGU0N2VjNDI5OTFjMmZiY2IzNjZmMDJmYjRhMzliM2FmMWNl",
+      "id": "0x634c1a18da45e831a8ccea8c2156de47ec42991c2fbcb366f02fb4a39b3af1ce",
+      "title": "Change trading rewards structure, make rewards more predictable",
+      "content": "Change trading rewards as follows:\n\n- for each stable coin trade, earn 0.0001 HFT per USD traded\n- for each non-stable coin trade, earn 0.0005 HFT per USD traded\n\nSet a ceiling of 350K HFT per month, broken down by trade type:\n- 225K HFT for non-stablecoin trades\n- 125K HFT for stablecoin trades",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x34E1AE9a9b3F8e6B648A0e8952cf6C553d65fd62",
+      "totalVotes": 543,
+      "blockNumber": 16057387,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x634c1a18da45e831a8ccea8c2156de47ec42991c2fbcb366f02fb4a39b3af1ce",
+      "startTime": {
+        "timestamp": 1669504752
+      },
+      "endTime": {
+        "timestamp": 1669677552
+      },
+      "startTimestamp": 1669504752,
+      "endTimestamp": 1669677552,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 645657.44,
+          "choice": 0
+        },
+        {
+          "total": 7277.337,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 645657.4993838245,
+          "choice": 0
+        },
+        {
+          "total": 7277.336699438393,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHgyMzI3MWVlOWQyNTU2OGNlMzRkNjQ3ZWE5MGJlMzQ2NGRlYmM4NDZjNGMyMmJhNDlkMWNmODY1M2JlZjk5ZWE4",
+      "id": "0x23271ee9d25568ce34d647ea90be3464debc846c4c22ba49d1cf8653bef99ea8",
+      "title": "Test Proposal",
+      "content": "This is a test proposal.",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xE8bc44AE4bA6EDDB88C8c087fD9b479Dff729850",
+      "totalVotes": 86,
+      "blockNumber": 15971092,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x23271ee9d25568ce34d647ea90be3464debc846c4c22ba49d1cf8653bef99ea8",
+      "startTime": {
+        "timestamp": 1668462901
+      },
+      "endTime": {
+        "timestamp": 1668635701
+      },
+      "startTimestamp": 1668462901,
+      "endTimestamp": 1668635701,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 28509.2,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 28509.19752103041,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGFzaGZsb3dkYW9ldGg6c25hcHNob3Q6MHg4ODZmOWRhODAwNzdmZmVhYzIyNjliOWQ5YTRiZGM2MGY1ZmYxNThlMGY5MzEyZjk2YmUwYWYwODFiMWE1OTYz",
+      "id": "0x886f9da80077ffeac2269b9d9a4bdc60f5ff158e0f9312f96be0af081b1a5963",
+      "title": "Which non-EVM chain should be the first to feature on Hashflow?",
+      "content": "Vote for your favorite on this poll and let us know your reasons why in the #product channel on Discord! https://discord.gg/zXNuPgYXFN\n\nIn order to vote, you must have had at least 0.01 ETH in your wallet at the time this poll was created.",
+      "protocol": "hashflowdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xFf918a3Ff6CCc3722197B555a7a30de9A37906dB",
+      "totalVotes": 2900,
+      "blockNumber": 14680320,
+      "externalUrl": "https://snapshot.org/#/hashflowdao.eth/proposal/0x886f9da80077ffeac2269b9d9a4bdc60f5ff158e0f9312f96be0af081b1a5963",
+      "startTime": {
+        "timestamp": 1651250630
+      },
+      "endTime": {
+        "timestamp": 1651420800
+      },
+      "startTimestamp": 1651250630,
+      "endTimestamp": 1651420800,
+      "currentState": "closed",
+      "choices": [
+        "Solana",
+        "Cosmos",
+        "Stacks"
+      ],
+      "results": [
+        {
+          "total": 1630.0,
+          "choice": 0
+        },
+        {
+          "total": 127.0,
+          "choice": 2
+        },
+        {
+          "total": 1143.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1630.0,
+          "choice": 0
+        },
+        {
+          "total": 1143.0,
+          "choice": 1
+        },
+        {
+          "total": 127.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236281118,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

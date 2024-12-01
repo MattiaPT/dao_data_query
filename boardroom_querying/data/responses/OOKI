@@ -1,0 +1,1608 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjE3",
+      "id": "17",
+      "title": "OOIP-23-listing-allocation",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x5c2FaDb22EC504C82fcAD228E6cAD1ECB82443Ad",
+      "totalVotes": 3,
+      "blockNumber": 21045815,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1729897667,
+      "endTimestamp": 1730134559,
+      "currentState": "active",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 202876820.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 21039245
+          },
+          "event": "pending",
+          "timestamp": 1729818503,
+          "txHash": "0x57bb86585070469dbb9b88233c95d71ac1bcd9ab9396cb256a8ad6aac43210c1"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729818845580,
+      "txHash": "0x57bb86585070469dbb9b88233c95d71ac1bcd9ab9396cb256a8ad6aac43210c1",
+      "quorum": 196736487,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjE2",
+      "id": "16",
+      "title": "OOIP-22-pricefeed-update",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0xE9d5472Cc0107938bBcaa630c2e4797F75A2D382",
+      "totalVotes": 3,
+      "blockNumber": 21038020,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1729803755,
+      "endTimestamp": 1730041019,
+      "currentState": "active",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 202876500.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 21031450
+          },
+          "event": "pending",
+          "timestamp": 1729724579,
+          "txHash": "0x512aab66996fa5c0e7789403a574cbed6cee93fb34723723cd90eab1f316bdf6"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729724665792,
+      "txHash": "0x512aab66996fa5c0e7789403a574cbed6cee93fb34723723cd90eab1f316bdf6",
+      "quorum": 195467376,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjE1",
+      "id": "15",
+      "title": "OOIP-21-new-pricefeed-wsteth",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0xE9d5472Cc0107938bBcaa630c2e4797F75A2D382",
+      "totalVotes": 3,
+      "blockNumber": 19498981,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1711217255,
+      "endTimestamp": 1711457039,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 181500000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19520584
+          },
+          "event": "queued",
+          "timestamp": 1711480175,
+          "txHash": "0xec3c8de739504693d2c16765a23868d5c7b51d8275ff6a8cd00ffd59b4a1235d"
+        },
+        {
+          "time": {
+            "blockNumber": 19535558
+          },
+          "event": "executed",
+          "timestamp": 1711665659,
+          "txHash": "0xbdf2455b65a5bcbcc7870258d5e9b9e08d0575b89af0f6f4576203a8d19f3fc9"
+        },
+        {
+          "time": {
+            "blockNumber": 19492411
+          },
+          "event": "pending",
+          "timestamp": 1711137695,
+          "txHash": "0x627e1f73e6b8112613e50b69f2db78a9ee1a3c0355f3542f7ee7236b7e6bc026"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711137734655,
+      "txHash": "0x627e1f73e6b8112613e50b69f2db78a9ee1a3c0355f3542f7ee7236b7e6bc026",
+      "quorum": 163064320,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjE0",
+      "id": "14",
+      "title": "OOIP-21-pricefeed-update",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0xE9d5472Cc0107938bBcaa630c2e4797F75A2D382",
+      "totalVotes": 3,
+      "blockNumber": 19042749,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1705689491,
+      "endTimestamp": 1705928759,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 208658530.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19076549
+          },
+          "event": "queued",
+          "timestamp": 1706099939,
+          "txHash": "0xb3e4b4fb8adfcb8b8b4f9ae353d492eb578e15beb7b25024c15d3bdc782182ea"
+        },
+        {
+          "time": {
+            "blockNumber": 19090838
+          },
+          "event": "executed",
+          "timestamp": 1706272847,
+          "txHash": "0xf2c534d922d23bf9b4a733f5d8c26c17e89cf8d9d0283fa3a6665c12296106d7"
+        },
+        {
+          "time": {
+            "blockNumber": 19036179
+          },
+          "event": "pending",
+          "timestamp": 1705610291,
+          "txHash": "0x5b5836dbe60acf891e922ec35ad9e3b9de33c5dfc94203d42dabeb6d2290d911"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705610306642,
+      "txHash": "0x5b5836dbe60acf891e922ec35ad9e3b9de33c5dfc94203d42dabeb6d2290d911",
+      "quorum": 202669098,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjEz",
+      "id": "13",
+      "title": "OOIP-20 iUsdCrv",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x02c6819c2cb8519aB72fD1204A8A0992b5050C6e",
+      "totalVotes": 3,
+      "blockNumber": 18050449,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1693677323,
+      "endTimestamp": 1693915475,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 192580830.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18043879
+          },
+          "event": "pending",
+          "timestamp": 1693597655,
+          "txHash": "0x6c4b7f977dcecc4b83362d1908c69626bb03ada0b496398db043ce8a6bb94407"
+        },
+        {
+          "time": {
+            "blockNumber": 18085793
+          },
+          "event": "executed",
+          "timestamp": 1694104739,
+          "txHash": "0x11f0ace8eee007b8681ba1da0ea467c4dd500e9aed9d3e8bebec4a052b5c1ae4"
+        },
+        {
+          "time": {
+            "blockNumber": 18070870
+          },
+          "event": "queued",
+          "timestamp": 1693924031,
+          "txHash": "0x77aea77d316f2fd75dc45e962970d97a8ff0d7ed27c23e9fc39b407f63fb9d1a"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1693597662099,
+      "txHash": "0x6c4b7f977dcecc4b83362d1908c69626bb03ada0b496398db043ce8a6bb94407",
+      "quorum": 167497260,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjEy",
+      "id": "12",
+      "title": "OOIP-19-pricefeed-update",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x02c6819c2cb8519aB72fD1204A8A0992b5050C6e",
+      "totalVotes": 3,
+      "blockNumber": 16892373,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1679600411,
+      "endTimestamp": 1679839547,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 149310380.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16913415
+          },
+          "event": "queued",
+          "timestamp": 1679855711,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16927873
+          },
+          "event": "executed",
+          "timestamp": 1680031319,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679520576752,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjEx",
+      "id": "11",
+      "title": "OOIP-18-wstETH",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x02c6819c2cb8519aB72fD1204A8A0992b5050C6e",
+      "totalVotes": 3,
+      "blockNumber": 16401074,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1673651483,
+      "endTimestamp": 1673889359,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 149310380.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16442649
+          },
+          "event": "executed",
+          "timestamp": 1674153011,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16426229
+          },
+          "event": "queued",
+          "timestamp": 1673955011,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 149310380.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjEw",
+      "id": "10",
+      "title": "OOIP-17-itoken-collateral",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x02c6819c2cb8519aB72fD1204A8A0992b5050C6e",
+      "totalVotes": 4,
+      "blockNumber": 16227587,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1671559571,
+      "endTimestamp": 1671797003,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 146639250.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16275583
+          },
+          "event": "executed",
+          "timestamp": 1672138067,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16249607
+          },
+          "event": "queued",
+          "timestamp": 1671824795,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjk=",
+      "id": "9",
+      "title": "OOIP-16-update-WBTC-pricefeed",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x02c6819c2cb8519aB72fD1204A8A0992b5050C6e",
+      "totalVotes": 3,
+      "blockNumber": 16103358,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1670059259,
+      "endTimestamp": 1670297351,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 146639250.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16148456
+          },
+          "event": "executed",
+          "timestamp": 1670604743,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16132633
+          },
+          "event": "queued",
+          "timestamp": 1670413751,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpzbmFwc2hvdDoweDU4YWE5OTA3ZTkzY2JhZjYxMDg3YzcwZjQ3ZGViOTM2ODMwZThmYzY5ZjFjNjM5OTZjY2ZhYzgzNWY1ODM3NTk=",
+      "id": "0x58aa9907e93cbaf61087c70f47deb936830e8fc69f1c63996ccfac835f583759",
+      "title": "Changing the Oracle for WBTC",
+      "content": "Ooki, like many other protocols, uses the BTC/ETH chainlink price feed as the oracle for WBTC. At the time of implementation, this seemed to be a safe approach. However, this solution does not protect the protocol in the event of a Black Swan event such as a WBTC/BTC price depeg. While this event is highly unlikely, it can still be induced.\n\nTherefore, this post suggests that Ooki replaces the oracle for WBTC with a Chainlink-compatible oracle. For this, Ooki should deploy a pull request which calculates the WBTC/ETH price by using the Chainlink price feeds for WBTC/BTC and BTC/ETH.\n\nPull request:\nhttps://github.com/OokiTrade/contractsV2/pull/295/files",
+      "protocol": "ooki",
+      "adapter": "snapshot",
+      "proposer": "0x70FC4dFc27f243789d07134Be3CA31306fD2C6B6",
+      "totalVotes": 3,
+      "blockNumber": 16085280,
+      "externalUrl": "https://snapshot.org/#/ooki.eth/proposal/0x58aa9907e93cbaf61087c70f47deb936830e8fc69f1c63996ccfac835f583759",
+      "startTime": {
+        "timestamp": 1669888800
+      },
+      "endTime": {
+        "timestamp": 1669975200
+      },
+      "startTimestamp": 1669888800,
+      "endTimestamp": 1669975200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 100150070.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 100150071.19025151,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjg=",
+      "id": "8",
+      "title": "OOIP-15-minimal-interest-rate/Lawyer-Fund-Allocation",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x02c6819c2cb8519aB72fD1204A8A0992b5050C6e",
+      "totalVotes": 6,
+      "blockNumber": 15823703,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1666684103,
+      "endTimestamp": 1666922075,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 136649060.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15846618
+          },
+          "event": "queued",
+          "timestamp": 1666960823,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15871747
+          },
+          "event": "executed",
+          "timestamp": 1667264015,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpzbmFwc2hvdDoweDllNzk3NDFlZThhM2EwMjJiMTQxNmM1MDBhYmI5MjI3ZjE1YjM2YTZkNzU0NjQ4N2JmZTk0MjZkYWU5MWZmZmM=",
+      "id": "0x9e79741ee8a3a022b1416c500abb9227f15b36a6d7546487bfe9426dae91fffc",
+      "title": "Future of Ooki DAO",
+      "content": "Following discussion in the forum, this snapshot vote would approve the initiatives discussed in the forum proposal here and an additional point to enable geofencing: \n\nhttps://forum.ooki.com/t/future-of-ooki-dao/456\n  Enabling Geofencing to prohibit usage of the Ooki frontend for users based in the US. \n\nSpecifically, this snapshot vote would approve the following proposals:\n\nAllocation of Ooki treasury funds to be spent on legal defense of any DAO members named in a complaint.\n\nAllocation of Ooki treasury funds for the DAO to continue operating and future contingency runway.\n\nCreating a legal defense fund grant request on Gitcoin for members of the broader blockchain and DeFi community to support the legal defense of Ooki DAO.\n\nReleasing an NFT to support Ooki DAO contingency.",
+      "protocol": "ooki",
+      "adapter": "snapshot",
+      "proposer": "0x70FC4dFc27f243789d07134Be3CA31306fD2C6B6",
+      "totalVotes": 3,
+      "blockNumber": 15718767,
+      "externalUrl": "https://snapshot.org/#/ooki.eth/proposal/0x9e79741ee8a3a022b1416c500abb9227f15b36a6d7546487bfe9426dae91fffc",
+      "startTime": {
+        "timestamp": 1665421200
+      },
+      "endTime": {
+        "timestamp": 1665680400
+      },
+      "startTimestamp": 1665421200,
+      "endTimestamp": 1665680400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 56515528.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 136664588.4766369,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpzbmFwc2hvdDoweDc4YjUxYjE1NWY5OWEzMzM0NDNjNWNmMWNhYTU4NmMyMmViMzA0ZWE1Y2IxOWRkZTNmYzc5NDE0YWRlN2U0MWM=",
+      "id": "0x78b51b155f99a333443c5cf1caa586c22eb304ea5cb19dde3fc79414ade7e41c",
+      "title": "Future of Ooki DAO",
+      "content": "Following discussion in the forum, this snapshot vote would approve the initiatives discussed in the forum proposal here and an additional point to enable geofencing: \n\nhttps://forum.ooki.com/t/future-of-ooki-dao/456\n  Enabling Geofencing to prohibit usage of the Ooki frontend for users based in the US. \n\nSpecifically, this snapshot vote would approve the following proposals:\n\nAllocation of Ooki treasury funds to be spent on legal defense of any DAO members named in a complaint.\n\nAllocation of Ooki treasury funds for the DAO to continue operating and future contingency runway.\n\nCreating a legal defense fund grant request on Gitcoin for members of the broader blockchain and DeFi community to support the legal defense of Ooki DAO.\n\nReleasing an NFT to support Ooki DAO contingency.",
+      "protocol": "ooki",
+      "adapter": "snapshot",
+      "proposer": "0x70FC4dFc27f243789d07134Be3CA31306fD2C6B6",
+      "totalVotes": 0,
+      "blockNumber": 15697891,
+      "externalUrl": "https://snapshot.org/#/ooki.eth/proposal/0x78b51b155f99a333443c5cf1caa586c22eb304ea5cb19dde3fc79414ade7e41c",
+      "startTime": {
+        "timestamp": 1665219600
+      },
+      "endTime": {
+        "timestamp": 1665392400
+      },
+      "startTimestamp": 1665219600,
+      "endTimestamp": 1665392400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpzbmFwc2hvdDoweDY4NTY2YTJmM2NmYmQxMjZlMDRmMzRkYTRhNzg5Y2U0M2IxZWEzMTNiMGQ2NjUyMzA4NDg5NTgyMDcyNTZjNGY=",
+      "id": "0x68566a2f3cfbd126e04f34da4a789ce43b1ea313b0d665230848958207256c4f",
+      "title": "Vote for minimum interest rate ",
+      "content": "\nThis snapshot vote would approve modifications to how borrowing interest rates are tuned on Ooki protocol by implementing a floor or lower bound limiting how low borrowing rates can fall. This minimum interest rate floor only affects borrowing rates and does not impact lending rates, as the lending rates are a function of how much interest is being paid and the pool size\n\nIf approved, this snapshot proposal would adjust the minimum borrowing interest rates such that  borrowing rates would be unable to reach below a certain threshold value regardless of the pool utilization. The minimal interest rates would be configured to the following values:\n\nMinimal interest rate of 0.8% for stablecoins and 0.1% interest for all other coins.\n\nThis snapshot proposal will be used to enact the above changes for all Ooki chains that Ooki protocol is deployed on. If this snapshot vote passes, then there will be an onchain vote on Ethereum. This onchain vote will be combined with a vote for i-tokens as collateral. \n\nThe rationale for implementing a minimal borrowing interest rate is to stabilize interest rates and increase the amount of funds available for borrowing. This change would affect any pools where the borrowing rates fall below the minimum threshold. Once sufficient data is collected that pools are working efficiently the minimum borrowing rate floor can be removed. \n",
+      "protocol": "ooki",
+      "adapter": "snapshot",
+      "proposer": "0x70FC4dFc27f243789d07134Be3CA31306fD2C6B6",
+      "totalVotes": 6,
+      "blockNumber": 15492172,
+      "externalUrl": "https://snapshot.org/#/ooki.eth/proposal/0x68566a2f3cfbd126e04f34da4a789ce43b1ea313b0d665230848958207256c4f",
+      "startTime": {
+        "timestamp": 1662631200
+      },
+      "endTime": {
+        "timestamp": 1662890400
+      },
+      "startTimestamp": 1662631200,
+      "endTimestamp": 1662890400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 12935559.0,
+          "choice": 0
+        },
+        {
+          "total": 6045871.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 131690773.93867505,
+          "choice": 0
+        },
+        {
+          "total": 6045870.992848351,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjc=",
+      "id": "7",
+      "title": "OOIP-14-compensation-allocation",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x02c6819c2cb8519aB72fD1204A8A0992b5050C6e",
+      "totalVotes": 2,
+      "blockNumber": 15153521,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1657971591,
+      "endTimestamp": 1658235953,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 129821776.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15179044
+          },
+          "event": "queued",
+          "timestamp": 1658314334,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15192404
+          },
+          "event": "executed",
+          "timestamp": 1658493423,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 129821776.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjY=",
+      "id": "6",
+      "title": "OOIP-13-omnibus-1year-extension",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x02c6819c2cb8519aB72fD1204A8A0992b5050C6e",
+      "totalVotes": 3,
+      "blockNumber": 14842570,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1653491436,
+      "endTimestamp": 1653768639,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 127880944.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14872812
+          },
+          "event": "queued",
+          "timestamp": 1653917662,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14890851
+          },
+          "event": "executed",
+          "timestamp": 1654171171,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 127880944.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjU=",
+      "id": "5",
+      "title": "OOIP-12-celer-bridge-allocation",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x02c6819c2cb8519aB72fD1204A8A0992b5050C6e",
+      "totalVotes": 5,
+      "blockNumber": 14782206,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1652648568,
+      "endTimestamp": 1652920169,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 166663840.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14805430
+          },
+          "event": "queued",
+          "timestamp": 1652970076,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14824961
+          },
+          "event": "executed",
+          "timestamp": 1653244743,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 166663840.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpzbmFwc2hvdDoweGI2OGYwMjgxN2IxODUyOWM1Y2YxN2JmMWVmOGU0MGIxYTk3ODJkNDdmNjMzZTA4MzA1Y2E4MTdmYjhhNTVhMWQ=",
+      "id": "0xb68f02817b18529c5cf17bf1ef8e40b1a9782d47f633e08305ca817fb8a55a1d",
+      "title": "Ooki DAO supplying OOKI liquidity for the Celer Bridge",
+      "content": "Ooki has plans to integrate with Celer’s interoperability protocol to enable fee bridging across all Ooki’s different blockchain deployments. The goal of integrating with Celer’s protocol is to enable fees generated on all non-Ethereum chains flow to Polygon in the form of USDC. Following the integration of Celer into the Ooki protocol, all fees generated from margin trading, borrowing, and lending will be converted into USDC and sent to the fee controller on Polygon.\n\nIn order to facilitate this integration, bridge liquidity is required in the amount of $50k per chain for (eth, polygon, and arbitrum). This proposal would approve $150k in OOKI tokens to use for liquidity across 3 chains. As with any liquidity pool, this liquidity can be removed and reclaimed by Ooki. As a result this $150k in OOKI tokens are not being sold and will not be converted. They will remain OOKI tokens and will also earn fees from providing bridge liquidity.",
+      "protocol": "ooki",
+      "adapter": "snapshot",
+      "proposer": "0x70FC4dFc27f243789d07134Be3CA31306fD2C6B6",
+      "totalVotes": 3,
+      "blockNumber": 14756204,
+      "externalUrl": "https://snapshot.org/#/ooki.eth/proposal/0xb68f02817b18529c5cf17bf1ef8e40b1a9782d47f633e08305ca817fb8a55a1d",
+      "startTime": {
+        "timestamp": 1652346000
+      },
+      "endTime": {
+        "timestamp": 1652605200
+      },
+      "startTimestamp": 1652346000,
+      "endTimestamp": 1652605200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 120458670.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 120458678.26349948,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjQ=",
+      "id": "4",
+      "title": "OOIP-11 DAO proposal to migrate loans to new interest model",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x9B43a385E08EE3e4b402D4312dABD11296d09E93",
+      "totalVotes": 3,
+      "blockNumber": 14729341,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1651920301,
+      "endTimestamp": 1652192389,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 134981460.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14750357
+          },
+          "event": "queued",
+          "timestamp": 1652210397,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14766614
+          },
+          "event": "executed",
+          "timestamp": 1652434726,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 134981460.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjM=",
+      "id": "3",
+      "title": "OOIP-10 iAPE",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x9B43a385E08EE3e4b402D4312dABD11296d09E93",
+      "totalVotes": 9,
+      "blockNumber": 14604864,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1650226781,
+      "endTimestamp": 1650492735,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 128707576.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14627377
+          },
+          "event": "queued",
+          "timestamp": 1650531344,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14685302
+          },
+          "event": "executed",
+          "timestamp": 1651317614,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 128707576.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjI=",
+      "id": "2",
+      "title": "OOIP-9 sweep fees",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x02c6819c2cb8519aB72fD1204A8A0992b5050C6e",
+      "totalVotes": 3,
+      "blockNumber": 14583591,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1649940001,
+      "endTimestamp": 1650205195,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 127067510.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14604101
+          },
+          "event": "queued",
+          "timestamp": 1650216617,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14617279
+          },
+          "event": "executed",
+          "timestamp": 1650394136,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 127067510.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpzbmFwc2hvdDoweDg3OWE4OGYwYTZiZjE0ZjdhYzg1ZDgzOTI2ZTQ0OTk5M2FhZDgzZTZiOWYyYTM3YTcyZjYwMTM3ODY1YjNlYzM=",
+      "id": "0x879a88f0a6bf14f7ac85d83926e449993aad83e6b9f2a37a72f60137865b3ec3",
+      "title": "OOKI Rewards for Traders and Discounted Trading for OOKI holders",
+      "content": "This proposal will be implemented ONLY when all of the following are complete:\n\n-The new Interest Rates Model is implemented on all chains\n-There is adequate liquidity for traders on ALL chains that the product has been deployed\n-The limit orders feature has been completed and implemented for users on all chains\n\nUnder the proposal, traders on Ooki Protocol will receive rewards paid in OOKI as follows and the following features will be implemented by the dev team:\n\n-A Dashboard for users to see the (estimated) OOKI rewards and rewards points accruing for their wallet in realtime, similar to DyDx. Dashboard would show fees which would be proportional to the percentage of trading fees paid (because the traders will be sharing a fixed pot of 30m OOKI per month) and not USD value. This means you cannot calculate an estimate for the current season until it is complete. It will have to be an estimate based on the previous season’s volume.\n\n-30m OOKI per month in total (across all chains) as rewards will be approved by the DAO ( can be changed by future DAO votes). Each month will be a “season” and rewards and trading will be calculated on the basis of each season. Rules once implemented will not change for each season but can change for the next season.\n\n-For the first season, 12m OOKI will go to Arbitrum, 10m to Polygon, 6m to Ethereum and 2m to BSC. However, the DAO team will have the authority to adjust the split between chains at the end of each rewards season/month without a DAO vote after Month 1, to maximize protocol usage and fees, including reducing total rewards (but increasing total rewards beyond 30m will require a further DAO vote).\n\n-There will be no lockup on rewards - those who receive rewards can stake them or sell them immediately.\n\n-Rewards will only be paid to wallets who trade on Ooki and pay trading fees and will be calculated on the basis of trading fees only (not to borrowers or those who pay origination fees and interest for loans, including flash loans - of course, most traders will also be borrowers, but the rewards will be calculated based on trading fees alone).\n\n-In essence the monthly reward pot of 30m OOKI will be paid out at the end of each month to traders on Ooki who paid trading fees, in proportion to the amount of trading fees paid - each wallet will receive OOKI rewards and share in the monthly pot in proportion to the percentage of trading fees it paid in the relevant month.\n\n-In addition to this, to give the OOKI token more of a use case and utility, a new feature will be implemented to give discounted trading to those who pay trading fees in OOKI (similar to how BNB can be used to pay discounted fees on Binance). Anyone paying fees with OOKI will receive a 30% discount on all fees (borrowing, trading, everything). If this is technically difficult to implement, it may be necessary to implement this as a 30% rebate paid at the end of the month to wallets that held sufficient OOKI for fees and traded in the previous month (but in that case, the 30% rebate is a separate calculation and will be in addition to the 30m OOKI trading rewards pot).\n\n-This rewards proposal relates to OOKI use case and trading fees only. Rewards for increasing liquidity (in OOKI/ETH or any of the OOKI liquidity pools) are a separate matter and to be dealt with separately as needed.",
+      "protocol": "ooki",
+      "adapter": "snapshot",
+      "proposer": "0x3fDA2D22e7853f548C3a74df3663a9427FfbB362",
+      "totalVotes": 12,
+      "blockNumber": 14346876,
+      "externalUrl": "https://snapshot.org/#/ooki.eth/proposal/0x879a88f0a6bf14f7ac85d83926e449993aad83e6b9f2a37a72f60137865b3ec3",
+      "startTime": {
+        "timestamp": 1646752441
+      },
+      "endTime": {
+        "timestamp": 1647011641
+      },
+      "startTimestamp": 1646752441,
+      "endTimestamp": 1647011641,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 91178730.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 91178739.13224162,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpvbmNoYWluOjE=",
+      "id": "1",
+      "title": "OOIP-8 allocate funds",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "onchain",
+      "proposer": "0x02c6819c2cb8519aB72fD1204A8A0992b5050C6e",
+      "totalVotes": 3,
+      "blockNumber": 14331759,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1646548271,
+      "endTimestamp": 1646813396,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 148549070.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14352604
+          },
+          "event": "queued",
+          "timestamp": 1646829366,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14366133
+          },
+          "event": "executed",
+          "timestamp": 1647009762,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 148549070.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpzbmFwc2hvdDoweDA3NmUxYjViODkxZWJkNmJkYzIwNGQ0ZmQyZjM0OTRkNzJlZDllNmE3OTU1ZmJlYmI1MDYzMjBiNmI1MzkzMDc=",
+      "id": "0x076e1b5b891ebd6bdc204d4fd2f3494d72ed9e6a7955fbebb506320b6b539307",
+      "title": "Ooki Snapshot Vote for Hiring Updates",
+      "content": "Summary\nHiring Updates Retainer and Community Manager\nDetails\nOnboarding New Community Manager\n@TheDude, is sadly leaving his role and will need to be replaced. In this role he provided community support on Telegram and Discord. If Ooki DAO votes to approve, the role to replace @TheDude, would be filled by @Frank010011001. Frank has been a long term active member providing support and would be a great addition to the team. He is already helping post, share and answer questions in Telegram.\nRetaining Keepers\nThe second is relating to the recruitment and hiring of an additional front end developer to join the Ooki development team. Ooki DAO is considering engaging Keepers to assist with searching, screening and setting up an interview with an additional Front End Developer.\nFunding Request\nOoki is seeking a front end developer to assist with the development of the Ooki protocol web application. In order to assist with hiring a candidate for the role Ooki has been in contact with Keepers a recruiting agency to help with hiring and screening candidates for the role.\nKeepers has quoted a ~$4,000 engagement fee followed by a ~$12,000 completion fee per hire. This is an exclusive engagement wherein no other recruitment services can be used by Ooki for the Software Engineer role. If a candidate is hired using another recruitment provider Keepers reserves the right to charge the full fee of ~$12,000 per hire to Ooki.\nDeliverables\nKeppers will screen candidates and deliver 5 interviews with potential candidates for a new software developer. \nHiring @frank as a new community manager to replace @thedude\n",
+      "protocol": "ooki",
+      "adapter": "snapshot",
+      "proposer": "0x70FC4dFc27f243789d07134Be3CA31306fD2C6B6",
+      "totalVotes": 6,
+      "blockNumber": 14256015,
+      "externalUrl": "https://snapshot.org/#/ooki.eth/proposal/0x076e1b5b891ebd6bdc204d4fd2f3494d72ed9e6a7955fbebb506320b6b539307",
+      "startTime": {
+        "timestamp": 1645538400
+      },
+      "endTime": {
+        "timestamp": 1645797600
+      },
+      "startTimestamp": 1645538400,
+      "endTimestamp": 1645797600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 77063510.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 77063517.89328215,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpzbmFwc2hvdDoweGRlNzQ3YjRkZThjNDcyYTA1NmMwODhmYzE4ZTY0Mjc4NjViOGIwNzljZjg5MzBjNjBiODM4YjQ2YTNhZWUyZDk=",
+      "id": "0xde747b4de8c472a056c088fc18e6427865b8b079cf8930c60b838b46a3aee2d9",
+      "title": "Ooki Snapshot Vote for Interest Rate Security Audit",
+      "content": "Allocate $40k in DAO Treasury funds to perform a security audit using code4rena.com \nSummary\n\nOoki DAO will use $40k in DAO Treasury funds to engage with code4rena.com for an audit of a portion of Ooki’s codebase prior to the release of the update interest rate code.\n\nThis audit will likely consist of a 3 day contest during which security auditing teams on code4rena’s platform will review the code and identify any potential security exploits. \n\nThis initiative aligns with the Ooki DAO’s strict security standards relating to smart contracts that comprise the Ooki DAO ecosystem. \nFunding Request\n\nCode4rena has requested a fee of $40,000 transferred upfront to pay for the audit contest on their platform.\nDeliverables\n\nIf the Ooki DAO approves the request, then code4arena will provide the services according to their service agreement. The audit contest will last three days and will be performed by the community of security auditors on the code4rena platform. \n",
+      "protocol": "ooki",
+      "adapter": "snapshot",
+      "proposer": "0x70FC4dFc27f243789d07134Be3CA31306fD2C6B6",
+      "totalVotes": 6,
+      "blockNumber": 14203869,
+      "externalUrl": "https://snapshot.org/#/ooki.eth/proposal/0xde747b4de8c472a056c088fc18e6427865b8b079cf8930c60b838b46a3aee2d9",
+      "startTime": {
+        "timestamp": 1644836400
+      },
+      "endTime": {
+        "timestamp": 1644922800
+      },
+      "startTimestamp": 1644836400,
+      "endTimestamp": 1644922800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 57230312.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 57230314.29807891,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpzbmFwc2hvdDoweGM3ZTE3MWQ1MmI2NjQwNWI2NzEwYWVkOGQwNzk2NDA4Nzg4MzEzNjBiZjNhZGQ2NWZlNGJmMmU1YmVlZTYyYWI=",
+      "id": "0xc7e171d52b66405b6710aed8d079640878831360bf3add65fe4bf2e5beee62ab",
+      "title": "test",
+      "content": "",
+      "protocol": "ooki",
+      "adapter": "snapshot",
+      "proposer": "0x70FC4dFc27f243789d07134Be3CA31306fD2C6B6",
+      "totalVotes": 1,
+      "blockNumber": 14203846,
+      "externalUrl": "https://snapshot.org/#/ooki.eth/proposal/0xc7e171d52b66405b6710aed8d079640878831360bf3add65fe4bf2e5beee62ab",
+      "startTime": {
+        "timestamp": 1644832800
+      },
+      "endTime": {
+        "timestamp": 1644836400
+      },
+      "startTimestamp": 1644832800,
+      "endTimestamp": 1644836400,
+      "currentState": "closed",
+      "choices": [
+        "Yest"
+      ],
+      "results": [
+        {
+          "total": 9964517.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9964517.3584573,
+          "choice": 0
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6b29raTpzbmFwc2hvdDoweGNiNjQ1YzUwMDcyYzk4MjcwYzFjMjE1ZmRhN2E4ZThiMzQ4MzlhYTJiOWZjMmVlYmIxZTE4YjA3YWExZDFiYjU=",
+      "id": "0xcb645c50072c98270c1c215fda7a8e8b34839aa2b9fc2eebb1e18b07aa1d1bb5",
+      "title": "Ooki Snapshot Vote for Ribbon Vault Proposal",
+      "content": "Allocate $5m worth of OOKI towards the Ribbon.Finance Covered Call Strategy discussed on the forum Discussions. Approximately $5m worth of Ooki DAO’s treasury towards a monthly expiration covered call strategy on Ribbon.Finance. \nThe call options that are periodically sold through this strategy are auctioned to the public via a Gnosis Auction (as per how Ribbon V2 works). Ooki through Ribbon would be utilizing Wintermute to act as the market maker for this strategy to participate in these auctions, but the auctions are fundamentally open to anyone with an Ethereum address. The price of the OOKI monthly call option would be subject to change, however assuming the following parameters the estimated monthly yield = 3% on OOKI terms or approximately 36% APY.\nThe estimated monthly yield = 3% on OOKI terms or approximately 36% APY.\n\nAdditional details are available here:  https://forum.ooki.com/t/ribbon-dao-covered-call-strategy-to-diversify-ooki-treasury/19\n",
+      "protocol": "ooki",
+      "adapter": "snapshot",
+      "proposer": "0x70FC4dFc27f243789d07134Be3CA31306fD2C6B6",
+      "totalVotes": 7,
+      "blockNumber": 13940277,
+      "externalUrl": "https://snapshot.org/#/ooki.eth/proposal/0xcb645c50072c98270c1c215fda7a8e8b34839aa2b9fc2eebb1e18b07aa1d1bb5",
+      "startTime": {
+        "timestamp": 1641376800
+      },
+      "endTime": {
+        "timestamp": 1641636000
+      },
+      "startTimestamp": 1641376800,
+      "endTimestamp": 1641636000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 17981982.0,
+          "choice": 0
+        },
+        {
+          "total": 39278.73,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 17981981.934845198,
+          "choice": 0
+        },
+        {
+          "total": 39278.72989365,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

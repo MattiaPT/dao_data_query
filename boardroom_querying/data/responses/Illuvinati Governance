@@ -1,0 +1,2036 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4ZjlhYTM2ODViOTQ3ZDg3YjczNzUxOTU0NjcwNzUzMzM3ZDZhOGJhYWU5NzAyMGExYmJmMjlmMGZiOTJiMmFhMQ==",
+      "id": "0xf9aa3685b947d87b73751954670753337d6a8baae97020a1bbf29f0fb92b2aa1",
+      "title": "ICCP-7 Weighted Voting for Epoch Elections",
+      "content": "[ICCP-7 on GitHub](https://github.com/IlluviumGame/IIPs/pull/43/files)\n\n## Simple Summary\nThis proposal aims to enable a weighted voting system for Epoch 8 and future epochs. This assists in further diversifying the voting power of individuals so they can vote for several qualified candidates rather than one.\n\n## Abstract\nThe request for a way to vote for multiple nominees has been an ongoing discussion since the prior epoch. As snapshot evolves and has enabled a split voting system that utilises quadratic voting it is now possible to enable this feature without removing other existing features. This would enable voters to split their available vILV amongst as many candidates as they’d like.\n\n## Rationale\nIt should be clear that these features are additive to the existing system. Voting will still be blind and no one will be able to see the outcome until after voting has concluded. Also if voters wish to vote for a single candidate it is still possible.\n\nMost democratic government bodies have voting systems that enable voters to vote for multiple candidates so that voters can better select candidates that represent their preferences. In the case of Illuvium that feels important considering there may be 2+ candidates that are relevant to your personal voting criteria. If many voters felt that they both fit well however one fit more than others then general sentiment wouldn’t match the overall outcome.\nA core premise of this system update would be as a quality of life improvement. Not only would it enable more options for voters but act as a simple deterrent to anyone that wanted to split their wallets in an effort to vote for multiple candidates. This proposal both enables this as a feature for those users while maintaining the integrity of quadratic voting.\n\nIf you would like to try this new voting system for yourself you can here: https://snapshot.org/#/pistachiodao.eth/proposal/0x21f64875abbca71762a980efae43ab62b546d54f19a208d0e61a5d7cee571a35\nFor example if we had Jerry, Beth and Summer all running for council. Let’s say Jerry and Beth were very pro community and Summer was against it. However, Beth was still a much better candidate than Jerry. Then with single choice voting even if 80% of the community collectively preferred the beliefs of both Jerry and Beth they may not be elected. With this updated system if the voter had 10 vILV he would be able to put 8 vILV towards Beth and 2 vILV towards Jerry. This better accommodates their preference as they think both candidates are appropriate.\n\n## Discussion\nThe discussion amongst the community for this proposal can be found here:\nhttps://discord.com/channels/760344898200666112/1101030767586447431/1101030767586447431\nThere was very clear positive sentiment surrounding the weighted voting proposal. Many advocated that they had already wanted to vote for 2-3 candidates and this would be a welcome change.\nThere was also discussion surrounding the potential risks of larger voters being able to game the system. After deliberation it was determined that this should not be an issue based on past epochs.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 4,
+      "blockNumber": 17185712,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0xf9aa3685b947d87b73751954670753337d6a8baae97020a1bbf29f0fb92b2aa1",
+      "startTime": {
+        "timestamp": 1683185400
+      },
+      "endTime": {
+        "timestamp": 1683444600
+      },
+      "startTimestamp": 1683185400,
+      "endTimestamp": 1683444600,
+      "currentState": "closed",
+      "choices": [
+        "Approve ",
+        "Decline "
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683184901399,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4ZTIzZGJjMjRiZWIwZWNkMjhjZDU4MDI3MWQxNzEyODIwMTk4YmM0Mjc5ZGJmNjhhNTY1MzlmZWYxNmVkYTEyNw==",
+      "id": "0xe23dbc24beb0ecd28cd580271d1712820198bc4279dbf68a56539fef16eda127",
+      "title": "ICCP-6 Illuvitar and Land Royalties ",
+      "content": "## Simple Summary\nThis proposal funds the Safety Pool (IIP-29) with revenue generated through the royalties of Illuvitar products and Land. Reserving these funds helps to mitigate the risk of uncertain macroeconomic conditions by providing an emergency source of runway to sustain DAO operations, if necessary.\n\n## Abstract\nThe community has proposed using the revenue generated from royalties to fund the Safety Pool. This proposal will be retroactive, and will include royalties already collected but not yet distributed. 100% of revenue from royalties of Illuvitars and Land will be held in the Safety Pool (IIP-29) up until the maximum quantity denoted in USD outlined in IIP-29, or until authorized for release or use (by future ICCP) by the council. Once the Safety Pool is filled, any future royalties of Illuvitar products and Land will be transferred to the Vault, to be treated as normal revenue and distributed to stakers (ICCP-3).\n\n## Rationale\nChallenging macroeconomic conditions exist that may adversely impact the financial health of the DAO prior to achieving sustaining recurrent revenue streams. This proposal is an application of the risk management strategy established in IIP-29 that aims to create a greater financial buffer that can extend the development runway if necessary.\n\nThe Illuvium community has responded favorably (over 42 upvotes) to royalties being added to the safety pool. Linked Below. \n\n## Discussion\nBroad community support has been shared in Discord, as seen in the discussion linked below.\n\n## Credit\nThe core of this proposal was ideated by #Josh.ETH#8033, and the proposal was drafted by #botch#5460.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 5,
+      "blockNumber": 17124992,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0xe23dbc24beb0ecd28cd580271d1712820198bc4279dbf68a56539fef16eda127",
+      "startTime": {
+        "timestamp": 1682447400
+      },
+      "endTime": {
+        "timestamp": 1682706600
+      },
+      "startTimestamp": 1682447400,
+      "endTimestamp": 1682706600,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682446906060,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4OTFkODZlZGZiZGMwZTM4Nzg1ZjAyZjUwNmU3YTFmZmNkNTI1ZmFlZWY5NzYwNTU3MzE4ZmQzZDcyNzBlM2UwYQ==",
+      "id": "0x91d86edfbdc0e38785f02f506e7a1ffcd525faeef9760557318fd3d7270e3e0a",
+      "title": "ICCP-5 Initiate Governance V2 Transition Process",
+      "content": "[ICCP-5 on GitHub](https://github.com/IlluviumGame/IIPs/pull/41/commits/9eae6b10c41715c9e20d3dc53614573ffd101b54)\n\n## Simple Summary\nBy the specification of Governance V2 (IIP-32), an ICCP must be passed to begin the transition period to Governance V2. This ICCP specifies that the transition period will begin on April 13th.\n\n## Overview\nThe requirement of an ICCP to start the transition period was established to provide time to identify whether viable alternatives to Snapshot elections would be possible. At the current time, Snapshot has been identified as the best option for the Governance V2 election process. It is currently undesirable to detract from web and blockchain development by requesting a custom solution from Labs, and Snapshot will meet all the criteria for an election under Governance V2.\n\nThe transition period lasts 45 days, and will begin on April 13th, concluding on May 28th. May 28th is the last day of the current epoch. This will allow for the maximum amount of time to prepare for this expanded election process. This additionally allows DAO members interested in running for a sub-council under Gov V2 to familiarize themselves with the nomination process and the structure of Gov V2 prior to the nomination period and elections.\n\n## Transition Period\nThe 45 day transition period begins on April 13th, announcement that the election is upcoming + nomination information + governance education.\n\nOn day 5 (April 18th), nominations for Gov V2 sub-councils open.\n\nOn day 20 (May 3rd), nominations for Gov V2 sub-councils close.\n\nOn day 25 (May 8th), voting begins.\n\nOn day 30 (May 13th), voting concludes. Note: This is a 5 day voting period.\n\nBetween day 30 and day 40, sub-councils meet and elect representatives to serve on the IMC. Note: This 10 day period will also be used to help onboard new sub-council members.\n\nOn day 40 (May 23rd), IMC representatives are named.\n\nOn day 45 (May 28th), Gov V2 sub-councils and the IMC take leadership of the DAO.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 5,
+      "blockNumber": 16992204,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x91d86edfbdc0e38785f02f506e7a1ffcd525faeef9760557318fd3d7270e3e0a",
+      "startTime": {
+        "timestamp": 1680818400
+      },
+      "endTime": {
+        "timestamp": 1681077600
+      },
+      "startTimestamp": 1680818400,
+      "endTimestamp": 1681077600,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680817399686,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4YTM4YTUzNWIxZDM5ZmQ1MGMwMDRlYTc2ZGZmNzE1MmIzZTliZDc3ODI1YWI4MjY2YTdmODAwZWNkY2NhNzAzMA==",
+      "id": "0xa38a535b1d39fd50c004ea76dff7152b3e9bd77825ab8266a7f800ecdcca7030",
+      "title": "IIP-32 Governance V2 ",
+      "content": "[IIP-32 Governance V2 on GitHub](https://github.com/IlluviumGame/IIPs/pull/39/commits/58bc1bcd05131244deb1bf115f3111a4cf56d94a)\n\n## Simple Summary:\nThis proposal modifies Illuvium's governance structure. The proposed structure consists of specialised sub-councils and a central council for improved scalability and decentralisation.\n\n## Abstract:\nThe proposed new governance structure for Illuvium addresses issues such as lack of communication, lack of team input and council members making decisions outside their expertise, and prioritises decentralisation by implementing sub-councils for specific segments of governance.\n\n\n## Full Text (Link Below):\n[Governance V2 Github PDF](https://github.com/Blickter/IIPs/blob/master/assets/iip-32/Governance%20Version%202%20(V1.0).pdf)\n \n![LQ59e4YliQ.png](ipfs://bafkreifbzund5ihmazagvujqfigkshfph6sn4e7uu6sd3sozhlx4c366iy)\n    \n\n#### Snapshot Limitations\nDue to SnapShot Character Limit it's not possible to post the entire document here so, the Github PDF is linked and google document is saved on internal drives. Please take the time to read discussions surrounding this IIP on Discord Linked Below. ",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 5,
+      "blockNumber": 16885140,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0xa38a535b1d39fd50c004ea76dff7152b3e9bd77825ab8266a7f800ecdcca7030",
+      "startTime": {
+        "timestamp": 1679512800
+      },
+      "endTime": {
+        "timestamp": 1679772000
+      },
+      "startTimestamp": 1679512800,
+      "endTimestamp": 1679772000,
+      "currentState": "closed",
+      "choices": [
+        "Approve ",
+        "Decline "
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679512959134,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4OWQ5N2NkZjBjYWNhOGZjM2FkZjgwZjZhNDY0NzAzNjg2Yjg5ZTg2YWQxNjE5YWZmZjIwMmI3YTZkN2E2YmI4Nw==",
+      "id": "0x9d97cdf0caca8fc3adf80f6a464703686b89e86ad1619afff202b7a6d7a6bb87",
+      "title": "IIP-31 Cancel Su Zhu Illuvitar Battle",
+      "content": "[GitHub IIP-31](https://github.com/IlluviumGame/IIPs/pull/38/commits/e9f46a1b385ecf4b9e79358dc2d9397e86568c77)\n## Simple Summary:\nIlluvium will not hold an Illuvitars D1sk battle with Su Zhu.\n\n## Overview:\nWhile Zhu Su is a well known figure in the web3 community and does have a larger follower count than Illuvium, direct association with him risks the reputation that the DAO has worked to curate.\n\nIlluvium has constantly sought an image of being different and doing things right. The original presented \"battle\" not only places an Illuvium co-founder in direct connection with a controversial figure, but does so with the perception of an invitation from the DAO, on a stage provided by the DAO.\n\nTo ensure first introductions to Illuvium are not establishing a direct connection between a new, exciting product and a controversial figure representing arguably the perception the DAO has fought to separate itself from, the originally presented \"d1sk battle\" shall be canceled.\n\nDuring this tenuous time for web3, it is important to avoid the risk of \"scam by association.\"",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 4,
+      "blockNumber": 16713881,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x9d97cdf0caca8fc3adf80f6a464703686b89e86ad1619afff202b7a6d7a6bb87",
+      "startTime": {
+        "timestamp": 1677432600
+      },
+      "endTime": {
+        "timestamp": 1677691800
+      },
+      "startTimestamp": 1677432600,
+      "endTimestamp": 1677691800,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4MDZlNTMwM2NhM2NjNzZkOTU5NmJiYmI5NmM3NDJkYzlkNzJkMDlhN2FhYzEzNmE4YmEzYmQ1MWE0YTRhMWJkMQ==",
+      "id": "0x06e5303ca3cc76d9596bbbb96c742dc9d72d09a7aac136a8ba3bd51a4a4a1bd1",
+      "title": "IIP-30 Proposal for the Sale of Illuvitars",
+      "content": "[GitHub IIP-30](https://github.com/IlluviumGame/IIPs/pull/37/commits/99cb9b64a231c85ed9d9916f5d7c0febdb610678)\n## Simple Summary:\nThe Council is launching a new pricing strategy for its collection and album features, with reduced prices for standard and mega D1sks. Three new features, Alpha D1sks and Misprints and Launch Party Goals, will increase excitement and rarity. The Illuvium marketing team has requested D1sks for promotion to make Illuvitars a more sought-after product.\n## Overview:\nThe Council has a new pricing strategy to make its collection and album features more accessible and exciting. Alpha D1sks, Misprints, and Launch Party Goals are being introduced to keep customers engaged.\nThe pricing structure is as follows:\n#### Standard D1sks: 0.005 ETH\n#### Mega D1sks: 0.025 ETH\n#### Alpha Standard D1sks: 0.025 ETH (limited to 100,000)\n#### Alpha Mega D1sks: 0.125 ETH (limited to 20,000)\n\nThe contents of a Mega Disk will now include a guaranteed rare Illuvitar, instead of a guaranteed rare item. This means the guaranteed rare can no longer be an accessory.\n\nAlpha disks are available for three days from the start of the sale or until sold out.\n\n## Misprints: \nAny Illuvitars not revealed in the first 3 months from the sale date will be considered \"Misprints\" and exceptionally rare. These misprints will be auctioned off after Wave 1 of the sale.\n\n## Launch Party Goals: \nThe Illuvium Launch Party Goals have been created to keep customers engaged. The specific goals will be kept a mystery, but two examples are:\nCommunity Goals: If 5,000 D1sks are sold, all customers who purchase a D1sk will receive an exclusive \"Welcome to the Party\" emote.\nIndividual Goals: If 10 D1sks are purchased, customers will receive a 10% off merch code.\nAdditionally, the Illuvium marketing team has requested 5,000 standard and 1000 mega D1sks for promotional purposes, which the council has approved.\n\n## Rationale:\nThe rationale behind the new pricing strategy from the council is to increase accessibility and excitement for community members. By introducing Alpha D1sks and Misprints, as well as Launch Party Goals, the council hopes to engage customers and keep them interested in their collection and album features. Using promotional disks is crucial for boosting engagement and maintaining the success of marketing efforts.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 4,
+      "blockNumber": 16621827,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x06e5303ca3cc76d9596bbbb96c742dc9d72d09a7aac136a8ba3bd51a4a4a1bd1",
+      "startTime": {
+        "timestamp": 1676151094
+      },
+      "endTime": {
+        "timestamp": 1676410294
+      },
+      "startTimestamp": 1676151094,
+      "endTimestamp": 1676410294,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline "
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4N2IyMGUxZWE2NTM2MDhkYTViMzFhNWYyYjU0MTQ3YzczYTA4NTRiZDc5NDM5ZDA4ZDRiODhhZmRhZmJiZmMxNQ==",
+      "id": "0x7b20e1ea653608da5b31a5f2b54147c73a0854bd79439d08d4b88afdafbbfc15",
+      "title": "IIP-29 Safety Pool",
+      "content": "[IIP-29 GitHub](https://github.com/IlluviumGame/IIPs/pull/36/commits/766a029de5060c76ac0b78859441af37c42bf914)\n## Simple Summary\nCreate a Safety Pool within the Illuvium Treasury. The Safety Pool is a separate grouping of funds up to a maximum of $15M USDT. The Safety Pool may be utilized to cover DAO costs. Alternatively, the funds in the Safety Pool may be transferred to the Vault for regular distribution.\n\n## Overview\nThe Safety Pool will be held by the DAO as USDT, and tracked separately from other Treasury assets. This will enable on-chain transparency for Safety Pool funds. Additional proposals, such as ICCP-4, must specify what revenue will fund the Safety Pool. If not specified by IIP or ICCP, revenue will go to the Vault for distribution.\n\nRevenue generated from purchases will be swapped for USDT on the open market and moved directly into this wallet. Any revenue in excess of $15M USDT will be treated as normal revenue, and will go to the Vault for distribution.\n\n## Rationale\nThe implementation of the Safety Pool is in response to broader market conditions and uncertainty. It is critical that the DAO provides stability and engages in conservative risk-management strategies. This implementation provides additional flexibility as compared to diverting revenue directly into the Treasury. USDT was chosen to avoid reduce risk associated with market trends, and to provide a separate currency from USDC for tracking purposes. Additionally, as a standalone proposal, it is more straightforward to release funds from the Safety Pool, or to modify values within the Safety Pool in the future.\n\n## Sizing the Safety Pool\nThe Council chose the size of the Safety Pool ($15M USDT) after consulting the internal team, who recommended that amount to cover approximately two years of development and costs based on current expenditure projections and existing stablecoin runway.\n\n## Utilizing the Safety Pool\nThe Safety Pool can only be utilized by the DAO via an ICCP and the amount and reason must be specified. Any portion of the Safety Pool may be utilized in this way.\nIf other revenue sources are sufficient to fund the DAO, the Safety Pool may be transferred to the Vault for regular distributions via ICCP. ",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 5,
+      "blockNumber": 16539983,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x7b20e1ea653608da5b31a5f2b54147c73a0854bd79439d08d4b88afdafbbfc15",
+      "startTime": {
+        "timestamp": 1675328400
+      },
+      "endTime": {
+        "timestamp": 1675587600
+      },
+      "startTimestamp": 1675328400,
+      "endTimestamp": 1675587600,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline "
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4MzhkM2RiY2M4MjBjZTQ0NWJlNzg5YjQ3MGE1YWNlMjZmNjI4YjBiNDQ5YWViZGY3ZWQ4YmQ1Y2UwMjMxODk4ZQ==",
+      "id": "0x38d3dbcc820ce445be789b470a5ace26f628b0b449aebdf7ed8bd5ce0231898e",
+      "title": "ICCP-4 Divert Revenue from the Illuvitar Sale to the Safety Pool",
+      "content": "[ICCP-4 GitHub](https://github.com/IlluviumGame/IIPs/pull/36/commits/c0a1e083dc35e0da167b361ffb951365a98539ab)\n## Summary\nThis proposal funds the Safety Pool (IIP-29) with revenue generated through the sale of the first batch of Illuvitars. Reserving these funds helps to mitigate the risk of uncertain macroeconomic conditions by providing an emergency source of runway to sustain DAO operations, if necessary.\n\n## Abstract\nThe community proposed using the revenue generated from the initial sale of Illuvitars to support the DAO. Instead of what is stated in IIP-13 (“The revenue generated from the sale will go into the Illuvium Vault to be distributed to stakers in the protocol.”) 100% of revenue from Illuvitars will be held in the Safety Pool (IIP-29) up until the maximum quantity denoted in USD outlined in IIP-29, or until authorized for release or use (by future ICCP) by the council. Once the Safety Pool is filled, any future Illuvitars revenue will be transferred to the Vault, to be treated as normal revenue and distributed to stakers (ICCP-3).\n\n## Rationale\nChallenging macroeconomic conditions exist that may adversely impact the financial health of the DAO prior to achieving sustaining recurrent revenue streams. This proposal is an application of the risk management strategy established in IIP-29 that aims to create a greater financial buffer that can extend the development runway if necessary.\n\nThe Illuvium community has responded favorably (over 60 upvotes) to the potential of using revenue from the Illuvitars sale as development runway. (https://discord.com/channels/760344898200666112/1040218513413001256/1040218513413001256) This proposal integrates that direction into a more flexible alternative. \n\nThe Council proposes to fund the Safety Pool (IIP-29) with revenue from the sale of Illuvitars until achieving the threshold set within IIP-29. \nThe sale of Illuvitars will also likely involve sales through partners. Per the definition in ICCP-3, the DAO’s share of partnership revenue directly associated with Illuvitars will also be directed to the Safety Pool.\n\n## Discussion\nBroad community support has been shared in Discord, as seen in the discussion linked below. \n\n## Credit\nThe core of this proposal was written and discussion led by #Josh.ETH. Many of the points outlined here have also been derived from the discussion around the Safety Pool by #b0tch.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 5,
+      "blockNumber": 16540004,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x38d3dbcc820ce445be789b470a5ace26f628b0b449aebdf7ed8bd5ce0231898e",
+      "startTime": {
+        "timestamp": 1675328400
+      },
+      "endTime": {
+        "timestamp": 1675587600
+      },
+      "startTimestamp": 1675328400,
+      "endTimestamp": 1675587600,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4MjQ1ZTQ0MGMzYjUxN2EwYjdhN2ZmMTFjMmMwMzhjZmQ5NmM1MDNhYjljYmYzZTU5M2JkOGQ3YzczY2QwN2ZhZQ==",
+      "id": "0x245e440c3b517a0b7a7ff11c2c038cfd96c503ab9cbf3e593bd8d7c73cd07fae",
+      "title": "ICCP-3 Defining Vault Revenue & Distributions for Future DAO Product Directions ",
+      "content": "[ICCP-3 Defining Vault Revenue & Distributions for Future DAO Product Directions ](https://github.com/IlluviumGame/IIPs/pull/35/)\n## Simple Summary\nThis ICCP defines how future product revenue is distributed to the Vault, accounting for variable and fixed costs. Revenue from products with low variable costs is 100% of all ETH generated from sales. Revenue from products with non-negligible variable costs is less variable costs. Revenue from partnerships is the DAO's portion of agreements, less non-negligible variable costs. Commissions and affiliate marketing are considered. Variable and fixed costs incurred outside the DAO's core competency are deducted from revenue for experiential events before being sent to the Vault. Future product proposals should use the relevant definition of distribution.\n## Abstract\nThe Illuvium DAO has expanded and clarified its vision since its inception, so it's vital to define revenue from different products before launching new product streams. This aims to create clear definitions for future product lines and how revenue will be distributed to the Vault.\n## Overview\nThe Illuvium DAO will release various products in 2023, including the main game, mobile game, collection game, merchandise, and festivals. To ensure consistency in revenue distribution via the Vault, the DAO must clarify definitions for revenue from these differing products.\nProposals for new products/revenue streams should identify the relevant distribution definition. Negligible variable cost (information) products will send 100% of revenue to the Vault, while non-negligible variable cost (physical) products will send 100% of revenue less variable costs to the Vault. Commission and affiliate marketing products will also follow the relevant distribution strategy, with revenue reduced by associated costs.\nThe DAO may also engage in partnerships and licensing of assets. Partnership products will send 100% of revenue attributable to Illuvium's portion of the agreement, less variable costs, to the Vault. Licensing products will send 100% of revenue to the DAO per the licensing agreement to the Vault.\nEvent/experiential products have unique costs outside the DAO's core competency. Revenue distributions from such products will be less non-negligible variable costs and event/experience-specific fixed costs to the Vault.\n## Rationale\nThe purpose of this proposal is to clearly define the revenue and expectations for Vault distributions for the Illuvium DAO as it expands its scope and product offerings. The proposal aims to ensure sustainable revenue distribution for the long-term operation of the DAO, maintain quality in all products, and provide clear expectations for $ILV stakers.\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 5,
+      "blockNumber": 16518741,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x245e440c3b517a0b7a7ff11c2c038cfd96c503ab9cbf3e593bd8d7c73cd07fae",
+      "startTime": {
+        "timestamp": 1675072800
+      },
+      "endTime": {
+        "timestamp": 1675332000
+      },
+      "startTimestamp": 1675072800,
+      "endTimestamp": 1675332000,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4MWQ4NWFjODlkNzlhYjI0OGEwZWMyMTIwMzU4YWY1MTAyODhmNGQwMzZjODI5NmQ3ODZhYjMzYWQ0OTA2YzU5Yg==",
+      "id": "0x1d85ac89d79ab248a0ec2120358af510288f4d036c8296d786ab33ad4906c59b",
+      "title": "IIP-28 Withdrawal of Sushiswap Liquidity",
+      "content": "[IIP-28 GitHub](https://github.com/IlluviumGame/IIPs/pull/34)\n## Simple Summary\nThe DAO will remove 100% of the current Treasury ILV/ETH liquidity position from Sushiswap. The ETH component of this liquidity position will be swapped for USDC to provide additional runway for development.\n\n## Abstract\nFollowing the BLBP sale, the Treasury provided liquidity into the Sushi Liquidity Pool to increase liquidity for the ILV/ETH token pair. The total position is currently worth $5.44M USD (https://debank.com/profile/0x58c37a622cdf8ace54d8b25c58223f61d0d738aa). This liquidity is no longer required, as SLP staking adoption has thrived and the ILV/ETH liquidity pool is extremely deep on Sushiswap. This proposal seeks to use the Ethereum component of this liquidity position to be swapped for USDC in order to ensure runway stability for the DAO.\n\n## Motivation\nAs part of an overall risk management strategy, this proposal seeks to increase the Treasury's stablecoin holdings by utilising a currently unnecessary liquidity position. Ensuring runway stability for the DAO is critical as we approach the launch of Illuvium. The sale of the Ethereum component of this liquidity position will raise funds in USDC while not impacting the ILV token price. It is important to ensure that we have sufficient stablecoin funds available for payments, increased marketing presence, and partnerships as we approach the launch of Illuvium. The sale of the Ethereum component of the Treasury's ILV/ETH liquidity position will provide USDC runway to cover approximately 2.2 months of game development and operations.\n\nThe removal of the Treasury SLP liquidity position will not affect staking APR.\n\n## Specification\nThe DAO will remove 100% of the Treasury ILV/ETH Liquidity Position, swapping the ETH component for USDC. The ILV component will be added to the Treasury's ILV balance.\n\n## Identified Downsides\nIt has been identified that liquidity levels could drop in the future as the APR in Illuvium's staking pools decreases. The council and community have identified many potential solutions and alternatives to support long-term liquidity or make long-term liquidity unnecessary on the scale of vault buybacks. This is not a short-term concern, and there are many potential solutions should this become an issue.\n\n## Test Cases\nN/A",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 5,
+      "blockNumber": 16363752,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x1d85ac89d79ab248a0ec2120358af510288f4d036c8296d786ab33ad4906c59b",
+      "startTime": {
+        "timestamp": 1673202600
+      },
+      "endTime": {
+        "timestamp": 1673461800
+      },
+      "startTimestamp": 1673202600,
+      "endTimestamp": 1673461800,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4MmYwZTBhOTI5NDY5N2MzNTYwYzZmNWNjMTY5ZWRiZWI2OThmYTUyNGZlYTgxMzUyZDVjYjY0YzllODgzZDM4MQ==",
+      "id": "0x2f0e0a9294697c3560c6f5cc169edbeb698fa524fea81352d5cb64c9e883d381",
+      "title": "ICCP-2 Reduce Council Pay by 25%",
+      "content": "[ICCP-2 GitHub](https://github.com/IlluviumGame/IIPs/pull/33)\n## Simple Summary\nReduce council pay by 25% to $3750/month. \n\n## Abstract\nThe community continues to raise concerns around the clarity of the Illuvinati council's role in Governance V1. In addition, as other means of ensuring DAO runway are being considered and broader economic conditions continue to be uncertain, it is appropriate to evaluate a revision of the council compensation. Additionally, if any future financial sacrifices prove necessary during this epoch, the Illuvinati council believes they should start with themselves first.  \n\nChange \"Council Payment Section\" in IIP 12 from:\n• Each council member shall receive a $5000 USD equivalent payment per month in the form of $ILV tokens.\nTo:\n• Each council member shall receive a $3750 USD equivalent payment per month in the form of $ILV tokens.\nChange \"Change Council pay Section\" in IIP 25 from:\n• 5000$ USD per month paid in $ILV\nTo:\n• 3750$ USD per month paid in $ILV\nDetermination of payment would continue to follow IIP-25, as the only things changing in this ICCP are the amounts of payment. \n\n## Retroactive to the Beginning of Term\nAs this ICCP is being prepared to offer to council at the beginning of their term (Epoch 7), if passed, this ICCP shall be considered retroactive, following the compensation details outlined here from the start of their service to the DAO, with an intended 6-month term.\n\n## Rationale\nIt is imperative that the DAO continually evaluate the compensation of council members to ensure alignment of expectations and compensation to attract the best talent to lead the DAO, while ensuring funds are used appropriately.\n\n## Test Cases\nCouncil pay has been changed a few times throughout Illuvium history, all changed are linked on our official Snapshot and Github",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 5,
+      "blockNumber": 16363824,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x2f0e0a9294697c3560c6f5cc169edbeb698fa524fea81352d5cb64c9e883d381",
+      "startTime": {
+        "timestamp": 1673202600
+      },
+      "endTime": {
+        "timestamp": 1673461800
+      },
+      "startTimestamp": 1673202600,
+      "endTimestamp": 1673461800,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4M2I5MzM4ZmE4MDM5NzRkOWViMWVlMzU1MWZiODFlNmQ5YzIyYjg0YmYyYTU0N2MyNWFmYTQ0Njg4OTU4NzgzMg==",
+      "id": "0x3b9338fa803974d9eb1ee3551fb81e6d9c22b84bf2a547c25afa446889587832",
+      "title": "IIP-27 Spider Illuvial ",
+      "content": "[IIP-27 on Github](https://github.com/IlluviumGame/IIPs/pull/32)\n\n## Simple Summary\nAdd the possibility for the art team to make a spider Illuvial if they wanted too.\n\n## Abstract \nAs long as I (Fraggy) can remember Kieran has been saying he does not want a spider Illuvial. We asked the community and the voting was clear. The community would like to see a spider on the deck.\n\n## Overview:\nTwitter poll by Fraggy - 134 votes / 72,4% Yes / 27,6% No\nVotes on proposal idea in Discord - 58 Yes 8 No\n\n## Test Cases:\nCommon in Web(s)",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 4,
+      "blockNumber": 16178957,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x3b9338fa803974d9eb1ee3551fb81e6d9c22b84bf2a547c25afa446889587832",
+      "startTime": {
+        "timestamp": 1670972968
+      },
+      "endTime": {
+        "timestamp": 1671232168
+      },
+      "startTimestamp": 1670972968,
+      "endTimestamp": 1671232168,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline "
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4YjdhYTljZWE3Y2I0NTEwZGMxYTc1OTYxMDg0M2Y0YmZlNTUzNGZiNTJmYjIxNTMzYmRjMmQ4NmUzYmY2OTA3Mg==",
+      "id": "0xb7aa9cea7cb4510dc1a759610843f4bfe5534fb52fb21533bdc2d86e3bf69072",
+      "title": "IIP-26 Staked & Vested Voting ",
+      "content": "[IIP-26 on GitHub](https://github.com/IlluviumGame/IIPs/pull/31/)\n\n# Simple Summary\nChange voting to allow only staked and vesting ILV/SLP tokens to vote in council elections.\n\n# Abstract\nIt has always been possible for a bad actor to launch a Sybil attack with the way vILV calculations are done by transferring ILV to multiple wallets. \nIn the past week, there has been an anomalous uptick in the number of wallets holding ILV, which is consistent with what would be expected if an individual WERE planning to conduct a Sybil attack. \nI propose that we change voting to allow only staked ILV tokens to vote, which would add an additional, substantial cost to anyone trying to conduct a Sybil attack, while leaving genuine voters unaffected.\n\n# Motivation\nIn a Sybil attack, an ILV holder with a sufficiently large amount of ILV (and funds to pay for transfers to new wallets), can split their stack of ILV between many wallets, thus increasing their total vILV power. \nSince vILV is calculated quadratically, someone splitting 100 ILV between 100 wallets would have increased their voting power from 10 vILV to 100 vILV. \nThat contravenes the point of quadratic voting, and undermines the election process. The primary motivation for this change is to ensure the fairness of the election process.\n\n# Rationale\nThe recent uptick in ILV holders does not follow the trend we've been seeing of slow growth for total ILV holders. In the past 7 days, we've seen total ILV holders increase from 23500 to 25300. See included chart on GitHub for reference. \nMaking a change pre-emptively would ensure confidence in fairness of the voting process, save time and money (as the vote wouldn't have to be re-done if a Sybil attack happened), and create a robust solution for the future.\n\n# Downsides\nIt's been identified that making this change would impact non-staked ILV holders who are interested in participating in elections. Making this change does cause any non-staking ILV holder to have no voting power in elections.\n\n# Implementation\nThe team has indicated that implementing this change would take a minimal amount of effort, and would not significantly detract from other development.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 3,
+      "blockNumber": 15983906,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0xb7aa9cea7cb4510dc1a759610843f4bfe5534fb52fb21533bdc2d86e3bf69072",
+      "startTime": {
+        "timestamp": 1668618000
+      },
+      "endTime": {
+        "timestamp": 1668877200
+      },
+      "startTimestamp": 1668618000,
+      "endTimestamp": 1668877200,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline "
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4ODVlZGQwYmE5NjQ1MDM3ZDZjMDkxZmY3NzNlYjNjN2RkZjBhNGVkNWI3YWViNmJlOTVhMDIxMzk4NWRkOGE5MA==",
+      "id": "0x85edd0ba9645037d6c091ff773eb3c7ddf0a4ed5b7aeb6be95a0213985dd8a90",
+      "title": "IIP-25 Council Pay & Voting Mechanism",
+      "content": "IIP-25 Council Pay & Voting Mechanism\n\n[IIP-25 on Github](https://github.com/IlluviumGame/IIPs/pull/30)\n\n# Simple Summary\n\nMake changes to voting and council pay ahead of the next epoch, implementing changes suggested by the Illuvium CFO and key election feedback from the community. Governance v2 is very close to being presented to the community recommending a number of significant and more complex improvements. These two changes add value to the DAO immediately and their adoption is recommended prior to the full discussion of broader governance improvements. \n\n# Abstract\n\nWe’ve changed this a few times now and hopefully won't need to again for the foreseeable future. With guidance from the CFO, it's the opinion that we should preserve stable coin runway where possible. Council payments thus being made in $ILV will aid in optimising stable coin utilisation. \nFurthermore, the community has made it clear several times that they want to implement a blind voting system through Snapshot to ensure the voting process is as fair as possible. \n\n# Overview\n\nChange Council pay:\n\n• 5000$ USD per month paid in $ILV\n• Price of $ILV would be determined as an avg of the payment cycle, utilising the market price at 11:59 PM UTC on the last calendar day of the month.  \n\t- For Example: End of Month 1 ending price 60$, End of Month 2 ending price 50$, End of Month 3 price 55$. The payment of $ILV would be 55$ per $ILV. \n• Councils are paid every 3 months, 2 times per 6 month Epoch, once during the week following 3-months of service, and once in the week following the completion of the epoch.\nThis is financially identical to the current system. This proposal clarifies the determination of ILV price while also enabling the preservation of stable coin at the recommendation of the Illuvium CFO.\n\nChanging to Blind Voting System\n\n• Implement Snapshots Blind Voting aka Shutter : https://snapshot.mirror.xyz/yGz91njKbw-sXsnAT6RkoMzPwvuddZritz37h1OWO8o\n• All other voting processes would stay the same\n\n# Test Cases\n N/A\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xEdB961Ff598776f26A6c86976463b6Cb15d7d1c2",
+      "totalVotes": 4,
+      "blockNumber": 15921328,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x85edd0ba9645037d6c091ff773eb3c7ddf0a4ed5b7aeb6be95a0213985dd8a90",
+      "startTime": {
+        "timestamp": 1667862522
+      },
+      "endTime": {
+        "timestamp": 1668121722
+      },
+      "startTimestamp": 1667862522,
+      "endTimestamp": 1668121722,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4ZGE5NjJlZDAyN2UyMWQyYjI5YTFkMGRiMWY1MGY5ZGEzNjA3MWU3YWI5MWViOTE2NDk3NDllMzlmNjJhM2JiNA==",
+      "id": "0xda962ed027e21d2b29a1d0db1f50f9da36071e7ab91eb91649749e39f62a3bb4",
+      "title": "IIP-24 Illuvitars Sale Revamp",
+      "content": "[IIP-24 on Github](https://github.com/IlluviumGame/IIPs/pull/29)\n\n## Simple Summary\n\nWe are ready to take the next step towards a fully Layer 2 experience for our products. We planned the first Illuvitars sale for a hybrid L1/L2 system, but we now believe we can run it entirely on IMX. Providing our customers with a largely gas-free experience has always been our top priority. It also allows us to run the sale in a way we otherwise couldn’t, and we have outlined the changes below.\n\n## Abstract\n\nThe community has resurrected the old IIP-013 for the Illuvitars Sale and suggested changes. While it is difficult to change things so far in development, it gave us an idea of what the community was looking for. Some of the changes they would like to make are things we would have initially, we had always planned to run the sale on IMX. As such, now that we can do so, we want to reconfigure things where possible.\nThese are not massive changes, and the product will primarily be the same, but even changing pricing can significantly improve the product’s function.\n\n## Overview\n\nWe wish to move away from the traditional PFP project template. Illuvitars is already much more, but we still structured the pricing with the idea that the average customer would own just a few at most. Because of gas fees, where each mint may be upwards of $50, we always knew we could innovate to improve the product. It makes no sense for the product to have a low entry price with high gas fees.\nRunning the sale on IMX allows us to alter the price so players can purchase packs of Illuvitars for a much lower fee. With three billion+ combinations, it doesn’t feel right that most of those combos will never exist. This proposal fixes these issues.\n\n**Summary of Changes**\n\n- A vastly lower entry price per Illuvitar with zero gas fees\n- Purchase NFT packs called D1sks that players can open when they choose.\n- NOTE: D1sks will form the delivery mechanism for other products in the future such as cosmetics.\n- A free Tier 0 Illuvitar in every basic D1sk.\n- A simplified 2 D1sk system (basic and Ultra)\n- The Illuvitars Album: A collection game players try to fill to get rewards.\n\n**sILV2 will still be usable after onboarding to IMX**\n\n**Pricing**\n\nThere are two D1sks available. A Basic D1sk costs 0.015 ETH and contains 1 random Illuvitar and 3 random Accessories (plus a free Tier 0). The Ultra D1sk costs 0.075 ETH, swaps the Tier 0 for a higher tier, and includes at least one guaranteed rare.\n\n**D1sks**\n\nThe player no longer purchases a crate with one random Illuvitar revealed on purchase. Instead, they buy a D1sk they can open whenever they choose. It contains the metadata to link it to a particular sale, allowing players to speculate on the value of unopened D1sks from a specific batch.\nSince there are billions of combinations, inevitably, some combinations will not exist. Unopened Packs may contain rare Illuvitars or Accessories\nthat allow them to generate as-of-yet unseen combinations.\n\n**Free Tier 0 Illuvitar**\n\nPreviously, Tier 0 Illuvitars (technically free) cost about $20 to mint due to gas fees. With a layer two sale, we can instead add a free Tier 0 Illuvitar into each basic D1sk, making them accessible while keeping them somewhat rare.\n\n**Illuvitar Album**\n\nA collection game where collectors attempt to complete Collections, pages of Illuvitars all linked by a single attribute. There is a Collection for all the Water Illuvitars, a Collection for all the Rogue Illuvitars, and even one for all the Sunglasses. In all, there are over 500+ Collections. Each time you add an Illuvitar to a Collection, you gain points on the leaderboard. You earn additional points for completing a Collection. Players get prizes that differ in rarity depending on the difficulty of completion. The digital nature of these collections also allows us to let collectors use the SAME Illuvitar in multiple Collections, creating a mini-game where players look to bond the perfect attributes onto an Illuvitar so that collectors can use it on multiple pages. Maybe you need one more Water Illuvitar, plus one more Top Hat and Neon Rain background? Either buy a pack and cross your fingers or head to the IlluviDex, where someone might be willing to sell you a Top Hat and a Dash with Neon Rain background. Then you bond it and slam it into the album to complete 3 Collections with one Illuvitar.\n\n## Rationale\n\nWe have a chance to make Illuvitars something truly unique as one of the first, and best, art sales on layer 2. We should take that opportunity and build something the community will truly love that will take on a life of its own and become one of the most popular apps in the ecosystem.\nMoving the sale to IMX allows us the freedom to be even more creative. While some of these changes require a rework, the underlying tech of the NFTs themselves doesn’t change in any way, so there will not be much extra development time. We have already consulted with IMX on these changes, and they can assist us since they already use a similar flow for “Gods Unchained”. If this IIP passes, the team is ready to go with a fully developed plan on how to implement it quickly.\n\n## Test Cases\n\nN/A\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 5,
+      "blockNumber": 15305100,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0xda962ed027e21d2b29a1d0db1f50f9da36071e7ab91eb91649749e39f62a3bb4",
+      "startTime": {
+        "timestamp": 1660008889
+      },
+      "endTime": {
+        "timestamp": 1660268089
+      },
+      "startTimestamp": 1660008889,
+      "endTimestamp": 1660268089,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4ODg2MmFlYzQzMTU3MTg1ZTQ2MDQwM2M5NTQyMjc5MTliNTFmMWIwMjBlYWU2NTE0YWYyMzYzNTQ5MjA4ZGI5Mw==",
+      "id": "0x8862aec43157185e460403c954227919b51f1b020eae6514af2363549208db93",
+      "title": "IIP-23 Illuvium Forge",
+      "content": "[IIP-23 on Github](https://github.com/IlluviumGame/IIPs/pull/28)\n\n## Simple Summary\n\nIlluvium Forge gives prospective customers access to specific locked ILV positions at a discount. It allows the seed and team investors to offer their tokens at fixed discounts decided by the Council. When a customer purchases those tokens, the sellers receive their share of the proceeds and the buyers receive a newly minted Shard NFT that stores all the details of their position. The purpose of this is to give access to early liquidity without directly affecting the token price.\nEvery time someone acquires a position, it locks the tokens for the selected period (from 1 to 3 years), further reducing unlocked ILV supply.\n\n## Abstract\n\nAs with any project, the token supply must eventually enter the market. However, not all projects handle this in the same way. Previously, the Council voted on a one-time delay of said tokens while we pushed to bring to market revenue-generating events. With the first land sale’s conclusion, we are ready to begin revenue distributions, and we look to other ways to handle new tokens entering the market.\n\nForge allows those token holders the opportunity to gain liquidity by selling those tokens at a discount for a large lock-up. It is available for everyone, not just VCs, and the general community can purchase ILV at a discount for the first time.\n\n## Overview\n\nProspective buyers purchase positions via an NFT that holds the details of the tokens they stake to receive RevDis and Yield Rewards.\n\n### Vesting Contract\n\nThe Vesting contract stores a vesting position for each original locked ILV holder (seed and team members) with all necessary data for its related vesting schedules, such as the number of tokens and the start and end timestamps. Notice that even though it’s an ERC721 contract, transfer functionality is disabled.\n\nIt provides the following functionality:\n\n**View Balance** - Show the holders of locked tokens an up-to-date balance of their positions.\n\n**Claim Tokens** - Allows the holders of locked tokens the ability to claim tokens as per their linear vesting schedule (usually one year, except for the founders who we configure to unlock over three years)\n\n**Claim Revenue Distributions** - These specific locked positions do not claim through the existing Staking App and instead use the Rewards contract. This means owners of a staked Shard and existing ILV would need to claim once through the Staking App and once through the Forge app. In a future update, we should merge this as a QOL improvement. However, this is a complex task and to begin, it is much better for security to keep them decoupled.\n\n### Registry Contract\n\nThe Registry contract creates the interactions between the two interested parties (the buyer and the seller).\n\nIt provides the following functionality:\n\n**Communicates with Vesting Contract** - The Registry Contract has special permissions to update Vesting Positions.\n\n**Offers tokens to the market** - Holders of Vesting positions use the registry to offer their tokens at the specified discount. When those tokens are purchased, the original holder receives their share of the liquidity.\n\n**Allows purchasers to buy locked ILV** - A purchaser decides the length of their lock-up, which determines their discount, and the number of tokens they wish to purchase, limited by the number of tokens on offer.\n\n**Allows Shard NFT holders to stake** - Before the newly created Shard NFTs can receive Revenue Distributions and Yield Rewards, they must stake in the Rewards contract. An auto-stake option exists to make this seamless.\n\n**Withdraws tokens from the market** - Holders of Vesting positions that have previously offered their tokens can withdraw them from the market, allowing holders the control to only offer when they wish.\n\n**Redeems NFTs for ILV** - Once the locking period expires on an NFT, the holder redeems it for ILV.\n\n**Views total ILV offered** - Self-explanatory.\n\nWe should clarify that at no point does a purchaser interact with a single holder of a Vesting position. Instead, the prospective buyer only interacts with the aggregate of all Vesting positions that have offered their tokens. Vesting position holders don’t determine the price or the lock-up. Set discounts exist for each lock-up period, fully defined and controlled by the Council, and Vesting Position holders choose to make their tokens available, or not.\n\n### Rewards Contract\n\nStaked Shard NFTs representing locked tokens are eligible for Revenue Distributions and Yield Rewards. The Rewards contract works the same way as the current staking pools. The eDao sets the weight of this new pool with values that make it function as an extension of the ILV pool. Between the ILV pool and the Rewards pool, the total weight should be equivalent to 20% of the total rewards. Periodic updates are required to keep these values aligned, and the Council can adjust the target values via ICCP.\n\nThe Council can always vote on adjustments to the pool weights. Those weights are not the concern of this IIP.\n\nIt provides the following functionality:\n\n**Stakes NFTs** - Stakes an NFT so that it can receive rewards.\n\n**Unstakes NFTs** - Unstakes an NFT so that it can be redeemed for ILV.\n\n**Claims Rewards and Yield** - This allows a holder of a staked NFT to claim their percentage of the total claimable rewards and yield.\n\n**Views Rewards and Yield** - Shows a holder of a stake NFT their claimable Rewards and Yield.\n\n### Proposed Lock Configuration\n\n- **1-year lock:** 8% discount\n\n- **2-year lock:** 18% discount\n\n- **3-year lock:** 28% discount\n\nAs with all ILV contracts, these values are configurable by ICCP.\n\n## Rationale\n\nIlluvium Forge is a suite of solidity contracts that further improve the Illuvium protocol. It provides a clever way for holders of Vesting positions to gain access to liquidity without those tokens hitting the market. Many future improvements could further extend the functionality, but for now, it is essential to stay focused and implement the core features in a timely manner.\n\n## Test Cases\n\nN/A.\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 5,
+      "blockNumber": 15034494,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x8862aec43157185e460403c954227919b51f1b020eae6514af2363549208db93",
+      "startTime": {
+        "timestamp": 1656334901
+      },
+      "endTime": {
+        "timestamp": 1656594101
+      },
+      "startTimestamp": 1656334901,
+      "endTimestamp": 1656594101,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4ZWZjMTNkYjA3YjQwYjYzNzZhYWY4OTY4N2QyMjU5ZWQ0MWQ0NWIyYjAyOGFlMWUxOTFjNDZiMjA0YmI5YjA3ZA==",
+      "id": "0xefc13db07b40b6376aaf89687d2259ed41d45b2b028ae1e191c46b204bb9b07d",
+      "title": "IIP-22 Revenue Distribution",
+      "content": "[IIP-22 on Github](https://github.com/IlluviumGame/IIPs/pull/27/files)\n\n## Simple Summary\n\nThe token buyback function is a simple mechanism to smooth revenue distribution. We favour simplicity over complexity for several reasons, but primarily because we can achieve all the goals with a more straightforward system that is easy to understand.\n\n## Abstract\n\nFollowing months of discussion with the community, we propose a simple mechanism for handling revenue distributions. Our solution achieves all the following goals:\n\n- Smoothly distribute smaller or larger amounts depending on revenue fluctuations.\n\n- Limit the maximum distribution amount so we do not distribute considerable quantities in a single day.\n\n- It should be theoretically possible to distribute everything.\n\n- It should limit the number of transactions to minimise gas.\n\n- It should mitigate front running and sandwich attacks.\n\n## Overview\n\nInterested parties should read the White Paper to understand the distinction between the Vault, the Treasury, and where we generate revenue.\n\nThe proposed mechanism distributes a daily target amount, defined as a fixed percentage of the entire Vault. However, if the target is higher or lower than a fixed minimum or maximum, we use those values instead. The Daily Distribution then gets broken into several smaller, randomised values to smooth the price impact. Randomising the values makes it impossible to know how many transactions remain in the day, protecting against frontrunning.\n\n[Formula](https://github.com/IlluviumGame/IIPs/blob/iip-22/assets/iip-22/formula.png)\n\n**Example - Converting Daily Distribution into individual transactions**\n\nDaily Distribution = 2,000 ETH.\n\nTransaction 1: 123\n\nTransaction 2: 654\n\nTransaction 3: 87\n\nTransaction 4: 31\n\nTransaction 5: 1105\n\nTotal: 2000 ETH\n\nThis process works by choosing smaller random amounts until we reach the total.\n\n**Definitions**\n\n**MinMax():** A function that takes three inputs (min, max, and target) and outputs the target, unless it is lower or higher than the minimum and maximum.\n\n**Daily Distribution:** The total distributed for that day, in ETH.\n\nETH is swapped for ILV before distribution, but we always measure the amount in ETH.\n\n**V(snapshot):** Daily Vault Snapshot (i.e. the total value of ETH in the Vault at the start of the day)\n\n**R(min):** The minimum daily revenue distribution.\n\nIf V < R(min), V is substituted for R(min), which means that if we don’t have enough in the Vault to distribute the minimum, we distribute the entire contents of the Vault.\n\n**R(max):** The maximum daily revenue distribution.\n\n**T:** The target percentage of the Vault to distribute per day.\n\n**Proposed Configuration Variables**\n\nUpdates to the variables occur via ICCP\n\nR(min): **500 ETH**\n\nR(max): **5000 ETH**\n\nT: **15%**\n\nAdditionally, we set a slippage limit such that the transaction fails if the slippage is higher than the slippage limit. The proposed slippage limit is **3%**.\n\n**Worked Examples - Total Daily Distribution**\n**Each example uses the originally proposed configuration variables. The new proposed variable for T is 15%.**\n\n**Example - Using the Target Range Distribution**\nDay 1: The Vault contains 10,000 ETH. The daily target is therefore 10,000 \\* 20% = 2,000 ETH. Since this value is within the correct range, we distribute exactly 2,000 ETH. At the end of the first day, the Vault will have 8,000 ETH.\n\nDay 2: The Vault contains 8,000 ETH. The daily target is therefore 8,000 \\* 20% = 1,600 ETH. Since this value is within the correct range, we distribute exactly 1,600 ETH. At the end of the second day, the Vault will have 6,400 ETH.\n\n**Example - Using Minimum Value Distribution**\nDay 1: The Vault contains 1,000 ETH. The daily target is therefore 1000 \\* 20% = 200 ETH. Since this value is lower than the minimum daily distribution of 500 ETH, we distribute 500 ETH instead. At the end of the first day, the Vault will have 500 ETH.\n\nDay 2: The Vault contains 500 ETH. The daily target is therefore 500 \\* 20% = 100 ETH. Since this value is lower than the minimum daily distribution of 500 ETH, we distribute 500 ETH instead. At the end of the second day, the Vault will now have 0 ETH.\n\nThe best way to think about this scenario is that, when low, the Vault will keep distributing until it is empty, ensuring distributions are reasonably quick.\n\nLowering the minimum daily distribution increases the time taken for the Vault to empty.\n\nRaising the minimum daily distribution decreases the time the Vault takes to empty.\n\n**Example - Using Maximum Value Distribution**\n\nDay 1: The Vault contains 50,000 ETH. The daily target is therefore 50,000 \\* 20% = 10,000 ETH. Since this value is higher than the maximum daily distribution of 5,000 ETH, we distribute 5,000 ETH instead. At the end of the first day, the Vault will have 45,000 ETH.\n\nDay 2: The Vault contains 45,000 ETH. The daily target is therefore 45,000 \\* 20% = 9,000 ETH. Since this value is higher than the maximum daily distribution of 5,000 ETH, we distribute 5,000 ETH instead. At the end of the second day, the Vault will have 40,000 ETH.\n\nThe best way to think about this scenario is that, when high, the Vault will keep distributing the maximum amount allowable per day.\n\nLowering the maximum daily distribution increases the time taken for the Vault to decrease into the normal range.\n\nRaising the maximum daily distribution decreases the time taken for the Vault to decrease into the normal range.\n\n## Discussions\n\n**Rewarding Long-Term Stakers**\nRevenue distribution only considers those currently staked and only at their current weight. Since upgrading to Staking v2, everyone must have a staking period of at least one month, receiving the smallest weighting. Doing this rewards those with longer lock durations and eliminates the risk of someone staking for a single day to receive rewards. However, there are many more optimisations available.\n\nUnlike yield, revenue distribution does not distinguish between pools. It only cares that you are staked in one of the pools, so pool weights are not considered.\n\n**Revenue Distribution Lag:** Currently, potential stakers can judge the outcome of more significant events and then decide if they wish to stake. By introducing a lag (1 or 2 weeks), we could incentivise those parties to stake before the sale.\n\n**Reduce Minimum Weight or Increase the Minimum Lock Period:** The simplest method to reward long-term stakers further would be to reduce the minimum weight (i.e. Change the weight for 1-month stakers from 1 → 1/12 or some other fraction) or increase the lock period.\n\n**Increase the weight for ultra long-term stakers:** Add new weights for lock durations greater than one year.\n\n**Require relocking tokens at the end of their locking period:** The percentage of the total supply that is locked is an important metric. The project appears less stable if we do not require relocking.\n\n**Changing to ETH-Based Distribution**\n\nEven though the above system is relatively simple, some complexities and trust are still required from those outside the eDAO. For example, even though we randomise and hide the purchases, members of the private mempool can see the purchases and profit from them. While a minor risk, since these malicious actors are removed near instantly from the group, it is still a consideration. A more substantial consideration is the sell actions of the DAO to fund development. An ICCP must accompany these, and making them public allows malicious actors to benefit. Again, there are many ways to mitigate these issues, but the most straightforward approach to increasing reliability and security is eliminating moving parts.\n\nThe benefits of distribution in ETH (technically wETH) are numerous:\n\n- Complete removal of any risks associated with sandwich attacks.\n\n- Provides an entirely trustless system of distribution.\n\n- Reduces fees.\n\n- Eliminates the need for randomness and smaller distributions.\n\nThe downside of distribution in ETH is:\n\n- There is no price action on the token, except for those that choose to swap ETH for more ILV directly. Illuvium Labs could build this type of “reinvestment option” to make it easy for stakers.\n\nRegardless of the appetite for this change, we should be prudent and start by using the current revenue distribution system. Any change requires reengineering the contracts, and it makes sense to move away from the current system only if experience shows it is suboptimal.\n\n**We encourage the community to discuss these changes. They are not required to proceed, but interested parties must understand the options. An appropriate time to include any significant changes (i.e. An IIP rather than ICCP) would be during the development of Staking v3, which targets a Layer 2 launch.**\n\n## Rationale\n\nRevenue distribution must be simple and understandable. The proposed mechanism is robust and gives the Council the power to adjust the parameters quickly. It limits frontrunning and slippage as much as possible and rewards stakers based on the duration of their lock.\n\nAdditionally, it ensures that the Vault has a mechanism to empty and smooth out distributions when it encounters spikes in revenue\n\n## Test Cases\n\nN/A\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 5,
+      "blockNumber": 15024084,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0xefc13db07b40b6376aaf89687d2259ed41d45b2b028ae1e191c46b204bb9b07d",
+      "startTime": {
+        "timestamp": 1656166792
+      },
+      "endTime": {
+        "timestamp": 1656425992
+      },
+      "startTimestamp": 1656166792,
+      "endTimestamp": 1656425992,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4NzMzM2I5NWZlYjNmYTYxNzJjYjJkMzVmOWZjZDBmZWEzZDQxOGVmYzI5ZWI3MjQ1MDI2NWQzYjYyYjg1MzQ3OA==",
+      "id": "0x7333b95feb3fa6172cb2d35f9fcd0fea3d418efc29eb72450265d3b62b853478",
+      "title": "IIP-21 Illuvinati Council/ Governance Modifications.",
+      "content": "[IIP-21 on Github](https://github.com/IlluviumGame/IIPs/pull/25)\n\n## Simple Summary\n\nChanges to Governance processes while waiting for Governance V2:\n\n1. Modify Epoch length to 6 months.\n2. Council Payments paid in Stablecoin (USDT), not ILV anymore.\n3. An Official 'Governance Forum' on Illuvium website for better IIP Organization.\n\n## Abstract\n\nGovernance improvements help us keep up with the constantly evolving landscape of Illuvium. This IIP suggests three critical enhancements before the new Epoch begins.\n\nThe current community sentiment is that Epoch's length is not long enough for council members to immerse themselves in council operations fully. For this reason, we suggest extending Epochs by an additional three months.\n\nSome community members have pointed out that the current payment type of ILV isn't ideal due to the potential swings in price. We propose changing council payments from ILV to USDT.\n\nThe last enhancement is building a dedicated forum for governance discussions (Until V2 Governance is live).\n\n## Rationale\n\nThe number of IIPs expected as we move into game launch is scheduled to ramp up considerably. Due to election periods, it would be beneficial to have council members retain a seat longer than campaigning every three months. Giving council members more time allows them to materialize ideas into real IIPs and adequately engage with the team and community.\n\nPreviously IIP-12 made changes to the council stipend, which was sufficient at the time; due to the current price of ILV, it no longer makes sense to pay in ILV. Paying in stable coins means we can control the amount each month.\n\nThe community has asked for an improved governance forum since our first Epoch. We agree that Governance will benefit from a dedicated platform on the main website for IIPs and ICCPs.\n\n### Test Cases\n\nN/A",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 3,
+      "blockNumber": 14843109,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x7333b95feb3fa6172cb2d35f9fcd0fea3d418efc29eb72450265d3b62b853478",
+      "startTime": {
+        "timestamp": 1653499500
+      },
+      "endTime": {
+        "timestamp": 1653758700
+      },
+      "startTimestamp": 1653499500,
+      "endTimestamp": 1653758700,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4YzZlZGRkYjI2MThmZmI0YjFkODM5MzNhMjdjMzVjN2E0ODNhZmJhMWQyYWJhMGJkODgyZGNiNzczYzhlZjcxYw==",
+      "id": "0xc6edddb2618ffb4b1d83933a27c35c7a483afba1d2aba0bd882dcb773c8ef71c",
+      "title": "IIP-20 Parameters for Illuvium: Zero Land Sale",
+      "content": "## Simple Summary\n\nIlluvium: Zero will soon be ready. Leading up to this, we must get approval on the details of the Land Sale. Following this IIP will be the release of two additional guide documents. One describes Illuvium: Zero and the other explains how to purchase land. While not explicitly required for this IIP, they will give much needed context in an easily digestible way.\n\n## Abstract\n\nA 3D isometric city building game is being developed using Unity and is getting closer to its Alpha release. Illuvium: Zero requires a land sale, which will mint the land players will use to play Illuvium: Zero. Illuvium will host the Land Sale in the IlluviDEX and mint the NFTs on IMX. It represents our largest web app to date.\n\n## Overview\n\n**Land Sale Timings**\n\n|                            |            |\n| -------------------------- | ---------- |\n| **Total Duration Of Sale** | Three days |\n| **Plot Sold Per Batch**    | 278 plots  |\n| **Batch Release Date**     | 1 per hour |\n| **Duration of Each Batch** | 2          |\n\nPractically, approximately 278 new plots will go on sale every hour. At this point, they will start reducing in price until someone purchases them.\nThere is nothing needed to do for purchase besides selecting the plot and paying the price on display. If you wish to buy for a lower price, wait for it to drop, but remember that another person can purchase the same plot as you. Since tranches are released every hour, there may be some overlap. One tranche will be 1 hour old (approximately 30% of the starting price), and the other will be brand new. Each batch will have roughly the same ratio of Tiers as the overall land numbers.\n\n**Land NFT Numbers**\n| | |\n| -------------------------- | ---------- |\n| **Total Land NFT plots** | 100000 |\n| **Total plots available in the first sale** | 20000\\* |\n| **Tier 5 Land plots to be sold in the first sale** | 2 |\n| **Tier 4 Land plots to be sold in the first sale** | 869 |\n| **Tier 3 Land plots to be sold in the first sale** | 2088 |\n| **Tier 2 Land plots to be sold in the first sale** | 5012 |\n| **Tier 1 Land plots to be sold in the first sale** | 12029 |\n\nIlluvium will reserve 25 (Tier 1) plots for giveaways during the landsale event and 4 plots (1 of each Tier, excluding Tier 5) for live testing purposes and quality assurance.\n**Land NFT Details**\nEach plot of land will have limited details available before purchase as outlined below:\n\n|              |                                                                                                            |\n| ------------ | ---------------------------------------------------------------------------------------------------------- |\n| **Region**   | There are 7 regions in total. Region affects the probability of Illuvial affinity scanned.                 |\n| **Tier**     | There are 5 Tiers in total. Tier affects the number of element and fuel sites and the landmarks available. |\n| **Location** | Location is only relevant for future expansions where adjacent land may be able to be merged.              |\n\nOnce purchased, the IMX will mint an NFT containing details of the land plot. We use a random seed to deterministically generate the site and landmark details that comprise the land plot.\n\nThe deterministic function that generates these details will be stored in the immutable blockchain contract and can be used to verify that applications like the Illuvium: Zero game client or the IlluviDEX web application honour the land generation function defined in the contract.\n\nThis function generates the following details:\n| | |\n|------------------- |------------------------------------------------------------------------------------------- |\n| **Element Sites** | An array of Element Sites containing details of each site's type and location. |\n| **Fuel Sites** | An array of Fuel Sites containing details of each site's type and location. |\n| **Landmark** | The type of any generated Landmark. Empty for those Tiers which do not include Landmarks. |\n\n**Number of Sites and Landmarks per Tier**\n\nThere are a fixed number of Sites and Landmarks per tier, but the type of these Sites and Landmarks can vary. For example, one Tier 1 site may have one of each Element Site or 3 Lakes.\n\nHigher level Tiers have sites that are more resource rich. Accordingly each Tier above Tier 1 has a production boost which increases the amount of Fuel and Elements generated by the Sites on the Plot. The higher the Tier level the higher the production boost.\n\nThe following table defines the number of Element Sites, the number of Fuel Sites, the class of Landmark, and the Production Boost for each tier:\n\n| **Land Tier** | **# of Element Sites** | **# of Fuel Sites** | **Number and type of Landmark** | **Production Boost** |\n| ------------- | ---------------------- | ------------------- | ------------------------------- | -------------------- |\n| Tier 1        | 3                      | 1                   | None. No landmark.              | 0%                   |\n| Tier 2        | 6                      | 3                   | None. No landmark.              | 33.33%               |\n| Tier 3        | 9                      | 6                   | 1 Element landmark.             | 100%                 |\n| Tier 4        | 12                     | 9                   | 1 Fuel landmark.                | 300%                 |\n| Tier 5        | 15                     | 12                  | 1 Arena.                        | 900%                 |\n\nQuantities of sites are defined, meaning that all land of a particular tier will have the potential to produce just as much as any other land plot.\n\nThere will be minor differences due to:\n\n- Variety and spread of sites\n- Location of sites on the plot\n- The synergy between sites and Landmark\n\nWe feel the slight randomness adds an element of excitement to the sale.\n\n**Land NFT Pricing**\nThe land sale uses a declining price model, configured with a starting value that declines at 2.5% per minute\\* for two hours.\n| **Tier** | **Starting price in ETH** |\n|:-------------------------------------------------: |:-------------------------: |\n| Starting Price for Tier 5 Land Plot in First Sale | Live English Auction |\n| Starting Price for Tier 4 Land Plot in First Sale | 80 |\n| Starting Price for Tier 3 Land Plot in First Sale | 20 |\n| Starting Price for Tier 2 Land Plot in First Sale | 6 |\n| Starting Price for Tier 1 Land Plot in First Sale | 2 |\n\n[Pricing image in Github](https://github.com/IlluviumGame/IIPs/blob/IIP-20/assets/iip-20/land-percentage-time.png)\n\n**Tier 5 Land Auction**\n\nIlluvium will host a live event streamed on Twitch to auction the tier 5 land parcels. This auction will be different, with bidders pushing the price with their bid. There is a fixed end time for the auction, but each offer extends the auction by 5 minutes.\n\n**Payments**\n\nETH and sILV2 are valid payment options, but not in one transaction. While sILV2 will not attract external revenue, it will incentivise current token holders to claim their yield tokens as sILV2. This phenomenon will massively reduce the total supply of ILV long term.\n\n**Revenue Distribution**\nLandowners will have the opportunity to earn revenue from players in the main game through the novel use of a Balancer multi-token Weighted Pool. They will do so by swapping fuels they generate in-game for ETH. On the other side, players in Illuvium will exchange ETH\\* for fuel and use it to complete all transactions in the game except for trading between players.\n\nThe target will be for landowners to earn approximately 5% of the total revenue generated from in-game purchases in Illuvium.\n\n**Change To Illuvium Pricing**\n\nThe goal for Illuvium: Zero is to make it exciting for landowners to have some agency, which includes influencing the price of the fuel they swap and having an impact on the main game. However, Illuvium games require some level of stability to function well. We have come up with a solution to these requirements:\n\nIlluvium will not fix fuel (required for all in-game interactions) to USD. Instead, pricing in-game will be a fixed amount of fuel. Since this could cause fuel prices to fluctuate significantly depending on the actions of the landholders, the DAO will automatically supply or withdraw fuel from the balancer pool if the price differs by more than 25%.\n\nPractically, suppose the demand for fuel is higher or lower than the production. In that case, the price of actions in Illuvium can increase or decrease by up to 25%. Landholders can choose to sell when the price is high, and players can buy fuel when low.\n\nThe council can adjust the parameters of either the base price for fuel or the percentage variance allowed. They can also change the approximate percentage of revenue received by landholders.\n\n\\*sILV2 will not be used to swap for fuel. Instead, sILV2 acts as an alternative to fuel pegged to the price of ILV.\n\n## Rationale\n\nIlluvium provided all the details of the Land Sale early. However, after community feedback, the prices were too low. We have since seen a downturn in the crypto market, and the price now seems reasonable. All the details above have been thought through carefully, and we feel they are mature enough for the council to consider.\n\n## Test Cases\n\nN/A.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 5,
+      "blockNumber": 14628346,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0xc6edddb2618ffb4b1d83933a27c35c7a483afba1d2aba0bd882dcb773c8ef71c",
+      "startTime": {
+        "timestamp": 1650465164
+      },
+      "endTime": {
+        "timestamp": 1650724364
+      },
+      "startTimestamp": 1650465164,
+      "endTimestamp": 1650724364,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4Y2FmMTA4MWRlYzkyNGI4ODRmYWIwZTJmOTZhOGY2ZWU0NWVjOTFjM2Q4ODY3MTliMGZkNGQ4MGRiMzI1NGMyMQ==",
+      "id": "0xcaf1081dec924b884fab0e2f96a8f6ee45ec91c3d886719b0fd4d80db3254c21",
+      "title": "IIP-19 Launch Staking Flash Pool for ApeCoin Token",
+      "content": "[IIP-19 on Github](https://github.com/IlluviumGame/IIPs/pull/23)\n\n## Simple Summary\nIlluvium Flash Pool is a great tool for marketing and onboarding new players from strong communities. Newly launched ApeCoin is a great target for such marketing.\n\n## Abstract \nUnpause flash pool launches and offer BAYC/MAYC NFT holders to stake their ApeCoin in the Illuvium Flash Pool.\n\n## Overview\nThere are currently 39,778 holders of ApeCoin. Illuvium flash pool can be used to target these holders and allow them to stake their tokens, thus introducing them to  Illuvium game.\n\n## Rationale\nSubstantial progress was made in developing Illuvium since the last time flash pool was used. Launch of Staking V2 and upcoming Land Sale, Private Beta and  upcoming Public Beta are the major events happening now. By allowing BAYC/MAYC NFT holders to stake their ApeCoin, we will greatly increase the visibility into these events and bring new customers. ApeCoin holders are currently waiting for native staking, which will take anywhere from 16 to 20 weeks. Creating flash pool for them in the meantime will greatly increase the hype and anticipation right before the launch of Land Sale and Public Beta, which in turn will increase the amount paying customers and land owners.\n\n### Test Cases\nN/A\n\n## Copyright\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 5,
+      "blockNumber": 14485372,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0xcaf1081dec924b884fab0e2f96a8f6ee45ec91c3d886719b0fd4d80db3254c21",
+      "startTime": {
+        "timestamp": 1648614600
+      },
+      "endTime": {
+        "timestamp": 1648873800
+      },
+      "startTimestamp": 1648614600,
+      "endTimestamp": 1648873800,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4YmM0MTRiNGUxN2Y0YmZkZDRhNmE2OTA3NzZjYjA0NmI4NzA1ZGQ1NGFiZTFiYjU1OWFlNGNmNTY4ZTc1MmQ0Yw==",
+      "id": "0xbc414b4e17f4bfdd4a6a690776cb046b8705dd54abe1bb559ae4cf568e752d4c",
+      "title": "IIP-18 Illuvium Staking v2",
+      "content": "[IIP-18 on Github](https://github.com/IlluviumGame/IIPs/pull/22)\n\n## Simple Summary\n\nAfter collecting months of user feedback since the launch of the Illuvium Staking Contracts v1, the Illuvium team has designed a new set of smart contracts that implement additional features, gas optimisations, and security fixes. The goal is to deploy a better version of staking with a smoother UX and prepare the Illuvium protocol with a more flexible set of contracts for future features.\n\n## Abstract\n\nAfter a long delay, followed by a complete rework of the smart contracts to mitigate issues found in the v1 code, we are ready to deploy a new set of smart contracts. We concluded an external review from White Hat Samczsun, two external audits, and an internal audit. We are fully confident in the deployment and security of this product. All that remains is some minor quality assurance checks post-IIP approval.\n\nUpgrading to Staking v2 will be mandatory as the upgrade requires the existing contracts to be deprecated.\n\nThe launch will be accompanied by an article and explainer video for new users, helping them to understand what Staking v2 is, as well as a detailed upgrade document and a video tutorial that guides token holders and makes the entire upgrade process as painless as possible. It includes user scenarios for different situations, such as flexible deposits.\n\n## Overview\n\nThe exact date to begin rewards will be specified before deployment but should take no longer than one week. We require users to upgrade to v2 and receive many benefits and improvements in exchange.\n\nPlease see Definitions before reading to become familiar with the exact terminology.\n\n### Upgrade Process\n\nStaking v1 users must upgrade to v2 before receiving yield; however, they can still upgrade after the window closes.\n\nA Merkle Tree of each user’s accumulated yield weight in v1 will be published and stored in IPFS for full transparency. Anyone will be able to verify the authenticity of the data.\n\n**A detailed process for each type of stake:**\n\n- Flexible Deposit in ILV Pool - Doesn’t count to yield in v2 unless unstaked and locked for a minimum period of 1 month in v2.\n\n- Flexible Deposit in LP Pool - Doesn’t count to yield in v2 unless unstaked and locked for a minimum of 1 month in v2.\n\n- Locked Deposit in ILV Pool - Counts to yield rewards after upgrading to v2 at the current weight.\n\n- Unlocked Deposit in ILV Pool - Counts to yield rewards after upgrading to v2 at the current weight.\n\n- Locked Deposit in LP Pool - Counts to yield rewards after upgrading to v2 at the current weight.\n\n- Unlocked Deposit in LP Pool - Counts to yield rewards after upgrading to v2 at the current weight.\n\n- Locked ILV Yield - Counts to yield rewards after upgrading to v2 at the current weight.\n\n- Unlocked ILV Yield - N/A (Has not been 12 months since launch but will continue to count to yield rewards even after unlocked).\n\n- Seed and Team - Automatically migrated to v2 and not counted towards yield.\n\n### Main Changes\n\n**Rewards Claiming**\n\nUsers will no longer be required to claim every stake or unstake function. This selection will only be required when claiming rewards, which users can now do for all pools in a single transaction. Users will also be able to unstake all unlocked tokens in a single transaction.\n\n**Fixes and Gas Optimisations**\n\nThe new architecture comes with multiple gas optimisations by reducing the number of storage slots used by the deposit data structure, using new yield processing flows, and optimising the number of reads. These optimisations will make transactions cheaper.\n\n**Transfer Positions**\n\nFrequently asked by the community, user can transfer their v2 deposits to new addresses, which can be helpful in situations such as when a personal private key is leaked or anything that could motivate a user to move into a new Ethereum address.\n\nv1 locked positions are still unable to be moved to new addresses.\n\n**Upgradeability**\n\nStaking v2 (Factory, Core Pools, and Flash Pools) implements the Universal Upgradeable Proxy Standard, allowing Council members to vote on upgrades proposed to the contracts, opening many possibilities for future Illuvium staking features and even for new products. It brings new powers to ILV token holders and reinforces our Govern-To-Earn mantra. With upgradeability, there is a lot of flexibility for new IIPs and the evolution of Illuvium DAO as a whole.\n\n**Flexible Staking Removed**\n\nWe removed flexible staking in v2 to encourage users to commit to the project. Locking further reduces circulation, which puts upward pressure on the token. Weight calculations still follow the same 1 → 2 multiplier used in v1, which keeps the system fair and balanced for the long term.\n\nThe maximum locked period is still one year (2.0 weight).\n\n**NFT Distributions**\n\nA separate IIP is in progress with more details on the NFT distribution integration, but Staking v2 will include all the features required to make this integration seamless.\n\n**Changes From Initial Proposal**\n\n**Migration**\n\nOur engineers removed migration from the contracts due to the added complexity in the v2 rework. Functionally, migration allowed users to pay a fee to transfer unlocked deposits to v2 while keeping their weight. Instead, the new contracts enable users to maintain that weight without doing anything. For smaller stakers, this is a win. For larger stakers, this will probably result in slightly higher gas fees.\n\nWe still plan to add migration through a helper contract, but we do not have a fixed timeline. The current advice for larger stakers is to unstake from v1 and restake in v2. Staking v2 is still far cheaper than v1, however for gas optimisation, all deposits should be in v2.\n\n**Transfer Wallets**\n\nThe transfer wallet feature is restricted to wallets with no v1 staking history for security reasons. We recommend that users create a new wallet to begin staking in v2 if they would like to use this feature.\n\nException - If you only deposited into the LP pool in v1, then v2 deposits can be transferred. We will investigate possible future upgrades that could return this feature for other users.\n\n## Rationale\n\nStaking v2 will be a big step for Illuvium DAO and bring many enhancements and fixes to the protocol collected since the v1 launch. With a lower gas cost, Illuvium DAO should have access to more users with a lower barrier to entry and a more straightforward user experience due to the flow changes and fixes. Contract upgradeability ensures that any future changes are swift and will empower the community with even more effective governance.\n\n## Definitions\n\n- **Locked Deposit** - This is when a user has staked tokens with a lock, and the lock has not yet expired.\n\n- **Unlocked Deposit** - This is when a user has staked tokens with a lock, and the lock has expired.\n\n- **Flexible Deposit** - This is when a user has staked tokens with no lock.\n\n- **Locked ILV Yield** - Yield claimed and locked for 12 months.\n\n- **Unlocked ILV Yield** - Yield claimed more than 12 months ago and hence unlocked.\n\n- **Upgrade to v2** - Allowing v2 contract to read the v1 state and calculating yield in the v2 contract.\n\n- **Migrate** - The process of taking an Unlocked Deposit in v1 and unstaking it, then restaking it v2 with the original weight.\n\n- **Withdraw** - Unstaking a Flexible or Unlocked Deposit (but not migrating it to v2).\n\n- **Pending Rewards** - The rewards that remained at the staking v1 end block when we paused rewards.\n\n- **Accumulated Rewards** - The yield rewards earned from the pause until the resumption of yield. We calculate these manually.\n\n## Test Cases\n\nN/A.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 4,
+      "blockNumber": 14413298,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0xbc414b4e17f4bfdd4a6a690776cb046b8705dd54abe1bb559ae4cf568e752d4c",
+      "startTime": {
+        "timestamp": 1647646200
+      },
+      "endTime": {
+        "timestamp": 1647905400
+      },
+      "startTimestamp": 1647646200,
+      "endTimestamp": 1647905400,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4MGM2MDk0MDUxYzk4NmIwODJhNjdiODJhMTYzYTA0NmM5ZTQ0YTExZjMyMmMwNTQyZmQ2ODc0MDBkY2E2ZWQyNQ==",
+      "id": "0x0c6094051c986b082a67b82a163a046c9e44a11f322c0542fd687400dca6ed25",
+      "title": "IIP-17 Delaying Seed/Team-Token Unlocks",
+      "content": "[IIP-17 on Github](https://github.com/IlluviumGame/IIPs/pull/18)\n\n## Simple Summary\n\nIlluvium's three lead investors—Framework, Delphi Digital, and IOSG propose delaying the token unlocking event from March 31st, 2022, until June 30th, 2022\n\n## Abstract\n\nThe DAO should use the opportunity presented by Staking v2 to delay the token unlock event for pre-seed, seed, and team to mitigate the issues with the delay of the game.\n\n## Overview\n\nIlluvium designed the vesting period to prevent the seed and team from obtaining unlocked tokens before revenue distributions. The original vesting period for seed investors and core contributors was 12 months + an additional 12 months linear unlocking. As the project's scope has expanded considerably, this is no longer possible to guarantee revenue distributions before the unlock event, and we believe we should delay.\n\nWe propose a new unlocking date of June 30th, 2022, AEDT\n\n## Rationale\n\nDelaying the seed/team-token unlock date removes the potential sell pressure. The delay also allows us to demonstrate revenue distributions—a critical mechanism to incentivise investors to hold their tokens. We believe this reflects the conviction in the project's longevity and shows that the team is fully committed to delivering its vision.\n\n## Test Cases\n\nN/A.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 5,
+      "blockNumber": 14393429,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x0c6094051c986b082a67b82a163a046c9e44a11f322c0542fd687400dca6ed25",
+      "startTime": {
+        "timestamp": 1647377741
+      },
+      "endTime": {
+        "timestamp": 1647636941
+      },
+      "startTimestamp": 1647377741,
+      "endTimestamp": 1647636941,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4NTlkMWEyMWJkNTFmMmFmOGU1Yzg2YTczYjI4ODU0MjVlNDE2NGJlOWQ3Njc0ZDM0MDI1OWI3NDU0YjNhOWUyOA==",
+      "id": "0x59d1a21bd51f2af8e5c86a73b2885425e4164be9d7674d340259b7454b3a9e28",
+      "title": "IIP-16 $sILV reimbursement",
+      "content": "[IIP-16 on Github](https://github.com/IlluviumGame/IIPs/pull/17)\n\n## Simple Summary\nThe council will decide if the DAO reimburses those who traded in the unofficial Uniswap sILV pool up to one hour after the eDAO rescued the LP providers.\n\n## Abstract\nShould the DAO reimburse people who traded in the sILV pool up to an hour after the recovery transaction? (block 13940834)\n\n## Overview \nOn January 3rd, 2022, analysts discovered a vulnerability in our staking contracts, allowing an attacker to mint an unlimited amount of $sILV. The executioner DAO (eDAO) temporarily paused sILV minting until the release of Staking V2, fixing the vulnerability. We believed no attackers took advantage of the exploit at the time. We made this announcement on [Discord](https://discord.com/channels/760344898200666112/768749374255398943/927732522782191616) and our [socials](https://twitter.com/illuviumio/status/1478191824556621825).\n\nHowever, the attacker had been minting sILV using many addresses over a long period so they would remain undetected. Through this, they were able to mint approximately 8,000 sILV.  \n\nAfter our announcements about the vulnerability and the pausing of sILV minting, the attacker realised we had discovered the exploit and started to sell their sILV tokens and began draining the Uniswap pool. Had this been allowed to happen, the LP providers would have lost all their liquidity. As such, the eDAO held an emergency meeting and decided to mint a large amount of sILV and sold this into the pool, effectively dropping the price of sILV to zero. The eDAO stored this value with the intention to distribute it back to those affected at a later date.\n\nThe council had already decided to reimburse all Liquidity Providers and trades before the announcement and rescue transaction (block 13940834). Still, it was yet to determine if it would allow for a grace period after the rescue transaction for those that bought sILV after it had dropped to zero. The purpose of this IIP is to decide whether the Council should give a one hour grace period to those affected.\n\n## Rationale\nWe received enough feedback from affected users who traded after the rescue transaction to warrant an IIP. However, trades that happened after the snapshot are incredibly complex. It is difficult to determine the impact objectively, especially considering the ability of bad actors to game the system once they knew that sILV would be worthless.\nAs such, the Council must make the final decision.\n\n## Test Cases\nN/A.\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 5,
+      "blockNumber": 14006111,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x59d1a21bd51f2af8e5c86a73b2885425e4164be9d7674d340259b7454b3a9e28",
+      "startTime": {
+        "timestamp": 1642197000
+      },
+      "endTime": {
+        "timestamp": 1642456200
+      },
+      "startTimestamp": 1642197000,
+      "endTimestamp": 1642456200,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4NzQxNWE0YjZjYjNlMmUzM2QxYjQ4ZWZkOGE1YWFmNTdiYWFlN2IwZDZmMGMzNjQwYjQyNzI5Y2EyZjI0MTRlNQ==",
+      "id": "0x7415a4b6cb3e2e33d1b48efd8a5aaf57baae7b0d6f0c3640b42729ca2f2414e5",
+      "title": "IIP-15 $sILV claims on hold",
+      "content": "[IIP-15 on Github](https://github.com/IlluviumGame/IIPs/pull/16)\n\n## Simple Summary\nWe have found a vulnerability in our staking contracts, and as such, the eDAO has had to put a temporary pause on $sILV minting. The attack vector has been closed, and no funds have been compromised. This is purely a protection mechanism for the DAO. This IIP is designed to ratify the eDAO’s decision. \n\nThe vulnerability has been fixed within the staking V2 contracts, and we expect to have them launched shortly. $ILV holders will have plenty of time before the Land Sale to claim their $sILV if they wish. \n\n## Abstract\nsILV minting has been temporarily put on hold until the release of V2 contracts.  \n\n## Overview \nThe solidity team has found a potential attack vector that could lead to an attacker being able to mint an unlimited amount of $sILV. The problem doesn’t affect $ILV tokens as they are escrowed for 12 months, the eDAO can easily step in to fix the issue prior to the unlocking and v2 contracts will be live before $ILV yield starts to unlock with the vulnerability patched. It does have the ability to affect $sILV though which is unlocked and is currently being traded on the open market. For this reason, the eDAO needed to take immediate action to remove any potential attack vector. This IIP is designed to formalise and ratify the decision of the eDAO. \n\n## Rationale\nThe eDAO couldn’t allow an attacker to potentially hurt the project by minting $sILV and dumping it on the open market. For this reason, they immediately took action and as a result zero funds were lost and the contracts remain safe. \n\n## Test Cases\nN/A.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 5,
+      "blockNumber": 13939114,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0x7415a4b6cb3e2e33d1b48efd8a5aaf57baae7b0d6f0c3640b42729ca2f2414e5",
+      "startTime": {
+        "timestamp": 1641259800
+      },
+      "endTime": {
+        "timestamp": 1641519000
+      },
+      "startTimestamp": 1641259800,
+      "endTimestamp": 1641519000,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OjB4ZjE2YTU3ZjhhZDE0NzMzNmM5Y2ZlYTQzMWM0YjAyYmJjZDk5NzBmY2I2OTg3Njc1MWE0MDJjNzE1Yzc5ODljZQ==",
+      "id": "0xf16a57f8ad147336c9cfea431c4b02bbcd9970fcb69876751a402c715c7989ce",
+      "title": "IIP-14 Illuvinati Council Modifications",
+      "content": "[IIP-14 on Github](https://github.com/IlluviumGame/IIPs/pull/15)\n\n## Simple Summary\nTo streamline the Illuvinati Council's operations by modifying IIP-12 and more clearly defining the role of the Council. To that end, we propose the following modifications to IIP-12:\n\n*“The Council will be expected to meet regularly and report on its deliberations.”*\nCouncil will meet on an ad-hoc basis. Council will not report on its deliberations to facilitate free-flowing discussion and for competitive/privacy reasons. However, Council members are encouraged to communicate their rationale behind their voting decisions to the community in written and/or oral form. \n\n*“The Illuvium team will appoint a Community Manager to provide support and facilitate Council functions.”* \nNo change.\n\n*“The Illuvium team will implement a Council section on the official website dedicated to reporting Council activities and other governance matters.*” - \nOn hold, not a priority right now.\n\n\n## Abstract\nThe original intent of IIP-12 was to introduce more structure to the Council but, in practice, has become a burden on the Council and team given the reporting requirements. After deliberating as a Council and in discussion with the team, we believe that the modifications to IIP-12 remove unnecessary administrative burdens but preserve the original intent of the proposal which was to optimize the functioning of the Council and to empower the team in building the best Web3 game. To that end, we propose to make modifications to IIP-12 to prioritize the original responsibilities of the Council which [“include debating and voting on ICCPs and IIPs within a public forum on discord.”](https://docs.illuvium.io/whitepaper/dao/)\n\nTo that end, the Council has determined that instead of having regularly scheduled meetings, it will have free-flowing, ad-hoc meetings. In the spirit of transparency, the Council members are encouraged to communicate their voting decisions to the community in either written or verbal form. We also may hold ad-hoc community forums to gather feedback from the community, especially when ICCPs and IIPs are up for proposal.\n\n## Rationale\nThe intent of IIP-12 was to bring more transparency to the Council. IIP-14 preserves that original intent and optimizes the ability of the Council to operate more efficiently, and in line with the requirements of the team. Members of the Council will strive to provide a rationale for their voting decisions to the community but the discussions that happen among Council and team members will not be disclosed for privacy/competitive reasons (we do not want these discussions to be leaked to our competitors). Instead, we may elect to have ad-hoc Discord forums with the community, especially when there are ICP and ICCPs to be decided on. Ultimately, our goal remains the same which is to continue to serve the community that elected us and act as a sounding board to the team when it comes to primarily non-product decisions. We believe that IIP-14 will optimize the Council and strengthen the position of Illuvium as the leading Web3 game.\n\n\n## Test Cases\nN/A.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 4,
+      "blockNumber": 13678069,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/0xf16a57f8ad147336c9cfea431c4b02bbcd9970fcb69876751a402c715c7989ce",
+      "startTime": {
+        "timestamp": 1637769600
+      },
+      "endTime": {
+        "timestamp": 1638028800
+      },
+      "startTimestamp": 1637769600,
+      "endTimestamp": 1638028800,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtY2xwMmtnbWgxanltZHZ0ajNjd3B6N3loYXp4amZ4bnRzanN3a2doa3B1NGM=",
+      "id": "QmcLp2kGMh1JyMDVTJ3cWPz7yHazxjFXnTSjSWkGHkPu4C",
+      "title": "IIP-13 Illuvatars",
+      "content": "[IIP-13 on Github](https://github.com/IlluviumGame/IIPs/blob/master/iips/iip-13.md)\n\n## Simple Summary\nIlluvatars is a modular, configurable, NFT-based system for getting an avatar into the Illuvium\nUniverse. Each Illuvatar can be used across all games, as long as you link your account to\nthe wallet that owns the NFT.\nThe intention with Illuvatars is to allow for a perfect mix of randomness and rarity (via\nconfigurable attributes that are interchangeable), and availability via high-quality base\nportraits that anyone can purchase for a reasonable fee.\n\n## Abstract\nCreate avatars for users in the Illuvium universe.\n\n## Overview \n\n### Illuvatar Components\n\nEach Illuvatar is composed of two distinct parts which combine together to make the final\nimage. This image can be made up of many NFTs as we allow one NFT component per\naccessory category.\n\n### Minting\n\nFans can mint an infinite number of random base layer Illuvatars. These will be sold for a\nfixed price, with the ability to boost your chances of minting higher-tier illuvatars by adding\nan additional fee.\n\n### Sets\n\nEach set is available for a limited time. Once a new set is released the previous will never be\navailable for purchase again, unless from another user on the IlluviDEX.\n\n### Base Illuvatars - set 1\nTBD\n\n### Base Illuvatar Pricing\n[Pricing Image in Github](https://github.com/IlluviumGame/IIPs/blob/master/assets/iip-13/illuvatar-price.png)\n\n### Accessory Types\n* Head\n* Eyes\n* Body\n* Mouth\n\n### Accessory Pricing\n[Pricing Image in Github](https://github.com/IlluviumGame/IIPs/blob/master/assets/iip-13/accessory-price.png)\n\nBoth sILV and ETH can be used and the final price is subject to approval from the council\nbefore the sale date.\nIlluvatars and accessories will be sold in the IlluviDEX and act as the first method by which\nthese base layers can be bought.\n\n### Bonding\nOnce an accessory has been bonded to an Illuvatar it is permanent and can no longer be\nremoved.\n\n### Badges\nBadges from the Balancer Sale can also be fitted to an Illuvatar, however, these are not\nbonded and can be removed at any time.\n\n## Rationale\nIlluvatars is a fun way of giving players their own unique identity in the Illuvium Universe. The\nrevenue generated from the sale will go into the Illuvium vault to be distributed to stakers in\nthe protocol.\n\n## Test Cases\nCrypto punks, Bored Ape Yacht Club, Cool Cats.",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 4,
+      "blockNumber": 13445301,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmcLp2kGMh1JyMDVTJ3cWPz7yHazxjFXnTSjSWkGHkPu4C",
+      "startTime": {
+        "timestamp": 1634608800
+      },
+      "endTime": {
+        "timestamp": 1634868000
+      },
+      "startTimestamp": 1634608800,
+      "endTimestamp": 1634868000,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtdTR4NnAxeG1zcHR4bWdmcXB0OXdqa3RkcnRkZ241ZmF3NGxydDlxc3ZpN3g=",
+      "id": "QmU4x6p1XmsptxMgfqPt9WJkTdRtdgn5FaW4LRt9qsVi7x",
+      "title": "IIP-12 Illuvinati Council Improvements",
+      "content": "[IIP-12 on Github](https://github.com/IlluviumGame/IIPs/pull/12)\n\n## Simple Summary\nTo promote greater transparency and establish a sustainable structure for the Illuvinati Council's operations, the following proposal outlines three improvements.\n\n1. The Council will be expected to meet regularly and report on its deliberations.\n\n2. The Illuvium team will appoint a Community Manager to provide support and facilitate Council functions.\n\n3. The Illuvium team will implement a Council section on the official website dedicated to reporting Council activities and other governance matters.\n\n\n## [Read full proposal text here](https://github.com/IlluviumGame/IIPs/blob/fafe7efc2218e3ac887df1a27127aff97ac07796/iips/iip-12.md)",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 4,
+      "blockNumber": 13269369,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmU4x6p1XmsptxMgfqPt9WJkTdRtdgn5FaW4LRt9qsVi7x",
+      "startTime": {
+        "timestamp": 1632231900
+      },
+      "endTime": {
+        "timestamp": 1632491100
+      },
+      "startTimestamp": 1632231900,
+      "endTimestamp": 1632491100,
+      "currentState": "closed",
+      "choices": [
+        "Accept ",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtcmxtc2RxcmRyc3Noc213a2hrZjVueHRyaGw4aDloamR4ZGtoczlxZnJnd3E=",
+      "id": "QmRLmsDqrdRssHsmwKHkF5nXTRHL8H9HjdXdKhs9qfrGwq",
+      "title": "IIP-11 Council Vote for 4th Flash Pool",
+      "content": "[IIP-11 on Github](https://github.com/IlluviumGame/IIPs/pull/11)\n\n## Simple Summary\nThe Illuvinati Council is being presented with five tokens to vote upon for the 4th flash pool. \n\nAdditionally, if a pool is approved the duration will be extended by two weeks to last a total of 4 weeks. \n\n## Abstract\nCreate a new ILV staking flash pool for the token voted in by the Council\n\n## Overview\nThe result of the previous attempt to select a 4th Flash Pool in the vote for IIP-008 was a pause in Flash Pools until the V2 contract could be implemented. \n\nAs the new contracts will take time to be written and audited the community has discussed extending the duration of each pool from 2 weeks to 4 weeks and commencing them again. \n\nThe tokens being presented for Council vote were suggested by the community, Core Contributors, and Council Members. Therefore, they represent tokens that the DAO feels would make beneficial staking pools in the best interests of the DAO.\n\n## Rationale\nFlash pools have the ability to generate a number of new token holders from strong communities. While we work towards open beta it is critical that the DAO continues to gain exposure, and offering yield to solid projects assists with that. \n\nThe five tokens currently nominated are:\n\n* SUPER (Superfarm) - DeFi NFT protocol (We are presently working with Superfarm to provide an opportunity for ILV token holders to be able to stake on the Superfarm platform to farm NFTs.)\n\n* SUSHI (Sushi) - Swap, earn, stack yields, lend, borrow, leverage all on one decentralized, community-driven platform (Longterm partners of Illuvium, currently our largest trading exchange)\n\n* ENJ (Enjin) - Products that make it easy for individuals, businesses, and brands to use non-fungible tokens of the future. (Huge gaming ecosystem with over 100,000 token holders)\n\n* MVI (Metaverse Index) - Metaverse token (Large investors in Illuvium, recently listed our token as the second-largest holding within their gaming index)\n\n* LINK (Chainlink) - Oracle solution (Active community that strongly endorses partner initiatives)\n\n* Continue the Flash Pool pause\n\n## Test Cases\n[IIP-008: Council Vote for 4th Flash Pool](https://gov.illuvium.io/#/ilvgov.eth/proposal/QmSaA4Mv4nvkL6pHVmsXD86BechEZcFDtP2moqwyP7cTvf)",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 4,
+      "blockNumber": 13262664,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmRLmsDqrdRssHsmwKHkF5nXTRHL8H9HjdXdKhs9qfrGwq",
+      "startTime": {
+        "timestamp": 1632142800
+      },
+      "endTime": {
+        "timestamp": 1632402000
+      },
+      "startTimestamp": 1632142800,
+      "endTimestamp": 1632402000,
+      "currentState": "closed",
+      "choices": [
+        "SUPER",
+        "SUSHI",
+        "ENJ",
+        "MVI",
+        "LINK",
+        "Continue the Flash Pool Pause"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 4
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 3.0,
+          "choice": 4
+        },
+        {
+          "total": 0.0,
+          "choice": 5
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtdmlodndseGZxanc4dHVqemI3M3BueWJ5d2RycWZyZXA3cG56dm45bW1mMmI=",
+      "id": "QmViHVwLXFQJW8TUJZB73PnybyWdRqFReP7PNZvn9MMf2b",
+      "title": "ICCP-1 Adjustment to Council Members Epoch Salary",
+      "content": "[ICCP-1 on Github](https://github.com/IlluviumGame/IIPs/pull/10)\n\n## Simple Summary\nReduces council members payments from 30 ILV per epoch to a fixed value of $5000 USDT, per member, per 3 month epoch, payable in ILV.\n \n## Abstract\nThe intention is to lower per epoch payments to a more reasonable value for the workload required from a council member. \n \n## Rationale\nThe current payment of 30 ILV is somewhat excessive for each council member's required involvement, so this ICCP is to ensure council member payments stay pegged to a fixed dollar amount, regardless of future market moves.\n \n## Copyright\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 3,
+      "blockNumber": 13187431,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmViHVwLXFQJW8TUJZB73PnybyWdRqFReP7PNZvn9MMf2b",
+      "startTime": {
+        "timestamp": 1631135700
+      },
+      "endTime": {
+        "timestamp": 1631394900
+      },
+      "startTimestamp": 1631135700,
+      "endTimestamp": 1631394900,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtbmFiM3ZxcXgzcTJ5dG5zbzFyd2s1cHpwZ2U4cXhybmVhMTNqa3o4Z3dxdTk=",
+      "id": "QmNab3vqQX3q2yTNSo1rwK5PzPgE8QxRnEA13jKz8gWQu9",
+      "title": "IIP-10 Mini-Game",
+      "content": "[IIP-10 on Github](https://github.com/IlluviumGame/IIPs/pull/9)\n\n## Simple Summary\nThe Illuvium Game Development team proposes to build a new game. This mini-game will have a smaller scope, and exist in the City Building\ngenre. The eventual goal is to have the mini-game interface with the main Illuvium game, for the purposes of revenue distribution and NFT\ncreation\n\n## Abstract\nA 3D isometric city building game will be developed using Unity3d. At least two additional core contributors will be hired. Regular updates will be\nprovided to the community, including proof of concept and a non blockchain linked version for the App Store and Google Play Store. Integration\nwith Illuvium via solidity contracts will be implemented before final release.\n\n## Overview\n### Development\nAn early draft of game design document for Illuvium: Zero has been distributed to the community. The GDD covers much of the content of the game, as a high level overview of the game dynamics. However, since the original document was shared, additional functionality has been added to further describe integration between the two games. One such function was the need for the creation of a shared pool to act as the bridge between the two games.\n\nAdditional research needs to be done to identify the best execution of the solidity contracts required, and how to set up a backend that best minimises gas fees and transaction times. The intention is to build the game in stages as follows with approximate timelines that assume no\nmajor hurdles:\n\n* POC (Start + 2 weeks) - An internal demo of core gameplay features with reasonable quality art. We will share videos of this POC with the public, but we will not share the build.\n* v1.0 (Start + 10 weeks) - Land sales and mobile release. The land will be connected to the game. There will also be an option to play a 'virtual' version of the game not connected to land.\n* v1.1 (Start + 14 weeks) - Blueprint NFT Minting, blueprints created in the game will be mintable on the blockchain.\n* v2.0 (start + 18 weeks -> Aligned with the Release of Illuvium) - Full release. All game data (except for minted NFTs and land ownership) will be wiped. Pools will be established for Fuel. Fuel generated in Illuvium Zero will be usable in the main game.\n\nThis progression is suggested to speed up development by eliminating the need to build the back end systems immediately, which would no longer be a requirement for early builds.\n\n### Land Sale\nThe land sale would consist of 100k plots of land sold over a large timeline, in much the same way that yield farmed tokens are distributed. Thus giving those that are early supporters of the project the opportunity to take part in an Illuvium universe gaming experience—before the masses who are only awaiting the main game. Land would be split into Tiers based on its production rate and rarity, with an algorithm used to generate and categorise each parcel of land into narrow bands that are unique but roughly equal.\n\nA Dutch auction will be used to sell land in tranches to maximise hype, minimise gas wars, and ultimately lead to a fairer system for all participants. The highest tier land will be incredibly rare and offer the owner a connection to the Illuvium ecosystem in novel and exciting ways.\nMore information will be released soon.\n\n#### Payment\nBoth ETH and sILV will be used as payment methods for land. While sILV will not attract external revenue, it will incentivize current token holders to claim their yield tokens as sILV. This phenomenon will massively reduce the total supply of ILV long term.\n\n> **_Note:_** It is unclear yet if hybrid purchases can be made (sILV + ETH in one transaction)\n\n## Rationale\nFew NFT gaming projects have thus far created truly compelling use cases for land. While Illuvium: Zero still has room to grow with new features expected to be added over time, the underlying concept of a fun building game that ties directly to revenue distribution—and gives players agency in a dynamic that transcends beyond a single gaming experience—is an exciting prospect.\n\nIlluvium: Zero also acts as an interesting proof of concept to integrate multiple games from the same shared universe. The project will effectively gamify staking in a novel and exciting way, that can lead to significant interest in the protocol, as well as the possibility of a large boost to revenue\ndistribution for staked token holders.\n\n## Test Cases\nN/A",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 5,
+      "blockNumber": 13047256,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmNab3vqQX3q2yTNSo1rwK5PzPgE8QxRnEA13jKz8gWQu9",
+      "startTime": {
+        "timestamp": 1629263400
+      },
+      "endTime": {
+        "timestamp": 1629522600
+      },
+      "startTimestamp": 1629263400,
+      "endTimestamp": 1629522600,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFteDdoYnFkaWJqZmFndnpwcGpjdXlzeDhnYzVsN2dndjhyY3l1cHVhcTVxcm4=",
+      "id": "QmX7hbqDibJfAGVzpPJCUYsX8Gc5L7GGV8RcyUpuaQ5qrN",
+      "title": "IIP-009 Santiago RS#5914 for 5th Illuvinati Council Member",
+      "content": "[IIP-009 on Github](https://github.com/IlluviumGame/IIPs/pull/8)\n\n## Simple Summary\nNominating Santiago RS for a 5th Illuvinati Council Member position,\neffective immediately this epoch.\n\n## Abstract \nAdding a 5th council position to the current epoch will strengthen the\nCouncil and provide needed additional representation of the community.\n\n## Overview\nThe Council is best served by community members who champion the\nDAO by being familiar with the community’s sentiments, having intimate\nknowledge of our ILV protocol, following our governance, and having time\nto make the commitment.\n \n## Rationale\nSantiago RS has previously served on the Council. In light of his service, he\nhas extensive, valuable, and direct experience with governance, deep\nknowledge of our ILV protocol, and is in tune with the community. In\naddition to meeting those ideal criteria, Santiago RS also provides\nguidance by recommending helpful ideas with sound reasoning.\nSantiago RS has expressed he now has more time to dedicate to service in\ngovernance. Therefore, this proposal is to nominate Santiago for a 5th\ncouncil member position.\n\n### Test Cases\nN/A\n\n## Copyright\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 4,
+      "blockNumber": 13001629,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmX7hbqDibJfAGVzpPJCUYsX8Gc5L7GGV8RcyUpuaQ5qrN",
+      "startTime": {
+        "timestamp": 1628655000
+      },
+      "endTime": {
+        "timestamp": 1628914200
+      },
+      "startTimestamp": 1628655000,
+      "endTimestamp": 1628914200,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtc2FhNG12NG52a2w2cGh2bXN4ZDg2YmVjaGV6Y2ZkdHAybW9xd3lwN2N0dmY=",
+      "id": "QmSaA4Mv4nvkL6pHVmsXD86BechEZcFDtP2moqwyP7cTvf",
+      "title": "IIP-008 Council Vote for 4th Flash Pool",
+      "content": "[IIP-008 on Github](https://github.com/IlluviumGame/IIPs/pull/7)\n\n## Simple Summary\nThe Illuvinati Council is being presented with four tokens to vote upon for the 4th flash pool, following AXS.\n\n## Abstract \nOnce AXS flash pools has ended, create new ILV staking flash pool for the token voted in by the Council.\n\n## Overview\nThe tokens being presented for Council vote were suggested by the community. Therefore, they represent tokens that the community feels would make flash pools in the best interests of the DAO.\n \n## Rationale\nIt is vital that the tokens for flash pools are community-suggested, and that the Council votes for the next token, in order to preserve and demonstrate the tenet of a community-guided ILV protocol.\n\nThe five options currently nominated are:\n\n* ALCX (Alchemix)\n* AAVE (AAVE) \n* MVI (Meta Verse Index) \n* DPI (DeFi Pulse Index)  \n* Pause flash pool launches\n\n### Test Cases\nN/A\n\n## Copyright\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 3,
+      "blockNumber": 13000812,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmSaA4Mv4nvkL6pHVmsXD86BechEZcFDtP2moqwyP7cTvf",
+      "startTime": {
+        "timestamp": 1628644200
+      },
+      "endTime": {
+        "timestamp": 1628903400
+      },
+      "startTimestamp": 1628644200,
+      "endTimestamp": 1628903400,
+      "currentState": "closed",
+      "choices": [
+        "ALCX",
+        "AAVE",
+        "MVI (Meta Verse Index) ",
+        "DPI (DeFi Pulse Index)  ",
+        "Pause flash pool launches"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 4
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 3.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtYnNlaDdnY3Vrcmc1YmgzYzlzZjE2cnF4azZtcnpoejhmdmpmeHphM21hY3k=",
+      "id": "QmbsEH7gCUKRg5bH3C9SF16RQXK6mrZhZ8FvJFXZA3mACY",
+      "title": "IIP-007 Flash Pools V2",
+      "content": "[IIP-7 on Github](https://github.com/IlluviumGame/IIPs/pull/6)\n\n## Simple Summary\nThe Illuvium dev team has found a limitation in the Flash Pools contract, and as\nsuch, we have designed a new contract to give us the flexibility to deploy all current\nERC-20 tokens.\n\n## Abstract \nWe implement Flash Pools using the existing V1 contract while Quantstamp audits\nFlash Pools V2. Once complete, token XYZ will be the first Flash Pool v2 deployed.\n\n## Overview\nIlluvium core devs have found a limitation in the existing Flash Pools contract due to\nan issue with precision, and tokens with extremely large supply cant be launched.\nFor this reason, I am suggesting we launch the AXS Flash Pool utilizing the audited\nv1 contract. Once audited, the XYZ token would become the first Flash Pool v2.\nPreceding this would be a fortnightly council vote that includes multiple tokens of\ninterest that have been discussed in the Illuvium Governance channel within Discord.\n \n## Rationale\nFlash Pools are a great marketing tool, and the above solution allows us to safely\ncontinue launching v1 pools while waiting for the v2 contract to be audited. Delaying\nFlash Pools further may negatively impact the community and doesn’t seem\nnecessary given the workaround above.\n\n### Test Cases\nN/A\n\n## Copyright\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 3,
+      "blockNumber": 12878429,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmbsEH7gCUKRg5bH3C9SF16RQXK6mrZhZ8FvJFXZA3mACY",
+      "startTime": {
+        "timestamp": 1626987600
+      },
+      "endTime": {
+        "timestamp": 1627246800
+      },
+      "startTimestamp": 1626987600,
+      "endTimestamp": 1627246800,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtYXJqMzhzYmR4YW85dGl5YngxcmszZHNkbTJmOHNjc2hqY3FyeXk4eHRqZW4=",
+      "id": "Qmarj38SbDXao9TiyBX1rk3dsDM2f8SCsHJcqRYY8XTJen",
+      "title": "IIP-006 Launch Staking Flash Pool for AXS Token (Axie Infinity)",
+      "content": "[IIP-6 on Github](https://github.com/IlluviumGame/IIPs/pull/5)\n\n## Simple Summary\nSince Illuvium is mainly targetting gamers, we need to use flash pools as a marketing tool to attract players from similar projects.\n\n## Abstract \nOnce SNX and XYZ flash pools has ended, create new ILV staking flash pool, that will allow Axie Infinity token holders to stake and yield farm ILV tokens.\n\n## Overview\nSince flash pool weight is reduced to 0.02 as per Kierans post in Discord, this proposal is aimed to create AXS flash pool with weight of 0.02 for the period agreed or set by the Illuvium governance.\n \n## Rationale\nAXS (Axie Infinity) project gained huge popularity among players around the world and represents perfect demographics that we can target and use to create hype around Illuvium.\n\n### Test Cases\nN/A",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 4,
+      "blockNumber": 12860730,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/Qmarj38SbDXao9TiyBX1rk3dsDM2f8SCsHJcqRYY8XTJen",
+      "startTime": {
+        "timestamp": 1626748200
+      },
+      "endTime": {
+        "timestamp": 1627007400
+      },
+      "startTimestamp": 1626748200,
+      "endTimestamp": 1627007400,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtYmJqbjRkcm1jZW1nY2EzdGJjcmo4Y3d6aDN2dHdlZm5waHpyYWFqZXJ2bXI=",
+      "id": "QmbbjN4drMcemGcA3TbcrJ8CwZh3VTWeFNpHZraAjErVmr",
+      "title": "IIP-05 Staking Treasury Sushi LP",
+      "content": "[IIP-5 on Github](https://github.com/IlluviumGame/IIPs/pull/4)\n\n## Simple Summary\n\nBegin staking the Illuvium Treasury’s Sushi LP tokens into the Sushi ILV/ETH pool.  \n\n## Abstract \n\nSushi Onsen pools are designed to incentivise liquidity providers with $SUSHI rewards, over and above the 0.25% they receive from trading fees. \n\n## Overview\n\nIlluvium staking has now launched and is offering the highest yield percentage for ILV holders. This has seen a large portion of LP’s move their SLP tokens, and as such there is an opportunity for the treasury to begin staking in the Sushi ETH/ILV pool. At the time of writing, the pool is offering 230 Sushi rewards per day. A separate IIP should outline what the treasury does with these $SUSHI rewards. A suggestion would be for giveaways and competitions within the Illuvium Discord. \n\n\n## Rationale\n\nIt makes more sense for ILV holders to stake into Illuvium pools as the APY % in that pool is much higher. Because of this, the Illuvium treasury should capitalize on the potential rewards from the Sushi pool while ILV token holders stake into the Illuvium pool.\n\nThere are many potential uses for these $SUSHI tokens, and the DAO should always be looking to find ways to benefit the token holders.\n\n## Test Cases\n\nN/A",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 3,
+      "blockNumber": 12782550,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmbbjN4drMcemGcA3TbcrJ8CwZh3VTWeFNpHZraAjErVmr",
+      "startTime": {
+        "timestamp": 1625698800
+      },
+      "endTime": {
+        "timestamp": 1625958000
+      },
+      "startTimestamp": 1625698800,
+      "endTimestamp": 1625958000,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtZmdueXppam40dWRudnJuYW95NWhobjV5Ym12a3BmbmtsMnZnYXRtaHZ2bnk=",
+      "id": "QmfGnYZiJn4UDnVrnAoY5HhN5YBmvkpfnkL2vgAtmHVVnY",
+      "title": "IIP-004 Removal of Locked Tokens from Yield Farming",
+      "content": "[IIP-004 on Github](https://github.com/IlluviumGame/IIPs/pull/3)\n\n## Simple Summary\n\nThe community has highlighted an issue with the current ILV Yield Rewards. The main configuration in question relates to the fact that locked tokens are currently able to stake in the ILV pool or provide liquidity via the ILV / ETH pool and receive Yield Rewards. Allowing locked tokens to be staked in any Yield generating pool reduces the distribution of the ILV token to unlocked token holders, potentially harming the decentralisation of the project. Removing the ability for locked tokens to farm Yield Rewards will substantially increase the APY of both pools, which will incentivize new users to purchase and stake ILV.\n\n## Abstract \n\nAutomatically place all locked tokens into a newly created ILV pool with a weight configuration of 0 and remove the ability for locked tokens to be staked into the ILV pool or provide liquidity via the ILV/ETH pool that both generate yield rewards. Reconfigure the codebase to recognise this zero weight pool only for the purpose of distribution of Vault Distributions.\n\n\n## Overview\n\n### Yield Farming - 3m ILV distributed over 3 years \n* **Pool 1:** Unlocked Tokens ILV pool Weight [0.2] - 20% of the total Yield Rewards during periods of no flash pools.\n* **Pool 2:** Unlocked Tokens ILV/ETH pool Weight [0.8] - 80% of the total Yield Rewards during periods of no flash pools.\n* **Pool 3:** Locked Tokens ILV pool Weight [0.0] - 0% of the total.\n \n### Revenue Distributions - 100%\nUnchanged. All pools (except flash pools) receive the same weighting for the purpose of Vault Distributions.\n \n### Voting Rights \nIncluded in governance:\n \n* **Pool 1** \n* **Pool 3** \n \nExcluded from governance\n \n* **Pool 2** \n \nNOTE: A further IIP is currently being developed to suggest a reconfiguration of the codebase to allow Pool 2 to take part in governance. Due to the complexity of this change, it requires a separate IIP that would be deliberated by the council on its own merits.\n\n\n## Rationale\n\nIIP 4 gives the prospective investors more confidence in the overall distribution of ILV, and the APY in the Illuvium protocol. The reduction in total tokens for locked token holders is expected to be far smaller than the increase in value of the token, and as such it makes strong financial sense to implement this IIP for all parties.\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 5,
+      "blockNumber": 12238355,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmfGnYZiJn4UDnVrnAoY5HhN5YBmvkpfnkL2vgAtmHVVnY",
+      "startTime": {
+        "timestamp": 1618405800
+      },
+      "endTime": {
+        "timestamp": 1618665000
+      },
+      "startTimestamp": 1618405800,
+      "endTimestamp": 1618665000,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtcnZ4NnZueDh5OHR0YjNpcXFlaHNhdHdzbnJlZHZvd2x0c2pqamh6bXJpaWs=",
+      "id": "QmRVX6vnx8y8ttb3iQQehsATwSnrEdVowLTSJJJhzmRiiK",
+      "title": "Changes to Illuvium Balancer Liquidity Bootstrapping Pool (IIP-3)",
+      "content": "[IIP-3 on Github](https://github.com/IlluviumGame/IIPs/pull/2)\n\n## Overview\n\nAs investors in Illuvium, our team at Delphi Digital couldn’t be more optimistic about the future of the game and what the team has been working so hard on. On March 30th, Illuvium’s governance token ILV will finally launch via Balancer’s Liquidity Bootstrapping Protocol – this is an exciting event. We believe the current design of the LBP is well thought out, but there’s just one element that we’d like to propose to shift, the starting price. If you’ve spent any time in Illuvium’s discord, it’s inspiring to see how strong of a community has already formed despite Illuvium’s game not being launched yet.\n\nWe believe a starting price of $50 is much more appropriate. It’s the ideal way to allow the existing community to purchase at a favorable level, while still ending the sale at a price that reflects current demand. It’s important to note that regardless of the starting price, Balancer’s LBP allows the final price of the ILV token to settle at a level that reflects current demand.\n\nAs the initial proposal described, price action during an LBP is the result of a push and pull between the weight change (that drives price down) and the buyers (that drive price up). This means price decline is steady and predictable while price rise is sporadic. Looking at historical LBP data shows that price typically spikes early on as people rush in, declines as demand slows down (relative to the initial bid) and weights change, and then picks back up as we enter price discovery mode, typically ending above the starting level. We believe that starting lower helps create a healthy trajectory while also allowing the early community members to buy in a more favorable level. One thing we’ve learned is that strong communities are incredibly important, and there’s no better way to bolster that community than allowing them to invest at levels that align them in the long run with the project.\nRegardless of what is decided here, we are still strong supporters of Illuvium and believe the community will rally around its vision. We just thought it would be worth sharing our thoughts here and letting the community/council decide how to best proceed given our feedback. \n\n\n## Specification\n\n* **New Starting Price:** $50 (in ETH)\n\n### Test Cases\nN/A\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x0691f5804d4227925F19b031821b530b48FFf38f",
+      "totalVotes": 4,
+      "blockNumber": 12124203,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmRVX6vnx8y8ttb3iQQehsATwSnrEdVowLTSJJJhzmRiiK",
+      "startTime": {
+        "timestamp": 1616889600
+      },
+      "endTime": {
+        "timestamp": 1616976000
+      },
+      "startTimestamp": 1616889600,
+      "endTimestamp": 1616976000,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aWx2Z292ZXRoOnNuYXBzaG90OnFtY2ZmY3FtdXJhamMyd2ZobHQ0d2RtN3FwZGpldTl5dmlxZDlvaGdjbnZ6YjY=",
+      "id": "QmcfFCqmurajc2wfhLT4Wdm7QpDjEU9YViQD9oHGCNvZb6",
+      "title": "IIP-002 ",
+      "content": "[IIP Link](https://github.com/IlluviumGame/IIPs/pull/1)\nCreate Illuvium's Balancer Liquidity Bootstrapping Pool for launch on March 30, 2021. \n\n### Abstract:\nA Balancer Liquidity Bootstrapping Pool is designed to allow DeFi protocols to acquire capital from a smaller amount of liquidity than would usually be required when seeding a pool such as Uniswap or Sushiswap. The IIP proposes to create Illuvium's pool and launch the IDO on March 30.\n\n### Specification:\n\nStarting price: $100\n\nStarting weights: 96:4\n\nEnd weights: 50:50\n\nDuration: 72 hours\n\nToken Supply: 1 million\n\nToken Contract Address: 0x767fe9edc9e0df98e07454847909b5e959d7ca0e\n\nToken Symbol: ILV\n\nDecimals of Precision: 18\n\n### Overview:\nUtilizing Balancer for Illuvium's Launchpad we are able to fairly distribute 1,000,000 tokens subject to no lockup that will enable a healthy and stable price discovery process. In a BLBP the weights change over time to create downward pressure, so when the pool goes live, the price will begin to decline, which is why the initial price of the token is set to a high value.\n\nThere are two competing forces for the price of the token in a BLBP. The changing of the weights of the tokens will naturally push the price of the token down, since the weights start out with the token being worth the majority of the pool’s value, and end up at a much lower level. The other force is trading of the token. As people purchase the token, the number of tokens in the pool decreases, but the value of those tokens must still match the weights, so the price of the token increases to compensate.\n\nWhat you will see is a gradual drop in token price, matched by periodic ‘bumps’ where the token goes back up. In theory, the price should eventually find some value that the overall market finds to be an accurate value for the token.\n\n### NFT Bonuses: \nAt the end of the IDO, the US dollar value of all purchases converts to points at a rate of one point per USD. These points can be used to redeem promo NFTs that will only be available for a short period of time following the sale. This applies only to those who hold all of their ILV purchases after the sale concludes until the NFTs redeem window is closed.\n\n### Rationale:\nThis will be the public’s first chance to acquire ILV outside of the two Discord Airdrops. Balancer was chosen because it is the fairest way to distribute the tokens, which has been proven with many projects. Other options would be to use 50/50 AMMs like Uniswap and Sushiswap, which would require more liquidity to be added, and are not as suited for decentralized initial offerings as Balancer Smart Pools.\n\n### Test Cases:\nN/A\n\n",
+      "protocol": "ilvgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x135f11a35B740779De673b24545134890f906689",
+      "totalVotes": 4,
+      "blockNumber": 12092798,
+      "externalUrl": "https://snapshot.org/#/ilvgov.eth/proposal/QmcfFCqmurajc2wfhLT4Wdm7QpDjEU9YViQD9oHGCNvZb6",
+      "startTime": {
+        "timestamp": 1616472000
+      },
+      "endTime": {
+        "timestamp": 1616644800
+      },
+      "startTimestamp": 1616472000,
+      "endTimestamp": 1616644800,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Decline"
+      ],
+      "results": [
+        {
+          "total": 4e-18,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4e-18,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

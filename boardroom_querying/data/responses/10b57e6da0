@@ -1,0 +1,1661 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweGYyYmIwZGU5Mzk1YWI5MTY5ZWUzNjE5MjEzZGViZjJiNjY0YjNiY2RmOWM4NzhlOTA4YTEwMGY5MzI5YThmYjk=",
+      "id": "0xf2bb0de9395ab9169ee3619213debf2b664b3bcdf9c878e908a100f9329a8fb9",
+      "title": "Removal of coiner ",
+      "content": "Vibes are what build a community , since inception coiner has been a negative influence on the lobster community with many questioning his actions, yet he has reacted to this with nothing but disdain and contempt towards his lobster brothers and sisters. \n we place this vote to remove him from kingdom and signal our displeasure with his admin status in main",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x327AAA04D1cD5652a4819AB365d15837AeF333B2",
+      "totalVotes": 25,
+      "blockNumber": 18850631,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0xf2bb0de9395ab9169ee3619213debf2b664b3bcdf9c878e908a100f9329a8fb9",
+      "startTime": {
+        "timestamp": 1703360435
+      },
+      "endTime": {
+        "timestamp": 1703619635
+      },
+      "startTimestamp": 1703360435,
+      "endTimestamp": 1703619635,
+      "currentState": "closed",
+      "choices": [
+        "Remove ",
+        "Do not remove "
+      ],
+      "results": [
+        {
+          "total": 29.0,
+          "choice": 0
+        },
+        {
+          "total": 30.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 29.0,
+          "choice": 0
+        },
+        {
+          "total": 30.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703360508053,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweGZiYzIxMjQwODMzYzJiODI3Zjc4YzQ5ZDI3YWYxMzQ0M2M3ZDAyODkzYWRlNDE3NzBjZmQzNTk1YjNkOGVmZGI=",
+      "id": "0xfbc21240833c2b827f78c49d27af13443c7d02893ade41770cfd3595b3d8efdb",
+      "title": "Lobster Moloch | Sudo Pool on Optimism.",
+      "content": "### Overview:\nSilo would like to help LobsterDAO build Sudoswap LP in a Moloch Treasury on Optimism, and create an incentive program for a Research Publishing Cooperative, governed by LobsterDAO.\n\n* Sudoswap deploys to Optimism.\n* Crustaceans bridge to OP, and claim shares to a Moloch Treasury.\n* LobsterDAO Members Contribute ETH and NFTs into the DAO.\n* LobsterDAO Members Recieve $CRABS\n    * A Deflationary, Rage-Quit enabled token, which can be earned by members who publish quailty research, on behalf of LobsterDAO.\n    * DAO owned CRABS LP is listed on Velodrome, and earns VELO emissions.\n    * DAO owned SUDO LP is managed on Sudoswap on Optimism.\n\nWe are using Moloch v3, and ERC 6551.\n* https://moloch.daohaus.fun/\n* https://tokenbound.org/\n\n### Funding Request:\n\nThis proposal requires custom development, and devs from DAOhaus and Raid Guild are requesting 10 ETH. Paid half up front, and half on delivery. \n\nIn return, we can offer: \n\n* 10,000 SILO\n    * Seed Round, Loot Shares for https://silo.gg/\n    * [DAO](https://admin.daohaus.fun/#/molochv3/0xa/0x7551eeb016d0c1c8315611053d30bd90d1a4b09b) | [Etherscan](https://optimistic.etherscan.io/token/0x36138bb223ffe0c69d99b5affc07800aa3f9e346)\n* 0% Fees, and we use LobsterDAO as a Case Study.\n\nFollowing this trial, we can partner with Sudoswap to use these tools to serve other NFT Communities, and fair launch pools for newly minted projects on ARB | OP | BASE | MAINNET.\n\nDevelopment has been grassroots funded by the team, some frens, DAOhaus and Alchemix.\n\nSudoswap | LobsterDAO would be our next major partners, and we would be open to a funding split between Sudo and LobsterDAO.\n\n### Mainnet <> OP Bridge Integration\n\nThere are a couple of different options for Mainnet <> OP Bridging, but they would need some custom work.\n* The Celer Bridge currently doesn't go to Optimism. \n* The LayerZero Bridges seem L2 <> L2.\n* The Qx Project is depreciated, and the bridge doesn't function.\n* Tokenbound is working on a gasless cross-chain experience for mainnet <> OP, but it is not complete yet.\n\nDekan, from DAOhaus has expressed that he believes the Celer bridge would be a good choice.\n\n### Moloch Treasury Claim & Airdrop\n\nAfter Bridging, Crustaceans will claim their Tokenbound Account, and a Baal Shaman will mint soulbound SHARES into that account.\n\nYour Crustacean now has Voting and Rage Quit rights over a Moloch Treasury on Optimism.\n\nEach LobsterDAO member who bridges and claims will recieve 100 CRABS as a reward.\n\nGovernance Power can be Delegated, and must be re-delegated after sale.\n\n#### SHARES: Vote Weight by Species: \nSHARES primarily represent Governance power, and are soulbound to your Crustacean's TBA.\n\n* Shrimp: 10\n* Mudcrab: 15\n* Langoustine: 20 \n* Lobster: 25\n\nThese weights offer slight voting power advantages to more rare species. \n\nCustom development is needed to have the Baal Shaman check the Species Traits and distribute weighted SHARES.\n\n### $CRABS as Economic Rights\n\nCRABS is a LOOT Token, which represents a pro-rata claim on the Main Treasury. \n\nCRABS will have a 1,000,000 Max Supply.\n\n#### 50% of Supply can be claimed by Crustaceans who take the following actions: \n\n* All Crustaceans who Bridge to OP, and Claim their SHARES recieve 100 CRABS. \n* Contribute a Minimum of .4 ETH and you get 400 CRABS.\n    * You can contribute more ETH, for the same ratio.\n* Contribute 1 Lobster NFT of any type, and you get 500 CRABS.\n\nCustom work will needed to accept NFTs in exchange for LOOT, but this would be useful for DAO owned Sudo LP, and would likely create a Shrimp Supply Sink whose floor price is managed by the DAO.\n\nAny remainder of this 50% supply will be distributed amongst participants: \n\n* 1x for Migration\n* 2x for ETH Contribution \n* 3x for ETH and Lobster Contribution\n\nTo maximize your CRABS, Crustaceans can take all three actions before the DAO closes the onboarding period.\n\nContributed funds are placed in the Non-RQ Treasury\n\n* 45% of ETH Raised purchases and max locks veVELO.\n* 45% of ETH Raised and all Lobster NFTs go to Sudoswap LP.\n* 10% of ETH Raised goes to DAO owned CRABS/wETH LP on Velodrome.\n\n#### 10% of Supply is reserved in a Non-RQ Vault to be used as DAO Owned LP.\n\n#### 10% of Supply is reserved in a Non-RQ Vault to be used as Velodrome Bribes.\n\n#### 30% of Supply is reserved in a Non-RQ Vault to be earned by Research Contributors.\n* CRABS are awarded to Researcher Contributors retroactively when they publish worthy Articles | Videos | Threads.\n* LobsterDAO evaluates the quality of these submissions as a group:\n    * Was the research was data driven?\n    * Did the publishing reach an audience?\n    * Did the publishing adequately represent LobsterDAO?\n\nThe Tokenomics above are designed to meet Velodrome's [listing criteria](https://working-busby-414.notion.site/AERO-Whitelist-f4e0b99031ed4f349677088dd0c5d423#31f527ddd5ad4113bfcc72987b8d8c3d) for Emissions Gauges, while raising funds for DAO owned Sudoswap and CRABS LP.\n\nThe Allocations of Raised ETH are designed to help the treasury qualify for OP Incentives from Velodrome, and empower the DAO to market make on Sudo.\n\n### Velodrome Gauge Qualification & Incentives\n\nveVELO held by the DAO is used to direct VELO emissions to CRABS LP.\n\nVelodrome Relay, will be released soon, which will provide automated vote and compound strategies, simplifying maintenance.\n\nRewards for purchasing veVELO, and providing bribes for CRABS LP can include:\n* a 20k OP GovNFT\n* Rebates on Locked veVELO\n* Bribe Matching.\n\nMore about their incentive programs on this [Dune Dashboard](https://dune.com/0xkhmer/velodrome-x-optimism).\n\nIn general, the DAO ought to aim for 1M veVELO, and claim the 1 Year Vested 20k OP GovNFT.\n\n### Sudoswap Deploy to OP\n\nSudoswap has been working toward fulfilling their roadmap, and deploying on an L2.\n\nOwen offered to trial Moloch, on an L2.\n\nThis proposal was designed in response, so LobsterDAO could put it to a vote.\n\n#### The Problem:\n\nMost NFT value is on Mainnet, but in order to try out more complex governance strategies, you need affordable L2 gas costs. \n\n#### The Solution:\n\nCrustaceans who Bridge to OP, and fund this Moloch DAO are creating a new type of governance experiment on Optimism. \n\nIf Crustaceans find an OP Research Cooperative and LP DAO to be useful and fun, then more groups might migrate. \n\nNew OP native NFT Communities could be minted.\n\nThose NFT Membership groups would use Sudoswap and Velodrome.\n\nIf these experiments work out, we could also launch Mainnet collections who raise DAO owned Sudo LP directly from Mint.\n\n#### The Alternative: \n\nYou could take that 10 ETH, and deposit it into Sudo on Mainnet, and deploy a Gnosis Safe multi-sig to manage the LP.\n\n### Conclusion: \n\nVote YES: \n\nExecute plan as described.\n\n* 5 ETH to Silo and recieve 5000 SILO now. \n* 5 ETH to Silo and recieve 5000 SILO on completion. \n\nVote NO: \n\nLobsterDAO will pursue Mainnet Sudoswap LP, with a multi-sig.",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0xF1B3A985E3aC73dc81f8fcD419c4dda247d2292c",
+      "totalVotes": 15,
+      "blockNumber": 18410736,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0xfbc21240833c2b827f78c49d27af13443c7d02893ade41770cfd3595b3d8efdb",
+      "startTime": {
+        "timestamp": 1698037048
+      },
+      "endTime": {
+        "timestamp": 1698296248
+      },
+      "startTimestamp": 1698037048,
+      "endTimestamp": 1698296248,
+      "currentState": "closed",
+      "choices": [
+        "YES - Lobster Moloch.",
+        "NO - Pursue Mainnet Sudo LP."
+      ],
+      "results": [
+        {
+          "total": 13.0,
+          "choice": 0
+        },
+        {
+          "total": 32.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 13.0,
+          "choice": 0
+        },
+        {
+          "total": 32.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698037163817,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweDUyNWZmODg5YzlhZmM1OTkxMTIyMGFiOTE1MzgwOGFjOWY2MWU2MWU4YWU2NWZhOTAzNDdmZTcxOTQ1ZjA3MDU=",
+      "id": "0x525ff889c9afc59911220ab9153808ac9f61e61e8ae65fa90347fe71945f0705",
+      "title": "Harmonize royalties",
+      "content": "Good day, seafood.\n\nOver the course of the last few months, opensea-blur-sudo and other platforms have changed their views on royalties. For example, Opensea allows sellers to set up a 0% fee... LOL! Meanwhile, the actual protocols (sudoswap) has set in stone fees which is 10% as you can see via the links in the previous proposal.\n\nThe point is, right now fees are un-harmonized, and it might be good to harmonize it. Given people can go via Opensea and have 0% or do OTC... maybe the overall fee size needs to be looked over as a result? Anyway, this all needs fixing or it becomes a little bit dumb.\n\nAs such, proposing for all marketplaces & pools:\n- option 1: reduce the fee to 5%\n- option 2: reduce the fee to 2% \n- option 3: reduce the fee to 0%\n- option 4: do nothing and change to 7.5% everywhere as initially [keep in mind, on opensea people can still sell at 0% then lol]\n\nThe old initial rules which were never changed, can be found here https://github.com/lobster-dao/overview. Now there is just a need to harmonize because platforms are rekting rules and changing them every day jfc.",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x7BAFC0D5c5892f2041FD9F2415A7611042218e22",
+      "totalVotes": 93,
+      "blockNumber": 17699979,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0x525ff889c9afc59911220ab9153808ac9f61e61e8ae65fa90347fe71945f0705",
+      "startTime": {
+        "timestamp": 1689438924
+      },
+      "endTime": {
+        "timestamp": 1690430400
+      },
+      "startTimestamp": 1689438924,
+      "endTimestamp": 1690430400,
+      "currentState": "closed",
+      "choices": [
+        "Option 1: reduce to 5%",
+        "Option 2: reduce to 2%",
+        "Option 3: reduce to 0%",
+        "Option 4: do nothing 7.5%"
+      ],
+      "results": [
+        {
+          "total": 108.0,
+          "choice": 3
+        },
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 54.0,
+          "choice": 2
+        },
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 1
+        },
+        {
+          "total": 54.0,
+          "choice": 2
+        },
+        {
+          "total": 109.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689439253082,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweGQ4MzA1ZGQ1ZTk3OTYwMDU0Nzc1NjA0M2M3MzFhZTA2ODcyNDhmNTE0MDlmYWFjMzY4NjVkNjNmODllYjY1MGU=",
+      "id": "0xd8305dd5e979600547756043c731ae0687248f51409faac36865d63f89eb650e",
+      "title": "SudoSwap LP Review",
+      "content": "the sudo pool dynamics were updated once already without going through governance :)\nhere's the tx when that happened:\nhttps://etherscan.io/tx/0x1774f9967ddd09876d4c73541c08fbfd9bc005e3c73750720dc712688bd8c12a\n\nhere's the initial proposal for comparison https://snapshot.org/#/10b57e6da0.eth/proposal/0x2a2db108fb58822e8c4d7eaa7e142b846fb88686a67b8111eda9969090e6ed85\nwhere we supplied 23 eth plus 18 lobsters (w/ 2.5% fee and 3.8% delta)\nhttps://etherscan.io/tx/0x7e0807ae96530c1a9b4a21f1501d30ae10b4357697264846093f2779d9b4ecdc\n\nnow it's at 2.5 eth plus 39 lobsters\nhttps://sudoswap.xyz/#/manage/0x10adbc1cd06f64162caf639b838fe66d0db04869\n\nso\nhttps://t.me/c/1577711241/66744\nwe already followed Owen's suggestions on the fee & delta but not removing eth\n\ndue to the occasional complaint that treasury is suppressing the floor via its passive LPing and the fact that the multisig already qualified for the $SUDO airdrop, it may make sense to end the experiment",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x83E81d747529F0Eb6145b149C438aB7f9BBD651C",
+      "totalVotes": 34,
+      "blockNumber": 16480592,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0xd8305dd5e979600547756043c731ae0687248f51409faac36865d63f89eb650e",
+      "startTime": {
+        "timestamp": 1674610623
+      },
+      "endTime": {
+        "timestamp": 1674871200
+      },
+      "startTimestamp": 1674610623,
+      "endTimestamp": 1674871200,
+      "currentState": "closed",
+      "choices": [
+        "Remove only ETH",
+        "Remove both ETH and Lobsters",
+        "Do nothing"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 44.0,
+          "choice": 2
+        },
+        {
+          "total": 11.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 11.0,
+          "choice": 1
+        },
+        {
+          "total": 44.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweDY4MGJjYTIzNTJmMWQ0NDFkODRlNzE1N2MxMGE5ZjU5MDllMWM2MmQ5ODI2ZTA4MWM3NjQ3MWZlYTUyYjVmOGI=",
+      "id": "0x680bca2352f1d441d84e7157c10a9f5909e1c62d9826e081c76471fea52b5f8b",
+      "title": "BasedAF Allowlist spots for Lobs (the BasedHeads)",
+      "content": "BasedAF is the new content studio from Robin Schmidt, former Head of Video and Multimedia at the Defiant. Focused on the Metaverse the channel will bring all the creative energy you'll remember from Robin's Defiant videos without all the boring 'guy sits at a desk and talks' stuff. We're taking on big challenges, big ideas and big risks to tell the story of the Metaverse from the inside out. \n\nBasedHeads\nThe BasedHeads are a 10k strong collection of... oh god... yes... he said it. It's another bloody collection of bloody pfp BS #%$#^&$.\n\nWell, yeah. Because, the BasedHeads represent our audience. The Creator Economy has been magnificent at building two immense pillars: \n\n1. Build your audience (aka, clickbait)\n2. Monetize your audience (aka, clicks for bucks)\n\nWe think there should be a third pillar - Share the Spoils. An NFT collection gives us a powerful way to start figuring out what that can be. It;s a VIP ticket to the show. Yes, you get exclusive access to the weird products we're creating (like Fraz Cola https://twitter.com/IamSuperMassive/status/1600869241531813892?s=20&t=EcQa_Bzj1CPfTdS9y2t0LA). Yes, you'll be able to take part in Mr Beast style game shows with idiotically massive prizes. But you'll also get access to me, my creative team, with its custom mocap studio and the process of building a monster youtube studio from scratch. If toobers shilling you FTX went down rough then this might be the antidote you need. \n\nI was in Lobsters from very early on, it was a crucial source of intel when I was building out the Defiant video proposition. I'd like to give something back by offering Lobs 50 WL spots to the drop. Date TBC but end of first week of Jan is looking most likely. \n\nWL price is .08 ETH\nPublic mint price is .1 ETH\n\nhttps://based-af.com/ (website coming shortly)\n\nMuch love as always\n\nRobin (SuperMassive)",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x3753FA57980fd180655c281158E428Ca994d6dfA",
+      "totalVotes": 92,
+      "blockNumber": 16227038,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0x680bca2352f1d441d84e7157c10a9f5909e1c62d9826e081c76471fea52b5f8b",
+      "startTime": {
+        "timestamp": 1671552991
+      },
+      "endTime": {
+        "timestamp": 1671812191
+      },
+      "startTimestamp": 1671552991,
+      "endTimestamp": 1671812191,
+      "currentState": "closed",
+      "choices": [
+        "I am Based",
+        "I am not Based"
+      ],
+      "results": [
+        {
+          "total": 151.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 152.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweDZhZWY4YTdiZDA0NGUyOGJhNjVmMGVlYmNlMzUxYzgxN2E0ZDYzNjFiNGIyZWJjMmYzOGFlYzJjNzM3Nzk0ZjA=",
+      "id": "0x6aef8a7bd044e28ba65f0eebce351c817a4d6361b4b2ebc2f38aec2c737794f0",
+      "title": "LobsterDAO <> tr3butor | Partnership proposal",
+      "content": "### **What is tr3butor?**\n\n**We are building a perfect contributor platform with an on-chain identity, reputation, and matching engine, coupled with a vibrant and supportive community.**\n\nIt started by addressing one of the major problems for every founder or DAO operator: talent recruitment.\n\nUtilizing *community-powered referral recruitment*, we are ensuring a win-win-win situation where **organizations** boost the speed and quality of their talent sourcing, **talents** get hired to their dream jobs, and **communities** (like Lobsters) are rewarded for their recommendations. \n\n> It works like a CPA network, just specifically for web3 recruitment. You share jobs from tr3butor in your community and earn up to $10K for each successful hire.\n> \n\nRecently, we have launched our Job Board, with more than 150 organizations onboarded and a variety of ready-to-apply opportunities ranging from jobs to grants and hackathons. \n\n👉 Website: [tr3butor.io](http://tr3butor.io) \n\n👉 Job Board: [app.tr3butor.io](http://app.tr3butor.io) \n\n👉 Blog: [https://medium.com/@tr3butor.io](https://medium.com/@tr3butor.io)\n\n👉 Twitter: [https://twitter.com/tr3butor](https://twitter.com/tr3butor)\n\n👉 Discord: [https://t.co/t2cLzKXuSK](https://t.co/t2cLzKXuSK)\n\n## Hey, **Lobsters!**\n\nAs we launched the tr3butor recently, we would love to invite the community of LobsterDAO to test out our product and learn from your feedback & suggestions on the platform and community. \n\nWe would love to propose a partnership between LobsterDAO and tr3butor, in which: \n\n### Benefits for Lobsters:\n\n- Allocation of 20 tr3butor Genesis NFTs to the LobsterDAO treasury. The NFT gives you beta access, exclusive offers, airdrops, influence over the future tr3butor DAO, and much more.\n- All LOBS holders will get whitelisted for ‘Contributor’ & ‘Explorer’ OATs, 2 of 3 ‘achievements’ one needs to collect to mint tr3butor Genesis NFT for free.\n    - More details about tr3butor Genesis NFT: [https://mirror.xyz/tr3butor.eth/zdjqIkQLrCT5IeAYNRyFTpemkuBhcdTMQDaPyELZTsU](https://mirror.xyz/tr3butor.eth/zdjqIkQLrCT5IeAYNRyFTpemkuBhcdTMQDaPyELZTsU)\n- All LOBS founders / DAO operators get priority onboarding for their organizations to the platform.\n- tr3butor team will prepare a weekly collection of jobs to share with the Lobster community via LobsterHR. LobstersDAO will earn $3-30K to the treasury for every successful hire.\n- Displaying Lobster NFT as an on-chain credential on contributor profiles at tr3butor and other integrations.\n\nIf this proposal pass, \n\n- we (Lobsters) will start occasionally posting jobs from tr3butor on LobsterHR chat https://t.me/lobsters_hr\n- if there is a hire via lobsters, LobsterDAO treasury will get a referral fee\n- and all things mentioned in benefits both for Lobs holders and DAO treasury.\n",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x3bc482b13EAf5C69D16a257584cF75b5Ea82604a",
+      "totalVotes": 112,
+      "blockNumber": 16176868,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0x6aef8a7bd044e28ba65f0eebce351c817a4d6361b4b2ebc2f38aec2c737794f0",
+      "startTime": {
+        "timestamp": 1670947789
+      },
+      "endTime": {
+        "timestamp": 1671361200
+      },
+      "startTimestamp": 1670947789,
+      "endTimestamp": 1671361200,
+      "currentState": "closed",
+      "choices": [
+        "Yay",
+        "Nay"
+      ],
+      "results": [
+        {
+          "total": 187.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 187.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweDBiZjRmODBkMjhmOWExYjI0ZjIyYmFkZmEzYjA3NDU3NGFiNDgxMWE2MDQ3NDI3NWYwNzA0YzMxOTk0ZjVmODY=",
+      "id": "0x0bf4f80d28f9a1b24f22badfa3b074574ab4811a60474275f0704c31994f5f86",
+      "title": "Multisig Rotation",
+      "content": "Lobster multisig currently has 15 signers, out of who some are inactive (which is totally normal as time goes by.\n\nYou can check for yourself: https://safestats.xyz/safe/0x557068A9b7d66F97A61b97C80541eb17672E1e6f\n\nFrom the first column, the least active ones:\n- ...2e22 swore to become more active\n- …A698  is generally too busy to continue\n- … and others are on-and-off pretty active\n\nAnd even though we don’t have 100 things to sign regularly, waiting for > 24 hours on a 5/15 confirmation is not convenient. In fact, 5/15 is not even that secure, and still… As a result, suggest to:\n\n1. Add the new more active chads\n- Sov who does research & grants: \n- Cryptographic our angry BD man: \n- amplice the visual god: \n- Alex the lobster daily arabic seafood king: \n\n2. Raise the signer confirmation to 7/19",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x3bc482b13EAf5C69D16a257584cF75b5Ea82604a",
+      "totalVotes": 83,
+      "blockNumber": 15452237,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0x0bf4f80d28f9a1b24f22badfa3b074574ab4811a60474275f0704c31994f5f86",
+      "startTime": {
+        "timestamp": 1662026801
+      },
+      "endTime": {
+        "timestamp": 1662199200
+      },
+      "startTimestamp": 1662026801,
+      "endTimestamp": 1662199200,
+      "currentState": "closed",
+      "choices": [
+        "yay",
+        "nay"
+      ],
+      "results": [
+        {
+          "total": 134.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 134.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweGI2YjBkNmIzNmEwMjVjMmFmMjZlZWMyM2I3YzAxNTFmZmQwMDY4N2FmNThkNDE5OWYwNTY4YTE3ZmMzN2Q4Nzk=",
+      "id": "0xb6b0d6b36a025c2af26eec23b7c0151ffd00687af58d4199f0568a17fc37d879",
+      "title": "Lobsters Fighting Game Competition with Snook GameFi project",
+      "content": "Snook \nSnook is an online, multiplayer, Snake-like IO game… It is a kill-or-be-killed, adrenaline-charged, multiplayer game that is pioneering NFT game characters. That means players’ performance directly affects the NFT face value and their potential winnings!\n\nLobsterDAO Themed Room \nRecently, team released our new game mode, the Big Boys Table, and within that, we also implemented something called Themed Rooms.\n\nSnook team have designed and implemented LobsterDAO themed rooms, where only Lobster-NFT holders gain access to an exclusive branded experience within Snook.\n\nLobsters Killer Competition Proposal:\n\nWe would like to invite all the Lobsters to take part in an experience we curated just for us (LobsNFT holders). We will be creating a total of 8 rooms, 2 for each region of Europe and North America (NA). Out of these 8 games, the player that accumulates the most kills in ONE game (normalized by a number of players per room) will win themselves a LobsterNFT!\n\nTake note: Even if you win multiple games, we will only take your highest score!\n\nGame competitions were splitted for two main LobsterDAO regions:\n \nNorth America - N. Virginia (game server is here for Canada/USA players)\nEurope - Frankfurt (game server is here for European/Middle East/Africa players)\n\nDate and Time:\n\nEurope: 1 PM CET Sunday (21 August)\nNorth America: 11 AM PST Sunday (28 August)\n\nPrizes proposed:\n\nFrom Snook: \n* Up to 400 $MATIC in total, 50 MATIC per room\nFrom LobsterDAO: \n* 2 LobsterDAO NFTs for the winner of the killer competition (1 for EU, and 1 for North America).\n\nhttps://twitter.com/snook_gg\nhttps://play.snook.gg/\n\nThe video of how game looks like: https://drive.google.com/file/d/183b6Jeum0W299WXRmyja_dBKgmgDpfuY/view?usp=sharing\n\nLet's have fun! Eating lobs, shrimps and crabs.",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x964b25d3FF75e9566063462262B2898D4d1B3Aa4",
+      "totalVotes": 150,
+      "blockNumber": 15270300,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0xb6b0d6b36a025c2af26eec23b7c0151ffd00687af58d4199f0568a17fc37d879",
+      "startTime": {
+        "timestamp": 1659541309
+      },
+      "endTime": {
+        "timestamp": 1660464000
+      },
+      "startTimestamp": 1659541309,
+      "endTimestamp": 1660464000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, let's have fun!",
+        "Yo uhh hmm (NO)"
+      ],
+      "results": [
+        {
+          "total": 288.0,
+          "choice": 0
+        },
+        {
+          "total": 36.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 288.0,
+          "choice": 0
+        },
+        {
+          "total": 36.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweDJhMmRiMTA4ZmI1ODgyMmU4YzRkN2VhYTdlMTQyYjg0NmZiODg2ODZhNjdiODExMWVkYTk5NjkwOTBlNmVkODU=",
+      "id": "0x2a2db108fb58822e8c4d7eaa7e142b846fb88686a67b8111eda9969090e6ed85",
+      "title": "LobsterDAO LPing in SudoSwap",
+      "content": "Hi seafood kingdom!\n\n## Summary\n\nThis proposal aims to deploy 15% of lobsterdao ETH & WETH treasury (that would be around 23 ETH mark right now) and a corresponding number of lobsterdao floor-trait treasury NFTs   (approximately 30 pieces with the slope of the curve suggested) - into a newly created sudoswap pool with a 2.5% fee and a slope of 3.8% exponential. That is more or less in line with the current price gap of LooksRare and Opensea listings. \n\n## Introduction\n\nA few of you have heard of the narratives around DeFi x NFTs… Be it aggregators like Gem (bought by Opensea) and Genie (bought by Uniswap), LooksRare, and so on. One of the latest ones getting quite some attention - is [Sudoswap](https://twitter.com/sudoswap), made by anons [0xmon](https://twitter.com/0xmons), [statelayer](https://twitter.com/statelayer), and a few other CT dwellers. All of whom are actually lobsterdao holders & supporters too!\n\nWhy do this:\n- lobsterdao collection and its community are researchers, so when a new primitive pops up - it could be fun & admirable to support it. Especially if it’s created by community members who have also been lobsters for a long time.\n- 0xmon and statelayer and others have not yet raised funding or announced any conversion plans, so why not dabble with the perspectives of receiving something in the future. So far the protocol has been live and integrated around a bit with no hacks surrounding it, so it’s not too much of a risky bet. As such, a safe 15% was chosen too.\n- It also improves the liquidity and can serve as a piece od DeFi for the times when protocols could possibly price these pools properly and allow LP tokens as collateral.\n\nThis initiative does not mean that sudoswap is partnering with lobsters or that any substantial support will be given - for that, sudoswap team should instead suggest and bribe lobsters to continue. This proposal is just getting the ball rolling forward. Cheers.\n",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x3bc482b13EAf5C69D16a257584cF75b5Ea82604a",
+      "totalVotes": 280,
+      "blockNumber": 15281951,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0x2a2db108fb58822e8c4d7eaa7e142b846fb88686a67b8111eda9969090e6ed85",
+      "startTime": {
+        "timestamp": 1659697669
+      },
+      "endTime": {
+        "timestamp": 1659952800
+      },
+      "startTimestamp": 1659697669,
+      "endTimestamp": 1659952800,
+      "currentState": "closed",
+      "choices": [
+        "Yay - Lobs ape",
+        "Nay - we don't ape"
+      ],
+      "results": [
+        {
+          "total": 533.0,
+          "choice": 0
+        },
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 533.0,
+          "choice": 0
+        },
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweGYxYjYwNDBiNWI4ZmY5ZjY2YjY2ODQ1NWRjZWE2ZWY0NjQ1YTA0MGNkMGI3ODFlZTQzYTNhN2ZkMTc0OGE3ZTY=",
+      "id": "0xf1b6040b5b8ff9f66b668455dcea6ef4645a040cd0b781ee43a3a7fd1748a7e6",
+      "title": "DegenScore Collab - Gib 10 NFTs",
+      "content": "Aloha, seafood!\n\nThis is a bit of a retroactive vote given that DegenScore v2 had to be released on time... so, they made a pretty cool board that degens & apes can even use as CVs and pp-size measuring. And, lobsterdao NFT holders are in the spotlight there! They give extra scores, a separate badge, and overall increase our visibility among the audience that we are ourselves are - not BAYC seed-giving people, but DeFi degens, whales, and shadowy supercoders. \n\nTo commemorate that, DS asked to gib em 10 lobsterdao NFTs as a prize for their v2 launch. Those would be given 1 each to the most severe degens who likely will have some of the largest balances. Great visibility! Blz approve <3 \n\nMore info: https://twitter.com/DegenScore/status/1528079843090477057",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x7BAFC0D5c5892f2041FD9F2415A7611042218e22",
+      "totalVotes": 142,
+      "blockNumber": 14840999,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0xf1b6040b5b8ff9f66b668455dcea6ef4645a040cd0b781ee43a3a7fd1748a7e6",
+      "startTime": {
+        "timestamp": 1653472800
+      },
+      "endTime": {
+        "timestamp": 1653732000
+      },
+      "startTimestamp": 1653472800,
+      "endTimestamp": 1653732000,
+      "currentState": "closed",
+      "choices": [
+        "YES, GIB",
+        "NO, F U"
+      ],
+      "results": [
+        {
+          "total": 268.0,
+          "choice": 0
+        },
+        {
+          "total": 22.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 268.0,
+          "choice": 0
+        },
+        {
+          "total": 22.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweGZkZTJiZThiMzc4ZDYzZDM4NjI4MzU2NDk4NTBhMzgzYjk1MGZjZTQ2ZTMzMGM5NGMxYmZlYjUwMTdiY2IxNjI=",
+      "id": "0xfde2be8b378d63d3862835649850a383b950fce46e330c94c1bfeb5017bcb162",
+      "title": "Reward active LobsterDAO contributooors",
+      "content": "This one is long overdue.\n\nThe idea of this proposal is to do the first batch of rewards for the work these community members were doing for free for the last 6 months.\nThe number represents the number of Lobster NFTs that a person gets for their contribution.\n\nNemo - 2: chad leader - ops and bd\nAmplice - 2: chad leader creator - ops and bd\nAlex - 1: chad lobster - content, data science and bd\nEugene - 1: multisig help, early engagement chad\nZhongfu - 1: multisig and tech help\nAmazongirl - 1: bizdev work \nMugglesect - 1: ops, calls, support\nHenry - 1: design \nCryptographic - 1: reports & bizdev\nJoel - 1: ops, bd\n\n\nfor the sake of simplicity options here are yes or no. We are happy to elaborate all in lobsters kingdom chat if needed.",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x3bc482b13EAf5C69D16a257584cF75b5Ea82604a",
+      "totalVotes": 204,
+      "blockNumber": 14828636,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0xfde2be8b378d63d3862835649850a383b950fce46e330c94c1bfeb5017bcb162",
+      "startTime": {
+        "timestamp": 1653296929
+      },
+      "endTime": {
+        "timestamp": 1653476400
+      },
+      "startTimestamp": 1653296929,
+      "endTimestamp": 1653476400,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 439.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 439.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweDFlNzYyZmE3ZjAzOTdkNzVmNWY2ZTMzNzJiMmQwNzYzNGM4ZDk5ZWU1ODZhNTRkZjJlNGI1MGQ0MWUwOGY1NmY=",
+      "id": "0x1e762fa7f0397d75f5f6e3372b2d07634c8d99ee586a54df2e4b50d41e08f56f",
+      "title": "TrueFreeze Partnership Proposal",
+      "content": "LobsterDAO<>TrueFreeze Partnership proposal \n\n***Important:*** \n- If you have more questions about the proposal or wanna start a discussion, do it [here - GitHub discussion](https://github.com/lobster-dao/overview/issues/60) or [here - Gated TG chat](https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxNTc3NzExMjQx)\n\n- [here is a link to the project spotlight](https://twitter.com/freeze_llc/status/1511078082777653248)\n\n### What is TrueFreeze?\nWe've created an immutable/permissionless on-chain Certificates of Deposit ecosystem for blockchain native assets. You lock ETH for your chosen amount of time. You get paid a yield token, frETH as a F(amount, time). You also mint a Freezer NFT representing your deposit. The yield token's value (in ETH) is determined by the free market.\n\nYou get 1 frETH for locking 1 ETH out of circulation for 1 year. This is why we call it a \"proof of patience\".\n\nThe Freezer NFTs can be traded on any NFT marketplace and they function exactly the same way as zero-coupon bonds for pricing purposes. This is the key innovation of True Freeze- making it possible to buy ETH with ETH, e.g., buying a 50 ETH Freezer NFT that matures in 1 year for < 50 ETH.\n\nThis is risk minimized DeFi. No oracles, no liquidations, no collateral, no impermanent loss. Pure money for on-chain proof of patience.\n\nThe engine behind all of this is the FRZ revenue token. If you are patient and your CD matures, you can withdraw your ETH for 0% frETH fees and 0% ETH penalty (i.e., you earned all the frETH you minted and were paid upfront). BUT- early withdrawals require X frETH and 0.25% ETH penalty. Where X is a G(amount, time) and G() > F() for the first 66% of the lock time (see diagram here: https://truefreeze.xyz/mechanics#redeem)\n\nThese early withdrawal fees go to stakers of the FRZ token.\n\nTo maintain a multi-century anti-fragile tokenomics design; FRZ inflates (see here: https://truefreeze.xyz/mechanics#frz)\n\nThis inflation taxes holders of FRZ and forces them into a \"Curve War\" style fight to accumulate newly inflated FRZ to retain their % of revenue flow. Newly minted FRZ is distributed to everyone who has ever burnt frETH. Burning frETH earns a proportional new FRZ forever. (See the Curve War parallel?)\n\nFor more details on why this is sustainable tokenomics see the \"Flywheel\" diagram here: https://truefreeze.xyz/tokenomics#flywheel\n\n👉 [Website](https://truefreeze.xyz)\n👉 [Docs](https://truefreeze.xyz/mechanics)\n👉 [Twitter](https://twitter.com/freeze_true)\n\n### Welcome Lobsters!\nDeep Freeze LLC is a very small scrappy team trying to do something cool in public goods. We aren't equipped to create a DAO, run operations, a multi-sig, found a team, raise money, etc. to monopolize on this product. So we want to find DAOs/Protocols to adopt this public good.\n\nAll the code is done and its been audited. We're launching in two weeks. We are already planning to airdrop the FRZ revenue token to Lobster Holders. But we wanted to do something interesting and also airdrop to DAOs.\n\n### Benefits to Lobsters\nWe'd like to airdrop 2% of the initial FRZ supply on ETH to the LobsterDAO multi-sig. This would function as a grant for you all to fund your building. You can stake it, grant it, etc. We hope you don't dump immediately, but technically can't stop you.\n\nIdeal scenario is that by doing this, LobsterDAO has a sense of ownership (along with other recipients) of the public good and feels inclined to use True Freeze, help market it so people claim the airdrop, and maybe even build automated strategies on top of it or integrate it into other products.\n\nThank you! See PDF version of explainer here:\n[Deep Freeze Explainer.pdf](https://github.com/lobster-dao/overview/files/8612052/Deep.Freeze.Explainer.pdf)\n---\nVote YES - LobstersDAO officially works with TrueFreeze\nVote NO - LobstersDAO won't work officially with TrueFreeze. (Do note that we can't stop TrueFreeze to support Lobs on their end, but we will not endorse nor support it) \n\n\n\n\n",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0xEd860e2a761D8B0c83b1c0A1C4b7D5fc1af97d5c",
+      "totalVotes": 92,
+      "blockNumber": 14405373,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0x1e762fa7f0397d75f5f6e3372b2d07634c8d99ee586a54df2e4b50d41e08f56f",
+      "startTime": {
+        "timestamp": 1653152400
+      },
+      "endTime": {
+        "timestamp": 1653454800
+      },
+      "startTimestamp": 1653152400,
+      "endTimestamp": 1653454800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 116.0,
+          "choice": 0
+        },
+        {
+          "total": 131.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 116.0,
+          "choice": 0
+        },
+        {
+          "total": 131.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweGEwMzA3Njg3ZmQwNTY1MzBhMzEyMjIzMWZmZjllMzNjMmQxOGViMDUwMzM3MDNjNGYxNmI3NzIzNmViODdhZjA=",
+      "id": "0xa0307687fd056530a3122231fff9e33c2d18eb05033703c4f16b77236eb87af0",
+      "title": "Gro Partnership Proposal",
+      "content": "LobsterDAO<>Gro Partnership proposal \n\n***Important:*** \n- If you have more questions about the proposal or wanna start a discussion, do it [here](https://t.me/lobsterdao)\n\n- [here is a link to the project spotlight](https://twitter.com/10b57e6da0/status/1504487731614736391)\n\n### What is Gro?\nGro is a DeFi protocol that aims to make earning stablecoin yield easy for everyone by combining the best of DeFi and traditional finance. \n- Its first products, PWRD and Vault, were created through risk-tranching so that users only need to choose between protection against protocol & stablecoin failures (PWRD) and leveraged higher yields (Vault).\n- Its most recent product, Labs, was built through automating leveraged yield farming to free its users from the complexity of managing it themselves.\n- Beyond stablecoins, Gro also has its own governance token $GRO that comes with an innovative vesting mechanism, where $GRO diamond hands earn tokens forfeited by those who leave before their vesting schedule is completed.  \n\n👉 [Website](https://www.gro.xyz/)\n👉 [App](https://app.gro.xyz/)\n👉 [Docs](https://docs.gro.xyz)\n👉 [Blog](https://groprotocol.medium.com)\n👉 [Twitter](https://twitter.com/groprotocol)\n👉 [Discord](https://discord.gg/gro)\n\n### Welcome Lobsters!\nWe would love to learn from DeFi power users in LobsterDAO and benefit from your feedback & suggestions on our protocol, particularly on our latest product Labs and the revamped GRO Rewards mechanism.  \n\nWe propose a mutual partnership in which:\nWe welcome as many Lobsters as possible to try Labs with a special higher allowance, which is otherwise only available for committed Gro DAO members\nWe invite Lobsters who have tried out Labs to the revamped v2 GRO Rewards Center with an initial $GRO allocation to facilitate participation \nProduct introduction:\n\n#1: Labs\nLabs is Gro’s first Avalanche product which delivers higher yields using automated leveraged yield farming strategies to Gro users at a much lower gas cost. Our first Labs strategies use Alpha Homora v2 on Avalanche. For more information about Labs, please see our introduction and the step-by-step “how to” guide.\n\n\n#2: GRO rewards\nGRO Rewards has been revamped to make our “Squid Game”-like vesting mechanism more flexible and rewarding to our long-term HODLers and yield farmers. Please see our original design here and the revised mechanism here.\n\n### Benefits to Lobsters\n- All LOBS holders (as of Sunday Mar 20 midnight UTC) will get whitelisted to access the upgraded Labs product (announced to the public on Thu Mar 17) with a higher deposit allowance of $75K total ($25k per vault in Labs section). Labs offers a hands-off way to earn high pure stablecoin yield at low gas cost.\n- LOBS holders that have deposited into Labs and held on for 2 weeks after depositing would get 300 vesting $GRO airdropped in their Gro Rewards center (total program capped at 100,000 $GRO) so that they can participate in our new Rewards mechanism that comes with 12-month vesting. Once they start vesting they can join the Squid Game-like Vesting Bonus Pool to claim bonus from other early-leavers. \n- $GRO token is a ticket to prioritised access to Gro’s future product releases, so Lobsters will be the first to learn about any new products. \n- Active Lobsters could also be nominated as Gro OGs — going one step beyond getting prioritised access to new products, our OGs will be the first to test new products before they launch. Their feedback will be incorporated into the launch version. Join our OGs to shape Gro’s product development before these products meet the world!\n- LobsterDAO Treasury would get 6,751 vesting $GRO tokens for introducing Gro to the active Lobster community – for every lobster that ended up trying out Labs product and getting 300 $GRO, LobsterDAO Treasury would receive an additional 67.51 vesting $GRO tokens which can then be used for claiming Vesting Bonus as frequently as every 4 weeks!\n\nHow the products look like \n\n![GroProduct](https://i.postimg.cc/zBf3LM8M/photo-2022-03-17-18-07-50.jpg)\n![GroProduct2](https://i.postimg.cc/J0krZCgT/photo-2022-03-17-18-10-33.jpg)\n---\nVote YES - LobstersDAO officially works with GRO\n\nVote NO - LobstersDAO won't work officially with GRO. (Do note that we can't stop GRO to support Lobs on their end, but we will not endorse nor support it) \n\n\n\n\n",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x3bc482b13EAf5C69D16a257584cF75b5Ea82604a",
+      "totalVotes": 129,
+      "blockNumber": 14405373,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0xa0307687fd056530a3122231fff9e33c2d18eb05033703c4f16b77236eb87af0",
+      "startTime": {
+        "timestamp": 1647539137
+      },
+      "endTime": {
+        "timestamp": 1647774000
+      },
+      "startTimestamp": 1647539137,
+      "endTimestamp": 1647774000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 262.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 262.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweGQ1MWFiOGQ1M2VlZTNkYWFhOWQwY2M0YzBmNzlhMDNlNWU1MTEyOTUzMjU5NTc2ODIyZjkxYWVkZDVmZDQ4NmQ=",
+      "id": "0xd51ab8d53eee3daaa9d0cc4c0f79a03e5e5112953259576822f91aedd5fd486d",
+      "title": "Recompense for Ivan",
+      "content": "Ivan mistakenly burned his lobs and as the father and brainchild for the whole community we should come together and find a way to return his stake to its former glory.\n\nFirst, I'd propose the DAO convert 90% of the ETH in treasury into stETH so that the treasury is productive and earns interest.\n\nSecond, I propose that the DAO use half of the remaining ETH in treasury to sweep the lobs floor and send those lobs to Ivan.\n\nFinally, I propose that the interest accrued to the treasury is used to purchase floor lobs off the open market for Ivan, at an irregular cadence, for a period of 500 days.",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x0ddcB606E82E031E9eac01afB7fB2D54e64C2855",
+      "totalVotes": 68,
+      "blockNumber": 14360237,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0xd51ab8d53eee3daaa9d0cc4c0f79a03e5e5112953259576822f91aedd5fd486d",
+      "startTime": {
+        "timestamp": 1646930686
+      },
+      "endTime": {
+        "timestamp": 1647189886
+      },
+      "startTimestamp": 1646930686,
+      "endTimestamp": 1647189886,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [
+        {
+          "total": 80.0,
+          "choice": 0
+        },
+        {
+          "total": 62.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 80.0,
+          "choice": 0
+        },
+        {
+          "total": 62.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweDFlNDMxYmZkZGNhOWM0N2Y5ZjAwM2I2ZWZmMzY4ZjJjODQ3YzVmZWYwMGU4MjYxMzg1ZGJkMzE2N2I1YzJhYjg=",
+      "id": "0x1e431bfddca9c47f9f003b6eff368f2c847c5fef00e8261385dbd3167b5c2ab8",
+      "title": "Community reward: CIA Officer for general excellence",
+      "content": "CIA Officer has been a core contributor to Lobsterdao for a long time, both prior to the NFTs in the chat, as well as currently in the more \"official\" DAO that we have now.\n\nHe helps manage all aspects of the community, helps to organize the biweekly DAO calls, is involved in multiple partnership discussions, and much much more - in other words, when it comes to lobsterdao, he does it all.\n\nHe also contributes a lot to public goods including many extremely helpful github repos:\n\n[https://github.com/OffcierCia/ultimate-defi-research-base](https://github.com/OffcierCia/ultimate-defi-research-base)[https://github.com/OffcierCia/DeFi-Developer-Road-Map](https://github.com/OffcierCia/DeFi-Developer-Road-Map)[https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap)\n\nSo not only is he a crucial lobsterdao contributor, he's also contributing in a useful way to the broader crypto landscape as well.\n\nFor all the above reasons, I propose we compensate CIA Officer with 3 lobsterdao nfts to be minted by the multisig - this is not meant to be taken as a 'fair' level of compensation for his contributions (otherwise we would pay him 10s if not 100s), it is just a small token of appreciation. It is in line with some of the other rewards we have given community contributions, so it seems fair to me.",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x84641137BaC4Db68DE94Ec3D2ED89acE0AA88f20",
+      "totalVotes": 196,
+      "blockNumber": 14347045,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0x1e431bfddca9c47f9f003b6eff368f2c847c5fef00e8261385dbd3167b5c2ab8",
+      "startTime": {
+        "timestamp": 1646754661
+      },
+      "endTime": {
+        "timestamp": 1646913600
+      },
+      "startTimestamp": 1646754661,
+      "endTimestamp": 1646913600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, give 3 lobs to CIA Officer",
+        "No, I don't agree with this"
+      ],
+      "results": [
+        {
+          "total": 618.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 618.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweDY2ZWY4NzIxNmYyMDFjMTJlMGU2OTRmZDExMzNkZGM3MjJmMDE4NTIxZWFmZjZhZjIzYTdmMzU2YTk5ZjE5Nzk=",
+      "id": "0x66ef87216f201c12e0e694fd1133ddc722f018521eaff6af23a7f356a99f1979",
+      "title": "Community Reward: philippvienna for Dune Analytics Dashboard",
+      "content": "Community member philippvienna made a great Dune Dashboard.\n\nhttps://dune.xyz/kwizzles/LobsterDAO\n\nmore details, questions, feedback at github issue https://github.com/lobster-dao/overview/issues/51\n\nThe proposal is to reward philippvienna in Lobs NFT for his work.\n\n- vote 0 for no reward\n- vote 1 for 1 Lobs NFT\n- vote 2 for 2 Lobs NFTs\n- vote 3 for 3 Lobs NFTs",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x3bc482b13EAf5C69D16a257584cF75b5Ea82604a",
+      "totalVotes": 84,
+      "blockNumber": 13977644,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0x66ef87216f201c12e0e694fd1133ddc722f018521eaff6af23a7f356a99f1979",
+      "startTime": {
+        "timestamp": 1641812400
+      },
+      "endTime": {
+        "timestamp": 1642158000
+      },
+      "startTimestamp": 1641812400,
+      "endTimestamp": 1642158000,
+      "currentState": "closed",
+      "choices": [
+        "0 - No reward",
+        "1 - Reward with 1 Lobs NFT",
+        "2 - Reward with 2 Lobs NFTs",
+        "3 - Reward with 3 Lobs NFTs"
+      ],
+      "results": [
+        {
+          "total": 14.0,
+          "choice": 3
+        },
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 70.0,
+          "choice": 2
+        },
+        {
+          "total": 93.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 93.0,
+          "choice": 1
+        },
+        {
+          "total": 70.0,
+          "choice": 2
+        },
+        {
+          "total": 14.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweDk2OGU2NWMxODNkY2YxMDYyYmZkNTZiOThmNGRmYjJkMzY2YmQ0YmMzMDk5ZTU5MGMzZjg2NDVkNDRmZDlhNmQ=",
+      "id": "0x968e65c183dcf1062bfd56b98f4dfb2d366bd4bc3099e590c3f8645d44fd9a6d",
+      "title": "Community Reward: sz for Lobsterdao 3D | Seashells",
+      "content": "Community member sz made this epic work during ETHGlobal Hackathon. \n\n![Lobs3D](https://user-images.githubusercontent.com/43649755/147894822-7b27e626-c005-4ac9-8da6-0e65c04e826e.gif \"Lobs3D\")\n\nContext:\nI recently released an interactive 3D visualiser for Lobster NFT's, made during the EthGlobal hackathon. 'Seashells' , Generating unique 3D version of each lobsterdao NFT.\n\nYou can try it at (play on PC) : https://seashells.embracingearth.space/,\nalt link: https://worldsz.github.io/Seashells_10b57e6/\n\nLobster NFT got released and had proper analytics sheets which caught my eye at the same time I was experimenting around this idea of 3D visualiser for 2D NFT's and they all fell together. At a Macro level, the project showcases the integration of NFT's in a game engine by different API systems, IPFS databases and wrapping of thousands of 2D NFT's to thousands of their corresponding unique 3D versions.\n\nfor more details check github issues https://github.com/lobster-dao/overview/issues/52\n\n## The proposal is to reward sz with LobsNFT\n- vote 0 for no reward\n- vote 1 for 1 Lobs NFT\n- vote 2 for 2 Lobs NFTs\n- vote 3 for 3 Lobs NFTs",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x3bc482b13EAf5C69D16a257584cF75b5Ea82604a",
+      "totalVotes": 109,
+      "blockNumber": 13977352,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0x968e65c183dcf1062bfd56b98f4dfb2d366bd4bc3099e590c3f8645d44fd9a6d",
+      "startTime": {
+        "timestamp": 1641812400
+      },
+      "endTime": {
+        "timestamp": 1642158000
+      },
+      "startTimestamp": 1641812400,
+      "endTimestamp": 1642158000,
+      "currentState": "closed",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "results": [
+        {
+          "total": 29.0,
+          "choice": 3
+        },
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 172.0,
+          "choice": 2
+        },
+        {
+          "total": 46.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 46.0,
+          "choice": 1
+        },
+        {
+          "total": 172.0,
+          "choice": 2
+        },
+        {
+          "total": 29.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweDY0MDRiNTdhYTBlM2RhZDlhYjhiNDM3MGFiODQzYThiMTkyZTE3ZGQ0MGY3YmMzZTQ5ZTgwZTVjY2YyNTdiMzY=",
+      "id": "0x6404b57aa0e3dad9ab8b4370ab843a8b192e17dd40f7bc3e49e80e5ccf257b36",
+      "title": "CoinList Partnership Proposal",
+      "content": "Important:\n\nIf you have more questions about the proposal or wanna start a discussion, do it [here](https://t.me/lobsterdao)\n\nhere is a link to the project spotlight we did with [CoinList](https://twitter.com/10b57e6da0/status/1473693248073912325)\n\nLobster NFT holders get CoinList priority queue access and one month of free trading.\n\n### CoinList is collaborating with LobsterDAO to airdrop Karma to high value-add LobsterDAO members\n\n(based on engagement in the LobsterDAO Telegram groups) and to give them one month of free trading on CoinList Pro, CoinList’s pro exchange. \n\n#### Who is Eligible?\nLobster NFT holders identified by LobsterDAO from the block 13825000 [Snapshot](https://raw.githubusercontent.com/lobster-dao/lobs-holders/snapshots/lobs_owners/lobs-owners_2021-12-17T21%3A20%3A31Z_blk13825000.txt) are eligible for this drop.\n\nCoinList's mission is to accelerate crypto advancement and adoption. We help the best crypto projects (ex. Filecoin, Solana, Flow, etc.) throughout their life cycles and give early adopters access to quality crypto assets before mainstream exchanges.\n\n[CoinList Karma](https://blog.coinlist.co/introducing-coinlist-karma-earn-rewards-for-advancing-crypto/) is a reflection of users’ contributions to token networks on CoinList. The greater a user’s contribution through value-add activities (ex. staking, governance, etc.), the higher their Karma. Eligible users with high levels of Karma can earn access to the Priority Queue on CoinList, an invite-only queue for token sales that is significantly shorter than the main token sale queue.\n\nTo receive the benefits, eligible users need to:\n\n- Complete CoinList KYC at https://coinlist.co/lobsterdao-karma before 00:00 UTC, January 1, 2022.\n- Link your Ethereum address holding the Lobster NFT with your CoinList account by submitting your wallet address and signing a provided message at the end of the KYC flow (https://coinlist.co/lobsterdao-karma).\n- If you are eligible for the Karma airdrop and have an existing CoinList account, please use your existing account and do not create a new account.\n\n#### Note: holding more than 1 lobster per account WON'T increase your Karma points.\n\nFor more information, please refer to the LobsterDAO Karma Drop FAQ (https://coinlist.co/help/lobsterdao-karma-drop-faq). Thank you for supporting the CoinList community!\n\nVote YES - LobstersDAO officially works/endorse partnership with CoinList.\n\nVote NO - LobstersDAO won't work officially with CoinList. (Do note that we can't stop CoinList to do karma drop, but we will not endorse nor support this)\n\n",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x3bc482b13EAf5C69D16a257584cF75b5Ea82604a",
+      "totalVotes": 275,
+      "blockNumber": 13856223,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0x6404b57aa0e3dad9ab8b4370ab843a8b192e17dd40f7bc3e49e80e5ccf257b36",
+      "startTime": {
+        "timestamp": 1640192400
+      },
+      "endTime": {
+        "timestamp": 1640624400
+      },
+      "startTimestamp": 1640192400,
+      "endTimestamp": 1640624400,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 492.0,
+          "choice": 0
+        },
+        {
+          "total": 99.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 492.0,
+          "choice": 0
+        },
+        {
+          "total": 99.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweDhhNjM3MTkzYTU0OGNlY2U0YTVjY2I5ZWUzZmQwMTlhNWVkNzgwYzYyMDQ0MWJlNTAwOTE1YWM1YjMzMzc1MWI=",
+      "id": "0x8a637193a548cece4a5ccb9ee3fd019a5ed780c620441be500915ac5b333751b",
+      "title": "Ambire Wallet Partnership Proposal",
+      "content": "***Important:*** \n- If you have more questions about the proposal or wanna start a discussion, do it [here](https://t.me/lobsterdao)\n\n- [here is a link to the project spotlight](https://www.youtube.com/watch?v=5H7T41hv4r4) we did with Ambire (1st part are questions from the community, product demo starts at 21st minute)\n\n### What is Ambire?\n\nAmbire (previously known as AdEx Network) is building an open-source DeFi smart wallet that dramatically improves the UX. \n\nSome of Ambire Wallet’s killer features are: \n\nSmart authentication:\n- Seedles authentication: Register with email and password only\n- Upgrade your account to Trezor or Ledger without moving funds\n- Enable multi factor authentication\n\nImproved DeFi UX:\n- Simplified DeFi interactions: multiple operations in one transaction (zaps)\n- Plugins: DeFi protocols integrated into wallet for faster interaction\n- No need for an extra approval step for protocols\n- No infinite approvals kept open \n- Multichain support (Ethereum, Polygon, Avalanche, BSC)\n\nMeta transactions:\n- Batching transactions - combining several transactions for \n- optimized gas spend and speed\n- Automatic gas fee management\n- Pay transaction fees in any token\n- MEV protection via Flashbots and Eden\n\n👉 Beta is live, try Ambire [here](https://wallet.ambire.com/#/add-account)\n👉 [Website](https://www.ambire.com/)\n👉 [Whitepaper](https://docs.google.com/presentation/d/12xJdorre9C0_n0NqfWgs0RfO4tOkSYSyEs329xvATXM/edit)\n👉 [Twitter](https://twitter.com/AmbireWallet)\n👉 [Discord](https://discord.gg/nMBGJsb)\n\nLobsters welcome\n\nWe highly value the LobsterDAO community as a pool of well-known value-generating DeFi superusers and we would love to have you 🦞  play with 🔥\n\nWe propose a mutual partnership in which:\n\nAs many Lobsters as possible try Ambire Wallet early\nWe want to incentivize long term usage of the Ambire Wallet, so we will run liquidity mining incentives for early users with a special twist for Lobsters\n\n### Details about the liquidity mining program:\n\n- 30% of all WALLET will be distributed as a form of user acquisition tool - in the first 4 years. \n- **all users would get WALLET tokens based on the proportion of their account net worth over the TVL of the Wallet as a form of liquidity mining program.**\n\nFor example:\n\nThe reward rate is 205k WALLET per day (amounting to 7.5% annually)\nTotal Wallet TVL is $500m\nYour account net worth is $500k\nThis amounts to 500,000/500,000,000*205,000 = 205 WALLET per day\n\n\n## The 🦞 Twist (Proposal to Lobsters community)\n\n**1. Signer address holds Lobsters NFT (first month of users incentive program)**\n\nIf you hold a Lobster NFT on your signer address ( a browser wallet or hardware wallet that you use to sign transactions on the Ambire Wallet) you will receive a 1.5X liquidity mining multiplier for the 1 month of using Ambire Wallet.\n\n**2. Transfer your Lobster to Ambire wallet (as long as you hold Lobster in that wallet):**\n\nIf you transfer your Lobster NFT to Ambire Wallet you will continue having the 1.5X multiplier as long as you are holding the Lobster NFT into your Ambire wallet. (By the way, the wallet has an NFT dashboard which looks sleek)\n\nNote: holding more than 1 lobster per account WON'T increase your multiplier.\n---\nVote YES - LobstersDAO officially works with Ambire for the liquidity mining booster feature to go smooth.\n\nVote NO - LobstersDAO won't work officially with Ambire. (Do note that we can't stop Ambire to do boost, but we will not endorse nor support this) \n",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x3bc482b13EAf5C69D16a257584cF75b5Ea82604a",
+      "totalVotes": 148,
+      "blockNumber": 13798206,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0x8a637193a548cece4a5ccb9ee3fd019a5ed780c620441be500915ac5b333751b",
+      "startTime": {
+        "timestamp": 1639472400
+      },
+      "endTime": {
+        "timestamp": 1639854000
+      },
+      "startTimestamp": 1639472400,
+      "endTimestamp": 1639854000,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 290.0,
+          "choice": 0
+        },
+        {
+          "total": 29.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 290.0,
+          "choice": 0
+        },
+        {
+          "total": 29.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweGRhMWFhMWIxMTgyNmJhYzcyNDZjY2U5MzM2NGE3NGJmN2FhNDI1MDJjMGJhZjhhZTA2MGU5OTViZjJiNTMyODg=",
+      "id": "0xda1aa1b11826bac7246cce93364a74bf7aa42502c0baf8ae060e995bf2b53288",
+      "title": "Fix typo: Rename Untextered train into Untextured",
+      "content": "Been discussed extensively, but let's vote on it anyway.\n\nThere is typo in one of the traits of our seafood. There is an \"Untextered\" trait which should've been \"Untextured\", but the artist did the typo filling the metadata. He's for fixing it and renaming it back to \"Untextured\". Rarity.tools also asked us to fix it, so we're inclined to do it.\n\nHere is a discussion issue, if you're against – leave a comment why.\nhttps://github.com/lobster-dao/overview/issues/43\n\nNo traits would be removed.",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0xE74Ed6B9B268ECD478c01F76dc7DaFCA428dd359",
+      "totalVotes": 115,
+      "blockNumber": 13710531,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0xda1aa1b11826bac7246cce93364a74bf7aa42502c0baf8ae060e995bf2b53288",
+      "startTime": {
+        "timestamp": 1638187200
+      },
+      "endTime": {
+        "timestamp": 1638446400
+      },
+      "startTimestamp": 1638187200,
+      "endTimestamp": 1638446400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against (write why)"
+      ],
+      "results": [
+        {
+          "total": 342.0,
+          "choice": 0
+        },
+        {
+          "total": 13.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 342.0,
+          "choice": 0
+        },
+        {
+          "total": 13.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDoweGU5ZTJjYmFjZWYyMGNkZjI1ZTVhNWNjYzc5NGVkZGRiZjZhMWU3NDA3NTdjNzkyOTZkYTU5OWUzMjA2M2I4ZTY=",
+      "id": "0xe9e2cbacef20cdf25e5a5ccc794edddbf6a1e740757c79296da599e32063b8e6",
+      "title": "Bug: LobsterDAO NFT for project contributors",
+      "content": "LobsterDAO NFT for project contributors\n\nDuring the initial distribution of LobsterNFT, some NFT were distributed to contributors who helped build the project.\n\nReference: https://docs.google.com/spreadsheets/d/1vjGXNyAMmudhZ6R7_qAPPs7RgES5DbMiiSAoeMnngw4/edit\n\nGithub Thread: https://github.com/lobster-dao/overview/issues/38\n\nDue to a bug in the script, some of those contributors have not received their attributed NFTs (from the extra tab). The bug appeared for those who provided the same address in the google sheet and to the Telegram bot. And/Or to those whose number was not updated in the first sheet.\n\nThose affected have been identified and confirmed in the Github Thread.\nThose are: \nCIA 3\nMdzor 3\nArtist 20\n\nThis Proposal is created to validate with votes that the missing NFTs could be distributed in a randomized way to the 3 contributors impacted or not.\n\nIf you press \"I Agree\" the NFT will be sent to the contributors as initially planned.\nIf you press \"I Disagree\" the NFT won't be sent and the contributors won't be compensated.",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x36803EEF72A2b2c7d815B4E74b75fb5cC850E349",
+      "totalVotes": 131,
+      "blockNumber": 13594322,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/0xe9e2cbacef20cdf25e5a5ccc794edddbf6a1e740757c79296da599e32063b8e6",
+      "startTime": {
+        "timestamp": 1636560000
+      },
+      "endTime": {
+        "timestamp": 1636776000
+      },
+      "startTimestamp": 1636560000,
+      "endTimestamp": 1636776000,
+      "currentState": "closed",
+      "choices": [
+        "I Agree",
+        "I Disagree"
+      ],
+      "results": [
+        {
+          "total": 365.0,
+          "choice": 0
+        },
+        {
+          "total": 17.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 365.0,
+          "choice": 0
+        },
+        {
+          "total": 17.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDpxbXp6cWlmeW13bXJqd2NncXVka2U3eGRnMmtldTVnbTQ3dnNjdGxibjhhbXdy",
+      "id": "QmZzqifYMwmrjWcgquDKe7XDG2KEu5Gm47VsCtLBN8amwR",
+      "title": "Make Discord to organize DAO work ",
+      "content": "This is a vote on whether we should create a Discord org to structure DAO work properly. It is not a vote about gating the chat and at this time Discord is not planned to be gated. The idea is to migrate the whole LobsterDAO Kingdom chat there into the main channel, and then create separate channels for work groups doing various tasks. \n\nPreliminary discussion on [Github Issues](https://github.com/lobster-dao/overview/issues/31)\n\nThe problem:\nVery hard to manage many different directions of work in a one-channel chat like TG. We need separate info flow and working groups on each project partnership, governance discussions, internal organizational work, marketing work and so on.\n\nDid a pre-vote in tele, 50 people voted, 90% said they'd join.\n\nPros:\n\n- Allows to structure the work the way it needs to be structures.\n\nCons:\n\n- I dislike discord.\n- Another new chat to manage.\n- Splitting people attention once again.\n\nAlternative solution\n\n- None?\n- We can stay in Telegram, but it's already a mess.",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0xE74Ed6B9B268ECD478c01F76dc7DaFCA428dd359",
+      "totalVotes": 111,
+      "blockNumber": 13475748,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/QmZzqifYMwmrjWcgquDKe7XDG2KEu5Gm47VsCtLBN8amwR",
+      "startTime": {
+        "timestamp": 1634986800
+      },
+      "endTime": {
+        "timestamp": 1635246000
+      },
+      "startTimestamp": 1634986800,
+      "endTimestamp": 1635246000,
+      "currentState": "closed",
+      "choices": [
+        "For it",
+        "Against it (write why on github)"
+      ],
+      "results": [
+        {
+          "total": 229.0,
+          "choice": 0
+        },
+        {
+          "total": 32.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 229.0,
+          "choice": 0
+        },
+        {
+          "total": 32.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDpxbWV6cWR0ajJtdXZ3dmtzaXp0anlwM2pta3EyOThoam5kbTd3dW9lOWNsemNj",
+      "id": "QmeZqdtJ2mUVwVksizTjYp3jmkq298HJNdm7wuoE9cLZcc",
+      "title": "Partnership proposal to Gearbox",
+      "content": "- Contributors: all members of github discussion and the working group\n- Loosely based on the template in [governance dicsussion](https://github.com/lobster-dao/overview/issues/22#issuecomment-944232689)\n\nThis is a vote on whether we want to propose a partnership to [Gearbox Protocol](https://gearbox.fi/) (Ivan's baby) in the form attached below.\n\n[Preliminary discussion on Github Issues](https://github.com/lobster-dao/overview/issues/27#issuecomment-948515380)\n\n[Finalized PDF of the proposal on IPFS](https://ipfs.io/ipfs/QmPoyqsiW2kjAHoHLs99y6KRyJbooHnkHqaqi4TwwZGmsK?filename=Gearbox%20proposal.pdf)\n\nThe idea is that we as a community provide services to Gearbox as described in the PDF, while Gearbox considers and offers us something in return if we provide them. \n\nThis is not a vote on whether we actually partner with Gearbox. Just a vote on whether we propose. Whether we partner or not would depend on their value proposition and would require a separate discussion.\n",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0xE74Ed6B9B268ECD478c01F76dc7DaFCA428dd359",
+      "totalVotes": 165,
+      "blockNumber": 13462642,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/QmeZqdtJ2mUVwVksizTjYp3jmkq298HJNdm7wuoE9cLZcc",
+      "startTime": {
+        "timestamp": 1634842020
+      },
+      "endTime": {
+        "timestamp": 1634997600
+      },
+      "startTimestamp": 1634842020,
+      "endTimestamp": 1634997600,
+      "currentState": "closed",
+      "choices": [
+        "For proposing to Gearbox",
+        "Against proposing to Gearbox"
+      ],
+      "results": [
+        {
+          "total": 373.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 373.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDpxbWJsbmNtdm82d2tjcW15cWcxdzNmcTZjcnZ6cmJtY2Rpc2UxbWpnZDI5ZHV0",
+      "id": "QmbLncmVo6wKcqMyqG1W3Fq6CrVZrbmCDise1mjgD29duT",
+      "title": "Should we pay to list on Rarity.tools",
+      "content": "\n\nPros:\n\n- additional exposure so people can find lobsters where people are already looking for other projects\n- somewhat useful established rarity tool\n- potentially fixable to include unminted lobsters\n\nCons:\n- 2 ETH price\n\nArgument to justify the cost goes as follows:\n- If listing on rarity.tools for 2 ETH will probably bring a 100 ETH more trading volume over a lifetime of LOBS because of additional exposure, then royalties bring 5.25 ETH to the DAO and the listing pays for itself.\n\nFull discussion here: https://github.com/lobster-dao/overview/issues/19\n\nOptions:\n- yes, for 2 ETH\n- yes, for 1 LOBS (if they accept it, otherwise fallback to 2 ETH)\n- no\n\nNOTES:  IF RARITY TOOLS REFUSES TO ACCEPT THE FLOOR LOBS, A YES VOTE DEFAULTS TO ETH",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x81f9B40Dee106a4C5822aED7641D5C1e2B40F922",
+      "totalVotes": 218,
+      "blockNumber": 13412094,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/QmbLncmVo6wKcqMyqG1W3Fq6CrVZrbmCDise1mjgD29duT",
+      "startTime": {
+        "timestamp": 1634158800
+      },
+      "endTime": {
+        "timestamp": 1634677200
+      },
+      "startTimestamp": 1634158800,
+      "endTimestamp": 1634677200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, for 2 ETH",
+        "Yes, for 1 Floor LOBS",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 422.0,
+          "choice": 0
+        },
+        {
+          "total": 21.0,
+          "choice": 2
+        },
+        {
+          "total": 73.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 422.0,
+          "choice": 0
+        },
+        {
+          "total": 73.0,
+          "choice": 1
+        },
+        {
+          "total": 21.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDpxbWF3NGZrZGh5anF5aDlzdjExZXVrMzFyampmNTNqaHdtenJvbWdpeHNzN3U0",
+      "id": "QmaW4FKdhYjqYH9sV11Euk31RJjf53jhwMZRomGixSS7u4",
+      "title": "Token Gate \"lobsterDAO 🦞 kingdom\" Telegram chat.",
+      "content": "Both NFT Avenue and lobsterDAO have, despite best moderation efforts, numerous threads regarding lobs governance and distro. A gated chat would ensure a home for those committed crustaceans, allowing fruitful discussion of the DAO from engaged invertebrates (yes, lobsters are invertebrates), whilst keeping our beloved OG channels free for alfa and Ivan rage.",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0xb941F9b7566E7108332a9eC187D222A1Cc05e422",
+      "totalVotes": 224,
+      "blockNumber": 13402774,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/QmaW4FKdhYjqYH9sV11Euk31RJjf53jhwMZRomGixSS7u4",
+      "startTime": {
+        "timestamp": 1634031000
+      },
+      "endTime": {
+        "timestamp": 1634641200
+      },
+      "startTimestamp": 1634031000,
+      "endTimestamp": 1634641200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, token gate the chat!",
+        "No, keep it open."
+      ],
+      "results": [
+        {
+          "total": 358.0,
+          "choice": 0
+        },
+        {
+          "total": 293.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 358.0,
+          "choice": 0
+        },
+        {
+          "total": 293.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDpxbWF1YTN6ZW5hanJoYmRhbHl4dXY3Z2lwMXVhZXhodTJ5NmlpYmtyN21jdDhq",
+      "id": "Qmaua3zenAJRHbDaLyxuv7giP1uAeXHu2Y6iibKr7mct8J",
+      "title": "LOBS Analytics Proposal #2",
+      "content": "LobsterDAO was created as a way for crypto community members to help one another and share useful information. In that spirit, this proposal is for Apophenia (Telegram: @apophenia19) to create analytics on the full set of 6751 LOBS for 1 RANDOM LOBS (that went unclaimed).\n\nNote: As the DAO will refrain from minting unclaimed LOBS, OpenSea and others will only pick up the traits and rarity of the minted supply.\n\nAnalytics includes code and data for (at minimum);\n- Holders, Images, Rarity %’s, Rarity Scores, Custom Traits/Weightings and the final overall Ranking.\n\nThe main benefit is community building/hype and for holders to be able to quickly drill down into the stats of LOBS they own.\n\nThe initial analytics set is also likely to expand in the future.\n\nFull details at https://github.com/lobster-dao/overview/issues/17.",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x3055Bc8db0a3998500beF8bC0980f03f47f8a3D4",
+      "totalVotes": 166,
+      "blockNumber": 13403716,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/Qmaua3zenAJRHbDaLyxuv7giP1uAeXHu2Y6iibKr7mct8J",
+      "startTime": {
+        "timestamp": 1634054400
+      },
+      "endTime": {
+        "timestamp": 1634313600
+      },
+      "startTimestamp": 1634054400,
+      "endTimestamp": 1634313600,
+      "currentState": "closed",
+      "choices": [
+        "Reward 1 Random LOBS NFT",
+        "Do Not Reward 1 Random LOBS NFT"
+      ],
+      "results": [
+        {
+          "total": 428.0,
+          "choice": 0
+        },
+        {
+          "total": 30.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 428.0,
+          "choice": 0
+        },
+        {
+          "total": 30.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDpxbW5zZnd6N2l5Ymh1MjhzbzQ5b2NqdnJ2MmZpZG1uMWx3eWtoMWNuc2I3cG1h",
+      "id": "QmNsfWz7iYBhU28so49oCjVRv2FiDmn1LWykh1cNsB7pMa",
+      "title": "Burn $LOBS in treasury? Proposal #1",
+      "content": "Out of 6,751 total $LOBS NFTs, 3464 have been matched to addresses and in the process of being claimed. There are 3,287 left in the DAO's treasury, or 49% of total supply.\nhttps://twitter.com/10b57e6da0/status/1446786577859072001\n\nShall the DAO burn $LOBS in treasury?\n\nPros:\n• $LOBS will be rare\n• The DAO has existing cashflow thanks to 5.25% royalties (70% of 7.5%) on purchase\n• LobsterDAO chat will get more polluted by DAO drama\n\nCons:\n• The DAO will miss on cool things that could be done with undistributed $LOBS\n• Some Klibansky art will be destroyed, potentially including rare pieces\n• More intense and meaningful governance activity within the DAO",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x2992aE1837fd3E5722495d078b599E0b9C5B2Cb5",
+      "totalVotes": 304,
+      "blockNumber": 13385106,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/QmNsfWz7iYBhU28so49oCjVRv2FiDmn1LWykh1cNsB7pMa",
+      "startTime": {
+        "timestamp": 1633791600
+      },
+      "endTime": {
+        "timestamp": 1634313600
+      },
+      "startTimestamp": 1633791600,
+      "endTimestamp": 1634313600,
+      "currentState": "closed",
+      "choices": [
+        "Burn them all",
+        "Burn rares only",
+        "Burn commons only",
+        "Burn random 90% ",
+        "Burn random 50%",
+        "No burn"
+      ],
+      "results": [
+        {
+          "total": 44.0,
+          "choice": 3
+        },
+        {
+          "total": 470.0,
+          "choice": 5
+        },
+        {
+          "total": 37.0,
+          "choice": 4
+        },
+        {
+          "total": 242.0,
+          "choice": 0
+        },
+        {
+          "total": 24.0,
+          "choice": 2
+        },
+        {
+          "total": 13.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "approval",
+      "indexedResult": [
+        {
+          "total": 277.0,
+          "choice": 0
+        },
+        {
+          "total": 25.0,
+          "choice": 1
+        },
+        {
+          "total": 30.0,
+          "choice": 2
+        },
+        {
+          "total": 85.0,
+          "choice": 3
+        },
+        {
+          "total": 54.0,
+          "choice": 4
+        },
+        {
+          "total": 477.0,
+          "choice": 5
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MTBiNTdlNmRhMGV0aDpzbmFwc2hvdDpxbWNiYndxcXlkaTRhYmN5YndocmM4d3J3dWp6eDJ3MjM2aHFrMWp6eWJzYWh0",
+      "id": "QmcBbWQqydi4aBcYBwhRc8WRwuJzx2W236HQK1jzyBsAHT",
+      "title": "Lobster DAO improvement proposal #0.",
+      "content": "Right now we expect to have 6751 amazing lobster NFTs with voting power, but to deliver the decision of this voting to multisig 5 out of 10 anon guardians should sign it. That creates both potential legal liability and security/governance centralization threat. \n\nFortunately snapshot with gnosis created a module to automate the execution of governance proposals.\nhttps://blog.gnosis.pm/introducing-safesnap-the-first-in-a-decentralized-governance-tool-suite-for-the-gnosis-safe-ea67eb95c34f\n\nFrom LobsterDAO Github:\n\"The collection can have a snapshot page for governance\nSnapshot page https://snapshot.org/#/10b57e6da0.eth can be used together with multisig in order to decide what to do with NFTs or any other in the multisig. The collection or the NFTs have no governance over chats, rules, or anything else related to people. It's just governance for fun, and has no value or utility. It's just there to potentially align community in a better way.\"\n\nSo to maximize fun we propose to install SafeSnap module.\n ",
+      "protocol": "10b57e6da0eth",
+      "adapter": "snapshot",
+      "proposer": "0x2992aE1837fd3E5722495d078b599E0b9C5B2Cb5",
+      "totalVotes": 165,
+      "blockNumber": 13385000,
+      "externalUrl": "https://snapshot.org/#/10b57e6da0.eth/proposal/QmcBbWQqydi4aBcYBwhRc8WRwuJzx2W236HQK1jzyBsAHT",
+      "startTime": {
+        "timestamp": 1633788000
+      },
+      "endTime": {
+        "timestamp": 1633881600
+      },
+      "startTimestamp": 1633788000,
+      "endTimestamp": 1633881600,
+      "currentState": "closed",
+      "choices": [
+        "Yes (install SafeSnap module)",
+        "No (don't)"
+      ],
+      "results": [
+        {
+          "total": 443.0,
+          "choice": 0
+        },
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 443.0,
+          "choice": 0
+        },
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

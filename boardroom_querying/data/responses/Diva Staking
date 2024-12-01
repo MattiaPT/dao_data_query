@@ -1,0 +1,814 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6ZGl2YXN0YWtpbmc6b25jaGFpbjo0OTYzNjkyOTM4NTE3NTY3OTk1MDcxNjU5ODU2NDY5MTAxOTIyNjE3MzUzNTA1MjMxODYwMjQxMDU4OTk4MDA1MDkxNzEwNTIxNjM5NA==",
+      "id": "49636929385175679950716598564691019226173535052318602410589980050917105216394",
+      "title": "[DIP-09] Unlock DIVA token transferrability",
+      "content": "## Description\n\nThis proposal unlocks the Diva Staking DAO's DIVA governance token. Currently, DIVA is non-transferable. This proposal allows holders to trade, swap, or use DIVA across the Ethereum ecosystem.\n\n\n\n## Motivation\n\nOn June 28th 2023, the Diva Staking DAO was created via a distribution and claim process which resulted in 4,553 distinct wallets holding DIVA.\n\n\n\nThe claim period ended on August 16th, 2023.\n\n\n\nOn August 19th 2023, [\\[DCP-01\\] proposed an Early Staker program](https://www.tally.xyz/gov/diva/proposal/87485887634082742365047256619524632216107014477059444808141072263652653848832) with a 365 days duration.\n\n\n\nOn September 15th 2023, [\\[DIP-02\\] shortened the duration of the Early Staker program](https://www.tally.xyz/gov/diva/proposal/45468458207916765916984557235161596151150976178275597160417224501662414206717) to 183 days, depending on the mainnet launch.\n\n\n\nAlso on September 15th 2023, [\\[DIP-03\\] Commit to latest deadline for DIVA token transferability](https://www.tally.xyz/gov/diva/proposal/52481024395238134144299582623582875841236980209822828761178984408970724801644) committed \"*to enable transferability for DIVA tokens, with the exact ETA to be determined, but at latest at the end of the Early Stakers' initiative as described in DCP-01 and outlined in DIP-02\"*.\n\n\n\nBecause the token is currently locked and non transferrable, the set of token holders has remained static for approximately 8 months at the time of this writing.\n\n\n\nThis has allowed the project and community to mature organically, prior to going live.\n\n\n\nOn April 1st, official audits started for Diva Staking including well known firms like like [Trail of Bits](https://twitter.com/stakediva/status/1772299640651588047), [Spearbit](https://twitter.com/nektarnetwork/status/1772654237626880143), [Thesis Defense](https://twitter.com/nektarnetwork/status/1773364602983620825), and [Renascense](https://twitter.com/nektarnetwork/status/1773020606029553791).\n\n\n\nOn April 10th, members of the Diva Staking and Nektar Network team including Raúl, Prada, Kotler, and Niko made a [surprise announcement](https://twitter.com/nektarnetwork/status/1778082320798380060) of [Nektar Network](https://nektar.network/), a \"Multilayered Restaking Network\" built on top of Diva Staking. Existing Diva channels like its Twitter and Discord accounts were rebranded as Nektar Network.&#x20;\n\n\n\nTeam members including Prada, Raúl, Kotler, and Niko provided some details on the project, with:\n\n\n\n\\- Prada stating \"diva staking is part of nektar network\" (Apr 10th)\n\n\\- Niko stating that \"DIVA is the only token in the Nektar Network\" (Apr 10th)\n\n\\- Kotler answering \"no\" in response to \"will Nektar Network launch a new token\" (Apr 12th)\n\n\n\nThis suggests the possibility of the DIVA token and DAO playing a role in the future functionality of Nektar Network.\n\n\n\nPrada has recently confirmed that Diva Staking is on track to being deployed to mainnet during Q2, leaving just a few weeks to discuss the final decisions.\n\n\n\nUnlocking DIVA transferability prior to Diva Staking mainnet can be beneficial to allow the DAO to engage and make its voice heard during this critical period in a more inclusive and participative way.\n\n\n\nNot unlocking DIVA transferability before mainnet would result in the exclusion of potential DAO members who would like to participate but were not part of the initial DIVA distribution.\n\n\n\n**Therefore, we recommend unlocking DIVA transferability with this vote.**\n\n\n\n## Specification\n\nThis proposal requires a smart contract interaction to remove the transfer restriction on the DIVA token, which is done by \\[calling the \\`unpause\\` method from ERC20Pausable from the Diva Governor]\\(https://github.com/staking-foundation/diva-governor/blob/2ad4b7a522d97228ea073c67eb094b19b46411ab/contracts/DivaToken.sol#L90-L97)\n\n\n\n## Rationale\n\nThe DAO has now reached a stage where the core functionality is established, there is a strong community, and a secondary market could benefit the DAO by enabling:\n\n\n\n1\\. Fluid Memberships: Allowing holders to enter and leave the DAO by acquiring and disposing of tokens.\n\n2\\. Increased Participation: Active token holders are more likely to be engaged in governance.\n\n3\\. Liquidity: Allowing time for DIVA to be integrated in DeFi will facilitate swaps.\n\n\n\nFurthermore, should there be a need for DAO resolutions prior mainnet deployment, the decision process will benefit from allowing token holders to enter and leave the DAO, resulting in higher participation and community alignment.\n\n\n\nUnlocking transferability with this vote would allow for a few weeks of potential discussions and votes. Community discussions on the merits of unlocking DIVA have been carried on Discord and Reddit.\n\n\n\nFurthermore, the DAO can contribute to inform and curate the development of Nektar Network as its design progresses.\n\n\n\n\n\n## Additional Considerations\n\n* Backwards Compatibility: No impact, as token functionality is being added.\n* Reference Implementation: [See source code from Diva Governor](https://github.com/staking-foundation/diva-governor/blob/2ad4b7a522d97228ea073c67eb094b19b46411ab/contracts/DivaToken.sol#L90-L97).\n* Classification: Medium (based on the Community Guidelines).\n\n\n\n## Copyright\n\nCopyright and related rights waived via CC0",
+      "protocol": "divastaking",
+      "adapter": "onchain",
+      "proposer": "0x37CC9C7d433408F8D5b65AbfC0D9b26FbEa3c5d9",
+      "totalVotes": 227,
+      "blockNumber": 19659710,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1713169523,
+      "endTimestamp": 1713605015,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 33232200.0,
+          "choice": 0
+        },
+        {
+          "total": 9240200.0,
+          "choice": 2
+        },
+        {
+          "total": 5360000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19645310
+          },
+          "event": "pending",
+          "timestamp": 1712995031,
+          "txHash": "0x0c014bad7536bb851d215349bb2d0ba5df61014a353b9909ca1d41488bb9d9ae"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712995482987,
+      "txHash": "0x0c014bad7536bb851d215349bb2d0ba5df61014a353b9909ca1d41488bb9d9ae",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGl2YXN0YWtpbmc6b25jaGFpbjozODMxNDU0MjA2MDcxMzAyNzA4Mjk3Nzk5MDUyMzI4MDYwNzgxMzUyMTE2MzcwNDc5ODA0NDgxNzc4MjI2ODIxODE2MDA3NTQ5OTQxNg==",
+      "id": "38314542060713027082977990523280607813521163704798044817782268218160075499416",
+      "title": "[DIP-08] Base Pre-Launch Campaign Powered by Reserve",
+      "content": "# \\[DIP-08] Base Pre-Launch Campaign Powered by Reserve\n\n## 1.0 Scope of DIP-08\n\nThis proposal outlines the Terms and Conditions (T\\&Cs) of a Base Pre-launch Campaign for bootstrapping divETH deposits, powered by the Reserve Protocol. This proposal represents the culmination of the Base Pre-launch Campaign outlined in the [<u>first RFC</u>](https://commonwealth.im/divastaking/discussion/14588-rfc-base-prelaunch-campaign-powered-by-the-reserve-protocol) and the specific T\\&Cs regarding DIVA token distributions outlined in the [<u>second RFC</u>](https://commonwealth.im/divastaking/discussion/14816-rfc-terms-conditions-for-base-prelaunch-campaign-with-reserve-protocol). These proposals have been well-received by the Diva community and have passed a temp check poll.\n\nThe following proposal text advances the T\\&Cs of the second RFC for a binding DAO vote, while providing broader context around the Base Pre-Launch Campaign, so that this proposal may stand alone.\n\n## 2.0 Summary\n\n* **What**: A new Reserve Protocol RToken, called Based ETH (bsdETH) on Base to onboard users to divETH and defining DIVA distribution T\\&Cs\n* **Why**: Unlock new demographic of Diva pre-launch depositors on Base, kick off L2 expansion\n* **When**: Pre-launch: DIVA rewards accruing 30 days prior to divETH launch \n\nPost-launch: rewards up to 5 months following launch\n\n* **Tokens**: 1.30-2.50 DIVA/ETH/day, higher for earlier participation\n* **Capacity**: 20,000 ETH\n\n## 3.0 Background & Motivation\n\n### 3.1 The Reserve Protocol and RTokens\n\nThe Reserve Protocol is a free, permissionless platform to build, deploy and govern asset-backed currencies referred to as “RTokens”. RTokens are always 1:1 asset-backed, allowing for permissionless minting and redemptions onchain.\n\nBacking changes in the number and proportion of assets in RTokens can flexibly be maintained through decentralized governance. RSR is the Reserve Protocol’s governance token which can be staked on RTokens, where it serves dual purposes of 1) overcollateralization in cases of collateral default; and 2) governance rights for proposing changes in RToken configuration, through an 8-day [<u>governance process</u>](https://reserve.org/protocol/reserve_rights_rsr/#governor-alexios). \n\nSince the first RToken launch in February 2023, RTokens have attracted almost $40M of deposits. RSR enjoys a market cap of $157m.\n\n### 3.2 Motivation\n\nMotivations for the proposed campaign on Base, and the fit with the Reserve Protocol’s technology for achieving these aims is summarized as follows: \n\n* There exists significant LST liquidity on Base for Diva to capture as part of its [L2 expansion goals](https://commonwealth.im/divastaking/discussion/14007-idea-expanding-the-enzyme-prelaunch-program-to-l2s)\n* A presence on Base could unlock an entirely new demographic of depositors for Diva, increasing participation through its low barrier to entry, and an opportunity to grow in step with Base\n* Reserve Protocol RTokens present an elegant vehicle for Diva’s L2 ambitions. The proposed bsdETH RToken is intended to be an Ethereum-aligned LST index promoting validator decentralization and divETH adoption\n* bsdETH will exist as a composable ERC20 token, opening divETH to a plurality of DeFi integrations from the start\n\nIt is therefore worthwhile and advantageous for the Diva DAO to consider a DIVA token allocation to the Base Pre-launch Campaign, pursuant to the details below.\n\n## 4.0 Deployment and Governance \n\n![](https://static.tally.xyz/efeb5ac4-b66b-424f-93b9-ecbc10ed8fc2_original.png)\n\n### 4.1 Deployment\n\nIn line with Ethereum’s permissionless ethos, the deployment of bsdETH on Base can be done by anyone. bsdETH will initially comprise an even split of cbETH and wstETH.\n\nGuidance will be provided by Reserve Protocol contributors, who have experience assisting DAO and institutional operators to strategize and deploy RTokens. In line with mainnet bsdETH, this proposal suggests a provisional revenue split of 95% to holders and 5% to stakers. No other fees are charged by the protocol. \n\n### 4.2 divETH Launch & Basket Change\n\nUpon fulfillment of prerequisite criteria, a governance proposal will be made by bsdETH governors to include divETH in bsdETH. A distribution of 33.3% each of wdivETH, cbETH and rETH is proposed. This distribution respects Diva’s desire for symbiotic growth whilst self-limiting to prevent Ethereum centralization risk.\n\nThese prerequisites include:\n\n* divETH launching on Ethereum mainnet and establishing a Base-bridged version of wdivETH\n* Attainment of a Base oracle price feed for wdivETH\n* RToken collateral plugin development for wdivETH by Reserve contributors\n\nTo facilitate the above, a substantial RSR stake and delegation from Reserve Protocol’s treasury to Diva DAO is proposed to secure bsdETH’s decentralized governance and ensure robust overcollateralization.\n\n## 5.0 Terms and Conditions\n\n### 5.1 Program Duration\n\nThe Base Pre-Launch Campaign spans 6 months (183 days), during which DIVA tokens accrue to bsdETH depositors (the “Incentive Period”). The Incentive Period starts 30 days before divETH’s mainnet launch and continues for 153 days post-launch.\n\n### 5.2 Eligibility, Transferability and use of bsdETH\n\n**In general, possession of, or entitlement to, bsdETH tokens confers eligibility to DIVA incentive accrual during the Incentive Period**. This means that bsdETH deployed in various DeFi applications remain eligible for DIVA tokens, and that transfers made for such purposes will not be considered withdrawals for the purposes of calculating users’ accrual tranches (discussed below).\n\nAs an illustrative example, users who complete the actions below are all considered equal in terms of DIVA accrual(assuming deposits are made at the same time and within the same tranche):\n\n* Mint 1 bsdETH and hold\n* Mint 1 bsdETH and deposit 1 bsdETH / 1 ETH as liquidity on Curve \n* Buy 1 bsdETH on Curve and deposit as collateral on Aave/Compound/Moonwell\n\nBorrows of bsdETH on lending markets do not confer eligibility as they denote liabilities rather than assets.\n\n### 5.3 Redemptions and Subsequent Deposits\n\n#### 5.3.1 Redemptions\n\nFunds in bsdETH can be redeemed in a trustless manner at any time. However, redemptions before the date at which bsdETH performs its first basket migration to include divETH (the “Rebalance Date”) disqualifies users for any DIVA distributions. \n\nFor redemptions that occur between the Rebalance Date and the end of the Incentive Period, accrual is determined by the count of full commitment days. To be clear, redemptions between the Rebalance Date and end of the Incentive Period do not affect accrued token allocation (as redemptions before the Rebalance Date do), but do entail forgoing future accruals.\n\nFor greater clarity, sales of bsdETH on AMMs, redemptions of bsdETH for underlying LST collateral, and transfers of bsdETH out of a wallet, are all considered redemption events.\n\n#### 5.3.2 Subsequent Deposits\n\nSubsequent deposits permit users to accrue DIVA tokens based on the latest tranche rate and their count of full commitment days, segregated from any prior deposits. That is, users may be accruing DIVA at varying rates based on when deposits are made. Partial withdrawals in such cases are assumed to be from latest deposits (LIFO, unless made before the Rebalance Date).\n\n### 5.4 Calculation and Distribution of DIVA tokens\n\nAccording to the general principles for bsdETH participation set out in section 5.2, Diva DAO and Reserve Protocol contributors will collaborate to develop an off-chain formula which captures entitlements during the Incentive Period. Furthermore, Reserve contributors will supply an API endpoint that provides information on accrued DIVA rewards for each participating address.\n\nThe formula for the calculation of DIVA token accrual rate is based on tranches with diminishing token amounts (listed below).\n\n![](https://static.tally.xyz/a2f9f667-b23e-4ae2-a606-399287810908_original.png)\n\nDIVA token entitlements are ultimately a function of deposit size, the timing of when deposits were made, and the duration of deposits (subject to the specific considerations discussed herein).\n\nUsers must be mindful that DeFi participation in conjunction with the Base Pre-launch Campaign can introduce nuances in the way entitlements may be calculated, for example with AMM pool imbalances, and lending market liquidations. Reserve Protocol and the Diva DAO reserves the right, in their sole discretion, to use methodology for calculating entitlements it deems most appropriate. \n\n### 5.5 Token Unlocks and Claiming\n\nPost divETH’s mainnet launch, the Diva DAO will vote to enable the transferability of the DIVA token (the “Transfer Date”). Per [<u>DCP-03</u>](https://www.tally.xyz/gov/diva/proposal/52481024395238134144299582623582875841236980209822828761178984408970724801644?chart=0), the Transfer Date will be at latest the date of divETH’s mainnet launch + 153 days. Accrued DIVA tokens will be claimable at or around the Transfer Date according to the following schedule:\n\n**Claim 1**: bsdETH depositors can claim 50% of DIVA tokens accrued between the start of the Incentive Period (divETH mainnet launch - 30 days) to the Transfer Date as an initial reward for their participation. Recall that withdrawals before the Rebalance Date disqualify users from token allocation. \n\n**Claim 2**: At the end of the 183 day Incentive Period, participants are eligible for a second claim combining:\n\n* The remaining 50% of tokens from Claim 1 above\n* Plus any additional DIVA tokens accrued between the Transfer Date and the end of the Incentive Period (mainnet launch + 153 days)\n\n### 5.6 DIVA Allocation as % of the Total Supply\n\nThis RFC proposes a maximum allocation of approximately 0.65% of the total DIVA supply, if the initiative reaches maximum capacity and 100% of tokens are claimed.\n\nNotably, Reserve Protocol contributors do not request a treasury allocation. The Reserve Protocol provides permissionless machinery for anyone to create asset-backed currencies. The Base Pre-launch Campaign therefore emphasizes the ethos of decentralization espoused by Diva and Ethereum, proposing that representatives of the Diva DAO deploy and govern bsdETH.\n\n### 5.7 Deposit Cap\n\nThe cap on this initiative is 20k ETH. It is anticipated that mainnet users aligned with Diva will bridge ETH/LSTs to Base to participate in accrual tranches no longer available on mainnet.\n\nIf the 20,000 ETH cap is hit, deposits can still be made, but they’ll be considered as being on a “waitlist.” These waitlisted deposits will only be eligible for DIVA distributions if those who deposited first withdraw their deposits early.\n\n### 5.8 Maximum / Minimum Deposit\n\nThe minimum deposit is set at 0.05 ETH while the maximum deposit for a single address is 5,000 ETH.\n\n## 6.0 Closing Remarks\n\nReserve Protocol contributors extend their gratitude to the Diva community for considering this proposal, which aims to foster mutual growth in the burgeoning Base ecosystem. Our goal is to establish a robust foundation for continued collaboration between the Diva and Reserve Protocol communities. We are thrilled to expand the reach of Diva’s innovative approach to validator decentralization on Base… and beyond!",
+      "protocol": "divastaking",
+      "adapter": "onchain",
+      "proposer": "0xaCbABbb5b96b0e2889C27496fa33e6f26081E1a2",
+      "totalVotes": 191,
+      "blockNumber": 19141996,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1706892443,
+      "endTimestamp": 1707329231,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 156000.0,
+          "choice": 0
+        },
+        {
+          "total": 612000.0,
+          "choice": 2
+        },
+        {
+          "total": 31216600.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19127596
+          },
+          "event": "pending",
+          "timestamp": 1706717891,
+          "txHash": "0x363efa0f4ccfc489e0d52d671545ad304a0a7ed3168b1b3a4daa95d7554e7598"
+        },
+        {
+          "time": {
+            "blockNumber": 19180230
+          },
+          "event": "queued",
+          "timestamp": 1707356351,
+          "txHash": "0xef6a538cecae67045b6f74a051473fef2847d354ea68d27d3ef3f55ed3649c2e"
+        },
+        {
+          "time": {
+            "blockNumber": 19254848
+          },
+          "event": "executed",
+          "timestamp": 1708261247,
+          "txHash": "0x21b49b06961dcf764416e30ff488e66fbc4373e66db0ea8a498fd20835f0852e"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706718198927,
+      "txHash": "0x363efa0f4ccfc489e0d52d671545ad304a0a7ed3168b1b3a4daa95d7554e7598",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGl2YXN0YWtpbmc6b25jaGFpbjo5Njc5MzMzNDA5MjQzMDE2NzY5NDk0NDQ2NjA1Mzk4NzExODkwMDYxNDMzMTIxNzIzOTQ5ODc3MDEwMzczMzQ4NDk3MjAxOTg4ODMwNw==",
+      "id": "96793334092430167694944466053987118900614331217239498770103733484972019888307",
+      "title": "[DIP-07]: Launch Early Staker Program Powered by Sommelier Vaults",
+      "content": "### \\[DIP-07]: Launch Early Staker Program Powered by Sommelier Vaults with Terms & Conditions (T\\&Cs) - Incl. Token Distribution Details for Program Participants\n\nDIP-07 has been curated by [<u>Sunand Raghupathi</u>](https://twitter.com/sunandr_) representing [<u>Seven Seas</u>](https://sevenseas.capital/), a data science firm and strategy provider in the [<u>Sommelier</u>](https://www.sommelier.finance/) ecosystem. \n\nAs per governance DAO [<u>guidelines</u>](https://docs.staking.foundation/proposals), the proposal is brought by [<u>Kotler</u>](https://www.tally.xyz/profile/0xacbabbb5b96b0e2889c27496fa33e6f26081e1a2) who represents 1M+ delegated DIVA tokens and therefore meets the criteria to submit a binding DAO proposal.\n\n**Scope of DIP-07**\n\nThis proposal outlines the intention of launching a Early Staker program powered by Sommelier and its associated Terms and Conditions (T\\&Cs), which includes token distribution details for Program participants. The initial proposal of the Early Staker program was outlined in this first [<u>RFC</u>](https://commonwealth.im/divastaking/discussion/14244-rfc-start-collecting-prelaunch-tvl-and-liquidity-with-an-early-staker-program-powered-by-sommelier-vaults) and the initial proposal of the T\\&Cs was outlined in this second [<u>RFC</u>](https://commonwealth.im/divastaking/discussion/14325-rfc-proposed-terms-conditions-tcs-for-diva-early-stakers-vaults-on-sommelier-incl-token-distribution-details-for-program-participants). Both RFCs were placed for a temp check poll and [<u>passed</u>](https://commonwealth.im/divastaking/discussion/14325-rfc-proposed-terms-conditions-tcs-for-diva-early-stakers-vaults-on-sommelier-incl-token-distribution-details-for-program-participants).\n\nThe text below re-outlines the key provisions of those RFCs with particular emphasis on the T\\&Cs. The Seven Seas compensation component of the T\\&Cs have been adjusted based on community feedback, and we are proposing a compensation structure in line with our latest [<u>comment</u>](https://commonwealth.im/divastaking/discussion/14325-rfc-proposed-terms-conditions-tcs-for-diva-early-stakers-vaults-on-sommelier-incl-token-distribution-details-for-program-participants?comment=70613) in the second RFC.\n\n**Early Staker Program: Summary**\n\n* **Why:** The Enzyme pre-launch vaults have been successful at attracting ~$45M of future divETH stakers. However, this initiative has been primarily focused on ETH and stETH holders. Members of the Rocket Pool community interested in Diva expressed feelings of being left out as rETH holders. An rETH vault had been discussed but the Diva community has been against an rETH vault that would directly reduce Rocketpool TVL. A more synergetic approach is needed.\n\nBeyond targeting a new user base, the vault will help bootstrap intelligent long-term and post-launch divETH liquidity which can be dynamically provided across the divETH ecosystem to support Diva Staking DAO goals (e.g., Chainlink oracle support).\n\n* **Who:** Seven Seas for its DeFi expertise and Sommelier for its secure and cutting-edge architecture are ideal partners to launch a new vault enabling the Rocket Pool community to participate in a Diva pre-launch initiative.\n* **How:** With a Diva Early Stakers rETH BPT vault, which accepts rETH-ETH BPT (Balancer Pool Token) (B-rETH-STABLE) as the deposit asset and accounting asset. \n\n**Early Staker Program: Sommelier as Infrastructure**\n\nInnovative and non-custodial, Sommelier, launched in 2021, is a decentralized asset management protocol that secures over $60M in TVL. It has undergone multiple audits with [<u>0xMacro</u>](https://0xmacro.com/) and has a [<u>bug bounty</u>](https://immunefi.com/bounty/sommelier/) program on ImmuneFi. Sommelier vaults are used by crypto natives (e.g., top DeBank users), DAOs, Family Offices and Hedge Funds\n\n**Early Staker Program: Seven Seas as DeFi Strategists**\n\nIt is also important to consider several Seven Seas’ qualifications as strategists to supervise this initiative. Seven Seas has been actively running and designing DeFi strategies for LST assets throughout 2023 including the $42M Real Yield ETH vault and vaults created in partnership with other LST protocols like the $32M Turbo stETH vault for Lido and the $3M Turbo swETH vault for Swell.\n\nIn terms of liquidity management, the vaults listed above have LP’d for an aggregate trading volume in excess of $2.5B since April. More specifically, we believe that Real Yield ETH is the single most prolific on-chain LP in LST DeFi having facilitated $1.96B of swap volume. In short, we bring a rare expertise to the Diva ecosystem.\n\n**Early Staker Program: DIVA DAO & Ecosystem Benefits**\n\n* **Assisting with Chainlink Oracle Support:** One of the requirements to receive a Chainlink oracle is having sufficient liquidity on at least 3 different DEXs. The Sommelier vault can help provide intelligent liquidity on a DEX like Uniswap v3, Balancer and others to help meet this requirement. \n* **Efficient Liquidity:** Efficient liquidity on DEXs also better positions divETH as collateral for various lending markets and other DeFi integrations.\n* **Minimal Price Impact on Entry/Exit:** Deep, intelligent liquidity that can support large swaps into and out of divETH with minimal price impact makes the asset more appealing to large holders.\n* **Peg Stability:** Liquidity that can support the divETH peg through peg arbitrage can give divETH users additional confidence in the stability of the asset.\n* **Waived Fees During Pre-Oracle Support Period:** Sommelier vaults typically charge an annual Platform Fee based on the assets held in the vault, and a Performance Fee. These fees will be waived during the Pre-Oracle support period. After the launch of divETH and once the required oracle support is in place for the vault to take active DeFi positions, users will be charged these fees. \n* **Opportunity for SOMM Token Allocations:** Seven Seas will post a request for a couple months of SOMM token distributions for the vault that provides a yield boost to users in the vault, contingent on the discussed DIVA allocation for users of the Sommelier vault. These token allocations would begin once the required divETH oracle support is received and the vault takes its active DeFi positions. Seven Seas could advocate for additional SOMM token distributions beyond this initial period depending on the vault’s traction.\n* **Ability for the Rocket Pool Community to Participate Directly (rETH-ETH BPT) & Earn DIVA**: Holders of the rETH-ETH BPT will be able to continue to benefit from the ongoing yield generated by depositing their B-rETH-STABLE tokens into the vault. In doing so, not only do we provide an easy onramp for the more than $85M of capital in this pool to join the Diva ecosystem, but these users will also be able to earn yield prior to the divETH launch. The yield of this BPTposition (when staked) has [<u>historically</u>](https://defillama.com/yields/pool/a4b5b995-99e7-4b8f-916d-8940b5627d70) been significantly higher than the native rETH yield. This dual benefit allows depositors to maximize their rETH returns while they wait for divETH launch and also receive a DIVA token allocation.\n\n**Early Staker Program: Vault Description & Technical Implementation**\n\nDiva Early Stakers rETH BPT vault: Accept rETH-ETH BPT (B-rETH-STABLE) as the deposit asset and accounting asset. These BPT tokens will be held “as is” or staked on Aura until divETH is live and has the required oracle for Sommelier integration. Once the required oracle support is in place, the assets in the BPT can be used in divETH-powered yield opportunities including a potential Balancer rETH-divETH pool. Essentially converting the committed ETH into divETH and adding liquidity for rETH-divETH on a major decentralized exchange. As divETH proliferates, the vault could run yield-generating strategies on the following protocols: Uniswap v3, Balancer/Aura, Aave, Compound, Morpho,  and Fraxlend. Integrations with additional DeFi protocols are in progress. \n\nAny variations to this intended implementation & strategy (especially before mainnet) shall be executed only after a successful vote by the DIVA DAO. \n\nDepositors receive an ERC-20 vault share, which represents a pro-rata share of the underlying assets held in the vault. Vault shares are transferable and can be used anytime to redeem the corresponding amount of underlying assets.\n\nAll smart contract components that will be used in this vault have been previously audited by [<u>0xMacro</u>](https://0xmacro.com/).\n\n![](https://static.tally.xyz/d6b1434c-6373-4375-afc9-5d9361627b0a_original.jpeg)\n\n**Terms & Conditions: Summary**\n\n* What: Sommelier vault to onboard rETH users into divETH LST DeFi\n* Why: Enable Rocket Pool community access to a Diva pre-launch initiative and provide intelligent liquidity within the divETH ecosystem\n* When: Prior to divETH mainnet launch and beyond\n* Where: Uniswap V3, Balancer and others\n* Token Allocation: 1.30 - 2.50 DIVA/ETH/day, higher for early participants\n* Proposed Capacity: 20,000 ETH\n\n**Specific Terms & Conditions**\n\n**Eligibility**\n\nAlthough there is no KYC enforced, Sommelier vaults are not open to persons or citizens of the United States and other restricted countries - for more details please refer to the [<u>Sommelier User Terms</u>](https://app.sommelier.finance/user-terms).\n\n**Transferability of Vault tokens**\n\nDepositors receive an ERC-20 token, which represents a pro-rata share of the underlying assets held in the vault. Vault shares are transferable and can be used anytime to redeem the corresponding amount of underlying assets.\n\n**Key dates**\n\nThere are several key dates to keep in mind:\n\n* Vault Launch: The launch of the vault marks the beginning of the “Queuing Stage” \n* 30D pre-Mainnet: DIVA allocations begin to accrue for users in the vault\n* Mainnet Launch: DIVA allocations accrue for the next 335 days\n* Oracle live for divETH: SOMM incentives begin for 60 days (subject to governance approval); vault shifts from “HODL” strategy to active DeFi LPs (e.g., Balancer, Uniswap, etc.)\n* DIVA claims begin: Users are able to claim a <u>portion</u> of their their accrued DIVA tokens beginning 30 days after divETH mainnet launch\n\n**DIVA Accrual**\n\nUsers will be assigned a ranking based on a first-come, first-served principle. This ranking will be used to determine future token distribution, with those depositing earlier enjoying higher distribution rates.\n\nOnce the vault launches, users can enter the vault to secure their ranking for that deposit. \n\nThe earliest token accrual of DIVA tokens will be 30 days prior to divETH mainnet launch and will continue for 335 days after mainnet launch. \n\n**Program Duration**\n\nDIVA tokens will accrue for a period of 365 total days, 30 days pre- mainnet launch and for 335 days post-launch.\n\nWe acknowledge that the initial Avantgarde pre-launch program was for 183 days, but that program focused solely on bootstrapping TVL prior to divETH mainnet launch. In contrast, this program focuses on pre-mainnet bootstrapping as well as long-term post-launch liquidity in the divETH ecosystem, hence the proposed 365 day duration.\n\n**Token Unlocks and Claiming**\n\nToken claims will occur in four phases:\n\nPhase 1: 30 days after divETH mainnet launch, vault depositors can claim 50% of their accrued DIVA tokens as an initial allocation for their participation. That is 50% of the tokens accrued during the 30 days from \\[divETH mainnet launch - 30 days] until \\[divETH mainnet launch + 30 days], which is approximately 8% of the max potential accrual.\n\nPhase 2: On day 120 of the program \\[divETH mainnet launch + 90 days], vault depositors can claim the unclaimed 50% of tokens from Phase 1 in addition to 50% of the tokens accrued in Phase 2. This represents approximately 16% of the max potential accrual.\n\nPhase 3: On day 240 of the program \\[divETH mainnet launch + 210 days], users can claim the unclaimed 50% of tokens accrued in Phase 2 in addition to 50% of the tokens accrued in Phase 3. This represents approximately 25% of the max potential accrual.\n\nPhase 4: On day 365 of the program \\[divETH mainnet launch + 335 days], users can claim the unclaimed 50% of tokens accrued in Phase 3 in addition to 100% of the tokens accrued in Phase 4. This represents approximately 51% of the max potential accrual.\n\nAs a reminder, early redemptions do not imply losing eligibility in a retroactive manner, but it does imply forgoing future accruals.\n\n**Deposit Cap**\n\nThe cap on this initiative is 20k ETH. For reference, the current TVL of the Balancer rETH-ETH pool is $85M TVL (~32k ETH).\n\nIf the 20,000 ETH cap is hit, deposits can still be made, but they'll be considered as being on a \"waitlist.\" These waitlisted deposits will only be eligible for DIVA distributions if those who got in first withdraw their deposits early.\n\n**Maximum / Minimum Deposit**\n\nThe minimum deposit is set at 0.1 B-rETH-STABLE while the maximum deposit for a single depositor is 10,000 B-rETH-STABLE.\n\n**Withdrawals**\n\nFunds can be withdrawn at any time. However, if you redeem prior to when the vault begins taking its active DeFi positions, which we define as the first rebalance into the divETH asset, you won't qualify for any DIVA distributions. For redemptions that take place between the start of active DeFi positions and the 365-day deadline, accrual is determined by the count of full commitment days.\n\n**Vault Value Proposition (Liquidity Provision)**\n\nThe assets in the BPT can be used in divETH-powered yield opportunities including a potential Balancer rETH-divETH pool. As divETH proliferates, the vault could run strategies on the following protocols: Uniswap v3, Balancer/Aura, Aave, Compound, Morpho, and Fraxlend. Integrations with additional DeFi protocols are in progress.Because divETH is not being used as the deposit asset, the assets in the B-rETH-STABLE BPT will have to be swapped for divETH and the other asset(s) in the divETH LP. This means that for all incoming deposits (especially post divETH launch), the vault will be contributing buy-pressure on divETH and also increasing the amount of divETH supply. \n\nLastly, but most importantly, we as Seven Seas bring our world-class expertise in liquidity management to the Diva ecosystem. Vaults designed by Seven Seas have LP’d for an aggregate trading volume in excess of $4B since April. We believe that our Real Yield ETH vault is the single most prolific on-chain LP in LST DeFi having facilitated ~$2B of swap volume. In short, there are very few, if any, teams with matching levels of hands-on experience. \n\n**Calculation and Distribution of DIVA tokens**\n\nThe calculation will be based on an off-chain formula that determines the distribution for each single address. The final distribution will be based on the on-chain data. The formula for the calculation of DIVA tokens is based on tranches with diminishing token amounts (listed below).\n\nThe distribution of DIVA tokens will be calculated as follows, DIVA accrual = ETH deposited \\* Days in vault during accrual period \\* DIVA/ETH/Day for each tranche.\n\n![](https://static.tally.xyz/ac3f71f7-008b-4062-abca-fa5778f4bbf0_original.png)\n\n**DIVA Allocation as a % of the Total Supply**\n\nAn initiative with a goal of bootstrapping millions in pre-launch TVL and incentivizing significant liquidity provision on DEXs for the LST should receive a generous token allocation.\n\nThe size of the allocation discussed for this RFC represents a total maximum of approximately 1.4% of the total supply - if the initiative is maxed out from the start AND for the whole duration (365 days) AND 100% of tokens are claimed. \n\nNote that the above estimated allocation also includes the allocation to Seven Seas, whose allocation is approximately 0.14%. More details about the rationale in the paragraphs below.\n\n**Seven Seas’ Role**\n\n**Early Support**\n\nAlthough not the first team to propose this concept, getting to this point has still required extensive work engaging with the Staking Foundation. Crafting these proposals, gathering input (from the Foundation and also the community), and refining them for mutual agreement has been an intensive process. \n\n**Vault Design and Deployment**\n\nSeven Seas will handle the technical design, smart contract deployment of the vault, and shepherd it through Sommelier's governance process for onboarding to the Sommelier protocol.\n\n**Vault Monitoring and DeFi Strategies Optimization**\n\nSeven Seas will conduct daily monitoring of the vault’s operations and construct rebalances (executed through the Sommelier protocol) that dynamically shift liquidity for the benefit of the vault’s users and the broader Diva ecosystem. The frequency of rebalances will be contingent on market conditions, but vaults typically rebalance multiple times per week. \n\n**Supervision of the Sommelier Early Stakers Program**\n\nSeven Seas will supervise the Sommelier Early Stakers program on behalf of the Diva Staking community, with the support of the Staking Foundation. We will oversee the program's operations, excluding actual token distribution, and ensure the vault’s smooth functioning including the transition to active DeFi strategies once the required divETH oracle support is received. Users of the vault will also be able to receive support on how to participate in the program and vault in the Sommelier official Telegram and Discord.\n\nTo reiterate, Seven Seas does not wish to be responsible for distributing participants' earned DIVA tokens, nor does it wish to provide user support specific to the DIVA claims process (e.g., handling user questions about airdrop allocations). Seven Seas' personnel are data scientists, DeFi strategists, and smart contract developers, and as such, do not have the capacity for work beyond that scope.\n\n**Lobbying for SOMM Token allocations**\n\nAs previously stated, we as strategists will waive the fees for the vault for the period prior to the vault receiving the required oracle support and taking DeFi positions. Additionally, we will submit a request to the Sommelier community fund for a couple months of SOMM token distribution to help further attract TVL to the vault.\n\n**Seven Seas’ Fees & DIVA Allocation**\n\n### <u>On Fees and DIVA Allocation:</u>\n\nThe DIVA allocation and vault fees serve different purposes: . \n\n1/ On the DIVA allocation side, we aim to help build the DIVA ecosystem by onboarding users and creating valued products. As such, the DIVA tokens provide Seven Seas with a long-term incentive alignment in the DIVA community as well as a voice in DIVA governance. \n\n2/ In contrast, the fees are meant to compensate Seven Seas for direct costs incurred in optimizing the vault (outlined in more detail below). An absence of fees creates an incentive to either minimize costs (e.g. by limiting rebalances) or to sell DIVA to pay for vault operations.\n\n**Why are fees needed?**\n\nThe high-level question is why fees are necessary in addition to the DIVA token allocation. Vault fees compensate Seven Seas for the direct costs in optimizing the vault.\n\n**Time & Effort:** Seven Seas monitors the vault and market conditions throughout the day to ensure that it remains optimized for the benefit of the depositors. This could involve rebalancing to a higher yielding DEX, buying an asset under peg or even navigating market volatility (e.g., due to a protocol being hacked or Black Swan).\n\n**Expenses:** Seven Seas pays for gas fees on all of the vault’s rebalances. To give an example, the Turbo swETH vault solely focuses on LPing and a typical rebalance on that vault costs approximately $200 at 35 Gwei. With multiple rebalances in a week and the increasing network congestion on Ethereum from the pending bull market, it’s easy to see how these gas costs can quickly mount. \n\n**What are the proposed fees?**\n\n**Platform fee:** An annual fee (pro-rata if less than a year) based on the amount of assets held in the vault.\n\n**Performance fee:** A fee assessed on the <u>incremental</u> performance above the accounting asset, which in this case, is the rETH-ETH BPT (Balancer Pool Token) (B-rETH-STABLE). This ensures that the Seven Seas only gets compensated on this portion if the vault outperforms this otherwise readily available passive yield opportunity for users. \n\nWe provide a summary of the fee information in the table below.\n\n![](https://static.tally.xyz/bff1a778-0c82-4ca4-8c68-b12bb65da7e9_original.png)\n\nAs a final point, we are aware that the live Avantgarde/Enzyme vaults have zero fees. However, we believe that comparing Seven Seas to these vaults is not suitable because they maintain passive positions, such as staking with Diva and holding divETH, and therefore require no ongoing maintenance or monitoring.\n\n**DIVA Distribution to Seven Seas**\n\n* 10% of the tokens *actually accrued* by depositors from 0 to 10K ETH \n* 5% for the tokens *actually accrued* by depositors from 10K to 20K ETH\n\n**Valuation** \n\nIt's important to note that DIVA is a utility token that currently holds no value other than the ability to convert into governance power through a delegation system.\n\n**Vesting**\n\nSeven Seas’ allocation will be subject to 6 months (180 days) of additional vesting beyond vault users’ vesting of Mainnet Launch + 365 days.\n\n**Closing Remarks**\n\nThis DIP represents our attempt at a mutually beneficial collaboration between Seven Seas, Sommelier and the Diva ecosystem. We have structured the proposal so that it serves as a strong foundation for a long-term relationship between Seven Seas and the Diva community. As the strategist of the vault, we’re committed to helping bring it to market, monitoring the vault’s performance and optimizing its liquidity across the divETH ecosystem.Our ability to design attractive LST DeFi vaults for users (e.g. our $40M Real Yield ETH vault) and our expertise in liquidity provision, which has resulted in billions of ETH LST trading volume, make us a valuable addition to the Diva ecosystem. We are excited to help contribute to the growth of this promising LST ecosystem.",
+      "protocol": "divastaking",
+      "adapter": "onchain",
+      "proposer": "0xaCbABbb5b96b0e2889C27496fa33e6f26081E1a2",
+      "totalVotes": 299,
+      "blockNumber": 19050164,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1705778867,
+      "endTimestamp": 1706216303,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 732000.0,
+          "choice": 0
+        },
+        {
+          "total": 43509000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19086850
+          },
+          "event": "queued",
+          "timestamp": 1706224607,
+          "txHash": "0x52c8bbb522a0eb222ff2b85e1a2d794f76abae9c794e2728248f3357e827f9f0"
+        },
+        {
+          "time": {
+            "blockNumber": 19035764
+          },
+          "event": "pending",
+          "timestamp": 1705605287,
+          "txHash": "0x0c6dc93baf3c47b6376a901d3e42ed5cb2182599a4b77c3e766d061580a0d771"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705605951311,
+      "txHash": "0x0c6dc93baf3c47b6376a901d3e42ed5cb2182599a4b77c3e766d061580a0d771",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGl2YXN0YWtpbmc6b25jaGFpbjo4MTIxNDMyMDExNjI4NDg3NTA4NTcyMDAxNzc4OTE4Nzc0NjY2ODY2MDgzNDk2OTgwMDg2NzAxNzczOTk0NTQ3Nzg1MDQ4NTg1NTYyOA==",
+      "id": "81214320116284875085720017789187746668660834969800867017739945477850485855628",
+      "title": "[DIP-06]: Amendment of Typo in DIVA Rewards Table for DIP-02",
+      "content": "As per governance DAO [guidelines](https://docs.staking.foundation/proposals), the proposal is brought by [donkotler.eth](https://www.tally.xyz/profile/toast.eth?governanceId=eip155:1:0xFb6B7C11a55C57767643F1FF65c34C8693a11A70) who represents 1M+ delegated DIVA tokens and therefore meets the criteria to submit a binding DAO proposal.\n\n## TL;DR\n[DIP-02](https://www.tally.xyz/gov/diva/proposal/45468458207916765916984557235161596151150976178275597160417224501662414206717) contained a typographical error in the table displaying TVL-based DIVA reward tranches. DIP-06 seeks to rectify this mistake and formalise the correct reward allocation. \n\n## Motivation for DIP-06\nDIP-02 was passed with an inadvertent typographical error in the reward table, which requires correction through a DAO vote to ensure accuracy and consistency. \n\nThis proposal aims to correct the error in the DIVA rewards table, as presented in DIP-02. The tables presented below illustrate the before & after scenarios of expected future DIVA token distribution based on TVL (Total Value Locked) tranches. \n\n**Notably, all other terms and conditions of [DIP-02](https://www.tally.xyz/gov/diva/proposal/45468458207916765916984557235161596151150976178275597160417224501662414206717) remain unchanged.**\n\n\nSpecification\nVoted Table with Typo (Before Correction):\n![](https://i.gyazo.com/db50973fe8d7ed1bd0c704fe39234229.png)\n\n\n\nNew Table (After Correction):\n![](https://i.gyazo.com/dbaa2564bd66a42dd7123ff052092297.png)\n\n\n\n## Classification\nIn accordance with [Diva DAO community guidelines](https://github.com/staking-foundation/diva-dao/blob/2308_community_guidelines/Community-Guidelines.md), this proposal falls under the category of a Low-Impact Diva Improvement Proposal (DIP). It requires a minimum of 50% positive votes to be enacted. Low-impact DIPs are designed to distribute governance power among the community and facilitate strategic partnerships. They do not involve modifications to configurable features of the Diva Staking protocol or updates to core infrastructure, which would necessitate code implementation.\n\n\n## Copyright waiver\n\nCopyright and related rights waived via CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)\n",
+      "protocol": "divastaking",
+      "adapter": "onchain",
+      "proposer": "0xaCbABbb5b96b0e2889C27496fa33e6f26081E1a2",
+      "totalVotes": 304,
+      "blockNumber": 18249175,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1696084835,
+      "endTimestamp": 1696519355,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 36000.0,
+          "choice": 0
+        },
+        {
+          "total": 20937600.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18286304
+          },
+          "event": "queued",
+          "timestamp": 1696533035,
+          "txHash": "0xaf69f864dc4266ce849914c80e1e54f4acb90670d9d97a01407bc137976c3cc4"
+        },
+        {
+          "time": {
+            "blockNumber": 18351047
+          },
+          "event": "executed",
+          "timestamp": 1697315807,
+          "txHash": "0x9dc958ebfb6be56590332bcf16dc252d36d4e52b642153d9ee6b8bdbbcf76fca"
+        },
+        {
+          "time": {
+            "blockNumber": 18234775
+          },
+          "event": "pending",
+          "timestamp": 1695910691,
+          "txHash": "0x798b1d1a8aa2449cd36509c6c1165a281c6d1195402bfc8d0f1b1e21fd94baf3"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 36000.0,
+          "choice": 0
+        },
+        {
+          "total": 20937600.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805262760,
+      "txHash": "0x798b1d1a8aa2449cd36509c6c1165a281c6d1195402bfc8d0f1b1e21fd94baf3",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGl2YXN0YWtpbmc6b25jaGFpbjo0NDgwMjgxNDIwNTc4OTk1OTA3MjIzMDgxMDkyNDM4MjEzNjkwNzM5Mzg3Mjc4MDMwOTkxMjIwMDY0MDc3MTE4OTY4NDk4Mzg2MjQxMA==",
+      "id": "44802814205789959072230810924382136907393872780309912200640771189684983862410",
+      "title": "[DIP-05] Self-limiting Diva",
+      "content": "# [DIP-05] Self-limiting Diva\n\n## Abstract\n\nThe staking ecosystem is still young, and Diva will be offering the lowest bond available to potential Node Operators in the Liquid Staking Derivative market. \n\nIt’s not outside the realm of possibility that Diva’s new product offering is a “killer app” in this space and Diva could be set to take a large amount of market share. \n\nWith that in mind, I propose that Diva should self limit.\n\n## Motivation\n\nDanny Ryan has identified some [key thresholds](https://notes.ethereum.org/@djrtwo/risks-of-lsd) and their consequences:\n- above 33% - an LST can prevent finalization\n- above 50% - an LST can censor\n- above 66% - an LST can achieve finalization\n\nFor further context, Danny elaborated on his views in [this interview with Evan Van Ness](https://www.youtube.com/watch?v=Y0ddkSa1ZuI&t=2s).\n\nEmpirically, the liquid staking market has centralizing dynamics; this is an externality that the free market is unable to express - a classic tragedy of the commons. \n\nOne way liquid staking protocols can mitigate this risk is by committing to self-limiting to 22% of staked ETH - a threshold that both mitigates Danny Ryan's concerns listed above, while also allowing staking protocols enough breathing room to be competitive on the open market. \n\nAnthony Sassano and Eric Conoar also have [a great discussion about the risks here.](https://www.youtube.com/watch?v=hQO2rHQze-4&t=1137s)\n\n[Superphiz’s rationale for limiting to 22%](https://twitter.com/superphiz/status/1525224461380747268?s=20) are:\n- It requires at least four parties to affect finalization.\n- We can lose one provider at 22% and not miss a step on the network.\n- It is capture-resistant so third parties are comfortable building on the network.\n\nA few other protocols have committed to self-limiting:\n- Rocket Pool has passed a DAO resolution to [self-limit to a maximum of 33%](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-17.md)\n- Stakewise has [stated on Twitter](https://twitter.com/stakewise_io/status/1525225299146944513?s=20) that they would self limit to 22%\n- Vitalik suggests [self-limiting via increasing its protocol fee](https://twitter.com/VitalikButerin/status/1525301234516652032?s=20)\n\nEven though Diva is still nascent, Diva deciding to self-limit would indicate to the wider Ethereum community that Diva puts Ethereum’s health before itself.\n\n## Specification\n\n**Diva Staking will take measures to avoid greater than 22% of the ETH deposited on the beacon chain being deposited through the Diva protocol.**\n\n- This may imply a number of actions, such as stopping the creation of validators, or any other feasible measure which can be reasonably implemented by the community to accomplish the above outlined aim.\n\n**One such action could be for Diva to stop the creation of validators, should Diva reach that threshold, but for Diva to continue minting divETH tokens.**\n\nThis will dilute divETH's staking APR, creating an economic incentive to stake with other liquid staking providers , while also preventing Diva from crossing that same threshold. This will have the added benefit of making integrations with other protocols, and especially immutable protocols, simple and less prone to failure.\n\n## This Proposal, if passed, represents the DAO's Intent\n\nThis specification represents the community's intent and is not a direct call for a code implementation. The Diva DAO acknowledges and respects the operational boundaries and legal considerations of Diva BVI. The DAO understands that Diva BVI retains its autonomy and is not subordinate to the DAO's intents. Our aim is to convey the collective values of our community, fully recognizing that the final implementation decisions rest with Diva BVI and its associated entities.\n\nPlease comment with your thoughts below!\n\n## Classification\nLow risk, no executable smart contract code.\n\n## Copyright waiver\nCopyright and related rights waived via CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)",
+      "protocol": "divastaking",
+      "adapter": "onchain",
+      "proposer": "0x04BEE613690e98A1959F236c38AbAa5f2439B14a",
+      "totalVotes": 362,
+      "blockNumber": 18230596,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1695859991,
+      "endTimestamp": 1696294859,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 3544000.0,
+          "choice": 0
+        },
+        {
+          "total": 24000.0,
+          "choice": 2
+        },
+        {
+          "total": 29714200.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18284177
+          },
+          "event": "queued",
+          "timestamp": 1696507283,
+          "txHash": "0xf28efae5931398e9568ace8e6cda852f6ea3f1c4d9ef0734325baf50312f3080"
+        },
+        {
+          "time": {
+            "blockNumber": 18216196
+          },
+          "event": "pending",
+          "timestamp": 1695685895,
+          "txHash": "0xb96f0efe0214297339b2a9078ce8b3c681c035c8b16709476216ecc5d5f3b622"
+        },
+        {
+          "time": {
+            "blockNumber": 18349403
+          },
+          "event": "executed",
+          "timestamp": 1697295995,
+          "txHash": "0xa906065220f46c45622ff45fafde649054a1fb7e4238fb95e00940392f5d0eab"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 3544000.0,
+          "choice": 0
+        },
+        {
+          "total": 29714200.0,
+          "choice": 1
+        },
+        {
+          "total": 24000.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805262760,
+      "txHash": "0xb96f0efe0214297339b2a9078ce8b3c681c035c8b16709476216ecc5d5f3b622",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGl2YXN0YWtpbmc6b25jaGFpbjo4MzM0ODg5MDQwMTk0OTc1MTc0NDY4Nzk0NDIxNjg1NTg4NDEwMzU5NjQ3MjY4MjY0OTE3Mjk3NDEzOTYyMjk2OTkxOTU4NDk1NTUzOQ==",
+      "id": "83348890401949751744687944216855884103596472682649172974139622969919584955539",
+      "title": "[DIP-04] Adopt Diva Staking DAO Community Guidelines",
+      "content": "# DIP-04: Adopt Diva Staking DAO Community Guidelines\n\n## Description\n\nThe Diva Staking DAO was launched 3 months ago, and has now gone through several Drafts and Voting Proposals.\n\nA set of Community Guidelines was proposed and used in practice, and has been recently updated with changes like:\n\n- Deprecating the \"DCP, DIP, DUP\" terminology in favor of a simpler unified DIP-XX + Low/Medium/High Impact classification\n- Updating all values to the most recent voting periods, which were modified by DUP-01\n- Clarifications on the Request For Comments step\n- Writing improvements\n\nThis proposal proposes to ratify the following document as the current Diva Staking DAO Community Guidelines.\n\n- [Github's Pull Request](https://github.com/staking-foundation/diva-dao/pull/3)\n- [Discord discussion](https://discord.com/channels/1041618287500460083/1133466096763158629)\n- [Forum discussion & temperature check](https://commonwealth.im/divastaking/discussion/12343-voting-periods)\n\nWith this proposal passing, the DAO resolves to adopt the following Community Guidelines:\n\n```\n# Diva Staking DAO INITIAL COMMUNITY GUIDELINES \n\n## Section 1. Definition and Purpose\n\nThe Diva Staking Decentralized Autonomous Organization (the ‘Diva Staking DAO’) is an unincorporated association of individuals, entities, associations and/or other persons or groups of persons holding the DIVA token AND having completed a process referred to as “delegation”. The Diva Staking DAO is not intended to, and shall not be deemed to, be a legal person or have a legal personality separate from the DAO Members. Without limiting the generality of the foregoing, the DAO is not intended to be, and shall not be deemed to be, a partnership.\n\nThe primary objective of the Diva Staking DAO is to curate and maintain the publicly available software resources known as the Diva Staking protocol. It is important to note that the Diva Staking DAO does not engage in administering or managing the Diva Staking protocol in any way. Instead, its mission is focused on enhancing the accessibility, efficiency, and resilience of the blockchain interaction commonly referred to as 'staking' through the utilization of non-proprietary software.\n\n## Section 2. Governance Tokens\n\nDiva Staking DAO governance tokens (the \"DIVA Tokens\" or \"Governance Tokens\") means the effectively delegated tokens associated with the Diva Staking protocol and referred to in https://github.com/staking-foundation and designated as Delegated DIVA, D-DIVA, or any other designation the Diva Staking DAO may find appropriate from time to time.\n\n## Section 3. Excluded Tokens \n\nDIVA Tokens that have not been revocably delegated, either through self-delegation or delegation to third parties, using the designated governance smart contract of the Diva Staking DAO, are not considered as Diva Staking DAO governance tokens. These tokens do not possess the authority to submit any type of DAO proposal or participate in the voting process for any DAO proposals.\n\n## Section 4. DAO Resolutions.\n\nAs per the token amount thresholds outlined in Section 5 below, every holder of Governance Tokens holds the right to submit and participate in the voting of proposals, referred to as 'DAO Proposals.' Once a proposal is duly approved by the Governance Token holders and has not been invalidated by the DAO governance mechanism, it is recognized as a 'DAO Resolution'.\n\n## Section 5. DAO Proposals. \n\nProposals may be submitted by any D-DIVA Token holder holding **at least 1 Million D-DIVA Tokens** subject to any applicable threshold, and/or any frequency restriction or other parameter designated by the Diva Staking DAO through the passage of a Diva Improvement Proposal (as defined below).\n\nThere are three types of Proposals based on risk and potential impact levels:\n\n1.\t**Low Impact** - intended to distribute governance power among communities, sealing strategic partnerships, etc.\n2.\t**Medium Impact** - aiming to adapt or modify a configurable feature of the Diva Staking protocol.\n3.\t**High Impact** - complex proposals aiming to update core infrastructure and require some code implementation.\n\n## Section 6. DAO Proposals Quorum and Thresholds. \n\nIn order for a Proposal to be valid a **Quorum of at least 10 Million D-DIVA Tokens** is required (as of the time of this writing).\n\nThe thresholds initially set for each kind of proposal are as follows, \n\n- **Low Impact** - more than 50% of favourable votes\n- **Medium Impact** - more than 66% of favourable votes\n- **High Impact**- more than 75% of favourable votes\n\n## Section 7. DAO Proposals Procedures\n\nAny DAO proposal starts with an idea, which can discussed organically by the community. Several channels in use are:\n\n- [Diva's Discord](https://discord.gg/diva)\n- [Commonwealth forum](https://commonwealth.im/divastaking/discussions)\n\nOnce the idea start to formalize, it should follow the steps below.\n\n### 7.1. Request For Comments (RFC) / Temperature Check\n\nIn order for a proposal to be formally considered by the community, a Request for Comments and Temperature Check must be carried.\n\nThis process has two parts:\n\n- A **Request For Comments (RFC)** discussion thread to collect community feedback.\n- A **non-binding poll** to evaluate if the proposal gains enough interest and community support.\n\nThe [Commonwealth forum](https://commonwealth.im/divastaking/discussions) is a good way to do this, as it allows for both discussion and off-chain voting, but any openly accessible platform or channel can be used.\n\nThe RFC is intended to provide all necessary information and collect feedback to prepare the formal proposal which would later be submitted for its voting and subsequent approval or rejection.\n\nAny member of the community at large may open a thread in the Diva Forum outlining the proposal which needs to be debated or any suggestion which may be deemed as beneficial to the community at large. \n\nThe RFC shall contain at least the following: \n\n- **Title**: RFC + Proposal title.\n- **Description**: Short and concise description of the proposal.\n- **Rationale**: why the proposal is necessary and what benefit will bring to the community.\n- **Tentative classification**: Low, Medium or High Impact proposal.\n- **A non-binding community poll** to indicate the level of support the proposal may have.\n\n### 7.2. DAO Proposal submission\n\nProposals can only be submitted by those which have **at least 1 Million D-DIVA Tokens** (as of the time of this writing) and it implies an on-chain transaction.\n\nProposals can be submitted on [Tally](https://tally.xyz/gov/diva) by selecting “Create a new proposal”.\n\nThe proposal shall include the following structure: \n\n- **DIP code**: Proposals start at DIP-01, DIP-02, and continue sequentially.\n- **Title**: Short name of the proposal \n- **Classification**: Low, Medium or High Impact\n  - *Low Impact* proposals shall include a short description of the proposed action to be taken\n  - *Medium Impact* proposals shall include a risk assessment of the proposed implementation of such proposal and the executable code (Tally provides a list of executable functions which can be implemented) \n  - *High Impact* proposals shall include a thorough description of the technical features aimed to be implemented, executable code and test cases. \n\nAny proposal shall include a copyright waver. Further, any code or material included in any proposal shall be open sourced and released to the public domain without any restriction whatsoever.\n\n### 7.3. Proposals Voting Delay\n\nOnce the proposal has been created “on-chain” there is a waiting period (voting delay). During that period token holders can still delegate their tokens (either self delegate or delegate to third parties). Such delegation will affect the necessary quorum for a proposal to become valid as only Delegated DIVA tokens are accounted for any governance purpose. \n\n**The voting delay period is set to 2 days** as of the time of this writing.\n\n### 7.4. Proposal Voting Period\n\nOnce the voting delay period has elapsed, all the proposals have a voting period upon submission under which any Delegated DIVA token holders can vote in favour or object.\n\n**The voting period is set to 5 days** as of the time of this writing.\n\nAfter such period has elapsed, considering **a valid quorum of 10 Million D-DIVA Tokens** (as of the time of this writing) has been met and the correspondent voting threshold has been exceeded the proposal shall be considered passed and will become a DAO Resolution\n\n## Section 8. DAO Resolutions\n\n### 8.1. Queueing for Execution and Cooldown Period\n\nUpon successful confirmation that the corresponding threshold and quorums have been met, an on-chain transaction is required to set the approved DAO Resolution in queue for its execution, starting a Cooldown Period.\n\nThe current Cooldown Periods (as of the time of this writing) are:\n\n- **Low and Medium Impact** proposals: 9 days.\n- **High Impact** proposals: 14 days.\n\nThe Cooldown Period is designed to provide a window for cancelling malicious proposals by submitting a Cancellation Proposal.\n\nDuring the Cooldown period, an approved DAO Resolution still can be disputed and cancelled, as detailed in Section 9.\n\n### 8.2 Execution \n\nOnce the Cooldown Period has elapsed, anybody can execute the transaction to implement a DAO resolution.\n\nAs the required functions to effectively implement the desired outcome have been previously registered within the proposal, the execution of said transaction does not alter in any manner the terms of the DAO Resolution. \n\n## Section 9. Disputes\n\nAny DAO Resolution can be challenged before it is executed due security considerations such as governance attacks or fraudulent code implementation. \n\nIn order to challenge a DAO Resolution, a Cancellation Proposal must be submitted by a community participant counting with a governance power of **at least 1 Million D-DIVA Tokens** (as of the time of this writing).\n\nThe Proposal shall clearly specify “Cancellation Proposal” and set clearly and consciously what is the harm prevented by the cancellation and other remedies proposed to avoid further damage to the Diva Staking protocol and or community. \n\nIn order to be valid a cancellation proposal requires a quorum of at least 10 Million D-DIVA Tokens and more than 50% of favourable votes (as of the time of this writing).\n\nThe execution of said Cancellation Proposal can be fulfilled after 2 hours cooldown period after its approval.\n```\n\n\n\n## Classification\n\nLow risk, no executable smart contract code.\n\n## Copyright waiver\n\nCopyright and related rights waived via CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)",
+      "protocol": "divastaking",
+      "adapter": "onchain",
+      "proposer": "0x04BEE613690e98A1959F236c38AbAa5f2439B14a",
+      "totalVotes": 416,
+      "blockNumber": 18228675,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1695836819,
+      "endTimestamp": 1696271735,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 36000.0,
+          "choice": 0
+        },
+        {
+          "total": 12000.0,
+          "choice": 2
+        },
+        {
+          "total": 34310200.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18214275
+          },
+          "event": "pending",
+          "timestamp": 1695662759,
+          "txHash": "0x3b2098b11326d695c666e7a267f96d8cc3d047c69c05ce6896d06ddcab25dcf8"
+        },
+        {
+          "time": {
+            "blockNumber": 18349414
+          },
+          "event": "executed",
+          "timestamp": 1697296127,
+          "txHash": "0x5b280e3b56ea005aaaf34a998923c7298f1ec77e93e4b852443852e14054a490"
+        },
+        {
+          "time": {
+            "blockNumber": 18266565
+          },
+          "event": "queued",
+          "timestamp": 1696294487,
+          "txHash": "0xa2498033e9d63529ae7cfa4ce1384810a5df2c4694ed0c6111f7bbb5b6b2620b"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 36000.0,
+          "choice": 0
+        },
+        {
+          "total": 34310200.0,
+          "choice": 1
+        },
+        {
+          "total": 12000.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805262760,
+      "txHash": "0x3b2098b11326d695c666e7a267f96d8cc3d047c69c05ce6896d06ddcab25dcf8",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGl2YXN0YWtpbmc6b25jaGFpbjo1MjQ4MTAyNDM5NTIzODEzNDE0NDI5OTU4MjYyMzU4Mjg3NTg0MTIzNjk4MDIwOTgyMjgyODc2MTE3ODk4NDQwODk3MDcyNDgwMTY0NA==",
+      "id": "52481024395238134144299582623582875841236980209822828761178984408970724801644",
+      "title": "[DIP-03] Commit to latest deadline for DIVA token transferability",
+      "content": "DIP-03 has been curated by [Moss](https://twitter.com/LucaMossini), [Ainsley To](https://www.linkedin.com/in/ainsley-to-28355a18?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAOkFgMB9MjL4ZF40pzlj_UllNawFOin5gk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BC0dpIb4MQv21D9Kv9pEz4g%3D%3D) and [Mona El Isa](https://twitter.com/Mona_El_Isa), all representing [Avantgarde Treasury](https://avantgarde.finance/). They form part of the Avantgarde group which spans Asset Management, DeFi Development (eg. for protocols like [Enzyme](https://enzyme.finance/)) and [DAO Governance](https://www.tally.xyz/profile/0xb49f8b8613be240213c1827e2e576044ffec7948?governanceId=eip155:1:0xFb6B7C11a55C57767643F1FF65c34C8693a11A70).\n\nAs per governance DAO [guidelines](https://docs.staking.foundation/proposals), the proposal is brought by [toast.eth](https://www.tally.xyz/profile/toast.eth?governanceId=eip155:1:0xFb6B7C11a55C57767643F1FF65c34C8693a11A70), who represents 1M+ delegated DIVA tokens and therefore meets the criteria to submit a binding DAO proposal.\n\n## Scope of DIP-03  \nThis proposal outlines the intention to enable the transferability of DIVA tokens at a future date, pending a final vote to determine the specifics of the implementation. The proposal aims to provide token holders with increased flexibility and utility while maintaining the integrity of the token ecosystem.\n\n## TL;DR\n-   ⚠️ **What**: **to enable transferability for DIVA tokens, with the exact ETA to be determined, but at latest at the end of the Early Stakers' initiative as described in [DCP-01](https://www.tally.xyz/gov/diva/proposal/87485887634082742365047256619524632216107014477059444808141072263652653848832) and outlined in DIP-02 (pending approval)**\n\n-   **Why**: To support DIVA utility models and further redistribution of ownership\n\n\n## Motivation\n\nThe motivation behind this proposal is to enhance the liquidity and usability of the DIVA tokens within the ecosystem.\n\nTransferability of tokens can facilitate a more vibrant and active ecosystem environment, attract a broader range of DAO participants, and potentially increase the overall value proposition of the tokens.\n\nThe potential utility of DIVA tokens has been explored in [this research piece](https://mirror.xyz/veryearly.eth/7XbydWKgBfZc2HHbRNHae5DRIokExrK-7FoN6V3P4jI) and linked [community discussion](https://commonwealth.im/divastaking/discussion/12394-on-diva-token-utility), recommending utility models for Node Operators. Transferability would be a necessary prerequisite for models involving DIVA staking, liquidity mining, etc.\n\nThis move aligns with the dynamic nature of staking protocol DAO assets and reflects a commitment to adapt to market trends and TVL growth while avoiding short-term price distortions ahead of the protocol finding its Product Market Fit.\n\n## RFC - Tempcheck Status\nYou can find the RFC on Commonwealth [here](https://commonwealth.im/divastaking/discussion/12393-rfc-proposed-terms-conditions-tcs-for-diva-early-stakers-vaults-on-enzyme-incl-token-distribution-criteria-for-program-participants), which was published on July 28th 2023.\n\nThe non-binding Tempcheck vote on the T&Cs has been closed out with 100% YES and 0% NO.\n\n## Description of the Proposed Future Action & Implementation\nThe primary objective of this proposal is to declare the intention of enabling token transferability latest at the end of the Early Stakers' initiative described in [DCP-01](https://www.tally.xyz/gov/diva/proposal/87485887634082742365047256619524632216107014477059444808141072263652653848832) and DIP-02.\n\nThe specifics of the implementation, such as the exact date for transferability commencement and technical integration, will be determined in subsequent steps following the [Diva Staking DAO Community Guidelines](https://github.com/staking-foundation/diva-dao/blob/main/Community-Guidelines.md), which currently recommend the following steps:\n\n1\\. **Community Discussions**, to be carried in channels like Discord and/or Commonwealth.\n\n2\\. **Proposal Drafting**, proposing the final parameters, any conditions and restrictions and any necessary technical adjustments.\n\n3\\. **Non-binding Temperature Check** to seek full community alignment.\n\n4\\. **Submit DAO Proposal**, including the final executable smart contract instructions.\n\n5\\. **Voting**. It is expected that transferability will require XX quorum and XX% voting approval.\n\n6\\. **Execution** after the Cool-down period. Necessary updates will be made to the smart contracts and any associated systems.\n\nThis process will ensure a democratic decision-making process and ensure alignment with the interests of the majority.\n\n### Conclusion\nThis proposal sets the stage for enabling the transferability of DIVA tokens in the open market by committing to a deadline in the future. The final decision and details remain subject to a final DAO vote that will determine the specifics of the implementation.\n\nBy providing token holders with the opportunity to trade their holdings openly, the DAO aims to enhance the overall value proposition of the tokens while maintaining a structured and democratic decision-making process. We believe that this move will foster a more dynamic and engaging token ecosystem.\n\n## Classification\nAs per [Diva DAO community guidelines](https://github.com/staking-foundation/diva-dao/blob/main/Community-Guidelines.md), this is a Low-Impact Diva Improvement Proposal (DIP), requiring 50% positive votes to be enacted. Low impact DIPs are intended to distribute governance power among communities and/or seal strategic partnerships, without any modification of a configurable feature of the Diva Staking protocol or update of core infrastructure that may require some code implementation.\n\n## Risk assessment\nThe potential risk to enabling transferability is that, if done too early before the protocol is mature enough to create liquid markets, the price of the tokens might drop to low levels. This has the downsides of:\n\n-   Lowering the value DIVA incentives, making the DAO treasury less effective\n\n-   Making the DAO vulnerable to governance takeover, as other DAOs have experienced\n\nTherefore, the recommendation would be to enable transferability as late as possible, aligned with major development milestones like mainnet release or reaching certain TVL levels. The pros and cons of early vs late transferability should be discussed by the community.\n\n## Copyright waiver\nAvantgarde Treasury, as the owner or rights holder of certain creative works, hereby waives specific rights under copyright law in favour of Diva Staking DAO. This waiver pertains to the works described as governance proposals, and includes the rights of reproduction, distribution, public display, and creation of derivative works. This waiver is granted for the purpose of this governance process. Proper attribution to us shall be provided by the recipient whenever the works are used or displayed. This waiver does not extend beyond the rights explicitly stated.",
+      "protocol": "divastaking",
+      "adapter": "onchain",
+      "proposer": "0xbC60AA031a9f34BD7992c99eaE5e2C4Dd1b5dBc3",
+      "totalVotes": 434,
+      "blockNumber": 18101747,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1694297735,
+      "endTimestamp": 1694733815,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1288200.0,
+          "choice": 0
+        },
+        {
+          "total": 2760000.0,
+          "choice": 2
+        },
+        {
+          "total": 33702800.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18138103
+          },
+          "event": "queued",
+          "timestamp": 1694738123,
+          "txHash": "0x75532010895a1f8996aba36484088cdc2e1613731951cf94194db3ee908fb78d"
+        },
+        {
+          "time": {
+            "blockNumber": 18211005
+          },
+          "event": "executed",
+          "timestamp": 1695623207,
+          "txHash": "0x0c7a13d4f826c776168c8347cded5d221dc92f55c78c2c2ccd470754c9a263d0"
+        },
+        {
+          "time": {
+            "blockNumber": 18087347
+          },
+          "event": "pending",
+          "timestamp": 1694123507,
+          "txHash": "0xaad14bd44d275bbe2d735842e63e3d18c0a1db6d227dd4c34f21e39a7c3d3ac2"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1288200.0,
+          "choice": 0
+        },
+        {
+          "total": 33702800.0,
+          "choice": 1
+        },
+        {
+          "total": 2760000.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805262760,
+      "txHash": "0xaad14bd44d275bbe2d735842e63e3d18c0a1db6d227dd4c34f21e39a7c3d3ac2",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGl2YXN0YWtpbmc6b25jaGFpbjo0NTQ2ODQ1ODIwNzkxNjc2NTkxNjk4NDU1NzIzNTE2MTU5NjE1MTE1MDk3NjE3ODI3NTU5NzE2MDQxNzIyNDUwMTY2MjQxNDIwNjcxNw==",
+      "id": "45468458207916765916984557235161596151150976178275597160417224501662414206717",
+      "title": "[DIP-02] T&Cs for TVL incentives to Pre-launch Early Stakers",
+      "content": "⚠️ **Important**: while the [tempcheck vote](https://commonwealth.im/divastaking/discussion/12393-rfc-proposed-terms-conditions-tcs-for-diva-early-stakers-vaults-on-enzyme-incl-token-distribution-criteria-for-program-participants) indicated support for the initial RFC, it's vital to acknowledge that DIP-02 introduces significant changes to the original RFC. Therefore, we strongly advise a thorough reading of this document.\n\n\nDIP-02 has been curated by [Moss](https://twitter.com/LucaMossini), [Ainsley To](https://www.linkedin.com/in/ainsley-to-28355a18?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAOkFgMB9MjL4ZF40pzlj_UllNawFOin5gk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BC0dpIb4MQv21D9Kv9pEz4g%3D%3D) and [Mona El Isa](https://twitter.com/Mona_El_Isa), all representing [Avantgarde Treasury](https://avantgarde.finance/). They form part of the Avantgarde group which spans Asset Management, DeFi Development (eg. for protocols like [Enzyme](https://enzyme.finance/)) and [DAO Governance](https://www.tally.xyz/profile/0xb49f8b8613be240213c1827e2e576044ffec7948?governanceId=eip155:1:0xFb6B7C11a55C57767643F1FF65c34C8693a11A70).\n\nAs per governance DAO [guidelines](https://docs.staking.foundation/proposals), the proposal is brought by [toast.eth](https://www.tally.xyz/profile/toast.eth?governanceId=eip155:1:0xFb6B7C11a55C57767643F1FF65c34C8693a11A70) who represents 1M+ delegated DIVA tokens and therefore meets the criteria to submit a binding DAO proposal.\n\n## Diva Primary Objectives\n\nIn response to inputs from the Diva [community](https://commonwealth.im/divastaking/discussion/12393-rfc-proposed-terms-conditions-tcs-for-diva-early-stakers-vaults-on-enzyme-incl-token-distribution-criteria-for-program-participants?comment=65808), the governance initiatives shall include various incentives for three distinct target audiences:\n\n1.  Pre-launch for Early Stakers commitments. This is the one described by this DIP-02.\n\n2.  Pre-launch for Operators commitments\n\n3.  Post-launch for DEX Liquidity Pools for (w)divETH/ETH\n\n## Scope of DIP-02  \n\nIn order to keep the several discussions segregated, the scope of DIP-02 is **exclusively the TVL incentive for Early Stakers**, while for the other objectives, new and separate discussions will be open, starting with a new [RFC for LPs incentives](https://commonwealth.im/divastaking/discussion/13082-rfc-incentivize-diveth-liquidity-postlaunch).\n\n## TL;DR\n\n-   **What**: T&Cs that apply for the DIVA token distribution to early stakers only\n\n-   **Why**: Build sufficient TVL to plan for operator capacity and facilitate network effects\n\n-   **When**: Before & After Diva Mainnet Launch (30 day prior & until 5 months after)\n\n-   **Where**: On 2 Enzyme vaults, denominated in ETH and stETH.\n\n-   **Incentives**: 1.30-2.50 DIVA/ETH/day, higher for earlier participants\n\n-   **Capacity**: 100,000 ETH\n\n## Motivation for DIP-02\n\nIntroducing a Pre-Launch Total Value Locked (TVL) for Early Stakers holds the potential to ignite a chain reaction of network effects for a novel protocol like Diva.\n\nNotably, these instances underscore these advantages:\n\n-   Stakers gain confidence that the protocol and its LST are widely adopted.\n\n-   Stakers get DIVA distributions, which gives them a voice in governance.\n\n-   Operators benefit from being able to plan sufficient capacity ahead of time.\n\n-   Integrations with other DeFi primitives are more likely if there is significant TVL committed. This includes lending, other uses as collateral, bridging to Layer 2s, etc.\n\n-   The Ethereum ecosystem benefits by promoting diversity to its LST ecosystem.\n\n## RFC - Tempcheck Status\n\nYou can find the RFC on Commonwealth [here](https://commonwealth.im/divastaking/discussion/12393-rfc-proposed-terms-conditions-tcs-for-diva-early-stakers-vaults-on-enzyme-incl-token-distribution-criteria-for-program-participants), which was published on July 28th 2023.\n\nThe non-binding Tempcheck vote on the T&Cs has been closed out with 83% YES and 17% NO.\n\n⚠️ **Important**: the tempcheck vote signalled support for the initial RFC. However, following additional feedback from the community, DIP-02 adds significant changes to the original RFC.\n\n\n## Pre-launch incentives - T&Cs\n\n### Who's eligible / non eligible?\nNo KYC is enforced but due to legal uncertainties surrounding staking operations, any person or entity who resides in, is citizen of, is incorporated in or has a registered office in the United States or any other blacklisted or sanctioned countries, will not be eligible for the initiative. These eligibility criteria are the same ones that were used to carry out the initial token distribution. In order to enforce this criteria we plan to include a self declaration on the Enzyme UI that depositors will need to sign with their wallets.\n\n### Who is in custody of the assets?\nThe Enzyme vaults employed by this strategy are fully non-custodial. Upon deposit, Early Stakers receive Enzyme vault shares (ERC-20 tokens) that represent their pro-rata ownership on the underlying assets held in the vault. Depositors have full control of their funds and can proceed to withdraw at any time. The only caveat is that there is a default 24-hour lock-up period on the vault settings.\n\n### Are Enzyme vault shares transferable?\nVault shares will not be transferable to third parties and cannot be sent to another address. In other words, only mint & redeem functions are enabled.\n\n### When will the vaults be open for deposits?\nThe initiative will start on the date when the vaults allow for deposits, which will be clearly announced and communicated across several channels.\n\n### When will the incentive start to accrue?\n🆕 The initial months of the initiative will play a role in establishing a ranking of the depositors based on a first-come, first-served principle. This ranking will be used to determine future token distribution, with those depositing earlier enjoying higher reward rates.\nHowever, the actual accrual of DIVA tokens will start at a later stage (30 days before Mainnet Launch), in accordance with the specifics explained in the subsequent paragraphs.\nThis modification is based on community feedback and is designed to shorten the period of incentives before the actual protocol goes live.\n\n### What are the key dates to keep in mind?\nThe Mainnet Launch Date is key in determining token accrual, future claiming rights and the treatment of early redemptions.\n\n⚠️ **Important**: The Mainnet Launch Date is the defining moment the Diva staking protocol has gone through sufficient number of audits (i.e. at least 2) and becomes fully operational and is live on the mainnet. Mainnet Launch Date will be publicly announced in order to formalise this key milestone for the incentive initiative.\n\n### When will the DIVA accrual effectively start?\nFor the reasons explained above, the exact day when DIVA tokens start to accrue cannot be determined in advance. It will be determined in retrospect and calculated as a 30-day lookback since the formal Mainnet Launch Date.\n\n### What's the duration of the Pre-Launch initiative? \n🆕 The duration of the initiative is reduced to 6 months -- precisely 183 days (vs 365 days proposed originally) -- which will be calculated starting from the first date of the token accrual = [Mainnet Launch Date - 30 days]. So the actual period will be from [Mainnet Launch Date - 30 days] until [Mainnet Launch Date + 153 days].\n\n![](https://lh5.googleusercontent.com/kvQEYn3_ZXfoYyT_sQKZpiUGq3JnhF1nkE21z4Gw9i8LKmlsZ4pAqTGXzkiheFF2kz7gpCBJp7Hbjr-CHVia95PoR0Ko_PtPWYGq_QdTVfB_U5S0G5Og0utyjFrzvriec8hrcpYGaeTYpCXOz311otg)\n\n### Is there a Max Cap on TVL?\nDIVA tokens will be given only to those who deposit the initial 100,000 (st)ETH and have them converted to divETH after the Mainnet Launch Date. This cap applies to the combined value of both vaults, which was approved in [DCP-01](https://www.tally.xyz/gov/diva/proposal/87485887634082742365047256619524632216107014477059444808141072263652653848832). Once the 100,000 ETH target is hit, deposits can still be made, but they'll be considered as being on a \"waitlist.\" These waitlisted deposits will only be eligible for DIVA distributions if those who got in first withdraw their deposits early.\n\n### What's the Minimum Deposit per Single Depositor?\nThe minimum deposit amount is 0.1 ETH or stETH.\n\n### What's the Maximum Deposit per Single Depositor?\nThis restriction stems from community suggestions following the initial RFC release. For various considerations, capping the individual's reach is preferred. To uphold a non-KYC approach, we suggest a cap of 10,000 (st)ETH per single deposit. This cap will be implemented among the vault settings. We understand that the initiative may not be entirely immune to Sybil attacks, but introducing this measure does aid in attaining our objective of widespread distribution. It's worth noting that significant ETH holders often answer to their reputation and the larger community which should be sufficient to avoid blatant opportunistic behaviours.\n\n### What's the Redemption/Withdrawal Policy?\nYou're free to withdraw your funds at any point (except for the 24-hour lock-up mentioned earlier). The main rule to remember: if you redeem before the full conversion to divETH is completed, you won't qualify for any DIVA distributions. For redemptions that take place between the complete divETH conversion and the 183-day deadline, accrual is determined by the count of full commitment days.\n\n⚠️ **Important**: once (st)ETH is fully converted to divETH, Early Stakers can redeem their assets \"in-kind\" as divETH in a trustless manner, i.e. without relying on Avantgarde Treasury.\n\n### What are the key considerations regarding Enzyme's security?\nSecurity is a top priority for the Enzyme. Here's some key considerations:\n\n-   The protocol has been live on mainnet for about 5 years. \n\n-   Every adapter/integration is [audited](https://github.com/enzymefinance/protocol/tree/v4/audits) by Chain Security, one of the top security firms in the space.\n\n-   Enzyme has a large [bug bounty](https://immunefi.com/bounty/enzymefinance/) on Immunefi.\n\n-   In terms of [protocol upgrades](https://docs.enzyme.finance/managers/signal-an-upgrade), Enzyme does not force users to upgrade to a new version. Users can review the upgrade features and can decide not to opt-in on a new version of the protocol. \n\nFor any other consideration regarding the use of Enzyme, here are the detailed [Terms & Conditions](https://enzyme.finance/terms).\n\n### Calculation of future Distributions\nThe calculation will be based on an off-chain formula that determines the distribution for each single address. The final distribution will be based on the on-chain data gathered via Enzyme API. The formula for the calculation of DIVA tokens is based on tranches with diminishing incentives.\n\nThe distribution of DIVA tokens will be calculated as follows, DIVA accrual = ETH deposited * Days in vault during DIVA accrual period * DIVA/ETH/Day for each tranche. It will be therefore a function of:\n\n-   **Size**: amount of ETH or stETH deposited (deemed 1:1 with ETH). The more you deposit, the better.\n\n-   **Timing**: based on the cumulative TVL tranches and the associated bracket where the deposit falls into. The earlier you deposit, the better. Deposits that take place before [Mainnet Launch Date - 30 days] will fill the TVL tranches and will have first come - first served treatment during the subsequent token accrual period.\n\n-   **Duration**: number of full 24hr days starting from [Mainnet Launch Date - 30 days]. The longer you stay, the better.\n\n![](https://i.gyazo.com/2b7469d638ea53752abc493c2850e68f.png)\n\n### DIVA Tokens Transferability \nPeding the approval of DIP-03 proposal, DIVA tokens would become available for transfer before the end of the initiative - at latest.\n\n## Pre-Launch Initiative: DIVA Allocation as a % of total supply\nA series of initiatives whose objective is to a) bootstrap the TVL to the ambitious target of 100k ETH, b) create a critical mass of operators that can match the stakers' TVL and c) incentivize the provision of liquidity on DEXs for the LSTs should be generous in its token allocation.\n\nA global max allocation of between 5% - 10% of the total DIVA supply seems appropriate for the 3 initiatives combined. As a benchmark, the Diva DAO offered an Initial Token Distribution to the wider Ethereum community of 10% of its total supply.\n\n🆕 After shortening the duration of the initiative to 183 days (previously proposed to be 365 days) the max potential size of the allocation for this DIP-02 now represents approximately [3.5% of the total supply](https://docs.google.com/spreadsheets/d/1_dYghWRpAT9fUrBRLh6_yfUgTOmKfIoZYQd95HUWJrM/edit#gid=0) - IF a) the initiative is maxed out from the start AND b) for the whole duration (183 days) AND c) 100% of tokens are eventually claimed.\n\nA holistic table with estimations for the several initiatives can be found [here](https://docs.google.com/spreadsheets/d/1_dYghWRpAT9fUrBRLh6_yfUgTOmKfIoZYQd95HUWJrM/edit#gid=0).\n\nNote that the above estimated allocation also includes the allocation to Avantgarde Treasury, whose allocation is approximately 0.25%. More details about the rationale in the paragraphs below.\n\n## Avantgarde Treasury's role and distribution\n\n### Idea and early support \nSince the inception of community discussions, we've been engaged and enthusiastic about the concepts outlined here. Crafting these proposals, gathering input, and refining them for mutual agreement has been an intensive process.\n\nSimultaneously, owing to the unique use case and strategic alignment, the Enzyme Council has decided to waive the 25-basis point protocol fees associated with employing Enzyme vaults. This translates to a substantial benefit, potentially amounting to 250 ETH if the initiative attains its maximum potential.\n\n### Initial Set up and Facilitation \nOur role as facilitators for this initiative encompasses a range of responsibilities. This spans from establishing the Enzyme vaults (as outlined in [DCP-01](https://www.tally.xyz/gov/diva/proposal/87485887634082742365047256619524632216107014477059444808141072263652653848832)) to managing the process of transitioning from (st)ETH to divETH, and ultimately ensuring the accurate calculation of token distribution for each participant. These aspects carry substantial weight and entail a notable degree of public responsibility. The successful execution of these tasks directly contributes to the initiative's success.\n\n### Software development & audits\nIt is imperative to acknowledge that our integration efforts necessitate a significant amount of time and a comprehensive audit process. This undertaking encompasses various key aspects:\n\n-   firstly, the integration of the native Diva Staking protocol to facilitate the minting and redemption of divETH;\n\n-   secondly, the essential inclusion of Lido Staking, which ensures a seamless 1:1 conversion from stETH to divETH.\n\n-   Technical supervision of the process of stETH un-staking prior to the subsequent divETH staking. \n\n-   The outcomes of these manpower efforts and service costs yield tangible benefits that warrant thoughtful consideration, particularly within the context of the distribution allocated to Avantgarde Treasury.\n\n### Partnership Mindset vs \"Make-or-Buy\"\nThe relationship between Diva and Avantgarde Treasury should not be regarded solely as a \"make-or-buy\" determination, but rather as a strategic partnership with the potential to trigger a cascade of supplementary advantages. As the initiative progresses, opportunities will appear for us to contribute further value, including endorsing the allocation of ETH to Diva Staking in various DAO treasury proposals conducted within the DAO domain.\n\n### Monitoring\nEnzyme vaults have public Ethereum addresses. All deposits & withdrawals will be tracked on-chain. In parallel, Enzyme has an API (and subgraphs) that allows an easy extraction of the necessary data (address, deposit/withdrawal, date).\n\n### Distribution for Avantgarde Treasury\nFor the Pre-Launch Initiative the accrual will be:\n\n-   10% of the tokens actually accrued by stakers from 0 to 50K ETH\n\n-   5% for the tokens actually accrued by stakers from 50K to 100K ETH.\n\n⚠️ **Important**: while the max potential DIVA distribution can be easily estimated with a mathematical equation, the actual accrual depends on several factors such as timing of deposits, when tranches are filled, early redemptions which may lead to write offs, size of the waitlist etc. etc. The distribution to Avantgarde Treasury is not based on the a-priori theoretical max allocation but on the actual a-posteriori accrual, which is much harder to estimate in advance but also a more accurate measure of the success of this initiative.\n\n### Valuation \nIt's important to note that DIVA tokens hold no intrinsic value other than their utility, which can be converted into governance power through a delegation system. Therefore, it is not possible to calculate an Annual Percentage Yield (APY%) for these tokens nor to estimate a fair market valuation prior to establishing product-market fit.\n\n### Extra Vesting\nAvantgarde Treasury will be subject to a self-imposed extra 6-month vesting period. This decision is aimed at addressing the DAO's potential concerns about early DIVA token sales. By having this vesting period, we aim to instil confidence in the community and avoid any form of speculation around our future behaviour.\n\n## Gradual unlocking and claiming of DIVA tokens\nFor the Pre-Launch Initiative the claiming will take place in two-phases:\n\n1.  After the 30-day cooldown period from the Mainnet Launch Date, stakers can claim 50% of their accrued DIVA tokens as an initial reward for their participation. That is 50% of the tokens accrued during the 30 days from [Mainnet Launch - 30 days] until [Mainnet Launch + 30 days], which is approximately 16% of the max potential accrual.\n\n2. .  At the end of the 183 days, if the depositor hasn't withdrawn their funds, they're eligible for a second claim combining:\n\n- the remaining 50% of the tokens from step 1 above \n\n- plus any additional DIVA tokens accrued in the period from [Mainnet Launch Date + 30 days] until [Mainnet Launch + 183 days]\n\nThis represents the remaining 84% of the max potential accrual for each single staker.\n\n## Description of the proposed action & implementation \nAs also previously described in [DCP-01](https://www.tally.xyz/gov/diva/proposal/87485887634082742365047256619524632216107014477059444808141072263652653848832), the following course of action is proposed: \n\n1. Avantgarde Treasury multisig (\"vault owner\") creates the 2 vaults on behalf of the DAO\n\n2. Among initial vault settings, AVG's multisig (\"vault owner\") assigns delegation to Avantgarde Treasury (\"vault delegated manager\")\n\n3. Among initial vault settings, Multisig prevents deposits until the official kickoff date.\n\n4. Enzyme DAO to waive 25 bps protocol fees on the new vaults. See explanation on how this will be done [here](https://commonwealth.im/divastaking/discussion/12178-rfc-start-collecting-prelaunch-tvl-with-an-early-staker-program-powered-by-enzyme-vaults?comment=64260)). \n\n5. Avantgarde Treasury & Diva DAO announce the official kickoff date across several channels (Commonwealth, Discord, etc.) \n\n6. Upon official kickoff date, Avantgarde Treasury's Multisig enables deposits on Enzyme vaults.\n\n7. Once the un-staking of stETH is successfully completed, Avantgarde Treasury proposes the transfer of ownership from its Multisig to the Diva DAO Governor contract.\n\n8. During the course of the initiative, Avantgarde Treasury maintains the assets idle and will implement the needed work described in the earlier paragraphs.\n\n## Notable changes from the original RFC\n1.  Shorter duration (183 days instead of 365 days) \n\n2.  Later start of token accruals, i.e. closer to Mainnet Launch Date (30 days), which is supposed to avoid unnecessary token spending.\n\n3.  Reduced max. token allocation to 3.5% of total supply (and consequently proportional 50% reduction of tokens distributed to Avantgarde Treasury) \n\n4.  The date of transfer of ownership of the vaults has been modified. This is when the ownership of the vaults is moved from Avantgarde Treasury Multisig to the DAO Governor contract. This change is needed in order to ensure a smooth technical process of stETH un-staking and subsequent divETH staking. This change supersedes the earlier deliberation of DCP-01.\n\n⚠️ **Important**: If any adjustments to the stETH vault configuration are deemed necessary to facilitate a seamless transition, it will be imperative to conduct a dedicated DAO vote. This implies that Avantgarde Treasury will not possess the authority to modify vault settings without the proper endorsement of a formal DAO vote.\n\n## Notable exclusions \n\n1.  Specific proposal to incentivize [liquidity providers](https://commonwealth.im/divastaking/discussion/13082-rfc-incentivize-diveth-liquidity-postlaunch), that is defined in a separate proposal in order to avoid excessive complexity for this DIP. \n\n2.  Specific proposal to incentivize operators, that can be defined in a separate future proposal in order to avoid excessive complexity for this DIP.\n\n## Classification\nAs per Diva DAO [community guidelines](https://github.com/staking-foundation/diva-dao/blob/2308_community_guidelines/Community-Guidelines.md), this is a Low-Impact Diva Improvement Proposal (DIP), requiring 50% positive votes to be enacted. Low impact DIPs are intended to distribute governance power among communities and/or seal strategic partnerships, without any modification of a configurable feature of the Diva Staking protocol or update of core infrastructure that may require some code implementation.\n\n## Copyright waiver\nAvantgarde Treasury, as the owner or rights holder of certain creative works, hereby waives specific rights under copyright law in favour of Diva Staking DAO. This waiver pertains to the works described as governance proposals, and includes the rights of reproduction, distribution, public display, and creation of derivative works. This waiver is granted for the purpose of this governance process. Proper attribution to us shall be provided by the recipient whenever the works are used or displayed. This waiver does not extend beyond the rights explicitly stated.",
+      "protocol": "divastaking",
+      "adapter": "onchain",
+      "proposer": "0xbC60AA031a9f34BD7992c99eaE5e2C4Dd1b5dBc3",
+      "totalVotes": 403,
+      "blockNumber": 18101743,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1694297687,
+      "endTimestamp": 1694733767,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 204000.0,
+          "choice": 0
+        },
+        {
+          "total": 8052000.0,
+          "choice": 2
+        },
+        {
+          "total": 28963000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18087343
+          },
+          "event": "pending",
+          "timestamp": 1694123459,
+          "txHash": "0x2e789719bd7eacea2a11cafd541b6051846c4b0a26d891674d0bb055fd491f0d"
+        },
+        {
+          "time": {
+            "blockNumber": 18138095
+          },
+          "event": "queued",
+          "timestamp": 1694738027,
+          "txHash": "0x73e9dd495e307fd13c0dfdd42b87577cee3b22a1ad5ec859939ebc03b9cc119b"
+        },
+        {
+          "time": {
+            "blockNumber": 18223260
+          },
+          "event": "executed",
+          "timestamp": 1695771287,
+          "txHash": "0x0a8c4fe0c999172ee5e14c6cd05c0e533a9b055e28c34c4ca0cfb967a58426ce"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 204000.0,
+          "choice": 0
+        },
+        {
+          "total": 28963000.0,
+          "choice": 1
+        },
+        {
+          "total": 8052000.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805262760,
+      "txHash": "0x2e789719bd7eacea2a11cafd541b6051846c4b0a26d891674d0bb055fd491f0d",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGl2YXN0YWtpbmc6b25jaGFpbjo4NzQ4NTg4NzYzNDA4Mjc0MjM2NTA0NzI1NjYxOTUyNDYzMjIxNjEwNzAxNDQ3NzA1OTQ0NDgwODE0MTA3MjI2MzY1MjY1Mzg0ODgzMg==",
+      "id": "87485887634082742365047256619524632216107014477059444808141072263652653848832",
+      "title": "[DCP-01] Early Staker Initiative powered by Enzyme vaults.",
+      "content": "This proposal has been curated by @moss @elisafly, @gainzley here, posting from [Avantgarde Treasury](https://avantgarde.finance/). They are the core contributors of [Enzyme](https://enzyme.finance/), formerly Melonport and one of the governance [delegates](https://www.tally.xyz/profile/0xb49f8b8613be240213c1827e2e576044ffec7948?governanceId=eip155:1:0xFb6B7C11a55C57767643F1FF65c34C8693a11A70)for Diva Staking.\n\nAs per governance DAO [guidelines](https://docs.staking.foundation/proposals), the proposal is brought by [donkotler.eth](https://www.tally.xyz/profile/0xacbabbb5b96b0e2889c27496fa33e6f26081e1a2?governanceId=eip155:1:0xFb6B7C11a55C57767643F1FF65c34C8693a11A70), who represents 1M+ delegated DIVA tokens and therefore meets the criteria to submit a binding DAO proposal.\n\n**Motivation** \n\nDiva DAO, with [4300+ delegated voting holders](https://dune.com/kevinzzz/diva-dao), has initially distributed 100 million DIVA tokens (10% of total supply) to active Ethereum participants.\n\nThis initiative seeks to attract TVL and involve a broader audience of future Stakers prior to the mainnet launch. Diva Staking's TVL growth is essential, and this initiative aims to attract support before mainnet release. \n\nA pre-launch TVL initiative - with associated token distribution - for a new protocol like Diva brings a ripple of network effects. \n\n- Stakers know that the protocol and its Liquid Staking Token are widely adopted. \n- Stakers get DIVA allocations, which gives them a voice in governance. \n- Depositors in the initiative benefit by using proven non-custodial infrastructure. \n- Depositors who hold ETH or stETH can support Diva with little or no opportunity cost. \n- Operators benefit from being able to plan sufficient capacity ahead of time. Integrations with other DeFi primitives are more likely if there is significant TVL committed. This includes lending, use as collateral, bridging to Layer 2s, etc. \n \nThe Ethereum ecosystem benefits by adding diversity to its LST ecosystem, currently dominated by a single provider who holds >85% of LSTs and >30% of all staked ETH, which poses significant systemic risks.\n\n**Summary / TL;DR**\n\nThe proposal presented the advantages of using the Enzyme platform and for the potential Early Stakers to participate by depositing in one of the 2 vaults in a non-custodial fashion.\n\n- Theinitiative involves ETH or stETH deposits into Enzyme vaults, and a way to account for timing, size and duration of those deposits that will lead to the calculation of DIVA token allocations for each participant. The proposed duration of the initiative is 365 days. \n- Depositors will accrue DIVA tokens for every day their (st)ETH is in the vaults. \n- Enzyme's time-tested infrastructure, the waiver of protocol fees and other benefits are thoroughly highlighted in [the RFC](https://commonwealth.im/divastaking/discussion/12178-rfc-start-collecting-prelaunch-tvl-with-an-early-staker-program-powered-by-enzyme-vaults) (Infrastructure & Program Design). \n- For details on the [proposed T&Cs](https://commonwealth.im/divastaking/discussion/12393-rfc-proposed-terms-conditions-tcs-for-diva-early-stakers-vaults-on-enzyme-incl-token-distribution-criteria-for-program-participants) of the token distribution, please refer to the complementary RFC which will be submitted separately.\n\n**RFC - Tempcheck Status** \n\nYou can find the RFC on Commonwealth [here](https://commonwealth.im/divastaking/discussion/12178-rfc-start-collecting-prelaunch-tvl-with-an-early-staker-program-powered-by-enzyme-vaults), which was published on July 14th 2023. The non-binding Tempcheck vote has been closed out with 100% YES and 0% NO\n\n\n\n**Description of the proposed action** \n\nThis Diva Curation Proposal (DCP) introduces the creation of an Early Staker Initiative for Diva Staking, to be implemented on Enzyme vaults.\n\nAssociated decisions:\n- Diva Staking DAO creates 2 vaults on Enzyme: one for ETH and one for stETH \n- Avantgarde is set as manager for the Diva vaults with trustless delegation rules \n- The Enzyme protocol fee for the 2 Diva vaults is waived (explanation [here](https://commonwealth.im/divastaking/discussion/12178-rfc-start-collecting-prelaunch-tvl-with-an-early-staker-program-powered-by-enzyme-vaults?comment=64260)) \n- Funds deposited in the 2 vaults are kept idle until Diva Staking mainnet launch \n- Avantgarde develops native Enzyme integrations for 2 protocols: Lido (to ensure 1:1 stETH:ETH redemption) and Diva Staking (to ensure 1:1 ETH:divETH staking)\n\nAll other aspects of the initiative are not part of this DCP, but are being discussed after the release of the second RFC laying out the [Terms & Conditions](https://commonwealth.im/divastaking/discussion/12393-rfc-proposed-terms-conditions-tcs-for-diva-early-stakers-vaults-on-enzyme-incl-token-distribution-criteria-for-program-participants), including the allocation of DIVA tokens for Avantgarde.\n\n**Technical implementation** \n\nThe following course of action is proposed: \n- Avantgarde multisig (“vault owner”) creates the 2 vaults on behalf of the DAO \n- Among initial vault settings, AVG’s multisig (“vault owner”) [assigns delegation](https://docs.enzyme.finance/managers/vaults-for-organisations/delegate-trading) to Avantgarde (“vault delegated manager”) \n- Among initial vault settings, Multisig [prevents deposits](https://docs.enzyme.finance/managers/setup/investments) until the official kickoff date. \n- Enzyme DAO to waive protocol fees on the new vaults. See explanation on how this will be done [here](https://commonwealth.im/divastaking/discussion/12178-rfc-start-collecting-prelaunch-tvl-with-an-early-staker-program-powered-by-enzyme-vaults?comment=64260). The waiver will be implemented in good faith that the distribution of DIVA tokens for Avantgarde is passed in the second DCP (see also “Notable changes”). \n- Avantgarde & Diva DAO announce the official kickoff date across several channels (Commonwealth, Discord, etc.) \n- Upon official kickoff date, Avantgarde’s Multisig enables deposits on Enzyme vaults. \n- Once the initiative is up & running, Avantgarde proposes the [transfer of ownership](https://docs.enzyme.finance/managers/customise-your-settings/change-owner) from its multisig to the DAO Governor contract within 30 days from the kickoff date. \n- During the course of the initiative, Avantgarde will maintain the assets idle as described in the RFC, will implement the needed engineering work for the integration and will facilitate the computation of the token distribution for each participant.\n\n**Avantgarde's role** \n\nAs described in the RFC, it includes the following elements: \n\n- Smart contract engineering efforts to integrate Diva Staking Protocol \n- Smart contract engineering efforts to integrate Lido Staking Protocol to ensure 1:1 redemption of stETH to ETH before staking to Diva. \n- Bear the costs associated with the audit of the above integrations Supervision, assistance and facilitation of DIVA token distribution, tracking the onchain activity related to the vault and turning that into the computation of the distribution amounts for each participant. \n- Playing a role in facilitating the Enzyme Council’s decision to waive protocol fees (normally 25 bps) for Diva, which can be as high as 250 ETH if the initiative was to max out at 100K ETH.\n\nIn general the proposal emphasises alignment, transparency, and community participation in building a sustainable future for the Ethereum ecosystem.\n\n**Notable changes** \n\n- Move the approval of the % allocation of DIVA tokens for Avantgarde from the scope of this proposal to the scope of the second complementary [proposal](https://commonwealth.im/divastaking/discussion/12393-rfc-proposed-terms-conditions-tcs-for-diva-early-stakers-vaults-on-enzyme-incl-token-distribution-criteria-for-program-participants) RFC (T&C) \n- Based on the same complementary [RFC](https://commonwealth.im/divastaking/discussion/12393-rfc-proposed-terms-conditions-tcs-for-diva-early-stakers-vaults-on-enzyme-incl-token-distribution-criteria-for-program-participants), Avantgarde self-imposes a 6-month additional vesting period (beyond the 365 days) that will lock the DIVA tokens distributed. \n- Pending final decision of the Enzyme DAO Council: include an audit competition for the new integrations of Lido & Diva Staking to be run in addition to the audit carried out by Chain Security.\n\n**Notable exclusions** \n\nThe proposal does not include a third vault with denomination of rETH for the reasons explained [here](https://commonwealth.im/divastaking/discussion/12178-rfc-start-collecting-prelaunch-tvl-with-an-early-staker-program-powered-by-enzyme-vaults?comment=64291). It would be best as a possible extension with a further vote later on so it can be discussed separately. There are also workload implications Avantgarde needs to take into account and plan for.\n\n**Classification** \n\nThis is a Diva Curation Proposal (DCP), requiring 50% positive votes to be enacted. DCPs are Intended to distribute governance power among communities.\n\n**Copyright waiver** \n\nAvantgarde Treasury, as the owner or rights holder of certain creative works, hereby waives specific rights under copyright law in favour of Diva Staking DAO. This waiver pertains to the works described as governance proposals, and includes the rights of reproduction, distribution, public display, and creation of derivative works. This waiver is granted for the purpose of this governance process. Proper attribution to us shall be provided by the recipient whenever the works are used or displayed. This waiver does not extend beyond the rights explicitly stated.\n\n![](https://i.postimg.cc/KYXcLdgp/unnamed2.png)",
+      "protocol": "divastaking",
+      "adapter": "onchain",
+      "proposer": "0xaCbABbb5b96b0e2889C27496fa33e6f26081E1a2",
+      "totalVotes": 232,
+      "blockNumber": 17929095,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1692209519,
+      "endTimestamp": 1692470807,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2464600.0,
+          "choice": 0
+        },
+        {
+          "total": 872000.0,
+          "choice": 2
+        },
+        {
+          "total": 22897000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18009222
+          },
+          "event": "executed",
+          "timestamp": 1693178315,
+          "txHash": "0xc5b740a7e4da2beca4b5f74c6d77abf3ff6fd96cff96a5387e55e6d883c99149"
+        },
+        {
+          "time": {
+            "blockNumber": 17914695
+          },
+          "event": "pending",
+          "timestamp": 1692035483,
+          "txHash": "0x1d9f0f71c7ee02a93fc430841601e39ce956ef9741b86b83017491847f3835c2"
+        },
+        {
+          "time": {
+            "blockNumber": 17954969
+          },
+          "event": "queued",
+          "timestamp": 1692522563,
+          "txHash": "0x072c3ab4ef7b7af33b0330e964323d95b391a39c01d9b8cbf5984bc544ed9ccc"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 2464600.0,
+          "choice": 0
+        },
+        {
+          "total": 22897000.0,
+          "choice": 1
+        },
+        {
+          "total": 872000.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805262760,
+      "txHash": "0x1d9f0f71c7ee02a93fc430841601e39ce956ef9741b86b83017491847f3835c2",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGl2YXN0YWtpbmc6b25jaGFpbjo1Njk1ODYyNjA4MzI1NzIyMTY2NjI3MTk4Mjc4NTMyMTEzNDAzNTQyNzU2OTI1NDg3MTg1MTEyMjIyNTU1MzE1NjA2Mzk2MTExOTMyMg==",
+      "id": "56958626083257221666271982785321134035427569254871851122225553156063961119322",
+      "title": "DUP-001: Extend DAO voting period",
+      "content": "**Description:**\n\nCurrently, Diva Staking DAO has a voting delay of 2 days and a voting period of 3 days.\n\nDiscussions were held by the community on whether the voting period should be extended to 5 or 7 days, to increase participation and reduce the risk of proposals going unnoticed during periods like weekends.\n\n- Discord discussion: https://discord.com/channels/1041618287500460083/1133466096763158629\n- Forum discussion & temperature check: https://commonwealth.im/divastaking/discussion/12343-voting-periods\n\nAs of the time of this post, the temperature check received a total of 27 votes, 66.666% of the votes for extending the voting period to 5 days, 25.925% of the votes proposing 7 days and 7.407% of the votes proposing to keep the current periods without changes.\n\nTherefore, I propose to extend the voting period to 5 days, allowing for a total of 2 days delay + 5 days voting for future proposals.\n\nAs a result of this, the community should benefit from higher participation in governance.\n\n**Classification:**\n\nThis is is a Diva Update Proposal (DUP), requiring 75% positive votes, as it aims to update the Diva Staking DAO core infrastructure.\n\nThis change affects the Diva DAO Governor settings, modifying voting periods.\n\n**Risk mitigation:**\n\nIt has been verified by deploying a testnet version of Diva DAO on Goerli, which worked as expected: https://www.tally.xyz/gov/kotler-tests/proposal/66307969040438179555392762970769919850214148824220256268845152992830867101671\n\nCopyright and related rights waived via CC0 1.0 ( https://creativecommons.org/publicdomain/zero/1.0/ )",
+      "protocol": "divastaking",
+      "adapter": "onchain",
+      "proposer": "0xaCbABbb5b96b0e2889C27496fa33e6f26081E1a2",
+      "totalVotes": 453,
+      "blockNumber": 17873449,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1691537003,
+      "endTimestamp": 1691798147,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 39469800.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17968625
+          },
+          "event": "executed",
+          "timestamp": 1692687635,
+          "txHash": "0x41b44ca7a72ac5d9b26c72cbe74df46a746cee1d1edd69d3c8bf99b389eec6ad"
+        },
+        {
+          "time": {
+            "blockNumber": 17895894
+          },
+          "event": "queued",
+          "timestamp": 1691808407,
+          "txHash": "0x19baf27c089cd304c73cd3215af9edff90e62d65635d021c96ed168efbfc7f16"
+        },
+        {
+          "time": {
+            "blockNumber": 17859049
+          },
+          "event": "pending",
+          "timestamp": 1691362787,
+          "txHash": "0xc5682815bd41d306b6a3ed89db3da5b1087d41cae6e92c6f197e7c75e3d87447"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 39469800.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805262760,
+      "txHash": "0xc5682815bd41d306b6a3ed89db3da5b1087d41cae6e92c6f197e7c75e3d87447",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

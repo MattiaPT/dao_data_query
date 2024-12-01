@@ -1,0 +1,700 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6MHg2YjBjMzJmNTdkN2Y0OTQzODExY2NkY2YwMDI0NmUzY2I1YTRlM2ZhZWZmZDBmMDY3Y2UyNWU4ZWY4YjIzZmZh",
+      "id": "0x6b0c32f57d7f4943811ccdcf00246e3cb5a4e3faeffd0f067ce25e8ef8b23ffa",
+      "title": "SIP-12: Update Sismo Contributor ZK Badge eligibility requirements",
+      "content": "# Summary\n\nUpdate the Sismo Contributor ZK Badge eligibility requirements to better prevent potential governance attacks through ZK Badge farming.\n\n# Abstract\n\nThis proposal aims to update the eligibility requirements of the [Sismo Contributor ZK Badge](https://app.sismo.io/?badge=sismo-contributor-zk-badge) to make it more Sybil-resistant after several instances of ZK Badges farming were identified.\n\nThe current eligibility requirements are detailed in the [Contributor ZK Badge & Voting Power](https://www.notion.so/Contributor-ZK-Badge-Voting-Power-fde6b6e4182a409d87bfcee42f14a63a) Governance documentation page.\n\nThe eligibility changes in Contributor Badges Level 1 & 2 are the following:\n\n## LEVEL 1 REQUIREMENTS TO BE UPDATED\n| Eligibility Criteria  | Description  |\n|---|---|\n| ~~Sismo ZK Badge Holder~~  | ~~Any user who has minted at least one ZK Badge* on Polygon using the Sismo app (not the Playground protocol) *Now excluding Github Stargazer Badges that are being heavily farmed~~  |\n|  Sismo Curated ZK Badge Holder |  Any user who has minted at least one curated ZK Badge on Polygon with a Sybil Resistance Attribute Score strictly superior to 1. |\n\n## LEVEL 2 REQUIREMENTS TO BE UPDATED\n| Eligibility Criteria  | Description  |\n|---|---|\n| ~~Proof of Humanity ZK Badge Holder~~  | ~~Any user who has minted the Proof of Humanity ZK Badge on Polygon using the Sismo app (not the Playground protocol)~~  |\n| ~~Ethereum Power Users ZK Badge Holder~~  | ~~Any user who has minted the Ethereum Power Users ZK Badge on Polygon using the Sismo app (not the Playground protocol)~~  |\n| ~~ENS Supporters ZK Badge Holder~~  | ~~Any user who has minted the ENS Supporters ZK Badge on Polygon using the Sismo app (not the Playground protocol)~~  |\n|  Sybil Resistant Curated ZK Badge Holder |  Any user who has minted at least one curated ZK Badge on Polygon with a Sybil Resistance Attribute Score superior or equal to 3. |\n\nAll other requirements are left untouched in the scope of this proposal.\n\n**Reminder**: Only Polygon Curated ZK Badges are considered in the eligibility requirements and only Sismo Contributor ZK Badges minted on Polygon get voting power.\n\n# Motivation\n\n## Sybil Resistance Improvement\n\nSince early January 2023, some ZK Badges such as the [Sismo Github Stargazer ZK Badge](https://app.sismo.io/?badge=sismo-github-stargazer-zk-badge) have been heavily minted by airdrop farmers thanks to Sismo being identified as an airdrop target by some crypto influencers. Because any ZK Badge holder can be eligible for a Sismo Contributor ZK Badge Level 1, this opens up a governance attack vector for malicious actors willing to create fake accounts to earn a majority of voting power.\n\nThis improvement area was already identified when the governance framework was created and partially tackled by the different weighting of voting power by Badge level. However, it was decided initially not to limit access to the Contributor ZK Badge to curated ZK Badges to onboard more contributors more easily. \n\nToday, the set of curated ZK Badges has grown, more accessible curated ZK Badges are on the way and the ZK Badges Attributes Assessment Framework has been implemented. This enables Sismo Governance to restrict a bit more the Contributor ZK Badge eligibility requirements to prevent governance attacks. \n\nThus, this proposal aims to update the eligible groups of the Sismo Contributor ZK Badge Level 1 with holders of curated ZK Badges with a Sybil Resistance attribute score > 1; and the Level 2 holders of curated ZK Badges with a Sybil Resistance attribute score ≥ 3.\n(Check the [Attribute Assessment Framework](https://www.notion.so/ZK-Badge-Attributes-Assessment-Framework-32ec230f741047519cda040ce2396f37) for more details)\n\n## Eligibility Requirements checked only on Polygon\n\nThe Sismo protocol recently added support to the Gnosis Chain and will soon add support to the Ethereum mainnet. Because the attestation state is not shared between chains, if minting curated ZK Badges on Gnosis chain was allowed as an eligibility requirement to get a Sismo Contributor ZK Badge, any individual could mint 2 Sismo Contributor ZK Badges (or as many as chains supported). For this reason, the Sismo Contributor ZK Badge eligibility requirements will not change for the moment and continue to only check for curated ZK Badges minted on Polygon only. In the same way, only Sismo Contributor ZK Badges minted on Polygon get voting power.\n\n# Implementation\n\nThe Sismo community formally petitions the Sismo Core team to:\n\n- Update the Sismo Contributor ZK Badge group generators (Level [1](https://github.com/sismo-core/sismo-hub/tree/main/group-generators/generators/sismo-contributors-tier1-users) and [2](https://github.com/sismo-core/sismo-hub/tree/main/group-generators/generators/sismo-contributors-tier2-impactful-contributors)) according to the requirements defined above",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x4a9A2F31E2009045950DF5aAb36950609DE93c78",
+      "totalVotes": 8058,
+      "blockNumber": 38466041,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/0x6b0c32f57d7f4943811ccdcf00246e3cb5a4e3faeffd0f067ce25e8ef8b23ffa",
+      "startTime": {
+        "timestamp": 1674557400
+      },
+      "endTime": {
+        "timestamp": 1674816600
+      },
+      "startTimestamp": 1674557400,
+      "endTimestamp": 1674816600,
+      "currentState": "closed",
+      "choices": [
+        "Update Contributor ZK Badge",
+        "Make no changes"
+      ],
+      "results": [
+        {
+          "total": 33650.0,
+          "choice": 0
+        },
+        {
+          "total": 451.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 34911.0,
+          "choice": 0
+        },
+        {
+          "total": 452.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6MHhiN2MxZjY0OGRkNGVhYTY3OGU2MDdjZDI1YmQxYWQxNTIxMGQyMWY0NDRlN2U3MTY3MjNmOGFkZDJkMzZiOWMw",
+      "id": "0xb7c1f648dd4eaa678e607cd25bd1ad15210d21f444e7e716723f8add2d36b9c0",
+      "title": "SIP-11: Accept WIW Protocol NFT Legendary Trader ZK Badge as a Curated Badge",
+      "content": "# **Summary**\n\nAccept the WIW Protocol NFT Legendary Trader ZK Badge as a Curated Badge*\n\n**a Curated Badge is a high-quality ZK Badge certified as compliant with **[Curation Guidelines](https://www.notion.so/ZK-Badge-Curation-Guidelines-a62b5d7205734b44b41c603bf1516f4c)* by governance vote and displayed as such in the app UI**\n\n# **Abstract**\n\nWIW Protocol will serve as the proposer of the NFT Legendary Trader Badge. \n\nThe purpose of this SIP is to accept this Badge as one of the badges curated through the governance process and to configure its attributes. \n\nThe Sismo Community is expected to accept this deployment if it complies with the ZK Badge **[Curation Guidelines](https://www.notion.so/ZK-Badge-Curation-Guidelines-a62b5d7205734b44b41c603bf1516f4c)** and [Attributes Assessment Framework](https://www.notion.so/ZK-Badge-Attributes-Assessment-Framework-32ec230f741047519cda040ce2396f37).\n\n# **Motivation**\n\n**About WIW Protocol**\n\nWIW Protocol is a privacy-preserving on-chain identity protocol that curates openly accessible\nWeb3 user reputations. WIW could be used in many scenarios including but not limited to personal branding, web3 social activities, go-to-market strategies, airdrop, and community management. As an identity protocol, WIW serves the full life cycle of web3 identity generation and authorization.\n\nCollaborating with SISMO by using their ZK technology on the privacy layer for identity would\nhave the users in control of their privacy and data ownership. WIW is now one of the data providers for SISMO, and users can now create their SISMO ZK Badges by selecting data sources from WIW’s comprehensive badge library (over 35,000 WIW Badges).\n\n**About the WIW Protocol NFT Legendary Trader Badge**\n\nNFT degens, the most active and influential group of people in Crypto, are known for their high\nlevels of activity and success in trading. People tend to learn from the elites’ NFT Trading records and use their actions as signals. In this\ncase, having the NFT Legendary Trader Badge can significantly boost degens’ credentials and\nincrease the community's attention to degens’ opinions and analytics. People may also back up their degen status in a privacy-preserving way, for example, by anonymously expressing their views, and having the statement backed by identity badges, while not having their public figure affected.\n\nThis NFT Legendary Trader Badge is exclusively available to NFT traders who have achieved\nrealized profits of over 100 ETH from NFT trades on Ethereum and will be updated daily. It's the perfect way to flex degens’ NFT trading skills without revealing personal addresses.\n\n# ZK Badge Attributes\n\nThis section provides a high-level assessment (according to [ZK Badge Attributes Assessment Framework](https://www.notion.so/ZK-Badge-Attributes-Assessment-Framework-32ec230f741047519cda040ce2396f37)) of the level of privacy, trustlessness, and Sybil resistance of the ZK Badge candidate for curation.\n\n### **Privacy**\n\n**Very** **High**\n\nThis ZK Badge uses the private Hydra-S1 attester. \nIts anonymity set is composed of **6268** addresses on Jan. 3rd, 2023.\n\n### **Trustlessness**\n\n**Medium**\n\nThe WIW team is responsible for generating the eligible address set and making the snapshot on\n12/03/2022. WIW generates the group list according to the criteria in the description (The address should have a realized profit for ≥ 100 ETH from NFT Tradings only, not including OTCs or transfers). All the addresses were submitted to [IPFS](https://ipfs.wiw.io/ipfs/QmWU5mws4qn1ZV6WG7wrPhuDpW4yNkdL3Zo3vXKvnUNJUQ) for public audit.\n\n### **Sybil Resistance Levels**\n\n**High**\n\nThis badge represents supreme trading skills in NFT Trading and is not very likely to be\nreproduced in a large amount. Creating fake trading records between addresses would result in\neither friction in trading or losing the eligibility of the original account.\n\n# **Specification**\n\n- ZK Badge:\n    - [https://playground.sismo.io/nft-legendary-traders](https://playground.sismo.io/nft-legendary-traders)\n- Group generator\n    - [https://github.com/sismo-core/sismo-hub/blob/main/group-generators/generators/wiw-nft-legendary-traders/index.ts](https://github.com/sismo-core/sismo-hub/blob/main/group-generators/generators/wiw-nft-legendary-traders/index.ts)\n- WIW Tag Library: NFT Legendary Trader\n    - [https://app.wiw.io/tag-library/20033a13e1199dced2cb59ab150e5fef1857141acd6b012ac53fb60760379222](https://app.wiw.io/tag-library/20033a13e1199dced2cb59ab150e5fef1857141acd6b012ac53fb60760379222)\n\n# **Implementation**\n\nThe Sismo community formally petitions the Sismo Genesis team to:\n\n- Tag the NFT Legendary Trader Badge as curated and set up its attributes once the protocol merge as defined in SIP-10 is deployed",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x4a9A2F31E2009045950DF5aAb36950609DE93c78",
+      "totalVotes": 4186,
+      "blockNumber": 37664229,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/0xb7c1f648dd4eaa678e607cd25bd1ad15210d21f444e7e716723f8add2d36b9c0",
+      "startTime": {
+        "timestamp": 1672840800
+      },
+      "endTime": {
+        "timestamp": 1673100000
+      },
+      "startTimestamp": 1672840800,
+      "endTimestamp": 1673100000,
+      "currentState": "closed",
+      "choices": [
+        "Accept badge as Curated",
+        "Make no changes"
+      ],
+      "results": [
+        {
+          "total": 21316.0,
+          "choice": 0
+        },
+        {
+          "total": 387.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 22271.0,
+          "choice": 0
+        },
+        {
+          "total": 399.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6MHhjYmI0OTgxMGFkYTJlZDRkYWIyMjBjZGM4MmQ3NjQ4NjJmYzIxNWI2ZTU5OTBhNDcwZmIyNmM1NzI4MzBlNjBi",
+      "id": "0xcbb49810ada2ed4dab220cdc82d764862fc215b6e5990a470fb26c572830e60b",
+      "title": "SIP-10: Merge Curated and Playground protocols",
+      "content": "# Summary\n\nMerge the Sismo Playground and Curated protocols into a single contract on the Polygon mainnet and add attributes to Curated ZK Badges.\n\n# Abstract\n\nThis proposal aims to merge the Sismo Playground and Curated protocols. One single set of smart contracts deployed on the Polygon mainnet (and each subsequent supported chains) will represent all Sismo ZK Badges. New ZK Badges will be deployed by default as ‘Not Curated’ and will be able to be curated through the governance process. \n\n- [https://app.sismo.io/](https://app.sismo.io/) will become the single and only environment to mint badges on production chains.\n- [https://playground.sismo.io/](https://playground.sismo.io/) will become https://testnets.sismo.io and be dedicated to testnet badges.\n\nAdditionally, Curated ZK Badges will be required to provide [a value assessment about 3 attributes (Privacy, Trustlessness, and Sybil Resistance)](https://www.notion.so/32ec230f741047519cda040ce2396f37) to transparently communicate their potential properties and trade-offs to minters and builders. \n\n# Motivation\n\n### Curated & Playground protocols merge\n\n**Current State**\n\nTo foster the development of composable bricks on top of ZK badges and increase the builder community engagement, the permissionless Sismo [Playground](https://playground.sismo.io/) environment (frontend+backend+ contracts) allowed anyone to create and deploy their own ZK badges freely.\n\nIn addition, the Sismo [Curated](https://app.sismo.io/) environment had been created to provide a more curated experience for users and applications looking for carefully selected ZK Badges that they can trust. The Sismo community was in charge of vetting which ZK Badge can be migrated to the Curated environment from the Playground environment.\n\n> This structure was effective but required redeploying any Playground ZK Badge that had been accepted through the curation process on the Curated protocol and thus, asking users to remint their ZK Badge on the Curated protocol to benefit from the ZK Badge properties. This put a lot of burden on users and required communication effort from the ZK Badges builders.\n> \n\n**New State**\n\nAll ZK Badges will be managed by the same contracts and will be considered as “Curated” or not depending on the presence or absence of the badge attributes described below. This will allow for a seamless migration process through curation. Once a badge has been deployed in a permissionless manner by a builder and minted by users, it will still be able to go through curation while all previous minters retain their ZK Badges.\n\n> This new structure reduces potential user confusion by regathering all the minting process into a single interface (app.sismo.io), eliminates wasteful reminting steps for users & migration processes for builders, and simplifies the overall architecture of the protocol.\n> \n\n**Addition of new attributes for Curated ZK Badges**\n\nThe motivation for the addition of new attributes is expanded upon in the [ZK Badge Attributes Assessment Framework](https://www.notion.so/32ec230f741047519cda040ce2396f37).\n\n> **TL;DR:** The Privacy, Trustlessness, and Sybil Resistance attributes, associated with the description and eligibility specification of a curated ZK badge, give users a quick and easily digestible way to evaluate the properties of a badge. It provides information to builders about which curated ZK Badge they should build upon if their use case requires perfect decentralization, total privacy, or strong resistance to Sybil attacks.\n> \n\n## Implementation\n\nThe Sismo community formally petitions the Sismo Core team to:\n\n- Merge the Curated and Playground protocols into a single set of contracts and a single app,\n- Adopt new Privacy, Trustlessness, and Sybil Resistance attributes for Curated ZK Badges.",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x4a9A2F31E2009045950DF5aAb36950609DE93c78",
+      "totalVotes": 3727,
+      "blockNumber": 36861567,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/0xcbb49810ada2ed4dab220cdc82d764862fc215b6e5990a470fb26c572830e60b",
+      "startTime": {
+        "timestamp": 1671112800
+      },
+      "endTime": {
+        "timestamp": 1671372000
+      },
+      "startTimestamp": 1671112800,
+      "endTimestamp": 1671372000,
+      "currentState": "closed",
+      "choices": [
+        "Merge protocols & add attributes",
+        "Make no changes"
+      ],
+      "results": [
+        {
+          "total": 21078.0,
+          "choice": 0
+        },
+        {
+          "total": 291.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 21167.0,
+          "choice": 0
+        },
+        {
+          "total": 293.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6MHg3NTgxOWQyNDY3MzE5M2YzZDYxZmUyNzYwYTgzM2I5NDUwZGY1NzlhMDhkMzVmMjE2YTllOGEwNzRmZDI5Mzlh",
+      "id": "0x75819d24673193f3d61fe2760a833b9450df579a08d35f216a9e8a074fd2939a",
+      "title": "SIP-9: SAFE Claim and Delegation",
+      "content": ">Type: Community Proposal\n>Author: 0xBaer.eth\n>Status: Phase 2\n\n## Summary\n\nClaim the SAFE token (from Community Treasury) as part of the Safe DAO launch and delegate it to daoplomats.eth\n\n## Abstract\n\nAs part of the Safe DAO launch, Safe (previously Gnosis Safe) is distributing governance powers to historical users. The **Sismo Community Treasury** has claims to **433.58 SAFE** tokens, of which 200 will be vested over 4 years. To claim the Airdrop before the expiry, the DAO has to delegate its voting power to an external wallet. This proposal suggests claiming the SAFE token and delegating it to daoplomats.eth\n\n## Motivation\n\nSafe is one of the essential tools of the web3 ecosystem, as most DAOs have built their treasury with Safe smart contracts. Safe has also positioned itself to introduce new smart wallet standards to the EVM ecosystem if the platform harnesses its full potential. As Sismo DAO uses Gnosis safes as a fundamental on-chain component, we believe it is in the best interest of the DAO to claim these tokens before the deadline at the end of December. Furthermore, SAFE tokens will diversify Sismo treasury and underline the value alignment of the two protocols. \n\nAs mentioned in the Abstract, the voting power of the tokens should be delegated to an external wallet during the claiming process. Since Sismo only has a claim to 433.58 SAFE tokens, we believe the DAO should not allocate extra resources for an official DAO Diplomat (DAOplomat), instead, should be delegated to external delegates such as daoplomats.eth. \n\nMore about this decision in the ‘Rationale’.\n\n## Specification\n\n**Introducing [DAOplomats.eth](http://twitter.com/DAOplomats)**\n\nDAOplomats.eth are decentralised governance experts from BanklessDAO who specialize in solving the DAO governance trilemma (Voter Apathy, ignorant voting, and plutocratic voting). We tend to represent DAOs and individual token holders and provide them with an avenue to discuss proposals and leverage the combined effects of the community. We are currently the biggest delegates in 1inch DAO and have active delegations in Optimism and SafeDAO.\n\n**Our Mission and vision**\n\n- **Net positive engagement:** We represent a community aiming to empower all parties involved and develop in a positive-sum manner.\n- **United we stand:** We, DAOstewards, believe decentralisation is paramount in governing web3. We aim to represent everyday users of web3 and have their unheard voices heard.\n- **Bankless Lifestyle:** As a group from BanklessDAO, we aim to enable more people to exit their reliability on legacy institutions and fully embrace internet-native digital organisations.\n- **Quality participation:** We believe the quality active contributors could help a DAO evolve. We aim to deliver the best quality of work with minimum bureaucracy.\n- **Current safe delegation**\n    \n    The current DAOplomats Safe delegation is run by Bankless DAOsteward the public good arm of the initiative.  The DAOstewards specialise in governing public-good protocols and as a public good initiative.\n    \n- **Current members:** JengaJojo.eth, Senad.eth, Thinkdecade.eth, Gurad.eth and Advisor:  0xBaer.eth\n\n[Our voting history](https://www.notion.so/4745815f9c384338a16289251e29d833)\n\n## Rationale\n\nDAOplomats have brainstormed different ways to approach the delegation of voting power.\n\nDuring the brainstorming, 3 main possible options arose.\n\n- **Delegating the Voting power directly to a governance group in Sismo**\n\nTo exert the maximum influence of SismoDAO in Safe governance, the ideal way will be to send a delegation from the Sismo. This group should have resources to interact with the Safe DAO governance. \n\n**Rejected**: Since Sismo only has minimal voting power and has to spare resources during its development stage, it would be in its best interest to look into different options\n\n- **Delegate it to external third parties**\n\nSafe Dao currently has more than 75 guardians who have some verified contributions to the Safe DAO. \n\n**Rejected**:  Guardians are voluntarily signed up delegates who would act in their own best interest or Safe DAO and are not confrimed to be value-aligned with Sismo. Sismo would have a minimal impact on the SafeDAO governance voting.\n\n- **Delegate to a Sismo value-aligned group (Bankless DAOplomats)**\n\n**Selected:** They are official delegates from the Bankless DAO, which is mandated to govern with a net positive engagement.  Some delegation members are also ‘Sismo contributor’ badge holders who are value aligned with the Sismo DAO. Sismo can leverage the collective voting power of BanklessDAO, Fightclub.vc and other partner DAOs in SafeDAO governance.\n\n## Implementation\n\nThe Sismo community formally petitions the Sismo Core team to:\n\nFor the Sismo Community Treasury Safe:\n\n- Claim the maximum amount of SAFE tokens.\n- Delegate the SAFE tokens voting power to daoplomats.eth",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x4a9A2F31E2009045950DF5aAb36950609DE93c78",
+      "totalVotes": 3309,
+      "blockNumber": 36168079,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/0x75819d24673193f3d61fe2760a833b9450df579a08d35f216a9e8a074fd2939a",
+      "startTime": {
+        "timestamp": 1669629600
+      },
+      "endTime": {
+        "timestamp": 1669888800
+      },
+      "startTimestamp": 1669629600,
+      "endTimestamp": 1669888800,
+      "currentState": "closed",
+      "choices": [
+        "Claim & delegate to DAOplomats",
+        "Make no changes"
+      ],
+      "results": [
+        {
+          "total": 15226.0,
+          "choice": 0
+        },
+        {
+          "total": 749.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 16552.0,
+          "choice": 0
+        },
+        {
+          "total": 749.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6MHg5OTZmNzQ4Zjc4NzU2ZGI1MzI3YmI3YjZkMmE0YjgxNzA5NDI3NGI0MzQzY2JkYmI1NWUxOGFjMGYxZDlkZTFm",
+      "id": "0x996f748f78756db5327bb7b6d2a4b817094274b4343cbdbb55e18ac0f1d9de1f",
+      "title": "SIP-8: Grant temporary Badge Curation power to Sismo Core Team",
+      "content": "## Summary\n\nGrant temporary Badge Curation power to Sismo Core Team for the next 3 months so that they can deploy internally developed ZK Badge to the curated protocol ([https://app.sismo.io/](https://app.sismo.io/)) without going through a governance vote. The community will keep on curating badges proposed by external teams.\n\n## Abstract\n\nThis proposal aims to enable the Sismo Core team to deploy **Sismo Core ZK Badges** to the curated protocol without going through the full process of the badge curation governance vote for 3 months after acceptance of the proposal.\n\nIt will introduce a distinction between **Sismo Core ZK Badges** that are internally developed by the Sismo Core Team and **Community ZK Badges** that are developed by other external teams and projects.\n\nThe internally developed **Sismo Core ZK Badges** will be considered as internally assessed as compliant to the Badge Curation Guidelines by the Sismo Core team and thus deployable to the Curated protocol to enable a better delivery speed. A confirmation process described below acts as a counterbalance to this power.\n\nThe **Community ZK Badges,** developed by external teams and projects, will still go through a Badge Curation governance vote and community-verification of compliance to the [Guidelines](https://www.notion.so/Badge-Curation-Guidelines-a62b5d7205734b44b41c603bf1516f4c) to ensure their minimum quality level.\n\n## Motivation\n\nThe main motivation behind the [Sismo Badge Curation framework](https://www.notion.so/Badge-Curation-Guidelines-a62b5d7205734b44b41c603bf1516f4c) (that has been introduced in the proposal SIP-6 and accepted by the community) is to filter out bad quality, non-ethos-aligned or harmful ZK badges deployed by external builders on the playground protocol and keep them away from the curated protocol.\n\nWhile it allows a healthy community-led sanity check for Community ZK Badges, it might hinder the delivery speed of new ZK Badges internally developed by the Sismo Core Team, as those badges could be time-sensitive (related to a recent event) or require fast-track deployment for a specific event.\n\nBecause reactivity and flexibility is critical to an early stage project (one of the most important roles of the Sismo Core Team is to inspire other teams to build on top of Sismo), this proposal suggest granting temporary power to the Sismo Core Team to internally assess the compliance of the ZK Badges it develops by itself and the ability to deploy them to the curated protocol without a vote. We think will increase the speed of the general adoption of the protocol and is beneficial.\n\nThis power would have to be reassessed through Sismo Governance at the end of the 3 months period.\n\n## Confirmation Process\n\nTo keep balance of this temporary granted power, the Sismo community will have the power to challenge any **Sismo Core ZK Badge** deployed on the curated protocol by launching a “Temperature Check” poll (as described in [Governance Process](https://www.notion.so/Governance-Process-d64fdaef5b9b46acb78f7de7cbc00259)) in the #core-team-badges Discord channel.\n\nIf this poll gets a majority of votes siding with the challenge, a Confirmation Snapshot proposal will be submitted to decide if the **Sismo Core ZK Badge** remains available or not on the curated protocol, following the traditional process.\n\n## Implementation\n\n- The Sismo Core Team will be able to deploy new internally developed ZK Badges to the curated [ZK Badge contract](https://opensea.io/collection/unidentified-contract-td7cqoh6sc), [attestations collections](https://github.com/sismo-core/sismo-hub/tree/main/attestations-collections/curated/polygon) and [flows](https://github.com/sismo-core/sismo-hub/blob/main/flows/curated.ts) without a governance vote.\n- A channel called #core-team-badges (in Sismo’s Discord “Governance” section) will be created for the core team to bring transparency about new badges and for the community to express their thoughts with the opportunity to challenge any **Sismo Core ZK Badge** deployed by the Sismo Core Team.",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x8ab1760889F26cBbf33A75FD2cF1696BFccDc9e6",
+      "totalVotes": 3072,
+      "blockNumber": 35274255,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/0x996f748f78756db5327bb7b6d2a4b817094274b4343cbdbb55e18ac0f1d9de1f",
+      "startTime": {
+        "timestamp": 1667741630
+      },
+      "endTime": {
+        "timestamp": 1669208400
+      },
+      "startTimestamp": 1667741630,
+      "endTimestamp": 1669208400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, grant temporary power",
+        "No, make no changes"
+      ],
+      "results": [
+        {
+          "total": 20665.0,
+          "choice": 0
+        },
+        {
+          "total": 183.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 20766.0,
+          "choice": 0
+        },
+        {
+          "total": 183.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6MHhlYjEzOWFhN2IyZjM4NTJiOTg0NGJjYjFmYmNmNWVkZTgyNzUwNGM4ZDQ1YWNlYzEyZDY3NWE2NDg2ZmEyY2Zk",
+      "id": "0xeb139aa7b2f3852b9844bcb1fbcf5ede827504c8d45acec12d675a6486fa2cfd",
+      "title": "SIP-7: Accept deployment of Rhino.Fi ZK Power User ZK badge on curated protocol",
+      "content": "## **Summary**\n\nAccept the deployment of Rhino.Fi ZK Power User ZK badge on the Sismo Curated protocol ([https://app.sismo.io/](https://app.sismo.io/)).\n\n## **Abstract**\n\nAn instance of the [Rhino.Fi ZK Power User ZK badge](https://playground.sismo.io/rhino.fi-power-users) is actually deployed on the Sismo [Playground](https://playground.sismo.io/) protocol. The purpose of this SIP is to deploy this badge on the Sismo [Curated](https://app.sismo.io/) protocol. The Sismo Community is expected to accept this deployment if it is compliant with the [**Badge Curation Guidelines**](https://www.notion.so/Badge-Curation-Guidelines-a62b5d7205734b44b41c603bf1516f4c).\n\n## **Motivation**\n\n### About Rhino.Fi\n\n[Rhino.Fi](http://rhino.fi/), formerly DeversiFi, is a multi-chain, self-custodial DeFi platform hosted on layer 2 (based on the Starkware StarkEx ZK rollup technology), on top of the Ethereum blockchain. \n\nIt provides all the best opportunities in the DeFi realm: swaps, yield, staking, and trading. As a layer 2 platform, semi-independent from the main Ethereum blockchain, they settle transactions themselves before posting the records back on layer 1. Each transaction is validated using zero-knowledge proofing, which maximizes user privacy.\n\n### About the Rhino.Fi ZK Power User ZK badge\n\nAll user activity on [Rhino.Fi](http://rhino.fi/) is private - they use a StarkEx Validium implementation to keep data off-chain via a Data Availability Committee . As activity is not published on-chain, users of [Rhino.fi](http://Rhino.fi) benefit from casual privacy but have no easy way to show the world how they are both early adopters of ZK rollups and rhino.fi power users. \n\nThe deployment of this new ZK Badge will allow early Rhino.fi users to show proof-of-OG-rollup status to the world, without having to DOX their wallet. All regular [Rhino.Fi](http://Rhino.Fi) users will be eligible to mint the badge (users should have used [Rhino.Fi](http://rhino.fi/) app for at least 3 weeks since May 2021 with a minimum trading volume of $100 USD during those weeks) and the eligible group will be updated monthly.\n\nTheir blog post announcement: [https://rhino.fi/blog/mint-your-limited-edition-rhino-fi-power-user-zk-badge-soulbound-token-become-a-zk-og/](https://rhino.fi/blog/mint-your-limited-edition-rhino-fi-power-user-zk-badge-soulbound-token-become-a-zk-og/)\n\n## Privacy - Trustlessness - Sybil Resistance Levels\n\nReminder from the [Badge curation guidelines](https://www.notion.so/Badge-Curation-Guidelines-a62b5d7205734b44b41c603bf1516f4c): Sismo should welcome many Badges with different tradeoffs. What matters is that the trade-offs are clearly stated and that the actual badge follows the specifications.\n\n### Privacy\n\n**High**\n\nThe anonymity set will be >4500 accounts at the time of deployment and growing over time. \n\n*Note: Be careful not to mint this ZK Badge on an address directly linked to the address used to deposit, trade, or stake on [Rhino.Fi](http://Rhino.Fi) as it could reveal the link between your accounts to an observant onlooker.*\n\n### Trustlessness\n\n**Low**\n\nThe [Rhino.Fi](http://Rhino.Fi) team is in charge of generating the eligible group and updating it monthly. They will generate the group according to the criteria shared (users should have used [Rhino.Fi](http://rhino.fi/) app for at least 3 weeks since May 2021 with a minimum trading volume of $100 USD during those weeks) but have the power to add or remove any accounts they deem eligible or not. \n\n### Sybil Resistance Level\n\n**Medium**\nThis badge can be minted multiple times by a single actor but it requires sufficient financial resources and time dedication (swapping hundreds of dollars several times over periods of 3 weeks).\n\n*This assessment is purely informational and is to be used by builders who want to build on top of this current group or badge to assess the Sybil resistance of the overarching badge.*\n\n## Specification\n\n- ZK Badge on Playground: [https://playground.sismo.io/rhino.fi-power-users](https://playground.sismo.io/rhino.fi-power-users)\n- Group generator: [Rhino.Fi ZK Power User group generator](https://github.com/sismo-core/sismo-hub/blob/main/group-generators/generators/rhinofi-power-users/index.ts) (updated monthly)\n\n## Implementation\n\nThe Sismo community formally petitions the Sismo Genesis team to:\n\n- Deploy the Rhino.Fi ZK Power User ZK badge on the Curated protocol",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x4a9A2F31E2009045950DF5aAb36950609DE93c78",
+      "totalVotes": 1787,
+      "blockNumber": 35067994,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/0xeb139aa7b2f3852b9844bcb1fbcf5ede827504c8d45acec12d675a6486fa2cfd",
+      "startTime": {
+        "timestamp": 1667307600
+      },
+      "endTime": {
+        "timestamp": 1667480400
+      },
+      "startTimestamp": 1667307600,
+      "endTimestamp": 1667480400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, deploy the badge",
+        "No, make no changes"
+      ],
+      "results": [
+        {
+          "total": 16613.0,
+          "choice": 0
+        },
+        {
+          "total": 130.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 16650.0,
+          "choice": 0
+        },
+        {
+          "total": 130.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6MHhlMjgwZTIzNmM1YWZhNTMzZmMyODQ3MmRkMGNlMTRlNWMzNTE0YTg0M2MwNTYzNTUyYzk2MjIyNmNkYTA1YzUy",
+      "id": "0xe280e236c5afa533fc28472dd0ce14e5c3514a843c0563552c962226cda05c52",
+      "title": "SIP-6: Adopt new Sismo Governance Framework and Badge Curation Guidelines",
+      "content": "## **Summary**\n\nThis proposal establishes a new framework for Sismo Governance based on contribution ZK badges, a process for improvement proposals, and guidelines for badge curation.\n\n## **Abstract**\n\nA new Sismo Governance framework is proposed to the community. It is comprised of:\n\n- **[New voting strategy based on “Sismo Contributor” ZK badge holders](https://www.notion.so/Governance-Overview-5224949448d64bdb81f3d70b3b4cc5f0)**\n\nThe [“Sismo Contributor” ZK badge](https://app.sismo.io/sismo-contributor) can be minted by different types of contributors from the Sismo community (check [governance documentation](https://www.notion.so/Sismo-Governance-Documentation-8d9f6ac5d2f049dfb15de35664602acb) for details) and is comprised of 3 tiers assigned according to the significance of the minter contribution: \n\n**Tier 1 contributors:** 1 voting point per proposal\n**Tier 2 contributors:** 50 voting points per proposal\n**Tier 3 contributors:** 500 voting points per proposal\n- **[Process for Sismo Improvement Proposals](https://www.notion.so/d64fdaef5b9b46acb78f7de7cbc00259)**\n- **[Proposal Template](https://www.notion.so/Sismo-Improvement-Proposal-Template-896f434b0b124c7089bfed8e571e70a8)**\n- **[Badge Curation Guidelines](https://www.notion.so/Badge-Curation-Guidelines-a62b5d7205734b44b41c603bf1516f4c)**\n\nAll details about the new framework can be consulted in the [Governance Documentation](https://www.notion.so/Sismo-Governance-Documentation-8d9f6ac5d2f049dfb15de35664602acb).\n\n## **Motivation**\n\nThe complete rationale behind this new governance framework is detailed in this [blog post](https://blog.sismo.io/sismo-governance-update-3-contribution-driven-governance-1410b3b60365). \n\nTL;DR: Lots of new community-created badges are being deployed on Playground thanks to the Sismo Factory. The community will participate in the curation of badges that can be deployed in the main curated environment. The Sismo community will leverage its own ZK Badges to track the contribution of members and will allocate voting power accordingly. It will enable a less concentrated, more private, and more participative governance model to be iterated on in the future. \n\n## **Specification**\n\nIf accepted, all Sismo Improvement Proposals will need to:\n\n- Be voted on using the current “Sismo Contributor” ZK badge strategy\n- Follow the Sismo Governance Process and SIP template\n\nand all ZK badges to be deployed on [app.sismo.io](http://app.sismo.io) should be compliant with the guidelines.",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x4a9A2F31E2009045950DF5aAb36950609DE93c78",
+      "totalVotes": 539,
+      "blockNumber": 34781949,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/0xe280e236c5afa533fc28472dd0ce14e5c3514a843c0563552c962226cda05c52",
+      "startTime": {
+        "timestamp": 1666701000
+      },
+      "endTime": {
+        "timestamp": 1666960200
+      },
+      "startTimestamp": 1666701000,
+      "endTimestamp": 1666960200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, adopt framework & guideline",
+        "No, make no changes"
+      ],
+      "results": [
+        {
+          "total": 13562.0,
+          "choice": 0
+        },
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 13563.0,
+          "choice": 0
+        },
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6MHgyMDMyYWMxYjBiYzA3Y2E0ZjNlMjI5ODJjNWY3ZmI3NzQ1ODhjZTE5NzQ5MzAyZTJkYWQ2MDBjM2IzZjczZmQ2",
+      "id": "0x2032ac1b0bc07ca4f3e22982c5f7fb774588ce19749302e2dad600c3b3f73fd6",
+      "title": "SIP-5: Close the waiting list to prepare for the next phase of Sismo DAO",
+      "content": "\n## **Summary**\n\nClose the waiting list, open Discord’s public channels and only reopen the gates of the Sismo DAO for the first release of Sismo protocol.\n\n## **Motivation**\n\n\n**The Sismo Social DAO**\n\nThe Sismo DAO was initially set up as a **social DAO**, gathering curated members sharing similar interests. It enabled us to have constructive conversations and feedback on our [mission to create ZK Badges](https://blog.sismo.io/what-is-sismo-part-1-zk-badges-73e7031bacda).\n\nWe, the Genesis team, have been joined by experts and like-minded individuals. Their enthusiasm and care for our mission, [the survey we conducted](https://blog.sismo.io/a-survey-on-ens-id-and-privacy-management-e8fcd6723316?source=user_profile---------2-------------------------------) and the hundreds of meetings with integrators and partners, gave us confidence to move the Sismo DAO towards its next phase.\n\n**From a Social to a Protocol DAO**\n\nSismo Genesis team has grown to 9 members, we met with more than 200 partners and iterated three times on the product.\n\nWe are preparing the release of our first public product, which will mark a turning point for Sismo.\n\nAs we aim to build a new primitive for all, the product will be progressively driven by native badges, tokenomics and governed by the Sismo DAO.\n\nThis is why the Sismo DAO needs to evolve from a gated social DAO to a **product-centric DAO accessible to all: a protocol DAO.**\n\nWe suggest to **put an end to the waiting list and open our Discord public channels to everyone**.\n\nFor now, the Sismo DAO governance should remain reserved to already onboarded Zikies.\n\nWe will take a snapshot of the waiting list if this proposal passes and we will make sure to remember the people on it.\n\nSome partners should still be onboarded in the DAO as part of the Gen[X] to help us ship our first product. Once the first version of the product goes live, the Sismo DAO shall open its gates to everyone, who will be gradually granted power over the protocol.\n\n## **Specification**\n\nThe Sismo DAO formally petitions the Sismo Genesis team to:\n\n-   Take a snapshot and close the waiting list,\n-   Suspend the onboarding of new Gen[A] members,\n-   Open Sismo DAO Discord public channels to everyone,\n-   Update [Sismo.io](http://Sismo.io) to reflect those changes.",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x4a9A2F31E2009045950DF5aAb36950609DE93c78",
+      "totalVotes": 114,
+      "blockNumber": 14132322,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/0x2032ac1b0bc07ca4f3e22982c5f7fb774588ce19749302e2dad600c3b3f73fd6",
+      "startTime": {
+        "timestamp": 1643886000
+      },
+      "endTime": {
+        "timestamp": 1644145200
+      },
+      "startTimestamp": 1643886000,
+      "endTimestamp": 1644145200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, close waitlist/open Discord",
+        "No, make no change"
+      ],
+      "results": [
+        {
+          "total": 113.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 113.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6MHhhZWVhNzE5MjIyYzQwYzRlOGIzZDU1OWQ3NjNmMmNjNDc1NTgyOWU4ZjgyYjE1NWEzMWEyMGYxNzIxODkwNDZj",
+      "id": "0xaeea719222c40c4e8b3d559d763f2cc4755829e8f82b155a31a20f172189046c",
+      "title": "SIP-4: Delegate the voting power of ENS tokens in Sismo DAO to dhadrien.sismo.eth",
+      "content": "\n## **Summary**\n\nDelegate the voting power of the ENS tokens owned by the Sismo DAO treasury to dhadrien.sismo.eth (Sismo Founder and CEO).\n\n## **Abstract**\n\nThe Sismo Treasury multisig wallet owns 32,407 ENS tokens. We suggest delegating the voting power of those tokens to dhadrien.sismo.eth (Sismo Founder and CEO) so he can participate in the ENS DAO governance and ensure the strategic alignment of both DAOs.\n\n## **Motivation**\n\n**_Why the Sismo DAO needs to have a strong voice in the ENS DAO:_** Ethereum Naming Service (ENS) is a critical piece of Ethereum infrastructure which Sismo has used to develop its ENS subdomain DAO and which will be a fundamental brick used to share Zk badges. The ENS token allocation distributed to Sismo acts as a reward for past collaborations between both projects and an incentive for future continued synergy between the DAOs. By delegating the voting power of the 32,407 $ENS tokens owned by Sismo DAO to dhadrien.sismo.eth, we would provide Sismo's founder the capability to have a significant voice in the ENS DAO governance process and thus, to ensure its strategy and execution stays true to ENS vision and aligned with Sismo protocol.\n\n**_Why  the ENS voting power is delegated to dhadrien.sismo.eth:_** The goal of token delegation is to allow for community leaders to emerge and represent the interests of delegators who do not necessarily have the time or knowledge to stay on top of all news. Dhadrien.sismo.eth, being knowledgeable about ENS, having already >29k ENS tokens delegated to him and being at the core of Sismo Genesis strategic decisions, has the best profile to be an ENS delegate for the Sismo DAO. On the contrary, requiring the Sismo DAO to vote on each ENS proposal would be unsustainable. It would mean creating countless Snapshot or Discord polls, which would both clutter the Snapshot space with non-core Sismo proposals and/or induce voters fatigue in the community.\n\n## **Specification**\n\nThe Sismo DAO treasury multisig will call the 'delegate' function of the ENS token contract setting up dhadrien.sismo.eth as the delegate address.",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x4a9A2F31E2009045950DF5aAb36950609DE93c78",
+      "totalVotes": 203,
+      "blockNumber": 13848791,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/0xaeea719222c40c4e8b3d559d763f2cc4755829e8f82b155a31a20f172189046c",
+      "startTime": {
+        "timestamp": 1640098800
+      },
+      "endTime": {
+        "timestamp": 1640358000
+      },
+      "startTimestamp": 1640098800,
+      "endTimestamp": 1640358000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, delegate ENS tokens",
+        "No, make no change"
+      ],
+      "results": [
+        {
+          "total": 198.0,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 198.0,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6MHhkNjI2ZGY1ZGI1MjRlNDMxMjZmMmFhNjg4YzNiODU5NWRiNmJlYTZjMGU4MzA2M2JhZWE1ZDc2NTRjYTY0ZjVm",
+      "id": "0xd626df5db524e43126f2aa688c3b8595db6bea6c0e83063baea5d7654ca64f5f",
+      "title": "SIP-3: Transfer ENS airdrop from Sismo Genesis treasury to Sismo DAO treasury",
+      "content": "## Summary\n\nTransfer 32,407 $ENS tokens from the Sismo Genesis Treasury to the Sismo DAO Treasury\n\nFor more context: [Sismo DAO Update #1: Progressive Decentralization and DAO Treasury](https://blog.sismo.io/sismo-dao-update-1-progressive-decentralization-and-dao-treasury-dbeeacc98c1a)\n\n## Abstract\n\nThe Sismo Genesis Treasury multisig wallet owns 46,296.30 $ENS tokens allocated by the ENS DAO as part of the [\"External Contributors\" share](https://ens.mirror.xyz/-eaqMv7XPikvXhvjbjzzPNLS4wzcQ8vdOgi9eNXeUuY#:~:text=ENS%20Token%20Distribution) of its token distribution. \n\nWe propose that 70% of those tokens (32,407 $ENS) be transferred from the Sismo Genesis treasury to the Sismo DAO treasury. The remaining 30% of the tokens would remain in the Sismo Genesis Treasury to cover tax expenses related to the airdrop (investigation in progress) and other operating costs if required. If some funds remain, after tax, out of this 30%, a new proposal will be made to transfer them to the DAO.\n\n## Motivation\n\nThe Sismo DAO does not currently hold power over a treasury (no treasury asset until now). Ethereum Naming Service (ENS) is a critical piece of Ethereum infrastructure on which the Sismo protocol is being currently built. The ENS token allocation distributed to Sismo acts as a reward for past collaborations between both projects and an incentive for future continued synergy between the DAOs. \n\nBy transferring the 32,407 $ENS tokens (airdropped to the Sismo Genesis team) over to the Sismo DAO multisig wallet, we would provide the Sismo DAO community with the resources and means to ensure the long-term viability of Sismo, and to fund continuing development and improvement of the Sismo protocol. These funds could then be allocated by the DAO to finance Sismo's development, to grant programs, working groups/committees, incentivization initiatives, ecosystem development engagements, and other measures that promote the growth and wide usage of the Sismo protocol.\n\n## Specification\n\nThe Sismo DAO formally petitions the Sismo Genesis treasury keyholders (being the owners of the multisig located at 0x6E5cd14DE0AD04f4012d057aCDB01109A8F7B676) to transfer 32,407 $ENS tokens to the Sismo DAO treasury multisig at 0xD90Ff04A87e7b0Cf01C83618752933Ca15aa49Ae",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x4a9A2F31E2009045950DF5aAb36950609DE93c78",
+      "totalVotes": 153,
+      "blockNumber": 13796266,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/0xd626df5db524e43126f2aa688c3b8595db6bea6c0e83063baea5d7654ca64f5f",
+      "startTime": {
+        "timestamp": 1639400400
+      },
+      "endTime": {
+        "timestamp": 1639659600
+      },
+      "startTimestamp": 1639400400,
+      "endTimestamp": 1639659600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, transfer the tokens",
+        "No, don't transfer the tokens"
+      ],
+      "results": [
+        {
+          "total": 153.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 153.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6MHhiYjg5OWI1NGE4ZjRkNjE1ZDhiMjQ5MDUyYTA5MjVjMmZlN2VmNTQ0NWNjMjViODc3OGRhYmRlZWQ4MDVkNjFh",
+      "id": "0xbb899b54a8f4d615d8b249052a0925c2fe7ef5445cc25b8778dabdeed805d61a",
+      "title": "Sismo DAO Proposal #2 — Zikies: Gen[0] Extension",
+      "content": "## Background\nThe Sismo Genesis team launched the Sismo DAO on October 19th with 500 Gen[0] memberships available to claim.\n\nWe will distribute the next 100 DAO memberships to people that helped us along the way: potential partners, advisors/investors and connectors who will strengthen the DAO.\n\n## Proposal\n### Should they be part of the Gen[0] or should they become a Generation of their own: Gen[X]? \nThis proposal will allow Zikies to choose.\nHere are the 2 options:\n\n### Option 1\nExtend the supply of the Gen[0] Honorary NFTs by 100 to welcome priority builders and partners and then burn the Gen[0] Honorary NFT admin keys.\n### Option 2\nBurn the Gen[0] Honorary NFT admin keys right now and onboard the critical builders and partners as part of a special generation, the Gen[X].\n\n-------\n\nZikies, please discuss this proposal in our #governance channel.\n\n### Sources\n- https://blog.sismo.io/what-is-sismo-part-1-zk-badges-73e7031bacda\n- https://sismo.io",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x8867c12738F4cA3b530AFe7EfC7aC4ee1d286cBC",
+      "totalVotes": 69,
+      "blockNumber": 13538501,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/0xbb899b54a8f4d615d8b249052a0925c2fe7ef5445cc25b8778dabdeed805d61a",
+      "startTime": {
+        "timestamp": 1635871200
+      },
+      "endTime": {
+        "timestamp": 1635957600
+      },
+      "startTimestamp": 1635871200,
+      "endTimestamp": 1635957600,
+      "currentState": "closed",
+      "choices": [
+        "Option 1 — Gen[0]",
+        "Option 2 — Gen[X]"
+      ],
+      "results": [
+        {
+          "total": 31.0,
+          "choice": 0
+        },
+        {
+          "total": 38.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 31.0,
+          "choice": 0
+        },
+        {
+          "total": 38.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2lzbW9ldGg6c25hcHNob3Q6cW15NXFxZWd5bmhleWFiZTF2aHZ2bGpzemhrendtMWtyd2o0d3Z5cWZkeHZ1eQ==",
+      "id": "QmY5QqEgYnhEyAbE1VhvvLjszhkzwm1KrWj4WVYqFDXvuY",
+      "title": "Sismo DAO Proposal #1 — Ziki Vote",
+      "content": "Vote for your favorite Ziki! \n\nAll Zikies (aka. sismo.eth owners) currently have :Ziki5: assigned to their \"Zikies: Gen[0]\" role on Discord.\n\nYou have the power to change it to the Ziki of your choice:\nhttps://imgur.com/a/gMGYyGZ\n\n*1 sismo.eth = 1 Ziki = 1 vote*",
+      "protocol": "sismoeth",
+      "adapter": "snapshot",
+      "proposer": "0x8867c12738F4cA3b530AFe7EfC7aC4ee1d286cBC",
+      "totalVotes": 159,
+      "blockNumber": 13461847,
+      "externalUrl": "https://snapshot.org/#/sismo.eth/proposal/QmY5QqEgYnhEyAbE1VhvvLjszhkzwm1KrWj4WVYqFDXvuY",
+      "startTime": {
+        "timestamp": 1634830200
+      },
+      "endTime": {
+        "timestamp": 1634916600
+      },
+      "startTimestamp": 1634830200,
+      "endTimestamp": 1634916600,
+      "currentState": "closed",
+      "choices": [
+        "Ziki1",
+        "Ziki2",
+        "Ziki3",
+        "Ziki4",
+        "Ziki5"
+      ],
+      "results": [
+        {
+          "total": 11.0,
+          "choice": 3
+        },
+        {
+          "total": 86.0,
+          "choice": 4
+        },
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 44.0,
+          "choice": 2
+        },
+        {
+          "total": 14.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 14.0,
+          "choice": 1
+        },
+        {
+          "total": 44.0,
+          "choice": 2
+        },
+        {
+          "total": 11.0,
+          "choice": 3
+        },
+        {
+          "total": 86.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

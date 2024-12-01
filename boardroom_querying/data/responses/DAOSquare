@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6ZGFvc3F1YXJlOnNuYXBzaG90OnFtZWFrcXN5dmRtcXZpYm1lcXhpdmF4OG1waDMzZ2VnampldWpzZXVtem13bGo=",
+      "id": "QmeaKqSyvdMqVibmeQXiVAX8mph33GegJJeuJSEUMZmWLJ",
+      "title": "DIP#3: RICE V1 -> V2",
+      "content": "# **现状**\n\nRICE 是 DAOSquare 社区的治理代币，发行总量为180万，初始价格为1美金，目前已通过POC(Proof of Contribution)分发约5.2万。\n\n# **问题**\n\n近期，随着更多优秀人才加入到 DAOSquare，我们对 DAOSquare 未来规划的思考也产生了很大的更新迭代，基于这些思考，DAOSquare 将变得更为开放、可持续，也将更加强大和更具可扩展性，这是令人兴奋的消息。然而与此同时，原始的 RICE 设计方案明显已经无法承载我们更新后的规划和目标，尤其是在经济模型的设计上，原始 RICE 发行总量在一定程度上限制了 DAOSquare 的发展。因此经过 DAOSquare 部分专家的反复讨论，我们计划将 RICE 升级至 V2 版本，具体实施方案如下：\n\n# **提案**\n\n1. 发行 V2 版本 RICE，总量：1000万；\n2. 所有现 RICE (以下统称 RICE V1)以1:1的比例兑换 RICE V2；\n3. RICE V1 在兑换之后销毁；\n\n# RICE V2 的相关规则\n\n## 锁仓\n\n由于 DAOSquare 正在实施融资计划，为了保障在融资部分的 RICE 解锁前，投资者、DAOSquare 以及DAOSquare 成员的利益不会被不可控因素影响，且 RICE 价值稳定且正向发展，最健康的解决方案是锁仓，其计划为：\n\n- V1 兑换为 V2 之后，对 V2 RICE 实施锁仓，锁仓期为一年，锁仓期满后按月线性释放，释放期为6个月\n- 锁仓后的 RICE 具有完全的 DAO 治理权和收益权，例如：DAO 提案/投票；参与农耕收益操作",
+      "protocol": "daosquare",
+      "adapter": "snapshot",
+      "proposer": "0x9ac9c636404C8d46D9eb966d7179983Ba5a3941A",
+      "totalVotes": 4,
+      "blockNumber": 11314711,
+      "externalUrl": "https://snapshot.org/#/daosquare/proposal/QmeaKqSyvdMqVibmeQXiVAX8mph33GegJJeuJSEUMZmWLJ",
+      "startTime": {
+        "timestamp": 1606137960
+      },
+      "endTime": {
+        "timestamp": 1606310760
+      },
+      "startTimestamp": 1606137960,
+      "endTimestamp": 1606310760,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 25631.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 25631.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGFvc3F1YXJlOnNuYXBzaG90OnFtZHU1bGFkeHZlZmp4MXI0cjFiMmZqbGp0Mmk5eWFka3lhMWI5enJzb3FtdXE=",
+      "id": "Qmdu5LadXveFjX1R4R1B2fjLJt2i9YADKya1B9zRsoQMuQ",
+      "title": "DIP - DAOSquare准入&踢出机制⚔",
+      "content": "## 现状\n\n经过大家的努力CX和拉人，DAOSquare越来越大，以微信群为标准，人数已经达到了60+；以DAOhaus为标准，人数也达到了20人。\n\n## 问题\n\n随着DAO的人数的增多，一些问题也暴露出来，\n\n1. 部分成员自加入 DAOSquare 以来并未参与到 DAOSquare 的工作；\n2. ...\n\n问题的根源在于，现阶段 DAOSquare 未设置准入&踢出机制，以至于从某种程度上，进入 DAOSquare 有点类似于待在那些普通“群”一样，高兴翻出来看一眼，不高兴扔之一边。很明显，这不是 DAOSquare 的调性。自 DAOSquare 成立以来，我们一直希望让 DAOSquare 成为一个真正的社区，汇集一群乐于创新，热于团结、协作，共享资源，共同进步的人，从而让 DAO 更有活力，更为健壮。而同时，成员也可以通过对 DAO 的贡献获得在 DAO 的权益，以及 DAO 当下或未来的利益。总结为一句话，**DAOSquare 不是谁想进就能进的** 🥴\n\n没有准入/踢出机制会导致以下问题：\n\n- 成员懈怠导致组织疲软\n- 没有规则导致 DAO 成员的荣誉感降低\n- 真正信仰并推动 DAOSquare 发展的成员会因为机制的缺失降低对 DAOSquare 的信心\n\n因此，DAOSuqare 需要设置一个清晰的准入&踢出机制⚔。\n\n## 提案\n\n### DAO 成员资格\n\n首先我们需要确立哪些人是具备成为 DAO 成员资格的！在 DAOSquare，我们不看背书，不看资历，不看 Linkedin，不看学历，我们只看行动中所传递的意愿和共识。因此 ，**POC (Proof Of Contribution) 机制是最简单直接的判断标准**。通过申请 POC 获得 RICE 的人则具备 DAO 的成员资格。\n\n### 如何加入DAO\n\n1. 找到已有社区成员，并获得一个**暂住证NFT(有时效)**🎟；\n2. 凭着**暂住证NFT**🎟，加入社区，自我介绍，参与工作。\n3. 在参与工作后，可以通过POC获得RICE。\n\n### 什么情况下，会被踢出DAO\n\n1. 暂住证失效后，同时没有通过POC获得RICE，会被踢出DAO",
+      "protocol": "daosquare",
+      "adapter": "snapshot",
+      "proposer": "0xb68F52FE2583b5a568E7E57dc98c69d93821f6e4",
+      "totalVotes": 6,
+      "blockNumber": 11293641,
+      "externalUrl": "https://snapshot.org/#/daosquare/proposal/Qmdu5LadXveFjX1R4R1B2fjLJt2i9YADKya1B9zRsoQMuQ",
+      "startTime": {
+        "timestamp": 1605801600
+      },
+      "endTime": {
+        "timestamp": 1606060800
+      },
+      "startTimestamp": 1605801600,
+      "endTimestamp": 1606060800,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 35965.617,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 35965.615999999995,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGFvc3F1YXJlOnNuYXBzaG90OnFtcXpkZzh0dWV6aHBheHRmaHBmZ3BqcnBqdmRicHluc2dtb2FoNHFoOWRpM3c=",
+      "id": "QmQZDg8TueZHPaxtFHPfgPjrPJVDbpynsgMoaH4QH9Di3W",
+      "title": "DFP - Metalove Grants",
+      "content": "申请人：Metalove\n联系人：Deahow\nETH add：0x42941bc83B698D47D0Bbe9A1A49280388Db44Cb8\n申请金额：1000 RICE\n\n介绍：以DAO驱动的专注于公益事业的组织\n\n价值和意义：以DAO的形式驱动，尽可能地发挥群体智慧；基于区块链，解决现实公益事业问题\n\n网址：https://metalove.xyz\n申请书：https://shimo.im/files/RKAWVKWKzQso46k8/\n\n欢迎所有 RICE 持有人参与投票",
+      "protocol": "daosquare",
+      "adapter": "snapshot",
+      "proposer": "0x9ac9c636404C8d46D9eb966d7179983Ba5a3941A",
+      "totalVotes": 3,
+      "blockNumber": 10983890,
+      "externalUrl": "https://snapshot.org/#/daosquare/proposal/QmQZDg8TueZHPaxtFHPfgPjrPJVDbpynsgMoaH4QH9Di3W",
+      "startTime": {
+        "timestamp": 1601740800
+      },
+      "endTime": {
+        "timestamp": 1601827140
+      },
+      "startTimestamp": 1601740800,
+      "endTimestamp": 1601827140,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 3811.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3811.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

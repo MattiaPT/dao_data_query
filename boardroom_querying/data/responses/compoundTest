@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Y29tcG91bmR0ZXN0Om9uY2hhaW46MQ==",
+      "id": "1",
+      "title": "Proposal 1",
+      "content": "Test proposal #2",
+      "protocol": "compoundTest",
+      "adapter": "onchain",
+      "proposer": "0x1ACDE7405E275CBa06ffB5d249D12c9cfA90C140",
+      "totalVotes": 1,
+      "blockNumber": 7546350,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1554980585,
+      "endTimestamp": 1555134882,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10000000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10000000.0,
+          "choice": 0
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

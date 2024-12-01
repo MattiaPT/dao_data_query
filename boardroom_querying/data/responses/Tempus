@@ -1,0 +1,636 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6dGVtcHVzZ292ZXRoOnNuYXBzaG90OjB4Mjg4MDAzYjlmN2RjZTU4YWMzYWEzYzMzZmRiMWZkMDNhMTE3NWE5NTE5ZTRiNjdkZjg5OTljOTk2MzA2ZjlmZQ==",
+      "id": "0x288003b9f7dce58ac3aa3c33fdb1fd03a1175a9519e4b67df8999c996306f9fe",
+      "title": "Strategic Transition from TEMP to NOS",
+      "content": "This proposal seeks your approval for a strategic transition, following the recent events surrounding the Raft project. This includes a shift in focus towards Nostra, adjustments in token allocation, and the discontinuation of TEMP in favor of NOS tokens.",
+      "protocol": "tempusgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x31F048c427544b40Dea9b63E26749C925Bf5D931",
+      "totalVotes": 15,
+      "blockNumber": 18826221,
+      "externalUrl": "https://snapshot.org/#/tempusgov.eth/proposal/0x288003b9f7dce58ac3aa3c33fdb1fd03a1175a9519e4b67df8999c996306f9fe",
+      "startTime": {
+        "timestamp": 1703064600
+      },
+      "endTime": {
+        "timestamp": 1703323800
+      },
+      "startTimestamp": 1703064600,
+      "endTimestamp": 1703323800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 9387551.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9387551.34997397,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703064736501,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGVtcHVzZ292ZXRoOnNuYXBzaG90OjB4MGU0YTZmYWYxNmNjNzllNGVhNjgzOGI0OGQ0MmIwNzkxYWM1ZjJkMjMxYjBmODg0ODlmNWRjNDk2NmJlNzkxOA==",
+      "id": "0x0e4a6faf16cc79e4ea6838b48d42b0791ac5f2d231b0f88489f5dc4966be7918",
+      "title": "Should the Treasury use its $200k USDC from the TEMP/USDC pool on Uni v3 to support RAFT liquidity?",
+      "content": "The proposal suggests moving $200,000 USDC from the TEMP/USDC Uniswap v3 pool to seed the RAFT/R 80:20 Balancer pool. This action aims to:\n\n- Improve price discovery for RAFT.\n- Prepare for the upcoming $TEMP Staking Program.\n- Create a strong liquidity base for future Raft expansions and integrations.",
+      "protocol": "tempusgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x31F048c427544b40Dea9b63E26749C925Bf5D931",
+      "totalVotes": 27,
+      "blockNumber": 18283686,
+      "externalUrl": "https://snapshot.org/#/tempusgov.eth/proposal/0x0e4a6faf16cc79e4ea6838b48d42b0791ac5f2d231b0f88489f5dc4966be7918",
+      "startTime": {
+        "timestamp": 1696501458
+      },
+      "endTime": {
+        "timestamp": 1696760658
+      },
+      "startTimestamp": 1696501458,
+      "endTimestamp": 1696760658,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 6775719.0,
+          "choice": 0
+        },
+        {
+          "total": 2675237.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6775719.115350248,
+          "choice": 0
+        },
+        {
+          "total": 2675237.8437449094,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696501947943,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGVtcHVzZ292ZXRoOnNuYXBzaG90OjB4NzJkYzA5YTY4MWFkZjZmNzg1MDRkOWIyM2MzZDU3ZjFjMWVmZjczNjU5NGM3YzdjNDRhNGE0NWU3ZTc3MDBkNw==",
+      "id": "0x72dc09a681adf6f78504d9b23c3d57f1c1eff736594c7c7c44a4a45e7e7700d7",
+      "title": "Should the Tempus Treasury consolidate its assets and use the funds to support the launch of Raft by incentivizing R liquidity?",
+      "content": "The proposal aims to optimize the use of Treasury assets to support the upcoming launch of Raft and its stablecoin, R. The proposal entails withdrawing stETH from the Tempus fixed income app, withdrawing profits from the Uniswap v3 TEMP/USDC pool, and using the proceeds, together with idle stETH, to incentivize R liquidity. \n",
+      "protocol": "tempusgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x122E5BdE2CCd2FD3A86971c04Ef99BB559f45f6F",
+      "totalVotes": 18,
+      "blockNumber": 17115650,
+      "externalUrl": "https://snapshot.org/#/tempusgov.eth/proposal/0x72dc09a681adf6f78504d9b23c3d57f1c1eff736594c7c7c44a4a45e7e7700d7",
+      "startTime": {
+        "timestamp": 1682334000
+      },
+      "endTime": {
+        "timestamp": 1682593200
+      },
+      "startTimestamp": 1682334000,
+      "endTimestamp": 1682593200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 3188691.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3188690.664549815,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682349978167,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGVtcHVzZ292ZXRoOnNuYXBzaG90OjB4ZjYxNzg1NDk2NTQxMGVjZjA0NWM0MjVmOGI0MDE2ZmY2NGM2NDY0NTdmNjM0MzFiZWQyNzFhMTgyY2IzNzk5OA==",
+      "id": "0xf617854965410ecf045c425f8b4016ff64c646457f63431bed271a182cb37998",
+      "title": "Should TEMP holders be rewarded with NOS following the launch of Nostra?",
+      "content": "When Tempus rebranded from a fixed income protocol to multiple product lines, Tempus Labs wanted to ensure that TEMP holders would accrue value from all future products built by the team.\n\nTempus Labs believes that Nostra should have its own token (NOS) for the long-term sustainability and decentralization of the project, specifically by enabling its own community governance on StarkNet.\n\nWe propose that TEMP holders will be eligible to receive NOS equivalent to approximately 60% of their percentage ownership of TEMP on a fully diluted basis. \n\nThis means that, for every 1 TEMP you own, you will receive at least 0.6 NOS (assuming the fully diluted token supply for NOS will also be 1 billion tokens, which is yet to be confirmed). The staking programme will run for a period of 2 years.\n\nWe believe this proposal sets forward a fair distribution where TEMP holders, Tempus SAFT investors, and the team receive NOS tokens on the same economic basis.\n\nMore details (including on timing and next steps) can be found in the below thread on the Tempus governance forum.\n\nhttps://forum.tempus.finance/t/proposal-rewarding-temp-holders-following-the-launch-of-nostra/170",
+      "protocol": "tempusgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x122E5BdE2CCd2FD3A86971c04Ef99BB559f45f6F",
+      "totalVotes": 18,
+      "blockNumber": 15917558,
+      "externalUrl": "https://snapshot.org/#/tempusgov.eth/proposal/0xf617854965410ecf045c425f8b4016ff64c646457f63431bed271a182cb37998",
+      "startTime": {
+        "timestamp": 1667822400
+      },
+      "endTime": {
+        "timestamp": 1668081600
+      },
+      "startTimestamp": 1667822400,
+      "endTimestamp": 1668081600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 3896854.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3896854.1595017985,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGVtcHVzZ292ZXRoOnNuYXBzaG90OjB4ODBiZWRlMDk1ZjhiNTA4ZGVkNGE2ZjJhNTUwYjMyMTRiNTMxNWM0NjVmYzllNTQ2OTY5MzMzZDA3YzZhNGVjNA==",
+      "id": "0x80bede095f8b508ded4a6f2a550b3214b5315c465fc9e546969333d07c6a4ec4",
+      "title": "Should Tempus Labs Inc. be elected as the service contractor of the Tempus DAO for the next 2 years?",
+      "content": "I would propose to put forward Tempus Labs Inc. (“Tempus Labs”) as the service contractor responsible for the day-to-day running of the Tempus DAO for an initial 2-year term, starting from the date this Snapshot vote is passed.\n\nThe goal here is to put in place the structure and processes necessary to make Tempus a fully Decentralized Autonomous Organization (“DAO”) by the end of 2022. We believe establishing Tempus to be a fully robust DAO, with Tempus DAO token holders playing a more active and involved role, will unlock both Tempus DAO and the Tempus community’s full potential.\n\nThis proposal pushes Tempus DAO towards this goal by giving Tempus DAO token holders the power to (1) elect Tempus Labs, and (2) remove Tempus Labs as the service provider, thereby ultimately improving accountability and fostering decentralization.\n\nFor more information on re-election and removal rights, and other important considerations to bear in mind, please refer to the following thread on the Tempus governance forum: https://forum.tempus.finance/t/proposal-should-tempus-labs-inc-be-elected-as-the-service-contractor-of-the-tempus-dao-for-the-next-2-years/148.",
+      "protocol": "tempusgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x122E5BdE2CCd2FD3A86971c04Ef99BB559f45f6F",
+      "totalVotes": 12,
+      "blockNumber": 14622089,
+      "externalUrl": "https://snapshot.org/#/tempusgov.eth/proposal/0x80bede095f8b508ded4a6f2a550b3214b5315c465fc9e546969333d07c6a4ec4",
+      "startTime": {
+        "timestamp": 1650470400
+      },
+      "endTime": {
+        "timestamp": 1650729600
+      },
+      "startTimestamp": 1650470400,
+      "endTimestamp": 1650729600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 9040548.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9040547.684412176,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGVtcHVzZ292ZXRoOnNuYXBzaG90OjB4MGQ3MWFmMWYzNTc3MjMwYTQxZDI5YjdjNjE1MzJmMDgzYjRlMmEyYzc3YjI3NGY5YjM3NDM4MWRhYTQyMzIyYQ==",
+      "id": "0x0d71af1f3577230a41d29b7c61532f083b4e2a2c77b274f9b374381daa42322a",
+      "title": "Should we execute liquidity restructuring and TEMP buyback?",
+      "content": "TL;DR\n\n- Remove treasury-owned liquidity from TEMP/WFTM pool on SpookySwap\n- Bridge resulting TEMP & WFTM back to Ethereum\n- Use WFTM to execute a Treasury buyback across all Ethereum DEXs\n \nThis will allow:\n\n- Higher trading volume\n- Better price discovery\n- Upward pressure on the TEMP price through approx $0.680mm buying power\n\nFull details about this proposal can be found in the Tempus governance forum: https://forum.tempus.finance/t/proposal-execute-liquidity-restructuring-and-temp-buyback/144.  \n",
+      "protocol": "tempusgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x122E5BdE2CCd2FD3A86971c04Ef99BB559f45f6F",
+      "totalVotes": 29,
+      "blockNumber": 14532011,
+      "externalUrl": "https://snapshot.org/#/tempusgov.eth/proposal/0x0d71af1f3577230a41d29b7c61532f083b4e2a2c77b274f9b374381daa42322a",
+      "startTime": {
+        "timestamp": 1649246400
+      },
+      "endTime": {
+        "timestamp": 1649505600
+      },
+      "startTimestamp": 1649246400,
+      "endTimestamp": 1649505600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 6020481.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6020480.995309273,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGVtcHVzZ292ZXRoOnNuYXBzaG90OjB4MjIzNTJlMWJhNDFlNjI3Yjk1ZTNhOTI2N2I4MTUzMzMzN2UzMjYwOTMyNzY4ZjViMTcwMWRkZWIzNzE4MTU2NA==",
+      "id": "0x22352e1ba41e627b95e3a9267b81533337e3260932768f5b1701ddeb37181564",
+      "title": "Should the Treasury fund the TEMP/BNT Bancor pool with ~$750k of TEMP?",
+      "content": "GM.\n\nWe have recently published a proposal on the Bancor Governance Forum (https://gov.bancor.network/t/proposal-increase-temp-trading-liquidity-to-500k-bnt-from-100k-bnt/ 2) to increase the BNT liquidity limit from 100,000 BNT to 500,000 BNT in the TEMP/BNT pool on Bancor.\n\nAt today’s rate (4 March 2022, BNT = $2.34), this opens up the pool for approximately $936,000 worth of TEMP tokens.\n\nIn summary, we have done so to make the Bancor pool more competitive in terms of slippage with our Uniswap and Balancer pools.\n\nIn conjunction with this proposal, I would suggest that we use $750,000 worth of TEMP from the Tempus Treasury to provide liquidity to the TEMP/BNT pool. This leaves sufficient room for other TEMP holders to also deposit into the pool if they wish.\n\nWhy?\n\n- It reduces slippage on Bancor, and makes TEMP more tradable due to lower slippage.\n- TEMP is sitting idle in the Treasury, and this is a great way to put idle TEMP to “work”.\n- Due to the core value proposition of Bancor, the deposited TEMP is protected from impermanent loss - the Treasury is guaranteed to make trading fees.\n- It does not increase circulating supply as TEMP will be held by the Treasury (Treasury held tokens are excluded from the circulating supply, regardless of whether they are staked or used to provide liquidity).\n- It increases the long term cooperation between Bancor and Tempus.\n\nOf course, execution of this proposal is also subject to the passing of the Bancor proposal - more details here: https://gov.bancor.network/t/proposal-increase-temp-trading-liquidity-to-500k-bnt-from-100k-bnt/3442.",
+      "protocol": "tempusgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x122E5BdE2CCd2FD3A86971c04Ef99BB559f45f6F",
+      "totalVotes": 17,
+      "blockNumber": 14320093,
+      "externalUrl": "https://snapshot.org/#/tempusgov.eth/proposal/0x22352e1ba41e627b95e3a9267b81533337e3260932768f5b1701ddeb37181564",
+      "startTime": {
+        "timestamp": 1646395200
+      },
+      "endTime": {
+        "timestamp": 1646654400
+      },
+      "startTimestamp": 1646395200,
+      "endTimestamp": 1646654400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 535621.7,
+          "choice": 0
+        },
+        {
+          "total": 4429323.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 535621.6569083869,
+          "choice": 0
+        },
+        {
+          "total": 4429323.390685646,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGVtcHVzZ292ZXRoOnNuYXBzaG90OjB4ODRjODk2Njg2YTA1NWY5MWE0YmE1YjA5NjI3OGNmNDcxYWIyOTBiMzdkZDk1MjgzOGQ0ZDVhNTE5YzJjZDQ2NA==",
+      "id": "0x84c896686a055f91a4ba5b096278cf471ab290b37dd952838d4d5a519c2cd464",
+      "title": "Who should be elected to form the initial Tempus Grants Committee?",
+      "content": "Last week, TEMP tokenholders passed a proposal to establish a Tempus Grants Committee, which will be responsible for providing an ecosystem fund (https://vote.tempus.finance/#/proposal/0x65d8ed0238fdd9e46134f148be955ed0ef4228bba91746a269cd47e16b818d6c). \n\nAs mentioned in the initial proposal (https://forum.tempus.finance/t/proposal-establish-a-tempus-grants-committee/121), it is envisaged that the Tempus Grants Committee will be made up of three individuals from the Tempus Labs team (Pujeet - BD Manager, Richard - Product Manager, and Cristiano - Quantitative Analyst), plus external members of the community.  I would propose that this be limited to two individuals, bringing the Committee to a total of five members.  This figure will ensure a variety of views and expertise are brought to the table while avoiding the administrative complexities that may result from having a larger number of members. \n\nUltimately, it is the choice of TEMP tokenholders who is elected.  Please cast your vote below for which applicants you would like to see form the initial makeup of the Tempus Grants Committee. The top five applicants (in terms of number of votes cast for them) will be selected.  You may spread your voting power across any number of candidates.  Please note that by voting for the Tempus Labs team, you are voting for three individuals.  Assuming the Tempus Labs team is elected, the two top external candidates will fill the remaining two spots on the Committee.\n\nThe Committee will be re-elected every 12 months, subject to a further governance proposal on who should form part of it.\n\nMore details about the candidates can be found in the initial proposal (linked above).\n",
+      "protocol": "tempusgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x122E5BdE2CCd2FD3A86971c04Ef99BB559f45f6F",
+      "totalVotes": 23,
+      "blockNumber": 14210386,
+      "externalUrl": "https://snapshot.org/#/tempusgov.eth/proposal/0x84c896686a055f91a4ba5b096278cf471ab290b37dd952838d4d5a519c2cd464",
+      "startTime": {
+        "timestamp": 1644922800
+      },
+      "endTime": {
+        "timestamp": 1645182000
+      },
+      "startTimestamp": 1644922800,
+      "endTimestamp": 1645182000,
+      "currentState": "closed",
+      "choices": [
+        "Tempus Labs team",
+        "Corey Soreff (external)",
+        "Miloš Rakčević (external)",
+        "Claude Donzé (external)",
+        "Edi Sinovčić (external)"
+      ],
+      "results": [
+        {
+          "total": 2279.6643,
+          "choice": 2299
+        },
+        {
+          "total": 215664.22,
+          "choice": 59
+        },
+        {
+          "total": 9879.015,
+          "choice": 999
+        },
+        {
+          "total": 71618.39,
+          "choice": 9
+        },
+        {
+          "total": 1762899.1,
+          "choice": 0
+        },
+        {
+          "total": 355420.12,
+          "choice": 32
+        },
+        {
+          "total": 475922.9,
+          "choice": 7
+        },
+        {
+          "total": 523885.0,
+          "choice": 24
+        },
+        {
+          "total": 302640.47,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 1476413.6873409736,
+          "choice": 0
+        },
+        {
+          "total": 881750.1829134254,
+          "choice": 1
+        },
+        {
+          "total": 21566.421425840257,
+          "choice": 2
+        },
+        {
+          "total": 818679.0879578292,
+          "choice": 3
+        },
+        {
+          "total": 521799.45163873385,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGVtcHVzZ292ZXRoOnNuYXBzaG90OjB4NjVkOGVkMDIzOGZkZDllNDYxMzRmMTQ4YmU5NTVlZDBlZjQyMjhiYmE5MTc0NmEyNjljZDQ3ZTE2YjgxOGQ2Yw==",
+      "id": "0x65d8ed0238fdd9e46134f148be955ed0ef4228bba91746a269cd47e16b818d6c",
+      "title": "Establish a Tempus Grants Committee",
+      "content": "I would like to propose the establishment of a Tempus Grants Committee, which would in turn provide an ecosystem fund. \n\nOne of the key steps for scaling Tempus as it evolves is to establish an ecosystem fund. The main function of the fund would be to provide grants to: \n\n- build on top of Tempus (Vault products, integrations, leveraged fixed rates etc.) \n- run affiliate programs to increase TVL and the general usage of Tempus \n- advertise and promote Tempus as a product \n- improve the level of documentation for Tempus\n\nFull details about this proposal (including why it is important, who would be part of the Committee, and their election/remuneration) are available in a governance forum discussion about this topic: https://forum.tempus.finance/t/proposal-establish-a-tempus-grants-committee/121.  \n\nIf this proposal is voted 'Yes', a second Snapshot vote will be run to elect the Tempus Grants Committee. Applications will remain open (in the same topic linked above) until voting closes on this proposal.",
+      "protocol": "tempusgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x122E5BdE2CCd2FD3A86971c04Ef99BB559f45f6F",
+      "totalVotes": 24,
+      "blockNumber": 14165168,
+      "externalUrl": "https://snapshot.org/#/tempusgov.eth/proposal/0x65d8ed0238fdd9e46134f148be955ed0ef4228bba91746a269cd47e16b818d6c",
+      "startTime": {
+        "timestamp": 1644321600
+      },
+      "endTime": {
+        "timestamp": 1644580800
+      },
+      "startTimestamp": 1644321600,
+      "endTimestamp": 1644580800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5506581.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5506581.621637268,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGVtcHVzZ292ZXRoOnNuYXBzaG90OjB4NTBjOGJiZDU2NDc0Nzg3NDJkMWFiMDJkNTIzMjY5YWYzODg5NTE1MWJiYjFlYWUyOWRlYTQzMTM5NjQ2ZWJkZQ==",
+      "id": "0x50c8bbd5647478742d1ab02d523269af38895151bbb1eae29dea43139646ebde",
+      "title": "Migrate DEX liquidity from Ethereum to Fantom ",
+      "content": "In this proposal, I suggest migrating approximately $2m of the current liquidity deployed in Uniswap on Ethereum onto SpookySwap on Fantom.\n\n## Motivation\nSpookySwap is currently the largest DEX on Fantom with $1.2bn TVL (source: Defi Llama) with approximately $250m 24 hr trading volume on average (source: Coin Gecko).\n\nTo foster healthy growth and traction within the Fantom ecosystem as we launch and develop the products, we believe having a tradable $TEMP token on Fantom is key to enabling Fantom users to join the Tempus community. Lastly, by doing this, we also expect a net increase in $TEMP trading volume, which is generally a key criterion for CEX listings.\n\n## Proposal\nThe $TEMP token is currently one of the most liquid tokens for the market cap on Ethereum, with approximately $8.8m of TVL between the Balancer and Uniswap liquidity pools. This allows $TEMP tokens to be traded at large sizes with minimal slippage. We believe migrating the $2m liquidity from the Uniswap USDC/TEMP pool 1 to a new TEMP/WFTM pool on SpookySwap will provide sufficient liquidity for larger trades to be executed on Ethereum with minimal slippage and at the same time allow Tempus to captivate some of the vibrant Fantom community to join Tempus.\n\n## Next steps\n1. If this proposal is voted yes, we will proceed with withdrawing from the USDC/TEMP Ethereum pool and bridging across (using Multichain) the assets\n2. Convert USDC to WFTM\n3. Wait for TEMP to be whitelisted with Multichain and SpookySwap (underway)\n4. Provide liquidity to the $2m USD liquidity to TEMP/WFTM\n\nOriginal discussion: https://forum.tempus.finance/t/proposal-migrate-dex-liquidity-from-ethereum-to-fantom/125",
+      "protocol": "tempusgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x56fAEc6193Dd997993580E3B038eEd877638B31d",
+      "totalVotes": 31,
+      "blockNumber": 14158895,
+      "externalUrl": "https://snapshot.org/#/tempusgov.eth/proposal/0x50c8bbd5647478742d1ab02d523269af38895151bbb1eae29dea43139646ebde",
+      "startTime": {
+        "timestamp": 1644235200
+      },
+      "endTime": {
+        "timestamp": 1644494400
+      },
+      "startTimestamp": 1644235200,
+      "endTimestamp": 1644494400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5484525.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5484525.951205879,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGVtcHVzZ292ZXRoOnNuYXBzaG90OjB4ZjM5Y2I2NDdjMjhjZDUzOWRjMTVmNGIyMTA0NWRlYzY5ODdiOWI3YzFhM2E5OTA1Yzg0MTdjODExNjgwYWVkZA==",
+      "id": "0xf39cb647c28cd539dc15f4b21045dec6987b9b7c1a3a9905c8417c811680aedd",
+      "title": "Fund the Hats Bug Bounty Vault with 1 million TEMP?",
+      "content": "Tempus has joined the bug bounty program that was implemented by Hats Finance.\n\nThe Hats Bug Bounty program is decentralized and requires that we deposit tokens into a Vault. If a bug is reported, we will tap into these funds to pay the person who reported the issue.\n\nI recommend that we fund the contract with 1 million TEMP to start with using Treasury funds. The idea is that the bounty will scale as the TEMP token price increases. We will have a chance to later increase/decrease the bounty.\n\nLink to a governance forum discussion about this topic https://forum.tempus.finance/t/proposal-fund-the-hats-bug-bounty-vault-with-1-million-temp/34",
+      "protocol": "tempusgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x603d50BAd151Da8becf405E51a8c4Abc8bA1c95E",
+      "totalVotes": 47,
+      "blockNumber": 14049252,
+      "externalUrl": "https://snapshot.org/#/tempusgov.eth/proposal/0xf39cb647c28cd539dc15f4b21045dec6987b9b7c1a3a9905c8417c811680aedd",
+      "startTime": {
+        "timestamp": 1642784400
+      },
+      "endTime": {
+        "timestamp": 1643216400
+      },
+      "startTimestamp": 1642784400,
+      "endTimestamp": 1643216400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5978735.0,
+          "choice": 0
+        },
+        {
+          "total": 185800.45,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5978736.2169226175,
+          "choice": 0
+        },
+        {
+          "total": 185800.45713940385,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

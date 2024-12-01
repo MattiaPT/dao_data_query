@@ -1,0 +1,512 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6dGhlaG9taWVzZGFvOm9uY2hhaW46MHhkZTUwMGRkNzIyYzM4YmNlOGJkMjE2MTdjZDEyN2FlZmM1MmIxMmIzMzg3MWNhMjZiMDllZDQwMmIwYTI4Y2M1",
+      "id": "0xde500dd722c38bce8bd21617cd127aefc52b12b33871ca26b09ed402b0a28cc5",
+      "title": "Proposal 0xde500dd722c38bce8bd21617cd127aefc52b12b33871ca26b09ed402b0a28cc5",
+      "content": " ",
+      "protocol": "theHomiesDao",
+      "adapter": "onchain",
+      "proposer": "0xa8A8248Cf3B0aA439a184f099d0d61F10315A472",
+      "totalVotes": 1,
+      "blockNumber": 19322901,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1709171819
+      },
+      "endTime": {
+        "timestamp": 1709517419
+      },
+      "startTimestamp": 1709171819,
+      "endTimestamp": 1709517419,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19373049
+          },
+          "event": "executed",
+          "timestamp": 1709690915,
+          "txHash": "0x5d7da1d00b1d543cffe31c052236f0381b15e59403404408c8de8ae212812f3b"
+        },
+        {
+          "time": {
+            "blockNumber": 19322901
+          },
+          "event": "pending",
+          "timestamp": 1709085419,
+          "txHash": "0xce10e1956ba4c639b0f45fdb3dde9dec54e604fa0ea2888fa30cdb570bb4ebfa"
+        },
+        {
+          "time": {
+            "blockNumber": 19358708
+          },
+          "event": "queued",
+          "timestamp": 1709518019,
+          "txHash": "0x851d8b3971814d755808f52bdb8b1a018435fb96dbec4a2e6f38ca949061ed19"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709085788441,
+      "txHash": "0xce10e1956ba4c639b0f45fdb3dde9dec54e604fa0ea2888fa30cdb570bb4ebfa",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaG9taWVzZGFvOm9uY2hhaW46MHg2Njk2YWQzY2ZjMTRmODQyZjk0NDAwMmUxZDAyZTg5OWU0ODI5OWE4MzFkNTg3OWE1MDA1ZGEyODdmZWU2YmY3",
+      "id": "0x6696ad3cfc14f842f944002e1d02e899e48299a831d5879a5005da287fee6bf7",
+      "title": "Pausing Due To Fraud",
+      "content": "Hey Homies,\n\nHappy New Year! I hope everyone has the prosperous and healthy new year they deserve!\n\nUnfortunately, our DAO keeps getting targeted for fraud. Since last September, different wallets have been trying to get into our DAO and steal our treasury by buying enough Homies to push a proposal through, in which the proposal would send all of our treasury to their wallet. We've been keeping a pretty close eye on things, but they struck us again over the holiday. We are going to have to put a pause on auctions for The Homies DAO until we get things sorted out. Currently looking into other options to find a more secure foundation for us to continue to build upon.",
+      "protocol": "theHomiesDao",
+      "adapter": "onchain",
+      "proposer": "0x9B21b758C00cAC6EF47510c3906bEA947585af7b",
+      "totalVotes": 0,
+      "blockNumber": 18980349,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1705022075
+      },
+      "endTime": {
+        "timestamp": 1705367675
+      },
+      "startTimestamp": 1705022075,
+      "endTimestamp": 1705367675,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18980541
+          },
+          "event": "canceled",
+          "timestamp": 1704937979,
+          "txHash": "0x6be7b9431bd2c79d650241ecd8e6d9cfbb08aa32b3469df607a39ebbe28f6431"
+        },
+        {
+          "time": {
+            "blockNumber": 18980349
+          },
+          "event": "pending",
+          "timestamp": 1704935675,
+          "txHash": "0x54341bbdc3f9433e7d03d3752e44019d2d913c8e66b57c17e1215460b1486e6a"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704935756504,
+      "txHash": "0x54341bbdc3f9433e7d03d3752e44019d2d913c8e66b57c17e1215460b1486e6a",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaG9taWVzZGFvOm9uY2hhaW46MHg4M2E4MDQwNWNkMjAzN2E1ZmZkZGZhMTc1OGE0MTAyNDM0ZTRmYjc2MGFhODYxYzIzZGRjZDIyMjk5YTA5NDY3",
+      "id": "0x83a80405cd2037a5ffddfa1758a4102434e4fb760aa861c23ddcd22299a09467",
+      "title": "Pausing Due To Fraud",
+      "content": "Hey Homies,\n\nHappy New Year! I hope everyone has the prosperous and healthy new year they deserve!\n\nUnfortunately, our DAO keeps getting targeted for fraud. Since last September, different wallets have been trying to get into our DAO and steal our treasury by buying enough Homies to push a proposal through, in which the proposal would send all of our treasury to their wallet. We've been keeping a pretty close eye on things, but they struck us again over the holiday. We are going to have to put a pause on auctions for The Homies DAO until we get things sorted out. Currently looking into other options to find a more secure foundation for us to continue to build upon.",
+      "protocol": "theHomiesDao",
+      "adapter": "onchain",
+      "proposer": "0xd6F0e68666edA7f8eD06D52311E9398155B61753",
+      "totalVotes": 3,
+      "blockNumber": 18914630,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1704223331
+      },
+      "endTime": {
+        "timestamp": 1704568931
+      },
+      "startTimestamp": 1704223331,
+      "endTimestamp": 1704568931,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19080602
+          },
+          "event": "queued",
+          "timestamp": 1706149091,
+          "txHash": "0xd23b19494c80c968747679ae20092a1b66ac38426aa540c095d01be6d88dbd7d"
+        },
+        {
+          "time": {
+            "blockNumber": 18914630
+          },
+          "event": "pending",
+          "timestamp": 1704136931,
+          "txHash": "0x518a6ba1ecefd8e45fc0f508970dceee82e6f7a7fb9ac1c95e0344add5d19edd"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704137445409,
+      "txHash": "0x518a6ba1ecefd8e45fc0f508970dceee82e6f7a7fb9ac1c95e0344add5d19edd",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaG9taWVzZGFvOm9uY2hhaW46MHg4N2IwMTQ3OGE1M2IxOTAwYmExM2JkZjVkZWZkY2E5OTJmZTc2ODU2YzJhMzI2MjlmYTYzMDNjMTU4YjRjM2Q5",
+      "id": "0x87b01478a53b1900ba13bdf5defdca992fe76856c2a32629fa6303c158b4c3d9",
+      "title": "LED Screens Reimbursement for Upcoming Art Exhibition at Tec Leimert",
+      "content": "Hey homies! We are doing an art exhibition this weekend at Tec Leimert, a tech conference in South LA. We will need to rent two LED screens to showcase onchain art, which is $600 to rent, approx. .378 ETH. Jarrod was kind enough to front the cost, so this proposal will go towards his reimbursement. \n\nExcited to have The Homies at Tec Leimert this year!",
+      "protocol": "theHomiesDao",
+      "adapter": "onchain",
+      "proposer": "0xd6F0e68666edA7f8eD06D52311E9398155B61753",
+      "totalVotes": 0,
+      "blockNumber": 18187898,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1695429803
+      },
+      "endTime": {
+        "timestamp": 1695775403
+      },
+      "startTimestamp": 1695429803,
+      "endTimestamp": 1695775403,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18187898
+          },
+          "event": "pending",
+          "timestamp": 1695343403,
+          "txHash": "0xba717966be4e2baec3565290a0e012537d5f893f97a5c10c8696f7409dab7ee2"
+        },
+        {
+          "time": {
+            "blockNumber": 18192582
+          },
+          "event": "canceled",
+          "timestamp": 1695400283,
+          "txHash": "0x74485b7aa99ba13a7396d5d6d9b1ac11c38f4790556d35688d86d77e6e473579"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695343883316,
+      "txHash": "0xba717966be4e2baec3565290a0e012537d5f893f97a5c10c8696f7409dab7ee2",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaG9taWVzZGFvOm9uY2hhaW46MHg5NDRjYTdhYWE5MmFlYWMxMDhlZjExZTgxMDQzOTFlMWVkNmI5MjY4N2ZlZTYxOGU3YzExMWM5YjI2OTdhNGRl",
+      "id": "0x944ca7aaa92aeac108ef11e8104391e1ed6b92687fee618e7c111c9b2697a4de",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-09-16",
+      "content": "![](https://i.imgur.com/HrQKZMG.png)\n\n## Summary\n\nThis proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.\n\n### Airdrop\n\nAbility for DAOs to assign minters and airdrop tokens.\n",
+      "protocol": "theHomiesDao",
+      "adapter": "onchain",
+      "proposer": "0x589FFBbdA0EaCD5A9C2BA208b379c886B2630503",
+      "totalVotes": 0,
+      "blockNumber": 18151311,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1694985551
+      },
+      "endTime": {
+        "timestamp": 1695331151
+      },
+      "startTimestamp": 1694985551,
+      "endTimestamp": 1695331151,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18151311
+          },
+          "event": "pending",
+          "timestamp": 1694899151,
+          "txHash": "0x8a0ff5a47ff5846bbefbf3e208472e478c2efcde466291765af8096a73fe6e54"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1694899371000,
+      "txHash": "0x8a0ff5a47ff5846bbefbf3e208472e478c2efcde466291765af8096a73fe6e54",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaG9taWVzZGFvOm9uY2hhaW46MHhlOWM3ZTczNzU2NGRhYTVlNDVjY2IxNmE3YTZkMTkzMWVmNmEwZWM1MTI4NTE2YWYzYzBhY2IyMTMyZGFkYmFl",
+      "id": "0xe9c7e737564daa5e45ccb16a7a6d1931ef6a0ec5128516af3c0acb2132dadbae",
+      "title": "Updates and blocking fraud",
+      "content": "Hey guys, please help me push this through to protect our DAO.",
+      "protocol": "theHomiesDao",
+      "adapter": "onchain",
+      "proposer": "0xdb9aBF2C87619E401867194927FD08728FDFF95c",
+      "totalVotes": 3,
+      "blockNumber": 18089344,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1694234003
+      },
+      "endTime": {
+        "timestamp": 1694579603
+      },
+      "startTimestamp": 1694234003,
+      "endTimestamp": 1694579603,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18089344
+          },
+          "event": "pending",
+          "timestamp": 1694147603,
+          "txHash": "0x2b2f1583de7339c01a0f8c17cef17eec0f138d2351128ef0096aae30714f6c31"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1694147622954,
+      "txHash": "0x2b2f1583de7339c01a0f8c17cef17eec0f138d2351128ef0096aae30714f6c31",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaG9taWVzZGFvOm9uY2hhaW46MHg3MDFhNmYzNjRkZjY5Nzc1YzI2YmI4N2VkODBiOGFmMDI3NGQxOGRhMTYyZTc5ODQ5Y2QzMzA0NDlhM2FhMTUx",
+      "id": "0x701a6f364df69775c26bb87ed80b8af0274d18da162e79849cd330449a3aa151",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-03-04",
+      "content": "![](https://i.imgur.com/HrQKZMG.png)\n\n## Summary\n\nThis proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.\n\n### Airdrop\n\nAbility for DAOs to assign minters and airdrop tokens.\n",
+      "protocol": "theHomiesDao",
+      "adapter": "onchain",
+      "proposer": "0xE4cbdA373d6A445f83fc9125C6230Ba58Bc08320",
+      "totalVotes": 0,
+      "blockNumber": 16760497,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1678085015
+      },
+      "endTime": {
+        "timestamp": 1678430615
+      },
+      "startTimestamp": 1678085015,
+      "endTimestamp": 1678430615,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16760497
+          },
+          "event": "pending",
+          "timestamp": 1677998615,
+          "txHash": "0x1a32afa001f9e22c7ce8e3939311daf1fcb42ac1dc377f470bd3246e180302fc"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417534981,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaG9taWVzZGFvOm9uY2hhaW46MHg3NDI3NDBhZGJkNzY2Yjk4NmFmYTA1Y2MxZWVmOTJiMjhlZDAzYzUwNTEzZWIyZTBjODg1ZGU2MjE2MGI4NGFm",
+      "id": "0x742740adbd766b986afa05cc1eef92b28ed03c50513eb2e0c885de62160b84af",
+      "title": "needed changes",
+      "content": "<p>editing description, changing voting time and price</p>",
+      "protocol": "theHomiesDao",
+      "adapter": "onchain",
+      "proposer": "0xdb9aBF2C87619E401867194927FD08728FDFF95c",
+      "totalVotes": 1,
+      "blockNumber": 16593383,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1676058539
+      },
+      "endTime": {
+        "timestamp": 1676404139
+      },
+      "startTimestamp": 1676058539,
+      "endTimestamp": 1676404139,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16643572
+          },
+          "event": "queued",
+          "timestamp": 1676578019,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417534981,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaG9taWVzZGFvOm9uY2hhaW46MHgwMGRhZDVmMDUwNzU3OWVkZDYwOGYzOThmM2ViZmE5ODNlZjJmMDZlNjljNTJjMmY2OTI4MTRiZDRjNjNkZTUz",
+      "id": "0x00dad5f0507579edd608f398f3ebfa983ef2f06e69c52c2f692814bd4c63de53",
+      "title": "change mint price",
+      "content": "<p>wanna make the mint price more accessible to potential HOMIES.</p>",
+      "protocol": "theHomiesDao",
+      "adapter": "onchain",
+      "proposer": "0xdb9aBF2C87619E401867194927FD08728FDFF95c",
+      "totalVotes": 0,
+      "blockNumber": 16580613,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1675904123
+      },
+      "endTime": {
+        "timestamp": 1676249723
+      },
+      "startTimestamp": 1675904123,
+      "endTimestamp": 1676249723,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16593398
+          },
+          "event": "canceled",
+          "timestamp": 1675972319,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417534981,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

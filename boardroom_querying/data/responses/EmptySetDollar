@@ -1,0 +1,1308 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOm9uY2hhaW46NA==",
+      "id": "4",
+      "title": "Add Guardian Pausing",
+      "content": "## Authors\n\n@kbrizzle (Equilibria)\n\n### Motivation\n\nCurrently, the Empty Set governor is the only mechanism by which privileged actions can be taken. This is the most secure and strict setup, however it does not provide the flexibility for swift actions during security incidents.\n\nOther protocols solve this dilemma by introducing a separate protocol role with limited pausing privileges.\n\n### Overview\n\nWe propose adding a pauser role to the Empty Set protocol alongside the original owner role. This pauser role will be set by the owner role and have limited privileges to pause and unpause all state-mutating methods within the protocol.\n\n### Permissions Breakdown\n\n`pauser`\n* Update paused status\n\n`owner` (GovernorAlpha)\n* Update or revoke pauser address\n* Update or remove pausing functionality altogether\n\n#### Implementation\nThe implementation of the change can be viewed [here](https://github.com/emptysetsquad/emptyset/pull/32).\n\n#### Operation\n\nSince the protocol multisig already has guardian powers per the GovernorAlpha contract, we propose this multisig as the initial pauser.\n\n### Vote\nThe vote will take place on the [governance page](https://app.emptyset.finance/governance) of the Empty Set webapp.\n",
+      "protocol": "esd",
+      "adapter": "onchain",
+      "proposer": "0x589CDCf60aea6B961720214e80b713eB66B89A4d",
+      "totalVotes": 0,
+      "blockNumber": 15449414,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1661987534,
+      "endTimestamp": 1662226271,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15449413
+          },
+          "event": "pending",
+          "timestamp": 1661987499,
+          "txHash": "0x45a6f4fbe6d1e91138736e81c8e4987e153ce6d4f31fe1572c3a2e4e8b0a4259"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OjB4ZDczNjU0MTA5YTYzZDM4YWY4NzZkNTI2MjQwZjM4NWNlYmY4MzRiODg2YzlmNzJmNWRjZTdmMzE4ZGNiODJiMg==",
+      "id": "0xd73654109a63d38af876d526240f385cebf834b886c9f72f5dce7f318dcb82b2",
+      "title": " TIP-21 - Sunset TIP Process & Treasury",
+      "content": "## Authors\n\n[@lewi](https://www.emptyset.xyz/u/lewi)\n\n## Summary\n\nThis vote proposes sunsetting the TIP process & liquidating the treasury assets\n\n## Motivation\n\nCurrently the TIP process & the multisig act as a grants program, community treasury & soon a gaurdian for the protocol. The aim of this vote is to wind down the TIP process and the treasury which is currently unused to separate that from the guardian role that the multisig plays in the protocol.\n\n## Specification\n\n#### Sunset TIP process\n\nAfter this vote, proposals voted on via snapshot will be invalid & should not be executed. At some point in the future the protocol can restart the TIP process via a protocol governance  (EIP) vote.\n\n#### Treasury Assets\n\nCurrently the treasury multisig has the following assets:\n\n```\n988.035972 USDC\n0.20 ETH\n9,064,020.64427466 ESD\n46,975,000.00 ESS\n```\n\nWe propose the following actions to dispose of these assets:\n\n```\n- Purchase ESS with\n  - 988.035972 USDC\n  - 0.20 ETH\n  - 9,064,020.64427466 ESD\n- Send ESS from purchase + 46,975,000.00 ESS to the Reserve to be burnt (Future EIP)\n```\n\nThe disposal of assets will be done in multiple transactions to reduce the impact of the operations on the market.\n\n## Vote\n\nThe vote will take place on Emptyset’s Snapshot governance [page](https://snapshot.org/#/esd.eth). Please join the snapshot for notifications about votes.",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 6,
+      "blockNumber": 15391276,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/0xd73654109a63d38af876d526240f385cebf834b886c9f72f5dce7f318dcb82b2",
+      "startTime": {
+        "timestamp": 1661185028
+      },
+      "endTime": {
+        "timestamp": 1661443200
+      },
+      "startTimestamp": 1661185028,
+      "endTimestamp": 1661443200,
+      "currentState": "closed",
+      "choices": [
+        "Accept TIP",
+        "Reject TIP",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 306580030.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 306580039.3775455,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OjB4N2UzZTY0MjYzMGY2MTJlZDU5MTMxOTBiM2VjOGU3Njk5MjEwOTQ5ZGNhNDkzZWM3YTQwNDc0NzU5NTkyMWEyYQ==",
+      "id": "0x7e3e642630f612ed5913190b3ec8e7699210949dca493ec7a404747595921a2a",
+      "title": "TIP-20 - Rotate Treasury Multisig signers",
+      "content": "# Authors\n\n[@lewi](https://www.emptyset.xyz/u/lewi)\n\n# Summary\n\nA proposal to change 2 Treasury multi-sig signers in order to ensure the smooth functioning of the treasury.\n\n# Motivation\n\nThe Treasury was created over 1.5 years ago in [EIP-10: Protocol Funding](https://www.emptyset.xyz/t/eip-10-protocol-funding/90) to fund activities the community deemed in the benefit of the protocol. The multisig signers were chosen to execute the transactions proposed in the votes. As time has progressed, some signers have signaled their interest in passing on their duties to others.\n\nIn order to ensure the smooth operation of the protocol treasury, it’s prudent to replace those wanting to pass on the responsibility.\n\n# Specification\n\nWe propose the following changes to the Treasury multisig:\n\n1. Replace Andrew Kang `0xC85170886A7F34e1365E2aA04486ae8F1106F783` with Katherine Wu `0x4dd20c5a6875816a2cB73e695B40EB31997F6ede`\n2. Replace Niraj Pant `0x0FeBbB3f91fae9BDC2f86B82c1b61a1dF6c6a5e8` with Jacob Phillips `0x430F2F2c519986e1A5965BcDCEfdAF3A71a91488`\n",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 5,
+      "blockNumber": 15044638,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/0x7e3e642630f612ed5913190b3ec8e7699210949dca493ec7a404747595921a2a",
+      "startTime": {
+        "timestamp": 1656518400
+      },
+      "endTime": {
+        "timestamp": 1656777600
+      },
+      "startTimestamp": 1656518400,
+      "endTimestamp": 1656777600,
+      "currentState": "closed",
+      "choices": [
+        "Rotate Signers",
+        "No change"
+      ],
+      "results": [
+        {
+          "total": 221777920.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 221777925.5683209,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOm9uY2hhaW46Mw==",
+      "id": "3",
+      "title": "Update Governance Parameters",
+      "content": "### Background\nCurrently, the Empty Set protocol is governed using a fork of Compound’s original GovernorAlpha contract.\n\nThis contract is not upgradable, however a new instance may be deployed with updated hardcoded parameters, then switched over to through governance.\n\n### Motivation\nAs protocols start to implement DSU as a unit of account, ensuring the sound governance of the protocol managing DSU is imperative. Given the current value of the governance token, we feel it prudent to raise the quorum & proposal requirements. Similarly, we feel that we should extend the voting periods due to various attacks on other protocols that have occured in the last few months.\n\nWe intend to make it significantly harder to attack the Empty Set protocol via a malicious governance action through the implementation of these changes.\n\n### Overview\nWe propose using the current audited GovernorAlpha contract but adjusting the hard-coded values to the ones below.\n\n#### Proposed parameters\n\n*Quorum:* Increase from 5.0% to 10.0%\n*Proposal:* Increase from 0.5% to 2.0%\n*Voting Delay:* Increase from 1 block to 2 days\n*Voting Period:* Increase from 3 days to 7 days\n*Timelock:* Remain at 2 days\n\n#### Operation\nDue to the GovernorAlpha guardian pattern, in order to fully enable the new governor, the Empty Set treasury multisig will need to execute one final `__acceptAdmin()` transaction call after the onchain proposal is executed. The passing of this proposal will thereby give this treasury multisig the authority to do so.\n\n#### Resources\n- The implementation of the new GovernorAlpha can be viewed [here](https://github.com/emptysetsquad/emptyset/pull/31).\n- Further discussion [here](https://www.emptyset.xyz/t/update-governance-parameters/342).`\n\n",
+      "protocol": "esd",
+      "adapter": "onchain",
+      "proposer": "0x589CDCf60aea6B961720214e80b713eB66B89A4d",
+      "totalVotes": 5,
+      "blockNumber": 15042608,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1656466694,
+      "endTimestamp": 1656722993,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 332398140.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15065800
+          },
+          "event": "queued",
+          "timestamp": 1656801455,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15095055
+          },
+          "event": "executed",
+          "timestamp": 1657191120,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 332398140.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOm9uY2hhaW46Mg==",
+      "id": "2",
+      "title": "Enabling Cheaper L1 / L2 Wrapping",
+      "content": "## Background\nCurrently, wrapping and unwrapping USDC to and from DSU is gas cost prohibitive in the Empty Set protocol. These operations require performing a Compound mint or redeem internally so that no USDC sits idle in the Empty Set reserve contract. This ensures a trustless mechanism, however it comes at the expense of extremely high gas costs for these operations (approx. 250,000 - 275,000).\n\n#### L2 Extensibility\nIn addition to the high gas costs on L1, there is no feasible way to wrap / unwrap directly on L2. Currently, DSU must be bridged to an L2 before it can be used there, making it less accessible and increasing its volatility around the peg.\n\n## Trusted Borrowing\nWe propose adding a new feature to the Empty Set reserve called *Trusted Borrowing* which allows the Empty Set DAO to front DSU to programmatically-trusted contracts, which are able to ensure that they can repay the fronted DSU in full at all times.\n\n#### L1 Batcher\nThe first of these trusted contracts would be a wrapping-only batcher contract. This is the lowest hanging fruit and doesn’t rely on a USDC buffer, but still grants a vastly cheaper onboarding experience into DSU.\n\n#### Resources\n- The Reserve update implementation can be seen [here](https://github.com/emptysetsquad/emptyset/pull/30).\n- The initial Batcher implementatino can be seen [here](https://github.com/equilibria-xyz/emptyset-batcher).\n- Further discussion [here](https://www.emptyset.xyz/t/enabling-cheaper-l1-l2-wrapping/307).",
+      "protocol": "esd",
+      "adapter": "onchain",
+      "proposer": "0x589CDCf60aea6B961720214e80b713eB66B89A4d",
+      "totalVotes": 4,
+      "blockNumber": 14290376,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1645993426,
+      "endTimestamp": 1646224849,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 152101310.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14308097
+          },
+          "event": "queued",
+          "timestamp": 1646230547,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14325080
+          },
+          "event": "executed",
+          "timestamp": 1646459034,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 152101310.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOm9uY2hhaW46MQ==",
+      "id": "1",
+      "title": "Add Uniswap V3 Liquidity Incentives",
+      "content": "### Refreshing Incentives\n\nWhen Empty Set V2 was initially developed Uniswap V2 and Curve were chosen as the vehicles for bootstrapping ESS and DSU liquidity respectively. These are both [sub-optimal liquidity pools](https://mobile.twitter.com/lewifree/status/1422913038349373445) from a capital-efficiency and a DEX-routing perspective. Now that Uniswap V3 is available, and a standard incentivizer contract has been audited and deployed, we’d like to propose upgrading our liquidity pools to this new protocol.\n\n### New Programs\n\n#### Pool A\n\n**Pair**: DSU-USDC\n**Fee**: 0.05%\n**Contract**: [0x3432ef874a39bb3013e4d574017e0ccc6f937efd](https://info.uniswap.org/#/pools/0x3432ef874a39bb3013e4d574017e0ccc6f937efd)\n**Incentive**: 8,000,000 ESS\n**Period**: 90 days, starting at proposal execution\n\n#### Pool B\n\n**Pair**: ESS-ETH\n**Fee**: 0.30%\n**Contract**: [0xd2Ef54450ec52347bde3dab7B086bf2a005601d8](https://info.uniswap.org/#/pools/0xd2Ef54450ec52347bde3dab7B086bf2a005601d8)\n**Incentive**: 4,000,000 ESS\n**Period**: 90 days, starting at proposal execution\n\nFurther discussion [here](https://www.emptyset.xyz/t/incentive-program-updates-uniswap-v3/300).",
+      "protocol": "esd",
+      "adapter": "onchain",
+      "proposer": "0x589CDCf60aea6B961720214e80b713eB66B89A4d",
+      "totalVotes": 4,
+      "blockNumber": 13089819,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1629831178,
+      "endTimestamp": 1630062043,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 290150180.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13109843
+          },
+          "event": "queued",
+          "timestamp": 1630099428,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 13122795
+          },
+          "event": "executed",
+          "timestamp": 1630272524,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 290150180.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtZWZqZzdmN3JuMWRmejgzeTFidTZ2a3BjNzZ5dnM0cm55dW5vcG1mbnZiMmw=",
+      "id": "QmefJG7F7Rn1dfZ83y1Bu6vkpC76YVS4rNYuNoPMFnVB2L",
+      "title": " TIP-19 - Sn2 Funding August/September ",
+      "content": "## Authors\n\n[@lewi](https://www.emptyset.xyz/u/lewi)\n\n## Summary\n\n> This proposal continues to fund the efforts of SN2 to continue to  support the Empty Set protocol. This grant requests funds to cover  continued development of the new DAO web app, continued communications,  governance support, community management and continued development of  the documentation.\n\n## Last Grant’s Roundup\n\nWith the last grant we continued work on the communications,  governance and community activities as well as the development of the  new DAO app.\n\nThe last grant wrapped up at the end of April and it was decided  while the project was being audited and tested that I wouldn't make  sense to continue full time on the protocol until we were ready to go.  The lead up to August saw a lot of activity and now the protocol has  launched we are back into it.\n\n## Areas of Focus\n\nBelow are the following areas where SN2 will focus on over the next two months.\n\n#### 1. Development of the ESD DAO web application - lewi\n\n**Aim:** To continue development of the new ESD DAO web  application. Integrating the V2 contracts, testing, debugging and  refactoring code\n\n#### 2. Communications - Shauhin\n\n**Aim** : Improve the presence of ESD within the DeFi  community and develop communications processes to ensure the ESD  community is always up-to date.\n\n#### 3. Documentation - lewi\n\n**Aim** : Develop supporting material for v2 of the protocol.\n\n#### 4. Governance Coordination - lewi\n\n**Aim** : Actively facilitate the On/Off-chain governance processes and deployment of contracts for proposals.\n\n#### 5. Integration Assistance & Partnerships - lewi\n\n**Aim** : Guide protocols through the governance process & be a technical resource for the integration of ESD.\n\n#### 6. Community Management - lewi, Shauhin\n\n**Aim** : Help manage the different community platforms that Empty Set has. Ensuring an up-to date & inclusive community\n\n## Spending and Rollovers\n\nThe previous months had minimal spend as we were waiting to launch the V2 contracts.\n\n**Total Spend: 0 USD**\n\n**Total Remaining to Rollover: 5000 USD**\n\n## Funding Request\n\nWe estimate we will require the following funds for the two months:\n ![img](https://i.imgur.com/vIAC6ZA.png)\n\nThe funds will be split into two payments to `0x750eb0759F56a55cF0bb528fe4EFc6f8cFd27C56` . The first tranche immediately after the vote passes and the second at the beginning of February (minus the rollover funds).\n\nAs always the remainder from the end of the grant will be either:\n\n- Rolled into the next successful proposal for SN2\n- Sent back to the Treasury if the following proposal fails.",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 5,
+      "blockNumber": 13088121,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmefJG7F7Rn1dfZ83y1Bu6vkpC76YVS4rNYuNoPMFnVB2L",
+      "startTime": {
+        "timestamp": 1629808200
+      },
+      "endTime": {
+        "timestamp": 1629981000
+      },
+      "startTimestamp": 1629808200,
+      "endTimestamp": 1629981000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, continue to fund",
+        "No, stop funding"
+      ],
+      "results": [
+        {
+          "total": 197674500.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 197674491.1082732,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFteWtlNHo3Yml3eGJ4Z3czeHpnaHBzamNhZWVzbWh5a2l1Z3JtejR4aW9wNWQ=",
+      "id": "QmYkE4Z7BiWxbXGw3XzGhpSjCAEEsMHykiugrMz4Xiop5D",
+      "title": "TIP-17: Equilibria (Quorum Resubmit)",
+      "content": "**This is being resubmitted due to the previous vote being invalid due a quorum requirement.**\n\n--- \n\n## Authors\n\n[@kbrizzle](https://www.emptyset.xyz/u/kbrizzle) (co-founder of Equilibria), with the help of [@lewi](https://www.emptyset.xyz/u/lewi).\n\n## Summary\n\nThis proposal aims to onboard and align Equilibria as the primary ecosystem protocol development team going forward.\n\n## Activities\n\nEquilibria is a new collective focused broadly on building out DeFi   holistically, by co-building and cross-integrating a stack of DeFi   protocols.\n\nProtocol Development - Equilibria will assist with core protocol   development work, specifically owning and/or coordinating the smart   contract code development of any cleanups, optimizations, new features,  and/or future upgrades, as well as generally contributing to strategy   and vision for future protocol improvements.\n\nGovernance - Additionally, Equilibria will aid in the governance   process for both Empty Set protocol proposals as well as external   protocols’ proposals related to Empty Set as needed.\n\n## Team\n\nThe Equilibria team is a group of DeFi natives that have a long   history of building in the Ethereum ecosystem. They offer a strong mix   of experience and development expertise to help the protocol grow.\n\n### Members\n\n**Kevin Britz** - Kevin is an Engineering Manager at   Coinbase focusing on DeFi, and an advisor to Opyn. Previously he   co-founded Astro which was acquired by Coinbase.\n\n**Arjun Rao** - Arjun is a Tech Lead at Coinbase focusing on DeFi. Previously he co-founded Astro alongside Kevin.\n\n**Niraj Pant** - Niraj is a General Partner at Polychain and formerly a researcher in the decentralized systems lab at UIUC.\n\n## Funding\n\nAs the ecosystem core protocol team, Equilibria will be granted `99 000 000 ESS`, vesting linearly for 2 years, in an unvested-revocable contract.\n\nEquilibria Multisig: `0x589CDCf60aea6B961720214e80b713eB66B89A4d`",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 19,
+      "blockNumber": 12858525,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmYkE4Z7BiWxbXGw3XzGhpSjCAEEsMHykiugrMz4Xiop5D",
+      "startTime": {
+        "timestamp": 1626717600
+      },
+      "endTime": {
+        "timestamp": 1626890400
+      },
+      "startTimestamp": 1626717600,
+      "endTimestamp": 1626890400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 93704304.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 93704301.40024236,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtbnBocHBrbXdxeGg0eGd6ZjRtY2c1aHFhdHFianR5em11Y2FmemYzaGx3OGE=",
+      "id": "QmNPhPPkMwQXh4XgZf4mCg5hQatqbjTYZMUcAfzF3hLw8A",
+      "title": "TIP-18: S#2 Partnership",
+      "content": "## Authors\n\n[@lewi](https://www.emptyset.xyz/u/lewi), w/ help from [@eqparenthesis](https://www.emptyset.xyz/u/eqparenthesis)\n\n# Summary\n\nSquad #2 (S#2) has been supporting the  protocol on a grant by grant basis. This proposal looks to further align the squad with the protocol by allocating them tokens subject to  vesting. This revocable & vested token allocation would align S#2 as a protocol partner and provide strong performance incentives.\n\n# Purpose\n\nMembers of the S#2 team has been active in the ESD community since  early in the protocol’s life. As it matured their involvement was  formalized into S#2 to help support them support the protocol and its  community.\n\nThrough the moniker of S#2, the squad has taken on a number of  responsibilities to help the day to day of the protocol run smoothly:  communications, governance facilitation, development, community  management & other things to grease the wheels.\n\nAs V2 launches, the S#2 is looking to move from a purely  transactional partner to protocol partner. So instead of a solely grant  based relationship, S#2 will be allocated vested tokens alongside the  current grant process. Taking the relationship a step further improves  alignment with the protocol and incentivises success.\n\n# Tokens\n\nThe partnership includes `33,000,000 ESS` vested linearly over 2 years.\n\nThe unvested tokens in the vesting contract may be burned or sent to  the treasury via a governance action by the protocol in situations the  community deems necessary.\n\n## Wallet\n\n**S#2 Wallet:** 0x750eb0759F56a55cF0bb528fe4EFc6f8cFd27C56\n\n**Vesting:** Linear vesting schedule in a contract owned by the DAO",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 8,
+      "blockNumber": 12839338,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmNPhPPkMwQXh4XgZf4mCg5hQatqbjTYZMUcAfzF3hLw8A",
+      "startTime": {
+        "timestamp": 1626465600
+      },
+      "endTime": {
+        "timestamp": 1626638400
+      },
+      "startTimestamp": 1626465600,
+      "endTimestamp": 1626638400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 76513830.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 76513827.90556115,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtYzRmdzRpNGJjZTlnZnJkZDF5dW80Z2poZ3ZqYTVwbnF4ZGN1ajdrbnhhbnQ=",
+      "id": "Qmc4FW4i4BcE9gFRDd1yuo4gjhGvJA5pNQXDCuj7kNxaNt",
+      "title": "TIP-17: Equilibria",
+      "content": "## Authors\n\n[@kbrizzle](https://www.emptyset.xyz/u/kbrizzle) (co-founder of Equilibria), with the help of [@lewi](https://www.emptyset.xyz/u/lewi).\n\n## Summary\n\nThis proposal aims to onboard and align Equilibria as the primary ecosystem protocol development team going forward.\n\n## Activities\n\nEquilibria is a new collective focused broadly on building out DeFi  holistically, by co-building and cross-integrating a stack of DeFi  protocols.\n\nProtocol Development - Equilibria will assist with core protocol  development work, specifically owning and/or coordinating the smart  contract code development of any cleanups, optimizations, new features,  and/or future upgrades, as well as generally contributing to strategy  and vision for future protocol improvements.\n\nGovernance - Additionally, Equilibria will aid in the governance  process for both Empty Set protocol proposals as well as external  protocols’ proposals related to Empty Set as needed.\n\n## Team\n\nThe Equilibria team is a group of DeFi natives that have a long  history of building in the Ethereum ecosystem. They offer a strong mix  of experience and development expertise to help the protocol grow.\n\n### Members\n\n**Kevin Britz** - Kevin is an Engineering Manager at  Coinbase focusing on DeFi, and an advisor to Opyn. Previously he  co-founded Astro which was acquired by Coinbase.\n\n**Arjun Rao** - Arjun is a Tech Lead at Coinbase focusing on DeFi. Previously he co-founded Astro alongside Kevin.\n\n**Niraj Pant** - Niraj is a General Partner at Polychain and formerly a researcher in the decentralized systems lab at UIUC.\n\n## Funding\n\nAs the ecosystem core protocol team, Equilibria will be granted `99 000 000 ESS`, vesting linearly for 2 years, in an unvested-revocable contract.\n\nEquilibria Multisig: `0x589CDCf60aea6B961720214e80b713eB66B89A4d`",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 5,
+      "blockNumber": 12837051,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/Qmc4FW4i4BcE9gFRDd1yuo4gjhGvJA5pNQXDCuj7kNxaNt",
+      "startTime": {
+        "timestamp": 1626436800
+      },
+      "endTime": {
+        "timestamp": 1626609600
+      },
+      "startTimestamp": 1626436800,
+      "endTimestamp": 1626609600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 19276834.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 19276831.72413231,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtemFjbnhyanhhM2RiNHJpa2pydWdvZmN6dHV2ZTNnbmpmMXZteWZqcWh2YmY=",
+      "id": "QmZacnXrjXa3DB4rikjRuGoFCztUvE3gNjF1vMYFJQHvBf",
+      "title": "TIP-15 - V2 Protocol Allocation",
+      "content": "## Authors\n\n@lewi, @eqparenthesis \n\n# Summary\n\nAlongside the deployment of the V2 code, this proposal looks to establish liquidity mining incentives and also refresh the treasury. The liquidity program will cover both tokens, a Curve pool for the stable instrument and Uniswap for the share token.\n\n# Purpose\n\n### Liquidity\n\nUnlike V1, V2 does not directly require liquidity to stay stable. However we do want to bootstrap a small amount of liquidity as a showcase to potential partners that the new ESD stablecoin is live and safe under real-world conditions. Once ESD is more widely used in protocols, these incentives should no longer be necessary. To bridge this gap, we propose allocation 33,000,000 ESDS as a linear drip over the next year to bootstrap the ESD Curve market.\n\nAdditionally, we propose allocating 16,500,000 ESDS to bootstrap liquidity to the ESDS-ESD Uniswap market so that there is at least a minimal amount of day one liquidity to ease volatility during the migration process. This should also similarly be a temporary measure, and should therefore have a similar drip schedule.\n\n### Treasury\n\nOur community treasury has been incredibly successful in aligning ecosystem contributors. Since we no longer have an expansion tax, we’d like to re-up the treasury as part of the V2 launch so that we can continue funding additional contributions.\n\nWe’d like to propose allocating 49,500,000 ESDS to the treasury at this time as a lump sum, with the intention of allocating follow up grants to the treasury as needed via on-chain governance in the future.\n\n## Impact on Tokenomics\nBelow represents effects of this proposal + the protocol partnerships incentives w/ DeFi Pulse on the total supply of ESD tokens at V2 launch. This proposal concerns the yellow portion of the pie graph. \n\n![](https://i.imgur.com/pLdunE3.png)\n\n*Note: the proposal for the red segment has passed.* \n\n## Specifics\n\n#### Incentivizer [Curve ESD]\n\nAddress: TBD at deployment\n\nAmount: 33,000,000 ESDS\n\nDrip schedule: Linearly over one year from deployment, modifiable through on-chain governance\n\n#### Incentivizer [Uniswap ESD-ESDS]\n\nAddress: TBD at deployment\n\nAmount: 16,500,000 ESDS\n\nDrip schedule: Linearly over one year from deployment, modifiable through on-chain governance\n\n#### Treasury\n\nAddress: 0x460661bd4A5364A3ABCc9cfc4a8cE7038d05Ea22\n\nAmount: 49,500,000 ESDS\n\nVesting schedule: None",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 6,
+      "blockNumber": 12633713,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmZacnXrjXa3DB4rikjRuGoFCztUvE3gNjF1vMYFJQHvBf",
+      "startTime": {
+        "timestamp": 1623700800
+      },
+      "endTime": {
+        "timestamp": 1623960000
+      },
+      "startTimestamp": 1623700800,
+      "endTimestamp": 1623960000,
+      "currentState": "closed",
+      "choices": [
+        "Pass this proposal",
+        "Reject this proposal"
+      ],
+      "results": [
+        {
+          "total": 76488850.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 76488845.4006917,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtdmt0Z3R0Z3loaHplbXhuN3ZkdHhxa3B3c2xjbDhxcTJwaHp5OHVyOXJ6YXI=",
+      "id": "QmVKTGTTgYhhzemXN7vdtxqKpWSLcL8QQ2pHzy8ur9rzAR",
+      "title": "TIP-14 - DeFi Pulse Partnership",
+      "content": "## Authors\n\n@Etienne, with the help of @eqparenthesis and @lewi.\n\n## Summary\n\nThis proposal aims to onboard the Defi Pulse team as a strategic partner to drive the growth of Empty Set across its hundreds of partners in the DeFi space. By leveraging the Defi Pulse network, we believe that the pace of adoption for ESD can increase at a much faster rate.\nValue Proposition\n\nThe [Defi Pulse](https://defipulse.com/)) team is deeply rooted in the DeFi ecosystem. It has one of the largest networks of curated partners in the space and a proven track record of developing innovative metrics and products. Among others, DeFi Pulse invented the ‘Total Value Locked (TVL) Metric’ and created the ‘[Defi Pulse Index](https://www.pulse.inc/)’, which, with more than $200M assets under management, is the leading DeFi index. \n\nBy partnering with Defi Pulse, the Empty Set DAO will leverage the network of one of the most recognized and trusted actors in the space. This partnership will enhance the adoption of our protocol from scratch, increasing the issuance of ESD, our north star metric. \n\n## Funding\n\n### Initial allocation\n\nAs a strategic partner, the Defi Pulse team will be granted 16,500,000 ESDS as an initial allocation to start the program and become a stakeholder in the Empty Set DAO. These tokens will vest linearly for 2 years, in a revocable contract.\n\n### Defi Pulse treasury\n\nThe Empty Set DAO will bootstrap a treasury managed by the Defi Pulse business development team, which will be used to incentivize the adoption of ESD by a variety of protocols.The initial grant will be 5,000,000 ESDS. To reduce friction and increase efficiency, the Defi Pulse team will be able to provide grants to projects that are being onboarded, in an autonomous manner. Each time a protocol is successfully on-boarded by the business development team, Defi Pulse will earn \\$50K worth of ESDS as a success fee, directly paid from its treasury. Once capital is allocated, the Defi Pulse team will formalize a TIP to replenish its treasury through a vote.\n\n### Protocol growth program\n\nTo incentivize the adoption of ESD in the most relevant protocols, the Defi Pulse team will earn rewards for reaching TVL based milestones in each protocol that is on-boarded. At the end of each month, if a protocol has reached a TVL milestone, the DAO will reward the Defi Pulse team accordingly, with a 1% cut of that TVL. This reward will be capped to avoid large dilutions for ESDS holders, and will be vested linearly in a 2 years non revocable contract, in the same time schedule as the initial allocation (non restarting).\n\nBelow we can see the proposal for TVL milestones and rewards for protocols on-boarded by the Defi Pulse team.\n\n![img](https://i.imgur.com/E60Bs0q.png)\n\nEach reward is capped to avoid large dilutions according to the following formula, where:\n\n*Protocol ESDS valuation = (ESD TVL in protocol / Total ESD TVL) \\* FDV*\n\n**Max Milestone reward per protocol** = 1% * Protocol ESDS valuation\n\n## Wallets\n\nDefi Pulse will be using two distinct multisigs wallets for transparency purposes:\n\n**Wallet n1** - Initial allocation & rewards:\n\n`0x1008DA881d464B090b0970edbeaB7a91410cCF1B` \n\n**Wallet n2** - Defi Pulse treasury: \n\n`0x866613c804Be33e9D7899a41D4EfE880c0de1FaD`\n\n## Performance tracking\n\nTo track the performance of the Defi Pulse business development team, the Empty Set DAO, or any dedicated team, will be in charge of creating a dashboard with a list of all protocols that are on-boarded by Defi Pulse and their respective ESD TVL. The Defi Pulse team will also track these metrics to ensure a high level of accuracy.\n\nEvery monetary reward and milestone described in this proposal will use a 7 days TWAP methodology to mitigate risks tied to markets volatility.\n\n\n",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 8,
+      "blockNumber": 12522107,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmVKTGTTgYhhzemXN7vdtxqKpWSLcL8QQ2pHzy8ur9rzAR",
+      "startTime": {
+        "timestamp": 1622203200
+      },
+      "endTime": {
+        "timestamp": 1622462400
+      },
+      "startTimestamp": 1622203200,
+      "endTimestamp": 1622462400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 76644480.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 76644470.67956968,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFteGZpZHBybmpjcmp3OWo3Y3R6ajRid3c5Y21pY3h5c3hiY3I0aGJkcGtvZGg=",
+      "id": "QmXFidprNjCRjw9j7CtZJ4bwW9cmicxySXbcR4HbdPkodh",
+      "title": "TIP-13 - Sn2 Funding April/May ",
+      "content": "## Authors\n\n[@lewi](https://www.emptyset.xyz/u/lewi) \n\n## Summary\n\n> This proposal continues to fund the efforts of SN2 to continue to support the ESD protocol. This grant requests funds to cover continued development of the new DAO web app, continued communications, governance support, community management and continued development of the documentation. In addition to supporting contract creation for the new version of the protocol. \n\n## Last Grant’s Roundup\n\nWith the last grant we continued work on the communications, governance and community activities as well as the redesign of the new DAO interface. The Curve interface was put on hold as a number of other communities made front ends for this. \n\nThe last grant wrapped up at the end of February and it was decided that we hold off putting in another grant while we waited for the new protocol code to finalised and ready to be built upon. Now that its ready to go, we will dive back in and get back into it.\n\n## Areas of Focus\n\nBelow are the following areas where SN2 will focus on over the next two months.\n\n#### 1. Development of the ESD DAO web application \n\n**Aim:** To continue development of the new ESD DAO web application. Adding new pages, functionality and bug fixes. \n\n**Timeline**: On-going\n\n**Team**: lewi, ddmadock\n\n#### 2. Communications \n\n**Aim**: Improve the presence of ESD within the DeFi community and develop communications processes to ensure the ESD community is always up-to date.\n\n**Timeline**: On-going\n\n**Team:** TheBeardedProf, lewi\n\n#### 3. Documentation \n\n**Aim**: Develop supporting material for the newly launched version of the protocol: Continuous ESD.\n\n**Timeline**: On-going\n\n**Team:** lewi, TheBeardedProf\n\n#### 4. Governance Coordination \n\n**Aim**: Actively facilitate the On/Off-chain governance processes and deployment of contracts for proposals.\n\n**Timeline**: On-going\n\n**Team:** lewi\n\n#### 5. Integration Assistance & Partnerships \n\n**Aim**: Guide protocols through the governance process & be a technical resource for the integration of ESD.\n\n**Timeline**: On-going\n\n**Team:** lewi\n\n#### 6. Community Management\n\n**Aim**: Guide protocols through the governance process & be a technical resource for the integration of ESD.\n\n**Timeline**: On-going\n\n**Team:** lewi, TheBeardedProf, ddmadock, MiracleSurvivor\n\n## Spending and Rollovers\n\n**Branding & Design**\n\n850 USD to pay the for the DAO redesign.\n\n**Contract Creation**\n\n1.5 ETH (~2100 USD) was used to fund contract creation for multiple EIPs.\n\n**Total Spend: 2,950 USD**\n\n**Total Remaining to Rollover: 3,050 USD**\n\n## Funding Request\n\nWe estimate we will require the following funds over the next two months:\n\n![](https://i.imgur.com/im1HU0b.png)\n\nThe funds will be split into two payments to `0x750eb0759F56a55cF0bb528fe4EFc6f8cFd27C56`. The first tranche immediately after the vote passes and the second at the beginning of February (minus the rollover funds).\n\nAs always the remainder from the end of the grant will be either:\n\n- Rolled into the next successful proposal for SN2\n- Sent back to the Treasury if the following proposal fails.\n",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 9,
+      "blockNumber": 12201734,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmXFidprNjCRjw9j7CtZJ4bwW9cmicxySXbcR4HbdPkodh",
+      "startTime": {
+        "timestamp": 1617922800
+      },
+      "endTime": {
+        "timestamp": 1618095600
+      },
+      "startTimestamp": 1617922800,
+      "endTimestamp": 1618095600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, continue funding SN2",
+        "No, that’s enough"
+      ],
+      "results": [
+        {
+          "total": 104196280.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 104196284.51312944,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtZG56b3VpOHd0NWJndjVidHNzNnVxbWxxYW5wc3RkMmN4dG1nMmszaGVyaHQ=",
+      "id": "QmdNzoUi8wT5bgv5BtSs6uqMLQANPSTd2CxtmG2k3HeRHT",
+      "title": "ESD Partnership Initiative ",
+      "content": "As per the [blogpost](https://medium.com/@lewisfreiberg/esd-protocol-partnership-initiative-d561cf7d1574)  published by Lewis Freiberg, this snapshot vote is to signal support for the partnerships initiative. \n\n### Overview\nThe protocol would incentivise the partners to integrate ESD into their offerings for use as a stable instrument and in returns we allocate the partner an amount of ESDS to be vested for 4 years. This would stimulate creation of cESD for use in protocols, which in-turn provides capital for the reserve to earn interest on and return value back to the ESDS holders.\n\n### Specifics\nThis vote is just to signal interest and advertise to other protocols that our community is welcoming to proposals. Any mints or inflation would be handled on a case by case basis and put to a vote by the community. \n\n*Note: this vote does not create any actions in the ESD Treasury. It is just used to signal community support for the proposal.*",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 14,
+      "blockNumber": 12171726,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmdNzoUi8wT5bgv5BtSs6uqMLQANPSTd2CxtmG2k3HeRHT",
+      "startTime": {
+        "timestamp": 1617530400
+      },
+      "endTime": {
+        "timestamp": 1617703200
+      },
+      "startTimestamp": 1617530400,
+      "endTimestamp": 1617703200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, I signal my support",
+        "No, I don't this initative "
+      ],
+      "results": [
+        {
+          "total": 111895216.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 111895210.167598,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtYWVneDM2YTlycGhmZWVheGd0YWRiZ2kzZWV5bmVoYWM1NXlqeXl3MTRwdTQ=",
+      "id": "QmaeGX36a9rPHfeEAxgtadbgi3EeYnehac55YjyYw14PU4",
+      "title": "TIP-12: OpenZeppelin Audit of Proposed Codebase ",
+      "content": "## Authors\n\n[@lewi](https://www.emptyset.xyz/u/lewi), [@eqparenthesis](https://www.emptyset.xyz/u/eqparenthesis)\n\n## Summary\n\nThe ESS has been developing a significant change to the ESD protocol. A new audit is proposed to ensure the continued safety and stability of the new code base that will be proposed.\n\nThis audit will be carried out by [OpenZeppelin](https://openzeppelin.com/) and aims to be finalised by early April.\n\n## Value Proposition\n\n* A significant set of changes to the ESD codebase will be proposed by the ESS. Ensuring the stability of the new mechanism and code changes is required for the safe operation of the network.\n* ESD benefits from having continued audits as the protocol grows and progresses\n\n## Timeline\n\n* March(Mid) - The audit will begin.\n* April (Early) - The audit will be completed and sent privately to the ESS team to review and implement any required changes.\n* April(Early-Mid) - The audit will be published on the ESD GitHub once any required changes have been implemented\n\n## Funding Request\n\n$78,000 USDC to be sent to OpenZeppelin’s address ( `0x43Be2Bf0a854F03D2368bAF040901D6D9da6D586` ) immediately after the vote passes.",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 13,
+      "blockNumber": 12024799,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmaeGX36a9rPHfeEAxgtadbgi3EeYnehac55YjyYw14PU4",
+      "startTime": {
+        "timestamp": 1615575600
+      },
+      "endTime": {
+        "timestamp": 1615748400
+      },
+      "startTimestamp": 1615575600,
+      "endTimestamp": 1615748400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, fund the audit",
+        "No, do not fund"
+      ],
+      "results": [
+        {
+          "total": 65515392.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 65515391.92376946,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtYWJrcnR3OGo2Z3BrYXVyZXNqaGh6cDRtbDFiamwzeWxxanQ1NDV5a3BieG0=",
+      "id": "QmaBKrtw8j6gPkAUREsJhhZp4ML1BjL3yLqJt545YkPbxM",
+      "title": "TIP-11: Establishing New TIP Standards",
+      "content": "## Authors\n\n@eqparenthesis\n\n## Summary\n\n> This proposal aims to establish two new standards for the TIP process with the goal of improving process security and fairness.\n\n## 1. TIP Quorum Threshold\nWe are proposing to set a new TIP quorum threshold of **30m ESD** representative of roughly 6% of the supply.\n\nIn order for a TIP to pass and be eligible for its grant, the TIP will need to receive 30m ESD worth of `For` votes **in addition to** receiving more `For` votes than `Against` votes.\n\n## 2. Under-Peg Funding Bonus\nMonthly budget TIPs are negatively affected by ESD being under-peg. The last thing we want to do is disincentive our ecosystem contributors when times are tough.\n\nSince these these types of TIPs are usually pegged to a real-world USD-denominated budget, we'd like to make standard the notion of that these TIPs should be adjusting the ESD grant value each month based on the current `ESD` price at time of proposal.\n\nThis generally will not apply to one-off grant proposals, since the author may set their grant amount arbitrarily anyways, we just ask that voters take into account the current `ESD` price when making their decision.\n\n### Retro-active adjustments\nTIP-9 is currently on-going and would be eligible for this adjustment.\n\n#### TIP-9\nPrice at TIP-9 proposal: **$0.60**\nPrice at TIP-11 proposal: **$0.20**\n\nJanuary dispersement paid: **36300 ESD**\nJanuary adjustment: `(36300 * (1.00 - 0.60)) / 0.20` = **72600 ESD**\n\nFebruary disbursement due: **29300 ESD**\nFebruary adjusted due: `29300 / 0.20` = **146500 ESD**\n\nTIP-9 Feb Due + Jan Adj.: **219100 ESD**",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0x37Ed74A0dA66c0392C4c5901c3b3B97675871FE1",
+      "totalVotes": 9,
+      "blockNumber": 11812463,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmaBKrtw8j6gPkAUREsJhhZp4ML1BjL3yLqJt545YkPbxM",
+      "startTime": {
+        "timestamp": 1612771200
+      },
+      "endTime": {
+        "timestamp": 1612944000
+      },
+      "startTimestamp": 1612771200,
+      "endTimestamp": 1612944000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, establish new standards and",
+        "No, keep current standards"
+      ],
+      "results": [
+        {
+          "total": 100988550.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 100988556.7525849,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtdXRhdG9jNmxlcmR0NWtxYmIybmRwNm56YmVrbmhzOGpiZ2Q4ZnkxM2oyemc=",
+      "id": "QmUTAtoC6LERDt5kQbb2nDP6nzBekNhS8JBGD8fY13J2Zg",
+      "title": "TIP-9 - Continue Funding the SN2",
+      "content": "## Authors\n\n[@lewi](https://www.emptyset.xyz/u/lewi), TheBeardedProf, ddmadock, tongnk\n\n## Summary\n\n> This proposal continues to fund the efforts of SN2 to continue to support the ESD protocol. This grant requests funds to cover upgrades to the DAO application, creation of a curve AMM interface, and continued development of the documentation and communication. \n\n## Last Grant's Roundup\n\nThe initial kickoff for SN2 began halfway through December and coincided with the holidays so progress was slow. Despite this SN2 was able to knock out a number of activities. \n\nThese were mainly documentation, communication and dev related. Additionally, we assisted with protocol integrations, facilitating other grants and small developmental contributions. \n\n## Areas of Focus\n\nBelow are the following areas where SN2 will focus on over the next two months.\n\n#### 1. Redesign the UI of the ESD DAO\n\n**Aim:** Redesign the UI of the ESD DAO to simplify actions and clarify information.\n\n**Timeline**: 3 weeks\n\n**Team**: lewi, ddmadock, tongnk, HiHowAreYou\n\n#### 2. Communications\n\n**Aim**: Improve the presence of ESD within the DeFi community and develop communications processes to ensure the ESD community is always up-to date.\n\n**Timeline**: On-going\n\n**Team:** TheBeardedProf, lewi\n\n#### 3. Documentation (contd.)\n\n**Aim**: Continue the development of the content in the documentation portal. Adding a comprehensive protocol and reworking the FAQs and resources sections.\n\n**Timeline**: On-going\n\n**Team:** lewi, TheBeardedProf \n\n#### 4. Curve AMM Interface\n\n**Aim**: Develop a custom interface for the ESD <> [3Pool] Curve pool that is being setup\n\n**Timeline**: 3 weeks\n\n**Team:** lewi, HiHowAreYou\n\n#### 5. Governance Coordination (Contd.)\n\n**Aim**: Actively facilitate the On-chain and Off-chain governance processes\n\n**Timeline**: On-going\n\n**Team:** lewi\n\n#### 6. Integration Assistance (Contd.)\n\n**Aim**: Be a technical resource for the integration of ESD into other protocols\n\n**Timeline**: On-going\n\n**Team:** lewi\n\n*Note: HiHowAreYou is non-crypto so she'll be paid from the \"External\" operating expenses*\n\n## Spending and Rollovers\n\n**Lewi's January Salary**\n\nSince the initial grant passed mid way though last month, but paid a full amount, so Ø7,500 will be rolled over into this next month.\n\n**Prior Branding & Design**\n\nØ 3,200 ESD from the External section of Operating Expenses was use to pay the designer who developed the branding, artwork and website design used by the protocol.\n\n**Contract Creation**\n\nØ400 was used to fund contract creation for multiple EIPs. This reduces the burden on developers who don't want to spend hundreds on submitting a gov proposal.\n\n**Infrastructure Costs**\n\nØ350 was used to fund infra costs for node subscriptions to keep ESD Tools and other statistic sties up and running\n\n**Total Spend: 11,450 ESD**\n\n**Total Remaining to Rollover: 9,500 ESD**\n\n## Funding Request\n\nWe estimate we will require the following funds over the next two months:\n\n![](https://i.imgur.com/WuGdqcC.png)\n\nThe funds will be split into two payments to `0x750eb0759F56a55cF0bb528fe4EFc6f8cFd27C56`. The first tranche immediately after the vote passes and the second at the beginning of February (minus the rollover funds). \n\nAs always the remainder from the end of the grant will be either:\n\n- Rolled into the next successful proposal for SN2\n- Sent back to the Treasury if the following proposal fails.",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 10,
+      "blockNumber": 11608547,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmUTAtoC6LERDt5kQbb2nDP6nzBekNhS8JBGD8fY13J2Zg",
+      "startTime": {
+        "timestamp": 1609992000
+      },
+      "endTime": {
+        "timestamp": 1610164800
+      },
+      "startTimestamp": 1609992000,
+      "endTimestamp": 1610164800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, continue funding SN2",
+        "No, that's enough"
+      ],
+      "results": [
+        {
+          "total": 60761236.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 60761233.49414605,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtYnF1cG1zb2dwejRmZGE1djd0d2VmZmdqdWZ4ZzY5Mnh2NXR4YmQ1MmR6eWM=",
+      "id": "QmbqupmsogPZ4FdA5V7tweFFgjuFxg692Xv5txBD52Dzyc",
+      "title": "TIP-8 - Codebase Audit by OpenZeppelin",
+      "content": "## Authors\n\n@lewi, @eqparenthesis\n\n## Summary\n\nThe ESD protocol has had a number of governance changes since the last audit. A new audit is proposed to ensure the continued safety and stability of the protocol. \n\nThis audit will be carried out by [OpenZeppelin](https://openzeppelin.com/) and aims to be finalised by the middle of February.\n\n## Value Proposition\n\n- ESD has been slowly changing over the past months as new governance proposals are implemented. Another audit will reaffirm the Certik audit finding and cover changes made via governance since then.\n- ESD benefits from having continued audits as the protocol grows and progresses\n\n## Timeline\n\n-  January (Late) - The audit will begin.\n- February (Mid) - The audit will be completed and sent privately to the ESS team to review and implement any required changes.\n- February (Mid-Late) - The audit will be published on the ESD GitHub once any required changes have been implemented \n\n## Funding Request\n\n65,000 USDC to be sent to OpenZeppelin's address (`0x43Be2Bf0a854F03D2368bAF040901D6D9da6D586`) immediately after the vote passes. \n\n---\n\nSee discussion on [emptyset.xyz](https://www.emptyset.xyz/t/tip-8-codebase-audit-by-openzeppelin/160)",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 19,
+      "blockNumber": 11548726,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmbqupmsogPZ4FdA5V7tweFFgjuFxg692Xv5txBD52Dzyc",
+      "startTime": {
+        "timestamp": 1609243200
+      },
+      "endTime": {
+        "timestamp": 1609502400
+      },
+      "startTimestamp": 1609243200,
+      "endTimestamp": 1609502400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, fund the audit",
+        "No, don't fund"
+      ],
+      "results": [
+        {
+          "total": 27869064.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 27869067.626640067,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtZWdlMzRuOHF2eWhuczRibW54bW5teDNpamp1eDZiYTR6c2VuaHJseTJra3o=",
+      "id": "QmegE34N8qVYhNS4BmNXmnmX3ijjux6ba4ZSeNHRLY2kkz",
+      "title": "TIP-7: ESD Subgraph Development",
+      "content": "## Authors\n\nLuke Saunders (Delphi Digital)\n\n## Summary\n\nDelphi Digital has created a subgraph for ESD (https://thegraph.com/explorer/subgraph/delphi-subgraphs/empty-set-dollar) in order to aid its own research while also benefiting the ESD community.\n\nThe subgraph so far allows various metrics to be fetched historically in epoch intervals. However there is more than can be done to make it more of a full-featured subgraph.\n\n## Value Proposition\n\n- ESD benefits from an ecosystem of dashboards and community created projects, but the difficulty of fetching data from the ESD smart contracts acts as a barrier to development.\n- Well designed subgraphs using Graph Protocol make Ethereum data easily accessible, lowering the barrier to ecosystem development.\n\n## Proposed Features\n\nThe existing subgraph exposes DAO staged/bonded, debt and coupon information, together with oracle price and a few other fields. The following are proposed to be added:\n\n**Historical LP token statistics**\n\n- LP tokens staged/bonded\n- Total LP token supply from the Uniswap pool\n\n**Historical ESD supply statistics**\n\n- ESD total supply\n- ESD locked via LP\n- ESD locked via DAO\n\n**Historical detail of DAO and LP state**\n\n- Details of bonded/staged etc\n- Inflow and outflow deltas\n- Further segment by fluid/frozen/locked similar to [https://twitter.com/mskvsk/status/1341131956784947201?s=21 2](https://twitter.com/mskvsk/status/1341131956784947201?s=21)\n\n**Account specific**\n\n- Show state (frozen/fluid) of LP and DAO\n- Show expected time and epoch to frozen status (when they can deposit withdraw again)\n\n**General**\n\n- Refactor the schema so that not everything is lumped together under one Epoch type\n\n## Funding Request\n\n15,000 ESD to `0x59328F4248105462013c64AAaf438F5d018bC7fa` to be paid at the end of the successful vote. ",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 20,
+      "blockNumber": 11516176,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmegE34N8qVYhNS4BmNXmnmX3ijjux6ba4ZSeNHRLY2kkz",
+      "startTime": {
+        "timestamp": 1608825600
+      },
+      "endTime": {
+        "timestamp": 1608998400
+      },
+      "startTimestamp": 1608825600,
+      "endTimestamp": 1608998400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, fund subgraph development",
+        "No, do not fund"
+      ],
+      "results": [
+        {
+          "total": 45542256.0,
+          "choice": 0
+        },
+        {
+          "total": 11551.264,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 45542250.623330526,
+          "choice": 0
+        },
+        {
+          "total": 11551.264045115196,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFteDJsa204dHh6d2psemJrMXptZWdhMWJrZXRrYmVqejJlcGhnbmt6bXdueG0=",
+      "id": "QmX2LkM8tXZWJLzbk1zMEga1BKetKbEJZ2ePHgnKZMWNXm",
+      "title": "TIP-6 - ESD Protocol Design & Development",
+      "content": "## **Summary**\n\nThis grant proposes to fund design and development of ESD V2 as outlined [here](https://medium.com/@scott_lew_is/a-vision-for-empty-set-dollar-ce29b7e0e297). We plan to use the money to create two important and interrelated outputs.\n\n- First, a detailed technical specification for the ESD V2 protocol.\n\n- Second, a modular roadmap to incrementally upgrade the current ESD system responsibly and efficiently.\n\nUpon successful completion of each module, we will present our work to the community for feedback and subsequent integration into ESD via the governance process. We will then request funding for the design, development, and auditing of the next module.\n\nWe picked this method to reduce execution risk to the ESD DAO. If any stage of the project is deemed unsatisfactory, the DAO can choose to fund another team to continue the work or chart a new course.\n\n## **Background**\n\nThe major changes proposed in ESD V2 are the following:\n\n- Addition of a protocol reserve fund to serve as partial collateral and buffer price volatility\n- Replacement of expiring coupons with fixed maturity debt\n- Payment of excess reserves to DAO stakers\n\n## **Team**\n\n[Andy Chorlian](https://twitter.com/andy8052) - ex-MakerDAO smart contract developer, YFI strategist \n[Dan Matthews](https://twitter.com/LSDan_DeFi) - PieDAO, Audit DAO\n[Austin Williams](https://twitter.com/onewayfunction) - OpenZeppelin auditor and creator of Coupon Clipper\n[Scott Lewis](https://twitter.com/scott_lew_is) - DeFi Pulse, Slingshot and mechanism designer\n[Will Price](https://twitter.com/will__price) - crypto data scientist and mechanism designer\n\n## **Funding Request**\n\nWe expect this stage of the project to take 5-6 weeks to complete, with an average time commitment of 15 hours per week per team member. We are requesting **100,000 ESD** to fund this effort. \n\nIn order to expedite future development, we recommend that the community start considering putting an audit firm on retainer.\n\n## **Fund Custody**\n\nThe team will allocate funding amongst its members retroactively in proportion to contributions made. Funds will be stored in a Gnosis multi-sig controlled by the team, which is to be funded by the ESD treasury following the approval of this proposal.\n\nGnosis multi-sig address: `0xbc57cc1fC673C7e191Eeb03b8AA2e8238A9225DD`\nThreshold: 3 of 5\n\n## **Deliverables**\n\n- Jan 18 - Technical specification first draft released to the community with a request for comments.\n- Jan 25 - Technical specification final draft and roadmap first draft released to the community \n- Feb 1 - Final technical specification released\n- Feb 8 - Detailed implementation roadmap and technical specification published. \n\nFollowing successful completion of the first phase, a funding request for the next phase of development (smart contract implementation) will be submitted.",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 95,
+      "blockNumber": 11493178,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmX2LkM8tXZWJLzbk1zMEga1BKetKbEJZ2ePHgnKZMWNXm",
+      "startTime": {
+        "timestamp": 1608508800
+      },
+      "endTime": {
+        "timestamp": 1608768000
+      },
+      "startTimestamp": 1608508800,
+      "endTimestamp": 1608768000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, fund the proposal",
+        "No, do not fund"
+      ],
+      "results": [
+        {
+          "total": 108813330.0,
+          "choice": 0
+        },
+        {
+          "total": 343008.28,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 108813301.7706564,
+          "choice": 0
+        },
+        {
+          "total": 343008.28634729586,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFteW9mYTh0c256bWZlZXJ0ZHVhd3VmaG55a2N5Z3o4N3V1aW1uZDhyOG4zZ2k=",
+      "id": "QmYofA8TSnzmfEeRtduAWUFhNYkCYGZ87UuimND8R8N3Gi",
+      "title": "TIP-4 - xESD Grant Proposal",
+      "content": "## Authors\n@mjc716 \n\n## Summary\nxESD will be an ERC20 wrapper for the ESD DAO bonding process. Returns from DAO inflation will accrue to the value of the xESD token. xESD will be fully fungible and transferable and will serve as a layer of abstraction for a staking process that may be confusing or intimidating to some investors. \n\n## Value Proposition\n* **Immediate liquidity**: xESD will be freely traded on DEXes, offering a single transaction on- or off-ramp for ESD investors. [xToken](https://twitter.com/xtokenmarket) intends to heavily incentivize secondary liquidity of xAssets upon introduction of the XTK token (likely in Q1) and will dedicate a significant rewards allocation to xESD incentives.\n* **Better Collateral**: We're all agreed on the potential for ESD as stable, permissionless, truly decentralized collateral. The one missing ingredient is yield generation. There's really no reason for ESD depositors to forgo returns from DAO inflation. xToken is well into the process of building a simple lending protocol for xAssets, and xESD will of course be supported. Additionally, we would expect other lending protocols to support xESD as the project grows in size.\n* **Tax Advantages**: This value prop is domicile-specific, but for many investors, each DAO inflation distribution is a regular income taxable event. This represents hundreds of inefficient-rate taxable events for ESD stakers. In the case of xESD, rewards value accrues directly to the value of the token. Said another way, investors can elect when to invoke a taxable event (the sale of xESD) and, on a long enough time horizon, they may benefit from lower long-term rates. [[*PLEASE do not take tax advice from our ESD grant proposal*]]\n\n## Funding Request\nIn order to commission an audit, the following funds are required:\n~15,000 ESD to `0x4c0C29539C463AF348f8Cba8c02D644a8d68C320`\n\nThese funds will be paid once the contract is complete and we have an exact quote from the auditor. The final amount may be slightly different but we can cap it at 17,500\n\n## Further Questions\nFeel free to DM me (mjc716) or tag me in public channels in the Discord. Thanks!",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 32,
+      "blockNumber": 11467029,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmYofA8TSnzmfEeRtduAWUFhNYkCYGZ87UuimND8R8N3Gi",
+      "startTime": {
+        "timestamp": 1608163200
+      },
+      "endTime": {
+        "timestamp": 1608415200
+      },
+      "startTimestamp": 1608163200,
+      "endTimestamp": 1608415200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, support xESD",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 30936156.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 30936154.34458684,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtcGJzM2E2N3pjbnNkMWVwdnVmd280ZGl3M2dwYmRxejlycGd5Y2V3cXlqZ28=",
+      "id": "QmPbs3a67ZcnSd1EPvufwo4diW3gPBdQZ9rpGycEwqyJGo",
+      "title": "TIP-5 - A Proposal To Sell Treasury-Owned ESD to Help Stabilize Price",
+      "content": "Authors:\n\nBen Simon, Andrew Kang\n\nSummary:\n\nWe propose that the Empty Set Treasury sell its ESD into USDC as a temporary, price-stabilizing measure. This sale need not serve as binding precedent. Later on, If it so chooses, the DAO can vote to re-buy ESD at the target price. Alternatively, the DAO can vote to keep some/all of these non-ESD assets as reserves, in line with the proposed fractional reserve system for ESD v2.\n\nBackground and Rationale:\n\nUntil now, the ESD Treasury has functioned as the primary source of funding for protocol research and development. Recently, however, a few of ESD’s lay leaders have proposed a new vision for the protocol (ESD v2) in which the ESD Treasury will play an active role in price stabilization through a fractional reserves system.\n\nESD v2 is still being researched and debated. But at the moment, a provisional version of ESD v2’s proposed price-stabilizing mechanism could prove quite beneficial to the health of the ESD network. ESD has been trading well above $1.03 (TWAP of the supply expansion ceiling) for more than three consecutive days. Like many other community members, we are thrilled with ESD’s traction but wary of the negative effects of sustained overheating.\n\nIf passed, this proposal would facilitate a market sale of the Treasury’s ESD into USDC by the protocol’s multi-sig signers. It would enable the multi-sig signers to sell all of the 3+ million ESD that the Treasury currently holds, as well as future inflationary rewards while the price remains above the peg (if the Treasury does not sell future rewards, it will hold diversified reserves). As Will Price noted in the Discord, other ESD holders might front-run the treasury, but this would help to achieve the desired effect of the treasury sale in the first place.\n\nIt is important to emphasize that this ad hoc measure need not constitute rigid precedent. This is by no means a Trojan Horse attempt to rush through significant changes to the protocol. The debate over the details of ESD v2 will continue, and it is entirely plausible that ESD stakeholders will vote against a new design in which the Treasury plays an active, Central-Bank-esque role in stabilizing the ESD price. As such, in the future, the DAO could always vote to re-purchase ESD with its newly-acquired assets either closer to the target price or during a future contractionary phase. Alternatively, the DAO could choose to keep some or all of the purchased assets in the treasury for the foreseeable future, in line with the fractional reserve system proposed for v2.\n\nSpecifics:\n\nThe multi-sig signers will execute batched sales of ESD to USDC at their discretion in order to avoid potential sandwich attacks",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xC85170886A7F34e1365E2aA04486ae8F1106F783",
+      "totalVotes": 92,
+      "blockNumber": 11473674,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmPbs3a67ZcnSd1EPvufwo4diW3gPBdQZ9rpGycEwqyJGo",
+      "startTime": {
+        "timestamp": 1608220800
+      },
+      "endTime": {
+        "timestamp": 1608393600
+      },
+      "startTimestamp": 1608220800,
+      "endTimestamp": 1608393600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Sell Treasury ESD to USDC",
+        "No, Leave Treasury in ESD"
+      ],
+      "results": [
+        {
+          "total": 8123004.0,
+          "choice": 0
+        },
+        {
+          "total": 21660788.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8123003.587354384,
+          "choice": 0
+        },
+        {
+          "total": 21660791.538118877,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtemN2c3djenVwYXN1ZXZ2YXl3aDg2anVxbnlvdmdvaHN3eHVhOHFiOWoyZjk=",
+      "id": "QmZCVSwczUpASUEvvayWh86jUqnYovGohSwXua8qB9j2F9",
+      "title": "TIP-1 - Establishing a new Squad",
+      "content": "## Authors\n\n@lewi\n\n## Summary\n\n> This proposal would fund a ESD focused \"Squad\" to help establish ESD within the DeFi community. The Squad would help support development efforts, assist others in grant writing, integrations with other protocols, and contribute to reference materials.\n\n## Background\n\nIn the beginning there was a squad, the Empty Set Squad. They designed and developed ESD and released it into the world. After its launch, they helped develop and refine the protocol in collaboration with the community that has rallied around it.\n\nThe ESS it self, while present, has encouraged the community to flourish around the protocol. We've had numerous individuals step up to handle various aspects of the protocol's day to day management: development updates, integration requests, community management, protocol design and evangelism. With the addition of the treasury, ESD is now able to support community members requiring compensation to commit time to the protocol for development, protocol integrations, community building, and evangelism. \n\nWe feel that it is time for a new squad to help keep up with the ever growing attention and use it is getting. \n\n### A new squad: Squad Number 2 (SN2) \n\n![](https://y.yarn.co/9ee0b128-2ccd-4e6c-b09a-7fd897b54ca3_text_hi.gif)\n\nSN2 is a group that will focus on supporting the ESD community as it grows and the protocol matures. The main focus will be on contributing to the communications, integrations, infrastructure and community of the protocol. \n\nThe squad will be led by Lewi. He has been an active participant in the ESD community since early in the bootstrapping phase. Since then he has acted to promote the community in many ways:\n\n- Developing ESD Tools which serves 4,000 community members each month\n- Writing the first widely distributed article on the protocol with 6k reads. ([See Here](https://medium.com/@lewisfreiberg/empty-set-dollar-esd-a0abbfc5ecdb)) \n- Managing & moderating the Discord server \n- Designing & Developing the ESD website ([See Here](https://emptyset.finance))\n- Developing a brand identity for the ESD protocol (See website)\n- Contributing to the documentation for the protocol, as well as funding/organising translations to Chinese & Russian ([See here](https://docs.emptyset.finance/))\n- Development & Management of the documentation platform\n- Setup of the treasury governance platform (See the website you are reading this on)\n- Creation & Management of social media platforms for the protocol\n\nSN2 would continue to act in the same vein but with much better organisation and capabilities. \n\n### Specifics\n\n- A small group of individuals will come together to focus on supporting protocol\n- The squad will focus on communications, integrations, infrastructure and community of the protocol.\n- The squad will publish a report outlining the activities they have undertaken that month.\n- The squad will publish a proposal bi-monthly requesting funds to continue their work.\n  - The 1st prop will only cover one month while things are getting started.\n\n### Funding Request\n\nIn order get the squad off the ground, the following funds are required:\n\n![](https://i.imgur.com/SrBv6l1.png)\n\nThese funds are to be paid up front to `0x750eb0759F56a55cF0bb528fe4EFc6f8cFd27C56` after the vote passes and the remainder will be either:\n\n- Rolled into the next successful proposal for SN2\n- Sent back to the Treasury if the following proposal fails.\n\n\n\n",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 16,
+      "blockNumber": 11453854,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmZCVSwczUpASUEvvayWh86jUqnYovGohSwXua8qB9j2F9",
+      "startTime": {
+        "timestamp": 1607986800
+      },
+      "endTime": {
+        "timestamp": 1608159540
+      },
+      "startTimestamp": 1607986800,
+      "endTimestamp": 1608159540,
+      "currentState": "closed",
+      "choices": [
+        "Yes, establish the SN2",
+        "No, SN2 is lame"
+      ],
+      "results": [
+        {
+          "total": 363888.56,
+          "choice": 0
+        },
+        {
+          "total": 5534190.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 363888.55552319466,
+          "choice": 0
+        },
+        {
+          "total": 5534190.331133237,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZXNkOnNuYXBzaG90OnFtdXJ5eWg1dWh5bWhyaWR6NmpzamZzd3VodWF6dXhwdWRobXU5ZmY0ZW1uMXk=",
+      "id": "QmUryyh5uhYmhriDZ6JSJFsWuHUAzuxpudHmU9ff4EmN1Y",
+      "title": "TIP-2 - Supersede TIP-1 & Update Budget",
+      "content": "\n### *This vote, if passed, supersedes TIP-1, see the different budgets*  \n\n## Authors\n\n@lewi\n\n## Summary\n\n> This proposal would fund a ESD focused \"Squad\" to help establish ESD within the DeFi community. The Squad would help support development efforts, assist others in grant writing, integrations with other protocols, and contribute to reference materials.\n\n## Background\n\nIn the beginning there was a squad, the Empty Set Squad. They designed and developed ESD and released it into the world. After its launch, they helped develop and refine the protocol in collaboration with the community that has rallied around it.\n\nThe ESS it self, while present, has encouraged the community to flourish around the protocol. We've had numerous individuals step up to handle various aspects of the protocol's day to day management: development updates, integration requests, community management, protocol design and evangelism. With the addition of the treasury, ESD is now able to support community members requiring compensation to commit time to the protocol for development, protocol integrations, community building, and evangelism. \n\nWe feel that it is time for a new squad to help keep up with the ever growing attention and use it is getting. \n\n### A new squad: Squad Number 2 (SN2) \n\n![](https://y.yarn.co/9ee0b128-2ccd-4e6c-b09a-7fd897b54ca3_text_hi.gif)\n\nSN2 is a group that will focus on supporting the ESD community as it grows and the protocol matures. The main focus will be on contributing to the communications, integrations, infrastructure and community of the protocol. \n\nThe squad will be led by Lewi. He has been an active participant in the ESD community since early in the bootstrapping phase. Since then he has acted to promote the community in many ways:\n\n- Developing ESD Tools which serves 4,000 community members each month\n- Writing the first widely distributed article on the protocol with 6k reads. ([See Here](https://medium.com/@lewisfreiberg/empty-set-dollar-esd-a0abbfc5ecdb)) \n- Managing & moderating the Discord server \n- Designing & Developing the ESD website ([See Here](https://emptyset.finance))\n- Developing a brand identity for the ESD protocol (See website)\n- Contributing to the documentation for the protocol, as well as funding/organising translations to Chinese & Russian\n- Development & Management of the documentation platform\n- Setup of the treasury governance platform\n- Creation & Management of social media platforms for the protocol\n\nSN2 would continue to act in the same vein but with much better organisation and capabilities. \n\n### Specifics\n\n- A small group of up-to 4 individuals will come together to focus on supporting protocol\n- The squad will focus on communications, integrations, infrastructure and community of the protocol.\n- The squad will publish a report outlining the activities they have undertaken that month.\n- The squad will publish a proposal bi-monthly requesting funds to continue their work.\n  - The 1st prop will only cover one month while things are getting started.\n\n### Funding Request\n\nIn order get the squad off the ground, the following funds are required:\n\n![](https://i.imgur.com/thyoFcV.png)\n\nThese funds are to be paid up front to `0x750eb0759F56a55cF0bb528fe4EFc6f8cFd27C56` after the vote passes and the remainder will be either:\n\n- Rolled into the next successful proposal for SN2\n- Sent back to the Treasury if the following proposal fails\n\n\n\n\n",
+      "protocol": "esd",
+      "adapter": "snapshot",
+      "proposer": "0xB0B2b405c9D09d129E9F9b18c9DD218c532f2b2A",
+      "totalVotes": 29,
+      "blockNumber": 11454041,
+      "externalUrl": "https://snapshot.org/#/esd.eth/proposal/QmUryyh5uhYmhriDZ6JSJFsWuHUAzuxpudHmU9ff4EmN1Y",
+      "startTime": {
+        "timestamp": 1607987700
+      },
+      "endTime": {
+        "timestamp": 1608159540
+      },
+      "startTimestamp": 1607987700,
+      "endTimestamp": 1608159540,
+      "currentState": "closed",
+      "choices": [
+        "Yes, establish the SN2 ",
+        "No, SN2 is lame"
+      ],
+      "results": [
+        {
+          "total": 32964158.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 32964157.299179938,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

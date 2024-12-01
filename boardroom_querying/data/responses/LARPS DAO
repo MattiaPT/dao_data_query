@@ -1,0 +1,114 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bGFycHNkYW86b25jaGFpbjoweGQ5YjFmZGIyMGIyYjY2MWQ4YzA1NjY2OWQzYWNkYTJlMGNiN2RmZWZjYjhkNDZkZDBkMzk0MjEzOTY4MTgyNzE=",
+      "id": "0xd9b1fdb20b2b661d8c056669d3acda2e0cb7dfefcb8d46dd0d39421396818271",
+      "title": "DAO Upgrade V1_1",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "larpsDao",
+      "adapter": "onchain",
+      "proposer": "0xd1d1D4e36117aB794ec5d4c78cBD3a8904E691D0",
+      "totalVotes": 0,
+      "blockNumber": 16208226,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671412463
+      },
+      "endTime": {
+        "timestamp": 1671758063
+      },
+      "startTimestamp": 1671412463,
+      "endTimestamp": 1671758063,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16208226
+          },
+          "event": "pending",
+          "timestamp": 1671326063,
+          "txHash": "0x72b0c6ee645409baa6c730310548707fe3ce4b3894d2a5275c2d2b1c6d942a0a"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236758013,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bGFycHNkYW86b25jaGFpbjoweGY3ZDE0ODJiMTdiNzZiMTkyZDA0ZWY2MzgzMmE3ODExMWY4Mzk3NDg4MTE5MGQxOGY2NDJkY2E5M2QzMGM3ZDI=",
+      "id": "0xf7d1482b17b76b192d04ef63832a78111f83974881190d18f642dca93d30c7d2",
+      "title": "Update Description due to Bug",
+      "content": "<p>There was a bug in the metadata that we are trying to fix, along with Zora support.</p>",
+      "protocol": "larpsDao",
+      "adapter": "onchain",
+      "proposer": "0xc61288821b4722Ce29249F0BA03b633F0bE46a5A",
+      "totalVotes": 1,
+      "blockNumber": 15885312,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1667514455
+      },
+      "endTime": {
+        "timestamp": 1667860055
+      },
+      "startTimestamp": 1667514455,
+      "endTimestamp": 1667860055,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15923479
+          },
+          "event": "queued",
+          "timestamp": 1667888399,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15944780
+          },
+          "event": "executed",
+          "timestamp": 1668145619,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236758013,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

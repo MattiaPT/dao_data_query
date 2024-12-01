@@ -1,0 +1,510 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bm91bmppc2RhbzpvbmNoYWluOjB4NzEwMTNiMmM1NjUzZmU1OGFhM2JlYjBlMjc3MDMxZThmY2Y2ZmU0MjU3ZDM0YzUyYWMyOTgyYjRjMDg2OTc1Zg==",
+      "id": "0x71013b2c5653fe58aa3beb0e277031e8fcf6fe4257d34c52ac2982b4c086975f",
+      "title": "Winding down treasury",
+      "content": "Due to the small amounts of some transactions and gas costs, the treasury is being distributed to those users that added 0.01 ETH or more in any amount of auctions\n\nThe rest is used to cover that gas cost of distributing it",
+      "protocol": "nounjisDao",
+      "adapter": "onchain",
+      "proposer": "0xBc3D20463320958Dc7DE604b5FdCE94d9A85CEB2",
+      "totalVotes": 1,
+      "blockNumber": 19924157,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1716378743
+      },
+      "endTime": {
+        "timestamp": 1716398453
+      },
+      "startTimestamp": 1716378743,
+      "endTimestamp": 1716398453,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19924157
+          },
+          "event": "pending",
+          "timestamp": 1716365603,
+          "txHash": "0x0b0de99c09b0070fb5d9d7a59f16e93735ac14092509c54212fd6a061cb307b5"
+        },
+        {
+          "time": {
+            "blockNumber": 19945265
+          },
+          "event": "executed",
+          "timestamp": 1716620495,
+          "txHash": "0x7438f60c9fe47f082d66f866d09e03d6474b2b27bebbee216cc50aef87c073d8"
+        },
+        {
+          "time": {
+            "blockNumber": 19930952
+          },
+          "event": "queued",
+          "timestamp": 1716447635,
+          "txHash": "0x8f16bbe84a417991c7f112be6b25fef8d6136f9030738794260354e0bf6eec02"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716366100252,
+      "txHash": "0x0b0de99c09b0070fb5d9d7a59f16e93735ac14092509c54212fd6a061cb307b5",
+      "quorum": 8,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bmppc2RhbzpvbmNoYWluOjB4NDViOTc0ODZlN2NhNTE1ZWY1OWJlNjA0ZWFlNGY4OTBjZTA3NjYyN2Y0NDkyZGRmMWY0Y2MwYWE2M2M1NDY1OQ==",
+      "id": "0x45b97486e7ca515ef59be604eae4f890ce076627f4492ddf1f4cc0aa63c54659",
+      "title": "Pausing actions prior to wind down the DAO and redistribute its treasury",
+      "content": "There was an attempt attack to steal our little treasure and seeing the low activity, seems like this is the best way to proceed here.",
+      "protocol": "nounjisDao",
+      "adapter": "onchain",
+      "proposer": "0xBc3D20463320958Dc7DE604b5FdCE94d9A85CEB2",
+      "totalVotes": 1,
+      "blockNumber": 19902342,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1716115007
+      },
+      "endTime": {
+        "timestamp": 1716134717
+      },
+      "startTimestamp": 1716115007,
+      "endTimestamp": 1716134717,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19902342
+          },
+          "event": "pending",
+          "timestamp": 1716101867,
+          "txHash": "0x5d8c0fd17c91ea32d41db5efee04bbf9f26cd5d5ad9eceaf5a8bd1c16c031ee7"
+        },
+        {
+          "time": {
+            "blockNumber": 19907408
+          },
+          "event": "queued",
+          "timestamp": 1716163067,
+          "txHash": "0xfb03a7d445daeefb4823f3515cf12a2bcf5297e7ac890fb9a8cc5a99ffb5cf54"
+        },
+        {
+          "time": {
+            "blockNumber": 19924063
+          },
+          "event": "executed",
+          "timestamp": 1716364475,
+          "txHash": "0xcd3496194b8ff3200c94a613475bf28100b13978201db8cb1532c21e70e8fe54"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716102281474,
+      "txHash": "0x5d8c0fd17c91ea32d41db5efee04bbf9f26cd5d5ad9eceaf5a8bd1c16c031ee7",
+      "quorum": 8,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bmppc2RhbzpvbmNoYWluOjB4ZDAzOGY1NDQ2NmY5OGU0ZTE5OThhNzBkZDMwZWZlYTQ2OGY1ZWQ2YWNmYzc0NWJjZmY0ZTkyYWJlNTEyMzkyOA==",
+      "id": "0xd038f54466f98e4e1998a70dd30efea468f5ed6acfc745bcff4e92abe5123928",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-10-22",
+      "content": "",
+      "protocol": "nounjisDao",
+      "adapter": "onchain",
+      "proposer": "0x24e4dB5511B7a1F173cAE8f3EdA59D0294BD2EeB",
+      "totalVotes": 1,
+      "blockNumber": 19895417,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1716031319
+      },
+      "endTime": {
+        "timestamp": 1716051029
+      },
+      "startTimestamp": 1716031319,
+      "endTimestamp": 1716051029,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 8.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19898196
+          },
+          "event": "queued",
+          "timestamp": 1716051827,
+          "txHash": "0xf4d88a95ee16638542bca0d275d17eb3a6b95e083426fb21bb4e2a7a253129ed"
+        },
+        {
+          "time": {
+            "blockNumber": 19901860
+          },
+          "event": "canceled",
+          "timestamp": 1716096023,
+          "txHash": "0x1c09d52eb8db4ce497869c72191015861c2c1b271ee389c417185ee96be55a65"
+        },
+        {
+          "time": {
+            "blockNumber": 19895417
+          },
+          "event": "pending",
+          "timestamp": 1716018179,
+          "txHash": "0xed019187403ac97265306bc7bb8d80aba12a9340d6f4ca910632bc565c976155"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 8.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716018273493,
+      "txHash": "0xed019187403ac97265306bc7bb8d80aba12a9340d6f4ca910632bc565c976155",
+      "quorum": 8,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bmppc2RhbzpvbmNoYWluOjB4Y2ZkYTJlOTZiM2Y1NDdiMWI2OGU2MTg3MzY0NDA3OTkzZDUzMmYyYTFhZDUwNmRlZDg2NmQyNTYxZmU3ODNmOQ==",
+      "id": "0xcfda2e96b3f547b1b68e6187364407993d532f2a1ad506ded866d2561fe783f9",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-10-22",
+      "content": " ",
+      "protocol": "nounjisDao",
+      "adapter": "onchain",
+      "proposer": "0x24e4dB5511B7a1F173cAE8f3EdA59D0294BD2EeB",
+      "totalVotes": 0,
+      "blockNumber": 19874507,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1715778719
+      },
+      "endTime": {
+        "timestamp": 1715798429
+      },
+      "startTimestamp": 1715778719,
+      "endTimestamp": 1715798429,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19874507
+          },
+          "event": "pending",
+          "timestamp": 1715765579,
+          "txHash": "0x4d85ae28de3ff583e3955d0b9bdbc1f153b52ddb8065df830d62db12306e7a22"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1715765768984,
+      "txHash": "0x4d85ae28de3ff583e3955d0b9bdbc1f153b52ddb8065df830d62db12306e7a22",
+      "quorum": 8,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bmppc2RhbzpvbmNoYWluOjB4YWMwNjUxOTI3ZTM1NjNjYmNjOWVjNmEzN2VlNGYwMWZjNzI0MjQ2OTAxYjZkY2VlZWI3NzYxNDA3YmQ4MmI4Mw==",
+      "id": "0xac0651927e3563cbcc9ec6a37ee4f01fc724246901b6dceeeb7761407bd82b83",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-10-22",
+      "content": "![](https://i.imgur.com/HrQKZMG.png)\n\n## Summary\n\nThis proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.\n\n### Airdrop\n\nAbility for DAOs to assign minters and airdrop tokens.\n",
+      "protocol": "nounjisDao",
+      "adapter": "onchain",
+      "proposer": "0x7bfCa252bFf95f218ecA93F5d042B85d7195FA6a",
+      "totalVotes": 0,
+      "blockNumber": 18407294,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1698008507
+      },
+      "endTime": {
+        "timestamp": 1698028217
+      },
+      "startTimestamp": 1698008507,
+      "endTimestamp": 1698028217,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18407294
+          },
+          "event": "pending",
+          "timestamp": 1697995367,
+          "txHash": "0xba3da5239055809b66e3e7c31e58d2b65b91e6117568c2801d580cbc82fc35a3"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1697996879621,
+      "txHash": "0xba3da5239055809b66e3e7c31e58d2b65b91e6117568c2801d580cbc82fc35a3",
+      "quorum": 6,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bmppc2RhbzpvbmNoYWluOjB4YTM5MzNmZTg3MjA5NDRiMjRiYzliMjQ1NWVkOWMwNzFhNDU2YjI5OGJjMGI0YjA5M2ZmZWM3YjExOGZjNjBmOA==",
+      "id": "0xa3933fe8720944b24bc9b2455ed9c071a456b298bc0b4b093ffec7b118fc60f8",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-03-03",
+      "content": "![](https://i.imgur.com/HrQKZMG.png)\n\n## Summary\n\nThis proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.\n\n### Airdrop\n\nAbility for DAOs to assign minters and airdrop tokens.\n",
+      "protocol": "nounjisDao",
+      "adapter": "onchain",
+      "proposer": "0xdcf37d8Aa17142f053AAA7dc56025aB00D897a19",
+      "totalVotes": 0,
+      "blockNumber": 16748768,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1677869183
+      },
+      "endTime": {
+        "timestamp": 1677888893
+      },
+      "startTimestamp": 1677869183,
+      "endTimestamp": 1677888893,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16748768
+          },
+          "event": "pending",
+          "timestamp": 1677856043,
+          "txHash": "0x8222976eca599d76ebd0b3e8a6559ae265def581eaa7bfc42ed4affddb8d64d6"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417219762,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bmppc2RhbzpvbmNoYWluOjB4MjM3MzkzZmFjYTJhNWQzMWQzNzZlNDgwOTFmOThmNjc4NDBjYWY2MWI1M2RmNTBlMDU0MDA3N2FhZGMxZGJhMw==",
+      "id": "0x237393faca2a5d31d376e48091f98f67840caf61b53df50e0540077aadc1dba3",
+      "title": "Nouns Builder Upgrade v1.1.0",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "nounjisDao",
+      "adapter": "onchain",
+      "proposer": "0xBc3D20463320958Dc7DE604b5FdCE94d9A85CEB2",
+      "totalVotes": 1,
+      "blockNumber": 16511612,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1674998015
+      },
+      "endTime": {
+        "timestamp": 1675017725
+      },
+      "startTimestamp": 1674998015,
+      "endTimestamp": 1675017725,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16520221
+          },
+          "event": "queued",
+          "timestamp": 1675088687,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16551548
+          },
+          "event": "executed",
+          "timestamp": 1675466963,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417219762,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bmppc2RhbzpvbmNoYWluOjB4YmM5ZGY4ZDY3M2ViYTRjZDJkOGQ3ZGE2MDUwYWZiZDZhMTgwMWRhN2QyMDdmOTNjYjZjM2RjYzFkNGVjMjFjNg==",
+      "id": "0xbc9df8d673eba4cd2d8d7da6050afbd6a1801da7d207f93cb6c3dcc1d4ec21c6",
+      "title": "DAO Upgrade V1_1",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "nounjisDao",
+      "adapter": "onchain",
+      "proposer": "0xd1d1D4e36117aB794ec5d4c78cBD3a8904E691D0",
+      "totalVotes": 0,
+      "blockNumber": 16208215,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671339071
+      },
+      "endTime": {
+        "timestamp": 1671358781
+      },
+      "startTimestamp": 1671339071,
+      "endTimestamp": 1671358781,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417219762,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bmppc2RhbzpvbmNoYWluOjB4Yjg0ZDVlNjkyNDM0MWRjNjBlNTkwYzJiNGZmY2IzOWY5YzA3YThiNWVlNTMxZjA1Mzg1ODAzNTg2Y2Q2MGMwMA==",
+      "id": "0xb84d5e6924341dc60e590c2b4ffcb39f9c07a8b5ee531f05385803586cd60c00",
+      "title": "Increase Voting Period and Delay",
+      "content": "<p>According to Nouns Builder, it's very low and needs to be updated after a contract upgrade.</p>",
+      "protocol": "nounjisDao",
+      "adapter": "onchain",
+      "proposer": "0xBc3D20463320958Dc7DE604b5FdCE94d9A85CEB2",
+      "totalVotes": 0,
+      "blockNumber": 16085014,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1669851143
+      },
+      "endTime": {
+        "timestamp": 1669870853
+      },
+      "startTimestamp": 1669851143,
+      "endTimestamp": 1669870853,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417219762,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

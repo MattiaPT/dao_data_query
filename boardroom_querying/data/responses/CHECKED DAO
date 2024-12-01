@@ -1,0 +1,198 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Y2hlY2tlZGRhbzpvbmNoYWluOjB4ZDg5YmNhN2QzOWFmYTAwMWUxNTkzNmQ1MTJjM2YxMmJmZWI4OTM1NmVjZWY2NzdjYjA0MDE1YTk0NmRkNWU5OQ==",
+      "id": "0xd89bca7d39afa001e15936d512c3f12bfeb89356ecef677cb04015a946dd5e99",
+      "title": "Send 0.78 ETH to the CheckedDAO wallet to buy more checks.",
+      "content": "After the first proposal that we executed to buy the first 7 Checks, I would like to pass this proposal so that we can buy some more checks. \n\nLet's get it 🧡",
+      "protocol": "checkedDao",
+      "adapter": "onchain",
+      "proposer": "0xC31495E1A7747550d3D7b19E2dcD282eaFbe955e",
+      "totalVotes": 6,
+      "blockNumber": 16951666,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1680363311
+      },
+      "endTime": {
+        "timestamp": 1680449711
+      },
+      "startTimestamp": 1680363311,
+      "endTimestamp": 1680449711,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 41.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16964802
+          },
+          "event": "queued",
+          "timestamp": 1680479843,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16985408
+          },
+          "event": "executed",
+          "timestamp": 1680732491,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 41.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680320209680,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y2hlY2tlZGRhbzpvbmNoYWluOjB4NmVhNDVmNzdmOWUzOWVkYjljM2RiMmEwZmE3ZWE2MWVlOWU3Zjk0YTZkODM2ZTAwOWQxMjMzNDMwYzAwNzE0ZA==",
+      "id": "0x6ea45f77f9e39edb9c3db2a0fa7ea61ee9e7f94a6d836e009d1233430c00714d",
+      "title": "Proposal to update the changes of Voting Periods and Voting Delays",
+      "content": "This is a proposal to make some changes to the structure of the Voting system for our DAO\n\nCurrently: \n-Voting Period: 4 days\n-Voting Delay: 1 day\n\nProposal: \n-Voting Period: 24 hours\n-Voting Delay: 12 hours\n",
+      "protocol": "checkedDao",
+      "adapter": "onchain",
+      "proposer": "0xC31495E1A7747550d3D7b19E2dcD282eaFbe955e",
+      "totalVotes": 2,
+      "blockNumber": 16876512,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1679494175
+      },
+      "endTime": {
+        "timestamp": 1679839775
+      },
+      "startTimestamp": 1679494175,
+      "endTimestamp": 1679839775,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16936881
+          },
+          "event": "queued",
+          "timestamp": 1680140759,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16951644
+          },
+          "event": "executed",
+          "timestamp": 1680319847,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679416925125,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y2hlY2tlZGRhbzpvbmNoYWluOjB4NjRmMWQxNjk2MmQwYmQwZjMxMjFkY2FjOWYxZjU4MzA4NzZiZDVkNDJkZGE1NDFlZDA1MmExNDllNDk5MThmZA==",
+      "id": "0x64f1d16962d0bd0f3121dcac9f1f5830876bd5d42dda541ed052a149e49918fd",
+      "title": "Send 3 ETH To buy the first Checks for the DAO",
+      "content": "This is the first proposal for** CheckedDAO**. I propose to send 3 ETH to the wallet created for the purchase of checks (checkeddao.eth) to buy the first checks for the DAO. \n\nThis Wallet will be under the custody of the creators, as well as some VV community members that will be on board soon. **It will be under a multi-sig wallet** to bring trust to the community. This is the most transparent way we can think of in order to make things happen as smoothly as possible. \n\nWe hope we can make this happen! \n\n",
+      "protocol": "checkedDao",
+      "adapter": "onchain",
+      "proposer": "0xC31495E1A7747550d3D7b19E2dcD282eaFbe955e",
+      "totalVotes": 6,
+      "blockNumber": 16828944,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1678916711
+      },
+      "endTime": {
+        "timestamp": 1679262311
+      },
+      "startTimestamp": 1678916711,
+      "endTimestamp": 1679262311,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 38.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16864647
+          },
+          "event": "queued",
+          "timestamp": 1679263955,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16879250
+          },
+          "event": "executed",
+          "timestamp": 1679441051,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679416925125,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

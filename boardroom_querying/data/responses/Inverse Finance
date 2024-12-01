@@ -1,0 +1,2009 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjI5",
+      "id": "29",
+      "title": "Upgrade Governance to GovernorMills",
+      "content": "GovernorMills features:\n- xINV stakers can vote and propose\n- DAO can vote to change quorum and proposal thresholds\n- DAO can whitelist addresses to propose without meeting the proposal threshold\n- Deployer address is set as a temporary guardian. Guardian can cancel pending proposals, update thresholds or transfer governance ownership in case of an emergency",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 21,
+      "blockNumber": 13389052,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1633843518,
+      "endTimestamp": 1634077737,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 6232.4785,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13406365
+          },
+          "event": "queued",
+          "timestamp": 1634078275,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 13424209
+          },
+          "event": "executed",
+          "timestamp": 1634322068,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 6232.4785,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjI4",
+      "id": "28",
+      "title": "Use $77K Dai to buy DOLA at a discount and execute our first $50K INV buy back",
+      "content": "- In order to address the DOLA peg problem, I propose using all of our Dai revenue reserves to market-buy DOLA at a discount, creating additional demand for DOLA\n- The current INV price creates a unique opportunity to buy back INV at a low price in order to allocate tokens for future rewards. The current protocol revenue rate is $1.14M DOLA per year or $95K per month. I propose using $50K DOLA to buy back INV.\n\nACTIONS\nApprove $77K Dai to the Deployer address in order to execute DOLA and INV purchases on behalf of the DAO. All DOLA and INV proceeds will be sent back to the DAO treasury address.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 17,
+      "blockNumber": 13279998,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1632373466,
+      "endTimestamp": 1632603653,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 5737.131,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13298281
+          },
+          "event": "queued",
+          "timestamp": 1632616527,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 13311363
+          },
+          "event": "executed",
+          "timestamp": 1632792268,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 5737.131,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjI3",
+      "id": "27",
+      "title": "Add LP tokens to Anchor, reduce xINV reward rate and withdrawal delay, increase collateral factors and add Fuse Pool 6 Fed",
+      "content": "This is a large proposal that addresses the following issues:\n- Low DOLA liquidity causing peg issues\n- Low DOLA borrowing demand\n- Low INV liquidity despite Sushi rewards\n\nRATIONALE\n\nThe purpose of this proposal is to improve the liquidity situation before Inverse Guard is launched soon after. Inverse Guard is a risk product. Therefore, potential users of Inverse Guard will take risk factors such as DOLA liquidity and peg stability in consideration to make the decision to trust our cover product for long coverage durations. Since INV may act as a backstop for DOLA in an unlikely scenario of extreme DOLA insolvency, INV liquidity should also be considered vital to DOLA's health.\n\nACTIONS\n1. Add DOLA-3pool Curve LP as collateral-only asset to Anchor (borrowing disabled) with a 70% collateral factor\n2. Add INV-DOLA SLP as collateral-only asset to Anchor (borrowing disabled) with a 70% collateral factor\n3. Set a reward rate of 600 INV per month for supplying DOLA-3pool to Anchor\n4. Set a reward rate of 500 INV per month for supplying INV-DOLA to Anchor\n5. Increase collateral factors of DOLA, ETH, WBTC, YFI, stETH and xSushi to 70% and xINV to 60%\n6. Whitelist DOLA Fed contract for Fuse Pool 6 as a DOLA minter\n7. Reduce xINV reward rate to 1250 INV per month\n8. Reduce xINV withdrawal delay to 10 days\n",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 38,
+      "blockNumber": 13193984,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1631222518,
+      "endTimestamp": 1631453755,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 7120.2812,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13211638
+          },
+          "event": "queued",
+          "timestamp": 1631458819,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 13227829
+          },
+          "event": "executed",
+          "timestamp": 1631675760,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 7120.2812,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjI2",
+      "id": "26",
+      "title": "Provide funding to the Rewards Committee and the Marketing Committee",
+      "content": "DESCRIPTION\nThis is a 2-in-1 proposal to provide funding to the Rewards and Marketing Committees:\n\n- The Rewards Committee is requesting $100,000 USD to be distributed as 1110 INV. \n\n- The Marketing Committee is requesting $15,500 USD to be distributed as 115 INV.\n\nRATIONALE\nEach respective body requires funding to execute their duties:\n\n- The Rewards Committee is tasked with the distribution of INV rewards on a semi-regular basis to Inverse Finance contributors, grants (yet to be offered), and covering on-chain DAO expenses (gas, deploying contracts, etc.). Most recent distribution: https://discord.com/channels/790157548845924352/790157548845924356/845739454940446781\n\n- The Marketing Committee is tasked with marketing responsibilities for Inverse Finance. A proposal outlining the usage of these funds is here: https://discord.com/channels/790157548845924352/840971553864548352/858003088253517854",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 27,
+      "blockNumber": 12901159,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1627293158,
+      "endTimestamp": 1627530119,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 51.256977,
+          "choice": 0
+        },
+        {
+          "total": 7140.806,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12929617
+          },
+          "event": "queued",
+          "timestamp": 1627683822,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12949027
+          },
+          "event": "executed",
+          "timestamp": 1627948532,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 51.256977,
+          "choice": 0
+        },
+        {
+          "total": 7140.806,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjI1",
+      "id": "25",
+      "title": "Add Lido's stETH market to Anchor and renew DOLA-3CRV rewards for 2 months",
+      "content": "DESCRIPTION\nBelow are the proposed stETH market deployment parameters:\n- Collateral factor: 60%\n- Reserve Factor: 20%\n- INV reward speed: 0 INV per month\n- Oracle feed: Lido's Curve oracle https://etherscan.io/address/0xab55bf4dfbf469ebfe082b7872557d1f87692fe6\n\nIn addition to the stETH market, I propose renewing DOLA-3CRV LP rewards at a rate of 750 INV per month for a duration of 2 months (1500 INV total).\n\nRATIONALE\nAt the time of this proposal, about $1.2B worth of stETH are in circulation. However, stETH is far less productive across DeFi than ETH and its holders have nowhere to borrow on their stETHs. Adding stETH to Anchor will allow holders to use it as collateral to borrow DOLA, making stETH a more productive asset and boosting Anchor TVL, DOLA borrowing demand and DAO revenue. Maintaining high DOLA-3CRV liquidity is essential to accommodate a potential increase in DOLA borrowing demand by stETH holders.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 33,
+      "blockNumber": 12631486,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1623659140,
+      "endTimestamp": 1623890732,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 80.0,
+          "choice": 0
+        },
+        {
+          "total": 8249.971,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12656908
+          },
+          "event": "queued",
+          "timestamp": 1623998465,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12671219
+          },
+          "event": "executed",
+          "timestamp": 1624192024,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 80.0,
+          "choice": 0
+        },
+        {
+          "total": 8249.971,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjI0",
+      "id": "24",
+      "title": "Upgrade Anchor Comptroller and allocate rewards for Ruler INV LPs",
+      "content": "- Upgrade Anchor comptroller contract to new implementation\n- Resume rewards distribution retroactively for Anchor lenders and borrowers\n- Disable rewards distribution for future Anchor borrowers, reward lenders only\n- Pull future Anchor rewards directly from treasury address in order to avoid refilling in the future\n- Allocate 100 INV rewards to Ruler INV market LPs (to be managed by Ruler team)",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 37,
+      "blockNumber": 12583258,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1623013110,
+      "endTimestamp": 1623244547,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 50.0,
+          "choice": 0
+        },
+        {
+          "total": 7858.4,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12603710
+          },
+          "event": "queued",
+          "timestamp": 1623286858,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12619036
+          },
+          "event": "executed",
+          "timestamp": 1623492636,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 50.0,
+          "choice": 0
+        },
+        {
+          "total": 7858.4,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjIz",
+      "id": "23",
+      "title": "Add xINV to Anchor",
+      "content": "I propose to add xINV to Anchor. xINV is an Anchor market that users can enter by depositing INV as underlying collateral.\n\nUsers who deposit into xINV will receive 4 main benefits:\n- Ability to borrow any assets on Anchor using INV as collateral\n- Compounded INV treasury rewards every block\n- Potential protocol fee sharing\n- Ability to vote or delegate using GovernorCharlie (pending governance contract upgrade)\n\nBelow are the proposed deployment parameters. Please note that each of these parameters can be changed by a governance vote in the future.\n- Collateral factor: 50%\n- Withdrawal escrow duration: 14 days\n- Reward rate: 1500 INV per month\n- Oracle feed: Sushiswap TWAP oracle",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 59,
+      "blockNumber": 12437803,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1621066038,
+      "endTimestamp": 1621296803,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 125.61037,
+          "choice": 0
+        },
+        {
+          "total": 8635.407,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12455836
+          },
+          "event": "queued",
+          "timestamp": 1621306779,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12468685
+          },
+          "event": "executed",
+          "timestamp": 1621479764,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 125.61037,
+          "choice": 0
+        },
+        {
+          "total": 8635.407,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjIy",
+      "id": "22",
+      "title": "Refresh rewards for Dola 3CRV LPs",
+      "content": "DESCRIPTION\nThis is a proposal to execute the following action:\n- Allocate 750 INV for a month to DOLA 3CRV LP rewards.\n\nRATIONALE\nLiquidity is essential for Anchor, and currently liquidity is not ample enough. Hopefully this proposal will encourage more stakers to provide liquidity and maintain the DOLA peg. \nWhile we would like to find other solutions for maintaining liquidity, we will allocate rewards for the time being while we investigate a future solution.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x08D816526BdC9d077DD685Bd9FA49F58A5Ab8e48",
+      "totalVotes": 36,
+      "blockNumber": 12364831,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1620092230,
+      "endTimestamp": 1620322573,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 70.0,
+          "choice": 0
+        },
+        {
+          "total": 5642.5083,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12382356
+          },
+          "event": "queued",
+          "timestamp": 1620325662,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12395775
+          },
+          "event": "executed",
+          "timestamp": 1620504876,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 70.0,
+          "choice": 0
+        },
+        {
+          "total": 5642.5083,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjIx",
+      "id": "21",
+      "title": "Deposit DAI in treasury to DOLA Stabilizer in order to provide liquidity and support demand for DOLA",
+      "content": "This is a proposal to purchase DOLA with the DAI in the treasury in order to provide the stabilizer with more liquidity.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x08D816526BdC9d077DD685Bd9FA49F58A5Ab8e48",
+      "totalVotes": 41,
+      "blockNumber": 12337644,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1619729229,
+      "endTimestamp": 1619960434,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 6402.5654,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12355235
+          },
+          "event": "queued",
+          "timestamp": 1619964754,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12369393
+          },
+          "event": "executed",
+          "timestamp": 1620153188,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 6402.5654,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjIw",
+      "id": "20",
+      "title": "Acquire Tonic Finance",
+      "content": "Tonic Finance is a competitor building a product (Swirl) in the DCA space. An opportunity was identified to acquire Tonic, its assets, and the services of its lead developer, Tony Snark, with a view to merge the tech and have Tony lead development on the Inverse Finance DCA vaults.\n\nFor the acquisition of Tonic Finance DAO and all related assets, excluding any pending grants disclosed prior to the date of this agreement: 1500 INV\n\n- 250 INV paid up-front, at the time this proposal is passed (no vesting)\n- 250 INV paid upon confirmation of Tony becoming a full-time contributor to Inverse Finance (total amount will be reserved by Inverse Deployer at the time this proposal is passed)\n- 1000 INV vested over 2 years (vesting starts upon confirmation of Tony becoming a full-time contributor to Inverse Finance, total amount will be reserved by Inverse Deployer at the time this proposal is passed)\n- First year vesting is non-seizable\n\nFor contributions as a developer on a full-time basis for the first 12 months from the mutually agreed start date of full-time contributions: 175 INV\n- Paid in INV linearly upon confirmation of Tony becoming a full-time contributor to Inverse Finance (total amount will be reserved by Inverse Deployer at the time this proposal is passed)\n- Contributions subject to verification by DAO\n- Reevaluated after 12 months\n\nTony has already moved ownership of Tonic Finance domain name and Github repositories to Inverse before this proposal was submitted.\n\nFor full proposal text, please refer to: https://discord.com/channels/790157548845924352/794610028799721472/829031642856292472",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 133,
+      "blockNumber": 12328020,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1619600914,
+      "endTimestamp": 1619831595,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 14083.266,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12353225
+          },
+          "event": "queued",
+          "timestamp": 1619937690,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12370563
+          },
+          "event": "executed",
+          "timestamp": 1620168858,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 14083.266,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjE5",
+      "id": "19",
+      "title": "Another Thing You Don't Need To Worry About",
+      "content": "Re-enable WBTC lending on Anchor\n\nPlease ignore the previous proposal as it will fail to execute due to a minimum 48-hour delay hardcoded in the Timelock contract",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x00A5af2D7DA07dF76073A6f478f0fB4942D2659a",
+      "totalVotes": 45,
+      "blockNumber": 12237893,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1618399302,
+      "endTimestamp": 1618630072,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 4156.193,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12257201
+          },
+          "event": "queued",
+          "timestamp": 1618657226,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12271665
+          },
+          "event": "executed",
+          "timestamp": 1618850902,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 4156.193,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjE4",
+      "id": "18",
+      "title": "Lower Proposal Queue Duration And Some Other Thing You Don't Need To Worry About",
+      "content": "- Lower proposal queue duration from 48 hours to 24 hours for future proposals (4 days total vote duration)\n- Re-enable WBTC lending on Anchor (previous proposal was incorrectly submitted due to a proposal UI bug, oops!)",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 49,
+      "blockNumber": 12237649,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1618395839,
+      "endTimestamp": 1618626380,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 4039.9792,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12351490
+          },
+          "event": "queued",
+          "timestamp": 1619914324,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 4039.9792,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjE3",
+      "id": "17",
+      "title": "Re-enable WBTC lending on Anchor",
+      "content": "Out of extreme caution, the Anchor guardian role had decided to pause WBTC lending to investigate a small chance of market misconfiguration.\n\nOnly governance can re-enable WBTC lending.\n\nI propose to re-enable WBTC lending since no issues were found and all Anchor markets are functioning properly.\n",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 74,
+      "blockNumber": 12202494,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1617928774,
+      "endTimestamp": 1618159030,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 7724.163,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12220235
+          },
+          "event": "queued",
+          "timestamp": 1618164706,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12234259
+          },
+          "event": "executed",
+          "timestamp": 1618350402,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 7724.163,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjE2",
+      "id": "16",
+      "title": "Add DolaFlashMinter as a minter for DOLA",
+      "content": "To facilitate liquidations on Anchor, the DolaFlashMinter contract (0x6112818d0c0d75448551b76ec80f14de10f4e054) should get minting rights for DOLA to allow flash liquidators to easily liquidate underwater positions, maintaining the solvency of Anchor.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x2f80E5163A7A774038753593010173322eA6f9fe",
+      "totalVotes": 74,
+      "blockNumber": 12168818,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1617482283,
+      "endTimestamp": 1617711217,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 97.51686,
+          "choice": 0
+        },
+        {
+          "total": 10110.18,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12187079
+          },
+          "event": "queued",
+          "timestamp": 1617724135,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12201807
+          },
+          "event": "executed",
+          "timestamp": 1617919849,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 97.51686,
+          "choice": 0
+        },
+        {
+          "total": 10110.18,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjE1",
+      "id": "15",
+      "title": "Add WBTC, YFI and xSUSHI to Anchor and set INV rewards",
+      "content": "- Add Chainlink feeds for WBTC, YFI and xSushi to Anchor oracle\n- List and accept ownership of anWBTC, anYFI and anXSUSHI Anchor markets\n- Set collateral factor to 60 for all assets on Anchor\n- Distribute current ETH market rewards across all markets (except for DOLA)",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 82,
+      "blockNumber": 12168196,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1617474075,
+      "endTimestamp": 1617702904,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 10289.78,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12187079
+          },
+          "event": "queued",
+          "timestamp": 1617724135,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12202036
+          },
+          "event": "executed",
+          "timestamp": 1617923135,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10289.78,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjE0",
+      "id": "14",
+      "title": "Distribute INV staking rewards to INV-ETH Uniswap LPs and DOLA-3CRV Curve LPs",
+      "content": "DESCRIPTION\n\nI propose two simultaneous 30-day staking reward events\n- INV-ETH Uniswap LP token staking for a total of 1000 INV\n- DOLA-3CRV Curve LP token staking for a total of 200 INV\n\nRATIONALE\n\nWith INV listings pending for Anchor, Fuse, and potentially Cream, there is currently insufficient liquidity (< $1m) in the INV-ETH pool to safely service this usage.\n\nAdditionally, if INV is used as collateral to borrow an asset (say DOLA or ETH) and the INV price goes down, a liquidator repays the loan (in DOLA or ETH) to get INV, the liquidator will be forced to sell INV at a discount to their target asset, crashing the price of INV\n\nSince DOLA-ETH staking ended, DOLA liquidity and demand have plummeted. As incentives for supplying ETH on Anchor are about to go into effect, a new DOLA staking incentive would incentivize Anchor ETH suppliers to borrow DOLA and stake on Curve, generating borrowing interest revenue to the treasury and boosting DOLA liquidity.\n\nThanks to Curve's low IL risk, Anchor DOLA borrowers face significantly lower risk when LP-ing and therefore the reward rate is reduced from the previous staking event's 625 INV to 50 INV per week.\n\nThese incentives buy us time (1 month) to finish development and execution of LP token auctions.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 135,
+      "blockNumber": 12106015,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1616647627,
+      "endTimestamp": 1616877124,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 14908.125,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12125902
+          },
+          "event": "queued",
+          "timestamp": 1616911709,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12138938
+          },
+          "event": "executed",
+          "timestamp": 1617084661,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 14908.125,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjEz",
+      "id": "13",
+      "title": "Incentivize INV Liquidity Providers on Ruler",
+      "content": "Proposal\nWith the INV-DAI Ruler pair expiring at the end of this month (12 days), I propose we allocate INV as rewards to bootstrap liquidity, which will:\n- Allow borrowing of larger amounts against their INV\n- Lower interest rates for borrowers\n\nDescription\nThe Inverse community is extremely loyal and most users have yet to sell their airdrop, but may want to borrow against their INV positions. Ruler separates itself from other lending/borrowing platforms by offering non-liquidatable loans while also not requiring a Chainlink oracle.\n\nI propose we incentivize the liquidity pools with 30 INV (~$40,000) from April 1st to April 30th. Ruler will match the 30 INV with 200 RULER (~$40,000), for a total of $80,000 in rewards over the month (4/1-4/30). The current March expiry INV pair has 200 RULER as incentives and has gathered ~$425k in liquidity. Doubling the rewards by adding INV should increase liquidity to close to $850k, enough to support large borrows.\n\nRationale\nThe value of the 80 airdropped INV is currently valued at ~$104,000. Even with a conservative mint ratio, large amounts of borrowing would drastically shift the interest rates if there is a lack of liquidity. \n\nAction\nIncentivize the Ruler INV pair from April 1st to April 30th by transferring 30 INV from the Inverse treasury to Ruler multisig (0x49B8a0893B83A171D7d461198b69A0b1bb4dd0Ed).\n\nOutcome\n30 INV + 200 RULER will be rewarded from April 1st to 30th ($80,000 in total rewards over a month).\n\nBy offering INV rewards to LPs, compounded with the use of crv.finance pools, the liquidity will be sufficiently deep enough to support large borrows/lends. This in turn means, the interest rate for borrowing will be much lower.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x2f80E5163A7A774038753593010173322eA6f9fe",
+      "totalVotes": 105,
+      "blockNumber": 12098776,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1616551143,
+      "endTimestamp": 1616780528,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 24.248165,
+          "choice": 0
+        },
+        {
+          "total": 11628.652,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12116820
+          },
+          "event": "queued",
+          "timestamp": 1616790636,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12136773
+          },
+          "event": "executed",
+          "timestamp": 1617056186,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 24.248165,
+          "choice": 0
+        },
+        {
+          "total": 11628.652,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjEy",
+      "id": "12",
+      "title": "Accept Anchor ownership, set ETH market rewards & change Stabilizer fees",
+      "content": "- Accept ownership of all Anchor and DOLA contracts\n- Set 600 INV rewards for all ETH lenders and borrowers on Anchor for a duration of 1 month\n- Set Stabilizer buy and sell fees to 0.4% each in order to prevent competition with Uniswap and Curve DOLA LPs\n\nThe transferred contracts are:\n- DOLA token contract (ability to mint and add/remove minters)\n- Anchor comptroller contract (central controller of Anchor)\n- ETH and DOLA market contracts\n\nThe following contracts are already controlled by gov and will require no change of ownership:\n- Stabilizer (ability to set fees and change operator)\n- Fed (ability to change the Fed chair)\n- Anchor oracle contract (ability to add/remove price feeds)\n- DOLA & ETH interest rate model",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 113,
+      "blockNumber": 12079642,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1616295739,
+      "endTimestamp": 1616526486,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 18.000088,
+          "choice": 0
+        },
+        {
+          "total": 16286.904,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12098593
+          },
+          "event": "queued",
+          "timestamp": 1616548697,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12112395
+          },
+          "event": "executed",
+          "timestamp": 1616732291,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 18.000088,
+          "choice": 0
+        },
+        {
+          "total": 16286.904,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjEx",
+      "id": "11",
+      "title": "Refund Gas Fees For Inverse Finance Operations",
+      "content": "Since inception Nour has personally covered gas fees for DCA Vaults harvester and Anchor protocol deployer. The amount spent on gas to date is $21,034.13.\n\nHarvester \n(https://app.zerion.io/0x237e332ae87e749ea763ca1aacf87894c3180911/history)\n\nDeployer\n(https://app.zerion.io/0x3fcb35a1cbfb6007f9bc638d388958bc4550cb28/history)\n\nThis proposal sets an allowance to the value of 21,000 DAI to be drawn down by the deployer to reimburse the gas expenditure.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x724F321C4efeD5e3C7CcA40168610c258c82d02F",
+      "totalVotes": 37,
+      "blockNumber": 11961536,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1614723915,
+      "endTimestamp": 1614954162,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 80.0,
+          "choice": 0
+        },
+        {
+          "total": 15220.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11979362
+          },
+          "event": "queued",
+          "timestamp": 1614961037,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 11992475
+          },
+          "event": "executed",
+          "timestamp": 1615135231,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 80.0,
+          "choice": 0
+        },
+        {
+          "total": 15220.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjEw",
+      "id": "10",
+      "title": "Make INV finally transferable.",
+      "content": "Make DAO great again!",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0xfe97B38192Cb30aDD0bBe5e01E6a617562CC8318",
+      "totalVotes": 109,
+      "blockNumber": 11946166,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1614519801,
+      "endTimestamp": 1614749945,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 13060.0,
+          "choice": 0
+        },
+        {
+          "total": 14380.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11963472
+          },
+          "event": "queued",
+          "timestamp": 1614750188,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 11976495
+          },
+          "event": "executed",
+          "timestamp": 1614923008,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 13060.0,
+          "choice": 0
+        },
+        {
+          "total": 14380.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjk=",
+      "id": "9",
+      "title": "Distribute non-transferrable INV rewards for DOLA-ETH Uniswap Pool LPs",
+      "content": "This proposal will incentivize liquidity providers for participating in the DOLA-ETH Uniswap Pool (https://info.uniswap.org/pair/0xecfbe9b182f6477a93065c1c11271232147838e5). The reward period is 2 weeks long and a total of 1250 INV (non-transferrable) will be distributed to liquidity providers.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x724F321C4efeD5e3C7CcA40168610c258c82d02F",
+      "totalVotes": 47,
+      "blockNumber": 11943350,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1614482028,
+      "endTimestamp": 1614711908,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 2500.0,
+          "choice": 0
+        },
+        {
+          "total": 16880.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11960696
+          },
+          "event": "queued",
+          "timestamp": 1614712762,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 11973641
+          },
+          "event": "executed",
+          "timestamp": 1614885781,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 2500.0,
+          "choice": 0
+        },
+        {
+          "total": 16880.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjg=",
+      "id": "8",
+      "title": "Invest Dai reserves of the Stabilizer in a Yearn v2 strategy",
+      "content": "DOLA Stabilizer contract allows governance to invest its Dai reserves using any strategy and sends profit to the treasury.\n\nThis proposal re-uses the existing Yearn v2 strategy code previously used in Inverse DCA vaults in order to invest the Stabilizer Dai reserves.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 44,
+      "blockNumber": 11930307,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1614308797,
+      "endTimestamp": 1614539108,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 16760.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11947890
+          },
+          "event": "queued",
+          "timestamp": 1614543279,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 11961733
+          },
+          "event": "executed",
+          "timestamp": 1614726370,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 16760.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjc=",
+      "id": "7",
+      "title": "Seize INV from Inactive Addresses (2 of 2) ",
+      "content": "PROPOSAL \n\nSeize the INV tokens of fully inactive addresses and transfer them to the DAO for later use.\n\nDESCRIPTION \n\nActive addresses (or members) are defined by having participated to the DAO in at least one of the following ways :\n\n1. Delegated votes to an address including their own address\n2. Voted a minimum of one time (either on-chain or on the two snapshots preceding this proposal [2])\n3. Deposited in any of the Inverse.finance vaults\n\nConversely, inactive addresses are addresses who have not performed any of the actions cited above.\n\nThe list of fully inactive addresses as determined by auditing the full set of original INV holders against the actions above is appended to this proposal [3].\n\nRATIONALE \n\nInverse Finance initially required an in-depth application to be included in the DAO. The core part of this process was hinged on user involvement. In other words, Inverse has made it abundently clear from the very start that it sought to exclude “freeloaders” or fully passive members [1]. In fact, the original distribution of INV could also be thought of as the first “Roll Call”.\n\nInverse Finance’s definition of “contribution” is also very generous and extensive. Therefore, at this point in time, it is safe to assume that fully inactive members are not interested in being part of the DAO anymore. However, these few idle members were granted a final chance to signal their interest in being part of the DAO by voting in a roll call on Snapshot (and not on-chain) for maximum participation and accessibility.\n.\nACTIONS \n\n1. Conduct Snapshot (gasless and off-chain) votes for this proposal lasting exactly 10 days (240 hours) to allow holders to identify themselves as active. - DONE [2]\n2. Create a formal on-chain proposal containing the code to transfer the INV of fully inactive members to the DAO. Technically, these addresses would be the addresses cited below that did not take part in the Snapshot vote, or any of the actions lised in the DESCRIPTION.\n3. Seize the tokens of fully inactive addresses and mint the tokens into the INV treasury.\n\nNOTE: Two proposals are required to fully seize the tokens as the proposal structure supports a maximum of 19 actions. Both proposals will be posted simultaneously.\n.\nOUTCOMES \n\nAfter execution of both proposals 2560 INV is freed for later use by the DAO. It can be used to give to new, active members or to reward current active members for their participation.\n\nMost importantly, INV transfers (and trades) can be enabled with the assurance that only active DAO members are holding it.\n\nIn conclusion, the Seize will provide a clean slate of active DAO members to keep building Inverse Finance.\n\n----\n\n[1] See tweets :\nhttps://twitter.com/InverseFinance/status/1340699906072297474, https://twitter.com/InverseFinance/status/1340682301156564992, https://twitter.com/InverseFinance/status/1340677428830744577, https://twitter.com/InverseFinance/status/1340690620235608066, https://twitter.com/InverseFinance/status/1340691250178109440.\n\n[2] See:\nhttps://snapshot.page/#/inversefinance.eth/proposal/QmYJqfhA1u8xrWgZAm8wrxViUGnXdp2nJBmXSy2d5UWz1m\nand\nhttps://snapshot.page/#/inversefinance.eth/proposal/QmPXFNwtrEtEwaF7VEqZhTx27yL6DhvUJHkw3VhPPLQfqu\n.\n[3] As per https://github.com/InverseFinance/witch-hunt/blob/main/seize.csv",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x724F321C4efeD5e3C7CcA40168610c258c82d02F",
+      "totalVotes": 46,
+      "blockNumber": 11895617,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1613848095,
+      "endTimestamp": 1614078208,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 160.0,
+          "choice": 0
+        },
+        {
+          "total": 13900.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11914131
+          },
+          "event": "queued",
+          "timestamp": 1614094178,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 11928427
+          },
+          "event": "executed",
+          "timestamp": 1614284015,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 160.0,
+          "choice": 0
+        },
+        {
+          "total": 13900.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjY=",
+      "id": "6",
+      "title": "Seize INV from Inactive Addresses (1 of 2) ",
+      "content": "PROPOSAL \n\nSeize the INV tokens of fully inactive addresses and transfer them to the DAO for later use.\n\nDESCRIPTION \n\nActive addresses (or members) are defined by having participated to the DAO in at least one of the following ways :\n\n1. Delegated votes to an address including their own address\n2. Voted a minimum of one time (either on-chain or on the two snapshots preceding this proposal [2])\n3. Deposited in any of the Inverse.finance vaults\n\nConversely, inactive addresses are addresses who have not performed any of the actions cited above.\n\nThe list of fully inactive addresses as determined by auditing the full set of original INV holders against the actions above is appended to this proposal [3].\n\nRATIONALE \n\nInverse Finance initially required an in-depth application to be included in the DAO. The core part of this process was hinged on user involvement. In other words, Inverse has made it abundently clear from the very start that it sought to exclude “freeloaders” or fully passive members [1]. In fact, the original distribution of INV could also be thought of as the first “Roll Call”.\n\nInverse Finance’s definition of “contribution” is also very generous and extensive. Therefore, at this point in time, it is safe to assume that fully inactive members are not interested in being part of the DAO anymore. However, these few idle members were granted a final chance to signal their interest in being part of the DAO by voting in a roll call on Snapshot (and not on-chain) for maximum participation and accessibility.\n.\nACTIONS \n\n1. Conduct Snapshot (gasless and off-chain) votes for this proposal lasting exactly 10 days (240 hours) to allow holders to identify themselves as active. - DONE [2]\n2. Create a formal on-chain proposal containing the code to transfer the INV of fully inactive members to the DAO. Technically, these addresses would be the addresses cited below that did not take part in the Snapshot vote, or any of the actions lised in the DESCRIPTION.\n3. Seize the tokens of fully inactive addresses and mint the tokens into the INV treasury.\n\nNOTE: Two proposals are required to fully seize the tokens as the proposal structure supports a maximum of 19 actions. Both proposals will be posted simultaneously.\n.\nOUTCOMES \n\nAfter execution of both proposals 2560 INV is freed for later use by the DAO. It can be used to give to new, active members or to reward current active members for their participation.\n\nMost importantly, INV transfers (and trades) can be enabled with the assurance that only active DAO members are holding it.\n\nIn conclusion, the Seize will provide a clean slate of active DAO members to keep building Inverse Finance.\n\n----\n\n[1] See tweets :\nhttps://twitter.com/InverseFinance/status/1340699906072297474, https://twitter.com/InverseFinance/status/1340682301156564992, https://twitter.com/InverseFinance/status/1340677428830744577, https://twitter.com/InverseFinance/status/1340690620235608066, https://twitter.com/InverseFinance/status/1340691250178109440.\n\n[2] See:\nhttps://snapshot.page/#/inversefinance.eth/proposal/QmYJqfhA1u8xrWgZAm8wrxViUGnXdp2nJBmXSy2d5UWz1m\nand\nhttps://snapshot.page/#/inversefinance.eth/proposal/QmPXFNwtrEtEwaF7VEqZhTx27yL6DhvUJHkw3VhPPLQfqu\n.\n[3] As per https://github.com/InverseFinance/witch-hunt/blob/main/seize.csv",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x00A5af2D7DA07dF76073A6f478f0fB4942D2659a",
+      "totalVotes": 50,
+      "blockNumber": 11895502,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1613846805,
+      "endTimestamp": 1614076811,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 160.0,
+          "choice": 0
+        },
+        {
+          "total": 14220.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11914131
+          },
+          "event": "queued",
+          "timestamp": 1614094178,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 11928424
+          },
+          "event": "executed",
+          "timestamp": 1614283997,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 160.0,
+          "choice": 0
+        },
+        {
+          "total": 14220.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjU=",
+      "id": "5",
+      "title": "Apply a fee of 10% on yield generated by the DCA Vaults",
+      "content": "Each vault has a configurable fee that is applied during harvest upon the global yield of the vault. The fee for all vaults is currently 0%. \n\nThis proposal changes the fee to 10% for all vaults: DAI-ETH, DAI-YFI, DAI-WBTC, and USDC-ETH. \n\nThe fees collected (in DAI) will be sent to the Inverse Finance treasury (0x926dF14a23BE491164dCF93f4c468A50ef659D5B). ",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x724F321C4efeD5e3C7CcA40168610c258c82d02F",
+      "totalVotes": 37,
+      "blockNumber": 11777749,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1612281608,
+      "endTimestamp": 1612511371,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 17400.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11797799
+          },
+          "event": "queued",
+          "timestamp": 1612548074,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 11813762
+          },
+          "event": "executed",
+          "timestamp": 1612760165,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 17400.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjQ=",
+      "id": "4",
+      "title": "Approve 2000 INV allowance to the Grants Committee from DAO treasury",
+      "content": "A Grants Committee of 5 was elected by informal voting to manage the distribution of INV grants to individual DAO contributors.\n\n5 committee members:\nDAO founder: Nour\nDelegates: Somer and Ben Lavabo\nDAO members: Knockerton and MrBrownWhale\n\nThese members have formed a 5-of-5 multisig where all decisions have to be approved unanimously by all 5 members.\n\nMultisig Address: 0x77C64eEF5F4781Dd6e9405a8a77D80567CFD37E0\n\nOn behalf of the committee members, I request a 2000 INV allowance from the treasury to the committee multisig to fund the first batch of INV grants. This proposal does not transfer INV to the multisig address. Instead, it allows the multisig to spend up to the allowance amount directly from the treasury address.\n\nThe DAO members will reserve the right to revoke this allowance using on-chain voting if need be in the future. Additionally, as long as INV token is non-tradable, the DAO also reserves the right to seize INV from grant recipients using on-chain voting if need be.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 42,
+      "blockNumber": 11668102,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1610825060,
+      "endTimestamp": 1611054678,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 80.0,
+          "choice": 0
+        },
+        {
+          "total": 18420.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11687606
+          },
+          "event": "queued",
+          "timestamp": 1611083909,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 11705421
+          },
+          "event": "executed",
+          "timestamp": 1611320187,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 80.0,
+          "choice": 0
+        },
+        {
+          "total": 18420.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjM=",
+      "id": "3",
+      "title": "Make all INV tokens transferrable",
+      "content": "At this time, Inverse DAO is not a full DAO, it is some kind of \"DAO for the elite\" imho, so i am submitting a proposal to unlock INV tokens so make them transferrable/tradable, so anybody can buy and become part of DAO.\n\nIf this proposal passes, INV tokens will also no longer be seizable by the DAO.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x509ACD024654930daB87d03a28768f756481c035",
+      "totalVotes": 53,
+      "blockNumber": 11614768,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1610117905,
+      "endTimestamp": 1610347857,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 14080.0,
+          "choice": 0
+        },
+        {
+          "total": 3520.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 14080.0,
+          "choice": 0
+        },
+        {
+          "total": 3520.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjI=",
+      "id": "2",
+      "title": "Add unclaimed INV tokens to the treasury",
+      "content": "Burn, re-mint and send all 18,180 unclaimed INV tokens to the DAO timelock contract (treasury) for future use by the DAO.\n\nThis proposal does not remove the unclaimed tokens from the total supply or distribute it.",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 46,
+      "blockNumber": 11614016,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1610107845,
+      "endTimestamp": 1610337281,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 80.0,
+          "choice": 0
+        },
+        {
+          "total": 17920.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11632158
+          },
+          "event": "queued",
+          "timestamp": 1610349087,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 11647833
+          },
+          "event": "executed",
+          "timestamp": 1610556481,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 80.0,
+          "choice": 0
+        },
+        {
+          "total": 17920.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aW52ZXJzZTpvbmNoYWluOjE=",
+      "id": "1",
+      "title": "1st Soul Harvest: Seize unclaimed INV",
+      "content": "Remove the INV distributor contract from the trading whitelist, effectively seizing the remaining unclaimed INV tokens (currently about 20k).\n\nBurning these tokens from the supply must be done in a future vote using the seize() function, because the amount of remaining tokens must be fixed before (which will be the case if this vote passes).",
+      "protocol": "inverse",
+      "adapter": "onchain",
+      "proposer": "0x3FcB35a1CbFB6007f9BC638D388958Bc4550cB28",
+      "totalVotes": 53,
+      "blockNumber": 11577886,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1609628525,
+      "endTimestamp": 1609858066,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 560.0,
+          "choice": 0
+        },
+        {
+          "total": 16700.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 11595470
+          },
+          "event": "queued",
+          "timestamp": 1609862415,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 11609952
+          },
+          "event": "executed",
+          "timestamp": 1610054953,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 560.0,
+          "choice": 0
+        },
+        {
+          "total": 16700.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

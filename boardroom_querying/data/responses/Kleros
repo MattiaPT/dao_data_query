@@ -1,0 +1,1741 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4MGMyZDNjZmYxZDUwODk5MTc4NWNlNDRjNTJmYmFmNWIzNjUzYTc5NWVjNTMwMGFmYzg5NmY3YzhiNGFhYzY0OA==",
+      "id": "0x0c2d3cff1d508991785ce44c52fbaf5b3653a795ec5300afc896f7c8b4aac648",
+      "title": "KIP-71 Court proposal on Gnosis Chain: Humanity Court",
+      "content": "### Summary:\n\nThis proposal aims to establish a new \"Humanity Court\" on the Gnosis Chain to manage disputes arising from the [Proof of Humanity (PoH) Origin](https://gov.proofofhumanity.id/t/key-components-of-proof-of-humanity-origin/3065) registration system. The Humanity Court will function similarly to the existing Humanity Court on the Ethereum network but will operate on the Gnosis Chain to ensure cross-chain compatibility and accessibility for users of PoH Origin.\n\n### Context:\n\nProof of Humanity Origin (PoH Origin) has introduced a new, decentralised, sybil-resistant human registration system deployed on both Gnosis and Ethereum mainnet. The system is designed to ensure a unique identity verification process for humans across both networks. As a result, there is a need for a dedicated Humanity Court on Gnosis Chain to handle disputes related to registration and identity verification under this new framework.\n\n### Proposal Details:\n\n1. Court Name:\nHumanity Court\n\n2. Parent Court:\nGeneral Court\n\n3. Court Parameters:\n\n* Hidden Votes: 0 (Avoiding a reveal period allows faster resolution time)\n* Proposed Juror Fee: 6.6 xDAI (xDAI is the native Gnosis Chain currency)\n* Proposed Minimum Stake (minstake): 5300 PNK (Pinakion tokens required for participation as a juror).\n* Proposed Alpha: 0.25 (Alpha defines the percentage of the minstake that can be lost by a juror for an incoherent vote)\n* Jurors for Jump: 14 (Number of jurors required for the first appeal.)\n* Times per Period: [140400, 291600, 291600, 194400]\n\n4. Court Policy:\n\n* Purpose:\nThe Humanity Court will handle disputes related to the establishment of sybil-resistant lists of unique human identities, specifically for the [Proof of Humanity (PoH) Origin](https://gov.proofofhumanity.id/t/key-components-of-proof-of-humanity-origin/3065) protocol. It will evaluate whether submitted evidence (such as photo and video) corresponds to a unique, living human being.\n\n* Required Skills for Jurors:\nJurors should have the ability to objectively assess whether a proposed submission, consisting of photo and video evidence, represents a unique human being and follow the [PoH v2 Policy](https://cdn.kleros.link/ipfs/QmTWdrNJ1KBsnNcMq5PeZQyvJfnwJexvDwnbLqZsVh2L21). This evaluation may include supplementary information provided as evidence by relevant parties.\n\n[Forum Proposal KIP-71 Court proposal on Gnosis Chain: Humanity Court](https://forum.kleros.io/t/kip-71-court-proposal-on-gnosis-chain-humanity-court/1123)",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x4D6CAa3E0983fAc7B514D60339EBb538C5A85AAe",
+      "totalVotes": 21,
+      "blockNumber": 20762618,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x0c2d3cff1d508991785ce44c52fbaf5b3653a795ec5300afc896f7c8b4aac648",
+      "startTime": {
+        "timestamp": 1726482959
+      },
+      "endTime": {
+        "timestamp": 1727088000
+      },
+      "startTimestamp": 1726482959,
+      "endTimestamp": 1727088000,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 4346911.5,
+          "choice": 0
+        },
+        {
+          "total": 500170.1,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4346911.9625224685,
+          "choice": 0
+        },
+        {
+          "total": 500170.09426150576,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1726483250085,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4ZjljNDIwNjZlNTY4OTYzNTZiYzYyZTEwNmJmNzNmYWJjNGRiZDgyNTEyNTUyNTVmNDk4ODgyNjZjYWRiYzYyYQ==",
+      "id": "0xf9c42066e56896356bc62e106bf73fabc4dbd8251255255f49888266cadbc62a",
+      "title": "KIP-70 Proposal to amend the description of the xDai Development Courts",
+      "content": "## Summary:\n\nThis proposal aims to amend the descriptions of the following courts:\n\n* xDai Development Court\n\n* xDai Solidity Court\n\n* xDai Javascript Court\n\n## Motivation:\n\nThe existing descriptions contain typos, grammar mistakes and lack clarity in the English language.\n\nRationale:\n\nThe modifications are intended to:\n\n1. Rectify grammar mistakes\n2. Offer a more comprehensive explanation of the courts’ purposes by broadening their scope. Whereas the previous versions stated the courts’ purpose as ruling on disputes regarding compliance with specifications provided by a client, the revised descriptions now extend to cover any software development-related dispute. Also, they are not limited to disputes arising from failure to comply with specifications provided by a client but also including those from other third parties. For example, disputes may arise between partners who have agreed to allocate personal resources and time to a new project, where one party fails to meet expectations.\n3. The amendments also aim to outline some really basic rules for these courts under the “policy” title, while providing examples of what may constitute good practices in software development. However, it is emphasized that explicitly agreed-upon specifications should govern these cases, and jurors should use their reasonable criteria, based on their experience and understanding of best practices, to resolve disputes. These amendments do not aim to establish detailed rules at this stage, but such may be considered if future court activity justifies providing a more detailed and separate policy.\n\n## Specification:\n\nIf this proposal is approved, the description of the xDai Development Courts will be as follows:\n\nxDai Development Court | Min Stake = 7,400 stPNK\nEach vote has a stake of 3,700 stPNK.\n\nCourt purpose\nThis court serves to arbitrate disputes arising from software development processes, including disputes between developers and third parties regarding whether the disputed software product aligns with the agreed specified requirements.\n\nPolicy\n\n1. Jurors must base their rulings on the software specifications mutually agreed upon by the involved parties prior to the initiation of the dispute.\nExample: A written and signed agreement between a developer and her client, or messages exchanged by the parties agreeing on the desired specifications for the final code.\n\n2. Unless agreed otherwise between the parties, the jurors must apply the following criteria:\na. Issues which do not put assets at risk nor directly affect the essential system functionalities are acceptable, especially with regards to functional, security, usability and performance issues. Issues which indirectly lead to the same impact must be supported by evidence demonstrating a valid execution path.\n\nExample 1: A suboptimal gas usage for a smart contract implementation is acceptable unless excessively wasteful in a way that hinders usability.\n\nExample 2: An issue directly leading to a temporary disruption of a core functionality is not acceptable.\n\nb. Minor deviations from best practices are acceptable, including but not limited to architectural decisions, tooling choices, or coding hygiene, unless such deviations breach section 2.a.\n\nExample 1: A codebase which mostly does not follow a consistent indentation or variable naming convention is not acceptable.\n\nExample 2: Best practices (such as KISS, YAGNI, DRY, SOLID, SoC, Low Coupling/High Cohesion) do not apply equally to every type of software project, so a smart contract codebase that does not follow DRY to better adhere to KISS is acceptable.\n\nc. Issues solely related to accessibility, modularity, interoperability, or other unspecified requirements must be disregarded.\n\n3. In instances where there are no explicitly agreed specifications that apply to the contested deliverable or if the parties provide contradictory evidence on the agreed specifications and there is no certainty on the authenticity of the presented evidence, jurors must rule considering:\na. The nature of the agreement between the developer and the third party;\nb. The specificities of the software being developed; and\nc. Best practices in software development that are applicable to the specific type of software being developed.\n\nRequired Skills\n\nThis court requires a good level of programming proficiency. Jurors are advised to participate in this court only if they possess an intermediate understanding of programming languages, algorithms, and good practices in software development.\n\nReward\n\nFor each coherent vote you will receive 30.00 xDAI.\n\nxDai Solidity Court | Min Stake = 7,400 stPNK\n\nEach vote has a stake of 3,700 stPNK.\n\nCourt purpose\n\nThis court serves to arbitrate disputes arising from software development processes using the programming language Solidity, including disputes between developers and third parties regarding whether the disputed software product aligns with the agreed specified requirements.\n\nPolicy\n\nThe parties involved in the dispute must highlight the sections or portions of the code that are being contested. Otherwise, jurors must refuse to arbitrate the dispute.\n\nRequired Skills\n\nThis court requires a proficient level of expertise in Solidity. Jurors are advised to participate in this court only if they possess the ability to develop relatively simple smart contracts, understand common Solidity security vulnerabilities, and evaluate the time and space complexity of simple functions.\n\nReward\n\nFor each coherent vote you will receive 30.00 xDAI.\n\nxDai Javascript Court | Min Stake = 7,400 stPNK\n\nEach vote has a stake of 3,700 stPNK.\n\nCourt purpose\n\nThis court serves to arbitrate disputes arising from software development processes using the programming language Javascript, including disputes between developers and third parties regarding whether the disputed software product aligns with the agreed specified requirements.\n\nPolicy\n\nThe parties involved in the dispute must highlight the sections or portions of the code that are being contested. Otherwise, jurors must refuse to arbitrate the dispute.\n\nRequired Skills\n\nThis court requires a proficient level of expertise in JavaScript. Jurors are advised to participate in this court only if they have an intermediate level of knowledge of the main frameworks and libraries (such as ExpressJS, React, Ethers.js, etc.), and are comfortable with testing, working with APIs, and interacting with databases using various languages.\n\nReward\n\nFor each coherent vote you will receive 30.00 xDAI.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x4D6CAa3E0983fAc7B514D60339EBb538C5A85AAe",
+      "totalVotes": 24,
+      "blockNumber": 19726056,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0xf9c42066e56896356bc62e106bf73fabc4dbd8251255255f49888266cadbc62a",
+      "startTime": {
+        "timestamp": 1713971862
+      },
+      "endTime": {
+        "timestamp": 1714576800
+      },
+      "startTimestamp": 1713971862,
+      "endTimestamp": 1714576800,
+      "currentState": "closed",
+      "choices": [
+        "Accept ",
+        "Reject "
+      ],
+      "results": [
+        {
+          "total": 8487492.0,
+          "choice": 0
+        },
+        {
+          "total": 881537.56,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8487492.729981769,
+          "choice": 0
+        },
+        {
+          "total": 881537.5652612356,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1713977419519,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4OTZmYzcxZTM2YTU3Yjc3MDU4ZjgwOTEzZmMwZjBjZDhmOWY4ZDk3NjE0NTAyMzVhYzEzN2E4NzMzNzQyY2VjOQ==",
+      "id": "0x96fc71e36a57b77058f80913fc0f0cd8f9f8d9761450235ac137a8733742cec9",
+      "title": "KIP-69 Parameter Updates (April 2024)",
+      "content": "I propose to update the parameters in the mainnet following courts:\n\n## General Court\nProposed juror fee : 0.02 ETH\nProposed minstake : 3700.0 PNK\n\n## Blockchain\nProposed juror fee : 0.02 ETH\nProposed minstake : 8100.0 PNK\n\n## Non-Technical\nBlockchain->Non-Technical\n\nProposed juror fee : 0.02 ETH\nProposed minstake : 13000.0 PNK\n\n## Token Listing\nBlockchain->Non-Technical->Token Listing\n\nProposed juror fee : 0.062 ETH\nProposed minstake : 36000.0 PNK\n\n## Technical\nBlockchain->Technical\n\nProposed juror fee : 0.037 ETH\nProposed minstake : 22000.0 PNK\n\n## Onboarding\nProposed juror fee : 0.01 ETH\nProposed minstake : 3700.0 PNK\nProposed alpha : 0.81\n\n## Corte General en Español\nProposed juror fee : 0.02 ETH\nProposed minstake : 5900.0 PNK\n\n## Humanity\nProposed juror fee : 0.02 ETH\nProposed minstake : 10000.0 PNK\n\nFurthermore, I propose to update the parameters in the following Gnosis Chain courts:\n\n## xDai General Court\nProposed juror fee : 14.0 xDai\nProposed minstake : 2100.0 stPNK\nProposed alpha : 1\n\n## xDai Curation\nProposed juror fee : 6.6 xDai\nProposed minstake : 2100.0 stPNK\nProposed alpha : 0.25\n\n## English Language\nProposed juror fee : 20.0 xDai\nProposed minstake : 3700.0 stPNK\n\n## Spanish-English Translation\nEnglish Language->Spanish-English Translation\n\nProposed juror fee : 8.6 xDai\nProposed minstake : 3700.0 stPNK\n\n## French-English Translation\nEnglish Language->French-English Translation\n\nProposed juror fee : 8.6 xDai\nProposed minstake : 3700.0 stPNK\n\n## Portuguese-English Translation\nEnglish Language->Portuguese-English Translation\n\nProposed juror fee : 8.6 xDai\nProposed minstake : 3700.0 stPNK\n\n## German-English Translation\nEnglish Language->German-English Translation\n\nProposed juror fee : 11.0 xDai\nProposed minstake : 3700.0 stPNK\n\n## Russian-English Translation\nEnglish Language->Russian-English Translation\n\nProposed juror fee : 11.0 xDai\nProposed minstake : 3700.0 stPNK\n\n## Korean-English Translation\nEnglish Language->Korean-English Translation\n\nProposed juror fee : 14.0 xDai\nProposed minstake : 3700.0 stPNK\n\n## Japanese-English Translation\nEnglish Language->Japanese-English Translation\n\nProposed juror fee : 14.0 xDai\nProposed minstake : 3700.0 stPNK\n\n## Turkish-English Translation\nEnglish Language->Turkish-English Translation\n\nProposed juror fee : 14.0 xDai\nProposed minstake : 3700.0 stPNK\n\n## Chinese-English Translation\nEnglish Language->Chinese-English Translation\n\nProposed juror fee : 14.0 xDai\nProposed minstake : 3700.0 stPNK\n\n## Corte General en Español\nProposed minstake : 4100.0 stPNK\nProposed alpha : 0.5\n\n## Corte de Curación en Español\nCorte General en Español->Corte de Curación en Español\n\nProposed minstake : 4100.0 stPNK\nProposed alpha : 0.13\n\n## Blockchain No Técnica\nCorte General en Español->Blockchain No Técnica\n\nProposed minstake : 4100.0 stPNK\nProposed alpha : 0.41\n\n## Motivation\nThis is mostly motivated by recent changes in crypto-prices. See the following doc: [Parameters - April 2024 - Google Docs 1](https://docs.google.com/document/d/1-YaKWiO0t5DbShnXsBbnw0OIKpKNB106Z4xGzlQ8VeE/edit#heading=h.ate778fys9ny) for more information on the process used to determine the parameter values proposed. Specifically, that doc includes links to the Google colab calculator used to generate (most of) the parameters and information on the inputs to that calculator which includes some data from live courts as well as some heuristics.\n\nA few points are of particular note \n\n* The calculation of the Humanity Court minstake deviates from what the calculator produces, following the logic described in KIP-59. (Essentially due to the very high rates of “reject” winning in this court, the minstake produced by the calculator in its efforts to disincentivize strategies based on always voting “reject” forces jurors to take on unacceptably high risk, even though jurors lose their deposits in this court very infrequently.) The proposed values essentially attempt to find a compromise on making this court acceptably resistant to automated voting strategies while still having an acceptable risk-return ratio for jurors. Feedback from jurors in that court on whether these values seem appropriate is welcome.\n\n* The calculator takes estimates of the range of gas prices that jurors need to pay to vote on mainnet. These proposed values are based on jurors being appropriately incentivized for gas prices up to 60 gwei, and coherent jurors receive a reward that is at least equal to the gas they paid in extreme gas environments up to 120 gwei.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x4D6CAa3E0983fAc7B514D60339EBb538C5A85AAe",
+      "totalVotes": 24,
+      "blockNumber": 19725986,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x96fc71e36a57b77058f80913fc0f0cd8f9f8d9761450235ac137a8733742cec9",
+      "startTime": {
+        "timestamp": 1713971310
+      },
+      "endTime": {
+        "timestamp": 1714576200
+      },
+      "startTimestamp": 1713971310,
+      "endTimestamp": 1714576200,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 9389005.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9394139.57086295,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1713977419519,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4MzZkYWVjNjgxNzQ2Zjk1NjcyOTNlOTY5OGYzNmQ2ODA4YjY3M2E4ZTU2ZDUyNjI2MGIxNjZmM2E0NDI1YTc4Nw==",
+      "id": "0x36daec681746f9567293e9698f36d6808b673a8e56d526260b166f3a4425a787",
+      "title": "KIP-67: Corte de Disputas Offchain en Español",
+      "content": "William George  proposes the following new Gnosis Chain court.\n\nCourt name: Corte de Disputas Offchain en Español\n\nParent court : Corte General en Español\n\nhiddenVotes : 0\n\nProposed juror fee : 1 xDAI\n\nProposed minstake : 6200.0 PNK\n\nProposed alpha : 0.5\n\nJurors for jump : 1\n\nTimes per period : [280800, 583200, 583200, 388800]\n\n## Propósito de la Corte\nEsta corte fue diseñada para utilizarse en disputas cuya decisión será ejecutada off-chain y en las que puede existir una compensación adicional, pagada por el agente centralizado que crea que la disputa, en base a unos requisitos off-chain (por ejemplo, que los jurados completen un proceso de verificación de identidad o que provean una justificación escrita adecuada para la decisión). Esta corte típicamente se utiliza para realizar pruebas sobre nuevos casos de uso. No se recomienda hacer stake en esta corte a menos que usted esté en contacto con alguna de las partes está realizando la prueba.\n\n## Políticas\nLos jurados que participan en esta corte aceptan que deben cumplir con requisitos adicionales, como los detallados en la sección “Propósito de la Corte”, para recibir la compensación adicional.\n\nAdemás de sólo realizar pagos a los jurados que satisfacen dichos requisitos, los pagos off-chain ofrecidos por el creador de la disputa podrían obedecer a una lógica que no se corresponde con la manera en que Kleros funciona para disputas puramente on-chain.\n\nPor ejemplo, el creador de la disputa podría considerar que la opción ganadora sea aquella que reciba la mayor cantidad de votos de jurados que hayan completado el proceso de verificación de identidad, y compensar a los jurados de acuerdo a si están de acuerdo con esa opción en lugar de con la opción que ha sido elegida por la mayor cantidad de votos on-chain.\n\nSin embargo, si la compensación adicional off-chain, que es creíblemente ofrecida por el creador de la disputa a los jurados que razonablemente satisfagan los requisitos, no se corresponde al nivel de dificultad requerido para realizar la tarea o si el creador de la disputa no provee información adecuada sobre las condiciones bajo las cuales ofrece esta compensación antes del comienzo del Período de Votación, entonces los jurados deberían votar “Negarse a Arbitrar”.\n\n## Habilidades Requeridas\nEste tribunal requiere un nivel avanzado de español. Los miembros del jurado deben poder leer la evidencia y proporcionar una justificación adecuada en español sobre una amplia gama de temas.\n\n## Motivation:\nThis court is designed to be used for some experiments/integrations that we want to do with traditional actors that have requirements on juror selection, e.g. that each unique juror has at most one vote, that Kleros 1.0 is not capable of satisfying directly because it was designed to resist Sybil attacks in an environment that only has access to limited notions of user identity. Various modules in Kleros 2.0 may eventually allow for some of these requirements to be integrated into the Kleros protocol directly. In the meantime, this court can be used as part of a hybrid approach where the on-chain random number generation of Kleros is used to select jurors in a credibly neutral fashion but then some off-chain entity that creates the dispute may impose additional requirements on jurors in order for their vote to be considered in the off-chain execution of the dispute. Correspondingly, this court is parameterized so that relatively low fees are offered by default with the expectation that the dispute creator provide additional compensation to the jurors that meet its requirements. Jurors who stake in this court should expect to be required to disclose web2-style information about their identity in order to receive full compensation. Note that the jurorsForCourtJump parameter is set so that any appeal from this court returns to a “normal court”.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x4D6CAa3E0983fAc7B514D60339EBb538C5A85AAe",
+      "totalVotes": 3,
+      "blockNumber": 18935043,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x36daec681746f9567293e9698f36d6808b673a8e56d526260b166f3a4425a787",
+      "startTime": {
+        "timestamp": 1704384484
+      },
+      "endTime": {
+        "timestamp": 1704903000
+      },
+      "startTimestamp": 1704384484,
+      "endTimestamp": 1704903000,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 20013.0,
+          "choice": 0
+        },
+        {
+          "total": 9354.022,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 20013.0,
+          "choice": 0
+        },
+        {
+          "total": 9354.022449095934,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704384527414,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4MjBlNzVmZTkzNjc1OTRhNDgyYmRlM2MyYWM2YTcxNjRhMDNjYmVjMTRhZTBkNzRhYmEwMGFjMWM4YTJlZGQ4MQ==",
+      "id": "0x20e75fe9367594a482bde3c2ac6a7164a03cbec14ae0d74aba00ac1c8a2edd81",
+      "title": "KIP-66: Long-Term Juror Incentive Program",
+      "content": "## Context\n\nMaintaining the[ economic security of the court](https://medium.com/kleros/why-kleros-needs-a-native-token-5c6c6e39cdfe) is vital for Kleros protocol. “Kleros economic security” refers to the system’s resistance against attacks and manipulations by malicious actors. A higher staking percentage enhances resistance against attacks and reinforces trust in the protocol.\n\nOn Feb 3, 2021, the community voted [KIP-37](https://snapshot.org/#/kleros.eth/proposal/QmbMAahL4Xj2oM5cDaPKAW3n7yZKLoQWtuEJLMoWersUsN) in order to distribute rewards in PNK to all users that staked their tokens. The program was renewed by [KIP-46](https://snapshot.org/#/kleros.eth/proposal/0x49e1f11cd5957b60c2c3008401af094c26ce8e940a3a740987b36282b55860e0) on Dec 22, 2021, and by [KIP-58](https://snapshot.org/#/kleros.eth/proposal/0x279f7f98e7781e5a511c4cc1334c80f5fb7fddc27398040fddd0a54f391dc9aa) on Dec 29, 2022.\n\nAs of December 19, 2023, data from[ Klerosboard](https://klerosboard.com/100/) shows that approximately 213 million PNK are staked in Kleros courts across both Ethereum and Gnosis Chain. This represents 28% of the total PNK supply. Meanwhile, around 120 million PNK, or 15% of the supply, are held by the Cooperative (either committed for future compensation for team members or used for liquidity on platforms like[ Uniswap](https://v2.info.uniswap.org/pair/0x343fd171caf4f0287ae6b87d75a8964dc44516ab) and[ Bitfinex](https://trading.bitfinex.com/t/PNK:USD?type=exchange)).\n\n\n\nSince the implementation of [KIP-37](https://snapshot.org/#/kleros.eth/proposal/QmbMAahL4Xj2oM5cDaPKAW3n7yZKLoQWtuEJLMoWersUsN), there has been more than 70% increase in PNK staked in Kleros (from 123M in March 2021 to 213M in Dec 2023).\n\nThe Juror Rewards Program was successful in increasing the proportion of staked PNK and bolstering the resistance of the protocol against 51% attacks.\n\n## Proposal\n\nThe goal of this proposal is to further increase the percentage of tokens staked in order to secure the protocol over the long term.\n\nFor this, it seeks to establish a long-term incentive program where users who stake their PNK tokens receive monthly rewards in PNK. The rewards to be distributed will depend on the duration and amount staked each month, calculated with the following formula.\n\nThe total reward for the next month `(i+1)` is given by:\n\n`R(i+1) = R(i) * (1 + t - s(i))`, where:\n\n* `s(i)`: Percentage of total PNK staked in month`i`.\n* `R(i)`: Reward in month i (amount of PNK distributed in month `i`).\n* `t`: Target percentage of PNK.\n\nThe target will ramp up by 1% each month starting from 28% (current staking level) until it reaches 50%.\n\nIn Dec 2023, 28% of PNK are staked, so the target for Jan 2024 will be 29%, the target for Feb 2024 will be 30% and so on. Every month there will be a 1% increase up to a final target of 50% in Oct 2025. Since that moment, the target will remain at 50% every month.\n\nThe target of 50% was chosen because with 50% staked it is extremely hard for a malicious player to do a 51% attack with a market buy.\n\nBelow are examples for January 2024 and how February 2024 rewards could behave:\n\nReward(Jan24)=Reward(Dec23)*(1+Target(Jan24)-Staked PNK %(Dec23))\n\n**Reward(Jan24)**=1 M*(1+29%-28%)=**1.01 M PNK.**\n\nExample 1: Increase in Staked PNK % in January\n\nIf, hypothetically, the staking percentage increases to 32% in January, the reward for February 2024 would then be:\n\nReward(Feb24)=Reward(Jan24)*(1+Target(Feb24)-Staked PNK %(Jan24))\n\n**Reward(Feb24)**=1.01 M*(1+30%-32%)=**0.9898 M PNK**\n\nExample 2: Decrease in Staked PNK % January\n\nIf, hypothetically, the staking percentage decreases to 24% in January, the reward for February 2024 would then be:\n\nReward(Feb24)=Reward(Jan24)*(1+Target(Feb24)-Staked PNK %(Jan24))\n\n**Reward(Feb24)**=1.01 M*(1+30%-24%)=**1.0706 M PNK**\n\nWith these two hypothetical examples we can clearly see:\n\n* If the Staked PNK % increases over the target the rewards will decrease.\n* If the Staked PNK % decreases below the target the rewards will increase.\n\n**Why this Formula?**\n\nThe formula aims at continuing the increase of the percentage of staked PNK as well as to allow for a long term stability and predictability of the Juror Incentive Program.\n\nUnlike the previous rewards model implemented by KIP-37, KIP-46 and KIP-58 which used a fixed total reward and that had to be renewed every year, this proposal adjusts the rewards efficiently, avoiding excess allocation when goals are met, and gives long term predictability to the program.\n\nThis formula also encourages decentralisation and behaviour alignment by rewarding users who contribute to securing the protocol through staking and adhere to Kleros’ long-term vision. The fact that the adjustment is done gradually gives market participants enough time to position themselves accordingly.\n\n**Allocation between Ethereum Mainnet and GnosisChain:**\n\nThe proposed allocation is 90% on Ethereum Mainnet and 10% on Gnosis Chain. This allocation mirrors the previous year, focusing on having the maximum economic security on Ethereum Mainnet.\n\n**Specific Allocation for Kleros 2.0:**\n\nThe Cooperative is currently working on Kleros 2.0 (more details [here](https://blog.kleros.io/the-kleros-vision/)). At some point in the future, during a testing phase, Kleros 2.0 will be live in parallel to Kleros 1.0.\n\nWhen Kleros 2.0 is deemed usable and secure enough, Kleros 1.0 will be deprecated and all the court activity will be moved to Kleros 2.0. This event will be called “The Kleros Merge” in analogy to the Ethereum Merge.\n\nWhen Kleros 2.0 becomes live, before the Kleros Merge, 10% of the incentives distributed by this program will be directed to Kleros 2.0 jurors (leading to a 80% in Ethereum mainnet, 10% in Gnosis and 10% in Kleros 2.0). After the Kleros Merge, all the rewards will be distributed in Kleros 2.0.\n\n## Details\n\nThe tokens will be distributed using a Merkle Drop contract. The distribution will be done once a month and the computation of rewards may use snapshots.\n\n## Means\n\nInitially, the reward distribution will be handled by the Kleros Cooperative. After Kleros 2.0 is launched, a proposal could be made to implement the distribution at the protocol level (and potentially auto-compound them).\n\nAt the beginning of each year, the Kleros DAO will mint for the Kleros Cooperative Safe (eth:0xE979438B331b28D3246f8444b74caB0f874b40e8) an amount of PNK corresponding to the current yearly distribution rate (rate of the last month of the year X12, so 12M PNK for the first year). At the end of each year:\n\n* If there were more PNK distributed, the DAO will mint an amount corresponding to the difference between the initial minting and the amount distributed (ex: if 14M PNK were distributed in the first year, the DAO will mint 2M PNK) to reimburse the cooperative.\n* If there were less PNK distributed, the Cooperative will reimburse the difference to the DAO (ex: if 10M PNK were distributed in the first year, the Cooperative will reimburse 2M PNK to the DAO).",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 62,
+      "blockNumber": 18880807,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x20e75fe9367594a482bde3c2ac6a7164a03cbec14ae0d74aba00ac1c8a2edd81",
+      "startTime": {
+        "timestamp": 1703728800
+      },
+      "endTime": {
+        "timestamp": 1704333600
+      },
+      "startTimestamp": 1703728800,
+      "endTimestamp": 1704333600,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 38158176.0,
+          "choice": 0
+        },
+        {
+          "total": 2571238.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 38158177.58189937,
+          "choice": 0
+        },
+        {
+          "total": 2571237.966242807,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703728736461,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4ZTlmM2FjYTkxY2EwYjY5OWUyM2YyOTRmMDE4YmRlMzRjNWMxODk1M2ZkMTc0NjVkNjcxOTEyYTFlOTZjNmFhNw==",
+      "id": "0xe9f3aca91ca0b699e23f294f018bde34c5c18953fd17465d671912a1e96c6aa7",
+      "title": "KIP-66: Long-Term Juror Incentive Program",
+      "content": "## Context\n\nMaintaining the [economic security of the court](https://medium.com/kleros/why-kleros-needs-a-native-token-5c6c6e39cdfe) is vital for Kleros protocol. “Kleros economic security” refers to the system’s resistance against attacks and manipulations by malicious actors. A higher staking percentage enhances resistance against attacks and reinforces trust in the protocol.\n\nOn Feb 3, 2021, the community voted [KIP-37](https://snapshot.org/#/kleros.eth/proposal/QmbMAahL4Xj2oM5cDaPKAW3n7yZKLoQWtuEJLMoWersUsN) in order to distribute rewards in PNK to all users that staked their tokens. The program was renewed by [KIP-46](https://snapshot.org/#/kleros.eth/proposal/0x49e1f11cd5957b60c2c3008401af094c26ce8e940a3a740987b36282b55860e0) on Dec 22, 2021, and by [KIP-58](https://snapshot.org/#/kleros.eth/proposal/0x279f7f98e7781e5a511c4cc1334c80f5fb7fddc27398040fddd0a54f391dc9aa) on Dec 29, 2022.\n\nAs of December 19, 2023, data from[ Klerosboard](https://klerosboard.com/100/) shows that approximately 213 million PNK are staked in Kleros courts across both Ethereum and Gnosis Chain. This represents 28% of the total PNK supply. Meanwhile, around 120 million PNK, or 15% of the supply, are held by the Cooperative (either committed for future compensation for team members or used for liquidity on platforms like[ Uniswap](https://v2.info.uniswap.org/pair/0x343fd171caf4f0287ae6b87d75a8964dc44516ab) and[ Bitfinex](https://trading.bitfinex.com/t/PNK:USD?type=exchange)).\n\nSince the implementation of [KIP-37](https://snapshot.org/#/kleros.eth/proposal/QmbMAahL4Xj2oM5cDaPKAW3n7yZKLoQWtuEJLMoWersUsN), there has been more than 70% increase in PNK staked in Kleros (from 123M in March 2021 to 213M in Dec 2023).\n\nThe Juror Rewards Program was successful in increasing the proportion of staked PNK and bolstering the resistance of the protocol against 51% attacks.\n\n## Proposal\n\nThe goal of this proposal is to further increase the percentage of tokens staked in order to secure the protocol over the long term.\n\nFor this, it seeks to establish a long-term incentive program where users who stake their PNK tokens receive monthly rewards in PNK. The rewards to be distributed will depend on the duration and amount staked each month, calculated with the following formula.\n\nThe total reward for the next month `(i+1)` is given by:\n\n`R(i+1) = R(i) * (1 + t - s(i))`, where:\n\n* `s(i)`: Percentage of total PNK staked in month`i`.\n* `R(i)`: Reward in month i (amount of PNK distributed in month `i`).\n* `t`: Target percentage of PNK.\n\nThe target will ramp up by 1% each month starting from 28% (current staking level) until it reaches 50%.\n\nIn Dec 2023, 28% of PNK are staked, so the target for Jan 2024 will be 29%, the target for Feb 2024 will be 30% and so on. Every month there will be a 1% increase up to a final target of 50% in Oct 2025. Since that moment, the target will remain at 50% every month.\n\nThe target of 50% was chosen because with 50% staked it is extremely hard for a malicious player to do a 51% attack with a market buy.\n\nBelow are examples for January 2024 and how February 2024 rewards could behave:\n\nReward(Jan24)=Reward(Dec23)*(1+Target(Jan24)-Staked PNK %(Dec23))\n\n**Reward(Jan24)**=1 M*(1+29%-28%)=**1.01 M PNK.**\n\nExample 1: Increase in Staked PNK % in January\n\nIf, hypothetically, the staking percentage increases to 32% in January, the reward for February 2024 would then be:\n\nReward(Feb24)=Reward(Jan24)*(1+Target(Feb24)-Staked PNK %(Jan24))\n\n**Reward(Feb24)**=1.01 M*(1+30%-32%)=**0.9898 M PNK**\n\nExample 2: Decrease in Staked PNK % January\n\nIf, hypothetically, the staking percentage decreases to 24% in January, the reward for February 2024 would then be:\n\nReward(Feb24)=Reward(Jan24)*(1+Target(Feb24)-Staked PNK %(Jan24))\n\n**Reward(Feb24)**=1.01 M*(1+30%-24%)=**1.0706 M PNK**\n\nWith these two hypothetical examples we can clearly see:\n\n* If the Staked PNK % increases over the target the rewards will decrease.\n* If the Staked PNK % decreases below the target the rewards will increase.\n\n**Why this Formula?**\n\nThe formula aims at continuing the increase of the percentage of staked PNK as well as to allow for a long term stability and predictability of the Juror Incentive Program.\n\nUnlike the previous rewards model implemented by KIP-37, KIP-46 and KIP-58 which used a fixed total reward and that had to be renewed every year, this proposal adjusts the rewards efficiently, avoiding excess allocation when goals are met, and gives long term predictability to the program.\n\nThis formula also encourages decentralisation and behaviour alignment by rewarding users who contribute to securing the protocol through staking and adhere to Kleros’ long-term vision. The fact that the adjustment is done gradually gives market participants enough time to position themselves accordingly.\n\n**Allocation between Ethereum Mainnet and GnosisChain:**\n\nThe proposed allocation is 90% on Ethereum Mainnet and 10% on Gnosis Chain. This allocation mirrors the previous year, focusing on having the maximum economic security on Ethereum Mainnet.\n\n**Specific Allocation for Kleros 2.0:**\n\nThe Cooperative is currently working on Kleros 2.0 (more details [here](https://blog.kleros.io/the-kleros-vision/)). At some point in the future, during a testing phase, Kleros 2.0 will be live in parallel to Kleros 1.0.\n\nWhen Kleros 2.0 is deemed usable and secure enough, Kleros 1.0 will be deprecated and all the court activity will be moved to Kleros 2.0. This event will be called “The Kleros Merge” in analogy to the Ethereum Merge.\n\nWhen Kleros 2.0 becomes live, before the Kleros Merge, 10% of the incentives distributed by this program will be directed to Kleros 2.0 jurors (leading to a 80% in Ethereum mainnet, 10% in Gnosis and 10% in Kleros 2.0). After the Kleros Merge, all the rewards will be distributed in Kleros 2.0.\n\n## Details\n\nThe tokens will be distributed using a Merkle Drop contract. The distribution will be done once a month and the computation of rewards may use snapshots.\n\n## Means\n\nInitially, the reward distribution will be handled by the Kleros Cooperative. After Kleros 2.0 is launched, a proposal could be made to implement the distribution at the protocol level (and potentially auto-compound them).\n\nAt the beginning of each year, the Kleros DAO will mint for the Kleros Cooperative Safe (eth:0xE979438B331b28D3246f8444b74caB0f874b40e8) an amount of PNK corresponding to the current yearly distribution rate (rate of the last month of the year X12, so 12M PNK for the first year). At the end of each year:\n\n* If there were more PNK distributed, the DAO will mint an amount corresponding to the difference between the initial minting and the amount distributed (ex: if 14M PNK were distributed in the first year, the DAO will mint 2M PNK) to reimburse the cooperative.\n* If there were less PNK distributed, the Cooperative will reimburse the difference to the DAO (ex: if 10M PNK were distributed in the first year, the Cooperative will reimburse 2M PNK to the DAO).",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 0,
+      "blockNumber": 18880685,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0xe9f3aca91ca0b699e23f294f018bde34c5c18953fd17465d671912a1e96c6aa7",
+      "startTime": {
+        "timestamp": 1703808000
+      },
+      "endTime": {
+        "timestamp": 1704326400
+      },
+      "startTimestamp": 1703808000,
+      "endTimestamp": 1704326400,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703725105608,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4MTJjMjZjYjI3OTE3YTMwZGJkNzM4ODc5ODc5Y2M3ZWYxNzk1OGNiYjEzOTZiMmUwYzg3MjgwMzIzOTJjNTE5NQ==",
+      "id": "0x12c26cb27917a30dbd738879879cc7ef17958cbb1396b2e0c8728032392c5195",
+      "title": "KIP-65 Parameter Update: Curation Court (xDAI)",
+      "content": "The original text of the proposal can be found [here](https://forum.kleros.io/t/kip-65-parameter-update-curation-court-xdai/1002) but is repeated below for clarity:\n\nI propose to update a parameter in the following xDAI court:\n\n## Curation Court\nProposed minStake : 3200 sPNK\n\nThis implies that each vote would require a stake of 1600 PNK.\n\nRationale\nIf a court’s decisions become too predictable, the stake should be increased. This discourages profit-making from always voting for the expected result. As per William’s [forum post](https://forum.kleros.io/t/potential-parameter-update-discussion-curation-court-xdai-september-2023/1000/2), as of September 18th, there were 21 disputes resolved to reject a submission from a list and 6 resolved to accept in the “add to curated list or not” type disputes. This statistic is crucial in determining the court’s resistance to “lazy voting strategies”.\n\nAs per William’s post, “Taking the updated value of that statistic and the current price of PNK, [this calculator](https://colab.research.google.com/drive/1z_CYWqveTHlE1DckQJ81rXWyF_EOsrKt?usp=sharing) suggests a minStake of 3200 stPNK, so a stake of 1600 PNK per vote.”",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x25F73d547c8A847eB0aC99AF0cBA5399D027f070",
+      "totalVotes": 37,
+      "blockNumber": 18218917,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x12c26cb27917a30dbd738879879cc7ef17958cbb1396b2e0c8728032392c5195",
+      "startTime": {
+        "timestamp": 1695718820
+      },
+      "endTime": {
+        "timestamp": 1696323540
+      },
+      "startTimestamp": 1695718820,
+      "endTimestamp": 1696323540,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 3335188.0,
+          "choice": 0
+        },
+        {
+          "total": 55.7253,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3335187.5576655203,
+          "choice": 0
+        },
+        {
+          "total": 55.72530039033063,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695719368800,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4YmMzYTIzYWJmMjJiMmI4YzBmNjU4NDNkNTQ2NWI0NzI0M2Q5OGMzM2MxYTY5N2QzMmU1NzA2NTY3YTk2MjFhZQ==",
+      "id": "0xbc3a23abf22b2b8c0f65843d5465b47243d98c33c1a697d32e5706567a9621ae",
+      "title": "KIP-64 Parameter Updates (May 2023)",
+      "content": "The original text of the proposal can be found [here](https://forum.kleros.io/t/kip-64-parameter-updates-may-2023/937) but is repeated below for clarity: \n\nI propose to update the parameters in the following mainnet courts:\n\n## General Court\n\nProposed juror fee : 0.026 ETH\nProposed minstake : 2600.0 PNK\n\n## Blockchain\n\nProposed juror fee : 0.026 ETH\nProposed minstake : 5700.0 PNK\n\n## Non-Technical\n\nBlockchain->Non-Technical\n\nProposed juror fee : 0.026 ETH\nProposed minstake : 9200.0 PNK\n\n## Technical\n\nBlockchain->Technical\n\nProposed juror fee : 0.068 ETH\nProposed minstake : 24000.0 PNK\n\n## Onboarding\n\nProposed juror fee : 0.014 ETH\nProposed minstake : 2600.0 PNK\nProposed alpha : 1\n\n## Corte General en Español\n\nProposed juror fee : 0.026 ETH\nProposed minstake : 4900.0 PNK\n\n## Humanity\n\nProposed juror fee : 0.026 ETH\nProposed minstake : 16000.0 PNK\n\n# Motivation\n\nThese updates attempt to adjust for the recent increase in gas prices on Ethereum mainnet. I suggested them in a response to the post for [KIP-63 ](https://forum.kleros.io/t/kip-63-parameter-updates-due-to-high-gas/936). You can see that thread for further discussion on these values, though I have created this separate proposal to avoid any confusion on what values people are voting on.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x25F73d547c8A847eB0aC99AF0cBA5399D027f070",
+      "totalVotes": 42,
+      "blockNumber": 17361764,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0xbc3a23abf22b2b8c0f65843d5465b47243d98c33c1a697d32e5706567a9621ae",
+      "startTime": {
+        "timestamp": 1685289600
+      },
+      "endTime": {
+        "timestamp": 1685894400
+      },
+      "startTimestamp": 1685289600,
+      "endTimestamp": 1685894400,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 8475680.0,
+          "choice": 0
+        },
+        {
+          "total": 1765324.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8475681.527815435,
+          "choice": 0
+        },
+        {
+          "total": 1765324.202229943,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4NzQ5YjhlNDM5MWFlNzczZmI3Yjk2ZGM0M2Y5MzFjYjBkMzg3NDkzMDI0NmY0MjhmYmRiMjRhMGE5NjRmOGZjNw==",
+      "id": "0x749b8e4391ae773fb7b96dc43f931cb0d3874930246f428fbdb24a0a964f8fc7",
+      "title": "KIP-62 Parameter Update to Blockchain No Técnica",
+      "content": "The original text of the proposal can be found [here](https://forum.kleros.io/t/kip-62-parameter-update-to-blockchain-no-technica/935) but repeated below for clarity:\n\nI am proposing a small change to the parameters for the Gnosis Chain Blockchain No Técnica court whose creation was recently approved in KIP-60.\n\nProposed minstake : 3300 PNK\nProposed alpha : .425\n\n## Motivation:\nA constraint on the court tree requires that the minstake parameter of a court always be at least as large as the minstake of its parent court. This is due to the fact that by staking in a child court, one is also automatically staked in the parent. However, the minstake for the Blockchain No Técnica court that was proposed in KIP-60 was lower than the minstake of its parent, the Corte General en Español as updated in KIP-57. So the Blockchain No Técnica cannot be created until a change to the minstake of at least one of these two courts is approved.\n\nThis proposal would set the minstake of Blockchain No Técnica equal to that of Corte General en Español. The choice of alpha is such that the voteStake remains approximately the same as the voteStake that results from the choices of minstake and alpha in KIP-60, remaining in the spirit of that proposal.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x25F73d547c8A847eB0aC99AF0cBA5399D027f070",
+      "totalVotes": 21,
+      "blockNumber": 17195686,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x749b8e4391ae773fb7b96dc43f931cb0d3874930246f428fbdb24a0a964f8fc7",
+      "startTime": {
+        "timestamp": 1683304926
+      },
+      "endTime": {
+        "timestamp": 1683720000
+      },
+      "startTimestamp": 1683304926,
+      "endTimestamp": 1683720000,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 3670955.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3670955.445382833,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4N2UwZjUyY2MzZGMwM2Q0ZmZkODEzNWI5NDllY2M0Njk4Mjg1MDkyZmI0MDgxNThhZjA3Y2FjYWM0YzdmMjkyNw==",
+      "id": "0x7e0f52cc3dc03d4ffd8135b949ecc4698285092fb408158af07cacac4c7f2927",
+      "title": "KIP-60 Court proposal: Blockchain No Técnica",
+      "content": "Original forum text can be found [here](https://forum.kleros.io/t/kip-60-court-proposal-blockchain-no-tecnica/930) but repeated below:\n\nI am proposing the following Gnosis Chain court.\n\nCourt name: Blockchain No Técnica\n\nParent court: Corte General en Español (xDAI)\n\nhiddenVotes: 0\n\nProposed juror fee: 15.0 xDAI\n\nProposed minstake: 2800.0 PNK\n\nProposed alpha: 0.5\n\njurorsForCourtJump: 15\n\ntimesPerPeriod: [108000, 216000, 216000, 216000]\n\nHabilidades Requeridas:\n\nLos jurados no necesitan un conocimiento profundo de blockchain ni habilidades de programación. Pero necesitan conocimiento para leer exploradores de blockchain, buscar criptoactivos listados en exchanges, entender cómo verificar una transacción y analizar datos on-chain.\n\nMotivation:\n\nThis is a Spanish-language Gnosis Chain court designed to handle cases similar to the (English-language) Blockchain Non-technical on mainnet. Note that the fees and deposits are similar to those of the parent court - the Corte General en Español (xDAI), so the two courts are calibrated for tasks on a relatively similar scale. However, in contrast to Corte General en Español (xDAI), Blockchain No Técnica has hiddenVotes turned off (as well as somewhat shorter periods), allowing for less delay during early rounds of disputes that may be considered in this court.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x25F73d547c8A847eB0aC99AF0cBA5399D027f070",
+      "totalVotes": 30,
+      "blockNumber": 17096635,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x7e0f52cc3dc03d4ffd8135b949ecc4698285092fb408158af07cacac4c7f2927",
+      "startTime": {
+        "timestamp": 1682103011
+      },
+      "endTime": {
+        "timestamp": 1682707560
+      },
+      "startTimestamp": 1682103011,
+      "endTimestamp": 1682707560,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 2191654.8,
+          "choice": 0
+        },
+        {
+          "total": 17000.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2191654.97986561,
+          "choice": 0
+        },
+        {
+          "total": 17000.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4NzY4YmFjNzYyMDdhYWQ2OWFiNTAyNjg1YTFmZGRkOWE5YmI4ZmIzZWFjMzM1ZWU5MmI1NzFkNTcxZTg5ZWNhOQ==",
+      "id": "0x768bac76207aad69ab502685a1fddd9a9bb8fb3eac335ee92b571d571e89eca9",
+      "title": "KIP-59 Parameter Updates (January 2023)",
+      "content": "Original forum text can be found [here](https://forum.kleros.io/t/kip-57-parameter-updates-november-2022/848) but repeated below:\n\nI propose to update the parameters in Humanity Court.\n\n## Motivation\nVarious users have complained that ETH rewards in Humanity Court are barely worth the gas, so they are essentially volunteering. Moreover, incoherent votes mean 17x losses over the potential profit (after taking gas costs under account), since the PNK they have to put on the line is 7000 PNK. This is very punishing and various jurors have either unstaked or will be about to unstake from this court.\n\nProof of Humanity is also a highly dysfunctional DAO that hasn’t updated inconsistencies in their Registration Policy for over 6 months. Jurors are forced to essentially guess around the inconsistencies on a case by case basis. This exposes jurors to high levels of risk.\n\nAlso, a new proposal has been accepted that will make changes in the policy that will significantly raise the workload of jurors. [This HIP is particular](https://gov.proofofhumanity.id/t/phase-3-hip-58-removal-of-vouchallengers/2625) is rather complicated.\n\nWilliam’s assumptions for these calculations were that: 97% of rulings voted to reject profiles (that means, larger minstake or alpha needed, to prevent jurors from just voting the most likely option and getting away with it as a profitable strategy) and, that the juror effort is 7.2$.\n\n## Juror effort is larger\ngiven the extremely exhaustive list of checks that jurors need to perform, this cannot be assumed to be a 7.2$ task. I’ll try to make a list, but I might miss something:\n\n* the obvious: person in profile and video must be the same\n* request must always be compared to the given policy, and old requests, or requests within a period of policy updates, can result is a wrong decision, because some policies have different rules.\n* profile picture must look at the camera\n* video must not be mirrored.\n* photo and video must be on “the right orientation”. note: the policy doesn’t explain if the profile picture can be mirrored, so jurors take a risk there.\n* they have to say the phrase, but it could be in spanish (a language most people don’t speak)\n* they must either:\n  * show a sign with an address that jurors will have to check manually (a process that could take around a minute), check if there are mistakes, and then compute if the mistake can be punished according to a list of conditions.\n  * say a verbal confirmation phrase containing 8 words (that could be in spanish), that are related to their address. Juror has to go to a PoH frontend and crosscheck the phrase. Thick accents are allowed here, but mispronunciations, omissions, etc are not. The frontend may not even show you the phrase and you will be required to check it manually. The policy doesn’t specify how this phrase is generated and it could become an issue. (Notice how all phrases have the first word start with the letter “a”? The reason why is important and it’s not clarified in the policy. In fact, you would by default, given the wording in the policy, assume it would work in a different way. So far no one tried to challenge on this basis, but it could be a good argument that would render all those profiles incorrect.)\n* “excessive makeup” is banned. colored lipstick is mentioned as an example. there have been challenges related to makeup and the results look random, so it’s super risky to be a juror in this circumstance.\nThis is a long and tedious process and jurors should be expected to make mistakes, just like the regular humans that submit to this registry have mistakes around it. It is error prone and there is subjectivity around a few things, such as caligraphy, what’s excessive makeup, what’s a mispronunciation, is a profile picture mirror allowed, are sybils/farmed accounts allowed, etc.\n\nProof of Humanity disputes are reasonably technical at this very moment, and after HIP-58 becomes live, even more so. So I would consider juror effort to be worth 30$ as a minimum.\n\nI would also assume (a priori, again just guessing without much objectivity) that a wrong vote should punish like 4x or 5x proper votes, at its worst, given the volatile nature of the Policy of the only Arbitrable that runs disputes on this court.\n\nThese are the suggested new values for Humanity Court:\n\nHumanity\nProposed juror fee : 0.025 ETH\nProposed minstake : 16000.0 PNK\nProposed alpha: 0.5",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x25F73d547c8A847eB0aC99AF0cBA5399D027f070",
+      "totalVotes": 41,
+      "blockNumber": 16626011,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x768bac76207aad69ab502685a1fddd9a9bb8fb3eac335ee92b571d571e89eca9",
+      "startTime": {
+        "timestamp": 1676365947
+      },
+      "endTime": {
+        "timestamp": 1676970720
+      },
+      "startTimestamp": 1676365947,
+      "endTimestamp": 1676970720,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 6773239.5,
+          "choice": 0
+        },
+        {
+          "total": 1584361.9,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6773240.481359872,
+          "choice": 0
+        },
+        {
+          "total": 1584361.782830753,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4Mjc5ZjdmOThlNzc4MWU1YTUxMWM0Y2MxMzM0YzgwZjVmYjdmZGRjMjczOTgwNDBmZGRkMGE1NGYzOTFkYzlhYQ==",
+      "id": "0x279f7f98e7781e5a511c4cc1334c80f5fb7fddc27398040fddd0a54f391dc9aa",
+      "title": "KIP 58. Extension of the Juror Incentive Program in 2023.",
+      "content": "A sufficient amount of staked tokens is necessary to guarantee the security of the Kleros protocol against attacks. By KIP-37 and KIP-46, the community approved a staking rewards program with the goal of increasing the amount of PNK staked in the Kleros protocol.\n\nThere is currently nearly 115M PNK staked according to Klerosboard.\n\nAs the program is near to an end, the goal of this proposal is to extend it for one more year in 2023.\n\nExtra Staking Incentives\n\nIn the Kleros protocol, jurors are already rewarded for their work with arbitration fees when they get drawn in a dispute. However, staking in courts with a low amount of disputes per staked PNK (like the general court) doesn’t provide a high amount of financial rewards while those stakers are still securing the system.\n\nProposal\n\nI propose to extend the program for 12 months starting in January 2023. Each month, jurors will receive a total of 1,000,000 PNK each month in proportion to the time and amount staked in that month. The proposed allocation is 90% on mainnet and 10% on xDAI.\n\nDetails\n\nThe tokens will be distributed using a Merkle Drop contract.\n\nThere may be a seasonality of the distribution (like once per week/month).\n\nThe computation of rewards may use snapshots as long as those are taken at least once per day (i.e. if tracking every stake/unstake events is not easy, it is possible to look at snapshots of staked balances and use those to determine how to split the rewards for that period of time).\n\nRationale\n\nThe goal of this proposal is to incentivize PNK holders to continue staking their PNK and thus securing the protocol. At current values, the program has a reward of a 9% APY (labeled in PNK).",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x14560fDEfDDE97b36a5102a846f8B846C368f7D5",
+      "totalVotes": 54,
+      "blockNumber": 16249217,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x279f7f98e7781e5a511c4cc1334c80f5fb7fddc27398040fddd0a54f391dc9aa",
+      "startTime": {
+        "timestamp": 1671820168
+      },
+      "endTime": {
+        "timestamp": 1672336800
+      },
+      "startTimestamp": 1671820168,
+      "endTimestamp": 1672336800,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 13318182.0,
+          "choice": 0
+        },
+        {
+          "total": 1678229.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 13318181.30792998,
+          "choice": 0
+        },
+        {
+          "total": 1678229.7762104918,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4NWJjODJjYWU2NTE4NmIxYWM1MjllMDFmNTMwMjQzM2QyZGIyY2RhMmM5ZDg3NzA0MWRhMjE5NTIzODQ0OWEwOQ==",
+      "id": "0x5bc82cae65186b1ac529e01f5302433d2db2cda2c9d877041da2195238449a09",
+      "title": "KIP-57 Parameter Updates (November 2022)",
+      "content": "Original forum text can be found [here](https://forum.kleros.io/t/kip-57-parameter-updates-november-2022/848) but repeated below:\n\nI propose to update the parameters in a number of courts.\n\nMotivation:\n\nThese updates account for crypto and particularly gas price changes since the previous update. The calculator attempts to make sure that jurors will be properly incentivized at gas prices up to 30 gwei and that an average coherent juror should receive a reward that at least covers gas up to 75 gwei.\n\nSee the following calculations which generated the parameters for further detail:\n\nCalculator Mainnet: [Google Colab ](https://colab.research.google.com/drive/1-hH1xotInbalXEUUGDTT79OvBrgNPp7p?usp=sharing)\n\nCalculator Gnosis Chain: [Google Colab](https://colab.research.google.com/drive/1RjmIDY2NAcFddeNElPyCcXwiX11UDKM0?usp=sharing)\n\nSee the following document for estimations and assumptions about required juror effort, etc. Note that the model of lazy strategies for the Humanity court has been adapted to better take into account effects coming from the cases in this court where there are rounds with a single juror.\n\n[docs.google.com](https://docs.google.com/document/d/1jPUiKPafTxwI03GQTDjHvtphkDykQ7fnPZo_G1i74cM/edit?usp=sharing)\n\n### [Parameters - November 2022 ](https://docs.google.com/document/d/1jPUiKPafTxwI03GQTDjHvtphkDykQ7fnPZo_G1i74cM/edit?usp=sharing)\n\nParameters - November 2022 The following is a list of estimations used by the parameter calculator to adjust the fee and deposit parameters for the various Kleros courts. Recall that our parameter choices are made based on guesses for three...\n\nI propose to update the parameters in the following mainnet courts:\n\n## General Court\n\nProposed juror fee : 0.016 ETH\nProposed minstake : 1700.0 PNK\n\n## Blockchain\n\nProposed juror fee : 0.02 ETH\nProposed minstake : 5000.0 PNK\n\n## Non-Technical\n\nBlockchain->Non-Technical\n\nProposed juror fee : 0.011 ETH\nProposed minstake : 5000.0 PNK\nProposed alpha : 0.39\n\n## Technical\n\nBlockchain->Technical\n\nProposed juror fee : 0.079 ETH\nProposed minstake : 23000.0 PNK\nProposed jurorsForCourtJump : 31\n\n## Onboarding\n\nProposed juror fee : 0.0045 ETH\nProposed minstake : 1700.0 PNK\nProposed alpha : 0.4\n\n## Corte General en Español\n\nProposed juror fee : 0.015 ETH\nProposed minstake : 2300.0 PNK\n\n## Humanity\n\nProposed juror fee : 0.011 ETH\nProposed minstake : 14000.0 PNK\n\nI propose to update the parameters in the following Gnosis Chain courts:\n\n## xDai General Court\n\nProposed juror fee : 13.0 xDai\nProposed minstake : 1600.0 PNK\nProposed alpha : 1\n\n## xDai Curation\n\nProposed juror fee : 6.4 xDai\nProposed minstake : 1600.0 PNK\nProposed alpha : 0.5\n\n## English Language\n\nProposed juror fee : 19.0 xDai\nProposed minstake : 5800.0 PNK\n\n## Spanish-English Translation\n\nEnglish Language->Spanish-English Translation\n\nProposed juror fee : 8.2 xDai\nProposed minstake : 5800.0 PNK\n\n## French-English Translation\n\nEnglish Language->French-English Translation\n\nProposed juror fee : 8.2 xDai\nProposed minstake : 5800.0 PNK\n\n## Portuguese-English Translation\n\nEnglish Language->Portuguese-English Translation\n\nProposed juror fee : 8.2 xDai\nProposed minstake : 5800.0 PNK\n\n## German-English Translation\n\nEnglish Language->German-English Translation\n\nProposed juror fee : 10.0 xDai\nProposed minstake : 5800.0 PNK\n\n## Russian-English Translation\n\nEnglish Language->Russian-English Translation\n\nProposed juror fee : 10.0 xDai\nProposed minstake : 5800.0 PNK\n\n## Korean-English Translation\n\nEnglish Language->Korean-English Translation\n\nProposed juror fee : 13.0 xDai\nProposed minstake : 5800.0 PNK\n\n## Japanese-English Translation\n\nEnglish Language->Japanese-English Translation\n\nProposed juror fee : 13.0 xDai\nProposed minstake : 5800.0 PNK\n\n## Turkish-English Translation\n\nEnglish Language->Turkish-English Translation\n\nProposed juror fee : 13.0 xDai\nProposed minstake : 5800.0 PNK\n\n## Chinese-English Translation\n\nEnglish Language->Chinese-English Translation\n\nProposed juror fee : 13.0 xDai\nProposed minstake : 5800.0 PNK\n\n## xDai Development\n\nProposed minstake : 7400.0 PNK\n\n## xDai Solidity\n\nxDai Development->xDai Solidity\n\nProposed minstake : 7400.0 PNK\nProposed alpha : 0.5\n\n## xDai Javascript\n\nxDai Development->xDai Javascript\n\nProposed minstake : 7400.0 PNK\nProposed alpha : 0.5\n\n## Corte General en Español\n\nProposed juror fee : 13.0 xDai\nProposed minstake : 3300.0 PNK\nProposed alpha : 0.5\n\n## Corte de Curación en Español\n\nCorte General en Español->Corte de Curación en Español\n\nProposed juror fee : 6.4 xDai\nProposed minstake : 3300.0 PNK\nProposed alpha : 0.24",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x25F73d547c8A847eB0aC99AF0cBA5399D027f070",
+      "totalVotes": 18,
+      "blockNumber": 16074984,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x5bc82cae65186b1ac529e01f5302433d2db2cda2c9d877041da2195238449a09",
+      "startTime": {
+        "timestamp": 1669716954
+      },
+      "endTime": {
+        "timestamp": 1670299200
+      },
+      "startTimestamp": 1669716954,
+      "endTimestamp": 1670299200,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 3108880.5,
+          "choice": 0
+        },
+        {
+          "total": 1164029.9,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3108880.4282361567,
+          "choice": 0
+        },
+        {
+          "total": 1164029.9323737796,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4MDNiYWI3OWU1ZjVjMjMwNDg0OTRjODFlZWEwMGRjZTU0ODM0YzhmYjIyMTU5OWNiZjJhMmE4NmZmZjUxNDFhZA==",
+      "id": "0x03bab79e5f5c23048494c81eea00dce54834c8fb221599cbf2a2a86fff5141ad",
+      "title": "KIP-55: Update Random Number Generator",
+      "content": "This is a proposal to use the function changeRNGenerator to update the RNG used by Kleros. The new RNG will use BeaconRNG.sol as deployed at https://etherscan.io/address/0x90992fb4E15ce0C59aEFfb376460Fda4Ee19C879#code.\n\nMotivation:\n\nPost-merge, the best native source of randomness that will be accessible in the EVM will be the Randao values that the Ethereum consensus algorithm itself will use to choose its committees of attestors/block producers in a given epoch. Particularly, under [EIP 4399](https://eips.ethereum.org/EIPS/eip-4399) which is part of the merge, this value will be returned by using the OPcode that is currently being used for block difficulty. The check that block.difficulty<=2**64 follows a pattern recommended by EIP 4399, where such values are very likely to be produced if and only if the merge has not happened yet, so if the merge has not happened yet the new RNG defaults back to the [old RNG](https://github.com/unknownunknown1/kleros-interaction/blob/d980bbb8f3e7147ee2ee6bda66ba0231de75c0b7/contracts/standard/rng/BlockhashRNGFallback.sol).\n\nNote final testing on this contract is still being done, so if a critical vulnerability is found prior to implementation this proposal should be considered to be voided.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x25F73d547c8A847eB0aC99AF0cBA5399D027f070",
+      "totalVotes": 15,
+      "blockNumber": 15491016,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x03bab79e5f5c23048494c81eea00dce54834c8fb221599cbf2a2a86fff5141ad",
+      "startTime": {
+        "timestamp": 1662563626
+      },
+      "endTime": {
+        "timestamp": 1663167600
+      },
+      "startTimestamp": 1662563626,
+      "endTimestamp": 1663167600,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 5604059.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5604059.739008446,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4ZmU2Zjc2OGY2OTNmNWQ3M2NjOWIwMzE5ZjVhNjg5MGU0YzRmODIwYTEwNjhiZWMyMGQwNGMxMDliMTI0NjE4Zg==",
+      "id": "0xfe6f768f693f5d73cc9b0319f5a6890e4c4f820a1068bec20d04c109b124618f",
+      "title": "KIP-52",
+      "content": "This is a vote to decide if we should proceed with the proposal put forth in KIP-52 : to create in the xDai Chain a:\n1. Spanish General Court \n2. Spanish Curation Court\n\nTo summarise, the proposed parameters and data are as follows (can be verified in the discussion link):\n\nPROPOSED COURT #1\nCourt name : Corte General en Español\nParent court : xDai General Court (Court ID: 0)\nhiddenVotes : 1\nProposed juror fee : 14.00 xDAI\nProposed minstake : 1000 stPNK\nProposed alpha : 1\nJurors for jump : 63\nTimes per period : [(280800),(583200),(583200),(388800)]\n\nPropósito de la Corte\n\nLa Corte General en Español sirve como corte de uso múltiple para todo tipo de disputas que requieran un alto nivel de conocimiento del español para ser evaluadas. Los casos resueltos por cortes más especializadas que requieran conocimientos de español además de otras habilidades pueden ser revisados en esta corte tras el proceso de apelación.\n\nPolíticas:\n\nAdemás del requisito de que los jurados tengan un nivel suficiente de español, esta corte debe tener la misma política que la Corte General de Kleros en xDai(xDai General Court).\n\nHabilidades Requeridas:\n\nEste tribunal requiere un nivel avanzado de español. Los miembros del jurado deben poder leer la evidencia y proporcionar una justificación adecuada en español sobre una amplia gama de temas.\n\n\nPROPOSED COURT 2\nCourt name : Corte de Curación en Español\nParent court : Corte General en Español (Court ID: the ID of the Court above)\nhiddenVotes : 0\nProposed juror fee : 6.6 xDAI\nProposed minstake : 1000 stPNK\nProposed alpha : 0.5\nJurors for jump : 30\nTimes per period : [(140400),(291600),(291600),(194400)]\n\nPropósito de la Corte: En esta corte, los miembros del jurado resuelven microtareas relacionadas con la curación o la moderación de contenido, como para redes sociales, cuando los requisitos son relativamente sencillos. Los casos de mayor esfuerzo, que requieren la aplicación de reglas con mayores matices, deben presentarse en otras cortes, pero pueden llegar a este tribunal en caso de apelación.\n\nHabilidades Requeridas: Este tribunal requiere un nivel avanzado de español. Los miembros del jurado deben poder leer la evidencia y proporcionar una justificación adecuada en español sobre una amplia gama de temas.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x25F73d547c8A847eB0aC99AF0cBA5399D027f070",
+      "totalVotes": 15,
+      "blockNumber": 15225515,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0xfe6f768f693f5d73cc9b0319f5a6890e4c4f820a1068bec20d04c109b124618f",
+      "startTime": {
+        "timestamp": 1658959200
+      },
+      "endTime": {
+        "timestamp": 1659564000
+      },
+      "startTimestamp": 1658959200,
+      "endTimestamp": 1659564000,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 4002882.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4002882.069198958,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4MTlmMGMxZGU1YWYxOTJjMWYxMjM1MGYxMTBhYmQ4NGI0Y2Q4NTEyZmNmZGIyNDFhYTA0ZTAzMjNkMzE2YWJhYg==",
+      "id": "0x19f0c1de5af192c1f12350f110abd84b4cd8512fcfdb241aa04e0323d316abab",
+      "title": "KIP-48 Development Courts on xDai",
+      "content": "# Development Courts\n\nI propose to create a number of new courts on the xDai version of Kleros for use with [Feature ](https://docs.feature.sh) (but it can be used for any kind of IT freelancing platform).\n\n### Tree of Courts Schema\n\n![|414x340](https://forum.kleros.io/uploads/default/original/1X/3e81a8edd71f1a47c444f19186fcafb2fd47abab.png)\n\nNamely, I propose to create the following xDai courts with the listed parameters:\n\n## xDai Development Court\n\n### Parameters\n\nCourt name : xDai Development\nParent court : xDai General Court\nhiddenVotes : false\nProposed juror fee : 30.0 xDai\nProposed minstake : 1400.0 PNK\nProposed alpha : 0.5\njurorsForCourtJump : 63\ntimesPerPeriod : [280800,437400,437400,291600]\n\n### Description\n\n**Court Purpose**\n\nIn this court, jurors will solve disputes involving the respect of specifications given by the client.\n\n**Required Skills**\n\nThis court requires a good level of programmation. Jurors who are not intermediate developers are advised to stake into this court only if they have some basics of low-level programming languages, ​​algorithmic and knowledge of good practices of development.\n\n**Example**\n\nDevelopper does not respect indentation, does not name variables explicitly or has not made a clear file structure. In such cases, jurors should refuse the proposal made by the developer.\n\n## xDai Solidity Court\n\n### Policies\n\n* If the disputed code is of significant size (> 500 code lines), parties in the dispute should point out specific parts of the content which are being disputed. Otherwise, jurors should refuse to arbitrate.\n\n### Parameters\n\nCourt name : xDai Solidity\nParent court : xDai Development\nhiddenVotes : false\nProposed juror fee : 30 xDai\nProposed minstake : 1400.0 PNK\nProposed alpha : 0.16\njurorsForCourtJump : 63\ntimesPerPeriod : [280800,437400,437400,291600]\n\n### Description\n\n**Required Skills**\n\nThis court requires a good level of solidity. Jurors who are not solidity intermediate developers are advised to stake into this court only if they also know how to make relatively simple contracts, know the main solidity hacks and can compute the complexity of simple functions.\n\n## xDai Javascript Court\n\n### Policies\n\n* If the disputed code is of significant size (> 700 code lines), parties in the dispute should point out specific parts of the content which are being disputed. Otherwise, jurors should refuse to arbitrate.\n\n### Parameters\n\nCourt name : xDai Javascript\nParent court : xDai Development\nhiddenVotes : false\nProposed juror fee : 30 xDai\nProposed minstake : 1400.0 PNK\nProposed alpha : 0.16\njurorsForCourtJump : 63\ntimesPerPeriod : [280800,437400,437400,291600]\n\n### Description\n\n**Required Skills**\n\nThis court requires a good level of javascript. Jurors who are not javascript intermediate developers are advised to stake into this court only if they know the main frameworks/libraries (ExpressJs, React, EthersJs…) and be comfortable with testing, APIs or languages to interact with databases.\n\n",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x136bBeC3b1B182Ae3136423448e3d5B111a8a7dA",
+      "totalVotes": 17,
+      "blockNumber": 14832456,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x19f0c1de5af192c1f12350f110abd84b4cd8512fcfdb241aa04e0323d316abab",
+      "startTime": {
+        "timestamp": 1653393600
+      },
+      "endTime": {
+        "timestamp": 1653998400
+      },
+      "startTimestamp": 1653393600,
+      "endTimestamp": 1653998400,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 2883310.0,
+          "choice": 0
+        },
+        {
+          "total": 967799.94,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2883310.031623317,
+          "choice": 0
+        },
+        {
+          "total": 967799.9578884651,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4MjJkOTgwM2JmMWEyMjZhNjllMjg5NmQxZTJkY2NlM2M1Mjk0ZTQzZDJjNjEzZjZiODk0NzdlYWEyYzA5MGEyOA==",
+      "id": "0x22d9803bf1a226a69e2896d1e2dcce3c5294e43d2c613f6b89477eaa2c090a28",
+      "title": "KIP-47 Reduce jurorsForCourtJump for Gnosis Chain Curation Court ",
+      "content": "The Curation Court on Gnosis Chain currently has a juror with a little over half the voting power (2.5M / 4.7M PNK). Furthermore, this is not a court that requires any specialized knowledge or skills and the opinions of its jurors can therefore not be expected to be more valid than those of the General Court’s jurors. As such there is no point in letting appeals drag on in this same court. The jurorsForCourtJump parameter which dictates at what stage of appeal the court will be switched from Curation to General Court is currently set to 30, meaning that the last stage of appeals in Curation court will typically have 15 jurors. In the interest of reducing the length and cost of appeals in cases where the majority juror is believed to be in opposition to wider held opinions, I propose to reduce this parameter to 14, meaning that the last round of appeals in Curation court will have 7 jurors (and the next round will go to General Court).\n \nI propose to update the parameters in the following courts.\n \nGnosis Chain Curation\njurorsForCourtJump: 14",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x14560fDEfDDE97b36a5102a846f8B846C368f7D5",
+      "totalVotes": 17,
+      "blockNumber": 14146126,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x22d9803bf1a226a69e2896d1e2dcce3c5294e43d2c613f6b89477eaa2c090a28",
+      "startTime": {
+        "timestamp": 1644073200
+      },
+      "endTime": {
+        "timestamp": 1644678000
+      },
+      "startTimestamp": 1644073200,
+      "endTimestamp": 1644678000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 15202667.0,
+          "choice": 0
+        },
+        {
+          "total": 8000.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 15202666.504070384,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 8000.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OjB4NDllMWYxMWNkNTk1N2I2MGMyYzMwMDg0MDFhZjA5NGMyNmNlOGU5NDBhM2E3NDA5ODdiMzYyODJiNTU4NjBlMA==",
+      "id": "0x49e1f11cd5957b60c2c3008401af094c26ce8e940a3a740987b36282b55860e0",
+      "title": "KIP-46 Extension of Juror Incentive Program",
+      "content": "A sufficient amount of staked tokens is necessary to guarantee the security of the Kleros protocol against attacks. By KIP-37, the community approved a staking rewards program with the goal of increasing the amount of PNK staked in the Kleros protocol.\n\nThe program was successful and there currently are more than 15M$ worth (145,036,281 PNK according to Klerosboard) of PNK staked.\n\nAs the program is near to an end, the goal of this proposal is to extend it for one more year.\n\nExtra Staking Incentives\n\nIn the Kleros protocol, jurors are already rewarded for their work with arbitration fees when they get drawn in a dispute. However, staking in courts with a low amount of disputes per staked PNK (like the general court) doesn’t provide a high amount of financial rewards while those stakers are still securing the system.\n\nProposal\n\nI propose to extend the program for 12 months starting in January 2022. Each month, jurors will receive a total of 1,000,000 PNK each month in proportion to the time and amount staked in that month. The proposed allocation is 90% on mainnet and 10% on xDAI.\n\nDetails\n\nThe tokens will be distributed using a Merkle Drop contract.\n\nThere may be a seasonality of the distribution (like once per week/month).\n\nThe computation of rewards may use snapshots as long as those are taken at least once per day (i.e. if tracking every stake/unstake events is not easy, it is possible to look at snapshots of staked balances and use those to determine how to split the rewards for that period of time).\n\nRationale\n\nThe goal of this proposal is to incentivize PNK holders to continue staking their PNK and thus securing the protocol. At current values, the program has a reward of a 7% APY (labelled in PNK).",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x14560fDEfDDE97b36a5102a846f8B846C368f7D5",
+      "totalVotes": 33,
+      "blockNumber": 13765974,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/0x49e1f11cd5957b60c2c3008401af094c26ce8e940a3a740987b36282b55860e0",
+      "startTime": {
+        "timestamp": 1639000800
+      },
+      "endTime": {
+        "timestamp": 1640210400
+      },
+      "startTimestamp": 1639000800,
+      "endTimestamp": 1640210400,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 16494018.0,
+          "choice": 0
+        },
+        {
+          "total": 1226.8345,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 16494019.500008283,
+          "choice": 0
+        },
+        {
+          "total": 1226.8344897063994,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtYm02a2pqY2JpYjllZDIzd3loa2VjMmdocmNoamtveTU5Z3psNmVxYnppc3A=",
+      "id": "QmbM6KjjCbib9eD23WYhKeC2GhRCHjKoY59GZL6eqbZisp",
+      "title": "KIP-45 Parameter Updates (October 2021)",
+      "content": "Update the parameters according to this [forum post](https://forum.kleros.io/t/kip-45-parameter-updates-october-2021/649).\n\nNote that the proposal text is too large for snapshot, see this [IPFS link](https://ipfs.kleros.io/ipfs/QmQ5X8ULyeNNXnBmGoeNvt1CLbErqUkjeMWh7vF5W3cGhP/KIP45.md) containing the full proposal for immutability.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x136bBeC3b1B182Ae3136423448e3d5B111a8a7dA",
+      "totalVotes": 13,
+      "blockNumber": 13410387,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmbM6KjjCbib9eD23WYhKeC2GhRCHjKoY59GZL6eqbZisp",
+      "startTime": {
+        "timestamp": 1634137200
+      },
+      "endTime": {
+        "timestamp": 1634655600
+      },
+      "startTimestamp": 1634137200,
+      "endTimestamp": 1634655600,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 2381265.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2381265.09111486,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFteXlqM3BybWZzanA5cDR3dWNwZXp6YnlranQyaXp4dnpsdnltcnBucGtjNWI=",
+      "id": "QmYYJ3pRmFSjp9P4WUcPEZzByKjt2izXVZLVYmRpNPkC5B",
+      "title": "KIP-44 Translation Courts on xDai",
+      "content": "Create translation courts on xDAI according to [this forum post](https://forum.kleros.io/t/kip-44-translation-courts-on-xdai/648).\n\nNote that the proposal text is too large for snapshot, see [this IPFS link containing the full proposal](https://ipfs.kleros.io/ipfs/QmZkR3fT7j3pKt6hSS1YDE79jsWNfUTesT9xFMUGHGZKvY/translationcourtsproposal.md) for immutability.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x136bBeC3b1B182Ae3136423448e3d5B111a8a7dA",
+      "totalVotes": 33,
+      "blockNumber": 13373746,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmYYJ3pRmFSjp9P4WUcPEZzByKjt2izXVZLVYmRpNPkC5B",
+      "startTime": {
+        "timestamp": 1633636800
+      },
+      "endTime": {
+        "timestamp": 1634241600
+      },
+      "startTimestamp": 1633636800,
+      "endTimestamp": 1634241600,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 10219479.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10219480.805654535,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtcWN0czV5MWUyc2MyOHF5M3p0Y3VyNmFuMWF3OXlqbDFuMnFjeWQzOHF6d3o=",
+      "id": "QmQcts5Y1E2sc28Qy3zTCUR6aN1AW9YJL1n2Qcyd38QzwZ",
+      "title": "KIP-42 Use Commit & Reveal in the xDai General Court",
+      "content": "This is a proposal to use the commit and reveal voting mechanism in the xDai General Court proposed [here](https://forum.kleros.io/t/kleros-courts-on-xdai/579), which is currently put to vote in [KIP-41](https://snapshot.org/#/kleros/proposal/QmQibWnp2ztxtqEMdpq2W3thxcLnubt8NJXBJr6Z54fXjP).\n\nSchelling point assumptions might not hold as strong when it is not possible to appeal and the votes are not hidden while they are being casted. For this reason, and because high gas fees are not an issue on xDai, I propose to use hidden votes in the General Court. Only the following parameter will have to change:\n\nhiddenVotes : true\n\nNote that it’s not possible to modify the hiddenVotes parameters after the court has been created. This would have to be included in the xDai Kleros Liquid deployment.\n\n\n",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0xb2a33ae0E07fD2ca8DBdE9545F6ce0b3234dc4e8",
+      "totalVotes": 42,
+      "blockNumber": 12510790,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmQcts5Y1E2sc28Qy3zTCUR6aN1AW9YJL1n2Qcyd38QzwZ",
+      "startTime": {
+        "timestamp": 1622116800
+      },
+      "endTime": {
+        "timestamp": 1622721600
+      },
+      "startTimestamp": 1622116800,
+      "endTimestamp": 1622721600,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 8196853.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8196852.427818978,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtcWlid25wMnp0eHRxZW1kcHEydzN0aHhjbG51YnQ4bmp4YmpyNno1NGZ4anA=",
+      "id": "QmQibWnp2ztxtqEMdpq2W3thxcLnubt8NJXBJr6Z54fXjP",
+      "title": "KIP-41 Kleros Courts on xDai",
+      "content": "[Forum discussion](https://forum.kleros.io/t/kip-41-kleros-courts-on-xdai/591)\n\n## Overview\n\nHigh gas prices on Ethereum Mainnet make it a necessity for Kleros and projects using Kleros to find solutions that scale properly. This is a proposal to set up Kleros on xDai chain. The Kleros courts on xDai will initially resolve disputes generated on xDai but could potentially resolve bridged disputes in the future.\n\nIn order to have Kleros working on xDai, a KlerosLiquid contract has to be deployed with changes regarding PNK, randomness and upgradeability.\n\n## Kleros Token\n\nThe Mainnet Kleros token is already bridged on xDai. The address of the PNK on xDai is [0x37b60f4E9A31A64cCc0024dce7D0fD07eAA0F7B3 ](https://blockscout.com/xdai/mainnet/address/0x37b60f4E9A31A64cCc0024dce7D0fD07eAA0F7B3/transactions) and you can get it through the [OmniBridge ](https://omni.xdaichain.com/). However, the token contract available on xDai doesn’t fit the KlerosLiquid contract, which requires a controller role so that it can lock and distribute rewards during disputes.\n\nTo solve this problem, instead of creating a new bridged PNK, the already existing xDai PNK will be wrapped with the proper requirements. Additionally, the wrapped PNK contract will be upgradeable.\n\n## Stake Incentives\n\nIn order to prevent the potential scenario in which too many PNKs are moved from Mainnet courts to xDai courts, only 10% of the [Juror Incentive Program](https://snapshot.org/#/kleros/proposal/QmbMAahL4Xj2oM5cDaPKAW3n7yZKLoQWtuEJLMoWersUsN) funds (100,000 PNK per month) are going to be used for those staking on xDai. This should work both as an incentive for jurors to keep their PNK, or part of them, staked on Mainnet and as an incentive for jurors to move to xDai courts.\n\n## Randomness\n\nJurors are drawn randomly for each round of a dispute. KlerosLiquid on xDai cannot rely on the legacy random number generator used on mainnet, which works with block hashes. For this reason, RandomAuRa is going to be used instead. RandomAuRa is an official random number generator contract already available on xDai at address [0x5870b0527DeDB1cFBD9534343Feda1a41Ce47766 ](https://blockscout.com/poa/xdai/address/0x5870b0527DeDB1cFBD9534343Feda1a41Ce47766/contracts). Random numbers are generated every N blocks, currently set at 76.\n\n## Upgradeability\n\nMaking the contract upgradeable will allow us to deploy quickly and adapt in the future along Kleros scalability roadmap.\n\nInitially, the contracts will be deployed by the Gnosis multisig instead of by the Kleros Governor and the courts won’t be bridged with Mainnet. This means that arbitration will happen entirely on xDai. Notice that until this changes and because juror stake and activity is expected to be lower than on Mainnet, security and decentralization on xDai courts will be lower than on Mainnet courts. For this reason, this can be considered an experimental project. Omen on xDai will keep using the current bridge for passing disputes to Mainnet.\n\nFuture upgrades will make Kleros Governor the owner of xDai Kleros Liquid and jumps from xDai courts to Mainnet courts will be allowed in order to make the main Kleros the final arbitrator of disputes happening on xDai. Similarly, when Kleros Court v2 gets implemented and deployed on a optimistic or zk rollup, xDai courts could be bridged to the new version instead of the legacy one on Mainnet.\n\n## Juror Fees\n\nThe native xDai currency is going to be used for juror fees instead of ETH. Notice that this means that juror fees will be stable.\n\n## Courts and Parameters\n\nThe proposed parameters for xDai Kleros Liquid are the following (which are the same in Mainnet):\n\nminStakingTime : 3600\n\nmaxDrawingTime : 7200\n\nThe general court, which is created on deployment, will have the following parameters:\n\nname : xDai General Court\n\nhiddenVotes : false\n\nfeeForJuror : 15 xDai\n\nminStake : 520 PNK\n\nalpha : 0.5\n\njurorsForCourtJump : 511\n\ntimesPerPeriod : [280800,583200,583200,388800]\n\nsortitionSumTreeK : 6\n\nThe general court policy will be the same as the Mainnet general court.\n\nIn addition to the general court, a subcourt to resolve curate cases will be deployed with the following proposed parameters:\n\nname : xDai Curation\n\nparent: xDai General Court\n\nhiddenVotes : false\n\nfeeForJuror : 6.9 xDai\n\nminStake : 520 PNK\n\nalpha : 0.31\n\njurorsForCourtJump : 30\n\ntimesPerPeriod : [140400,291600,291600,194400]\n\nsortitionSumTreeK : 5\n\nThe curate court policy will be the same as the Mainnet curate court.\n\n## Resources\n\nThe wrapped PNK and the KlerosLiquid adaptation are already implemented at the time of writing and are going through the review process. Check out the source code:\n\n* Wrapped PNK: [xdai-kleros-liquid/WrappedPinakion.sol at master · kleros/xdai-kleros-liquid · GitHub](https://github.com/kleros/xdai-kleros-liquid/blob/master/contracts/tokens/WrappedPinakion.sol).\n* KlerosLiquid: [xdai-kleros-liquid/xKlerosLiquid.sol at master · kleros/xdai-kleros-liquid · GitHub](https://github.com/kleros/xdai-kleros-liquid/blob/master/contracts/kleros/xKlerosLiquid.sol).\n\n\n",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0xb2a33ae0E07fD2ca8DBdE9545F6ce0b3234dc4e8",
+      "totalVotes": 42,
+      "blockNumber": 12490854,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmQibWnp2ztxtqEMdpq2W3thxcLnubt8NJXBJr6Z54fXjP",
+      "startTime": {
+        "timestamp": 1621857600
+      },
+      "endTime": {
+        "timestamp": 1622462400
+      },
+      "startTimestamp": 1621857600,
+      "endTimestamp": 1622462400,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 8709614.0,
+          "choice": 0
+        },
+        {
+          "total": 26610.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8709614.27844972,
+          "choice": 0
+        },
+        {
+          "total": 26610.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFteWRtY2ZycmFyYmFjdnZzZjdlZ2tubWRzd2lhdm00enl4cXNja2Y2cjF1YTU=",
+      "id": "QmYdmCFrRaRbAcvVSf7EgKnMdSWiavM4zYxQsCkf6r1ua5",
+      "title": "KIP-39: Update jurorsForCourtJump Parameters in Translation Courts",
+      "content": "[Forum discussions](https://forum.kleros.io/t/kip-39-update-jurorsforcourtjump-parameters-in-translation-courts/536)\n\nI propose to update the jurorsForCourtJump parameters in the following courts to the values below.\n\n* Spanish-English Translation: 63\n* French-English Translation: 31\n* Portuguese-English Translation: 31\n* German-English Translation: 31\n* Russian-English Translation: 31\n* Korean-English Translation: 31\n* Japanese-English Translation: 31\n* Turkish-English Translation: 31\n* Chinese-English Translation: 31\n\nMotivation for and discussion around this change and these particular choices of values can be found here: [Reduce jurorsForCourtJump parameter in translation courts ](https://forum.kleros.io/t/reduce-jurorsforcourtjump-parameter-in-translation-courts/534)",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 36,
+      "blockNumber": 12201379,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmYdmCFrRaRbAcvVSf7EgKnMdSWiavM4zYxQsCkf6r1ua5",
+      "startTime": {
+        "timestamp": 1617969600
+      },
+      "endTime": {
+        "timestamp": 1618574400
+      },
+      "startTimestamp": 1617969600,
+      "endTimestamp": 1618574400,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 7525092.0,
+          "choice": 0
+        },
+        {
+          "total": 36.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7525091.90023599,
+          "choice": 0
+        },
+        {
+          "total": 36.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtcWt0ZG85OGZ3eGtwaHR5a2g0NGRtdmpmdDdkdDlnbjN1dWZsNndxOGFoNWI=",
+      "id": "QmQKtdo98FWxKpHtykh44DMVJFT7DT9gn3uufL6WQ8ah5B",
+      "title": "KIP-40 Parameter Updates (March 2021)",
+      "content": "[Forum discussions](https://forum.kleros.io/t/kip-40-parameter-updates-march-2021/553)\n\nI propose to update the parameters in the following courts. These propositions were generated with this calculator: [https://colab.research.google.com/drive/1MN-l2dOuY44eTYvwgv636v6vInzfumO5?usp=sharing ](https://colab.research.google.com/drive/1MN-l2dOuY44eTYvwgv636v6vInzfumO5?usp=sharing) So I invite people to use the calculator to play around with the assumptions that went into these calculations and, indeed, use the calculator to propose future parameter updates.\n\nMost of the changes since the previous update are a response to changing crypto-prices and particularly continued increases in gas prices. As you can see in the calculator, the parameters are calibrated for “typical” gas prices of 150 gwei (and are constrained so that even at 200 gwei, average rewards are at least as high as the required gas to vote, etc). While these are lower than the highest peaks of gas one has observed recently, note that the voting periods are generally several days long, and these gas prices are relatively conservative compared to what has been recently necessary for non-instant confirmation times according to [https://www.gasnow.org/ ](https://www.gasnow.org/)\n\nNote that I also propose reducing the jurorsForCourtJump somewhat in the Blockchain and Blockchain Non-technical courts to make appeals to the general court somewhat more viable. In doing so, keeping in mind the historical rates of appeals in these courts, one can better take advantage of the security associated with the larger amount that is staked in the general court in case of attack.\n\n## General Court\n\nProposed juror fee : 0.03 ETH\nProposed minstake : 700.0 PNK\n\n## Blockchain\n\nProposed juror fee : 0.034 ETH\nProposed minstake : 2100.0 PNK\nProposed jurorsForCourtJump: 63\n\n## Non-Technical\n\nBlockchain->Non-Technical\n\nProposed juror fee : 0.028 ETH\nProposed minstake : 2500.0 PNK\nProposed jurorsForCourtJump: 31\n\n## Token Listing\n\nBlockchain->Non-Technical->Token Listing\n\nProposed juror fee : 0.14 ETH\nProposed minstake : 14000.0 PNK\n\n## Technical\n\nBlockchain->Technical\n\nProposed juror fee : 0.14 ETH\n\n## English Language\n\nProposed juror fee : 0.036 ETH\nProposed minstake : 3900.0 PNK\n\n## Onboarding\n\nProposed juror fee : 0.023 ETH\nProposed minstake : 700.0 PNK\nProposed alpha : 1\n\n## Curation\n\nProposed juror fee : 0.028 ETH\nProposed minstake : 3100.0 PNK\nProposed alpha : 0.5\n\n## Curation (Medium)\n\nCuration->Curation (Medium)\n\nProposed juror fee : 0.028 ETH\nProposed minstake : 3100.0 PNK\n\n## Spanish-English Translation\n\nEnglish Language->Spanish-English Translation\n\nProposed minstake : 3900.0 PNK\nProposed alpha : 0.4\n\n## French-English Translation\n\nEnglish Language->French-English Translation\n\nProposed minstake : 3900.0 PNK\nProposed alpha : 0.4\n\n## Portuguese-English Translation\n\nEnglish Language->Portuguese-English Translation\n\nProposed minstake : 3900.0 PNK\nProposed alpha : 0.4\n\n## German-English Translation\n\nEnglish Language->German-English Translation\n\nProposed juror fee : 0.029 ETH\nProposed minstake : 3900.0 PNK\nProposed alpha : 0.4\n\n## Russian-English Translation\n\nEnglish Language->Russian-English Translation\n\nProposed juror fee : 0.029 ETH\nProposed minstake : 3900.0 PNK\nProposed alpha : 0.4\n\n## Korean-English Translation\n\nEnglish Language->Korean-English Translation\n\nProposed juror fee : 0.031 ETH\nProposed minstake : 3900.0 PNK\nProposed alpha : 0.43\n\n## Japanese-English Translation\n\nEnglish Language->Japanese-English Translation\n\nProposed juror fee : 0.031 ETH\nProposed minstake : 3900.0 PNK\nProposed alpha : 0.43\n\n## Turkish-English Translation\n\nEnglish Language->Turkish-English Translation\n\nProposed juror fee : 0.031 ETH\nProposed minstake : 3900.0 PNK\nProposed alpha : 0.43\n\n## Chinese-English Translation\n\nEnglish Language->Chinese-English Translation\n\nProposed juror fee : 0.031 ETH\nProposed minstake : 3900.0 PNK\nProposed alpha : 0.43\n\n## Corte General en Español\n\nProposed juror fee : 0.031 ETH\nProposed minstake : 1700.0 PNK\n\n## Humanity\n\nProposed juror fee : 0.028 ETH\nProposed minstake : 1200.0 PNK\n\nI also propose to update the following arbitrable application parameters:\n\nCurate Kleros High Impact Storytelling: submissionBaseDeposit : 0.08 ETH\n\nCurate Kleros High Impact Storytelling: removalBaseDeposit : 0.08 ETH\n\nCurate Kleros High Impact Storytelling: removalChallengeBaseDeposit : 0.058 ETH\n\nProof of Humanity: submissionBaseDeposit : 0.14 ETH",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 45,
+      "blockNumber": 12201390,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmQKtdo98FWxKpHtykh44DMVJFT7DT9gn3uufL6WQ8ah5B",
+      "startTime": {
+        "timestamp": 1617969600
+      },
+      "endTime": {
+        "timestamp": 1618574400
+      },
+      "startTimestamp": 1617969600,
+      "endTimestamp": 1618574400,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 8943355.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8943356.376256276,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtc2Fwb2xiM29rY3hrbXJ1ZXFncjd6Y24xdng4ZG13Y3VvbnllcmJmeWd0dGM=",
+      "id": "QmSaPoLb3oKCXkmRUEQgR7ZCN1vX8dMwCUonyErBFygTtc",
+      "title": "KIP-38 T2CR Evidence Display Update",
+      "content": "[Forum discussions](https://forum.kleros.io/t/kip-38-t2cr-evidence-display-update/519)\n\nI propose to update the meta evidence file used for registration and removal requests from:\n\nregistration: `/ipfs/QmdpgKxeUFiMjNB4G7hrcnKt5UgnXKnRQi8LLL6iPZWSAk`\nremoval: `/ipfs/QmPfnRCPfU6C6HqGenPf8VErpyyTjYSk5SkTDtcehANdHJ`\n\nto\n\nregistration: `/ipfs/QmcqVE7VHgoMSP1WYUxSFAKeB6uwA7cHDkJswXGHgdWdjF`\nremoval: `/ipfs/QmYHiS8ncwsLV5yHt8mUyz7w4LHNUPMibraUA8rdcvZbcH`\n\nDiff:\n\nThe only field changed is the `evidenceDisplayInterfaceURL` . The ipfs gateway used is removed from the url leaving only the IPFS uri portion.\n\n**Rationale**\n\nWe should not trust any ipfs gateway (even klerose’s) by default and let the user select his own. This is a security best practice.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 48,
+      "blockNumber": 12201358,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmSaPoLb3oKCXkmRUEQgR7ZCN1vX8dMwCUonyErBFygTtc",
+      "startTime": {
+        "timestamp": 1617969600
+      },
+      "endTime": {
+        "timestamp": 1618574400
+      },
+      "startTimestamp": 1617969600,
+      "endTimestamp": 1618574400,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 4928603.0,
+          "choice": 0
+        },
+        {
+          "total": 76.36,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4928602.858152157,
+          "choice": 0
+        },
+        {
+          "total": 76.36,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtZWlxM3FnanFqYzdzNXdxbTdwanVjaTZ4ZWQ3aXVicGNkanRrd212azQxYmk=",
+      "id": "Qmeiq3qgJqjc7S5WqM7pJUci6XEd7iubPcDJtKwmvK41Bi",
+      "title": "KIP-36 Court proposal: Humanity Court",
+      "content": "I am proposing to create the following new court for use in disputes that will come from Proof-of-Humanity.\n\nCourt name : Humanity Court\n\nParent court : General Court\n\nhiddenVotes : 0\n\nProposed juror fee : 0.019 ETH\n\nProposed minstake : 1000.0 PNK\n\nProposed alpha : 0.5\n\nJurors for jump : 31\n\nTimes per period : [540000, 437400, 437400, 291600]\n\n## Court policy :\n\nCourt purpose: In this court jurors will judge disputes related to establishing Sybil resistant lists of unique human identities, particularly for the Proof of Humanity protocol.\n\nRequired skills: Jurors should be capable of reasonably evaluating whether a proposed submission consisting of photo and video evidence corresponds to a unique human being, eventually making use of supplementary information that might be provided as evidence by relevant parties.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 57,
+      "blockNumber": 11729254,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/Qmeiq3qgJqjc7S5WqM7pJUci6XEd7iubPcDJtKwmvK41Bi",
+      "startTime": {
+        "timestamp": 1611748800
+      },
+      "endTime": {
+        "timestamp": 1612353600
+      },
+      "startTimestamp": 1611748800,
+      "endTimestamp": 1612353600,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 12080608.0,
+          "choice": 0
+        },
+        {
+          "total": 1155.971,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 12080608.923322408,
+          "choice": 0
+        },
+        {
+          "total": 1155.971004295437,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtYm1hYWhsNHhqMm9tNWNkYXBrYXczbjd5emtsb3F3dHVlamxtb3dlcnN1c24=",
+      "id": "QmbMAahL4Xj2oM5cDaPKAW3n7yZKLoQWtuEJLMoWersUsN",
+      "title": "KIP-37 Juror Incentive Program",
+      "content": "# Current staked amount is OK but could be better\n\nCurrently there is more than 13M$ worth (106,753,000 PNK according to [klerosboard ](http://klerosboard.com/)) of PNK staked. This looks good in absolute numbers and relative to liquidity (even with an infinite amount of capital, an attacker wouldn’t find enough PNK for sale on exchanges to buy this much) but in term of % of the supply it’s not that high (~14% of the supply is staked).\n\n# Extra incentives for staking\n\nJurors are already rewarded for their work with arbitration fees when they get drawn in a dispute. However simply staking in courts with a low amount of disputes per staked PNK (like the general court) doesn’t provide a high amount of financial rewards while those stakers are still securing the system.\nWe’ve seen with the recent trend of yield farming that providing tokens to stakers works in increasing the value staked (see [Uniswap ](https://uniswap.exchange/) and [SushiSwap](https://sushiswapclassic.org/) as the most prominent examples).\n\n# Proposal\n\nWe propose to set up a juror incentive program which will reward staked jurors in proportion of their stake.\nFor the year of 2021, jurors will receive a total of 1 000 000 PNK each month in proportion of the time and amount staked in this month.\n\nIn addition, any address which staked PNK before 01/12/2020 will receive a retroactive distribution of 1000 PNK.\n\nDetails:\n\n* The proposal is retroactive.\n* The tokens will be distributed using a Merkle Drop contract.\n* The distribution will start as soon as technically possible.\n* There may be a seasonality of the distribution (like once per week/month).\n* The computation of rewards may use snapshots as long as those are taken at least once per day (i.e. if tracking every stake/unstake events is not easy, it is possible to look at snapshots of staked balances and use those to determine how to split the rewards for that period of time).\n\n# Rationale\n\nThe goal of this proposal is to incentivize PNK holders to stake their PNK. At current values staked it would correspond to a 11% APY (labelled in PNK) for PNK staking. We expect this to drop (to a 1 digit value) as it would create extra incentives for staking and the total amount of PNK staked would increase diluting the rewards.\nIt would also improve the user experience of jurors staking small amount and not being drawn, often removing the negative feeling of “staking for nothing”.\n\nThe 1000 PNK for every address which staked before December would give a small boost in the chances of being drawn for jurors with low stakes but who still demonstrated their interest participating. The amount stays modest to avoid incentivizing the creation of multiple addresses for the purpose of retroactive airdrops (i.e. expecting other projects to conduct similar airdrops and creating addresses for this purpose). The date is set before December as at this time no one had the knowledge that such proposal would be made.",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 107,
+      "blockNumber": 11729254,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmbMAahL4Xj2oM5cDaPKAW3n7yZKLoQWtuEJLMoWersUsN",
+      "startTime": {
+        "timestamp": 1611748800
+      },
+      "endTime": {
+        "timestamp": 1612353600
+      },
+      "startTimestamp": 1611748800,
+      "endTimestamp": 1612353600,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 19227810.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 19227810.3235246,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtZWpqdnVnZjJvOXZybWp4OHN6dmhlcjhjYTZpcjJ0dXR3aGdyOWtibTFnYzk=",
+      "id": "QmeJjVUgF2o9vrmjx8szvher8Ca6iR2TuTwHGR9KbM1gC9",
+      "title": "KIP-32: General Court Policy Update",
+      "content": "I had previously suggested some changes to the general court policy here: [Revisiting General Court Policy](https://forum.kleros.io/t/revisiting-general-court-policy/474) Considering the lack of a response on that thread, these changes seem pretty non-controversial, so I am creating this thread to put them to a vote.\n\nThe changes add the following lines:\n\n## Add\n\nAll policies of a court also apply to all of its child subcourts.\n\nRulings should be made based on the “state of the world” at the time a dispute was created. (Ex: in a dispute concerning membership of a smart contract on a curated list of “bug free” contracts, jurors should not take into account changes made to the contract after the dispute is raised.) In particular, jurors should base their rulings on court policies and arbitrable application primary documents as they exist at the time of the creation of the dispute, disregarding later modifications.\n\nTo ensure fairness to jurors who vote at different times within a voting period, jurors should disregard any evidence that is both 1) submitted after the end of the evidence period of the initial round of a dispute AND 2) cannot be reasonably considered to have been readily, publicly available to jurors. Jurors may, however, consider arguments that are submitted later that are based upon existing evidence and/or information which a juror considering the case during the evidence period of the initial round could reasonably have been expected to find themselves. (Ex: a party submits a new photo of a damaged product in an insurance case after the evidence period; this photo should not be considered by jurors. Ex: in a dispute over whether a token satisfies the criteria of a curated list of ERC20 tokens, an argument that reminds jurors of a definitional element of the ERC20 standard is submitted; this is publicly available and can be considered by jurors. Ex: in a dispute over whether a token satisfies a decentralization criterion for an exchange listing, an argument that invokes the distribution of tokens over different Ethereum addresses, as publicly available from sites such as Etherscan, can be considered by jurors.)\n\nWhen considering an appeal of a case that has originated in a lower court, jurors should consider whether 1) evaluating the case requires specialized skills which jurors in the appellate court cannot be expected to have (ex: evaluating the quality of an English to Korean translation when knowledge of Korean is not a requirement of the appellate court) and 2) whether there is evidence that an attack was performed against this case in the lower court (ex: bribes, p+epsilon attacks, 51% attacks, etc). If there is no evidence of an attack AND appellate court jurors cannot be reasonably expected to have the required skills to independently evaluate the case, jurors should vote to uphold the lower court ruling. Evidence related to the presence of attacks on Kleros should be considered by jurors even if it would otherwise violate the above points on evidence admissibility.\n\nThen, the updated policy would read:\n\nCourt Purpose\n\nThe General court exists as the top court in the hierarchy. All appeals made in subcourts will make their way to the General Court.\n\nGuidelines:\n\n* All policies of a court also apply to all of its child subcourts.\n* Jurors should cast their vote with a suitable verification.\n* Jurors should not rule in favor of a side who have engaged in immoral activities (example: rule reject on “revenge porn” images even if they would otherwise fit into the category).\n* “Refuse to arbitrate” should be used for disputes where both sides of the dispute have engaged in activities which are immoral (ex: refuse to rule on an assassination market dispute).\n* Immoral activities include: Murder, slavery, rape, violence, theft and perjury.\n* Rulings should be made based on the “state of the world” at the time a dispute was created. (Ex: in a dispute concerning membership of a smart contract on a curated list of “bug free” contracts, jurors should not take into account changes made to the contract after the dispute is raised.) In particular, jurors should base their rulings on court policies and arbitrable application primary documents as they exist at the time of the creation of the dispute, disregarding later modifications.\n* To ensure fairness to jurors who vote at different times within a voting period, jurors should disregard any evidence that is both 1) submitted after the end of the evidence period of the initial round of a dispute AND 2) cannot be reasonably considered to have been readily, publicly available to jurors. Jurors may, however, consider arguments that are submitted later that are based upon existing evidence and/or information which a juror considering the case during the evidence period of the initial round could reasonably have been expected to find themselves. (Ex: a party submits a new photo of a damaged product in an insurance case after the evidence period; this photo should not be considered by jurors. Ex: in a dispute over whether a token satisfies the criteria of a curated list of ERC20 tokens, an argument that reminds jurors of a definitional element of the ERC20 standard is submitted; this is publicly available and can be considered by jurors. Ex: in a dispute over whether a token satisfies a decentralization criterion for an exchange listing, an argument that invokes the distribution of tokens over different Ethereum addresses, as publicly available from sites such as Etherscan, can be considered by jurors.)\n* When considering an appeal of a case that has originated in a lower court, jurors should consider whether 1) evaluating the case requires specialized skills which jurors in the appellate court cannot be expected to have (ex: evaluating the quality of an English to Korean translation when knowledge of Korean is not a requirement of the appellate court) and 2) whether there is evidence that an attack was performed against this case in the lower court (ex: bribes, p+epsilon attacks, 51% attacks, etc). If there is no evidence of an attack AND appellate court jurors cannot be reasonably expected to have the required skills to independently evaluate the case, jurors should vote to uphold the lower court ruling. Evidence related to the presence of attacks on Kleros should be considered by jurors even if it would otherwise violate the above points on evidence admissibility.\n* Jurors should attempt to interpret disputes according to the “spirit of the dispute” unless the arbitrable contract or the policies of the subcourt state otherwise.\n* Jurors should interpret disputes without assuming the existence of gods, spirits or other supernatural beings unless the arbitrable contract or the policies of the subcourt state otherwise.\n\n[Discussion](https://forum.kleros.io/t/kip-32-general-court-policy-update/483)",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 12,
+      "blockNumber": 11434148,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmeJjVUgF2o9vrmjx8szvher8Ca6iR2TuTwHGR9KbM1gC9",
+      "startTime": {
+        "timestamp": 1607774400
+      },
+      "endTime": {
+        "timestamp": 1608379200
+      },
+      "startTimestamp": 1607774400,
+      "endTimestamp": 1608379200,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 9613152.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9613152.37820161,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtYjVjcmF6enFtankxMWF6emdwejVwZnJ3OHVydHVyZHdlcnl1d3phdGtoZHM=",
+      "id": "Qmb5Crazzqmjy11aZzgPZ5pFRw8uRTUrdweryUWZaTkHDS",
+      "title": "KIP-31: T2CR Primary Document Update",
+      "content": "Based on some of the discussions in [Revisiting T2CR Policy](https://forum.kleros.io/t/revisiting-t2cr-policy/460) I propose the following, limited changes to the T2CR listing policy that, while perhaps not addressing for now all of the points that people raised, seem common enough to the different approaches to (hopefully) find a consensus, addressing some of these issues while not adding a lot of complexity to the policy.\n\n## Add:\n\n“Minor issues with token symbols that are not visible to the naked eye when the symbol is displayed at a size of 10 cm by 10 cm should not be a basis for rejection.”\n\n“Any common capitalization usage, not necessarily the most common, is acceptable.”\n\n## Remove:\n\n“and at most 2500x2500px” (from the condition that currently reads “The token symbol should be a transparent PNG of at least 128x128px and at most 2500x2500px. It should not weight more than 1MB.”. This is based on the reasoning that this condition is redundant as there is also a file size limit.)\n\n## Modify:\n\n“It should not weight more than 1MB.” to say “It should not have a size of more than 1MB.” (This reformulation should hopefully be somewhat clearer and fixes the typo currently present.)\n\nHence, the policy would then read:\n\n* The name should be the most commonly used name to refer to the asset. It does not necessarily need to be the official name given by project creators nor the one in the token contract.\n* Suffixes such as, but not limited to: “Token”, “Coin” should generally be avoided, unless a name with suffix is already well established.\n* Names should be treated like brand names (spelling wise). This means that the correct spelling is dictated by the project owners, unless consensus forms around a different spelling. Any common capitalization usage, not necessarily the most common, is acceptable.\n* Contract addresses are an attack vector and should be checked carefully.\n* Attached Logos should be PNG format with a transparent background.\n* In case of duplicates, only the first submission should be accepted. The most recent submissions appear highest in the list.\n* The token symbol should be a transparent PNG of at least 128x128px. It should not have a size of more than 1MB. It should be centered and take most of the space available in the image. It should not include the project or token name unless the symbol always includes it. It should be of a definition high enough such that it should not appear pixelated or blurry unless those are on-purpose features of the symbol.\n* Minor issues with token symbols that are not visible to the naked eye when the symbol is displayed at a size of 10 cm by 10 cm should not be a basis for rejection.\n* The logo should be fully included.\n* Requests are **not** to be denied listing based on token creation date, token swap status (with non-ethereum chains), use case or token activity.\n* All submissions must be tokens with smart contracts deployed on the Ethereum (ETH) mainnet.\n\n[Discussion](https://forum.kleros.io/t/kip-31-t2cr-primary-document-update/482)\n",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 11,
+      "blockNumber": 11434140,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/Qmb5Crazzqmjy11aZzgPZ5pFRw8uRTUrdweryUWZaTkHDS",
+      "startTime": {
+        "timestamp": 1607774400
+      },
+      "endTime": {
+        "timestamp": 1608379200
+      },
+      "startTimestamp": 1607774400,
+      "endTimestamp": 1608379200,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 9512896.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9512895.58681208,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtejh3b2F2d3RyeGZhbXBpb3pqOWplYnV4ejFkMXJxenJhd3ZoeWg4cHA1amM=",
+      "id": "QmZ8woavWtRXfAMpiozj9JEBUxz1d1RqZrAwVHYh8pP5JC",
+      "title": "KIP-34 Parameter Updates (December 2020)",
+      "content": "I am proposing an update to various court parameters and parameters of some arbitrable applications controlled by the governor to account for changes in crypto prices, average gas prices, observed rates of coherence by court, etc.\n\nNote that these updates were generated by the calculator in the following worksheet: \n\nhttps://colab.research.google.com/drive/1D7FoiUC-5SNOZ5NLzJbeRc-AoP2_zCE9?usp=sharing \n\nSo you can see the exposition in this worksheet for the rationales that went into these choices as well as potentially play around with the calculator yourselves and eventually use it to create future parameter updates. Some of the estimations based on observed rates of coherence etc are listed here: https://docs.google.com/document/d/1Np-0JphMQwgim04ds16rpFoFrMstlTx78qIjqa5xjJo/edit?usp=sharing\n\n\nOne particular thing to point out is that I propose we change the stake multipliers in some of the arbitrable applications. Currently, most arbitrable applications either have winnerStakeMultiplier=sharedStakeMultiplier=50%, \nloserStakeMultiplier=100% or winnerStakeMultiplier=sharedStakeMultiplier=100%, \nloserStakeMultiplier=200%. Looking at applications with each choice, it looks like the rate of appeal is about the same (10-15%). However, all else being equal, going with winnerStakeMultiplier=sharedStakeMultiplier=50%, \nloserStakeMultiplier=100% has some positive effects on the minstake sizes we need for the courts that judge those cases, see the exposition in the calculator worksheet under “Arbitrator-Arbitrable Split Attack”. \n\n\n\nThus, I propose to update the parameters in the following courts:\n\n##  General Court\n\n\n\nProposed juror fee :  0.04 ETH\nProposed minstake :  620.0 PNK\nProposed alpha : 1\n\n##  Non-Technical\n\nBlockchain->Non-Technical\n\nProposed juror fee :  0.027 ETH\nProposed minstake :  1100.0 PNK\nProposed alpha : 0.5\n\n##  Token Listing\n\nBlockchain->Non-Technical->Token Listing\n\nProposed juror fee :  0.42 ETH\nProposed minstake :  13000.0 PNK\n\n##  Technical\n\nBlockchain->Technical\n\nProposed juror fee :  0.44 ETH\nProposed minstake :  17000.0 PNK\n\n##  English Language\n\n\n\nProposed juror fee :  0.056 ETH\nProposed minstake :  1900.0 PNK\n\n##  Onboarding\n\n\n\nProposed juror fee :  0.0087 ETH\nProposed minstake :  620.0 PNK\nProposed alpha : 0.24\n\n##  Curation\n\n\n\nProposed juror fee :  0.014 ETH\nProposed minstake :  620.0 PNK\nProposed alpha : 0.46\n\n##  Curation (Medium)\n\nCuration->Curation (Medium)\n\nProposed juror fee :  0.023 ETH\nProposed minstake :  770.0 PNK\nProposed alpha : 0.5\n\n##  Spanish-English Translation\n\nEnglish Language->Spanish-English Translation\n\nProposed juror fee :  0.028 ETH\nProposed minstake :  1900.0 PNK\nProposed alpha : 0.23\n\n##  French-English Translation\n\nEnglish Language->French-English Translation\n\nProposed juror fee :  0.028 ETH\nProposed minstake :  1900.0 PNK\nProposed alpha : 0.23\n\n##  Portugese-English Translation\n\nEnglish Language->Portugese-English Translation\n\nProposed juror fee :  0.028 ETH\nProposed minstake :  1900.0 PNK\nProposed alpha : 0.23\n\n##  German-English Translation\n\nEnglish Language->German-English Translation\n\nProposed juror fee :  0.033 ETH\nProposed minstake :  1900.0 PNK\nProposed alpha : 0.27\n\n##  Russian-English Translation\n\nEnglish Language->Russian-English Translation\n\nProposed juror fee :  0.033 ETH\nProposed minstake :  1900.0 PNK\nProposed alpha : 0.27\n\n##  Korean-English Translation\n\nEnglish Language->Korean-English Translation\n\nProposed juror fee :  0.04 ETH\nProposed minstake :  1900.0 PNK\nProposed alpha : 0.33\n\n##  Japanese-English Translation\n\nEnglish Language->Japanese-English Translation\n\nProposed juror fee :  0.04 ETH\nProposed minstake :  1900.0 PNK\nProposed alpha : 0.33\n\n##  Turkish-English Translation\n\nEnglish Language->Turkish-English Translation\n\nProposed juror fee :  0.04 ETH\nProposed minstake :  1900.0 PNK\nProposed alpha : 0.33\n\n##  Chinese-English Translation\n\nEnglish Language->Chinese-English Translation\n\nProposed juror fee :  0.04 ETH\nProposed minstake :  1900.0 PNK\nProposed alpha : 0.33\n\n\nFurthermore, I propose to update the following arbitrable application parameters:\n\n## T2CR: \nrequestorBaseDeposit :  0.16 ETH\nwinnerStakeMultiplier:  5000 (i.e. 50%)\nloserStakeMultiplier: 10000 (i.e. 100%)\nsharedStakeMultiplier: 5000 (i.e. 50%)\n\n\n## ERC20 badge:\nrequestorBaseDeposit :  6.5 ETH\nwinnerStakeMultiplier:  5000 (i.e. 50%)\nloserStakeMultiplier: 10000 (i.e. 100%)\nsharedStakeMultiplier: 5000 (i.e. 50%)\n\n## Curate Safe Farming: \nsubmissionBaseDeposit :  13.0 ETH\nremovalBaseDeposit :  0.82 ETH\nremovalChallengeBaseDeposit :  0.025 ETH\nwinnerStakeMultiplier: 5000 (i.e. 50%)\nloserStakeMultiplier: 10000 (i.e. 100%)\nsharedStakeMultiplier: 5000 (i.e. 50%)\n\n[Discussion](https://forum.kleros.io/t/kip-34-parameter-updates-december-2020/488)",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 13,
+      "blockNumber": 11434186,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmZ8woavWtRXfAMpiozj9JEBUxz1d1RqZrAwVHYh8pP5JC",
+      "startTime": {
+        "timestamp": 1607774400
+      },
+      "endTime": {
+        "timestamp": 1608379200
+      },
+      "startTimestamp": 1607774400,
+      "endTimestamp": 1608379200,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 9783822.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9783821.868509252,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtejdxY21kaXp6bzlycmhjc21objFrMm1mbGxzcjRjYm1saXRieWhicnU1YTg=",
+      "id": "QmZ7qcMDizzo9rRhCSMHN1k2MfLLsR4cbmLitbyHbru5A8",
+      "title": "KIP-35 Court proposal: Corte General en Español (Spanish General Court)",
+      "content": "I am proposing to create a new court, which can be used for general, non-categorical disputes that require language skills in Spanish, such as case 479: https://court.kleros.io/cases/479. So, I envision this court eventually playing a similar role to that of the general court for Spanish-based disputes in that one could imagine having other courts requiring specialized skills (knowledge of e-commerce, etc) in addition to Spanish where Spanish-based disputes requiring those skills could be judged. Then this court would act as an appeal court to any of those specialized courts. Note that this new court is still a child court of the General Court, so jurors that stake here might still wind up sometimes judging a dispute that has some English language content if they get selected for a case in the General Court.\n\nAs this court is calibrated for similar tasks, the parameters I propose are based on those of the General Court (or at least the updated parameters being proposed for the General Court in KIP 34):\n\nCourt name : Corte General en Español\n\nParent court : General Court\n\nhiddenVotes : 1\n\nProposed juror fee : 0.04 ETH\n\nProposed minstake : 620 PNK\n\nProposed alpha : 1\n\nJurors for jump : 128\n\nTimes per period : [280800, 583200, 583200, 388800]\n\n## Court policy :\n\nPropósito de la Corte\n\nLa Corte General en Español sirve como corte de uso múltiple para todo tipo de disputas que requieran un alto nivel de conocimiento del español para ser evaluadas. Los casos resueltos por cortes más especializadas que requieran conocimientos de español además de otras habilidades pueden ser revisados en esta corte tras el proceso de apelación.\n\nPolíticas\n\nAdemás del requisito de que los jurados tengan un nivel suficiente de español, esta corte debe tener la misma política que la Corte General de Kleros.\n\nHabilidades Requeridas\n\nEste tribunal requiere un nivel avanzado de español. Los miembros del jurado deben poder leer la evidencia y proporcionar una justificación adecuada en español sobre una amplia gama de temas.\n\n[Discussion](https://forum.kleros.io/t/kip-35-court-proposal-corte-general-en-espanol-spanish-general-court/489)",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 11,
+      "blockNumber": 11434195,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmZ7qcMDizzo9rRhCSMHN1k2MfLLsR4cbmLitbyHbru5A8",
+      "startTime": {
+        "timestamp": 1607774400
+      },
+      "endTime": {
+        "timestamp": 1608379200
+      },
+      "startTimestamp": 1607774400,
+      "endTimestamp": 1608379200,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 9383377.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9383377.057838043,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6a2xlcm9zOnNuYXBzaG90OnFtc3Jrc3YydGVvZmt5bTV2NTl3dHY0YnNxbnJrNjRybWdlMmZmOHZkYXA4bHU=",
+      "id": "QmSrkSV2Teofkym5V59WTV4bsQnRK64rMGe2FF8vdAP8Lu",
+      "title": "KIP-33: Liquidity Recovery",
+      "content": "\n## TL;DR\n\n- *On Aug. 3rd 2020, a team member erroneously locked up some liquidity funds on Balancer.*\n- *Cooperative Kleros developed a recovery contract which can only be executed by Kleros governance.*\n- *In case of &#39;Yes&#39; the Cooperative will regain full control over the funds.*\n- *In case of &#39;No&#39;, funds will stay locked in the pool. They will still provide liquidity to Balancer but the Cooperative will not have control over them nor will collect BAL rewards for this liquidity.*\n\n## Background\n\nCoopérative Kleros provides funds to improve PNK pairs liquidity for a number of exchanges in both the centralized and decentralized space. One of those exchanges is Balancer, which currently has around 1.5M$ of Coopérative Kleros funds providing both ETH and PNK to facilitate trading.\n\nOn August the 3rd 2020, one team member made an [erroneous transaction](https://etherscan.io/tx/0xbb26dbc1a8da0a136d95276bf6193244ca07075db8fbb8a9d56cfdd90571af90) resulting in a portion of Coopérative Kleros&#39; liquidity being sent to an incorrect contract thus rendering it &#39;locked&#39; from withdrawal by the Cooperative. The team member in question resigned and has since been replaced.\n\nAlthough these funds are &#39;locked&#39; in name, they still provide liquidity to anyone using the Balancer exchange pool and would continue to do so into the future even if this proposal were to be rejected.\n\n We have, however, developed a recovery contract mechanism which, when activated by the governor, will return the funds to Coopérative Kleros.\n\nNote that those funds were assigned to be used as liquidity anyway and are not needed for operational purposes. In fact, the [Cooperative treasury](https://etherscan.io/address/0x67a57535b11445506a9e340662CD0c9755E5b1b4) has never been higher.\n\nAlso note that even if those funds were to be written-off (for the cooperative, but not for the ecosystem as they would still provide liquidity), the cooperative would still be overall profitable in its liquidity providing activities (mainly because of the 2M$ worth of UNI received).\n\n## Proposal\n\nGive [PNK](https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d?a=0x67a57535b11445506a9e340662CD0c9755E5b1b4)&#39;s controller role to the [recovery contract](https://etherscan.io/address/0x5f7c8c12ec3a545c71e56cb0609db769155d169e) at address 0x5F7C8c12ec3A545c71E56cb0609db769155d169E (note that etherscan verification is down but you can verify the [source code](https://github.com/kleros/balancer-funds-recovery/blob/0e0ac587c14a36bf5441eb6103ff4adb26bcf6a8/contracts/BalancerPoolRecoverer.sol) yourself). This role is required to perform the recovery and will be automatically restored after the operation.\n\nThe recovery contract will send the assets locked in the pool to the Coopérative Kleros multisig wallet. The Coopérative will then create a new pool on Balancer and give the liquidity tokens of this new pool to the previous pool owners\n\nThis will restore the lost funds.\n\n## Q &amp; A\n\n### Why can&#39;t Cooperative Kleros just do it?\n\nThe Cooperative cannot technically do it without using governance. The recovery contract requires an action from the [Kleros governor](https://governor.kleros.io/kleros), thus a governance vote.\n\n### What would be the advantages of performing the recovery?\n\nCooperative Kleros would regain full control of the funds to use as it sees fit. There is currently no plan of removing the liquidity from Balancer. However, regaining control of this liquidity would allow the Coopérative to benefit from BAL rewards and to potentially reallocate those funds for other purposes in the future.\n\n### What would be the issues with leaving them locked?\n\nThe main issue is that these funds would be permanently locked in the Balancer pool and would not be available for other Coopérative operations. As it stands, although the funds are providing liquidity for the PNK token, the cooperative is not receiving BAL rewards which are instead burned.\n\nIf it were to regain control of the funds and add them correctly to the Balancer pool, it would then receive BAL rewards once more which can be added to the cooperative treasury.\n\n### What would be the actions performed by this recovery contract?\n\n- First, almost all the PNK stored in the Balancer pool would be pulled out. The right to do so would be temporarily granted to the recovery contract by the Governor contract.\n- Second, the recovery contract would swap the recovered PNK for WETH repeatedly, taking advantage of the imbalance in the Balancer pool.\n- Third, all recovered funds would be sent to Coopérative Kleros and all rights over the PNK token would be restored.\n\n[Discussion](https://forum.kleros.io/t/kip-33-liquidity-recovery/487)\n",
+      "protocol": "kleros",
+      "adapter": "snapshot",
+      "proposer": "0x00B5ADe4ac1fE9cCc08Addc2C10070642335117F",
+      "totalVotes": 24,
+      "blockNumber": 11434157,
+      "externalUrl": "https://snapshot.org/#/kleros.eth/proposal/QmSrkSV2Teofkym5V59WTV4bsQnRK64rMGe2FF8vdAP8Lu",
+      "startTime": {
+        "timestamp": 1607774400
+      },
+      "endTime": {
+        "timestamp": 1608379200
+      },
+      "startTimestamp": 1607774400,
+      "endTimestamp": 1608379200,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 23912496.0,
+          "choice": 0
+        },
+        {
+          "total": 6389269.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 23912497.080527704,
+          "choice": 0
+        },
+        {
+          "total": 6389268.848189281,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686170887942,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

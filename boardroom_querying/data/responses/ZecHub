@@ -1,0 +1,517 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6emVjaHViZGFvZXRoOnNuYXBzaG90OjB4YmE4NjZiMjkyZmRhNTA3MmFhMGNhYTlkMTJlZDU2ZWUyODFiODYyNjkyMTVlNTU2M2Q0OWM4NGZiNzgxNzdmYw==",
+      "id": "0xba866b292fda5072aa0caa9d12ed56ee281b86269215e5563d49c84fb78177fc",
+      "title": "Migrate ZecHUB DAO to the Cosmos Ecosystem",
+      "content": "Background\n\nCurrently ZecHub DAO is based on Ethereum. Our Governance NFT(https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/68508579595545837219188639426835396144297946198903014937041658925738008510484) has enabled the DAO to serve as the ZecHub inc. governing body despite resolutions not being legally binding. ZecHub DAO has so far completed 8 votes using snapshot, with 3 addresses creating proposals. The proposed platform to migrate ZecHub DAO to is DAODAO(https://daodao.zone) — A purpose-built platform to manage organization proposals and voting. The platform does not require members to hold an NFT, instead members public addresses are listed. \n\nWhy? \n\nCurrently 1 member of the DAO is no longer able to access their keys to perform voting on ZecHub proposals. A migration would allow all members to be reinstated. The Cosmos Ecosystem enables interoperability and access to a larger set of assets including Agoric and soon Namada. This is aligned with the broader Zcash ecosystem direction. The new voting platform is based on Multisig. This will enable the DAO to manage a portion to be designated from the ZecHub Treasury for greater security in either stablecoin or other portfolio assets. This will also encourage DAO members to exercise greater organization coordination regarding ZecHub's direction and autonomy moving forward. \n\nProposal\n\nWe propose to complete migration by July 24th 2023 12:00 UTC. The existing Ethereum 2/3 Multisig will remain in use for Ethereum assets. Any DAO votes taking place after this date using this token (https://etherscan.io/nft/0x495f947276749ce646f68ac8c248420045cb7b5e/68508579595545837219188639426835396144297946198903014937041658925738008510484) are to be deemed invalid.  All current DAO members will be required to generate a cosmos addresses and retain their private keys securely by this date. They will also need to submit this address to either: the ZecHub UA via a private memo or directly to either dismad,squirrel, or tokidoki. Once the multisig is created, all Proposals & Votes will be held on daodao.zone. We will migrate 'vote.zechub.org' to the new address. A vote of \"Yes\" will confirm you wish to move to Cosmos DAO.\n\n If a majority of 75% or more vote in favor we will proceed to prepare the new DAO multisig and the Ethereum DAO NFT's sunset date will be set for 24.07.2023.",
+      "protocol": "zechubdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x422D2bffC6d60Ee30715A760364009cc82e651c3",
+      "totalVotes": 10,
+      "blockNumber": 17714917,
+      "externalUrl": "https://snapshot.org/#/zechubdao.eth/proposal/0xba866b292fda5072aa0caa9d12ed56ee281b86269215e5563d49c84fb78177fc",
+      "startTime": {
+        "timestamp": 1689620465
+      },
+      "endTime": {
+        "timestamp": 1689879600
+      },
+      "startTimestamp": 1689620465,
+      "endTimestamp": 1689879600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "shutter",
+      "indexedAt": 1689620548631,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6emVjaHViZGFvZXRoOnNuYXBzaG90OjB4N2Y2NWU2Zjg5YWE2N2U1N2JlMjJkMjJjMjY1YmI4NWU4NGI3NGE5MTM2NDVmMTAxNGVjNzZlNWRjMDllNzJjOQ==",
+      "id": "0x7f65e6f89aa67e57be22d22c265bb85e84b74a913645f1014ec76e5dc09e72c9",
+      "title": "ZecHub Zazzle Merch Shop",
+      "content": "I propose the following to the DAO:\n\nhttps://app.skiff.com/docs/d0d87aa1-9134-41ae-9d7d-b503f5c285ca#2oup24s548%2BZijo4kUUpn6JStZjgjCs21GF5M2JnbfA%3D\n\nPlease vote if you hodl a ZecHubDAO NFT 🦓 🙌",
+      "protocol": "zechubdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xf49bFe92C69fC48570B43b2AfA19D8badE159b38",
+      "totalVotes": 7,
+      "blockNumber": 17530230,
+      "externalUrl": "https://snapshot.org/#/zechubdao.eth/proposal/0x7f65e6f89aa67e57be22d22c265bb85e84b74a913645f1014ec76e5dc09e72c9",
+      "startTime": {
+        "timestamp": 1687377194
+      },
+      "endTime": {
+        "timestamp": 1687636306
+      },
+      "startTimestamp": 1687377194,
+      "endTimestamp": 1687636306,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "shutter",
+      "indexedAt": 1687377758151,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6emVjaHViZGFvZXRoOnNuYXBzaG90OjB4ZjBiYmY1MTg4ZTEwMTZiOTZhNzk0NjJmY2FhYWM3OTE4NzdlOTRhZmExMmFlMTljMmNjNjlhODI3YjU1NjhmOA==",
+      "id": "0xf0bbf5188e1016b96a79462fcaaac791877e94afa12ae19c2cc69a827b5568f8",
+      "title": "Contract for Video Production - Joel Valenzuela",
+      "content": "Why\n\nIn light of recent community feedback videos were deemed the most necessary item for ZecHub to release. We have created a strategy to meet the community request. \n\n\nHow\n\nThe ZecHub Media Strategy involves core-contributors arranging & participating in a New Twitter Spaces series, scheduling Video related tasks at higher frequency and finding new avenues of outreach via social media. \n\nIn these efforts we have reached out to Joel Valenzuela, current host of the Zcash Podcast. He has solid reputation for producing high quality cryptocurrency related material and is a knowledgeable & active member of the community.\n\n\nProposal\n\nWe propose to have a 6 month ongoing contract, this will involve;\n\n- 2 videos submitted per month to be posted on ZecHub channel\n\n- 7.5 ZEC per month  (subject to reduction with >20% price change of Zcash)\n\n- ZecHub inc. is free to publicly distribute all materials produced \n\nA vote of “Yes” will permit the ZecHub treasury to allocate funds on monthly basis provided all detailed above terms are met.",
+      "protocol": "zechubdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x422D2bffC6d60Ee30715A760364009cc82e651c3",
+      "totalVotes": 7,
+      "blockNumber": 17076690,
+      "externalUrl": "https://snapshot.org/#/zechubdao.eth/proposal/0xf0bbf5188e1016b96a79462fcaaac791877e94afa12ae19c2cc69a827b5568f8",
+      "startTime": {
+        "timestamp": 1681859101
+      },
+      "endTime": {
+        "timestamp": 1682118301
+      },
+      "startTimestamp": 1681859101,
+      "endTimestamp": 1682118301,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "shutter",
+      "indexedAt": 1681859687946,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6emVjaHViZGFvZXRoOnNuYXBzaG90OjB4ODhmNWFjZjNkZDE5NzlkMDg2MjhmNjhmMjQ5MWRkMTE3NDhhYjkxODBhODJmNDNkNjYzNWY1NjE5OGY0MjFmMw==",
+      "id": "0x88f5acf3dd1979d08628f68f2491dd11748ab9180a82f43d6635f56198f421f3",
+      "title": "Funding for Team Specialist Role",
+      "content": "Background\n\nThe @ZecHubDAO has completed an initial vote choosing to add Iogy as Team Specialist \nLink:https://vote.zechub.org/#/zechubdao.eth/proposal/0xcaf19473e12aaeaaaf3707e067d86968afa46946ea85fb0449ced7beec674932 \n\nInitially this was planned to be funded through Zcash Minor Grants. This was unsuccessful. \nLink: https://zfnd.org/wp-content/uploads/2023/04/Crew3_technician.pdf\n\nProposal\n\nAs we still intend to proceed with the Crew3/Zealy campaign, we propose to allocate funds from the ZecHub Donations Balance towards the role. Total Amount - 14.2 ZEC\n\nA vote of “Yes” will permit ZecHub to send funds from donations address to fund the role. ",
+      "protocol": "zechubdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x422D2bffC6d60Ee30715A760364009cc82e651c3",
+      "totalVotes": 7,
+      "blockNumber": 17076705,
+      "externalUrl": "https://snapshot.org/#/zechubdao.eth/proposal/0x88f5acf3dd1979d08628f68f2491dd11748ab9180a82f43d6635f56198f421f3",
+      "startTime": {
+        "timestamp": 1681859304
+      },
+      "endTime": {
+        "timestamp": 1682118300
+      },
+      "startTimestamp": 1681859304,
+      "endTimestamp": 1682118300,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "shutter",
+      "indexedAt": 1681859687946,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6emVjaHViZGFvZXRoOnNuYXBzaG90OjB4Y2FmMTk0NzNlMTJhYWVhYWFmMzcwN2UwNjdkODY5NjhhZmE0Njk0NmVhODVmYjA0NDljZWQ3YmVlYzY3NDkzMg==",
+      "id": "0xcaf19473e12aaeaaaf3707e067d86968afa46946ea85fb0449ced7beec674932",
+      "title": "Add Logy as Specialist on ZecHub team ",
+      "content": "Requirement:\n\nZecHub has recently joined a number of Web3 platforms such as Dework & CREW3. These platforms foster onboarding of new people joining the Zcash community through ZecHub with learning & incentivised contribution opportunities. \n\nCREW3 specifically requires a significant amount of attention due to the format of several unlockable tasks that require approval & communication with our users. \n\nRole:\n\nWe propose to add Logy as a 'Specialist' Team Member charged with overseeing the CREW3 platform \"quests\" (tasks). This involves:\n\n- Assisting with writing new Tasks \n- Managing users on the platform \n- Review tasks for approval\n- Producing Analytics reports for ZecHub\n\nThis is an initial outline of the role & may be subject to minimal changes with any new platforms ZecHub chooses to integrate. \n\nProposal:\n\nWe propose to accept Logy as a specialist contributor to ZecHub. \nHe will be included in all admin channels and we will sync with him on a core-contributor level.\n\nThis DAO proposal is contingent on approval of from ZCAP of his proposal which is to be made & submitted by March 20th. \n\nGiven Logy's long standing consistent support of ZecHub and his impressive graphic design skills, the core-contributor team believe he would be an essential component of our concerted efforts moving forward.\n\nIt would also allow ZecHub to streamline its efforts on Portuguese language involved projects/tasks. \n\nA vote of \"Yes\" is in favour of onboarding Logy as specialist core-contributor on the ZecHub team.",
+      "protocol": "zechubdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x422D2bffC6d60Ee30715A760364009cc82e651c3",
+      "totalVotes": 9,
+      "blockNumber": 16833443,
+      "externalUrl": "https://snapshot.org/#/zechubdao.eth/proposal/0xcaf19473e12aaeaaaf3707e067d86968afa46946ea85fb0449ced7beec674932",
+      "startTime": {
+        "timestamp": 1678885185
+      },
+      "endTime": {
+        "timestamp": 1679144400
+      },
+      "startTimestamp": 1678885185,
+      "endTimestamp": 1679144400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 9.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "shutter",
+      "indexedAt": 1681236450653,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6emVjaHViZGFvZXRoOnNuYXBzaG90OjB4ZTY3OTI2ZTM4NmE0OTQwNmFkZGRjZDZjYzRmMTAyMzgxMmJmNmJiNGYyZTRhYmEwMDAxODcwY2Y5NDJjNTZhZQ==",
+      "id": "0xe67926e386a49406adddcd6cc4f1023812bf6bb4f2e4aba0001870cf942c56ae",
+      "title": "Donate ZecHub wallet balance",
+      "content": "As ZecHub has formally acquired funding from ZCG to continue its operations throughout the year, we will no longer solely depend on the support of community members extending their generosity.\n\nThe @ZecHubCommunity has completed a preliminary vote on discord choosing an appropriate method of distributing existing funds from the ZecHub wallet. Total Amount - 7.499 ZEC. \n\nWe propose to donate to the technopapi profile on Free2Z.\nLink: https://free2z.com/tecnopapapi\n\nGoing forward, we will retain a donations wallet and disperse funds as decided by DAO members. \n\nIf the DAO votes by majority \"Yes\" we will donate all funds currently held to the campaign detailed above.",
+      "protocol": "zechubdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x422D2bffC6d60Ee30715A760364009cc82e651c3",
+      "totalVotes": 10,
+      "blockNumber": 16628395,
+      "externalUrl": "https://snapshot.org/#/zechubdao.eth/proposal/0xe67926e386a49406adddcd6cc4f1023812bf6bb4f2e4aba0001870cf942c56ae",
+      "startTime": {
+        "timestamp": 1676394736
+      },
+      "endTime": {
+        "timestamp": 1676654100
+      },
+      "startTimestamp": 1676394736,
+      "endTimestamp": 1676654100,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 3.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "shutter",
+      "indexedAt": 1681236450653,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6emVjaHViZGFvZXRoOnNuYXBzaG90OjB4Y2JhYzJlYjI1Y2Q0MGNiNmRjNTNmMWZjOWYwODgxODIwNjY4YWVlNjY3NjNiZjFkODFjMWNjNTNlNzYzM2IyOQ==",
+      "id": "0xcbac2eb25cd40cb6dc53f1fc9f0881820668aee66763bf1d81c1cc53e7633b29",
+      "title": "ZecHub DAO advisor - Ian Sagstetter",
+      "content": "ZecHub DAO Founder, Ian Sagstetter is formally stepping down from his position as voting DAO member. This has been done to remove any possible conflict of interest given his ongoing duties at the ECC. \n\nWe propose to retain Ian as an advisor to the organisation. Given his expertise having managed all ZecHub operations, his continuing run hosting and producing the Z2Z Podcast & an ability to guide newer members with unfamiliar tasks, we believe this is the best course of action during a transitory period. He is welcome to provide valued input on ZecHub programmes & materials. \n\nThis proposal will also accept the governance NFT held at ian.zechub.eth back to the multisig address (zechubdao.eth). This will remove Ian's ability to make any formal decisions as a voting DAO member. \n\nThis vote is pivotal to ZecHub's path decentralising and strengthening the Zcash ecosystem. If the DAO votes by majority to \"Yes\" - we will retain Ian Sagstetter as an Advisor.",
+      "protocol": "zechubdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x422D2bffC6d60Ee30715A760364009cc82e651c3",
+      "totalVotes": 7,
+      "blockNumber": 16584706,
+      "externalUrl": "https://snapshot.org/#/zechubdao.eth/proposal/0xcbac2eb25cd40cb6dc53f1fc9f0881820668aee66763bf1d81c1cc53e7633b29",
+      "startTime": {
+        "timestamp": 1675867183
+      },
+      "endTime": {
+        "timestamp": 1676126400
+      },
+      "startTimestamp": 1675867183,
+      "endTimestamp": 1676126400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "shutter",
+      "indexedAt": 1681236450653,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6emVjaHViZGFvZXRoOnNuYXBzaG90OjB4Y2VkNGZlODQyYTIwNDkzOTdhZTZjNDVjNzEyNzYzZjk1MTE2NTlkMThkMGE3ZjBlODFjMTU5ZjdhNjJhMzQ4Yg==",
+      "id": "0xced4fe842a2049397ae6c45c712763f9511659d18d0a7f0e81c159f7a62a348b",
+      "title": "Proposal for ZecHub DAO ZCG funding in 2023",
+      "content": "\nIn an attempt to continue the educational and onboarding efforts of ZecHub DAO, we seek to acquire funding from the Zcash Grants Committee for the year 2023. This will be purposed toward operational costs, core contributor compensation, bounty payouts for work submitted to the DAO & legal fees. The DAO treasury will receive & hold all funds, distributing according to layout detailed below:\n\nDuring the initial 5 months of the ZecHub, a majority of written resources & media have been produced by DAO members. Going forward the DAO selects three main contributors dedicated to documentation, video pieces and social media posts, these will be:\n\n@Dismad\n@Squirrel\n@Tokidoki\n\nZecHub DAO facilitates open-source education. We encourage contributions from individuals across the world. All ZecHub documentation is open to update/correction and any content produced will remain available to be adapted or repurposed by other projects within the ecosystem. ZecHub intends to significantly grow its number of contributors. To incentivise international participation, demonstrate & promote use of Zcash as trusted payment, the DAO will standardise the bounty process and allocate funds to ensure this is consistent for the year. \n\nAs much as possible ZecHub utilises open-source software & services for its operations (communication, websites, repositories etc). For the DAO to continue its operations funding will be allocated where necessary to any paid services such as those involving production of media materials. These include: Adobe, Canva, Linktree etc. A total of (1 year) services will be presented to ZCG.\n\nZecHub also proposes to allocate a portion of the funding towards legal fees. In order to formalise ZecHub's business operations we will move to register it as a DAO LLC. Any application fees or costs to acquire a registered agent in the state/country offering this service are to be considered. \n\nThis is yet another important vote we are carrying out in quick succession! Thank you all for your input regarding this proposal. Our mission is to make sure learning about Zcash and contributing to the ecosystem is easy and accessible. \n\nPlease vote whether you are in favour of the structure outlined in this proposal. Should the DAO vote “yes”, the three contributors mentioned will present a formal proposal to ZCG.\n",
+      "protocol": "zechubdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x422D2bffC6d60Ee30715A760364009cc82e651c3",
+      "totalVotes": 10,
+      "blockNumber": 16379426,
+      "externalUrl": "https://snapshot.org/#/zechubdao.eth/proposal/0xced4fe842a2049397ae6c45c712763f9511659d18d0a7f0e81c159f7a62a348b",
+      "startTime": {
+        "timestamp": 1673390130
+      },
+      "endTime": {
+        "timestamp": 1673647200
+      },
+      "startTimestamp": 1673390130,
+      "endTimestamp": 1673647200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "shutter",
+      "indexedAt": 1681236450653,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6emVjaHViZGFvZXRoOnNuYXBzaG90OjB4NDUyM2FkNTA4MGFjMjY4OTE5MGVlZDFlZGQyMDU1ZGE5NmRiMDZmM2Y1NWI2MDIwZmU2OTAwMTlmMGE2ODQ2OQ==",
+      "id": "0x4523ad5080ac2689190eed1edd2055da96db06f3f55b6020fe690019f0a68469",
+      "title": "Add new members to ZecHub governance",
+      "content": "Hi everyone,\n\nIn an effort to reward those who have contributed to ZecHub efforts, I propose that we extend governance rights to the following contributors (as known in discord):\n\n@Mine \n@Edicksonjga \n@RedNosedGnome - Jay \n@vito \n(at)ZcashRU (Twitter)\n\n-Mine designed ZecHub's logo's and NFTs and I believe she will add a lot of value in the future should she want to contribute more to the hub. I also believe that her efforts warrant a spot in governance.\n\n-Edickson is an active member of the Zcash en Español community, and recently made a fantastic edition of the ZecWeekly newsletter in video format. With this, and his wallet tutorials, he's demonstrated his value to the Zcash community as a whole.\n\n-Jay is a long-standing Zcash community member, runs multiple community social channels, and is a strong believer in ZecHub's mission. I believe his experience in the community provides a unique perspective, and his voice will be one of the strongest when it comes to governance and strategic direction.\n\n-Vito is an active contributor in the Zcash Brasil community, and has done a tremendous job in setting up ZecHub's communications infrastructure and ZecHub's Portuguese efforts. He also has vast experience in the crypto space, and this experience will translate well as we continue to grow the hub.\n\n-ZcashRu is the Zcash Russian ambassador, and while not active in our everyday discussions, he translates all of our content into Russian. This adds a lot of value and extends our work to another region. This, combined with his experience and standing in the Zcash community, will provide another strong voice in governance and will further aid in our efforts to decentralize the hub worldwide.\n\nAfter adding these members, I also propose that we pause roster changes to governance until July 1, 2023. This means that no new members will be added to the DAO, and that current members will be expected to vote on proposals. On July 1, 2023, we can review the governance process, token and membership.\n\nI'm excited for everyone's votes. Here's to decentralizing ZecHub and Zcash!",
+      "protocol": "zechubdaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x97767b601B486E22b4A5733952B6135857aeE6B2",
+      "totalVotes": 8,
+      "blockNumber": 16248418,
+      "externalUrl": "https://snapshot.org/#/zechubdao.eth/proposal/0x4523ad5080ac2689190eed1edd2055da96db06f3f55b6020fe690019f0a68469",
+      "startTime": {
+        "timestamp": 1671810579
+      },
+      "endTime": {
+        "timestamp": 1672884000
+      },
+      "startTimestamp": 1671810579,
+      "endTimestamp": 1672884000,
+      "currentState": "closed",
+      "choices": [
+        "Accept",
+        "Veto",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 8.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236450653,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

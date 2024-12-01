@@ -1,0 +1,101 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6MjU2ZGFvOm9uY2hhaW46MHhjOWQwOWM0NGFmMDk2NDY1YWYyNWY3MjIxYzgyYTQxYWRjODRiOTk2ZTFlMGFmYjE0Y2Y5OTYyNzFjMmYxNmM2",
+      "id": "0xc9d09c44af096465af25f7221c82a41adc84b996e1e0afb14cf996271c2f16c6",
+      "title": "DAO Upgrade V1_1",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "256Dao",
+      "adapter": "onchain",
+      "proposer": "0xd1d1D4e36117aB794ec5d4c78cBD3a8904E691D0",
+      "totalVotes": 0,
+      "blockNumber": 16208323,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671413639
+      },
+      "endTime": {
+        "timestamp": 1671759239
+      },
+      "startTimestamp": 1671413639,
+      "endTimestamp": 1671759239,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16208323
+          },
+          "event": "pending",
+          "timestamp": 1671327239,
+          "txHash": "0x5e845442d8839236eec6408033860268b17aaf04d08a93c13a0af2f307d75646"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236676275,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6MjU2ZGFvOm9uY2hhaW46MHhkNzhjN2YyOGZkM2U3YTcwZTMzMmZjMjFiNTYyMmQzMmY2Yzg0MjFlNWM2N2M4NzY2YzFhNjBlMGZiYzE3MGVl",
+      "id": "0xd78c7f28fd3e7a70e332fc21b5622d32f6c8421e5c67c8766c1a60e0fbc170ee",
+      "title": "Update",
+      "content": "<p><br></p>",
+      "protocol": "256Dao",
+      "adapter": "onchain",
+      "proposer": "0x8fdbef8A79e68C1edAd3D5105189481BF63F7Cb1",
+      "totalVotes": 0,
+      "blockNumber": 16000473,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1668904031
+      },
+      "endTime": {
+        "timestamp": 1669249631
+      },
+      "startTimestamp": 1668904031,
+      "endTimestamp": 1669249631,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16000473
+          },
+          "event": "pending",
+          "timestamp": 1668817631,
+          "txHash": "0x99af681dba7a53773bf6f526503cc1b1d7a779f5920c0ed945247dc20409b713"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236676275,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

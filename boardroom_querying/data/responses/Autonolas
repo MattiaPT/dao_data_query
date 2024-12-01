@@ -1,0 +1,3675 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46ODM3NjEyNjY1NTMxMzQ5NDYwMDk2MjIyNzE5OTg5MTQ3MTI3NzE1MzMxNjQxNzAwMzA5MzAxOTczNjQzNjM0OTk4MTI2MDM1Mjg3NzA=",
+      "id": "83761266553134946009622271998914712771533164170030930197364363499812603528770",
+      "title": "Proposal Set deposit processor for Mode",
+      "content": "Set deposit processor for Mode network to enable staking incentives bridging. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 3,
+      "blockNumber": 21012225,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1729492883,
+      "endTimestamp": 1729729535,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 27143710.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 21033509
+          },
+          "event": "queued",
+          "timestamp": 1729749419,
+          "txHash": "0xb54024b7a9362d681a6016ddc393a69209c84965447d5c9a8ce9cd7a7d7e070b"
+        },
+        {
+          "time": {
+            "blockNumber": 20999134
+          },
+          "event": "pending",
+          "timestamp": 1729335095,
+          "txHash": "0x0c5eb27954c03bcb440361c8dc52955e7647a6db3ab71f57c62666956df68936"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 27143710.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729335099630,
+      "txHash": "0x0c5eb27954c03bcb440361c8dc52955e7647a6db3ab71f57c62666956df68936",
+      "quorum": 1608610,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4MmIxMDRkNzQ0ODhhNjQ4N2ExZWY1MzBhNWFhNjc5ZWE1NTU1NTk3MGJkZmFlOWFkNjlmMDExNTVlZDRmYzMxNg==",
+      "id": "0x2b104d74488a6487a1ef530a5aa679ea55555970bdfae9ad69f01155ed4fc316",
+      "title": "Incorporation of Olas registries on Mode",
+      "content": "**Simple Summary**: \nThis proposal presents the DAO with a vote to\n1. integrate into the Autonolas protocol the following contracts: \n- [ServiceRegistryL2](https://explorer.mode.network/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE) a core smart contract for securing services with chain native tokens \n- [ServiceRegistryTokenUtility](https://explorer.mode.network/address/0x34C895f302D0b5cf52ec0Edd3945321EB0f83dd5) a core smart contract for securing services with ERC20 tokens \n- [Operator whitelist](https://explorer.mode.network/address/0x3d77596beb0f130a4415df3D2D8232B3d3D31e44) a utility smart contract for whitelisting operator addresses\n- [ServiceManagerToken](https://explorer.mode.network/address/0x63e66d7ad413C01A7b49C7FF4e3Bb765C4E4bd1b) a periphery smart contract for management of service lifecycle, managing services secured with custom ERC20 tokens or chain-native token,and checking operators against the operator whitelist of a service as specified on the operator whitelist contract. \n- [GnosisSafeMultisig](https://explorer.mode.network/address/0xBb7e1D6Cb6F243D6bdE81CE92a9f2aFF7Fbe7eac) a smart contract for Gnosis Safe multisig implementation of a generic multisig interface.\n- [GnosisSafeSameAddressMultisig](https://explorer.mode.network/address/0xFbBEc0C8b13B38a9aC0499694A69a10204c5E2aB) a smart contract for Gnosis Safe verification of an already existent multisig address.\n- [StakingVerifier](https://explorer.mode.network/address/0x87c511c8aE3fAF0063b3F3CF9C6ab96c4AA5C60c) a smart contract for staking contract implementation and instance verification.\n- [StakingFactory](https://explorer.mode.network/address/0x75D529FAe220bC8db714F0202193726b46881B76) a smart contract for creating new staking contract instances.\n- [OptimismTargetDispenserL2](https://explorer.mode.network/address/0x47135D1Cf850d7Df7f7f563F300cc7022F7978a4) a smart contract for processing tokens related to staking incentives and data received on Mode, and data sent back to L1\n\n2. grant to the [OptimismMessenger](https://explorer.mode.network/address/0x9338b5153AE39BB89f50468E608eD9d764B755fD) the role of the drainer on [ServiceRegistryL2](https://explorer.mode.network/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE) and [ServiceRegistryTokenUtility](https://explorer.mode.network/address/0x34C895f302D0b5cf52ec0Edd3945321EB0f83dd5)\n\nAcceptance of this off-chain proposal would be a key step towards bringing Olas registry functionalities to Mode. Specifically the above contracts enable the following:\n- manage an operator whitelist and have a permissioned operator sets;\n- secure services with both chain-native token and ERC20 tokens;\n- re-deploy in one-shot deployed services by using operators pre-signed message hashes;\n- drain eventual slashed security bonds.\n\nMore information on the contracts and the new functionalities are outlined in detail here:  \n- [AgentServicesFunctionality](https://github.com/valory-xyz/autonolas-registries/blob/main/docs/AgentServicesFunctionality.pdf) \n- [Autonolas-registries:README.md](https://github.com/valory-xyz/autonolas-registries/blob/main/README.md) \n\n\n**Specification**: \nThe Autonolas protocol will call upon the Valory deployer (or any other deployer taking these actions first) to grant the drainer’s role and to transfer ownership rights of the deployed contracts to the [OptimismMessenger](https://explorer.mode.network/address/0x9338b5153AE39BB89f50468E608eD9d764B755fD) as such:\n1. grant drainer's role by calling changeDrainer(OptimismMessenger) for the following:\n- [ServiceRegistryL2](https://explorer.mode.network/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE)\n- [ServiceRegistryTokenUtility](https://explorer.mode.network/address/0x34C895f302D0b5cf52ec0Edd3945321EB0f83dd5)\n2. transfer ownership rights to OptimismMessenger (unique Timelock executor L2 contract on Mode) by calling changeOwner(OptimismMessenger) for  the following contracts:\n- [ServiceRegistryL2](https://explorer.mode.network/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE)\n- [ServiceRegistryTokenUtility](https://explorer.mode.network/address/0x34C895f302D0b5cf52ec0Edd3945321EB0f83dd5)\n- [Operator whitelist](https://explorer.mode.network/address/0x3d77596beb0f130a4415df3D2D8232B3d3D31e44)\n- [ServiceManagerToken](https://explorer.mode.network/address/0x63e66d7ad413C01A7b49C7FF4e3Bb765C4E4bd1b)\n- [GnosisSafeMultisig](https://explorer.mode.network/address/0xBb7e1D6Cb6F243D6bdE81CE92a9f2aFF7Fbe7eac)\n- [GnosisSafeSameAddressMultisig](https://explorer.mode.network/address/0xFbBEc0C8b13B38a9aC0499694A69a10204c5E2aB)\n- [StakingVerifier](https://explorer.mode.network/address/0x87c511c8aE3fAF0063b3F3CF9C6ab96c4AA5C60c)\n- [StakingFactory](https://explorer.mode.network/address/0x75D529FAe220bC8db714F0202193726b46881B76)\n- [OptimismTargetDispenserL2](https://explorer.mode.network/address/0x47135D1Cf850d7Df7f7f563F300cc7022F7978a4)",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 4,
+      "blockNumber": 20992092,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x2b104d74488a6487a1ef530a5aa679ea55555970bdfae9ad69f01155ed4fc316",
+      "startTime": {
+        "timestamp": 1729423065
+      },
+      "endTime": {
+        "timestamp": 1729682265
+      },
+      "startTimestamp": 1729423065,
+      "endTimestamp": 1729682265,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 28181864.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 28181863.13314395,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729250570824,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46Njc0MTA5MzY3NjgwMzEwNTgyNzY5NDIxNjQwMDI1OTAyMzQ2MjEwNTA5MTAwMzA1ODEzOTAxMDMxODkxNTQwMDYyODkzNzEzNDI1NTE=",
+      "id": "67410936768031058276942164002590234621050910030581390103189154006289371342551",
+      "title": "Proposal Enable CELO-OLAS Celo Bridged ",
+      "content": "Enable CELO-OLAS Celo Bridged LP and open new bonding products on Celo. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 4,
+      "blockNumber": 20991126,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1729238567,
+      "endTimestamp": 1729475243,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 27331844.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 21026436
+          },
+          "event": "executed",
+          "timestamp": 1729664207,
+          "txHash": "0x332367e528d2b6982274a800601e45cc2709ad8c2e6e550c231686f49a4e9f07"
+        },
+        {
+          "time": {
+            "blockNumber": 20978035
+          },
+          "event": "pending",
+          "timestamp": 1729080659,
+          "txHash": "0xb14307f0dc03519094bb881aaadd40705f4c679e4790080e5c6ccc1a69b3741d"
+        },
+        {
+          "time": {
+            "blockNumber": 21011912
+          },
+          "event": "queued",
+          "timestamp": 1729489103,
+          "txHash": "0xcbaabc7fd8c84d71c64701b7a4a0804cfb4c32830dc28c6e0c16967344278718"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729080663799,
+      "txHash": "0xb14307f0dc03519094bb881aaadd40705f4c679e4790080e5c6ccc1a69b3741d",
+      "quorum": 1618459,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46NjQ3ODAwOTA4MjI5MTA4NDM2NTM2Nzg5NTEwODYxMzUyNjI0ODMwNjI3Mzc4MDI1NzIzNjM5MjE0NTMwNjAxNDQ5Njc4NDg3OTE0Mzg=",
+      "id": "64780090822910843653678951086135262483062737802572363921453060144967848791438",
+      "title": "Proposal Create new bonding products on",
+      "content": "Create new bonding products on Arbitrum, Polygon, Optimism, Base, Solana. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 4,
+      "blockNumber": 20920095,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1728381299,
+      "endTimestamp": 1728617723,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 13913757.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20907004
+          },
+          "event": "pending",
+          "timestamp": 1728223655,
+          "txHash": "0x2ea1bb6fcf89b4756b07f3f7b51ed8dd5314e86fdafaa47dffa813bb3d7d1f27"
+        },
+        {
+          "time": {
+            "blockNumber": 20956918
+          },
+          "event": "executed",
+          "timestamp": 1728825731,
+          "txHash": "0xa00b8869a703ab937cb91a01fca18a6fbac8cbfaedf8c9e6a4c626ce77dfc16b"
+        },
+        {
+          "time": {
+            "blockNumber": 20941878
+          },
+          "event": "queued",
+          "timestamp": 1728643655,
+          "txHash": "0xd4311c99e73f756282aa9959b9d21192433ac279516051dfea1135cebcca4678"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 13913757.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1728223659061,
+      "txHash": "0x2ea1bb6fcf89b4756b07f3f7b51ed8dd5314e86fdafaa47dffa813bb3d7d1f27",
+      "quorum": 1652195,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46MTA0MDM1NTE0NDQ0Mjc1Mzg0NDMyNTEzMTMyMzgyMjc4Mjg1NjE4MTM2MTI0MzAyMDMwNTczMTcxNzc4NzQ0Nzg2MjAwMTQzNTA1MDk3",
+      "id": "104035514444275384432513132382278285618136124302030573171778744786200143505097",
+      "title": "Proposal Change staking limits on Gnosi",
+      "content": "Change staking limits on Gnosis chain in the StakingVerifier contract. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 4,
+      "blockNumber": 20788317,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1726793207,
+      "endTimestamp": 1727030207,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 28565964.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20808348
+          },
+          "event": "queued",
+          "timestamp": 1727034971,
+          "txHash": "0xb8ef2b0e75dad22edb6b3c2340d5e84766162dca93a180706700886b22ac5387"
+        },
+        {
+          "time": {
+            "blockNumber": 20775226
+          },
+          "event": "pending",
+          "timestamp": 1726635299,
+          "txHash": "0xf5431bfc511a7c4eaeb129544644eb952b6a0034eb578c71155b758e19b6937f"
+        },
+        {
+          "time": {
+            "blockNumber": 20822446
+          },
+          "event": "executed",
+          "timestamp": 1727204891,
+          "txHash": "0x59be417c1a5aea94ca2193620761cf271f22dd2ae0ccfc70de62d5cc284c526a"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1726635302875,
+      "txHash": "0xf5431bfc511a7c4eaeb129544644eb952b6a0034eb578c71155b758e19b6937f",
+      "quorum": 1718720,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4Njc2YjRmNTgwOTBlZGI5MTVlNjljMWI2OTE5NGM3NTYyZDczN2JlNWY2MDhkYjRjNTlkMzA0Nzc5MTJjMzBkNQ==",
+      "id": "0x676b4f58090edb915e69c1b69194c7562d737be5f608db4c59d30477912c30d5",
+      "title": "Olas DAO Acceptance of MOR Rewards",
+      "content": "## Summary\nMorpheus has requested to add Olas as a builder to be eligible for MOR token rewards per the Morpheus, “MOR Staking For Builders” ([MRC 41](https://github.com/MorpheusAIs/MRC/blob/main/PENDING/MRC41.md)).  Through this mechanism, MOR can be staked for a duration of time in order to direct MOR token emissions to builders. Although Olas agents are not integrated with or built on Morpheus at this time, there are Morpheus community members who have expressed interest in staking MOR towards Olas.\n## Proposal\nThis proposal is to accept the MOR staking rewards (and by extension add Olas to [a list of Morpheus builders](https://www.mor.builders/). This action would make the Olas DAO eligible to receive MOR token emissions per the “MOR Staking For Builders” MRC 41 initiative. These MOR rewards would be directed to the requisite Olas governance address listed here, controlled via Olas governance on Ethereum mainnet:\n[0xE49CB081e8d96920C38aA7AB90cb0294ab4Bc8EA](https://github.com/valory-xyz/autonolas-governance/blob/v1.2.2/docs/configuration.json#L192C21-L192C63).\n\nFor the avoidance of doubt, per the [Olas Brand and Press Kit](https://github.com/contentwillvary/brand-and-press-kit-olas/blob/main/README.md), all communications about Olas and the Olas DAO must use accurate descriptive language. If accepted, this proposal must be described using the wording above and would not imply that the Olas DAO or any Olas affiliates are ‘partnered with’ Morpheus. The Olas DAO does not partner with nor conduct marketing efforts with any third party without completed agent development and code contributions to the [Olas code registry](https://registry.olas.network/).",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0xFb752162a2EfFd235130dF67d5094E6ECB5f2891",
+      "totalVotes": 7,
+      "blockNumber": 20741697,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x676b4f58090edb915e69c1b69194c7562d737be5f608db4c59d30477912c30d5",
+      "startTime": {
+        "timestamp": 1726403380
+      },
+      "endTime": {
+        "timestamp": 1726662580
+      },
+      "startTimestamp": 1726403380,
+      "endTimestamp": 1726662580,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 15833029.0,
+          "choice": 0
+        },
+        {
+          "total": 170411.23,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 15833028.729041398,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 170411.24113873823,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1726230872900,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46NTM4NDI3ODEyNTAwOTEzNzQ4MjczMzIzMjMxMjk5MzY5NTcyNTAyMDI4MjU0MDk1MjM1OTkzNDEzMzM4ODgwNzczMTk0NzczODcxMzc=",
+      "id": "53842781250091374827332323129936957250202825409523599341333888077319477387137",
+      "title": "Proposal Change Dispenser address in To",
+      "content": "Change Dispenser address in Tokenomics and Treasury, disable old Dispenser. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 5,
+      "blockNumber": 20361257,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1721641487,
+      "endTimestamp": 1721878319,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 15623636.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20348166
+          },
+          "event": "pending",
+          "timestamp": 1721483591,
+          "txHash": "0x3a749a90639f6dc6dab35a261d5868a067649df572b6190241fa84c8a7a346b1"
+        },
+        {
+          "time": {
+            "blockNumber": 20384573
+          },
+          "event": "queued",
+          "timestamp": 1721922671,
+          "txHash": "0xfe05e51d46b8a24e3d9e51e82b1f725ca682cfd22a58102bc9930ad6e2917f17"
+        },
+        {
+          "time": {
+            "blockNumber": 20399583
+          },
+          "event": "executed",
+          "timestamp": 1722103787,
+          "txHash": "0xbca4727f8bc93a6f6fe714baa01fd84894abb94482212147b808c3852acf75a5"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1721483595792,
+      "txHash": "0x3a749a90639f6dc6dab35a261d5868a067649df572b6190241fa84c8a7a346b1",
+      "quorum": 1954250,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46MjY1MDQyNTM5Nzk5Njc5NzIxMDQwMzMyMjgwNzIwMjAxNzk0Nzk4MTc3MjExMzEzNjU1NTg2NDQ0NTY1OTc5ODAwMzAzNzU5MzgzOA==",
+      "id": "2650425397996797210403322807202017947981772113136555864445659798003037593838",
+      "title": "Proposal Change tokenomics implementati",
+      "content": "Change tokenomics implementation to version 1.2.0. Update maxBond and staking fractions. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 1,
+      "blockNumber": 20183681,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1719499211,
+      "endTimestamp": 1719736211,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 16080497.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20170590
+          },
+          "event": "pending",
+          "timestamp": 1719341327,
+          "txHash": "0x582f3ef98ef3ba335a1e267485d8047e4f274e401d62dc618654bb56752f4ffb"
+        },
+        {
+          "time": {
+            "blockNumber": 20219419
+          },
+          "event": "queued",
+          "timestamp": 1719930395,
+          "txHash": "0x3a30f4f0357e83baf4c96a453d81b85043bbd454a19b9d6dfcea299dc644f19c"
+        },
+        {
+          "time": {
+            "blockNumber": 20232536
+          },
+          "event": "executed",
+          "timestamp": 1720088687,
+          "txHash": "0x8be4154538e48f14411ca4741604f006c10afff34faa369245b2c3a1557dba36"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 16080497.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719341330643,
+      "txHash": "0x582f3ef98ef3ba335a1e267485d8047e4f274e401d62dc618654bb56752f4ffb",
+      "quorum": 2063517,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46NTIxMzk0ODY4NjkwNDQzNTQ2NTM4ODQ5Mzk4MDUyNjYzMTkzOTc1Mzc2MjM1NzkzNzA0MjU3ODUyMzI1MzIyNTMxMjgxNjAwMzkwMjY=",
+      "id": "52139486869044354653884939805266319397537623579370425785232532253128160039026",
+      "title": "Proposal Revoke buOLAS tokens. In accor",
+      "content": "Revoke buOLAS tokens. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 1,
+      "blockNumber": 20176534,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1719412967,
+      "endTimestamp": 1719649943,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 16102171.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20232551
+          },
+          "event": "executed",
+          "timestamp": 1720088867,
+          "txHash": "0x4e5126b56e3acac1d80278602c72933f538ab8d069ec267a6d61ca17ae0b0a08"
+        },
+        {
+          "time": {
+            "blockNumber": 20163443
+          },
+          "event": "pending",
+          "timestamp": 1719255059,
+          "txHash": "0x6102509b835b65c39ac35dbc2aec4ae5a67276c7a9402a0e4ebb81010717259f"
+        },
+        {
+          "time": {
+            "blockNumber": 20219479
+          },
+          "event": "queued",
+          "timestamp": 1719931139,
+          "txHash": "0xdf6f4b949113bb854363fd7e01f2f681da170ab6b14e522186e95b19834bb9e8"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719255063376,
+      "txHash": "0x6102509b835b65c39ac35dbc2aec4ae5a67276c7a9402a0e4ebb81010717259f",
+      "quorum": 2068017,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4ODkyYTNjZWJiM2UxZDhiMWFkODYyMDAyMzNjNzRjMGMwYzQ3OGNjMTdhOTdkMWU1N2QwZmExNWYxMzVmZDE3NQ==",
+      "id": "0x892a3cebb3e1d8b1ad86200233c74c0c0c478cc17a97d1e57d0fa15f135fd175",
+      "title": "Reducing Near-Term Inflation",
+      "content": "## Summary \n\nThis proposal suggests reducing the near-term inflation of OLAS. Specifically, the proposal outlines a revised inflation curve for the OLAS token supply during the first ten years, that shifts inflation increases into the future and aims to balance the emissions between staking, bonding, and developer rewards. Below, we compare the old and new inflation models, highlighting the changes and the rationale behind them.\n\n### Current Inflation Model\nThe OLAS contract allows emitting at most 1bn OLAS in the first ten years. How the maximum inflation is distributed across the first ten years is determined by the [TokenomicsConstants.sol](https://etherscan.io/address/0xD599ED4a5c45Fa66AA3C474b00701Fd452a2C30e#code#F33#L1) contract. Specifically, the current maximum annual inflation values are hardcoded in [TokenomicsConstants.sol](https://etherscan.io/address/0xD599ED4a5c45Fa66AA3C474b00701Fd452a2C30e#code#F32#L33) as such:\n \n- __Initial Supply__: 526500000\n- __Supply Caps (Yearly)__:\n    - Year 1: 529659000\n    - Year 2: 569913084\n    - Year 3: 641152219.50\n    - Year 4: 708500141.72\n    - Year 5: 771039876\n    - Year 6: 828233282.97\n    - Year 7: 879860040.11\n    - Year 8: 925948139.65\n    - Year 9: 966706331.40\n    - Year 10: 1000000000\n- __Inflated Amount Per Year__:\n    - Year 1: 3159000\n    - Year 2: 40254084\n    - Year 3: 71239135.50\n    - Year 4: 67347922.22\n    - Year 5: 62539734.28\n    - Year 6: 57193406.97\n    - Year 7: 51626757.14\n    - Year 8: 46088099.54\n    - Year 9: 40758191.75\n    - Year 10: 33293668.60\n\nWith the arrival of year 3 (from 1st July 2024 to 30th June 2025), there is a concern that inflation is rising too drastically relative to demand, given the still young Olas ecosystem.\n\n### New Inflation Model\nTo ensure inflation rises less quickly, this proposal suggests updating the inflation curve as follows:\n- __Initial Supply__: 526500000\n- __Supply Caps (Yearly)__:\n    - Year 1: 529659000\n    - Year 2: 569913084\n    - Year 3: 610313084\n    - Year 4: 666313084\n    - Year 5: 746313084\n    - Year 6: 818313084\n    - Year 7: 882313084\n    - Year 8: 930313084\n    - Year 9: 970313084\n    - Year 10: 1000000000\n- __Inflated Amount Per Year__:\n    - Year 1: 3159000\n    - Year 2: 40254084\n    - Year 3: 40400000\n    - Year 4: 56000000\n    - Year 5: 80000000\n    - Year 6: 72000000\n    - Year 7: 64000000\n    - Year 8: 48000000\n    - Year 9: 40000000\n    - Year 10: 29686916\n\n## Comparison of Inflation Timing\n\n__Current Model:__ \nMajority of the inflation occurs in Year 3 (from 1st July 2024 to 30th June 2025) with an increase of 71,239,135.50 tokens compared to Year 2. There is a steady decrease afterward.\n\n__New Model:__\nThe inflation is more spread out. Inflation in Year 3 becomes 40,400,000 and therefore increases only by a small amount relative to Year 2. The high inflation is shifted to Years 5 and 6, adding 80,000,000 and 72,000,000 tokens respectively, allowing for Olas to grow and optional further changes to inflation in the future.\n\n## Motivation\nBelow we demonstrate that the proposed inflation adjustment can support existing mechanisms (such as developer rewards and bonding) and future ones (such as [AIP-4](https://github.com/valory-xyz/autonolas-aip/blob/aip-4/content/apis/core-olas-staking.md), which introduces emissions for Olas Staking), helping the Olas network to continue to grow and innovate whilst keeping inflation proportional to the needs of the ecosystem. Here are the main points:\n\n- __Developer Rewards Continuity:__\n    - Currently, 4% of the inflation, equivalent to approximately 132,342.19 OLAS per epoch, is allocated for developer rewards. For year 3 (July 1, 2024, to June 30, 2025), this 4% allocation will correspond to:\n        - approximately 234,210.85 OLAS per epoch with the current inflation schedule\n        - approximately 132,821.92 OLAS per epoch with the proposed inflation schedule.\n\n    - The proposed inflation schedule provides a more consistent rate for developer rewards in year 3, which is beneficial as developer adoption is still in its early innings. Additionally, shifting developer emissions to future years is a sensible approach to support projected future growth.\n\n- __Bonding Continuity:__ \n    - Currently, 96% of the inflation per epoch, equivalent to approximately 317,621,266 OLAS, is allocated for bonding. To date, bonding programs totaling no more than 27,550,000 OLAS have been created (approximately 2,755,000 per epoch), with about 11,620,962.3 OLAS still not emitted (1,162,096.2 per epoch on average). This indicates that only approximately 1,592,903.77 OLAS was emitted for bonding on average per epoch. \n\n    - Given this, it makes sense to consider reducing the bonding fraction to 46% which, for year 3 (July 1, 2024, to June 30, 2025), corresponds to:\n        - approximately 2,585,687.86 OLAS per epoch with the current inflation schedule\n        - approximately 1,527,452.06 OLAS per epoch with the proposed inflation schedule\n    - Therefore, by reducing the bonding fraction, the new inflation curve allows the creation of bonding products that meet demand without causing unneeded inflation. Additionally, shifting bonding emissions to future years is a sensible approach to support future demand growth.\n\n- __Staking Mechanism Integration:__\n    - As mentioned in the bonding and developer rewards sections above, it makes sense to have a consistent rate for developer rewards and reduce the bonding fraction to 46%. Additionally, given that the staking mechanism is coming live and needs significant token emissions to incentivise bootstrapping of agent economies, allocating the remaining 50% for staking is desiderable.\n    - The staking mechanism is set to launch in year 3 (July 1, 2024, to June 30, 2025), and this 50% allocation for staking would correspond to:\n        - approximately 2,810,530.28 OLAS per epoch with the current inflation schedule\n        - approximately 1,660,273.97 OLAS per epoch with the proposed inflation schedule\n\nTherefore, the new inflation curve helps prevent oversupply during the early adoption phase for staking, and ensures a balanced distribution of tokens across developer rewards, bonding, and staking.",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 8,
+      "blockNumber": 20036737,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x892a3cebb3e1d8b1ad86200233c74c0c0c478cc17a97d1e57d0fa15f135fd175",
+      "startTime": {
+        "timestamp": 1717897442
+      },
+      "endTime": {
+        "timestamp": 1718156642
+      },
+      "startTimestamp": 1717897442,
+      "endTimestamp": 1718156642,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 17842194.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 17842194.304679878,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1717725499765,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4YzJmMzVkZDhkY2MwZDRkMzIzYmYzMzc2ODM5YTEzOTc0NzYzZDJjMmEwMTJlZDlhZTJhMzRiYzBhOGE4NjViNA==",
+      "id": "0xc2f35dd8dcc0d4d323bf3376839a13974763d2c2a012ed9ae2a34bc0a8a865b4",
+      "title": "OLAS Liquid Staking (sigOLAS) Development by Sigmoid",
+      "content": "(Posted on behalf of Sigmoid.)\n\n[Sigmoid](https://www.sigmoid.wtf/) is a Cosmos SDK chain leveraging an AVS on EigenLayer. We are building a node orchestration layer, to enable one click node deployments, e.g. AI Agents, validators, miners and a variety of other different types of node operations found across the AI space. We are also building a liquidity layer for AI Networks that enables the minting of LSTs representing staked positions and the ability for anyone to delegate to existing node operators as well as leveraging enclave imaging and trusted execution environments (TEEs) to allow for network participants to spin up nodes and agents with a single click deployment system.\n\nSigmoid technology will enable OLAS holders to instantly delegate OLAS to Node Operators resulting in instant deployment of Olas agents without end users needing deep technical knowledge, effectively breaking down barriers to entry and encouraging higher staking participation rates across the Olas network.  In other words, what Lido is for ETH staking, Sigmoid intends to become for OLAS staking. Users will also be able to delegate their OLAS to Sigmoid and receive sigOLAS, a liquid staked OLAS token. Sigmoid would then run Olas agents on behalf of Olas staking participants in professional agent operator capacity.\n\n## The Proposal: \n\nThe Sigmoid team will build an MVP consisting of an agent deployment platform and liquid staking token (LST) solution for Olas stakers, the key deliverables for the MVP version are as follows: \n\n1. Delegated Olas manager contract, consisting of a pool of delegated OLAS, allowing for users with a) less than the required minimum stake for a given agent and/or b) no willingness to operate an agent themselves, to contribute to the pool and earn rewards.  \n2. Hosting protocol (in the MVP version, the Sigmoid team will orchestrate and operate Olas prediction market agents with other Olas agents being run thereafter.) \n3. Olas Predict agents running in a TEE with other Olas agents being run after the MVP phase\n4. Decentralised off-chain monitoring bot running in a TEE \n5. Rewards claim function alongside a compounding rewards mechanism\n6. Minting of LST representative of users staked positions (sigOLAS)  \n   \n## Security: \n\nSigmoid proposes a joint Multisig composed of Sigmoid team members and Olas DAO members to be decided via Olas governance vote. A subsequent Olas governance vote will follow.\n\nThe core responsibilities of the multisig is to protect user funds held within the delegated OLAS pools. \n\nFurther responsibilities are governing delegated OLAS pool limits as well as maintaining active agents that are open to deploy. \n\n## Rewards: \n\nIn regards to rewards earned by agents, the Sigmoid team proposes the following reward structure: \n\n1. 90% compounding rewards (user rewards based on % ownership of the delegated Olas pool) \n2. 5% insurance fund \n3. 5% sigmoid treasury \n\n## The Future: \n\nThe above consists of the core requirements for the MVP version of Sigmoid’s solution, whilst focusing on the existing prediction market agent the protocol has been designed with scalability in mind and plans to scale alongside the Olas agent economy providing one click delegation to a deployment for a wide variety of agents as the Olas Agent economy grows.\n\nThe Sigmoid team plans to expand on this vision and the subsequent V1 will include many additional features and capabilities including but not limited too: \n\n- Node operator role incentivising technically experienced users to “operate” and maintain Agents for other users \n- User based Olas Agent delegation, users will be able to delegate to Node Operators\n- Transition to DAO regulated governance as opposed to Multisig \n- MPC network enabling bridging of sigOlas\n- Comprehensive Audits of all contracts \n\n## Roadmap\n\nDevelopment is expected to begin after the Olas staking code freeze and subsequent audits.\n\nThe estimated development time for the complete MVP is 10 weeks at which point audits will begin, and we will update the DAO on audit timelines once we receive them from auditors. \n\n\n## Requirements:\n\nThe Sigmoid team requests the Olas DAO’s approval and support in the form of co-marketing efforts between the Olas DAO and Sigmoid.",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 11,
+      "blockNumber": 19979973,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0xc2f35dd8dcc0d4d323bf3376839a13974763d2c2a012ed9ae2a34bc0a8a865b4",
+      "startTime": {
+        "timestamp": 1717212517
+      },
+      "endTime": {
+        "timestamp": 1717471717
+      },
+      "startTimestamp": 1717212517,
+      "endTimestamp": 1717471717,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3312027.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3312027.1431094445,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1717040311807,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4ZWE1YWZmY2UyMWE1MTUzYmQ0Y2M2OWM5OGVkZWMyMGExYmEyOGJmM2YyZjdmZDA5YmZjYWQyOWUzZTI0MGIwNA==",
+      "id": "0xea5affce21a5153bd4cc69c98edec20a1ba28bf3f2f7fd09bfcad29e3e240b04",
+      "title": "Open a Bonding Path on Swaap Earn and Integrate Swaap Earn Pause Agent on Olas Stack",
+      "content": "## Background\nOlas aims to grow a self-sustaining ecosystem of [autonomous services](https://www.olas.network/learn). The scarcest resource in this ecosystem is software developers who, by contributing code, enable the composition of autonomous services.\n\nOlas uses bonding as a primary way to capitalize the protocol (the other mechanism being protocol-owned services). This capital - called protocol-owned liquidity - and in particular its yield, can be used to eventually replace Olas emissions to developers and bonders.\n\n[Swaap](https://www.swaap.finance/) Earn is a decentralized protocol that supercharges any DeFi strategy with market-making revenue streams. More details can be found in the [announcement post](https://medium.com/@swaapfinance/introducing-swaap-earn-supercharge-your-yields-fa2019614f74).\n\nThis proposal aims at both developing the Swaap codebase on Olas and improving Olas protocol capitalization using Swaap Earn.\n\n## Proposal\n### Deploying Swaap’s code on Olas\nSwaap plans to integrate part of its off-chain system with Olas, using it to deploy an agent. This agent will manage a crucial security feature—the pause function—which halts all deposits and withdrawals if it detects unusual activities.\n\n### Generating Yield for the Olas protocol\n- Asset Transfer: Users will be able to deposit USDC/ETH into Swaap, receive an LP token (ERC 4626, an enriched version of ERC20 compatible with the existing bonding programs), and bridge it to the Ethereum mainnet via Wormhole to be deposited into the Olas treasury.\n\n- Yield Collection: Yields and Swaap token rewards are automatically compiled in the vault. LP token holders - in this case the Olas DAO - can withdraw their initial deposits along with any accumulated yields or token rewards at any time.\n\n- Allocation Selection: The allocation size is based on the success of the bonding program tranches. The 1st tranche is proposed to be $1 million. Subsequent tranches will be subject to additional DAO approval. Allocation options include 100% in the ETH vault, 100% in the USDC vault, or a 50/50 split between both.\n\n### Implications\nThis proposed partnership will have many benefits, including:\n- Developing useful code on Olas \n- Facilitate bonding through a new Path\n- Earning substantial return on the protocol’s capital while minimizing risks\n- Enable a use case for the future development of an Go extension for the Olas Stack which will be useful for any protocols written in Go to build agents on the Olas Stack.\n\nIf accepted, the proposal would mean that technical teams will move forward with the deployment of the Swaap Pause agent on the Olas Stack and the Olas Protocol will open a new bonding path on Swaap Earn vaults.\n\nThe below indicative roadmap will be followed:\n- Specify the Swaap Pause agent to be deployed on the Olas Stack\n- Launch the Bonding Path\n- Develop and deploy the Pause agent\n\n## Conclusion\nIn conclusion, this proposal offers significant benefits for Olas by enhancing its ecosystem through the integration of Swaap Earn. By deploying the Swaap Pause agent, Olas will improve its useful code base - the scarcest resource in the ecosystem. Furthermore, opening a new bonding path on Swaap Earn will capitalize on lucrative yield opportunities, helping to sustain and grow Olas’ protocol-owned liquidity. \n\nThis strategic collaboration is designed to strengthen Olas’ financial foundation and foster long-term growth within its autonomous service ecosystem.\n\nTo vote, select one of the below options (expressing your sub-choice in comments):\nFor: 100% ETH bonding path\nFor: 50/50 ETH/USDC bonding path\nFor: 100% USDC bonding path\nAbstain\nAgainst \n![table_swaap.png](ipfs://bafkreidv2jg4tvytrm4atztby2kv6wyujge4vhc3iophz4gsiz73342rda)",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 6,
+      "blockNumber": 19733462,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0xea5affce21a5153bd4cc69c98edec20a1ba28bf3f2f7fd09bfcad29e3e240b04",
+      "startTime": {
+        "timestamp": 1714234037
+      },
+      "endTime": {
+        "timestamp": 1714493237
+      },
+      "startTimestamp": 1714234037,
+      "endTimestamp": 1714493237,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 18377630.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 18377630.74719693,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1714063820292,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46MzkxOTkzNzgxNzcxMDg4MTU1NTg4MTg1MzM2Mzk1NTY4NTQ4MzU2NjA0ODQ1MDY1NjMwMjA0MjkwNzU2MDI1Mjg5NjY2NDY2OTg0OTg=",
+      "id": "39199378177108815558818533639556854835660484506563020429075602528966646698498",
+      "title": "Proposal Unpause Dev Incentives and adj",
+      "content": "Unpause Dev Incentives and adjust Incentive Fractions. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 13,
+      "blockNumber": 19731664,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1714039451,
+      "endTimestamp": 1714276919,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2494469.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19754339
+          },
+          "event": "queued",
+          "timestamp": 1714313615,
+          "txHash": "0x06f6144c3eed3499570d3c1ed4f79d3bfe6f8e84327c1873bc39f116f714e01f"
+        },
+        {
+          "time": {
+            "blockNumber": 19718573
+          },
+          "event": "pending",
+          "timestamp": 1713881111,
+          "txHash": "0x8d9372a1453f649d13ad292204945a59feea6d9d3caf77a5021be55510a75604"
+        },
+        {
+          "time": {
+            "blockNumber": 19770574
+          },
+          "event": "executed",
+          "timestamp": 1714509695,
+          "txHash": "0x6d3fe39c25ace7600d19dabbb74b562d8702200e6d7f2262b130336408b25b6a"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 2494469.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1713881116522,
+      "txHash": "0x8d9372a1453f649d13ad292204945a59feea6d9d3caf77a5021be55510a75604",
+      "quorum": 2305990,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46Nzg0NjQ4NTI3OTQ3Njk5ODQ5OTExNTM2Njc5NzkyMTU2MzIwMjM4OTMxNzM5NzIyNTg2ODc2MzUwNDYyNjQ3ODYwMjg0OTYyNjk5OTA=",
+      "id": "78464852794769984991153667979215632023893173972258687635046264786028496269990",
+      "title": "Proposal Enable SOL-OLAS Solana Bridged",
+      "content": "Enable SOL-OLAS Solana Bridged LP, close empty programs, and opening of new bonding products. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 1,
+      "blockNumber": 19681531,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1713433475,
+      "endTimestamp": 1713670931,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 17603216.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19703465
+          },
+          "event": "queued",
+          "timestamp": 1713698711,
+          "txHash": "0xd571360be1da99a0ffcbd6ba974ce1dd973b5ca1767d57daddd855b94817239d"
+        },
+        {
+          "time": {
+            "blockNumber": 19668440
+          },
+          "event": "pending",
+          "timestamp": 1713275291,
+          "txHash": "0xe6647816730fa90e5f5c738a8b4790604d6aefef39de803065bf27020823d8c2"
+        },
+        {
+          "time": {
+            "blockNumber": 19718058
+          },
+          "event": "executed",
+          "timestamp": 1713874847,
+          "txHash": "0x4964f8bd913b5ce0bcd683e6280de59b219d27380d3cb26d54a9c5f1414f6229"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 17603216.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1713275295711,
+      "txHash": "0xe6647816730fa90e5f5c738a8b4790604d6aefef39de803065bf27020823d8c2",
+      "quorum": 2337020,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4ODI4YzdmYjYwNTE4NWFhNWJmMjI0MmFjZGYxOTM5OTMzYTBkOGYzZWFmOTJmYWRiNGU0ZTJjMThjOWFjY2YyNQ==",
+      "id": "0x828c7fb605185aa5bf2242acdf1939933a0d8f3eaf92fadb4e4e2c18c9accf25",
+      "title": "Lockbox UpgradeAutorithy and FeeCollectorAutority",
+      "content": "**Simple Summary**: \nThis proposal presents the DAO with a vote to stop-gap the management of the [Lockbox Program Id](https://solscan.io/account/1BoXeb8hobfLCHNsyCoG1jpEv41ez4w4eDrJ48N1jY3) on Solana with a community multisig, until the main governance bridge is implemented.\n\nSpecifically, this proposes to \n1. Temporarily assign Lockbox UpgradeAuthority and Lockbox SOL and OLAS Fee Collector associated token accounts authority to the Community Multisig (CM) Vault with the following address [7mQQw6qCj66EtfarNKUfWGUD1pX7SSjHbVMpdJc1roK2](https://v4.squads.so/squads/7mQQw6qCj66EtfarNKUfWGUD1pX7SSjHbVMpdJc1roK2/settings).\n2. Once a LockboxManager program (managing Lockbox via cross-chain messages sent by Olas Timelock on Ethereum) is developed and approved by the Olas DAO, the control over UpgradeAuthority and Fee Collector associated token accounts authority will transition to this program. At that point, CM owners of the CM will direct the UpgradeAuthority and token accounts to the LockboxAuthority PDA.\n \nUntil step 2 is completed, Olas DAO members can propose actions for execution on the Lockbox program by signaling via proposals on [OLAS snapshot space](https://snapshot.org/#/autonolas.eth). The owners of the aforementioned CM will implement the on-chain actions that the off-proposal has requested.  This ensures efficient decision-making and implementation processes.\n\nAcceptance of this proposal enables CM owners (listed [here]( https://v4.squads.so/squads/7mQQw6qCj66EtfarNKUfWGUD1pX7SSjHbVMpdJc1roK2/members)) to temporarily manage the Lockbox program and the resulting fee funds.\n\n\n**Specification**: \nThe deployed Lockbox is identified by the following Program ID [1BoXeb8hobfLCHNsyCoG1jpEv41ez4w4eDrJ48N1jY3](https://solscan.io/account/1BoXeb8hobfLCHNsyCoG1jpEv41ez4w4eDrJ48N1jY3) and the following Program Address [3UaaD3puPemoZk7qFYJWWCvmN6diS7P63YR4Si9QRpaW](https://solscan.io/account/3UaaD3puPemoZk7qFYJWWCvmN6diS7P63YR4Si9QRpaW).\n\nTo enact the proposal, the deployer will utilize the `TokenInstruction::SetAuthority` command to assign\n- the Lockbox UpgradeAuthority of the associated token account to Community Multisig (CM) Vault with Address [7mQQw6qCj66EtfarNKUfWGUD1pX7SSjHbVMpdJc1roK2](https://v4.squads.so/squads/7mQQw6qCj66EtfarNKUfWGUD1pX7SSjHbVMpdJc1roK2/settings).\n- the Lockbox Authority of the Fee Collector associate token account for SOL (Gn7oD4PmQth4ehA4b8PpHzq5v1UXPL61jAZd6CSuPvFU)[https://solscan.io/account/Gn7oD4PmQth4ehA4b8PpHzq5v1UXPL61jAZd6CSuPvFU] to Community Multisig (CM) Vault with Address [7mQQw6qCj66EtfarNKUfWGUD1pX7SSjHbVMpdJc1roK2](https://v4.squads.so/squads/7mQQw6qCj66EtfarNKUfWGUD1pX7SSjHbVMpdJc1roK2/settings).\n- the Lockbox Authority of the Fee Collector associate token account for OLAS (FPaBgHbaJR39WBNn6xZRAmurQCBH9QSNWZ5Kk26cGs9d)[https://solscan.io/account/FPaBgHbaJR39WBNn6xZRAmurQCBH9QSNWZ5Kk26cGs9d] to Community Multisig (CM) Vault with Address [7mQQw6qCj66EtfarNKUfWGUD1pX7SSjHbVMpdJc1roK2](https://v4.squads.so/squads/7mQQw6qCj66EtfarNKUfWGUD1pX7SSjHbVMpdJc1roK2/settings).\n\n**Note**: \n\nIt is important to acknowledge that changing the authority of associated token accounts (ATAs) is generally considered an [anti-pattern](https://spl.solana.com/token#associated-token-account-ownership). This is because the ATA is always supposed to be derived from the recipient wallet address, and if the ATA authority is changed - the associated token account (where to send tokens to) will not be properly derived. However, the funds will not be lost, but the only way to proceed would be to use scripts, and standard applications would not be able to properly deliver funds to the associated token account that changed its authority. The anti-pattern is considered acceptable in this case.",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 5,
+      "blockNumber": 19626606,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x828c7fb605185aa5bf2242acdf1939933a0d8f3eaf92fadb4e4e2c18c9accf25",
+      "startTime": {
+        "timestamp": 1712941608
+      },
+      "endTime": {
+        "timestamp": 1713200808
+      },
+      "startTimestamp": 1712941608,
+      "endTimestamp": 1713200808,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 37286156.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 37286153.37568223,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712769020600,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4MDExOTVkMzFiMWU2NDE3MTljYWZjZTYxYzY1NmM2MDE0NTlkMWFlMGViNDQyZDRkMDhlMDMzMDE1OWJmMzYwMg==",
+      "id": "0x01195d31b1e641719cafce61c656c601459d1ae0eb442d4d08e0330159bf3602",
+      "title": "Adopt & share the Olas Brand and Press Kit",
+      "content": "### Background\nPeople are talking about Olas DAO (aka Autonolas DAO). Every day, many create and/or seek to create content, discussing the Olas DAO and its technology, vision, and contributors. \nCurrently, there is limited guidance available for external parties on how to speak about Olas to correctly describe the DAO, its technology, vision, or contributions to the DAO. Though a Press Kit currently exists on the Olas site, it does not contain brand guidelines for talking about relationships to the DAO, for example providing wording and assets for those building on Olas to use. As a result, mentions of Olas may be inconsistent, misrepresent or omit relationships to Olas and the Olas DAO, or otherwise use its intellectual property in unauthorized ways and weaken the Olas brand.\n\n### Proposal\nThis proposal seeks to update the Press Kit, ensuring there is a single place where Olas DAO members can point content creators that summarizes the necessary usage terms, guidance, information, and assets.\n\nThe proposed ‘brand-and-press-kit-olas’ can be read in full here: https://github.com/contentwillvary/brand-and-press-kit-olas/blob/main/README.md \n\nNew additions to this updated Kit include: \n- Usage terms for Olas DAO and its contributors’ intellectual property and trademarks\n- Guidelines and example language for talking about Olas, for builders and other relationships, including ‘do’s and ‘don'ts’\n- Assets builders on Olas are encouraged to use, including a ‘Powered by Olas’ badge\n\n### Implications\nThis new ‘Brand and Press Kit’ may have many benefits, including potentially: \n- Saving DAO contributors time finding information\n- Saving other people talking about Olas time finding information\n- Strengthening the Olas brand by setting a high standard for content about the DAO, i.e. that they must respect its intellectual property and correctly represent the Olas DAO and their relationships to it (not inflating or creating relationships of their own accord)\n- Strengthening the Olas brand by setting consistent wording and assets for content about the DAO, that reflects and complements the latest branding on the - Olas site (i.e. when the site is updated, the proposed Kit repository can be updated, too).\n- Saving the DAO liability and regulatory risk, reducing the chance that the DAO and/or contributors’ entities, work and relationships to each other are misrepresented, whether accidentally or otherwise\n\nIf adopted, this proposal will mean DAO members should do the following:\n- Use the Brand and Press Kit themselves\n- Link people wishing to talk about Olas to the ‘Brand and Press Kit’ repo\n- From time to time, when the Olas site is updated, update the repo to reflect site and vice-versa\n\n### Conclusion\nThis Brand and Press Kit aims to strengthen the Olas brand to showcase the work of everyone involved in growing crypto’s ocean of services and further grow the project. It is one part of ongoing crucial work by varied contributors to strengthen the Olas brand and encourage further high-quality content about the Olas DAO.",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x42F938046420d4237f367A63FA55354B3856055E",
+      "totalVotes": 4,
+      "blockNumber": 19582677,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x01195d31b1e641719cafce61c656c601459d1ae0eb442d4d08e0330159bf3602",
+      "startTime": {
+        "timestamp": 1712409934
+      },
+      "endTime": {
+        "timestamp": 1712669134
+      },
+      "startTimestamp": 1712409934,
+      "endTimestamp": 1712669134,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 19263580.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 19263579.832343012,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712237983946,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46NDAwNzg0NTg4NDI2MzU3Mzc4OTEzMzcwOTc0MDQ3NDMzNzgzNDI0OTUzMjgzODk0OTA2NTI5OTc5MjgwMTQ3MTc0MDk4MTQyNzUzNw==",
+      "id": "4007845884263573789133709740474337834249532838949065299792801471740981427537",
+      "title": "Proposal Enable OLAS-USDC Base Bridged ",
+      "content": "Enable OLAS-USDC Base Bridged LP and opening of new bonding products. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 3,
+      "blockNumber": 19547680,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1711812791,
+      "endTimestamp": 1712051183,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 54030232.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19534589
+          },
+          "event": "pending",
+          "timestamp": 1711653815,
+          "txHash": "0x93adebf6cd673cd900cbac7fcf622e3bf49f2862e493b87721c328bb06e805a3"
+        },
+        {
+          "time": {
+            "blockNumber": 19567902
+          },
+          "event": "queued",
+          "timestamp": 1712058311,
+          "txHash": "0x04ff2e5648ab373bf1689f66f9e2a0c8299025bad01a71cafb93d4b2df2a3298"
+        },
+        {
+          "time": {
+            "blockNumber": 19582590
+          },
+          "event": "executed",
+          "timestamp": 1712235995,
+          "txHash": "0xab3633fef2932b3a5e5ea7b1c90db7fdb690c2c57486ede61bfa6fcd2475c8d1"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 54030232.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711653823088,
+      "txHash": "0x93adebf6cd673cd900cbac7fcf622e3bf49f2862e493b87721c328bb06e805a3",
+      "quorum": 2420106,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46OTkzODAxMTM3MTQyMTExMzE2NTMyOTQ5MDIxMTk3NjgzNjIwNjUyNTc4MjI4MTAyNjI0MzQxNjQzNDEwOTMzMTIyMjc4OTQzMTU0MA==",
+      "id": "9938011371421113165329490211976836206525782281026243416434109331222789431540",
+      "title": "Proposal Enable WETH-OLAS Optimism Brid",
+      "content": "Enable WETH-OLAS Optimism Bridged LP and opening of new bonding products. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 6,
+      "blockNumber": 19504404,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1711283327,
+      "endTimestamp": 1711522631,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 54561960.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19491313
+          },
+          "event": "pending",
+          "timestamp": 1711124387,
+          "txHash": "0x831487052a4f5436c26dc56c360e83ebb0c6dbb47dbfa4fd711267c2a9711072"
+        },
+        {
+          "time": {
+            "blockNumber": 19538842
+          },
+          "event": "executed",
+          "timestamp": 1711705391,
+          "txHash": "0x29779496a537d8f9ed885d5ed30b746f0ef0a3ba192ea74f590315a894c0eb18"
+        },
+        {
+          "time": {
+            "blockNumber": 19524815
+          },
+          "event": "queued",
+          "timestamp": 1711532171,
+          "txHash": "0x2f3cd4dd43dcba1be617ca94b5bab4ec55d3cabf5dec64ec055db5334d052cc7"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711124392302,
+      "txHash": "0x831487052a4f5436c26dc56c360e83ebb0c6dbb47dbfa4fd711267c2a9711072",
+      "quorum": 2447266,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4MWU4M2E2NTcxNDg5NjdiMzk1YTAyNWYxNjIzMTAzMWQ2MmVhZWEzZWNmNWM5NDdiN2EyZWUyZTk2M2E0ZWFjZg==",
+      "id": "0x1e83a657148967b395a025f16231031d62eaea3ecf5c947b7a2ee2e963a4eacf",
+      "title": "ARC (Core): Olas Staking",
+      "content": "## Summary\nThe [AIP-4 proposal](https://github.com/valory-xyz/autonolas-aip/blob/aip-4/content/apis/core-olas-staking.md) suggests implementing Olas Staking, a mechanism empowering diverse users, including individuals, groups, companies, and DAOs, to create autonomous agent economies. By allowing the definition of Key Performance Indicators in staking programs, Olas Staking facilitates the bootstrapping of new economies and sustains existing ones. By incorporating this mechanism into the Olas Protocol, the proposal envisions a self-sustaining cycle of economic activities, positioning Olas as a crucial infrastructure in the crypto landscape.\n\n## Motivation\nThis ARC is created to identify if there exists a rough consensus on the AIP-4 proposal in its current form before implementing the [proposed roadmap](https://github.com/valory-xyz/autonolas-aip/blob/aip-4/content/apis/core-olas-staking.md#next-step) and bringing it to an on-chain vote.",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 11,
+      "blockNumber": 19438351,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x1e83a657148967b395a025f16231031d62eaea3ecf5c947b7a2ee2e963a4eacf",
+      "startTime": {
+        "timestamp": 1710654385
+      },
+      "endTime": {
+        "timestamp": 1710913585
+      },
+      "startTimestamp": 1710654385,
+      "endTimestamp": 1710913585,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 19772798.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 19772798.817117985,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710482257923,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4MzdjZDhhMDM2MGJmY2YwZDg5OGIzNjI3MTBmMTc2NTNiZWEwZDU0ZGUzMjQ5Mzc1ZjM4MmY2M2QzYTcyZDZmZQ==",
+      "id": "0x37cd8a0360bfcf0d898b362710f17653bea0d54de3249375f382f63d3a72d6fe",
+      "title": "Incorporation of Olas registries on Optimism, Base, and Celo",
+      "content": "**Simple Summary**\n\nThis proposal presents the DAO with a vote to\n integrate into the Olas protocol the following contracts: \nServiceRegistryL2 core smart contract, designed to secure services using native tokens of the chain. The deployment of these contracts is across multiple chains with the following addresses:\n[Address on Optimism](https://optimistic.etherscan.io/address/0x3d77596beb0f130a4415df3D2D8232B3d3D31e44) \n[Address on Base](https://basescan.org/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE)\n[Address on Celo](https://celoscan.io/address/0xE3607b00E75f6405248323A9417ff6b39B244b50) \n\nServiceRegistryTokenUtility core smart contract, designed to secure services with any ERC20 tokens.  The deployment of these contracts is across multiple chains with the following addresses: \n[Address on Optimism](https://optimistic.etherscan.io/address/0xBb7e1D6Cb6F243D6bdE81CE92a9f2aFF7Fbe7eac) \n[Address on Base](https://basescan.org/address/0x34C895f302D0b5cf52ec0Edd3945321EB0f83dd5)\n[Address on Celo](https://celoscan.io/address/0x3d77596beb0f130a4415df3D2D8232B3d3D31e44) \nOperator whitelist utility smart contract for whitelisting operator addresses. The deployment of these contracts is across multiple chains with the following addresses: \n[Address on Optimism](https://optimistic.etherscan.io/address/0x63e66d7ad413C01A7b49C7FF4e3Bb765C4E4bd1b) \n[Address on Base](https://basescan.org/address/0x3d77596beb0f130a4415df3D2D8232B3d3D31e44)\n[Address on Celo](https://celoscan.io/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE) \nServiceManagerToken periphery smart contract for management of service lifecycle, managing services secured with custom ERC20 tokens or chain-native token,and checking operators against the operator whitelist of a service as specified on the operator whitelist contract. The deployment of these contracts is across multiple chains with the following addresses: \n[Address on Optimism](https://optimistic.etherscan.io/address/0xFbBEc0C8b13B38a9aC0499694A69a10204c5E2aB) \n[Address on Base](https://basescan.org/address/0x63e66d7ad413C01A7b49C7FF4e3Bb765C4E4bd1b)\n[Address on Celo](https://celoscan.io/address/0x34C895f302D0b5cf52ec0Edd3945321EB0f83dd5) \nGnosisSafeMultisig smart contract for Gnosis Safe multisig implementation of a generic multisig interface. The deployment of these contracts is across multiple chains with the following addresses: \n[Address on Optimism](https://optimistic.etherscan.io/address/0xE43d4F4103b623B61E095E8bEA34e1bc8979e168) \n[Address on Base](https://basescan.org/address/0xBb7e1D6Cb6F243D6bdE81CE92a9f2aFF7Fbe7eac)\n[Address on Celo](https://celoscan.io/address/0x63e66d7ad413C01A7b49C7FF4e3Bb765C4E4bd1b) \nGnosisSafeSameAddressMultisig smart contract for Gnosis Safe verification of an already existent multisig address. The deployment of these contracts is across multiple chains with the following addresses: \n[Address on Optimism](https://optimistic.etherscan.io/address/0xb09CcF0Dbf0C178806Aaee28956c74bd66d21f73) \n[Address on Base](https://basescan.org/address/0xFbBEc0C8b13B38a9aC0499694A69a10204c5E2aB)\n[Address on Celo](https://celoscan.io/address/0xBb7e1D6Cb6F243D6bdE81CE92a9f2aFF7Fbe7eac) \n\nAcceptance of this off-chain proposal would be a key step towards bringing Olas registry functionalities to Optimism, Base, and Celo network. More information on the contracts and the new functionalities are outlined in detail here:  \n[AgentServicesFunctionality](https://github.com/valory-xyz/autonolas-registries/blob/v1.1.10-pre-deployment-l2/docs/AgentServicesFunctionality.pdf) \n[Autonolas-registries:README.md](https://github.com/valory-xyz/autonolas-registries/blob/v1.1.10-pre-deployment-l2/README.md) \n\n**Specification**\n\nThe Olas protocol will call upon any deployer taking these actions first to grant ownership and management rights to Olas governance cross-chain contracts, once those are deployed.",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0xBC21Ef6D6F4eB68d53a2917E575E67E6A9889716",
+      "totalVotes": 5,
+      "blockNumber": 19291889,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x37cd8a0360bfcf0d898b362710f17653bea0d54de3249375f382f63d3a72d6fe",
+      "startTime": {
+        "timestamp": 1708884284
+      },
+      "endTime": {
+        "timestamp": 1709143484
+      },
+      "startTimestamp": 1708884284,
+      "endTimestamp": 1709143484,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 20386980.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 20386977.212442067,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708711654265,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46ODQwMDg5MTQ3NTYwMDU5MDQ4NDEzMjA2MTU3MTg2ODQ1NDcyODA1Mzc5NTAxNjg5NjA2MzY5MzgyNTM2ODkzNzYwNjAxNjc1Njc2NDA=",
+      "id": "84008914756005904841320615718684547280537950168960636938253689376060167567640",
+      "title": "Proposal Update ServiceRegistryL2 manag",
+      "content": "Update ServiceRegistryL2 manager on Polygon chain, close old bonding programmes, create new bonding programmes. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 2,
+      "blockNumber": 19149493,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1706983499,
+      "endTimestamp": 1707221639,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 19641508.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19136402
+          },
+          "event": "pending",
+          "timestamp": 1706824607,
+          "txHash": "0xf3457dffef34b6a8622f28eb27cba68048acb42e0ae36c7feb670723ded489da"
+        },
+        {
+          "time": {
+            "blockNumber": 19169426
+          },
+          "event": "queued",
+          "timestamp": 1707225251,
+          "txHash": "0xd43d10143946fdd5e29d5a6bf316ca882a6d7f83c435d5a2b9c73a840243acb2"
+        },
+        {
+          "time": {
+            "blockNumber": 19183732
+          },
+          "event": "executed",
+          "timestamp": 1707398735,
+          "txHash": "0x7b6ed6e63b57b00c9bc2c7565c049fd79f8d998efdd2568e48d5e444499f319d"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706824611195,
+      "txHash": "0xf3457dffef34b6a8622f28eb27cba68048acb42e0ae36c7feb670723ded489da",
+      "quorum": 2330531,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4NzIxN2M2YmQ0NDE5Y2M0YzFmODRmMGRkOThjMWRkMTVkOWY2OGZiYTE4NTlmNGYwOWU5NzQ2ZTBkZTI0NGYyOQ==",
+      "id": "0x7217c6bd4419cc4c1f84f0dd98c1dd15d9f68fba1859f4f09e9746e0de244f29",
+      "title": "Incorporation of Olas registries on Arbitrum",
+      "content": "**Simple Summary**: \nThis proposal presents the DAO with a vote to\n1. integrate into the Autonolas protocol the following contracts: \n    * [ServiceRegistryL2](https://arbiscan.io/address/0xe3607b00e75f6405248323a9417ff6b39b244b50) a core smart contract for securing services with chain native tokens \n    * [ServiceRegistryTokenUtility](https://arbiscan.io/address/0x3d77596beb0f130a4415df3d2d8232b3d3d31e44) a core smart contract for securing services with ERC20 tokens \n    * [Operator whitelist](https://arbiscan.io/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE) a utility smart contract for whitelisting operator addresses\n    * [ServiceManagerToken](https://arbiscan.io/address/0x34C895f302D0b5cf52ec0Edd3945321EB0f83dd5) a periphery smart contract for management of service lifecycle, managing services secured with custom ERC20 tokens or chain-native token,and checking operators against the operator whitelist of a service as specified on the operator whitelist contract. \n    * [GnosisSafeMultisig](https://arbiscan.io/address/0x63e66d7ad413C01A7b49C7FF4e3Bb765C4E4bd1b) a smart contract for Gnosis Safe multisig implementation of a generic multisig interface.\n    * [GnosisSafeSameAddressMultisig](https://arbiscan.io/address/0xBb7e1D6Cb6F243D6bdE81CE92a9f2aFF7Fbe7eac) a smart contract for Gnosis Safe verification of an already existent multisig address.\n\n2. grant to the [AliasTimelockAddress](https://arbiscan.io/address/0x4d30F68F5AA342d296d4deE4bB1Cacca912dA70F) the role of the drainer on [ServiceRegistryL2](https://arbiscan.io/address/0xe3607b00e75f6405248323a9417ff6b39b244b50) and [ServiceRegistryTokenUtility](https://arbiscan.io/address/0x3d77596beb0f130a4415df3d2d8232b3d3d31e44)\n\n\nAcceptance of this off-chain proposal would be a key step towards bringing Olas registry functionalities to Arbitrum. Specifically the above contracts enable the following:\n- manage an operator whitelist and have a permissioned operator sets;\n- secure services with both chain-native token and ERC20 tokens;\n- re-deploy in one-shot deployed services by using operators pre-signed message hashes;\n- drain eventual slashed security bonds.\n\nMore information on the contracts and the new functionalities are outlined in detail here:  \n- [AgentServicesFunctionality](https://github.com/valory-xyz/autonolas-registries/blob/main/docs/AgentServicesFunctionality.pdf) \n- [Autonolas-registries:README.md](https://github.com/valory-xyz/autonolas-registries/blob/main/README.md)\n\n**Specification**: \nThe Autonolas protocol will call upon the deployer (or any other deployer taking these actions first) to grant the drainer’s role and to transfer ownership rights of the deployed contracts to the [AliasTimelockAddress](https://arbiscan.io/address/0x4d30F68F5AA342d296d4deE4bB1Cacca912dA70F) as such:\n- grant drainer's role by calling changeDrainer(AliasTimelockAddress) for the following:\n    - [ServiceRegistryL2](https://arbiscan.io/address/0xe3607b00e75f6405248323a9417ff6b39b244b50)\n    - [ServiceRegistryTokenUtility](https://arbiscan.io/address/0x3d77596beb0f130a4415df3d2d8232b3d3d31e44)\n- transfer ownership rights of [ServiceRegistryTokenUtility](https://etherscan.io/address/0x3Fb926116D454b95c669B6Bf2E7c3bad8d19affA) to Timelock calling changeOwner(AliasTimelockAddress);\n- transfer ownership rights to Timelock by calling changeOwner(AliasTimelockAddress) for  the following contracts\n    - [ServiceRegistryL2](https://arbiscan.io/address/0xe3607b00e75f6405248323a9417ff6b39b244b50)\n    - [ServiceRegistryTokenUtility](https://arbiscan.io/address/0x3d77596beb0f130a4415df3d2d8232b3d3d31e44)\n    - [ServiceManagerToken](https://arbiscan.io/address/0x34C895f302D0b5cf52ec0Edd3945321EB0f83dd5)",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 7,
+      "blockNumber": 19093824,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x7217c6bd4419cc4c1f84f0dd98c1dd15d9f68fba1859f4f09e9746e0de244f29",
+      "startTime": {
+        "timestamp": 1706481853
+      },
+      "endTime": {
+        "timestamp": 1706741053
+      },
+      "startTimestamp": 1706481853,
+      "endTimestamp": 1706741053,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 40212788.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 40212789.77949965,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706309271943,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46NjQ0NzM0NzM2MTExNTQzMzkzMTI3NDM5OTg3OTY3NTExMTY0ODY1MjU2ODg0NjQwMzUyNTg0OTE0MTMyMDMzOTE1MTE1MjQyNTA3NDc=",
+      "id": "64473473611154339312743998796751116486525688464035258491413203391511524250747",
+      "title": "Proposal Update guardCM, set BridgeMedi",
+      "content": "Update guardCM, set BridgeMediator addresses and chainIDs, and Target Selectors on guardCM. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 3,
+      "blockNumber": 19057254,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1705864943,
+      "endTimestamp": 1706104055,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 19664588.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19078223
+          },
+          "event": "queued",
+          "timestamp": 1706120159,
+          "txHash": "0xcb9af915fa57e6e07bb9e7bbaa802e9a1106aacdae150d4e9882eeaef4339a4c"
+        },
+        {
+          "time": {
+            "blockNumber": 19092983
+          },
+          "event": "executed",
+          "timestamp": 1706298803,
+          "txHash": "0x237e51bec8cc54c151049963e5f5cbdabeb371dc4bf2a12f7362943a695687b4"
+        },
+        {
+          "time": {
+            "blockNumber": 19044163
+          },
+          "event": "pending",
+          "timestamp": 1705706555,
+          "txHash": "0x8580858b59b7ab8c38bdc34ea10e985581e1e4831805757a0954339c1a01ef37"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705706559071,
+      "txHash": "0x8580858b59b7ab8c38bdc34ea10e985581e1e4831805757a0954339c1a01ef37",
+      "quorum": 2358409,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46NDM1NTE5NjY4MzgzMjgzMTA2NzE4ODU2ODE0OTUwMjMzOTY1MDkyMjA0ODc1NDA1NDkyMTk4ODQ1MDEzMjM5ODgwMjA5ODI1NTcxODk=",
+      "id": "43551966838328310671885681495023396509220487540549219884501323988020982557189",
+      "title": "Proposal Renegade ejection. In accordan",
+      "content": "Renegade ejection. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u.",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x3479Bf87C62D26B54943FADf3deB9826050f1de6",
+      "totalVotes": 18,
+      "blockNumber": 19053751,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1705822163,
+      "endTimestamp": 1706061647,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2731408.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19113215
+          },
+          "event": "executed",
+          "timestamp": 1706543795,
+          "txHash": "0xa9e1dae6a5b43b06180034ed670864ec82204d8479398a5282e13fb1a327cf4d"
+        },
+        {
+          "time": {
+            "blockNumber": 19076443
+          },
+          "event": "queued",
+          "timestamp": 1706098667,
+          "txHash": "0xd1a91985bdb5d66f6b8ae97cc2d6521f345913cf4e2e02f1e6654f463bfbd1b9"
+        },
+        {
+          "time": {
+            "blockNumber": 19040660
+          },
+          "event": "pending",
+          "timestamp": 1705664327,
+          "txHash": "0xefece127aa26d50e5b8f70f6d19d528fd9bae81e7fbb32c9f80af41657699599"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705664331126,
+      "txHash": "0xefece127aa26d50e5b8f70f6d19d528fd9bae81e7fbb32c9f80af41657699599",
+      "quorum": 2360005,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46NTc0NzMzMDc0MzczNzE1NTA2MDIyMzEzNTU1Njg3OTA2MjI4NDgwNzYzMTM1NDA0MTE1MzEwMzUxMDEzMzcwNzQ4NzUyNjA0OTE4MTI=",
+      "id": "57473307437371550602231355568790622848076313540411531035101337074875260491812",
+      "title": "Proposal Enable WMATIC-OLAS Bridged LP,",
+      "content": "Enable WMATIC-OLAS Bridged LP, closing of old and opening of new bonding products. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u  ",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 5,
+      "blockNumber": 19042258,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1705683539,
+      "endTimestamp": 1705921835,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 58808472.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19076452
+          },
+          "event": "executed",
+          "timestamp": 1706098775,
+          "txHash": "0x999d93d51843e44913c602298f962abee52320c47901943c07397459762bc7f9"
+        },
+        {
+          "time": {
+            "blockNumber": 19061920
+          },
+          "event": "queued",
+          "timestamp": 1705922147,
+          "txHash": "0xcb5ca630a8f8907dc53e1cd59bfc681c2eebd0b0a419a812b73701c4abb59cc7"
+        },
+        {
+          "time": {
+            "blockNumber": 19029167
+          },
+          "event": "pending",
+          "timestamp": 1705525595,
+          "txHash": "0x36b19dff6e2a036a80587c4ea701193df703516dfd57a4439cd0f56eea7c49ba"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705525602523,
+      "txHash": "0x36b19dff6e2a036a80587c4ea701193df703516dfd57a4439cd0f56eea7c49ba",
+      "quorum": 2365246,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4MjBkNzNmMWZjZmYwZTc2Y2E3ODJhZGJiMmVmZjg2ZjllMDM4NTYxM2RlMWQwNzQ2NzY2OTRiZTZiNjJlMDNhZg==",
+      "id": "0x20d73f1fcff0e76ca782adbb2eff86f9e0385613de1d074676694be6b62e03af",
+      "title": "ARC(Core): Enhancing Autonolas Protocol Security",
+      "content": "## Summary\n\nThe Olas protocol utilizes a [community-multisig](https://etherscan.io/address/0x04C06323Fe3D53Deb7364c0055E1F68458Cc2570) (CM) and a guard mechanism (cf. [GuardCM contract](https://etherscan.io/address/0x1a0bADb278dE44E261DEC9f4225E3DD761336DA8)) to promptly address protocol security incidents, limiting the CM to specific reversible actions. \n\nThe [AIP-3](https://github.com/valory-xyz/autonolas-aip/blob/aip-3/content/aips/core-enhancing-autonolas-protocol-security.md) assesses Autonolas's DAO progressive security improvements and suggests further improvements to better manage emergency governance situations.\nThis proposal specifically targets challenges in the existing GuardCM structure, aiming to enhance CM cross-chain governance actions and reduce time delays in CM actions.  The key motivations behind this improvement proposal include:\n\n- **Addressing Cross-Chain Governance Challenges:** While the current guard implementation ensures that on Ethereum, the CM can only take DAO-compliant reversible actions, challenges arise when extending CM ability to L2 (like Gnosis or Polygon) through governance bridges. The proposed [new GuardCM implementation](https://github.com/valory-xyz/autonolas-governance/blob/v1.1.8/contracts/multisigs/GuardCM.sol) addresses these challenges, ensuring that CM actions remain restricted to specific reversible actions also on L2 networks.\n- **Optimizing Response Time:** The existing Timelock mechanism, while ensuring security, introduces operational delays also for CM actions. This proposal introduces a solution to reduce CM-actions delays, enabling swift CM responses in urgent scenarios. \n\n\n## Proposal\n\nThis ARC serves as an initial step to gauge the community's sentiment and establish a preliminary consensus on the AIP-3 proposal. It includes an in-depth examination of the proposed specifications, available [here](https://github.com/valory-xyz/autonolas-aip/blob/aip-3/content/aips/core-enhancing-autonolas-protocol-security.md). Subsequent on-chain votes will be conducted to finalize relevant aspects of the proposal.",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 6,
+      "blockNumber": 18928322,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x20d73f1fcff0e76ca782adbb2eff86f9e0385613de1d074676694be6b62e03af",
+      "startTime": {
+        "timestamp": 1704475830
+      },
+      "endTime": {
+        "timestamp": 1704735030
+      },
+      "startTimestamp": 1704475830,
+      "endTimestamp": 1704735030,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 60830392.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 60839035.01696938,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704303460527,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46ODc1ODY0MDg1NzMxMzM1MDMyNzM4ODE1NTk5NTMwMDg5MTYzMTg5NzI0MzcwOTA1ODU1ODQyMjc1MDQyMDE5ODg5MDc1MDQ0NTkyNA==",
+      "id": "8758640857313350327388155995300891631897243709058558422750420198890750445924",
+      "title": "Proposal Closing of old and opening of ",
+      "content": "Closing of old and opening of new bonding products. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 2,
+      "blockNumber": 18934825,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1704381683,
+      "endTimestamp": 1704621419,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 20630954.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18921734
+          },
+          "event": "pending",
+          "timestamp": 1704223199,
+          "txHash": "0x8fa023bd302fb0e559119e83a1e915975690df462c3b20ce39e4278424e870db"
+        },
+        {
+          "time": {
+            "blockNumber": 18954932
+          },
+          "event": "queued",
+          "timestamp": 1704627167,
+          "txHash": "0xe3213f9718e6802461184a0d539c6c6da6fd524969773a91ad43fe560a17204f"
+        },
+        {
+          "time": {
+            "blockNumber": 18969947
+          },
+          "event": "executed",
+          "timestamp": 1704809843,
+          "txHash": "0xf7b662ebd655400b9063785c2abf7779c284d66d3eb69bc9f53be25ec7b91a34"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704223202385,
+      "txHash": "0x8fa023bd302fb0e559119e83a1e915975690df462c3b20ce39e4278424e870db",
+      "quorum": 2414417,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46MTExNzkxNjQwMzMzNzkwNjc4MDA3MzY0MzQ0MzY2OTgxNjIwNTc1ODMxODY0MTcxOTYyNjQ2NDQ3Mzg0MTUwMTc2MDYyODA4ODgwMTA5",
+      "id": "111791640333790678007364344366981620575831864171962646447384150176062808880109",
+      "title": "Proposal Closing of old and opening of ",
+      "content": "Closing of old and opening of new bonding products. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u  ",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 2,
+      "blockNumber": 18877982,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1703692043,
+      "endTimestamp": 1703930567,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 20792342.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18864891
+          },
+          "event": "pending",
+          "timestamp": 1703533391,
+          "txHash": "0xb88558194e87b337e07329eb4da7ce97be2d4707d427e6929ab116fb1b9be76c"
+        },
+        {
+          "time": {
+            "blockNumber": 18913505
+          },
+          "event": "executed",
+          "timestamp": 1704123335,
+          "txHash": "0x251185a30b85024502724df6d3b666c4020f2917fc98e5f26d6a3a4cb2221ff6"
+        },
+        {
+          "time": {
+            "blockNumber": 18899178
+          },
+          "event": "queued",
+          "timestamp": 1703949599,
+          "txHash": "0x1bc0186eb2fe345187aad0610c51e1672f9f887291afd4685bc192c14ebb8634"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703533396428,
+      "txHash": "0xb88558194e87b337e07329eb4da7ce97be2d4707d427e6929ab116fb1b9be76c",
+      "quorum": 2440472,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4ZjdlMTgzM2ExOTUxNmNhNTQ4MGNjNWY5OTJmNDYyYTE0Zjg5ZjgzMTY5Zjk2ZWVhNzcwZDMxNjRlMTljZGViNw==",
+      "id": "0xf7e1833a19516ca5480cc5f992f462a14f89f83169f96eea770d3164e19cdeb7",
+      "title": "I GOT hackd and lost over 1.9 million $",
+      "content": "My account (hacked) - 0xBAa1e99c34621e2159abEd00CC673CE1e219e0F4\nPlease help me to save my funds (Almost 4 millions $)\nI need transfer lock to my new address - 0xdBFB4B3d34822F5c5008e87e0b8886489B4230EE\nPlease help/Thank u all",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0xBAa1e99c34621e2159abEd00CC673CE1e219e0F4",
+      "totalVotes": 1,
+      "blockNumber": 18743625,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0xf7e1833a19516ca5480cc5f992f462a14f89f83169f96eea770d3164e19cdeb7",
+      "startTime": {
+        "timestamp": 1702236631
+      },
+      "endTime": {
+        "timestamp": 1702495831
+      },
+      "startTimestamp": 1702236631,
+      "endTimestamp": 1702495831,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 244050.56,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 244050.5628594384,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1702064824292,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4M2VkMDIwMTZkOTIxYTVhN2UwZmNjMzBmZjE0NzMyM2JlZjliYTM1ZDg0YzVmM2NmMDAwMGIzNDAzNDczYzRlZQ==",
+      "id": "0x3ed02016d921a5a7e0fcc30ff147323bef9ba35d84c5f3cf0000b3403473c4ee",
+      "title": "ARC(Core): Build-A-Pose ",
+      "content": "## Summary\n\nThe Olas protocol has an innovative mechanism to bootstrap code and capital in the Olas DAO and ecosystem. Currently, the DAO lacks a mechanism to coordinate the decentralized creation of protocol-owned services (PoSes).\n\nThe  [AIP-2 proposal](https://github.com/valory-xyz/autonolas-aip/blob/aip-2/content/aips/core-build-a-pose.md) aims to address this gap by presenting a comprehensive program that outlines the necessary steps to enable the introduction of new PoSes in a decentralized manner.  Specifically, AIP-2 suggests implementing Build-A-PoSe, a structured program operated by the DAO to consistently deliver new Olas-owned services. Build-A-PoSe utilizes the existing PoSe Contribute and the dev rewards mechanism built into Olas protocol, to \n\n1) coordinate developers in the Olas DAO to build out components for new PoSes,\n\n2) coordinate Olas DAO members to shepherd the marketing and distribution of new PoSes.\n\nAdditionally, the proposal suggests Olas Automate as the first service to be built as part of Build-A-Pose.\n\n\n## Proposal\n\nThis ARC is initiated to gauge the community's sentiment and establish a rough consensus regarding the AIP-2 proposal in its current form. It encompasses an examination of the proposed specification, accessible [here](https://github.com/valory-xyz/autonolas-aip/blob/aip-2/content/aips/core-build-a-pose.md), along with acknowledging Olas Automate as a concrete PoSe to be built as part of Build-A-Pose. On-chain votes will follow for the relevant parts.",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 9,
+      "blockNumber": 18585334,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x3ed02016d921a5a7e0fcc30ff147323bef9ba35d84c5f3cf0000b3403473c4ee",
+      "startTime": {
+        "timestamp": 1700321257
+      },
+      "endTime": {
+        "timestamp": 1700580457
+      },
+      "startTimestamp": 1700321257,
+      "endTimestamp": 1700580457,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 22665418.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 22665417.49390748,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1700149054922,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4NjQyMTY4NjM5ZWMwMDc5OTQ2MmNjYTAxM2RkZDdiM2YwYTFhZDRmYzA2OWIzZDk5NWNiNjk2YTcxMjA4NzZjZg==",
+      "id": "0x642168639ec00799462cca013ddd7b3f0a1ad4fc069b3d995cb696a7120876cf",
+      "title": "Transfer lock from hacked wallet to new one",
+      "content": "My wallet 0xBAa1e99c34621e2159abEd00CC673CE1e219e0F4 got hacked. I want to transfer lock to another one: 0x85B5DF2Bdb70d5632081B4bC2842F4C312e48d22",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0xBAa1e99c34621e2159abEd00CC673CE1e219e0F4",
+      "totalVotes": 0,
+      "blockNumber": 18456104,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x642168639ec00799462cca013ddd7b3f0a1ad4fc069b3d995cb696a7120876cf",
+      "startTime": {
+        "timestamp": 1698758599
+      },
+      "endTime": {
+        "timestamp": 1699017799
+      },
+      "startTimestamp": 1698758599,
+      "endTimestamp": 1699017799,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698586047389,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46MTA1MDUyMTgyMDU1Mjc4MjEyMzI2Nzk5OTk2NjAxMjI5MDg0MDA1MjM3NDA2NDE2NTg2Nzk3NDkyMDE0MTQzNjg3ODMxOTEwNjQwNTE3",
+      "id": "105052182055278212326799996601229084005237406416586797492014143687831910640517",
+      "title": "Proposal GnosisSafeSameAddressMultisig ",
+      "content": "GnosisSafeSameAddressMultisig permission on all the chains, assign Depository One owner to the dead address, open new bonding products, and close empty products. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 2,
+      "blockNumber": 18432242,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1698297299,
+      "endTimestamp": 1698534599,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 42806040.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18468733
+          },
+          "event": "executed",
+          "timestamp": 1698738623,
+          "txHash": "0x739eea051fdf1b6336a7b9c51c192996516ae95604c5c673aca96f41eda2e61d"
+        },
+        {
+          "time": {
+            "blockNumber": 18454532
+          },
+          "event": "queued",
+          "timestamp": 1698566675,
+          "txHash": "0xa431da42a32fc0b7db158afa533e6ffe46bf17281915fa4c0d45ca4258cb0ac6"
+        },
+        {
+          "time": {
+            "blockNumber": 18419151
+          },
+          "event": "pending",
+          "timestamp": 1698138779,
+          "txHash": "0xed3f698981f6a6e4dc5b51a4a7d749c683daa9262f6e40da2ac2f3057e61b38d"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698139207704,
+      "txHash": "0xed3f698981f6a6e4dc5b51a4a7d749c683daa9262f6e40da2ac2f3057e61b38d",
+      "quorum": 2639629,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46NTU1NjY3NzA1NDA2NTU4NjU1ODExMjQwMDE5NTAyNzc5OTg3MjEwOTY1ODQ3OTU4OTMzNjcxNDM4OTMxMzgzNzg1NzU4NDI2ODc5Mg==",
+      "id": "5556677054065586558112400195027799872109658479589336714389313837857584268792",
+      "title": "Proposal Enable bridged OLAS-wxDAI LP i",
+      "content": "Enable bridged OLAS-wxDAI LP into Treasury, close old bonding programmes, and enable new bonding programmes for OLAS-wxDAI. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 5,
+      "blockNumber": 18357992,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1697399627,
+      "endTimestamp": 1697636819,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 44330060.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18377930
+          },
+          "event": "queued",
+          "timestamp": 1697640479,
+          "txHash": "0x03d4cf9040f7227a60c31cd2d2669d123c5c47e3f4ed02a0241b677c68da235e"
+        },
+        {
+          "time": {
+            "blockNumber": 18392464
+          },
+          "event": "executed",
+          "timestamp": 1697816159,
+          "txHash": "0xe75f856e4206339150664ab0d2490a11e421cbec0c495ee25ee64abc003b8248"
+        },
+        {
+          "time": {
+            "blockNumber": 18344901
+          },
+          "event": "pending",
+          "timestamp": 1697241539,
+          "txHash": "0x6e72b59b91b20ff7131e988754709138e7b565ff04e8595b4a4bd53ede620a09"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1697242329604,
+      "txHash": "0x6e72b59b91b20ff7131e988754709138e7b565ff04e8595b4a4bd53ede620a09",
+      "quorum": 2675517,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46MTAyNzQ5NDY5Mjc3Njk5MDE4MjM3MzI3MTI4MTc2NjU0NDY2ODc4NDM4MzAwMzg4OTk3MTYwMzk5MDQzOTM0ODE0ODIyMjE4MzMxMjAx",
+      "id": "102749469277699018237327128176654466878438300388997160399043934814822218331201",
+      "title": "Proposal Update ServiceRegistryL2 manag",
+      "content": "Update ServiceRegistryL2 manager on gnosis chain. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 3,
+      "blockNumber": 18266014,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1696287863,
+      "endTimestamp": 1696525067,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 65722160.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18252923
+          },
+          "event": "pending",
+          "timestamp": 1696129955,
+          "txHash": "0x31ee5e507483e0dacde6b7c5224a5e68d5bfa8ba415a975fe5c9a7f5bde8bc32"
+        },
+        {
+          "time": {
+            "blockNumber": 18288357
+          },
+          "event": "queued",
+          "timestamp": 1696557839,
+          "txHash": "0x8c9d5fcb89677b8a092f97b3455475d5f5d789fccf7b9ea7387937fdd1bc508e"
+        },
+        {
+          "time": {
+            "blockNumber": 18316331
+          },
+          "event": "executed",
+          "timestamp": 1696895903,
+          "txHash": "0x1df6405c6fe73e1dc15e73360026b183d360f1d092ba49e2264d827b63421288"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696130133719,
+      "txHash": "0x31ee5e507483e0dacde6b7c5224a5e68d5bfa8ba415a975fe5c9a7f5bde8bc32",
+      "quorum": 2720719,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46Nzk2MjA2MzI0OTQ2MDM5NTk5OTE4MzE5NjY0OTgyNzgyNjkxMTgxNzYxNTE5Mzc5NTk4MzkxODgwODEwMzY0NzM3NzE3MTg1MTg1MDg=",
+      "id": "79620632494603959991831966498278269118176151937959839188081036473771718518508",
+      "title": "Proposal Update ServiceRegistryUtilityT",
+      "content": "Update ServiceRegistryUtilityToken Drainer, set Target Selectors on guardCM, and revoke CM canceller role. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 4,
+      "blockNumber": 18226904,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1695815411,
+      "endTimestamp": 1696052963,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 23109586.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18249143
+          },
+          "event": "queued",
+          "timestamp": 1696084451,
+          "txHash": "0xe5d6b3541bf0df845ac074683378c8d54cdb8456d87d4581b5976f7584bb7b7d"
+        },
+        {
+          "time": {
+            "blockNumber": 18266403
+          },
+          "event": "executed",
+          "timestamp": 1696292531,
+          "txHash": "0x2d792bb4fd1e9ab38c8b53db1d6e82993583a04abd6c6874e32797084ed469f8"
+        },
+        {
+          "time": {
+            "blockNumber": 18213813
+          },
+          "event": "pending",
+          "timestamp": 1695657179,
+          "txHash": "0xf183f13745331ae5025be4cbef492dff6433f2e6ab62d45d07ef896c9daa1416"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695657463427,
+      "txHash": "0xf183f13745331ae5025be4cbef492dff6433f2e6ab62d45d07ef896c9daa1416",
+      "quorum": 2740007,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4ZTRhYjFlYjMwMDRjMDQzN2Q4Yzk4OTBjNGE1ZTA0YjkyOGM5OTUwYTA1NGZmMmFkM2Y3YmRjZTY5MDRkYWRiYg==",
+      "id": "0xe4ab1eb3004c0437d8c9890c4a5e04b928c9950a054ff2ad3f7bdce6904dadbb",
+      "title": "ARC (core): Triple Lock - token sinks in v1",
+      "content": "## Summary\n\nThe [AIP-1 proposal](https://github.com/valory-xyz/autonolas-aip/blob/aip-1/content/aips/core-aip-triple-lock.md) suggests implementing Triple Lock, an upgrade to the protocol that improves bonding, dev rewards, and staking. Triple Lock creates and reinforces token sinks for OLAS. Furthermore, the proposal suggests a bonding strategy whereby the DAO creates bonding products for LP assets which pair OLAS with the native token for each chain on which the Olas protocol is deployed.\n\n## Motivation\nThis ARC is created to identify if there exists a rough consensus on the AIP-1 proposal in its current form before implementing the [proposed roadmap](https://github.com/valory-xyz/autonolas-aip/blob/aip-1/content/aips/core-aip-triple-lock.md#next-steps) and bringing it to an on-chain vote.",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 10,
+      "blockNumber": 18210190,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0xe4ab1eb3004c0437d8c9890c4a5e04b928c9950a054ff2ad3f7bdce6904dadbb",
+      "startTime": {
+        "timestamp": 1695786188
+      },
+      "endTime": {
+        "timestamp": 1696045388
+      },
+      "startTimestamp": 1695786188,
+      "endTimestamp": 1696045388,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4.541508e25,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.541508329427079e25,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695613698495,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46NDgyODIyNTczOTc5MTA2MjMxMzA4MzU5NDg5OTI5Nzk4OTEyMjQzMjEyNDgzNjEyOTA2OTQ0MjI0Mjk4NTQwMDMyMDczMTA0MDM2Nzg=",
+      "id": "48282257397910623130835948992979891224321248361290694422429854003207310403678",
+      "title": "Proposal Close two old product and seco",
+      "content": "Close two old product and second bonding campaigns of the epoch 5. In accordance with Autonolas DAO Constitution at ipfs://bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 3,
+      "blockNumber": 18132281,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1694667443,
+      "endTimestamp": 1694906555,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 92027.59,
+          "choice": 2
+        },
+        {
+          "total": 44628064.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18168820
+          },
+          "event": "executed",
+          "timestamp": 1695112727,
+          "txHash": "0xc93d07b35555e0a916d42193c273676720416a7b24f53b382eec33c1d5d920c1"
+        },
+        {
+          "time": {
+            "blockNumber": 18119190
+          },
+          "event": "pending",
+          "timestamp": 1694508875,
+          "txHash": "0x6b0365f4f78e2f20d2fa054323ee6bca314d1994e031c32016db4b8af093c0b6"
+        },
+        {
+          "time": {
+            "blockNumber": 18154586
+          },
+          "event": "queued",
+          "timestamp": 1694939375,
+          "txHash": "0x6be2ffbaed9aff8ee01204141ea78d02b49b1bede2fb74847752177c4d430da8"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1694509063361,
+      "txHash": "0x6b0365f4f78e2f20d2fa054323ee6bca314d1994e031c32016db4b8af093c0b6",
+      "quorum": 2786866,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46MTA0MTUzNDQ2NzIwMDQ4MzUwNTQwNTE4NDU2NTkxMTg0ODQzNTI4MTUxMTA0OTQ2Mzg0NDc5MDU0OTIwNzM0MTQ3ODcyMzAyNzk4OTc4",
+      "id": "104153446720048350540518456591184843528151104946384479054920734147872302798978",
+      "title": "Proposal Close old bonding products and",
+      "content": "Close old bonding products and create eleven new ones",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 6,
+      "blockNumber": 18005988,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1693139135,
+      "endTimestamp": 1693376795,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 23941140.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17992897
+          },
+          "event": "pending",
+          "timestamp": 1692980891,
+          "txHash": "0x92f356fac81382ce318828d69691691f55b5c99e02e0d6e8947e9b6fc66fdce2"
+        },
+        {
+          "time": {
+            "blockNumber": 18040959
+          },
+          "event": "executed",
+          "timestamp": 1693562339,
+          "txHash": "0xfc37125d37165bf04e2437b2bef1a837e426e0055773ade20308178308988d2a"
+        },
+        {
+          "time": {
+            "blockNumber": 18026659
+          },
+          "event": "queued",
+          "timestamp": 1693389299,
+          "txHash": "0x6fedadccd63323fadfb43c93e366e10a9da195b36d08f5c6afa38d83e9380113"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692981039061,
+      "txHash": "0x92f356fac81382ce318828d69691691f55b5c99e02e0d6e8947e9b6fc66fdce2",
+      "quorum": 2849251,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46OTk1MTM1NTAwMDg3Mjk2NzU5NTA2ODE5MzkwNDMwODE4ODkyNzI5MzA2NDc0NjMzNzI3NzE5MDY1NzMwMjA4MDA4NTE3NDY3ODYxNg==",
+      "id": "9951355000872967595068193904308188927293064746337277190657302080085174678616",
+      "title": "Proposal Set drainer addresses in Servi",
+      "content": "Set drainer addresses in ServiceRegistryL2 on Polygon and Gnosis chains, change tokenomics top-up and bonding fractions, close old bonding products and create nine new ones.",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 6,
+      "blockNumber": 17933397,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1692261503,
+      "endTimestamp": 1692499103,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 46059524.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17920306
+          },
+          "event": "pending",
+          "timestamp": 1692103271,
+          "txHash": "0xb0263bf28a0b5fa0e1bd7daec77b90e60aa90328959339c073d69d05557c3575"
+        },
+        {
+          "time": {
+            "blockNumber": 17970387
+          },
+          "event": "executed",
+          "timestamp": 1692708923,
+          "txHash": "0x8cd3b7a0fd9d0cec5e04c23043bc7664ae30bad8ca1c1a172b13da5a8f93d8b6"
+        },
+        {
+          "time": {
+            "blockNumber": 17956064
+          },
+          "event": "queued",
+          "timestamp": 1692535811,
+          "txHash": "0xeca921e29bdf17c3fe0af1b133a06f77bc9aefbf68c3761e39586a9b3242d3ec"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692103679126,
+      "txHash": "0xb0263bf28a0b5fa0e1bd7daec77b90e60aa90328959339c073d69d05557c3575",
+      "quorum": 2866127,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46ODY2MzY5MTExMDYyOTg2NDgwMjg1MzQxMTAzOTg1NjgwNDkwNzM3MDcwMjI0MjYwOTk4OTQ0MDYyMTQ4NTczMjY2NjE3MDUxNTE5NDk=",
+      "id": "86636911106298648028534110398568049073707022426099894406214857326661705151949",
+      "title": "Proposal Create new bonding products",
+      "content": "Create new bonding products",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 2,
+      "blockNumber": 17878666,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1691600063,
+      "endTimestamp": 1691837507,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 23145122.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17913096
+          },
+          "event": "executed",
+          "timestamp": 1692016223,
+          "txHash": "0x9f589ce729b0e99bd3388e5dbef110a5bb5bd95d28a612f01227303256942666"
+        },
+        {
+          "time": {
+            "blockNumber": 17865575
+          },
+          "event": "pending",
+          "timestamp": 1691441807,
+          "txHash": "0x5608acf3d689832c215d699cf2fd7e901650ac147f8f1af20f22472e5c0b72da"
+        },
+        {
+          "time": {
+            "blockNumber": 17898679
+          },
+          "event": "queued",
+          "timestamp": 1691842103,
+          "txHash": "0x27c95bec3349f1ee742061ede91e8ec848074ec62949ecf53ddb75dad0fb0c54"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1691441850007,
+      "txHash": "0x5608acf3d689832c215d699cf2fd7e901650ac147f8f1af20f22472e5c0b72da",
+      "quorum": 2891620,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46NjYzNzExMTE1MTYzNTA1NzQyNjk2NTMxMDgwMjQ1ODgyOTk3MDEyMDUxOTgxMjkwMDkxNTQ4OTk5NTQ3NTI4NjQxNTk3OTA4Njc1OTA=",
+      "id": "66371111516350574269653108024588299701205198129009154899954752864159790867590",
+      "title": "Proposal Change Depository address in T",
+      "content": "Change Depository address in Tokenomics and Treasury, close old products, create new ones",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 3,
+      "blockNumber": 17814402,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1690823531,
+      "endTimestamp": 1691060495,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 24526516.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17801311
+          },
+          "event": "pending",
+          "timestamp": 1690665287,
+          "txHash": "0x2e40ab769bd1e2917f22e13a7cda232600064073912ba1abb08c54859007331b"
+        },
+        {
+          "time": {
+            "blockNumber": 17858180
+          },
+          "event": "executed",
+          "timestamp": 1691352287,
+          "txHash": "0xd857f58635d9d7980d642552152ab1bf18fef414bc29022c0ea03bd4d1a672c9"
+        },
+        {
+          "time": {
+            "blockNumber": 17837167
+          },
+          "event": "queued",
+          "timestamp": 1691098331,
+          "txHash": "0xbcb7fd86a305e57ac3ff63d938036281972ead5c452a5d87e428adc7b624bc9c"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690666702685,
+      "txHash": "0x2e40ab769bd1e2917f22e13a7cda232600064073912ba1abb08c54859007331b",
+      "quorum": 2921574,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46NDk4MDY4MTAyOTg5NjQ5NTkzNzE1Njc3MjA3NzA0NDA4MTQyNzExNjE0ODA0MzM3NTQxMTIxODkyODE2MjYzMzczODA2NzY2Mzc4Mzc=",
+      "id": "49806810298964959371567720770440814271161480433754112189281626337380676637837",
+      "title": "Proposal Create bond products for next ",
+      "content": "Create bond products for next epoch",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 4,
+      "blockNumber": 17769700,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1690283159,
+      "endTimestamp": 1690520507,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 23669662.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17811583
+          },
+          "event": "executed",
+          "timestamp": 1690789523,
+          "txHash": "0x60b57ff1163cd9274919c6cb0d1d2bb1acc00a38aaf69a00239d19e1d878df55"
+        },
+        {
+          "time": {
+            "blockNumber": 17797248
+          },
+          "event": "queued",
+          "timestamp": 1690616183,
+          "txHash": "0x9dea8077d133b7c598ff28295ecd2ea64ba3cf3ddc481828f45ef2fe15d02093"
+        },
+        {
+          "time": {
+            "blockNumber": 17756609
+          },
+          "event": "pending",
+          "timestamp": 1690124927,
+          "txHash": "0x1127520101792534fd117ef52b8780721e3e57990df23fdf29121b9be902a29c"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690125170985,
+      "txHash": "0x1127520101792534fd117ef52b8780721e3e57990df23fdf29121b9be902a29c",
+      "quorum": 2942418,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOm9uY2hhaW46ODU3ODA1MjQ1MjQyODgwNTE0MTU1MjEyODcyNzMyNTgwNzY1NTY5MTE5Nzc2NTQwODk1MDAzNzA4MzE3NjIyMTY1NjUzNzEwMjIzNDY=",
+      "id": "85780524524288051415521287273258076556911977654089500370831762216565371022346",
+      "title": "Proposal Enable ETH-OLAS pair and creat",
+      "content": "Enable ETH-OLAS pair and create bond products",
+      "protocol": "autonolas",
+      "adapter": "onchain",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 7,
+      "blockNumber": 17697436,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1689407531,
+      "endTimestamp": 1689646415,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 72385664.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17684345
+          },
+          "event": "pending",
+          "timestamp": 1689248459,
+          "txHash": "0x34918b93c7e861e6a3631249ee1445e16d18ee15f790d1dda403078e540899e2"
+        },
+        {
+          "time": {
+            "blockNumber": 17718479
+          },
+          "event": "queued",
+          "timestamp": 1689663491,
+          "txHash": "0xa568ae800fab4db59413ab5f94d7d83992c57794140ea6ca0ed909d4a8e8c647"
+        },
+        {
+          "time": {
+            "blockNumber": 17732766
+          },
+          "event": "executed",
+          "timestamp": 1689836567,
+          "txHash": "0xd4ede2b47ac381fef6ee6681b8efde2ae0e25e8691a4ef0b2328a8496b1508d5"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689248935121,
+      "txHash": "0x34918b93c7e861e6a3631249ee1445e16d18ee15f790d1dda403078e540899e2",
+      "quorum": 2975535,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4OTgyMzAwZGFhZTMxNGNkMDI0MTJhM2NjZTU2ODkyNTU1MjBhYjAxNzFiYmYzMTNmNTNiZDljZDZhMDlmOTZmNw==",
+      "id": "0x982300daae314cd02412a3cce5689255520ab0171bbf313f53bd9cd6a09f96f7",
+      "title": "Protocol apps and website recognition, hosting and maintenance",
+      "content": "**Simple Summary**:\n\nThis proposal seeks to present the DAO with a vote to assess and authorize various apps, including [registry app](https://registry.olas.network/), [member app](https://member.olas.network/), [tokenomics app](https://tokenomics.olas.network/), [contribute app](https://contribute.olas.network/), and the [OLAS website](https://olas.network/) representing the DAO itself. While the DAO will retain decision-making authority, the apps and the main website will be hosted by [CENTRALITY LABS](https://find-and-update.company-information.service.gov.uk/company/13172689), and their maintenance tasks will be delegated to users and ecosystem participants.\n\n**Proposal details**:\n\nAcceptance of this proposal means that:\n* The apps and the website \n[registry app](https://registry.olas.network/),\n[member app](https://member.olas.network/),\n[tokenomics app](https://tokenomics.olas.network/)\n[contribute app](https://contribute.olas.network/)\n[OLAS website](https://olas.network/)\nare authorized by DAO and representative of the DAO itself. \n* While the DAO will retain decision-making authority, the aforementioned apps and website are hosted by [CENTRALITY LABS](https://find-and-update.company-information.service.gov.uk/company/13172689) until further notice.\n* Since the DAO recognizes the protocol apps and the website as vital gateways for users to contribute to the Autonolas protocol and its ecosystem, to ensure these components receive consistent attention, the DAO will delegate their maintenance to any user who opens pull requests (PRs) on the respective GitHub repositories and that are accepted by its maintainer [CRYPTO IN MOTION LTD](https://find-and-update.company-information.service.gov.uk/company/11141915):\n [GitHub registry app app](https://github.com/valory-xyz/autonolas-registry-frontend)\n [GitHub member app](https://github.com/valory-xyz/autonolas-member-frontend)\n [GitHub tokenomics app](https://github.com/valory-xyz/autonolas-tokenomics-frontend)\n [GitHub contribute app](https://github.com/valory-xyz/autonolas-contribution-service-frontend)\n[GitHub OLAS site](https://github.com/valory-xyz/olas-website)",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 2,
+      "blockNumber": 17636006,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x982300daae314cd02412a3cce5689255520ab0171bbf313f53bd9cd6a09f96f7",
+      "startTime": {
+        "timestamp": 1688833984
+      },
+      "endTime": {
+        "timestamp": 1689093184
+      },
+      "startTimestamp": 1688833984,
+      "endTimestamp": 1689093184,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 63333888.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 63333888.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688661696890,
+      "txHash": "",
+      "quorum": 6000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4NGQ3NWE1MjRjNGQ1N2MxMjBjMmI0ZjRjYTI2YzkyYWE1OTYzMGNkYjU0YTFiMzRlY2NiNTA1NGMxMjVjOGZlZA==",
+      "id": "0x4d75a524c4d57c120c2b4f4ca26c92aa59630cdb54a1b34eccb5054c125c8fed",
+      "title": "Autonolas DAO Constitution",
+      "content": "## Summary\nThis proposal introduces a constitution for Autonolas DAO, defining its stakeholders as well as its mission, goals and fundamental principles (“Constitution”).\n“Although smart contracts are promising new tools for governance, they alone cannot govern communities; traditional constitutions and declarations of rights are still crucial for good governance.” [Metagov](https://constitutions.metagov.org/)\n\n## Proposal\nThe proposed Autonolas DAO Constitution can be found at IPFS hash bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u (e.g. [here](https://gateway.autonolas.tech/ipfs/bafybeibrhz6hnxsxcbv7dkzerq4chssotexb276pidzwclbytzj7m4t47u)).\n\n## Alternative Solutions\nThe Autonolas DAO could function without a constitution but it is argued here that, without a constitution, the Autonolas DAO would not have as much alignment on a general purpose and direction. This could result in a less clearly defined vision, potentially less cohesive work and a higher risk of the Autonolas DAO being radically redirected through a regular proposal. Whilst this Constitution can be amended and changed, it provides high-level context to promote alignment and therefore execution of a shared purpose.\n\n## Vote\n​​For - Ratify this proposal\nAgainst - Do not ratify this proposal\nAbstain - Abstain from this vote\n\n## Acceptance\nAt least double the usual quorum of a Snapshot proposal needs to be met for the vote to be valid.\n\n## Technical Implementation\nUploaded on IPFS, per comments & text in ‘metadata’.\n\nThe Autonolas DAO Constitution should be highlighted prominently across Autonolas DAO’s documentation, communications channels and onboarding processes to ensure that every current and future Autonolas DAO stakeholder is sufficiently aware.\n\nFurthermore, and in line with the above, every governance proposal should contain a link to this DAO Constitution at the beginning of the proposal and it should state that it is compatible with this Constitution.\n\n## Metadata\nFor uploading to [Constitutions of Web3](https://constitutions.metagov.org/) data set.\n{ \n\"@context\": \"https://constitutions.metagov.org\",\n\"type\": \"constitution\",\n“title”: “Autonolas DAO Constitution”,\n“name”: “Autonolas DAO”,\n“daoURI”: “<URI of daoURI, see EIP-4824>”,\n“dateCreated”: “<2023-06-30>”,\n“dateModified”: “”,\n“previousConstitutionURI”: “”,\n“inForce”: “True”\n}",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 6,
+      "blockNumber": 17595080,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x4d75a524c4d57c120c2b4f4ca26c92aa59630cdb54a1b34eccb5054c125c8fed",
+      "startTime": {
+        "timestamp": 1688337252
+      },
+      "endTime": {
+        "timestamp": 1688596452
+      },
+      "startTimestamp": 1688337252,
+      "endTimestamp": 1688596452,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 65033856.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 65033859.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688164660544,
+      "txHash": "",
+      "quorum": 6000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOmFyY2hpdmU6NjY4OTgzNjgzNDQyMzY5NTE3ODY1NTExODUzNDExMTIwMTczMTg3NTY2OTQ2NTU0NTI2NDcxNzM0ODE3ODI0ODY5NTA1MTc4NTUwOTQ=",
+      "id": "66898368344236951786551185341112017318756694655452647173481782486950517855094",
+      "title": "Proposal Timelock to revoke original Go",
+      "content": "Timelock to revoke original GovernorOLAS roles and grant new GovernorOLAS roles",
+      "protocol": "autonolas",
+      "adapter": "archive",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 3,
+      "blockNumber": 17540409,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1687500635,
+      "endTimestamp": 1687739279,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 48512568.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17527318
+          },
+          "event": "pending",
+          "timestamp": 1687341827,
+          "txHash": "0x4495de007875148a5c6102dab0ea59efec06db09390ebfcd20ef761f25f3a77b"
+        },
+        {
+          "time": {
+            "blockNumber": 17563168
+          },
+          "event": "queued",
+          "timestamp": 1687777271,
+          "txHash": "0x069bab86b66994ed558e55a53a7bd6d1af1dcea9043c229d30b039d730a264c8"
+        },
+        {
+          "time": {
+            "blockNumber": 17598156
+          },
+          "event": "executed",
+          "timestamp": 1688201687,
+          "txHash": "0x1f693ead906ae970796abe6877fa77a85a0f1684e28d414979877e941bec0444"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688422044905,
+      "txHash": "0x4495de007875148a5c6102dab0ea59efec06db09390ebfcd20ef761f25f3a77b",
+      "quorum": 3022822,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOmFyY2hpdmU6MTAwNDI4MjUwNjEyMjcxMjg0MzY2OTY2NjY5NDE0NTc4MzI2ODUyNzQxODc5NzYzNDQ2ODc5OTAxNjQ1MTczNTk4Nzc4NjQwMTA1MjAy",
+      "id": "100428250612271284366966669414578326852741879763446879901645173598778640105202",
+      "title": "Proposal Change Tokenomics implementati",
+      "content": "Change Tokenomics implementation to version 1.0.1 (Snapshot: 0xc000a947eddf188ff6e3e91fcbafdb7a163685939983f79a2340d186b09df219)",
+      "protocol": "autonolas",
+      "adapter": "archive",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 6,
+      "blockNumber": 17427945,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1686134207,
+      "endTimestamp": 1686373463,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 50712332.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17514386
+          },
+          "event": "executed",
+          "timestamp": 1687184891,
+          "txHash": "0x5c46edbd5b52de6047d1b1e3bab18effc0787d3f173f7723e97bd473c891407c"
+        },
+        {
+          "time": {
+            "blockNumber": 17414854
+          },
+          "event": "pending",
+          "timestamp": 1685974643,
+          "txHash": "0x87765383381c53d7ce9bafab3e72c7f1fe3147dcaa4445f8eec731360c2d6504"
+        },
+        {
+          "time": {
+            "blockNumber": 17458068
+          },
+          "event": "queued",
+          "timestamp": 1686501071,
+          "txHash": "0x6954e36f92f38147fc9d5b2b701e5851da07d03fa6bc914cb739d585591981cf"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688422044905,
+      "txHash": "0x87765383381c53d7ce9bafab3e72c7f1fe3147dcaa4445f8eec731360c2d6504",
+      "quorum": 3027003,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4YzAwMGE5NDdlZGRmMTg4ZmY2ZTNlOTFmY2JhZmRiN2ExNjM2ODU5Mzk5ODNmNzlhMjM0MGQxODZiMDlkZjIxOQ==",
+      "id": "0xc000a947eddf188ff6e3e91fcbafdb7a163685939983f79a2340d186b09df219",
+      "title": "Enabling OLAS top-ups for services that receive donations by veOLAS holders",
+      "content": "## Background\n\nThe Autonolas tokenomics model aims to grow a self-sustaining ecosystem of [autonomous services](https://www.autonolas.network/learn#what-are-autonomous-services). The scarcest resource in this ecosystem is software developers who, by contributing code, enable the composition of autonomous services. Therefore [Autonolas’ tokenomics provides incentives](https://twitter.com/autonolas/status/1653804508001243140) for developers to contribute “useful code”, including whole services or agents or components within services. If developers register their code contributions as NFTs on the [Autonolas protocol](https://protocol.autonolas.network/), they can receive a share of ETH donations made to the services using their code. Anyone can donate (in ETH) to services, for example, as a form of appreciation to developers who have contributed.\n\nIn addition to standard donations, Autonolas additionally offers top-ups to some donations. Specifically, donations are programmatically topped up by the protocol with freshly-minted OLAS if the service’s owner is a holder of veOLAS*. \n\nFor more information on the Autonolas tokenomics please refer to [this link](https://github.com/valory-xyz/autonolas-tokenomics/blob/main/docs/Autonolas_tokenomics_audit.pdf).\n\n## Proposal\n\nThis DAO governance proposal is designed to broaden the eligibility criteria for receiving OLAS top-ups. Currently, only contributions to **services owned by a veOLAS holder*** receive OLAS top-ups. Therefore, although developers who have contributed to other services remain eligible to receive ETH donations, they are effectively excluded from the OLAS top-ups.\n\nTo ensure OLAS incentives reach more of the active developers and incentivize further ecosystem contributions, this proposal aims to expand the conditions that trigger top-ups. Specifically, it proposes to extend the eligibility for OLAS top-ups to also include contributions to **services donated to by an veOLAS holder***.\n\nTo make this possible, a modification to the tokenomics smart contract is suggested. \n\n## Implications\n\nCurrently, anyone can donate to a service, for example to reward developers who contributed. The proposed change means that any veOLAS holder* donating would enable OLAS top-ups.\n\n\nThis change is designed to: \n\n- **Increase the developers eligible for OLAS top-ups**. Developers simply need any veOLAS holder* to donate to a service to which they have contributed. This is designed to encourage repeated contributions of open-source solutions within the Autonolas ecosystem, strengthening the ecosystem as a whole.\n- **Increase the incentive to lock OLAS for veOLAS**, since veOLAS enables any donator to trigger OLAS top-ups for services to which they and other developers have contributed. \n\nMoreover, this shift aims to increase the flow of OLAS tokens within the network, potentially creating a more dynamic and engaged community of contributors. This could, in turn, help kickstart the envisaged 'flywheel' of development, where an increase in valuable contributions leads to more donations, creating a self-reinforcing cycle of growth and innovation.\n\n## Conclusion\n\nThis proposal to add functionality to the smart contract to enable any veOLAS holder* to boost donations (in ETH) with additional OLAS top-ups is a crucial step toward recognizing and incentivizing contributions to the Autonolas ecosystem, accelerating its growth as a whole. \n\n*Throughout, veOLAS holders need to hold at 10k of veOLAS to qualify for top-ups eligibility.\n\n## Technical implementation \n \n### Current implementation\n\nCurrently, the workflow is the following:\n\n- donators call the [depositServiceDonationETH()](https://etherscan.io/address/0xa0DA53447C0f6C4987964d8463da7e6628B30f82#writeContract#F4) method on the Treasury contract\n- The depositServiceDonationETH() method triggers the call to the Tokenomics method [trackServiceDonations()](https://etherscan.io/address/0x87f89F94033305791B6269AE2F9cF4e09983E56e#writeContract#F13) which has a check against the donator address. \n- Finally, the tokenomics internal  _trackServiceDonations() method is called to collect service donations related information into corresponding data structures. In this method is handled the check for triggering the top-ups.\n\n### New proposed implementation (cf. https://github.com/valory-xyz/autonolas-tokenomics/blob/v1.0.1/contracts/Tokenomics.sol)\n\nIn order to trigger top-ups also with donator address it is only necessary to modify the _trackServiceDonations() method as follows:\n- Add the additional donator address parameter to the method. This donator address can be passed as an argument when [_trackServiceDonations()](https://github.com/valory-xyz/autonolas-tokenomics/blob/v1.0.1/contracts/Tokenomics.sol#L687) is called by [trackServiceDonations()](https://github.com/valory-xyz/autonolas-tokenomics/blob/v1.0.1/contracts/Tokenomics.sol#L788). \n- To enable top-ups, instead of only checking if the service owner has enough veOLAS contract can add the same check against donator address. Then top-ups are triggered if either the service owner or the donator has enough veOLAS.\n",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0xBC21Ef6D6F4eB68d53a2917E575E67E6A9889716",
+      "totalVotes": 2,
+      "blockNumber": 17374526,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0xc000a947eddf188ff6e3e91fcbafdb7a163685939983f79a2340d186b09df219",
+      "startTime": {
+        "timestamp": 1685656319
+      },
+      "endTime": {
+        "timestamp": 1685915519
+      },
+      "startTimestamp": 1685656319,
+      "endTimestamp": 1685915519,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 63333888.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 63333888.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685484413588,
+      "txHash": "",
+      "quorum": 6000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4OTQxY2ZlNjQyYmE1ZjdjNjY4YjMxNDM4MzliOGRjMzBmZWU5ZDYyMjA3ZDE0NTdkYTgyZTk3ZjYzYjY2ZDczNA==",
+      "id": "0x941cfe642ba5f7c668b3143839b8dc30fee9d62207d1457da82e97f63b66d734",
+      "title": "# Light service protocol on Gnosis Chain",
+      "content": "**Simple Summary**: \nThis proposal presents the DAO with a vote to integrate to the Autonolas protocol:\n\n- a lightweight version of the Autonolas Registry (including the following contracts\n  1. [serviceRegistry](https://gnosisscan.io/address/0x9338b5153AE39BB89f50468E608eD9d764B755fD),\n  2. [serviceManager]( https://gnosisscan.io/address/0xE3607b00E75f6405248323A9417ff6b39B244b50), \n  3. [gnosisSafeMultisigImplementation](https://gnosisscan.io/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE),\n  4. [gnosisSafeSameAddressMultisigImplementation](https://gnosisscan.io/address/0x3d77596beb0f130a4415df3d2d8232b3d3d31e44))\n\n- the [HomeMediator](https://gnosisscan.io/address/0x15bd56669F57192a97dF41A2aa8f4403e9491776) contract deployed on Gnosis Chain.\n\nSpecifically, the acceptance of this proposal would increase the functionalities of the protocol, including registering service NFTs as well as securing and managing services on the Gnosis mainnet. Further, [HomeMediator](ADDLINK) contract would allow cross-chain governance from Ethereum to Gnosis. Specifically,  governance-accepted proposals on Ethereum will be executed to Gnosis by means of the HomeMediator contract. \n\nThe functionality thereby enabled is outlined in detail here: \n- [autonolas-registries: Readme](https://github.com/valory-xyz/autonolas-registries/tree/v1.1.2#readme) \n- [autonolas-registries: AgentServiceFuncionality](https://github.com/valory-xyz/autonolas-registries/blob/v1.1.2/docs/AgentServicesFunctionality.pdf)\n- [autonolas-governance: cross-chain-bridge](https://github.com/valory-xyz/autonolas-governance/blob/v1.1.3/docs/governace_bridge.pdf)  \n\n**Specification**: If the proposal passes, the Autonolas protocol will call upon a deployer taking these actions first to change the ownership of the\n- [serviceRegistry](https://gnosisscan.io/address/0x9338b5153AE39BB89f50468E608eD9d764B755fD), to the [HomeMediator](https://gnosisscan.io/address/0x15bd56669F57192a97dF41A2aa8f4403e9491776) contract by calling changeOwner(HomeMediation);\n- [serviceManager]( https://gnosisscan.io/address/0xE3607b00E75f6405248323A9417ff6b39B244b50) contracts to the [HomeMediator](https://gnosisscan.io/address/0x15bd56669F57192a97dF41A2aa8f4403e9491776) contract by calling changeOwner(HomeMediation).",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 4,
+      "blockNumber": 17293509,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x941cfe642ba5f7c668b3143839b8dc30fee9d62207d1457da82e97f63b66d734",
+      "startTime": {
+        "timestamp": 1684671823
+      },
+      "endTime": {
+        "timestamp": 1684931023
+      },
+      "startTimestamp": 1684671823,
+      "endTimestamp": 1684931023,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 32666912.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 32666912.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684499187378,
+      "txHash": "",
+      "quorum": 6000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4MTYyNGRiNmY2ZTljNmRmODQ4MjRlZWFhNGE5ZTcyYWQyZjJkNTIxNGZmODdjNzhiZDlmNmU0ODVmNmQxMTc3OA==",
+      "id": "0x1624db6f6e9c6df84824eeaa4a9e72ad2f2d5214ff87c78bd9f6e485f6d11778",
+      "title": "Incorporation of Protocol v1.1.1 ",
+      "content": "**Simple Summary**: \n\nThis proposal presents the DAO with a vote to\n1.  integrate into the Autonolas protocol the following contracts:\n\n- [Operator whitelist](https://etherscan.io/address/0x42042799B0DE38AdD2a70dc996f69f98E1a85260) an utility smart contract for whitelisting operator addresses;\n- [ServiceRegistryTokenUtility](https://etherscan.io/address/0x3Fb926116D454b95c669B6Bf2E7c3bad8d19affA) a core smart contract for securing services with ERC20 tokens;\n- [ServiceManagerToken](https://etherscan.io/address/0x2EA682121f815FBcF86EA3F3CaFdd5d67F2dB143) a periphery smart contract for management of service lifecycle, managing services secured with custom ERC20 tokens or ETH, eventually checks operators against the operator whitelist of service on the operator whitelist contact.\n\n2. grant to the [Autonolas Treasury contract](https://etherscan.io/address/0xa0DA53447C0f6C4987964d8463da7e6628B30f82) the role of the drainer on [ServiceRegistryTokenUtility](https://etherscan.io/address/0x3Fb926116D454b95c669B6Bf2E7c3bad8d19affA )\n\nAcceptance of this off-chain proposal would be a first step toward widen the protocol functionalities. Specifically, once this proposal and the current on-chain proposals will be executed, it will be possible to\n- manage an operator whitelist and have a permissioned operators set;\n- secure services with both ETH and ERC20 tokens;\n- re-deploy in one-shot deployed services by using operators pre-signed message hashes;\n- drain eventual slashed security bonds.\n\nMore information on the contracts and the new functionalities are outlined in detail here:  \n- [AgentServicesFunctionality](https://github.com/valory-xyz/autonolas-registries/blob/main/docs/AgentServicesFunctionality.pdf) \n- [Autonolas-registries:README.md](https://github.com/valory-xyz/autonolas-registries/blob/main/README.md) \n\n**Specification**:\nThe Autonolas protocol will call upon the Valory deployer (or any other deployer taking these actions first) to grant the drainer’s role to the Autonolas Treasury and to transfer ownership rights of the deployed contract to the Autonolas Timelock (https://etherscan.io/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE) as such:\n- grant drainer’s role on [ServiceRegistryTokenUtility](https://etherscan.io/address/0x3Fb926116D454b95c669B6Bf2E7c3bad8d19affA) the Treasury calling changeDrainer(DrainerAddress).\n- transfer ownership rights of [ServiceRegistryTokenUtility](https://etherscan.io/address/0x3Fb926116D454b95c669B6Bf2E7c3bad8d19affA) to Timelock calling changeOwner(TimelockAddress);\n- transfer ownership rights of the [ServiceManagerToken](https://etherscan.io/address/0x2EA682121f815FBcF86EA3F3CaFdd5d67F2dB143) to Timelock calling changeOwner(TimelockAddress);\n",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 3,
+      "blockNumber": 17243223,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x1624db6f6e9c6df84824eeaa4a9e72ad2f2d5214ff87c78bd9f6e485f6d11778",
+      "startTime": {
+        "timestamp": 1684056333
+      },
+      "endTime": {
+        "timestamp": 1684315533
+      },
+      "startTimestamp": 1684056333,
+      "endTimestamp": 1684315533,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 95000830.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 95000832.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683884202901,
+      "txHash": "",
+      "quorum": 6000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOmFyY2hpdmU6MTEwNjcyOTgyODQ2NDA4ODA5OTg5MzkzODAzODU0Njg4ODU3ODY5ODE0ODg4MjMwNzkwMTEyODQzOTg4MTIwMTA0MzE0NzE2ODUwMDY=",
+      "id": "11067298284640880998939380385468885786981488823079011284398812010431471685006",
+      "title": "Proposal Timelock to revoke original Se",
+      "content": "Timelock to revoke original ServiceManager roles and grant new management roles to ServiceManagerToken",
+      "protocol": "autonolas",
+      "adapter": "archive",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 1,
+      "blockNumber": 17256470,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1684047179,
+      "endTimestamp": 1684286927,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 24980266.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17414733
+          },
+          "event": "executed",
+          "timestamp": 1685973167,
+          "txHash": "0xcd10e4610b6eaf18457dcde9c9eda9321d2d9878a019245fdea71144021a3def"
+        },
+        {
+          "time": {
+            "blockNumber": 17243379
+          },
+          "event": "pending",
+          "timestamp": 1683885347,
+          "txHash": "0xaa8834e49f1dd59640c91cc8363d619de9a67ac6c04e65346d170795ebeea827"
+        },
+        {
+          "time": {
+            "blockNumber": 17293130
+          },
+          "event": "queued",
+          "timestamp": 1684494359,
+          "txHash": "0x725ee165dc2c2ae4ccaf9b8e36bb87eeb170c92a25b2755bc90e5c7e9114f542"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688422044905,
+      "txHash": "0xaa8834e49f1dd59640c91cc8363d619de9a67ac6c04e65346d170795ebeea827",
+      "quorum": 3033378,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4ZGEzZGMzNWY4NDc2ZmMwZmIwZWFmNzIyMGFhMzFiMTc0MGU2ZWE2MjlmYjEyN2JiNWExN2RhZTNiNTMwZmNiOA==",
+      "id": "0xda3dc35f8476fc0fb0eaf7220aa31b1740e6ea629fb127bb5a17dae3b530fcb8",
+      "title": "Autonolas DAO to own the Contribute service and the DynamicContribution contract",
+      "content": "**Simple Summary**:\n\nThis proposal presents the DAO with a vote to transfer ownership of the Contribute Service deployed into the Autonolas Protocol [mapService(6)](https://etherscan.io/address/0x48b6af7B12C71f09e2fC8aF4855De4Ff54e775cA#readContract#F27) and of the [DynamicContribution contract](https://etherscan.io/address/0x02C26437B292D86c5F4F21bbCcE0771948274f84)\nto [Autonolas Timelock](https://etherscan.io/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE). \n\nAcceptance of this proposal would allow the Autonolas DAO to own the dynamic contribution service implemented as an autonomous service (cf. the [repository](https://github.com/valory-xyz/contribution-service)) and the related DynamicContribution contract which allows the users to mint their NFTs badges. Using these NFTs badges, the dynamic contribution service tracks members' contributions in a leaderboard and dynamically updates the NFT’s image[^1] of member badges. Specifically, acceptance of this proposal grants Autonolas DAO the ownership of the autonomous service that allows its community to track community members' contributions to the ecosystem autonomously. Further, by owning the DynamicContribution which complies with the ERC721 token standard with Solmate optimization, the Autonolas DAO would also control the base URI and make further changes to contract ownership.\n\n**Specification**:\n\nIf the proposal passes, the Autonolas protocol will call upon the Valory deployer to transfer ownership rights of the deployed Contribute Service and DynamicContribution contract to the Autonolas Timelock (https://etherscan.io/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE) as such:\n\n1. transfer ownership rights of [DynamicContribution contract](https://etherscan.io/address/0x02C26437B292D86c5F4F21bbCcE0771948274f84) to Timelock calling changeOwner(TimelockAddress).\n2. transfer ownership rights of the dynamic contribution service ([mapService(ContributionServiceID)](https://etherscan.io/address/0x48b6af7B12C71f09e2fC8aF4855De4Ff54e775cA#readContract#F27)) to Timelock calling [transferFrom(currentServiceOwner,TimelockAddress,contributeServiceID)](https://etherscan.io/address/0x48b6af7B12C71f09e2fC8aF4855De4Ff54e775cA#writeContract#F17)   \n\n\n[^1] Specifically, in the ERC721 metadata, the URI pointing to a resource with the NFT’s image may change to show the progress of the member's contribution to the ecosystem.",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0xBC21Ef6D6F4eB68d53a2917E575E67E6A9889716",
+      "totalVotes": 1,
+      "blockNumber": 17146044,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0xda3dc35f8476fc0fb0eaf7220aa31b1740e6ea629fb127bb5a17dae3b530fcb8",
+      "startTime": {
+        "timestamp": 1682875146
+      },
+      "endTime": {
+        "timestamp": 1683134346
+      },
+      "startTimestamp": 1682875146,
+      "endTimestamp": 1683134346,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 31666944.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 31666944.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682702785845,
+      "txHash": "",
+      "quorum": 6000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4YjM0Y2YzOWRmZTcyODU1YzZlOTU0MDhkOTEzNjVmMjAwNWJlYzc2OGM5ODk3OTg1ZWVkYmNkZmQ2ZTE5NjE5OA==",
+      "id": "0xb34cf39dfe72855c6e95408d91365f2005bec768c9897985eedbcdfd6e196198",
+      "title": "Light services protocol on Polygon",
+      "content": "**Simple Summary**:\n\nThis proposal presents the DAO with a vote to \n1. deploy on Polygon mainnet a [lightweight version](https://github.com/valory-xyz/autonolas-registries/blob/v1.0.3.pre-deployment-l2/contracts/ServiceRegistryL2.sol) of the Autonolas Registry deployed on Ethereum mainnet ([Autonolas Registry contracts addresses on Ethereum](https://github.com/valory-xyz/autonolas-registries/blob/v1.0.3.pre-deployment-l2/docs/mainnet_addresses/ethereum.json))\n2. integrate the lightweight version of the Autonolas Registry into the Autonolas protocol \n3. integrate the FxGovernorTunnel contract deployed on Polygon ([0x9338b5153AE39BB89f50468E608eD9d764B755fD](https://polygonscan.com/address/0x9338b5153AE39BB89f50468E608eD9d764B755fD#code))  into the Autonolas protocol. \n\nSpecifically, the acceptance of the deployment and the integration of the lightweight version of the Autonolas Registry into the Autonolas protocol would increase the functionalities of the protocol, including registering service NFTs on the Polygon mainnet as well as securing and managing services. Further, [FxGovernorTunnel](https://github.com/valory-xyz/autonolas-governance/blob/v1.1.1/contracts/bridges/FxGovernorTunnel.sol) contract would allow cross-chain governance from Ethereum to Polygon. Specifically,  governance-accepted proposals on Ethereum will be executed to Polygon by means of the FxGovernorTunnel contract.\n\n**Specification**:\n\nIf the proposal passes, the Autonolas protocol will call upon the Valory deployer (or any other deployer taking these actions first)\n1. to deploy the following contracts on Polygon \n   1. the service registry ([ServiceRegistryL2.sol](https://github.com/valory-xyz/autonolas-registries/blob/v1.0.3.pre-deployment-l2/contracts/ServiceRegistryL2.sol))\n   2. the service manager ([ServiceManager.sol](https://github.com/valory-xyz/autonolas-registries/blob/v1.0.3.pre-deployment-l2/contracts/ServiceManager.sol))\n   3. a smart contract for Gnosis Safe multisig implementation of a generic multisig interface ([GnosisSafeMultisig.sol](https://github.com/valory-xyz/autonolas-registries/blob/v1.0.3.pre-deployment-l2/contracts/multisigs/GnosisSafeMultisig.sol))\n   4. a smart contract for Gnosis Safe verification of an already existent multisig address ([GnosisSafeSameAddressMultisig.sol](https://github.com/valory-xyz/autonolas-registries/blob/v1.0.3.pre-deployment-l2/contracts/multisigs/GnosisSafeSameAddressMultisig.sol)) \n2. to change the manager of the service registry to the service manager contract and to whitelist the multisig implementation (described in c. and d. above) in the service registry, by calling the following:\n   1. changeManager(serviceManagaerAddress)\n   2. changeMultisigPermission(gnosisSafeMultisigImplementationAddress, true)\n   3. changeMultisigPermission(gnosisSafeSameAddressMultisigImplementationAddress, true). \n3. to change the ownership of the service registry and the service manager contracts to the governor tunnel contract by calling changeOwner(FxGovernorTunnelAddress).\n\n\n\n\nThe functionality thereby enabled is outlined in detail here: \n-[autonolas-registries: introduction](https://github.com/valory-xyz/autonolas-registries/tree/v1.0.3.pre-deployment-l2#introduction)\n-[autonolas-governance: governace_bridge.pdf](https://github.com/valory-xyz/autonolas-governance/blob/v1.1.1/docs/governace_bridge.pdf)",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 2,
+      "blockNumber": 17039673,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0xb34cf39dfe72855c6e95408d91365f2005bec768c9897985eedbcdfd6e196198",
+      "startTime": {
+        "timestamp": 1681576711
+      },
+      "endTime": {
+        "timestamp": 1681835911
+      },
+      "startTimestamp": 1681576711,
+      "endTimestamp": 1681835911,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 63333888.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 63333888.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681404567032,
+      "txHash": "",
+      "quorum": 6000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOmFyY2hpdmU6NjEyOTk4NzAzMzY4NzcyMDEyNzE0NDI4ODYzOTY0Nzc3NTkxMjEzMjI0MTM3NzM0NjgzODAxMTIwOTI4ODYyOTAwNDA2NjQ1ODQyNTE=",
+      "id": "61299870336877201271442886396477759121322413773468380112092886290040664584251",
+      "title": "Proposal \"Pause incentive withdrawals\"",
+      "content": "\"Pause incentive withdrawals\"",
+      "protocol": "autonolas",
+      "adapter": "archive",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 1,
+      "blockNumber": 16807706,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1678572551,
+      "endTimestamp": 1678810847,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 26354672.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16794615
+          },
+          "event": "pending",
+          "timestamp": 1678413191,
+          "txHash": "0xec0b567bb51c7378161292f8d24e74813c7c182ccf47c722f590ac452cc3fdfc"
+        },
+        {
+          "time": {
+            "blockNumber": 16875166
+          },
+          "event": "executed",
+          "timestamp": 1679391383,
+          "txHash": "0x951805549834fabfb74fba449102eae91f041232cee88b17a8a490a75fb7d6e8"
+        },
+        {
+          "time": {
+            "blockNumber": 16835174
+          },
+          "event": "queued",
+          "timestamp": 1678906103,
+          "txHash": "0x57fcc40d8b108ed955d139b5aad142995defacc5bff73de6445986cfb4a76bf7"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688422044905,
+      "txHash": "0xec0b567bb51c7378161292f8d24e74813c7c182ccf47c722f590ac452cc3fdfc",
+      "quorum": 3431747,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OjB4ODdjZmU1ZTUyNjBkN2EwZWI5MWQyZjc2ZWZhMGEzMzUxYTU5MmE4YTE1NmFiYjZmMzUzOTI0OTA5NTg2NWZmNA==",
+      "id": "0x87cfe5e5260d7a0eb91d2f76efa0a3351a592a8a156abb6f3539249095865ff4",
+      "title": "Incorporation of Tokenomics contracts",
+      "content": "**Simple Summary**: This proposal presents the DAO with a vote to incorporate Autonolas Tokenomics into the Autonolas protocol. In particular, it proposes adding to the Auonolas protocol the functionality contained in `autonolas-tokenomics` (https://github.com/valory-xyz/autonolas-tokenomics) and outlined in the whitepaper (https://www.autonolas.network/whitepaper). Acceptance of this proposal would increase the functionality of the protocol, including enabling incentives for useful agent and component NFTs registered on the Autonolas registries, allowing the protocol to accrue its own liquidity by means of a bonding mechanism, and enabling the Autonolas DAO to own productive autonomous services and derive donations for the Autonal protocol from them.\n\n**Specification**: If the proposal passes, the Autonolas protocol will call upon the Valory deployer to transfer management and ownership rights of the deployed contracts to the Autonolas Timelock (https://etherscan.io/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE) as such:\n- Valory deployer to transfer ownership rights of the Tokenomics contract (https://etherscan.io/address/0x87f89f94033305791b6269ae2f9cf4e09983e56e#code) to the Timelock calling `changeOwner(Timelock)`;\n- Valory deployer to transfer ownership rights of the Treasury contract (https://etherscan.io/address/0xa0da53447c0f6c4987964d8463da7e6628b30f82#code) to the Timelock calling `changeOwner(Timelock)`;\n- Valory deployer to transfer ownership rights of the Depository  contract (https://etherscan.io/address/0x52a043bcebdb2f939baef2e8b6f01652290eab3f#code) to the Timelock calling `changeOwner(Timelock)`;\n- Valory deployer to transfer ownership rights of the Dispenser contract (https://etherscan.io/address/0xeed0000fe94d7cfef4dc0ca86a223f0f603a61b8#code) to the Timelock calling `changeOwner(Timelock)`;\n- Valory deployer to transfer ownership rights of the DonatorBlacklist contract (https://etherscan.io/address/0xe85791b18f5df42163092acc5c9da1c479afea9d#code) to the Timelock calling `changeOwner(Timelock)`.\n\nThe functionality thereby enabled is outlined in detail here: https://github.com/valory-xyz/autonolas-tokenomics/blob/v0.3.0.post-audit/docs/Autonolas_tokenomics_audit.pdf",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 4,
+      "blockNumber": 16701930,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/0x87cfe5e5260d7a0eb91d2f76efa0a3351a592a8a156abb6f3539249095865ff4",
+      "startTime": {
+        "timestamp": 1677460088
+      },
+      "endTime": {
+        "timestamp": 1677719288
+      },
+      "startTimestamp": 1677460088,
+      "endTimestamp": 1677719288,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 64393880.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 64393879.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 6000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOmFyY2hpdmU6MjUzNTc2NDIxNzY4NDczMjYwMDcwMDczNzM1MjA5OTYyNTU2MjkzNTUyMjMzNzMxOTY0NDMyNzQzNjEyNTM3NTk1NTM1MzkxMjEwNDc=",
+      "id": "25357642176847326007007373520996255629355223373196443274361253759553539121047",
+      "title": "Proposal Timelock to transfer the minte",
+      "content": "Timelock to transfer the minter role of OLAS to the Treasury and ServiceRegistry to transfer the drainer role to the Treasury",
+      "protocol": "autonolas",
+      "adapter": "archive",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 5,
+      "blockNumber": 16713053,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1677422303,
+      "endTimestamp": 1677660563,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 54497132.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16772894
+          },
+          "event": "executed",
+          "timestamp": 1678149239,
+          "txHash": "0xa3b2d4456265682d3843a1230ed7f0f67b81f89d012c7d9c2dbcbd9ad94357ff"
+        },
+        {
+          "time": {
+            "blockNumber": 16749149
+          },
+          "event": "queued",
+          "timestamp": 1677860675,
+          "txHash": "0xd527d85e2fff2e786fe30145a6ebd003f1fc496edf66d5d192237ebe98848897"
+        },
+        {
+          "time": {
+            "blockNumber": 16699962
+          },
+          "event": "pending",
+          "timestamp": 1677263219,
+          "txHash": "0xe6f0c4190e7e983d92bd8623e5672f60d8404cca2ad515fae65d5026fe2d8e86"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688422044905,
+      "txHash": "0xe6f0c4190e7e983d92bd8623e5672f60d8404cca2ad515fae65d5026fe2d8e86",
+      "quorum": 3440181,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXV0b25vbGFzOnNuYXBzaG90OmJhZmtyZWlldWV0NnR3cnN0bmttY253cmhhNG54dWg1cmVrbDdhejRndGhxZGQ3cWN3dmVtcGNtc2Vp",
+      "id": "bafkreieuet6twrstnkmcnwrha4nxuh5rekl7az4gthqdd7qcwvempcmsei",
+      "title": "Incorporation of Autonolas Registries",
+      "content": "Simple Summary:\nThis proposal presents the community with a vote to incorporate the Autonolas registries into the Autonolas protocol. In particular, it proposes deploying and adding the functionality contained in `autonolas-registries` (https://github.com/valory-xyz/autonolas-registries). Acceptance of this proposal would increase the functionality of the protocol, including registering of component, agent, and service NFTs as well as securing and management of services on-chain.\n\nSpecification:\nIf the proposal passes, the Autonolas protocol will call upon the Valory deployer to transfer management and ownership rights of the deployed contracts to the Autonolas Timelock (https://etherscan.io/address/0x3C1fF68f5aa342D296d4DEe4Bb1cACCA912D95fE) as such:\n- Valory deployer to transfer ownership rights of ComponentRegistry (https://etherscan.io/address/0x15bd56669F57192a97dF41A2aa8f4403e9491776) to Timelock calling `changeOwner(Timelock)`;\n- Valory deployer to transfer ownership rights of AgentRegistry (https://etherscan.io/address/0x2f1f7d38e4772884b88f3ecd8b6b9facdc319112) to Timelock calling `changeOwner(Timelock)`;\n- Valory deployer to transfer ownership rights of ServiceRegistry (https://etherscan.io/address/0x48b6af7b12c71f09e2fc8af4855de4ff54e775ca) to Timelock calling `changeOwner(Timelock)`;\n- Valory deployer to transfer ownership rights of RegistriesManager (https://etherscan.io/address/0x9ec9156def5c613b2a7d4c46c383f9b58dfcd6fe) to Timelock calling `changeOwner(Timelock)`;\n- Valory deployer to transfer ownership rights of ServiceManager (https://etherscan.io/address/0x38b062d11CD7596Ab5aDFe4d0e9F0dC3218E5389) to Timelock calling `changeOwner(Timelock)`.\n\nThe functionality thereby enabled is outlined in detail here: https://github.com/valory-xyz/autonolas-registries#introduction",
+      "protocol": "autonolas",
+      "adapter": "snapshot",
+      "proposer": "0x34471096285C2B59164E20c03f6977423a450039",
+      "totalVotes": 9,
+      "blockNumber": 15179124,
+      "externalUrl": "https://snapshot.org/#/autonolas.eth/proposal/bafkreieuet6twrstnkmcnwrha4nxuh5rekl7az4gthqdd7qcwvempcmsei",
+      "startTime": {
+        "timestamp": 1658488326
+      },
+      "endTime": {
+        "timestamp": 1658747526
+      },
+      "startTimestamp": 1658488326,
+      "endTimestamp": 1658747526,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 34428144.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 34428147.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 6000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,1606 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6MHhjNTBiNjBmNzEyYWRiODU2OGYxMGY1NjVmYzQ2N2U4YzVkOGZlMWY0OTIwNjgzNjk2ZjgxYzc5MjAzOTc5NDJh",
+      "id": "0xc50b60f712adb8568f10f565fc467e8c5d8fe1f4920683696f81c7920397942a",
+      "title": "YIP-71: Activate veYFI",
+      "content": "_Authors:_ darkghosty flashfish jiji saltyfacu  \n\n## Summary\n\nReplace YFI voting with vote-escrowed YFI (veYFI) voting for all future governance proposals.  \n\n## Abstract\n\n**If adopted**, this proposal seeks to:\n* Replace YFI with veYFI as the voting token in Governance\n* Adopt a 2 week long moratorium on new YIPs where no proposals will be voted on   \n\n## Background\n\nThis proposal is the first step in the implementation of YIP-65: Evolving YFI Tokenomics[[1]](#References). YFI is time-locked up to 4 years where a longer lock increases the relative weight in relation to other locked tokens. It is strongly recommended that the reader first familiarize themselves with the concepts of YIP-65 in order to better understand this proposal.\n\n### Out of scope\n\nThe following topics were intentionally not covered by this proposal:\n* Yearn Tokenomics\n* Gauges\n* Rewards\n* On-chain voting\n \n## Motivation\n\nThis implements parts of what was was adopted by YFI voters in YIP-65, namely locking YFI into veYFI, managing one's lock, and using it to vote in governance. There are no YFI rewards or gauges yet. There is no advantage to locking early.\n\n### Future possibilities\n* Deploy additional components of YIP-65\n* Transition to on-chain voting and governance\n\n### Risks\n\n* Governance attacks, mitigated by a moratorium on new YIPs being accepted\n* Smart contract risk in the veYFI contracts, which have been mitigated through security reviews by Statemind, yAcademy, and ChainSecurity[[2]](#References).\n\n### Alternatives considered\n\nNone\n\n## Specification\n\n1. veYFI is implemented as per the deployed contract[[3]](#References), from the veYFI github repo[[4]](#References).\n2. **DO NOT INTERACT WITH THE CONTRACT TO LOCK YFI** until this proposal passes. There is **NO USE** for locking YFI until this time. There is **NO UPSIDE** in locking early. There are **NO REWARDS** at this point.\n3. It's a typical veCRV style locking design:\n   * 1 lock per address\n   * Min lock: 1 week, max lock 208 weeks (4y)\n   * Linear decay\n   * Extendable lock duration\n4. Immediately upon the passing of this YIP, **all subsequent YIPs are voted on using veYFI**.\n5. Voting continues to be done using Snapshot. \n6. To reduce the risk of governance attacks by allowing enough YFI holders to lock so as not to give small YFI balances outsize influence over the protocol, a **2 week moratorium** on YIPs are passed. Any YIP proposal submitted in this period will only be considered for voting 2 weeks after the passing of this YIP.\n7. Contributor YFI is migrated into veYFI as per YIP-66: Streamlining contributor compensation[[5]](#References).  \n8. veYFI voters may replace this voting mechanism in the future with some other design, by submitting a YIP and voting it through.\n\n## References\n\n1. https://gov.yearn.finance/t/yip-65-evolving-yfi-tokenomics/11994\n1. https://github.com/yearn/yearn-security/pull/70/files\n1. https://etherscan.io/address/0x90c1f9220d90d3966fbee24045edd73e1d588ad5#code\n1. https://github.com/yearn/veYFI/commit/bb9d8ac9dd90a9a9772b9663ce4fa232fda7bce2 \n1. https://gov.yearn.finance/t/yip-66-streamlining-contributor-compensation/12247",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 250,
+      "blockNumber": 16048538,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/0xc50b60f712adb8568f10f565fc467e8c5d8fe1f4920683696f81c7920397942a",
+      "startTime": {
+        "timestamp": 1669401622
+      },
+      "endTime": {
+        "timestamp": 1669833622
+      },
+      "startTimestamp": 1669401622,
+      "endTimestamp": 1669833622,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1259.8091,
+          "choice": 0
+        },
+        {
+          "total": 0.024577966,
+          "choice": 2
+        },
+        {
+          "total": 2.6933184,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1259.812531568467,
+          "choice": 0
+        },
+        {
+          "total": 2.693318522370963,
+          "choice": 1
+        },
+        {
+          "total": 0.024577966685151057,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6MHgxZDM0MjMzZjgwYTgzYzNmYzRlNDE1ODNiYTExNWJmZDUxZDMzMDhjN2IzNTI0OTE5OGNhYjBlNDljZDUyN2Yz",
+      "id": "0x1d34233f80a83c3fc4e41583ba115bfd51d3308c7b35249198cab0e49cd527f3",
+      "title": "YIP-70: ApeWorX <> Yearn Partnership",
+      "content": "authors: @fubuloubu @defidipshit \n\n## Summary\n\nApeWorX is proposing a partnership with Yearn contributors to add dedicated support for their use of the Ape open-source framework. During this partnership, ApeWorX will work closely with Yearn contributors to continue to meet their production needs for the project.\n\nIn addition to technical support, ApeWorX will create content for our Ape Academy learning portal demonstrating how to use the Yearn template to create strategies and deploy them, and promote that content to our growing user base. We will also continue to develop Vyper tooling and integration to support the project’s focus and growth on Vyper for v3. Lastly, we will develop any requested smart contract development content to help find and onboard new contributors for protocol development and data analysis functions.\n\n## Background\n\nApe is the smart contract development tool for Pythonistas, Data Scientists, and Security Professionals. ApeWorX was founded in 2021 by @fubuloubu, who designed Yearn v2, with the assistance of the creator of Brownie, based on his feedback of a redesign to that framework. Yearn contributors have been using Brownie, the predecessor of this framework, for nearly all of its smart contract and strategy development work since late 2020.\n\nHowever, Brownie has entered into a maintenance-only stage of its lifetime, while Ape is actively being developed and has been growing significantly over the last year. Looking to the future, ApeWorX plans on building out a suite of products and services around smart contract development, data exploration, and security research which are all areas Yearn contributors will benefit from with better tooling and support.\n\n## Motivation\n\nWe've identified four ways that ApeWorX can assist Yearn contributors and the Yearn project moving forwards:\n\n### Support Services\n\nApeWorX will provide a continuous point of contact between core contributors to Yearn and the ApeWorX team. We will collect and triage any issues with the framework, as well as collect further feature ideas and improvements, and work them into our development roadmap based on a balance of the Yearn project’s priorities and our other internal/partnership goals. With our team’s expertise and guidance, we can help support the safety and robustness of the Yearn protocol and it's continued development.\n\n### Prioritized Development\n\nWe will provide two (2) dedicated engineering resources to drive the project’s priority roadmap, including development of core features and plugins to support production milestones. These resources will ensure that we are always making the progress necessary on our development roadmap to support priorities as they grow and change.\n\n### Best-in-class Vyper Tooling and Integrations\n\nFor v3, Yearn contributors has decided to double-down on developing their protocol using components written in Vyper. To maintain a competitive edge, ApeWorX will continue to innovate Vyper tooling in the framework for Yearn contributors, speeding up product development and security work, in order to make Yearn v3 the most secure, scalable, and decentralized protocol yet.\n\n### Attracting Developer Talent\n\nIn order to thrive, the project needs to further develop a talent pool onboarding more protocol developers, strategists, and other contributors. ApeWorX will promote these objectives by leveraging our Ape Academy product, which is a project-based learning platform for building in Web3 using Ape Framework. Through this platform we will collaborate with Yearn contributors to develop Ape Academy content for strategy creation and onboard more Vyper developers, which is a key area of improvement for the project.\n\n## Specification\n\nFor this partnership, ApeWorX is proposing a grant totaling 100 YFI tokens. These tokens will be streamed to `wallet.apeworx.eth` using a Llamapay stream over a period of 24 months. The stream can be canceled at any time, signifying the end of any advanced collaboration between ApeWorX and Yearn contributors. At the end of the 24 month period, a renegotiation of these grant terms can occur to continue the arrangement into the future.\n\nThe grant amount will align ApeWorX significantly with the long-term success of the Yearn project, and ensure mutual benefit from the work being provided on their behalf.",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 190,
+      "blockNumber": 15569179,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/0x1d34233f80a83c3fc4e41583ba115bfd51d3308c7b35249198cab0e49cd527f3",
+      "startTime": {
+        "timestamp": 1663613819
+      },
+      "endTime": {
+        "timestamp": 1664045819
+      },
+      "startTimestamp": 1663613819,
+      "endTimestamp": 1664045819,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 518.5862,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1019.572371501884,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6MHhlNGMyYzk5MGVhZjRiYjRhN2E4MDMxYzQ2MWY1ZGI4MjBiYWUwOGZkN2I4MTQ0MWQ1NmU4Y2MwMzc4YzQ0YWZl",
+      "id": "0xe4c2c990eaf4bb4a7a8031c461f5db820bae08fd7b81441d56e8cc0378c44afe",
+      "title": "YIP-69: Reduce and cap fees through yRates",
+      "content": "\n_Authors:_  banteg, flashfish, jiji, jmonteer, newmickymousse, saltyfacu, wavey\n\n## Summary\n\nEstablish a new yTeam, **yRates**, and transfer to it the \"Set Fees\" power, with the requirement that earned  fees must never exceed the yield earned by vault depositors.\n\n## Background\n\nIn the previous bull market, opportunities were readily available, and Yearn vaults could generate high yields. Since the height of DeFi Summer those yields have shrunk, and it is now common for many crypto assets to return in the lower single-digit APRs.\n\nYearn vaults never deploy funds unless vault depositors profit from this, as this would add unnecessary risk to depositor funds. \n\nIn current low APR environments, this rule forces Yearn vaults to have large amounts of capital uninvested, earning no income for depositors or the Yearn treasury.\n\n### Current state of fees\n\nAs per YIP-51[[1]](#References), the current fee structure is:\n- 2% management fee\n- 20% performance fee\n \nFees are automatically levied on deployed capital only, and is the primary income source for the Yearn treasury. It finances protocol expenses including grants, gas costs, infrastructure, YFI buybacks, and more.\n\nIf a vault strategy is earning 2.5% APR or less, depositors stand to realize no profit on harvest (after the current mgmt + performance fees), which means that funds do not get deployed to this strategy. In such a scenario, some of the implications are that:\n\n-   All strategies which earn between 0.5% - 2.5% APR become non-viable.\n-   Yearn treasury earns no fees.\n-   Yearn vaults require additional monitoring to react to situations where APR dips too low capital needs to be unallocated.\n\n### yTeams\n\n* As per YIP-61[[2]](#References), yTeams...\n\n   > ...are small, autonomous groups of yearn contributors empowered by YFI holders to act independently in the best interest of Yearn within a constrained domain of action and with enumerated, discrete decision-making powers.\n\n   Examples of existing yTeams are yBudget, yOps, and yPeople, each having their own distinct domain and decision-making powers.\n* \"Set Fees\" power is currently with YFI holders, as per YIP-61[[2]](#References).\n* YFI holders have the power to ratify new yTeams.\n* The yOps team has the power to ratify new signers for yTeams.\n\n## Motivation\n\nEfforts are underway to evolve protocol operations across several areas to improve performance during the bear market.[[3]](#References) As part of this, a dedicated team that is responsible for product fee structures and can react on short notice will allow vaults to stay competitive with higher yields that draw more TVL.\n\nThis benefits all stakeholders: vault depositors earn more yield, yearn treasury accrues more fees, and YFI holders see more capital allocated for YFI buybacks.\n\nBy establishing strict fee guidelines, yTeam powers become better restricted. Vault depositors also get an understanding of the worst case impact of fees.\n\n### Future possibilities\n\n* **A fee dashboard** to visualize current fee structures across vaults to depositors and improve transparency.\n* Delegation to veYFI[[4]](#References) lockers to **dynamically adjust fees** of vaults.\n\n## Specification\n\n1. Ratify a new yTeam, **yRates**. yOps is tasked with ratifying initial signers and quorum, but it must consist of at least four individual signers. This does not imply increasing full time grants, signers can be taken from the existing contributor pool. \n2. **Transfer the \"Set Fees\" power to yRates** from YFI holders.\n3. Enforce a strict condition that **Yearn fees must never exceed the yield paid out to its vault depositors**, instructing yRates team members in their work to optimize fees to benefit both vault depositors and the Yearn treasury.\n4. Moving forward, **the published quarterly financial reports[[5]](#References) should include an update prepared by yRates** on past fee structures performance and the future outlook. These updates should not block the publication of the report.\n\n## References\n\n1. https://gov.yearn.finance/t/yip-51-set-vault-v2-fee-structure/\n2. https://gov.yearn.finance/t/yip-61-governance-2-0/\n3. https://medium.com/iearn/building-during-bera-2209f44746fa\n4. https://github.com/yearn/yearn-pm/tree/master/financials/reports\n5. https://gov.yearn.finance/t/yip-65-evolving-yfi-tokenomics/",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 100,
+      "blockNumber": 14977876,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/0xe4c2c990eaf4bb4a7a8031c461f5db820bae08fd7b81441d56e8cc0378c44afe",
+      "startTime": {
+        "timestamp": 1655453430
+      },
+      "endTime": {
+        "timestamp": 1655885430
+      },
+      "startTimestamp": 1655453430,
+      "endTimestamp": 1655885430,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 912.0252,
+          "choice": 0
+        },
+        {
+          "total": 0.00079517387,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 912.0252872763205,
+          "choice": 0
+        },
+        {
+          "total": 0.00079517387253456,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6MHhjNTM4NmI3MjM3ZjZjOTAzNTljNTZhYzZkY2I5NDJiOTlhNTZhNGRlOGNhNjBkMTA5ZjRiOTk5NzE2MTQ4NzM0",
+      "id": "0xc5386b7237f6c90359c56ac6dcb942b99a56a4de8ca60d109f4b999716148734",
+      "title": "YIP-68: Rotate multisig signers",
+      "content": "## Summary\n\nReplace the three least active multisig signers with new people. After an open call and careful consideration, we've selected three candidates: 0xngmi, monoloco, and lefteris.\n \n## Motivation\n\nThe multisig has been effectively operating as 6 of 6-7 with two signers being inactive and another one too busy with his own project. We appreciate their service, but we got to a threshold where we need another rotation. Here are the signing rates over the last two months, since 2022-04-13 till 2022-06-13.\n\n```\nowner\nklim       100.0\ncp0x        99.0\nbanteg      98.0\ndaryl       91.0\nmariano     88.0\nleo         77.0\n--- cut here ---\nvsh         39.0\ndevops       6.0\nryan         2.0\n```\n\n## **Specification**\n\nReplace vsh, devops, ryan with 0xngmi, monoloco, and lefteris.",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 132,
+      "blockNumber": 14973155,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/0xc5386b7237f6c90359c56ac6dcb942b99a56a4de8ca60d109f4b999716148734",
+      "startTime": {
+        "timestamp": 1655383921
+      },
+      "endTime": {
+        "timestamp": 1655815921
+      },
+      "startTimestamp": 1655383921,
+      "endTimestamp": 1655815921,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 844.36743,
+          "choice": 0
+        },
+        {
+          "total": 0.000045173874,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 844.3673592101987,
+          "choice": 0
+        },
+        {
+          "total": 0.00004517387253456,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6MHhkMTk4OGZlZWM5NTVjYjkzZDQyYjYzYjdiNDg0NWQzNWRhOGY2MDg1OWY1NWVjMThiM2Q1NjA5ZWNkNGViOWUy",
+      "id": "0xd1988feec955cb93d42b63b7b4845d35da8f60859f55ec18b3d5609ecd4eb9e2",
+      "title": "YIP-67: Contribute $400,000 to Nomic Foundation",
+      "content": "## **Summary**\n\nNomic Labs, the team behind Hardhat, has become the Nomic Foundation, a non-profit organization dedicated to Ethereum. Our mission is to empower developers to decentralize the world.\n\nThe Nomic Foundation's work will be focused on Ethereum's developer platform with the objective of achieving a world-class developer experience, and generally improving Ethereum's public goods support structures.\n\n[Hardhat](https://hardhat.org/) is the de facto standard developer tool used to build Ethereum software, with more than 23000 Github repositories using it and tens of thousands of active users. Prominent teams relying on it include ENS, Uniswap, Optimism, OpenZeppelin, Aave, Balancer, Chainlink, Synthetix, and many more leading teams.\n\nThe new foundation will expand the Hardhat suite of tools and, most importantly, build long-term infrastructure to catalyze organic growth in the Ethereum tooling ecosystem, decreasing Ethereum's dependence on any one organization to build and maintain core development platform components.\n\nSeeking $30m in total funding from the ecosystem. Donations of $15M already secured by the Ethereum Foundation, Vitalik Buterin, Coinbase, a16z, The Graph, Polygon, Chainlink, a16z, and Kaszek Ventures.\n\n**We're proposing to Yearn Governance to make a contribution of $400k to the Nomic Foundation to support its mission.**\n\n## **Ethereum developer experience**\n\nWhen it comes to Ethereum, which is primarily a software development platform to build decentralized systems, developer experience is a key strategic aspect for success. Ecosystem growth requires more developers to build more software on top of Ethereum. Developer adoption and learning speed, core contributors to this growth, are critically affected by developer experience.\n\nThe rate at which the ecosystem innovates, coming up with new creations and solving difficult problems, both at the dapp layer and EVM/Solidity/Vyper layer, is also directly affected by developer productivity.\n\nSoftware development platforms aren't new, and playbooks established by the great developer experience success stories (Rust, .Net, TypeScript, etc) prove that achieving a quality developer experience requires a specialized approach paired with a long-term, big-picture strategy. The potential impact in executing a dedicated effort for Ethereum would increase the ecosystem’s pace of innovation and growth, building a powerful compounding effect over the long term for the entire industry.\n\nThe inspiration for our vision came from our experience building Hardhat, which allowed us to see how deeply challenging it is to build sophisticated Ethereum tooling. **These challenges must be alleviated to bring about organic ecosystem-led improvement of developer experience that achieves world-class quality.**\n\n## **Nomic Foundation**\n\nNomic Labs has been fully dedicated to Ethereum developer experience since 2019, and we're [now pivoting](https://medium.com/nomic-labs-blog/introducing-the-nomic-foundation-an-ethereum-public-goods-organization-31012af67df9) to a non-profit foundation formally dedicated to Ethereum. We're aiming to build a long-lasting organization that makes Ethereum's public goods support structures stronger by contributing to the Ethereum Foundation's existing efforts, and reducing the ecosystem's reliance on any one organization for development platform components.\n\n### **Roadmap**\n\nGiven the size and innovation pace of the ecosystem, there's no way to foresee exactly what needs developers are going to have as things scale. However, we do know what engineering foundations the ecosystem will need in order to build its own solutions.\n\nOur overarching engineering strategy is to empower the ecosystem to build its own specialized tools. This plan is based on four strategic pillars of the stack, each of which offers an opportunity to leverage a platform to empower the ecosystem to keep building open-source infrastructure.\n\nFor each of these pillars, we will build a platform. The four ecosystem pillars and platform opportunities we've identified are:\n\n1. Solidity\n2. EVM tooling\n3. Local development environment\n4. Ethereum connector library\n\n## **The projects**\n\n### **Slang & Rethnet**\n\nOver the long term, these are our most important projects. Targeting the Solidity and EVM tooling pillars, Slang and Rethnet will serve as core infrastructure for the ecosystem to build new tools faster, cheaper, and better. We're essentially building the tools that would have let us build Hardhat a lot faster. We previously published a [Medium post](https://medium.com/nomic-labs-blog/slang-rethnet-2ad465fd7880) with high-level descriptions of how both projects will complement each other.\n\n**Slang**\n\nA Solidity compiler designed as a platform for tooling development, an approach also known as compiler as a service. Its top priority will be servicing tools through domain-specific APIs. Much like .Net's Roslyn, it will feature a compilation pipeline made of distinct reusable components with standalone APIs. A completely modular design guarantees that others can build on top of it by replacing the part of functionality they need to, and reusing everything else:\n\n1. Parser that is only concerned with producing trees from code. Usable on its own, for example, to create third-party formatters like Prettier plugins.\n2. Semantic analysis (binding) is concerned only with building a type system and validating the produced trees. Usable on its own, to implement third-party type checking, security/threat models, and more advanced third-party linting.\n3. Code generation. By replacing just this isolated part, the compiler can compile for different targets (e.g. non-EVM L2s).\n4. Language services. These will receive an immutable representation of the above (syntax trees, bound trees, codegen settings), and will only be tasked with answering questions. Usable on its own to expose in different IDEs (same service for VSCode, IntelliJ, Vim, etc). Reusable to extend the functionality of other editor features (task runners, testing, deployment, CI, debugging).\n5. Runtime observation APIs to support Rethnet.\n\nAll of this will be reusable to create entirely new EVM programming languages, since by replacing the parser and type system, one can get an entire high-quality toolchain working from the get-go.\n\n**Rethnet**\n\nTo provide a simulated environment where developers can build and test their Ethereum software, tools need to replicate many of the components that make up a full Ethereum node implementation. This is a significant engineering effort, which given the complexity of Ethereum, represents a barrier to entry to tooling development given the depth of knowledge that is required.\n\nRethnet aims to make this easier by offering a native, flexible, extensible, fast, and language-agnostic EVM local development network, distributed as a Rust library, that is designed to be the underlying core in tools that provide debugging information to developers (like Hardhat, Foundry, Remix, Truffle, DappTools, etc). It will be a Rust library made to be consumed from other languages like TypeScript, Go, Python, etc as a native dependency. It will implement the baseline of essential functionality every tool should have like Solidity console.log, stack traces, and descriptive error messages, as well as implement code coverage, gas profiling, and a step debugger. At its core, it's an implementation of an Ethereum node with a layer of EVM runtime observation to provide development features.\n\nBuilding a new Hardhat, Truffle, Remix, or DappTools using Rethnet will be a much more manageable project, and Rethnet will be completely reusable for any EVM language through adapters.\n\n### **Hardhat**\n\nOur flagship project targets the local development environment pillar, and it's currently at an advanced level of progress and adoption. While Slang and Rethnet mature and catalyze organic growth in the tooling space, developers still have needs to be met, positioning Hardhat as our immediate-term solution to empower developers to keep decentralizing the world.\n\nHardhat is an Ethereum development environment that developers use to compile, deploy, test, and debug Ethereum software. Most importantly, it's highly flexible, extensible, and designed to empower the community to build their own solutions. This strategy has been successful, and there's already [a valuable ecosystem of reusable plugins](https://hardhat.org/plugins/).\n\nHardhat's roadmap is focused on becoming an extensible development environment with deep integrations across components in key areas of the tooling stack:\n\n- [Hardhat VSCode](https://medium.com/nomic-labs-blog/hardhat-vscode-9de29467fc26) — programming editor\n- [Hardhat Ignition](https://medium.com/nomic-labs-blog/hardhat-ignition-5a34a4e3d2de) — contract deployment\n- [Hardhat Network](https://hardhat.org/hardhat-network/) — local development network\n- [Hardhat Runner](https://hardhat.org/getting-started/#overview) — build/testing workflow\n\nThis roadmap leads to developers being well equipped to build powerful extensions to their workflow that increase their productivity according to their exact needs, and to then share them with the ecosystem in the form of plugins.\n\nHardhat will also eventually migrate to using Rethnet and Slang, increasing its feature richness, speed, and stability while enabling dogfooding at scale for our brand new building blocks.\n\n### **Web3.js as a frontend platform**\n\nThe OG Ethereum connector library, Web3.js, is being revitalized into a high-value project. By focusing on community and ecosystem growth, supported by an extensible architecture, it can become a great source of value, much like React represents in the front-end world, but for dapps. A website hub connecting community spaces, support spaces, educational resources, extensions, and related projects, combined with an active ecodev effort (workshops, talks, contests, and incentives), will create a source of leverage for the ecosystem. This will provide better troubleshooting, faster developer training, more reusable code, and, most importantly, the possibility of extending the library. This effort is currently spearheaded by the ChainSafe team.\n\n## **Funding**\n\nThe Nomic Foundation aims to benefit the entire Ethereum ecosystem, which is why we’re fundraising across multiple organizations and individuals within it.\n\nThe Ethereum Foundation is leading this round of contributions with $8M, alongside contributions from Vitalik Buterin, Coinbase, Consensys, The Graph, Polygon, Chainlink, Gnosis, a16z, a_capital, and Kaszek Ventures. These donors make up $15M, and we're aiming to raise $15M more.\n\n## **Why Yearn?**\n\nGenerally, we think that allocating capital to the Nomic Foundation makes strategic sense for any protocol treasury that is aligned long term with the growth of Ethereum, and we've approached and will continue approaching several protocols.\n\nCurrently, Yearn [builds](https://github.com/yearn/hardhat-monorepo/tree/main/packages) [some](https://github.com/yearn/ygift-ui/blob/master/hardhat.config.ts) of [its projects](https://github.com/yearn/stealth-txs/blob/main/hardhat.config.ts) [using Hardhat](https://github.com/yearn/strategies-keep3r/blob/main/hardhat.config.ts). While this is a signal of Hardhat’s value, the projects that the Nomic Foundation will deliver will create more value not just for Yearn, but for the entire ecosystem. We’ll provide services to the Ethereum community that will:\n\n1. Continue the maintenance of critical infrastructure used to build most protocols (Hardhat).\n2. Increase developer productivity for every team in the ecosystem.\n3. Accelerate developer onboarding to Ethereum, increasing the size of the experienced engineering hiring pool and making time-to-productivity shorter for new hires.\n4. Accelerate the pace of innovation and the number of products being built.\n5. Increase market volume driven by new users and new products.\n\nWe believe this grows the market for everyone, including Yearn, and we’d love to have the **Yearn DAO contribute $400k in funding to this community effort**.\n\n## **An ecosystem-wide effort**\n\nWe’re currently seeking funding from multiple DAOs. We’ll update with the corresponding links below as we create each forum thread.\n\n- [Uniswap forum thread](https://gov.uniswap.org/t/temperature-check-should-uniswap-governance-contribute-funding-to-the-nomic-foundation/16354)\n- [Compound forum thread](https://www.comp.xyz/t/proposal-should-compound-governance-contribute-funding-to-the-nomic-foundation/3032)\n- [ENS forum thread](https://discuss.ens.domains/t/temperature-check-should-ens-governance-contribute-funding-to-the-nomic-foundation/11148)\n- [SushiSwap forum thread](https://forum.sushi.com/t/proposal-should-sushiswap-governance-contribute-funding-to-the-nomic-foundation/9658)\n\n## **Links**\n\n[Nomic Foundation Announcement](https://medium.com/nomic-foundation-blog/introducing-the-nomic-foundation-an-ethereum-public-goods-organization-31012af67df9) ",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 134,
+      "blockNumber": 14353009,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/0xd1988feec955cb93d42b63b7b4845d35da8f60859f55ec18b3d5609ecd4eb9e2",
+      "startTime": {
+        "timestamp": 1646838316
+      },
+      "endTime": {
+        "timestamp": 1647270316
+      },
+      "startTimestamp": 1646838316,
+      "endTimestamp": 1647270316,
+      "currentState": "closed",
+      "choices": [
+        "Sounds good, let’s contribute!",
+        "No, not interested"
+      ],
+      "results": [
+        {
+          "total": 656.9588,
+          "choice": 0
+        },
+        {
+          "total": 0.35723996,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 656.9589389026434,
+          "choice": 0
+        },
+        {
+          "total": 0.35723990008870093,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6MHg4MDRkMzc2NWU3MGQ2ZTRmMGYwYTIyNTIyMmRhZGQzOTZjZDMyODU5NWQ1ZmQwOTdiNzMyYjM2ZmRmOGU2YWY2",
+      "id": "0x804d3765e70d6e4f0f0a225222dadd396cd328595d5fd097b732b36fdf8e6af6",
+      "title": "YIP-66: Streamlining contributor compensation",
+      "content": "_Authors: 15 members of the Compensation group inc @0xJiji_\n\n## Note: This is a truncated version\n\nBackground and Motivation sections are not included here. To read the proposal in its entirety, please refer to the post in Yearn Governance: https://gov.yearn.finance/t/proposal-streamlining-contributor-compensation/12247\n\n---\n\n## Summary\n\nBuilds on top of the recently adopted YFI Tokenomics program to simplify Yearn contributor compensation through the introduction of a yDiscount program. Migrates and retires the previous contributor vesting and strategist compensation schemes.\n\n## Abstract\n\n**If adopted**, this proposal seeks to streamline future Yearn contributor compensation through the following steps:\n1. Establish that contributors moving forward should all be primarily compensated using the same baseline mechanism, consisting of payouts in stables.\n1. As an extension to the baseline mechanism, introduce a new method of rewarding Yearn contributors with YFI tokens, yDiscount, where:\n   * Contributors will be able to purchase discounted YFI up to their current monthly compensation level.\n   * All the purchased YFI gets locked into veYFI immediately.\n   * The discount ranges from 10-60% of current market price, determined by the duration of each contributor's veYFI lock.\n3. Retire the use of YFI vesting contracts, and migrate existing contracts to the new mechanism, giving those with remaining vests two options to choose from, either:\n   * Lock their entire remaining vesting YFI amount into veYFI for an equal or greater duration; or\n   * Release them from their vesting contracts, taking a haircut on the YFI they receive, determined by the remaining duration of their vesting package. \n4. Retire Strategist performance fee sharing, and \"buy out\" existing Strategies in production from this system:\n   * Each affected strategist receive a payout based on their net earnings from Strategies.\n   * The payout is a multiple of their average historical monthly net earnings, paid out as locked veYFI.\n   * The multiple ranges from 3-18 and is determined by the duration of their veYFI lock. \n   * Strategist total compensation (including migration) is expected to be  be more or less on the same level as before.\n5. Instruct yBudget to set funds aside for a dedicated team budget for Strategists, to be used at their discretion, including to help onboard and retain new team members.\n\n\n\n## Specification\n\n### 0. The below goes into effect with veYFI\n\n* This entire proposal is blocked by the introduction of `veYFI`, as outlined in YIP-65 (phase 2 and onwards).\n* None of these changes go into effect before veYFI has been released to production.\n* Once veYFI has been released, these changes may be implemented at the discretion of Yearn's community of contributors. \n\n### 1. Contributor compensation is streamlined to one single process that is equal to all \n\n* All frequent and regularly contributing members are paid the same way.\n* Compensation is in stablecoins, or equivalent.\n* Spending on compensation remains at the discretion of yBudget/Treasury as per Governance 2.0.\n* Individual contributor compensation remains at the discretion of yPeople as per Governance 2.0.\n* This excludes occasional part-time grants and funding via Coordinape, which have their own separate procesess.\n\n### 2. Contributors are rewarded with YFI tokens through yDiscount \n\n* All contributors being compensated as per the previous point have the option to purchase YFI through a new yDiscount program.\n* Contributors can purchase YFI at discounts to current YFI market price, _subject to their current veYFI lock_. The longer the ve-YFI lock, the greater the discount.\n* YFI purchased through this program are immediately locked into veYFI according to the duration of their lock.\n* Contributors are only eligible to purchase YFI _up to 100% of the compensation amount they received that month_, once the discount has been factored in.\n* Once feasible, the intention is to have these operations occuring on chain each month with contributors directly interacting with smart contracts. Until then, manual off-chain calculations are used.\n* Contributors are only allowed to participate with one ethereum wallet address in the program, which can only have one single ve-YFI lock at any time. \n* Changing a participating wallet address is only permitted in exceptional circumstances and requires yPeople approval.\n* The YFI minted with YIP-57 is used to finance this program, and once this has been depleted, yBudget will allocate YFI from treasury buybacks.\n* Funds received from contributors participating in yDiscount is used for more YFI buybacks.\n* yBudget has the power to pause the yDiscount program at their discretion.\n\n#### ve-lock Discount\n\n```\n# yfi_discount: discount (%) of purchased YFI\n# ve_lock: current weeks locked in veYFI\nyfi_discount = 0.00245 * ve_lock + 0.0902\n```\n\nSo if the coming veYFI implementation is with the following parameters:\n```\nmin_lock_duration = 1 month, or 4 weeks\nmax_lock_duration = 4 years, or 208 weeks\n```\n\nThen the discount table would look as follows:\n\n| % of max lock | duration | `ve_lock` | `yfi_discount` |\n|---:|---|---:|---:|\n|1.92% | 1 month |4 | 10% |\n| 11.5% |6 months | 24 | 14.9% |\n|25% | 1 year | 52 | 21.8% |\n| 50% | 2 years | 104 | 34.5% |\n|100% | 4 years | 208 | 60% |\n\n#### YFI for purchase\n\n```\n# yfi_allowed: total YFI allowed to purchase this month\n# comp: contributor compensation in stables this month\n# yfi_price: current YFI price in stables\nyfi_allowed = comp / (1 - yfi_discount) * yfi_price\n```\n\n#### Example\n\nAlice is a contributor earning 3,000 DAI this month. The current price of YFI is 100,000 DAI. She has just extended her ve-lock to be 48% of max, or 99.84 weeks of 208 max possible (`ve_lock=99.84`). She therefore is entitled to purchase YFI at 33.4% discount (`yfi_discount=0.334`).\n\nAt the current price, factoring in the discount, Alice is entitled to purchase up to 0.04504504 YFI this way.\n\nAlice decides to spend 1500 DAI to purchase 0.02252252 YFI this month, which immediately becomes locked into veYFI according to her existing lock.\n\n### 3. Retire & Migrate YFI vesting contracts\n\n1. Vesting contracts are no longer offered to contributors by default, and are only to be used in exceptional circumstances. Instead, yDiscount is the default method of YFI compensation.\n1. Existing YFI vesting contract are migrated and closed down, with recipients having the choice of one of two options:\n   1. **Full migration into veYFI.** If the contributor sets a veYFI lock that is equal or longer than their existing vesting package, 100% of their remaining vest is locked into veYFI.\n      \n      _Example: Bob has 1.5 years remaining to vest 9.731 YFI. Bob creates a veYFI lock of 2 years. The full 9.731 YFI is locked on his behalf into his veYFI lock._\n   3. **Exit vesting package with a haircut.** For every 1 week remaining of a vesting package, the recipient takes a 0.25% haircut, and is paid out the remaining in unlocked YFI that they can do whatever they please with.\n      \n      _Example: Carol has 98.321 weeks left to vest 18.821 YFI. She takes a 24.58% haircut (`98.321 x 0.25`) and is paid out 14.19 YFI._  \n\n### 4. Retire Strategist performance fee sharing and buy out existing Strategies\n\n1. Strategy authors are no longer offered the 10% performance fee share for new strategies that get deployed to Production, instead Treasury receives the full 2% management fee and 20% performance fee.\n1. Strategists are compensated the same way as any other contributor: stablecoins + yOption system.\n1. Strategies already in Production and earning 10% performance fee are \"bought out\" using the following scheme:\n   * Earn `x` times previously averaged monthly earnings from the strategy, paid out as veYFI, where `x` depends on the veYFI lock: \n        ```\n        # buy_out: total amount of YFI to be locked in the strategist's veYFI\n        # net_earnings: strategist's average monthly earnings the past 6 months\n        # x: multiple, depending on strategist's excisting veYFI lock\n        # YFI_price: current YFI price in stables\n        buy_out = (net_earnings * x) / yfi_price\n        ```\n\n        | % of max lock | duration | `ve_lock` | `x` |\n        |---:|---|---:|---:|\n        | < 12.5% | no lock or < 6 months | < 26 | 3 |\n        | 12.5% |6 months | 26 | 6 |\n        |25% | 1 year | 52 | 9 |\n        | 50% | 2 years | 104 | 12 |\n        |100% | 4 years | 208 | 18 |\n        \n       In other words, if a Strategist creates a veYFI lock for four years, they receive 18 months of their averaged earnings paid out as veYFI locked for four years.\n\n   * Average monthly earnings is calculated as an average of the past six months, and is done with the help of each individual strategist, where __net earnings__ is calculated. Net earnings would include earnings from other strategies, committees, or strategists, and exclude payments made to committees, or strategists.\n\n   _Example: David is a strategist with 2 strategies in Production and is also member of a committee. He donates 5% of his earnings to the Strategist Multisig. Looking back over the last 6 months, David's net earnings was on average $45,500/month. David creates a veYFI lock of 2 years. YFI/USD is $35,000. David receives 15.6 veYFI that are locked for 2 years._\n\n### 5. Establish a dedicated team budget for Strategists\n\n1. As a replacement for the donations to the Strategist Multisig, yBudget are instructed to set funds aside for a dedicated team budget for Strategists.\n2. This can go to the existing Strategist Multisig wallet, no changes to signers are required.\n3. Funds are to be used at the discretion of the Strategists, including to help onboard and retain new team members, but also any other activity that is not in conflict with Yearn spending policies. \n\n## References\n\n1. https://gov.yearn.finance/t/yip-65-evolving-yfi-tokenomics/11994#future-possibilities-11\n1. https://coordinape.com/\n1. https://gov.yearn.finance/t/yip-52-make-strategist-skin-in-game-partner-for-make-benefit-of-glorious-brain-of-yearn/7856\n1. https://gov.yearn.finance/t/yip-54-formalize-operations-funding/7956\n1. https://gov.yearn.finance/t/yip-57-funding-yearns-future/9319\n1. https://gov.yearn.finance/t/yearn-retention-packages/9698\n1. https://gov.yearn.finance/t/yip-61-governance-2-0/10460",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 181,
+      "blockNumber": 14148129,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/0x804d3765e70d6e4f0f0a225222dadd396cd328595d5fd097b732b36fdf8e6af6",
+      "startTime": {
+        "timestamp": 1644096621
+      },
+      "endTime": {
+        "timestamp": 1644528621
+      },
+      "startTimestamp": 1644096621,
+      "endTimestamp": 1644528621,
+      "currentState": "closed",
+      "choices": [
+        "Yes, I support this proposal",
+        "No, I'm against this proposal"
+      ],
+      "results": [
+        {
+          "total": 476.02942,
+          "choice": 0
+        },
+        {
+          "total": 1.0009419,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 476.03005123394513,
+          "choice": 0
+        },
+        {
+          "total": 1.000941866384489,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6MHg4Zjc0MTdmYTU1NjVkOWY0NmUxNjYxODUwM2U4ODA4YzM2ZDUxYjJhOWU4MjE3YTY4YzYzMmQ3YzA5MGQ2OWQ5",
+      "id": "0x8f7417fa5565d9f46e16618503e8808c36d51b2a9e8217a68c632d7c090d69d9",
+      "title": "YIP-65: Evolving YFI Tokenomics",
+      "content": "_Authors:_ @0xJiji, @banteg, daryllautk, HAtTip3675, @onlylarping, @vany365, @Wot_Is_Goin_On \n\n## Summary\n\nEvolve the role YFI plays in Yearn over four distinct phases, cementing the vision of the token as the fundamental foundation of governance.\n\n## Abstract\n\n**If adopted**, this proposal seeks to:\n1. Direct a portion of YFI that is bought back by the Treasury as a result of BABY [[1]](#References) as rewards to those YFI token holders who actively participate in Yearn Governance.\n1. Evolve the role YFI plays in Yearn Governance through four distinct components. These build on top of each other and thus come in a particular order:\n   * **1: xYFI.** Distribute YFI that's been bought back with Treasury tokens as rewards in a YFI vault. \n   * **2: Vote-locked YFI.** Introduce ve-style locking of YFI (veYFI) for up to four years (exact max duration tbd), where a longer locking duration gives a greater share of voting power and share of YFI rewards. An early exit from the lock is possible by paying a penalty that is rewarded to the other locked token holders. \n   * **3: Vault Gauges + Voting.** Introduce _vault gauges_ where vault depositors stake their vault tokens and earn YFI rewards according to their veYFI weight. YFI are allocated to gauges based on weekly governance votes. \n   * **4: \"Useful work\" features.** Expand the duties and responsibilities of veYFI voters, and their locked YFI, in exchange for earning additional protocol rewards. Pending the tbc v3 vault design.\n1. Give the mandate to Yearn Developers to roll out the above components at their discretion as and when they become feasible.\n1. Restrict the YFI eligible to vote in Yearn Governance as only those staked in xYFI (from Phase 1 and onwards) or vote-locked in Yearn (from Phase 2 and onwards).\n\n## Background\n\n(This section was cut due to Snapshot character limit. Find the full text of the proposal [on the forum](https://gov.yearn.finance/t/proposal-evolving-yfi-tokenomics/11994))\n \n## Motivation\n\n### Benefits\n\nThe following are some of the properties where the new tokenomics design is believed to improve over the previous state:\n* **Incorporates YFI buybacks.** The mandate of YIP-56 is unchanged, the new design builds on top of and integrates  the bought back YFI.\n* **Is a sustainable ecosystem.** The new design does not create a drain on Treasury assets. Instead there are reinforcing flywheel effects where tokenomics rewards drive more TVL, that in turn drive more fees, that in turn drive more YFI buybacks, that is then used to reinforce the tokenomics.\n* **Incentivizes a long term view on Yearn.** Token holders are motivated to support the protocol over the longer term rather than to speculate in the short term.\n* **Disproportionately rewards those most loyal.** Weaker conviction holders effectively become diluted over time by the stronger conviction holders.\n* **Limits rent-seeking benefits.** Over time as the components are introduced, the design avoids holders being rewarded for nothing. Or letting the largest holders accumulate more at the expense of the smaller holders.\n* **Makes vaults more competitive.** Additional YFI earned from vault gauges are effectively added yield for depositors, in proportion to how dedicated they are in their support. \n* **Motivates 3rd party protocols and DAOs to become YFI holders.** Yearn products are used as a yield components of a broader DeFi stack, and integrated in wallets and protocols. With this design, they have incentives to direct rewards to vaults and products they are using.\n* **A seamless experience for integrators.** Participation is _optional_. This maintains the simplicity integrators have come to appreciate and makes it easy to reason about vault behavior. Only those who are motivated to do so can participate.\n\n### Future possibilities\nThe proposal also opens up doors for potential further improvements that extend or build on top of these concepts, including: \n* **yOptions program for contributors**, where contributors can acquire YFI at a discount based on how long these are locked into the protocol for.\n* **Insurance/Backstop functionality**, where vaults could be insured against loss based on the amount of YFI locked, which in turn could be used to draw up stablecoin CDPs to repay users in catastrophic events. \n* **New YFI Emission to veYFI holders**, where new YFI is minted according to some emission schedule and used to reward veYFI holders based on their lock duration. \n* **Partnership program adopting veYFI to boost partner performance**, where partners can earn more based on their veYFI size and lock duration.\n\n### Risks\n\n* **Governance attacks,** where one or several actors accumulate sizable positions of YFI and can control rewards and decisions of the protocol. These risks exist  today, and are mitigated somewhat by the limited supply of YFI and how the strong demand for YFI amongst Yearn contributors makes such attacks costly.   \n* **Not enough rewards to make locking attractive,** where vaults may not generate enough tokens to the Treasury to buy back enough YFI to motivate YFI holders to lock into veYFI. This has somewhat of a balancing effect, where as demand for locking decreases, so does the share of the rewards for those who actually do lock. If it's determined that the equilibrium does not lead to enough YFI being locked, additional YFI could be minted and rewarded to veYFI holders as previously mentioned in \"Future possibilities\".\n* **YFI liquidity dries up.** Currently YFI is traded on multiple centralized and decentralized exchanges. As demand for using YFI elsewhere grows, there may be a lack of YFI/ETH LP supply in liquidity pools and lack of interest in general YFI market making, leading to YFI becoming more illiquid. In such an event, additional incentives may be required in order to ensure a healthy liquidity exists for trading in and out of YFI. The Treasury may also explore owning some of this liquidity outright.\n\n### Alternatives considered\n\n* OlympusPRO style designs\n* Voters voting on fees\n* YFI as a fee discount\n* Distribute treasury YFI \n\n## Specification\n\n### 1. Spend bought back YFI in tokenomics rewards\n- Use a portion of bought back YFI from BABY to finance a new tokenomics program.\n- The 6,666 YFI that were minted as part of YIP-57: Funding Yearn's Future[[9]](#References) are not used for this purpose.\n\n### 2. Evolve YFI through four components\n\n_In required order:_\n\n#### 2.1 xYFI\n- A typical Yearn vault with YFI as a want token (potentially repurposing the existing yvYFI vault).\n- Receives bought back YFI as rewards.\n- Does not have any locking requirement.\n- Does not charge fees.\n\n![xYFI diagram](https://svgshare.com/i/cu9.svg)\n\n#### 2.2 Vote-locked YFI\n- Locking similar to the ve-style program of Curve.\n- YFI can be locked up to 4 years into veYFI, which is non-transferable.\n- The maximum lock duration is still tbd, but will be in the range of min 1 year, max 4 years.\n- Locking duration gives the same linear weights, so if max duration is 4 years, this is 100%, and 2 years = 50% etc.\n- Weights decay as the remaining lock duration decreases, and can be extended up to the max lock duration.\n- Replaces xYFI, where a user _must_ have a veYFI lock in order to continue to earn rewards. No lock leads to no rewards. Maximum lock, continuously renewed, maximizes rewards.\n- It's possible to exit the lock early, in exchange for paying a penalty that gets allocated to the other veYFI holders.\n- Penalty size may be fixed (i.e. 50%), or may be depending on the remaining lock duration. \n\n![veYFI diagram](https://svgshare.com/i/cta.svg)\n\n#### 2.3 Vault gauges + Voting\n- Vault gauges allow vault depositors to stake their vault tokens and earn YFI rewards according to their veYFI weight.\n- YFI are allocated to gauges based on weekly governance votes. Each gauge can get a different amount of bought back YFI to emit.\n- Based on their veYFI lock, users can boost their rewards of up to 2.5x proportional to the amount of vault tokens deposited, when they claim YFI rewards from gauges. The greater the amount of veYFI, the more vault deposits can be boosted for the user. \n- Inspired by Andre Cronje's initial design of Fixed Forex[[10]](#References), in order for gauge rewards to be claimed, the user must have a veYFI lock. Depending on their lock duration, they are entitled to a different share of gauge rewards: if max lock = 4 years, and user is locked for 4 years, they are entitled to 100% of their rewards, if user is locked for 2 years = 50% of rewards, if user has no lock = 0% of their rewards. The difference is paid as penalty to veYFI holders, as an additional source of yield.\n\n![gauges diagram](https://svgshare.com/i/cst.svg)\n\n#### 2.4 \"Useful work\" features\n- This is driven by requirements of the yearn v3 vault design (still tbd).\n- veYFI holders would be able to do useful work for the protocol and earn greater rewards as a result.\n- Examples of useful work could be, but does not necessarily have to be: Configuring vault parameters, vault fees, strategy allocations, providing vault insurance, protocol backstop, and many other additional functionality.\n- No useful work will be introduced without consulting YFI voters beforehand through YIPs.\n\n### 3 Give Yearn Developers the mandate to roll out the above components\n- Components can be introduced based on the requirements as set out here, with minor modifications as deemed necessary.\n- Exact setting of parameters such as max lock duration and penalty system is left to be set at the discretion of the implementers.  \n- There is no requirement to add all four components, but components need to be in the order outlined as they build on each other.\n- Timelines are at the discretion of the contributors doing the implementation work.\n\n### 4 Restrict the YFI eligible to vote\n- Once xYFI is introduced, only YFI staked is eligible to vote in Yearn Governance.\n- Once veYFI is introduced, only veYFI is accepted voting power in Yearn Governance. \n\n\n## References\n\n1. https://gov.yearn.finance/t/yip-56-buyback-and-build/8929\n1. https://gov.yearn.finance/t/call-for-ideas-yfi-tokenomics-revamp/11573\n1. https://px2hc2blifd.typeform.com/report/yj5p5iIo/zIj0Alc03WFWfKTg\n1. https://yearn.snapshot.page/#/proposal/0x783cb3d57dd59b2827f6a42967375f06504cc947ebaa3c0e495c7b29ffd47aea\n1. https://github.com/yearn/yearn-security/blob/master/disclosures/2021-02-04.md\n1. https://github.com/yearn/yearn-pm/tree/master/financials/reports\n1. https://twitter.com/bantg/status/1461910717494398983\n1. https://www.yfistats.com/financials/YFIBuybacks.html (Page 2)\n1. https://gov.yearn.finance/t/yip-57-funding-yearns-future/9319\n1. https://andrecronje.medium.com/fair-launches-decentralized-collaboration-and-fixed-forex-ab327a2e4fc4",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 427,
+      "blockNumber": 13859920,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/0x8f7417fa5565d9f46e16618503e8808c36d51b2a9e8217a68c632d7c090d69d9",
+      "startTime": {
+        "timestamp": 1640246581
+      },
+      "endTime": {
+        "timestamp": 1640678581
+      },
+      "startTimestamp": 1640246581,
+      "endTimestamp": 1640678581,
+      "currentState": "closed",
+      "choices": [
+        "Yes, I support this proposal",
+        "No, I'm against this proposal"
+      ],
+      "results": [
+        {
+          "total": 908.7917,
+          "choice": 0
+        },
+        {
+          "total": 2.9126709,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 908.0854598879802,
+          "choice": 0
+        },
+        {
+          "total": 2.9126709048768906,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6MHg3ODNjYjNkNTdkZDU5YjI4MjdmNmE0Mjk2NzM3NWYwNjUwNGNjOTQ3ZWJhYTNjMGU0OTVjN2IyOWZmZDQ3YWVh",
+      "id": "0x783cb3d57dd59b2827f6a42967375f06504cc947ebaa3c0e495c7b29ffd47aea",
+      "title": "YFI Tokenomics Non-Binding Poll",
+      "content": "This poll is a non-binding temperature check to sharpen the direction of currently worked on changes to YFI tokenomics. As each option requires more development work, please consider each proposal a general direction and not a final product.\n\nThis poll will be by weighted voting - you can split your YFI between the different options.\n\n\n## Option A - ySplit\nThe YFI token is limited to 36,666 tokens, with 1 YFI is valued at 6 ETH or $25k USDC. There is a perception that unit bias is a barrier to token investors.\n\nThe ySplit proposal removes the impact of unit bias by issuing a multiple (10,000 to 1,000,000) of new YFI tokens proportionately to YFI token holders. This proposal will have a once-off cost (development, comms, audits, gas) and will a token contract migration.\n\nMore detail here:  [ySPLIT](https://docs.google.com/document/d/1dAWTkS_ZsXNy7mKKjOFUjILSlLsLz9KhGfLrwVu0GUg/)\n\n## Option B - veYFI\nTreasury earnings are accumulated and used to buy and hold YFI tokens, with the option of spending these on the development of the yearn.finance ecosystem. This reduces circulating supply if spending is less than earnings but there are no guarantees that these holdings will not be spent.\n\nThe veYFI option proposes a token locking mechanism modelled from veCRV. YFI holders can stake and lock their tokens for a period of up to 4 years, and in return will receive voting rights (via veYFI tokens) on the distribution of treasury earnings to yearn vaults. The BABY mechanism continues to buy YFI using treasury earnings but the deployment of the earnings is altered as follows:\n\n- An operational treasury is maintained in stablecoins with a minimum balance of $30m\n- Excess treasury revenue is directed back into vaults as gauge rewards, with the gauge weight determined by veYFI holders in weekly voting rounds.\n\nIt is anticipated that this will incentivise accumulation of veYFI for voting rights, and spawn a Curve-like ecosystem with bribes and entities like Convex.\n\nWith YFI protocol returns at around 9.5% APR, there may be a requirement for further issuance of YFI tokens (Curve-like emissions) to properly incentivise locking of YFI for multi-year periods.  This will be subject to future analysis if this proposal proceeds.\n\nMore detail here: [veYFI draft proposal WIP](https://docs.google.com/document/d/1hoi-IVccOB6iUJYzuApVbyjbQBx8-M0UuzZosb9wlWM)\n\n## Option C - xYFI\nxYFI is similar to veYFI, however instead of vote locking tokens, there is a YFI staking vault (xYFI) to which excess treasury revenue is directed. The BABY mechanism continues to buy YFI using treasury earnings but the deployment of earnings is altered as follows:\n- An operational treasury is maintained in stablecoins with a minimum balance of $30m\n- The vault operates in a similar manner to a Yearn vault, however instead of strategies the revenue comes as YFI from the BABY buybacks.\n\nThe purpose of the xYFI vault is to reward stakers for removing their YFI from circulation by giving them a share of protocol revenue. \n\nMore detail here: [xYFI proposal draft](https://docs.google.com/document/d/1ev16BXu3bDC8zMSBvHmxMWIeD82ptZck6SJAO5frV5g/)\n\n## Option D - BurnKeYs\n\nThe YFI token supply is 36,666 tokens. There is nothing preventing YFI holders from voting to mint more tokens at any point in the future leading to a perception that the YFI supply is not limited.\n\nThe BurnKeYs option proposes to permanently disable the mint functionality of the YFI token contract, permanently capping the supply to the number of tokens issued at the time.\n\nMore detail here: [BurnKeYs](https://docs.google.com/document/d/1BqmRsfdfCIaCtNZULdhKqUJzpKdaHE1XOGQlVp2nuSc)\n\n## Option E - Status Quo\n\nThis proposal keeps the YFI tokenomics as they are now, and proposes a campaign to inform YFI holders and potential investors of the benefits of the current tokenomics system. Many of these ideas have been discussed in #status-quo.\n\n### Interactions\n\nIf ySplit proceeds, it will occur before any other successful proposal.  BurnKeYs will occur after any other proposal.  veYFI and BurnKeYs may be mutually exclusive if further emissions are required.  veYFI and xYFI are mutually exclusive.\n\n### Acknowledgements\nThis proposal is the result of lots of input and work from the community:\n0x_bear, onlylarping, BraveNewDefi + Iguana & Owl, HatTip3675, Reese, defiglenn, bobe, J-yhelper, bfs, Vany, scottincrypto & fin4dao",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x1AEC250C13b1214C4B9935Db3C8a7610fdAaE8dD",
+      "totalVotes": 126,
+      "blockNumber": 13761408,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/0x783cb3d57dd59b2827f6a42967375f06504cc947ebaa3c0e495c7b29ffd47aea",
+      "startTime": {
+        "timestamp": 1638922900
+      },
+      "endTime": {
+        "timestamp": 1639354900
+      },
+      "startTimestamp": 1638922900,
+      "endTimestamp": 1639354900,
+      "currentState": "closed",
+      "choices": [
+        "ySplit",
+        "veYFI",
+        "xYFI",
+        "BurnKeYs",
+        "Status Quo"
+      ],
+      "results": [
+        {
+          "total": 0.00085,
+          "choice": 5
+        },
+        {
+          "total": 0.0024185197,
+          "choice": 29
+        },
+        {
+          "total": 283.68695,
+          "choice": 4
+        },
+        {
+          "total": 487.9557,
+          "choice": 0
+        },
+        {
+          "total": 4.56004,
+          "choice": 2
+        },
+        {
+          "total": 7.810856,
+          "choice": 99
+        },
+        {
+          "total": 0.01199564,
+          "choice": 32
+        },
+        {
+          "total": 1.255004,
+          "choice": 24
+        },
+        {
+          "total": 10.501249,
+          "choice": 49
+        },
+        {
+          "total": 4.0163164,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 55.367584920298135,
+          "choice": 0
+        },
+        {
+          "total": 48.271279564961546,
+          "choice": 1
+        },
+        {
+          "total": 485.9776667338356,
+          "choice": 2
+        },
+        {
+          "total": 3.8597193481654313,
+          "choice": 3
+        },
+        {
+          "total": 422.2867139069234,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6MHhmZTcyOTY2MDFkMTk5Yjg5YThhYTUzZjk1ZDYyNDNlZjkzNWQ3MzZiZWEyZjEzMTA5OTc5ZDhkNTA5ODAxN2Qy",
+      "id": "0xfe7296601d199b89a8aa53f95d6243ef935d736bea2f13109979d8d5098017d2",
+      "title": "YIP-64: Adjust fees on non-stablecoin yVaults",
+      "content": "Authors: @wavey, @philbert, @saltyfacu\n\n## Summary\n\nExperiment with introducing a new fee structure for non-stablecoin* yVaults: \n- 25% performance (25% increase)\n- 1% management (50% decrease)\n\nSome of the expected implications are: \n- Improved profitability for yVaults with lower yields\n- Reduced treasury income\n- Unchanged incentive alignment for strategists \n\n**Stablecoin = fiat-pegged tokens*\n\n## Motivation\n\nIn DeFi, stablecoins are often able to generate higher yields than crypto native assets. Since the heights of \"DeFi Summer\" yield has slowed down on the Ethereum mainnet, and it has become common for non-stablecoin crypto assets to return in the lower single-digit APRs.\n\n#### Opportunity Cost of High Fees\nThe current 2% management fee is a flat rate taken from invested assets over the course of a year. Therefore, if a strategy is earning 2.5% APR or less (after combined mgmt + performance fees), users stand to realize no profit on harvest. Yearn tries to avoid deploying funds in these situations which are unprofitable to users. The downsides to this are:\n- all farms which earn between 0% - 2.5% APR become non-viable strategies\n- in these situations, treasury earns no fee income\n- creates additional management burden on Yearn operations to actively monitor strategy APR and react when it dips too low.\n\nFinding 2.5%+ APR farms for crypto assets like ETH and BTC is difficult, especially for the scale Yearn operates at. Lowering the management fees on these tokens will help improve APR while also creating access to new farms.\n\n#### Maintain Protocol Revenue by Shifting to Performance fee\nFor lower performing vaults, performance fees are a more attractive option because . to anything below 100% will not result in users earning 0% (or less) on a harvest as fees are charged from profits rather than the initial deposit. This is a straight forward way to balance the reduction of the management fee.\n\n#### More to come...\nThis proposal is viewed as a temporary measure to take action and collect data while further ideas for fee revisions are discussed by the community.\n\n### **Data for claims**\nThe image below shows sample data for 2/20 versus the proposed 1/25 fee structure across a range of yield scenarios.\n\n![](https://user-images.githubusercontent.com/4562643/142752872-6e34b82b-387d-4fd1-b6a6-2978af146938.png)\nSource: [Fee Adjustment Calculator](https://docs.google.com/spreadsheets/d/1U66cFgymIW4Qdmo3lgCx5-lrMunBbLI_6cbxplWAE1U/edit?usp=sharing)\n\n**Increasing profitability for yVaults with lower yield:**\n\nThe proposed fee structure change provides a very tangible benefit for low earning vaults, with diminishing results as APY increases. This is why it makes sense for the adjustment to be isolated to crypto native asset yVaults rather than all yVaults in general. When a vault is earning above 30% APY, this fee change actually reduces profit for users. \n\n**Reduce treasury income:** \n\nAdversely, the proposed fee change would have a greater impact on the treasury when applied to lower earning vaults. Still, percentage wise, the benefit to token holders greatly outweighs the loss of the treasury. \n\nAdditionally, since the lower earning vaults aren’t bringing in as many fees as an equivalent TVL higher earning vault, the relative loss of treasury revenue will be negligible when compared to the benefits. \n\n\n## Specification\n\nAdjustments to vault management and performance fees require transactions from the governance multisig (`ychad.eth`). If passed, the following should take effect.\n\n**Non-stablecoin yVaults**\n\n- 1% annualized management\n    - Full amount allocated to Treasury\n    - Applied only to invested funds\n    - Collected on each harvest\n- 25% performance fee\n    - 15% allocated to Treasury\n    - 10% allocated to the Strategist\n\n**Stablecoin yVaults:** (unchanged)\n\n---\n\n**For**: Introduce 1% mgmt and 25% performance fee structure on non-stablecoin yVaults, leaving fees on stablecoin yVaults unchanged.\n**Against**: Do nothing",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 448,
+      "blockNumber": 13656678,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/0xfe7296601d199b89a8aa53f95d6243ef935d736bea2f13109979d8d5098017d2",
+      "startTime": {
+        "timestamp": 1637481581
+      },
+      "endTime": {
+        "timestamp": 1637913581
+      },
+      "startTimestamp": 1637481581,
+      "endTimestamp": 1637913581,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 167.02602,
+          "choice": 0
+        },
+        {
+          "total": 308.00137,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 167.02527168353691,
+          "choice": 0
+        },
+        {
+          "total": 308.0014101028298,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6cW1wazlhcWVvdjZ2NXhldWl0ZWZjajlweDd5ODdrbXExZ2dodmhmdDJnbXRxZQ==",
+      "id": "QmPK9AqeoV6v5xeuiTeFcj9Px7y87KMQ1gGhvHft2GMtqE",
+      "title": "YIP-63: Fund Builder-First Legal Activism DAO",
+      "content": "## Authors\n[@andre.cronje](https://twitter.com/andrecronjetech) [@tracheopteryx](https://twitter.com/tracheopteryx)  [@lex_node](https://twitter.com/lex_node) [@judge_jowday](https://twitter.com/judge_jowday) [@sh_brennan](https://twitter.com/SH_Brennan) [@birdman_haxxor](https://twitter.com/Birdman_Haxxor) \n\n## Summary/Abstract\nAmidst intensifying regulatory scrutiny of DeFi, we propose that Yearn contribute to a new LeXpunK_DAO dedicated to legal advocacy for yearn and other builder-centric DeFi communities. The LeXpunK_DAO will be governed by builders from contributing communities (including yearn) and practicing lawyers from the [LeXpunK Army](https://judge-jowday.medium.com/rise-of-lexpunk-army-5afad79966f1). 5% of the current supply of L3X, the non-transferable reputational token of the LeXpunK Army, would be airdropped to YFI holders who support this proposal, to enable direct sentiment polling on relevant legal issues from the Yearn community.  LeXpunK will effect additional airdrops from time to time, proportionally in line with the relative contributions of other builder communities, with the goal of forming a broad coalition to pool resources for funding shared advocacy goals. \n\n## Motivation/Rationale\n\nGrowing mainstream awareness of DeFi is coinciding with institutional outrage over the \"Wall St. Bets\" phenomenon and political change in the United States to brew a perfect storm of aggressive legal threats against DeFi:\n\n* mainstream media calls DeFi a \"[shadow financial market](https://www.politico.com/news/2021/07/24/shadow-financial-market-spooks-regulators-500696)\" and warns that regulatory action is imminent\n* new SEC Chair Gary Gensler concludes [a recent speech](https://cointelegraph.com/news/sec-chairman-says-cryptocurrency-falls-under-security-based-swaps-rules) to the American Bar Association Derivatives and Futures Law Committee with a warning that many DeFi platforms may involve securities swaps\n* CFTC Commissioner Dan Berkovitz, having googled DeFi, [positioned it](https://www.cryptoglobe.com/latest/2021/06/cftc-commissioner-dan-berkovitz-is-concerned-about-decentralized-finance-defi/#:~:text=%E2%80%9CIn%20a%20pure%20'peer%2D,customers%20whole%20when%20processes%20fail.) as being squarely incompatible with the policy of 'mandatory intermediation' enshrined in CFTC regulations on leveraged retail commodities transactions and commodities swaps and referenced unfair advantages DeFi has to TradFi due to the lack of regulated intermediaries\n* many blue-chip DeFi projects have already been [called in front of regulators](https://africa.businessinsider.com/markets/us-regulators-are-reportedly-meeting-with-defi-companies-as-scrutiny-of-crypto-builds/1gqq2kc) or are [receiving SEC subpoenas](https://twitter.com/arrington/status/1418314425795231754) and are forming organized political lobbying efforts which may have distinct and zero-sum goals\n\nDeFi is a DAO of DAOs. These DAOs have many shared goals. For instance, we all aim to build, use, and enjoy open financial technologies. However, DAOs also compete with one another and often differ in ethos and strategy. \n\nExisting advocacy orgs like the Blockchain Association, Coin Center, and the Uniswap-funded DeFi Education Fund have mutually overlapping membership and staff which are heavily intertwined with Silicon Valley venture capital funds and traditional crypto businesses like Coinbase. Many of the teams most directly represented by these organizations have pursued dual token/equity strategies, which means they also seek to accrue value to their equityholders through KYC-gated and censorable forks of their protocols which will cater to institutions and 'fintechs'. \n\nBuilder-centric, bottom-up communities like Yearn, Curve, and SushiSwap have a different cultural ethos and a different story to tell. We are spontaneous, cryptonative communities of builders that have no TradFi backup plan and value openness, lack of hierarchy, and creativity above all else. Thus, we should have our own unique voice in the evolving regulatory landscape, and by doing so we may be able to make or emphasize lines of legal argument that are not as available to other kinds of projects. After all, the former head of the SEC's CorpFin division [views \"sufficient decentralization\" as the point where traditional regulations end](https://www.sec.gov/news/speech/speech-hinman-061418), and there is nothing more decentralized than a community of builders, users and investors that come together with no contracts or rules, no board of directors or stockholders to answer to, yet somehow build remarkable innovations together. \n\nWe believe that cryptolaw should be done in the crypto spirit. If DeFi communities want to show regulators, lawyers, and politicians what is special about DeFi, then Orwellian-named trade associations and non-profits staffed by D.C. insiders are not the best way to go. Instead, we should present ourselves as we are--as DAOs, as token communities, as builder communities. The values underlying these modes of expression are too important to cast aside in the name of expediency when the going gets tough and there are legal threats. On the contrary, the values of openness, transparency, and decentralization are DeFi's greatest defense to traditional regulation and should be front-and-center when regulators and politicians interface with DeFi communities. This is why [LeXpunK](https://lex-node.medium.com/lexpunk-a1bb9f769ec) was created--to bring lawyers and builders together under a shared ethos that is as disruptive to law as it is to finance. \n\nThrough a new, community-funded LeXpunK_DAO, we will not merely hire existing lawyers or fund existing traditional advocacy groups--We will bootstrap a new community of lawyers and builders working side-by-side to legitimize and protect shared creative values. This community will become a flywheel unto itself and yield benefits long after these initial donations are spent and far beyond the benefits of the specific projects these donations end up funding. \n\n## Specification\n\n### Overview\n\nLeXpunK_DAO will mix long-term strategic advocacy campaigns with rapid-response 'guerilla lawfare' raids. LeXpunK_DAO will be structured either as a Moloch DAO, Gnosis multisig, or other DAO implementation; in any case, with balanced representation of LeXpunK Army members and representatives of the contributing DeFi communities. Un-committed contributed funds will be 'ragequittable' at the discretion of each community's representatives. We estimate that $1M from Yearn and $1M from Curve would provide a sufficient starting point to get the ball rolling (this is far less than the massive warchest recently raised from Uniswap to fund already heavily VC-/Silicon-Valley-backed advocates). \n\n#### A. Campaigns\n\nCampaigns are major strategic initiatives, such as: \n* a landmark position paper advocating for positive analysis under securities law, commodities law or tax law of Yearn-relevant DeFi primitives such as flash loans, vault strategies, CDPs, and deposit-claim tokens (e.g., yAssets) \n* a legal defense of DeFi developers against regulatory litigation;\n* proposed 'safe harbor' legislation legalizing key aspects of DeFi; \n* if/when the SEC files a case premised on a novel, expansive view of securities laws that could adversely affect DeFi builders (for example, that all project participants are collectively responsible as an '[unincorporated association](https://lawstreetmedia.com/tech/sec-charges-five-in-connection-with-2b-bitconnect-securities-offering/)'); the LeXpunK_DAO would file an *amicus curiae* brief in the litigation\n\nCampaigns will be defined with thorough specifications and funded with pre-announced bounties. Campaign fulfillment will be by teams hand-picked by the Advocacy Fund Multisig. Relevant experts--both lawyers and developers--will be recruited from within the LeXpunK community, other DeFi communities and, if needed, from traditional law firms; these will be our 'MandDAOlorians' working for a piece of the bounty. A 'taskmaster' will be assigned from the most trusted ranks of the LeXpunK Army--typically an experienced attorney--who is not eligible for the bounty, but receives a flat fee to monitor the working group's progress, help remove blockers and make the final determination of when the project has been completed to spec and the bounty is due to be paid. Upon project completion, the team members themselves will decide how the bounty should be allocated, using another yearn ecosystem offshoot--[coordinape](https://coordinape.com/). Campaigns will be pre-checked with the LeXpunK community through L3X snapshot polls. \n\n#### B. Raids\n\nRaids are rapid-response initiatives tailored to respond to current events in realtime. Examples of raids would be: \n\n* a politician like Elizabeth Warren sends an [adversarial public letter](https://www.warren.senate.gov/imo/media/doc/Draft%20SEC%20Crypto%20Exchange%20Letter%2007.7.2021%20clean.pdf) regarding DeFi to a regulator; the LeXpunK_DAO funds a rapid public response detailing community views about her questions; \n* a contributing DeFi protocol suffers from a hack or exploit and the team needs help coordinating with law enforcement or CEXs to help block or recover funds\n* builders from a contributing community receive an informal SEC inquiry; the LeXpunK_DAO helps strategize and marshal a legal team to defend the builder\n\nRaids will be funded on an emergency, *ad hoc* basis at the discretion of the LeXpunK_DAO. \n\n## Conclusion\n\nThe time is now. Let's do cryptolaw the crypto way. \n\n## References\nForum discussion:\nhttps://gov.yearn.finance/t/proposal-fund-builder-first-legal-activism-dao/11280\n\nRead up on LeXpunK:\n(1) [LeXpunK: The New Legal Praxis](https://lex-node.medium.com/lexpunk-a1bb9f769ec)\n(2) [Autonomous Lawyering](https://lexnode.substack.com/p/autonomous-lawyering)\n(3) [Rise of LeXpunK Army](https://judge-jowday.medium.com/rise-of-lexpunk-army-5afad79966f1)",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 590,
+      "blockNumber": 12971775,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/QmPK9AqeoV6v5xeuiTeFcj9Px7y87KMQ1gGhvHft2GMtqE",
+      "startTime": {
+        "timestamp": 1628258400
+      },
+      "endTime": {
+        "timestamp": 1628690400
+      },
+      "startTimestamp": 1628258400,
+      "endTimestamp": 1628690400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, I support this proposal",
+        "No, I am against this proposal"
+      ],
+      "results": [
+        {
+          "total": 862.6662,
+          "choice": 0
+        },
+        {
+          "total": 0.00001,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 862.0101375057345,
+          "choice": 0
+        },
+        {
+          "total": 0.00001,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6cW1kZGNiZ3lia29vejF6cDhveW5iYno2ZnJ4bHJjOXhia2FweGN1emNkem1tZg==",
+      "id": "QmddCbGYbkooZ1zp8oYnbBz6frXLRc9xbkapXcuZcdzmMF",
+      "title": "YIP-62: Change Two Multisig Signers",
+      "content": "# Authors\n@banteg @lehnberg @milkyklim @tracheopteryx \n\n# Summary\nA proposal to exercise the 'Change Multisig Signers' power held by YFI holders as defined by Governance 2.0[1] in order to change two signers who have served yearn well and rotate in fresh blood to improve signing speed.\n\n\n## Status\nThis proposal is currently in the voting phase. Cast your vote here.\n\nYou can learn about our voting rules in YIP-55[2].\n\n\n# Abstract\n\n**If adopted**, this proposal will:\n\n- remove @Substreight (Joe Mahon)[3] and @tchitra (Tarun Chitra)[4] as multisig signers\n- add @RyanWatkins[5] and @Lumberg (Leo Cheng)[6] as mulitsig signers\n\n# Motivation\n\nServing on the yearn multisig is hard work, we should rotate signers regularly and ensure that all signers are reasonably active and available to keep signing speed and engagement high. Both Substreight and Tarun have agreed to step out and Leo and Ryan have agreed to step in. \n\nBig thanks to everyone on the multisig, this adjustment should not be seen as a critique in any way. We are all busy and appreciate all the work this group does.\n\n![photo_2021-05-20 17.06.53|690x328](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/8/8a3ccf6bc91fbaf97d858d4805dff8fb7d33d84f.jpeg)\n*Analysis of multisig signer activity as of 26 April 2021*\n\n# Specification\n\nTo execute the transition we don’t need to change the threshold, just execute 2 sequential multisig transactions:\n\n1. Replace 0x6626593c237f530d15ae9980a95ef938ac15c35c (Tarun) with 0x757280Bd46fC5B1C8b85628E800c443525Afc09b (Ryan)\n1. Replace 0x50B0C406a5C1fC492F84c3F3D4552391cF4672f2 (Substreight) with 0x7321ED86B0Eb914b789D6A4CcBDd3bB10f367153 (Leo)\n\n# References\n[1] https://gov.yearn.finance/t/yip-61-governance-2-0/\n[2] https://gov.yearn.finance/t/yip-55-formalize-the-yip-process/7959\n[3] https://twitter.com/Substreight/status/1299780260737630209\n[4] https://twitter.com/gauntletnetwork/status/1299778153674616833\n[5] https://twitter.com/RyanWatkins_\n[6] https://twitter.com/leokcheng",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x29C4dbC1a81d06c9AA2fAed93Bb8B4a78F3eabDb",
+      "totalVotes": 1288,
+      "blockNumber": 12498244,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/QmddCbGYbkooZ1zp8oYnbBz6frXLRc9xbkapXcuZcdzmMF",
+      "startTime": {
+        "timestamp": 1621875600
+      },
+      "endTime": {
+        "timestamp": 1622307600
+      },
+      "startTimestamp": 1621875600,
+      "endTimestamp": 1622307600,
+      "currentState": "closed",
+      "choices": [
+        "yes, I vote for this proposal",
+        "no, I vote against this proposal"
+      ],
+      "results": [
+        {
+          "total": 417.2604,
+          "choice": 0
+        },
+        {
+          "total": 1.5145693,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 415.7502212208443,
+          "choice": 0
+        },
+        {
+          "total": 1.5145692895710283,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6cW1zbXl5ZWtycnBuYTd4bjU2bzJudGJjdXp4bWh6Y3VwbDdseG1hMXJleHhxNA==",
+      "id": "QmSMyYeKrRpnA7Xn56o2NtbCUzxmhzCupL7LxMA1reXxq4",
+      "title": "YIP-61: Governance 2.0",
+      "content": "# Authors\n@tracheopteryx @lex_node \n\n# Summary\nA proposal to establish the future of yearn's operational governance by extending certain of the Multisig's powers from YIP-41 (Temporarily Empower Multisig) on a newly clarified basis in coordination with newly empowered autonomous contributor teams ('yTeams').\n\n\n# Abstract\n**if adopted**, this proposal seeks to:\n\n- ratify continued delegation by YFI holders to the Multisig of certain powers first approved in YIP-41 (Temporarily Empower Multisig), together with certain modifications and clarifications to the nature and scope of such powers as set forth below; \n- delegate certain powers to a set of yearn contributor teams that have emerged organically from the community ('yTeams'), as appropriate for each yTeam based on its objective ('yGuard,' 'yBrain,' 'yDev,' 'yPeople,' 'yBudget,' 'yFarm,' 'yTx,' and 'yOps');\n- update and clarify YFI holders' role in governance and the types of proposals available.\n\n\n\n# Motivation\n\nIn August 2020, YIP-41 (Temporarily Empower Multisig) was approved by YFI holders to:\n\n- temporarily empower yearn Multisig members \"to make personnel & budgetary decisions\" for a six-month period; and\n- task the Multisig with \"facilitating the creation and transition to a multi-DAO structure\".\n\nSince YIP-41 was approved, the Multisig has fostered a 'multi-DAO structure' by encouraging the development of autonomous 'yTeams' consisting of volunteer and paid specialist contributors. \n\nThe six-month Multisig empowerment period was extended for three-months via YIP-59 on February 24th, 2021 and will expire on May 24th, 2021. Thus, before the expiration date, YFI holders should approve a new proposal to establish the future direction of yearn governance. This YIP constitutes such a proposal and, if approved, would supersede YIP-41 and ratify yearn's current *de facto* operational governance practices. \n\n\n# Specification\n\n## Governance 2.0 Overview\nWe present here the first phase of a progressive decentralization and improvement to yearn's governance. This proposal seeks to update the decision-making structures within yearn, not their software implementation. It is our intent to offer implementation proposals in the future once this model is validated and the appropriate technologies become available for use.\n\n![Gov 2.0 v1|1711x2140,30%](https://ipfs.io/ipfs/QmaEE5xzSf328dnKq7LxSrHsYcUB5AVpDByhAr7oBzB9fR) \n\nYearn is a network of independent doers united by a shared vision. Our bias is on action over bureaucracy. We move fast with great freedom and agency. This is our way. Towards this end, we have pioneered a method of governance we call 'constrained delegation' whereby YFI holders delegate their governance powers to autonomous groups like the Multisig and yTeams and thus empower them to be creative. Gov 2.0 takes that a step farther by making governance powers discrete and transferable objects under the direct control of YFI holders.\n\n. . . \n\n# Complete Proposal\nDue to the character limit for Snapshot, the complete text of this proposal cannot be posted here. Please see the proposal on our governance forum https://gov.yearn.finance/t/proposal-governance-2-0 and the official full text is also available on IPFS https://ipfs.io/ipfs/QmT7mVjdaBZsyxtckcmcaXCy22Vr3k6mzKGRdYQyRybdFK",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x29C4dbC1a81d06c9AA2fAed93Bb8B4a78F3eabDb",
+      "totalVotes": 1922,
+      "blockNumber": 12276205,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/QmSMyYeKrRpnA7Xn56o2NtbCUzxmhzCupL7LxMA1reXxq4",
+      "startTime": {
+        "timestamp": 1618902000
+      },
+      "endTime": {
+        "timestamp": 1619334000
+      },
+      "startTimestamp": 1618902000,
+      "endTimestamp": 1619334000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, I vote for this proposal",
+        "No, I vote against this proposal"
+      ],
+      "results": [
+        {
+          "total": 683.29443,
+          "choice": 0
+        },
+        {
+          "total": 0.20458284,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 683.0894510114788,
+          "choice": 0
+        },
+        {
+          "total": 0.20458284402385044,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6c25hcHNob3Q6cW1ucWFxcmttZmNvcmphcnlha2N2ZXRpajZzamo0czEyOTNrYnB5ZG12dmNqYg==",
+      "id": "QmNqAqRKMFcoRjaRYAKCVETij6sjJ4S1293kbpYDMVvcjB",
+      "title": "YIP-60: Airdrops to Yearn Vaults",
+      "content": "## Authors\n@lehnberg\n\n## Summary\n\nFormalize how airdrops to Yearn vaults are handled: Tokens that are worth the effort, are sustainably claimed and donated to the affected vault as its `want` token in order to boost the returns of vault depositors.\n\nThis, in order to be aligned with what is the fundamental proposition for end users and third party integrators alike: Having a gas efficient, frictionless, set-it-and-forget-it way of earning compounding returns through Yearn's vaults.\n\n## Background\n\nThe Ellipsis airdrop[[0]](#References) and the resulting eligibility for the yveCRV to receive tokens over the course of a year has resulted in Yearn governance discussions[[1]](#References) about how this should be handled.\n\nWhile this is the first airdrop of its kind, it is unlikely to be the last. It would be beneficial to agree on a general approach that outlines how these situations are to be handled. \n\n### Airdrop factors\n\n* **Cost to claim.** Claiming airdrops can involve manual work, sometimes on different chains than Ethereum, for uncertain rewards. \n* **Time periods to claim.** Claiming may at times be done in one go, and other times over multiple times, sometimes lasting as long as a year or more. \n* **Relationships and image.** Acting in bad faith, i.e. \"claiming & dumping\" can lead to exclusion from future airdrops, bad publicity, and being labeled as an adversary rather than a partner.\n* **Tokenomics.** Depending on the protocol design, there can be lucrative farming opportunities or heavy penalties to incentivize good actors in the airdrop protocol. Considering these can lead to better rewards. \n\n## Motivation\n\nThe rationale for this proposal is motivated by the following objectives:\n* **Do right by the vault's depositors.** In principle, airdrops belong to whoever holds the private key. Practically, many vault depositors expect to benefit from airdrop proceeds. Yearn should do right by them, which in turn does good for Yearn's reputation and attracts more users of its products.\n* **Set expectations straight.** At the moment, it is unclear what will happen in airdrop situations. Vault depositors should have clarity about what they should expect to happen.\n* **Do not overload Yearn's resources.** Yearn's vaults are different, and airdrops are different. Subjective judgement about which airdrop to claim, and what the best way for realising it, is unavoidably going to be required. Airdrops should not end up becoming an effective Denial-of-Service attack on Yearn teams and distract them from delivering on existing roadmaps and priorities. \n* **Keep it simple.** Yearn is meant to make DeFi simple, and should try to live up to that. Depositing a token into a Yearn vault shouldn't come with expectations of potentially having to deal with the handling of other unrelated tokens, possibly even accessible from other blockchains.\n* **Keep it composable.** Yearn vaults are being used by end users, defi protocols, businesses, and other intelligent life such as smart contracts and robots. They should benefit from airdrops automatically, without no additional effort, letting rewards compound. This avoids unexpected behaviour and edge cases, making Yearn's vaults easier to integrate with.\n\n## Specification\n\n1. A decision is made whether the effort to claim a specific airdrop is worth while given  other current priorities.\n2. Specific claiming, farming, and token exchange strategies are determined on a case by case basis, depending on prevailing airdrop terms and market conditions, with the objective to maximize risk-adjusted returns.\n3. Returns are used to boost the returns of the affected vault for the benefit of its current depositors. This is done by converting the returns into `want` tokens, and donating them to the vault in question, boosting the returns of each current tokenholder as a result.\n4. Decisions on the details of the above steps are left to be taken by the Operations, Engineering, and Finance teams with the instruction to meet these instructions as best as possible. Decisions can be overruled as usual through the existing Multi-sig and Governance processes. Both groups should be kept up to date on airdrop claims as they progress.\n\n\n## Vote\n* **Yes**, I support this proposal.\n* **No**, I'm against this proposal.\n\n## References\n1. https://ellipsisfinance.medium.com/introducing-ellipsis-finance-735cba834e91\n1. https://gov.yearn.finance/t/discussion-what-to-do-with-eps-airdrop/10254\n1. https://gov.yearn.finance/t/proposal-airdrops-to-yearn-vaults/10356",
+      "protocol": "ybaby",
+      "adapter": "snapshot",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 2166,
+      "blockNumber": 12196456,
+      "externalUrl": "https://snapshot.org/#/ybaby.eth/proposal/QmNqAqRKMFcoRjaRYAKCVETij6sjJ4S1293kbpYDMVvcjB",
+      "startTime": {
+        "timestamp": 1617849000
+      },
+      "endTime": {
+        "timestamp": 1618281000
+      },
+      "startTimestamp": 1617849000,
+      "endTimestamp": 1618281000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, support",
+        "No, oppose"
+      ],
+      "results": [
+        {
+          "total": 1047.1705,
+          "choice": 0
+        },
+        {
+          "total": 0.05169752,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1046.9795968302924,
+          "choice": 0
+        },
+        {
+          "total": 0.051697519113425495,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbWRyY3hoNmJxcG5jdWNvenFhdHM1aHFramNrZTI0MjhxaXpvd2p4bWp4YnMz",
+      "id": "QmdRCXH6BQpNcucoZqAtS5hQKjckE2428qiZoWjxmJXbs3",
+      "title": "YIP-59: Temporarily extend Multisig empowerment",
+      "content": "## Author\n@lehnberg\n\n## Summary\nExtend Multi-sig powers by another three months until end of May 2021 whilst an in-progress replacement  proposal matures further.\n\n\n## Abstract\n\n**If adopted**, this proposal seeks to extend the existing Multisig empowerment as was established by YIP-41[[1]](#References) for another **three months** until **May 24 2021**. This is done in order for a currently in-progress governance architecture proposal to mature further, and ultimately have longer time to be discussed in the community, prior to it being proposed. \n\n## Rationale\n\nThe existing mandate expires on February 24 2021. As is stated in YIP-41, the Multisig was empowered for rapid decision making until the protocol transitioned to a \"multi-DAO structure\". A plan to decentralize power away from the Multisig, led by @tracheopteryx, is in-progress of being finalized. It has been delayed due to  recent Governance activities.\n\nThe three month extension would be used to introduce the proposal to the wider community, iterate on it further to incorporate feedback, without being rushed by the somewhat arbitrary deadline that the mandate expiration sets.\n\n### Alternatives considered\n\n#### Rush the new governance proposal\n\nOne alternative would have been to instead publish the current draft of the proposal as is, and hurry to have it adopted by YFI voters before the existing empowerment expires on February 24. The outcome of this process is uncertain. It is likely to result in a less mature YIP being adopted, if one is adopted at all.\n\n#### Let mandate expire, replace with some alternative \n\nAnother alternative would be to let the Multisig mandate expire, and be replaced by some other Governance alternative. It is unlikely that a feasible alternative solution could be devised, proposed, and finalized in the little time that remains before expiry.  \n\n## Specification\n\n* Extend the current Multisig authority and remit as was granted by YIP-41 for an additional three months, expiring on **May 24 2021**.\n* **Do not** change or modify the existing mandate in any way.\n* Any changes made by YIPs adopted after YIP-41 still apply.\n* Further changes to the mandate can be made through Yearn's Governance process.\n\n## References\n\n1. https://yips.yearn.finance/YIPS/yip-41",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 1757,
+      "blockNumber": 11884857,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmdRCXH6BQpNcucoZqAtS5hQKjckE2428qiZoWjxmJXbs3",
+      "startTime": {
+        "timestamp": 1613705100
+      },
+      "endTime": {
+        "timestamp": 1614137100
+      },
+      "startTimestamp": 1613705100,
+      "endTimestamp": 1614137100,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 379.59198,
+          "choice": 0
+        },
+        {
+          "total": 0.0005,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbXg4b3l0c2theHNhcnl6bjdydXF6dXVmdzlidnZxdHdqM3p4dXJ3cnF1czlh",
+      "id": "QmX8oYTSkaXSARYZn7RuQzUufW9bVVQtwJ3zxurWrquS9a",
+      "title": "YIP-57: Funding Yearn's Future",
+      "content": "# Authors\n\n@aleks-blockchaincap @banteg @dudesahn @ekrenzke @lehnberg @milkyklim @ryanwatkins @srs-parafi @tracheopteryx @vooncer @yfi-cent\n\n# Summary\n\nSafeguard Yearn's future development. Mint 6,666 YFI. Use ~1/3 of minted YFI to reward key contributors and put ~2/3 of minted YFI in the Treasury under the control of the community through future proposals. \n\n# Abstract\n\n**If adopted**, this proposal seeks to:\n\n1. Mint 6,666 YFI.\n2. Allocate ~1/3 of the minted YFI to key contributors as vesting retention packages.\n3. Allocate the remaining ~2/3 to the Treasury, which will be deployed through existing Governance for various uses, for example:\n   * Future contributor incentives\n   * Liquidity mining programs\n   * Staking rewards\n   * Protocol mergers & talent acquisitions\n   * Cross-protocol incentives to tighten co-operation across the ecosystem family of projects\n\nThis **benefits Yearn** as a whole by:\n\n- Retaining existing contributors\n- Incentivizing new contributors\n- Capitalizing the Treasury to a scale comparable to industry peers in order to better support growth\n\n\nThis **benefits YFI holders** in particular by:\n\n- Creating a strategic reserve to advance Yearn as one of the world's leading DeFi protocols\n- Aligning incentives across stakeholders\n- Providing for Yearn's future\n\n# Motivation\n\n## Evolve the fair launch \n- Yearn's launch was exceptional at creating a decentralized and engaged community, but it did not provide adequate incentives to retain existing and future contributors on an ongoing basis, nor did it provide the protocol with a war chest to fund future activities.\n- Viewing the fair launch as a living concept rather than a single event, this proposal seeks to remedy this\n- It does so with an emphasis on funding the Treasury for the benefit of all active protocol participants over the existing contributors at a ratio of rougly 2:1 in terms of allocated YFI\n\n## Remove Yearn's Competitive Disadvantage\n\n_Excerpt from  [[1]](#References):_\n\n>**Team token allocations**\n>Projects such as Uniswap, Aave, Synthetix, Compound, 1inch, Curve, and Balancer hold anywhere from $300 million-$2.13 billion in tokens aside for [contributors], with the average being between $500-600 million. This is generally 20-30% of the total token allocation. Newer projects such as SushiSwap, Badger, CREAM, Harvest, and Cover vary more between teams, but allocate between 10-25% of token supply to their teams and early contributors.\n>\n>**Treasury/operations token allocations**\nWhile the numbers vary here more widely, most of the major projects still have significant token amounts set aside for operations. Uniswap is on the high end with $4 billion, Aave, Synthetix, Balancer, and 1inch all have between $200-$570 million, and likely other projects without any tokens set aside for operations have ample funding from investors (Curve and Compound).\n\n## Why mint?\n\n_Excerpt from  [[2]](#References):_\n\n> [The decision] comes down to the market for talent and the opportunity cost for YFI contributors. We looked at other successful DeFi projects to see what the market says top-tier talent is worth:\n> \n> ![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/8/89eba70dade40032f422b719f59e7a6aa7318e87.png)\n>\n> The UNI team has 21.3% of tokens (which includes tokens for future employees) and UNI holders collectively control a treasury with 43% of the supply. At current market prices of $9.2 (which reflects a fully diluted valuation of $9.2B), each bucket has several billion dollars worth of UNI – team ~$2B and treasury ~$4B – giving the Uniswap team significant fire power for hiring and enabling a lot of future growth spend from the treasury (both buckets are subject to 4-year vesting).\n>\n> The COMP team has 26% of tokens and a smaller but still significant treasury with 7.8%. At the current market price of $226 per COMP, the team allocation is ~$580M and treasury ~$176M.\n>\n> You can quickly see that a treasury of $500K and a team allocation of 0% is way off market. The reality is that for Yearn to allocate even 5% (which would be well below the examples above), at current market prices (~$37K) Yearn would need to either earn $56M or mint $56M worth of YFI. **Given that a conservative figure is presently an order of magnitude higher than annualized YFI holder income, the only reasonable way to bridge the gap in the near-term is through a mint.**\n\n## Why 6,666 YFI?\n- 6,666 is 22% of the current total supply of 30,000 YFI.\n- After gathering feedback, modeling a number of mint scenarios and various retention package estimates, a ~20% increase was determined to be the minimum viable amount to provide competitive retention plan, using only roughly 1/3 of the total mint amount.\n- 22% is in line with yearn's peers, for example Aave minted 23% when they migrated from LEND to AAVE.[[3]](#References)\n\n## Improve Talent Retention & Acquisition\n- Contributors have recently been poached by other projects.\n- With the current operational treasury size of $500,000 and 0% token allocation to the team, Yearn struggles to compete with the compensation packages offered in the current market. These are becoming increasingly competitive.\n\n### BABY is a great first step, but not enough on its own\n\nBuyback and Build Yearn (BABY)[[4]](#References) establishes a moving target for YFI buybacks in USD terms. As Yearn earns more revenue in USD terms, it's possible that the YFI price in USD adjusts upwards to reflect those increased earnings. So it would be like trying to catch your own tail. Modeling shows that using 50% of Treasury earnings for buybacks would purchase 100-300 YFI per year (see sensitivities below). Even with the assumption that V2 vaults end up being very successful, earnings will likely not be enough to accumulate a sufficient amount of YFI for the Treasury.\n\nBelow are two different BABY scenarios. One sensitizing aggregate yields on V2 vaults and their effect on YFI buybacks. The other sensitizing operating expenses and their effect on YFI buybacks. The other with 100% of net income.\n\n***Aggregate Yields Sensitivity***\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/d/d149d69defb3b49e408457051857a78ce1b12242.png)\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/7/7c5ab77cc1dbfd2eebd1c8f3cfa3b791214a5501.png)\n\n***Operating Expenses Sensitivity***\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/f/f8d4da11b2a8c5101629c93c4002e33a2b64f59e.png)\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/5/5f190f5e42701ce5f325a6dc875290dd4b1a275c.png)\n\n# Specification\n\n## 1. Mint 6666 YFI\n\nA proof of concept for minting has been produced [[11]](#References). If accepted, Yearn Governance would need to do these things:\n1. Deploy the vesting contract\n2. Call `TimelockGovernance.setTargetGovernance(YearnPact)`\n3. Wait 3 days\n4. Call `TimelockGovernance.updateTargetGovernance()`\n5. Call `YearnPact.brrr()`, which will mint and then revert the YFI token governance back to `TimelockGovernance` immediately thereafter\n\n## 2. Allocate ~1/3rd to vested retention packages\n\n- Out of the 6,666 minted YFI, allocate roughly 1/3rd (5% margin on either side) to retention packages in order to provide the sufficient face melt required for effective contributor stickiness.\n- **All YFI allocated to retention packages will be subject to vesting.**\n- Retention package details, including eligibility, amounts, and overall terms, will be prepared and presented by a _Compensation Working Group:_\n   - Working group members are recommended by the Operations team and should include a variety of project contributors.\n   - The Multi-sig approves the proposed members of the working group.\n   - The working group can gather feedback and input from existing community groups or form new ones as required.\n- Once appointed, the working group's tasks will be to:\n    1. Finalize compensation packages\n    2. Finalize vesting terms\n    3. Identify eligible recipients\n    4. Prepare a Compensation plan for the Multi-sig to review\n- After review, the Multi-sig approves the Compensation plan, or requests changes.\n- Separately, the working group is also tasked with formalizing the qualification process and retention packages for future contributors. Funding for this comes from the portion allocated to Treasury (see below).\n\n## 3. Allocate ~2/3rds to Treasury\n- Allocate the remainder of the minted YFI, i.e. roughly 2/3rds (5% margin on either side) to Treasury.\n- This allocation flows into the Operations Fund established by YIP-54 [[12]](#References) and can be spent accordingly, which includes through ad-hoc Governance proposals brought forward as YIPs.\n- The Operations Fund remains under the supervision of the Multi-sig.\n- **As YIP-56 [[4]](#References) makes clear, YFI in the Treasury, including those in the Operations Fund, cannot be used to vote.**\n\n# Discussion\nhttps://gov.yearn.finance/t/proposal-funding-yearns-future/9319",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 553,
+      "blockNumber": 11745800,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmX8oYTSkaXSARYZn7RuQzUufW9bVVQtwJ3zxurWrquS9a",
+      "startTime": {
+        "timestamp": 1611856800
+      },
+      "endTime": {
+        "timestamp": 1612288800
+      },
+      "startTimestamp": 1611856800,
+      "endTimestamp": 1612288800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1670.6465,
+          "choice": 0
+        },
+        {
+          "total": 331.02988,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbWI2Z2J6anZnbG1henNycXFndmNqdXRsbmRrdnltMmxoNnlja216ZG9haHd6",
+      "id": "Qmb6gBzjvgLMazSrQQGVcjutLNdkVyM2Lh6yckMzdoaHWZ",
+      "title": "BABY: Buyback and Build Yearn",
+      "content": "## Authors\n@banteg, @lex_node, @lehnberg, @milkyklim, @RyanWatkins, @tracheopteryx\n\n## Summary\n\nUse YFI staking rewards to buy back YFI on the open market. Use bought back YFI for contributor rewards and other Yearn initiatives. Retire the YFI governance vault as it no longer has a use, opening up for it to be replaced in the future with a regular vault. Make it possible to participate in Governance even if one's YFI is being used elsewhere.\n\n## Abstract\n\n**If adopted**, this proposal seeks to:\n1. Replace YFI staking rewards with YFI buybacks, until further notice.\n2. Enable YFI that's actively being used in ways that bring benefit to Yearn to participate in Governance.\n3. Retire the YFI governance vault (yGov). \n\nThis **benefits Yearn** as a whole by:\n* Simplifying Treasury design and operation.\n* Simplifying YFI token mechanics to equally align interests across Yearn stakeholders. \n* Builds up a treasury of YFI that can be deployed through Governance for various uses.\n\nThis **benefits YFI holders** in particular by:\n* Removing the need to stake YFI to enjoy rewards; in contrast to staking (which only benefits stakers), buybacks should benefit every YFI holder.\n* Potentially making gains more tax efficient as capital appreciation through buybacks could be taxed less than dividend income through staking rewards.\n* Allowing participation in YFI Governance even whilst the YFI tokens are utilized elsewhere, for example providing liquidity in SushiSwap.\n\n## Motivation \n\n### Previous proposals\n\nThis proposal comes on the back of previously made proposals and YIPs: \n* The adoption of YIP-54[[1]](#References) formalized an Operations Fund and allowed for discretionary YFI buybacks.\n* @RyanWatkins proposed a rethink of Yearn’s capital allocation strategy.[[2]](#References) Arguing for protocol rewards to be used to buy back YFI rather than to reward YFI stakers, distributing protocol income as dividends would be a suboptimal capital allocation strategy given Yearn’s stage of maturity. Instead, the proposal claimed it would be more optimal to use income to drive growth and asset appreciation instead.\n* @dudesahn called for the existing Governance vault and strategy to be replaced with more conventional investment strategy.[[3]](#References) Utilizing MakerDAO to mint DAI, this would be used for liquidity mining. One part of the returns would be rewarded to stakers, and the other would be used to fund Yearn's Bug Bounty program and yAcademy.\n* Joel Monegro (Placeholder VC) recently published the essay “Stop Burning Tokens – Buyback And Make Instead”[[4]](#References) where he suggested that protocols should buy back and reissue tokens to incentivize growth rather than buying back and burning tokens to return value to token holders. This buyback strategy could be especially well suited for Yearn as the YFI supply is capped at 30,000, meaning that the initial conditions for Yearn’s wealth distribution have been set, and no YFI can be further issued to incentivize growth. Such a “Buyback and Make” strategy could allow Yearn to receive the benefits of YFI inflation without any inflation.\n\n### Rationale\n\n![ryan-fees-earned](https://user-images.githubusercontent.com/4562643/104811569-90ace080-580d-11eb-9d1f-6ee5b7a09dd6.png)\n\n_Figure 1. Staking rewards earned over time (USD).[[5]](#References)_\n\n#### Replace staking rewards with buybacks\n* **More suitable at this stage in the lifecycle.** It is unconventional to pay out returns in the form of staking rewards this early in a project's lifecycle. Typically this would happen at a stage where funds no longer can be allocated efficiently.\n* **Better aligns with YFI's use case.** YFI is primarily intended to be used for the governance of Yearn. Token mechanics should cater to those who take interest in the protocol and wish to actively participate in its improvement, over those looking to passively collect staking income.\n* **Potentially more tax-efficient for YFI holders.** The gains on YFI staking may be treated as ordinary income. In contrast, a buyback program enables growth in YFI while YFI holders should only be taxed on a capital gains basis for a sale. Results may vary by jurisdiction and this does not constitute tax advice; consult your own tax advisor. \n* **Recycles YFI that can be spent through Governance.** The resulting accumulation of YFI in the Treasury could enable future governance proposals on the use of this YFI for the further benefit of Yearn.\n\n#### Widen YFI accepted for Governance voting\n* **Acknowledge more uses of YFI for the benefit of Yearn.** There are other ways than holding YFI in your wallet that can benefit Yearn, for example by providing liquity to a YFI pair on SushiSwap. These YFI are not allowed to vote in Governance today, but they should be.\n* **Remove capital efficiency and governance trade-offs.** Similarly, there shouldn't need to be a trade-off between participating in Governance or utilizing YFI efficiently.\n\n#### Retire the yGov vault\n* **Vault no longer needed.** Without staking rewards, there is no need for a yGov staking vault that's tied to Governance.\n* **Staking returns are aenemic.** At the time of this writing, the APY estimate is 0.9% annually [[6]](#References). This is not competitive, and may even dissuade YFI holders from participating in governance. In comparison, Binance recently announced up to 4.49% APY for staking YFI.[[7]](#References).\n\n### Future possibilities\n* Introduce contributor retention program, with vesting YFI rewards to create long term skin-in-the-game for existing and new contributors.\n* Re-introduce dividends once Yearn has matured and protocol income no longer can be re-invested as efficiently into growth.\n* Introduce a conventional vault for YFI, using the v2 vault design. Such a vault would not be related to governance or staking rewards, and would be free to pursue other, to-be-determined strategies.\n\n## Specification\n\n### Replace staking rewards with buybacks\n\n#### Buy back YFI\n* All funds that are used for YFI staking rewards are to be used to buy back YFI. Staking rewards cease until further governance action.\n* Buybacks should be handled in a continuous and automated way, and not be discretionary or requiring any sign-offs.\n* Care should be taken to avoid creating arbitrage or front-running opportunities. Detailed specification of design is left to the developers implementing.\n\n#### Use of bought YFI\n* There are no changes in how funds are spent.\n* The YFI bought back flows into the Operations Fund established by YIP-54 and can be spent accordingly.\n* Example of current spends include: Security audits, Bug bounties, Contributor funding, Grants, Gas reimbursment, Development overhead. See the recently published quarterly financial report[[8]](#References) for a detailed breakdown.\n\n### Widen YFI accepted for Governance voting\n* Link snapshot to use guest-list[[9]](#References) to determine which YFI is eligible for voting.\n* This functionality is already supported and excludes protocols such as Aave which could be utilized in governance attacks. The list of supported protocols is configurable and is being reviewed continuously, improvements and suggestions can be submitted to the repo.\n* Any YFI in the Yearn Treasury / Operations Fund is not eligible to vote.\n\n### Retire YFI Governance vault\n* Retire the ygov.finance[[10]](#References) staking vault and the YFI yVault YFIGovernance strategy that relies on it.\n\n## Changelog\n- Jan 13: Clarified voting specification to explicitly state that YFI in the treasury cannot be used to vote. [DL] \n\n## References\n1. https://gov.yearn.finance/t/yip-54-formalize-operations-funding/\n2. https://gov.yearn.finance/t/proposal-rethinking-capital-allocation/\n3. https://gov.yearn.finance/t/proposal-yfi-governance-vault-yacademy/\n4. https://www.placeholder.vc/blog/2020/9/17/stop-burning-tokens-buyback-and-make-instead\n5. Data available upon request.  \n6. https://stats.finance/yearn\n7. https://www.binance.com/en/support/announcement/de1dfcb0846a422a9d1f50f98ee0e8b8\n8. https://github.com/iearn-finance/yearn-pm/blob/master/financials/reports/2020Q3-yearn-quarterly-report.pdf\n9. https://github.com/banteg/guest-list\n10. https://ygov.finance/",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 294,
+      "blockNumber": 11667095,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/Qmb6gBzjvgLMazSrQQGVcjutLNdkVyM2Lh6yckMzdoaHWZ",
+      "startTime": {
+        "timestamp": 1610812800
+      },
+      "endTime": {
+        "timestamp": 1611072000
+      },
+      "startTimestamp": 1610812800,
+      "endTimestamp": 1611072000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 790.83307,
+          "choice": 0
+        },
+        {
+          "total": 4.467712,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbXcyenBmZ3Jjbnh2bHZ0MmptOWZtdm53cWxkOXByZHRvcWR1OGRucHA2Y2tn",
+      "id": "QmW2ZPfGrcNxVLvT2jm9fmvNwQLD9PrdToQDU8DNPp6Ckg",
+      "title": "[YIP-54] Formalize Operations Funding",
+      "content": "## Authors\n@banteg, @lehnberg, @lex_node, @milkyklim, @tracheopteryx\n\n## Summary\n- Transform the one-off YIP-41 budget into an Operations Fund that is allocated the same amount of funding on a continuous basis.\n- Permit the Fund to **buy back YFI** or other assets at its discretion.\n- Publish a quarterly report to make it easy for YFI holders to audit fund activities.\n- This proposal supersedes the treasury cap of YIP-36  and the operations budget of YIP-41. Future changes can be made through additional YIPs.\n- Together with the previously approved YIP-51 and YIP-52, this is the final piece in a trilogy of YIPs seeking to upgrade Yearn operations and financials. \n\n## Background\n\nAs Yearn evolves, so does the need to cover operational expenses and quickly react to changes.\n\nYIP-36[[1]](#References) laid the groundwork for Yearn operations funding. YIP-41[[2]](#References) extended this with the inclusion of a one-off operations budget. A forum thread envisioned the Multisig acting as an \"operations special interest group\"[[3]](#References). Today, there are multiple special interest groups (such as development, documentation, governance, branding/design, and communications) that are not directly related to the Multisig, but partly financed through the YIP-41 budget. The Multisig acts as an executor of the spending decisions of these groups. \n\nThis YIP builds on the previously adopted proposals to formalize a structure for sustainable funding of operations, to further Yearn's development and growth.\n\n### Out of scope\nThe following questions are not covered:\n- **How should YFI staking rewards be spent?** Proposals such as [[4]](#References) argue for a change in how staking rewards should be spent. This should be decided on separately by YFI voters. \n- **How should spending decisions be made?** This proposal focuses on the funding of operations activities, and how these are reported transparently. Decision-making processes are assumed to be existing per YIP-41.\n- **What is Yearn's long term governance structure?** YIP-41 temporarily empowers the Multisig while preparations are made for \"a more robust governance architecture\". Any material change to Yearn's governance would also need to consider the management of the Operations Fund.\n\n### In scope\nThe proposal attempts to answer the following questions:\n- **How do we sustainably fund operations over the longer term?** The budget in YIP-41 is one-off, for six months only. How do we ensure that operations activities are funded on an ongoing basis? \n- **How do we reward contributors better?** Today, contributors are paid in yUSD. There's a desire to partially reward contributors in YFI as well, to give them skin in the game and a stake in the success of Yearn. With a fixed supply of YFI, there needs to be a way to acquire YFI to be used as such.\n- **How do we keep accountability, without adding unnecessary overhead?** While we want sustainable funding and contributors to be empowered to act quickly and decisively, we also need to scrutinize spending decisions and hold those who make them accountable. Ideally this should be a simple process that avoids slowing down progress.  \n\n### Examples of Operations Expenditure\n* **Security costs.** 3rd party audits, bug bounties, tools.\n* **Contributor funding.** Recurring payments for full time contributors, one-off grants, bounties.\n* **Third party products & services.** Freelancers, companies. \n* **Running costs.** Gas expenditure, tools, equipment, infrastructure.\n\n#### Current Yearn operations spend\nEstimated to total ~$434,000 as of November 10, 2020. More than half of the operations spend is security related, with the greater part of the remainder spent on funding contributors in various forms.\n\n![](https://svgshare.com/i/RNu.svg)\n\n## Motivation\n\n### Justifying the proposal\n\n#### 1. Sizing the Operations Fund \nThe budget set in YIP-41 has so far been sufficient; there is no desire to increase it. Rather, the purpose is to transition from a one-off budget to a continuous funding process. \n\n##### Approximating current allocation\n\n![|3200x1440, 20%](https://svgshare.com/i/RPN.svg)\n\nThe above diagram is based on data of the total fees collected by Yearn vaults in a four month period, from July 30 - Nov 05 2020.[[5]](#References)\n\nThe fees have then been allocated according to the new vault fee structure of YIP-51[[6]](#References) and the updated Strategist allocation of YIP-52[[7]](#References).\n\nThe current budget for operations is based off of the allocation in YIP-41[[2]](#References), calculated as:\n```\n(a) $ 500,000 + (b) 4 * $ 181,000 = $ 1,224,000 \n```\nWhere `(a)` is the bug bounty allocation, and `(b)` is four months worth of monthly operations expenses.\n\nThis gives an **approximation** of how rewards would be allocated today, based on YIP-41, -51, and -52. Roughly **53% of the treasury funds** would be allocated to Operations.\n\n##### Proposed allocation\n\nBased on this, the proposal is to round this number down to an **even 50%** and divide the Treasury funds equally between YFI staking rewards and Operations:\n\n![|3200x1440, 20%](https://svgshare.com/i/RPG.svg)\n\n#### 2. Rewarding contributors\n\nPaying a proportion of grants in YFI is an obvious and immediate way to give contributors a stake in the success of Yearn.\n\nAs the Treasury does not earn YFI, nor is it able to mint YFI, the straightforward way to acquire YFI is to **buy back YFI** with part of the Operations Fund. \n\nAlthough this could incidentally have the added benefit of increasing buy demand for YFI, the purpose would not be to manipulate YFI price or to engineer long-term YFI price appreciation. Rather, the purpose would be to add YFI to the Operations Fund in order to reward contributors through YFI grants.\n\nRather than making an explicit pledge, or revealing a process that then is at risk of being exploited, it thought to be better to trial this on an ad-hoc basis. Exact capital allocations would be determined at the discretion of the Multisig based on various factors, including prevailing market conditions.\n\nFor instance, the recent negative downturn of the YFI price would have made an excellent buy opportunity for the Operations Fund.\n\nAs new Yearn products are introduced, so could the need emerge to buy back other assets than YFI. The Operations Fund therefore should have  the right to buy any asset as required.\n\n#### 3. Keeping contributors accountable\n\nAs operations move to continuous funding, tracking spending decisions and holding contributors accountable becomes ever more important.\n\nThis proposal does not introduce any new spending mechanisms. All spending is signed off by the Multisig, with activities already tracked and published in a dedicated repo, `/ychad-audit`[[8]](#References).\n\nIn addition, a quarterly Operations Fund Report will be published documenting the activities of the previous period, how funds were spent, the current health of the Operations Fund, and what the focus for the upcoming quarter will be. The report helps YFI holders to audit the fund, and intervene as required by passing a YIP with new fund guidelines.\n\n### Alternatives considered\n\nIn addition to the above 50-50 split, the following alternative spending allocations were considered:\n\n* **Allocating 100% of the management fee to the Operations Fund.** This would mean that 100% of the performance fee share would go to YFI stakers. This proposal would have meant a slightly larger Operations Fund, with income that would have been more predictable, as it would not be determined by actual vault performance but by total funds locked in Yearn. \n* **Allocating 75% of the management fee to Operations, and 25% of the performance fee.** Similarly, this would add a bit of performance fee into the mix, but keep the majority of the funds assigned to Operations coming from the amount of capital held in the vaults.\n\nWhile stability and predictability for the Operations Fund is desired, it is more important for contributors to have an equal amount of skin in the game as YFI stakers, even if this leads to a smaller budget if vaults underperform.  \n\n### Future possibilities\n* **Long-term YFI vesting, or yVest.** An obvious next step would be to establish some form of vesting plan for YFI allocation for long-term contributors. This could be realized with a contributor vault that \"dog foods\" strategies.\n* **Team Funds.** As teams mature, they could be allocated dedicated budgets from the Operations Fund, increasing decentralization and autonomy.\n* **Financial planning and analysis.** As Operations continues to evolve, further planning, budgeting, and forecasting can be added when deemed necessary.\n\n\n## Specification\n\n1. Effective with the introduction of Vaults v2, allocate 50% of Treasury fees to an Operations Fund, with the other 50% distributed to YFI stakers.\n2. Permit the Operations Fund to buy YFI or any other asset as required with its funds, and to include such in the assets at its disposal.\n3. Produce quarterly financial reports of the Operations Fund activities and decisions.\n4. As it goes in effect, the Operations Fund replaces the treasury cap of YIP-36 and the budget of YIP-41.\n5. The Operations Fund, its asset purchase authorization, and the other matters contemplated herein are not permanent, and can be altered or replaced by YFI holders as required, through the passing of a new YIP.\n\n## Vote\n\n**For:** Yes, establish the Operations Fund.\n\n**Against:** No, reject the proposal.\n\n**Note:** 3-days voting poll is **binding** (live from Nov 12 - Nov 15).\n\n## References\n\n1. https://yips.yearn.finance/YIPS/yip-36\n2. https://yips.yearn.finance/YIPS/yip-41\n3. https://gov.yearn.finance/t/understanding-decentralization-prioritizing-an-operations-team/\n4. https://gov.yearn.finance/t/proposal-rethinking-capital-allocation/\n5. Dataset available on request\n6. https://snapshot.page/#/yearn/proposal/QmSaYHR97LDMDvg9xeTfdNZw6aqL9njxBKM6JVFtCYxKvB\n7. https://snapshot.page/#/yearn/proposal/QmbAq6jPB6ocrihjkDo5TLNF4D4w9dw1HsEsJ7vwdwd9g3\n8. https://github.com/iearn-finance/ychad-audit/tree/master/reports/financial",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x0Cec743b8CE4Ef8802cAc0e5df18a180ed8402A7",
+      "totalVotes": 137,
+      "blockNumber": 11243274,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmW2ZPfGrcNxVLvT2jm9fmvNwQLD9PrdToQDU8DNPp6Ckg",
+      "startTime": {
+        "timestamp": 1605188700
+      },
+      "endTime": {
+        "timestamp": 1605447900
+      },
+      "startTimestamp": 1605188700,
+      "endTimestamp": 1605447900,
+      "currentState": "closed",
+      "choices": [
+        "Yes, establish the Operations Fund",
+        "No, reject the proposal"
+      ],
+      "results": [
+        {
+          "total": 935.40326,
+          "choice": 0
+        },
+        {
+          "total": 1.3780231,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbXB0YWZqY3EzdXRmenF5M2pkZ25lanN4YzZ5dWh3ZmVzbnF5amprb2NjenJq",
+      "id": "QmPTAfJCq3UtFZqY3jdgNEJsxc6yuHwfESnQyjjkoccZrJ",
+      "title": "yAcademy: Planting the Seed of a Sustainably Secure Future for yEarn and Beyond",
+      "content": "This is the culmination of efforts since the [original proposal](https://gov.yearn.finance/t/lets-poach-samczsun-and-plant-the-seed-for-an-auditing-academy/5507) which led to a partnership with our friends at [Gitcoin and Status](https://gitcoin.co/blog/announcing-the-kernel-security-track/) who also have been thinking about security in our ecosystem. \n\n# Simple Summary\n\nWe launch the yAcademy: a security wing tasked with auditing Yearn's contracts, attracting and retaining top talent, and eventually generating revenue by expanding its auditing services to the ecosystem at large. Mission: audit Yearn contracts in a collaborative and semi-structured process. Administrative costs are kept near zero, as the tasks of advocacy, event organizing, educational curriculum are handled by our partners at Gitcoin and Status. The yAcademy is net positive from day one since money that would have otherwise been an operational expense given to auditing firms is now an investment that should pay back the principle immediately (in the form of audits of Yearn contracts) and generate revenue eventually (once the team has expanded to offer services to the ecosystem). \n\nTo align incentives, equity shares in the yAcademy is distributed to YFI governors, yAcademy partners, and the first five auditors to join. The alignment can be seen in the following figure:\n\n![final|690x408](https://user-images.githubusercontent.com/4562643/98841510-41d37b00-2459-11eb-95a7-705f40020e35.png) \n\n## Glossary of terms:\n**_Stakeholders_**: YFI holders, Gitcoin, Status, yAcademy permanent members (auditors)\n**_Founding members_**: the first five auditors to join the yAcademy. They get equity in yAcademy.\n**_Mentees_**: outstanding participants in the KERNEL program that compele the curriculum and show promise, they are invited to shadow audit in yAcademy in close collaboration with Founding Members and Yearn core team.\n\n\n## Abstract\n\nThe Yearn technical community is innovating at a rapid speed. Efforts must be made to mitigate software bugs. Auditing talent is currently scarce and will continue to be for sometime because the pace of innovation in smart-contract products is much faster than that of producing auditors.\n\nThe Yearn community already expends a significant amount of time negotiating audit contracts or coordinating one-off informal audits. Planting the seed for an auditing wing of Yearn will bring immense benefits in the short and long term. Money spent on audits is a realized cost, while money spent on yAcademy is an investment. Yearn has thus far this year spent more on audits/bounties more than the projected budget for yAcademy. By keeping administrative costs near zero, the yAcademy should be a net positive to YFI holders from day one. If structured and run efficiently, we should witness the rise of a new breed of excellent auditors that get vetted by going through the KERNEL program run by our partners at Gitcoin and Status.\n\nThe Yearn community should incentivise rising stars to stay and continue to work on Yearn contracts full time. As Yearn matures over-time, yAcademy can begin to offer services to the outside world. At that point, the yAcademy becomes a self-sufficient, and potentially massively profitable. To align incentives, equity in the yAcademy is distributed to YFI holders (65%), Gitcoin (10%), Status, and the first five permanent auditors (5%, 4%, 3%, 1.5%, 1.5% to the 1st, 2nd, 3rd, 4th, and 5th members respectively).\n\n## Motivation\n\n-  Yearn is innovating at an ever increasing speed.\n\n-  Software bugs are a matter of \"when\" and \"how bad\", not \"if\". We must make mitigation efforts.\n\n-  Auditing firms are overbooked, they have financial incentive to speed up audits which can affect quality.\n\n-  Negotiating audit contracts with auditing firms is a laborious and clunky analog process. \n\n-  Audit contracts are very expensive.\n\n-  Yearn is a hub of innovation and as a result should attract top talent.\n\n-  Smart contracts will probably experience an even bigger cambrian explosion once the enterprise starts using permissionless networks such as Ethereum as a settlement layer. Hence, the yAdademy will most likely become an highly-profitable organization, thereby paying back all the investment put into it .. and then some.\n\n- YFI are better off having auditing expenditure be an investment that pays itself back and more, rather than a realized operational cost lost to auditing firms.\n\n- Yearn has spent on security audits/bounties this year more than the projected budget for Yearn. \n\n## Specification\n\nThe figure above summarizes the flow, responsibilities, and expectations. \n\n### Overview \n\n- The academy is governed by all of its stakeholders but not micro-managed. The day to day by the auditors themselves autonomously, in close collaboration with the core team, and supervision of the multisig holders. YFI governors, Gitcoin, and Status may get involved if major decisions are to be made.\n\n- Start with 1 founding auditor, with the expectation to add 1-2 more at the end of each KERNEL-Curriculum-Shadowing iteration depicted in the figure above (2-4 iterations per year).\n\n- Communication between auditors and mentees is kept as efficient as possible. No endless tm discussions, but rather a streamlined lines of communication using productivity software.\n\n- Being a mentee in the yAcademy is trial-by-fire type of situation: mentees walk along the process of auditing a contract, receiving hints and/or assignments, results are shared in a certain format ect.\n\n- Mentees join by invitation only, and are unpaid. A few select mentees are selected based from the cohort of ~100 participants in the KERNEL program, but may be invited from the outside as founding editors, core team, and the community at large see fit.\n\n- Mentees that show merit begin to receive rewards. If they continue shining, they may be extended an offer to become permanent members with competitive compensation and equity (equity to the first 5 founding members only).\n\n- Yearn gets a 65% equity in the yAcademy in return for bootstrapping funding, sponsorship of KERNELs, and rewards to outstanding shadow auditors. The Yearn core team will be instrumental in the early stages of yAcademy to bring auditors up to speed and share their expertise. The remaining equity goes 10% to Gitcoin, 10% to Status, and 15% to the first five founding members: 5%, 4%, 3%, 1.5%, and 1.5% to the 1st, 2nd, 3rd, 4th and 5th founding members, respectively. \n\n\n### Rationale:\n\n-  Traditional ways of education and collaboration are obsolete.\n\n-  Invitation-only is an efficiency measure, to make sure time and energy is not wasted hand-holding mentees. But anyone who shows interest and meets the basic minimal requirements should get an invitation.\n\n-  Merit-based: auditors that stick around and bring value are rewarded.\n\n-  Synchronous communication is inefficient. \n\n-  Some structure in the collaboration between mentors and mentees is needed to reduce time waste.\n\n-  No time is wasted authoring educational materials: this is a trial-by-fire type of situation, mentees learn by walking along the auditing process of **real** contracts.\n\n- Equity ensures incentive alignments and reduces bootstrapping operational costs to the absolute minimum. By granting equity to founding members, yAcademy can stay competitive with the industry standard while not allocating too much money on salaries. At the same time, auditors are incentived to perform well since yAcademy's growth means the growth of their equity's value.\n\n### Short-term operational outlook (1-2 years):\n\nYFI governers should expect a budget of ~150-200k in the first year covering the funding of 1-2 founding members and including mentee rewards and kernel sponsorship. The second year's budget will be decided when the time comes, but is expected to not exceed the first year's significantly because the founding members may by then have reached a level where they can take on outside contracts for a premium, which then goes back to funding the yAcademy itself.\n\nyAcademy may go through iterations as we learn and adjust during the first 1-2 years. Current stakeholders all have a track record of being good actor in the ecosystem, and so the happy case outlined in the figure above has a good chance of squeezing out incredible value for the stakeholders and the ecosystem as a whole. \n\n# vote\n\n**Yes**: launch the yAcademy, allocate the budget, hire the first member, and start scouting for the second after the first KERNEL event Jan-Mar 2020.\n\n**No**: do not launch yAcademy, keep the status quo of Yearn paying auditing firms and/or having the core team take on security and/or rely on white hackers to find bugs for bounties.",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 141,
+      "blockNumber": 11237558,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmPTAfJCq3UtFZqY3jdgNEJsxc6yuHwfESnQyjjkoccZrJ",
+      "startTime": {
+        "timestamp": 1605114000
+      },
+      "endTime": {
+        "timestamp": 1605373200
+      },
+      "startTimestamp": 1605114000,
+      "endTimestamp": 1605373200,
+      "currentState": "closed",
+      "choices": [
+        "Launch yAcademy",
+        "Do not launch yAcademy"
+      ],
+      "results": [
+        {
+          "total": 937.08716,
+          "choice": 0
+        },
+        {
+          "total": 0.0992,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbXlubnkzNm95c2dyNXd3N2h3cTdkdXd0aHhobjVwd3lsNzJrYmIzM2RjMzZ2",
+      "id": "QmYnnY36oysGR5ww7hWq7duWtHxHn5PWyL72KBb33dC36V",
+      "title": "First step to contributors stash",
+      "content": "**Summary**: \n\nSeize ~8 YFI from treasury [contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde) and use these funds as a first step to create contributors' stash.\n\n**Rationale**:\n\nNormally, all tokens sitting in treasury [contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde) are recycled – sold for yCRV and send as rewards to YFI stakers. \n\nProposal is to start a slow paced accumulation of YFI for future contributors – seize ~8.005026733686906244 YFI currently sitting in treasury. \n\n**For**: Seize ~8 YFI from treasury [contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).\n\n**Against**: Leave funds for recycling.\n\n**Poll**:",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x0Cec743b8CE4Ef8802cAc0e5df18a180ed8402A7",
+      "totalVotes": 169,
+      "blockNumber": 11199699,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmYnnY36oysGR5ww7hWq7duWtHxHn5PWyL72KBb33dC36V",
+      "startTime": {
+        "timestamp": 1604611800
+      },
+      "endTime": {
+        "timestamp": 1605173400
+      },
+      "startTimestamp": 1604611800,
+      "endTimestamp": 1605173400,
+      "currentState": "closed",
+      "choices": [
+        "Seize ~8 YFI from treasury contract",
+        "Leave funds for recycling"
+      ],
+      "results": [
+        {
+          "total": 719.53284,
+          "choice": 0
+        },
+        {
+          "total": 34.869576,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbWJhcTZqcGI2b2NyaWhqa2RvNXRsbmY0ZDR3OWR3MWhzZXNqN3Z3ZHdkOWcz",
+      "id": "QmbAq6jPB6ocrihjkDo5TLNF4D4w9dw1HsEsJ7vwdwd9g3",
+      "title": "[YIP-52] Make Strategist Skin in Game Partner for Make Benefit of Glorious Brain of Yearn ",
+      "content": "## Authors\n@banteg, @lehnberg, @milkyklim \n\n## Summary\n\n-   With 97.5% of the Vault's performance fee going to the Yearn treasury, Strategists have barely any skin in the game–**39x less than Yearn's Treasury** to be precise.\n-   Such a misaligned balance of interests does not make it attractive for Strategists to build on Yearn. This could turn into an **existential threat** to the protocol.\n-   This proposal sets Yearn and Strategists out to be **equal partners** in the success of a Vault, with each allocated an even share of the 20% performance fee:\n    - Treasury allocation: 10%\n    - Strategist: 10%\n\n\n## Background\n\n### What is Yearn's competitive edge?\n\n#### Yearn as an aggregator\nYearn is often referred to as a \"Yield aggregator\", in the context of Ben Thompson's Aggregation Theory[[1]](#References). \n\n![Aggregation Theory](https://stratechery.com/wp-content/uploads/2015/07/Screen-Shot-2018-03-27-at-12.47.09-PM.png)\n\nSimilar to Google for search, Facebook for social, Netflix for movies, Airbnb for holiday rentals, and Uber for rides, the idea is that Yearn should be the go-to source for users who want to earn the best and most predictable ROI on their DeFi investments.\n\nUnlike these big tech companies however, there are some important differences in the case of Yearn as an aggregator:\n\n* **The code base is open source.** If Yearn solves a hard problem, this means that others can now solve it too. The code base itself is not the competitive moat that it is for other aggregators. As we've seen it's straightforward to create forks/clones and launch competitors to Yearn.\n* **There is no stickiness.** Aggregators have different degrees of stickiness. The Facebook Social Graph is extremely hard to replicate and makes it very difficult for users to switch to a competitor. While it's easy to switch to a Netflix competitor, they will miss out on exclusive original Netflix content so it comes at a cost. Uber's driver pool and Airbnb's housing stock is less unique and easier for its competitors to bootstrap or poach, but is still not trivial to replicate. Yearn on the other hand has no systemic stickiness. It does not even require canceling a subscription, or closing of an account. In the DeFi space, money flows to where it earns the best and most predictable returns. \n* **What's on offer is ever changing and not  easily commoditized.** The aggregators turn \"the hardest problem digitized\" into a commodity. For Facebook it is news articles and social content. For Netflix it's movies and tv-shows. In the case of Yearn, this would be yield-producing investment strategies. _But these cannot be easily commoditized:_ \n   * As soon as a strategy goes live, it can be replicated by competitors, thus affecting its performance.\n   * As more capital flows into the strategy, it can become harder to realize the same opportunities, thus affecting its performance.\n   * As time passes, a successful strategy will lose its alpha as the rest of the market adapts in response, thus affecting its performance.\n\n#### Yearn's Gingerbread Man strategy\n\nWhen Snap filed to go public, they wrote in their S-1 filing:\n\n> In a world where anyone can distribute products instantly and provide them for free, the best way to compete is by innovating to create the most engaging products. That’s because it’s difficult to use distribution or cost as a competitive advantage—new software is available to users immediately, and for free. We believe this means that our industry favors companies that innovate, because people will use their products.\n\nThis triggered the same Ben Thompson to quip that Snap was pursuing a Gingerbread Man strategy[[2]](#References):\n\n> Run, run, run as fast as you can.\nYou’ll never catch me, I’m the gingerbread man.\n\nThis applies well to describe Yearn and the  advantage it has over its competition. It's not the total value locked. It's not the APY returns. It's the ability to ship more innovating products, that are more secure and better performant than anything else on the market. This at a faster pace than the competition can keep up with and try to imitate.\n\n#### Yearn's edge is the collective brain power it attracts and can retain building for it\n\nIf Yearn's business is aggregating yield-bearing strategies, its Strategy creators are the equivalent of Uber's drivers. **Strategy creators are however very different from Uber drivers.** They have much more unique skill sets, making them harder to replace, and more important to retain.\n\n### A Strategist's choices\nSomeone who develops an investment strategy that results in a positive yield has the following choices today: \n\n1. **Work for Yearn.** Partner up, work with protocol devs to integrate Strategy in a vault, hope for launch with a large influx of capital, be compensated as part of the performance.\n2. **Create competing project or work for a competitor.** Either launch a competing project to Yearn, or work for an existing competitor, in the hopes of earning more fees.\n3. **One man wolf pack it.** Deploy strategy solo, perhaps raising funds from friends and family, and keep all the fees.\n\nIn order for Yearn to remain competitive over the long term, the best and the brightest strategists must consistently choose to work with Yearn. This an existential question, necessary in order to ensure the long term sustainability of the protocol.\n\n### How are strategists rewarded today?\nThe next version of Yearn vaults will launch with a two-pronged fee structure[[3]](#References):\n   1. A 2% management fee levied on AUM that goes to the Treasury;\n   2. A 20% performance fee levied on returns from the vault, which is split as follows:\n      * 19.5% to the Treasury\n      * **0.5% to the Strategy creator**\n\nStrategists are expected to cover their own development, testing, gas, and monitoring costs. Under the current allocation, Strategists are not breaking even at times.[[4]]() \n\n## Motivation\n\n### Why not share the management fee?\n* **The protocol requires predictable income.** There are a lot of constant costs on the protocol side. Operations, Development, maintenance, and R&D. These require a stable source of funding and should not be affected by Strategists.\n* **Survival of the fittest.** Strategists should \"eat what they kill\", rewarding only the most ambitious and best performing, filtering out the rest. \n\n### Why split the fee equally between Treasury and Strategists?\n\n* **Establishes a partnership.** The message is clear: Yearn and Strategists are in this together, and it's a symbiotic relationship, where both are held accountable and are equally responsible for success.\n* **Acquisition.** Creates success stories of high earning Strategists that will make it more aspirational and attractive for others to become Strategists.  \n* **Retention.** Strategists with a lot of skin in the game will work and further Yearn as opposed to  a competitor.\n\n### Future possibilities\n\n**Tiered fee system.** As the Strategy creation space matures, there could be justification to distinguish between different qualities of strategies, creating a tiered system that rewards a different share of the performance fee based on the novelty and the sophistication of the strategy, as  proposed in [[5]](#References). At this stage, it's recommended to keep a simple structure that is easy to reason about and for Strategists to understand the appeal of. This should be revisited in the future when needed. \n\n### Comparing allocations\nDrawing from the backtesting data produced in [[6]](#References), below is the Vaults V2 fee model applied to the yUSD vault, showing the difference in earnings between Strategists and Yearn treasury between allocation models.\n\n#### Previous allocation\n![Previous model sankey](https://i.ibb.co/YdnDHmV/sankeymatic-2400x1400.png)\n\n#### Proposed allocation\n\n![Previous model sankey](https://i.ibb.co/9pNCTqw/sankeymatic-2400x1400-2.png)\n\n#### Comments\n\n* The previous allocation to Strategists is disproportionately small compared to the value created by them.\n* In the proposed allocation, the **Yearn treasury receives 64% of all fees** as it is paid the entirety of the management fee.\n* The Strategist now earns a sizable reward that is entirely based on performance. \n\n## Specification\n\n### New performance fee structure\n\n-   20% performance fee\n    -   10% allocated to Treasury\n    -   10% allocated to the Strategist\n\nThe Strategist is expected to pay for all expenses incurred, including those of development, testing, gas, monitoring, and operation.\n\n## References\n\n1. https://stratechery.com/concept/aggregation-theory/\n2. https://stratechery.com/2017/snaps-apple-strategy/ \n3. https://snapshot.page/#/yearn/proposal/QmSaYHR97LDMDvg9xeTfdNZw6aqL9njxBKM6JVFtCYxKvB\n4. https://gov.yearn.finance/t/proposal-increase-strategist-rewards/7299/8\n5. https://gov.yearn.finance/t/proposal-increase-strategist-rewards/7299/10\n6. https://gov.yearn.finance/t/restructure-fees-and-align-incentives/\n",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x0Cec743b8CE4Ef8802cAc0e5df18a180ed8402A7",
+      "totalVotes": 222,
+      "blockNumber": 11224799,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmbAq6jPB6ocrihjkDo5TLNF4D4w9dw1HsEsJ7vwdwd9g3",
+      "startTime": {
+        "timestamp": 1604945400
+      },
+      "endTime": {
+        "timestamp": 1605162000
+      },
+      "startTimestamp": 1604945400,
+      "endTimestamp": 1605162000,
+      "currentState": "closed",
+      "choices": [
+        " Accept proposal",
+        "Reject proposal"
+      ],
+      "results": [
+        {
+          "total": 1341.9396,
+          "choice": 0
+        },
+        {
+          "total": 260.1291,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbXNheWhyOTdsZG1kdmc5eGV0ZmRuenc2YXFsOW5qeGJrbTZqdmZ0Y3l4a3Zi",
+      "id": "QmSaYHR97LDMDvg9xeTfdNZw6aqL9njxBKM6JVFtCYxKvB",
+      "title": "Set Vault v2 fee structure",
+      "content": "## Authors\n@banteg, @fubuloubu, @lehnberg, @milkyklim, @tracheopteryx \n\n## Summary\n\n-   Focused proposal to set the fee structure for Vaults v2 to:\n    1. No withdrawal fee\n    2. Management fee (2%)\n    3. Performance fee (20%)\n-   The proposal leaves:\n    -   Total fees collected at roughly the same level as for Vaults v1\n    -   Strategist reward allocation unchanged\n    -   YFI staking and rewards unchanged\n    -   Treasury management unchanged\n\n## Background\n\nThe high level design of the next iteration of Yearn Vaults, v2, has been voted on and approved by YFI holders.[[1]](#References) It is currently in the later stages of the development cycle. Testing has begun, and security audits are in progress.\n\nWith the new vaults likely being weeks away from launch, it is high time to finalize how fees will be collected in them.\n\n### Out of scope\n\nThere are currently active discussions underway in the community about many related topics, such as to what extent:\n\n-    Rewards should be distributed to YFI stakers [[2]](#References)\n-   Strategist creators should be rewarded  for their contributions [[3]](#References)\n-   Contributors should be allocated a portion of rewards for the purpose of long term incentivization [[4]](#References)\n\nThose questions are not answered by this proposal, and are not discussed further here. Specifically, anything that concerns what fees are spent on, how different stakeholders are compensated, or how the treasury should be run, is not covered by this proposal and is assumed to be unchanged.\n\n### In scope\n\nInstead, the focus here is to determine _how fees are collected_, and _the total amount collected_, with the intention to meet the following objectives:\n\n-   **Keep fees at roughly the same level.** The proposal should not lead to a significant change in the overall fee levels that are in place today with Vaults v1.\n-   Ensure fees incentivize the desired behavior among various stakeholders:\n    -   **Users** should be encouraged to keep funds in a vault if it performs well, and withdraw if the vault under-performs.\n    -   **Yearn** should be encouraged to design the best possible vaults, by ensuring rewards go up as a vault attracts and retains capital, and go down as capital leaves the vault. Similarly, rewards should increase if the vault performs well, and decrease if it under-performs.\n    -   **Third party integrations** should be encouraged to integrate Yearn vaults in their own products and services. It should be easy for them to reason about the expected behavior when depositing and withdrawing, and the fees charged by the vault.\n\n## Motivation\n\n### Previous fee structure, Vaults v1\n\n-   5% performance fee, out of which\n    -   4.5% went to Treasury\n    -   0.5% went to the Strategist\n-   0 to 0.5% withdrawal fee\n    -   0% when funds were available in the Vault\n    -   0.5% when funds had to be withdrawn from the Strategy\n\n### Problems with a fee on withdrawals\n\n-   **Charges Users when they are the least happy with the vault.** You are charged a withdrawal fee when you no longer use the vault. If the vault performs, you would leave your funds in it and avoid paying for the service.\n-   **Rewards Yearn when there is capital flight.** More money leaving the vault leads to more fees, when it should be the opposite.\n-   **Can be gamed.** Astute users and integrations can time it so that they make free withdrawals in the period after the vault has seen deposits, as long as it's done before those funds have been sent to the Strategy for investing.\n-   **Makes fees unpredictable for integrations.** It's unclear what the fees charged will be prior to the actual withdrawal, making it harder for third party integrations to calculate ROI accurately.\n\n### Benefits with a management fee\n\n-   **Continuous pay based on usage.** The vault provides a service that people are paying for, continuously, based on the time their capital is in the vault. There is no incentive to withdraw late or early.\n-   **Encourages optimizing for retention.** Yearn earns more fees when users keep funds in the vault, and makes less when they withdraw.\n-   **Benefits composability.** Makes it easier to integrate Vaults with other products and services.\n\n### Comparing fees with v1\n\nThe backtesting data produced in [[4]](#References) shows how the new fee model is delivering roughly the same amount of total fees, compared to the model used in Vaults v1:\n\n![bar chart](https://i.imgur.com/dI13oYy.png)\n\n|  | Withdrawal fee | Performance fee | Management fee | Total fees | % |\n|---|---:|---:|---:|---:|---:|\n| **Old** | $2,243,078 | $466,822 | N/A | $2,709,900 | 100% |\n| **New** | N/A | $1,867,288 | $699,237 | $2,566,525 | 95%\n\n#### Comments\n* The previous withdrawal fee accounted for a whopping **83%** of all fees collected. This is very high for a fee that is unrelated to actual performance of the service.\n* In contrast, the management fee in Vaults v2 would only account for **27%** of total fees.\n* A much larger portion of fees are now made out of the performance fee component, **17%** of total fees in the old model, **73%** in the new model. This means that incentives are better aligned as Yearn earns most of it fees and Users pay most of their fees only if the Vaults are performing well.\n\n## Specification\n\n### New fee structure\n\n-   0% withdrawal fee\n-   2% annualized management\n    -   Full amount allocated to Treasury\n    -   Accrued per block\n    -   Collected on each harvest)\n-   20% performance fee\n    -   19.5% allocated to Treasury\n    -   0.5% allocated to the Strategist (unchanged to v1)\n\n## References\n\n1. https://yearn.snapshot.page/#/yearn/proposal/QmRKmXuEMaqY38ccvuZREmi6SfMxyhWQMT3mhJ6Cgfeqq9\n2. https://gov.yearn.finance/t/proposal-rethinking-capital-allocation/7304/\n3. https://gov.yearn.finance/t/proposal-increase-strategist-rewards/\n4. https://gov.yearn.finance/t/restructure-fees-and-align-incentives/",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 259,
+      "blockNumber": 11204540,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmSaYHR97LDMDvg9xeTfdNZw6aqL9njxBKM6JVFtCYxKvB",
+      "startTime": {
+        "timestamp": 1604707200
+      },
+      "endTime": {
+        "timestamp": 1604966400
+      },
+      "startTimestamp": 1604707200,
+      "endTimestamp": 1604966400,
+      "currentState": "closed",
+      "choices": [
+        "Release Vaults v2 with the proposed fee structure",
+        "Release Vaults v2 with some other fee to be defined fee structure"
+      ],
+      "results": [
+        {
+          "total": 1771.7278,
+          "choice": 0
+        },
+        {
+          "total": 4.5321918,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbWJqZDVyY3NrYm55MmFuYmhjMXVuOWhnZHlybm4zd2kycW96dm00d3FhaXRi",
+      "id": "QmbJd5rCsKbNY2anBHc1uN9hgdyrNn3wi2qozVm4WQAitb",
+      "title": "Adopt a Code of Conduct",
+      "content": "**Summary**:\n\n> * Adopt a standard code of conduct template across the entire project.\n> * Encourage moderators to organise their own governance independent of project leadership.\n\n\n**Abstract**:\n\n\n> In order to nurture its growing community, and to make it easier to moderate in a fair and predictable manner, Yearn should adopt a project-wide code of conduct.\n>\n> Instead of reinventing the wheel, adopt a standard that is already used by large open sources projects such as  Golang, Linux, React, Vue.js, and [many more](https://www.contributor-covenant.org/adopters/).\n>\n> If this proposal passes, Yearn will adopt the latest version of the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) for all contributors to Yearn related repositories, forums, chats, communities, and events. Moderators across the project will work to uphold its standards and carry out enforcement actions as specified in it.\n>\n> See the [related FAQ](https://www.contributor-covenant.org/faq/) for answer to common questions about the Contributor Covenant.\n>\n> Moderators should begin to self-organize and discuss enforcement processes.\n\n**Motivation**:\n\n> Without a code of conduct, it is unclear what kind of language and behaviour is tolerated in Yearn's community.\n>\n> It makes enforcement arbitrary and subjective, complicating fair and appropriate moderation.\n>\n> Having a code of conduct makes it clear for community members what is acceptable behaviour, and what to expect when there are violations.\n>\n> Having a code of conduct as a \"constitution\", enables moderators to become autonomous and independent from the project's leadership team, as they can enforce its spirit without their involvement. This leads to less involvement of project leaders in moderation decisions, which leads to fewer accusations of abuse of power, censorship, or bias.\n\n**Specification**:\n\n> 1. Verbatim adoption of the Contributor Covenant.\n> 1. Host on the yearn.finance website, with links to it from all relevant repositories in `CODE_OF_CONDUCT.md` files.\n> 1. Gather moderators together and work on enforcement, communication channels, and processes. \n> 1. Aim to create a separate moderation team that is independent of project leadership.\n",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x0Cec743b8CE4Ef8802cAc0e5df18a180ed8402A7",
+      "totalVotes": 119,
+      "blockNumber": 11009160,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmbJd5rCsKbNY2anBHc1uN9hgdyrNn3wi2qozVm4WQAitb",
+      "startTime": {
+        "timestamp": 1602064800
+      },
+      "endTime": {
+        "timestamp": 1602669600
+      },
+      "startTimestamp": 1602064800,
+      "endTimestamp": 1602669600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, let's adopt the proposed Code of Conduct",
+        "No, let's make arbitrary moderation decisions"
+      ],
+      "results": [
+        {
+          "total": 271.81482,
+          "choice": 0
+        },
+        {
+          "total": 24.58541,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbXJrbXh1ZW1hcXkzOGNjdnV6cmVtaTZzZm14eWh3cW10M21oajZjZ2ZlcXE5",
+      "id": "QmRKmXuEMaqY38ccvuZREmi6SfMxyhWQMT3mhJ6Cgfeqq9",
+      "title": "Vaults V2 Design",
+      "content": "# Summary\nThis YIP proposes a redesign of the Yearn Vaults system to accommodate several improvements meant to increase the robustness, security, and flexibility of the Vaults moving forwards\n\n# Motivation\nThe current yVault design has made it possible for Yearn to scale to the point it is today. However, due to its design, it has been difficult to maintain, and is missing a number of features that could improve the risk/return profile of Vaults, and improve their overall security and reliability in the process.\n\nWe propose that a refactor of the Vault system to add these features would be an improvement to the overall design, enabling the maintainers of the Yearn codebase to increase their efforts at Quality Assurance and testing for faults, streamline the development of new and innovative strategies (with an improved and standardized API for Strategists to use), and most importantly give the Governance of Yearn the tools they need to optimize Vault yields and manage risk of a larger system better.\n\n# Improvements for V2 design\n- Allow a Vault to have multiple strategies at the same time\n- Streamline the development cycle of new strategies using a standard API\n- Streamline the QA/Security process for Vaults, to ensure the highest quality code\n - Ensure the Vaults are tested to handle different types of Strategy risk/return/volatility thresholds\n- Make it easier and safer for integrators to use Vaults in their projects\n\n# Specification\nThe Specification for the proposal is being tracked a Gist to better track any changes made.\n\nhttps://gist.github.com/fubuloubu/7b14c954c21d8cb01562edd732fd35b7",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 200,
+      "blockNumber": 11000190,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmRKmXuEMaqY38ccvuZREmi6SfMxyhWQMT3mhJ6Cgfeqq9",
+      "startTime": {
+        "timestamp": 1601960400
+      },
+      "endTime": {
+        "timestamp": 1602219600
+      },
+      "startTimestamp": 1601960400,
+      "endTimestamp": 1602219600,
+      "currentState": "closed",
+      "choices": [
+        "Adopt the proposal",
+        "Reject the proposal"
+      ],
+      "results": [
+        {
+          "total": 1888.4866,
+          "choice": 0
+        },
+        {
+          "total": 0.7640055,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbXptazJ0OHBqcHF0ZjRkaG15Z2R2bXphc2V6eGdzcXIxeXpveGxxNnNwZTFs",
+      "id": "QmZmk2t8pjpqTF4dHmyGDvMzaSezxGSQR1yZoxLq6sPE1L",
+      "title": "Raise the salary of core team member Artem",
+      "content": "## Simple Summary\n\n> Increase the monthly salary of core team member Artem K (@banteg) to 150K per year (12.5k per month). This represents a ~56% increase of the current 96k per year (8k per month). The current 96k represents an entry-level compensation in the software industry. Artem's contributions are evident and are always shared publicly, and belong to the senior developer category.\n\n## Motivation\n\n> - Reward and retain talent\n> - Meet minimum industry compensation standards for a senior-level developer position\n\n## Specification\n\n> Starting the month of October 2020 Artem's salary is increased from 8k to 12.5k per month.\n\n## Rationale\n    \n >- Artem has been contributing to the implementation of yEarn products and patches, and responding to emergencies at an outstanding pace\n> - Artem work is always shared publicly which is valuable for communication and education of the community\n>- Artem has been an advocate for yEarn in the ecosystem, e.g. creating Maker proposals for the benefit of yEarn\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x0Cec743b8CE4Ef8802cAc0e5df18a180ed8402A7",
+      "totalVotes": 181,
+      "blockNumber": 10954411,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmZmk2t8pjpqTF4dHmyGDvMzaSezxGSQR1yZoxLq6sPE1L",
+      "startTime": {
+        "timestamp": 1601513700
+      },
+      "endTime": {
+        "timestamp": 1601805600
+      },
+      "startTimestamp": 1601513700,
+      "endTimestamp": 1601805600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, increase Artem's to 12.5k/month",
+        "No, keep the status quo of 8k/month"
+      ],
+      "results": [
+        {
+          "total": 441.4642,
+          "choice": 0
+        },
+        {
+          "total": 30.0303,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbXh1ZGZlYzlsbzljdjdqODloOTh3YXNzdnZtbXdhMWtrcnluNHRoZ2NlaHJo",
+      "id": "QmXudfEC9Lo9cv7j89h98WaSsVVMMWa1KKRyN4thgcEhrh",
+      "title": "YIP: Release fee rewards",
+      "content": "Summary:\n\nAllow people to claim their rewards right now without any on-going voting.\n\nAbstract:\n\nMultisig will set breaker to true in the governance contract. This will allow people to claim rewards instantly.\n\nMotivation:\n\nWith current ethereum gas prices governance migrated to snapshot off-chain voting/signaling. While voting and saving on gas fees voters are unable to claim fee rewards acquired by the protocol.\n\nSpecification:\n\nNo new code will be deployed. If this proposal passes multisig will set breaker to true in the governance contract.\n\nFor: Set breaker to true.\n\nAgainst: Keep things as they are now.",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x0Cec743b8CE4Ef8802cAc0e5df18a180ed8402A7",
+      "totalVotes": 285,
+      "blockNumber": 10905651,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmXudfEC9Lo9cv7j89h98WaSsVVMMWa1KKRyN4thgcEhrh",
+      "startTime": {
+        "timestamp": 1600610820
+      },
+      "endTime": {
+        "timestamp": 1600870020
+      },
+      "startTimestamp": 1600610820,
+      "endTimestamp": 1600870020,
+      "currentState": "closed",
+      "choices": [
+        "Set breaker to true",
+        "Keep things as they are now"
+      ],
+      "results": [
+        {
+          "total": 1170.3552,
+          "choice": 0
+        },
+        {
+          "total": 64.397804,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbWF3b3U5eTZwMXA3ZnRjNGRoOGd3b29yd2RteG0yb3piZ2xncmVwbTNtZnV2",
+      "id": "QmaWoU9y6P1P7FTc4dH8gwoorwdMXM2oZbGLGRePM3MfUV",
+      "title": "Upgrade Treasury Vault to solve gas subsidy, gitcoin and more ",
+      "content": "### Summary\nThis proposal bundles a few improvements together which have compounding effects. It will solve for [gas subsidy](https://gov.yearn.finance/t/gas-costs-are-too-damn-high/4655), [gitcoin grants](https://gov.yearn.finance/t/direct-of-rewards-towards-ethereum-public-goods-funding/3699), inability to convert other Curve tokens into rewards for governance stakers.\n\n### Abstract\nAdd split functionality to TreasuryVault which can send the rewards to multiple destinations before sending them to governance staking contract. Add ability to withdraw from Curve pools. Add ability to trade using Uniswap.\n\n \n### Motivation\nThere is a very good [competing proposal](https://gov.yearn.finance/t/proposal-change-vault-harvest-function-to-reward-function-caller/4726) which solves for gas refunds by modifying `harvest()` function. But here is some rationale for using TreasuryVault instead:\n1. Putting this in `harvest()` doesn't refund on failed txs, which can eat up $500 by the moment it fails\n2. Requires redeploying and migrating all strategies, which can't be done easily for the strategies yDAI and yWETH vaults are currently positioned in.\n3. Treasury contract needs upgrading anyway, I was working on a converter and reward distribution bot and was stuck with OneSplit not being smart enough to unwrap Curve LP tokens.\n4. We'll be able to solve converting other assets finally and distribute the rewards accumulated from vaults other than yUSD.\n5. We can bundle this with gitcoin proposal, which is time-sensitive, since the next round starts on September 15th.\n\n### Specification\n1. Develop and deploy a TreasuryVaultV2 contract with these additional features:\n   - Ability to whitelist additional [CurveDeposit](https://www.curve.fi/contracts) contracts when more pools are created.\n   - Unwrap into underlying Curve LP coins or a single coin (CurveDeposit has us covered here).\n   - Trade via Uniswap in addition to OneSplit, this helps immensely with testing and optimizing the bot which does the trading.\n   - [Disperse](https://disperse.app)-like split functionality which can send different amounts to multiple recipients.\n   - The split functionality should also call `notifyRewardAmount` when it sends rewards to `ygov`.\n2. This proposal will require some additional work for gas accounting, which can be delegated to a bot.\n\n### Urgency\nGiven the gas costs are eating through our budget at $25k/day rate, I propose to have an expedited vote for this with a 1-day duration. We should have the implementation ready shortly after.",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 128,
+      "blockNumber": 10795022,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmaWoU9y6P1P7FTc4dH8gwoorwdMXM2oZbGLGRePM3MfUV",
+      "startTime": {
+        "timestamp": 1599224400
+      },
+      "endTime": {
+        "timestamp": 1599310800
+      },
+      "startTimestamp": 1599224400,
+      "endTimestamp": 1599310800,
+      "currentState": "closed",
+      "choices": [
+        "Implement the proposal",
+        "Reject the proposal"
+      ],
+      "results": [
+        {
+          "total": 1387.2667,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbXNlemJkZng5cWZxeWYydmdmd2N3cW5yY2J6NmZoa2R0NXRoeXBtaHM4dG41",
+      "id": "QmSEZBdFx9qfqYF2VGFWcWqnrCBZ6FHKDt5ThyPmHS8TN5",
+      "title": "VOTE: Gucci Slipper NFT Design Competition",
+      "content": "Vote for your favorite design. \n\nThe winner will adorn the legendary PoG NFT POAPs that you will one day bequeath to your great-grand kids. Oh, and they win 5,000,000 Dres (0.05 YFI 🤤)\n\n@learn2yearn's Proposal: https://gov.yearn.finance/t/proposal-guccis-for-andre  \nOpen Call: https://gov.yearn.finance/t/open-call-gucci-slipper-nft-design-competition\n\n**1: boatonagoat** \n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/5/56dda19a542365a669873f1e04fbec84bdcbd63e.png)\n\n**2: Definn 1**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/8/80b87dac3261f289df3d623964c614c721d050c3.png)\n\n**3: uhmpeps & Definn**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/5/59abe1f9a50d4804c95202ac0dc4211cb410db84.jpeg)\n\n**4: mpod**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/0/06cf610ad92b9c0c687c8e3ab1dd7703a5e9a89e.png)\n\n**5: CryptoBeaver**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/e/edfffb9cedbeacddee0a9df00ba629e3e5a4c157.png)\n\n**6: kyoku**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/8/8ba76bc8f838a65d7c5fd1aaa6eeb48feda28af3.png)\n\n**7: Definn 2**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/1/196002ddc4d4fa52743165577cbe88fb97d6ef2e.png)\n\n**8: gabriel**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/c/cfcd65fb3af0f2f44994dfc1c43b4b605082d865.png)\n\n**9: buddyart 1**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/8/88228d2749b51cc040eefe68804f1615eb234264.png)\n\n**10: Jokreg**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/7/7d092ade96556f4c5903beb01595e3708ff3b4a4.png)\n\n**11: thajuiceman**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/0/032dde12d28afa1df30c566a2dc586362996e4e5.png)\n\n**12: buddyart 2**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/a/ab5eb39da430662d889834af2d4156af9f0d55b2.png)\n\n**13: vipes 1**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/d/de80a03b7b92af2f2770bcaab2e463bf470f5a2a.png)\n\n**14: vipes 2**\n![](https://aws1.discourse-cdn.com/business20/uploads/yearn/original/2X/f/f3e764e44a1a28dd933212883d6f1a027b675559.png)\n\n\n\n\n",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x29C4dbC1a81d06c9AA2fAed93Bb8B4a78F3eabDb",
+      "totalVotes": 80,
+      "blockNumber": 10769381,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmSEZBdFx9qfqYF2VGFWcWqnrCBZ6FHKDt5ThyPmHS8TN5",
+      "startTime": {
+        "timestamp": 1598886000
+      },
+      "endTime": {
+        "timestamp": 1599058800
+      },
+      "startTimestamp": 1598886000,
+      "endTimestamp": 1599058800,
+      "currentState": "closed",
+      "choices": [
+        "boatonagoat",
+        "Definn 1",
+        "uhmpeps & Definn",
+        "mpod",
+        "CryptoBeaver",
+        "kyoku",
+        "Definn 2",
+        "gabriel",
+        "buddyart 1",
+        "Jokreg",
+        "thajuiceman",
+        "buddyart 2",
+        "vipes 1",
+        "vipes 2"
+      ],
+      "results": [
+        {
+          "total": 64.00508,
+          "choice": 11
+        },
+        {
+          "total": 1.8715,
+          "choice": 9
+        },
+        {
+          "total": 2.0979,
+          "choice": 3
+        },
+        {
+          "total": 8.662779,
+          "choice": 5
+        },
+        {
+          "total": 6.1945,
+          "choice": 0
+        },
+        {
+          "total": 49.569736,
+          "choice": 10
+        },
+        {
+          "total": 19.413996,
+          "choice": 6
+        },
+        {
+          "total": 0.0,
+          "choice": 13
+        },
+        {
+          "total": 0.0,
+          "choice": 7
+        },
+        {
+          "total": 0.19868264,
+          "choice": 1
+        },
+        {
+          "total": 169.4807,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbWRvcXI0NHE4cmNwZDdtZnFzbWhxd3Q0bzN4NG16Mms4OXVsYWU0ZmV4Y3dm",
+      "id": "QmdoQr44Q8rCPd7mfQsMhQwt4o3X4MZ2k89uLAe4fEXCwf",
+      "title": "Reward authors of innovative strategies",
+      "content": "Summary\nReward authors of original strategies by determining a split between strategist and governance roles.\n\nAbstract\nThis proposal is to poll for a reward split between strategy makers and governance stakers. It will be promoted to YIP unless a noop (0% to strategist, 100% to governance) option wins.\n\nMotivation\nA kid can write a \"stake in unipool, sell on uniswap\" strategy these days. But can we come up with something better? Can your strategy hold up when there is $100 million in it?\n\nOur very first community-developed strategy for ETH will come out real soon, it's the most complex so far and I think it's an important point to have this discussion.\n\nWe need to reward people who develop original and ingenious strategies.\n\nSpecification\nImplement a per-strategy harvest % split between `strategist` and `governance`.",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 109,
+      "blockNumber": 10741504,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmdoQr44Q8rCPd7mfQsMhQwt4o3X4MZ2k89uLAe4fEXCwf",
+      "startTime": {
+        "timestamp": 1598517000
+      },
+      "endTime": {
+        "timestamp": 1598776200
+      },
+      "startTimestamp": 1598517000,
+      "endTimestamp": 1598776200,
+      "currentState": "closed",
+      "choices": [
+        "0% to strategist, 100% to governance",
+        "10% to strategist, 90% to governance",
+        "20% to strategist, 80% to governance",
+        "30% to strategist, 70% to governance",
+        "40% to strategist, 60% to governance",
+        "50% to strategist, 50% to governance",
+        "60% to strategist, 40% to governance",
+        "70% to strategist, 30% to governance",
+        "80% to strategist, 20% to governance",
+        "90% to strategist, 10% to governance",
+        "100% to strategist, 0% to governance"
+      ],
+      "results": [
+        {
+          "total": 6.445,
+          "choice": 3
+        },
+        {
+          "total": 1.084972,
+          "choice": 5
+        },
+        {
+          "total": 41.130817,
+          "choice": 0
+        },
+        {
+          "total": 89.507126,
+          "choice": 2
+        },
+        {
+          "total": 390.99637,
+          "choice": 1
+        },
+        {
+          "total": 10.230269,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6eWJhYnk6YXJjaGl2ZTpxbWRqZWFjZGZudnF2eWRlYXBvYm52NmJidGVyM212YXhuYmhiYXgxZ3doNnFw",
+      "id": "QmdjEaCdfNvQVYDeApobNV6BbteR3mVAXnbHBax1gWh6Qp",
+      "title": "Guccis for Andre",
+      "content": "This proposal would require Andre Cronje to claim the Gucci sliders sent to him by Learn Yearn and upload PoG. (proof of Guccis) to the forum.\n\nAbstract\nCurrently the footwear Andre has pales in comparison to the overall aesthetic, comfort and lavishness of Gucci sliders. As chief builder and architect of YFI and the yearn ecosystem, his feet deserve only the finest most luxurious handcrafted Italian fashion.\n\nMotivation\nAndre refuses all monetary rewards but has said he is at the mercy of the protocol. It is time for the protocol to rise up and deliver the Guccis. These Guccis can also be worn at the future YFI Tokyo party, saving Andre the time and money of buying them later.\n\nCommunity development\nPutting the Guccis to vote will get people using the new system and increase activity going forward.\n\nHaving fun.\nYou know when you work hardest? When you’re having fun. Things have been too serious lately. Let’s get everyone together for the best cause on the planet.\n\nSpecification \nLearn Yearn sends a digital coupon to Andre Cronje to claim a pair of Gucci sliders.\n\nAndre receives the Gucci sliders and uploads PoG to the forum.\n\nEveryone who participates in the voting will receive a GUCCI NFT representing their participation in this once in a lifetime event.",
+      "protocol": "ybaby",
+      "adapter": "archive",
+      "proposer": "0x7A1057E6e9093DA9C1D4C1D049609B6889fC4c67",
+      "totalVotes": 202,
+      "blockNumber": 10737432,
+      "externalUrl": "https://snapshot.org/#/yearn/proposal/QmdjEaCdfNvQVYDeApobNV6BbteR3mVAXnbHBax1gWh6Qp",
+      "startTime": {
+        "timestamp": 1598376600
+      },
+      "endTime": {
+        "timestamp": 1598635800
+      },
+      "startTimestamp": 1598376600,
+      "endTimestamp": 1598635800,
+      "currentState": "closed",
+      "choices": [
+        "Andre gets Guccis. We all get a Gucci NFT.",
+        "Nothing changes. No Guccis."
+      ],
+      "results": [
+        {
+          "total": 1617.943,
+          "choice": 0
+        },
+        {
+          "total": 3.4293408,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

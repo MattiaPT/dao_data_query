@@ -1,0 +1,256 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Y3JlYXRpdmVraWR6Om9uY2hhaW46MHhlMjYxMmY4YjVjOGVlZjJhMTcwOWFlNWFkZDE5YTNjZTBhNWI3NjljMzgwODg3N2NlMDYwYzgyNjZlNjU5Nzk0",
+      "id": "0xe2612f8b5c8eef2a1709ae5add19a3ce0a5b769c3808877ce060c8266e659794",
+      "title": "Proposal 0xe2612f8b5c8eef2a1709ae5add19a3ce0a5b769c3808877ce060c8266e659794",
+      "content": " ",
+      "protocol": "creativeKidz",
+      "adapter": "onchain",
+      "proposer": "0x3886C009A3d537562f3191D89105C9eDF4F24f17",
+      "totalVotes": 1,
+      "blockNumber": 18595702,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1700360147
+      },
+      "endTime": {
+        "timestamp": 1700705747
+      },
+      "startTimestamp": 1700360147,
+      "endTimestamp": 1700705747,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18595702
+          },
+          "event": "pending",
+          "timestamp": 1700273747,
+          "txHash": "0xd11fcf0525c7884a778112efd73f97b59de89abb8fe946b885bcdb0a1b8a7088"
+        },
+        {
+          "time": {
+            "blockNumber": 18633232
+          },
+          "event": "queued",
+          "timestamp": 1700728055,
+          "txHash": "0x1921ed49d9b62c160541b499cd0f6c094b183de7788906459edc8e491b2d0ebc"
+        },
+        {
+          "time": {
+            "blockNumber": 18647720
+          },
+          "event": "executed",
+          "timestamp": 1700903327,
+          "txHash": "0x1eac200f939b2ce7248a779343d16ef0eacc0867989a93981f071d4f3f6404ab"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1700274279234,
+      "txHash": "0xd11fcf0525c7884a778112efd73f97b59de89abb8fe946b885bcdb0a1b8a7088",
+      "quorum": 1,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlYXRpdmVraWR6Om9uY2hhaW46MHgyODE5MTZkYjdjYmEzMTJhNThhNzM4NzY4YWEzZWYwZjcwZWY3NzYwNGE5ZDUyNGEyOTI0YTIzM2RkNjlmYmNi",
+      "id": "0x281916db7cba312a58a738768aa3ef0f70ef77604a9d524a2924a233dd69fbcb",
+      "title": "Proposal 0x281916db7cba312a58a738768aa3ef0f70ef77604a9d524a2924a233dd69fbcb",
+      "content": " ",
+      "protocol": "creativeKidz",
+      "adapter": "onchain",
+      "proposer": "0x3886C009A3d537562f3191D89105C9eDF4F24f17",
+      "totalVotes": 1,
+      "blockNumber": 18552693,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1699840547
+      },
+      "endTime": {
+        "timestamp": 1700186147
+      },
+      "startTimestamp": 1699840547,
+      "endTimestamp": 1700186147,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 0
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18552693
+          },
+          "event": "pending",
+          "timestamp": 1699754147,
+          "txHash": "0x81397185663250d0eb9c81f1f0814d317f43e08f177b2d9d320a5ac4fad715d9"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 0
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1699756571252,
+      "txHash": "0x81397185663250d0eb9c81f1f0814d317f43e08f177b2d9d320a5ac4fad715d9",
+      "quorum": 1,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlYXRpdmVraWR6Om9uY2hhaW46MHhjMTljY2QyNDE4YTk5YWNlMDA2NjAyMzZhM2ZlOGJmNGFlZTI0NTZlMDc4OGJlYTAyMWY4YTRlNjA1YzMwYTky",
+      "id": "0xc19ccd2418a99ace00660236a3fe8bf4aee2456e0788bea021f8a4e605c30a92",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-03-21",
+      "content": "![](https://i.imgur.com/HrQKZMG.png)\n\n## Summary\n\nThis proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.\n\n### Airdrop\n\nAbility for DAOs to assign minters and airdrop tokens.\n",
+      "protocol": "creativeKidz",
+      "adapter": "onchain",
+      "proposer": "0xfA21EBBe9749E34DC7Cc1d6a6e0Cc757ee866643",
+      "totalVotes": 1,
+      "blockNumber": 16879144,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1679526167
+      },
+      "endTime": {
+        "timestamp": 1679871767
+      },
+      "startTimestamp": 1679526167,
+      "endTimestamp": 1679871767,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16963991
+          },
+          "event": "queued",
+          "timestamp": 1680470039,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16996965
+          },
+          "event": "executed",
+          "timestamp": 1680874823,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679440009952,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3JlYXRpdmVraWR6Om9uY2hhaW46MHhjNDlmYmRiMWIzYzA2NzZmOTNhMjg4MTY4ZjdmMGI4M2YzNzQwYTlkNzUxYWVlM2ZjOWQwOTRjMGFhZDI5MGM1",
+      "id": "0xc49fbdb1b3c0676f93a288168f7f0b83f3740a9d751aee3fc9d094c0aad290c5",
+      "title": "DAO Description Update",
+      "content": "<h1>Description Typo (Update)</h1><p>Noticed there was some text in the desciption that needed to be updated.</p>",
+      "protocol": "creativeKidz",
+      "adapter": "onchain",
+      "proposer": "0xfA21EBBe9749E34DC7Cc1d6a6e0Cc757ee866643",
+      "totalVotes": 1,
+      "blockNumber": 16507071,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1675016459
+      },
+      "endTime": {
+        "timestamp": 1675362059
+      },
+      "startTimestamp": 1675016459,
+      "endTimestamp": 1675362059,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16549980
+          },
+          "event": "queued",
+          "timestamp": 1675448063,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417292086,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

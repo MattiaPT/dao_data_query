@@ -1,0 +1,703 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6c3dpdmVsZGFvZXRoOnNuYXBzaG90OjB4ZjE1Zjc4NzZhMzdiOTQzZmVhNDU1ZWUzNWVlYjgxYTMxYTMwZGNkYzA5OGRkZTM4YzQ4MzcwNzNmYjM2NzJmNg==",
+      "id": "0xf15f7876a37b943fea455ee35eeb81a31a30dcdc098dde38c4837073fb3672f6",
+      "title": "SIP (#010): New Staked ETH Market Launch",
+      "content": "In context of the recent success of our stETH market, we will be launching a new maturity for staked ETH assets, and generally also be looking towards adding more staking assets in the future across EVM compatable chains.\n\nThat said, we have a number of growing options for staking partners, many of which would love the opportunity to reduce their exposure to volatility and offer fixed-yield staking.\n\nThe top options are:\n- Lido\n- Frax\n- Rocketpool\n- Ankr\n- Other\n\nFor a brief overview of each, see below:\n\nLido:\nCurrent APY: 5.0%\nTVL: $10.4b\n\nLido is generally seen as the de-facto staking derivative with the vast majority of the market share. That said, the lido APY has not been competitive with the wider market over the recent month.\n\nFrax:\nCurrent APY: 6.37%\nTVL: $221.6m\n\nFrax uses a bifurcated design which ensures stakers always benifet from higher APYs that competitors. The margin stakers benefit from depends on FXS incentives to fraxETH liquidity providers and as such this benefit may not scale over time.\n\nRocketpool:\nCurrent APY: 3.93%\nTVL: $1.12b\n\nRocketpool uses a split design to incentivize the creation of new nodes, however has also seen difficult scalability and non-competitive yields for those not running nodes. That said, rocketpool provides the most sustainable design from a decentralization perspective.\n\nProposal\nWith the context provided above, we are asking the community to identify our ideal staked ETH integration partner (for now), for the immediate relaunch of our stETH or other market launch.\n\nVoting\nYour options will be:\n\nLido stETH\nFrax frxETH\nRocketpool\nWho is the ideal partner for our immediate staked ETH market launch? Leave your thoughts below and/or in our discord, and vote at vote.swivel.finance",
+      "protocol": "swiveldaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3f60008Dfd0EfC03F476D9B489D6C5B13B3eBF2C",
+      "totalVotes": 21,
+      "blockNumber": 16918205,
+      "externalUrl": "https://snapshot.org/#/swiveldao.eth/proposal/0xf15f7876a37b943fea455ee35eeb81a31a30dcdc098dde38c4837073fb3672f6",
+      "startTime": {
+        "timestamp": 1679913948
+      },
+      "endTime": {
+        "timestamp": 1680173148
+      },
+      "startTimestamp": 1679913948,
+      "endTimestamp": 1680173148,
+      "currentState": "closed",
+      "choices": [
+        "Lido",
+        "Frax",
+        "Rocketpool"
+      ],
+      "results": [
+        {
+          "total": 18779.014,
+          "choice": 0
+        },
+        {
+          "total": 143374.47,
+          "choice": 2
+        },
+        {
+          "total": 330213.22,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 18779.014052129627,
+          "choice": 0
+        },
+        {
+          "total": 330213.23011837393,
+          "choice": 1
+        },
+        {
+          "total": 143374.46899849406,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679914402161,
+      "txHash": "",
+      "quorum": 200000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3dpdmVsZGFvZXRoOnNuYXBzaG90OjB4NDQ2MWY0YzJhNDRiNmRmN2EyNzk5Yzk5ZGZiNDI2NWVjNWQxOGNlZjJjZDkxNTcyNGI5MmIyY2NjY2M2ZTg3Yw==",
+      "id": "0x4461f4c2a44b6df7a2799c99dfb4265ec5d18cef2cd915724b92b2ccccc6e87c",
+      "title": "SIP (#009): USDC Market Launch (Post-Euler)",
+      "content": "As a follow up to our governance post: https://gov.swivel.finance/t/sip-008-usdc-market-launch-post-euler\n\nThe Swivel DAO will need to launch a new USDC market in the near future alongside a new integration partner. With this in mind, the core team has identified a number of potential partners, with descriptions available below: \n\nAave (v2):\nCurrent APY: 1.06%\nCurrent TVL: $838m\nAave offers a “safe” solution that has been battle tested for years (and the highest TVL). With this has come superfluous deposits that tend to sit in Aave regardless of the current rates – activity that may be negative while rates are low but positive while rates are high.\n\nCompound (v2)\nCurrent APY: 2.68% + 0.84% COMP\nCurrent TVL: $424.54M\nCompound offers a similarly “safe” solution that has been around the longest in DeFi. Compound seems to offer a competitive APY while also offering additional COMP rewards that may buffer the Swivel DAO treasury over time.\n\nYearn\nCurrent APY: 2.82%\nCurrent TVL: $27m\nYearn offers an aggregated yield source that will generally “always” be competitive with the market, assuming the market doesnt crunch completely (and the yearn fee eclipses what they can offer as an aggregator). Further, as an aggregator Yearn also diversifies their yield origination sources which may be of relevance in context of the recent Euler hack (e.g. Yearn was exposed to Euler but only ~2m if I remember correctly)\n\nMorpho (Compound)\nCurrent APY: 2.77% + .77% COMP + 140 MORPH / 1000 USDC\nCurrent TVL: $7.14m\nMorpho generally always offers equivalent or higher APYs compared to Compound given their P2P layer can offer slight optimization. There is also the additional MORPH tokens which may be of value at some point as well. The downside is if there is little P2P activity, we are taking on the risk of the Morpho layer purely for the MORPH tokens.\n\n------------------------------------\n\nWhich integration partner should we launch our upcoming fixed-rate USDC market alongside?",
+      "protocol": "swiveldaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3f60008Dfd0EfC03F476D9B489D6C5B13B3eBF2C",
+      "totalVotes": 22,
+      "blockNumber": 16867907,
+      "externalUrl": "https://snapshot.org/#/swiveldao.eth/proposal/0x4461f4c2a44b6df7a2799c99dfb4265ec5d18cef2cd915724b92b2ccccc6e87c",
+      "startTime": {
+        "timestamp": 1679303538
+      },
+      "endTime": {
+        "timestamp": 1679500740
+      },
+      "startTimestamp": 1679303538,
+      "endTimestamp": 1679500740,
+      "currentState": "closed",
+      "choices": [
+        "Yearn",
+        "Morpho",
+        "Compound",
+        "Aave"
+      ],
+      "results": [
+        {
+          "total": 121155.36,
+          "choice": 0
+        },
+        {
+          "total": 332114.72,
+          "choice": 2
+        },
+        {
+          "total": 31060.543,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 121155.35191722275,
+          "choice": 0
+        },
+        {
+          "total": 31060.541831761297,
+          "choice": 1
+        },
+        {
+          "total": 332114.71947395004,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679304153848,
+      "txHash": "",
+      "quorum": 200000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3dpdmVsZGFvZXRoOnNuYXBzaG90OjB4YzcwOWRlNmFjYTg2MmFkM2IxMGZiOTE3N2I1MjFhZmUxNGUxYzBhYTYxNjYyNjdkYmExZThiMmZjMGUwMzAwMw==",
+      "id": "0xc709de6aca862ad3b10fb9177b521afe14e1c0aa6166267dba1e8b2fc0e03003",
+      "title": "SIP (#008): Updated Liquidity Incentives",
+      "content": "In previous discussions, the suggested venue for continued incentives became Rari due to the ability to utilize an LP further to borrow capital while also earning liquidity rewards. However in recent context, it is unclear when/whether Rari will recover and properly facilitate a liquidity program.\n\nWe would like the community to consider the current options with regard to our liquidity program, especially in the interim period until the launch of the SSM and Swivel v3.\n\nWe can either continue with the current program, reduce incentives at a similar rate to our previous proposal (the current APY is excessive), or temporarily go without incentives until a further discussion demands it.",
+      "protocol": "swiveldaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3f60008Dfd0EfC03F476D9B489D6C5B13B3eBF2C",
+      "totalVotes": 18,
+      "blockNumber": 14972362,
+      "externalUrl": "https://snapshot.org/#/swiveldao.eth/proposal/0xc709de6aca862ad3b10fb9177b521afe14e1c0aa6166267dba1e8b2fc0e03003",
+      "startTime": {
+        "timestamp": 1655368330
+      },
+      "endTime": {
+        "timestamp": 1655542800
+      },
+      "startTimestamp": 1655368330,
+      "endTimestamp": 1655542800,
+      "currentState": "closed",
+      "choices": [
+        "Update Current Plan",
+        "Further Reduce Incentives",
+        "Temporarily End Incentives"
+      ],
+      "results": [
+        {
+          "total": 53288.523,
+          "choice": 0
+        },
+        {
+          "total": 146520.14,
+          "choice": 2
+        },
+        {
+          "total": 53206.062,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 53288.52219114933,
+          "choice": 0
+        },
+        {
+          "total": 53206.06336237925,
+          "choice": 1
+        },
+        {
+          "total": 146520.14452869922,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 200000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3dpdmVsZGFvZXRoOnNuYXBzaG90OjB4MWExY2M0YzBjNTFkMzJjNTNkN2M4OTljM2U5Y2ViZDYxMjEzOTgwODQzZDU2Yjc5M2Y4MTdjZjMwZWE0MGY4Yw==",
+      "id": "0x1a1cc4c0c51d32c53d7c899c3e9cebd61213980843d56b793f817cf30ea40f8c",
+      "title": "SIP (#007): Compound Stablecoin Market Launch",
+      "content": "In context of our upcoming June 24th USDC Compound market maturity, we have known the community is looking for a dynamic and interesting way to deploy their stablecoins for a reasonable yield.\n\nWith Swivel v3 around the corner, we are in the need of a more temporary market deployment, and are proposing the creation of a short-term (3-6 month) stablecoin market on the Compound protocol.\n\nThe primary consideration is then the stablecoin of choice for our next deployment.",
+      "protocol": "swiveldaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3f60008Dfd0EfC03F476D9B489D6C5B13B3eBF2C",
+      "totalVotes": 20,
+      "blockNumber": 14972297,
+      "externalUrl": "https://snapshot.org/#/swiveldao.eth/proposal/0x1a1cc4c0c51d32c53d7c899c3e9cebd61213980843d56b793f817cf30ea40f8c",
+      "startTime": {
+        "timestamp": 1655367191
+      },
+      "endTime": {
+        "timestamp": 1655542800
+      },
+      "startTimestamp": 1655367191,
+      "endTimestamp": 1655542800,
+      "currentState": "closed",
+      "choices": [
+        "DAI",
+        "FEI",
+        "USDC",
+        "USDT"
+      ],
+      "results": [
+        {
+          "total": 138421.31,
+          "choice": 0
+        },
+        {
+          "total": 126060.88,
+          "choice": 2
+        },
+        {
+          "total": 11090.67,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 138421.30971159128,
+          "choice": 0
+        },
+        {
+          "total": 11090.669648290272,
+          "choice": 1
+        },
+        {
+          "total": 126060.88068187982,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 200000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3dpdmVsZGFvZXRoOnNuYXBzaG90OjB4ZjMwYmJiYzJjMDI0ZDI5ZjBkNzdlYzU3YjM5MWRhZjM3ZTYyODU1NWUzNDI0OGQzZGM3MGExMjhhYmU4NjA5Zg==",
+      "id": "0xf30bbbc2c024d29f0d77ec57b391daf37e628555e34248d3dc70a128abe8609f",
+      "title": "SIP (#006): Maturing Our FeiRari Market Early",
+      "content": "This Saturday, April 30th at ~9:30 EDT (1:30 UTC), Rari Capital suffered a re-entrancy attack which left their pools insolvent to the tune of roughly ~$80 million.\n\nhttps://twitter.com/Hacxyk/status/1520370421773725698\n\nThis attack included the FEI market that we’ve integrated here at Swivel — FeiRari Pool 8.\n\nAs of now, May 2nd, ~90% of our user’s funds have been recovered, and ~198,000 FEI remain. \n\nPotential Paths:\nFund Recovery:\nThe first path is the completion and early maturity of our Rari FEI market. \n\nAssuming Rari Pool 8 has FEI for withdrawal once our withdrawal queue completes:\n\nzcFEI: Redeemable for FEI at a ratio of 99:100\nnFEI: Redeemable for FEI at a ratio of 1:100\nRedeemable FEI: Reedemable for FEI 1:1 (Calculated based on the exchangeRate at 0:00 UTC on 5-2)\n\nThe market itself would close until further notice, and an additional market would launch ASAP alongside our imminent Arbitrum launch.\n\nFeiRari Recovery:\nDepending on the response of the FeiRari DAO on tomorrows call, it may also make sense to continue the market as is, and trust in their recovery processes.\n\nWith significant PCV in both Rari/Tribe treasuries, and our funds specifically all in FEI within the FeiRari pool, our depositors will likely be able to redeem funds at or near face value. \n\nThe result would be that our market continues to operate as it has, with our impacted liquidity providers having earned significant rewards for their trust in our systems.\n",
+      "protocol": "swiveldaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3f60008Dfd0EfC03F476D9B489D6C5B13B3eBF2C",
+      "totalVotes": 28,
+      "blockNumber": 14697399,
+      "externalUrl": "https://snapshot.org/#/swiveldao.eth/proposal/0xf30bbbc2c024d29f0d77ec57b391daf37e628555e34248d3dc70a128abe8609f",
+      "startTime": {
+        "timestamp": 1651507200
+      },
+      "endTime": {
+        "timestamp": 1651593600
+      },
+      "startTimestamp": 1651507200,
+      "endTimestamp": 1651593600,
+      "currentState": "closed",
+      "choices": [
+        "Mature Early",
+        "Continue Market"
+      ],
+      "results": [
+        {
+          "total": 227132.75,
+          "choice": 0
+        },
+        {
+          "total": 83675.9,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 227132.76546339993,
+          "choice": 0
+        },
+        {
+          "total": 83675.89236178338,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 200000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3dpdmVsZGFvZXRoOnNuYXBzaG90OjB4MmVkNzRhYjM0M2EyYWI2ZTJlMWYzM2Y1NjYyMmE4NzBhNDA3ZWJlNDlmMWY0ZTVlODkxYTAwM2E0ODNhMTJiNw==",
+      "id": "0x2ed74ab343a2ab6e2e1f33f56622a870a407ebe49f1f4e5e891a003a483a12b7",
+      "title": "SIP (#005): SWIV Incentive Re-fill",
+      "content": "In SIP (#001) our community voted to initially establish a short term liquidity Uniswap v3 liquidity incentive program on the SWIV/USDC pool, with the first incentive round will be completing on 4-18.\n\nWith the completion of the first round approaching, incentives need to be re-filled.\n\nAlongside our discussion and proposal covering the topic in more detail: https://gov.swivel.finance/t/sip-005-swiv-liquidity-incentive-re-fill/188\n\nThis proposal would affirm a commitment of ~60,000 SWIV tokens to the Uniswap-v3 SWIV/USDC 1% pool. Should this proposal pass, we will transfer ~60,000 SWIV to the Uniswap-v3 staker contract beginning on 4-20. LPs will have two days to withdraw from the current Uniswap-v3 UI before the next round of incentives begin.\n\nShould we re-fill incentives on Uniswap-v3?",
+      "protocol": "swiveldaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3f60008Dfd0EfC03F476D9B489D6C5B13B3eBF2C",
+      "totalVotes": 32,
+      "blockNumber": 14569393,
+      "externalUrl": "https://snapshot.org/#/swiveldao.eth/proposal/0x2ed74ab343a2ab6e2e1f33f56622a870a407ebe49f1f4e5e891a003a483a12b7",
+      "startTime": {
+        "timestamp": 1649775600
+      },
+      "endTime": {
+        "timestamp": 1650034800
+      },
+      "startTimestamp": 1649775600,
+      "endTimestamp": 1650034800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 257390.88,
+          "choice": 0
+        },
+        {
+          "total": 16242.44,
+          "choice": 2
+        },
+        {
+          "total": 6977.3477,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 257390.89684715713,
+          "choice": 0
+        },
+        {
+          "total": 6977.34777058946,
+          "choice": 1
+        },
+        {
+          "total": 16242.440448542551,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 200000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3dpdmVsZGFvZXRoOnNuYXBzaG90OjB4ODQzZjgwZDIzYzljOTkxYTdhZTlkZGIyZmY4ZTRkNWFlM2I1YzkzYjJmYTIyZDk0MGZmMGE3ZWY1NGIwMTc5NQ==",
+      "id": "0x843f80d23c9c991a7ae9ddb2ff8e4d5ae3b5c93b2fa22d940ff0a7ef54b01795",
+      "title": "SIP (#004): Protocol Incentive Optimization",
+      "content": "As a follow up to SIP (#003) which reduced our protocol incentive emissions generally, we would like to further optimize our protocol incentives with the addition of scaling rewards by both:\n- Time (since placement)\n- Price (distance from market)\n\nAlongside our discussion and proposal covering the topic in more detail: https://gov.swivel.finance/t/sip-004-protocol-incentive-optimization/182\n\nShould this proposal pass, we will begin to scale user rewards based on the time that an order has sat on the orderbook, as well as the distance from market price that an order may be at when filled. \n\nBetween these two additions, wash trading will be extremely reduced, ensuring the correct market participants receive rewards.\n\nShould we further optimize our incentives with the addition of time-based, and price-based reward scaling?",
+      "protocol": "swiveldaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3f60008Dfd0EfC03F476D9B489D6C5B13B3eBF2C",
+      "totalVotes": 75,
+      "blockNumber": 14535987,
+      "externalUrl": "https://snapshot.org/#/swiveldao.eth/proposal/0x843f80d23c9c991a7ae9ddb2ff8e4d5ae3b5c93b2fa22d940ff0a7ef54b01795",
+      "startTime": {
+        "timestamp": 1649300400
+      },
+      "endTime": {
+        "timestamp": 1649559600
+      },
+      "startTimestamp": 1649300400,
+      "endTimestamp": 1649559600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 361342.8,
+          "choice": 0
+        },
+        {
+          "total": 1.0000032,
+          "choice": 2
+        },
+        {
+          "total": 20302.998,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 361342.8270920684,
+          "choice": 0
+        },
+        {
+          "total": 20302.996916807697,
+          "choice": 1
+        },
+        {
+          "total": 1.0000031745991054,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 200000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3dpdmVsZGFvZXRoOnNuYXBzaG90OjB4MzU3NGQ1MzYwNDBjZjc0NTY3OTYyMTlkZjdiYTAzMTUxYjE2NDdlOWM2OGYzMjlkZGI1ZDFiOWUzZmVhMzdiNw==",
+      "id": "0x3574d536040cf7456796219df7ba03151b1647e9c68f329ddb5d1b9e3fea37b7",
+      "title": "SIP (#003): Protocol Incentive Modulation",
+      "content": "Following the discussion and proposal: https://gov.swivel.finance/t/sip-003-protocol-incentive-modulation/173\n\nShould this proposal pass, we will initiate the first modulation of protocol based SWIV liquidity incentives as a way to dissuade wash trading and properly reward liquidity providers.\n\nThe protocol was designed to prevent wash trading through the modulation of both liquidity incentives and protocol fees (as described in more detail in the proposal linked). This new workflow would be the first implementation of this protocol design, as we continue to optimize our liquidity incentives.\n\nShould we move forward with the described plans to optimize liquidity incentives?",
+      "protocol": "swiveldaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3f60008Dfd0EfC03F476D9B489D6C5B13B3eBF2C",
+      "totalVotes": 40,
+      "blockNumber": 14486237,
+      "externalUrl": "https://snapshot.org/#/swiveldao.eth/proposal/0x3574d536040cf7456796219df7ba03151b1647e9c68f329ddb5d1b9e3fea37b7",
+      "startTime": {
+        "timestamp": 1648641600
+      },
+      "endTime": {
+        "timestamp": 1648814400
+      },
+      "startTimestamp": 1648641600,
+      "endTimestamp": 1648814400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 217886.33,
+          "choice": 0
+        },
+        {
+          "total": 18347.504,
+          "choice": 2
+        },
+        {
+          "total": 11.287112,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 217886.3200920424,
+          "choice": 0
+        },
+        {
+          "total": 11.287112544189304,
+          "choice": 1
+        },
+        {
+          "total": 18347.502314702553,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 200000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3dpdmVsZGFvZXRoOnNuYXBzaG90OjB4YmFlMDdhNTU5YWFkODNjZGRjY2M3YmM4ZGQxZDYzMDk3NDQ5OTQxYWQyMjBmOTY4OWYwMTBiZWFkN2FlN2JmOQ==",
+      "id": "0xbae07a559aad83cddccc7bc8dd1d63097449941ad220f9689f010bead7ae7bf9",
+      "title": "SIP (#002): Fee Withdrawal & First Actions ",
+      "content": "Following the discussion and proposal: https://gov.swivel.finance/t/sip-002-fee-withdrawal-first-actions/161\n\nShould this proposal pass, we will initiate the first withdrawal of roughly ~70,000 USDC in fees to the Swivel multisig located at: 0x173033758E8623fEE7C612e2f251CEa808127654\n\nMoreover, alongside this first withdrawal of fee accrual, this proposal establishes the general workflow of a `queueWithdrawal` which queues a token withdrawal after 3 days, followed by a `withdraw` of fees once the queue period has completed.\n\nThis workflow should happen once fees accrued are ~50,000 USDC or higher, or alternatively after at least one month has passed.\n\nShould we move forward with plans to begin withdrawing fee accrual?",
+      "protocol": "swiveldaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3f60008Dfd0EfC03F476D9B489D6C5B13B3eBF2C",
+      "totalVotes": 53,
+      "blockNumber": 14473201,
+      "externalUrl": "https://snapshot.org/#/swiveldao.eth/proposal/0xbae07a559aad83cddccc7bc8dd1d63097449941ad220f9689f010bead7ae7bf9",
+      "startTime": {
+        "timestamp": 1648468800
+      },
+      "endTime": {
+        "timestamp": 1648641600
+      },
+      "startTimestamp": 1648468800,
+      "endTimestamp": 1648641600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 208070.6,
+          "choice": 0
+        },
+        {
+          "total": 39969.543,
+          "choice": 2
+        },
+        {
+          "total": 40718.203,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 208070.59080312843,
+          "choice": 0
+        },
+        {
+          "total": 40718.20173011652,
+          "choice": 1
+        },
+        {
+          "total": 39969.54224575593,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3dpdmVsZGFvZXRoOnNuYXBzaG90OjB4YzU1Y2E0YjQwZjA1ZTJjMDA0ZjZiZTFhNTc2OWMyZThmMjc0NjE2Y2IwOTAxYWI0ODllNzMwNzFkOTNkNThjMQ==",
+      "id": "0xc55ca4b40f05e2c004f6be1a5769c2e8f274616cb0901ab489e73071d93d58c1",
+      "title": "SIP (#001): SWIV Token Liquidity Incentive Program",
+      "content": "Following the discussion and proposal: https://gov.swivel.finance/t/sip-001-swiv-liquidity-incentive-program/43\n\nShould this proposal pass, we will initiate a short term (1-2 months) SWIV token liquidity incentive plan utilizing the uni-v3-staker contract located at: 0xe34139463bA50bD61336E0c446Bd8C0867c6fE65\n\nOnce this temporary period reaches a close, SWIV stakeholders will review the current state of liquidity and adjust incentive amounts and/or target various other programs in future proposals.\n\nShould we move forward with plans to implement liquidity incentives on Uniswap-v3? If yes, on SWIV/ETH or SWIV/USDC?",
+      "protocol": "swiveldaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3f60008Dfd0EfC03F476D9B489D6C5B13B3eBF2C",
+      "totalVotes": 70,
+      "blockNumber": 14363443,
+      "externalUrl": "https://snapshot.org/#/swiveldao.eth/proposal/0xc55ca4b40f05e2c004f6be1a5769c2e8f274616cb0901ab489e73071d93d58c1",
+      "startTime": {
+        "timestamp": 1647014400
+      },
+      "endTime": {
+        "timestamp": 1647187200
+      },
+      "startTimestamp": 1647014400,
+      "endTimestamp": 1647187200,
+      "currentState": "closed",
+      "choices": [
+        "Yes - SWIV/ETH",
+        "Yes - SWIV/USDC",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 199270.39,
+          "choice": 0
+        },
+        {
+          "total": 10721.518,
+          "choice": 2
+        },
+        {
+          "total": 307590.97,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "approval",
+      "indexedResult": [
+        {
+          "total": 207149.12975683692,
+          "choice": 0
+        },
+        {
+          "total": 469557.6566519427,
+          "choice": 1
+        },
+        {
+          "total": 10721.517436466149,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3dpdmVsZGFvZXRoOnNuYXBzaG90OjB4NDk3Yzk1NDEyODIyNGRkMTU0OTgwNWQ5YTE4NTg2N2E2MjMzYzY4NmM3NDk5YmFmOGNhY2I1ZDZkZDRmNDMwNA==",
+      "id": "0x497c954128224dd1549805d9a185867a6233c686c7499baf8cacb5d6dd4f4304",
+      "title": "SIP #000: Launch June cUSDC market",
+      "content": "With reference to the SIP discussed here: https://gov.swivel.finance/t/sip-000-launch-june-cusdc-market/15\n\nI'd like to propose the addition of a June 2022 cUSDC market. We currently have one live maturity, March 2022, and with current liquidity can begin considering launching additional lending markets.\n\nThe primary motivation here is to begin to offer a bit of a yield curve without diluting liquidity.\n\nFurther, this June 23rd USDC maturity also aligns with Yield Protocol’s june maturity. This allows for additional contextual lending and aggregation and potential arbitrage between the two over time.\n\nThese maturities also align with FTX’s quarterly futures maturities which provides additional contextual information when compared to potential USDC or other funding yields.",
+      "protocol": "swiveldaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x3f60008Dfd0EfC03F476D9B489D6C5B13B3eBF2C",
+      "totalVotes": 0,
+      "blockNumber": 13995065,
+      "externalUrl": "https://snapshot.org/#/swiveldao.eth/proposal/0x497c954128224dd1549805d9a185867a6233c686c7499baf8cacb5d6dd4f4304",
+      "startTime": {
+        "timestamp": 1642135181
+      },
+      "endTime": {
+        "timestamp": 1642567181
+      },
+      "startTimestamp": 1642135181,
+      "endTimestamp": 1642567181,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Deny "
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

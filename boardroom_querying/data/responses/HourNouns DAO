@@ -1,0 +1,349 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6aG91cm5vdW5zZGFvOm9uY2hhaW46MHg0MGRhOTVkZDhjODk0ZWE2N2RhNGZlZjNkOTljNThmMTY2NTI1NzYzYTY2YmU1ZThmYjg0OWZiOTY0ZTE0NGE2",
+      "id": "0x40da95dd8c894ea67da4fef3d99c58f166525763a66be5e8fb849fb964e144a6",
+      "title": "Proposal 0x40da95dd8c894ea67da4fef3d99c58f166525763a66be5e8fb849fb964e144a6",
+      "content": " ",
+      "protocol": "hournounsDao",
+      "adapter": "onchain",
+      "proposer": "0x77afe2776742C59057E708fd705A1442575f307f",
+      "totalVotes": 1,
+      "blockNumber": 18266036,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1696374527
+      },
+      "endTime": {
+        "timestamp": 1696720127
+      },
+      "startTimestamp": 1696374527,
+      "endTimestamp": 1696720127,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18316126
+          },
+          "event": "executed",
+          "timestamp": 1696893443,
+          "txHash": "0x9674683144d4e7346033de951830fcddbde079b6ac95b7ffdb70cad76d7736b1"
+        },
+        {
+          "time": {
+            "blockNumber": 18266036
+          },
+          "event": "pending",
+          "timestamp": 1696288127,
+          "txHash": "0x470cde3d24d1488c5c402cd4abee938f0b34a89eb5f93241fed2f7d3b1f75b87"
+        },
+        {
+          "time": {
+            "blockNumber": 18301834
+          },
+          "event": "queued",
+          "timestamp": 1696720607,
+          "txHash": "0xcaa1f0c608cfd2cf89793a45a286fb989e71ebe7637c7b3ccefb4292fcee429a"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696288373621,
+      "txHash": "0x470cde3d24d1488c5c402cd4abee938f0b34a89eb5f93241fed2f7d3b1f75b87",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aG91cm5vdW5zZGFvOm9uY2hhaW46MHgyYmJjOTQ1MDI3YTc1MTJlZTY5NzA4N2ViNGM2Nzg0YzExOGYyZDgwYjVlZGQzYjA2ZTFjZGRhMmFkYjU0ZjA2",
+      "id": "0x2bbc945027a7512ee697087eb4c6784c118f2d80b5edd3b06e1cdda2adb54f06",
+      "title": "Nouns Builder Upgrade v1.2.0 2023-02-21",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.2 to add several features, improvements and bug fixes.</p><p><br></p><h3>Airdrop</h3><p>Ability for DAOs to assign minters and airdrop tokens.</p>",
+      "protocol": "hournounsDao",
+      "adapter": "onchain",
+      "proposer": "0x7426B39865D11207B8F795b10D70843FC3289051",
+      "totalVotes": 1,
+      "blockNumber": 16678916,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1677093647
+      },
+      "endTime": {
+        "timestamp": 1677439247
+      },
+      "startTimestamp": 1677093647,
+      "endTimestamp": 1677439247,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16751426
+          },
+          "event": "queued",
+          "timestamp": 1677888479,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16814696
+          },
+          "event": "executed",
+          "timestamp": 1678657403,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417294051,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aG91cm5vdW5zZGFvOm9uY2hhaW46MHhjYzBkMmFiYzYyMTA3YjkzYTRkOWRlZDE4NTViZmIzYWRjM2VjMDFhOWQxNzA2MzZkMmQyYjY4MmFkODI2ZDEw",
+      "id": "0xcc0d2abc62107b93a4d9ded1855bfb3adc3ec01a9d170636d2d2b682ad826d10",
+      "title": "Nouns Builder Upgrade v1.1.0",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "hournounsDao",
+      "adapter": "onchain",
+      "proposer": "0x7426B39865D11207B8F795b10D70843FC3289051",
+      "totalVotes": 1,
+      "blockNumber": 16499772,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1674928487
+      },
+      "endTime": {
+        "timestamp": 1675274087
+      },
+      "startTimestamp": 1674928487,
+      "endTimestamp": 1675274087,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16636093
+          },
+          "event": "queued",
+          "timestamp": 1676487695,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16678911
+          },
+          "event": "executed",
+          "timestamp": 1677007187,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417294051,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aG91cm5vdW5zZGFvOm9uY2hhaW46MHg0MDBhMjUwYmYzYjYwMWUyNzBkZDAyNDRkYzkwOGM1NWNhOThhOTNmOWZkZDUxZjNmMmU4ZjY3NTEyNGU4OGI4",
+      "id": "0x400a250bf3b601e270dd0244dc908c55ca98a93f9fdd51f3f2e8f675124e88b8",
+      "title": "Nouns Builder Upgrade v1.1.0",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"background-color: transparent; color: rgb(51, 122, 183);\">zora.eth</a>)</p>",
+      "protocol": "hournounsDao",
+      "adapter": "onchain",
+      "proposer": "0x7426B39865D11207B8F795b10D70843FC3289051",
+      "totalVotes": 0,
+      "blockNumber": 16499762,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1674928355
+      },
+      "endTime": {
+        "timestamp": 1675273955
+      },
+      "startTimestamp": 1674928355,
+      "endTimestamp": 1675273955,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16510212
+          },
+          "event": "canceled",
+          "timestamp": 1674967943,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417294051,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aG91cm5vdW5zZGFvOm9uY2hhaW46MHhhMzY2YTAyNjE1ZGJjOWEyNWRjODBmNjQyNjg4OGMwYzNlNzE0MmE4NzlkNTQ5MmNmNDI0MDQ5MmFkODY1MjVl",
+      "id": "0xa366a02615dbc9a25dc80f6426888c0c3e7142a879d5492cf4240492ad86525e",
+      "title": "DAO Upgrade V1_1",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "hournounsDao",
+      "adapter": "onchain",
+      "proposer": "0xd1d1D4e36117aB794ec5d4c78cBD3a8904E691D0",
+      "totalVotes": 0,
+      "blockNumber": 16208274,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671413051
+      },
+      "endTime": {
+        "timestamp": 1671758651
+      },
+      "startTimestamp": 1671413051,
+      "endTimestamp": 1671758651,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417294051,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aG91cm5vdW5zZGFvOm9uY2hhaW46MHhjZjk4YzE4ODYyNTYzYzljN2NmYzdlYmZkMmRiYjg1NDgyOTgxYTg4ZTk5YzlmMmExZGRiZWFjN2EzNTBlOWE1",
+      "id": "0xcf98c18862563c9c7cfc7ebfd2dbb85482981a88e99c9f2a1ddbeac7a350e9a5",
+      "title": "Update DAO Description",
+      "content": "<p>hOurNouns, one hOurNoun, every hour, forever.&nbsp;</p><p><br></p><p>The goal of hOurNouns is build a community of web developers</p><p>that will bridge the gap between web2 and web3 using a nounish approach.&nbsp;</p><p>Based on the Nouns protocol, every auction winner automatically becomes a member of the hOurNouns DAO. Members of the DAO can propose and vote on proposals of what can/should be done with the DAO treasury.&nbsp;</p><p><br></p><p>Some ideas of what can be done are: Events (in real life or online), hackatons, courses, grants, sponsorships and anything that can leverage the nouns protocol and the hOurNouns DAO.&nbsp;</p><p><br></p><p>Participation in the DAO is not restricted to software developers. It is open to anyone from anywhere. And also activities are not supposed to be executed by the DAO alone. We can partner with other DAOs such as Nouns DAO, Lil Nouns or any other DAOS to create and execute a Prop House or any other project that is considered relevant by the hOurNouns DAO members.&nbsp;</p>",
+      "protocol": "hournounsDao",
+      "adapter": "onchain",
+      "proposer": "0x7426B39865D11207B8F795b10D70843FC3289051",
+      "totalVotes": 1,
+      "blockNumber": 16026546,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1669218563
+      },
+      "endTime": {
+        "timestamp": 1669564163
+      },
+      "startTimestamp": 1669218563,
+      "endTimestamp": 1669564163,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16068557
+          },
+          "event": "queued",
+          "timestamp": 1669639379,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16090639
+          },
+          "event": "executed",
+          "timestamp": 1669905947,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417294051,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

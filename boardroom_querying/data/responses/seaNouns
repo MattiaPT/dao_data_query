@@ -1,0 +1,456 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6c2Vhbm91bnM6b25jaGFpbjoweGNlYzhjMzc5ZWE4MjkzNjM2NzhhYTNmYWFiNWUyNjExZTA4YjQ3OWExYWY5ODdhMTc0YTkxZGY5ZjA4OGI2ZTk=",
+      "id": "0xcec8c379ea829363678aa3faab5e2611e08b479a1af987a174a91df9f088b6e9",
+      "title": "Announcement We will move all funds in the seaNouns DAO treasury to a safe place",
+      "content": "จากการที่เราถูกผู้ไม่ประสงค์ดี พยายามสร้าง proposal ที่เป็นอันตรายต่อเงินกองกลาง หรือเงินในคลัง seaNouns DAO Treasury ซ้ำหลายครั้งในช่วง 1-2 เดือนที่ผ่านมา เพื่อความปลอดภัย (และไม่ประมาท) กลุ่มผู้ก่อตั้ง seaNouns จะทำการโยกเงินในคลังทั้งหมดไปเก็บไว้ในสกุลเงิน (btc) และ Hardware Wallet ที่ปลอดภัย (Trezor) จนกว่าจะหาทางป้องกัน หรือมีวิธีที่ ๆ ปลอดภัยกว่านี้\n\n**ประกาศแจ้งไว้ใน seaNouns DAO Discord ณ วันที่ 26 มิถุนายน 2024  เป็นที่เรียบร้อย **",
+      "protocol": "seanouns",
+      "adapter": "onchain",
+      "proposer": "0xc6B6390198787cD89490cfB7355102d50d9CEa2d",
+      "totalVotes": 4,
+      "blockNumber": 20175016,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1719481103
+      },
+      "endTime": {
+        "timestamp": 1719826703
+      },
+      "startTimestamp": 1719481103,
+      "endTimestamp": 1719826703,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 20.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20241218
+          },
+          "event": "executed",
+          "timestamp": 1720193519,
+          "txHash": "0xf1da6ea07d78e11a98b70794c17b772bdf6bb967e33b8ed8f4c49c15a26d609e"
+        },
+        {
+          "time": {
+            "blockNumber": 20226801
+          },
+          "event": "queued",
+          "timestamp": 1720019591,
+          "txHash": "0x166f346f2b34cc18fb5138d855f0afd02fb84090a2fdf5506e90643bb4b24347"
+        },
+        {
+          "time": {
+            "blockNumber": 20175016
+          },
+          "event": "pending",
+          "timestamp": 1719394703,
+          "txHash": "0x896046af42134707cad48c7026cb9cd2aada354045b7b37076d8c49187d81ef1"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 20.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719394900419,
+      "txHash": "0x896046af42134707cad48c7026cb9cd2aada354045b7b37076d8c49187d81ef1",
+      "quorum": 11,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2Vhbm91bnM6b25jaGFpbjoweDZhNWY2NzQ1ODZlOGI3YmY5NDQyY2E1NDZiZTJlNTg3ZmNlY2UwY2VkZWZkY2FlYWQwYzg3OWNkZTcyMzU5YWI=",
+      "id": "0x6a5f674586e8b7bf9442ca546be2e587fcece0cedefdcaead0c879cde72359ab",
+      "title": "Start",
+      "content": " ",
+      "protocol": "seanouns",
+      "adapter": "onchain",
+      "proposer": "0xd72bE8E0E58974DFd854C8fe3A5B340C42F5E9E8",
+      "totalVotes": 0,
+      "blockNumber": 20146077,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1719131591
+      },
+      "endTime": {
+        "timestamp": 1719477191
+      },
+      "startTimestamp": 1719131591,
+      "endTimestamp": 1719477191,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20146077
+          },
+          "event": "pending",
+          "timestamp": 1719045191,
+          "txHash": "0xd8a7842adc823ee737a480977994988b15c61d9633b872fa7059758e27c34788"
+        },
+        {
+          "time": {
+            "blockNumber": 20174838
+          },
+          "event": "canceled",
+          "timestamp": 1719392555,
+          "txHash": "0x0218e7f5b391993921997feffc5985f6aca10b33bd0d4bc25f661382e8b3fc88"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719045419674,
+      "txHash": "0xd8a7842adc823ee737a480977994988b15c61d9633b872fa7059758e27c34788",
+      "quorum": 11,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2Vhbm91bnM6b25jaGFpbjoweDkzYTlkMjQwMjc0ZGY1NTliNWVkYThlMGM1OWY5MWEwNjUwZWE3OGQ3YmVjNzhjNTAxMDdhZWNkYTdiYzY5Njk=",
+      "id": "0x93a9d240274df559b5eda8e0c59f91a0650ea78d7bec78c50107aecda7bc6969",
+      "title": "Solution for Settle Auction problem",
+      "content": " ",
+      "protocol": "seanouns",
+      "adapter": "onchain",
+      "proposer": "0xd72bE8E0E58974DFd854C8fe3A5B340C42F5E9E8",
+      "totalVotes": 0,
+      "blockNumber": 20106067,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1718647991
+      },
+      "endTime": {
+        "timestamp": 1718993591
+      },
+      "startTimestamp": 1718647991,
+      "endTimestamp": 1718993591,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20106067
+          },
+          "event": "pending",
+          "timestamp": 1718561591,
+          "txHash": "0xd3623bed80cecd87e4ac8a2320e9a8a16c40e819f3f2f7765f4e52edabb53292"
+        },
+        {
+          "time": {
+            "blockNumber": 20112129
+          },
+          "event": "canceled",
+          "timestamp": 1718634803,
+          "txHash": "0xf90f08ec1abd47f199e3fc19fa0c47923a867869f397ff0c68cacea509c208d5"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718561721036,
+      "txHash": "0xd3623bed80cecd87e4ac8a2320e9a8a16c40e819f3f2f7765f4e52edabb53292",
+      "quorum": 11,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2Vhbm91bnM6b25jaGFpbjoweDlmZjBkYTY5YzI3MjJmMjdjNzRlZDA1YTI5MGVlZTM1MzExYjNmMzNmYTY0NTViMWU4YmIyYjI0ODdmN2JlNWM=",
+      "id": "0x9ff0da69c2722f27c74ed05a290eee35311b3f33fa6455b1e8bb2b2487f7be5c",
+      "title": "0.2 eth for participation and support the CNX NFTDAY Block Mountain ",
+      "content": " ",
+      "protocol": "seanouns",
+      "adapter": "onchain",
+      "proposer": "0xd72bE8E0E58974DFd854C8fe3A5B340C42F5E9E8",
+      "totalVotes": 0,
+      "blockNumber": 19899364,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1716152327
+      },
+      "endTime": {
+        "timestamp": 1716497927
+      },
+      "startTimestamp": 1716152327,
+      "endTimestamp": 1716497927,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19916079
+          },
+          "event": "canceled",
+          "timestamp": 1716267911,
+          "txHash": "0xcf2997feb8cd89076ca19a4b5a8b0134d059f32bedceb6be2334630c10d14eac"
+        },
+        {
+          "time": {
+            "blockNumber": 19899364
+          },
+          "event": "pending",
+          "timestamp": 1716065927,
+          "txHash": "0x6515eed622441db9451f0f150422c94c6e05b9058820d5125220749526274d03"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716066384867,
+      "txHash": "0x6515eed622441db9451f0f150422c94c6e05b9058820d5125220749526274d03",
+      "quorum": 11,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2Vhbm91bnM6b25jaGFpbjoweGRhN2M1ZTVmODdiMjMwMDdmMTY0NmI4YzJlODQ1ZjRmOGYwMDllNWVhNTdlZDViNDUxNzJiZmE0NGI1MzYwZWY=",
+      "id": "0xda7c5e5f87b23007f1646b8c2e845f4f8f009e5ea57ed5b45172bfa44b5360ef",
+      "title": "0.2 eth for participation and support the CNX NFTDAY Block Mountain 2024 event.",
+      "content": "งบสนับสนุนงาน CNXNFTDAY หนึ่งในงาน Blockchain NFT ที่ดี และสนุกที่สุดในประเทศ!!\n\n![image](https://ipfs.decentralized-content.com/ipfs/bafybeid4qwc3bh6itqbwmdteam7sc4dx4zhkqa3gke2o5hsvtxme24k4qq)\n\n![image](https://ipfs.decentralized-content.com/ipfs/bafybeid4qwc3bh6itqbwmdteam7sc4dx4zhkqa3gke2o5hsvtxme24k4qq)\n\n![image](https://ipfs.decentralized-content.com/ipfs/bafybeigxf3drzs6dhwypbiy7daw56nxhsn7n2yx5mhkm43xxacrd4hy534)",
+      "protocol": "seanouns",
+      "adapter": "onchain",
+      "proposer": "0xc6B6390198787cD89490cfB7355102d50d9CEa2d",
+      "totalVotes": 2,
+      "blockNumber": 18969292,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1704888323
+      },
+      "endTime": {
+        "timestamp": 1705233923
+      },
+      "startTimestamp": 1704888323,
+      "endTimestamp": 1705233923,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 15.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18969292
+          },
+          "event": "pending",
+          "timestamp": 1704801923,
+          "txHash": "0xe2826fff8fd98ef793aeb91af0e5cc1427438efd7217c99a6ae7e528b8cd58c0"
+        },
+        {
+          "time": {
+            "blockNumber": 19006837
+          },
+          "event": "queued",
+          "timestamp": 1705255967,
+          "txHash": "0x022de0dfb37e4e2a435dcccf9b213e6c2caf4813f1af2b0a0c1301c18cc90c8e"
+        },
+        {
+          "time": {
+            "blockNumber": 19021293
+          },
+          "event": "executed",
+          "timestamp": 1705430351,
+          "txHash": "0x795b9314d30bebbf21caba20a5a9a6ed1b23a311e42e30caad99b79c70adad0f"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 15.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704802316720,
+      "txHash": "0xe2826fff8fd98ef793aeb91af0e5cc1427438efd7217c99a6ae7e528b8cd58c0",
+      "quorum": 10,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2Vhbm91bnM6b25jaGFpbjoweGVlYWZjZWIyMzc4ZGE4M2ZhMjNlYWEzODA0ZjdmN2QxZGZkMzg3ZjkyYjY1MzQ0Zjk2NGFlMjNmNjE1OGQ3NjI=",
+      "id": "0xeeafceb2378da83fa23eaa3804f7f7d1dfd387f92b65344f964ae23f6158d762",
+      "title": "We would like to use 0.15 eth to raise awareness about seaNouns DAO and to organize fun activities in NFT Community at the end of 2023.",
+      "content": "ขอใช้งบกองกลางจำนวน 0.15 eth เพื่อนำไปจัดกิจกรรม ซื้อของรางวัลให้กลุ่ม , คอมมูฯ NFT and CryptoART Thailand  \n\nเป้าหมายของกิจกรรม คือสร้างการรับรู้, ความสนุก และการมีส่วนร่วม ให้กับผู้ถือ seaNouns และสมาชิกในกลุ่ม\n\nดูแล บริหารจัดการ และเสนอ Proposal นี้ โดย Eddie Paradorn Admin กลุ่ม NFT and CryptoART Thailand และผู้ก่อตั้ง seaNounsDAO\n\n![](https://cdn.shopify.com/s/files/1/0295/5988/1807/products/gravastar_alpha65_yellow1.webp?v=1681023042&width=1445)\n\n ![](https://cdn.shopify.com/s/files/1/0295/5988/1807/products/gravastar_alpha65_yellowDSC00294.webp?v=1681023042)\n\nLink >> ตัวอย่างของรางวัล, ลักษณะกิจกรรม, กลุ่มที่จะจัดกิจกรรม ซึ่งจะเริ่มดำเนินการทันทีที่ได้รับการอนุมัติ (ผ่านการโหวต) และ Voter สามารถติดตามความโปร่งใสในการดำเนินกิจกรรมได้ผ่านทางกลุ่ม, เพจ, seaNounsDAO Discord.\n\nhttps://www.facebook.com/groups/nftandcryptoartthailand/permalink/1747548672337638/\n\n",
+      "protocol": "seanouns",
+      "adapter": "onchain",
+      "proposer": "0xc6B6390198787cD89490cfB7355102d50d9CEa2d",
+      "totalVotes": 4,
+      "blockNumber": 18407042,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1698078731
+      },
+      "endTime": {
+        "timestamp": 1698424331
+      },
+      "startTimestamp": 1698078731,
+      "endTimestamp": 1698424331,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 12.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18448106
+          },
+          "event": "queued",
+          "timestamp": 1698488951,
+          "txHash": "0xd2a1de88a0b5e8050aee40da0653a7dfbe9d04d7ae78e8094ada292aa7bf559e"
+        },
+        {
+          "time": {
+            "blockNumber": 18407042
+          },
+          "event": "pending",
+          "timestamp": 1697992331,
+          "txHash": "0x8a20a2b0bbe8caf1737ee000cb9ba2e9724727190ee1b408f43ea4c93d96c432"
+        },
+        {
+          "time": {
+            "blockNumber": 18468579
+          },
+          "event": "executed",
+          "timestamp": 1698736775,
+          "txHash": "0xb39aab3eb49bf27e9f91021791482d51aacddc7cedff628080f3c742b8e70d4e"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 12.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1697992683025,
+      "txHash": "0x8a20a2b0bbe8caf1737ee000cb9ba2e9724727190ee1b408f43ea4c93d96c432",
+      "quorum": 10,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c2Vhbm91bnM6b25jaGFpbjoweGVkODQ0ZGEzNTgxYzM5MWI1NWEyMDdlNDVjNmI2ZjVjNTZiNmU2YmE1Zjg4ZGNlOWYzMjgyNjJhYzIwNjcxYTA=",
+      "id": "0xed844da3581c391b55a207e45c6b6f5c56b6e6ba5f88dce9f328262ac20671a0",
+      "title": "Solution for Settle Auction problem",
+      "content": "ด้วยหลายสาเหตุที่ผู้ชนะประมูลไม่กด Settle Auction ทำให้หลายครั้งที่การประมูลติดค้างและหยุดชะงัก\n\n![](https://sv1.picz.in.th/images/2023/03/24/mW6ij9.jpg)\n\nจึงอยากเสนอวิธีแก้ไข 2 วิธี ที่จะทำควบคู่กันไป เพื่อทำให้การประมูล seaNouns ลื่นไหลให้ได้มากที่สุด\n\nวิธีที่ 1 ใช้ทุนกองกลางจำนวน 0.15 eth ในการกด Settle Auction ทันทีที่การประมูลเสร็จสิ้น ระบบจะได้ Generate seaNouns ตัวใหม่ออกมาให้ประมูลไหลลื่นต่อเนื่องทันที \n\nวิธีที่ 2 ทำระบบ Settlement Ranking ให้กับผู้ที่ช่วยกด Settle Auction แบบเดียวกับที่โปรเจกต์ FOODNOUNS DAO ทำ ซึ่งจะแก้ปัญหานี้ในระยะยาวได้ โดยใช้งบเพื่อดำเนินการในส่วนนี้ 0.15 eth ตั้งเป้าให้วิธีที่ 2 เสร็จทันก่อนที่งบในวิธีที่ 1 (0.15 eth) จะถูกนำไปใช้จนครบ\n\n![](https://img.pic.in.th/Settlement-Rank.jpeg)\n\nระยะเวลา : ดำเนินการวิธีที่ 1 ทันทีที่ได้รับการเห็นชอบ วิธีที่ 2 จะดำเนินการให้แล้วเสร็จก่อนงบในวิธีที่ 1 หมด\n\nงบประมาณ : 0.15 eth x 2 รวม 0.3 eth",
+      "protocol": "seanouns",
+      "adapter": "onchain",
+      "proposer": "0xc6B6390198787cD89490cfB7355102d50d9CEa2d",
+      "totalVotes": 4,
+      "blockNumber": 16897970,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1679754695
+      },
+      "endTime": {
+        "timestamp": 1680100295
+      },
+      "startTimestamp": 1679754695,
+      "endTimestamp": 1680100295,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16933871
+          },
+          "event": "queued",
+          "timestamp": 1680104087,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16948417
+          },
+          "event": "executed",
+          "timestamp": 1680280727,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236738627,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

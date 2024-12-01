@@ -1,0 +1,3180 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweDA2ZDgyNzNhNWQ1ZjNjMmEwMzFkODQ5Mzk2MjY2ZjY4NTQ4NmJiMWMyY2UyNzcxNjVhOWE5NDQ2YzQxM2FlYjk=",
+      "id": "0x06d8273a5d5f3c2a031d849396266f685486bb1c2ce277165a9a9446c413aeb9",
+      "title": "Amendment proposal for XIO Burn Contract end date",
+      "content": "This proposal seeks to amend the XIO Burn Contract's \"end date\" value that was previously proposed. After the end date, no more XIO can be redeemed, all remaining EPOCH will be burned, all remaining FLASH will be sent to Flashstake Treasury.\n\nThe proposal being amended, that passed on October 24th, can be  found here: https://snapshot.org/#/blockzerolabs.eth/proposal/0x35ab5dc33b1c1a4be2d1ce738d471f89dd713c6526426ea21a2ae7afa7d121d2\n\nFeedback from Epoch Elders (Gigabrains) have made it known that the end date for the XIO Burn contract would be better for the EPOCH economics if it were either closer to or exactly matched the anticipated end date of the Epoch Airdrop (Feb 13th 2024). This could provide more certainty to both EPOCH and FLASH ecosystems. \n\nThis proposal uses Ranked Choice Voting. Please choose the option you prefer the most as your 1st selection, then choose your 2nd most preferred result, and so on, until all choices have been selected.\n\nThe question you are answering is: \"What should the end date be for the XIO Burn Contract\"?\n\nThe choices have been designed for:\n • Feb 15th 2024 = Close to the same date as the Epoch Airdrop end date, or approximately 3 months from now.\n • May 15th 2024 = Approximately 6 months from now.\n • Aug 15th 2024 = Approximately 9 months from now.\n • Dec 31st 2024 = Unchanged. A little over 1 year from now.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x88CaCB7127Ff141A3aDf2E195C136BB2602f5ef4",
+      "totalVotes": 19,
+      "blockNumber": 18567917,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0x06d8273a5d5f3c2a031d849396266f685486bb1c2ce277165a9a9446c413aeb9",
+      "startTime": {
+        "timestamp": 1699938128
+      },
+      "endTime": {
+        "timestamp": 1700524800
+      },
+      "startTimestamp": 1699938128,
+      "endTimestamp": 1700524800,
+      "currentState": "closed",
+      "choices": [
+        "Feb 15th, 2024",
+        "May 15th, 2024",
+        "Sep 15th, 2024",
+        "Dec 31st, 2024"
+      ],
+      "results": [
+        {
+          "total": 38894.4,
+          "choice": 3
+        },
+        {
+          "total": 8540966.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 8540966.056012664,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 38894.39941585729,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1699938413278,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweDM1YWI1ZGMzM2IxYzFhNGJlMmQxY2U3MzhkNDcxZjg5ZGQ3MTNjNjUyNjQyNmVhMjFhMmFlN2FmYTdkMTIxZDI=",
+      "id": "0x35ab5dc33b1c1a4be2d1ce738d471f89dd713c6526426ea21a2ae7afa7d121d2",
+      "title": "Proposal for Blockzero Labs to be acquired by Moai Labs and allow XIO token burn to redeem FLASH and EPOCH tokens?",
+      "content": "EPOCH / FLASH \n •  Blockzero Treasury’s EPOCH and FLASH tokens will be sent to a new “XIO Burn contract” developed by Moai Labs that will allow the burning of XIO to withdraw ~16mil EPOCH and ~22mil FLASH at a proportional rate.\n\nUSDC\n •  Blockzero Treasury’s ~$19k USDC will be sent to Moai Labs for development and ongoing expenses.\n\nXIO\n •  Blockzero Treasury’s unallocated ~17mil XIO will be burned. ~10mil is allocated towards pending Core vesting and Avalanche XIO. Avalanche XIO not used for reimbursements will also be burned.\n\nCRYPTONAUTS\n •  Blockzero Treasury’s owned Cryptonaut NFTs will be burned and their vault’s XIO will be burned.\n •  All other Cryptonaut NFT holders can optionally choose to burn their NFTs to redeem all underlying XIO in their vault, to use that XIO to participate in the XIO Burn contract. \n •  To burn NFTs, go here: https://zero-gravity.blockzerolabs.io/ or use the withdrawAll function here: https://etherscan.io/address/0x6d9d87fd57fb8ae3bf005e564a950124fc83dd1a#writeContract#F3 \n\nXIO Burn Contract details:\n •  This contract will be developed by Moai Labs. \n •  This contract will have a cut off date of Dec 31st 2024, after which date XIO will no longer be burnable. After the cut off date: all remaining EPOCH will be burned and FLASH will be sent to the Flashstake Treasury.\n •  The XIO circulating supply will be manually calculated and applied to the contract, hard setting the ratio. The circulating supply is anticipated to be calculated as follows:  100mil - [XIO at burn address] - [XIO associated with burned Cryptonauts vaults] - [Dropzero unclaimable XIO]\n •  The ratio set for total EPOCH and FLASH received when burning XIO will be based on the above XIO circulating supply calculation relative to the amount of EPOCH and FLASH deposited into the contract. This ratio will remain constant.\n\nIn doing all of the above, Moai Labs will acquire all accounts and assets from Blockzero Labs.\n\nAll numbers provided in this proposal are ballpark estimates that could be more or less than final calculations. Final exact calculations will be completed by Moai Labs prior to executing the outcomes of this proposal. This proposal gives full ownership, control, and decision making power to Moai Labs to handle distributions and allocations of all tokens transferred to Moai Labs from the Blockzero Treasury.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x40AAfF400752bE0F129b2c8e1Db9a5C4218F72B0",
+      "totalVotes": 23,
+      "blockNumber": 18371183,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0x35ab5dc33b1c1a4be2d1ce738d471f89dd713c6526426ea21a2ae7afa7d121d2",
+      "startTime": {
+        "timestamp": 1697558987
+      },
+      "endTime": {
+        "timestamp": 1698166740
+      },
+      "startTimestamp": 1697558987,
+      "endTimestamp": 1698166740,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 6279765.5,
+          "choice": 0
+        },
+        {
+          "total": 19472.371,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6279764.921762556,
+          "choice": 0
+        },
+        {
+          "total": 19472.371884733897,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1697559885780,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweDI0ZmZhNjA4OGIxYTg4YjFjMGJkNGY2ODVmMGY3NDE0MDBhNzdkMGI3ZWJiZDRlYmIzNjZiZmM1Y2ZiNjQ2NjE=",
+      "id": "0x24ffa6088b1a88b1c0bd4f685f0f741400a77d0b7ebbd4ebb366bfc5cfb64661",
+      "title": "Should we pause the XLP program?",
+      "content": "You can review how many XIO tokens that XLP program has historical paid and is projected to pay at this url:  https://bz.to/report-xlp/  \n •  12.8mil XIO tokens remain for XLP incentives as of Feb 2023.\n •  The next halvening is projected to be in September 2024, at which point ~10mil XIO tokens will remain in the budget for the XLP program.\n •  Using the above examples, that means another ~2.8mil XIO tokens paid over the next 18 months, to help give context of the current rate of inflation.\n\nWe need to decide if continuing to pay these XIO tokens at this time is the most efficient use of the token, given that it is creating additional inflation.\n\nBlockzero’s model has been to create many different experimental projects, so that when we create one that is successful we can go all in, as we are currently doing with Flashstake. To give Blockzero more tokens to work with in the future, to concentrate more liquidity in times of higher activity, and more ability to create more experimental projects in the future, this proposal’s purpose is to put to a vote: Should we pause the XLP program? One day we can vote to restart this program or a program like it, when it would be more beneficial to do so.\n\nChoices given for the vote:\n •  March 1st: Stopping as of March 1st means all February LP activity would be rewarded on March 20th as the final distribution date\n •  April 1st: Stopping as of April 1st means all February and March LP activity would be rewarded, with April 20th as the final distribution date\n •  May 1st: Stopping as of May 1st means all February, March, and April LP activity would be rewarded, with May 20th as the final distribution date\n •  No: means the XLP program will continue on as it has been with no changes or end date.\n\nAs a reminder, the existing XLP rules are that if you remove any liquidity before the end of any month, you will forfeit all rewards earned so far for that month.\n\nAny liquidity for XIO/ETH on UniswapV2 will continue to earn LP fees, with or without the XLP program.  More data on the XIO/ETH pair can be found at: https://v2.info.uniswap.org/pair/0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 73,
+      "blockNumber": 16671722,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0x24ffa6088b1a88b1c0bd4f685f0f741400a77d0b7ebbd4ebb366bfc5cfb64661",
+      "startTime": {
+        "timestamp": 1676919984
+      },
+      "endTime": {
+        "timestamp": 1677524400
+      },
+      "startTimestamp": 1676919984,
+      "endTimestamp": 1677524400,
+      "currentState": "closed",
+      "choices": [
+        "Yes: as of March 1st 2023",
+        "Yes: as of April 1st 2023",
+        "Yes: as of May 1st 2023",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 3353826.2,
+          "choice": 3
+        },
+        {
+          "total": 6357445.0,
+          "choice": 0
+        },
+        {
+          "total": 1861.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 7395668.280233115,
+          "choice": 0
+        },
+        {
+          "total": 1861.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 3461494.0633349493,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweGYyODQzOTQ5NDhhYzg3OWZlYTM2MThmNzI4MWY5MjU0MmY0MTAxY2U5Njc5YjQ0YTkyYjZjMjUzOTMyZmZiMWQ=",
+      "id": "0xf284394948ac879fea3618f7281f92542f4101ce9679b44a92b6c253932ffb1d",
+      "title": "Flashback budget distribution proposal",
+      "content": "**Overview**\n\nThe recently approved tokenomics proposal amendment (https://snapshot.org/#/blockzerolabs.eth/proposal/0x79fdf6b5712d38c9fef5adb79ab9f3c25688e238085c97e1f0f2d3aaa719adaa) caused a change in absolute and percentage allocations of the token distribution. Consequently, the token budget for Flashback staking is smaller than the community airdrop allocation. For this reason, the originally proposed maximum Flashback staking APY of 100% can not be guaranteed for 100% of the community airdrop. Instead, an alternative allocation of the fixed Flashback budget of 18,504,723 FLASH tokens is required.\n\n**Problem**\n\nThe original proposal allocated 23,244,575 FLASH to both the community airdrop and Flashback staking which would have allowed a maximum APY of 100% and gave every community member the option to participate in Flashback staking. The primary purpose of Flashback staking is to reward community members for ongoing support of the project.\nThe amendment has resulted in the community airdrop increasing to 27,984,427 FLASH and the Flashback staking allocation to reduce to 18,504,723 FLASH. This means we can no longer offer both 1) an APY of 100% for the Flashback staking and 2) guarantee 100% of the community airdrop to be able to participate in the Flashback staking.\n\n**Solution**\n\nTo adjust for the new supply distribution, the Flashback budget must be changed accordingly. \n\nThere are two solutions that cover one of the two features of the original proposal (full community airdrop coverage or 100% APY). A third solution is presented as a possible middle ground if the community desires a more balanced approach to the Flashback staking distribution.\n\n**Solution 1**: Reduce the maximum Flashback APY to 66.13% but keep 100% community airdrop coverage. This means that theoretically every community member can stake their airdrop for a maximum reward of 66.13% additional FLASH tokens.\n\n**Solution 2**: Keep the maximum Flashback APY at 100% but reduce community airdrop coverage to 66.13%. This means that 100% APY staking rewards for Flashbacks are still available but on a first come, first served basis until the budget is depleted.\n\n**Solution 3**: Reduce the maximum Flashback APY to 80% and reduce community airdrop coverage to 82.66%. This is a middle ground of the two extreme options to balance the availability and attractivity of Flashback staking.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 24,
+      "blockNumber": 14915859,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0xf284394948ac879fea3618f7281f92542f4101ce9679b44a92b6c253932ffb1d",
+      "startTime": {
+        "timestamp": 1654532117
+      },
+      "endTime": {
+        "timestamp": 1655125200
+      },
+      "startTimestamp": 1654532117,
+      "endTimestamp": 1655125200,
+      "currentState": "closed",
+      "choices": [
+        "66.13% APY, 100% comm coverage",
+        "100% APY, 66.13% comm coverage",
+        "80% APY, 82.66% comm coverage"
+      ],
+      "results": [
+        {
+          "total": 388067.3,
+          "choice": 0
+        },
+        {
+          "total": 4932058.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 400201.6055390247,
+          "choice": 0
+        },
+        {
+          "total": 4895431.308609332,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweDc5ZmRmNmI1NzEyZDM4YzlmZWY1YWRiNzlhYjlmM2MyNTY4OGUyMzgwODVjOTdlMWYwZjJkM2FhYTcxOWFkYWE=",
+      "id": "0x79fdf6b5712d38c9fef5adb79ab9f3c25688e238085c97e1f0f2d3aaa719adaa",
+      "title": "Flashstake Amended Tokenomic Proposal",
+      "content": "This proposal can be found in depth at: https://docs.google.com/document/d/1NpDN3_gVParsOJVR8gYNyjILmLDrxFReZQfmyZxh6EY/edit#\n\nThe original proposal + amendment by DefiChad can be found here: https://docs.google.com/document/d/1IEdhdcb91XxBA2Hm8daUuHyXPJH0_2Gcr3oSY0epywM/edit?usp=sharing\n\n---\n\nTLDR:\n\nThe amended tokenomic proposal put forth by the team last week to correct for the error in Flash v1 and v2 holder counts did not pass.\n\nAs such, we as a team came together to search for a compromise that keeps with the spirit of the initial proposal that did pass, but also accounts for the increased number of tokens addresses that would have a claim on the community airdrop portion of the budget. \n\nSpecifically, we had an approved community supply of 23,244,575 which should have been 27,984,426.7284.\n\nOne final point before we move forward, we heard a good number of people voice the opinion of wanting options to weigh their vote against. We agreed with providing additional choices, and will be structuring this proposal in such a way where you will pick what you believe is the “best” choice for the protocol. You may also vote for neither option or abstain. ",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x71ca1834b42CC6f8783Fc0B461Cf5A0F8B568a50",
+      "totalVotes": 27,
+      "blockNumber": 14813028,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0x79fdf6b5712d38c9fef5adb79ab9f3c25688e238085c97e1f0f2d3aaa719adaa",
+      "startTime": {
+        "timestamp": 1653076777
+      },
+      "endTime": {
+        "timestamp": 1653649200
+      },
+      "startTimestamp": 1653076777,
+      "endTimestamp": 1653649200,
+      "currentState": "closed",
+      "choices": [
+        "Decrease CommunityProportionally",
+        "Decrease Flashback Budget",
+        "None of the above",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 2201559.5,
+          "choice": 0
+        },
+        {
+          "total": 2559536.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 2675671.0816799887,
+          "choice": 0
+        },
+        {
+          "total": 4232286.0951729845,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweDdiNGEzMTc4MTNhNGJiZTEzNDRkZWMxNDRlN2U4NDQ3MzdmMjJjYWZlZmU5MWUxMDE2MDk1NTFhYzM5NjJiODY=",
+      "id": "0x7b4a317813a4bbe1344dec144e7e844737f22cafefe91e101609551ac3962b86",
+      "title": "Should the Flashstake protocol move forward with the adjusted supply of 180m instead of 150m?",
+      "content": "The previous passed proposal can be found here:\nhttps://vote.blockzerolabs.io/#/proposal/0xf543385b00dae02775e16e5a9069d14a73620f3c643549f152d77775cec169b3\n\nThis proposal is an amendment to the previous proposal. Note that nothing proportional wise is changing to what was previously proposed.\n\nUnfortunately, after triple checking the numbers, we found an error in the community airdrop eligibility calculation, which will require a new proposal to correct. The real number of tokens for the community is 27,984,426 instead of 23,244,575. The reason for this confusion was a mismatch in snapshot time from different data sources and previous lack of consideration of V1 holders.\n\nThe original proposal has passed without noteworthy counter votes and with overwhelming support which is a signal that the community agrees with the essence of the original proposal. Therefore, this updated proposal contains largely the same percentage allocations to the different budgeting purposes. However, that means that the total supply needs to increase to 180m tokens instead of 150m tokens to account for the larger airdrop.\nNothing will change substantially and everyone will receive the number of tokens that they expect. However, because the absolute number of tokens need to be adjusted, this formal agreement through another vote is required.\n\nThe differences in amounts and percentages between the previous proposal (150m) and this proposal (180m) can be found here:\nhttps://docs.google.com/spreadsheets/d/1nUt_giWFlWRkhuT-zFWO_nX03AM7Iw7F7uQtX6xpxlQ/edit?usp=sharing\n\nWe apologize for the confusion and thank everyone for the continued support!",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 43,
+      "blockNumber": 14757960,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0x7b4a317813a4bbe1344dec144e7e844737f22cafefe91e101609551ac3962b86",
+      "startTime": {
+        "timestamp": 1652314609
+      },
+      "endTime": {
+        "timestamp": 1652893200
+      },
+      "startTimestamp": 1652314609,
+      "endTimestamp": 1652893200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I Abstain"
+      ],
+      "results": [
+        {
+          "total": 4973653.0,
+          "choice": 0
+        },
+        {
+          "total": 4785504.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4636522.143828548,
+          "choice": 0
+        },
+        {
+          "total": 6291203.034287271,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweGY1NDMzODViMDBkYWUwMjc3NWUxNmU1YTkwNjlkMTRhNzM2MjBmM2M2NDM1NDlmMTUyZDc3Nzc1Y2VjMTY5YjM=",
+      "id": "0xf543385b00dae02775e16e5a9069d14a73620f3c643549f152d77775cec169b3",
+      "title": "Should the Flashstake protocol move forward with the proposal made by DefiChad?",
+      "content": "The full proposal + amendment can be viewed here:\nhttps://docs.google.com/document/d/1IEdhdcb91XxBA2Hm8daUuHyXPJH0_2Gcr3oSY0epywM/edit?usp=sharing\n-----\nTL;DR\nFLASH V3 Supply is finite and must be minted at token creation\nWe propose to mint a total supply of 150 million FLASH V3\nThe token distribution needs to account for future cost of ongoing development & growth\nWe propose the following token distribution with vesting schedules\n-\tCommunity Airdrop: 23,244,575 (15.50%)\n-\tBlockzero Treasury: 22,755,425 (15.17%)\n-\tFLASH Team Budget: 22,500,000 (15.00%)\n-\tFLASH Growth Budget: 58,255,425 (38.84%)\n-\tFlashBack Staking Budget: 23,244,575 (15.50%)\n-----\nTo discuss this proposal or ask questions, please visit the Blockzero discord #Flashstake channel https://discord.com/invite/DtWJGQsseH",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 36,
+      "blockNumber": 14694864,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0xf543385b00dae02775e16e5a9069d14a73620f3c643549f152d77775cec169b3",
+      "startTime": {
+        "timestamp": 1651447602
+      },
+      "endTime": {
+        "timestamp": 1652029200
+      },
+      "startTimestamp": 1651447602,
+      "endTimestamp": 1652029200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I Abstain"
+      ],
+      "results": [
+        {
+          "total": 3782818.0,
+          "choice": 0
+        },
+        {
+          "total": 209060.78,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4208768.773942792,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 165400.0269603787,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweDZkNzA4MGY1MDYwMDc3YzI5N2I4ZjUyMWIxMDNkNTdlMDcxNmU2Y2RkZjlkNmU2NWEzMzJhZDA1ZGRkYTliYzE=",
+      "id": "0x6d7080f5060077c297b8f521b103d57e0716e6cddf9d6e65a332ad05ddda9bc1",
+      "title": "Should we allocate $25,000 growth budget?",
+      "content": "\nGoal\n- Bring 1000 new individuals into the Blockzero ecosystem.\n\nProblem\nHumans are the lifeblood of Blockzero. Without a constant stream of new energy and people into the ecosystem, we will become stagnant and unable to reach our goals.\n\nSolution\nMarketing means a lot of different things to different people. The capital requested in this proposal is to be used exclusively for paid acquisition in growth.\n\nWhile the channel in which we deploy this would greatly depend on the conversions and feasibility we are seeing, we would currently expect this to be focused on Twitter with smaller experiments on Facebook, Reddit, and Youtube. Additionally, we would also expect the use of these funds to be backloaded. Meaning, we would prefer to hold off on a majority of the spending until we have liquidity and\nthe Vortex deployed on Avalanche.\n\nAlthough we could have piecemealed this proposal into smaller individual budgets, we feel doing this would greatly slow down the speed and consistency at which we can run here. Getting this approved allows us to think in 1-3 month intervals (instead of\nweeks).\n\nAll marketing spend would be put into transparent reports to show the results.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x626963717f9396A7fD7e166aB846db3756AE4F85",
+      "totalVotes": 24,
+      "blockNumber": 14383240,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0x6d7080f5060077c297b8f521b103d57e0716e6cddf9d6e65a332ad05ddda9bc1",
+      "startTime": {
+        "timestamp": 1647242806
+      },
+      "endTime": {
+        "timestamp": 1647475200
+      },
+      "startTimestamp": 1647242806,
+      "endTimestamp": 1647475200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2596062.0,
+          "choice": 0
+        },
+        {
+          "total": 152245.62,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2858527.4664922645,
+          "choice": 0
+        },
+        {
+          "total": 143960.31124246,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXZ3dmtkNHVmbWZiajVmZm5maGdyb3J1ZW9xc2dxMXdwZTRtdTQyMmx1dmV3",
+      "id": "QmVwvkD4ufmfBJ5FFNfHgRorUeoqsgQ1wPE4Mu422LuvEW",
+      "title": " Should we allow Core Contributors to claim up to 25% of their compensation in USDC?",
+      "content": "Allow Core Contributors to claim up to 25% of their compensation in USDC.\n\nGoal\n- Reduce XIO inflation\n- Providing some stability to Core contributors\n\nProblem\nWhen we launched the Cryptonaut NFT collection in 2021, one of the primary goals of this campaign was (and still is) to collect stablecoins so we could reduce XIO inflation by using USDC instead of XIO for compensation.\n\nWith a little more than $600,000 in stablecoins, to ensure a two year runway, we voted to allocate $25,000/month to be used as stablecoins for compensation (instead of XIO).\n\nHowever, the problem is this $25k does not cover everyone on the Core and deciding who should receive these has been difficult.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x626963717f9396A7fD7e166aB846db3756AE4F85",
+      "totalVotes": 34,
+      "blockNumber": 14349853,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmVwvkD4ufmfBJ5FFNfHgRorUeoqsgQ1wPE4Mu422LuvEW",
+      "startTime": {
+        "timestamp": 1646791944
+      },
+      "endTime": {
+        "timestamp": 1647216000
+      },
+      "startTimestamp": 1646791944,
+      "endTimestamp": 1647216000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2293491.5,
+          "choice": 0
+        },
+        {
+          "total": 467169.44,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2242023.9438510044,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 929250.0911754324,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXUydmtob2wxcHVndHVjdWFyNndjenNyZnpyYnQxZ2pxdGVsdWV3eWJ3dno1",
+      "id": "QmU2VKhoL1pugTuCuaR6WczsrFZRbt1GjqteLueWYBWvZ5",
+      "title": "Should we implement a cap of 750,000 XIO for bi-weekly compensation to Core contributors?",
+      "content": "Implement a cap of 750,000 XIO for bi-weekly compensation to Core contributors.\n\nGoal\n- Reduce XIO inflation\n- Protect against the downside of a spiraling token price\n\nProblem\nCurrently, if XIO is to go down in value, we have to pay more XIO tokens to Core Contributors. While this is not currently a massive issue, it is something that could spiral inflation quite quickly if we do not implement a contingency plan.\n\nFor example: at $0.10 and $100k/monthly, this is 1M tokens hitting the market on a monthly basis. Assuming a 40M circulating supply, that is roughly 30% inflation per year. Here are some more examples to show how quickly this can get out of hand.\n\n- Token Price: $0.05 = 2M XIO tokens per month = 60% inflation\n- Token Price: $0.025 = 4M XIO tokens per month = 120% inflation\n\nIn the bottom example, we would run out of XIO tokens from the treasury in less than 1 year.\n\nWhile we are fortunate to have stable coins to backstop a super bad spiral, it is something we need to get ahead of in preparation for any market conditions.\n\nSolution\nIf we remain below 750,000 XIO in bi-weekly compensation, everything stays the same.\n\nHowever, if we go above this, this is what would be expected to happen.\n\n- Person A Compensation / Total Core Compensation = %\n- Take this % and multiply it by 750,000\n- This number is what Person A would be expected to receive\n- If Person A would like more XIO to make up for this difference, they would need to make a request for capital from the Blockzero DAO\n\nEssentially, this ensures we are not paying more than 1.5M XIO per month.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x626963717f9396A7fD7e166aB846db3756AE4F85",
+      "totalVotes": 37,
+      "blockNumber": 14349826,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmU2VKhoL1pugTuCuaR6WczsrFZRbt1GjqteLueWYBWvZ5",
+      "startTime": {
+        "timestamp": 1646791653
+      },
+      "endTime": {
+        "timestamp": 1647216000
+      },
+      "startTimestamp": 1646791653,
+      "endTimestamp": 1647216000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2715756.8,
+          "choice": 0
+        },
+        {
+          "total": 40729.15,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2639600.2824691664,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 527498.8208982366,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXhyZ3F1eWF3MndvaW4xdXdkdWFzYmoyZWNkdG05eXBvcnl2NGpjeG9xeW5r",
+      "id": "QmXRgQUYAw2woiN1UWDUaSbj2ECDtm9YPoRyV4JcxoqynK",
+      "title": "Should we launch a $100,000 liquidity pool on Avalanche ($50k XIO / $50k USDC)?",
+      "content": "Launch a $100,000 liquidity pool on Avalanche ($50k XIO / $50k USDC)\n\nGoal\n- Jumpstart liquidity on Avalanche\n- Increase usability of the Vortex\n- Hedging ourselves against XIO inflation.\n\nProblem\nFor the Vortex to be successful, people will need to either (i) bridge XIO from Ethereum or (ii) buy on Avalanche. Having liquidity on Avalanche will help the latter – increasing opportunity for new participants.\n\nSolution\nBridge $50k XIO to Avalanche and pair it with $50k USDC on Pangolin DEX (or Trader Joe).\n\nThere are a few secondary benefits of adding our own liquidity to Avalanche.\n- We own this liquidity and don’t have to pay/rent for it as much in the form of liquidity mining. Thus, reducing potential inflation/expenses.\n- If XIO does happen to go down, we get more XIO to refill our Treasury! This is a form of hedging against token volatility.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x626963717f9396A7fD7e166aB846db3756AE4F85",
+      "totalVotes": 66,
+      "blockNumber": 14349868,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmXRgQUYAw2woiN1UWDUaSbj2ECDtm9YPoRyV4JcxoqynK",
+      "startTime": {
+        "timestamp": 1646792179
+      },
+      "endTime": {
+        "timestamp": 1647216000
+      },
+      "startTimestamp": 1646792179,
+      "endTimestamp": 1647216000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3328963.0,
+          "choice": 0
+        },
+        {
+          "total": 25000.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3735165.155102691,
+          "choice": 0
+        },
+        {
+          "total": 25000.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweGE1NjJhMjBmMTMzYTY0NGNmMjQwYjYxZjM1YzcxYmViYmI4NDVhNjY4ZGU4ZTg0ZDExNTU5NWFlYzc0MGE0YTQ=",
+      "id": "0xa562a20f133a644cf240b61f35c71bebbb845a668de8e84d115595aec740a4a4",
+      "title": "How many months should we allocate for additional FlashV3 tokens to be rewarded to XIO holders?",
+      "content": "For how many more months should we allocate 500,000 FlashV3 tokens per month from the Blockzero Treasury to be rewarded to XIO holders?\n\nIf the FlashV3 protocol is launched before the voted on end date, the end date will become the launch date instead. \n\n1)   1 month:  Jan 1 - 31 st 2022\n2)  2 months: Jan 1 - Feb 28 2022\n3)  3 months: Jan 1 - Mar 31 2022\n4)  4 months: Jan 1 - Apr 30 2022\n5)  No more FlashV3 rewards to XIO holders\n6)  I abstain\n\n[This proposal emerged from a discussion on discord between Dec 21 and Dec 24]\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x07F79c65cD11A8D367cb447B16BF66D28A5E34b4",
+      "totalVotes": 33,
+      "blockNumber": 13892895,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0xa562a20f133a644cf240b61f35c71bebbb845a668de8e84d115595aec740a4a4",
+      "startTime": {
+        "timestamp": 1640682000
+      },
+      "endTime": {
+        "timestamp": 1641168000
+      },
+      "startTimestamp": 1640682000,
+      "endTimestamp": 1641168000,
+      "currentState": "closed",
+      "choices": [
+        "1 month: Jan 1 - 31st 2022",
+        "2 months: Jan 1 - Feb 28 2022",
+        "3 months: Jan 1 - Mar 31 2022",
+        "4 months: Jan 1 - Apr 30 2022",
+        "0 months: No more FlashV3 reward",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 2289562.0,
+          "choice": 3
+        },
+        {
+          "total": 1557846.9,
+          "choice": 5
+        },
+        {
+          "total": 672488.3,
+          "choice": 4
+        },
+        {
+          "total": 85070.22,
+          "choice": 0
+        },
+        {
+          "total": 82089.516,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 3681339.4055241095,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        },
+        {
+          "total": 2804131.0769426054,
+          "choice": 5
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweDNiNDNhNzNhZDExMjBiMDliMGYwMzJkODZlZTQ4ODY0NWJlYWI4ZWFhNTllNWRhZjBjNjE0YWRiYjM3ZjE2ZGY=",
+      "id": "0x3b43a73ad1120b09b0f032d86ee488645beab8eaa59e5daf0c614adbb37f16df",
+      "title": "Should we allocate 800k FlashV3 from the Treasury to be rewarded to AQUA participants?",
+      "content": "The credits system will proportionally reward FlashV3 from daily snapshots:\n* 6x to AQUA/ETH LP Stakers\n* 4x to AQUA/ETH LPs (not staked)\n* 1x to AQUA holders \n\nChoices:\n1) Yes, Sep 24 - Nov 30 with every day's snapshot having equal weight\n2) Yes, Sep 24 - Dec 15.  All days up til Nov 30 have a weight of 1. All daily snapshots Dec 1 and later have a weight of 0.5 to receive half as many credits\n3) No\n4) I abstain\n\n[This proposal emerged from a discussion on discord between Dec 21 and Dec 25]",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x07F79c65cD11A8D367cb447B16BF66D28A5E34b4",
+      "totalVotes": 45,
+      "blockNumber": 13892963,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0x3b43a73ad1120b09b0f032d86ee488645beab8eaa59e5daf0c614adbb37f16df",
+      "startTime": {
+        "timestamp": 1640682000
+      },
+      "endTime": {
+        "timestamp": 1641168000
+      },
+      "startTimestamp": 1640682000,
+      "endTimestamp": 1641168000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Sep 24 - Nov 30",
+        "Yes, Sep 24 - Dec 15 (Dec 50%)",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1711263.2,
+          "choice": 3
+        },
+        {
+          "total": 1381085.5,
+          "choice": 0
+        },
+        {
+          "total": 1295198.4,
+          "choice": 2
+        },
+        {
+          "total": 554942.56,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 1975503.3955657904,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 3644471.6836632,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweDQxMWI1MjIwN2FmZTQzODE3ZjEzMDQ5ZjBkZmQ1OThmNjYwYjA3YjhjYWVlYWFmM2QxMDhlNmJmZTdjYzYzN2Y=",
+      "id": "0x411b52207afe43817f13049f0dfd598f660b07b8caeeaaf3d108e6bfe7cc637f",
+      "title": "Should Cryptonauts get a multiplier on their associated locked XIO towards earning future tokens and governance voting weights?",
+      "content": "Proposed multipliers:\n- Tier3: 1.05x multiplier\n- Tier2: 1.1x multiplier\n- Tier1: 1.2x multiplier\n\nThe benefits this brings is:\n- More incentives to own a Cryptonaut, and higher tiers have better incentives, encouraging ownership of higher tiers over lower tiers\n- This could increase overall Cryptonaut sales, which will increase the stablecoins and XIO token buy backs, a net positive for all XIO token holders.\n- A way to earn a multiplier on XIO tokens without being an LP\n- Locking up more XIO tokens means less tokens readily available to be sold, potentially less downward price pressure\n\nThe downside this can have:\n- Dilution towards other XIO holders that do not have a Cryptonaut or have not chosen to add more XIO tokens to their Cryptonaut’s vault.\n\nMultipliers bonuses will apply to:\n- Governance voting on Snapshot\n- Earning future tokens from all Blockzero snapshots\n\nHow this multiplier will work:\n- This multiplier would only apply to the XIO tokens that have been deposited into the Cryptonaut vault. The only way to withdraw those XIO tokens is to permanently burn the Cryptonaut. In theory, most people will not want to burn their Tier1 or Tier2 Cryptonaut due to exclusivity, which is another reason these Tiers have a higher multiplier, incentivizing lock ups of tokens that are more likely to never be unlocked.\n\nIf this proposal passes, this multiplier would retroactively apply to the date any Cryptonaut has been purchased (Tier 1 and 2) or minted (Tier 3) prior to this proposal passing. This means Tier 1 and 2 Cryptonauts would only start earning once purchased. This also means Tier 3 Cryptonauts will start earning as soon as they are minted.\n\n\nHow this would impact the existing XIO that comes preloaded in the vaults of all Cryptonauts\n- 1000x Tier3s each have 2,500 XIO, @ 1.05x multiplier, would give each 2,625 weight\n- 100x Tier2s each have 25,000 XIO, @ 1.10x multiplier, would give each 27,500 weight\n- 10x Tier1s each have 250,000 XIO, @ 1.20x multiplier, would give each 300,000 weight\n\nDilution of XIO holders vs Cryptonaut Vault XIO holders multipliers:\n- Because all Cryptonauts come preloaded with XIO in their vaults, if all 10x Tier1, 100x Tier2, and 1000x Tier3 Cryptonauts were purchased and minted as of today (they won’t be, this is an extreme example), and using today’s XIO supply and total XIO in the XLP, the dilution impact this would have is approximately 1.2% towards all FlashV3 tokens earned in November, and 1.3% dilution towards all KIND tokens earned over the next year.  \n- For every additional 1million XIO tokens that are deposited into Tier1s vaults with a x1.2 multiplier, as a worst case scenario of possible dilution, this would cause an increase of dilution by approximately another 0.5%, so 10m XIO deposited would be another 5% dilution.\n- For more details about dilution math, please see this publicly available sheet: https://docs.google.com/spreadsheets/d/1mxSwY6duEKWykUZI_olSdBe_XCRmhSylpMwtsSmqsbA/edit#gid=0\n\n\nTo discuss further with community, or if you have any questions, please visit the Blockzero discord channel #proposals https://discord.gg/6YWcxpbVUU\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 33,
+      "blockNumber": 13643429,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0x411b52207afe43817f13049f0dfd598f660b07b8caeeaaf3d108e6bfe7cc637f",
+      "startTime": {
+        "timestamp": 1637280000
+      },
+      "endTime": {
+        "timestamp": 1637884800
+      },
+      "startTimestamp": 1637280000,
+      "endTimestamp": 1637884800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 2317118.2,
+          "choice": 0
+        },
+        {
+          "total": 3076073.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1537907.0437534396,
+          "choice": 0
+        },
+        {
+          "total": 5160012.135534033,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweDQ0MTE4ZjExNmJhNTRlYjFhNjVkYzEyNTM0MWJhOGQ2YWE1MWZiYzc5NTg5MjI4OTI3YzhjNjA5M2JkMzg0N2Y=",
+      "id": "0x44118f116ba54eb1a65dc125341ba8d6aa51fbc79589228927c8c6093bd3847f",
+      "title": "Should we proceed with the Zero Gravity NFT Drop?",
+      "content": "The initial details and scope of this NFT project are defined here: https://blog.blockzerolabs.io/zero-gravity-nft-drop-by-blockzero-labs-586323aeb95d\n\nThese additional changes are to be made:\n- 10 of the Tier2 NFTs and 50 of the Tier3 NFTs will be used for giveaways, engagement, and marketing purposes.\n- The sales of the NFTs are planned to run for 10 weeks in 1 wave per week, each wave containing  1x Tier1 and 9x Tier2 per to become available at auction.\n- Details on the final pricing structure of the NFTs are subject to change.\n\nAdditional proposals can be added to snapshot within the next 7 days that could run for only 3 days each that can be amendments to this proposal, which are only able to pass if this proposal passes with a majority of Yes votes. \n\nPlease discuss this proposal’s details or any future amendments you’d like to suggest or to discuss on Discord in the cryptonauts-chat channel https://discord.gg/hc7xKRtxjt",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 19,
+      "blockNumber": 13539635,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0x44118f116ba54eb1a65dc125341ba8d6aa51fbc79589228927c8c6093bd3847f",
+      "startTime": {
+        "timestamp": 1635872400
+      },
+      "endTime": {
+        "timestamp": 1636308000
+      },
+      "startTimestamp": 1635872400,
+      "endTimestamp": 1636308000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I Abstain"
+      ],
+      "results": [
+        {
+          "total": 2208621.8,
+          "choice": 0
+        },
+        {
+          "total": 2334.2344,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3394896.0950348857,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 28008.71112712152,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDoweGVmYjUxODUwMjE4Nzc2OTA1MmMxMWJjZWYzOGMxOTU5NWZmNDAxNmI3MTc0MjYwMTkyYWJhMjcyM2JkZTk3NGY=",
+      "id": "0xefb518502187769052c11bcef38c19595ff4016b7174260192aba2723bde974f",
+      "title": "Should we distribute AQUA Liquidity Mining rewards in one single transaction in January?",
+      "content": "Liquidity providers in the AQUA/ETH Uniswap v2 pool are earning a share of 50m AQUA during the three months between October and December:\nhttps://snapshot.org/#/blockzerolabs.eth/proposal/QmZi9wKaJki6WivxakFaTGWTASPw7ZD7hVREFGJS1JKUKD\n\nThese AQUA rewards are set to be distributed to Dropzero in three allocations across November, December and January. However, this would require claimers to pay for three gas transactions even if they only made one claim for their AQUA at the end of the campaign.\n\nShould we instead distribute all of the AQUA Liquidity Mining rewards in only one single transaction in January to reduce gas costs for claimers?",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 17,
+      "blockNumber": 13513256,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/0xefb518502187769052c11bcef38c19595ff4016b7174260192aba2723bde974f",
+      "startTime": {
+        "timestamp": 1635526800
+      },
+      "endTime": {
+        "timestamp": 1636131600
+      },
+      "startTimestamp": 1635526800,
+      "endTimestamp": 1636131600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1537606.0,
+          "choice": 0
+        },
+        {
+          "total": 192416.23,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2672750.2485164716,
+          "choice": 0
+        },
+        {
+          "total": 192279.4968104344,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbWRlcHZnMXdmdXlqNnZibjZ3dWg1YnB4NzJlMXg0eWJsYm1ycDQyYzJmbWti",
+      "id": "QmdEpVG1WfuYJ6VbN6WUh5Bpx72e1x4yBLBmRp42C2FMkB",
+      "title": "Should we allocate 500,000 FlashV3 from the Treasury to be rewarded XIO holders for the month of November?",
+      "content": "These 500,000 FlashV3 tokens will come from the Blockzero Treasury to be distributed to XIO holders and XLP liquidity providers.\n\nThe currently ongoing FlashV3 rewards to XIO holders will end on Oct 31st: the 1,000,000 FlashV3 rewarded from July 31 to Oct31 per https://medium.com/bombx/the-path-to-flash-v3-perpetual-liquidity-flashburn-layer-2-7ff61b2c58de\n\nThe credits system for November's 500k V3 tokens will work the same in November as it has for the July31-Oct31 period.\n* XLP holders will receive a 4x multiplier on their credits towards earning their proportional share of these 500,000 FlashV3 tokens. (XIO/ETH, XIO/USDC, XIO/DAI from UniswapV2)\n* XIO holders will have 1x multiplier.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 42,
+      "blockNumber": 13481088,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmdEpVG1WfuYJ6VbN6WUh5Bpx72e1x4yBLBmRp42C2FMkB",
+      "startTime": {
+        "timestamp": 1635091200
+      },
+      "endTime": {
+        "timestamp": 1635696000
+      },
+      "startTimestamp": 1635091200,
+      "endTimestamp": 1635696000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1614228.1,
+          "choice": 0
+        },
+        {
+          "total": 11774.583,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2467420.4462600155,
+          "choice": 0
+        },
+        {
+          "total": 11004.31063415526,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbWFldzhucmxkZW1yZXk5YXJkdXJtemFsY3JqamRqa3lqN3BmcGRmeDdjc2li",
+      "id": "QmaeW8NRLDeMrey9arDurMZaLcRJjdJKYJ7pFpDfx7csiB",
+      "title": "Should Blockzero Labs accept the HumanKind proposal by Zachary Dash?",
+      "content": "Original Proposal: https://zacharydash.medium.com/introducing-humankind-io-the-patreon-of-web3-ce1f001d6d50\n\nModifications:\n- Removal of staking inflation of $KIND token. Users can still vote to mint $KIND, but it won’t be native to the token.\n- Post-approval, an in-depth tokenomics analysis will be performed and any changes which improve the token dynamics will be implemented.\n- The platform will initially allow only staking of DAI/Stablecoins but eventually ETH and others.\n\nDistribution:\n- 80% to Citizens to be earned over 1 year (XLP to be increased to 3x multiplier)\n- 10% to Blockzero Vortex (1 Year Vest)\n- 10% for $KIND Options to reward individuals who work on getting $KIND to mainnet\n- $XIO holders can vote to reduce or stop the distribution of $KIND holders at anytime\n\nBlockzero Bonus:\n- For as long as Blockzero Labs continues to support the HumankindDAO, Blockzero is to receive a 10% $KIND Box Match. This means, anytime $KIND tokens are minted, up to a 10% match will be sent to the Vortex.\n- Blockzero Labs can utilize the HumankindDAO to stake and support highly engaged Blockzero Citizens who step up within the ecosystem.\n\nTeam Expectations:\n- Project Lead: Dash\n- Front-end Web Developer\n- Back-end Developer\n- Smart-Contract Developer\n- Product Marketing Manager\n- Community Support Coordinator\n- Human Outreach Coordinator\n- Part-Time Protocol Engineer Advisory\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 31,
+      "blockNumber": 13456514,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmaeW8NRLDeMrey9arDurMZaLcRJjdJKYJ7pFpDfx7csiB",
+      "startTime": {
+        "timestamp": 1634749200
+      },
+      "endTime": {
+        "timestamp": 1635354000
+      },
+      "startTimestamp": 1634749200,
+      "endTimestamp": 1635354000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I Abstain"
+      ],
+      "results": [
+        {
+          "total": 1784208.6,
+          "choice": 0
+        },
+        {
+          "total": 39909.81,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2499536.5993577093,
+          "choice": 0
+        },
+        {
+          "total": 31874.595083780765,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXR4dG1jMXVnbnJpeG56a3E1dXdubGx5amt6amFtcjZrbXpydGs1MnIzdGJ6",
+      "id": "QmTxtmc1ugnrixnZkQ5UWNLLyjKZJamr6kMzRtk52R3tBZ",
+      "title": "Should the new brand be built upon the concept of \"Paradox\" or as an evolution of the existing \"Flash V2\" brand?",
+      "content": "This is a follow up on the results of the previous vote per https://vote.blockzerolabs.io/#/proposal/QmdbH2jRNdGbFyPap2kKuq8NvX6nG4VRcoecfku173qgTv\n\nThis will be the final vote as to how to proceed with this project's branding.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 37,
+      "blockNumber": 13417011,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmTxtmc1ugnrixnZkQ5UWNLLyjKZJamr6kMzRtk52R3tBZ",
+      "startTime": {
+        "timestamp": 1634223600
+      },
+      "endTime": {
+        "timestamp": 1634828400
+      },
+      "startTimestamp": 1634223600,
+      "endTimestamp": 1634828400,
+      "currentState": "closed",
+      "choices": [
+        "PARADOX",
+        "FLASH",
+        "I Abstain"
+      ],
+      "results": [
+        {
+          "total": 447737.28,
+          "choice": 0
+        },
+        {
+          "total": 3050558.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 436148.189159944,
+          "choice": 0
+        },
+        {
+          "total": 5847520.341230106,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXF0dXQ4cHFucGp3N2U4c3dvNm1nc2FmdWdoaXdibzZpams3b2lxYTJjOXJr",
+      "id": "QmQtUt8PQNPJw7e8Swo6MgSafUgHiwbo6ijk7oiqA2c9rK",
+      "title": "Should we set an expiry date of all claims for 3 months from when this proposal is approved for the AQUA token distribution?",
+      "content": "During the Aqua token deployment, we arbitrarily chose the 1st of Jan 2023 as the expiry date since:\n1. We have the functionality to either decrease or increase the expiry date for these tokens\n2. We as a community did not decide on the expiry date (hence the arbitrary date of Jan 2023 being chosen)\n\nThis proposal if passed would set the deadline for all AQUA distribution claims on Dropzero to be three months (or exactly 84 days) from when this vote ends.\n\nSome reasons to vote \"Yes\" for this proposal are:\n1. Create a sense of urgency to claim AQUA tokens\n2. Ensure the AQUA tokens are kept in hands that are contributing or using the token or protocol.\n3. Ensure the community and new stakeholders are aware of the total/circulating supply - i.e 100 million tokens are not randomly claimed at some point\n4. Increase the reward for the KPI Option campaign (via deflation) and thus make them more of a lucrative option for high net worth individuals.\n5. The fewer tokens in existence the better for potential future stakeholders as well as current stakeholders\n\nFor context, the Flash token had an expiry date of three months post-launch. There are currently around 400 million AQUA tokens (or ~50%) that are unclaimed.\n\nThe tokens that are unclaimed would be burned. This means if 400 million tokens were left after the deadline, these tokens would be burned forever.\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 24,
+      "blockNumber": 13375184,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmQtUt8PQNPJw7e8Swo6MgSafUgHiwbo6ijk7oiqA2c9rK",
+      "startTime": {
+        "timestamp": 1633626000
+      },
+      "endTime": {
+        "timestamp": 1634230800
+      },
+      "startTimestamp": 1633626000,
+      "endTimestamp": 1634230800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1140057.5,
+          "choice": 0
+        },
+        {
+          "total": 130497.81,
+          "choice": 2
+        },
+        {
+          "total": 61003.914,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2285535.8212648924,
+          "choice": 0
+        },
+        {
+          "total": 46502.79423535432,
+          "choice": 1
+        },
+        {
+          "total": 119133.0547112978,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXNubGw2YXY4eXM2d2tzbXZ1b2ZtdXB2NzE4ZGQ3ZWI3ZWtyNXJxdGJ3enBx",
+      "id": "QmSNLL6AV8Ys6wKSMVuofMupV718dD7eB7EKR5RqTbwzPQ",
+      "title": "Should we install and use the Delegated voting plugin for Snapshot (vote.blockzerolabs.io)?",
+      "content": "This is a proposal to install and use the Delegated voting plugin for Snapshot. This plugin will allow ethereum addresses to delegate their voting power to another ethereum address thereby allowing the recipient to vote with its own tokens as well as Delegated tokens.\n\nPlease note: delegation will not transfer any tokens.\n\n​​https://docs.snapshot.org/guides/delegation \n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 45,
+      "blockNumber": 13366999,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmSNLL6AV8Ys6wKSMVuofMupV718dD7eB7EKR5RqTbwzPQ",
+      "startTime": {
+        "timestamp": 1633539600
+      },
+      "endTime": {
+        "timestamp": 1634144400
+      },
+      "startTimestamp": 1633539600,
+      "endTimestamp": 1634144400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 2543615.0,
+          "choice": 0
+        },
+        {
+          "total": 15407.656,
+          "choice": 2
+        },
+        {
+          "total": 3760266.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4609859.789180015,
+          "choice": 0
+        },
+        {
+          "total": 3553169.2366927215,
+          "choice": 1
+        },
+        {
+          "total": 77415.68785438244,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXB3b21nMWNreWV1eXZyd25jY2syajZod2VueGNwMm1nbmJ1YTl6d3R4eXJz",
+      "id": "QmPwoMG1CkYEUYvRwnCCk2j6HwEnxCp2mGnBUa9ZwtxyRs",
+      "title": "Should we create the KPI Option token for Aqua as per the proposal mentioned below?",
+      "content": "Proposal information:\nhttps://docs.google.com/document/d/1pmQUBWRizUJaHqoiSWY4-38CYj96mSbdz0WVqUGbpAU/edit?usp=sharing\n\nPlease note there are two items in the document which will be updated shortly - this will likely be after the vote results are in.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 37,
+      "blockNumber": 13367063,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmPwoMG1CkYEUYvRwnCCk2j6HwEnxCp2mGnBUa9ZwtxyRs",
+      "startTime": {
+        "timestamp": 1633539600
+      },
+      "endTime": {
+        "timestamp": 1634144400
+      },
+      "startTimestamp": 1633539600,
+      "endTimestamp": 1634144400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 5660804.5,
+          "choice": 0
+        },
+        {
+          "total": 263435.34,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6969873.370310619,
+          "choice": 0
+        },
+        {
+          "total": 263435.34669917973,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbWRiaDJqcm5kZ2JmeXBhcDJra3VxOG52eDZuZzR2cmNvZWNma3UxNzNxZ3R2",
+      "id": "QmdbH2jRNdGbFyPap2kKuq8NvX6nG4VRcoecfku173qgTv",
+      "title": "If we rebrand Flashstake, what should it be rebranded to?",
+      "content": "Choose the best concept brand to replace Flashstake amongst the following options. The winning brand from this vote will compete against Flashstake in the final vote which will determine whether to re-brand.\n\nDocument showing rebrand graphics and aesthetics examples:\nhttps://docs.google.com/document/d/15_lEXmnA-FS0uJtV7IaoWOFwW-tEX189ux9yv0-m-w4/edit\n\nAdditional Information:\nhttps://blog.blockzerolabs.io/lets-talk-about-the-flashstake-brand-75d7a0bde765\n\nDiscord invite link:\nhttps://discord.gg/gfcYsdHGnt\n\nDiscuss this at #Flashstake channel at discord: \nhttps://discord.com/channels/845757891897589800/846409933183778846\n-------------\n\nOption 1 | Jera ($JERA)\n* To fully appreciate Jera, you must understand the root and meaning behind the word. “Rune of harvest and reward for, or reaction to, right actions in a horizontal (naturally ordered) cyclical process. Financially, the rewards of our efforts and the fruits of our labor are in sight.”\n\nOption 2 | Paradox ($DOX)\n* Paradox often refers to something that seems to contradict itself but may nonetheless be true. Instant upfront yield at times can seem hard to fathom, but now possible in the world of crypto.\n\nOption 3 | Epoch ($EPOCH)\n* Epoch (pronounced ē′pŏk″) has many relevant definitions.\nn. A particular period of history, especially one considered remarkable or noteworthy.\nn. A unit of geologic time that is a division of a period.\nn. An instant in time that is arbitrarily selected as a point of reference for specification of celestial coordinates.\n\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 54,
+      "blockNumber": 13366915,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmdbH2jRNdGbFyPap2kKuq8NvX6nG4VRcoecfku173qgTv",
+      "startTime": {
+        "timestamp": 1633539600
+      },
+      "endTime": {
+        "timestamp": 1634144400
+      },
+      "startTimestamp": 1633539600,
+      "endTimestamp": 1634144400,
+      "currentState": "closed",
+      "choices": [
+        "JERA",
+        "DOX",
+        "EPOCH",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1715727.0,
+          "choice": 3
+        },
+        {
+          "total": 338146.03,
+          "choice": 0
+        },
+        {
+          "total": 580824.9,
+          "choice": 2
+        },
+        {
+          "total": 4300343.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 216519.2351345554,
+          "choice": 0
+        },
+        {
+          "total": 4566330.297614737,
+          "choice": 1
+        },
+        {
+          "total": 533718.7860971693,
+          "choice": 2
+        },
+        {
+          "total": 2636818.814944389,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXppOXdrYWpraTZ3aXZ4YWtmYXRnd3Rhc3B3N3pkN2h2cmVmZ2pzMWprdWtk",
+      "id": "QmZi9wKaJki6WivxakFaTGWTASPw7ZD7hVREFGJS1JKUKD",
+      "title": "Should we allocate 50m AQUA from the Vortex for 13 weeks of a Liquidity Mining Program?",
+      "content": "Proposal details:\nhttps://docs.google.com/document/d/1FpQG8snBDRVPRxdPwZgEBlM-k2Ykd07sGfnWgQGGyBI/edit\n* 50m AQUA tokens over 13 weeks. The first week has the most rewards, with each subsequent week paying less rewards.\n* The Uniswap v2 AQUA/ETH pool is used as an oracle to calculate earned AQUA premium when unstaking in the AQUA Protocol.  The main goal of the proposed program is reducing the risk of price manipulation.  The more liquidity in the pool the more costly this potential attack becomes.\n* It does not matter if the LP tokens are simply held in the wallet or if the user decides to stake their LP token into the AQUA Protocol for additional yield\n\nDiscuss further at #vote channel in discord: https://discord.gg/gfcYsdHGnt\n\nWhich ever answer receives more than 50% of the vote will be the majority decision for this proposal.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 38,
+      "blockNumber": 13289278,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmZi9wKaJki6WivxakFaTGWTASPw7ZD7hVREFGJS1JKUKD",
+      "startTime": {
+        "timestamp": 1632495600
+      },
+      "endTime": {
+        "timestamp": 1633014000
+      },
+      "startTimestamp": 1632495600,
+      "endTimestamp": 1633014000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 3341613.8,
+          "choice": 0
+        },
+        {
+          "total": 1646603.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5425103.29797948,
+          "choice": 0
+        },
+        {
+          "total": 1114634.709704975,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbWR4OGRrN3B3bm5wdXZ5d250bzV5cDM5Z3lua2xib2pla3p4YmFtam9rbXRr",
+      "id": "QmdX8Dk7PwnnPUVYWnto5yP39gyNkLboJEkzXbamJokMtk",
+      "title": "Should we use 50m AQUA from Vortex to pay +25% premium to WETH/AQUA UniV2 pool?",
+      "content": "Proposal details: https://docs.google.com/document/d/1Ti95YUY_28bHfmaFye2iX2_9jb1h30noUkRX9tDXXMM/edit\n* Use 50,000,000 (~ 25% of Aqua from the Vortex AKA 5.25% of total supply) Aqua tokens from the Vortex to run a centrally distributed programme where we pay an additional 25% Aqua premium to fees generated within the WETH/AQUA Uniswap V2 pool.\n\nDiscuss further at #vote channel in discord: https://discord.gg/gfcYsdHGnt\n\nWhich ever answer receives more than 50% of the vote will be the majority decision for this proposal.\n\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 39,
+      "blockNumber": 13269768,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmdX8Dk7PwnnPUVYWnto5yP39gyNkLboJEkzXbamJokMtk",
+      "startTime": {
+        "timestamp": 1632232800
+      },
+      "endTime": {
+        "timestamp": 1632664800
+      },
+      "startTimestamp": 1632232800,
+      "endTimestamp": 1632664800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1091472.2,
+          "choice": 0
+        },
+        {
+          "total": 3853594.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1204669.821454451,
+          "choice": 0
+        },
+        {
+          "total": 5593504.281274613,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbWU4Zmttc253bnh3anFyazF0d2V0NHF1N21jZTdmZDluNWZhc2pxN2hremds",
+      "id": "Qme8FKMsnWnXWJqrK1twET4QU7mCE7fD9N5FAsjq7HkZGL",
+      "title": "Which option for AquaFi auditing should we go with considering the new information mentioned below?",
+      "content": "Additional Information:\nWe are reopening voting since Popsicle Finance has very similar functionality to AquaFi. Certik has also audited another project named Poly Network which was recently exploited for $400 million USD. You can read more about these exploits here:\n\nhttps://popsiclefinance.medium.com/popsicle-finance-post-mortem-after-fragola-hack-f45b302362e0\nhttps://slowmist.medium.com/the-root-cause-of-poly-network-being-hacked-ec2ee1b0c68f \n\nThe Options:\n1. Certik - as mentioned above (audited over 500 projects)\n2. Solidified - This is a company we have worked with in the past to audit Flashstake but this was also exploited. Solidified have audited over 140 projects.\n3. Bug Bounty - This option would involve allocating $30,000 towards a public bug bounty programme. This is something that we would start immediately and would run perpetually until these funds are depleted. There are many options available - for example running this bug bounty ourselves as we have done in the past, using community based bug bounty programs such as ImmuneFi, etc.\n4. I abstain\n\nPlease note the timelines mentioned in the last vote may no longer be valid. We are currently in talks with both auditing companies for updated timelines if we go ahead with them.\n\nDiscussion at:\nhttps://discord.com/channels/845757891897589800/872492424889507902",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 29,
+      "blockNumber": 13004511,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/Qme8FKMsnWnXWJqrK1twET4QU7mCE7fD9N5FAsjq7HkZGL",
+      "startTime": {
+        "timestamp": 1628690400
+      },
+      "endTime": {
+        "timestamp": 1628949600
+      },
+      "startTimestamp": 1628690400,
+      "endTimestamp": 1628949600,
+      "currentState": "closed",
+      "choices": [
+        "Certik",
+        "Solidified",
+        "Bug Bounty",
+        "I Abstain"
+      ],
+      "results": [
+        {
+          "total": 210253.11,
+          "choice": 0
+        },
+        {
+          "total": 3166680.8,
+          "choice": 2
+        },
+        {
+          "total": 3210832.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 119526.8357820524,
+          "choice": 0
+        },
+        {
+          "total": 3921677.316331242,
+          "choice": 1
+        },
+        {
+          "total": 2843721.9285107306,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXlyanJwcXpwa3J1bnhna3lrZWdibXBrMWtrZ2ZwYTVuYWJna3pycGF1N2xx",
+      "id": "QmYRjRpQZpKRUnXgKyKeGBmpk1KkGFpA5nABgKZrpAu7LQ",
+      "title": "Which option should we go with in terms of auditing AquaFi?",
+      "content": "The choices in detail:\n1. Proceed with Solidified > $24K > Start 23 Aug / Finish around 13 Sep (3wks) > Fully funded by XIO\n2. Per 1, but partially subsidised (e.g. 50%) by AquaFi (post mainnet reimburse)\n3. Proceed with Certik > $30K > Start 16 Aug / Finish around 6 Sep (3 wks) > Fully funded by XIO\n4. Per 3, but partially subsidised (e.g. 50%) by AquaFi (post mainnet reimburse)\n5. No audit and rely on bug bounty and future upgradeability/auditing if there is a demand for the protocol\n6. I abstain\n\nDiscuss at discord in our #aquafi-audit channel @ https://discord.com/channels/845757891897589800/869944048809562182",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 40,
+      "blockNumber": 12915422,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmYRjRpQZpKRUnXgKyKeGBmpk1KkGFpA5nABgKZrpAu7LQ",
+      "startTime": {
+        "timestamp": 1627488000
+      },
+      "endTime": {
+        "timestamp": 1627747200
+      },
+      "startTimestamp": 1627488000,
+      "endTimestamp": 1627747200,
+      "currentState": "closed",
+      "choices": [
+        " Proceed with Solidified > $24K ",
+        "Per 1, but partially subsidised",
+        "Proceed with Certik > $30K",
+        " Per 3, but partially subsidised",
+        "No audit",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1375004.0,
+          "choice": 3
+        },
+        {
+          "total": 394045.0,
+          "choice": 4
+        },
+        {
+          "total": 55113.438,
+          "choice": 0
+        },
+        {
+          "total": 500177.3,
+          "choice": 2
+        },
+        {
+          "total": 152926.89,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 28653.61368216422,
+          "choice": 0
+        },
+        {
+          "total": 117768.376261874,
+          "choice": 1
+        },
+        {
+          "total": 423695.42922814505,
+          "choice": 2
+        },
+        {
+          "total": 2571631.8593285508,
+          "choice": 3
+        },
+        {
+          "total": 1173927.422617273,
+          "choice": 4
+        },
+        {
+          "total": 0.0,
+          "choice": 5
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXZobWNhZ2FyZ2hqdzdqODNjdjV1Znd2ZWtrZXMyeHFkMnY4Y3AyeTJxYXdk",
+      "id": "QmVHmCaGargHjw7j83Cv5ufWveKkeS2xqD2V8Cp2y2QaWD",
+      "title": "Should LPs have the same voting power as holders, relative to their value, on snapshot voting?",
+      "content": "TLDR:\n* XIO token Holders would remain unchanged.\n* XIO token LPs would get a 2x increase. \n* This would impact these UniswapV2 LPs: XIO/ETH, XIO/USDC, XIO/DAI\n\nCurrently, if you hold 500 XIO + equivalent ETH as an LP, you have 500 XIO voting power. Compared to someone holding 1,000 XIO only, who currently has 1,000 XIO voting power.\n\nThis proposal will change this so that LPs have the same voting power as holders, relative to their value. Example: this would change it so an LP with 500 XIO + equivalent ETH would have 1,000 XIO voting power.\n\nLink to discussion:\nhttps://forum.blockzerolabs.io/t/proposal-discussion-should-lps-have-the-same-voting-power-as-holders-relative-to-their-value-on-snapshot-voting/1559\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 26,
+      "blockNumber": 12725198,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmVHmCaGargHjw7j83Cv5ufWveKkeS2xqD2V8Cp2y2QaWD",
+      "startTime": {
+        "timestamp": 1624917600
+      },
+      "endTime": {
+        "timestamp": 1625349600
+      },
+      "startTimestamp": 1624917600,
+      "endTimestamp": 1625349600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1379747.9,
+          "choice": 0
+        },
+        {
+          "total": 187.0504,
+          "choice": 2
+        },
+        {
+          "total": 829946.75,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2210073.5821558796,
+          "choice": 0
+        },
+        {
+          "total": 530522.7386238826,
+          "choice": 1
+        },
+        {
+          "total": 187.0504,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbW55eXV2M3BiZ2t6dThkaXd0a2czdHBveG51bWdhczRjdWFoNG14d200Y3M1",
+      "id": "QmNYyuV3PbGKZu8DiWtkG3TpoXnUMGAs4cuAh4MXwM4CS5",
+      "title": "Should we proceed with creating Flash V3?",
+      "content": "Link to proposal:\nhttps://medium.com/bombx/the-path-to-flash-v3-perpetual-liquidity-flashburn-layer-2-7ff61b2c58de\n\nLink to join Discord:\nhttps://discord.gg/DtWJGQsseH\n\nLink to discussion on Discord in our Flashstake channel:\nhttps://discord.com/channels/845757891897589800/846409933183778846/858082414348468244",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 45,
+      "blockNumber": 12705384,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmNYyuV3PbGKZu8DiWtkG3TpoXnUMGAs4cuAh4MXwM4CS5",
+      "startTime": {
+        "timestamp": 1624644000
+      },
+      "endTime": {
+        "timestamp": 1625076000
+      },
+      "startTimestamp": 1624644000,
+      "endTimestamp": 1625076000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1674122.0,
+          "choice": 0
+        },
+        {
+          "total": 2911.0933,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2937225.22071714,
+          "choice": 0
+        },
+        {
+          "total": 2911.09328546,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXYzdXptc3l4ZXdkaGllY2sydzN6dGVoeGh4MnR4anA2OHpkbTQ3a3kza3U4",
+      "id": "QmV3UZmsYXEWdhiECK2w3zteHxHX2TxJP68zDm47kY3ku8",
+      "title": "Should we do the 100K ETH Experiment?",
+      "content": "TLDR:\n* Blockzero Labs has nominated a total of 125 communities, builders, and content creators across the decentralized world. These individuals and groups are eligible to claim 1 XIO Option token.\n* There are only 100 XIO Option tokens in existence. These tokens will be redeemed on a first-come-first-serve basis.\n* The XIO Option tokens are convertible up to 10M XIO tokens based on our primary KPI. Our primary KPI is the Total Liquid Value (TLV) inside the Blockzero Vortex — a decentralized venture fund.\n* These Options will be 100% convertible once the Vortex reaches a Total Liquid Value (TLV) of 100,000 ETH. At this time, one Option is worth 0.069168 ETH ($172.92).\n* If the market cap of XIO becomes equal to the TLV of the Vortex at the time we hit our primary KPI, one Option would currently be worth 250 ETH ($625,000).\n\nLink to full proposal:\nhttps://medium.com/bombx/the-100k-eth-experiment-f8cbf23b4838\n\nDiscuss at:\nhttps://discord.gg/JzugCwWqS2",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 38,
+      "blockNumber": 12653844,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmV3UZmsYXEWdhiECK2w3zteHxHX2TxJP68zDm47kY3ku8",
+      "startTime": {
+        "timestamp": 1623956400
+      },
+      "endTime": {
+        "timestamp": 1624561200
+      },
+      "startTimestamp": 1623956400,
+      "endTimestamp": 1624561200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1814540.9,
+          "choice": 0
+        },
+        {
+          "total": 187.0504,
+          "choice": 2
+        },
+        {
+          "total": 1125876.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2739001.745993894,
+          "choice": 0
+        },
+        {
+          "total": 826451.954420836,
+          "choice": 1
+        },
+        {
+          "total": 187.0504,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXpnZGRua2JtZnltd3RmdXFkd21ocGQzemVkOHVldm9tdGlqd2NlZml0Zjlh",
+      "id": "QmZGddNkbmfymwTfuqdWmHpd3Zed8UEVoMTijwCEfiTf9A",
+      "title": "Should we allow minter addresses for the Aqua token to be editable? (see additional info below)",
+      "content": "Additional Information:\n\nYou can discuss here: https://discord.gg/vECzp2kc \n\nAfter speaking with our senior blockchain engineer I have determined that the best course of action for the AquaFi protocol in regards to layer 2 support is as follows. \n\nIn order to support sidechains/L2, we need a L1-L2 token bridge. Due to the nature of the Aqua token (has mining ability), the token bridge must be able to mint and burn tokens at will. \n\nFor example, if you transfer 1000 Aqua to the L1 side of the bridge from L2, 1000 Aqua must be minted on L1/mainnet. This means tokens can be exchanged 1:1 between the Ethereum mainnet and the sidechain/L2 thus keeping the price of the Aqua token consistent over all chains where AquaFi is deployed. Unfortunately due to the permissionless nature of AquaFi (as it currently stands) it would be impossible to update the minters for the Aqua token. \n\nI propose:\n1) we allow the Blockzero council to update (add or remove) the minters for the Aqua token via the council controlled multi-sig wallet.\n2) we implement a time-lock (duration to be determined) which means anytime the council wants to update the minter addresses, the council will need to submit a transaction to the ethereum network which will be publicly viewable. The council must then wait a period of time (duration to be determined) before the change is live and the minter addresses are then updated. \n3) we implement functionality that allows the council to permanently revoke this permission when executed\n\nIf we decide not to add this functionality, there is a very high chance that we will require a token migration each time we want to add or remove a new sidechain/L2 network. The alternatives are:\n1) Do not launch with sidechain/L2 support and require a rather large migration down the line if we want to support in the future\n2) Launch with support for predetermined sidechains/L2 networks - eg Arbitrum - this can never be updated (permissionless)\n3) Launch AquaFi independently onto sidechains/L2 - this effectively means Aqua on the other networks are completely independent from Aqua on the ethereum mainnet - so different prices, different tokens\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 30,
+      "blockNumber": 12652991,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmZGddNkbmfymwTfuqdWmHpd3Zed8UEVoMTijwCEfiTf9A",
+      "startTime": {
+        "timestamp": 1623945600
+      },
+      "endTime": {
+        "timestamp": 1624377600
+      },
+      "startTimestamp": 1623945600,
+      "endTimestamp": 1624377600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1562898.1,
+          "choice": 0
+        },
+        {
+          "total": 187.0504,
+          "choice": 2
+        },
+        {
+          "total": 270193.22,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2497299.609356769,
+          "choice": 0
+        },
+        {
+          "total": 270193.21196577343,
+          "choice": 1
+        },
+        {
+          "total": 187.0504,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXp6N3JiMWZ4ZDJ5ZHFtM2Y4cmRsZmhneHF4M3V4Mms1d3lxYXhtYzZhaDln",
+      "id": "QmZZ7rB1fxd2ydQm3f8rdLFhGXqx3Ux2K5WYQaxmC6Ah9g",
+      "title": "Should 20% of the total Aqua supply be allocated to KPI Options as mentioned below and 21% be allocated to the Vortex Treasury?",
+      "content": "Link to proposal document that contains all relevant information:\nhttps://docs.google.com/document/d/1zJCQBZb2qTlOtPgq06Ai1neW06u6Hi_AZCBpjwC3jrM/edit\n\nLink to discussion:\nhttps://home.blockzerolabs.io/post/proposal-should-20-of-the-total-aqua-supply-be-allocated-to-kpi-options-as---60c121ad80d138246083a8c7",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 23,
+      "blockNumber": 12602414,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmZZ7rB1fxd2ydQm3f8rdLFhGXqx3Ux2K5WYQaxmC6Ah9g",
+      "startTime": {
+        "timestamp": 1623268800
+      },
+      "endTime": {
+        "timestamp": 1623700800
+      },
+      "startTimestamp": 1623268800,
+      "endTimestamp": 1623700800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1058095.2,
+          "choice": 0
+        },
+        {
+          "total": 30008.738,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1234764.7023688783,
+          "choice": 0
+        },
+        {
+          "total": 30008.73782618603,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXBnOWoyY21kd2k3c3BpcTNreXN2ZjNid2toeHN1NGhwbWRraHVzd3Jlenhr",
+      "id": "QmPG9j2CmDwi7sPiQ3KYSVf3BwKHXSu4HPMDKHuSWREZXK",
+      "title": "Should these be the premium rates per category for AquaFi?",
+      "content": "\nStablecoin pools - 50% premium\nPartnered pools - 25% premium\nFlashstake pools - 40% premium\nHigh liquidity pools - 25% premium\nAqua pools - 100% premium\n\nLink to full proposal discussion:\nhttps://home.blockzerolabs.io/post/proposal-should-we-go-ahead-with-the-proposal-regarding-the-initial-pools-f--60ba3e5d41eaae59528792ef\n\nLink to copy of proposal:\nhttps://docs.google.com/document/d/19FvB-zB8a15p3pGxRjl3m8HQ7NkSs2usmjG_mKurOfM/edit#",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 31,
+      "blockNumber": 12568625,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmPG9j2CmDwi7sPiQ3KYSVf3BwKHXSu4HPMDKHuSWREZXK",
+      "startTime": {
+        "timestamp": 1622818800
+      },
+      "endTime": {
+        "timestamp": 1623250800
+      },
+      "startTimestamp": 1622818800,
+      "endTimestamp": 1623250800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 1220093.4,
+          "choice": 0
+        },
+        {
+          "total": 187.0504,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1536417.8728803615,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 187.0504,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbWF1ZXpqaTc2ZnYxcW4xZnp3N2YxbW45emZtMXpzMmtzMTZtaHF3cDNpNDc3",
+      "id": "QmaUeZJi76Fv1Qn1Fzw7f1Mn9ZFM1Zs2KS16mHqWP3i477",
+      "title": "Should we fund a UFO Growth proposal with the Blockzero Vortex FLASH tokens?",
+      "content": "Dave, who you may know from the Flash Council and is an admin in our Flash telegram channel, has created this proposal.\n\nLink to proposal and discussion:\nhttps://home.blockzerolabs.io/post/flash-l-ufo-growth-60b3560b934322488163762f\n\nCopy of proposal:\nhttps://docs.google.com/document/d/1XidbBgMnBw9WagmxVqGLI7wH5IGt9QsJE1zJoLgJMgc/edit?usp=sharing\n\nWhat is a UFO? Article of our recent first UFO with Amp:\nhttps://medium.com/bombx/amp-token-to-launch-cryptos-first-ufo-upfront-flashstake-offering-cb71db6e1afc\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 28,
+      "blockNumber": 12549649,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmaUeZJi76Fv1Qn1Fzw7f1Mn9ZFM1Zs2KS16mHqWP3i477",
+      "startTime": {
+        "timestamp": 1622563200
+      },
+      "endTime": {
+        "timestamp": 1622995200
+      },
+      "startTimestamp": 1622563200,
+      "endTimestamp": 1622995200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 729697.5,
+          "choice": 0
+        },
+        {
+          "total": 1870.851,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1187048.8086120617,
+          "choice": 0
+        },
+        {
+          "total": 1870.850900618748,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXhqcGliOWJ4OGc3dHpoZWdjZDZlcW5hNjk0Z2Jic3BwaHZ2cmdqYXBqeG00",
+      "id": "QmXJpiB9bx8G7TzhEgCd6EqnA694gBbSppHVvRGjAPJxM4",
+      "title": "What distribution model should we use for Aqua given the logistical challenges presented in the forum post?",
+      "content": "Additional Information:\n\n\nForum discussion post: https://home.blockzerolabs.io/post/proposal-change-aqua-distribution-609ab8d1ee4f81047ede6f81\n\nThe additional tokens XIO holders could earn until the end of December is around 25m.\n\nOption 1. Determine a rough estimate of Aqua based on current projections and mint this number of Aqua tokens. The risk here is that we may not have enough tokens in the future - eg if someone purchases millions of XIO in September, the actual eligibility will be higher than the number of tokens we initially minted.\n\nOption 2. Give the foundation minting capability so we can update the claims app with the exact number of Aqua holders are eligible for. The minting capability would be controlled via a multi-sig wallet (currently controlled by the council).\n\nOption 3. Determine a rough estimate of Aqua based on current projects and mint this number of Aqua tokens. Place these tokens into the Vortex where citizens can earn them by staking XIO. This effectively stops all future eligibility and allows earning of Aqua based on staked XIO in the Vortex.\n\nOption 4. Stop earning Aqua tokens once AquaFi is live and the initial distribution has happened.\n\nOption 5. Mint additional tokens based on the current projections (eg current estimate plus 50-100%). Upload these to Dropzero for claiming by citizens as per the current schedule then perform a vote on what to do with all the tokens leftover around the end of the year/Jan 2022. This is similar to option 3 however there would be no Vortex involved here.\n\n\nCopy of proposal: https://docs.google.com/document/d/14aDQhNdOoGf6Ub7FwPy0O0ZGPcEDrthLun1SZWfF0os/edit?usp=sharing\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 36,
+      "blockNumber": 12517681,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmXJpiB9bx8G7TzhEgCd6EqnA694gBbSppHVvRGjAPJxM4",
+      "startTime": {
+        "timestamp": 1622134800
+      },
+      "endTime": {
+        "timestamp": 1622566800
+      },
+      "startTimestamp": 1622134800,
+      "endTimestamp": 1622566800,
+      "currentState": "closed",
+      "choices": [
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4",
+        "Option 5",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 481622.78,
+          "choice": 3
+        },
+        {
+          "total": 3.8683653,
+          "choice": 4
+        },
+        {
+          "total": 1156047.4,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 1770754.050279325,
+          "choice": 2
+        },
+        {
+          "total": 509340.1334122607,
+          "choice": 3
+        },
+        {
+          "total": 22050.004143552567,
+          "choice": 4
+        },
+        {
+          "total": 0.0,
+          "choice": 5
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXJ0amhreXhtZWJoZ3h4empkYm83ZmozN3FoYmE5aGJzMWJoc3RhNmh2Z21v",
+      "id": "QmRtjhKYXmebHGXxzjdbo7fj37QhbA9Hbs1BhstA6HVgMo",
+      "title": "Should we use 75k FLASH for LM rewards for 30 days May 26-June 24?",
+      "content": "Rules:\n* Only LPs will earn credits. Stakers will not earn credits.\n* 1 credit earned per each 1 FLASH owned within FLASH/ETH LP per day on both UniV2 and Flash Protocol.\n* Credits will be tallied daily and the rewards will be distributed proportionally based on the final day’s total credits calculations.\n\nBecause this snapshot vote is running for only 2 days instead of the standard 5-7 days, we will be requiring a minimum of 2million XIO votes for this to pass, otherwise this proposal will automatically fail.\n\nDiscuss at:\nhttps://home.blockzerolabs.io/post/should-we-use-75k-flash-for-lm-rewards-for-30-days-may-26-june-24-60aad006ed14392fd2dd7d27\n\nCopy of proposal:\nhttps://docs.google.com/document/d/1wFHFn720uR-Peirk7J7j0kHuGQ_LJull4Z7metCj_CQ/edit?usp=sharing",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 37,
+      "blockNumber": 12493138,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmRtjhKYXmebHGXxzjdbo7fj37QhbA9Hbs1BhstA6HVgMo",
+      "startTime": {
+        "timestamp": 1621807200
+      },
+      "endTime": {
+        "timestamp": 1621980000
+      },
+      "startTimestamp": 1621807200,
+      "endTimestamp": 1621980000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 2239165.5,
+          "choice": 0
+        },
+        {
+          "total": 8214.853,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3241508.5194740836,
+          "choice": 0
+        },
+        {
+          "total": 8214.85294860903,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXJuc2l1cXNtZHV6c3Jremxua2dvOXBhM3k3aGVwdzJqc3B3enNtbnBxdXM2",
+      "id": "QmRnSiuQsMduZsrKzLnKgo9pA3Y7HEPw2JsPWZSMnPQUs6",
+      "title": "Should FLASH be listed on the centralized exchange GATE.IO?",
+      "content": "If this proposal passes, the council will do what we can to get FLASH listed on GATE.IO, but this proposal passing does not guarantee that we will be able to.\n\n\nWhy is there a need for more exchange listings? \n\nCurrently FLASH is available on Uniswap and at the Flash Dapp. However, the gas fees have been very high lately, which is making both places a very expensive way to acquire FLASH tokens. If FLASH were listed on a centralized exchange, it would give a chance to users with less capital to acquire FLASH tokens without the issue of high gas fees.\n\nIt would also help increase the trading volume of FLASH, which would indicate that the project is in good health to new users looking to invest or projects looking for partners. Being able to trade FLASH in multiple exchanges would also reduce the price volatility as the impact of buys and sells would be spread out throughout the different markets. Being able to utilize custom features of centralized exchanges such as limit orders, which is not offered via Uniswap or the Flash Dapp, might also help.\n\n\nWhy is Gate.io being proposed as the exchange? \n\nThe main advantage of Gate.io is that it does not charge a listing fee as it gives an opportunity to new projects and tokens with smaller market caps. Another reason is that it has a high trust score on coingecko and a high exchange score on coinmarketcap. This indicates that the volume reported by the exchange is accurate and that it has high user traffic. This also means that it will appear as an exchange on the market section of coingecko / coinmarketcap for people looking to buy FLASH. It is the #12th biggest exchange, with a trustscore of 9 and almost $4 billion daily volume, per https://www.coingecko.com/en/exchanges\n\n\nWho would be responsible?\n\nJohn and Steve can work together to complete the listing application, if this gets approved.\n\nDiscussion at: https://home.blockzerolabs.io/post/proposal-a-member-of-the-project-team-to-apply-for-the-listing-of-flash-on---609c359d46f7b3fe66df90b7\n\nCopy of proposal: https://docs.google.com/document/d/15ZxMc69NjlsYb6GqLuG6z4MnuumMDlk47Se5EzpYDrk\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 66,
+      "blockNumber": 12455177,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmRnSiuQsMduZsrKzLnKgo9pA3Y7HEPw2JsPWZSMnPQUs6",
+      "startTime": {
+        "timestamp": 1621296000
+      },
+      "endTime": {
+        "timestamp": 1621728000
+      },
+      "startTimestamp": 1621296000,
+      "endTimestamp": 1621728000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "I abstain"
+      ],
+      "results": [
+        {
+          "total": 2228447.8,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2371915.9095587744,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXNzcnd6amtwNGk3amN0azZmaWl0aTR2amdreG1nMWhlcjc0aXdvMzRoN291",
+      "id": "QmSSRWZJkp4i7jcTk6FiiTi4Vjgkxmg1hEr74iWo34h7oU",
+      "title": "[HEAT CHECK] Should the Aqua token be launched prior to AquaFi being deployed/available for use?",
+      "content": "Additional Information: \nPlease note the launch date of Aqua is still not confirmed therefore we will be using the estimated date of deployment which could change at any time. You can discuss this further on Tribe at:\n- https://home.blockzerolabs.io/post/should-we-launch-the-aqua-token-and-perform-the-distribution-before-the-dap--60843e35e9288c3f307f69ed.\n\nPlease note this is only a heat check.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 60,
+      "blockNumber": 12391141,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmSSRWZJkp4i7jcTk6FiiTi4Vjgkxmg1hEr74iWo34h7oU",
+      "startTime": {
+        "timestamp": 1620442800
+      },
+      "endTime": {
+        "timestamp": 1621047600
+      },
+      "startTimestamp": 1620442800,
+      "endTimestamp": 1621047600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, 1-2 days before launch",
+        "Yes, 3-7 days before launch",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 824228.2,
+          "choice": 0
+        },
+        {
+          "total": 376505.34,
+          "choice": 2
+        },
+        {
+          "total": 1876226.6,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1288193.822763319,
+          "choice": 0
+        },
+        {
+          "total": 1789622.783204144,
+          "choice": 1
+        },
+        {
+          "total": 508037.3148389642,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXg2amNtZGtodGxubXl5eXJrd3B4Zmg0Zjd1cGgzbTNhcml2bmZjZW1mZmdm",
+      "id": "QmX6JcmDkHtLNmYYYRkWPxFh4F7UpH3M3ariVNFcEMffgF",
+      "title": "How many % of the Vortex Aqua tokens should be kept in orbit 1 (treasury) for Aqua KPI Options and other marketing purposes?",
+      "content": "Additional Information: \nYou can find out more about how these tokens will be used at the following URLs:\n1) https://home.blockzerolabs.io/post/how-many-tokens-should-be-minted-for-aqua-kpi-options-and-other-marketing-p--60843e06daf1bb53499d8c52\n2) https://forum.blockzerolabs.io/t/aquafi-protocol-marketing-initiative-proposal-xiofeedback/1065 \n\nAs per governance votes, 41% of the total Aqua supply will be kept in the Vortex and the remaining 59% will be distributed to eligible participants.\n\nThis will be a WEIGHTED vote which means every vote counts. So for example if the weighted vote average happens to be exactly 10% then:\n- 59% distributed to participants\n- 4.1% to marketing and KPIs\n- 36.9% to vortex",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 47,
+      "blockNumber": 12391114,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmX6JcmDkHtLNmYYYRkWPxFh4F7UpH3M3ariVNFcEMffgF",
+      "startTime": {
+        "timestamp": 1620442800
+      },
+      "endTime": {
+        "timestamp": 1621047600
+      },
+      "startTimestamp": 1620442800,
+      "endTimestamp": 1621047600,
+      "currentState": "closed",
+      "choices": [
+        "0%",
+        "5%",
+        "10%",
+        "15%"
+      ],
+      "results": [
+        {
+          "total": 1485109.6,
+          "choice": 3
+        },
+        {
+          "total": 15900.047,
+          "choice": 0
+        },
+        {
+          "total": 1162039.2,
+          "choice": 2
+        },
+        {
+          "total": 155473.77,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 15900.046690420562,
+          "choice": 0
+        },
+        {
+          "total": 104034.40783116732,
+          "choice": 1
+        },
+        {
+          "total": 1547706.1738170218,
+          "choice": 2
+        },
+        {
+          "total": 2063086.4072925411,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXp2dzZjcW1wZXJkbXc0djZpYXU1eWoyZGdjYTJucG1ybGh2bTh6cnoxaHVz",
+      "id": "QmZvw6cqmpErDmw4V6iAU5yj2dGCA2NPmRLhvM8ZRz1hus",
+      "title": "Should we use $25,000 for the Paid Growth Proposal?",
+      "content": "Link to copy of proposal: \t\n\thttps://docs.google.com/document/d/1g0lT2tikzojpklYGTn7lM0SLtkI7F7rozVt0d-U8bHA/edit?usp=sharing\n\nLink to discuss proposal:\t\n\thttps://home.blockzerolabs.io/post/dear-citizens-it-s-time-to-scale-25-000-paid-growth-proposal-608210f208195893cd5cf0b1\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 59,
+      "blockNumber": 12375337,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmZvw6cqmpErDmw4V6iAU5yj2dGCA2NPmRLhvM8ZRz1hus",
+      "startTime": {
+        "timestamp": 1620230400
+      },
+      "endTime": {
+        "timestamp": 1620662400
+      },
+      "startTimestamp": 1620230400,
+      "endTimestamp": 1620662400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 3291539.5,
+          "choice": 0
+        },
+        {
+          "total": 192974.84,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3912490.004578305,
+          "choice": 0
+        },
+        {
+          "total": 152440.24869124033,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXZsZWZkc3FqbW52dnlybWg3YnZhNXJrdHY0Z2VobnFkNjZld2hqZDh3enRw",
+      "id": "QmVLEfDsqjmnVvyrMH7bva5rktv4gEHNQd66EWHJD8WzTP",
+      "title": "Should we implement the Vortex as the primary business model for Blockzero Labs and the $XIO token?",
+      "content": "Link to copy of proposal: https://docs.google.com/document/d/1uraJw7LxDjJU4IvhPxVPd5dK__7Teae6PFsKXfUHTw8/edit?usp=sharing\n\nLink to discuss proposal:\nhttps://home.blockzerolabs.io/post/60792337956572026b0a58f3\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 77,
+      "blockNumber": 12370319,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmVLEfDsqjmnVvyrMH7bva5rktv4gEHNQd66EWHJD8WzTP",
+      "startTime": {
+        "timestamp": 1620165600
+      },
+      "endTime": {
+        "timestamp": 1620597600
+      },
+      "startTimestamp": 1620165600,
+      "endTimestamp": 1620597600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 3071948.8,
+          "choice": 0
+        },
+        {
+          "total": 27090.254,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3417821.904130667,
+          "choice": 0
+        },
+        {
+          "total": 23056.54607744351,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXdxdXpld2RzY2ZiZGZkcTJ4bm5ua3A3NHV4cW1yZWo2cHNmcHpham12eGNm",
+      "id": "QmWquzewDscfBdFDQ2XnnNKP74UxQmreJ6PsfpzAJmvxcf",
+      "title": "Should we add USDC and DAI as eligible XLP Mining Pairs?",
+      "content": "Link to copy of proposal: \t\thttps://docs.google.com/document/d/131gNZ8dmPowBtCLPttAq7U7QVmCrHhWSgnVUij1EY3U/edit?usp=sharing\n\nLink to discuss proposal:\t\nhttps://home.blockzerolabs.io/post/proposal-add-usdc-and-dai-as-eligible-xlp-mining-pairs-xiofeedback-60846509d0ffd24110b8c0b2",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 75,
+      "blockNumber": 12370334,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmWquzewDscfBdFDQ2XnnNKP74UxQmreJ6PsfpzAJmvxcf",
+      "startTime": {
+        "timestamp": 1620165600
+      },
+      "endTime": {
+        "timestamp": 1620597600
+      },
+      "startTimestamp": 1620165600,
+      "endTimestamp": 1620597600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2149368.0,
+          "choice": 0
+        },
+        {
+          "total": 1368909.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3217775.6722369883,
+          "choice": 0
+        },
+        {
+          "total": 1193438.374802109,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXR4ZmQzZHk1d2o3MnphdmV4Zmo5eHJzaG1wYTFnbXhvMnNyazE5N2U2dGZo",
+      "id": "QmTxfd3dy5WJ72ZaVexFj9XrSHMPa1gmXo2srk197e6Tfh",
+      "title": "Should the total supply for Aqua be proportionally increased or reduced before the distribution starts?",
+      "content": "Additional Information:\nhttps://forum.blockzerolabs.io/t/what-percentage-of-aqua-tokens-should-go-to-the-blockzero-labs-index-xiofeedback/1166\n\nThis will not be a proportional/weighted vote",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 45,
+      "blockNumber": 12306767,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmTxfd3dy5WJ72ZaVexFj9XrSHMPa1gmXo2srk197e6Tfh",
+      "startTime": {
+        "timestamp": 1619326860
+      },
+      "endTime": {
+        "timestamp": 1619823540
+      },
+      "startTimestamp": 1619326860,
+      "endTimestamp": 1619823540,
+      "currentState": "closed",
+      "choices": [
+        "No - No change",
+        "Yes - 100x Increase",
+        "Yes - 100x Decrease"
+      ],
+      "results": [
+        {
+          "total": 815407.7,
+          "choice": 0
+        },
+        {
+          "total": 879984.5,
+          "choice": 2
+        },
+        {
+          "total": 19652.82,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 841673.9039222258,
+          "choice": 0
+        },
+        {
+          "total": 19385.67395164944,
+          "choice": 1
+        },
+        {
+          "total": 903268.2626034848,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXZzZnBiM3B4cGg4eHNyNGlzZ2hqeXJ6cHhka3VwZzJpcnRweWN2MXJ6dG00",
+      "id": "QmVsFPB3PxPH8Xsr4iSghjyRZpXDkuPG2iRtPycV1rzTm4",
+      "title": "What percentage of the total supply of Aqua would you want to see enter the Blockzero vortex?",
+      "content": "Additional Information:\n\nDiscussion can be found here: https://forum.blockzerolabs.io/t/what-percentage-of-aqua-tokens-should-go-to-the-blockzero-labs-index-xiofeedback/1166\n\nThe result of the vote will be determined by weighing all votes. This means that not one single option will win but that every vote counts and has influence on the final percentage. An example can be found below.\n(The total minted amount will be adjusted accordingly to represent the results of this vote)\n\nExample:\n\nOption 1 = 100 Votes\nOption 2 = 200 Votes\nOption 3 = 300 Votes\nOption 4 = 400 Votes\nOption 5 = 500 Votes\nOption 6 = 600 Votes\n\nTotal votes = 2100 Votes\n\nOption 1 = 10% * (100/2100) = 0.4%\nOption 2 = 20% * (200/2100) = 1.9%\nOption 3 = 30% * (300/2100) = 4.2%\nOption 4 = 40% * (400/2100) = 7.6%\nOption 5 = 50% * (500/2100) = 11.9%\nOption 6 = 60% * (600/2100) = 17.1%\n\nTotal Sum of all percentages = 43.1%\n43.1% of Aqua’s total supply will be placed into the Blockzero Vortex.",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 84,
+      "blockNumber": 12245396,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmVsFPB3PxPH8Xsr4iSghjyRZpXDkuPG2iRtPycV1rzTm4",
+      "startTime": {
+        "timestamp": 1618635660
+      },
+      "endTime": {
+        "timestamp": 1619326860
+      },
+      "startTimestamp": 1618635660,
+      "endTimestamp": 1619326860,
+      "currentState": "closed",
+      "choices": [
+        "10%",
+        "20%",
+        "30%",
+        "40%",
+        "50%",
+        "60%"
+      ],
+      "results": [
+        {
+          "total": 102355.8,
+          "choice": 3
+        },
+        {
+          "total": 1356272.0,
+          "choice": 5
+        },
+        {
+          "total": 189944.73,
+          "choice": 4
+        },
+        {
+          "total": 571251.3,
+          "choice": 0
+        },
+        {
+          "total": 154678.31,
+          "choice": 2
+        },
+        {
+          "total": 291630.16,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 565163.3059230162,
+          "choice": 0
+        },
+        {
+          "total": 264617.1484200946,
+          "choice": 1
+        },
+        {
+          "total": 132030.60959770693,
+          "choice": 2
+        },
+        {
+          "total": 102355.8,
+          "choice": 3
+        },
+        {
+          "total": 184244.33436812044,
+          "choice": 4
+        },
+        {
+          "total": 1435187.339214383,
+          "choice": 5
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXQ4ajNuNmVkYnptbDlubGF6ZzV2d2tzejFpbWVmZXljd3F2Zm84eXczY3U3",
+      "id": "QmT8j3n6EDBZML9NLaZg5VwksZ1imefEYCWqVFo8yw3CU7",
+      "title": "Should we update the Flashstake.io website with a new design?",
+      "content": "Link to proposal: https://home.blockzerolabs.io/post/updated-landing-page-for-flashstake-io-607d813ab134103b40f64c8a",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 49,
+      "blockNumber": 12271951,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmT8j3n6EDBZML9NLaZg5VwksZ1imefEYCWqVFo8yw3CU7",
+      "startTime": {
+        "timestamp": 1618851660
+      },
+      "endTime": {
+        "timestamp": 1619197260
+      },
+      "startTimestamp": 1618851660,
+      "endTimestamp": 1619197260,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 899760.8,
+          "choice": 0
+        },
+        {
+          "total": 97445.57,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 880716.1945468996,
+          "choice": 0
+        },
+        {
+          "total": 261806.9658765501,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXJkc3lpZmY1eTg3eG5hY3Y4OG5kbGIyaG43eXBxbWFlemdtN2ZoeWxwanp2",
+      "id": "QmRDSyiff5y87XnaCv88ndLb2hN7YpQMaeZGm7fhyLpjZV",
+      "title": "Should we do a Flashstake Tesla Competition?",
+      "content": "Link: https://home.blockzerolabs.io/post/flashstake-tesla-competiton-607b0347a892d44ea0c94cf3",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 72,
+      "blockNumber": 12265149,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmRDSyiff5y87XnaCv88ndLb2hN7YpQMaeZGm7fhyLpjZV",
+      "startTime": {
+        "timestamp": 1618722060
+      },
+      "endTime": {
+        "timestamp": 1619110860
+      },
+      "startTimestamp": 1618722060,
+      "endTimestamp": 1619110860,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1915762.8,
+          "choice": 0
+        },
+        {
+          "total": 9735.212,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1977547.5249372595,
+          "choice": 0
+        },
+        {
+          "total": 9735.21166782445,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXJiemhzcHFmN3IxZ3JyMnF3ZTljYWVnZWNzbmh6cHd5ZGV5dDNkNmJ1cHkx",
+      "id": "QmRbzhsPQf7R1grr2qWE9cAegECsNhzPWydeYT3d6bupY1",
+      "title": "Should we create a Flash Community Fund? If so, how much FLASH should be allocated to it?",
+      "content": "Link: https://home.blockzerolabs.io/post/proposal-should-we-create-a-flash-community-fund-if-so-how-much-flash-shoul--607b79424345f511c39d4b93",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 66,
+      "blockNumber": 12260737,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmRbzhsPQf7R1grr2qWE9cAegECsNhzPWydeYT3d6bupY1",
+      "startTime": {
+        "timestamp": 1618678860
+      },
+      "endTime": {
+        "timestamp": 1619024460
+      },
+      "startTimestamp": 1618678860,
+      "endTimestamp": 1619024460,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes: 100k FLASH",
+        "Yes: 200k FLASH",
+        "Yes: 300k FLASH"
+      ],
+      "results": [
+        {
+          "total": 1707770.5,
+          "choice": 3
+        },
+        {
+          "total": 467339.4,
+          "choice": 2
+        },
+        {
+          "total": 452862.3,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 28095.385003319905,
+          "choice": 1
+        },
+        {
+          "total": 901358.7200585676,
+          "choice": 2
+        },
+        {
+          "total": 1842181.4237907324,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXpxbm1hMnE3aGhrY3VjZ3Nrdm1ud290cXQ3cHg5cGVlMzZueG14aGNpdXJr",
+      "id": "QmZqnMA2Q7HHkcUCGskvmNWoTqt7pX9peE36NXmxhciurK",
+      "title": "Should we use 100k FLASH + 50k XIO for LM rewards for 30 days Apr 26-May 25?",
+      "content": "Rules:\n\n1) Only LPs will earn credits. Stakers will not earn credits.\n2) 1 credit earned per each 1 FLASH owned within FLASH/ETH LP per day on both UniV2 and Flash Protocol.\n3) Credits will be tallied daily and the rewards will be distributed proportionally based on the final day’s total credits calculations.\n\nDiscuss at: https://forum.blockzerolabs.io/t/how-should-we-structure-the-rewards-for-the-next-flash-liquidity-mining-campaign/1474/9",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 55,
+      "blockNumber": 12247292,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmZqnMA2Q7HHkcUCGskvmNWoTqt7pX9peE36NXmxhciurK",
+      "startTime": {
+        "timestamp": 1618549260
+      },
+      "endTime": {
+        "timestamp": 1618938060
+      },
+      "startTimestamp": 1618549260,
+      "endTimestamp": 1618938060,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1352843.8,
+          "choice": 0
+        },
+        {
+          "total": 54413.555,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1822641.884992864,
+          "choice": 0
+        },
+        {
+          "total": 233181.11669369807,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmxvY2t6ZXJvbGFiczpzbmFwc2hvdDpxbXNzbXc3Y21mYnJpYWNhYml5eDdoYTdicHR5YmVldXV4bWViczcyeDEzbXdq",
+      "id": "QmSSmW7cMfbriacAbiyX7hA7bpTYbeEuuxmeBs72X13MWJ",
+      "title": "What percentage of the the 9,217,942 FLASH tokens that were to be donated to Blockzero Labs should be burned?",
+      "content": "Link: https://forum.blockzerolabs.io/t/what-percentage-of-zachary-dashs-flash-tokens-that-were-to-be-donated-to-blockzero-labs-index-should-be-burned-xiofeedback/1416\n\n",
+      "protocol": "blockzerolabs",
+      "adapter": "snapshot",
+      "proposer": "0x11231f7Dc863F36A6516Eb4EF052f195000e0000",
+      "totalVotes": 113,
+      "blockNumber": 12212528,
+      "externalUrl": "https://snapshot.org/#/blockzerolabs.eth/proposal/QmSSmW7cMfbriacAbiyX7hA7bpTYbeEuuxmeBs72X13MWJ",
+      "startTime": {
+        "timestamp": 1618030860
+      },
+      "endTime": {
+        "timestamp": 1618592460
+      },
+      "startTimestamp": 1618030860,
+      "endTimestamp": 1618592460,
+      "currentState": "closed",
+      "choices": [
+        "0% = 0 FLASH",
+        "25% = 2,304,485 FLASH",
+        "50% = 4,608,971 FLASH",
+        "75% = 6,913,456 FLASH",
+        "100% = 9,217,942 FLASH"
+      ],
+      "results": [
+        {
+          "total": 268816.62,
+          "choice": 3
+        },
+        {
+          "total": 2143055.2,
+          "choice": 4
+        },
+        {
+          "total": 2431470.8,
+          "choice": 0
+        },
+        {
+          "total": 193749.97,
+          "choice": 2
+        },
+        {
+          "total": 2569.9558,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2634177.321208746,
+          "choice": 0
+        },
+        {
+          "total": 1981.0050007687696,
+          "choice": 1
+        },
+        {
+          "total": 162921.06929142174,
+          "choice": 2
+        },
+        {
+          "total": 276535.79092166654,
+          "choice": 3
+        },
+        {
+          "total": 2742121.913093631,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

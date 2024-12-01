@@ -1,0 +1,854 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YXNzYW5nZWRhb2V0aDpzbmFwc2hvdDoweGJiN2VmMjA3NDFjMDYxZDRhNmNkYjZkMGZhMmZiMzM2MTY3OWY2NjgzZjc1MDEzY2E0MjMxZmQ5OWE3ZTQ4MzQ=",
+      "id": "0xbb7ef20741c061d4a6cdb6d0fa2fb3361679f6683f75013ca4231fd99a7e4834",
+      "title": "AIP 11: Authorising multisig to exchange any powETH for ETH or stablecoins",
+      "content": "### Summary\n\nThis proposal seeks authorisation for the multisig to try and exchange any forked powETH resulting from the Ethereum merge in return for ETH or a stablecoin in the way seen fit by the multisig holders. \n\n### Details\n\nThe ETH merge will occur at blockheight 15,540,293 when Ethereum Mainnet hits the Terminal Total Difficulty (TTD) value of 58750000000000000000000. The merge will be in the early UTC hours of 15 September 2022. The merge may create forked powETH tokens. The suggestion is for the multisig to try to exchange any resulting forked powETH in return for ETH or stablecoin as soon as authorised and in the way seen fit by the multisig. \n\n### Motivation\n\nThe motivation is to maximise the return for the DAO. \n",
+      "protocol": "assangedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xC42d7E776cB079C3C3b205BD307D0CdbB2431Dd3",
+      "totalVotes": 16,
+      "blockNumber": 15532610,
+      "externalUrl": "https://snapshot.org/#/assangedao.eth/proposal/0xbb7ef20741c061d4a6cdb6d0fa2fb3361679f6683f75013ca4231fd99a7e4834",
+      "startTime": {
+        "timestamp": 1663240490
+      },
+      "endTime": {
+        "timestamp": 1663413290
+      },
+      "startTimestamp": 1663240490,
+      "endTimestamp": 1663413290,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 332187100.0,
+          "choice": 0
+        },
+        {
+          "total": 500000.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 332187119.93158525,
+          "choice": 0
+        },
+        {
+          "total": 500000.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 867576975,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXNzYW5nZWRhb2V0aDpzbmFwc2hvdDoweDAxYmI4ZDBkNzhmOTMzMGQwYjNkOTc3ZTFiMTU2ZTI3YWU1NDU3ZTRmZjY5NGIyOTE4ZTAzYjZhNTYxNDdmNWY=",
+      "id": "0x01bb8d0d78f9330d0b3d977e1b156e27ae5457e4ff694b2918e03b6a56147f5f",
+      "title": "Decision on redeeming JBX tokens in exchange for ETH tokens on the JBX bonding curve",
+      "content": "### Motivation\n\nIn February 2022, the AssangeDAO raised 17,422.7185 ETH via [juicebox.money](https://juicebox.money/#/p/assangedao) to bid on the Clock NFT by Julian Assange/Pak. 5% (ca 871 ETH) of the donations were retained by Juicebox as a fee. The AssangeDAO received 87,478,938.88638015 JBX tokens in return. \n\nIt was the understanding of the AssangeDAO then that ETH 871 would be refunded by the JBXDAO to the AssangeDAO at a later time. However the proposal to this effect to the JBXDAO was unsuccessful.\n\nIt is, however, possible to exchange JBX tokens against ETH on the JuiceboxDAO bonding curve. At the time of posting this proposal 100% JBX tokens may be exchanged for ca. **197 ETH**. Please note that the JBX/ETH exchange rate on the bonding curve fluctuates, and depending thereon fewer or more ETH may be retrieved in exchange for AssangeDAO's JBX.\n\n### Details\n\nThis proposal asks whether the AssangeDAO should execute a transaction as soon as possible to exchange all or part of its JBX tokens in exchange for ETH on the JuiceboxDAO bonding curve.\n\nTherefore, the voting options are as follows:\n1. redeem all JBX for ETH via Juicebox bonding curve\n2. redeem 75% of JBX for ETH via Juicebox bonding curve \n3. redeem 50% of JBX for ETH via Juicebox bonding curve \n4. redeem 25% of JBX for ETH via Juicebox bonding curve\n5. redeem 10% of JBX for ETH via Juicebox bonding curve\n6. redeem nothing and keep hold of all JBX\n7. none of the above\n\n### Motivation\n\nThe DAO has used 95% of the raised ETH to acquire the [Clock](https://opensea.io/assets/0xda22422592ee3623c8d3c40fe0059cdecf30ca79/1) by Julian Assange/Pak to Julian’s Legal Defence Fund at the [Wau Holland Foundation](https://wauland.de/en/). The ETH received via the bonding curve are to be used to fund the continuing operations of the AssangeDAO.\n",
+      "protocol": "assangedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xC42d7E776cB079C3C3b205BD307D0CdbB2431Dd3",
+      "totalVotes": 108,
+      "blockNumber": 14741762,
+      "externalUrl": "https://snapshot.org/#/assangedao.eth/proposal/0x01bb8d0d78f9330d0b3d977e1b156e27ae5457e4ff694b2918e03b6a56147f5f",
+      "startTime": {
+        "timestamp": 1652178492
+      },
+      "endTime": {
+        "timestamp": 1652351292
+      },
+      "startTimestamp": 1652178492,
+      "endTimestamp": 1652351292,
+      "currentState": "closed",
+      "choices": [
+        "redeem all JBX for ETH",
+        "redeem 75% of JBX for ETH",
+        " redeem 50% of JBX for ETH",
+        " redeem 25% of JBX for ETH",
+        " redeem 10% of JBX for ETH",
+        " redeem nothing and keep all JBX",
+        "none of the above"
+      ],
+      "results": [
+        {
+          "total": 3213759.8,
+          "choice": 5
+        },
+        {
+          "total": 1331223600.0,
+          "choice": 0
+        },
+        {
+          "total": 1120153.5,
+          "choice": 6
+        },
+        {
+          "total": 35047316.0,
+          "choice": 2
+        },
+        {
+          "total": 16307471.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1331223901.9453568,
+          "choice": 0
+        },
+        {
+          "total": 16307470.961058116,
+          "choice": 1
+        },
+        {
+          "total": 35047317.06606346,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        },
+        {
+          "total": 3213759.8133153403,
+          "choice": 5
+        },
+        {
+          "total": 1120153.5427114908,
+          "choice": 6
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 867576975,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXNzYW5nZWRhb2V0aDpzbmFwc2hvdDoweGExY2RjMWZiMTNkZjhmOTFmMWNkNDk2MjRlOTE4OTUwODQ3ZjEzNGQwODdiMzM3ZmViZjVmZWM1ZmIxYzY2OTQ=",
+      "id": "0xa1cdc1fb13df8f91f1cd49624e918950847f134d087b337febf5fec5fb1c6694",
+      "title": "AIP9 - what should the quorum be for a proposal to pass?",
+      "content": "\n### Summary\n\n**This proposal addresses the quorum requirement of the new governance system of the AssangeDAO.** \n\nThe current voting system implements a simple choice voting system pursuant to which a minimum of 3,470,307,901 $JUSTICE tokens equivalent to 20% of the $JUSTICE token supply are necessary to vote in order for a proposal to pass. Once this threshold has been met, whichever decision has more votes wins. If a proposal does not reach the quorum threshold, a proposal fails. An alternative system could also specify that a certain quorum of votes is necessary to vote in favor of the winning choice, or otherwise a proposal fails.\n\n**For the new governance structure, what should the quorum requirement be for a proposal to pass?**\n\n### Details \n\n**What should the quorum for a governance proposal be to pass?**\n\n1. **25%** of token supply voting overall (i.e. 4,337,884,877 $JUSTICE)\n2. **25%** of token supply voting in favor of the successful choice (i.e. 4,337,884,877 $JUSTICE)\n3. **20%** of token supply voting overall (i.e. 3,470,307,901 $JUSTICE) \n4. **20%** of token supply voting in favor of the successful choice (i.e. 3,470,307,901 $JUSTICE) \n5. **15%** of token supply voting overall (i.e. 2,602,730,926 $JUSTICE)\n6. **15%** of token supply voting in favor of the successful choice (i.e. 2,602,730,926 $JUSTICE) \n7. **10%** of token supply voting overall (i.e. 1,735,153,951 $JUSTICE)\n8. **10%** of token supply voting in favor of the successful choice (i.e. 1,735,153,951 $JUSTICE) \n9. **5%** of token supply voting overall (i.e. 867,576,975 $JUSTICE) \n10. **5%** of token supply voting in favor of the successful choice (i.e. 867,576,975 $JUSTICE) \n11. **1%** of token supply voting overall (i.e. 173,515,395 $JUSTICE) \n12. **1%** of token supply voting in favor of the successful choice \n (i.e. 173,515,395 $JUSTICE)\n13. **None of the above** / discuss further\n\n### Motivation\n\nThe current quorum was set up by the core team members to get the DAO started. The DAO however should make its own decisions. This is one of several snapshot proposals to decide the new governance structure of AssangeDAO.\n",
+      "protocol": "assangedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xC42d7E776cB079C3C3b205BD307D0CdbB2431Dd3",
+      "totalVotes": 271,
+      "blockNumber": 14400569,
+      "externalUrl": "https://snapshot.org/#/assangedao.eth/proposal/0xa1cdc1fb13df8f91f1cd49624e918950847f134d087b337febf5fec5fb1c6694",
+      "startTime": {
+        "timestamp": 1647649730
+      },
+      "endTime": {
+        "timestamp": 1647908930
+      },
+      "startTimestamp": 1647649730,
+      "endTimestamp": 1647908930,
+      "currentState": "closed",
+      "choices": [
+        "25% $JUSTICE voting overall",
+        "25% $JUSTICE voting in favor",
+        "20% $JUSTICE voting overall",
+        "20% $JUSTICE voting in favor",
+        "15% $JUSTICE voting overall",
+        "15%  $JUSTICE voting in favor",
+        "10% $JUSTICE voting overall",
+        "10% $JUSTICE voting in favor",
+        "5% $JUSTICE voting overall",
+        "5% $JUSTICE voting in favor",
+        "1% $JUSTICE voting overall",
+        "1% $JUSTICE voting in favor",
+        "none of the above"
+      ],
+      "results": [
+        {
+          "total": 420410.2,
+          "choice": 11
+        },
+        {
+          "total": 14319639.0,
+          "choice": 9
+        },
+        {
+          "total": 57832812.0,
+          "choice": 3
+        },
+        {
+          "total": 345479.6,
+          "choice": 5
+        },
+        {
+          "total": 200325870.0,
+          "choice": 4
+        },
+        {
+          "total": 491566370.0,
+          "choice": 0
+        },
+        {
+          "total": 1467310600.0,
+          "choice": 6
+        },
+        {
+          "total": 7221683.0,
+          "choice": 2
+        },
+        {
+          "total": 66820216.0,
+          "choice": 7
+        },
+        {
+          "total": 44077360.0,
+          "choice": 1
+        },
+        {
+          "total": 1764485500.0,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 491566367.72672546,
+          "choice": 0
+        },
+        {
+          "total": 44077361.2761984,
+          "choice": 1
+        },
+        {
+          "total": 7221682.714828333,
+          "choice": 2
+        },
+        {
+          "total": 57832814.05779006,
+          "choice": 3
+        },
+        {
+          "total": 200325895.91355368,
+          "choice": 4
+        },
+        {
+          "total": 345479.5883901488,
+          "choice": 5
+        },
+        {
+          "total": 1467310609.6852305,
+          "choice": 6
+        },
+        {
+          "total": 66820217.57046291,
+          "choice": 7
+        },
+        {
+          "total": 1764485380.2279828,
+          "choice": 8
+        },
+        {
+          "total": 14319638.424815169,
+          "choice": 9
+        },
+        {
+          "total": 0.0,
+          "choice": 10
+        },
+        {
+          "total": 420410.1925839777,
+          "choice": 11
+        },
+        {
+          "total": 0.0,
+          "choice": 12
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXNzYW5nZWRhb2V0aDpzbmFwc2hvdDoweDkxNmM2OTJkNzA5NWEyNjdkZWM4NDJiY2ZlNTA4ZjI3ODI2ODg2ZGM5Y2E1N2NmNDNlNThmMTFjYTE3YmFmOGQ=",
+      "id": "0x916c692d7095a267dec842bcfe508f27826886dc9ca57cf43e58f11ca17baf8d",
+      "title": "AIP8 - What should the voting time delay be?",
+      "content": "### Summary\n\n**This proposal addresses the voting time delay for the new voting system.** The voting time delay is the time between posting a proposal and its opening up for voting. \n\n### Details\n\n**What should the voting time delay be for the new voting system?**\n\na) **1** day\nb) **2** days\nc) **3** days\nd) **4** days\ne) **none of the above** / discuss further\n\n### Motivation\n\nThe current governance framework is rudimentary and was set up by the core team members to get Assange DAO started. The DAO however should make its own decisions. This is one of several snapshot proposals to decide the new governance structure of AssangeDAO.\n\n\n\n",
+      "protocol": "assangedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xC42d7E776cB079C3C3b205BD307D0CdbB2431Dd3",
+      "totalVotes": 235,
+      "blockNumber": 14400718,
+      "externalUrl": "https://snapshot.org/#/assangedao.eth/proposal/0x916c692d7095a267dec842bcfe508f27826886dc9ca57cf43e58f11ca17baf8d",
+      "startTime": {
+        "timestamp": 1647649066
+      },
+      "endTime": {
+        "timestamp": 1647908266
+      },
+      "startTimestamp": 1647649066,
+      "endTimestamp": 1647908266,
+      "currentState": "closed",
+      "choices": [
+        "1 day",
+        "2 days (current)",
+        "3 days",
+        "4 days",
+        "none of the above"
+      ],
+      "results": [
+        {
+          "total": 11409511.0,
+          "choice": 3
+        },
+        {
+          "total": 520410.2,
+          "choice": 4
+        },
+        {
+          "total": 1965705700.0,
+          "choice": 0
+        },
+        {
+          "total": 27980576.0,
+          "choice": 2
+        },
+        {
+          "total": 1656871300.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1965705691.1728127,
+          "choice": 0
+        },
+        {
+          "total": 1656871108.595601,
+          "choice": 1
+        },
+        {
+          "total": 27980574.276705515,
+          "choice": 2
+        },
+        {
+          "total": 11409511.355366908,
+          "choice": 3
+        },
+        {
+          "total": 520410.1925839777,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXNzYW5nZWRhb2V0aDpzbmFwc2hvdDoweDllNjBjNTI2ZjQ1NmI5ZWNiOWQyMmZhYzk2NDU5YmI0MWFlYzgyOTJmODUwZWI1NzFhZGM3MTBiM2ZmMDBmY2U=",
+      "id": "0x9e60c526f456b9ecb9d22fac96459bb41aec8292f850eb571adc710b3ff00fce",
+      "title": "AIP7: What should the voting duration be?",
+      "content": "### Summary\n\n**This proposal addresses the voting duration for the new governance system.**\n\nThe current voting system implements a simple choice voting system with a voting duration of 3 days. It is up to AssangeDAO to amend this duration. \n\n### Details\n\n**For the new governance structure, what should the voting duration be?**\n\na) **2** days\nb) **3** days (current)\nc) **4** days\nd) **5** days\ne) **none of the above** / discuss further\n\n### Motivation\n\nThe current governance framework is rudimentary and was set up by the core team members to get the AssangeDAO started. The DAO however should make its own decisions. This is one of several snapshot proposals to decide the new governance structure of AssangeDAO.\n",
+      "protocol": "assangedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xC42d7E776cB079C3C3b205BD307D0CdbB2431Dd3",
+      "totalVotes": 236,
+      "blockNumber": 14400684,
+      "externalUrl": "https://snapshot.org/#/assangedao.eth/proposal/0x9e60c526f456b9ecb9d22fac96459bb41aec8292f850eb571adc710b3ff00fce",
+      "startTime": {
+        "timestamp": 1647648695
+      },
+      "endTime": {
+        "timestamp": 1647907895
+      },
+      "startTimestamp": 1647648695,
+      "endTimestamp": 1647907895,
+      "currentState": "closed",
+      "choices": [
+        "2 days",
+        "3 days",
+        "4 days",
+        "5 days",
+        "None of the above"
+      ],
+      "results": [
+        {
+          "total": 1758656.2,
+          "choice": 3
+        },
+        {
+          "total": 2575303400.0,
+          "choice": 0
+        },
+        {
+          "total": 7649287.0,
+          "choice": 2
+        },
+        {
+          "total": 1026882300.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2575303846.613741,
+          "choice": 0
+        },
+        {
+          "total": 1026882233.5841292,
+          "choice": 1
+        },
+        {
+          "total": 7649286.676867884,
+          "choice": 2
+        },
+        {
+          "total": 1758656.2458604327,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXNzYW5nZWRhb2V0aDpzbmFwc2hvdDoweDY5ZGI0N2NhNDI0NzhlYmQ5N2IyNTM3N2E2NTk0YzlkMjIzM2NlOGI1YTY2MDdmYmIxODZkMDBjZThhNTA3MTg=",
+      "id": "0x69db47ca42478ebd97b25377a6594c9d2233ce8b5a6607fbb186d00ce8a50718",
+      "title": "AIP6 -  should $JUSTICE holders have the possibility to delegate their votes to others?",
+      "content": "### Summary\n\nThis proposal addresses whether $JUSTICE token holders should have the possibility to delegate their votes to others within the community-agreed governance system. The current voting system does not allow delegation.\n\n### Details \n\n**For the new governance structure, should $JUSTICE token holders have the possibility to delegate their votes to others?**\n\na.) **Yes**\nb.) **No** \nc.) **Abstain**\n\n### Motivation\n\nThe current governance framework is rudimentary and was set up by the core team members to get the DAO started. The DAO however should make its own decisions. This is one of several snapshot proposals to decide the new governance structure of AssangeDAO.\n",
+      "protocol": "assangedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xC42d7E776cB079C3C3b205BD307D0CdbB2431Dd3",
+      "totalVotes": 233,
+      "blockNumber": 14400663,
+      "externalUrl": "https://snapshot.org/#/assangedao.eth/proposal/0x69db47ca42478ebd97b25377a6594c9d2233ce8b5a6607fbb186d00ce8a50718",
+      "startTime": {
+        "timestamp": 1647648386
+      },
+      "endTime": {
+        "timestamp": 1647907586
+      },
+      "startTimestamp": 1647648386,
+      "endTimestamp": 1647907586,
+      "currentState": "closed",
+      "choices": [
+        "Yes.",
+        "No. ",
+        "Abstain."
+      ],
+      "results": [
+        {
+          "total": 2580369700.0,
+          "choice": 0
+        },
+        {
+          "total": 1063780030.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2580370166.1355205,
+          "choice": 0
+        },
+        {
+          "total": 1063780070.0905452,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXNzYW5nZWRhb2V0aDpzbmFwc2hvdDoweDhmZDYwYmQ2ZjA1MGUyNmE4OGQxNjU5ZGMxNDA4MzliMzBjNDU0ZmI3MWM0YjRiM2UyMTFlNGM1MzY4Zjk1OGE=",
+      "id": "0x8fd60bd6f050e26a88d1659dc140839b30c454fb71c4b4b3e211e4c5368f958a",
+      "title": "AIP5 - What should the DAO’s voting system be?",
+      "content": "AIP: 0005\nTitle:  Governance - voting system\nAuthors: @silkenoa, @zylo\nType: Process\n\n### Summary\n\n**This proposal addresses the voting system.** \n\nThe current voting system implements a single choice voting system pursuant to which a person can elect only one choice and a minimum of 3,470,307,901 $Justice tokens equivalent to 20% of the $Justice token supply are necessary to vote in order for a proposal to pass. Once this threshold has been met, whichever decision has more votes wins. If a proposal does not reach the quorum threshold, a proposal fails. \n\n### Details \n\n**For the new governance structure, what should the voting system of the AssangeDAO be?**\n\nWhat should the DAO’s voting system be?\na) **Single Choice Voting** (Each voter may select only one choice) or Approval Voting (Each voter may select any number of choices) as decided by the Proposers/authors.\nb) **Quadratic voting** (Each voter may spread voting power across any number of choices. Results are calculated quadratically.)\nc) **Ranked choice voting** (Each voter may select and rank any number of choices. Results are calculated by instant-runoff counting method.)\nd) **Weighted voting** (Each voter may spread voting power across any number of choices.)\ne) **Basic voting** (Single choice voting with three choices: (1) For, (2) Against or (3) Abstain)\nf) **none of the above** / discuss further\n\n### Motivation\n\nThe voting system was set up by the core team members to get the DAO started. The DAO however should make its own decisions. This is one of several snapshot proposals to decide the new governance structure of AssangeDAO.\n\n",
+      "protocol": "assangedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0xC42d7E776cB079C3C3b205BD307D0CdbB2431Dd3",
+      "totalVotes": 253,
+      "blockNumber": 14400535,
+      "externalUrl": "https://snapshot.org/#/assangedao.eth/proposal/0x8fd60bd6f050e26a88d1659dc140839b30c454fb71c4b4b3e211e4c5368f958a",
+      "startTime": {
+        "timestamp": 1647646917
+      },
+      "endTime": {
+        "timestamp": 1647906117
+      },
+      "startTimestamp": 1647646917,
+      "endTimestamp": 1647906117,
+      "currentState": "closed",
+      "choices": [
+        " Single Choice Voting",
+        "Quadratic voting ",
+        " Ranked choice voting",
+        "Weighted voting ",
+        "Basic voting ",
+        "none of the above"
+      ],
+      "results": [
+        {
+          "total": 273468800.0,
+          "choice": 3
+        },
+        {
+          "total": 11247052.0,
+          "choice": 4
+        },
+        {
+          "total": 3426415400.0,
+          "choice": 0
+        },
+        {
+          "total": 368656.25,
+          "choice": 2
+        },
+        {
+          "total": 51288732.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3426416834.6258535,
+          "choice": 0
+        },
+        {
+          "total": 51288733.5,
+          "choice": 1
+        },
+        {
+          "total": 368656.24586043286,
+          "choice": 2
+        },
+        {
+          "total": 273468792.73828626,
+          "choice": 3
+        },
+        {
+          "total": 11247051.93847504,
+          "choice": 4
+        },
+        {
+          "total": 0.0,
+          "choice": 5
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXNzYW5nZWRhb2V0aDpzbmFwc2hvdDoweDkyY2JmMjQ5MTc3NGY4NzFmNDFhN2Q3Nzk0NzNkODcwY2QyMTg3OWQ5ZWY4MzNiNjFiYjA4M2E5NjJmMTc5MWY=",
+      "id": "0x92cbf2491774f871f41a7d779473d870cd21879d9ef833b61bb083a962f1791f",
+      "title": "Elect bZ and/or Zylo as temp Multisig?",
+      "content": "https://forum.assangedao.org/t/draft-proposal-for-the-election-of-a-provisional-additional-multisig/821/22\n\nObjective：\nThis proposal was conceived based on the outcome of the March 4th meeting. With two previous Multisigs voluntarily resigning their Multisig status, this poses some risk to community governance, causing the proposal to close the additional $Justice minting to move forward slowly. It was therefore decided at the March 4th meeting to elect two temporary Multisigs to address this issue.\n\nTerm of office of temporary Multisig:\nThe term of office of temporary Multisig shall continue until official Multisig has been chosen by the community through snapshot vote. The election of official Multisig to replace temporary Multisig shall begin as soon as all conditions are met for the election of official Multisig. Conditions are including but not limited to: a clear determination of the duration of the Multisig’s term of office, the qualifications and restrictions required to become a Multisig, the rights and obligations of the Multisig, the number of Multisigs, and the existence of suitable and willing candidates for Multisig.\nIf a temporary Multisig does not stand for official Multisig election, the temporary Multisig will be deemed to have voluntarily renounced the Multisig position and will have his or her Multisig authority revoked when the number of official Multisigs reaches the required level.\n\nVoting rules for Multisig after adding temporary Multisig:\nAlthough the adoption of this proposal may increase the number of Multisig, the voting rule for Multisig operations after adding temporary Multisig will remain as 3 votes pass since Fiscantes and McKenna have chosen to resign as Multisig.\n\nCandidates:\nIn order to make the filling of the vacant Multisig more efficient, it was decided during the meeting to elect the two candidates with the highest community recognition as the temporary Multisig. On the day of the meeting, the English and Chinese communities each put forward a candidate for the Multisigs: Zylo and bZ.\n\nZylo is one of the mods of discord. In times of great anxiety for the community, Zylo is always available on the discord to update everyone on the latest developments, and is very responsible for setting up meetings, updating announcements, and volunteering to build the new Assange DAO website. At the meeting and in the discord, the English-speaking community recommended Zylo as the representative of the English-speaking community to apply for Multsig.\n\nbZ is one of the representatives of the Chinese community. bZ has been working around the clock almost every day to contribute to the development of Assange DAO. Such as gathering community consensus and communicating with all parties to push for a proposal to close the additional $Justice minting, a demand of many community members. Out of a Chinese community of around 500 people, we voted to elect bZ as the representative of the Chinese community to apply for Multisigs.\n\nProposal options (single choice):\nOption 1: Select both bZ and Zylo as temporary Multisigs.\nOption 2: Select only bZ as a temporary Multisig.\nOption 3: Select only Zylo as a temporary Multisig.\nOption 4: Refuse to make bZ and Zylo to be temporary Multisig.\n\n目的：\n该提案是基于3月4日的会议的成果构思的。由于之前有两位多签人自愿辞去多签人的身份，导致关闭增发的提案的推进速度变得较为缓慢，同时为社区治理带来了一定的风险。因此3月4日的会议中大家决定选举两名临时多签人来解决这个问题。\n\n临时多签人的任期：\n临时多签人的任职期限将延续到社区通过投票选择出正式的多签人为止。在选举正式多签人的所有条件成熟时应尽快开始正式多签人的选举来替换临时多签人。选举正式多签人的条件包括但不限于：明确决定出多签人的任职期限，成为多签人所需的资质和限制，多签人的权利和义务，多签人的数量；挑选出合适且愿意成为多签人的候选人。\n在正式的多签人竞选中，临时多签人也可以参与竞选，如果临时多签人不参与竞选，则视为主动放弃多签人职务。在正式多签人人数达到要求时将被撤销多签权限。\n\n增加临时多签人后的多签投票规则：\n虽然通过这份提案可能会增加多签人人数，但是由于Fiscantes和McKenna已经选择辞去多签人职务，因此在增加了临时多签人后的多签操作的投票规则将仍然是3票通过。\n\n候选人：\n为了更有效地填补空缺的Multisig，会议期间决定选举社区认可度最高的两位候选人为临时多签人。在会议当天，英文社区和中文社区分别各自推举了一位多签候选人：Zylo，bZ。\n\nbZ是中文社区的代表之一。bZ几乎每天都在夜以继日的为阿桑奇DAO的发展做出各种贡献。如凝聚社区共识，与各方沟通推动了关于关闭增发这一许多社群成员需求的提案。在500人左右的中文社群中，我们投票选择推举bZ为中文社区的代表申请多签。\n\nZylo是discord的MOD之一。在社群的人们最焦虑的时候，Zylo总是会在discord中向大家公布最新的进展，并且十分负责的做了如安排会议，更新公告等工作，同时他还在志愿建设阿桑奇DAO的新的主页。在会议与discord中，英文社群推举了Zylo作为英文社区的代表申请多签。\n\n提案选项（单选）：\n选择1：同时选择bZ和Zylo为临时多签。\n选择2：只选择bZ为临时多签。\n选择3：只选择Zylo为临时多签。\n选择4：拒绝让bZ和Zylo成为临时多签。",
+      "protocol": "assangedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x0BF72198CA3c215fD2F7bc041824dF97CBb7aDF5",
+      "totalVotes": 306,
+      "blockNumber": 14343284,
+      "externalUrl": "https://snapshot.org/#/assangedao.eth/proposal/0x92cbf2491774f871f41a7d779473d870cd21879d9ef833b61bb083a962f1791f",
+      "startTime": {
+        "timestamp": 1646876803
+      },
+      "endTime": {
+        "timestamp": 1647136003
+      },
+      "startTimestamp": 1646876803,
+      "endTimestamp": 1647136003,
+      "currentState": "closed",
+      "choices": [
+        "Select both bZ and Zylo",
+        "Select only bZ as a temporary ",
+        "Select only Zylo as a temporary",
+        "Refuse to make bZ and Zylo temp."
+      ],
+      "results": [
+        {
+          "total": 106408390.0,
+          "choice": 3
+        },
+        {
+          "total": 2875972000.0,
+          "choice": 0
+        },
+        {
+          "total": 239620960.0,
+          "choice": 2
+        },
+        {
+          "total": 775972800.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2875971843.209137,
+          "choice": 0
+        },
+        {
+          "total": 775972819.3016126,
+          "choice": 1
+        },
+        {
+          "total": 239620972.8412043,
+          "choice": 2
+        },
+        {
+          "total": 106408395.37972228,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXNzYW5nZWRhb2V0aDpzbmFwc2hvdDoweGNlNTBlZTE5NDk4ZmQwNGQyNDM5OGQ1ZWZhNTZmNmFjMzVkOWYzYTY4YzA0OGI3MzY4YmY1ZGZmZTVhZWMxZjc=",
+      "id": "0xce50ee19498fd04d24398d5efa56f6ac35d9f3a68c048b7368bf5dffe5aec1f7",
+      "title": "Confirm or revoke the Assange Family's ability to veto proposals that they determine to be potentially harmful to Julian Assange",
+      "content": "The term \"Assange Family\" will be used in this proposal. It is interchangeable with the terms \"Consensus Unit\" and \"Advisory Council\". \n\nSummary\nConfirm or revoke the Assange Family's ability to veto proposals that they determine to be potentially harmful to Julian Assange or to his legal defense. \n\nProposal Details\nThe AssangeDAO was constituted with the Assange Family governance layer to protect Julian Assange and his legal defense. The Assange Family (Gabriel Shipton, Stella Moris, and Jennifer Robinson) are also the DAO's line of communication with Assange. In exchange, they also endorse and provide credibility and publicity to the DAO. They request to maintain the ability to veto (reject) future proposals which they believe may be harmful to Julian Assange or harmful to his legal defense. If this proposal moves forward with confirming the Assange Family as having veto power, the terms 'Consensus Unit' and 'Advisory Council' will be replaced by the term 'Assange Family' for the sake of simplicity. Before the Assange Family vetoes a proposal, they should first work with the proposer publicly on the forum to voice their concern. To initiate a veto, at least one member of the Assange Family must make a forum post to announce the veto. In the unlikely event that the Assange Family has an internal disagreement on a veto, the decision of 2 out of the 3 Assange Family members will be honored.\n\nThe Assange family will NOT have control over the DAO treasury or the ability to use the treasury's funds without the DAO's approval.\n\nMotivation\nThe Assange Family is an asset to the AssangeDAO. There are forces at work that would try to undermine the DAO and use it against Julian Assange. With the Assange Family having the ability to veto proposals it guarantees that the DAO cannot be undermined or manipulated into doing something that could be harmful to Julian Assange or to his legal defense.\n\nRisk\nIf the Assange Family's role is revoked, the DAO risks losing official support from Julian Assange and his family.\nIf the Assange's Family's role is confirmed, the DAO risks having certain future proposals rejected if the Assange Family so chooses.\n\nBackground:\nhttps://forum.assangedao.org/t/future-of-assangedao-assange-family-involvement/529",
+      "protocol": "assangedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x0BF72198CA3c215fD2F7bc041824dF97CBb7aDF5",
+      "totalVotes": 392,
+      "blockNumber": 14284962,
+      "externalUrl": "https://snapshot.org/#/assangedao.eth/proposal/0xce50ee19498fd04d24398d5efa56f6ac35d9f3a68c048b7368bf5dffe5aec1f7",
+      "startTime": {
+        "timestamp": 1646095296
+      },
+      "endTime": {
+        "timestamp": 1646354496
+      },
+      "startTimestamp": 1646095296,
+      "endTimestamp": 1646354496,
+      "currentState": "closed",
+      "choices": [
+        "Confirm",
+        "Revoke"
+      ],
+      "results": [
+        {
+          "total": 3235237400.0,
+          "choice": 0
+        },
+        {
+          "total": 302164260.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3235238238.989951,
+          "choice": 0
+        },
+        {
+          "total": 302164260.2044427,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXNzYW5nZWRhb2V0aDpzbmFwc2hvdDoweGI2YzgyZTk3YjUzNmRmNjUyZGM5ZmIyYTUzODdhMzQ2OWJkOTY0YWE2ZDJlNjhlYzg1MWFlM2ZhOWYxOWE0ZjI=",
+      "id": "0xb6c82e97b536df652dc9fb2a5387a3469bd964aa6d2e68ec851ae3fa9f19a4f2",
+      "title": "Should the ability to mint more $JUSTICE be closed?",
+      "content": "Although the DAO currently has no plans to mint more $JUSTICE tokens. The contract currently allows the DAO to mint more $JUSTICE tokens if the DAO token holders decide that more should be minted in the future. Should we permanently close this ability?\n\nThe question is\n\nShould minting of JUSTICE token be permanently closed?\n\n-Yes, close the minting option.\n-No, leave the option open.",
+      "protocol": "assangedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x0BF72198CA3c215fD2F7bc041824dF97CBb7aDF5",
+      "totalVotes": 764,
+      "blockNumber": 14250557,
+      "externalUrl": "https://snapshot.org/#/assangedao.eth/proposal/0xb6c82e97b536df652dc9fb2a5387a3469bd964aa6d2e68ec851ae3fa9f19a4f2",
+      "startTime": {
+        "timestamp": 1645635359
+      },
+      "endTime": {
+        "timestamp": 1645894559
+      },
+      "startTimestamp": 1645635359,
+      "endTimestamp": 1645894559,
+      "currentState": "closed",
+      "choices": [
+        "Yes, CLOSE the minting option",
+        "No, leave minting option open"
+      ],
+      "results": [
+        {
+          "total": 4749544000.0,
+          "choice": 0
+        },
+        {
+          "total": 6415990.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4749545693.195834,
+          "choice": 0
+        },
+        {
+          "total": 6415990.367686065,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXNzYW5nZWRhb2V0aDpzbmFwc2hvdDoweGJhNWZhNmJkMjcyY2Q4YjkxZDk3OGIyOTNmMjY0Y2E1ZTM1ZjAxNGMyY2RlNDg2Njk3NGY1YzZhOWQ5NGJiYTI=",
+      "id": "0xba5fa6bd272cd8b91d978b293f264ca5e35f014c2cde4866974f5c6a9d94bba2",
+      "title": "Core Mission",
+      "content": "Core Mission\n\nShould AssangeDAO continue to focus on its founding premise ‘Free Assange by All Means Necessary’ or Pursue other Activities?",
+      "protocol": "assangedaoeth",
+      "adapter": "snapshot",
+      "proposer": "0x0BF72198CA3c215fD2F7bc041824dF97CBb7aDF5",
+      "totalVotes": 700,
+      "blockNumber": 14250500,
+      "externalUrl": "https://snapshot.org/#/assangedao.eth/proposal/0xba5fa6bd272cd8b91d978b293f264ca5e35f014c2cde4866974f5c6a9d94bba2",
+      "startTime": {
+        "timestamp": 1645634182
+      },
+      "endTime": {
+        "timestamp": 1645893382
+      },
+      "startTimestamp": 1645634182,
+      "endTimestamp": 1645893382,
+      "currentState": "closed",
+      "choices": [
+        "Mission remains to Free Assange",
+        "Pursue other Activities"
+      ],
+      "results": [
+        {
+          "total": 4380161000.0,
+          "choice": 0
+        },
+        {
+          "total": 162400670.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4380159645.718257,
+          "choice": 0
+        },
+        {
+          "total": 162400680.94205588,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

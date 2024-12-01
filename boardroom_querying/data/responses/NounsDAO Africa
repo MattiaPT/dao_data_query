@@ -1,0 +1,397 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bm91bnNkYW9hZnJpY2E6b25jaGFpbjoweGZmZGIwNzlhNjM1ZDYxZmU3OWQxOWNhY2RiMjA1NjRlYzFhNWYxMDljODlkN2M5M2E3NGFmMDBiZTVmNzJjZDg=",
+      "id": "0xffdb079a635d61fe79d19cacdb20564ec1a5f109c89d7c93a74af00be5f72cd8",
+      "title": "L2 Migration Next Steps and Team Comp",
+      "content": "# L2 Migration Next Steps and Team Comp\n\n### L2 Migration\n- pause auctions on L1\n- update L1 description w/link to new DAO and other official links\n\n### Compensate Team \n- send .19eth to xargs for various work:\n[Work Notes in Discord](https://discord.com/channels/1021331213945946142/1021331214419886091/1214761858645631017)\n- add 2 tokens to the airdrop for GulaManYow, who spent waaaayyy more time than expected to create a 100% beautiful collection, which far exceeded expectations.\n- add 1 token to the L2 airdrop for houseofdrey, who helped xargs with several things.\n- add 5% Builder Founder Rewards on L2 to compensate xargs for setup and ongoing management. The amount and receiver can be changed by prop.\n\n",
+      "protocol": "nounsdaoAfrica",
+      "adapter": "onchain",
+      "proposer": "0xFA2930a9d96e91B0A7e78d9fEBB7A8c744afD0da",
+      "totalVotes": 1,
+      "blockNumber": 19466376,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1710908387
+      },
+      "endTime": {
+        "timestamp": 1711253987
+      },
+      "startTimestamp": 1710908387,
+      "endTimestamp": 1711253987,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19507575
+          },
+          "event": "queued",
+          "timestamp": 1711321907,
+          "txHash": "0x7706e5a9d6fe0613d40f7af6fff03ef0b0bc2890482e49a90d0798b13442f0bc"
+        },
+        {
+          "time": {
+            "blockNumber": 19466376
+          },
+          "event": "pending",
+          "timestamp": 1710821987,
+          "txHash": "0x525560435910d9b14dbbf4c98460afe33409646fabc0b8c59f54fe68a875d3ee"
+        },
+        {
+          "time": {
+            "blockNumber": 19530015
+          },
+          "event": "executed",
+          "timestamp": 1711597451,
+          "txHash": "0x4b0d6f16d0d767154cb1f8f786869e82e1fa3a11036236f0e45c8a33c208070f"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710822077067,
+      "txHash": "0x525560435910d9b14dbbf4c98460afe33409646fabc0b8c59f54fe68a875d3ee",
+      "quorum": 3,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bnNkYW9hZnJpY2E6b25jaGFpbjoweDhiMjU0MzFhZTQ2ZDNiMDJhYzE2M2FjYjIwMTJjOTRhMmYwYmQwNGM4Nzg2YWI2YjUwMWU4MjU0ZmRhZmExMmY=",
+      "id": "0x8b25431ae46d3b02ac163acb2012c94a2f0bd04c8786ab6b501e8254fdafa12f",
+      "title": "Re-Launch DAO on nouns.buld on base L2",
+      "content": "This proposal is to make it official that we will setup a new DAO on L2.\n\nWe will airdrop the new token to all holders, and pause auctions in the original DAO.",
+      "protocol": "nounsdaoAfrica",
+      "adapter": "onchain",
+      "proposer": "0xFA2930a9d96e91B0A7e78d9fEBB7A8c744afD0da",
+      "totalVotes": 2,
+      "blockNumber": 19014770,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1705438103
+      },
+      "endTime": {
+        "timestamp": 1705783703
+      },
+      "startTimestamp": 1705438103,
+      "endTimestamp": 1705783703,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19014770
+          },
+          "event": "pending",
+          "timestamp": 1705351703,
+          "txHash": "0xbba9fa8fdcd683591b3a74dfd52558af702b331af7b667e1874e0ef9dbf7b88f"
+        },
+        {
+          "time": {
+            "blockNumber": 19077927
+          },
+          "event": "executed",
+          "timestamp": 1706116595,
+          "txHash": "0xfd44e33e3545b10815ef65822a81368430fe2051eb18ff410060dfffd90edaa8"
+        },
+        {
+          "time": {
+            "blockNumber": 19050600
+          },
+          "event": "queued",
+          "timestamp": 1705784159,
+          "txHash": "0xe06b7791c3e05c283669dd570fc63d68e8e52c9ed8a0c5cd5334783f31f5c888"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705352003456,
+      "txHash": "0xbba9fa8fdcd683591b3a74dfd52558af702b331af7b667e1874e0ef9dbf7b88f",
+      "quorum": 3,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bnNkYW9hZnJpY2E6b25jaGFpbjoweDc1NDYxMTAzNTZhYjA4ZDExZGU4ZmEyYjUwZWE5NGM4ZDRhNDU4MTA5OTBiMDk5YjIzZGY1NzhiZWRjODUwNGE=",
+      "id": "0x7546110356ab08d11de8fa2b50ea94c8d4a45810990b099b23df578bedc8504a",
+      "title": "Extract NDA Traits from Contest Entries",
+      "content": "I propose that we pay 0.1eth and one NDA token to GulaManYow to create traits from the internatioNouns contest, which we can use when we move to L2 on nouns.build. The token transfer will be initiated when we switch to L2.\n\nThe contest entries are here:\nhttps://twitter.com/InternatioNouns/status/1600563421023453189/quotes\n\nA public gDrive has been created for NDA so that GulaManYow can upload a zip file with the traits\n\nhttps://drive.google.com/drive/folders/1mk5lDjPdLVkxAwrCf8Ystjdkv-Il0hc7?usp=sharing\n\nTransactions:\n\n0.1eth to 0xe66d58eEcC148b6A93496D8D25bbC91655EDA41F\n\n\n",
+      "protocol": "nounsdaoAfrica",
+      "adapter": "onchain",
+      "proposer": "0xFA2930a9d96e91B0A7e78d9fEBB7A8c744afD0da",
+      "totalVotes": 2,
+      "blockNumber": 18978594,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1705000799
+      },
+      "endTime": {
+        "timestamp": 1705346399
+      },
+      "startTimestamp": 1705000799,
+      "endTimestamp": 1705346399,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18978594
+          },
+          "event": "pending",
+          "timestamp": 1704914399,
+          "txHash": "0x3561ca18e4ac152ac7eaacdd42386d9fa2611b2c6b09b935a8330a262c6bdf03"
+        },
+        {
+          "time": {
+            "blockNumber": 19014687
+          },
+          "event": "queued",
+          "timestamp": 1705350707,
+          "txHash": "0xf57764c50b3b0ef057f7cb244d852374992d411aa99e740c5d252923a9d9dbde"
+        },
+        {
+          "time": {
+            "blockNumber": 19077925
+          },
+          "event": "executed",
+          "timestamp": 1706116571,
+          "txHash": "0x9a68d23bd55e7cd52f396e46cfa461bb19eaaccb6c4daeea75c6ec904f70db36"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704914522768,
+      "txHash": "0x3561ca18e4ac152ac7eaacdd42386d9fa2611b2c6b09b935a8330a262c6bdf03",
+      "quorum": 3,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bnNkYW9hZnJpY2E6b25jaGFpbjoweDdiZjVjY2U4ZTI4NzViOWE1MmRhMmU0OTc4ZjVhNThkZDQ4Y2UwMzA3YzhiZWFiNjkwNGM3NTViMzI4MTFiNGU=",
+      "id": "0x7bf5cce8e2875b9a52da2e4978f5a58dd48ce0307c8beab6904c755b32811b4e",
+      "title": "Untitled",
+      "content": " ",
+      "protocol": "nounsdaoAfrica",
+      "adapter": "onchain",
+      "proposer": "0xfd637806e0D22Ca8158AB8bb5826e6fEDa82c15f",
+      "totalVotes": 3,
+      "blockNumber": 18909358,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1704159263
+      },
+      "endTime": {
+        "timestamp": 1704504863
+      },
+      "startTimestamp": 1704159263,
+      "endTimestamp": 1704504863,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18909358
+          },
+          "event": "pending",
+          "timestamp": 1704072863,
+          "txHash": "0x6805d659a770e72600a24ed4d50f1df71a5b1e0bfc1df9961efd19193e8ef119"
+        },
+        {
+          "time": {
+            "blockNumber": 18941426
+          },
+          "event": "canceled",
+          "timestamp": 1704461987,
+          "txHash": "0x9c010859ef31f2608b8d5d506949bb5aa3f4842d17738699595d1e5ee844ea8c"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704073247606,
+      "txHash": "0x6805d659a770e72600a24ed4d50f1df71a5b1e0bfc1df9961efd19193e8ef119",
+      "quorum": 2,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bnNkYW9hZnJpY2E6b25jaGFpbjoweDExYmUwZDExNDE2OGZiN2U0MGU5NmZmNGI4YTllY2YwZmYzMjY2NmQ2MDY3NTA2NWEzNjQzY2NhMjJiMmI0ZTY=",
+      "id": "0x11be0d114168fb7e40e96ff4b8a9ecf0ff32666d60675065a3643cca22b2b4e6",
+      "title": "Nouns Builder Upgrade v1.1.0",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "nounsdaoAfrica",
+      "adapter": "onchain",
+      "proposer": "0xdfB6ed808fADddAd9154F5605E349fFF96E3d939",
+      "totalVotes": 0,
+      "blockNumber": 16547063,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1675499327
+      },
+      "endTime": {
+        "timestamp": 1675844927
+      },
+      "startTimestamp": 1675499327,
+      "endTimestamp": 1675844927,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16547063
+          },
+          "event": "pending",
+          "timestamp": 1675412927,
+          "txHash": "0xb3eab38b45cd10e77de52f6e960008a5e59a60f7a8200928706c55d1d96d7a42"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417604323,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bm91bnNkYW9hZnJpY2E6b25jaGFpbjoweDJmNTUwMTA5YjRhYjE1ZjA2N2UyNjVkY2YzOWNhZTRhNGU3NjUxNGY1YzI3MjRlOTMyMDlkMmViZmY3MTc2NmM=",
+      "id": "0x2f550109b4ab15f067e265dcf39cae4a4e76514f5c2724e93209d2ebff71766c",
+      "title": "DAO Upgrade V1_1",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "nounsdaoAfrica",
+      "adapter": "onchain",
+      "proposer": "0xd1d1D4e36117aB794ec5d4c78cBD3a8904E691D0",
+      "totalVotes": 0,
+      "blockNumber": 16208323,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671413639
+      },
+      "endTime": {
+        "timestamp": 1671759239
+      },
+      "startTimestamp": 1671413639,
+      "endTimestamp": 1671759239,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16208323
+          },
+          "event": "pending",
+          "timestamp": 1671327239,
+          "txHash": "0x5e845442d8839236eec6408033860268b17aaf04d08a93c13a0af2f307d75646"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417604323,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

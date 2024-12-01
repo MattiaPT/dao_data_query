@@ -1,0 +1,701 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YmlmaTpvbmNoYWluOjU3NTI0MDI1OTc4NDM1MDkxMzU0NzI2MzkyNDAxOTQ1MzYzNjY5Mjg2OTYxNTc1MjY5NDUxMzA4NjA1OTA4MTY1NDg1NjA3MzEyMzk0",
+      "id": "57524025978435091354726392401945363669286961575269451308605908165485607312394",
+      "title": "BDP-001: Reduce Rewards for Lending and Borrowing ",
+      "content": "Summary\nReduce rewards for lending and borrowing by 40%. The reduced volume of BiFi tokens would be used as rewards when BiFi extends to other blockchain networks and new financial services.\n\nObjective\nBiFi was launched in January 2021 and rewarded BiFi tokens to users who lend or borrow assets on BiFi to grow our ecosystem. To become a DeFi for all, BiFi aims to connect more blockchain networks, including EVM and non-EVM. To successfully expand our services on new blockchain networks and launch new financial services, it is essential to acknowledge the contributions of early users.\n\nWith BDP-001, BiFi can allocate rewards on new financial services and lending and borrowing rewards on various blockchain networks. If the proposal passes then rewards for deposit and borrow will be reduced by 40% and the reduced amount will be used as rewards on other blockchain networks and financial services to expand our ecosystem and to become a DeFi for all. \n\nNext Steps: If you support this proposal, you can vote on this proposal.",
+      "protocol": "bifi",
+      "adapter": "onchain",
+      "proposer": "0xFbb3544329679a7Cc1F7644BAe1b65d36BF5CE63",
+      "totalVotes": 12,
+      "blockNumber": 13370045,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1633585795,
+      "endTimestamp": 1633852140,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2758590.0,
+          "choice": 0
+        },
+        {
+          "total": 43799548.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13389680
+          },
+          "event": "active",
+          "timestamp": 1633852140,
+          "txHash": "0x31ab13eb58130b4c9c95093e4f8433b46433d86e8fece96875e1d36680a6ba68"
+        },
+        {
+          "time": {
+            "blockNumber": 13389716
+          },
+          "event": "queued",
+          "timestamp": 1633852739,
+          "txHash": "0x08dd30a084c25a0969811531bd2a6891df77c1f64a40a64a0dfb75fb7db41981"
+        },
+        {
+          "time": {
+            "blockNumber": 13389719
+          },
+          "event": "executed",
+          "timestamp": 1633852787,
+          "txHash": "0x7d9d18126347ede20829f4f77b6ba74d307e9a05005aed58a1b50b3a6aa53847"
+        },
+        {
+          "time": {
+            "blockNumber": 13363500
+          },
+          "event": "pending",
+          "timestamp": 1633496989,
+          "txHash": "0x31ab13eb58130b4c9c95093e4f8433b46433d86e8fece96875e1d36680a6ba68"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 2758590.0,
+          "choice": 0
+        },
+        {
+          "total": 43799548.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmlmaTpvbmNoYWluOjgxMzA5NDMxMjk5ODczODk5NTEyNzA0OTY0OTI1NTkyMzA0NDQ3MjY0MzQzOTA3NTUzMTE3MTUyNDY3NTczNjcxOTU1MTkwNTI1Mjk=",
+      "id": "8130943129987389951270496492559230444726434390755311715246757367195519052529",
+      "title": "Proposal TEST",
+      "content": "TEST",
+      "protocol": "bifi",
+      "adapter": "onchain",
+      "proposer": "0xFbb3544329679a7Cc1F7644BAe1b65d36BF5CE63",
+      "totalVotes": 1,
+      "blockNumber": 13318673,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1632891217,
+      "endTimestamp": 1632892681,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13318773
+          },
+          "event": "active",
+          "timestamp": 1632892681,
+          "txHash": "0xe2ce3d46ddcf3aa57e8ef5f44c0f7a7d0b901a794c5bfee373b13b983990dca7"
+        },
+        {
+          "time": {
+            "blockNumber": 13326183
+          },
+          "event": "queued",
+          "timestamp": 1632992817,
+          "txHash": "0x84e1ea579af9399ffa8b0c15c40d21688c661e8fae1b427539413587899242e9"
+        },
+        {
+          "time": {
+            "blockNumber": 13326195
+          },
+          "event": "executed",
+          "timestamp": 1632992982,
+          "txHash": "0x663bfe4914ceb1be40e8be28248cf0840fb1a4d5263bf6f86513edd0c71e5e7c"
+        },
+        {
+          "time": {
+            "blockNumber": 13318672
+          },
+          "event": "pending",
+          "timestamp": 1632891214,
+          "txHash": "0xe2ce3d46ddcf3aa57e8ef5f44c0f7a7d0b901a794c5bfee373b13b983990dca7"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmlmaTpvbmNoYWluOjc1NDYzNzE2MDQxOTYzNDM4NDIyMzg4MjQ2MTI5MDQxNzQ4MjQwMzc5NjU0MjUzOTUxMDc0ODYwMTcyMjg4ODQ3MzExMjIwMjc1ODky",
+      "id": "75463716041963438422388246129041748240379654253951074860172288847311220275892",
+      "title": "Queue Test4 ",
+      "content": "Queue Test4",
+      "protocol": "bifi",
+      "adapter": "onchain",
+      "proposer": "0xFbb3544329679a7Cc1F7644BAe1b65d36BF5CE63",
+      "totalVotes": 1,
+      "blockNumber": 13317970,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1632881786,
+      "endTimestamp": 1632883071,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13318070
+          },
+          "event": "active",
+          "timestamp": 1632883071,
+          "txHash": "0xd62a3dbabf74f7f58f5c277ea44a7b44da86141469cf6c376487a200e5b6373b"
+        },
+        {
+          "time": {
+            "blockNumber": 13318755
+          },
+          "event": "queued",
+          "timestamp": 1632892411,
+          "txHash": "0xce7668d6bcf750ac7735fce5532f524bd426c87efeb6eac98448a6c9e2d3a89a"
+        },
+        {
+          "time": {
+            "blockNumber": 13317969
+          },
+          "event": "pending",
+          "timestamp": 1632881777,
+          "txHash": "0xd62a3dbabf74f7f58f5c277ea44a7b44da86141469cf6c376487a200e5b6373b"
+        },
+        {
+          "time": {
+            "blockNumber": 13318761
+          },
+          "event": "executed",
+          "timestamp": 1632892487,
+          "txHash": "0x4c8e617aee04d2a3579d0613ffec9c2ec7d3206d6955e3e8845fa05f5c53f135"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmlmaTpvbmNoYWluOjc2NjM4OTY5OTk5NTk5NDU3NzA2NjI3NjA5MzE3MDk2ODk3NDk0MTMxNjI0MzM4ODUxNDU3OTczNDIwNjI3MDUwNzc0ODk4NzA5MDM4",
+      "id": "76638969999599457706627609317096897494131624338851457973420627050774898709038",
+      "title": "Queue Test3 ",
+      "content": "Queue Test3",
+      "protocol": "bifi",
+      "adapter": "onchain",
+      "proposer": "0xFbb3544329679a7Cc1F7644BAe1b65d36BF5CE63",
+      "totalVotes": 1,
+      "blockNumber": 13317959,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1632881674,
+      "endTimestamp": 1632882991,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13318059
+          },
+          "event": "active",
+          "timestamp": 1632882991,
+          "txHash": "0x178d8fa53a3027715e01a0625aa88381b38d20d51672862598c0c1489a140c72"
+        },
+        {
+          "time": {
+            "blockNumber": 13318779
+          },
+          "event": "executed",
+          "timestamp": 1632892775,
+          "txHash": "0x883d9f787d182ea8d0d4cffac6c890f14698dd02c1a8a256221b5c6daecc6912"
+        },
+        {
+          "time": {
+            "blockNumber": 13317958
+          },
+          "event": "pending",
+          "timestamp": 1632881630,
+          "txHash": "0x178d8fa53a3027715e01a0625aa88381b38d20d51672862598c0c1489a140c72"
+        },
+        {
+          "time": {
+            "blockNumber": 13318772
+          },
+          "event": "queued",
+          "timestamp": 1632892640,
+          "txHash": "0x4b932e8d495916f504e7e6380eced8d5f2ae6e0c6846afe9b20b9559eb1be684"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmlmaTpvbmNoYWluOjEwMjA3MDM0MDU3Mzg4NzIwNzE5Nzk2MjQxMTg4Njk0NDQ4MjY3MDYwMjA0NjI3ODM1MjY5NDQzODQyNDU4MzI3MDYzOTkwNDI3MDgxNA==",
+      "id": "102070340573887207197962411886944482670602046278352694438424583270639904270814",
+      "title": "Queue Test ",
+      "content": "Queue Test",
+      "protocol": "bifi",
+      "adapter": "onchain",
+      "proposer": "0xFbb3544329679a7Cc1F7644BAe1b65d36BF5CE63",
+      "totalVotes": 0,
+      "blockNumber": 13274862,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1632304066,
+      "endTimestamp": 1632392284,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13281407
+          },
+          "event": "active",
+          "timestamp": 1632392284,
+          "txHash": "0x868d1f7b21edd5dfeacf605dfb49617e86c562b2aa7a8a8ba6261f4a340d9b99"
+        },
+        {
+          "time": {
+            "blockNumber": 13281407
+          },
+          "event": "closed",
+          "timestamp": 1632392284,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 13274562
+          },
+          "event": "pending",
+          "timestamp": 1632299945,
+          "txHash": "0x868d1f7b21edd5dfeacf605dfb49617e86c562b2aa7a8a8ba6261f4a340d9b99"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmlmaTpvbmNoYWluOjUzNjkxODc4NDI2ODcxMjUzNjAzMzMxMDM1Njg5Mjk0MTYzNDU3MzUyMzM3Mzc1MjA1MjU0MjI0NzMwODE2NjA2Nzk4MTQ3OTM1MzI=",
+      "id": "5369187842687125360333103568929416345735233737520525422473081660679814793532",
+      "title": "Abstain Test ",
+      "content": "Abstain Test",
+      "protocol": "bifi",
+      "adapter": "onchain",
+      "proposer": "0xFbb3544329679a7Cc1F7644BAe1b65d36BF5CE63",
+      "totalVotes": 1,
+      "blockNumber": 13275099,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1632307185,
+      "endTimestamp": 1632308706,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 2
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13275199
+          },
+          "event": "closed",
+          "timestamp": 1632308706,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 13275199
+          },
+          "event": "active",
+          "timestamp": 1632308706,
+          "txHash": "0x771c042e19ba5e11df569434bc9bfc43813c2b80a4577cbbf80d3f130c8ff541"
+        },
+        {
+          "time": {
+            "blockNumber": 13275098
+          },
+          "event": "pending",
+          "timestamp": 1632307184,
+          "txHash": "0x771c042e19ba5e11df569434bc9bfc43813c2b80a4577cbbf80d3f130c8ff541"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 2
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmlmaTpvbmNoYWluOjk4NjM3Mzk0NDE1NjQ2MTY1MDQyMDY4Njg0OTgwMTQ4OTIzOTA5NDE0NTQzMzI2OTA5MzU3ODE2ODE0MjYxNzA5MDQwMzgyNDA3MzU4",
+      "id": "98637394415646165042068684980148923909414543326909357816814261709040382407358",
+      "title": "Denied Test ",
+      "content": "Denied Test",
+      "protocol": "bifi",
+      "adapter": "onchain",
+      "proposer": "0xFbb3544329679a7Cc1F7644BAe1b65d36BF5CE63",
+      "totalVotes": 1,
+      "blockNumber": 13274799,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1632303097,
+      "endTimestamp": 1632304451,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 0
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13274899
+          },
+          "event": "closed",
+          "timestamp": 1632304451,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 13274899
+          },
+          "event": "active",
+          "timestamp": 1632304451,
+          "txHash": "0xd433a4926645343e9e65d2bb3eec92b76bb8908730e7b92a773301e4e619404c"
+        },
+        {
+          "time": {
+            "blockNumber": 13274798
+          },
+          "event": "pending",
+          "timestamp": 1632303094,
+          "txHash": "0xd433a4926645343e9e65d2bb3eec92b76bb8908730e7b92a773301e4e619404c"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 0
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmlmaTpvbmNoYWluOjc4MDczNzE1NDMyOTk4MzcyODI3Nzc5MTU4MzgyMTk1MjQ0MDM1Mzk2ODUwMzMyNTA4MzI0ODQ4NDgwNDMxMTg5NTQ0MDEyMDY0NDQz",
+      "id": "78073715432998372827779158382195244035396850332508324848480431189544012064443",
+      "title": "Queue Test2 ",
+      "content": "Queue Test2",
+      "protocol": "bifi",
+      "adapter": "onchain",
+      "proposer": "0xFbb3544329679a7Cc1F7644BAe1b65d36BF5CE63",
+      "totalVotes": 1,
+      "blockNumber": 13274639,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1632301250,
+      "endTimestamp": 1632302346,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13274739
+          },
+          "event": "executed",
+          "timestamp": 1632302346,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 13274739
+          },
+          "event": "active",
+          "timestamp": 1632302346,
+          "txHash": "0x759599cfbfcd2e4efa79a39858bca2fbe197ccc83e48134bce06979c61df9cda"
+        },
+        {
+          "time": {
+            "blockNumber": 13274638
+          },
+          "event": "pending",
+          "timestamp": 1632301198,
+          "txHash": "0x759599cfbfcd2e4efa79a39858bca2fbe197ccc83e48134bce06979c61df9cda"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmlmaTpvbmNoYWluOjI1MjgwMzgzOTU4NjgxNzgwMDk5MTQyMDg4OTIwNzg1NDM3OTExNDEyNzg5MjU5NTc4NjYwNDAyMDIyMTkzMjAyNDA5Nzk2MTg1NTY4",
+      "id": "25280383958681780099142088920785437911412789259578660402022193202409796185568",
+      "title": "First Proposal ",
+      "content": "Test Proposal",
+      "protocol": "bifi",
+      "adapter": "onchain",
+      "proposer": "0xFbb3544329679a7Cc1F7644BAe1b65d36BF5CE63",
+      "totalVotes": 1,
+      "blockNumber": 13248553,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1631953210,
+      "endTimestamp": 1632040458,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13255098
+          },
+          "event": "active",
+          "timestamp": 1632040458,
+          "txHash": "0x571b63cc8401266d49f4487127efefdf1da6ce306017f82b95b41ae82f993f86"
+        },
+        {
+          "time": {
+            "blockNumber": 13248552
+          },
+          "event": "pending",
+          "timestamp": 1631953162,
+          "txHash": "0x571b63cc8401266d49f4487127efefdf1da6ce306017f82b95b41ae82f993f86"
+        },
+        {
+          "time": {
+            "blockNumber": 13255098
+          },
+          "event": "executed",
+          "timestamp": 1632040458,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

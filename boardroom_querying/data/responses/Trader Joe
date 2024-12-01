@@ -1,0 +1,1725 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGQ0ZmI3MWQ1MjQwYmVmNmQ0MzBhN2ZhNzRhZjNiYjJlNGQ1NzBkYjJkMDFiNTRjYWYyMDJiN2U2Y2JiNTBlM2E=",
+      "id": "0xd4fb71d5240bef6d430a7fa74af3bb2e4d570db2d01b54caf202b7e6cbb50e3a",
+      "title": "JP-27: Open axlUSDC<>USDC to Liquidity Book Pool on Avalanche",
+      "content": "## High Level:\nAxelar wants to add axlUSDC<>USDC to Liquidity Book on Avalanche. This pool will provide liquidity for cross-chain applications built on top of Axelar’s decentralized cross-chain infrastructure. We intend for this to be the canonical liquidity venue for axlUSDC as we grow our exposure in the Avalanche ecosystem. Axelar will seed 500k of initial liquidity for the axlUSDC<>USDC pools on TraderJoe and would like to grow the volume and TVL of these pools. We envisage this to be an attractive offering given the fact that axlUSDC pools are already earning at the time of writing between 10-20% APR on Curve. axlUSDC pools on Avalanche, BNB, and Polygon are consistently one of the pools with the highest volumes in the last 6 months.\n\n## Asset Confirmation:\nIs this Asset on Avalanche or Arbitrum: Avalanche\nConfirm Token name, tag and contract id: axlUSDC, 0xfaB550568C688d5D8A52C7d794cb93Edc26eC0eC\nLink to Coingecko or CMC page: https://www.coingecko.com/en/coins/axelar-usdc\nLink to Token Contract on relevant Explorer: https://snowtrace.io/token/0xfaB550568C688d5D8A52C7d794cb93Edc26eC0eC\n\n## Tokenomics:\nDetail Tokenomics of the suggested base asset: N/A, axlUSDC is 1:1 with USDC\n\nDetail emissions schedule (where feasible): N/A, no emissions of axlUSDC.\n\n## Summary:\nAxelar delivers secure cross-chain communication for Web3. Our infrastructure enables dApp users to interact with any asset or application, on any chain, with one click.\n\naxlUSDC is Axelar’s bridged version of Ethereum USDC; for every axlUSDC there is one USDC locked on Ethereum. axlUSDC functions as Axelar’s routing asset across the 40+ chains supported by the Axelar Network. This axlUSDC<>USDC pool will power hundreds of cross-chain applications built on top of Axelar’s decentralized cross-chain infrastructure, including native-to-native cross-chain swaps.",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 2751,
+      "blockNumber": 31441264,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0xd4fb71d5240bef6d430a7fa74af3bb2e4d570db2d01b54caf202b7e6cbb50e3a",
+      "startTime": {
+        "timestamp": 1686994748
+      },
+      "endTime": {
+        "timestamp": 1687340348
+      },
+      "startTimestamp": 1686994748,
+      "endTimestamp": 1687340348,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 6109478.5,
+          "choice": 0
+        },
+        {
+          "total": 11196.041,
+          "choice": 2
+        },
+        {
+          "total": 707.39636,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6109488.799368784,
+          "choice": 0
+        },
+        {
+          "total": 707.3963853862989,
+          "choice": 1
+        },
+        {
+          "total": 11196.040194852125,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDY2NjdmZGM2YmQyMDMwNjRjMmQ1ZTdiYThlNTQ0OTU1ZTI1NWZkNGZiMzAzYTg0NTkzNWE3MzVjOTU4MWNiM2I=",
+      "id": "0x6667fdc6bd203064c2d5e7ba8e544955e255fd4fb303a845935a735c9581cb3b",
+      "title": "JP-25: Open a ankrETH-ETH Market",
+      "content": "*Resubmission as previous vote failed to reach quorum.  Initially proposed in discord by pratinhas.  Temperature check 25 votes for and 1 against.*\n\n## Summary: \nBased on all the amazing support we received from the Joe community on our ankrAVAX/AVAX pool, Ankr proposes to the Trader Joe’s community the creation of an ankrETH-ETH Market.\n\n## High Level: \n\n### Protocol Overview\n\nAnkr is a decentralized blockchain infrastructure that helps drive the growth of the crypto economy while powering a full suite of multi-chain tools for Web3 users. Our latest partnership with Microsoft and Tencent, helps our ambitions become a reality.\n\nAnkr also has a wide Liquid Staking Offering where ETH Liquid Staking offers instant liquidity for your staked ETH, enabling you to connect your ankrETH tokens with DeFi platforms and earn several more layers of rewards increasing the capital efficiency of your staked ETH.\n\nankrETH is a reward-bearing token, meaning that the fair value of 1 ankrETH token vs. ETH increases over time as staking rewards accumulate.\n\nAnkr is a leader in RPC nodes with projects like Aave, 1inch and SushiSwap as clients and has ~$200M TVL across the Liquid Staking Offering.\n\n\n### Tokenomics:\n\nn/a : ankrETH is a receipt Token that represents staked ETH\n\n\n### Specifications:\nAvalanche\nToken: ankrETH - 0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c\nMarket History: https://coinmarketcap.com/currencies/ankreth/\n\n\n## Other Useful Links: \n\n• Website: https://www.ankr.com/\n• Documentation: https://www.ankr.com/docs/liquid-staking/eth/overview/\n• Audit: https://assets.ankr.com/staking/smart_contract_security_audit_aeth_beosin.pdf\n• Github Page: https://github.com/Ankr-network\n• Twitter: https://twitter.com/ankr / https://twitter.com/ankrstaking \n• Reddit: https://www.reddit.com/r/Ankrofficial/\n• Telegram: Contact @ankrnetwork",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 2201,
+      "blockNumber": 31079163,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x6667fdc6bd203064c2d5e7ba8e544955e255fd4fb303a845935a735c9581cb3b",
+      "startTime": {
+        "timestamp": 1686253500
+      },
+      "endTime": {
+        "timestamp": 1686599100
+      },
+      "startTimestamp": 1686253500,
+      "endTimestamp": 1686599100,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2584126.8,
+          "choice": 0
+        },
+        {
+          "total": 3843.2698,
+          "choice": 2
+        },
+        {
+          "total": 1545.7582,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2584127.0475798477,
+          "choice": 0
+        },
+        {
+          "total": 1545.7581408758012,
+          "choice": 1
+        },
+        {
+          "total": 3843.2704173755446,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDEzZGE3NTJlZDkxYzEyYmYyZDE1OTJhODRhMTQwNzI3Zjk5MGQ5ZThiNDg5MGU1ZWI0OTZhZjUzNTY0NDAxNTk=",
+      "id": "0x13da752ed91c12bf2d1592a84a140727f990d9e8b4890e5eb496af5356440159",
+      "title": "JP-26 Open a ggAVAX - AVAX Market",
+      "content": "*Resubmission as previous vote failed to reach quorum.  Initially proposed in discord by memerson.  Temperature check 26 votes for and zero against.*\n\n## Summary\nGoGoPool proposes to the Trader Joe community the creation of a ggAVAX - AVAX market. \n\n## High Level\nGoGoPool would like to leverage the Liquidity Book AMM to facilitate efficient trading through the capabilities of its zero to low slippage discretized liquidity architecture. Supporting GoGoPool with Liquidity Book will help to support the acceleration and growth of Avalanche via proliferation of Subnets. \n\n## About GoGoPool\nGoGoPool is a permissionless staking protocol designed for Avalanche Subnets, simplifying validator node sourcing and reducing validation costs through liquid staking. GoGoPool reduces the AVAX requirement of launching a new validator node by ~50% via liquid staking. \n\nLiquid staking users swap AVAX for ggAVAX, a token which represents their staked AVAX plus any rewards it has accrued. ggAVAX holders can redeem at any time for AVAX so long as there's float in the contract.\n\nOn the other side of the protocol, node operators supply their own hardware and register minipools by staking 1000 AVAX and 10% value in our GGP token as collateral. Minipools are matched with funds from liquid stakers and launched as full validators. \n\n## Specifications\nChain: Avalanche\nToken:  $ggAVAX\nContract: https://snowtrace.io/address/0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3\n\n## Tokenomics\nggAVAX is an ERC4626. Staking rewards are reflected in the exchange rate between ggAVAX and AVAX, which will favor ggAVAX over time.\n\n## Summary\nGoGoPool’s mission is to accelerate the Subnet Economy. We believe ggAVAX will be an important base primitive in Avalanche that will align the community’s incentives towards a common goal: to help builders bring blockchain to the world using Subnets. Utilizing Liquidity Book for liquidity provisioning will help to drive towards that goal.\n\n## Links\nLitepaper: https://docs.gogopool.com/gogopool-litepaper \nGithub: https://github.com/multisig-labs/gogopool\nZellic & Code4rena audits: https://docs.gogopool.com/audits",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 2259,
+      "blockNumber": 31079213,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x13da752ed91c12bf2d1592a84a140727f990d9e8b4890e5eb496af5356440159",
+      "startTime": {
+        "timestamp": 1686253500
+      },
+      "endTime": {
+        "timestamp": 1686599100
+      },
+      "startTimestamp": 1686253500,
+      "endTimestamp": 1686599100,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2083976.6,
+          "choice": 0
+        },
+        {
+          "total": 4376.3916,
+          "choice": 2
+        },
+        {
+          "total": 2092.5999,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2083977.2956132973,
+          "choice": 0
+        },
+        {
+          "total": 2092.600108525851,
+          "choice": 1
+        },
+        {
+          "total": 4376.39173974436,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGZiYTVjNDRkY2IzODcxYjBkOWEzMThiMWYwODIxYTUwZGNkM2I1YWUzZDgzMDA2OGIwMDVlMzM3NWE1M2JjODY=",
+      "id": "0xfba5c44dcb3871b0d9a318b1f0821a50dcd3b5ae3d830068b005e3375a53bc86",
+      "title": "test proposal",
+      "content": "testing the new multichain voting strategy for trader joe tokenholders including sjoe staked balances",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 2319,
+      "blockNumber": 30721213,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0xfba5c44dcb3871b0d9a318b1f0821a50dcd3b5ae3d830068b005e3375a53bc86",
+      "startTime": {
+        "timestamp": 1685520885
+      },
+      "endTime": {
+        "timestamp": 1685866485
+      },
+      "startTimestamp": 1685520885,
+      "endTimestamp": 1685866485,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "Yes"
+      ],
+      "results": [
+        {
+          "total": 617492.94,
+          "choice": 0
+        },
+        {
+          "total": 4010.5715,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 617492.7122836715,
+          "choice": 0
+        },
+        {
+          "total": 4010.572747909344,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGRhMzE1OTI1ZDI2YWNiZGQ0ZjE1NWFkZDczYTc1YjIxZDFlY2ZmYmUzMzljNmZiNDlmNTQ5ZTQ0OTY2ZGZhMWM=",
+      "id": "0xda315925d26acbdd4f155add73a75b21d1ecffbe339c6fb49f549e44966dfa1c",
+      "title": "JP-26 Open a ggAVAX - AVAX Market",
+      "content": "*Resubmission as previous vote failed to reach quorum.  Initially proposed in discord by memerson.  Temperature check 26 votes for and zero against.*\n\n## Summary\nGoGoPool proposes to the Trader Joe community the creation of a ggAVAX - AVAX market. \n\n## High Level\nGoGoPool would like to leverage the Liquidity Book AMM to facilitate efficient trading through the capabilities of its zero to low slippage discretized liquidity architecture. Supporting GoGoPool with Liquidity Book will help to support the acceleration and growth of Avalanche via proliferation of Subnets. \n\n## About GoGoPool\nGoGoPool is a permissionless staking protocol designed for Avalanche Subnets, simplifying validator node sourcing and reducing validation costs through liquid staking. GoGoPool reduces the AVAX requirement of launching a new validator node by ~50% via liquid staking. \n\nLiquid staking users swap AVAX for ggAVAX, a token which represents their staked AVAX plus any rewards it has accrued. ggAVAX holders can redeem at any time for AVAX so long as there's float in the contract.\n\nOn the other side of the protocol, node operators supply their own hardware and register minipools by staking 1000 AVAX and 10% value in our GGP token as collateral. Minipools are matched with funds from liquid stakers and launched as full validators. \n\n## Specifications\nChain: Avalanche\nToken:  $ggAVAX\nContract: https://snowtrace.io/address/0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3\n\n## Tokenomics\nggAVAX is an ERC4626. Staking rewards are reflected in the exchange rate between ggAVAX and AVAX, which will favor ggAVAX over time.\n\n## Summary\nGoGoPool’s mission is to accelerate the Subnet Economy. We believe ggAVAX will be an important base primitive in Avalanche that will align the community’s incentives towards a common goal: to help builders bring blockchain to the world using Subnets. Utilizing Liquidity Book for liquidity provisioning will help to drive towards that goal.\n\n## Links\nLitepaper: https://docs.gogopool.com/gogopool-litepaper \nGithub: https://github.com/multisig-labs/gogopool\nZellic & Code4rena audits: https://docs.gogopool.com/audits",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 0,
+      "blockNumber": 31058927,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0xda315925d26acbdd4f155add73a75b21d1ecffbe339c6fb49f549e44966dfa1c",
+      "startTime": {
+        "timestamp": 1684913618
+      },
+      "endTime": {
+        "timestamp": 1685259218
+      },
+      "startTimestamp": 1684913618,
+      "endTimestamp": 1685259218,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGM1N2VlOTUzMTc4ZjhhOTNlYzk5M2JmOTFkNmNiOWFiYTcyOTA0ZGQ4NGIxMDMyMWQ0ZTk5YWIxNTE0MzUzNmQ=",
+      "id": "0xc57ee953178f8a93ec993bf91d6cb9aba72904dd84b10321d4e99ab15143536d",
+      "title": "JP-26 Open a ggAVAX - AVAX Market",
+      "content": "*Proposed in discord by memerson.  Temperature check 26 votes for and zero against.*\n\n## Summary\nGoGoPool proposes to the Trader Joe community the creation of a ggAVAX - AVAX market. \n\n## High Level\nGoGoPool would like to leverage the Liquidity Book AMM to facilitate efficient trading through the capabilities of its zero to low slippage discretized liquidity architecture. Supporting GoGoPool with Liquidity Book will help to support the acceleration and growth of Avalanche via proliferation of Subnets. \n\n## About GoGoPool\nGoGoPool is a permissionless staking protocol designed for Avalanche Subnets, simplifying validator node sourcing and reducing validation costs through liquid staking. GoGoPool reduces the AVAX requirement of launching a new validator node by ~50% via liquid staking. \n\nLiquid staking users swap AVAX for ggAVAX, a token which represents their staked AVAX plus any rewards it has accrued. ggAVAX holders can redeem at any time for AVAX so long as there's float in the contract.\n\nOn the other side of the protocol, node operators supply their own hardware and register minipools by staking 1000 AVAX and 10% value in our GGP token as collateral. Minipools are matched with funds from liquid stakers and launched as full validators. \n\n## Specifications\nChain: Avalanche\nToken:  $ggAVAX\nContract: https://snowtrace.io/address/0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3\n\n## Tokenomics\nggAVAX is an ERC4626. Staking rewards are reflected in the exchange rate between ggAVAX and AVAX, which will favor ggAVAX over time.\n\n## Summary\nGoGoPool’s mission is to accelerate the Subnet Economy. We believe ggAVAX will be an important base primitive in Avalanche that will align the community’s incentives towards a common goal: to help builders bring blockchain to the world using Subnets. Utilizing Liquidity Book for liquidity provisioning will help to drive towards that goal.\n\n## Links\nLitepaper: https://docs.gogopool.com/gogopool-litepaper \nGithub: https://github.com/multisig-labs/gogopool\nZellic & Code4rena audits: https://docs.gogopool.com/audits",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 2374,
+      "blockNumber": 30381269,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0xc57ee953178f8a93ec993bf91d6cb9aba72904dd84b10321d4e99ab15143536d",
+      "startTime": {
+        "timestamp": 1684913618
+      },
+      "endTime": {
+        "timestamp": 1685259218
+      },
+      "startTimestamp": 1684913618,
+      "endTimestamp": 1685259218,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 428543.25,
+          "choice": 0
+        },
+        {
+          "total": 10150.734,
+          "choice": 2
+        },
+        {
+          "total": 3264.1472,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 428543.5371106892,
+          "choice": 0
+        },
+        {
+          "total": 3264.147932917716,
+          "choice": 1
+        },
+        {
+          "total": 10150.734813104043,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDVkZTRjMDJmZWFhOWY5YWNhNjA5OGU4NzVmMGE4ZjNmYjc5OGVhZDlhZTNlMGE1ZDdiYjRhN2E1ZjA5Yjc2NjQ=",
+      "id": "0x5de4c02feaa9f9aca6098e875f0a8f3fb798ead9ae3e0a5d7bb4a7a5f09b7664",
+      "title": "JP-25: Open a ankrETH-ETH Market",
+      "content": "*Proposed in discord by pratinhas.  Temperature check 25 votes for and 1 against.\n\n## Summary: \nBased on all the amazing support we received from the Joe community on our ankrAVAX/AVAX pool, Ankr proposes to the Trader Joe’s community the creation of an ankrETH-ETH Market.\n\n## High Level: \n\n### Protocol Overview\n\nAnkr is a decentralized blockchain infrastructure that helps drive the growth of the crypto economy while powering a full suite of multi-chain tools for Web3 users. Our latest partnership with Microsoft and Tencent, helps our ambitions become a reality.\n\nAnkr also has a wide Liquid Staking Offering where ETH Liquid Staking offers instant liquidity for your staked ETH, enabling you to connect your ankrETH tokens with DeFi platforms and earn several more layers of rewards increasing the capital efficiency of your staked ETH.\n\nankrETH is a reward-bearing token, meaning that the fair value of 1 ankrETH token vs. ETH increases over time as staking rewards accumulate.\n\nAnkr is a leader in RPC nodes with projects like Aave, 1inch and SushiSwap as clients and has ~$200M TVL across the Liquid Staking Offering.\n\n\n### Tokenomics:\n\nn/a : ankrETH is a receipt Token that represents staked ETH\n\n\n### Specifications:\nAvalanche\nToken: ankrETH - 0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c\nMarket History: https://coinmarketcap.com/currencies/ankreth/\n\n\n## Other Useful Links: \n\n• Website: https://www.ankr.com/\n• Documentation: https://www.ankr.com/docs/liquid-staking/eth/overview/\n• Audit: https://assets.ankr.com/staking/smart_contract_security_audit_aeth_beosin.pdf\n• Github Page: https://github.com/Ankr-network\n• Twitter: https://twitter.com/ankr / https://twitter.com/ankrstaking \n• Reddit: https://www.reddit.com/r/Ankrofficial/\n• Telegram: Contact @ankrnetwork",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 2326,
+      "blockNumber": 30381041,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x5de4c02feaa9f9aca6098e875f0a8f3fb798ead9ae3e0a5d7bb4a7a5f09b7664",
+      "startTime": {
+        "timestamp": 1684913194
+      },
+      "endTime": {
+        "timestamp": 1685258794
+      },
+      "startTimestamp": 1684913194,
+      "endTimestamp": 1685258794,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 437730.72,
+          "choice": 0
+        },
+        {
+          "total": 904.3509,
+          "choice": 2
+        },
+        {
+          "total": 1049.0898,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 437731.0838932376,
+          "choice": 0
+        },
+        {
+          "total": 1049.0898034381614,
+          "choice": 1
+        },
+        {
+          "total": 904.3510205142328,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDU1ZmI1NzVkZjAyMzc4Mjk4YWRiNjUwMjdlNzA4YmQ2OTY0OWUzNzUxMzdmM2MzN2IyZDE2MTI0OWYxY2UyODM=",
+      "id": "0x55fb575df02378298adb65027e708bd69649e375137f3c37b2d161249f1ce283",
+      "title": "JP-25: Open a ankrETH-ETH Market",
+      "content": "*Resubmission as previous vote failed to reach quorum.  Initially proposed in discord by pratinhas.  Temperature check 25 votes for and 1 against.*\n\n## Summary: \nBased on all the amazing support we received from the Joe community on our ankrAVAX/AVAX pool, Ankr proposes to the Trader Joe’s community the creation of an ankrETH-ETH Market.\n\n## High Level: \n\n### Protocol Overview\n\nAnkr is a decentralized blockchain infrastructure that helps drive the growth of the crypto economy while powering a full suite of multi-chain tools for Web3 users. Our latest partnership with Microsoft and Tencent, helps our ambitions become a reality.\n\nAnkr also has a wide Liquid Staking Offering where ETH Liquid Staking offers instant liquidity for your staked ETH, enabling you to connect your ankrETH tokens with DeFi platforms and earn several more layers of rewards increasing the capital efficiency of your staked ETH.\n\nankrETH is a reward-bearing token, meaning that the fair value of 1 ankrETH token vs. ETH increases over time as staking rewards accumulate.\n\nAnkr is a leader in RPC nodes with projects like Aave, 1inch and SushiSwap as clients and has ~$200M TVL across the Liquid Staking Offering.\n\n\n### Tokenomics:\n\nn/a : ankrETH is a receipt Token that represents staked ETH\n\n\n### Specifications:\nAvalanche\nToken: ankrETH - 0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c\nMarket History: https://coinmarketcap.com/currencies/ankreth/\n\n\n## Other Useful Links: \n\n• Website: https://www.ankr.com/\n• Documentation: https://www.ankr.com/docs/liquid-staking/eth/overview/\n• Audit: https://assets.ankr.com/staking/smart_contract_security_audit_aeth_beosin.pdf\n• Github Page: https://github.com/Ankr-network\n• Twitter: https://twitter.com/ankr / https://twitter.com/ankrstaking \n• Reddit: https://www.reddit.com/r/Ankrofficial/\n• Telegram: Contact @ankrnetwork",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 0,
+      "blockNumber": 31058949,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x55fb575df02378298adb65027e708bd69649e375137f3c37b2d161249f1ce283",
+      "startTime": {
+        "timestamp": 1684913194
+      },
+      "endTime": {
+        "timestamp": 1685258794
+      },
+      "startTimestamp": 1684913194,
+      "endTimestamp": 1685258794,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDRlNGU0MjUzYTA0NDhiZDRiZmQ5ZjM5OTllY2M4MTE0ZTY0M2VhZWQzZThiYTNlMjA0NzlhOTA4Yjg1MmQ2Yzg=",
+      "id": "0x4e4e4253a0448bd4bfd9f3999ecc8114e643eaed3e8ba3e20479a908b852d6c8",
+      "title": "JP-24: Open a XAVA-AVAX Market",
+      "content": "***Proposed in discord by EdgeDegen, temperature check 26 votes in favour and one against.***\n\n## Summary:\n\nXAVA (Avalaunch) is the leading IDO platform on Avalanche which allows users access early token sales for projects.\n\n## High Level:\n\nAvalaunch functions as a launchpad for Avalanche projects to secure some funding from users, in return for them staking the native token XAVA.\n\nThe current liquidty for the XAVA-AVAX pair is still within a 0.3% V1 pool. Due to a significant amount of the supply being staked or locked to pariticpate in these IDOs it has meant that there is a lack of liquidity for the pair ($400k). This has resulted in a 10 AVAX buy leading to a 0.1% price impact and a 100 AVAX buy having a 1% price impact. Currently more than $10m of the $14m MC is locked in the platforms staking or locking mechanisms.\n\nThese types of buys are trivial in the grand scheme of the markets and making XAVA a quote asset will aid in reducing price impact and slippage of buys. Ensuring that liquidity is more efficient for this longstanding Avalanche protocol that supports builders.\n\n## Solution:\n\nAllow for XAVA to be a quote asset and launch the XAVA-AVAX market to ensure that the liquidity that is present can be used more efficiently. \n\n## Info:\nhttps://avalaunch.app/\nToken Address: 0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4 \n",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 2156,
+      "blockNumber": 29810042,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x4e4e4253a0448bd4bfd9f3999ecc8114e643eaed3e8ba3e20479a908b852d6c8",
+      "startTime": {
+        "timestamp": 1683750324
+      },
+      "endTime": {
+        "timestamp": 1684095924
+      },
+      "startTimestamp": 1683750324,
+      "endTimestamp": 1684095924,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 673401.75,
+          "choice": 0
+        },
+        {
+          "total": 2122.145,
+          "choice": 2
+        },
+        {
+          "total": 1421.35,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 673402.2649663773,
+          "choice": 0
+        },
+        {
+          "total": 1421.3500141549655,
+          "choice": 1
+        },
+        {
+          "total": 2122.145010921961,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGU2NDdkNjUyN2I0YWE4ZGQxMTg3YTU3MTM4NTRjZmY1NGVhMjMwYzk1ZmEwYTMzYzI4YWNiMGZiNTc3M2E1MGM=",
+      "id": "0xe647d6527b4aa8dd1187a5713854cff54ea230c95fa0a33c28acb0fb5773a50c",
+      "title": "JP-23: Open MIM-USDT market on Liquidity Book (Avalanche)",
+      "content": "*This proposal previously reached 95% Quorum, it is being re-submitted for vote as proposed in the discord forum.*\n## High level\n\nThere is over 9M MIM issued on Avalanche at the moment, with 40k+ holders and no liquid stable pool on Trader Joe V1 or V2. Abracadabra just deployed magicGLP (GLP auto-compounder) on Avalanche and will likely be getting more active on Avalanche with MIM being at the core of their ecosystem. \n\nWe all know how great Liquidity Book is - perfect place to host a MIM-USDT stable pair (.02%) and get that volume and those fees. \n\n## Specficiations\n\nAvalanche\nMIM contract: https://snowtrace.io/token/0x130966628846bfd36ff31a822705796e8cb8c18d\nUSDT contract: https://snowtrace.io/token/0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7\nMIM coingecko: https://www.coingecko.com/en/coins/magic-internet-money\nUSDT coingecko: https://www.coingecko.com/en/coins/tether\n\n## Tokenomics\nUSDT is a centrally-issued stablecoin by Tether. \n\nMIM is a USD-pegged stablecoin issued by the Abracadabra protocol, backed by interest-bearing assets (learn more: https://abracadabramoney.gitbook.io/learn/tokens/tokenomics#the-mim-token)\n\n## Summary\nStable pairs are a great fit for liquidity book and benefit a lot from its capital efficiency; MIM would be a good token to create a market for, consolidating Trader Joe LB as the prime venue for trading stables on Avalanche. \n",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 1913,
+      "blockNumber": 29279584,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0xe647d6527b4aa8dd1187a5713854cff54ea230c95fa0a33c28acb0fb5773a50c",
+      "startTime": {
+        "timestamp": 1682667296
+      },
+      "endTime": {
+        "timestamp": 1683012896
+      },
+      "startTimestamp": 1682667296,
+      "endTimestamp": 1683012896,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1533355.2,
+          "choice": 0
+        },
+        {
+          "total": 5872.881,
+          "choice": 2
+        },
+        {
+          "total": 510241.72,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1533357.4433045574,
+          "choice": 0
+        },
+        {
+          "total": 510241.7119516735,
+          "choice": 1
+        },
+        {
+          "total": 5872.88039664367,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDU2NDE2YzIxN2M5MmNiMTc0YjBkZmZjNjAxZTY4ZGU4ZTJlNmU5OGE1Yjg5YTQwNjg3M2U2OWVlYjUwZmQ2NTI=",
+      "id": "0x56416c217c92cb174b0dffc601e68de8e2e6e98a5b89a406873e69eeb50fd652",
+      "title": "JP-23: Open MIM-USDT market on Liquidity Book (Avalanche)",
+      "content": "## High level\n\nThere is over 9M MIM issued on Avalanche at the moment, with 40k+ holders and no liquid stable pool on Trader Joe V1 or V2. Abracadabra just deployed magicGLP (GLP auto-compounder) on Avalanche and will likely be getting more active on Avalanche with MIM being at the core of their ecosystem. \n\nWe all know how great Liquidity Book is - perfect place to host a MIM-USDT stable pair (.02%) and get that volume and those fees. \n\n## Specficiations\n\nAvalanche\nMIM contract: https://snowtrace.io/token/0x130966628846bfd36ff31a822705796e8cb8c18d\nUSDT contract: https://snowtrace.io/token/0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7\nMIM coingecko: https://www.coingecko.com/en/coins/magic-internet-money\nUSDT coingecko: https://www.coingecko.com/en/coins/tether\n\n## Tokenomics\nUSDT is a centrally-issued stablecoin by Tether. \n\nMIM is a USD-pegged stablecoin issued by the Abracadabra protocol, backed by interest-bearing assets (learn more: https://abracadabramoney.gitbook.io/learn/tokens/tokenomics#the-mim-token)\n\n## Summary\nStable pairs are a great fit for liquidity book and benefit a lot from its capital efficiency; MIM would be a good token to create a market for, consolidating Trader Joe LB as the prime venue for trading stables on Avalanche. \n",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 2222,
+      "blockNumber": 28917512,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x56416c217c92cb174b0dffc601e68de8e2e6e98a5b89a406873e69eeb50fd652",
+      "startTime": {
+        "timestamp": 1681930443
+      },
+      "endTime": {
+        "timestamp": 1682276043
+      },
+      "startTimestamp": 1681930443,
+      "endTimestamp": 1682276043,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1770387.1,
+          "choice": 0
+        },
+        {
+          "total": 132438.92,
+          "choice": 2
+        },
+        {
+          "total": 6678.2256,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1770388.553420757,
+          "choice": 0
+        },
+        {
+          "total": 6678.225338844028,
+          "choice": 1
+        },
+        {
+          "total": 132438.93082380158,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGQ2ZjhiYzkwY2E0YmI0NWNjZjgyYWI5MjE0ZGFmZmNmNWE1YmJhZGFhYmQ5NzYyYzg3MDE4ZGQ0ZjA5MzQ4OTQ=",
+      "id": "0xd6f8bc90ca4bb45ccf82ab9214daffcf5a5bbadaabd9762c87018dd4f0934894",
+      "title": "JP-22 : Open a ankrAVAX-AVAX Market",
+      "content": "## Summary: \nAnkr proposes to the Trader Joe’s community the creation of an ankrAVAX-AVAX Market.\n\n## High Level: \nProtocol Overview\n\nAnkr is a decentralized blockchain infrastructure that helps drive the growth of the crypto economy while powering a full suite of multi-chain tools for Web3 users. Our latest partnership with Microsoft and Tencent, helps our ambitions become a reality.\n\nAnkr also has a wide Liquid Staking Offering where AVAX Liquid Staking offers instant liquidity for your staked AVAX, enabling you to connect your ankrAVAX tokens with DeFi platforms and earn several more layers of rewards increasing the capital efficiency of your staked AVAX.\n\nankrAVAX is a reward-bearing token, meaning that the fair value of 1 ankrAVAX token vs. AVAX increases over time as staking rewards accumulate.\n\nAnkr is a leader in RPC nodes with projects like Aave, 1inch and SushiSwap as clients and has ~$200M TVL across the Liquid Staking Offering.\n\n## Tokenomics:\nn/a : ankrAVAX is a receipt Token that represents staked AVAX\n\n\n## Specifications:\nAvalanche\nToken: ankrAVAX - 0xc3344870d52688874b06d844e0c36cc39fc727f6\nMarket History: https://www.coingecko.com/en/coins/ankr-staked-avax#markets\n\n\n## Other Useful Links: \n• Website: https://www.ankr.com/\n• Documentation: https://www.ankr.com/docs/liquid-staking/avax/overview/\n• Audit: https://assets.ankr.com/staking/smart_contract_security_audit_avax_beosin.pdf\n• Github Page: https://github.com/Ankr-network\n• Twitter: https://twitter.com/ankr / https://twitter.com/ankrstaking \n• Reddit: https://www.reddit.com/r/Ankrofficial/\n• Telegram: Contact @ankrnetwork",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 2580,
+      "blockNumber": 28685811,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0xd6f8bc90ca4bb45ccf82ab9214daffcf5a5bbadaabd9762c87018dd4f0934894",
+      "startTime": {
+        "timestamp": 1681462410
+      },
+      "endTime": {
+        "timestamp": 1681808010
+      },
+      "startTimestamp": 1681462410,
+      "endTimestamp": 1681808010,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2211641.2,
+          "choice": 0
+        },
+        {
+          "total": 12841.892,
+          "choice": 2
+        },
+        {
+          "total": 24050.234,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2211642.9101649234,
+          "choice": 0
+        },
+        {
+          "total": 24050.23810564661,
+          "choice": 1
+        },
+        {
+          "total": 12841.890745807545,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDI1ZTBlOTZiZDMwNjA1ZWQ2Y2FjZDkyNGFmNTUxOTQxODhhNTU1MWMyMWIxMjNjYjJlZmQ0NTNkYWFhZTU4MzU=",
+      "id": "0x25e0e96bd30605ed6cacd924af55194188a5551c21b123cb2efd453daaae5835",
+      "title": "JP-20: Open Money-USDC and Money-AVAX Market",
+      "content": "*Temperature Check Vote: 34 For and 0 Against*\n\n\n## Rationale for reopening:\nSince JOE has been enabled as collateral on Moremoney a couple of days earlier, users are now able to unlock some liquidity (through MONEY) while holding on to their JOE stacks.\nA MONEY-USDC market on Liquidity book would allow efficient swapping into and out of MONEY when users borrows/repays their loan on the Moremoney protocol.\nIn addition, by depositing JOE into Moremoney, users are also able to autocompound their JOE stack through Yield Yak's sJOE.\nThis would allow for a closer and mutually beneficial partnership between these two Avalanche native protocols.\n\nThe following information are from the previous proposal:  \n\n## Summary:\nThis proposal is for adding a MONEY-USDC and MONEY-AVAX LB market.\nMONEY is an overcollateralized stablecoin issued by Moremoney. \n\n## High Level:\nProtocol Overview\n• Moremoney is an overcollateralized borrowing protocol which accepts a variety of tokens and issues loans denominated in the MONEY stablecoin. \n• Moremoney allows users to retain control and flexibility over their collateral deposits, with the ability to move funds to a variety of strategies, without having to modify the initial MONEY loans.\n\n## Token Overview\n• MONEY has a unique architecture designed for ultra-stability - which has been demonstrated since inception. This architecture includes features such as: overcollateralization, forced-redemption capacity, variable interest rate defense, and interest-bearing for stakers.\n• MONEY is the first interest-bearing stablecoin on the Avalanche blockchain. \n\n## Ideal Market\n• Stablecoins are an integral feature of DeFi, and MONEY is one of the leading overcollateralized stablecoins on Avalanche. \n\n## Specifications:\nMarket: Avalanche\nToken Name: MONEY\nAssociated Protocol: Moremoney Finance\nProtocol Website: https://moremoney.finance/\nCoingekko: https://www.coingecko.com/en/coins/moremoney-usd\nToken Contract: https://snowtrace.io/address/0x0f577433Bf59560Ef2a79c124E9Ff99fCa258948\nTokenomics: https://moremoney.gitbook.io/docs/how%20cdp%20earnings%20are%20used/money \n",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 2433,
+      "blockNumber": 28181885,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x25e0e96bd30605ed6cacd924af55194188a5551c21b123cb2efd453daaae5835",
+      "startTime": {
+        "timestamp": 1680445758
+      },
+      "endTime": {
+        "timestamp": 1680791358
+      },
+      "startTimestamp": 1680445758,
+      "endTimestamp": 1680791358,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2123440.8,
+          "choice": 0
+        },
+        {
+          "total": 904.9474,
+          "choice": 2
+        },
+        {
+          "total": 1665.7325,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2123441.134631595,
+          "choice": 0
+        },
+        {
+          "total": 1665.732581821271,
+          "choice": 1
+        },
+        {
+          "total": 904.9473534704796,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDY2MjU3OTEyNjc5MmQxNTBjNTRlOTY4Y2Y3MzA2OGZjYjBkYmRiZjc4YWIyYjA4NzUxNGQwNDBmZWE5NWE5NGM=",
+      "id": "0x662579126792d150c54e968cf73068fcb0dbdbf78ab2b087514d040fea95a94c",
+      "title": "JP-13 Open PTP-AVAX Market",
+      "content": "## High Level\nPTP is the token of the Platypus Finance project.\nPlatypus' AMM facilitates seamless exchange between pegged assets. The key concept underpinning Platypus’ design is asset liability management (ALM). Platypus is the first of its kind to use a single-variant slippage function instead of invariant curves.\n\nPTP is a token native to Avalanche and it has good volume (+350k USD / week).\n\n## Specification\nChain : Avalanche\nToken information : Platypus, PTP\nCoingecko : https://www.coingecko.com/en/coins/platypus-finance\nSnowtrace : https://snowtrace.io/token/0x22d4002028f537599bE9f666d1c4Fa138522f9c8\n\n## Tokenomics\nSupply cap : 300,000,000 PTP\nCirculating supply : 57,558,453.85 PTP (as of the 13th of February)\n\n## Summary\nPTP is an Avalanche native token which has a lot of holders and good volume with most of its liquidity on a TJ v1 pool. It uses a less efficient pool which could be an argument to make LP migrate to a LB market.",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 1895,
+      "blockNumber": 27560975,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x662579126792d150c54e968cf73068fcb0dbdbf78ab2b087514d040fea95a94c",
+      "startTime": {
+        "timestamp": 1679155966
+      },
+      "endTime": {
+        "timestamp": 1679501566
+      },
+      "startTimestamp": 1679155966,
+      "endTimestamp": 1679501566,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3034560.5,
+          "choice": 0
+        },
+        {
+          "total": 613.66174,
+          "choice": 2
+        },
+        {
+          "total": 99707.74,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3034566.4824213334,
+          "choice": 0
+        },
+        {
+          "total": 99707.745335953,
+          "choice": 1
+        },
+        {
+          "total": 613.661703806949,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDhkNWRjNDBlNzRjYjA3MGRkNWJiYjNhZjIxNTU3NDMwNTM1MWNhYmU3N2RjMTcxYWE3NWZhZjlkMmI4YWUzNTM=",
+      "id": "0x8d5dc40e74cb070dd5bbb3af215574305351cabe77dc171aa75faf9d2b8ae353",
+      "title": "JP-17: Open CAI-AVAX Market",
+      "content": "## High Level:\nCAI, the Colony Avalanche Index is the benchmark index for the Avalanche ecosystem consisting of AVAX and leading Avalanche applications (Currently including $JOE, $sAVAX, and $QI). \n\nCreated by Colony and Phuture, CAI is helping users gain exposure to the Avalanche eco in a single token.\nCAI is a key part of Avalanche and perfectly suited as a concentrated pair on the Liquidity Book\n\n## Specification:\nListing on the Avalanche LB Market\nToken Name: CAI\nContract ID: 0x48f88a3fe843ccb0b5003e70b4192c1d7448bef0 (https://snowtrace.io/address/0x48f88a3fe843ccb0b5003e70b4192c1d7448bef0)\nCoingecko: https://coinmarketcap.com/currencies/colony-avalanche-index/\nCMC: https://www.coingecko.com/en/coins/colony-avalanche-index\n\n## Token Summary:\n-CAI is an index token providing exposure to the Avalanche eco. \n-The index is created using strategic requirements on token characteristics, liquidity requirements, and security to create a high-quality index. \n-CAI weights assets based on the circulating market cap and rebalances the strategy monthly.\n-CAI is highly accessible with no lockup and can be swapped currently on Trader Joe as well as minted or redeemed directly through Colony and Phuture. \n\n## Benefits to Trader Joe:\n\n-CAI is a key part of Avalanche and $JOE is a key constituent of CAI\n-The Liquidity Book is a great fit for the CAI-AVAX strategy. The V1 pool is facilitated through Trader Joe with over $500k in liquidity. \n-CAI-AVAX is a relatively low volatility pair allowing liquidity providers to tightly concentrate and helping facilitate deep liquidity.\n\n## Summary:\n\nCAI is a key part of the Avalanche eco. CAI is an index token offering exposure to the top tokens of Avalanche and is set to grow to account for even more tokens as liquidity across Avalanche increases.\n\nCAI is a perfect fit for Trader Joe V2.",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 1892,
+      "blockNumber": 27527497,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x8d5dc40e74cb070dd5bbb3af215574305351cabe77dc171aa75faf9d2b8ae353",
+      "startTime": {
+        "timestamp": 1679087300
+      },
+      "endTime": {
+        "timestamp": 1679432900
+      },
+      "startTimestamp": 1679087300,
+      "endTimestamp": 1679432900,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2648178.8,
+          "choice": 0
+        },
+        {
+          "total": 76272.89,
+          "choice": 2
+        },
+        {
+          "total": 11604.653,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2648180.7231878377,
+          "choice": 0
+        },
+        {
+          "total": 11604.653088186094,
+          "choice": 1
+        },
+        {
+          "total": 76272.89682302065,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDk0NDM2YzE1MTlmMDA2MmFiOGQ2N2IyYWZlYzE3ODJhMGUxYWNjY2UyNmJhMzViNzhhNGM5MzdhNTg0YzcxMjg=",
+      "id": "0x94436c1519f0062ab8d67b2afec1782a0e1accce26ba35b78a4c937a584c7128",
+      "title": "JP-14: Open AAVE.e-AVAX market",
+      "content": "*Proposal by Nadim of Ava Labs recording a temperature check vote of 25 in favour and 1 against*\n\n## High Level:\nAave V3 is one of the core DeFi protocols on Avalanche and has been deeply integrated across the ecosystem. Its token, AAVE, is one of the top DeFi tokens with over $1.2B in market capitalization and daily volumes ranging between $50M to $200M across all exchanges. There is over $400K in liquidity currently in the V2 AAVE - AVAX pool. \n\n## Specifications:\nListing on the Avalanche LB Market\nToken name: AAVE.e\nContract ID: 0x63a72806098bd3d9520cc43356dd78afe5d386d9 (https://snowtrace.io/token/0x63a72806098bd3d9520cc43356dd78afe5d386d9)\nCoingecko: https://www.coingecko.com/en/coins/aave\nCoinmarketcap: https://coinmarketcap.com/currencies/aave/\n\n## Tokenomics:\nAAVE is primarily used as a governance token for the Aave protocol (tokenomics doc). Governance proposals require holding AAVE tokens and votes are weighted based on how many tokens a wallet holds.\nUsers can stake their tokens into the Safety Module (SM) to provide funds that can be used to secure the protocol in exchange for a reward paid in Aave tokens and issued by the ecosystem reserve (the % of the bonus is periodically decided by governance, and these token emissions are classified as safety incentives or SI).\nThe total supply of AAVE is 16M, of which 13M were redeemable by holders of the previous token, LEND, and the remaining 3M was allocated to the Aave Reserve and controlled by the AAVE token holders, to incentivize the Aave Ecosystem growth and development.\n\n## Summary:\nAAVE is a widely adopted DeFi token that plays a core part in the governance and safekeeping of the Aave protocol. It is already listed on Trader Joe V1 (paired with AVAX) and would benefit from the efficiency of a V2 listing which could boost trading volume and allow for more capital efficiency with the same level of liquidity. This listing would also help consolidate Liquidity Book as a primary venue for trading Avalanche ecosystem tokens.",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 2027,
+      "blockNumber": 27215313,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x94436c1519f0062ab8d67b2afec1782a0e1accce26ba35b78a4c937a584c7128",
+      "startTime": {
+        "timestamp": 1678456570
+      },
+      "endTime": {
+        "timestamp": 1678802170
+      },
+      "startTimestamp": 1678456570,
+      "endTimestamp": 1678802170,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2163994.8,
+          "choice": 0
+        },
+        {
+          "total": 271.05893,
+          "choice": 2
+        },
+        {
+          "total": 704.3414,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2163995.2127874075,
+          "choice": 0
+        },
+        {
+          "total": 704.3414624435425,
+          "choice": 1
+        },
+        {
+          "total": 271.0589278734736,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDFhYTVkN2NmNDNlMjhmYmNjZmZmYmUzZmE2OGM5YmVmODdhZGQ3Y2Q5OWY1ZGQxOGIwMTAxODAwNWViNmFkODU=",
+      "id": "0x1aa5d7cf43e28fbccfffbe3fa68c9bef87add7cd99f5dd18b01018005eb6ad85",
+      "title": "JP-15 Open BETS-AVAX Market",
+      "content": "*Temperature check vote with 29 in favour and 2 against by Romuald Hog#7853*\n\n\n## High Level\nHuge momentum on BetSwirl's token (1m$ trading volume last 24h).\nWe've deployed on TraderJoe Arbitrum, and TJ team just setup the LB there. We'll move from 100k$ from v1 to v2 pool asap.\nWe are expecting more volume on Avalanche too where we have already liquidity on v1 with 100k$ volume daily on average.\n\n## Specifications\nAvalanche\nBETS 0xc763f8570A48c4c00C80B76107cbE744dDa67b79\nhttps://coinmarketcap.com/currencies/betswirl/\nhttps://snowtrace.io/token/0xc763f8570A48c4c00C80B76107cbE744dDa67b79\n\n## Tokenomics\nBETS will need to be staked to get the revenues from our games of chance (dividends), as soon as it's live.\nBetSwirl's games are generating on average 3k$ per day of revenues, from which 1k$ is accumulated as dividends. c.f. https://defillama.com/fees https://tokenterminal.com/terminal/projects/betswirl\n\n## Summary\nOur main priority currently is to increase the liquidity of BETS. \n\nThe partnership between TJ and BetSwirl can be reinforced thanks to this new LB pool, and will facilitate our holders on Arbitrum and Avalanche by benefiting TJ's efficient liquidity management solution.\n\nWe believe that this proposal can attract more BETS volume on Avalanche (and bring awareness of TraderJoe on Arbitrum as it's where BETS is tradable there).\nHence more fees for Joe.",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 1841,
+      "blockNumber": 27062549,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x1aa5d7cf43e28fbccfffbe3fa68c9bef87add7cd99f5dd18b01018005eb6ad85",
+      "startTime": {
+        "timestamp": 1678136556
+      },
+      "endTime": {
+        "timestamp": 1678482156
+      },
+      "startTimestamp": 1678136556,
+      "endTimestamp": 1678482156,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1695960.0,
+          "choice": 0
+        },
+        {
+          "total": 19853.508,
+          "choice": 2
+        },
+        {
+          "total": 696440.4,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1695959.9624636285,
+          "choice": 0
+        },
+        {
+          "total": 696440.5999791585,
+          "choice": 1
+        },
+        {
+          "total": 19853.508192592584,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDgwZDIzMGEzYzA3NTQ0M2ZjMmMzZWVhOGYzMGM5N2VhMTY0NzFiZGY2NzY0MzFjMGY3ZDVkZGM2NmExZGE4ZTg=",
+      "id": "0x80d230a3c075443fc2c3eea8f30c97ea16471bdf676431c0f7d5ddc66a1da8e8",
+      "title": "JP-16b Open YUSD-USDC Market",
+      "content": "*An extension to proposal JP-16*\n\n*Proposal to open a YUSD-USDC market to align with the proposal to open a YUSD-USDT market. Reasons for this proposal is primarily because Liquidity Book is built on top of USDC as the primary stablecoin, liquidity is deep and will offer traders better pricing in and out of YUSD v a USDT only pool.*\n\n##JP-16 Propiosal below:\n\nHigh Level\nYeti Finance is a next-gen decentralized borrowing protocol built on Avalanche. This innovative protocol enables users to borrow up to 21x leverage against their entire portfolio of crypto assets, while continuing to earn the yield rewards generated from deposited assets.\n\nUnlock deep liquidity, borrow at the lowest collateral ratios, and borrow against your entire portfolio to gain better protection against liquidations.\n\nSpecifications:\nListing on the Avalanche LB Market\nToken name: YUSD\nContract ID: 0x111111111111ed1d73f860f57b2798b683f2d325 (https://snowtrace.io/token/0x111111111111ed1d73f860f57b2798b683f2d325)\nCoingecko: https://coinmarketcap.com/currencies/yusd-stablecoin/\nCoinmarketcap: https://www.coingecko.com/en/coins/yusd-stablecoin\nNomics: https://nomics.com/assets/yusd2-yusd-stablecoin\n\nToken Summary:\nYUSD is an over-collateralized stablecoin that is backed by a diverse basket of yield-bearing collateral deposited in the Yeti Finance protocol.\nA stablecoin must be secure and scalable. Yeti Finance has undergone four independent smart contracts audits, two economic analyses, and multiple independent peer reviews to ensure YUSD is a safe and secure currency.\nDirectly Redeemable — Unlike most stablecoins, YUSD is directly redeemable by anyone holding YUSD. At any time, YUSD can redeemed for $1 in underlying collateral minus redemption fees giving it inherent value.\nHard-Pegged — Due to YUSD’s hard arbitrage mechanisms, YUSD should always trade above $1.00 and below $1.02. Anything more or less presents a simple opportunity for arbitragers. Unlike MIM, this process is market-driven and does not rely on central actors to adjust interest-rates to incentivize users to payback loans.\n\nSummary:\nYUSD is a popular native stablecoin on Avalanche that has gained widespread adoption. It is currently listed on prominent exchanges like Kyber, Platypus, and Curve, making it easily accessible to users.\nYUSD is backed by a diverse set of yield-bearing assets, ensuring stability and security for its users. The safety and security of YUSD are of utmost importance, as the stablecoin is designed to provide a reliable and trustworthy alternative to traditional currencies.\n\nBenefits to Trader Joe:\nEnhance user experience by improving swap rates involving YUSD that inadvertently get traded on Trader Joe.\nNatural volume generation through arbitrage from various other DEX's.\nAdditionally, there is potential for revenue generation for sJOE depositors with low risk stable-stable pairs.\nFinally, by including YUSD on Trader Joe, we create an additional route for trading sAVAX, the most widely adopted liquid staking token.",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 1753,
+      "blockNumber": 26889560,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x80d230a3c075443fc2c3eea8f30c97ea16471bdf676431c0f7d5ddc66a1da8e8",
+      "startTime": {
+        "timestamp": 1677772689
+      },
+      "endTime": {
+        "timestamp": 1678118289
+      },
+      "startTimestamp": 1677772689,
+      "endTimestamp": 1678118289,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2027358.2,
+          "choice": 0
+        },
+        {
+          "total": 58859.094,
+          "choice": 2
+        },
+        {
+          "total": 7293.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2027358.7908047112,
+          "choice": 0
+        },
+        {
+          "total": 7293.200277225754,
+          "choice": 1
+        },
+        {
+          "total": 58859.096934819085,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDBhZmE0ZDM0ZTUzMWZjNTM4YzY3ODljMjUyMWM0YzgwMTcxMzgxMGFhNTQ3YzkwMjkwZWRhMmE2YjVkOTNhZjM=",
+      "id": "0x0afa4d34e531fc538c6789c2521c4c801713810aa547c90290eda2a6b5d93af3",
+      "title": "JP-16 Open YUSD-USDT Market",
+      "content": "## High Level\nYeti Finance is a next-gen decentralized borrowing protocol built on Avalanche. This innovative protocol enables users to borrow up to 21x leverage against their entire portfolio of crypto assets, while continuing to earn the yield rewards generated from deposited assets.\n\nUnlock deep liquidity, borrow at the lowest collateral ratios, and borrow against your entire portfolio to gain better protection against liquidations.\n\n## Specifications:\nListing on the Avalanche LB Market\nToken name: YUSD\nContract ID: 0x111111111111ed1d73f860f57b2798b683f2d325 (https://snowtrace.io/token/0x111111111111ed1d73f860f57b2798b683f2d325)\nCoingecko: https://coinmarketcap.com/currencies/yusd-stablecoin/\nCoinmarketcap: https://www.coingecko.com/en/coins/yusd-stablecoin\nNomics: https://nomics.com/assets/yusd2-yusd-stablecoin\n\n## Token Summary:\nYUSD is an over-collateralized stablecoin that is backed by a diverse basket of yield-bearing collateral deposited in the Yeti Finance protocol.\nA stablecoin must be secure and scalable. Yeti Finance has undergone four independent smart contracts audits, two economic analyses, and multiple independent peer reviews to ensure YUSD is a safe and secure currency.\nDirectly Redeemable — Unlike most stablecoins, YUSD is directly redeemable by anyone holding YUSD. At any time, YUSD can redeemed for $1 in underlying collateral minus redemption fees giving it inherent value.\nHard-Pegged — Due to YUSD’s hard arbitrage mechanisms, YUSD should always trade above $1.00 and below $1.02. Anything more or less presents a  simple opportunity for arbitragers. Unlike MIM, this process is market-driven and does not rely on central actors to adjust interest-rates to incentivize users to payback loans.\n\n## Summary:\nYUSD is a popular native stablecoin on Avalanche that has gained widespread adoption. It is currently listed on prominent exchanges like Kyber, Platypus, and Curve, making it easily accessible to users.\nYUSD is backed by a diverse set of yield-bearing assets, ensuring stability and security for its users. The safety and security of YUSD are of utmost importance, as the stablecoin is designed to provide a reliable and trustworthy alternative to traditional currencies.\n\n## Benefits to Trader Joe:\nEnhance user experience by improving swap rates involving YUSD that inadvertently get traded on Trader Joe.\nNatural volume generation through arbitrage from various other DEX's.\nAdditionally, there is potential for revenue generation for sJOE depositors with low risk stable-stable pairs.\nFinally, by including YUSD on Trader Joe, we create an additional route for trading sAVAX, the most widely adopted liquid staking token.",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 1730,
+      "blockNumber": 26878020,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x0afa4d34e531fc538c6789c2521c4c801713810aa547c90290eda2a6b5d93af3",
+      "startTime": {
+        "timestamp": 1677748730
+      },
+      "endTime": {
+        "timestamp": 1678094330
+      },
+      "startTimestamp": 1677748730,
+      "endTimestamp": 1678094330,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2186271.0,
+          "choice": 0
+        },
+        {
+          "total": 31320.244,
+          "choice": 2
+        },
+        {
+          "total": 5873.224,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2186272.253925845,
+          "choice": 0
+        },
+        {
+          "total": 5873.224049958875,
+          "choice": 1
+        },
+        {
+          "total": 31320.243966696653,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGRlMWUwYThkYjg4MDVkMTczNmRhOWJkMTNkNjE0NTI2NjY2ZWYwODk2ZGU5NWYyNmYwOTYyMTY0MTdhMzE5YWY=",
+      "id": "0xde1e0a8db8805d1736da9bd13d614526666ef0896de95f26f096216417a319af",
+      "title": "JP-12 Open GMD-WAVAX Market",
+      "content": "Proposal initiated by Gum13, temperature check recorded 30 in favor and 1 against.\n\n## Summary:\nThis proposal is for adding GMD-AVAX LB market on TJ V2. $GMD\n\n## High Level:\n\nProtocol Overview\n•  GMD is a yield optimizing and aggregating platform built on top of existing               applications and GMD’s reserve token on Arbitrum as well as Avalanche\n•  GMD Protocol will earn Real Yield Revenue in ETH from the following sources:\nProtocol compounds 50% into GLP rewards and into protocol/performance             fees to $GMD stakers in native $AVAX\nPseudo-delta-neutral strategy\n    a.    Pseudo - Delta-Neutral - Buying GLP with USDC/WAVAX/W.BTC and                        allocating and adjustting them to GLP's composition for the                                       vaults (% spread)\n    b.    Delta-Neutral - Buying GLP with USDC/WAVAX/W.BTC and allocating                      and adjustting them to GLP's composition for the vaults (% spread)\n    C.    Manual Rebalancing of Deposits - (Protoco always has 5-15% of      maximum value deposited. Ex. $1m tvl deposited = 50-150k of USDC/ETH/BTC of Protocol's GLP/BFR and future vaults. These funds are then used to hedge against volatile market conditions that effect GLPs price to ensure higher APR for our investors\n\n## Token Overview\n• GMD deploy delta-neutral or pseudo-delta-neutral strategies to aggregate yields from an index pool or an LP to its constituent individual assets (using treasury to hedge against pool losses/apr drops from winning trades), eliminating their risks of impermanent loss or exposure to unwanted assets.\n• GMDs first vault on Avax consists of GLP assets; as the vault fills\n\n## Ideal Market\n• GLP and other vault type projects are what create a high demand for GMD. Earning native fees with our $GMD token\n\n## Specifications \nDashboard reflecting real time circulating supply\nChain : Avalanche\nToken Information: GMD Protocol, GMD, https://arbiscan.io/token/0x4945970EfeEc98D393b4b979b9bE265A3aE28A8B\nToken Pair (GMD/wAVAX) :\nCoingecko: https://www.coingecko.com/en/coins/gmd-protocol\nCoinmarketcap: https://coinmarketcap.com/dexscan/avalanche/0x88171e75786fc747e12ce9bd36a9f9747c20f4d0\nSnowtrace: 0x4945970EfeEc98D393b4b979b9bE265A3aE28A8B",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 1711,
+      "blockNumber": 26348649,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0xde1e0a8db8805d1736da9bd13d614526666ef0896de95f26f096216417a319af",
+      "startTime": {
+        "timestamp": 1676671444
+      },
+      "endTime": {
+        "timestamp": 1677017044
+      },
+      "startTimestamp": 1676671444,
+      "endTimestamp": 1677017044,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2203719.0,
+          "choice": 0
+        },
+        {
+          "total": 1013.42755,
+          "choice": 2
+        },
+        {
+          "total": 8518.128,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2203719.977131483,
+          "choice": 0
+        },
+        {
+          "total": 8518.127876742688,
+          "choice": 1
+        },
+        {
+          "total": 1013.4275623149372,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDAyODE3MzRiNmNmMTQ1YmY4NjBmMDA1NWYwM2M5NDJkMzllNWFhNWU0ZmM5ZGZlNDA2MzBmYzUwNmRhNjhlMzc=",
+      "id": "0x0281734b6cf145bf860f0055f03c942d39e5aa5e4fc9dfe40630fc506da68e37",
+      "title": "JP-7 Open QI-AVAX Market",
+      "content": "*Proposal initiated by Yutsa, temperature check recorded 25 in favor and 9 against.*\n\n## High Level\n\nQI is the token of the Benqi project.\n\nBENQI is a decentralized non-custodial liquidity market as well as a liquid staking protocol built on the high-speed Avalanche smart contract network. The lending protocol allows users to lend, borrow, or earn interest using their digital assets. The Liquid Staking protocol provides a solution for capital efficiency, offering users the opportunity to unlock their “staked” AVAX to be used on Decentralized Financial protocols\n\nQI is token native to Avalanche which has a lot of holders since it is given as rewards for lending on BENQI's lending protocol and it has decent volume (around 500k USD / week).\n\nCurrent liquidity on Pangolin is $2.4M\n\nCurrently the biggest pool for QI is the QI-AVAX on Pangolin, with BENQI having Protocol Owned Liquidity there. It is my belief that having a LB market for QI would incentivize QI holders, and why not BENQI's POL, to migrate to LB for it's better efficiency and the fees it generates.\n\n\n## Specification\n\nChain : Avalanche\nToken information : BENQI, QI, 0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5\nCoingecko : https://www.coingecko.com/en/coins/benqi\nSnowtrace : https://snowtrace.io/token/0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5\n\n\n## Tokenomics\nSupply cap : 7,200,000,000 QI\nCirculating supply : 3,255,164,412 QI (as of the 10th of January)\n    20 572 holders 45% of the total supply is allocated for liquidity mining and community incentives\n\n\n## Summary\n\nQI is an Avalanche native token which has a lot of holders and good volume with most of its liquidity on Pangolin DEX. It uses a less efficient pool which could be an argument to make LP migrate to a LB market.",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 1746,
+      "blockNumber": 26003202,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x0281734b6cf145bf860f0055f03c942d39e5aa5e4fc9dfe40630fc506da68e37",
+      "startTime": {
+        "timestamp": 1675966238
+      },
+      "endTime": {
+        "timestamp": 1676311838
+      },
+      "startTimestamp": 1675966238,
+      "endTimestamp": 1676311838,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2311641.5,
+          "choice": 0
+        },
+        {
+          "total": 1110.0367,
+          "choice": 2
+        },
+        {
+          "total": 15014.029,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2311643.62573081,
+          "choice": 0
+        },
+        {
+          "total": 15014.02973825834,
+          "choice": 1
+        },
+        {
+          "total": 1110.0365724069036,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGY5OGIwYjZkYWNkOGI0MjE0ZDdmZDU1YTE2NmQwOWZjMmQ2ZjJkNTVhNmQ3YTIwNzk5ZTRkZmU3ZWJjNDFlNWE=",
+      "id": "0xf98b0b6dacd8b4214d7fd55a166d09fc2d6f2d55a6d7a20799e4dfe7ebc41e5a",
+      "title": "JP-11 Open MONEY-USDC Market",
+      "content": "*Proposal initiated by JFSaine, temperature check recorded 38 in favor and 1 against.*\n\n## Summary:\nThis proposal is for adding a MONEY-USDC LB market. MONEY is an overcollateralized stablecoin issued by Moremoney. \n\n## High Level:\n#### Protocol Overview\n• Moremoney is an overcollateralized borrowing protocol which accepts a variety of tokens and issues loans denominated in the MONEY stablecoin. \n• Moremoney allows users to retain control and flexibility over their collateral deposits, with the ability to move funds to a variety of strategies, without having to modify the initial MONEY loans.\n\n#### Token Overview\n• MONEY has a unique architecture designed for ultra-stability - which has been demonstrated since inception. This architecture includes features such as: overcollateralization, forced-redemption capacity, variable interest rate defense, and interest-bearing for stakers.\n• MONEY is the first interest-bearing stablecoin on the Avalanche blockchain. \n\n# Ideal Market\nStablecoins are an integral feature of DeFi, and MONEY is one of the leading overcollateralized stablecoins on Avalanche. \n\n# Specifications:\nMarket: Avalanche\nToken Name: MONEY\nAssociated Protocol: Moremoney Finance\nProtocol Website: https://moremoney.finance/\nCoingekko: https://www.coingecko.com/en/coins/moremoney-usd\nToken Contract: https://snowtrace.io/address/0x0f577433Bf59560Ef2a79c124E9Ff99fCa258948\nTokenomics: https://moremoney.gitbook.io/docs/how%20cdp%20earnings%20are%20used/money\n",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 621,
+      "blockNumber": 25279567,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0xf98b0b6dacd8b4214d7fd55a166d09fc2d6f2d55a6d7a20799e4dfe7ebc41e5a",
+      "startTime": {
+        "timestamp": 1674498978
+      },
+      "endTime": {
+        "timestamp": 1674844578
+      },
+      "startTimestamp": 1674498978,
+      "endTimestamp": 1674844578,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 489767.75,
+          "choice": 0
+        },
+        {
+          "total": 252106.19,
+          "choice": 2
+        },
+        {
+          "total": 46391.656,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 489768.152332012,
+          "choice": 0
+        },
+        {
+          "total": 46391.65455000989,
+          "choice": 1
+        },
+        {
+          "total": 252106.18929612837,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGNiMjI1N2Q4YmZhNWQwYzIxMzQ2YWE4ODIxNzlhNGUzMzY4YTBjNjEyNTc0NTEzMGRlY2EyN2I0OTJiMzUyYWY=",
+      "id": "0xcb2257d8bfa5d0c21346aa882179a4e3368a0c6125745130deca27b492b352af",
+      "title": "JP-4 Open LINK.e-AVAX Market",
+      "content": "*Proposal initiated by Sarker, temperature check recorded 24 in favor and 4 against.*\n\n## Overview: \n\nLINK.e is bridged LINK token to Avalanche and most adopted Oracle platform for entire Crypto ecosystem which securing over $80B+ for Defi. Link is a central part of the DeFi ecosystem and desperately lacks quality liquidity on Avalanche. Adding it to LB would be a good way to boost that!\n\nThis is a proposal to add LINK.e as a new base asset paired with AVAX. \n\nLINK.e is the most adopted Oracle for entire crypto ecosystem but very unfortunate that Traderjoe and infact entire Avalanche DEX'es ecosystem have nearly zero liquidity on Chainlink and LINK traders within Avalanche ecosystem still struggle to trade LINK token with minimal slippage. Right now there are nearly ~2M LINK is floating around the Avalanche ecosystem but still struggle quiet often those of us hold/trade LINK and generate any yield on LINK. Adding Link.e would make for a good V2 pair to AVAX which should drive volume coming from all the LINK holder in Avalanche ecosystem will be able to join V2 especially to take advantage on zero slippage trade from V2 and frequent rebalancing to its true price when users enter and exit. \nMoreover as a DEX it should be high priority to allow such high quality projects volume to grow as it onboard LINK holder to Traderjoe DEX and Avalanche ecosystem as well.\n\n\n## Specifications:\nThis proposal is for the Avalanche listing.\n\n\n$LINK.e https://www.coingecko.com/en/coins/chainlink\n\nLink to Token Contract: https://snowtrace.io/token/0x5947bb275c521040051d82396192181b413227a3\n\nTokenomics: https://www.coingecko.com/en/coins/chainlink/tokenomics\n\nOffical Website: https://chain.link/\n\n\n## Summary:\nProposal is to add LINK.e as a base asset and open the LINK.e-AVAX V2 pool.",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 339,
+      "blockNumber": 25032409,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0xcb2257d8bfa5d0c21346aa882179a4e3368a0c6125745130deca27b492b352af",
+      "startTime": {
+        "timestamp": 1673993449
+      },
+      "endTime": {
+        "timestamp": 1674339049
+      },
+      "startTimestamp": 1673993449,
+      "endTimestamp": 1674339049,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2672652.5,
+          "choice": 0
+        },
+        {
+          "total": 4225.341,
+          "choice": 2
+        },
+        {
+          "total": 725.50037,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2672654.2640704433,
+          "choice": 0
+        },
+        {
+          "total": 725.5003590604053,
+          "choice": 1
+        },
+        {
+          "total": 4225.341022019963,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDk3NjljOWIzYTViNmYxNDBjODA1MzcwZmFiYmJmOGM3OWEzMTJjOTdmMWIyYWFhMDViZGRhOWM0YzgwNWIzOTk=",
+      "id": "0x9769c9b3a5b6f140c805370fabbbf8c79a312c97f1b2aaa05bdda9c4c805b399",
+      "title": "JP-6 Open zJoe-JOE Market",
+      "content": "*Proposal initiated by Ayman, temperature check recorded 32 in favor and 1 against*\n\nHigh Level:\n\nzJoe, a derivative of Joe created by Vector Finance receives a portion of the fees generated by Vector by boosting LPs using the veJoe accumulated through blackholing Joe. \n\nThe health of zJoe is important for the Joe ecosystem as zJoe has a current market cap of over $1.5 million. \n\nzJoe token holders have a vested interest in the long-term success of Trader Joe.\n\nVectors $VTX also controls over 58% of veJoe voting power. \n\nThe zJoe-Joe market currently has approximately $200k in liquidity, and less than $10k in daily volume, making the current market very capital inefficient.\n\nzJoe being semi-pegged to Joe would make for an extremely interesting LB pool, and LPers would likely have to rebalance less. The potentially deepened liquidity would help support both the Vector and Joe ecosystems by making zJoe easier to enter and exit. \n\nAsset Confirmation:\n\nMarket: Avalanche\nToken Name: zJoe\nAssociated Protocol: Vector Finance\nToken Contract ID: 0x769bfeb9fAacD6Eb2746979a8dD0b7e9920aC2A4\nJoe LP Token Contract ID: 0xcF80e302282c1E449Fd745fad1e43FAFfe480536\n\nLinks:\n\nSnowtrace (zJoe Token): https://snowtrace.io/token/0x769bfeb9fAacD6Eb2746979a8dD0b7e9920aC2A4\n\nSnowtrace (zJoe-Joe JLP): https://snowtrace.io/address/0xcF80e302282c1E449Fd745fad1e43FAFfe480536\n\nCoinGecko: https://www.coingecko.com/en/coins/zjoe\n\nJoe LP Token Analytics: https://analytics.traderjoexyz.com/pairs/0xcF80e302282c1E449Fd745fad1e43FAFfe480536\n\nProtocol Website: https://vectorfinance.io/\n\nToken Distribution: https://docs.vectorfinance.io/getting-started/tokenomics/token-distribution\n\n#Tokenomics:\n\nzJoe is minted only when Joe is converted and blackholed into zJoe using the Vector Smart Converter while above the threshold ratio of 0.90-0.95 joe/zjoe. \n\nzJoe earns about 17% apr in $VTX and about 2.5% apr in $JOE\n\nSummary:\n\n    Adding zJoe to LB would make for an interesting LPing experience with a semi-pegged token while making both the Vector and Joe ecosystems stronger.",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "totalVotes": 272,
+      "blockNumber": 24858893,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x9769c9b3a5b6f140c805370fabbbf8c79a312c97f1b2aaa05bdda9c4c805b399",
+      "startTime": {
+        "timestamp": 1673641973
+      },
+      "endTime": {
+        "timestamp": 1673987573
+      },
+      "startTimestamp": 1673641973,
+      "endTimestamp": 1673987573,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1246810.2,
+          "choice": 0
+        },
+        {
+          "total": 776.2596,
+          "choice": 2
+        },
+        {
+          "total": 15583.291,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1246810.294584569,
+          "choice": 0
+        },
+        {
+          "total": 15583.290127263428,
+          "choice": 1
+        },
+        {
+          "total": 776.2596004487964,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDA1ZDIwZTQ5OTEzNjE1YmIxMDJlMTI4NDExMDUxZTY5NTY4MjQwMDIwZjFlNGI0MDg5OWUwMDBlMTQzZDJlNTc=",
+      "id": "0x05d20e49913615bb102e128411051e69568240020f1e4b40899e000e143d2e57",
+      "title": "JP-3 Open VTX-AVAX Market",
+      "content": "*Proposed in discord by og_yoloswag69, temperature check: 46 votes in favor, 1 against.*\n\n## Summary:\nThis proposal would add VTX as a base asset and open a Liquidity Book pool.\n\n## High Level:\n**Protocol Overview**\n * Vector started as the \"Convex of Avalanche\" by permanently staking PTP and JOE to accumulate respective \"-ve\" tokens and in turn offer boosted yields to liquidity providers.\n * The Protocol has accumulated more than 1.1 billion veJOE and 835 million vePTP\n\n**Intangibles**\n* Vector is integral to liquidity provisioning on Platypus\n* Inextricably linked to the success of Avalanche DeFi\n* The Protocol and VTX token holders have a vested interest in the long-term success in Trader Joe and will be an important voice as governance evolves.\n\n**Token Overview**\n* VTX is Vector's governance token. When locked as LVTX, it earns both protocol revenues and bribe income. Currently, the token earns 24.4 percent of real yield from performance fees and bribe income.\n* Under the 1 JOE = 1 vote model, VTX controls voting power for over 14.1  million JOE tokens. Therefore, 10,000 locked VTX has voting power equivalent to 5,000 JOE, 400,000 veJOE, and 300,000 vePTP\n\n\n## Considerations\n**Market**\n* 26.7 million of the total 35.8 million VTX (approximately 75 percent) are locked\n* Of the remaining tokens in circulation, over 3.3 million are in the VTX-AVAX pool\n* 24h utilization generally does not exceed 10 percent. Very capital inefficient.\n* Volatility does not necessarily move in sync with markets as there is a four-week cool-off period before LVTX is fully unlocked and tradable.\n\n**Shortcomings alleviated by a VTX-AVAX V2 pair**\n* Deep liquidity despite low volumes and circulation\n* High slippage despite low volatility\n* Volatility that does not correspond with market conditions\n\n\n## Specifications:\nAsset Confirmation:\n**Market**: Avalanche\n**Token Name**: VTX\n**Associated Protocol**: Vector Finance\n**Token Contract ID**: 0x5817D4F0b62A59b17f75207DA1848C2cE75e7AF4\n**Joe LP Token Contract ID**: 0x9ef0c12b787f90f59cbbe0b611b82d30cab92929\nLinks\n**Snowtrace (VTX Token)**: https://snowtrace.io/token/0x5817D4F0b62A59b17f75207DA1848C2cE75e7AF4 \n**Snowtrace (VTX-AVAX JLP)**: https://snowtrace.io/token/0x9ef0c12b787f90f59cbbe0b611b82d30cab92929\n**Coinmarketcap**: https://coinmarketcap.com/currencies/vector-finance/\nJ**oe LP Token Analytics**: https://analytics.traderjoexyz.com/pairs/0x9ef0c12b787f90f59cbbe0b611b82d30cab92929\n**Protocol Website**: https://vectorfinance.io/\n**Token Distribution**: https://docs.vectorfinance.io/getting-started/tokenomics/token-distribution\n**Emissions Schedule**: https://docs.vectorfinance.io/getting-started/tokenomics/token-distribution/liquidity-mining-schedule ",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 392,
+      "blockNumber": 24566559,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x05d20e49913615bb102e128411051e69568240020f1e4b40899e000e143d2e57",
+      "startTime": {
+        "timestamp": 1673042631
+      },
+      "endTime": {
+        "timestamp": 1673388231
+      },
+      "startTimestamp": 1673042631,
+      "endTimestamp": 1673388231,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4813074.5,
+          "choice": 0
+        },
+        {
+          "total": 92769.234,
+          "choice": 2
+        },
+        {
+          "total": 33417.586,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4813077.2145038415,
+          "choice": 0
+        },
+        {
+          "total": 33417.5873010825,
+          "choice": 1
+        },
+        {
+          "total": 92769.2376343256,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweGVmZTQ1YjY2NzFlMDE4ZDFkZTI5ZTlmOWE4M2RiMDA0MDlmZTg3NTRhYjZkMDQ0N2I2OTljNmVlODUyZDFjMDk=",
+      "id": "0xefe45b6671e018d1de29e9f9a83db00409fe8754ab6d0447b699c6ee852d1c09",
+      "title": "JP-2 Open yyAVAX - AVAX Market",
+      "content": "*Proposed in discord by Ravageur, temperature check unanimous 30 votes in favor.*\n\n### Overview: \n\nyyAVAX is Yield Yak's yield-bearing liquid staking AVAX derivative token.  yyAVAX constantly accrues value vs AVAX via rewards for validating the Avalanche P-Chain, plus any yield generated through validator-specific opportunities. Yield Yak's liquid staking solution is audited and battle-tested over the past 7 months since its launch in May.  yyAVAX has been generating an average APR of ~8% since launch.  Its APR varies depending on the yield-generating opportunities specific to its network of validators. \n\n This is a proposal to add yyAVAX as a new base asset paired with AVAX. \n\nyyAVAX would make for a good V2 pair given its quasi-peg to AVAX which should drive volume from frequent rebalancing to its true price when users enter and exit. \n\nyyAVAX's approach to offering instant exits (there is no 15-day unlocking period) means as its adoption increases the benefit LB V2 markets can provide for low-slippage entry/exits would be very valuable. \n\n### Specifications: \n\nThis asset is on Avalanche only. \n\n$yyAVAX: https://www.coingecko.com/en/coins/yield-yak-avax\n\n**Token Contract**: https://snowtrace.io/address/0xf7d9281e8e363584973f946201b82ba72c965d27\n\n**P-Chain Contract**: https://explorer-xp.avax.network/address/avax1gfev5u7desmpc699x9yt683p09llf605e2z5nq\n\n**More info on yyAVAX**: \nhttps://yieldyak.com/liquid-staking\nhttps://yieldyak.medium.com/yyavax-to-launch-soon-with-capped-100k-yyavax-token-opening-ceremony-and-rewards-for-lps-d5844ac24e9a",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 236,
+      "blockNumber": 24395180,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0xefe45b6671e018d1de29e9f9a83db00409fe8754ab6d0447b699c6ee852d1c09",
+      "startTime": {
+        "timestamp": 1672690244
+      },
+      "endTime": {
+        "timestamp": 1673035844
+      },
+      "startTimestamp": 1672690244,
+      "endTimestamp": 1673035844,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1018962.7,
+          "choice": 0
+        },
+        {
+          "total": 5.000337,
+          "choice": 2
+        },
+        {
+          "total": 532.6904,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1018962.8294796172,
+          "choice": 0
+        },
+        {
+          "total": 532.6904591449743,
+          "choice": 1
+        },
+        {
+          "total": 5.0003369448655555,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6am9lZ292ZXJuYW5jZWV0aDpzbmFwc2hvdDoweDgxYmY0YTY5MjEwZjRjNDIyOGU4OTAyNjk0NmZjZTFhYTg0MmI4NmQ1MDdlZTg0Yzg4YjM5N2EzMzI4YmI1NTg=",
+      "id": "0x81bf4a69210f4c4228e89026946fce1aa842b86d507ee84c88b397a3328bb558",
+      "title": "JP-1 Open GMX-AVAX Market",
+      "content": "*Proposed in discord by CptRandlelwa, temperature check unanimous 40 votes in favor.*\n\n#### High Level:\n\nGMX has been a solid performer through the bear with it's 'real yield' model and strong fee income.\n\nWith a listing on Arbitrum and more recently Avalanche, it could be a solid add to the V2 pools.\n\nAVAX gives exposure to a more general market sentiment and GMX offers promising upside via real yields and further multi-chain launches, this should be a medium volatility play with strong upside potential.\n\nFrequent rebalancing would be required but the upside plus fee revenues, positions this as a good option vs native token exposure.\n\n### Specifications:\n\nThe asset is listed on Avalanche and Arbitrum. This proposal is for the Avalanche listing.\n\n$GMX https://www.coingecko.com/en/coins/gmx\n\nLink to Token Contract: https://snowtrace.io/token/0x62edc0692BD897D2295872a9FFCac5425011c661\n\nTokenomics: https://gmxio.gitbook.io/gmx/tokenomics\n\n### Summary:\n\nProposal is to add GMX as a base asset and open the GMX-AVAX V2 pool.",
+      "protocol": "joegovernanceeth",
+      "adapter": "snapshot",
+      "proposer": "0x932D7299bce8E41986874E94F364011bDA596bBF",
+      "totalVotes": 321,
+      "blockNumber": 24191423,
+      "externalUrl": "https://snapshot.org/#/joegovernance.eth/proposal/0x81bf4a69210f4c4228e89026946fce1aa842b86d507ee84c88b397a3328bb558",
+      "startTime": {
+        "timestamp": 1672187332
+      },
+      "endTime": {
+        "timestamp": 1672619332
+      },
+      "startTimestamp": 1672187332,
+      "endTimestamp": 1672619332,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2011821.9,
+          "choice": 0
+        },
+        {
+          "total": 12.633041,
+          "choice": 2
+        },
+        {
+          "total": 11.782322,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2011821.6144734304,
+          "choice": 0
+        },
+        {
+          "total": 11.782321903050414,
+          "choice": 1
+        },
+        {
+          "total": 12.633040937907504,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960507442,
+      "txHash": "",
+      "quorum": 1000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

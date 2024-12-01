@@ -1,0 +1,2533 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHg4MTcwNzk3YmExYzg1NDIyMWZkMGUzNjQ5YmM2Zjg5MDBhODIxZDBkOTEzMDA2YzYyMmY2NjdkNzM5YTcyYzVh",
+      "id": "0x8170797ba1c854221fd0e3649bc6f8900a821d0d913006c622f667d739a72c5a",
+      "title": "TIP 39: Proposal to Transfer Unclaimed LON Tokens from Genesis Phase to Community Treasury（创世阶段未领取 LON 转入社区财库的提议）",
+      "content": "### Background:\n\n- LON tokens are the utility tokens of the Tokenlon protocol. In the [LON Giveback Programme](https://support.tokenlon.im/hc/en-us/articles/360054635311-LON-Giveback-Program) on December 23, 2020, a total of 15,000,000 LON tokens were allocated for retroactive airdrops to early supporters. As of now, there are still nearly 10 million unclaimed LON tokens in the [Merkle Redeem contract](https://etherscan.io/token/0x0000000000095413afc295d19edeb1ad7b71c952?a=0x0000000006a0403952389b70d8ee4e45479023db).\n- The LON tokens in the contract consist of retroactive airdrops and tradie mining rewards. This proposal only focuses on the unclaimed portion of the retroactive airdrops, which amounts to 9,892,722 LON tokens, worth approximately $6,133,487.64. The unclaimed portion of the trade mining rewards is not part of this proposal.\n- The [TIP 38 proposal](https://snapshot.org/#/tokenlon.eth/proposal/0xef4f875312b421ca925dc0f0c5e58bcc4897c7b00e12daf6321a5475295b3b4f) was passed through community voting, and the community treasury funds will be used for various purposes including but not limited to community development, growth marketing strategies, bug bounties, media promotions, data API subscriptions, infrastructure servers, etc.\n\n### Proposal:\n\n- To transfer the unclaimed 9,892,722 LON tokens (worth approximately $6,133,487.64) from the retroactive airdrop contract to the [Tokenlon community treasury](https://etherscan.io/address/0x3557bd3d422300198719710cc3f00194e1c20a46). These tokens will be utilized in ways that benefit the development of the Tokenlon ecosystem.\n- The [trade mining rewards](https://tokenlon.im/lon/mining/trade) page, along with any rewards claim will be halted on March 18, 2024. Any unclaimed tokens will be transferred to the Tokenlon community treasury, which will be used to incentivize community ecosystem development.\n\n### Execution:\n\n- Authorization will be granted to the Tokenlon team to execute this proposal. On March 18, 2024, the unclaimed LON tokens will be transferred to the Tokenlon community treasury with full transparency.\n- The usage of these tokens will be based on the TIP 38 proposal and the following principles:\n   - Ensuring long-term alignment between the Tokenlon protocol and the LON community.\n   - Using LON tokens in a way that benefits the Tokenlon protocol or LON token, with full transparency included in regular reports.\n\n---\n\n### 背景\n\n- LON 代币为 Tokenlon 协议的应用型代币，2020 年 12 月 23 日在 [LON 的社区分配方案](https://support.tokenlon.im/hc/zh-cn/articles/360054635311-Tokenlon-%E6%97%A9%E6%9C%9F%E6%94%AF%E6%8C%81%E8%80%85%E5%9B%9E%E9%A6%88%E5%85%AC%E5%91%8A)中，共有 15,000,000 LON 用于回溯空投早期支持者，截止目前，[Merkle Redeem](https://etherscan.io/token/0x0000000000095413afc295d19edeb1ad7b71c952?a=0x0000000006a0403952389b70d8ee4e45479023db) 合约还有近 1000万 LON 未认领\n   - 合约中 LON 包含回溯空投和交易挖矿奖励两部分\n   - 回溯空投未认领部分 9,892,722 枚 LON 代币，价值约 6,133,487.64 美元，交易挖矿未认领部分不在本次提案讨论范围\n- [TIP 38 提案](https://snapshot.org/#/tokenlon.eth/proposal/0xef4f875312b421ca925dc0f0c5e58bcc4897c7b00e12daf6321a5475295b3b4f)通过社区投票，社区财库资金未来使用包括但不限于这些场景：社区发展建设、增长营销策略、bug 漏洞赏金、媒体宣传、数据 API、基础设施服务器等\n\n### 提议\n\n- 建议将回溯空投合约中未认领的 9,892,722 枚 LON 代币（价值约 6,133,487.64 美元）转入 [Tokenlon 社区财库](https://etherscan.io/address/0x3557bd3d422300198719710cc3f00194e1c20a46)，未来将以有利于 Tokenlon 生态发展的方式利用该笔代币预算\n- [LON 认领页面](https://tokenlon.im/lon/mining/trade)将于 2024 年 3 月 18 日停止认领，之后将未认领代币转入Tokenlon 社区财库，用于激励社区生态建设\n\n### 实施\n\n- 授权 Tokenlon 核心团队执行这一提案，2024 年 3 月 18 日将无人认领的 LON 代币以可信任方式转移至 Tokenlon 社区财库\n- 对于如何使用这些代币，将依据 TIP 38 提案及以下原则\n   - 以确保 Tokenlon 协议和 LON 社区之间的长期利益一致性的方式进行\n   - 以有利于或不损害 Tokenlon 协议和 LON 的方式使用 LON 代币，并以公开透明的方式做社区公示",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xdE0020C1A0543D3ab2ecBfb83fABcB62f47309d1",
+      "totalVotes": 54,
+      "blockNumber": 19017918,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0x8170797ba1c854221fd0e3649bc6f8900a821d0d913006c622f667d739a72c5a",
+      "startTime": {
+        "timestamp": 1705389732
+      },
+      "endTime": {
+        "timestamp": 1705649400
+      },
+      "startTimestamp": 1705389732,
+      "endTimestamp": 1705649400,
+      "currentState": "closed",
+      "choices": [
+        "Support（支持）",
+        "Oppose（反对）"
+      ],
+      "results": [
+        {
+          "total": 55370.92,
+          "choice": 0
+        },
+        {
+          "total": 1446.49,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 56095.911787380996,
+          "choice": 0
+        },
+        {
+          "total": 1446.4899771298126,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705390311796,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHhlZjRmODc1MzEyYjQyMWNhOTI1ZGMwZjBjNWU1OGJjYzQ4OTdjN2IwMGUxMmRhZjYzMjFhNTQ3NTI5NWIzYjRm",
+      "id": "0xef4f875312b421ca925dc0f0c5e58bcc4897c7b00e12daf6321a5475295b3b4f",
+      "title": "TIP 38: Management, Planning, and Application of the Community Treasury（社区财库管理、规划与应用）",
+      "content": "## Background:\n\nThe [Tokenlon Community Treasury](https://etherscan.io/address/0x3557BD3d422300198719710Cc3f00194E1c20A46) is comprised of a reserve pool of LON tokens, governed by the community, and is earmarked for the growth and development of the Tokenlon ecosystem. This treasury is funded through open market buybacks.\n\nThe net fees collected by Tokenlon are utilized to buy back LON in the open market; subsequently, these funds are distributed between the treasury and the staking reward pool.\n\nThis process is wholly transparent and the details are verifiable on-chain via the [Tokenlon buyback page](https://tokenlon.im/lon/buyback).\n\nCurrently, the treasury is valued at over $10 million and is primarily comprised of LON, LON LP tokens, USDT, USDP, USDC, WBTC, TUSD and others.\n\nSince its establishment, the treasury has been accruing assets and is yet to be deployed for development purposes.\n\n## Objectives:\n\n- The principal objective is to direct funds from the community treasury to marketing initiatives that support and enhance the LON ecosystem, encompassing the LON token, staking rewards, trade mining, and the Tokenlon exchange protocol.\n- An additional goal involves allocating funds to benefit the LON community participants through various campaigns, activities, and incentives.\n- Given the current market trend, including speculations for the upcoming Bitcoin Halving, the team should be poised to initiate marketing and community efforts proactively and without delay when favorable conditions emerge.\n\n## Proposal:\n\n- We propose that a designated portion of the community treasury be earmarked for marketing and community engagement campaigns, which will align with the evolving conditions and opportunities within the broader cryptocurrency market.\n- The budget proposed for autonomous management by Tokenlon will be capped at an equivalent of $50,000 per quarter. This budget may be allocated to, but is not limited to, items such as community and development rewards, growth marketing strategies, bug bounties, media pitches, data API, basic utility subscriptions, among others.\n- The Tokenlon core team will oversee the quarterly management of the community treasury and is committed to regularly releasing treasury activity reports on a weekly basis to ensure consistent transparency.\n\n## Execution:\n\n- Upon approval of this proposal, the team will begin strategic planning and execution of marketing plans and community engagement campaigns, funded with care and discretion from the community treasury.\n- Funds will be used for, but not limited to development costs, operating expenses and retaining a liquidity buffer.\n- The utilization of treasury funds will be continuously monitored and detailed in the Tokenlon weekly reports.\n- The team remains dedicated to responsible financial stewardship, demonstrating due diligence in the allocation of the treasury's budget, backed by rigorous financial oversight.\n\n**\n\n---\n\n## 背景：\n\n[Tokenlon 社区财库](https://etherscan.io/address/0x3557bd3d422300198719710cc3f00194e1c20a46)包含由社区治理的 LON 代币储备池，专用于推动 Tokenlon 生态系统的增长和发展。\n\nTokenlon 协议收取的净手续费用，用于在开放市场上回购 LON，其收益随后分配给财库和质押奖励池。\n\n社区财库通过公开市场定期回购获取 LON，这个过程完全透明，可以通过 Tokenlon [回购页面](https://tokenlon.im/lon/buyback)在链上进行审计查看。\n\n目前，社区财库的估值超过 1000 万美元，其主要由 LON、LON/USDT LP 代币、USDT、USDP、USDC、WBTC、TUSD 以及其他代币组成。\n\n自成立以来，社区财库一直在积累资产，尚未用于支出开发目的。\n\n## 目标：\n\n- 主要目标是将社区财库的资金用于支持 LON 生态系统的营销活动，涵盖 LON 代币、Staking 质押奖励、交易挖矿和 Tokenlon 闪兑协议。\n- 另一个目标是通过各种宣发活动、市场活动和激励措施为 LON 社区参与者分配资金。\n- 随着比特币减半来临，预期加密市场会更加活跃，团队应提前准备在适当时机更主动推动市场和社区工作。\n\n## 提案：\n\n- 我们提议将社区财库的一部分资金用于营销和激励社区参与，这些活动将与加密货币市场的不断变化的环境和增长机遇保持一致。\n- Tokenlon 核心团队自主管理的预算上限，将维持限制在最高每季度 50,000 美元稳定币的水准。该预算可能会分配给（包括但不限于）社区和发展奖励、增长营销策略、bug 漏洞赏金、媒体宣传、数据 API、基础设施服务器等项目。\n- Tokenlon 核心团队将负责动态管理社区财库资金，维持季度预算所需的稳定币数量，并承诺定期发布社区财库活动报告，以确保持续的透明度。\n\n## 实施：\n\n- 一旦该提案获得批准，团队将开始战略规划并执行营销方案和社区参与活动，资金将谨慎地从社区财库中获得支持。\n- 资金将用于，但不限于开发成本、运营费用和保留流动性缓冲区。\n- 社区财库资金的使用将持续受到监督，并在 Tokenlon 每周报告中公示和详细说明。\n- 团队将致力于负责任的财务管理，展现在社区财库预算分配中的审慎考虑，并受到严格的财务监控支持。",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xdE0020C1A0543D3ab2ecBfb83fABcB62f47309d1",
+      "totalVotes": 21,
+      "blockNumber": 18725783,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0xef4f875312b421ca925dc0f0c5e58bcc4897c7b00e12daf6321a5475295b3b4f",
+      "startTime": {
+        "timestamp": 1701847858
+      },
+      "endTime": {
+        "timestamp": 1702022400
+      },
+      "startTimestamp": 1701847858,
+      "endTimestamp": 1702022400,
+      "currentState": "closed",
+      "choices": [
+        "Support（支持）",
+        "Oppose（反对）"
+      ],
+      "results": [
+        {
+          "total": 26787.03,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 26790.03072835019,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701848517340,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHg5YjU5MzcyZTYzMzgxYTRhNzBiYzI0MzcxNTg3YTMxOTliMjk3NzU5OTBjNWY5MzZiYmQ2NTlmNWEyZThkOWY5",
+      "id": "0x9b59372e63381a4a70bc24371587a3199b29775990c5f936bbd659f5a2e8d9f9",
+      "title": " TIP 37 - Adjusting LON Buyback Mechanism（关于LON 回购机制调整的提案）",
+      "content": "## Background\n\n- LON (Tokenlon Network Token) is a utility token issued by Tokenlon, used to incentivize contributors within the Tokenlon network ecosystem. The LON staking, buyback, and trade mining was officially launched on April 1, 2021.\n- Current Issues with on-chain buyback\n   - On-chain buybacks come with gas fee costs, requiring a certain threshold to initiate and occur at a relatively low frequency.\n   - In cases where feeToken falls short of meeting the buyback criteria, the available funds for buybacks decrease as token prices drop.\n   - On-chain buybacks carry the risk of being exploited by MEV arbitrage.\n- LON, currently listed on centralized exchanges, experiences short-term price volatility due to low trading volume during bear markets, impacting larger trades and causing extreme price fluctuations. This scenario is detrimental to LON's long-term development and may lead to potential delisting.\n- Within the ongoing context of declining DeFi token prices, the rewards distributed to liquidity providers, community treasury, relayers, and users in each Tokenlon trade mining round are in the form of LON tokens. A decrease in token value reduces the incentive for ecosystem participants.\n- Tokenlon has captured over $50 million in total protocol fees, and the accumulated feeToken & community treasury tokens require active management to address value preservation and appreciation concerns.\n\n## Objectives\n\n- Streamline buyback operations for enhanced utilization of LON buyback funds.\n- Operate the community treasury more efficiently to incentivize various participants within the Tokenlon ecosystem.\n\n## Proposal\n\n- Adjust the on-chain LON buyback mechanism to execute off-chain. Future protocol income will not be restricted to on-chain buybacks; off-chain exchanges, OTC platforms, and similar options will be explored for LON buybacks.\n- For rewards distribution in trade mining, explore possibilities beyond LON tokens, such as issuing feeToken, LPtoken, and other tokens, to enhance incentives for ecosystem participants.\n   - For feeToken (e.g., USDT), rewards will not fluctuate with market prices during bear markets.\n   - For LPToken (e.g., LON/USDT), this can boost liquidity depth.\n- FeeToken and treasury management will be dynamically handled by the Tokenlon team, with treasury records regularly disclosed to maintain transparency.\n   - Drawing from the example of $DAI, MakerDAO community votes for adjusting DAI savings rates to 8%.\n- If the proposal is approved, trade mining will operate under the new mechanism, and the 22nd phase of trade mining will conclude on August 21, 2023.\n\n## Execution\n\n- Rewards distribution in trade mining will encompass forms beyond LON tokens to heighten ecosystem participants' incentives.\n- Future protocol fees will be managed through the protocol income wallet. The team will flexibly handle buybacks and positions, regularly initiating LON buybacks through centralized exchanges, OTC platforms, and similar means, with regular disclosures.\n- The 22nd phase of trade mining will conclude prematurely on August 21, 2023, and the 23rd phase will commence.\n \n![截屏2023-08-15 14.57.31.png](ipfs://bafkreib6utvqi4wf47z46clrzotip7vmkrfrtqqvcth2w42mgebthquhxi)\n    \n### 背景\n\n- LON（Tokenlon Network Token）是 Tokenlon 发行的应用型代币，用于激励 Tokenlon 网络生态中各方参与贡献者。于 2021 年4 月1 日 正式开启 LON 质押、回购及交易挖矿\n- 目前链上回购存在的问题\n   - 链上回购有矿工费成本，回购需满足一定额度才能进行，且频次不高\n   - feeToken 在额度不足无法满足回购条件下，随着币价下跌，回购可用资金也跟着减少\n   - 链上回购有被 MEV 套利的风险\n- LON 目前被上架的中心化交易所 ，由于熊市交易量低迷，略大额订单的买卖，影响 LON 币价短期内的剧烈波动，不利于 LON 的长期发展，极端情况下会面临下架的可能\n- 当前市场背景下 DeFi 代币币价都在下跌，Tokenlon 每轮交易挖矿，给做市商、社区财库、relayer、用户发放的奖励为 LON，币价下跌会对生态各方参与者的激励作用降低\n- Tokenlon 协议捕获的总手续费超 $5000万，积累的 feeToken 和社区财库代币，没有主动的进行管理，存在保值增值的问题\n\n### 目的\n\n- 简化回购操作，提升 LON 回购资金利用效率\n- 更高效的运营社区财库，以激励 Tokenlon 生态各参与方\n\n### 提案\n\n- 将链上的 LON 回购机制，调整到链下执行，协议收入未来将不限于链上回购，链下交易所、OTC 等平台都是潜在选项，以进行 LON 的回购\n- 交易挖矿的奖励发放，探索除了 LON 代币外，如发 feeToken、LPtoken 等其他代币的可能性，以提升对生态参与方的激励积极性\n   - feeToken (ex: USDT)，则在熊市下，奖励不随市价波动\n   - LPToken (ex: LON/USDT)，则可增加流动流动持深度\n- 由 Tokenlon 核心团队动态合理地进行 feeToken 和财库管理，财库账目定期公示，保持公开透明并接受社区监督\n   - 以 $DAI 为例， MakerDAO 社区投票通过 DAI 储蓄利率调整至 8%\n- 若提案通过，交易挖矿将以新提案的机制进行，且第 22 期交易挖矿调整为 2023 年 8 月 21 日\n\n### 执行\n\n- 交易挖矿的奖励发放，将不限于 LON 代币的形式，以提升生态参与方的激励积极性\n- 未来协议手续费，将由协议收入钱包来进行管理，由核心团队灵活的进行回购和仓位管理，定期通过中心化交易所、OTC平台等方式，发起 LON 回购并定期公示\n- 第 22 期交易挖矿调整为 2023 年 8 月 21 日提前结束，并开启第 23 期",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xdE0020C1A0543D3ab2ecBfb83fABcB62f47309d1",
+      "totalVotes": 48,
+      "blockNumber": 17918912,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0x9b59372e63381a4a70bc24371587a3199b29775990c5f936bbd659f5a2e8d9f9",
+      "startTime": {
+        "timestamp": 1692086487
+      },
+      "endTime": {
+        "timestamp": 1692347400
+      },
+      "startTimestamp": 1692086487,
+      "endTimestamp": 1692347400,
+      "currentState": "closed",
+      "choices": [
+        "Support (支持)",
+        "Object (反对)"
+      ],
+      "results": [
+        {
+          "total": 98996.89,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 98996.9010009538,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692086972391,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHhiM2U5MWJlOWM3NmM3NDQ1ODcxYWRkZTNkZWIwZmEwMjk2OTkyMDYyMDkxMzg1M2NkNGYyNzgxNmQ5ZDY1Njc0",
+      "id": "0xb3e91be9c76c7445871adde3deb0fa02969920620913853cd4f27816d9d65674",
+      "title": "TIP 36 - Community Incentive Distribution Plan on 75,000 ARB（关于 75,000 ARB 的社区激励分配计划）",
+      "content": "### Background\n\n- Arbitrum distributes 1.13% of its total token supply to the ecosystem DAOs by distributing tokens to the DAO's treasury, 137 DAOs in total, with the deployment of Limit Orders on Arbitrum, Tokenlon received an ARB reward of 75,000\n- At present, the Tokenlon Arbitrum multi-signature address received [75,000 ARB](https://arbiscan.io/address/0xbF03bcb67333610b7F90df58C7E435691B0Af355)\n- The reward should be used to motivate Tokenlon’s embrace of the Arbitrum ecosystem\n\nObjectives\n\n- To determine the distribution of ARB rewards by the community\n\n### Implementation\n\n- Allocate the reward of 75,000 ARB based on the voting results\n\n### Allocation Options\n\n| Role                                        | Option 1 | Option 2 | Option 3 | Notes                                                                                         |\n| ------------------------------------------- | -------- | -------- | -------- | --------------------------------------------------------------------------------------------- |\n| Tokenlon Core Team                          | 20%      | 50%      | 30%      | For building on the Arbitrum ecosystem, including but not limited to motivating ARB liquidity |\n| Tokenlon community multi-signature treasury | 30%      | 30%      | 20%      | Belongs to the community treasury and can be used for Arbitrum governance voting              |\n| Tokenlon users                              | 50%      | 20%      | 50%      | To motivate interaction between Tokenlon users and protocol                                   |\n\n### Voting rules\n\n- Wallet addresses holding LON, xLON or LON LP tokens can participate in the voting (including unclaimed LON rewards)\n\n### 背景\n\n- Arbitrum 通过将代币分发到 DAO 的资金库，将其总代币供应量的 1.13% 分配给生态系统 DAO，共 137 个 DAO，Tokenlon 由于在 Arbitrum 部署限价单，获得 75,000 的 ARB 奖励\n- 目前 Tokenlon Arbitrum 多签地址已经收到 [75,000 的 ARB](https://arbiscan.io/address/0xbF03bcb67333610b7F90df58C7E435691B0Af355)\n- 奖励希望用来激励 Tokenlon 未来积极拥抱 Arbitrum 生态\n\n目的\n\n- 由社区投票决定 ARB 奖励的分配方案\n\n### 提案执行项\n\n- 根据提案投票结果，分配 75,000 ARB 奖励\n\n### 分配方案选项\n\n| 角色              | 方案1 | 方案2 | 方案3 | 说明                                  |\n| --------------- | --- | --- | --- | ----------------------------------- |\n| Tokenlon 核心团队   | 20% | 50% | 30% | 用于后续 Arbitrum 生态建设，包括不限于 $ARB 流动性激励 |\n| Tokenlon 社区多签财库 | 30% | 30% | 20% | 归属社区财库，可用于 Arbitrum 生态治理投票          |\n| Tokenlon 用户     | 50% | 20% | 50% | 用于激励 Tokenlon 用户和协议交互                |\n\n### 投票规则\n\n- 持有 LON、xLON 或 LON LP token 的钱包地址均能参与投票（包含未认领的 LON 奖励）\n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xdE0020C1A0543D3ab2ecBfb83fABcB62f47309d1",
+      "totalVotes": 63,
+      "blockNumber": 17219959,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0xb3e91be9c76c7445871adde3deb0fa02969920620913853cd4f27816d9d65674",
+      "startTime": {
+        "timestamp": 1683603900
+      },
+      "endTime": {
+        "timestamp": 1683863100
+      },
+      "startTimestamp": 1683603900,
+      "endTimestamp": 1683863100,
+      "currentState": "closed",
+      "choices": [
+        "Option1（方案1）",
+        "Option2（方案2）",
+        "Option3（方案3）"
+      ],
+      "results": [
+        {
+          "total": 177534.58,
+          "choice": 0
+        },
+        {
+          "total": 30393.096,
+          "choice": 2
+        },
+        {
+          "total": 3331.9111,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 177534.55521046047,
+          "choice": 0
+        },
+        {
+          "total": 3331.911134727409,
+          "choice": 1
+        },
+        {
+          "total": 30393.096447316613,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683599980757,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHg1MDVhNWJmZjUzNmQxODVmODc1NzhkYTVlZWYyMTEyZDNmMzViZmMxNTdlYTM0NTliZDAzYjExMGRiNTIwZjQ2",
+      "id": "0x505a5bff536d185f87578da5eef2112d3f35bfc157ea3459bd03b110db520f46",
+      "title": " TIP35 - Proposal for a new budget to improve LON liquidity（新一轮 LON 流动性预算的提案）",
+      "content": "\n\n**Background**\n\n- LON (Tokenlon Network Token) is the network token issued by Tokenlon to incentivize participants in the Tokenlon network ecosystem. On December 23, 2020, it was officially launched and circulated.\n- Initially, 10 million LON was set aside to incentivize liquidity on the Ethereum network  build liquidity pools. These are the details of the allocation\n   - 7,309,810 LON have been allocated to seven rounds of [liquidity mining incentives](https://tokenlon.im/lon/mining/lp)\n   - We used 2,690,190 LON to build the protocol owned liquidity after [TIP 24](https://snapshot.org/#/tokenlon.eth/proposal/0xe5dd9da4a35f1642833cb476fd77584eb870119ad9ff12ec591c84f3a73c3f0f) was voted in\n- The current state of Tokenlon protocol's multi-chain deployment\n   - Tokenlon offers the swap on the Ethereum mainnet, while the Limit Order is deployed on the Ethereum mainnet and Arbitrum.\n- There is currently no professional market making done for the LON token. This means that big buy or sell orders can lead to short-term price fluctuations due to  fragmented market liquidity. This high volatility is not good for LON's long-term development.\n- In extreme cases, it may lead to LON being delisted from centralized exchanges. As the entire cryptocurrency industry recovers, the Tokenlon core team hopes to initiate a new round of liquidity budget.\n\n**Objective of the proposal**\n\n- To prepare a new liquidity budget to facilitate future LON multi-chain deployment and market-making on centralized exchanges.\n\n**Details of the proposal**\n\n- We would like to propose a 5 million LON budget to incentivise liquidity. This budget will be used to deploy LON across different networks and facilitate LON market making on centralized exchanges\n\n**How the proposal will be implemented**\n\n- To withdraw 5 million LON from the multi-signature contract to provide this round of liquidity incentive budget.\n- The funds will be procured from this source: [0x74C3cA9431C009dC35587591Dc90780078174f8a](https://etherscan.io/address/0x74C3cA9431C009dC35587591Dc90780078174f8a)\n\n**Voting Rules**\n\n- Only holders of LON, xLON and/or LON LP tokens can vote\n\n**背景**\n\n- LON（Tokenlon Network Token）是 Tokenlon 发行的应用型代币，用于激励 Tokenlon 网络生态中各方参与贡献者，于 2020 年12 月23 日，正式开启转账流通\n- LON 创世阶段准备的 1000w LON 预算，已用于激励主网的流动性激励和自建流动性池\n   - LON 连续七轮次[流动性挖矿激励](https://tokenlon.im/lon/mining/lp)，累计 7,309,810 LON\n   - [TIP 24 流动性激励的后续处理](https://snapshot.org/#/tokenlon.eth/proposal/0xe5dd9da4a35f1642833cb476fd77584eb870119ad9ff12ec591c84f3a73c3f0f)， 2,690,190 LON\n- Tokenlon 协议的多链部署现状\n   - Swap 部署在以太坊主网\n   - Limit Order 部署在主网和 Arbitrum\n- LON 代币暂无专业做市商做市，大额订单的购买或者卖出，就会导致 LON 币价短期内剧烈波动，市场流动性割裂深度差，不利于 LON 的长期发展，极端情况下可能会面临中心化交易所下架的可能\n- 随着整个加密行业复苏，Tokenlon 核心团队基于未来的规划思考，希望发起新一轮流动性预算提案\n\n**目的**\n\n- 为未来 Tokenlon 多网络部署&中心化交易所做市，所需的流动性资金做准备\n\n**提案**\n\n- 本次提案的发起，是面向未来流动性部署预备，可能的应用场景包括不限于\n   - 中心化交易所做市资金\n   - L2 等多网络部署的流动性激励\n- 提议筹备新一轮流动性激励预算 500万 LON\n\n**执行**\n\n- 从多签合约取出 500万 LON 作为新一轮流动性激励预算\n- 资金出处：[0x74C3cA9431C009dC35587591Dc90780078174f8a](https://etherscan.io/address/0x74C3cA9431C009dC35587591Dc90780078174f8a)\n\n**投票规则**\n\n- 持有 LON、xLON 或 LON LP token 的钱包地址，均能参与投票\n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xdE0020C1A0543D3ab2ecBfb83fABcB62f47309d1",
+      "totalVotes": 84,
+      "blockNumber": 17077801,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0x505a5bff536d185f87578da5eef2112d3f35bfc157ea3459bd03b110db520f46",
+      "startTime": {
+        "timestamp": 1681876800
+      },
+      "endTime": {
+        "timestamp": 1682064000
+      },
+      "startTimestamp": 1681876800,
+      "endTimestamp": 1682064000,
+      "currentState": "closed",
+      "choices": [
+        "Support (支持)",
+        "Object (反对)"
+      ],
+      "results": [
+        {
+          "total": 200571.75,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 200571.79156032737,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681873946866,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHhlYjY5Y2E4MzNmNzU4YjA3ODJjMGI0NDU5NzlkZDUyOWI3Y2EwMGExYTVmYWYxYzg2ODliZDUwNmQyNjYxYmZj",
+      "id": "0xeb69ca833f758b0782c0b445979dd529b7ca00a1a5faf1c8689bd506d2661bfc",
+      "title": "# TIP 34 - Reward active community members in 2022（LON 2 周年社区治理回溯激励）",
+      "content": "**Background**\n\n- LON (Tokenlon Network Token) is Tokenlon’s network token issued to incentivize all parties of the Tokenlon ecosystem to work together in promoting the ecosystem development. LON officially started circulating on December 23, 2020.\n- On the 2nd anniversary of LON’s launch, we would like to reward active community member with LON tokens. These community members have continuously participated in the development and governance of Tokenlon in the past year\n- Over the past year, 150 community members have voted on Tokenlon's improvement  proposals\n- In 2023, Tokenlon will focus on providing multi-chain & cross-chain trading, NFT trading and build an open network, etc. As LON is an important part of the ecosystem, any participant who contributes to building Tokenlon in the future will have the opportunity to receive LON as an incentive\n\n**Purpose**\n\n- The community will vote on whether to reward community members who were active in 2022\n\nProposal Implementation\n\n- Based on the proposal voting results, the incentive will be awarded to the following community participants:\n\n#### **Reward Proposal**\n\n| Role                                             | LON Rewards             | Number of participants | Total LON Amount | Note                                                                       |\n| ------------------------------------------------ | ----------------------- | ---------------------- | ---------------- | -------------------------------------------------------------------------- |\n| Participants who voted for TIP proposals in 2022 | 100 To Each Participant | 150                    | 15000            | Wallet addresses that have participated in the TIP governance vote in 2022 |\n\nAirdrop List\n\n- Users who have voted in any Tokenlon Improvement Proposal (TIP) Community Governance between 01/01/2022 - 12/31/2022\n\nAirdrop Method\n\nWe will airdrop LON rewards via the Arbitrum L2 network. You will need to switch networks to Arbitrum in your wallet, add the LON token, and view the airdropped LON tokens.\n\n- [LON Arbitrum address](https://arbiscan.io/token/0x55678cd083fcdc2947a0df635c93c838c89454a3): 0x55678cd083fcdc2947a0df635c93c838c89454a3\n- How to view the LON rewards you received on Arbitrum: [Tutorial](https://support.tokenlon.im/hc/zh-cn/articles/4417000626196-%E5%A6%82%E4%BD%95%E5%9C%A8-Arbitrum-%E6%9F%A5%E7%9C%8B%E4%BD%A0%E7%9A%84-LON-%E8%B5%84%E4%BA%A7-)\n\n**Voting Rules**\n\n- Only holders of LON, xLON and/or LON LP tokens can vote\n- Voting starts: 2023.1.10 15:30 UTC+8\n- Voting ends: 2023.1.12 15:30 UTC+8\n\n## 背景\n\n- LON（Tokenlon Network Token）是 Tokenlon 发行的应用型代币，用于激励 Tokenlon 网络生态中各方协力推动生态发展，于 2020 年 12 月 23 日，正式开启转账流通。\n- 在 LON 发行 2 周年之际，希望向过去一年持续参与 Tokenlon 的发展和建设的社区治理用户，发放 LON 代币激励\n- 过去一年，150名 社区治理用户对Tokenlon 的各项发展提案，行使了他们重要的投票权利\n- 2023 年 Tokenlon 将聚焦于在多链&跨链、NFT 交易、开放网络等方面开展工作，LON 作为生态的重要媒介，未来对 Tokenlon 生态建设有贡献的任何参与方，均有机会获得 LON 的经济激励\n\n目的\n\n- 由社区投票决定是否支持该激励方案\n\n## 提案执行项\n\n- 根据提案投票结果，奖励将发放给以下社区参与者\n\n#### 空投对象\n\n| 角色     | LON 奖励 | 数量  | 总量    | 备注                          |\n| ------ | ------ | --- | ----- | --------------------------- |\n| 治理投票用户 | 100    | 150 | 15000 | 过去的 2022 年参与过 TIP 治理投票的钱包地址 |\n\n#### 空投名单\n\n- 在 2022 年 01 月 01 日— 2022 年 12 月 31 日期间，参与过 TIP 社区治理投票的用户\n\n空投方式\n\n我们会通过 Arbitrum L2 网络空投 LON 奖励，你需要在钱包切换网络到 Arbitrum，添加代币 LON，即可查看空投的 LON 奖励。\n\n- [LON Arbitrum 地址](https://arbiscan.io/token/0x55678cd083fcdc2947a0df635c93c838c89454a3)：0x55678cd083fcdc2947a0df635c93c838c89454a3\n- 如何在 Arbitrum 查看你领取到的 LON 奖励 [教程](https://support.tokenlon.im/hc/zh-cn/articles/4417000626196-%E5%A6%82%E4%BD%95%E5%9C%A8-Arbitrum-%E6%9F%A5%E7%9C%8B%E4%BD%A0%E7%9A%84-LON-%E8%B5%84%E4%BA%A7-)\n\n## 投票规则\n\n- 持有 LON、xLON 或 LON LP token 的钱包地址，均能参与投票\n- 治理投票开启时间：2023.1.10 15:30 UTC+8\n- 治理投票结束时间：2023.1.12 15:30 UTC+8\n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xdE0020C1A0543D3ab2ecBfb83fABcB62f47309d1",
+      "totalVotes": 39,
+      "blockNumber": 16374721,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0xeb69ca833f758b0782c0b445979dd529b7ca00a1a5faf1c8689bd506d2661bfc",
+      "startTime": {
+        "timestamp": 1673335800
+      },
+      "endTime": {
+        "timestamp": 1673508600
+      },
+      "startTimestamp": 1673335800,
+      "endTimestamp": 1673508600,
+      "currentState": "closed",
+      "choices": [
+        "Support (支持)",
+        "Object (反对)"
+      ],
+      "results": [
+        {
+          "total": 33336.742,
+          "choice": 0
+        },
+        {
+          "total": 10607.946,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 33336.7399412065,
+          "choice": 0
+        },
+        {
+          "total": 10607.946310134095,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHhlZTVkYzhiOWMxZDY4MTBkOTI0ODAyMTk0Mjk2YzdiZjY2YjBiODM4ZWZmMDM5ZGIyOTA2OWE1MGI4OTBmYzBl",
+      "id": "0xee5dc8b9c1d6810d924802194296c7bf66b0b838eff039db29069a50b890fc0e",
+      "title": "TIP33 - Create LON liquidity pool on Arbitrum (在 Arbitrum 部署 LON 流动性)",
+      "content": "### Background\n\n- Based on the [Tokenlon litepaper](https://tokenlon.im/files/Tokenlon-litepaper_en-us.pdf), 10,000,000 LON has been set aside for liquidity mining incentives. Liquidity mining started on 24th Dec 2020 and has run for 7 consecutive phases, with 6.8 million LON given out for the two liquidity pools\n   - Uniswap LON/ETH pool\n   - Sushiswap LON/USDT pool\n- Following [TIP 24](https://snapshot.org/#/tokenlon.eth/proposal/0xe5dd9da4a35f1642833cb476fd77584eb870119ad9ff12ec591c84f3a73c3f0f), the remaining LON has been added to the LON/USDT pool. These funds will be used to ensure liquidity for LON buyback when triggered\n   - [Sushiswap LON/USDT](https://app.sushi.com/analytics/pools/0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f?chainId=1) TVL is currently at $5.94 Million, daily trade volume is at $100,000 on average\n   - The funds are underutilised\n- As one of the most active Layer 2 ecosystems as well the Optimistic Rollup solution with the most potential, [Tokenlon has launched limit order on Arbitrum](https://tokenlon.im/limit-order). While LON is the governance token of Tokenlon, it is only available on the Ethereum network. To support LON trading on Arbitrum, we will need to create LON liquidity on the Arbitrum network\n\n### Goal\n\n- The community to vote on whether LON liquidity pools should be created on Arbitrum. Firstly, this will satisfy the user's trading needs for LON on Arbitrum and lower the trading cost. Secondly, it will give LON additional token utility in the layer 2 ecosystem\n\n### Proposal\n\n- Create a LON/USDT liquidity pool on Arbitrum at Sushiswap. This is after assessing the TVL of different projects on Arbitrum as well as the needs of users who want to trade LON using Tokenlon limit order\n- We will start with a $200,000 liquidity pool, which can be adjusted depending on the situation in the future\n\n| **Token** | **Source of liquidity** | **Initial amount**  |\n| --------- | ----------------------- | ------------------- |\n| USDT      | L1 LON/USDT pool        | 100,000             |\n| LON       | L1 LON/USDT pool        | 1:1 Ratio with USDT |\n\n### Action Item\n\n- Withdraw $200,000 LP tokens from the current Sushiswap L1 liquidity pool and redeem LON & USDT. The Tokenlon team will then create a LON/USDT liquidity pool of $200,000 on Sushiswap Arbitrum\n\n### Voting Rules\n\n- Only holders of LON, xLON and/or LON LP tokens can vote\n\nVote Options\n\n- Support\n- Reject\n\n---\n\n# TIP33 - 在 Arbitrum 部署 LON 流动性\n\n### 背景\n\n- 根据 [Tokenlon litepaper](https://tokenlon.im/files/Tokenlon-Litepaper_zh-cn.pdf) 规划，10,000,000 LON 可被用于流动性预算；核心团队于 2020.12.24 开启第一期流动性激励，连续七期鼓励社区用户，为以下两个币对提供流动性，总奖励支出 680 万 LON：\n   - Uniswap 上的 [LON/ETH](https://v2.info.uniswap.org/pair/0x7924a818013f39cf800f5589ff1f1f0def54f31f) 池\n   - Sushiswap 上的 [LON/USDT](https://app.sushi.com/analytics/pools/0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f?chainId=1) 池\n- [TIP 24 提案](https://snapshot.org/#/tokenlon.eth/proposal/0xe5dd9da4a35f1642833cb476fd77584eb870119ad9ff12ec591c84f3a73c3f0f)社区投票通过后，已将 LON 剩余流动性预算全部添加至 LON/USDT pool，为后续 LON 回购机制运转提供流动性保障\n   - 目前 [Sushiswap LON/USDT](https://app.sushi.com/analytics/pools/0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f?chainId=1) TVL $594w，日均交易量 $10w\n   - 整体资金利用效率偏低\n- Arbitrum 是 Layer2 生态关注度最高，最具发展潜力的 Rollup 解决方案，[Tokenlon 限价单](https://tokenlon.im/limit-order)也选择了部署在 Arbitrum 二层；LON 作为 Tokenlon 协议的治理代币，目前仅部署在以太坊主网，支持交易 LON 需在 Arbitrum 二层部署流动性。\n\n### 目的\n\n- 由社区投票决定，是否在 Arbitrum 部署 LON 流动性。提案若通过，一方面可以满足 Arbitrum 上的用户交易需求，降低用户的交易成本；另一方面为后续拥抱 Layer 2 生态发展机遇，拓展更多LON 应用场景和合作机会做好准备。\n\n### 提议\n\n- 综合参考了 Arbitrum 上各个项目的 TVL，并结合 当下 Tokenlon limit order 对 LON 的交易需求，在 Arbitrum 上的 Sushiswap  创建 LON/USDT pool\n- 初期 TVL 建议部署 $20w，后续可根据实际情况再做调整\n\n| **交易对** | **资金来源**         | **初始数量**      |\n| ------- | ---------------- | ------------- |\n| LON     | L1 LON/USDT pool | 按 USDT 价值 1:1 |\n| USDT    | L1 LON/USDT pool | 100,000       |\n\n### 执行项\n\n- 由 Tokenlon 核心团队在 Sushiswap   LON/USDT pool  提取 $20w LP，赎回 LON&USDT，并在 Arbitrum 上的 Sushiswap 创建部署 LON/USDT 流动性池\n\n### 投票规则\n\n- 持有 LON、xLON 或 LON LP token 的钱包地址，均能参与投票\n\n### 投票选项\n\n- 支持\n- 反对",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 46,
+      "blockNumber": 16074071,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0xee5dc8b9c1d6810d924802194296c7bf66b0b838eff039db29069a50b890fc0e",
+      "startTime": {
+        "timestamp": 1669705948
+      },
+      "endTime": {
+        "timestamp": 1669953600
+      },
+      "startTimestamp": 1669705948,
+      "endTimestamp": 1669953600,
+      "currentState": "closed",
+      "choices": [
+        "Support (支持)",
+        "Reject (反对)"
+      ],
+      "results": [
+        {
+          "total": 17967.004,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 17967.00414745517,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6YmFma3JlaWF1eW9rbGt3dWtyZnB4Zmhtb3F2aXFpMmV1eHduYmdjaG1ubWc3cTJrMmlmeDdudWJobnk=",
+      "id": "bafkreiauyoklkwukrfpxfhmoqviqi2euxwnbgchmnmg7q2k2ifx7nubhny",
+      "title": "TIP 32 - Proposed changes to LON Tokenomics （LON 经济模型参数调整）",
+      "content": "### Background\n\n- Based on the LON whitepaper, all trade fees accumulated on Tokenlon will be used to buyback LON from the open market. For one LON bought back, one LON will be minted and distributed to all ecosystem participants, such as traders, market makers and relayers\n- 40% of the LON bought back goes to the LON treasury and 60% goes to users who stake LON\n- Definition of current parameters\n   - Lfactor is the percentage of tokens transferred to the LON treasury from feeToken. Rfactor is the amount of LON distributed to the LON treasury from each buyback. The minting ratio is determined by the parameters during LON buyback\n   - Based on the results of [TIP10](https://snapshot.org/#/tokenlon.eth/proposal/QmTNyHoDpKYJrEo8b2aPmpq39ThdvTcHwfYatsgrejQ5od), 80% of feeToken from WETH enters the LON treasruy directly. This is to reimburse relayers for the gas fees, with WETH Lfactor set at 0.8\n   - 60% of LON bought back is distributed to stakers and 40% is distributed to the LON treasury, with an Rfactor of 0.4\n   - L/RFactor applies to all feeToken tokens and is set individually for each token\n- Current Issue\n   - In this bear market, the trade fees Tokenlon receives from the list of [feeToken](https://tokenlon.im/lon/buyback) is fluctuating greatly\n   - The LON treasury is made up mostly of LON, which makes it difficult to weather the bear market\n   - If no changes are made to the LON tokenomics, the value of trade fees and LON treasury will continue dropping\n\n### Aim\n\n- Let the community decide on the proposed changes to LON tokenomics, to better weather the bear market\n\n### Proposal\n\n- Distribute ETH, USDT and other main tokens from feeToken to the [LON treasury](https://etherscan.io/address/0x3557bd3d422300198719710cc3f00194e1c20a46), to improve the robustness of the LON treasury\n- Move all feeToken altcoins back to the LON treasury and make adjustments to the LON treasury portfolio accordingly\n- Make the following adjustments to LON tokenomics to better weather the bear market\n   - Changes to L Factor parameters\n      - L = 1 for ETH, with all ETH allocated to the treasury\n      - L = 0.2 for USDT, where 20% is allocated to the treasury, 80% used to buyback LON\n      - L = 0 for all other altcoins, 100% is used to buy back LON\n      - L=1 for Altcoins that meet the requirements. Token to be allocated to the treasury and the portfolio to be managed accordingly\n   - Changes to R Factor parameters\n      - As the amount of feeToken bought back has been reduced, staking APY will drop. To address this, we need to increase the token amount distributed to the staking pool\n      - We suggest to decrease the Rfactor from 0.4 to 0.3, to maintain the APY level, as stakers will receive a larger percentage from the trade fee pool\n   - The ratio of minting LON remains the same at 1:1. Changes may be made in the future, depending on market conditions\n\n### Action Item\n\n- Based on the voting results, make adjustments to the LON tokenomics. Timeline for the changes to come into effect will be announced via our official channels\n\n### Voting Rules\n\n- Only holders of LON, xLON or LON LP tokens can vote\n\n#### Voting Options\n\n- Support\n- Reject\n\n---\n\n### 提案背景\n\n- 根据 LON 白皮书的经济模型设计，Tokenlon 协议捕获的手续费会用于回购 LON，每次回购会 1:1 触发 LON 的铸币，用于奖励撮合完成每笔交易的用户、做市商、中继方等 Tokenlon 生态的贡献者\n- 回购的 LON 按 4:6 的分配比例，分别进入社区财库和用于 LON staking 用户的质押奖励\n- 参数定义\n   - Lfactor 是 feeToken 中代币划入社区财库的百分比参数；Rfactor 是每次回购所得的 LON 流入社区财库的比例；铸币系数是回购 LON 触发的增发参数\n   - 以 [TIP10](https://snapshot.org/#/tokenlon.eth/proposal/QmTNyHoDpKYJrEo8b2aPmpq39ThdvTcHwfYatsgrejQ5od)  提案为例，feeToken 中的 WETH 80% 直接进入社区财库，用于报销中继方代付矿工费，Lfactor 为 0.8\n   - 回购的 LON 的 60% 用于奖励 LON 质押用户，40%流入财库，Rfactor 为 0.4\n   - L/RFactor 可针对每个 feeToken 代币，单独配置\n- 现存问题\n   - 当前市场环境下，Tokenlon 捕获手续费中的 [feeToken 代币](https://tokenlon.im/lon/buyback)价格波动较大\n   - 社区财库中以 LON 为主，代币分布比较单一，对应市场变化的健壮性不强\n   - 按照现有经济模型继续运行，可能导致社区财库和 feeToken 的净值持续下跌\n\n### 目的\n\n- 在当前市场环境下，希望由社区共同治理决定， 对 LON 的代币经济模型进行调整优化\n\n### 提议\n\n- feeToken 中 ETH、USDT 等主流代币划入[社区财库](https://etherscan.io/address/0x3557bd3d422300198719710cc3f00194e1c20a46)，建立更强壮的财库仓位\n- 回流全部长尾 feeToken 代币，由社区财库动态合理地进行仓位管理\n- 调整 LON 的经济参数，维持 Tokenlon 协议更健康可持续的发展\n   - L Factor 系数\n      - ETH L = 1，全部进入[社区财库](https://etherscan.io/address/0x3557bd3d422300198719710cc3f00194e1c20a46)备用\n      - USDT L = 0.2，20% 进入[社区财库](https://etherscan.io/address/0x3557bd3d422300198719710cc3f00194e1c20a46)并动态管理仓位；80% 用于回购 LON\n      - 其他主流代币 L = 0 ，继续执行 100% 回购 LON\n      - 满足回流条件的长尾代币 L = 1，进入社区财库并动态管理仓位\n   - R Factor 系数\n      - 由于用于回购的 feeToken 总量减少，导致 staking APY 受到影响，需适当增加进入质押奖励池的LON\n      - 因此，建议将 Rfactor 从 0.4 降为 0.3，可以有效保持质押 APY\n   - 铸币系数，保持 1:1 不变合理限制通膨，未来根据市场变化再做调整\n\n### 执行项\n\n- 根据投票结果，调整 LON 经济模型参数，具体生效日期以官方公告为准\n\n### 投票规则\n\n- 持有 LON、xLON 或 LON LP token 的钱包地址，均能参与投票\n\n#### 投票选项\n\n- 支持\n- 反对",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xdE0020C1A0543D3ab2ecBfb83fABcB62f47309d1",
+      "totalVotes": 32,
+      "blockNumber": 15053908,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/bafkreiauyoklkwukrfpxfhmoqviqi2euxwnbgchmnmg7q2k2ifx7nubhny",
+      "startTime": {
+        "timestamp": 1656642445
+      },
+      "endTime": {
+        "timestamp": 1656907200
+      },
+      "startTimestamp": 1656642445,
+      "endTimestamp": 1656907200,
+      "currentState": "closed",
+      "choices": [
+        "A: Support（支持）",
+        "B: Reject（反对）"
+      ],
+      "results": [
+        {
+          "total": 68832.3,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 68832.29474711411,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW15dHhxM2twYXh3dGIzdXp5dGZrcWhqNW9heHN1ZWo0YmZwYmV5NHptdHplYQ==",
+      "id": "QmYTXq3KPAXwtb3UzyTfkQHj5oaXSueJ4BfpBey4ZMtzEA",
+      "title": "TIP 31 : Improve Tokenlon treasury asset management under current market conditions（关于当前市场下 Tokenlon 社区财库健壮性的改进提案）",
+      "content": "**Background**：\n\n- In this crypto bear market, token prices have dropped across the board. This includes LON that is held in the treasury and tokens accumulated from transaction fees (feeToken) To ensure the long-term sustainability of Tokenlon, we need to actively manage the treasury portfolio\n   - Tokenlon receives transaction fees in different tokens, including WETH, USDT and other altcoins. You can find the token list here\n   - Right now, the treasury consists mainly of $LON from every buyback triggered. To reduce market volatility risk, we need to actively manage the treasury portfolio\n   - Fees from altcoins (feeToken) are slow to accumulate, losses from on-chain buyback of these tokens are big. Under current market conditions it is challenging to maintain the value of altcoins, timely treasury portfolio management is urgently required.\n- According to the design of the Tokenlon protocol, the relayers responsible for matching orders can pay Ethereum miner fees for some users’ transactions. The design of relayer paying the miner fees can increase the success rate of users' trades therefore bringing a better user experience. As part of the treasury design, the fees collected by Tokenlon protocol will be first used to reimburse relayers the miner fee paid by them.\n   - As of 21st June 2022, gas fees owed to the Relayer is at 914.45 ETH. With the lower ETH price, this is a good opportunity for settlement\n\n**Proposal**：\n\n- Do a one-time retrieval of tokens accumulated from transaction fees (feeToken) using the current fee balance from Tokenlon contracts and deposit it into the treasury.\n- The Tokenlon team will manage the treasury portfolio off-chain, with the status of the treasury open to the community at all times.\n- At the same time, we want to encourage the community to submit your TIP for any improvements to the treasury management strategy\n\n**Action Items：**\n\n- Retrieve tokens accumulated from transaction fees and deposit it into the treasury\n- Carry out portfolio management by converting these tokens (feeToken) to ETH\n- Use the treasury multi-sig wallet to initiate changes to LON tokenomic factors to realize these changes\n\n**Voting Rules**\n\n- Only LON, xLON and/or LON LP token holders can vote\n- Voting start time: 2022.6.22 15:00 UTC+8\n- Voting cut-off time: 2022.6.24 15:00 UTC+8\n\nVoting Options\n\n- A. Support\n- B. Reject\n\n---\n\n**背景：**\n\n- 加密市场整体低迷的情况下， 不管是社区财库中的 $LON，还是手续费合约中的 feeToken，币价均有明显的下降，需要更主动地维护合理财库仓位比例，以确保 Tokenlon 长期可持续发展\n   - Tokenlon 捕获手续费的 [Token list](https://tokenlon.im/lon/buyback) 包含 WETH、USDT 及各种长尾代币\n   - 社区财库的资产主要为回购分配的 $LON，需积极管理仓位，降低财库的风险及波动\n   - feeToken 中长尾代币积累慢，链上回购损耗大。而长尾代币在当前市场环境下难以保值，更需要及时的管理仓位。\n- 根据 Tokenlon 协议设计，负责撮合交易的中继方能够为用户部分交易代付以太坊矿工费，代付上链矿工费设计能够提高 Tokenlon 用户交易成功率，带来更好的交易体验。作为财库用途一部分，Tokenlon 协议手续费沉淀会优先用于报销中继方为用户代付的矿工费\n   - 截至 2022 年 6 月 21 日，Relayer 矿工费垫付欠款 915.45 ETH。目前 ETH 行情走低，是合适建仓并完成矿工费结算的好机会。\n\n**提议：**\n\n- 从目前 Tokenlon 协议捕获的手续费资金池，一次性取回现有积累的 feeToken，由 Tokenlon 核心团队更动态合理地在链下进行财库管理，财库账目始终保持公开透明受社区监督，同时鼓励社区通过 TIP 提案改进财库管理策略。\n\n**提案执行项：**\n\n- 执行现有 feeToken 一次性回流至财库收入管理钱包\n- 财库管理执行长尾 feeToken > ETH 的调仓处理\n- 由社区管理[多签钱包](https://etherscan.io/address/0x74C3cA9431C009dC35587591Dc90780078174f8a)，发起 LON 链上经济参数修订\n\n**投票规则**\n\n- 持有 LON、xLON 或 LON LP token 的钱包地址均能参与\n- 治理投票开启时间：2022.6.22 15:00 UTC+8\n- 治理投票结束时间：2022.6.24 15:00 UTC+8\n\n**投票选项**\n\n- A. 支持\n- B. 反对",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xdE0020C1A0543D3ab2ecBfb83fABcB62f47309d1",
+      "totalVotes": 36,
+      "blockNumber": 15006390,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmYTXq3KPAXwtb3UzyTfkQHj5oaXSueJ4BfpBey4ZMtzEA",
+      "startTime": {
+        "timestamp": 1655881074
+      },
+      "endTime": {
+        "timestamp": 1656054000
+      },
+      "startTimestamp": 1655881074,
+      "endTimestamp": 1656054000,
+      "currentState": "closed",
+      "choices": [
+        "A：support（支持）",
+        "B：reject（反对）"
+      ],
+      "results": [
+        {
+          "total": 162637.38,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 162650.85337914276,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHgwNjRkNGYzM2I3OGU5ZjRlZGI5MmMyZjg1YTc5ZWRhZjhmMjU3ZDc0ZjFmOGYwN2YyZDhkYTk2MDBmNTgxNDBl",
+      "id": "0x064d4f33b78e9f4edb92c2f85a79edaf8f257d74f1f8f07f2d8da9600f58140e",
+      "title": "TIP30 - Compensate pairX users locked out of liquidity pool (pairX 用户被锁定的流动性补偿提案)",
+      "content": "**This proposal was submitted by project pairX and published by the Tokenlon core team on behalf of them.**\n\n#### Background\n- We’re a DeFi startup team from China and our protocol is pairx.finance.  Crypto KOL Taichi He is one of the founders. Our protocol aims to help users be able to stake only one token to participate in liquidity mining. i.e. users may choose to deposit either LON or USDT.  When the two tokens deposited by different users match,  they will be automatically paired and added to the LON liquidity pool. The LP token will be used to stake for LON\n- We have been actively participating in LON’s liquidity mining since its launch and added over $5 million dollars of liquidity.  Unfortunately, an incident occurred that made us unable to redeem our liquidity of 0.0338 SLP in total. This happened on June 24th, 2021 which added19028 LON and 67388 USDT into LON’s liquidity pool(total value around 134,700 USD)   \n- The staking record can be found here https://etherscan.io/token/0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f?a=0x797730a2533cc749c6fb9d3bf14d42a399eeb02b\n- The incident was due to a mistake made by our tech team, who accidentally changed the contract operator’s address to the contract address, making us lose control of the contract. Therefore we became unable to redeem the LP token staked in LON’s platform.  Here is the record of the accident https://etherscan.io/tx/0x27994c6d5f2404e0bbda48e10cbe7e4a63bdedeb33084afaab3047b7c8080e11\n- After confirming with LON’s tech team,  it is clear that nobody is able to recover these LP tokens and they become permanently stuck in the pool.  In order to solve this issue and compensate for the loss of our users, we propose that we use the LON treasury to buy these assets at market price\n- According to market price, 0.0338SLP is worth about $78,000 USD, and we propose using the LON treasury to compensate with 78,000 LONs accordingly.\n- We hereby ask community for your support and help our users to recover their assets, thank you!\n\n#### Goal Of Proposal\nLet the community vote on whether to support the proposal\n\n#### Proposed Action Items\nThe team will execute according to the voting result\n\n#### Voting Rules\n- Addresses with more than 0 LON or xLON can vote \n- Voting start time:  \n- Voting end time:\n\n#### Voting Options \n- A. Compensate 0.0338 SLP\n- B. Compensate 78,000 LON\n- C. No compensation support\n\n---\n**提示：本提案由社区项目 pairX 提交，Tokenlon 核心团队代发布**\n\n#### 背景\n- 我们是来自中国的 DeFi 创业团队，项目名为 pairx.finance，币圈意见领袖何太极老师是发起人之一，协议的主要功能是帮助用户存入单币进行配对，参与流动性挖矿。比如用户只需要存入单一币种 LON 或者 USDT，不同用户存入的两种币达到预定数量就会添加到 LON 的流动池，然后将 LP 代币质押到 LON 官网参与挖矿。\n- 从 LON 推出第一期流动性挖矿我们就积极参与，累计为 LON 添加了超过五百万美元的流动性。其中有一期资金出了状况，致使我们无法赎回流动性，总计 0.0338 SLP（操作时间为 2021 年 6 月 24 日，总计向 LON 流动池注入了 19,028 LON 以及 67,388 USDT，价值 13.47 万美元）。\n质押记录如下：https://etherscan.io/token/0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f?a=0x797730a2533cc749c6fb9d3bf14d42a399eeb02b\n- 由于技术人员操作失误，将合约的管理员地址更改为了合约地址本身，致使我们丧失了合约管理权限，无法执行取回质押在 LON 平台的 LP 代币。误操作记录：https://etherscan.io/tx/0x27994c6d5f2404e0bbda48e10cbe7e4a63bdedeb33084afaab3047b7c8080e11\n- 经和 Tokenlon 核心团队确认，任何人都无法取走这些资产，实际上成为了LON 的永久流动性。为了帮助用户解决问题，弥补部分损失，我们提议由 LON 财库按现价购买这部分流动性。\n- 按照目前的币价，0.0338 SLP 价值约为7.8万美元，LON 财库以 78,000 LON 进行补偿。\n- 我们请求社区给予支持，帮助用户拿回属于他们的资产，感谢！\n\n#### 目的\n由社区投票决定是否支持该方案\n\n#### 提案执行项\n根据提案投票结果实施\n\n#### 投票规则\n- 持有 LON 和 xLON 的钱包地址均能参与投票（包含未认领的 LON 奖励）\n- 治理投票开启时间：\n- 治理投票结束时间：\n\n#### 投票选项\n- A. 补偿 0.0338 SLP\n- B. 补偿 78,000 LON\n- C. 不支持补偿",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 23,
+      "blockNumber": 14569223,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0x064d4f33b78e9f4edb92c2f85a79edaf8f257d74f1f8f07f2d8da9600f58140e",
+      "startTime": {
+        "timestamp": 1649745000
+      },
+      "endTime": {
+        "timestamp": 1649917800
+      },
+      "startTimestamp": 1649745000,
+      "endTimestamp": 1649917800,
+      "currentState": "closed",
+      "choices": [
+        "A. Compensate 0.0338 SLP (补偿 LP)",
+        "B. Compensate 78,000LON (补偿 LON)",
+        "C. No compensation (不给予补偿)"
+      ],
+      "results": [
+        {
+          "total": 220793.83,
+          "choice": 0
+        },
+        {
+          "total": 49799.504,
+          "choice": 2
+        },
+        {
+          "total": 185.99188,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 220793.831550636,
+          "choice": 0
+        },
+        {
+          "total": 185.9918887449733,
+          "choice": 1
+        },
+        {
+          "total": 49799.50902787322,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHhjY2EwODUyYmU5OTg1NDAyMTZlYWQxOTYyZTllZTcwZGFlZTVlNTAyYmNhNjE0ZWU5MWFjYmRiZDYzYzliNDI1",
+      "id": "0xcca0852be998540216ead1962e9ee70daee5e502bca614ee91acbdbd63c9b425",
+      "title": "TIP 29 - Reward Distribution For Bounty Task  「LON Holder Asset Monitoring Tool」(Bounty 任务「LON holder观察工具」奖励发放)",
+      "content": "#### Background\n- From 1st March 2022, Tokenlon launched the [$1M bounty program](https://forum.tokenlon.im/t/tokenlon-bounty-1-000-000-tokenlon-launches-1-000-000-bounty/243) to build Tokenlon with the community. Two bounty tasks have been put up so far\n- One of these tasks, [Building a LON Holder Asset Monitoring Tool] has been claimed and completed. The aim of the tool is twofold- for the community to get a quick grasp of asset changes to LON and for the team to monitor the status of LON and take action where needed \n- The reward for this bounty is set at 1,000 USDT or an equivalent amount in LON\n\n\n#### Latest Progress On The Task\n- On 17th March, the bounty task was claimed by user [SLEEPYCAT](https://forum.tokenlon.im/u/SLEEPYCAT)\n- On 25th March, SLEEPYCAT carried out a demo of the tool and answered questions from the Tokenlon team. \n-- [Prod version URL](https://lon-holder-watcher-8hps160ky-zhaojialii.vercel.app/)\n-- [Github URL](https://github.com/ZhaojiaLii/lon_holder_watcher)\n- On 30th March, The tool was verified and approved by the Tokenlon team to fit the requirements of the task outlined at the start\n\n#### Proposed Action Item\nBased on the voting results, to decide if we will make payment to SLEEPYCAT for the completion of this bounty task, with the reward coming from the LON treasury (If the votes are in favour, the reward will be transferred within 3 working days)\n\n#### Voting Rules\n- Addresses with more than 0 LON or xLON can vote\n- Voting start time: 2022.4.4 15:30 UTC+8\n- Voting end time: 2022.4.6 15:30 UTC+8 \n\n#### Voting Options\n- A. For\n- B. Against\n\n---\n#### 背景\n- Tokenlon 百万美元社区 Bounty 计划自 2022 年 3 月 1 日正式启动，已向社区推出 2 个开发任务。\n- 其中任务「LON Holder 持仓观察工具 」，一方面社区成员可以通过该工具，快速直观的了解 LON holder 持仓变化情况；另一方也可以辅助 Tokenlon 核心团队第一时间感知和因应变化。\n- 任务奖金为 1,000 USDT 或等价的 LON token。\n \n#### 任务进度\n- 3 月 17 日 ，「LON Holder 持仓观察工具 」由社区开发者 SLEEPYCAT 成功领取。\n- 3 月 25 日，SLEEPYCAT 提前提交了任务方案与产出，并与 Tokenlon 工作团队一起进行了方案演示和问答。\n-- Prod 版本\n-- Github 代码\n- 3 月 30 日，Tokenlon 工作团队确认方案的有效性与完整性，可以进入奖金支付环节。\n\n#### 投票目的\n由社区投票支付 1,000 USDT 等价的 LON， 用与奖励 SLEEPYCAT 在此任务中的投入与产出。\n\n#### 提案执行项\n根据提案投票结果，从 Bounty 预留资金中支付任务奖金，具体发放时间待定（若投票成功，3天内支付）\n \n#### 投票规则\n- 钱包地址余额 LON（包含未领取的奖励），xLON 或 LON 相关 LP Token 大于 0 的地址，均能够参与本次治理投票\n- 治理投票开启时间：2022.4.4 15:30 UTC+8\n- 治理投票结束时间：2022.4.6 15:30 UTC+8\n \n#### 投票选项\n- A. 支持\n- B. 不支持\n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 21,
+      "blockNumber": 14518078,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0xcca0852be998540216ead1962e9ee70daee5e502bca614ee91acbdbd63c9b425",
+      "startTime": {
+        "timestamp": 1649057156
+      },
+      "endTime": {
+        "timestamp": 1649230200
+      },
+      "startTimestamp": 1649057156,
+      "endTimestamp": 1649230200,
+      "currentState": "closed",
+      "choices": [
+        "For (支持)",
+        "Against (反对)"
+      ],
+      "results": [
+        {
+          "total": 182574.53,
+          "choice": 0
+        },
+        {
+          "total": 30.43837,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 182574.51566169603,
+          "choice": 0
+        },
+        {
+          "total": 30.438369878417497,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHhjMTBiODE2ZGUyMTZhMWY0NmY0ODFmZDY5ZGY3ZjRjOTU4ZmVmYjdkNDU4MWQwMjUxODk2MWIwZDgzYzk0ZGIy",
+      "id": "0xc10b816de216a1f46f481fd69df7f4c958fefb7d4581d02518961b0d83c94db2",
+      "title": "TIP28 - Proposed changes to Tokenlon listing mechanism (Tokenlon 上币机制的优化)",
+      "content": "#### Background\n- Currently, Tokenlon has two methods to list new trading pairs. First, our professional market makers will provide token liquidity. Second, we route AMM pools and list pairs with sufficient liquidity (currently Uniswap, SushiSwap)\n- The current process for listing tokens via AMM pools is as follows \n1. Core team selects popular tokens to list \n2. We check the AMM liquidity to ensure it’s sufficient\n3. Engineer team tests and finalises the list of trading pairs  \n4. The team submits a TIP to list the select tokens  \n5. After the community proposal is approved, the tokens can be officially listed on Tokenlon.\n- This is a long and inefficient process, which does not meet the demand of Tokenlon users to trade tokens once it’s trending \n \n#### Goal\nChange the listing mechanism so that we can list trending tokens quickly on Tokenlon to meet the needs of users\n \n#### Proposed Action Item\n- Tokenlon's core team defines the standards for listing new pairs and decides whether or not to list , instead of submitting a proposal to vote for each listing\n- I.e. The Tokenlon core team will take charge of listing from beginning to end\n\nNotes\n- The new listing standards are considered by the core team based on factors such as slippage protection, TVL, whether it is secure, and whether there is a contract locking mechanism.\n- Community members can still propose tokens that meet the liquidity requirements to list on Tokenlon. Please submit your proposal through the [Tokenlon Governance Forum](https://forum.tokenlon.im/) or [Tokenlon Discord](https://discord.gg/ZFf4Cye) and we will assess the token. \n \n#### Voting Rules\n- Addresses with more than 0 LON or xLON can vote\n- Voting start time: 2022.1.26 8:00 UTC\n- Voting end time: 2022.1.28 8:00 UTC\n \n#### Voting Options\n- A. For\n- B. Against\n\n---\n#### 背景\n- Tokenlon 上架新币对有两种方式，做市商支持或者路由至 Pairs 流动性足够的 AMM pool （主要是 Uniswap、SushiSwap）\n- 目前 AMM pool 支持上币的流程：核心团队筛选热门代币 → AMM 流动性是否足够查验 → 工程师团队测试，确定可支持上币列表 → TIP 社区提案 → 社区提案通过，生产环境配置后，该批次代币方可在 Tokenlon 正式上架交易\n- 整个新币上架流程冗长、低效，不足以满足 Tokenlon 社区用户，快速交易热门资产的需求\n\n#### 目的\n加密世界热点项目不断涌现，为加快 Tokenlon 市场热点响应速度，希望能改良目前的上币流程，更快速的上架热门项目代币\n\n#### 提案执行项\n由社区成员和核心团队共同收集热门代币，核心团队评估可行性，并执行快速上架热门项目代币。\n\n说明\n- 新币对上架标准，由核心团队基于滑点保护、TVL 、是否涉及证券、是否有合约锁仓机制等因素，综合考量。\n- 上架代币列表由社区成员和核心团队共同收集，确定新币名单后不再有 TIP 提案交由社区投票环节，从而提高 Tokenlon 上币效率\n- 社区成员可通过 [Tokenlon Discord](https://discord.gg/ZFf4Cye) 或 [Tokenlon 治理论坛](https://forum.tokenlon.im/)，向核心团队提议上架满足流动性要求的热门代币\n\n#### 投票规则\n- 持有 LON、xLON 或 LON LP token 的钱包地址均能参与投票（包含未认领的 LON 奖励）\n- 治理投票开启时间：2022.1.26 16:00 UTC+8\n- 治理投票结束时间：2022.1.28 16:00 UTC+8 \n\n#### 投票选项\n- A. 支持\n- B. 反对\n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 70,
+      "blockNumber": 14079928,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0xc10b816de216a1f46f481fd69df7f4c958fefb7d4581d02518961b0d83c94db2",
+      "startTime": {
+        "timestamp": 1643184000
+      },
+      "endTime": {
+        "timestamp": 1643356800
+      },
+      "startTimestamp": 1643184000,
+      "endTimestamp": 1643356800,
+      "currentState": "closed",
+      "choices": [
+        "A. For (支持)",
+        "B. Against (反对)"
+      ],
+      "results": [
+        {
+          "total": 150777.11,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 151573.28106831957,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHg5M2FlNDg2YmRlYmRlNWU1ZjBhMGMxM2UwODM3YjM0ZTI4OGNmMzQxMDNkYjVmMTdkMjNkNzZkZTMzOTgzYmI2",
+      "id": "0x93ae486bdebde5e5f0a0c13e0837b34e288cf34103db5f17d23d76de33983bb6",
+      "title": "TIP27 - LON 1st Anniversary Thank You Airdrop (LON 1 周年感恩空投)",
+      "content": "#### Background\n- LON (Tokenlon Network Token) is a utility token issued by Tokenlon to motivate all parties in the Tokenlon network ecosystem to work together. LON was officially launched on December 23, 2020. With that, LON is 1 year old! \n- We would like to thank our community partners who have supported and contributed to the Tokenlon ecosystem in the past year through an airdrop.\n- In 2022, Tokenlon will launch L2 on the Ethereum network and explore the open governance of the community more actively. LON serves as a bridge to connect the community with the ecosystem. With that, we want to reward anyone who has contributed to the Tokenlon ecosystem with an airdrop.\n\n#### Goal\nLet the community vote on whether to support the airdrop proposal\n\n#### Proposed Action Item\nBased on the results of the vote, reward the following community contributors via an airdrop and the reward will come from LON treasury\n**Airdrop Plan**\n| **Role**   | **Reward (in LON)** | **Num** | **Sub-total** | **Notes**       |\n| ---------- | ---------- | ------- | ------------- | --------------- |\n| Community Volunteers      | 300        | 3       | 900           | Active community contributors         |\n| Third Party Community      | 500        | 1       | 500           | 水浒 community            |\n| Active Discord users | 50         | 15      | 750           | Users with level 8 ranking and higher      |\n| Users who voted on TIPs     | 50         | 1,327    | 66,350         | / |\n| Users who triggered buyback     | 100        | 278     | 27,800         |   /              | \n|            |            | Total      | 96,300 LON     |                 |\n\n**Summarized Airdrop List**\n1. Users who have voted on Tokenlon Initiative Proposals (TIPs) before December 23, 2021\n2. Users who have triggered LON buyback before December 23, 2021\nUsers with Discord level 8 ranking and above before December 23, 2021\n3. 水浒 community\n4. Volunteers & active community contributors\n\n**Note**\nAll the reward will be distributed via Arbiturm network, please activate your wallet address Arbiturm account and wait for the airdrop, here is the [tutorial](https://support.token.im/hc/en-us/articles/4406585952665)\n\n#### Voting Rules\n- Addresses with more than 0 LON or xLON can vote\n- Addresses currently participating in LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n- Voting start time: 2022.1.19 8:00 UTC\n- Voting end time: 2022.1.21 8:00 UTC\n\n#### Voting Options\n- A. For\n- B. Against\n---\n\n#### 背景\n\n- LON（Tokenlon Network Token）是 Tokenlon 发行的应用型代币，用于激励 Tokenlon 网络生态中各方协力推动生态发展，于 2020 年 12 月 23 日，正式开启转账流通。\n\n- 借 LON 正式发行一周年的契机，通过空投，感谢过去一年对 Tokenlon 生态有过支持和贡献的社区伙伴。\n\n- 2022 年，Tokenlon 将开启以太坊网络 L2 部署，更积极的探索社区开放治理，LON 作为连接社区与生态参与者的媒介，只要对 Tokenlon 生态建设有贡献，都有机会以空投形式获得 LON 奖励。\n\n#### 目的\n\n由社区投票决定是否支持该空投方案\n\n#### 提案执行项\n\n根据提案投票结果，空投奖励以下社区贡献者\n\n**空投对象**\n| **角色**   | **奖励** | **数量** | **总数** | **备注**       |\n| ---------- | ---------- | ------- | ------------- | --------------- |\n| 社区志愿者      | 300        | 3       | 900           | 社区积极贡献者         |\n| 第三方社群      | 500        | 1       | 500           | 水浒社群            |\n| Discord 用户 | 50         | 15      | 750           | level 8级以上      |\n| 治理投票用户     | 50         | 1,327    | 66,350         | 参与过 TIP 治理投票的用户 |\n| 发起回购用户     | 100        | 278     | 27,800         | 成功发起过 LON 回购的用户                |\n|            |            | 总计      | 96,300 LON     |                 |\n\n**空投名单**\n\n1. 2021 年 12 月 23 日前，参与过社区治理投票的用户\n2. 2021 年 12 月 23 日前，点击过回购 LON\n3. Discord level 8 级以上的用户\n4. 水浒社群\n5. 志愿者&社区积极贡献者\n\n**空投方式**\n\n- 通过 Arbitrum L2 网络空投 LON 奖励，你需要切换网络到 Arbitrum，添加代币 LON，即可查看空投的 LON 奖励。\n- [LON Arbitrum 地址](https://arbiscan.io/token/0x55678cd083fcdc2947a0df635c93c838c89454a3)：0x55678cd083fcdc2947a0df635c93c838c89454a3\n- [Arbitrum 教程](https://mp.weixin.qq.com/s/zfsv_TuLhU-vOMe3b05Omg)\n\n#### 投票规则\n\n- 持有 LON、xLON 或 LON LP token 的钱包地址均能参与投票（包含未认领的 LON 奖励）\n- 治理投票开启时间：2022.1.19 16:00 UTC+8\n- 治理投票结束时间：2022.1.21 16:00 UTC+8\n\n#### 投票选项\n\n- A. 支持\n- B. 反对\n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 76,
+      "blockNumber": 14034631,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0x93ae486bdebde5e5f0a0c13e0837b34e288cf34103db5f17d23d76de33983bb6",
+      "startTime": {
+        "timestamp": 1642579200
+      },
+      "endTime": {
+        "timestamp": 1642752000
+      },
+      "startTimestamp": 1642579200,
+      "endTimestamp": 1642752000,
+      "currentState": "closed",
+      "choices": [
+        "A. For (支持）",
+        "B. Against (反对)"
+      ],
+      "results": [
+        {
+          "total": 228316.58,
+          "choice": 0
+        },
+        {
+          "total": 65246.438,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 228316.53984819836,
+          "choice": 0
+        },
+        {
+          "total": 65246.43583785124,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHhlNWRkOWRhNGEzNWYxNjQyODMzY2I0NzZmZDc3NTg0ZWI4NzAxMTlhZDlmZjEyZWM1OTFjODRmM2E3M2MzZjBm",
+      "id": "0xe5dd9da4a35f1642833cb476fd77584eb870119ad9ff12ec591c84f3a73c3f0f",
+      "title": "TIP24 - Build Protocol Owned Liquidity (LON 流动性激励的后续处理)",
+      "content": "#### Background\n- Based on Tokenlon’s litepaper, 10,000,000 LON is reserved for liquidity incentive for one year until 24th Dec 2021\n- Phase 7 of liquidity mining will end on 9th December 2021, with liquidity mining lasting for a year. The remaining budget for liquidity mining stands at 2,690,190 LON\n- Current numbers for the two liquidity pools are as follows\n-- Uniswap Pool: LON/ETH 3,765,011 LON + 1,489 ETH\n-- Sushiswap Pool: LON/USDT 2,298,000 LON + 4,244,000 USDT\n\n#### Proposal\nWe would like to propose a Protocol Owned Liquidity for the LON token. This is after taking into account the current LON treasury and trading fees on average. Under this proposal, users will no longer receive rewards for providing LON liquidity.\n\n- Details of the proposal are in the table below\n\n| Pair Token    | Fund source |   Initial amount | \n| :---        |    :----      |      :-----   | \n|LON|Liquidity reserved|2,690,190|\n|USDT|Fee collected|per LON pair amount|\n\n- Benefits of this change\n-- By focusing LON liquidity in an AMM pool, we improve price discovery and trading depth of LON\n-- Under the current liquidity mining scheme, many users receive LON and sell it on the open market. By having the protocol take charge of liquidity, we can prevent the selling pressure of LON and stabilize the LON price.\n-- Under the new proposal, the treasury will consist of other tokens such as ETH and stablecoins. In the event of a bull market, the LON treasury will increase in value with these tokens. In bear markets, it will not have a huge decrease in value, giving the team a stronger hedge. This will come from a portion of the fees collected from the platform\n\n- Relevant figures \n\n|    | Statistics  |   Remarks | \n| :---        |    :----  |     :-----   | \n|Multi-Signature Wallet (Treasury)|- Treasury: 1,114,259 LON; - LON Remaining Liquidity Mining Budget: 2,690,190 LON|Moving forward, funds from the treasury will be placed in a separate wallet independently|\n\n#### Proposed Action Items\nVote for one of the 2 options below to decide on changes to LON liquidity mining\n\n#### Voting Rules\n- Addresses with more than 0 LON or xLON can vote\n- Addresses currently participating in LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n- Voting start time: 2021.12.1 12:30 pm UTC+8\n- Voting end time: 2021.12.3 12:30 pm UTC+8\n\n#### Voting Options\n- A. Continue with the current liquidity mining\n- B. Stop the LON liquidity mining from 9th Dec and shift to a protocol owned liquidity\n\n---\n#### 背景\n- 根据 Tokenlon litepaper 内容，10,000,000 LON 可被用于流动性激励，原计划持续一年，至 12 月 24 日结束\n- 第七期流动性挖矿将于 2021 年 12 月 9 日结束后，流动性激励预算余额为 2,690,190 LON\n- 在持续的流动性激励下， LON 的两个流动性池\n-- Uniswap 上的 LON/ETH 池：3,765,011 LON + 1,489 ETH\n-- Sushiswap 上的 LON/USDT 池: 2,298,000 LON + 4,244,000 USDT\n\n#### 提议\n基于目前社区财库和协议手续费沉淀，协议自建 LON 流动性池 (POL, Protocol Owned Liquidity)\n| 交易对    | 资金来源 |   初始数量 | \n| :---        |    :----  |      :-----   | \n|LON|剩余流动性激励预算|2,690,190|\n|USDT|协议手续费捕获|按 LON 价值 1:1|\n\n- 协议自建流动性，能够带来一举多得的好处：\n-- 作为 LON 的市场流动性供给，在 AMM 协议中提供价格发现，交易深度和手续费捕捉\n-- 剩余的 LON 流动性激励会锁定在 AMM 池中，将会减少未来获利卖出的市场抛压\n-- 丰富社区财库的资产配置，除了 LON 之外，增加稳定币的仓位，同时稳定币仓位也能够帮助协议和项目团队在市场低迷的情况下正常运转\n\n- 相关数据\n\n|    | 明细  |   备注 | \n| :---        |    :----  |     :-----   | \n|多签钱包|- 社区财库: 1,114,259 LON;   - 流动性激励（余额）: 2,690,190 LON|社区财库未来将转入独立的钱包进行运营|\n\n#### 目的\n由社区治理投票，决定后续的 LON 流动性激励机制\n\n#### 投票规则\n- 持有 LON、xLON 或 LON LP token 的钱包地址均能参与投票（包含未认领的 LON 奖励）\n- 治理投票开启时间：2021.12.1 12:30 pm UTC+8\n- 治理投票结束时间：2021.12.3 12:30 pm UTC+8\n\n#### 投票选项\n- A. 保持现状，继续使用剩余预算奖励 LON 流动性供给者，流动性激励时间延长\n- B. 12 月 9 日之后暂停流动性激励，按本提案由社区财库自建流动性",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 43,
+      "blockNumber": 13719032,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0xe5dd9da4a35f1642833cb476fd77584eb870119ad9ff12ec591c84f3a73c3f0f",
+      "startTime": {
+        "timestamp": 1638333000
+      },
+      "endTime": {
+        "timestamp": 1638505800
+      },
+      "startTimestamp": 1638333000,
+      "endTimestamp": 1638505800,
+      "currentState": "closed",
+      "choices": [
+        "A. No change (保持现状)",
+        "B. Build Owned Liquidity(自建流动性)"
+      ],
+      "results": [
+        {
+          "total": 23790.158,
+          "choice": 0
+        },
+        {
+          "total": 261794.39,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 36527.38833219609,
+          "choice": 0
+        },
+        {
+          "total": 413337.7763187605,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHhiZmRmYjA5MTQ1YTRkYmYzYWQ0ODgzZjA4NjNlYTUyOTM2NDJmZGI1YmRjNjhjZmFiZDk5MmZjMzQwYjIxZDk0",
+      "id": "0xbfdfb09145a4dbf3ad4883f0863ea5293642fdb5bdc68cfabd992fc340b21d94",
+      "title": "TIP25 - Adjusting reward allocation for trade mining (LON 交易挖矿激励调整)",
+      "content": "#### Background\n- Based on the LON litepaper, for every 1 LON bought back, 1 LON will be minted. The LON minted will be distributed to the traders, market makers, relayers and referrers \n- More specifically, referrers earn 15% of the total trade mining reward pool. \n- Unfortunately, after genesis mining, we have not achieved the desired results from the referral program \n- Few people have successfully referred users to Tokenlon, which led to a situation of a small group of users receiving 15% of the trade mining pool. \n- This is unfair to the other groups who contributed proportionally more trading volume\n\n#### Goal Of Proposal\nCall for LON holders to vote on the reward pool allocation for referrers\n\n#### Proposed Action Items\nAccording to the voting result, the change will take effect in the phase VIII LON trade mining\n\n#### Voting Rules\n- Addresses with more than 0 LON or xLON can vote\n- Addresses currently participating in LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n- Voting start time: 2021.12.1 12:30 pm UTC+8\n- Voting end time: 2021.12.3 12:30 pm UTC+8\n\n#### Voting Options\n- A. Continue with the current scheme, with a revamped referral scheme. Retain 15% rewards for referrers.\n- B. Lower referrer rewards down to 5%, traders to receive 45%\n- C. Lower referrer rewards down to 0%, traders to receive 50%\n\n---\n#### 背景\n- 根据 LON 白皮书中设计的经济模型，交易挖矿因子默认值为 1，即每回购 1 个 LON，就会有 1 个 LON 被铸出，铸出的 LON 将根据网络参与者的奖励比例来进行分配\n- 其中，Tokenlon 新用户的推荐者可以瓜分 15% 的 LON 邀请奖励\n- 从历史的邀请情况来看，邀请奖励池被少数地址瓜分，并没有起到拉新的作用，核心团队也收到了很多来自社区的类似反馈\n\n#### 目的\n由社区投票，来决定是否调整 LON 交易挖矿中邀请奖池的比例\n\n#### 提案执行项\n根据投票结果，来实施调整下一期 (第八期) LON 交易挖矿的奖池分配比例，本次投票结果只影响奖励分配，不影响原来的算力公式。\n\n#### 投票规则\n- 持有 LON、xLON 或 LON LP token 的钱包地址均能参与投票（包含未认领的 LON 奖励）\n- 治理投票开启时间：2021.12.1 12:30 pm UTC+8\n- 治理投票结束时间：2021.12.3 12:30 pm UTC+8\n\n#### 投票选项\n- A. 邀请奖池占比保持 15% 不变，交易奖池占比依然为 35%\n- B. 邀请奖池占比下降至 5%，交易奖池占比从 35% 增加至 45%\n- C. 邀请奖池占比下降至 0% 交易奖池占比从 35% 增加为 50%",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 50,
+      "blockNumber": 13719023,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0xbfdfb09145a4dbf3ad4883f0863ea5293642fdb5bdc68cfabd992fc340b21d94",
+      "startTime": {
+        "timestamp": 1638333000
+      },
+      "endTime": {
+        "timestamp": 1638505800
+      },
+      "startTimestamp": 1638333000,
+      "endTimestamp": 1638505800,
+      "currentState": "closed",
+      "choices": [
+        "A",
+        "B",
+        "C"
+      ],
+      "results": [
+        {
+          "total": 150.00003,
+          "choice": 0
+        },
+        {
+          "total": 56365.414,
+          "choice": 2
+        },
+        {
+          "total": 99641.88,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 150.000035,
+          "choice": 0
+        },
+        {
+          "total": 186878.9968104363,
+          "choice": 1
+        },
+        {
+          "total": 68429.87607612878,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHg5ZmMyNjUxYTQ2ZDQwZWJhM2NjMTZmZTg1MmQ2MzY0NGM1ZjA2MjQyYjcwZDgzYjdhYzMzNzgzZmFlMzFlYmQ3",
+      "id": "0x9fc2651a46d40eba3cc16fe852d63644c5f06242b70d83b7ac33783fae31ebd7",
+      "title": "TIP26 - Change the buyback mechanism (LON 回购机制调整)",
+      "content": "#### Background\n- Tokenlon’s network fees are bought back and distributed to the treasury and staking pool. Furthermore, for every LON bought back, one LON will be minted and distributed to the trade mining reward pool\n- Any community member can trigger a buyback and distribute the rewards to the treasury, staking pool and trade mining reward pool\n- However, due to high gas fees on the Ethereum network, much fewer users have triggered a buyback\n- This has led to the three pools receiving fewer rewards in the short term\n- We want to increase the buyback amount and reduce spending on gas fees\n\nWhat we propose- To carry out buyback only under these conditions\n- Change buyback period from 1 day to 3 days\n- Limit slippage tolerance to 3%\n- Limit maximum buyback amount to $100,000\n- Make buyback based on transaction fees at any point in time\n\n#### Goal Of Proposal\nChange the buyback mechanism to improve the user experience and for LON holders to receive rewards quicker\n\n#### Proposed Action Items\nImplement after the voting result is out, the exact time of launch will depend on the preparation\n\n#### Voting Rules\n- Addresses with more than 0 LON or xLON can vote\n- Addresses currently participating in LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n- Voting start time: 2021.12.1 12:30 pm UTC+8\n- Voting end time: 2021.12.3 12:30 pm UTC+8\n\n#### Voting Options\nA. Increase minimum buyback amount based on conditions stated above\nB. Maintain current buyback mechanism (no change)\n\n---\n#### 背景\n- 根据 LON 经济模型设计，LON 每次回购会 1:1 触发铸币，用于奖励交易挖矿的用户、做市商等 Tokenlon 生态各贡献者\n- 回购的代币按 4:6 的分配比例，进入到财库和用于 LON 质押奖励\n- 由于 Tokenlon 所在的以太坊一层网络交易成本高，导致社区点击 LON 回购不积极，导致回购频率下滑，回购数量较同期减少。\n- 回购数量少会导致交易挖矿奖池规模变小，同时也会影响到 LON 质押的奖励\n- 核心团队会不定期对成功发起 LON 回购的社区用户进行矿工费补贴，已进行了三次补贴\n\n核心团队提议按以下规则来配置代币回购参数\n- 回购频次由 1 天一次改为 3 天一次\n- 回购滑点限制在 3% 以下\n- 最大单次回购额度 $100,000\n- 依据捕获手续费中沉淀额度，来决定单币回购数量 \n\n#### 目的\n希望由社区治理，决定后续的 LON 回购机制的优化方向\n\n#### 投票执行项\n根据投票结果，调整 LON 回购机制，具体生效日期请关注官方公告\n\n#### 投票规则\n- 持有 LON、xLON 或 LON LP token 的钱包地址均能参与投票（包含未认领的 LON 奖励）\n- 治理投票开启时间：2021.12.1 12:30 pm UTC+8\n- 治理投票结束时间：2021.12.3 12:30 pm UTC+8\n\n#### 投票选项\n- A. 提升单次 LON 回购额度，回购周期视情况弹性调整\n- B. 回购机制不变，保持现状",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 48,
+      "blockNumber": 13719063,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0x9fc2651a46d40eba3cc16fe852d63644c5f06242b70d83b7ac33783fae31ebd7",
+      "startTime": {
+        "timestamp": 1638333000
+      },
+      "endTime": {
+        "timestamp": 1638505800
+      },
+      "startTimestamp": 1638333000,
+      "endTimestamp": 1638505800,
+      "currentState": "closed",
+      "choices": [
+        "A",
+        "B"
+      ],
+      "results": [
+        {
+          "total": 224691.06,
+          "choice": 0
+        },
+        {
+          "total": 342.33365,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 324043.78310685296,
+          "choice": 0
+        },
+        {
+          "total": 342.333645,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHg5NGE1Y2JkNDNiNzk4NDcxMjI4YzFjZDg5M2U0MmUwM2U2ZjZiZjJmNjE4ZTVkOGY0NDgwOTA3ZTQ0MzMzZDc4",
+      "id": "0x94a5cbd43b798471228c1cd893e42e03e6f6bf2f618e5d8f4480907e44333d78",
+      "title": "TIP23 - Rewards for LON buyback III (第三次 LON 回购社区激励)",
+      "content": "#### Background Context\n- The LON Buyback was launched on 1st April and it has performed well over the last 7 months.\n- As of today, 3,811,210.66 LON has been repurchased, and **41** unique addresses have triggered buyback successfully from **10th August 4:00 pm UTC to 14th November 4:00 pm UTC**.\n- Anyone can initiate the LON buyback, but you will incur miner fees when calling the buyback contract. The higher of the miner fee, the higher cost you incur to trigger the buyback.\n\n#### Goal Of Proposal\nWe would like the community to decide on whether to airdrop LON rewards to these 41 addresses for their work in triggering the LON buyback between 10th August 4:00 pm UTC and 14th November 4:00 pm UTC for the community. The rewards will come from the LON treasury.\n\n#### Proposed Action Items\nAccording to the voting result, we will decide whether to implement the reward. And if the proposal passes, the LON airdrop time will be determined.\n\n#### Voting Rules\n- Addresses with more than 0 LON can vote\n- Addresses with more than 0 xLON can vote\n- Addresses currently participating in LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n- Voting start time: 2021.11.17 7:00 UTC\n- Voting end time: 2021.11.19 7:00 UTC\n\n#### Voting Options\n- A. Each address gets 20 LON rewards\n- B. Each address gets 30 LON rewards\n- C. Each address gets 40 LON rewards\n- D. No reward\n\n----\n#### 背景\n- LON 回购自 4 月 1 日正式启动，已正常运转近 7 个多月的时间。截至 2021.11.15，已累计回购了 3,811,210.66 LON，回购链上数据请见：https://cn.etherscan.com/address/0xbF1C2c17CC77e7Dec3466B96F46f93c09f02aB07\n- 根据链上数据统计，在 **8 月 11 日 0:00 am UTC+8 至 11 月 15 日 0:00 am UTC+8** 成功发起回购的地址数有 **41** 个，触发 LON 回购 151 次；每发起一笔 LON 回购平均消耗 0.0171 ETH（约 30 LON左右），中位数为 0.0172 ETH\n- LON 回购可由社区任何人发起，但需支付调用回购合约的矿工费，矿工费随以太坊主网拥堵情况而变动。\n\n#### 目的\n由社区决定，是否对 **8 月 11 日 0:00 am UTC+8 至 11 月 15 日 0:00 am UTC+8** 之间成功发起回购的 **41** 个地址进行 LON 空投奖励，感谢他们对于 LON 回购的支持，奖励将由 LON 财库支出。\n\n#### 提案执行项\n根据提案投票结果决定是否实施激励，具体 LON 奖励空投时间待定\n\n#### 投票规则\n- 持有 LON 大于 0 的地址能够参与本次治理投票\n- 持有 xLON 大于 0 的地址能够参与本次治理投票\n- 参与 LON 流动性挖矿或持有对应 LP 代币的地址能够参与本次治理投票（包含未领取 LON 奖励）\n- 治理投票开启时间：2021.11.17 15:00 UTC+8\n- 治理投票结束时间：2021.11.19 15:00 UTC+8\n\n#### 投票选项\n- A. 每个成功发起 LON 回购地址，奖励 20 LON\n- B. 每个成功发起 LON 回购地址，奖励 30 LON\n- C. 每个成功发起 LON 回购地址，奖励 40 LON\n- D. 不给予奖励",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 73,
+      "blockNumber": 13631528,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0x94a5cbd43b798471228c1cd893e42e03e6f6bf2f618e5d8f4480907e44333d78",
+      "startTime": {
+        "timestamp": 1637132400
+      },
+      "endTime": {
+        "timestamp": 1637305200
+      },
+      "startTimestamp": 1637132400,
+      "endTimestamp": 1637305200,
+      "currentState": "closed",
+      "choices": [
+        "A. 20 LON for each address",
+        "B. 30 LON for each address",
+        "C. 40 LON for each address",
+        "D. No reward"
+      ],
+      "results": [
+        {
+          "total": 2063.6257,
+          "choice": 3
+        },
+        {
+          "total": 36525.344,
+          "choice": 0
+        },
+        {
+          "total": 156700.56,
+          "choice": 2
+        },
+        {
+          "total": 3797.4463,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 49537.87857998409,
+          "choice": 0
+        },
+        {
+          "total": 5167.344582968595,
+          "choice": 1
+        },
+        {
+          "total": 218239.4271095457,
+          "choice": 2
+        },
+        {
+          "total": 2063.62565639256,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHg0MTdjMjdjYjU0YTlkMGI3MTVkNTc1YTMxMjkwMGVjNWRmM2U3NTBhNGZkMGQxYWNmOTIzYTk5MmQ1MzhiZDI1",
+      "id": "0x417c27cb54a9d0b715d575a312900ec5df3e750a4fd0d1acf923a992d538bd25",
+      "title": "TIP22 - Listing ENS token (Tokenlon 上线 ENS 代币)",
+      "content": "#### Background\n- Tokenlon protocol currently adopts a whitelist approach for listing new assets. The core team collects potential assets from the community and checks liquidity before the listing.\n- For tokens that meet the liquidity requirement, the core team will create a governance proposal and the community can now vote on the proposal to decide on the new token listing.\n\n#### Proposed new assets to support\n| Token     | Contract Address | \n| :---        |    :----  | \n|ENS|0xc18360217d8f7ab5e7c516566761ea12ce7f9d72|\n\n#### Goal\nLet the community decide on the new asset listing\n\n#### Proposed Action Items\nImplement after the voting result is out, the exact time will depend on the preparation\n\n#### Voting Rules\n- Addresses with more than 0 LON or xLON can vote\n- Addresses participating LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n- LON balance snapshot block: 13554876\n- Voting start time: 2021.11.5 6:00 am UTC\n- Voting end time: 2021.11.7 6:00 am UTC\n\n#### Voting Options\n- A. For, list ENS token\n- B. Against, don't list ENS\n\n---\n#### 背景\n- Tokenlon 协议目前采用白名单上币方式，由核心团队从社区收集候选资产并检查流动性后执行上币。\n- 通过流动性要求的新资产，将由核心团队发起治理提案，由社区投票决定是否支持。\n\n#### 本期提议新增支持资产\n| 代币名称    | 合约地址 | \n| :---        |    :----  | \n|ENS|0xc18360217d8f7ab5e7c516566761ea12ce7f9d72|\n\n#### 目的\n由社区投票决定新资产支持\n\n#### 提案执行项\n根据提案投票结果尽快实施，生效时间视 ENS 流动性情况而定\n\n#### 投票规则\n- 持有 LON 或 xLON 大于 0 的地址能够参与本次治理投票\n- 参与 LON 流动性挖矿或持有对应 LP 代币的地址能够参与本次治理投票（包含未领取 LON 奖励）\n- LON 持有量快照区块高度：13554876\n- 治理投票开启时间：2021.11.5 14:00 UTC+8\n- 治理投票结束时间：2021.11.7 14:00 UTC+8\n\n#### 投票选项\n- A. 支持，上线 ENS\n- B. 反对，不上线 ENS",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 44,
+      "blockNumber": 13554876,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0x417c27cb54a9d0b715d575a312900ec5df3e750a4fd0d1acf923a992d538bd25",
+      "startTime": {
+        "timestamp": 1636092000
+      },
+      "endTime": {
+        "timestamp": 1636264800
+      },
+      "startTimestamp": 1636092000,
+      "endTimestamp": 1636264800,
+      "currentState": "closed",
+      "choices": [
+        "A. For (支持，上线 ENS)",
+        "B. Against (反对，不上线 ENS)"
+      ],
+      "results": [
+        {
+          "total": 226970.36,
+          "choice": 0
+        },
+        {
+          "total": 5357.108,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 349643.64854745625,
+          "choice": 0
+        },
+        {
+          "total": 5357.107746630706,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6MHhmZDUzOTRmNjQxYWEwMGJiN2QyM2YxMzk1OTI1NWNmMjMxNTFjYTAzMTI3MGU2Y2MwNzdkNGE4NDVjY2E3MDAz",
+      "id": "0xfd5394f641aa00bb7d23f13959255cf23151ca031270e6cc077d4a845cca7003",
+      "title": "TIP21 - Tokenlon new assets listing VI ( Tokenlon 第六批新资产支持)",
+      "content": "#### Background\n- Tokenlon protocol currently adopts a whitelist approach for listing new assets. The core team collects potential assets from the community and checks liquidity before the listing.\n- For the assets meet the liquidity requirement, the core team will create a governance proposal and the community can now vote on the proposal to decide on the new asset listing.\n\n#### Proposed new assets to support\n| Token     | Contract Address | \n| :---        |    :----  | \n|AMP|0xff20817765cb7f73d4bde2e66e067e58d11095c2|\n|AXS|0xbb0e17ef65f82ab018d8edd776e8dd940327b28b|\n|BOND|0x0391d2021f89dc339f60fff84546ea23e337750f|\n|CEL|0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d|\n|DYDX|0x92d6c1e31e14520e676a687f0a93788b716beff5|\n|ERN|0xbbc2ae13b23d715c30720f079fcd9b4a74093505|\n|FLOAT|0xb05097849bca421a3f51b249ba6cca4af4b97cb9|\n|FODL|0x4c2e59d098df7b6cbae0848d66de2f8a4889b9c3|\n|GNO|0x6810e776880c02933d47db1b9fc05908e5386b96|\n|INJ|0xe28b3b32b6c345a34ff64674606124dd5aceca30|\n|LIT|0xb59490ab09a0f526cc7305822ac65f2ab12f9723|\n|LPT|0x58b6a8a3302369daec383334672404ee733ab239|\n|MASK|0x69af81e73a73b40adf4f3d4223cd9b1ece623074|\n|MVI|0x72e364f2abdc788b7e918bc238b21f109cd634d7|\n|NU|0x4fe83213d56308330ec302a8bd641f1d0113a4cc|\n|OHM|0x383518188c0c6d7730d91b2c03a03c837814a899|\n|POLS|0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa|\n|QNT|0x4a220e6096b25eadb88358cb44068a3248254675|\n|SLP|0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25|\n|SPELL|0x090185f2135308bad17527004364ebcc2d37e5f6|\n|TOKE|0x2e9d63788249371f1dfc918a52f8d799f4a38c94|\n|TRIBE|0xc7283b66eb1eb5fb86327f08e1b5816b0720212b|\n\n#### Goal\nLet the community decide on the new asset listing\n\n#### Proposed Action Items\nImplement after the voting result is out, the exact time will depend on the preparation\n\n#### Voting Rules\n- Addresses with more than 0 LON or xLON can vote\n- Addresses participating LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n- LON balance snapshot block: 13536476\n- Voting start time: 2021.11.2 8:00 am UTC\n- Voting end time: 2021.11.4 8:00 am UTC\n\n#### Voting Options\n- A. For, list these new assets\n- B. Against, don't list these new assets\n\n---\n#### 背景\n- Tokenlon 协议目前采用白名单上币方式，由核心团队从社区收集候选资产并检查流动性后执行上币。\n- 通过流动性要求的新资产，将由核心团队发起治理提案，由社区投票决定是否支持。\n\n#### 本期提议新增支持资产\n| 代币名称    | 合约地址 | \n| :---        |    :----  | \n|AMP|0xff20817765cb7f73d4bde2e66e067e58d11095c2|\n|AXS|0xbb0e17ef65f82ab018d8edd776e8dd940327b28b|\n|BOND|0x0391d2021f89dc339f60fff84546ea23e337750f|\n|CEL|0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d|\n|DYDX|0x92d6c1e31e14520e676a687f0a93788b716beff5|\n|ERN|0xbbc2ae13b23d715c30720f079fcd9b4a74093505|\n|FLOAT|0xb05097849bca421a3f51b249ba6cca4af4b97cb9|\n|FODL|0x4c2e59d098df7b6cbae0848d66de2f8a4889b9c3|\n|GNO|0x6810e776880c02933d47db1b9fc05908e5386b96|\n|INJ|0xe28b3b32b6c345a34ff64674606124dd5aceca30|\n|LIT|0xb59490ab09a0f526cc7305822ac65f2ab12f9723|\n|LPT|0x58b6a8a3302369daec383334672404ee733ab239|\n|MASK|0x69af81e73a73b40adf4f3d4223cd9b1ece623074|\n|MVI|0x72e364f2abdc788b7e918bc238b21f109cd634d7|\n|NU|0x4fe83213d56308330ec302a8bd641f1d0113a4cc|\n|OHM|0x383518188c0c6d7730d91b2c03a03c837814a899|\n|POLS|0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa|\n|QNT|0x4a220e6096b25eadb88358cb44068a3248254675|\n|SLP|0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25|\n|SPELL|0x090185f2135308bad17527004364ebcc2d37e5f6|\n|TOKE|0x2e9d63788249371f1dfc918a52f8d799f4a38c94|\n|TRIBE|0xc7283b66eb1eb5fb86327f08e1b5816b0720212b|\nAMP、FLOAT、POLS 等代币，因报价问题延迟至第六批上线\n\n#### 目的\n由社区投票决定新资产支持\n\n#### 提案执行项\n根据提案投票结果尽快实施，生效时间根据实际准备情况决定\n\n#### 投票规则\n- 持有 LON 或 xLON 大于 0 的地址能够参与本次治理投票\n- 参与 LON 流动性挖矿或持有对应 LP 代币的地址能够参与本次治理投票（包含未领取 LON 奖励）\n- LON 持有量快照区块高度：13536476\n- 治理投票开启时间：2021.11.2 16:00 UTC+8\n- 治理投票结束时间：2021.11.4 16:00 UTC+8\n\n#### 投票选项\n- A. 支持，上线以上币种\n- B. 反对，不上线以上币种",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 20,
+      "blockNumber": 13536476,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/0xfd5394f641aa00bb7d23f13959255cf23151ca031270e6cc077d4a845cca7003",
+      "startTime": {
+        "timestamp": 1635840000
+      },
+      "endTime": {
+        "timestamp": 1636012800
+      },
+      "startTimestamp": 1635840000,
+      "endTimestamp": 1636012800,
+      "currentState": "closed",
+      "choices": [
+        "A. For (支持)",
+        "B. Against (反对)"
+      ],
+      "results": [
+        {
+          "total": 145158.17,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 145158.15614592656,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1ub3Z5YzRyeGpyYmtiemxtc3VqeWhucWhtYWd6eGF2Ynhxb3FhZXVnYnA3eQ==",
+      "id": "QmNovYC4rXjrbKbzLMsujyHnqHmaGZXAvBXqoQaEUGBP7y",
+      "title": "TIP20 - LON Liquidity Incentive Phase VII (第七期 LON 流动性激励)",
+      "content": "#### Background\n- According to the Tokenlon litepaper, 10,000,000 LON is reserved for liquidity related incentives.\n- Phase VI of LON liquidity mining will end on October 19, and phase VII will be launched at the same time. It will last for 8 weeks and ends on December 9.\n- Phase VII LON incentive will be rewarded in the same way to the below two liquidity pools:\n-- LON/ETH pool on Uniswap\n-- LON/USDT pool on Sushiswap\n- Note: Users who have participated in phase VI LON liquidity mining do not need to redeem their LP token from the old contract,. The LP token will be automatically transferred to the new phase (phase VII) of the liquidity mining contract.\n\n#### Goal\nLet the community decide on the number of LON for Liquidity Incentive Phase VII\n\n#### Proposed Action Items\nMake changes based on the voting results of the proposal, and take effect on 2021.10.14 4:00 UTC\n\n#### Voting Rules\n- Addresses with more than 0 LON, xLON or LON related LP tokens can vote (including unclaimed LON reward)\n- LON balance snapshot block: 13401999\n- Voting start time: 2021.10.12 6:00 UTC\n- Voting end time: 2021.10.13 8:00 UTC\n\n\n#### Voting Options\n- A. Each of the two pools receives 500,000 LON as the Phase VII Liquidity Incentive\n- B. Each of the two pools receives 450,000 LON as the Phase VII Liquidity Incentive\n- C. Each of the two pools receives 400,000 LON as the Phase VII Liquidity Incentive\n- D. Each of the two pools receives 350,000 LON as the Phase VII Liquidity Incentive\n\n---\n#### 背景\n- 根据 Tokenlon litepaper 内容，10,000,000 LON 可被用于流动性相关激励。\n- 第六期流动性挖矿将于 10 月 14 日结束，并同时开启第七期 LON 流动性激励，为期 8 周，于 12 月 9 日结束。\n- 第七期将采用同样的形式激励以下两个流动性池：\n -- Uniswap 上的 LON/ETH 池\n -- Sushiswap 上的 LON/USDT 池\n- 已经参与第六期 LON 流动性激励的用户，无需进行任何操作，LP token 将会自动转入新一期（第六期）的流动性激励合约中。\n\n#### 目的\n由社区投票决定激励力度，开启第七期 LON 流动性激励\n\n#### 提案执行项\n根据提案投票结果实施激励，生效时间为 2021.10.14 12:00 PM UTC+8\n\n#### 投票规则\n- 钱包地址余额 LON（包含未领取的奖励），xLON 或 LON 相关 LP Token 大于 0 的地址能够参与本次治理投票\n- LON 持有量快照区块高度：13401999\n- 治理投票开启时间：2021.10.12 14:00 UTC+8\n- 治理投票结束时间：2021.10.13 16:00 UTC+8\n\n#### 投票选项\n- A. 两个池分别获得 500,000 LON 作为第七期流动性激励\n- B. 两个池分别获得 450,000 LON 作为第七期流动性激励\n- C. 两个池分别获得 400,000 LON 作为第七期流动性激励\n- D. 两个池分别获得 350,000 LON 作为第七期流动性激励",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 22,
+      "blockNumber": 13401999,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmNovYC4rXjrbKbzLMsujyHnqHmaGZXAvBXqoQaEUGBP7y",
+      "startTime": {
+        "timestamp": 1634018400
+      },
+      "endTime": {
+        "timestamp": 1634112000
+      },
+      "startTimestamp": 1634018400,
+      "endTimestamp": 1634112000,
+      "currentState": "closed",
+      "choices": [
+        "A. 500,000 LON for each pool",
+        "B. 450,000 LON for each pool",
+        "C. 400,000 LON for each pool",
+        "D. 350,000 LON for each pool"
+      ],
+      "results": [
+        {
+          "total": 153644.3,
+          "choice": 3
+        },
+        {
+          "total": 21718.898,
+          "choice": 0
+        },
+        {
+          "total": 2749.1506,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 21718.899209502277,
+          "choice": 0
+        },
+        {
+          "total": 2749.1507596880897,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 153644.3039125489,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW12ajNkZWdtcHdtZG5yMm1oZnZvbGp3ZHRzZTdvdm55OGQ5enZwaDJjYjd0Yw==",
+      "id": "QmVj3DeGmPWmdnr2MhFVoLJwdTsE7ovNY8D9zVph2CB7tc",
+      "title": "TIP19 - Tokenlon new assets listing VI (第六批 Tokenlon 新资产支持)",
+      "content": "#### Background\n\n- Tokenlon protocol currently adopts a whitelist approach for listing new assets. The core team collects potential assets from the community and checks liquidity before the listing.\n- For the assets meet the liquidity requirement, the core team will create a governance proposal and the community can now vote on the proposal to decide on the new asset listing.\n- Proposed new assets to support:\n\n| Token  | Contract Address | \n| :---        |    :----  | \n|AMP|0xff20817765cb7f73d4bde2e66e067e58d11095c2|\n|AXS|0xbb0e17ef65f82ab018d8edd776e8dd940327b28b|\n|BOND|0x0391d2021f89dc339f60fff84546ea23e337750f|\n|CEL|0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d|\n|DYDX|0x92d6c1e31e14520e676a687f0a93788b716beff5|\n|ERN|0xbbc2ae13b23d715c30720f079fcd9b4a74093505|\n|FLOAT|0xb05097849bca421a3f51b249ba6cca4af4b97cb9|\n|GNO|0x6810e776880c02933d47db1b9fc05908e5386b96|\n|LIT|0xb59490ab09a0f526cc7305822ac65f2ab12f9723|\n|LPT|0x58b6a8a3302369daec383334672404ee733ab239|\n|INJ|0xe28b3b32b6c345a34ff64674606124dd5aceca30|\n|MASK|0x69af81e73a73b40adf4f3d4223cd9b1ece623074|\n|NU|0x4fe83213d56308330ec302a8bd641f1d0113a4cc|\n|POLS|0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa|\n|QNT|0x4a220e6096b25eadb88358cb44068a3248254675|\n|SLP|0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25|\n|TRIBE|0xc7283b66eb1eb5fb86327f08e1b5816b0720212b|\n\n#### Goal\nLet the community decide on the new asset listing\n\n#### Proposed Action Items\nImplement after the voting result is out, the exact time will depend on the preparation\n\n#### Voting Rules\n- Addresses with more than 0 LON can vote\n- Addresses with more than 0 xLON can vote\n- Addresses participating LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n- LON balance snapshot block: 13197327\n- Voting start time: **2021.9.10 10:00 am UTC**\n- Voting end time: **2021.9.12 10:00 am UTC**\n\n#### Voting Options\n- A. For, list these new assets\n- B. Against, don’t list these new assets\n\n---\n#### 背景\n- Tokenlon 协议目前采用白名单上币方式，由核心团队从社区收集候选资产并检查流动性后执行上币。\n- 通过流动性要求的新资产，将由核心团队发起治理提案，由社区投票决定是否支持。\n- 本期提议新增支持资产：\n\n| 代币名称  | 合约地址 | \n| :---        |    :----  | \n|AMP|0xff20817765cb7f73d4bde2e66e067e58d11095c2|\n|AXS|0xbb0e17ef65f82ab018d8edd776e8dd940327b28b|\n|BOND|0x0391d2021f89dc339f60fff84546ea23e337750f|\n|CEL|0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d|\n|DYDX|0x92d6c1e31e14520e676a687f0a93788b716beff5|\n|ERN|0xbbc2ae13b23d715c30720f079fcd9b4a74093505|\n|FLOAT|0xb05097849bca421a3f51b249ba6cca4af4b97cb9|\n|GNO|0x6810e776880c02933d47db1b9fc05908e5386b96|\n|LIT|0xb59490ab09a0f526cc7305822ac65f2ab12f9723|\n|LPT|0x58b6a8a3302369daec383334672404ee733ab239|\n|INJ|0xe28b3b32b6c345a34ff64674606124dd5aceca30|\n|MASK|0x69af81e73a73b40adf4f3d4223cd9b1ece623074|\n|NU|0x4fe83213d56308330ec302a8bd641f1d0113a4cc|\n|POLS|0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa|\n|QNT|0x4a220e6096b25eadb88358cb44068a3248254675|\n|SLP|0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25|\n|TRIBE|0xc7283b66eb1eb5fb86327f08e1b5816b0720212b|\n\nAMP、FLOAT、POLS 因报价问题延迟至第六批上线\n\n#### 目的\n由社区投票决定新资产支持\n\n#### 提案执行项\n根据提案投票结果尽快实施，生效时间根据实际准备情况决定\n\n#### 投票规则\n- 持有 LON 大于 0 的地址能够参与本次治理投票\n- 持有 xLON 大于 0 的地址能够参与本次治理投票\n- 参与 LON 流动性挖矿或持有对应 LP 代币的地址能够参与本次治理投票（包含未领取 LON 奖励）\n- LON 持有量快照区块高度：13197327\n- 治理投票开启时间：**2021.9.10 18:00 UTC+8**\n- 治理投票结束时间：**2021.9.12 18:00 UTC+8**\n\n#### 投票选项\n- A. 支持，上线以上币种\n- B. 反对，不上线以上币种\n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 74,
+      "blockNumber": 13197327,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmVj3DeGmPWmdnr2MhFVoLJwdTsE7ovNY8D9zVph2CB7tc",
+      "startTime": {
+        "timestamp": 1631268000
+      },
+      "endTime": {
+        "timestamp": 1631440800
+      },
+      "startTimestamp": 1631268000,
+      "endTimestamp": 1631440800,
+      "currentState": "closed",
+      "choices": [
+        "A. For (支持)",
+        "B. Against (反对)"
+      ],
+      "results": [
+        {
+          "total": 30035.59,
+          "choice": 0
+        },
+        {
+          "total": 47774.715,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 30035.59415214317,
+          "choice": 0
+        },
+        {
+          "total": 47774.715505812615,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1kOXBxazJuZm90YWdqMXRvN2NlZzVldnczY29zdzZuYnB5d2t6aDZiYjk0Zg==",
+      "id": "Qmd9pQK2nFotaGj1to7CeG5EvW3coSw6nbpyWkZH6Bb94f",
+      "title": "TIP18 - LON Liquidity Incentive Phase VI (第六期 LON 流动性激励)",
+      "content": "#### Background\n- According to the Tokenlon litepaper, 10,000,000 LON is reserved for liquidity related incentives.\n- Phase V of LON liquidity mining will end on August 19, and **phase VI will be launched at the same time. It will last for 8 weeks and ends on October 14**.\n- Phase VI LON incentive will be rewarded in the same way to the below two liquidity pools:\n -- LON/ETH pool on Uniswap\n -- LON/USDT pool on Sushiswap\n- Note: Users who have participated in phase V LON liquidity mining do not need to redeem their LP token from the old contract,. The LP token will be automatically transferred to the new phase (phase VI) of the liquidity mining contract.\n\n#### Goal\nLet the community decide on the number of LON for Liquidity Incentive Phase VI\n\n#### Proposed Action Items\nMake changes based on the voting results of the proposal, and **take effect on 2021.8.19 4:00 UTC**\n\n#### Voting Rules\n- Addresses with more than 0 LON, xLON or LON related LP tokens can vote (including unclaimed LON reward)\n- LON balance snapshot block: **13037177**\n- Voting start time: **2021.8.16 4:00 pm UTC**\n- Voting end time: **2021.8.18 4:00 pm UTC**\n\n#### Voting Options\n- A. Each of the two pools receives 450,000 LON as the Phase VI Liquidity Incentive\n- B. Each of the two pools receives 400,000 LON as the Phase VI Liquidity Incentive\n- C. Each of the two pools receives 350,000 LON as the Phase VI Liquidity Incentive\n- D. Each of the two pools receives 300,000 LON as the Phase VI Liquidity Incentive\n\n---\n\n#### 背景\n- 根据 Tokenlon litepaper 内容，10,000,000 LON 可被用于流动性相关激励。\n- 第五期流动性挖矿将于 8 月 19 日结束，并**同时开启第六期 LON 流动性激励，为期 8 周，于 10 月 14 日结束**。\n- 第六期将采用同样的形式激励以下两个流动性池：\n-- Uniswap 上的 LON/ETH 池\n-- Sushiswap 上的 LON/USDT 池\n- 已经参与第五期 LON 流动性激励的用户，无需进行任何操作，LP token 将会自动转入新一期（第六期）的流动性激励合约中。\n\n#### 目的\n由社区投票决定激励力度，开启第六期 LON 流动性激励\n\n#### 提案执行项\n根据提案投票结果实施激励，**生效时间为 2021.8.19 12:00 PM UTC+8**\n\n#### 投票规则\n- 钱包地址余额 LON（包含未领取的奖励），xLON 或 LON 相关 LP Token 大于 0 的地址能够参与本次治理投票\n- LON 持有量快照区块高度：**13037177**\n- 治理投票开启时间：**2021.8.17 00:00 UTC+8**\n- 治理投票结束时间：**2021.8.19 00:00 UTC+8**\n\n#### 投票选项\n- A. 两个池分别获得 450,000 LON 作为六期流动性激励\n- B. 两个池分别获得 400,000 LON 作为六期流动性激励\n- C. 两个池分别获得 350,000 LON 作为六期流动性激励\n- D. 两个池分别获得 300,000 LON 作为六期流动性激励",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 65,
+      "blockNumber": 13037177,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/Qmd9pQK2nFotaGj1to7CeG5EvW3coSw6nbpyWkZH6Bb94f",
+      "startTime": {
+        "timestamp": 1629129600
+      },
+      "endTime": {
+        "timestamp": 1629302400
+      },
+      "startTimestamp": 1629129600,
+      "endTimestamp": 1629302400,
+      "currentState": "closed",
+      "choices": [
+        "A. 450,000 LON for each pool",
+        "B. 400,000 LON for each pool",
+        "C. 350,000 LON for each pool",
+        "D. 300,000 LON for each pool"
+      ],
+      "results": [
+        {
+          "total": 2208.1516,
+          "choice": 3
+        },
+        {
+          "total": 19485.467,
+          "choice": 0
+        },
+        {
+          "total": 41095.36,
+          "choice": 2
+        },
+        {
+          "total": 818.2391,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 19485.466290429405,
+          "choice": 0
+        },
+        {
+          "total": 818.2390459713091,
+          "choice": 1
+        },
+        {
+          "total": 41095.357703601745,
+          "choice": 2
+        },
+        {
+          "total": 2208.15160346279,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW13bDRrajFjMWJza241M3NlaGJvd3lqYjdxdmx6bXhlaTVqeHJhc3Riem1keQ==",
+      "id": "QmWL4kJ1c1BSkn53sEhBowYjb7qVLZMXei5jxRaSTbZMdy",
+      "title": "TIP17 - Rewards for LON Buyback (第二次 LON 回购社区激励)",
+      "content": "#### Background Context\n- The LON Buyback was launched on 1st April and it has performed well over the last 4 months.\n- As of today, **2,511,970.44** LON has been repurchased, and **161** unique addresses have triggered buyback successfully from **12th May 4:00 pm UTC** to **10th August 4:00 pm UTC**. \n- Anyone can initiate the LON buyback, but you will incur miner fees when calling the buyback contract. The higher of the miner fee, the higher cost you incur to trigger the buyback.\n\n#### Goal Of Proposal\nWe would like the community to decide on whether to airdrop LON rewards to these **161** addresses for their work in triggering the LON buyback between **12th May 4:00 pm UTC** and **10th August 4:00 pm UTC** for the community. The rewards will come from the LON treasury.\n\n#### Proposed Action Items\nAccording to the voting result, we will decide whether to implement the reward. And if the proposal passes, the LON airdrop time will be determined.\n\n\n#### Voting Rules\n- Addresses with more than 0 LON can vote\n- Addresses with more than 0 xLON can vote\n- Addresses currently participating in LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n- LON balance snapshot block: **13008892**\n- Voting start time: **2021.8.12 7:00 UTC**\n- Voting end time: **2021.8.15 7:00 UTC**\n\n#### Voting Options\n- A. Each address gets 10 LON rewards\n- B. Each address gets 20 LON rewards\n- C. Each address gets 30 LON rewards\n- D. No reward\n\n----\n#### 背景\n- LON 回购自 4 月 1 日正式启动，已正常运转近 4 个多月的时间，并已陆续开放所有 Tokenlon 手续费代币参与 LON 回购；\n- 截至目前，已累计回购了 **2,511,970.44** LON，在 **5 月 13 日 0:00 am UTC+8** 至 **8 月 11 日 0:00 am UTC+8** 成功发起回购的地址数有 **161** 个；\n- LON 回购可由社区任何人发起，但需支付调用回购合约的矿工费，矿工费随以太坊主网拥堵情况而变动。\n\n#### 目的\n由社区决定，是否对 **5 月 13 日 0:00 am UTC+8** 至 **8 月 11 日 0:00 am UTC+8** 之间成功发起回购的 **161** 地址进行 LON 空投奖励，感谢他们对于 LON 回购的支持，奖励将由 LON 财库支出。\n\n#### 提案执行项\n根据提案投票结果决定是否实施激励，具体 LON 奖励空投时间待定\n\n#### 投票规则\n- 持有 LON 大于 0 的地址能够参与本次治理投票\n- 持有 xLON 大于 0 的地址能够参与本次治理投票\n- 参与 LON 流动性挖矿或持有对应 LP 代币的地址能够参与本次治理投票（包含未领取 LON 奖励）\n- LON 持有量快照区块高度：**13008892**\n- 治理投票开启时间：**2021.8.12 15:00 UTC+8**\n- 治理投票结束时间：**2021.8.15 15:00 UTC+8**\n\n#### 投票选项\n- A. 每个成功发起 LON 回购地址，奖励 10 LON\n- B. 每个成功发起 LON 回购地址，奖励 20 LON\n- C. 每个成功发起 LON 回购地址，奖励 30 LON\n- D. 不给予奖励\n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 66,
+      "blockNumber": 13008892,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmWL4kJ1c1BSkn53sEhBowYjb7qVLZMXei5jxRaSTbZMdy",
+      "startTime": {
+        "timestamp": 1628751600
+      },
+      "endTime": {
+        "timestamp": 1629010800
+      },
+      "startTimestamp": 1628751600,
+      "endTimestamp": 1629010800,
+      "currentState": "closed",
+      "choices": [
+        "A. 10 LON for each address",
+        "B. 20 LON for each address",
+        "C. 30 LON for each address",
+        "D. No reward"
+      ],
+      "results": [
+        {
+          "total": 37217.99,
+          "choice": 3
+        },
+        {
+          "total": 47.819733,
+          "choice": 0
+        },
+        {
+          "total": 127096.39,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 47.819730675480905,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 127096.38615615157,
+          "choice": 2
+        },
+        {
+          "total": 37217.98793454176,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1jcjhmNTRmbThzZWdxNnMxaHd6YnlzeWtuZ3luZHQ3NWFiY2tta3ZuOGhocQ==",
+      "id": "Qmcr8F54fm8segq6s1hWzbYSYKnGyNdT75AbcKMkvN8hHQ",
+      "title": "TIP16 - LON Liquidity Incentive Phase V（第五期 LON 流动性激励）",
+      "content": "#### Background\n- According to the Tokenlon litepaper, 10,000,000 LON is reserved for liquidity related incentives.\n- Phase IV of LON liquidity mining will end on June 24, and phase V will be launched at the same time. It lasts for 8 weeks and ends on August 19.\n- Phase V LON incentive will be rewarded in the same way to the below two liquidity pools:\nLON/ETH pool on Uniswap\nLON/USDT pool on Sushiswap\n- Users who have participated in phase IV LON liquidity mining do not need to redeem thier LP token from the old contract, the LP token will be automatically transferred to the new phase (phase V) of the liquidity mining contract.\n\n#### Goal\nLet the community decide on the number of LON for Liquidity Incentive Phase V\n\n#### Proposed Action Items\nMake changes based on the voting results of the proposal, and take effect at 2021.6.24 4:00 UTC\n\n#### Voting Rules\n- Addresses with more than 0 LON, xLON or LON related LP tokens can vote (including unclaimed LON reward)\n- LON balance snapshot block: **12681683**\n- Voting start time: **2021.6.22 3:30 UTC**\n- Voting end time: **2021.6.23 10:30 UTC**\n\n#### Voting Options\n- A. Each of the two pools receives 500,000 LON as the Phase V Liquidity Incentive\n- B. Each of the two pools receives 450,000 LON as the Phase V Liquidity Incentive\n- C. Each of the two pools receives 400,000 LON as the Phase V Liquidity Incentive\n- D. Each of the two pools receives 350,000 LON as the Phase V Liquidity Incentive\n\n---\n\n#### 背景\n- 根据 Tokenlon litepaper 内容，10,000,000 LON 可被用于流动性相关激励。\n- 第四期流动性挖矿将于 6 月 24 日结束，并同时开启第五期 LON 流动性激励，为期 8 周，于 8 月 19 日结束。\n- 第五期将采用同样的形式激励以下两个流动性池：\nUniswap 上的 LON/ETH 池\nSushiswap 上的 LON/USDT 池\n- 已经参与第四期 LON 流动性激励的用户，无需进行任何操作，LP token 将会自动转入新一期（第五期）的流动性激励合约中。\n\n#### 目的\n由社区投票决定激励力度，开启第五期 LON 流动性激励\n\n#### 提案执行项\n根据提案投票结果实施激励，生效时间为 2021.6.24 12:00 PM UTC+8\n\n#### 投票规则\n- 钱包地址余额 LON（包含未领取的奖励），xLON 或 LON 相关 LP Token 大于 0 的地址能够参与本次治理投票\n- LON 持有量快照区块高度：**12681683**\n- 治理投票开启时间：**2021.6.22 11:30 UTC+8**\n- 治理投票结束时间：**2021.6.23 18:30 UTC+8**\n\n#### 投票选项\n- A. 两个池分别获得 500,000 LON 作为五期流动性激励\n- B. 两个池分别获得 450,000 LON 作为五期流动性激励\n- C. 两个池分别获得 400,000 LON 作为五期流动性激励\n- D. 两个池分别获得 350,000 LON 作为五期流动性激励",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 55,
+      "blockNumber": 12681683,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/Qmcr8F54fm8segq6s1hWzbYSYKnGyNdT75AbcKMkvN8hHQ",
+      "startTime": {
+        "timestamp": 1624332600
+      },
+      "endTime": {
+        "timestamp": 1624444200
+      },
+      "startTimestamp": 1624332600,
+      "endTimestamp": 1624444200,
+      "currentState": "closed",
+      "choices": [
+        "A. 500,000 LON for each pool",
+        "B. 450,000 LON for each pool",
+        "C. 400,000 LON for each pool",
+        "D. 350,000 LON for each pool"
+      ],
+      "results": [
+        {
+          "total": 90474.79,
+          "choice": 3
+        },
+        {
+          "total": 66137.37,
+          "choice": 0
+        },
+        {
+          "total": 111.65632,
+          "choice": 2
+        },
+        {
+          "total": 2.4400063,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 66137.36634643967,
+          "choice": 0
+        },
+        {
+          "total": 2.4400060000000003,
+          "choice": 1
+        },
+        {
+          "total": 111.65631901530564,
+          "choice": 2
+        },
+        {
+          "total": 90474.79715452455,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW13ZnJ2aGQ3b2huanMyanRwNGFoY2toeG5yYTMxdTF4Y3BtaXFhZnI0aDFocA==",
+      "id": "QmWFRvHd7ohnJs2jTP4aHcKHXNrA31U1xCpmiQaFR4H1Hp",
+      "title": "TIP15 - Adjustments on trade mining cycle and the MM’s rewards distribution（交易挖矿及做市商奖励发放周期调整）",
+      "content": "### Background\n- After the end of LON genesis mining, LON trade mining restarted on 1st April and phase III is in progress. As of 15th June, the total has reached 573,192.93 LONs which exceeds the total reward on phase II. The current trade mining cycle of each phase is 4 weeks.\n- The market maker is one of the key participant on LON trade mining. They will share the reward pool of the \"liquidity provider\" in each period. And after the end of each phase, they can claim their reward together with normal traders on Tokenlon,  but the reward will not be distributed in one time. Instead, the distribution will be finished in the next 6 months.\n\n### Goal\nLet the community decide on the adjustments on trade mining cycle and the MM’s rewards distribution\n\n### Proposed Action Items\nAccording to the voting result, the adjustment will be made to the cycle of trade mining on phase IV and future phases. And the adjustment of market maker rewards distribution will take effect immediately.\n\n### Voting Rules\n- Addresses with more than 0 LON, xLON or LON related LP tokens can vote (including unclaimed LON reward)\n- LON balance snapshot block: 12644039\n- **Voting start time: 2021.6.16 7:00 UTC**\n- **Voting end time: 2021.6.18 7:00 UTC**\n\n### Voting Options\n- A. Remain unchanged\n- B. Mining cycle remains unchanged, the MM’s reward will be distributed in one time after 3 months. \n- C. Mining cycle adjusts to 6 weeks, no change on MM’s reward distribution\n- D. Mining cycle adjusts to 6 weeks, the MM’s reward will be distributed in one time after 3 months.\n\n ---\n\n### 背景\n- 自 LON 创世挖矿结束后，LON 交易挖矿于 4 月 1 日重启，并已平稳运行 2 期，第三期交易挖矿进行中，截至 6 月 15 日，总奖池已累计 573,192.93 个 LON，已超第二期奖池规模，目前每期交易挖矿周期为 4 周。\n\n- 做市商作为交易挖矿参与方之一，每期将会瓜分「流动性提供方」奖池奖励，并且在每期结束后，与 Tokenlon 参与交易挖矿的用户同时开放 LON 奖励认领，并在 6 个月内线性释放完。\n\n### 目的\n由社区决定，是否调整交易挖矿周期以及是否对于做市商奖励发放的方式进行调整\n \n### 提案执行项\n根据投票结果，对第四期及以后的交易挖矿周期进行调整，做市商奖励发放方式调整立即生效。\n\n### 投票规则\n- 钱包地址余额 LON（包含未领取的奖励），xLON 或 LON 相关 LP Token 大于 0 的地址能够参与本次治理投票\n- LON 持有量快照区块高度：12644039\n- **治理投票开启时间：2021.6.16 15:00 UTC+8**\n- **治理投票结束时间：2021.6.18 15:00 UTC+8**\n\n### 投票选项\n- A. 保持不变\n- B. 交易挖矿周期不变，做市商奖励发放改为 3 个月后一次性发放\n- C. 交易挖矿周期改为 6 周，做市商奖励发放方式不变\n- D. 交易挖矿周期改为 6 周，做市商奖励发放改为 3 个月后一次性发放",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 62,
+      "blockNumber": 12644039,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmWFRvHd7ohnJs2jTP4aHcKHXNrA31U1xCpmiQaFR4H1Hp",
+      "startTime": {
+        "timestamp": 1623826800
+      },
+      "endTime": {
+        "timestamp": 1623999600
+      },
+      "startTimestamp": 1623826800,
+      "endTimestamp": 1623999600,
+      "currentState": "closed",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "results": [
+        {
+          "total": 107230.87,
+          "choice": 3
+        },
+        {
+          "total": 59762.76,
+          "choice": 0
+        },
+        {
+          "total": 3123.173,
+          "choice": 2
+        },
+        {
+          "total": 98.96736,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 59762.75338376541,
+          "choice": 0
+        },
+        {
+          "total": 98.96736140461664,
+          "choice": 1
+        },
+        {
+          "total": 3123.173038922233,
+          "choice": 2
+        },
+        {
+          "total": 107230.86942871474,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1wM2ZhZmZqZW44cm5jOGh5M293bnlhYmVocXBnYWNxdmNuZGptcHpyZ3p3aA==",
+      "id": "QmP3fAFFjEn8RNc8Hy3oWNyABehqpGacQvcnDJMPZRGzwh",
+      "title": "TIP14 - Tokenlon new assets listing（Tokenlon 新资产支持）",
+      "content": "#### Background\n\n - Tokenlon protocol currently adopts a whitelist approach for listing new assets. The core team collects potential assets from the community and checks liquidity before the listing.\n\n - For the assets meet the liquidity requirement, the core team will create a governance proposal and the community can now vote on the proposal to decide on the new asset listing.\n\nProposed new assets to support:\n| Token      | Contract Address | \n| :---        |    :----  | \n|AMP|0xff20817765cb7f73d4bde2e66e067e58d11095c2|\n|ANY|0xf99d58e463a2e07e5692127302c20a191861b4d6|\n|BAL|0xba100000625a3754423978a60c9317c58a424e3d|\n|MLN|0xec67005c4e498ec7f55e092bd1d35cbc47c91892|\n|FLOAT|0xb05097849bca421a3f51b249ba6cca4af4b97cb9|\n|GTC|0xde30da39c46104798bb5aa3fe8b9e0e1f348163f|\n|ILV|0x767fe9edc9e0df98e07454847909b5e959d7ca0e|\n|KEEP|0x85eee30c52b0b379b046fb0f85f4f3dc3009afec|\n|MCB|0x4e352cf164e64adcbad318c3a1e222e9eba4ce42|\n|MIR|0x09a3ecafa817268f77be1283176b946c4ff2e608|\n|POLS|0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa|\n|POOL|0x0cec1a9154ff802e7934fc916ed7ca50bde6844e|\n|renBTC|0xeb4c2781e4eba804ce9a9803c67d0893436bb27d|\n|sUSD|0x57ab1ec28d129707052df4df418d58a2d46d5f51|\n\n#### Goal\nLet the community decide on the new asset listing\n\n#### Proposed Action Items\nImplement after the voting result is out, the exact time will depend on the preparation\n\n#### Voting Rules\n - Addresses with more than 0 LON can vote\n - Addresses with more than 0 xLON can vote\n - Addresses participating LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n - **LON balance snapshot block**: 12612701\n - **Voting start time**: 2021.6.11 7:00 UTC\n - **Voting end time**: 2021.6.14 7:00 UTC\n\n#### Voting Options\nA. For, list these new assets\nB. Against, don’t list these new assets\n\n***\n\n#### 背景\n\n - Tokenlon 协议目前采用白名单上币方式，由核心团队从社区收集候选资产并检查流动性后执行上币。\n\n - 通过流动性要求的新资产，将由核心团队发起治理提案，由社区投票决定是否支持。\n\n本期提议新增支持资产：\n| 代币      | 合约地址 | \n| :---        |    :----  | \n|AMP|0xff20817765cb7f73d4bde2e66e067e58d11095c2|\n|ANY|0xf99d58e463a2e07e5692127302c20a191861b4d6|\n|BAL|0xba100000625a3754423978a60c9317c58a424e3d|\n|MLN|0xec67005c4e498ec7f55e092bd1d35cbc47c91892|\n|FLOAT|0xb05097849bca421a3f51b249ba6cca4af4b97cb9|\n|GTC|0xde30da39c46104798bb5aa3fe8b9e0e1f348163f|\n|ILV|0x767fe9edc9e0df98e07454847909b5e959d7ca0e|\n|KEEP|0x85eee30c52b0b379b046fb0f85f4f3dc3009afec|\n|MCB|0x4e352cf164e64adcbad318c3a1e222e9eba4ce42|\n|MIR|0x09a3ecafa817268f77be1283176b946c4ff2e608|\n|POLS|0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa|\n|POOL|0x0cec1a9154ff802e7934fc916ed7ca50bde6844e|\n|renBTC|0xeb4c2781e4eba804ce9a9803c67d0893436bb27d|\n|sUSD|0x57ab1ec28d129707052df4df418d58a2d46d5f51|\n\n#### 目的\n由社区投票决定新资产支持\n\n#### 提案执行项\n根据提案投票结果尽快实施，生效时间根据实际准备情况决定\n\n#### 投票规则\n - 持有 LON 大于 0 的地址能够参与本次治理投票\n - 持有 xLON 大于 0 的地址能够参与本次治理投票\n - 参与 LON 流动性挖矿或持有对应 LP 代币的地址能够参与本次治理投票（包含未领取 LON 奖励）\n - **LON 持有量快照区块高度**：12612701\n - **治理投票开启时间**：2021.6.11 15:00 UTC+8\n - **治理投票结束时间**：2021.6.14 15:00 UTC+8\n\n#### 投票选项\nA. 支持，上线以上币种\nB. 反对，不上线以上币种",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 50,
+      "blockNumber": 12612701,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmP3fAFFjEn8RNc8Hy3oWNyABehqpGacQvcnDJMPZRGzwh",
+      "startTime": {
+        "timestamp": 1623394800
+      },
+      "endTime": {
+        "timestamp": 1623654000
+      },
+      "startTimestamp": 1623394800,
+      "endTimestamp": 1623654000,
+      "currentState": "closed",
+      "choices": [
+        "A. For（支持）",
+        "B. Against（反对）"
+      ],
+      "results": [
+        {
+          "total": 61808.434,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 61808.43357455611,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW12ZHo3a3phZTNremJtYWpmMzd2cW5tY3Y2Z2V1YXRtaHc1dHZ4MWR5cDFzcA==",
+      "id": "QmVdZ7kZAE3kZbmaJF37VqnmcV6gEUATmhW5TVX1dYP1sP",
+      "title": "TIP 13 - LON Buyback Community Incentive（LON 回购社区激励）",
+      "content": "**Background**\n* LON Buyback launched on 1st April and it went well as expected for the last 90 days.\n* As of 12th May 4:00 pm UTC, 498,036.70 LONs has been repurchase via 114 unique addresses.\n* Anyone can initiate LON buyback, but you have to pay the miner fee when call the buyback contract. The higher of miner fee, the higher is the cost to trigger the buyback.\n\n**Goal**\n* Let the community decide on whether to airdrop LON rewards to these 114 addresses for appreciating them to trigger the LON buyback for the community. The rewards will come from LON treasury.\n\n**Proposed Action Items**\n* According to the voting result to decide whether to implement the incentive. And if the proposal passes, the LON airdrop time is to be determined.\n\n**Voting Rules**\n* Addresses with more than 0 LON can vote\n* Addresses with more than 0 xLON can vote\n* Addresses participating LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n* LON balance snapshot block: 12431439\n* Voting start time: 2021.5.14 7:00 UTC\n* Voting end time: 2021.5.16 7:00 UTC\n\n**Voting Options**\n* A. Each address gets 10 LONs rewards\n* B. Each address gets 20 LONs rewards\n* C. Each address gets 30 LONs rewards\n* D. No reward\n---\n**背景**\n* LON 回购自 4 月 1 日正式启动，已正常运转近一个半月的时间，并已陆续开放所有 Tokenlon 手续费代币参与 LON 回购。\n* 截至 5 月 13 日 0:00 am UTC+8，累计回购了 498,036.70 LON，成功发起回购的地址数有 114 个。\n* LON 回购可由社区任何人发起，但需支付调用回购合约的矿工费，在矿工费高的情况下，发起回购的成本也会变高。\n\n**目的**\n* 由社区决定，是否对 5 月 13 日 0:00 am UTC+8 之前成功发起回购的地址进行 LON 空投奖励，感谢他们对于 LON 回购的支持，奖励将由 LON 财库支出。\n\n**提案执行项**\n* 根据提案投票结果决定是否实施激励，具体 LON 奖励空投时间待定\n\n**投票规则**\n* 持有 LON 大于 0 的地址能够参与本次治理投票\n* 持有 xLON 大于 0 的地址能够参与本次治理投票\n* 参与 LON 流动性挖矿或持有对应 LP 代币的地址能够参与本次治理投票（包含未领取 LON 奖励）\n* LON 持有量快照区块高度：12431439\n* 治理投票开启时间：2021.5.14 15:00 UTC+8\n* 治理投票结束时间：2021.5.16 15:00 UTC+8\n\n**投票选项**\n* A. 每个成功发起 LON 回购地址，奖励 10 LON\n* B. 每个成功发起 LON 回购地址，奖励 20 LON\n* C. 每个成功发起 LON 回购地址，奖励 30 LON\n* D. 不给予奖励",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF95c3858CdB223e244d84b20EBef8576532B7c5e",
+      "totalVotes": 135,
+      "blockNumber": 12431439,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmVdZ7kZAE3kZbmaJF37VqnmcV6gEUATmhW5TVX1dYP1sP",
+      "startTime": {
+        "timestamp": 1620975600
+      },
+      "endTime": {
+        "timestamp": 1621148400
+      },
+      "startTimestamp": 1620975600,
+      "endTimestamp": 1621148400,
+      "currentState": "closed",
+      "choices": [
+        "A. Each address gets 10 LONs",
+        "B. Each address gets 20 LONs",
+        "C. Each address gets 30 LONs",
+        "D. No reward"
+      ],
+      "results": [
+        {
+          "total": 2323.9905,
+          "choice": 3
+        },
+        {
+          "total": 7556.5044,
+          "choice": 0
+        },
+        {
+          "total": 278354.9,
+          "choice": 2
+        },
+        {
+          "total": 91.21369,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7556.504576299525,
+          "choice": 0
+        },
+        {
+          "total": 91.21369615128,
+          "choice": 1
+        },
+        {
+          "total": 278354.9089104429,
+          "choice": 2
+        },
+        {
+          "total": 2323.990451297523,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW12bXIzdmR3Z3VoNmVvd3ZvNWRiZXV2OXFmM3N0c2FldmFwcXVvYjFhOTM0eA==",
+      "id": "QmVMr3VDWgUh6Eowvo5DBeuV9Qf3STsaEvAPqUoB1a934X",
+      "title": "TIP12 - LON Liquidity Incentive Phase Four (LON 流动性激励四期)",
+      "content": "## Background\n* According to the Tokenlon litepaper, 10,000,000 LON is reserved for liquidity related incentives.\n* The core team has kicked off three LON Liquidity Incentive phases so far, with the current one to end on 2021.4.29.\n* The team plans to start LON Liquidity Incentive Phase Four on 2020.4.29. It will last for 8 weeks and end on 2021.6.24. Phase Four LON incentive will be rewarded in the same way to the below two liquidity pools:\n\t* LON/ETH pool on Uniswap\n\t* LON/USDT pool on Sushiswap\n## Goal\n* Let the community decide on the number of LON for Liquidity Incentive Phase Four\n## Proposed Action Items\n* Make changes based on the voting results of the proposal, and take effect at 2021.4.29 4:00 UTC\n## Voting Rules\n* Addresses with more than 0 LON can vote\n* Addresses with more than 0 xLON can vote\n* Addresses participating LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n* LON balance snapshot block: 12307991\n* Voting start time: 2021.4.25 7:00 UTC\n* Voting end time: 2021.4.27  7:00 UTC\n## Voting Options\n* A. Each of the two pools receives 400,000 LON as the Phase Four Liquidity Incentive\n* B. Each of the two pools receives 350,000 LON as the Phase Four Liquidity Incentive\n* C. Each of the two pools receives 300,000 LON as the Phase Four Liquidity Incentive\n* D. Each of the two pools receives 250,000 LON as the Phase Four Liquidity Incentive\n---\n## 背景\n* 根据 Tokenlon litepaper 内容，10,000,000 LON 可被用于流动性相关激励。\n* 核心团队已开三期流动性激励，目前这期将根据计划于 2021.4.29 结束。\n* 核心团队计划于 2021.4.29 开启第四期流动性激励，为期 8 周，于 2021.6.24 结束。四期将采用同样的形式激励以下两个流动性池：\n\t* Uniswap 上的  [LON/ETH](https://info.uniswap.org/pair/0x7924a818013f39cf800f5589ff1f1f0def54f31f)  池\n\t* Sushiswap 上的  [LON/USDT](https://sushiswap.vision/pair/0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f)  池\n## 目的\n* 由社区投票决定激励力度，开启第四期流动性激励\n## 提案执行项\n* 根据提案投票结果实施激励，生效时间为 2021.4.29 12:00 PM UTC+8\n## 投票规则\n* 持有 LON 大于 0 的地址能够参与本次治理投票\n* 持有 xLON 大于 0 的地址能够参与本次治理投票\n* 参与 LON 流动性挖矿或持有对应 LP 代币的地址能够参与本次治理投票（包含未领取 LON 奖励）\n* LON 持有量快照区块高度：12307991\n* 治理投票开启时间：2021.4.25 15:00 UTC+8\n* 治理投票结束时间：2021.4.27 15:00 UTC+8\n## 投票选项\n* A. 两个池分别获得 400,000 LON 作为四期流动性激励\n* B. 两个池分别获得 350,000 LON 作为四期流动性激励\n* C. 两个池分别获得 300,000 LON 作为四期流动性激励\n* D. 两个池分别获得 250,000 LON 作为四期流动性激励",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 140,
+      "blockNumber": 12307991,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmVMr3VDWgUh6Eowvo5DBeuV9Qf3STsaEvAPqUoB1a934X",
+      "startTime": {
+        "timestamp": 1619334000
+      },
+      "endTime": {
+        "timestamp": 1619506800
+      },
+      "startTimestamp": 1619334000,
+      "endTimestamp": 1619506800,
+      "currentState": "closed",
+      "choices": [
+        "A. 400,000 LON/pool",
+        "B. 350,000 LON/pool",
+        "C. 300,000 LON/pool",
+        "D. 250,000 LON/pool"
+      ],
+      "results": [
+        {
+          "total": 104728.625,
+          "choice": 3
+        },
+        {
+          "total": 245312.67,
+          "choice": 0
+        },
+        {
+          "total": 11.070366,
+          "choice": 2
+        },
+        {
+          "total": 801.6931,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 245312.6804703504,
+          "choice": 0
+        },
+        {
+          "total": 801.6931409517148,
+          "choice": 1
+        },
+        {
+          "total": 11.070366090847385,
+          "choice": 2
+        },
+        {
+          "total": 104728.62767726748,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1zeGdyY3dzOWs4M3FrZDdqbm12ZzV5ZWd1eW5ic2VyZGxmYmFnNWRkZmhnaA==",
+      "id": "QmSxGrCWS9k83qkD7jnmVG5yEguyNbserdLFBaG5DdFHgh",
+      "title": "TIP11 - Tokenlon new asset listing (Tokenlon 新资产支持)",
+      "content": "**Background**\n* Tokenlon protocol currently adopts a whitelist approach for listing new assets. The core team collects potential assets from the community and checks liquidity before the listing. \n* For the assets meet the liquidity requirement, the core team will create a governance proposal and the community can now vote on the proposal to decide on the new asset listing.\n\nProposed new assets to support:\n\n| Token      | Contract Address | \n| :---        |    :----  | \n|FEI|0x956f47f50a910163d8bf957cf5846d573e7f87ca|\n|BANK|0x24a6a37576377f63f194caa5f518a60f45b42921|\n|INSUR|0x544c42fbb96b39b21df61cf322b5edc285ee7429|\n|CORE|0x62359ed7505efc61ff1d56fef82158ccaffa23d7|\n|TORN|0x77777feddddffc19ff86db637967013e6c6a116c|\n|ALCX|0xdbdb4d16eda451d0503b854cf79d55697f90c8df|\n|CHZ|0x3506424f91fd33084466f402d5d97f05f8e3b4af|\n|WOO|0x4691937a7508860f876c9c0a2a617e7d9e945d4b|\n|WLUNA|0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9|\n\n**Goal**\n* Let the community decide on the new asset listing\n\n**Proposed Action Items**\n* Implement after the voting result is out, the exact time will depend on the preparation\n\n**Voting Rules**\n* Addresses with more than 0 LON can vote\n* Addresses with more than 0 xLON can vote\n* Addresses participating LON liquidity mining or holding the respective LP tokens can vote (including unclaimed LON reward)\n* LON balance snapshot block: 12230281\n* Voting start time: 2021.4.13 7:00 UTC\n* Voting end time: 2021.4.15 7:00 UTC\n\n**Voting Options**\n* A. For, list these new assets\n* B. Against, don’t list these new assets\n\n---\n\n**背景**\n* Tokenlon 协议目前采用白名单上币方式，由核心团队从社区收集候选资产并检查流动性后执行上币。\n* 通过流动性要求的新资产，将由核心团队发起治理提案，由社区投票决定是否支持。\n\n本期提议新增支持资产：\n\n| 代币      | 合约地址 | \n| :---        |    :----  | \n|FEI|0x956f47f50a910163d8bf957cf5846d573e7f87ca|\n|BANK|0x24a6a37576377f63f194caa5f518a60f45b42921|\n|INSUR|0x544c42fbb96b39b21df61cf322b5edc285ee7429|\n|CORE|0x62359ed7505efc61ff1d56fef82158ccaffa23d7|\n|TORN|0x77777feddddffc19ff86db637967013e6c6a116c|\n|ALCX|0xdbdb4d16eda451d0503b854cf79d55697f90c8df|\n|CHZ|0x3506424f91fd33084466f402d5d97f05f8e3b4af|\n|WOO|0x4691937a7508860f876c9c0a2a617e7d9e945d4b|\n|WLUNA|0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9|\n\n**目的**\n* 由社区投票决定新资产支持\n\n**提案执行项**\n* 根据提案投票结果尽快实施，生效时间根据实际准备情况决定\n\n**投票规则**\n* 持有 LON 大于 0 的地址能够参与本次治理投票\n* 持有 xLON 大于 0 的地址能够参与本次治理投票\n* 参与 LON 流动性挖矿或持有对应 LP 代币的地址能够参与本次治理投票（包含未领取 LON 奖励）\n* LON 持有量快照区块高度：12230281\n* 治理投票开启时间：2021.4.13 15:00 UTC+8\n* 治理投票结束时间：2021.4.15 15:00 UTC+8\n\n**投票选项**\n* A. 支持，上线以上币种\n* B. 反对，不上线以上币种",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 85,
+      "blockNumber": 12230281,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmSxGrCWS9k83qkD7jnmVG5yEguyNbserdLFBaG5DdFHgh",
+      "startTime": {
+        "timestamp": 1618297200
+      },
+      "endTime": {
+        "timestamp": 1618470000
+      },
+      "startTimestamp": 1618297200,
+      "endTimestamp": 1618470000,
+      "currentState": "closed",
+      "choices": [
+        "A. For (支持)",
+        "B. Against (反对)"
+      ],
+      "results": [
+        {
+          "total": 79862.24,
+          "choice": 0
+        },
+        {
+          "total": 20.000011,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 79862.23320745277,
+          "choice": 0
+        },
+        {
+          "total": 20.000011,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW10bnlob2Rwa3lqcmVvOGIyYXBtcHEzOXRoZHZ0Y2h3ZnlhdHNncmVqcTVvZA==",
+      "id": "QmTNyHoDpKYJrEo8b2aPmpq39ThdvTcHwfYatsgrejQ5od",
+      "title": "TIP10 - Miner fee reimbursement plan for relayers (中继方代付矿工费报销方案)",
+      "content": "**Background**\n* According to the design of the Tokenlon protocol, the relayers responsible for matching orders can pay Ethereum miner fees for some users’ transactions\n* The design of relayer paying the miner fees can increase the success rate of users' trades therefore bring a better user experience\n* As part of the treasury design, the fees collected by Tokenlon protocol will be first used to reimburse relayers the miner fee paid by them\n* As of March 22, 2020, Tokenlon 5.0 has accumulated more than $10 million in fees, including 2,987 WETH\n* As of March 22, 2020, the Tokenlon relayer has paid 2,560 ETH in miner fee for users\n* Based on the above data, it is estimated that 85% of WETH collected by Tokenlon protocol needs to be used for reimbursement of miner fees paid by relayers\n* Therefore, WETH part of fees collected by Tokenlon protocol will be directly (partially or fully) transferred to the treasury for reimbursement\n* Transferring WETH directly to the treasury can avoid the additional expenses caused by exchanging WETH to LON and then exchange for ETH\n* The data provided above can be viewed and verified with the [Dune Analytics dashboard here](https://duneanalytics.com/Fan/tokenlon-v5-trade-bot-gas_eth-cost) \n\n**Goal**\n* Let the community decide on the miner fee reimbursement plan for relayers\n\n**Proposed Action Items**\n* Implement according to the voting result and will take effect when the LON buyback is launched\n\n**Voting Rules**\n* Addresses with LON balance greater than 0 can vote\n* Addresses participating liquidity mining can vote (including unclaimed LON reward)\n* Addresses with LON LP token can vote\n* LON balance snapshot block: 12100200\n* Voting start time: 2021.3.24 7:00 UTC\n* Voting end time: 2021.3.26 7:00 UTC\n\n**Voting Options**\n* A. The percentage of WETH transfer to treasury will be dynamically adjusted according to the actual cost of miner fee paid by relayers. At the beginning:\n  * 80% of WETH will be directly transferred to the treasury for reimbursement\n  * 20% of WETH will be used to buyback LON and then transferred to the LON staking pool to reward LON staking users\n* B. 100% of WETH collected will be directly transferred to the treasury:\n  * It will be first used to reimburse the miner fee paid by relayers,\n  * and then, the surplus will be used to provide liquidity for the LON/ETH AMM pool in the future\n\n---\n\n**背景**\n* 根据 Tokenlon 协议设计，负责撮合交易的中继方能够为用户部分交易代付以太坊矿工费\n* 代付上链矿工费设计能够提高 Tokenlon 用户交易成功率，带来更好的交易体验\n* 作为财库用途一部分，Tokenlon 协议手续费沉淀会优先用于报销中继方为用户代付的矿工费\n* 截止至 2020.3.22，Tokenlon 5.0 已沉淀手续费超过 1000 万美元（根据统计时价值），其中包含 2,987 WETH\n* 截止至 2020.3.22，Tokenlon 中继方为用户代付矿工费共 2,560 ETH\n* 根据以上数据，预计 Tokenlon 协议手续费沉淀中 WETH 需用于报销矿工费的比例为 85%\n* 因此，WETH 部分手续费沉淀将会区别于其他代币，直接（部分或全部）转入财库，用于报销\n* WETH 直接转入财库，能够避免兑换为 LON 再兑换 ETH 造成的额外开支\n* 以上提供的数据都可通过该 [Dune Analytics 面板](https://duneanalytics.com/Fan/tokenlon-v5-trade-bot-gas_eth-cost)查看和验证链上支持数据\n \n**目的**\n* 由社区投票选择中继方代付矿工费报销方案\n\n**提案执行项**\n* 根据提案投票结果实施，在 LON 回购上线时生效\n\n**投票规则**\n* 持有 LON 大于 0 的地址能够参与本次治理投票\n* 参与 LON 流动性挖矿的地址能够参与本次治理投票（包含未领取 LON 奖励）\n* 持有 LON LP 代币大于 0 的地址能够参与本次治理投票\n* LON 持有量快照区块高度：12100200\n* 治理投票开启时间：2021.3.24 15:00 UTC+8\n* 治理投票结束时间：2021.3.26 15:00 UTC+8\n\n**投票选项**\n* A. 手续费沉淀 WETH 转入财库的比例，根据实际代付矿工费成本占比进行动态调整，初期：\n  * 80% WETH 直接转入财库，用于中继方代付矿工费报销\n  * 20% WETH 回购 LON 后转入 LON 质押池，用于奖励 LON 质押用户\n* B. 手续费沉淀 WETH 直接 100% 转入财库：\n  * 先用于报销中继方代付矿工费报销，\n  * 盈余部分用于未来在 AMM 上为 LON/ETH 池提供流动性 \n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 0,
+      "blockNumber": 12100200,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmTNyHoDpKYJrEo8b2aPmpq39ThdvTcHwfYatsgrejQ5od",
+      "startTime": {
+        "timestamp": 1616569200
+      },
+      "endTime": {
+        "timestamp": 1616742000
+      },
+      "startTimestamp": 1616569200,
+      "endTimestamp": 1616742000,
+      "currentState": "closed",
+      "choices": [
+        "A",
+        "B"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1wYWhscXhlNzJiZmZ3dWQ3eGNwcW5uemV6c2Vud2RidjZ1d295bXBncWk0Nw==",
+      "id": "QmPAhLQxE72BFFwUD7XcPQnnzEzSENWDbV6UwoympgQi47",
+      "title": "重复参与Tokenlon矿工费高的问题",
+      "content": "更改Tokenlon的LON质押模式，不需要用户一直重复质押浪费矿工费。",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x9592344f80D8d4A6c3BA976F8E6d134Db8e21B3C",
+      "totalVotes": 0,
+      "blockNumber": 11891674,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmPAhLQxE72BFFwUD7XcPQnnzEzSENWDbV6UwoympgQi47",
+      "startTime": {
+        "timestamp": 1613793600
+      },
+      "endTime": {
+        "timestamp": 1615608000
+      },
+      "startTimestamp": 1613793600,
+      "endTimestamp": 1615608000,
+      "currentState": "closed",
+      "choices": [
+        "更改质押合约，设计成每一期共用一个合约。",
+        "不更改",
+        "Tokenlon官方提出更好的节省矿工费的质押方案"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1lOGFpYXlwOGJraXBhbnFnajVnb28xYmluOHl5Z2c5czN6azd1c3BmbGxlaQ==",
+      "id": "Qme8aiAYp8bKipAnqgj5goo1bin8yyGG9S3Zk7uSPFLLEi",
+      "title": "TIP9 - Tokenlon new asset listing (Tokenlon 新资产支持)",
+      "content": "**Background**\n* Tokenlon protocol currently adopts a whitelist approach for listing new assets. The core team collects candidate assets from the community and checks liquidity before the listing. \n* The core team is starting to add governance procedures from this batch of asset listings to involve the community in the listing process. The community can now vote on the proposal to decide on the new asset listing.\n* Proposed new assets to support:\n\n| Token | Contract Address |\n| :---   | :---   |\n| AAVE | 0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9 |\n| ALPHA | 0xa1faa113cbe53436df28ff0aee54275c13b40975 |\n|BADGER|0x3472a5a71965499acd81997a54bba8d852c6e53d|\n|BNT|0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c|\n|BOND|0x0391d2021f89dc339f60fff84546ea23e337750f|\n|ENJ|0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c|\n|FTM|0x4e15361fd6b4bb609fa63c81a2be19d873717870|\n|GRT|0xc944e90c64b2c07662a292be6244bdf05cda44a7|\n|MATIC|0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0|\n|MEME|0xd5525d397898e5502075ea5e830d8914f6f0affe|\n|NFTX|0x87d73e916d7057945c9bcd8cdd94e42a6f47f776|\n|RAI|0x03ab458634910aad20ef5f1c8ee96f1d6ac54919|\n|SAND|0x3845badade8e6dff049820680d1f14bd3903a5d0|\n|SRM|0x476c5e26a75bd202a9683ffd34359c0cc15be0ff|\n|WHALE|0x9355372396e3f6daf13359b7b607a3374cc638e0|\n\n**Goal**\n* Let the community decide on the new asset listing\n\n**Proposed Action Items**\n* Implement after the voting result is out, the exact time will depend on the preparation\n\n**Voting Rules**\n* Addresses with more than 0 LON can vote\n* Addresses participating liquidity mining can vote (including unclaimed LON reward)\n* Addresses with LON LP token can vote\n* LON balance snapshot block: 12015825\n* Voting start time: 2021.3.11 7:00 UTC\n* Voting end time: 2021.3.12 7:00 UTC\n\n**Voting Options**\n* A. For, list these new assets\n* B. Against, don’t list these new assets\n\n---\n\n**背景**\n* Tokenlon 协议目前采用白名单上币方式，由核心团队从社区收集候选资产并检查流动性后执行上币。\n* 为了引入社区参与决策，核心团队从本期上币开始加入治理流程，由社区投票决定新资产支持。\n* 本期提议新增支持资产：\n\n| 代币 | 合约地址 |\n| :---   | :---   |\n| AAVE | 0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9 |\n| ALPHA | 0xa1faa113cbe53436df28ff0aee54275c13b40975 |\n|BADGER|0x3472a5a71965499acd81997a54bba8d852c6e53d|\n|BNT|0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c|\n|BOND|0x0391d2021f89dc339f60fff84546ea23e337750f|\n|ENJ|0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c|\n|FTM|0x4e15361fd6b4bb609fa63c81a2be19d873717870|\n|GRT|0xc944e90c64b2c07662a292be6244bdf05cda44a7|\n|MATIC|0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0|\n|MEME|0xd5525d397898e5502075ea5e830d8914f6f0affe|\n|NFTX|0x87d73e916d7057945c9bcd8cdd94e42a6f47f776|\n|RAI|0x03ab458634910aad20ef5f1c8ee96f1d6ac54919|\n|SAND|0x3845badade8e6dff049820680d1f14bd3903a5d0|\n|SRM|0x476c5e26a75bd202a9683ffd34359c0cc15be0ff|\n|WHALE|0x9355372396e3f6daf13359b7b607a3374cc638e0|\n\n**目的**\n* 由社区投票决定新资产支持\n\n**提案执行项**\n* 根据提案投票结果尽快实施，生效时间根据实际准备情况决定\n\n**投票规则**\n* 持有 LON 大于 0 的地址能够参与本次治理投票\n* 参与 LON 流动性挖矿的地址能够参与本次治理投票（包含未领取 LON 奖励）\n* 持有 LON LP 代币大于 0 的地址能够参与本次治理投票\n* LON 持有量快照区块高度：12015825\n* 治理投票开启时间：2021.3.11 15:00 UTC+8\n* 治理投票结束时间：2021.3.12 15:00 UTC+8\n\n**投票选项**\n* A. 支持，上线这些币种\n* B. 反对，不上线这些币种\n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 0,
+      "blockNumber": 12015825,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/Qme8aiAYp8bKipAnqgj5goo1bin8yyGG9S3Zk7uSPFLLEi",
+      "startTime": {
+        "timestamp": 1615446000
+      },
+      "endTime": {
+        "timestamp": 1615532400
+      },
+      "startTimestamp": 1615446000,
+      "endTimestamp": 1615532400,
+      "currentState": "closed",
+      "choices": [
+        "A. For (支持)",
+        "B. Against (反对)"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1iMmd4azNvZmd4YnFzand4cDV0NnJ1aDRhOGp6ZGppd3U4c3p5eG1kNGt6bg==",
+      "id": "Qmb2GXK3oFgXBqsJwxP5t6ruh4A8jZdjiWu8SZYxMD4KZN",
+      "title": "TIP8 - Lower LON balance requirements for trading fee discounts (交易手续费率 LON 持仓要求下调)",
+      "content": "**Background**\n* Tokenlon adopts a fee structure below to allow discounted standard trading fees for LON holders.\n\n| Trading Fees      | LON Balance | \n|   :---:    |    :----:   |\n|0.30%|< 20|\n|0.29%|≥ 20|\n|0.28%|≥ 50|\n|0.26%|≥ 150|\n|0.24%|≥ 500|\n|0.22%|≥ 1,500|\n|0.20%|≥ 5,000|\n|0.18%|≥ 10,000|\n|0.15%|≥ 30,000|\n|0.10%|≥ 100,000|\n\n* The core team believes lowering the LON balance required would make it easier for users to take advantage of the policy. It will bring trading fees discounts to a wider group of users, helping them receive quotes better than those provided by other trading platforms. It should increase Tokenlon’s trading volume by attracting more trading activities to Tokenlon.\n\n**Goal**\n* Let the community decide on the LON balance required in the trading fees structure\n\n**Proposed Action Items**\n* Make changes based on the voting results of the proposal, and take effect at 2021.3.4 4:00 UTC\n\n**Voting Rules**\n* Addresses with more than 0 LON can vote\n* Addresses participating liquidity mining phase II can vote (including unclaimed LON reward)\n* Addresses with LON LP token can vote\n* LON balance snapshot block: 11950550\n* Voting start time: 2021.3.1 6:00 UTC\n* Voting end time: 2021.3.4 6:00 UTC\n\n**Voting Options**\n|   |  LON Balance  |    |    |    |\n|   :---:   |   :----:   |   :----:   |   :---:    |   :----:   |\n|   **Trading Fees** |   A (no change)   |  B   |  C   |   D   |\n|0.30%|< 20|< 1|< 1|< 1|\n|0.29%|≥ 20|≥ 1|≥ 1|≥ 1|\n|0.28%|≥ 50|≥ 25|≥ 10|≥ 5|\n|0.26%|≥ 150|≥ 100|≥ 40|≥ 20|\n|0.24%|≥ 500|≥ 500|≥ 200|≥ 100|\n|0.22%|≥ 1,500|≥ 2,500|≥ 1,000|≥ 500|\n|0.20%|≥ 5,000|≥ 5,000|≥ 2,000|≥ 1,000|\n|0.18%|≥ 10,000|≥ 10,000|≥ 4,000|≥ 2,000|\n|0.15%|≥ 30,000|≥ 25,000|≥ 10,000|≥ 5,000|\n|0.10%|≥ 100,000|≥ 50,000|≥ 20,000|≥ 10,000|\n\n---\n\n**背景**\n* Tokenlon 协议目前采用以下费率结构，使 LON 持有者能够享受更为优惠的标准费率。\n\n|  手续费率     | LON 持有量 | \n|   :---:    |    :----:   |\n|0.30%|< 20|\n|0.29%|≥ 20|\n|0.28%|≥ 50|\n|0.26%|≥ 150|\n|0.24%|≥ 500|\n|0.22%|≥ 1,500|\n|0.20%|≥ 5,000|\n|0.18%|≥ 10,000|\n|0.15%|≥ 30,000|\n|0.10%|≥ 100,000|\n\n* 核心团队认为，适度下调 LON 持仓要求能够让 LON 的价值更易于体现，降低用户在 Tokenlon 享受交易手续费优惠的门槛。从而吸引更多用户在 Tokenlon 进行交易，获得优于其他交易平台的报价，从而进一步提升 Tokenlon 的交易量和市场占有率。\n\n**目的**\n* 由社区投票决定交易手续费率 LON 持仓要求下调\n\n**提案执行项**\n* 根据提案投票结果实施激励，生效时间为 2021.3.4 12:00 PM UTC+8\n\n**投票规则**\n* 持有 LON 大于 0 的地址能够参与本次治理投票\n* 参与 LON 流动性挖矿的地址能够参与本次治理投票（包含未领取 LON 奖励）\n* 持有 LON LP 代币大于 0 的地址能够参与本次治理投票\n* LON 持有量快照区块高度：11950550\n* 治理投票开启时间：2021.3.1 14:00 UTC+8\n* 治理投票结束时间：2021.3.4 14:00 UTC+8\n\n**投票选项**\n|   |  LON 持有量  |    |    |    |\n|   :---:   |   :----:   |   :----:   |   :---:    |   :----:   |\n|   **手续费率** |   A (不变)   |  B   |  C   |   D   |\n|0.30%|< 20|< 1|< 1|< 1|\n|0.29%|≥ 20|≥ 1|≥ 1|≥ 1|\n|0.28%|≥ 50|≥ 25|≥ 10|≥ 5|\n|0.26%|≥ 150|≥ 100|≥ 40|≥ 20|\n|0.24%|≥ 500|≥ 500|≥ 200|≥ 100|\n|0.22%|≥ 1,500|≥ 2,500|≥ 1,000|≥ 500|\n|0.20%|≥ 5,000|≥ 5,000|≥ 2,000|≥ 1,000|\n|0.18%|≥ 10,000|≥ 10,000|≥ 4,000|≥ 2,000|\n|0.15%|≥ 30,000|≥ 25,000|≥ 10,000|≥ 5,000|\n|0.10%|≥ 100,000|≥ 50,000|≥ 20,000|≥ 10,000|",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 0,
+      "blockNumber": 11950550,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/Qmb2GXK3oFgXBqsJwxP5t6ruh4A8jZdjiWu8SZYxMD4KZN",
+      "startTime": {
+        "timestamp": 1614578400
+      },
+      "endTime": {
+        "timestamp": 1614751200
+      },
+      "startTimestamp": 1614578400,
+      "endTimestamp": 1614751200,
+      "currentState": "closed",
+      "choices": [
+        "A (no change 不变)",
+        "B",
+        "C",
+        "D"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW10dXJqOHd0eWRzdnZjeXpzMWtydG5tem1xaGN2NHc4MWVic2E5Ynh4aTE0YQ==",
+      "id": "QmTUrj8wTyDsvVcYZS1KrtNMZmqHcv4W81EbSa9bxxi14A",
+      "title": "TIP7 - LON Liquidity Incentive Phase III (LON 流动性激励三期)",
+      "content": "**Background**\n* According to the Tokenlon litepaper, 10,000,000 LON is reserved for liquidity related incentives.\n* The core team has kicked off two LON Liquidity Incentive phases so far, with the current one to end on 2021.3.4. \n* The team plans to start LON Liquidity Incentive Phase III on 2020.3.4. It will last for 8 weeks and end on 2021.4.29. Phase III LON incentive will be rewarded in the same way to the below two liquidity pools:\n  * LON/ETH pool on Uniswap\n  * LON/USDT pool on Sushiswap\n\n**Goal**\n* Let the community decide on the number of LON for Liquidity Incentive Phase III\n\n**Proposed Action Items**\n* Make changes based on the voting results of the proposal, and take effect at 2021.3.4 4:00 UTC\n\n**Voting Rules**\n* Addresses with more than 0 LON can vote\n* Addresses participating liquidity mining phase II can vote (including unclaimed LON reward)\n* Addresses with LON LP token can vote\n* LON balance snapshot block: 11950550\n* Voting start time: 2021.3.1 6:00 UTC\n* Voting end time: 2021.3.4 6:00 UTC\n\n**Voting Options**\n* A. Each of the two pools receives 300,000 LON as the Phase III Liquidity Incentive\n* B. Each of the two pools receives 400,000 LON as the Phase III Liquidity Incentive\n* C. Each of the two pools receives 500,000 LON as the Phase III Liquidity Incentive\n* D. Each of the two pools receives 600,000 LON as the Phase III Liquidity Incentive\n* E. Each of the two pools receives 700,000 LON as the Phase III Liquidity Incentive\n\n---\n\n**背景**\n* 根据 Tokenlon litepaper 内容，10,000,000 LON 可被用于流动性相关激励。\n* 核心团队已开启两期流动性激励，目前这期将根据计划于 2021.3.4 结束。\n* 核心团队计划于 2021.3.4 开启第三期流动性激励，为期 8 周，于 2021.4.29 结束。三期将采用同样的形式激励以下两个流动性池：\n  * Uniswap 上的 LON/ETH 池\n  * Sushiswap 上的 LON/USDT 池\n\n**目的**\n* 由社区投票决定激励力度，开启第三期流动性激励\n\n**提案执行项**\n* 根据提案投票结果实施激励，生效时间为 2021.3.4 12:00 PM UTC+8\n\n**投票规则**\n* 持有 LON 大于 0 的地址能够参与本次治理投票\n* 参与 LON 流动性挖矿的地址能够参与本次治理投票（包含未领取 LON 奖励）\n* 持有 LON LP 代币大于 0 的地址能够参与本次治理投票\n* LON 持有量快照区块高度：11950550\n* 治理投票开启时间：2021.3.1 14:00 UTC+8\n* 治理投票结束时间：2021.3.4 14:00 UTC+8\n\n**投票选项**\n* A. 两个池分别获得 300,000 LON 作为三期流动性激励\n* B. 两个池分别获得 400,000 LON 作为三期流动性激励\n* C. 两个池分别获得 500,000 LON 作为三期流动性激励\n* D. 两个池分别获得 600,000 LON 作为三期流动性激励\n* E. 两个池分别获得 700,000 LON 作为三期流动性激励",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 0,
+      "blockNumber": 11950550,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmTUrj8wTyDsvVcYZS1KrtNMZmqHcv4W81EbSa9bxxi14A",
+      "startTime": {
+        "timestamp": 1614578400
+      },
+      "endTime": {
+        "timestamp": 1614751200
+      },
+      "startTimestamp": 1614578400,
+      "endTimestamp": 1614751200,
+      "currentState": "closed",
+      "choices": [
+        "A. 300,000 LON",
+        "B. 400,000 LON",
+        "C. 500,000 LON",
+        "D. 600,000 LON",
+        "E. 700,000 LON"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1jdGZoMnFudG1hdXFmcnJqYWdqeHl2aGRoN2ZmbXgxd2h6bXE3dmludTJ5bg==",
+      "id": "QmcTFH2qnTMAUQfRrJAGjxyvhdh7FfMX1WHzmq7vinu2yn",
+      "title": " TIP6 - Reduce trading fees for trading between stablecoins (稳定币间交易费率下调)",
+      "content": "Background\n* Tokenlon has now integrated liquidity from Uniswap, Curve and Sushiswap, in addition to its RFQ network of professional market makers. It allows Tokenlon to support exchange between popular stablecoins for more than $10m per trade with extremely low slippage (not enabled on the front end yet).\n* Tokenlon protocol charges a standard trading fee of 0.3% for trading between stablecoins. To make inter-stablecoin trading more attractive to users, the core team proposes to reduce the fees so that exchange rates between stablecoins can be more competitive at Tokenlon.\n\nGoal\n* Let the community decide on the trading fees for trading between stablecoins.\n\nProposed Action Items\n* Make changes based on the voting results of the proposal to take effect at 2021.2.4 11:00 UTC\n\nVoting Rules\n* Only the addresses that hold more than 0 LON can vote.\n* LON not in your address because of liquidity mining or other reasons can’t vote.\n* LON balance snapshot block: 11775715\n* Voting start time: 2021.2.2 9:00 UTC\n* Voting end time: 2021.2.4 9:00 UTC\n\nVoting Options\n* A. Maintain trading fees for trading between stablecoins at 0.1%\n* B. Reduce trading fees for trading between stablecoins to 0.08%\n* C. Reduce trading fees for trading between stablecoins to 0.06%\n* D. Reduce trading fees for trading between stablecoins to 0.04%\n\n---\n\n背景\n* Tokenlon 目前已在 RFQ 专业做市商的基础上接入了Uniswap、Curve 以及 Sushiswap 的流动性，具备了很强的大额稳定币间兑换支持能力，主流稳定币理论上可支持上千万美元的单笔交易（目前尚未开放到此额度）。\n* Tokenlon 协议目前对稳定币间交易收取标准费率为 0.1%。为了能够让 Tokenlon 的大额稳定币交易汇率更具竞争力，吸引更多用户在 Tokenlon 进行稳定币间兑换，核心团队建议降低稳定币间兑换费率。\n\n目的\n* 由社区投票决定稳定币间交易手续费下调力度\n\n提案执行项\n* 根据提案投票结果实施激励，生效时间为 2021.2.4 19:00 UTC+8\n\n投票规则\n* 持有 LON 大于 0 的地址能够参与本次治理投票。\n* 参与流动性挖矿等其他原因而不在地址的 LON 将无法计入投票。\n* LON 持有量快照区块高度：11775715\n* 治理投票开启时间：2021.2.2 17:00 UTC+8\n* 治理投票结束时间：2021.2.4 17:00 UTC+8\n\n投票选项\n* A. 稳定币间交易手续费维持在 0.1%\n* B. 稳定币间交易手续费下调至 0.08%\n* C. 稳定币间交易手续费下调至 0.06%\n* D. 稳定币间交易手续费下调至 0.04%",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 108,
+      "blockNumber": 11775715,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmcTFH2qnTMAUQfRrJAGjxyvhdh7FfMX1WHzmq7vinu2yn",
+      "startTime": {
+        "timestamp": 1612256400
+      },
+      "endTime": {
+        "timestamp": 1612429200
+      },
+      "startTimestamp": 1612256400,
+      "endTimestamp": 1612429200,
+      "currentState": "closed",
+      "choices": [
+        "A. 0.1%",
+        "B. 0.08%",
+        "C. 0.06%",
+        "D. 0.04%"
+      ],
+      "results": [
+        {
+          "total": 63405.33,
+          "choice": 3
+        },
+        {
+          "total": 354.9203,
+          "choice": 0
+        },
+        {
+          "total": 1423.6523,
+          "choice": 2
+        },
+        {
+          "total": 56.56908,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 354.9202964785707,
+          "choice": 0
+        },
+        {
+          "total": 56.5690813904509,
+          "choice": 1
+        },
+        {
+          "total": 1423.6523049650314,
+          "choice": 2
+        },
+        {
+          "total": 63405.34035786449,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW14dXIzeWE2dGdyYndhcnBwa2x2aXR5bjhiemxkcDIzdGt6NHZ4b2IzZHNpdg==",
+      "id": "QmXur3ya6tgrBwARpPkLvitYn8BzLDp23Tkz4VXoB3Dsiv",
+      "title": "TIP5 - Reduce trading fees for LON pairs (LON 相关交易手续费下调)",
+      "content": "Background\n* Tokenlon protocol charges a standard trading fee of 0.3% for LON pairs. To take advantage of the recent public attention towards LON, the core team proposes to reduce the trading fees for LON pairs as part of our Spring Festival campaign. \n* Reduced fees should help Tokenlon offer more competitive rates for LON pairs, therefore attracting more people to trade LON on Tokenlon.\n\nGoal\n* Let the community decide on the trading fees for the LON pairs.\n\nProposed Action Items\n* Make changes based on the voting results of the proposal. It will take effect for 4 weeks, from 2021.2.4 11:00 UTC to 2021.3.4 11:00 UTC.\n\nVoting Rules\n* Only the addresses that hold more than 0 LON can vote.\n* LON not in your address because of liquidity mining or other reasons can’t vote.\n* LON balance snapshot block: 11775715\n* Voting start time: 2021.2.2 9:00 UTC\n* Voting end time: 2021.2.4 9:00 UTC\n\nVoting Options\n* A. Maintain standard trading fees for LON pairs at 0.3%\n* B. Reduce standard trading fees for LON pairs to 0.2%\n* C. Reduce standard trading fees for LON pairs to 0.1%\n\n---\n\n背景\n* Tokenlon 协议目前对 LON 相关交易对收取标准费率为 0.3%。\n* 近期 LON 的市场关注度有较明显上升，核心团队建议以春节福利的形式降低 LON 相关交易手续费，从而为 LON 提供更具竞争力的交易汇率，方便并吸引更多用户选择在 Tokenlon 交易 LON。\n\n目的\n* 由社区投票决定 LON 相关交易手续费下调力度\n\n提案执行项\n* 根据提案投票结果实施激励，LON 相关交易手续费下调有效时间为 2021.2.4 19:00 UTC+8 至 2021.3.4 19:00 UTC+8，共计 4 周。\n\n投票规则\n* 持有 LON 大于 0 的地址能够参与本次治理投票。\n* 参与流动性挖矿等其他原因而不在地址的 LON 将无法计入投票。\n* LON 持有量快照区块高度：11775715\n* 治理投票开启时间：2021.2.2 17:00 UTC+8\n* 治理投票结束时间：2021.2.4 17:00 UTC+8\n\n投票选项\n* A. LON 相关交易手续费标准费率维持在 0.3%\n* B. LON 相关交易手续费标准费率下调至 0.2%\n* C. LON 相关交易手续费标准费率下调至 0.1%",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 153,
+      "blockNumber": 11775715,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmXur3ya6tgrBwARpPkLvitYn8BzLDp23Tkz4VXoB3Dsiv",
+      "startTime": {
+        "timestamp": 1612256400
+      },
+      "endTime": {
+        "timestamp": 1612429200
+      },
+      "startTimestamp": 1612256400,
+      "endTimestamp": 1612429200,
+      "currentState": "closed",
+      "choices": [
+        "A. 0.3%",
+        "B. 0.2%",
+        "C. 0.1%"
+      ],
+      "results": [
+        {
+          "total": 395.5761,
+          "choice": 0
+        },
+        {
+          "total": 25737.46,
+          "choice": 2
+        },
+        {
+          "total": 43121.266,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 395.5761387661066,
+          "choice": 0
+        },
+        {
+          "total": 43121.26337465547,
+          "choice": 1
+        },
+        {
+          "total": 25737.459708658436,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW14cXVxZ3dqbnprempnc3l0eXJteWZqNHJ6bnJxYW04N2lqNmt0bnlhcW1rcA==",
+      "id": "QmXQUQgWJNzKZjgSYtyRmYFJ4rZNRqaM87ij6KTnyaqMKp",
+      "title": "TIP4 - Phase II LON Liquidity Incentive (LON 二期流动性激励)",
+      "content": "Background\n* According to the Tokenlon litepaper, 10,000,000 LON is reserved for liquidity related incentives.\n* The core team kicked off Phase I LON Liquidity Incentive on December 24, 2020 with 1,500,000 LON reward in total. The phase is about to end on January 21, 2021.\n* The team plans to start Phase II LON Liquidity Incentive on January 21, 2021. It will last for 6 weeks and end on March 4, 2021. LON will be rewarded in the same way to the below two liquidity pools:\n  * LON/ETH pool on Uniswap\n  * LON/USDT pool on Sushiswap\n\nGoal\n* Let the community decide on the number of LON used for Phase II LON Liquidity Incentive\n\nProposed Action Items\n* Make changes based on the voting results of the proposal, and take effect at 4:00 UTC on January 21, 2021.\n\nVoting Options\n* A. Each of the two pools receives 500,000 LON as the Phase II Liquidity Incentive\n* B. Each of the two pools receives 600,000 LON as the Phase II Liquidity Incentive\n* C. Each of the two pools receives 700,000 LON as the Phase II Liquidity Incentive\n* D. Each of the two pools receives 800,000 LON as the Phase II Liquidity Incentive\n\n---\n\n背景\n* 根据 Tokenlon litepaper，10,000,000 LON 可被用于流动性相关激励。\n* 核心团队已于 2020.12.24 开启第一期流动性激励。该激励于 2021.1.21 结束，共使用 1,500,000 LON。\n* 核心团队计划于 2021.1.21 开启第二期流动性激励，为期 6 周，于 2021.3.4 结束。二期将采用同样的形式激励以下两个流动性池：\n  * Uniswap 上的 LON/ETH 池\n  * Sushiswap 上的 LON/USDT 池\n\n目的\n* 由社区投票决定激励力度，开启第二期流动性激励\n\n提案执行项\n* 根据提案投票结果实施激励，生效时间为 2021.1.21 4:00 UTC\n\n投票选项\n* A. 两个池分别获得 500,000 LON 作为二期流动性激励\n* B. 两个池分别获得 600,000 LON 作为二期流动性激励\n* C. 两个池分别获得 700,000 LON 作为二期流动性激励\n* D. 两个池分别获得 800,000 LON 作为二期流动性激励\n\n\n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 150,
+      "blockNumber": 11658983,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmXQUQgWJNzKZjgSYtyRmYFJ4rZNRqaM87ij6KTnyaqMKp",
+      "startTime": {
+        "timestamp": 1610704800
+      },
+      "endTime": {
+        "timestamp": 1610877600
+      },
+      "startTimestamp": 1610704800,
+      "endTimestamp": 1610877600,
+      "currentState": "closed",
+      "choices": [
+        "A. 500,000 LON",
+        "B. 600,000 LON",
+        "C. 700,000 LON",
+        "D. 800,000 LON"
+      ],
+      "results": [
+        {
+          "total": 86808.805,
+          "choice": 3
+        },
+        {
+          "total": 1063296.2,
+          "choice": 0
+        },
+        {
+          "total": 45.016815,
+          "choice": 2
+        },
+        {
+          "total": 0.25606528,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1063295.936304922,
+          "choice": 0
+        },
+        {
+          "total": 0.25606528954414354,
+          "choice": 1
+        },
+        {
+          "total": 45.01681644480944,
+          "choice": 2
+        },
+        {
+          "total": 86808.79300030392,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1ycm1xcWV2YW4zbHZkdXZocWt5dmd1Y21mcTdwdDdiYWd4bDlsdnBpYmFreQ==",
+      "id": "QmRRMqQEvan3LvDUVhQkyvguCMFQ7pt7bagxL9LVpiBAky",
+      "title": "3245",
+      "content": "2345",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xCE4F6d9156613E907D84363154c1Ce849869d520",
+      "totalVotes": 0,
+      "blockNumber": 11658576,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmRRMqQEvan3LvDUVhQkyvguCMFQ7pt7bagxL9LVpiBAky",
+      "startTime": {
+        "timestamp": 1610769600
+      },
+      "endTime": {
+        "timestamp": 1610856000
+      },
+      "startTimestamp": 1610769600,
+      "endTimestamp": 1610856000,
+      "currentState": "closed",
+      "choices": [
+        "1234",
+        "1234"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW12ZjE3eXBvZDN0Y2doZGQ4aWsyYW5ycHBjYWtuN2FrdXRqaHBhOWRhaDl1OA==",
+      "id": "QmVF17yPod3tCghDd8ik2anRPpcAkN7aKutjhpA9DaH9u8",
+      "title": "test",
+      "content": "test",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xCE4F6d9156613E907D84363154c1Ce849869d520",
+      "totalVotes": 0,
+      "blockNumber": 11658584,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmVF17yPod3tCghDd8ik2anRPpcAkN7aKutjhpA9DaH9u8",
+      "startTime": {
+        "timestamp": 1610683200
+      },
+      "endTime": {
+        "timestamp": 1610856000
+      },
+      "startTimestamp": 1610683200,
+      "endTimestamp": 1610856000,
+      "currentState": "closed",
+      "choices": [
+        "test1",
+        "test2"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1mMnFteXJyN2l6YnluMW9ncGtjdjNxYTlsZjl5aXJ3bHF0ZHR2aDZkbjRhag==",
+      "id": "Qmf2QmyRR7izBYN1ogPKCV3Qa9Lf9yirWLQtdtvH6dN4AJ",
+      "title": "lon",
+      "content": "lon",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x4ddB659914F2dBc59f8525aA0AF4880269aeEBce",
+      "totalVotes": 0,
+      "blockNumber": 11508204,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/Qmf2QmyRR7izBYN1ogPKCV3Qa9Lf9yirWLQtdtvH6dN4AJ",
+      "startTime": {
+        "timestamp": 1608696000
+      },
+      "endTime": {
+        "timestamp": 1608782400
+      },
+      "startTimestamp": 1608696000,
+      "endTimestamp": 1608782400,
+      "currentState": "closed",
+      "choices": [
+        "lon",
+        "lon"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW10cXMxaGl6ODVjeWtxYWo3ZWFjcmRjb3BnbWRxOHA0d29iazZqOXl1c3F2eg==",
+      "id": "QmTqS1hiz85cyKqaj7eaCrdCoPgMDq8p4woBK6J9YUsqvz",
+      "title": "5 uni",
+      "content": "5 uni",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0xF7A6c3A5fc2e17d09eAA18c0cdCF7D4d598069c2",
+      "totalVotes": 0,
+      "blockNumber": 11454372,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmTqS1hiz85cyKqaj7eaCrdCoPgMDq8p4woBK6J9YUsqvz",
+      "startTime": {
+        "timestamp": 1608035400
+      },
+      "endTime": {
+        "timestamp": 1608138000
+      },
+      "startTimestamp": 1608035400,
+      "endTimestamp": 1608138000,
+      "currentState": "closed",
+      "choices": [
+        "Eth",
+        "Btc",
+        "Trx"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW10ZWRmZXBocGRtaHJjaHVnaG91dmNwcW5oaHJkY283ZzFpbDY5aThxc3d3aA==",
+      "id": "QmTEDfephPDMhrCHUghoUvCPQNHHrDco7G1iL69i8QSWwh",
+      "title": "TIP3 - LON mining settlement cycle adjustment (LON 挖矿结算周期调整)",
+      "content": "Background\n* The current second phase LON mining settlement cycle is once a day, and the settlement time is 0:00 UTC every day. \n* Market makers are included in this phase and 200,000 LON tokens are allocated daily. Some community members reported that the settlement cycle is too short, which resulted in a significant impact on power-to-LON ratio by the total volume of the day.\n\nGoal\n* Let community members vote to decide the mining settlement cycle again.\n\nProposed Action Items\n* Make changes based on the voting results of the proposal (if necessary), and take effect at 0:00 UTC on November 7, 2020.\n\nVoting Options\n* A. No change, keep the settlement cycle once a day. The settlement time is * 0:00 UTC every day.\n* B. Make a change, modify the settlement cycle to once a week. The settlement time is 0:00 UTC every Saturday.\n* C. Make a change, modify the settlement cycle to once only. The settlement time is 0:00 UTC on December 20, 2020, the end of the second phase.\n\n---\n\n背景\n* 目前第二阶段 LON 挖矿结算周期为每日一次，结算时间为每日 0:00 UTC 时间。\n* 第二阶段引入了做市商激励，LON 日分发量调整为20万，部分社区成员反馈结算周期较短，导致当日总交易量对算力与 LON 的转化比值影响较大。\n\n目的\n* 让社区成员再次投票决策挖矿结算周期。\n\n提案执行项\n* 根据提案投票结果作出修改（如需），生效时间为 2020 年 11 月 7 日 0:00 UTC\n\n投票选项\n* A. 不修改，保持结算周期每天一次，结算时间为每天 0:00 UTC\n* B. 修改，结算周期修改为每周一次，结算时间为每周六 0:00 UTC\n* C. 修改，结算周期修改为仅有一次，结算时间为 2020 年 12 月 20 日 0:00 UTC，即第二阶段挖矿结束时",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 0,
+      "blockNumber": 11189483,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmTEDfephPDMhrCHUghoUvCPQNHHrDco7G1iL69i8QSWwh",
+      "startTime": {
+        "timestamp": 1604476800
+      },
+      "endTime": {
+        "timestamp": 1604653200
+      },
+      "startTimestamp": 1604476800,
+      "endTimestamp": 1604653200,
+      "currentState": "closed",
+      "choices": [
+        "A. No change (不修改)",
+        "B. Change to weekly (修改至周结算)",
+        "C. Change to once only (修改至二阶段结束时结算)"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW13cG05eGt4Ym52dHBiaXZjZDZ4eDlvcWFlc2t3ZWh4bHRmenVzbXd5emhlcA==",
+      "id": "QmWpM9XKXBNVtpBivCD6XX9oqAEsKwEHXLTfzusmwYzHEP",
+      "title": "TIP1 - LON mining settlement cycle adjustment (LON 挖矿结算周期调整)",
+      "content": "Background\n* The current LON mining settlement cycle is once a week, and the settlement time is every Saturday at 0:00 UTC. The settlement cycle is long, so it takes a long time for miners to know the exact LON allocation result.\n\nGoal\n* Shorten the mining settlement cycle so that miners can obtain LON allocation results faster.\n\nProposed Action Items\n* Change the LON mining settlement cycle from once a week to once a day, and the settlement time to 0:00 UTC every day. It will take effect in the second phase of LON mining.\n\n----------\n\n背景\n* 目前 LON 挖矿结算周期为每周一次，结算时间为每周六 0:00 UTC 时间。结算周期较长，挖矿用户需要较长时间才能知道确切的 LON 分配结果。\n\n目的\n* 缩短挖矿结算周期，让挖矿用户较快就能获得 LON 分配结果。\n\n提案执行项\n* 将 LON 挖矿结算周期由每周一次修改为每天一次，结算时间为每天 0:00 UTC，并在 LON 挖矿第二阶段中实施生效。\n",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x81f7EF7586c7Da8fDB0BB94032F3ad06ae21f644",
+      "totalVotes": 0,
+      "blockNumber": 11142580,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmWpM9XKXBNVtpBivCD6XX9oqAEsKwEHXLTfzusmwYzHEP",
+      "startTime": {
+        "timestamp": 1603872000
+      },
+      "endTime": {
+        "timestamp": 1604048400
+      },
+      "startTimestamp": 1603872000,
+      "endTimestamp": 1604048400,
+      "currentState": "closed",
+      "choices": [
+        "For (支持)",
+        "Against (反对)"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW1ueG93dWR6aHl6c3B4ZnFrOWUyZWgzY3R5cnhtNWdtYXlicmliZjZlbWE5bQ==",
+      "id": "QmNxowUDZHYzSpxfqk9E2eh3Ctyrxm5gmaYbRiBf6EMa9M",
+      "title": "TIP1 - LON mining settlement cycle adjustment (LON 挖矿结算周期调整)",
+      "content": "Background\n* The current LON mining settlement cycle is once a week, and the settlement time is every Saturday at 0:00 UTC. The settlement cycle is long, so it takes a long time for miners to know the exact LON allocation result.\n\nGoal\n* Shorten the mining settlement cycle so that miners can obtain LON allocation results faster.\n\nProposed Action Items\n* Change the LON mining settlement cycle from once a week to once a day, and the settlement time to 0:00 UTC every day. It will take effect in the second phase of LON mining.\n\n----------\n\n背景\n* 目前 LON 挖矿结算周期为每周一次，结算时间为每周六 0:00 UTC 时间。结算周期较长，挖矿用户需要较长时间才能知道确切的 LON 分配结果。\n\n目的\n* 缩短挖矿结算周期，让挖矿用户较快就能获得 LON 分配结果。\n\n提案执行项\n* 将 LON 挖矿结算周期由每周一次修改为每天一次，结算时间为每天 0:00 UTC，并在 LON 挖矿第二阶段中实施生效。",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 0,
+      "blockNumber": 11142580,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmNxowUDZHYzSpxfqk9E2eh3Ctyrxm5gmaYbRiBf6EMa9M",
+      "startTime": {
+        "timestamp": 1603854000
+      },
+      "endTime": {
+        "timestamp": 1604030400
+      },
+      "startTimestamp": 1603854000,
+      "endTimestamp": 1604030400,
+      "currentState": "closed",
+      "choices": [
+        "For (支持)",
+        "Against (反对)"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dG9rZW5sb246c25hcHNob3Q6cW12c3Nta2tkczF2OGRrbndtYXkxd2c5cGdnZTlldXdreWNwYno5cXNlMzR3ag==",
+      "id": "QmVssmkKDS1V8dknwMaY1WG9PGgE9EUWKyCPBZ9Qse34wJ",
+      "title": "TIP2 - Base LON mining power for every trade (交易获得 LON 挖矿基础算力)",
+      "content": "Background\n* According to the current LON mining rules, users need to incur a net fee/net contribution to obtain LON. Due to the Ethereum miner fee, it is difficult for small trades to generate a net contribution. Thus many users who only make small trades cannot obtain LON.\n\nGoal\n* Allow users who trade in small amounts to obtain LON, thereby enjoying fee discounts by holding LON, and gaining the right to participate in community governance.\n\nProposed Action Items\n* Add rule: A trader will receive a base LON mining power for every trade, base power = gas fee in USD * 0.1\n  * Example: If you make a trade and paid $2 in USD for gas fee, you will receive 0.2 base power for LON mining.\n* Implement it to take effect in the second phase of LON mining.\n\n----------\n\n背景\n* 根据目前的 LON 挖矿规则，用户需产生净贡献才能获得 LON。由于以太坊矿工费，导致小额交易用户较难产生净贡献，因而无法获得 LON。\n\n目的\n* 使小额交易用户也能够获得 LON，从而通过持有 LON 享受费率折扣，并获得参与社区治理的权利。\n\n提案执行项\n* 添加规则：在 Tokenlon 进行交易即可获得基础算力，基础算力 = 交易矿工费（以美元计）* 0.1\n  * 例如：你做了一笔交易，并支付了 2 美元矿工费 ，那么你将可以获得 0.2 基础算力\n* 在 LON 挖矿第二阶段中实施生效",
+      "protocol": "tokenlon",
+      "adapter": "snapshot",
+      "proposer": "0x25A087dC3512e3BE548F0cA13233ae29d3781bdC",
+      "totalVotes": 0,
+      "blockNumber": 11142788,
+      "externalUrl": "https://snapshot.org/#/tokenlon.eth/proposal/QmVssmkKDS1V8dknwMaY1WG9PGgE9EUWKyCPBZ9Qse34wJ",
+      "startTime": {
+        "timestamp": 1603854000
+      },
+      "endTime": {
+        "timestamp": 1604030400
+      },
+      "startTimestamp": 1603854000,
+      "endTimestamp": 1604030400,
+      "currentState": "closed",
+      "choices": [
+        "For (支持)",
+        "Against (反对)"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

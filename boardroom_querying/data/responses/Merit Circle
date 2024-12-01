@@ -1,0 +1,2112 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhhYTk5YTkyODRiMmYwMzk3ZTk4MzhlODQ3Y2JlYWQ4NjlkYWE1YmJlYTFkZTIyM2UxNDRhNTE1N2ZjYjY4OTE1",
+      "id": "0xaa99a9284b2f0397e9838e847cbead869daa5bbea1de223e144a5157fcb68915",
+      "title": "MIP-31 - Complete the transition to the Beam identity",
+      "content": "Although the Beam network and BEAM token launched back in Q3/Q4 2023, some of the key external facing project-related sites, documentation, DAO-adjacent entities, etc. of Beam have retained Merit Circle (“MC”) references or branding. This proposal builds further on MIP-27, MIP-28 and MIP-29, and seeks BEAM tokenholders’ approval to complete the transition away from the MC identity and towards the Beam identity.\n\nFirst, the completion of the transition will involve rebranding of all remaining Merit Circle community dedicated sites, social media handles and other external brand assets. Second, the current governance forum and Snapshot will be replaced with a new “Beam Governance Forum” and \"Beam Snapshot\", respectively, and the DAO governed by BEAM tokenholders will be referred to as Beam DAO. Third, the Constitution will be updated to reflect the Beam identity more clearly. Fourth, an entity named Beam Foundation will replace the MC Purpose Trust as the primary DAO-adjacent entity, and the governing documents of the Beam Foundation will enable certain checks and balances on the Beam Foundation and its subsidiaries via BEAM governance.\n\nThe predominant reason for these proposed steps is to ensure unity around the branding and strategic direction of Beam. A consolidated brand identity enhances marketing effectiveness and engagement, making it simpler to attract new members and users. With the Beam Foundation, the objective is to create an entity structure compatible with smart contract-based governance, and that is transparent and accountable to the Beam community.\n\nPlease read more about the proposal and relating discussions and documentation via the attached link.\n\nAre you in favor of this proposal?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 59,
+      "blockNumber": 3116835,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xaa99a9284b2f0397e9838e847cbead869daa5bbea1de223e144a5157fcb68915",
+      "startTime": {
+        "timestamp": 1727089200
+      },
+      "endTime": {
+        "timestamp": 1727262000
+      },
+      "startTimestamp": 1727089200,
+      "endTimestamp": 1727262000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1047338050.0,
+          "choice": 0
+        },
+        {
+          "total": 60367696.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1047338092.7222213,
+          "choice": 0
+        },
+        {
+          "total": 60367694.44461579,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1727084282401,
+      "txHash": "",
+      "quorum": 450000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg2MzIxOTZlNjU4ZWJmY2YxNDM1YTlmMWQyYzE2NzBmZGEyMWQ0ZTI1ZDIxMTE1OThjYTEwMTliODg5ZWU5OGM1",
+      "id": "0x632196e658ebfcf1435a9f1d2c1670fda21d4e25d2111598ca1019b889ee98c5",
+      "title": "MIP-30 - Extension of the MC to BEAM token migration period",
+      "content": "This proposal seeks an extension to the migration period from MC to BEAM tokens from 12 months to 15 months, acknowledging that some long term community members still possess unclaimed V1 rewards.\n\nThe extension is now proposed to be limited to 3 months, to accommodate the concerns of community members regarding risks that the migration contract will bring, and that two tokens would have to be managed for a longer time. An extension of the opening of the bridge by 25% (from 12 to 15 months) rather than 100% (from 12 to 24 months) should limit these risks to a manageable degree.\n\nA time-lock of the migration contract is proposed. That is, that once these 15 months are over, the migration will close once and for all and won’t be able to be reopened. The time-lock will be implemented, if technically possible.\n\nYou can read more about the proposal in the attached link.\n\nAre you in favor of this proposal?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 88,
+      "blockNumber": 410687,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x632196e658ebfcf1435a9f1d2c1670fda21d4e25d2111598ca1019b889ee98c5",
+      "startTime": {
+        "timestamp": 1702461600
+      },
+      "endTime": {
+        "timestamp": 1702634400
+      },
+      "startTimestamp": 1702461600,
+      "endTimestamp": 1702634400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 293508030.0,
+          "choice": 0
+        },
+        {
+          "total": 1002680500.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 293508054.2180874,
+          "choice": 0
+        },
+        {
+          "total": 1002680524.433308,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1702461216194,
+      "txHash": "",
+      "quorum": 450000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhmY2ZiN2Y0NjAyNDE5M2Q1MjVlOGFhMGFhYmE2Y2Q0YmE0NmFkMDQ3MmU3NDFjYTg5YjBjN2NhMDk3MWE5NTY4",
+      "id": "0xfcfb7f46024193d525e8aa0aaba6cd4ba46ad0472e741ca89b0c7ca0971a9568",
+      "title": "Snapshot testing ",
+      "content": "",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 0,
+      "blockNumber": 354116,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xfcfb7f46024193d525e8aa0aaba6cd4ba46ad0472e741ca89b0c7ca0971a9568",
+      "startTime": {
+        "timestamp": 1702296217
+      },
+      "endTime": {
+        "timestamp": 1702469017
+      },
+      "startTimestamp": 1702296217,
+      "endTimestamp": 1702469017,
+      "currentState": "closed",
+      "choices": [
+        "A",
+        "B"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1702296718668,
+      "txHash": "",
+      "quorum": 450000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg0Y2YzZDFmNDMwY2FiMWMyNDJkZmVhYzQwYTgzMWY5MmU5OGYzZDA4M2ViZTc4ZjBlNzhmNTNlMzkyYWQ4Zjgw",
+      "id": "0x4cf3d1f430cab1c242dfeac40a831f92e98f3d083ebe78f0e78f53e392ad8f80",
+      "title": "MIP-30 - Extension of the MC to BEAM token migration period",
+      "content": "This proposal seeks an extension to the migration period from MC to BEAM tokens from 12 months to 15 months, acknowledging that some long term community members still possess unclaimed V1 rewards.\n\nThe extension is now proposed to be limited to 3 months, to accommodate the concerns of community members regarding risks that the bridge will bring, and that two tokens would have to be managed for a longer time. An extension of the opening of the migration period by 25% (from 12 to 15 months) rather than 100% (from 12 to 24 months) should limit these risks to a manageable degree.\n\nA time-lock of the migration contract is proposed if possible technically. That is, that once these 15 months are over, the bridge will close once and for all and won’t be able to be reopened. \n\nAre you in favor of extending the migration period from 12 to 15 months and to make it not possible to extend the migration period any more after that?\n\nPlease read more about the proposal in the attached link.",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 1,
+      "blockNumber": 288997,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x4cf3d1f430cab1c242dfeac40a831f92e98f3d083ebe78f0e78f53e392ad8f80",
+      "startTime": {
+        "timestamp": 1702039125
+      },
+      "endTime": {
+        "timestamp": 1702211925
+      },
+      "startTimestamp": 1702039125,
+      "endTimestamp": 1702211925,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1166643.9,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 1166643.8706105056,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1702039483491,
+      "txHash": "",
+      "quorum": 450000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhiMDM3NjU0MWVlOGE2ODYyMTI0YjU3ZTdmODZmZmVjOWY3MDg0ZTliMTZjNGJmYzhiNjNiZjAxY2YyZjQxYjlk",
+      "id": "0xb0376541ee8a6862124b57e7f86ffec9f7084e9b16c4bfc8b63bf01cf2f41b9d",
+      "title": "MIP-30 - Extension of the MC to BEAM token migration period",
+      "content": "This proposal seeks an extension to the migration period from MC to BEAM tokens from 12 months to 24 months, acknowledging that some long term community members still possess unclaimed V1 rewards. The intent is to provide an opportunity for these outstanding V1 rewards to be converted to MC before the revised deadline, ensuring the inclusion of committed supporters and preventing loss of the rewards for everybody who did actually intend to use the MC>BEAM migration before the original deadline would pass.\n\nAre you in favor of extending the migration period to 26 October 2025?\n\nPlease click on the link attached to read further details about the proposal and the discussions in this regard.",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 0,
+      "blockNumber": 171851,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xb0376541ee8a6862124b57e7f86ffec9f7084e9b16c4bfc8b63bf01cf2f41b9d",
+      "startTime": {
+        "timestamp": 1701270000
+      },
+      "endTime": {
+        "timestamp": 1701442800
+      },
+      "startTimestamp": 1701270000,
+      "endTimestamp": 1701442800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701267174986,
+      "txHash": "",
+      "quorum": 450000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhiYmU3MTVmNWMxMDU0YzllM2QxYzRhNmYxNjM1MzA2YjI1YWE4OTgwNjEwODhmYjNjMDc4YjZiY2QwMTNmYjQ3",
+      "id": "0xbbe715f5c1054c9e3d1c4a6f1635306b25aa898061088fb3c078b6bcd013fb47",
+      "title": "MIP-29 - Execution of migration of MC token to BEAM token",
+      "content": "This proposal is a follow-up proposal to MIP-28, where the required majority of tokenholders voted in favor of migrating the MC token to the BEAM token, including making the BEAM token the native token on the Beam network (see MIP-28 for more information about that vote). In this new proposal the authors present a proposal regarding the technical details relating to the execution of the token migration. More specifically, the proposal asks tokenholder approval to:\n\n1. Deploy a token migration smart contract on Ethereum that enables the migration of MC to BEAM. The open source code for the smart contract can be reviewed here: https://github.com/Merit-Circle/beam-token/blob/main/contracts/Migrator.sol.\n\n2. Receive USDC 10,000 from MC DAO’s treasury to cover smart contract audit costs. The smart contract audit is available here: https://github.com/Merit-Circle/beam-token/blob/main/audit/Beam_Token_Final_Report_QS.pdf.\n \n3. Convert the MC token into the BEAM token on a 1:100 basis, meaning that each MC token will make a tokenholder eligible to receive 100 BEAM tokens.\n \n4. Make the token migration contract accessible for migration for a 12-month period from the date of deployment. The date of deployment is still to be determined, but will be pre-announced in due time in all relevant community channels should the proposal pass.\n\nOnce the token migration contract is deployed and MC tokens may be migrated to BEAM tokens, the BEAM token will assume the current position of the MC token (including become the governance token and Beam network native token).\n\nPlease click on the link attached to read further details about the proposal and the discussions in this regard.",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 82,
+      "blockNumber": 18347324,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xbbe715f5c1054c9e3d1c4a6f1635306b25aa898061088fb3c078b6bcd013fb47",
+      "startTime": {
+        "timestamp": 1697284800
+      },
+      "endTime": {
+        "timestamp": 1697457600
+      },
+      "startTimestamp": 1697284800,
+      "endTimestamp": 1697457600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 10344223.0,
+          "choice": 0
+        },
+        {
+          "total": 180786.3,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10344222.394200344,
+          "choice": 0
+        },
+        {
+          "total": 180786.29718930097,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1697271265968,
+      "txHash": "",
+      "quorum": 3810000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhhZmE3YmQxZDZlZjFhYzU1MGY2NGFjNzNiMmJhZDdiMmE3OWJiNDA0N2RlOTI0ZjVjMWNmZTkyNTI4ODdmMGQ3",
+      "id": "0xafa7bd1d6ef1ac550f64ac73b2bad7b2a79bb4047de924f5c1cfe9252887f0d7",
+      "title": "MIP-28 - Migrating MC token to BEAM token",
+      "content": "In order to better align with the current activities and practices within the Merit Circle ecosystem, this proposal seeks to convert the MC token into the BEAM token. The BEAM token will have the same utility as the MC token currently has. \n\nBased on feedback during the proposal discussion phase, the authors see the need for, and benefit of, providing additional technical details about the token migration before asking the community to vote on such details. Therefore, the authors have decided to limit the scope of the proposal to concern the question of whether the MC token should be migrated to the BEAM token. \n\nThe authors suggest that the technical details concerning the implementation of the proposal are made subject to a separate proposal that will be published if this proposal passes, which will lay out details surrounding the technical implementation and execution of a migration.  \n\nPlease click on the link attached to read further details about the proposal and the discussions in this regard. Note the edit",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 97,
+      "blockNumber": 18191848,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xafa7bd1d6ef1ac550f64ac73b2bad7b2a79bb4047de924f5c1cfe9252887f0d7",
+      "startTime": {
+        "timestamp": 1695394800
+      },
+      "endTime": {
+        "timestamp": 1695567600
+      },
+      "startTimestamp": 1695394800,
+      "endTimestamp": 1695567600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 17785168.0,
+          "choice": 0
+        },
+        {
+          "total": 85635.95,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 17785162.92706984,
+          "choice": 0
+        },
+        {
+          "total": 85635.95924221055,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695393363290,
+      "txHash": "",
+      "quorum": 3810000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg3ZjgxODNiYzAyNDBjN2JlNjMwOGNmNzM4NGYyMTg0YWEyMjVlM2FhNGIwYTJiZjU3MzVkNjE3M2JmZDA4ZDY0",
+      "id": "0x7f8183bc0240c7be6308cf7384f2184aa225e3aa4b0a2bf5735d6173bfd08d64",
+      "title": "MIP-27 - Beam development and ecosystem funding",
+      "content": "The development of the sovereign network Beam has been ongoing for several months and the mainnet has now been launched. Beam seeks to be a network specifically suited for gaming, aiming to enable game developers to easily, and at low cost, adopt and incorporate blockchain elements into their games. Activity on Beam will be centered around the MC token, as all transactions will require MC tokens to be utilized to cover gas fees. Large groups of contributors have been, and are continuing to be, involved in the development of Beam.\n\nThis proposal seeks MC tokenholder approval to:\n\n(1) Utilize up to 75 million MC tokens from MC DAO’s treasury for the purpose of liquidity on Beam, grants to games / game developers (used to cover gas fees on Beam), and for validating and securing the Beam network(s). It is important to emphasize that none of these MC tokens may be sold directly on the market or otherwise; the only scenarios where such tokens may come into “circulation” and become owned by a third-party are (a) through the mechanics of how an AMM functions and (b) as a result of validators (including delegators) collecting gas fees in connection with transactions on Beam that are funded by a grant.\n\n(2) Utilize up to 2.7 million USDC from MC DAO’s treasury, to develop Beam and certain ecosystem products (should all allocated funds not be utilised they shall be returned to the MC DAO treasury). 200,000 USDC of the sum is proposed to be utilized for liquidity purposes on the AMM on Beam.\n\nPlease click on the link attached to read further details about the proposal and the discussions in this regard.",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 58,
+      "blockNumber": 17964357,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x7f8183bc0240c7be6308cf7384f2184aa225e3aa4b0a2bf5735d6173bfd08d64",
+      "startTime": {
+        "timestamp": 1692637200
+      },
+      "endTime": {
+        "timestamp": 1692810000
+      },
+      "startTimestamp": 1692637200,
+      "endTimestamp": 1692810000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 4883479.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4883489.669203505,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692636625977,
+      "txHash": "",
+      "quorum": 3810000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg4ZjgyZGVhMDNiNTY3MTJkYTk5NmZkODIwZmE1NzM5OTc2ZjBjOWVkNzNiMjQyM2Q2MDg0ZmU3MTVlM2I5NTc3",
+      "id": "0x8f82dea03b56712da996fd820fa5739976f0c9ed73b2423d6084fe715e3b9577",
+      "title": "MIP-26 - Cancel all future V2 & V3 staking rewards and unlock all V2 stakers",
+      "content": "This proposal seeks tokenholder approval for the following:\n\n- Cancel the remaining V2 staking program.\n- Unlock V2 stakers from their current positions.\n- Accrued rewards will not be affected and will be able to be claimed.\n- Remaining tokens from the V2 staking program to be burned.\n\nThe adoption of this proposal requires that 75% or more votes cast are in favor of \"Yes\" and that the quorum threshold is met.\n\nPlease click on the link attached to read further details on the proposal and the discussions in this regard.",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 162,
+      "blockNumber": 17663357,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x8f82dea03b56712da996fd820fa5739976f0c9ed73b2423d6084fe715e3b9577",
+      "startTime": {
+        "timestamp": 1688994000
+      },
+      "endTime": {
+        "timestamp": 1689339600
+      },
+      "startTimestamp": 1688994000,
+      "endTimestamp": 1689339600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 44438796.0,
+          "choice": 0
+        },
+        {
+          "total": 3097468.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 44438786.0892671,
+          "choice": 0
+        },
+        {
+          "total": 3097468.8951382935,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688993560158,
+      "txHash": "",
+      "quorum": 3810000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHgzZmJjMTcwZDA3NTIyNmNhYWFlOWVjYmM0M2VjZTFlYzg2NzY2YWJhN2MyNjE4ZTQ3NDJkNzBmOThjMjc3N2Jh",
+      "id": "0x3fbc170d075226caaae9ecbc43ece1ec86766aba7c2618e4742d70f98c2777ba",
+      "title": "MIP-25 - Constitution of the Merit Circle DAO",
+      "content": "This proposal seeks tokenholder approval for the adoption of a written constitution for Merit Circle DAO. The authors believe a written constitution in the proposed form will contribute to an increasingly decentralized, structured and efficient governance model. The tokenholders will, by adopting a constitution, also be seeking to strengthen Merit Circle DAO’s position as an autonomous organization.\n\nOn 5 February 2023 the authors opened up a discussion thread where a draft constitution was attached. The constitution draft has been subject to discussions since then. Based on the input provided by the community, the authors updated the constitution and presented a (final) version of the constitution which is now subject to a vote by Merit Circle DAO. The updated version of the constitution can be found by following the link provided on the Governance Forum (follow the attached link). \n\nIf adopted (majority votes for \"Yes\" and quorum threshold is met), this proposal will result in Merit Circle DAO adopting the proposed version of the constitution, which will consequently be stored on-chain and be subject to further change by the tokenholders. \n\nPlease click on the link attached to read further details on the proposal and the discussions in this regard.",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 72,
+      "blockNumber": 17174149,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x3fbc170d075226caaae9ecbc43ece1ec86766aba7c2618e4742d70f98c2777ba",
+      "startTime": {
+        "timestamp": 1683046800
+      },
+      "endTime": {
+        "timestamp": 1683219600
+      },
+      "startTimestamp": 1683046800,
+      "endTimestamp": 1683219600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 3774462.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4256454.958108364,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683043749691,
+      "txHash": "",
+      "quorum": 3810000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhiNjFlOWJhMDIzMThlZDc4NjA2Y2ZlM2QzNWY2NzQ3MTE1ZTdiNTkxNjExZDZiZTlhYTMwNmFlOTc1MmRhZjVk",
+      "id": "0xb61e9ba02318ed78606cfe3d35f6747115e7b591611d6be9aa306ae9752daf5d",
+      "title": "MIP 24 Integrating Edenhorde NFT into Merit Circle Ecosystem",
+      "content": "This proposal seeks tokenholder approval to further increase the integration of Edenhorde NFT into the Merit Circle ecosystem, whereby MC tokenholders who stake their MC tokens and own an Edenhorde NFT will receive additional rewards on top of the existing APY.\n\nIf adopted (majority votes for \"Yes\" and quorum threshold is met), this proposal will signal the wish to allocate 1,000,000 MC tokens among MC token stakers who have owned at least one Edenhorde NFT for a minimum one year period. After the period ends, the continuation of such allocation can be determined later through another proposal with a community vote. The rewards will be calculated on a daily basis and be vested for one year. The proposal also requests an additional 100,000 MC token allocation to incentivize small tokenholders who own less than 10,000 tokens with extra rewards.\n\nPlease click on the link attached to read further details on the proposal and the discussions in this regard.",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 79,
+      "blockNumber": 17136512,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xb61e9ba02318ed78606cfe3d35f6747115e7b591611d6be9aa306ae9752daf5d",
+      "startTime": {
+        "timestamp": 1682589600
+      },
+      "endTime": {
+        "timestamp": 1682762400
+      },
+      "startTimestamp": 1682589600,
+      "endTimestamp": 1682762400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 3129319.0,
+          "choice": 0
+        },
+        {
+          "total": 6956502.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3129319.161364421,
+          "choice": 0
+        },
+        {
+          "total": 6956501.152116846,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682586624265,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhiNzdkMjkzMTNhMmQ4NzhjMjNiYjQ3OTJiMGJiMjY5ZjRlNGJhYjFlMWJiMmIyOGJmOTkyYjI3ZjY0Y2YxMTBm",
+      "id": "0xb77d29313a2d878c23bb4792b0bb269f4e4bab1e1bb2b28bf992b27f64cf110f",
+      "title": "MIP-23 Changes to the multisig signers and structure",
+      "content": "This proposal seeks tokenholder approval for the change and addition of a few signatories in Merit Circle DAO’s multisig team and to change the 4 out of 7 multisig into a 5 out of 9 multisig.\n\nFurthermore, the proposal seeks to ratify continued delegation of certain powers already granted to the multisig team, together with an additional authorization.\n\nFinally, it is proposed to require that the multisig signers enter into a simple multisig participation agreement in order to formalize the multisig signers’ participation in connection with the multisig arrangement.\n\nIf adopted (majority votes for \"Yes\" and quorum threshold is met), this proposal will:\n\nChange the 4 out of 7 multisig into a 5 out of 9 multisig (the 2 out of 3 multisig empowered for investment purposes through MIP-2 will not be affected by the said change).\n\nEmpower a multisig team consisting of the 9 persons listed in section 1 of the heading “Specification” to act as multisig signers in accordance with the scope of authority as the current multisig team is operating under, in addition to the additional authorization as set out in this proposal.\n\nRequire that all multisig signers enter into a simple multisig participation agreement going forward and for the authors to negotiate such agreement with the multisig signers. Such agreement will be required to be entered into by all multisig teams of Merit Circle DAO.\n\nPlease click on the link attached to read further details on the proposal and the discussions in this regard.",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 66,
+      "blockNumber": 16497668,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xb77d29313a2d878c23bb4792b0bb269f4e4bab1e1bb2b28bf992b27f64cf110f",
+      "startTime": {
+        "timestamp": 1674820800
+      },
+      "endTime": {
+        "timestamp": 1674993600
+      },
+      "startTimestamp": 1674820800,
+      "endTimestamp": 1674993600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2635236.2,
+          "choice": 0
+        },
+        {
+          "total": 84.4793,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2635236.3210076266,
+          "choice": 0
+        },
+        {
+          "total": 84.47929908513383,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg0ZTIwMDI1ZTM2NzNhZmQ4YTU1MmEzZjFiNjVkZmFlZTQ3ODM0MTIyMzI4MTA1NDg3NzE0YzVhYjVhOTQwM2Qx",
+      "id": "0x4e20025e3673afd8a552a3f1b65dfaee47834122328105487714c5ab5a9403d1",
+      "title": "MIP-22 - Development of MC Tactile, the first Merit Circle merchandise project",
+      "content": "The author of the proposal, Daan de Greef, has for the past few months been working with the Merit Circle DAO’s contributors on a very special project relating to Merit Circle DAO merchandise, called MC Tactile. This proposal aims to decide how Merit Circle merchandise can be distributed to everyone who is connected to the DAO, giving the community a chance to be thanked for its contributions and support to Merit Circle DAO. \n\nSo what are we voting on?\n\nThe author proposes an equitable way of distributing merchandise through the use of so-called Merit Circle Tactile NFTs. Using these NFTs, NFT holders will be given the opportunity to choose the size of the items/merchandise in their box, and have it shipped to an address of their choice, anywhere in the world. \n\nIt is proposed that these NFTs will be distributed in two phases, which are outlined below (a total of 650 boxes with merchandise, with each box consisting of seven premium wearable items):\n\nPhase 1:\n\n5 - Creators of proposals that passed successfully.\n\n25 - Marketing batch - we gift a few NFTs to influencers who have contributed to Merit Circle in return for content\n\n45 - Wallets that voted most - we allow the 45 wallets that voted most to claim one of the NFTs.\n\n50 - Team - there will be 50 NFTs for core team members, contractors and people who worked on the tactile project\n\n50 - one NFT will be sent to each of the portfolio companies of the Merit Circle DAO\n\n75 - Largest stakers - we allow the top 75 of the largest stakers to claim one of the NFTs.\n\n100 - DAO reserve - will be allocated in benefit of the DAO (collaborations, recouping some of the investment value, etc).\n\nThe unclaimed balance of NFTs from this phase will be added to the raffle in phase 2.\n\nPhase 2:\n\n300 - Raffle for MC stakers and Edenhorde NFT holders - we allow anyone who has staked a minimum of one MC token or holds 4 Edenhorde NFTs to join a raffle. Snapshot has been made one minute before this proposal came up.\n\nAny unclaimed NFTs left after phase 2 will be added to the DAO reserves.\n\n***\n\nPlease click on the link attached to read further details on the proposal and the discussions in this regard.\n\nDo you agree with distributing the (first) collection of MC Tactile merchandise as set out in the proposal?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 62,
+      "blockNumber": 16239499,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x4e20025e3673afd8a552a3f1b65dfaee47834122328105487714c5ab5a9403d1",
+      "startTime": {
+        "timestamp": 1671703187
+      },
+      "endTime": {
+        "timestamp": 1671875987
+      },
+      "startTimestamp": 1671703187,
+      "endTimestamp": 1671875987,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5897890.5,
+          "choice": 0
+        },
+        {
+          "total": 59758.438,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5897889.869846143,
+          "choice": 0
+        },
+        {
+          "total": 59758.436570941965,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg0OTcyODI2ZjkyNWViMzE5MDJmZmFlYTUwYWI4MDllNDU2NDgwYThjMzNiZWJiOGRmOWZkZTg3YzgxNjhlMzBm",
+      "id": "0x4972826f925eb31902ffaea50ab809e456480a8c33bebb8df9fde87c8168e30f",
+      "title": "MIP-21 - Merit Circle Grants",
+      "content": "This proposal requests tokenholder approval for the implementation of a Merit Circle DAO grants arrangement.\n\nThe Merit Circle DAO consists of large quantities of talented individuals all having their expertise in their respective fields. For the purpose of stimulating these individuals to step up and contribute to the Merit Circle DAO, we propose that the DAO forms a committee that is granted the right to offer relatively small grants that will allow these developers/creators to focus on their project for a brief period of time. This period is meant to quickly figure out whether there’s product market fit, and whether the project requires additional funding.\n\nTo fund this grant system, an ongoing budget of up to 150,000 USD (USDC) per quarter is requested. The maximum amount that can be utilized for grant purposes per quarter is USD 150,000, but only up to a maximum of USD 10,000 per applicant for a research grant and up to a maximum of USD 25,000 per applicant for a development grant. Anything above these amounts will require going through the wider community before instruction to the multisig.\n\nPlease click on the link attached to read further details on the proposal and the discussions in this regard.\n\nDo you agree with adopting a grant arrangement for Merit Circle DAO as set out in the proposal?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x610F6C4b26E167Ca7eb0FDb0e522e7be336588e8",
+      "totalVotes": 52,
+      "blockNumber": 16184077,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x4972826f925eb31902ffaea50ab809e456480a8c33bebb8df9fde87c8168e30f",
+      "startTime": {
+        "timestamp": 1671034754
+      },
+      "endTime": {
+        "timestamp": 1671207554
+      },
+      "startTimestamp": 1671034754,
+      "endTimestamp": 1671207554,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2549334.2,
+          "choice": 0
+        },
+        {
+          "total": 210696.77,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2604072.1642145026,
+          "choice": 0
+        },
+        {
+          "total": 210696.76471570655,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhiMzA0ZTA5OTA3MjEyMWE0MDE4M2UwY2UzMDM3MWNlOTI3YTBkM2RmZDllYjkxMmM4NzZiYjkzNDIzMGI5MjIz",
+      "id": "0xb304e099072121a40183e0ce30371ce927a0d3dfd9eb912c876bb934230b9223",
+      "title": "MIP-20 A 200 Million Merit Circle Token Burn",
+      "content": "Author\nSad Cat Capital\n\nSummary\nThis proposal puts forward the notion of burning 200,000,000 MC tokens from the Community Incentives allocation.\n\nDespite being allocated almost 30% of the starting 1b MC tokens, since the Community Incentives wallet was created, the tokens have had no utility and none have been spent.\n\nCurrently 6,125,000 tokens are being burned each month from the Community Incentives wallet, as per the proposal MIP-7, however the wallet 8 still has almost 200m MC tokens sitting in it. This contributes significantly to the total supply, and the fully diluted valuation of Merit Circle, as well as being included in calculations for upcoming token unlocks.\n\nBurning these (currently purposeless) tokens will significantly reduce the total supply of Merit Circle and will bring the fully diluted valuation more in line with the circulating market capitalization. Likewise it will remove any doubt from outsiders about upcoming token unlocks and whether these tokens will be hitting the market.\n\nWe also believe this will create a noticeable statement among the wider cryptocurrency community and further demonstrate Merit Circle’s continued commitment to sustainable tokenomics.\n\nDo you agree to the above proposal?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0xDa4529997118e610c925150AEA0c09B89Cde7537",
+      "totalVotes": 232,
+      "blockNumber": 15816779,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xb304e099072121a40183e0ce30371ce927a0d3dfd9eb912c876bb934230b9223",
+      "startTime": {
+        "timestamp": 1666605600
+      },
+      "endTime": {
+        "timestamp": 1666778400
+      },
+      "startTimestamp": 1666605600,
+      "endTimestamp": 1666778400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 11805236.0,
+          "choice": 0
+        },
+        {
+          "total": 35231.367,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 11805237.577886758,
+          "choice": 0
+        },
+        {
+          "total": 35231.3691058987,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg0NWI1Mzg3MzcwMGM1NzQ1YThmYjg0OTA1MDNlZmVkNzIwOTg4M2M5NTBlYThkYzM5ZTMxNzdiMDQyMjJjMzEx",
+      "id": "0x45b53873700c5745a8fb8490503efed7209883c950ea8dc39e3177b04222c311",
+      "title": " MIP-19 Upgrading to staking V2",
+      "content": "The Merit Circle DAO staking module was always designed to evolve. This proposal seeks to implement the first upgrade to the current (v1) staking module, into staking v2. The planned overhaul will increase the options, flexibility and longevity of the staking module. The contours of this proposal are based on the lengthy forum discussions and several polls that have taken place within the Merit Circle community. This proposal also seeks to introduce a yearly staking policy poll, to adjust a set of fixed parameters for each year thereafter.\n\nThis proposal aims to set a hard number for next year’s MC subsidy (currently 10% for year one) and the bonus multipliers for stakers in the governance module.\n\nThe proposal further aims to allow for staking rewards in the form of airdrops, potential other forms of rewards, bonus and discount tiers on Merit Circle DAO products, but makes no hard promises for this. The DAO can (re-)evaluate and decide to overturn any of these reward mechanisms or, on the contrary, make specific proposals to expedite specific benefits for stakers.\n\nStaking v1 will be phased out and fully ended once the deposit of the last staker under staking v1 has been unlocked. Deposits in v1 will be disabled once v2 is live. Staking v1 stakers will only be able to withdraw their holdings when their stake has unlocked, at which time they can decide to stake in v2 or use their tokens otherwise. The same applies to those locked rewards that unlock 12 months from the moment of claiming. This applies to both the single staking pool ($MC) and the LP staking pool ($MC/ETH). Both pools will be replaced with v2 pools, a v2 single $MC pool and a v2 LP $MC/ETH pool.\n\nDo you agree with everything inside the proposal?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0xDa4529997118e610c925150AEA0c09B89Cde7537",
+      "totalVotes": 66,
+      "blockNumber": 15575279,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x45b53873700c5745a8fb8490503efed7209883c950ea8dc39e3177b04222c311",
+      "startTime": {
+        "timestamp": 1663684098
+      },
+      "endTime": {
+        "timestamp": 1663856898
+      },
+      "startTimestamp": 1663684098,
+      "endTimestamp": 1663856898,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 3081981.2,
+          "choice": 0
+        },
+        {
+          "total": 167.4793,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3081981.357520465,
+          "choice": 0
+        },
+        {
+          "total": 167.47929908513382,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhhZTI3ZTc2MmMxZjViM2Y5ZjA4Njc1ZjE4YWIxODI0MzQ2ZjI5ODI4ZGM5NTAzNmE2ZGJhOTQ2MmRmMjRlMzYz",
+      "id": "0xae27e762c1f5b3f9f08675f18ab1824346f29828dc95036a6dba9462df24e363",
+      "title": "MIP-18 Investment in Project Firebrand & Roadslide",
+      "content": "The DAO Investment Committee proposes to make a $3M investment in “Project Firebrand” at a pre-money valuation of $80M with a 1.25% advisory token allocation and a $5M investment in “Project Roadslide” at a pre-money valuation of $40M with up to 2% advisory allocation (based on performance).\n\nProject Firebrand: codename used to maintain confidentiality during fundraising - team is fully doxxed, a veteran 100+ person studio building a AAA Web3 shooter for PC and consoles. They have a successful track record in the PC/Console space, and their past games have generated tens of millions of dollars in revenue.\n\nProject Roadslide: codename used to maintain confidentiality during closing of the fundraising - team is also fully doxxed and have a significant track record in their respective area. They had successful and profitable games for years and will bring fun, engaging sport mobile games to the web3 space.\n\nShould the Merit Circle DAO invest $8M into Project Firebrand & Roadslide?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 76,
+      "blockNumber": 15489766,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xae27e762c1f5b3f9f08675f18ab1824346f29828dc95036a6dba9462df24e363",
+      "startTime": {
+        "timestamp": 1662546413
+      },
+      "endTime": {
+        "timestamp": 1662719213
+      },
+      "startTimestamp": 1662546413,
+      "endTimestamp": 1662719213,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 4101962.0,
+          "choice": 0
+        },
+        {
+          "total": 8670.137,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4101961.0120048416,
+          "choice": 0
+        },
+        {
+          "total": 8670.13629576352,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhjNWQyNWM3YWNmZjBiYjEwOWUxYjA1YzFiMTM5YmZhNDIwNmNkMjhhMzRiMWVjYzcwMWU0ZmFiYjBkOTcxNDVm",
+      "id": "0xc5d25c7acff0bb109e1b05c1b139bfa4206cd28a34b1ecc701e4fabb0d97145f",
+      "title": "MP-4 – Choice of LP pairing asset(s) in staking v2 module",
+      "content": "Which LP asset(s) should $MC be paired to for the main LP staking pool that receives part of the DAOs staking rewards?\n\n**Relevant information follows below**\n\nThis is the fourth official poll for the staking v2 discussion. See more info on the staking v2 discussions and the first three poll results here:\n\nStaking v2 discussions: https://gov.meritcircle.io/t/discussion-staking-v2/401 \n\nMP-1: https://vote.meritcircle.io/#/proposal/0xbd4b35e7ef4fa6aa3d354084a6c6cde2db9f4f029554169357faf3690c3bdef4\n\nMP-2: https://vote.meritcircle.io/#/proposal/0x64a669acccf77471e8aee82ecbfdda431d4b487ca01e66b2cc4c1764b5ef97d0\n\nMP-3: https://vote.meritcircle.io/#/proposal/QmYVB6JAudqLR8sMZWiRZENWxY3Jm3ewJjWhPkyhAjoTHg\n\nIn MP-1 the poll concerned the same question as in this MP-4, i.e. which LP asset(s) should $MC be paired to for the main LP staking pool under staking v2. At the time of voting on MP-1, the majority voted in favor of a MC/USDC pairing. Since that vote took place, a lot has occurred in the crypto space and the various DAO members have been discussing whether the DAO should conduct a new poll on the same matter. As a result, the MC DAO is now holding a new poll on the LP pairing through this MP-4. The result under MP-4 will replace the result in MP-1 and form input to the MIP draft that will follow.\n\nCurrently, the DAO’s staking scheme has a MC/ETH 50/50 Uniswap v2 pool, alongside single sided $MC staking. The old pool will be phased out as previously described in the staking v2 discussions - more elaborative information on the details regarding this will be provided in the MIP concerning adoption of a staking v2 model.\n\nSubject to the final MIP vote, the new LP pool should accrue the majority of the rewards the protocol will attribute to stakers (currently 80% v. 20% on the single sided staking under staking v1).\n\nWe would also like to remind everyone that the majority under MP-2 voted in favor of stakers being able to lock their assets for up to 48 months. Under MP-3 the majority voted in favor of having LP staking in the Uniswap v2 platform. We encourage everyone to review the discussions on staking v2 and the outcome of the previous polls.\n\nNote that the outcome of a MP vote will not have direct or permanent implications; they will only form input to the MIP drafts (see the more detailed explanation on the difference between MIPs and MPs above).",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0xE48DFA9f5aAAB2195AD4a1be780a8A355E3faa4f",
+      "totalVotes": 83,
+      "blockNumber": 15319994,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xc5d25c7acff0bb109e1b05c1b139bfa4206cd28a34b1ecc701e4fabb0d97145f",
+      "startTime": {
+        "timestamp": 1660211441
+      },
+      "endTime": {
+        "timestamp": 1660384241
+      },
+      "startTimestamp": 1660211441,
+      "endTimestamp": 1660384241,
+      "currentState": "closed",
+      "choices": [
+        "MC/USDC",
+        "MC/ETH",
+        "Both MC/USDC and MC/ETH (50/50)"
+      ],
+      "results": [
+        {
+          "total": 46989.895,
+          "choice": 0
+        },
+        {
+          "total": 103699.234,
+          "choice": 2
+        },
+        {
+          "total": 3082842.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 46989.894020405525,
+          "choice": 0
+        },
+        {
+          "total": 3082841.8409419847,
+          "choice": 1
+        },
+        {
+          "total": 103699.21891957115,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6cW1xa2c4YXdycGlwamNsNGZ3NWVlaG10ZXlpdmR3cHN4eWR0bThwemQ2d2p6bQ==",
+      "id": "QmQkG8aWrpiPjcL4fw5eeHmteYiVDwPSXYDtM8PzD6WJzm",
+      "title": "MIP-17 DAO restructuring & Housekeeping",
+      "content": "Authors\nDao Core contributors\n\nSummary\nThis proposal seeks to propose a restructuring of the DAO and formalise the relationships between the corporate entities that currently form part of the DAO. It also proposes that the DAO forms several new entities that will carry out different functions to ensure the smooth operation of the DAO.\n\nLastly, the proposal seeks to give a development company a mandate to carry out day to day operations for the DAO’s benefit. The existing DAO operations are intended to continue through this new structure and will not be adversely affected by the restructuring.\n\n \n![image](ipfs://bafkreidwimxhquvffwkudnub4lhil4kyaohtjh33edxr2oblfe6qdy4glu)\n    \nBudget\n\n- On-going budget DAO operational costs and R&D spending\n- There is no additional budget required for the development entity, as the funds are transferred back from Merit Circle Limited to the DAO, before being granted to OPL via the newly formed MCDAO Ltd.\n    \nShould the DAO proceed with this restructuring and housekeeping proposal?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0xDa4529997118e610c925150AEA0c09B89Cde7537",
+      "totalVotes": 58,
+      "blockNumber": 15094542,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/QmQkG8aWrpiPjcL4fw5eeHmteYiVDwPSXYDtM8PzD6WJzm",
+      "startTime": {
+        "timestamp": 1657184682
+      },
+      "endTime": {
+        "timestamp": 1657357482
+      },
+      "startTimestamp": 1657184682,
+      "endTimestamp": 1657357482,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5803952.5,
+          "choice": 0
+        },
+        {
+          "total": 8935.436,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5803952.5521370005,
+          "choice": 0
+        },
+        {
+          "total": 8935.435193731397,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg4MmJkYTBjZTA0YTNhYWM0NGJiNGMzYWEyYmY3MDcwMTUxM2M4MmQ3OTJjMDU3NGRmNDlmOTM0Y2QxMWE2YTM3",
+      "id": "0x82bda0ce04a3aac44bb4c3aa2bf70701513c82d792c0574df49f934cd11a6a37",
+      "title": "MIP-16: Development of NFT Marketplace",
+      "content": "Merit Circle Ltd has been developing, in collaboration with Dept Agency, an NFT Marketplace. The NFT Marketplace will be a sophisticated platform which focuses on gaming assets. Merit Circle Limited will transfer the NFT Marketplace software and IP that has been created to the DAO. It is proposed that the ongoing development of the NFT marketplace be undertaken and completed by the Merit Circle DAO. The Merit Circle DAO is focused on the gaming industry, and the blockchain industry specifically. The DAO is therefore in a unique position to launch an NFT and in-game asset Marketplace given the wide range of portfolio projects it has supported. The revenue generated by the NFT Marketplace will further contribute to the long-term viability of the Merit Circle DAO.\n\nThe full proposal and discussion thread can be found here:\nhttps://gov.meritcircle.io/t/development-of-nft-marketplace/609\n\nShould the DAO invest in the R&D and development of an NFT marketplace for the Merit Circle DAO?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 69,
+      "blockNumber": 15012356,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x82bda0ce04a3aac44bb4c3aa2bf70701513c82d792c0574df49f934cd11a6a37",
+      "startTime": {
+        "timestamp": 1655977938
+      },
+      "endTime": {
+        "timestamp": 1656150738
+      },
+      "startTimestamp": 1655977938,
+      "endTimestamp": 1656150738,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 3795176.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3795175.037396089,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6cW1jemZtNnl0ajUzNnU4ZnBuYjhucG1lOGIyZ2RqbGlpcHFxdHlicHQ5cGJuYg==",
+      "id": "QmcZfm6ytj536u8fpNB8Npme8b2gdjLiipQQtYbPt9pbnB",
+      "title": "MIP 15 - NFT Aggregator Development",
+      "content": "Authors\nDouwe – Electric Dick Dev\n\nSummary\nMerit Circle is soon entering the NFT trading space with the release of the Sphere NFT Marketplace. Aggregators are a new tool for NFT trading. NFT aggregation is currently dominated by Gem, but there is plenty of opportunity for a new aggregator to enter the market. Together with Merit Circle, I want to develop an NFT aggregator that is user-friendly, and cheaper to use than any competitor. Having a well-developed NFT aggregator that natively integrates Sphere drives more volume to the marketplace, thereby generating more fees and revenue for the DAO.\n\nBudget\nThe proposed budget is $50,000, which will be used to finance the startup phase. The Merit Circle DAO will receive 50% of the aggregator’s common shares. The $50,000 will be used for branding, design, and closing a pre-seed equity round to fund the complete development of the aggregator.\n\nShould the DAO develop a NFT aggregator with Douwe and take a 50% equity stake for a $50,000 budget?\n\n1. The acceptance of this proposal grants the Merit Circle DAO 50% ownership in the to-be created equity of the proposed project. The remaining 50% will be owned by Douwe.\n\n2. In the event that a token is created, it should give Merit Circle DAO a pro-rata amount of tokens. Proportional to the amount of team tokens the team equity would get in such an event.\n\n3. Merit Circle will help with bootstrapping. This includes legals, branding, planning and fundraising. This is what the 50K budget is used for.\n\n4. After the bootstrap phase, Merit Circle DAO will remain a founding partner, but the aggregator team will be led by an independent team. The seed raise funds can be used by Douwe to comprise a team.\n\n5. Equity for additional valuable team members will be created during the fundraise. The size and allocation will be negotiated with the existing equity holders (MC DAO and Douwe) and investors.\n\nFull discussion can be found here; https://gov.meritcircle.io/t/mip-15-nft-aggregator-development/595",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0xDa4529997118e610c925150AEA0c09B89Cde7537",
+      "totalVotes": 71,
+      "blockNumber": 14960822,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/QmcZfm6ytj536u8fpNB8Npme8b2gdjLiipQQtYbPt9pbnB",
+      "startTime": {
+        "timestamp": 1655195695
+      },
+      "endTime": {
+        "timestamp": 1655368495
+      },
+      "startTimestamp": 1655195695,
+      "endTimestamp": 1655368495,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 4346692.5,
+          "choice": 0
+        },
+        {
+          "total": 29782.725,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4346691.792356511,
+          "choice": 0
+        },
+        {
+          "total": 29782.72431031773,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6cW1hbnc3ZHR5ZjJsdnZ1OWlhZ3dqM2k5ZDRmM3RzN3pieHIzM2p2Y21rbXJncg==",
+      "id": "QmanW7dTyF2LvvU9iAGwj3i9D4F3TS7ZbxR33jVCmKMrgR",
+      "title": "MIP-14 Counterproposal to MIP-13",
+      "content": "In light of the recently passed proposal (MIP-13), the Merit Circle DAO is obliged to renegotiate the terms of the financial agreements made between the DAO and Yield Guild Games. \n\nThis proposal votes on the following;\n\n- The Merit Circle DAO buys out the YGG and Nifty Fund allocation, a total of 5,468,750 $MC tokens at 0.32$. For a total of $1,750,000 USDC.\n\n- A legal agreement will be signed, enforcing the buy-out offer legally and protecting both sides against future litigation.\n\nDo you agree with the above proposal, yes or no?\n\nFull discussion can be found here; https://gov.meritcircle.io/t/mip-14-counterproposal-to-mip-13/\n\nReminder\nIn MIP-13 - a three-month cooling off period for proposals that involve a change of token economics or current agreements. This will give us time to come up with improvements to the governance framework.\n",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0xDa4529997118e610c925150AEA0c09B89Cde7537",
+      "totalVotes": 112,
+      "blockNumber": 14919686,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/QmanW7dTyF2LvvU9iAGwj3i9D4F3TS7ZbxR33jVCmKMrgR",
+      "startTime": {
+        "timestamp": 1654588696
+      },
+      "endTime": {
+        "timestamp": 1654761496
+      },
+      "startTimestamp": 1654588696,
+      "endTimestamp": 1654761496,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5651677.5,
+          "choice": 0
+        },
+        {
+          "total": 167.4793,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5651678.481057851,
+          "choice": 0
+        },
+        {
+          "total": 167.47929908513382,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6cW10NzF0d3R0d2s2cTVjZDJrdmhvbHp4bTc2c3BuYXFnYnI5cmU3cGN4Ym01OA==",
+      "id": "QmT71tWtTwk6q5Cd2kvhoLzxm76SpNaQGBR9RE7pCxBM58",
+      "title": "MIP-13",
+      "content": "This proposal aims to demonstrate the lack of value YGG has provided the DAO since becoming a seed investor. It also aims to cancel YGG’s SAFT, refund their initial investment, and remove their MC seed tokens.\n\nThe author of this proposal, proposes to find a solution to terminate the financial obligations the Merit Circle DAO has with YGG, through removing YGG’s seed tokens and refunding their initial 175K USDC contribution.\n\nMerit Circle ltd has argued for a clause, that will give time for Merit Circle ltd and YGG to propose a solution that would be more beneficial for the DAO and all parties involved in case of a YES vote. Author deemed this a fair ask and accepted the clause.\n\nVote:\n- Yes, with clause*\n- No\n\nClause as described here *;\nClause that, in the case of acceptance of this proposal (YES, with clause), delays the proposed actions by 2 weeks and gives a 1 week time period for a counter proposal.\n\nFor reference, YGG and YGG co-founder Gabby Dizon invested $175k at a price of $0.032 which gives them 5,468,750 MC tokens in total. This was split between $100,000 directly invested through YGG, and $75,000 invested through Gabby’s personal fund Nifty.\n\nThe full proposal and discussion can be found here:\nhttps://gov.meritcircle.io/t/merit-circle-a-new-era/469\n\nShould the Merit Circle DAO refund YGG’s seed investment yes* or no?\n\n*Yes would include the clause as described above.",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0xDa4529997118e610c925150AEA0c09B89Cde7537",
+      "totalVotes": 122,
+      "blockNumber": 14847053,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/QmT71tWtTwk6q5Cd2kvhoLzxm76SpNaQGBR9RE7pCxBM58",
+      "startTime": {
+        "timestamp": 1653556865
+      },
+      "endTime": {
+        "timestamp": 1653729665
+      },
+      "startTimestamp": 1653556865,
+      "endTimestamp": 1653729665,
+      "currentState": "closed",
+      "choices": [
+        "Yes, with clause",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5200259.5,
+          "choice": 0
+        },
+        {
+          "total": 731927.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5200260.543235632,
+          "choice": 0
+        },
+        {
+          "total": 731927.5019961065,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6cW15dmI2amF1ZHFscjhzbXp3aXJ6ZW53eHkzam0zZXdqandocGt5aGFqb3RoZw==",
+      "id": "QmYVB6JAudqLR8sMZWiRZENWxY3Jm3ewJjWhPkyhAjoTHg",
+      "title": "[MP-3] Choice of platform",
+      "content": "What should be the platform for LP staking in the staking V2 platform?\n\nPrevious polls\n[MP-1] https://vote.meritcircle.io/#/proposal/0xbd4b35e7ef4fa6aa3d354084a6c6cde2db9f4f029554169357faf3690c3bdef4\n[MP-2] https://vote.meritcircle.io/#/proposal/0x64a669acccf77471e8aee82ecbfdda431d4b487ca01e66b2cc4c1764b5ef97d0\n\nRelevant information\n\nPoll 1 decided the main LP pairing asset should be USDC. Meaning the LP pool will be MC/USDC in the second version of the staking platform.\n\nThe current pool is a MC/ETH 50/50 Uniswap v2 pool. The old pool will be phased out, current v1 stakers do not have to worry. They will receive similar relative proportional rewards, until the last staker is unlocked (1Y from new pool launch).\n\nThe new pool will accrue the majority of the dividends and subsidies the protocol will attribute to stakers (currently 80%). The pool will exist next to a single staking $MC pool, that also receives part of these staking rewards (currently 20%).\n\nIn the previous poll, the DAO decided that the LP stake can be locked for 0-48 months. The longer the lock, the higher the rewards for the staker. The bonus multiplier will be either linearly or exponentially.\n\nLP tokens will retain a similar voting weight as they have currently in the V1 system. Locked stakers could also get secondary benefits, such as airdrops from (partner) games or platform fee discounts.",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0xDa4529997118e610c925150AEA0c09B89Cde7537",
+      "totalVotes": 64,
+      "blockNumber": 14809692,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/QmYVB6JAudqLR8sMZWiRZENWxY3Jm3ewJjWhPkyhAjoTHg",
+      "startTime": {
+        "timestamp": 1653040800
+      },
+      "endTime": {
+        "timestamp": 1653213600
+      },
+      "startTimestamp": 1653040800,
+      "endTimestamp": 1653213600,
+      "currentState": "closed",
+      "choices": [
+        "Balancer 80/20",
+        "Uniswap v2",
+        "Uniswap v3 ",
+        "Other"
+      ],
+      "results": [
+        {
+          "total": 135433.12,
+          "choice": 3
+        },
+        {
+          "total": 21574.305,
+          "choice": 0
+        },
+        {
+          "total": 132841.5,
+          "choice": 2
+        },
+        {
+          "total": 3152564.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 21574.30481769523,
+          "choice": 0
+        },
+        {
+          "total": 3152563.710219073,
+          "choice": 1
+        },
+        {
+          "total": 132841.49234801048,
+          "choice": 2
+        },
+        {
+          "total": 135433.1278661472,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg2NGE2NjlhY2NjZjc3NDcxZThhZWU4MmVjYmZkZGE0MzFkNGI0ODdjYTAxZTY2YjJjYzRjMTc2NGI1ZWY5N2Qw",
+      "id": "0x64a669acccf77471e8aee82ecbfdda431d4b487ca01e66b2cc4c1764b5ef97d0",
+      "title": "[MP-2] LP staking length in the new staking v2 module",
+      "content": "How long should stakers be able to lock their assets ( $MC/USDC and $MC) in the staking v2 module? ",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 82,
+      "blockNumber": 14766041,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x64a669acccf77471e8aee82ecbfdda431d4b487ca01e66b2cc4c1764b5ef97d0",
+      "startTime": {
+        "timestamp": 1652426981
+      },
+      "endTime": {
+        "timestamp": 1652599781
+      },
+      "startTimestamp": 1652426981,
+      "endTimestamp": 1652599781,
+      "currentState": "closed",
+      "choices": [
+        "12 months",
+        "24 months",
+        "48 months"
+      ],
+      "results": [
+        {
+          "total": 506570.62,
+          "choice": 0
+        },
+        {
+          "total": 3251266.5,
+          "choice": 2
+        },
+        {
+          "total": 683986.06,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 506570.6154528525,
+          "choice": 0
+        },
+        {
+          "total": 683986.0011529376,
+          "choice": 1
+        },
+        {
+          "total": 3251266.0786897307,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhiZDRiMzVlN2VmNGZhNmFhM2QzNTQwODRhNmM2Y2RlMmRiOWY0ZjAyOTU1NDE2OTM1N2ZhZjM2OTBjM2JkZWY0",
+      "id": "0xbd4b35e7ef4fa6aa3d354084a6c6cde2db9f4f029554169357faf3690c3bdef4",
+      "title": "MP-1 - LP pairing asset in the Staking v3 module",
+      "content": "Which LP asset should $MC be paired to for the main LP staking pool that receives part of the DAOs staking dividends and subsidies? \n\nFirst official poll for the staking v2 discussion\nhttps://gov.meritcircle.io/t/discussion-staking-v2/401/34\n\nA discussion that should ultimately lead to a MIP that outlines the design and execution the new staking v2 module. \n\nRelevant information:\nThe pool will be an Uniswap v2 or v3 pool on Ethereum. The pool will have a ratio of minimally 50% MC and maximally 90% MC (vs 50% to 90% of the pairing asset). \n\nThe current pool is a MC/ETH 50/50 Uniswap v2 pool. The old pool is phased out, current v1 stakers do not have to worry. They will receive the same proportional rewards, until the last staker is unlocked (1Y from new pool launch). \n\nThe new pool will accrue the majority of the dividends and subsidies the protocol will attribute to stakers (currently 80%). The pool will exist next to a single staking $MC pool, that also receives part of these staking rewards (currently 20%). \n\nThe LP stake can be locked for 0-48 months. The longer the lock, the higher the rewards for the staker. The bonus multiplier will be either linearly or exponentially. \n\nLP tokens will retain a similar voting weight as they have currently in the V1 system.\n\nLocked stakers could also get secondary benefits, such as airdrops from (partner) games or platform fee discounts.",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 100,
+      "blockNumber": 14686103,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xbd4b35e7ef4fa6aa3d354084a6c6cde2db9f4f029554169357faf3690c3bdef4",
+      "startTime": {
+        "timestamp": 1651328771
+      },
+      "endTime": {
+        "timestamp": 1651501571
+      },
+      "startTimestamp": 1651328771,
+      "endTimestamp": 1651501571,
+      "currentState": "closed",
+      "choices": [
+        "MC/ETH",
+        "MC/USDC",
+        "MC/WBTC",
+        "MC/ETH & MC/USDC",
+        "MC/ETH+WBTC",
+        "MC/ETH+WBTC+USDC",
+        "Other"
+      ],
+      "results": [
+        {
+          "total": 62931.46,
+          "choice": 3
+        },
+        {
+          "total": 350.7867,
+          "choice": 5
+        },
+        {
+          "total": 1764511.6,
+          "choice": 0
+        },
+        {
+          "total": 19743.201,
+          "choice": 6
+        },
+        {
+          "total": 6352123.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1764511.4418080498,
+          "choice": 0
+        },
+        {
+          "total": 6352124.221934565,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 62931.46880782647,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        },
+        {
+          "total": 350.78671889421696,
+          "choice": 5
+        },
+        {
+          "total": 19743.20145154937,
+          "choice": 6
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHgwOTE1ODgxYTAxMzViNzE0NjZkYjdiMzIzOGJkOWRjNWJiOWU2MDI3YTQ2NTk4MWU4NjZhYmQwY2U4NzVjNTI3",
+      "id": "0x0915881a0135b71466db7b3238bd9dc5bb9e6027a465981e866abd0ce875c527",
+      "title": "MIP-12 Improved DAO Free Cash Flow/Net Income Allocation Proposal",
+      "content": "As an overview, I and other MC token holders, believe the current use of ‘free cash flow’ or ‘net income’ (which we are defining as funds received from the DAO over and above what is needed for reinvestment or to cover maintenance expense) does not provide maximum value for long term token holders or the DAO itself . Similar to high quality equities (also cash flow producing entities) there is substantial evidence/research that the most economically beneficial use of free cash flow or net income (outside of reinvestment back in the business) fall into three categories . These include 1- S hare buybacks (if management feels market price is undervalued), 2- Dividend Payments to shareholders, and 3- in select cases accumulation of some amount of liquid high-quality assets to keep in Treasury for future operations, defense, investment, acquisitions, etc.\n\nI am proposing the following to align MC free cash flow/net income allocation away from the current framework and towards what is historically recognized as the best economic use of free cash flow with some flexibility given to the DAO, see link: (and for subsequent discussion)\n\nhttps://gov.meritcircle.io/t/improved-dao-free-cash-flow-net-income-allocation-proposal/356\n\nShould the Merit Circle DAO adopt this improved FCF/NI proposal?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 64,
+      "blockNumber": 14352503,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x0915881a0135b71466db7b3238bd9dc5bb9e6027a465981e866abd0ce875c527",
+      "startTime": {
+        "timestamp": 1646828264
+      },
+      "endTime": {
+        "timestamp": 1647001064
+      },
+      "startTimestamp": 1646828264,
+      "endTimestamp": 1647001064,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 522076.28,
+          "choice": 0
+        },
+        {
+          "total": 3631630.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 522076.31062199647,
+          "choice": 0
+        },
+        {
+          "total": 3631629.713379286,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHgyMGY0NWZhYjY4MTMzMjJkZmU0MjBjM2E4YzlhMDMzYTUzNzliNzIwODE1YjlkNjE3ZmUzNzY4ZWVjNWJhNGVj",
+      "id": "0x20f45fab6813322dfe420c3a8c9a033a5379b720815b9d617fe3768eec5ba4ec",
+      "title": "MIP-11 Stablecoin Deployment Anchor Protocol",
+      "content": "Summary\nThis proposal aims to deploy part (up to 10,000,000 $) of the idle stablecoin balance of the Merit Circle DAO treasury into Anchor Protocol, a Dapp on Terra blockchain. The treasury still has 53 Million USD sitting idle on the balance sheet. Anchor protocol offers an outlet to make USD stablecoins, in the form of UST, productive. Anchor Protocol currently offers a 19,5% yield fixed rate on deposits, while maintaining a lot of withdrawing and depositing flexibility. Deploying will diversify the stablecoin balance of the DAO and will increase the yield that the treasury assets will generate.\n\nRead full proposal and discussion here:\nhttps://gov.meritcircle.io/t/mip-11-deploy-idle-stablecoin-balance-into-anchor-protocol/361\n\nShould the Merit Circle DAO deploy 10M USD from the treasury assets into Anchor protocol?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 104,
+      "blockNumber": 14307823,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x20f45fab6813322dfe420c3a8c9a033a5379b720815b9d617fe3768eec5ba4ec",
+      "startTime": {
+        "timestamp": 1646226976
+      },
+      "endTime": {
+        "timestamp": 1646399776
+      },
+      "startTimestamp": 1646226976,
+      "endTimestamp": 1646399776,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 6678948.5,
+          "choice": 0
+        },
+        {
+          "total": 38156.902,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6678948.433732371,
+          "choice": 0
+        },
+        {
+          "total": 38156.89734080901,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHgxNDY2NDIwMGYyZTU4NjUxZWFmNjU5ZGE4ZjVhZThjZjk1ZWRkM2QxOTRkNDFiYTQ3NWVkMjEwNDZmYmI4MTYx",
+      "id": "0x14664200f2e58651eaf659da8f5ae8cf95edd3d194d41ba475ed21046fbb8161",
+      "title": "MIP-10 Framework  games development",
+      "content": "To take a step towards bringing the Merit Circle DAO to the vertically integrated gaming DAO we envisioned, we would like to share some negotiations that have been going on.\n\nFurthermore, we would like to use this proposal to create a framework for future projects that will live under the Merit Circle DAO. Edenhorde is one example, but in this same proposal we share the negotiations with two senior developers who have created a game that we’re aiming to launch under the Merit Circle DAO.\n\nIn this proposal we share the financial breakdown of these projects and thereby indicate the way we envision sufficient in the near future.\n\nRead the full proposal and discussion here:\nhttps://gov.meritcircle.io/t/framework-around-financial-terms-for-games-developed-by-merit-circle-dao/294/9\n\nShould the Merit Circle DAO move ahead with a framework targeted at game development?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 129,
+      "blockNumber": 14255831,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x14664200f2e58651eaf659da8f5ae8cf95edd3d194d41ba475ed21046fbb8161",
+      "startTime": {
+        "timestamp": 1645532679
+      },
+      "endTime": {
+        "timestamp": 1645705479
+      },
+      "startTimestamp": 1645532679,
+      "endTimestamp": 1645705479,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 6576268.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6576267.675718547,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHgzNTQyZTJjMjk0YTUzNWU5YzZkOTQzY2ViNzNmNjViNmFlMGExMGMwZmU5MzE0NTIzZGI3NmRmODI2NjdiOWIy",
+      "id": "0x3542e2c294a535e9c6d943ceb73f65b6ae0a10c0fe9314523db76df82667b9b2",
+      "title": "MIP-9 Hire Shashwat Ashiya as the Head of Governance",
+      "content": "As the DAO gains momentum and the community becomes more active, the DAO requires a consistent and well-run governance process in order to remain stable and secure as it grows.\n\nThe DAO needs someone to write governance reports, moderate and improve the governance forum, network with other DAOs, hold governance meetups and various other activities. These tasks are essential for developing and maintaining a healthy DAO and ensuring constant communication between the DAO and the community. The Core Contributors of the DAO have found a suitable candidate.\n\nFind the complete proposal and discussion here:\nhttps://gov.meritcircle.io/t/hire-shashwat-ashiya-as-the-head-of-governance/237\n\nShould the DAO hire Shashwat Ashiya as Head of Governane?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 101,
+      "blockNumber": 13958975,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x3542e2c294a535e9c6d943ceb73f65b6ae0a10c0fe9314523db76df82667b9b2",
+      "startTime": {
+        "timestamp": 1641639333
+      },
+      "endTime": {
+        "timestamp": 1641812133
+      },
+      "startTimestamp": 1641639333,
+      "endTimestamp": 1641812133,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 7187065.0,
+          "choice": 0
+        },
+        {
+          "total": 153.91357,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7187065.725117919,
+          "choice": 0
+        },
+        {
+          "total": 153.91357826376455,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhkMTU1NTEzMjlmYTNlODNjNjhlYzRkYWJkODg1ZmYxN2U4YzI2YTIwZTFkNDQ4OTk1MTA3NjVkMTZhMGNhY2Y0",
+      "id": "0xd15551329fa3e83c68ec4dabd885ff17e8c26a20e1d44899510765d16a0cacf4",
+      "title": "MIP-8 Hotwire investment and partnership",
+      "content": "This proposal is for an equity investment into Hotwire Studios and a token investment into Game 1, Nitro League. Given the current market cap of Nitro League of 120M fully diluted and the equity investment terms, the equity investment is nearly covered just by the proposed Nitro token holdings.\nThis proposal will cover the Hotwire Studios game and infrastructure opportunity as well as the Nitro League game and how the Hotwire infrastructure drives in-game value.\n\nRead the full proposal and discussion here:\nhttps://gov.meritcircle.io/t/hotwire-x-merit-circle-proposal/213\n\nShould Merit Circle DAO invest in Hotwire?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 90,
+      "blockNumber": 13957787,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xd15551329fa3e83c68ec4dabd885ff17e8c26a20e1d44899510765d16a0cacf4",
+      "startTime": {
+        "timestamp": 1641555153
+      },
+      "endTime": {
+        "timestamp": 1641727953
+      },
+      "startTimestamp": 1641555153,
+      "endTimestamp": 1641727953,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 104205.08,
+          "choice": 0
+        },
+        {
+          "total": 4030865.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 104205.0715666631,
+          "choice": 0
+        },
+        {
+          "total": 4030865.3449273016,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg0MTJhYTE5Y2M0MjkyMTRhZmExY2Y3MmYwMjU3ZjVjODA2OTU1NDBjODRiYjliODRiNzI0NzE1YTg3ZTg4MmRi",
+      "id": "0x412aa19cc429214afa1cf72f0257f5c80695540c84bb9b84b724715a87e882db",
+      "title": "MIP-7 - Tokenecons - Sustainable future vision",
+      "content": "This proposal has the purpose of creating a sustainable ground for the future of Merit Circle and the MC token. We propose to use the proceeds from realized gains on investments across various investments done by the DAO to be deployed in a structured manner. This consists of using one part to re-fill the treasury in USDC, one part buying back MC tokens for the treasury and the remaining part burning a part of the MC tokens bought back.\n\nThe full proposal and discussion can be found here:\nhttps://gov.meritcircle.io/t/sustainable-future-vision/192\n\nShould the Merit Circle DAO adopt the token economics improvements as proposed in MIP-7?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 196,
+      "blockNumber": 13907705,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x412aa19cc429214afa1cf72f0257f5c80695540c84bb9b84b724715a87e882db",
+      "startTime": {
+        "timestamp": 1640924423
+      },
+      "endTime": {
+        "timestamp": 1641097223
+      },
+      "startTimestamp": 1640924423,
+      "endTimestamp": 1641097223,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 7593476.5,
+          "choice": 0
+        },
+        {
+          "total": 189.94336,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7593474.123476736,
+          "choice": 0
+        },
+        {
+          "total": 189.94336464049331,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhlYzA4YjZmMzg5NDFjMDIzMTlkZGVjYTRiODYzMWJlMzZkYTU0MmE2ZjYyOWE0NjViMTgyYTgxYjRlMGRlYmEz",
+      "id": "0xec08b6f38941c02319ddeca4b8631be36da542a6f629a465b182a81b4e0deba3",
+      "title": "MIP-6 Early stage de-risking mandate",
+      "content": "This proposal gives the DAO a venue to de-risk early-stage token and NFT investments at the time they become liquid. By mandate the DAO would be able to do so quickly and flexibly, giving it more opportunities to benefit from short-term market conditions. It will also reduce the amount of governance overhead for something that is, in our opinion, a clear win for the DAO.\n\nFind full proposal and discussion here:\nhttps://gov.meritcircle.io/t/early-stage-investment-de-risking-mandate/172\n\nShould the DAO get a early-stage de-risking mandate?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 100,
+      "blockNumber": 13804913,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xec08b6f38941c02319ddeca4b8631be36da542a6f629a465b182a81b4e0deba3",
+      "startTime": {
+        "timestamp": 1639510450
+      },
+      "endTime": {
+        "timestamp": 1639683250
+      },
+      "startTimestamp": 1639510450,
+      "endTimestamp": 1639683250,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5378312.0,
+          "choice": 0
+        },
+        {
+          "total": 10604.0205,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5378309.869488174,
+          "choice": 0
+        },
+        {
+          "total": 10604.02060522994,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg5OGNlOTE4MTAwMDcwYzM1ZGNiZTg1YTcwNDhjNDkwMWZhMTdkMjU2YTIxZTVjZGYzMmM5M2ZiYzM5ZGFkNmM4",
+      "id": "0x98ce918100070c35dcbe85a7048c4901fa17d256a21e5cdf32c93fbc39dad6c8",
+      "title": "MIP-5 Yielding USD Position Gro Protocol",
+      "content": "Gro protocol propose to help Merit Cicle DAO manage $2.5MM of the treasury fiat position through their risk tranched stablecoin PWRD, which offers deposit protection while generating yield. \n\nThey propose, after discussion with the community, to allocate to the following positions:\n- 1.25MM in PWRD\n- 1.25MM in PWRD-3CRV (staked on Gro)\n\nRead the full proposal and discussion here:\nhttps://gov.meritcircle.io/t/proposal-partner-with-gro-protocol-for-treasury-management/141/15\n\nShould Merit Circle DAO allocate 2.5MM to PWRD and PWRD-3CRV?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 83,
+      "blockNumber": 13764677,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x98ce918100070c35dcbe85a7048c4901fa17d256a21e5cdf32c93fbc39dad6c8",
+      "startTime": {
+        "timestamp": 1638968473
+      },
+      "endTime": {
+        "timestamp": 1639141273
+      },
+      "startTimestamp": 1638968473,
+      "endTimestamp": 1639141273,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1038590.25,
+          "choice": 0
+        },
+        {
+          "total": 4235704.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1038590.367616906,
+          "choice": 0
+        },
+        {
+          "total": 4235703.837806242,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHgyOTI3ZTBhY2I2YTAzNzU2YjMyODFkY2ZmNDNiZGI3Y2ZlMmIyOGUzNDM2MzBmN2U0ZWM5OGY4NTljYTNlZDNi",
+      "id": "0x2927e0acb6a03756b3281dcff43bdb7cfe2b28e343630f7e4ec98f859ca3ed3b",
+      "title": "MIP-4 Development Gaming Platform (Dept Agency)",
+      "content": "There are currently a lot of opportunities in the operational side of Merit Circle. Scaling, educating and maintenance of our current scholarship program is labor-intensive and sensitive to errors. Therefore we propose to develop an overarching platform that will house all the functionalities required to scale and sustain all the current gaming activities for Merit Circle.\n\nFind full proposal and discussion here:\nhttps://gov.meritcircle.io/t/development-of-gaming-platform-with-dept-agency/127\n\nShould the DAO enter a collaboration with DEPT Agency to develop the gaming platform? (Dashboard)",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 125,
+      "blockNumber": 13757866,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x2927e0acb6a03756b3281dcff43bdb7cfe2b28e343630f7e4ec98f859ca3ed3b",
+      "startTime": {
+        "timestamp": 1638874328
+      },
+      "endTime": {
+        "timestamp": 1639047128
+      },
+      "startTimestamp": 1638874328,
+      "endTimestamp": 1639047128,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 6119722.5,
+          "choice": 0
+        },
+        {
+          "total": 4118.3945,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6119722.607323476,
+          "choice": 0
+        },
+        {
+          "total": 4118.39494808797,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHg3MzIzNDVjZWUyMzUxNDlkMzhiY2IyODg0ZDI4NzIxNGE5NTgwNzRkMzJmZTFkZjYzODVhODMyYmZkNzI4ZTNm",
+      "id": "0x732345cee235149d38bcb2884d287214a958074d32fe1df6385a832bfd728e3f",
+      "title": "MIP-3 Yield Generation on Maple Finance",
+      "content": "The proposal outlined here is to be put through the Merit Circle governance process in order for the community to be able to review the proposal and provide feedback where necessary. If the proposal is approved by the DAOs governance process, the implementation of the proposal should follow these steps:\n\n- On Maple Finance, approve USDC to spend.\n\n- Deposit 10,000,000 USDC to the Maven 11 liquidity pool and receive \nMaple Pool Tokens (MPT), to be eligible for receiving USDC rewards\n\n- Approve MPT to spend.\n\n- Stake MPT in Maple Finance, to be eligible for receiving MPL governance token rewards (do not confuse with staking for the pool cover, staking MPT is purely to receive MPL rewards and it is a technical requirement).\n\nFind the full proposal and discussion here:\nhttps://gov.meritcircle.io/t/mip-3-yield-generation-on-maple-finance/92\n\n\n Are you in favor (Yes) or against (No) MIP-3?",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 215,
+      "blockNumber": 13689923,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0x732345cee235149d38bcb2884d287214a958074d32fe1df6385a832bfd728e3f",
+      "startTime": {
+        "timestamp": 1637936119
+      },
+      "endTime": {
+        "timestamp": 1638108919
+      },
+      "startTimestamp": 1637936119,
+      "endTimestamp": 1638108919,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 6067107.0,
+          "choice": 0
+        },
+        {
+          "total": 303728.97,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6067108.150240284,
+          "choice": 0
+        },
+        {
+          "total": 303728.96942523617,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bWVyaXRjaXJjbGVldGg6c25hcHNob3Q6MHhmMDY2MDBiZWRhM2M3ODQ4MjJiY2EwZDE2MDIzNzc0YjdjYzU3NjRiNDM3MjlhMDQ5ZmE5NzUxODgzMjYwNWQ4",
+      "id": "0xf06600beda3c784822bca0d16023774b7cc5764b43729a049fa97518832605d8",
+      "title": "MIP-2 Broad investment mandate",
+      "content": "Co-Authors: \nCitizenX\nMaven11\nFlow Ventures LP\n\nSummary\nMerit Circle DAO raised $105,576,956 million in the Balancer Liquidity Bootstrapping Pool on Copperlaunch. The sale concluded on November 5th at 2 pm UTC after a 3 day raises period. After the conclusion of the sale, these funds were sent to the MainDAO in a 4 out of 7 multisig. We are proposing that the DAO have a broad investment mandate so as to enable our sizable cash position to be as productive as possible for the DAOs benefit. This mandate will be developed and may, at a later stage, narrow the investment mandate and may also create sub-mandates. All these future proposals will be voted on by the Merit DAO community, the $MC token holders, before they are enacted.\n\nAbstract\nAfter concluding a record-breaking Balancer Liquidity Bootstrapping Pool on Copperlaunch there’s now a large cash position in the MainDAO’s wallet. This cash is currently sitting idle, and we are of the view that it should be being utilized to further the DAO and the Merit Circle’s objectives as soon as possible.\n\nThe complete proposal and discussion can be found here:\nhttps://gov.meritcircle.io/t/broad-investment-mandate/27/5\n\nAre you in favor of MIP-2 (Broad investment mandate)?\n",
+      "protocol": "meritcircleeth",
+      "adapter": "snapshot",
+      "proposer": "0x5b48A7035B565366a4d2F6baf10167514ad24Ece",
+      "totalVotes": 307,
+      "blockNumber": 13615135,
+      "externalUrl": "https://snapshot.org/#/meritcircle.eth/proposal/0xf06600beda3c784822bca0d16023774b7cc5764b43729a049fa97518832605d8",
+      "startTime": {
+        "timestamp": 1636912722
+      },
+      "endTime": {
+        "timestamp": 1637085522
+      },
+      "startTimestamp": 1636912722,
+      "endTimestamp": 1637085522,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5917583.5,
+          "choice": 0
+        },
+        {
+          "total": 1002.82104,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5917581.79896583,
+          "choice": 0
+        },
+        {
+          "total": 1002.821041808118,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

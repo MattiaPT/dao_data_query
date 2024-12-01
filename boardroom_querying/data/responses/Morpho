@@ -1,0 +1,4363 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NTNjNWYwMWRhYzM5NmI5NzY1MGYzN2ZjY2ZhMDkxMDQ1N2IyN2ExZmMwNmM1ZWM1ZDU0ZWUwZTZlNTQwODE4MA==",
+      "id": "0x53c5f01dac396b97650f37fccfa0910457b27a1fc06c5ec5d54ee0e6e5408180",
+      "title": "MIP75 - Begin Technical Implementation of Onchain Governance for MORPHO",
+      "content": "Technical Details:\n\n1. Develop and deploy a new token contract on mainnet with the features described below:\n    1. Total supply of 1B, which will ensure all current MORPHO tokens can be wrapped for any holders who choose to enable the wrapper contract\n    2. Upgradeable proxy implementation, which would allow the DAO to make upgrades without the need for deploying new wrapper contracts in the future\n    3. Data structures to track an address's chosen delegate, if any, and the voting power of each address including delegations so that users can participate in onchain voting in the future once the DAO selects a governance implementation. For reference, see the standard open source implementation from [OpenZeppelin, ERC20Votes](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Votes.sol)\n2. Deploy contract instance compliant to the [bridged token interface](https://docs.optimism.io/builders/app-developers/tutorials/standard-bridge-custom-token) for all tokens that will be made claimable on Base, or that users choose to bridge in the future. The Base contract will have the same voting and upgradeability features, while wrap/unwrap will be supported only on mainnet, since the original MORPHO token will not be deployed on Base\n3. Deploy a wrapper contract to enable users to wrap to the new token contract, with the initial supply of 1B tokens minted to the wrapper.\n4. Add support for using the wrapper contract to the UI, including:\n    - ability for holders of the existing MORPHO token to wrap it and participate in governance\n    - bundling of claim and wrap flows so that future token claimers can receive the wrapped version without the friction and cost of a separate wrapping step\n    - token delegation interface\n5. Use the wrapped MORPHO token for future onchain incentives. Existing Merkl claims and vesting contracts will be unaffected.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 7,
+      "blockNumber": 21049807,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x53c5f01dac396b97650f37fccfa0910457b27a1fc06c5ec5d54ee0e6e5408180",
+      "startTime": {
+        "timestamp": 1729946080
+      },
+      "endTime": {
+        "timestamp": 1730205280
+      },
+      "startTimestamp": 1729946080,
+      "endTimestamp": 1730205280,
+      "currentState": "active",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 309399.84,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 309399.85352650355,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729946125502,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YTJkYTZmYzk2YmVjYWQ5MzI4OWM3ZWZlMmFkYzI3MWQwMzczODNhMDIyZjA3NmJhMDdlNjZhNjJkM2JkMDE4Ng==",
+      "id": "0xa2da6fc96becad93289c7efe2adc271d037383a022f076ba07e66a62d3bd0186",
+      "title": "MIP74 - Update MORPHO Reward Rate on Base",
+      "content": "Proposition to raise the S_lim for suppliers by 20% to $60M on Base network.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 30,
+      "blockNumber": 21041287,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xa2da6fc96becad93289c7efe2adc271d037383a022f076ba07e66a62d3bd0186",
+      "startTime": {
+        "timestamp": 1729843232
+      },
+      "endTime": {
+        "timestamp": 1730102432
+      },
+      "startTimestamp": 1729843232,
+      "endTimestamp": 1730102432,
+      "currentState": "active",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 3822830.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3822829.475200048,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729843422751,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YjljYmE4MzFlYzY4NjlkMDQ2ODRhMmM0YjM2ZWU5ZTMwMWRmN2JiMjI2ZjM5NWQ3OTE5ODk3YWJjOTEwZjE3Mg==",
+      "id": "0xb9cba831ec6869d04684a2c4b36ee9e301df7bb226f395d7919897abc910f172",
+      "title": "MIP73 - Unifying Reward Rules",
+      "content": "The introduction of new scalable rewards has streamlined the rules, reduced operations, and simplified strategy for curators as they navigate different markets.\n\nHowever, since its introduction and deployment on Base, targeted measures have been taken. We propose to re-unify the rules:\n\n- Idle markets will be included in the scalable reward system;\n- A market that is rewarded on the lending side will be rewarded on the borrowing side by default;\n- The borrowing reward rate will be one-tenth of the supply reward rate.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 35,
+      "blockNumber": 20712811,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xb9cba831ec6869d04684a2c4b36ee9e301df7bb226f395d7919897abc910f172",
+      "startTime": {
+        "timestamp": 1725882015
+      },
+      "endTime": {
+        "timestamp": 1726141215
+      },
+      "startTimestamp": 1725882015,
+      "endTimestamp": 1726141215,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal ",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 668034.9,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 668034.9585505698,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1725882071846,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4OGMxZWRiMjZkNWE1YTk3NGE1ODc3NjRhZmE2ZTQwYjAwMTQxYTc2ZDE5Y2I2ODIyNWQ4ZDg4Zjc2MmYyZmFlZA==",
+      "id": "0x8c1edb26d5a5a974a587764afa6e40b00141a76d19cb68225d8d88f762f2faed",
+      "title": "MIP72 - Lower MORPHO rewards for borrowing WETH on BASE",
+      "content": "The Morpho Association suggests lowering the reward for borrowing WETH on BASE to 1/10th of $r^S$. WETH is used for leverage, and rewarding the borrowing side too much risks shifting the native APY so that some looping strategies may become unprofitable without rewards, which would hinder the natural growth of the market.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 17,
+      "blockNumber": 20411852,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x8c1edb26d5a5a974a587764afa6e40b00141a76d19cb68225d8d88f762f2faed",
+      "startTime": {
+        "timestamp": 1722251750
+      },
+      "endTime": {
+        "timestamp": 1722510950
+      },
+      "startTimestamp": 1722251750,
+      "endTimestamp": 1722510950,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 3731414.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3731414.498107976,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1722252356448,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YWE3ZGJkNDNmNjA2YzE1MDgwYjE3NjY3ZDUwZmFkYWExM2YxMDQwMGE4ZmE0ZTJiMjdmZWYwZTgyMTE2OTM5OA==",
+      "id": "0xaa7dbd43f606c15080b17667d50fadaa13f10400a8fa4e2b27fef0e821169398",
+      "title": "MIP71 - Winding Down Optimizers Phase 2",
+      "content": "We propose continuing the deprecation of low-usage assets on Morpho Optimizers, which started 3 months ago in MIP52. We also suggest stopping all MORPHO rewards on Optimizers to further incentivize migrations to Morpho Blue.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 17,
+      "blockNumber": 20333997,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xaa7dbd43f606c15080b17667d50fadaa13f10400a8fa4e2b27fef0e821169398",
+      "startTime": {
+        "timestamp": 1721312897
+      },
+      "endTime": {
+        "timestamp": 1721572097
+      },
+      "startTimestamp": 1721312897,
+      "endTimestamp": 1721572097,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 2921906.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2921905.7725554034,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1721313558964,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MGZiMDYxNjg3NzFhOGUyMTc3NjViYTU1ZDdhZDc1NzdiNDc3NDFmNDQ0Mzk5ZTY0YWUzYmM3Njg5MDhhYzRmNA==",
+      "id": "0x0fb06168771a8e217765ba55d7ad7577b47741f444399e64ae3bc768908ac4f4",
+      "title": "MIP70 - Reward borrow of USDA and USDM",
+      "content": "We propose adding USDA and wUSDM as rewarded borrowed assets to support the growth of these markets. The rewards rates will depend on the network, as the rB value is distinct for Ethereum and Base.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x2b5469940FA577BC4082c6940ee4D8E97fda1B42",
+      "totalVotes": 19,
+      "blockNumber": 20240093,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x0fb06168771a8e217765ba55d7ad7577b47741f444399e64ae3bc768908ac4f4",
+      "startTime": {
+        "timestamp": 1720180009
+      },
+      "endTime": {
+        "timestamp": 1720439209
+      },
+      "startTimestamp": 1720180009,
+      "endTimestamp": 1720439209,
+      "currentState": "closed",
+      "choices": [
+        "Yes, add rewards",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 2762919.5,
+          "choice": 0
+        },
+        {
+          "total": 15.032042,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2762919.396843081,
+          "choice": 0
+        },
+        {
+          "total": 15.032041639334292,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1720180151889,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZGE0ZDRmOWI2NTc1MzU3Nzk1OTBlMzY1MmRhZWJjZjY1ZThkMWU3NmNlNjVkN2E3NTBkMGY2MDE3NzRmNzg0Mg==",
+      "id": "0xda4d4f9b657535779590e3652daebcf65e8d1e76ce65d7a750d0f601774f7842",
+      "title": "MIP69 - Morpho Association Request for MORPHO ",
+      "content": "The Morpho Association is requesting 120M MORPHO to support the ongoing development and growth of the Morpho Protocol.\n\nThis amount would allow the Morpho Association to continue to advance Morpho’s decentralized lending infrastructure, build a globally trusted brand, and scale go-to-market operations.\n\nVote on allocating the requested MORPHO to the Morpho Association.\nSee the full proposal below.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 41,
+      "blockNumber": 20219016,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xda4d4f9b657535779590e3652daebcf65e8d1e76ce65d7a750d0f601774f7842",
+      "startTime": {
+        "timestamp": 1719925617
+      },
+      "endTime": {
+        "timestamp": 1720184817
+      },
+      "startTimestamp": 1719925617,
+      "endTimestamp": 1720184817,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 5567782.5,
+          "choice": 0
+        },
+        {
+          "total": 2.767932,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5567782.496005238,
+          "choice": 0
+        },
+        {
+          "total": 2.767932018,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719925930336,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ODEyZTQ4N2UzMmE4NWFiMmM2MzZlNzM0Mjc5Njg3MGEyMDNjOGFiNWJmMjA1YmIyMWFlMTczYWZiNDJkZjdhNg==",
+      "id": "0x812e487e32a85ab2c636e7342796870a203c8ab5bf205bb21ae173afb42df7a6",
+      "title": "MIP68 - Update of MORPHO rewards on Base",
+      "content": "Morpho Blue was launched on Base 10 days ago and has grown strongly since then, with over $40M in deposits already. We propose several adjustments in the rewards strategy on Base:\n\nUpdate supply rewards rate setting:\n\nThe initial $S_{lim}$ set has been far exceeded. We suggest updating the reward model settings on Base with the following values:\n\n$r^S_0=2.20E-04$ MORPHO per dollar deposited per day\n$S_{lim}= $50,000,000$\nStart incentivizing borrow:\n\nThe supply volumes are significantly higher than the borrowing volumes, resulting in utilization levels below target. To address this, we propose incentivizing the borrowing side on the following loan assets: WETH, USDC. The incentive rate, $r^B$ is proposed to be $\\frac{r^S}{3}$ (0.73E-04 MORPHO per dollar borrowed per day).\n\nInclude idle markets in rewards:\n\nThe bootstrapping phase of new markets can be challenging for MetaMorpho vaults. To streamline this process, we suggest including idle markets in both the reward system and the accounting of Morpho Olympics grants (this would apply to Base only).",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 31,
+      "blockNumber": 20210746,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x812e487e32a85ab2c636e7342796870a203c8ab5bf205bb21ae173afb42df7a6",
+      "startTime": {
+        "timestamp": 1719825890
+      },
+      "endTime": {
+        "timestamp": 1720085090
+      },
+      "startTimestamp": 1719825890,
+      "endTimestamp": 1720085090,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 3374066.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3374065.796034342,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719826004246,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YmE3Mjg0MDEzZGU1NWQ4MWY5MzRlNmFhNjA4NmQ3MmZlY2U3YTQyMTExM2YwNTMzOWEwNjhkMWZkMWRiZTAzZA==",
+      "id": "0xba7284013de55d81f934e6aa6086d72fece7a421113f05339a068d1fd1dbe03d",
+      "title": "MIP67 - Update of MORPHO rewards on Base",
+      "content": "Morpho Blue was launched on Base 10 days ago and has grown strongly since then, with over $40M in deposits already. We propose several adjustments in the rewards strategy on Base: \n\n- Update supply rewards rate setting:\n    \n    The initial $S_{lim}$ set has been far exceeded. We suggest updating the reward model settings on Base with the following values:\n    \n    - $r^S_0=2.20E-04$  MORPHO per dollar deposited per day\n    - $S_{lim}= \\$50,000,000$\n- Start incentivizing borrow:\n    \n    The supply volumes are significantly higher than the borrowing volumes, resulting in utilization levels below target. To address this, we propose incentivizing the borrowing side on the following loan assets: WETH, USDC. The incentive rate, $r^B$ is proposed to be $\\frac{r^S}{3}$ (0.73E-04 MORPHO per dollar borrowed per day).\n    \n- Include idle markets in rewards:\n    \n    The bootstrapping phase of new markets can be challenging for MetaMorpho vaults. To streamline this process, we suggest including idle markets in both the reward system and the accounting of Morpho Olympics grants (this would apply to Base only).",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 17,
+      "blockNumber": 20189022,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xba7284013de55d81f934e6aa6086d72fece7a421113f05339a068d1fd1dbe03d",
+      "startTime": {
+        "timestamp": 1719563773
+      },
+      "endTime": {
+        "timestamp": 1719822973
+      },
+      "startTimestamp": 1719563773,
+      "endTimestamp": 1719822973,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 482824.53,
+          "choice": 0
+        },
+        {
+          "total": 139.86319,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 482824.5047011076,
+          "choice": 0
+        },
+        {
+          "total": 139.86318433597947,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719564326629,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZTQ2OTdiMjc1NTIxM2JlZTlmZTAyZDEzODNkYzk5MGIyZGZhNjMxZmMyMzgxYzU1Mjg2MmVmMGE1MTAxYzE1Yg==",
+      "id": "0xe4697b2755213bee9fe02d1383dc990b2dfa631fc2381c552862ef0a5101c15b",
+      "title": "MIP66 - New Scalable Rewards Model on Base",
+      "content": "The Morpho Association proposes to deploy this system on Base as well, with the following values:\n- r0 = 5.45E-04 MORPHO per dollar deposited per day\n- S_lim = $10,000,000\n\nThe values of r_0 and S_lim can be adjusted by governance as the volume increases.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 27,
+      "blockNumber": 20091520,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xe4697b2755213bee9fe02d1383dc990b2dfa631fc2381c552862ef0a5101c15b",
+      "startTime": {
+        "timestamp": 1718385934
+      },
+      "endTime": {
+        "timestamp": 1718645134
+      },
+      "startTimestamp": 1718385934,
+      "endTimestamp": 1718645134,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 4595031.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4595051.569129292,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718386239698,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MzZiYWYzMTkwZTBiY2E3YWNjZGUzYTVkNzdhZjQ0NGJhOWVjMjI5MjhiNjEwZDc1NzRlMWFmM2EyODhmNGU3Zg==",
+      "id": "0x36baf3190e0bca7accde3a5d77af444ba9ec22928b610d7574e1af3a288f4e7f",
+      "title": "MIP65 - New Scalable Rewards Model on Ethereum",
+      "content": "The Morpho Associations proposed introducing a new framework for distributing MORPHO rewards to Morpho Blue users.\n\nThe framework defines a set of trusted vault curators and applies a uniform reward rate for each dollar supplied in a market listed by these curators. It also includes rewarding borrowers using a similar model.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 31,
+      "blockNumber": 20031909,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x36baf3190e0bca7accde3a5d77af444ba9ec22928b610d7574e1af3a288f4e7f",
+      "startTime": {
+        "timestamp": 1717666372
+      },
+      "endTime": {
+        "timestamp": 1717925572
+      },
+      "startTimestamp": 1717666372,
+      "endTimestamp": 1717925572,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 3212883.2,
+          "choice": 0
+        },
+        {
+          "total": 2.767932,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3212882.871530245,
+          "choice": 0
+        },
+        {
+          "total": 2.767932018,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1717668402121,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MjMzNGQ5OTIwNWYyNTIxODVmYzA0NWJiMzM5ZDk1MTJhMmM1NWZiMWU3Y2JiODFiZDdiNTcyMGQwNDIxYTE3Zg==",
+      "id": "0x2334d99205f252185fc045bb339d9512a2c55fb1e7cbb81bd7b5720d0421a17f",
+      "title": "MIP64 - Rewards on wOETH/WETH",
+      "content": "The Morpho Association proposes to allocate a total of 6,667 MORPHO on the wOETH/WETH for the first 30 days. The market would then be integrated into the new distribution system.\n\nNB: distribution of incentives by the MORPHO DAO does not signify endorsement of market risks.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 32,
+      "blockNumber": 19991044,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x2334d99205f252185fc045bb339d9512a2c55fb1e7cbb81bd7b5720d0421a17f",
+      "startTime": {
+        "timestamp": 1717173439
+      },
+      "endTime": {
+        "timestamp": 1717432639
+      },
+      "startTimestamp": 1717173439,
+      "endTimestamp": 1717432639,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 2940014.2,
+          "choice": 0
+        },
+        {
+          "total": 60431.832,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2940014.4084716244,
+          "choice": 0
+        },
+        {
+          "total": 60431.83076057459,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1717174005639,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4M2U5ZjQwZWZjYmI5NjE3MGNkMWY0YzU4MTdiZjc4NTMxNTlmOGJkOTZhZjAyM2Y0NzQ3YWE4NzM3MWYwMzA3Yg==",
+      "id": "0x3e9f40efcbb96170cd1f4c5817bf7853159f8bd96af023f4747aa87371f0307b",
+      "title": "MIP63 - Rewards update on ezETH/WETH (86%) market",
+      "content": "We propose to extend the program for 30 days, with 15k USDC from Renzo and 20k MORPHO allocated over the period on the ezETH / WETH (86%) market.\n\nNB: distribution of incentives by the MORPHO DAO does not signify endorsement of market risks.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 32,
+      "blockNumber": 19988878,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x3e9f40efcbb96170cd1f4c5817bf7853159f8bd96af023f4747aa87371f0307b",
+      "startTime": {
+        "timestamp": 1717147272
+      },
+      "endTime": {
+        "timestamp": 1717406472
+      },
+      "startTimestamp": 1717147272,
+      "endTimestamp": 1717406472,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 3025942.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3025942.16379655,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1717147465970,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4N2Q0NjY3YzdmOGRiMzUwOTY5MTJlYWYwNmIxOTgwZWM2YmQyOWE3MDZlZGE1YzlmOThlZjVhZmJiODYyMjlkNA==",
+      "id": "0x7d4667c7f8db35096912eaf06b1980ec6bd29a706eda5c9f98ef5afbb86229d4",
+      "title": "MIP62 - Update rewards rate on wstETH markets",
+      "content": "We propose to update the rewards rates on wstETH / WETH markets, adapting to the migration of MetaMorpho vaults liquidity to markets with exchange rate oracle:\n\n- wstETH/WETH (94.5%, Morpho ChainlinkOracle): 4 666.66 MORPHO / day + 0.255 wstETH / day from Lido\n- wstETH/WETH (94.5%, Morpho ChainlinkOracleV2 Exchange Rate): 2 022.22 MORPHO / day + 0.1105 wstETH / day from Lido\n- wstETH/WETH (96.5%, Morpho ChainlinkOracleV2 Exchange Rate): 1 088.88 MORPHO / day + 0.0595 wstETH / day from Lido\n\nThe wstETH/USDC (86%, Morpho ChainlinkOracle) market would continue to receive 7 777.78 MORPHO / day + 0.425 wstETH / day from Lido",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 30,
+      "blockNumber": 19961648,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x7d4667c7f8db35096912eaf06b1980ec6bd29a706eda5c9f98ef5afbb86229d4",
+      "startTime": {
+        "timestamp": 1716818318
+      },
+      "endTime": {
+        "timestamp": 1717077518
+      },
+      "startTimestamp": 1716818318,
+      "endTimestamp": 1717077518,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 7091052.0,
+          "choice": 0
+        },
+        {
+          "total": 103.01044,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7091052.360308537,
+          "choice": 0
+        },
+        {
+          "total": 103.01044066235715,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716819799743,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NjNhMzY4YTE5YmIwOTA4M2RlZjk5ZTU1YjlhYzg1Nzk5MGIzODM1NmM0ZTEwMDAxMDRjOWIxNDZhMTBlZWUxNA==",
+      "id": "0x63a368a19bb09083def99e55b9ac857990b38356c4e1000104c9b146a10eee14",
+      "title": "MIP61 - Creation of a MORPHO Rewards Committee Multisig",
+      "content": "formerly on Morpho Optimizers. To date, 4.5% of the total supply of MORPHO tokens has been distributed to users.\n\nHowever, managing MORPHO rewards is a slow and cumbersome process, requiring frequent DAO votes and many operational tasks for the DAO multisig.\n\nTo reduce the operational burden, the Morpho Association proposes creating a Rewards Committee Multisig responsible for handling MORPHO rewards as part of Morpho reward programs.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 54,
+      "blockNumber": 19941218,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x63a368a19bb09083def99e55b9ac857990b38356c4e1000104c9b146a10eee14",
+      "startTime": {
+        "timestamp": 1716571639
+      },
+      "endTime": {
+        "timestamp": 1716830839
+      },
+      "startTimestamp": 1716571639,
+      "endTimestamp": 1716830839,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 7196969.5,
+          "choice": 0
+        },
+        {
+          "total": 2.767932,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7196968.936614321,
+          "choice": 0
+        },
+        {
+          "total": 2.767932018,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716572324767,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MTc3YWFjYjg4YWU0OWMyM2FiMWE2NjViNTM0YzY3OTFhOWZmODZkZjBhODcwYjJlYTZjZGEyOTFhOGVjNjdlZA==",
+      "id": "0x177aacb88ae49c23ab1a665b534c6791a9ff86df0a870b2ea6cda291a8ec67ed",
+      "title": "MIP60 - Morpho Olympics",
+      "content": "2024 marks an Olympic Year, and the Morpho Association proposes that Morpho joins the festivities by introducing the Morpho Olympics, where up to 10M MORPHO would be awarded as grants to MetaMorpho curators.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 38,
+      "blockNumber": 19918558,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x177aacb88ae49c23ab1a665b534c6791a9ff86df0a870b2ea6cda291a8ec67ed",
+      "startTime": {
+        "timestamp": 1716297904
+      },
+      "endTime": {
+        "timestamp": 1716557104
+      },
+      "startTimestamp": 1716297904,
+      "endTimestamp": 1716557104,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 2999777.8,
+          "choice": 0
+        },
+        {
+          "total": 257.19653,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2999778.182589796,
+          "choice": 0
+        },
+        {
+          "total": 257.1965437684839,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716298045293,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZmRhYmY3ZGQzN2JhOGYwZDMwNDg0MjY5MGVkZjNhNjYzODc0MzE5NGJjZjhlMzllNDg1YWM4ZTA3MjAyNThlYQ==",
+      "id": "0xfdabf7dd37ba8f0d304842690edf3a6638743194bcf8e39e485ac8e0720258ea",
+      "title": "MIP59 - Morpho DAO as owner of Morpho Blue on Base",
+      "content": "The Morpho Association has recently deployed Morpho Blue and its periphery contracts with the same configuration as on Ethereum on the Base L2.\n\nThe Morpho Association proposes to transfer the ownership of the smart contract to the Morpho DAO multisig.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 46,
+      "blockNumber": 19889530,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xfdabf7dd37ba8f0d304842690edf3a6638743194bcf8e39e485ac8e0720258ea",
+      "startTime": {
+        "timestamp": 1715947028
+      },
+      "endTime": {
+        "timestamp": 1716206228
+      },
+      "startTimestamp": 1715947028,
+      "endTimestamp": 1716206228,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 9221789.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9221791.11302997,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1715947589611,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZDA3YTFjMWE2NzQ0ODlmZDQ5MjY1OGFhZWJjNzRmNDY4MzU1MDg5MjMyOTBkYTIzNjA3MGFmZDU0YjNiZmNkMg==",
+      "id": "0xd07a1c1a674489fd492658aaebc74f46835508923290da236070afd54b3bfcd2",
+      "title": "MIP58 - Rewards on USDA rehypotheticated vault markets",
+      "content": "We propose to start distributing rewards on markets with a MetaMorpho vault as collateral listed in either the RE7 USDA vault or the Gauntlet USDA vault. The rate on these markets would be 100 MORPHO per day.\n\nNB: distribution of rewards by the MORPHO DAO does not signify endorsement of market risks",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 33,
+      "blockNumber": 19869014,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xd07a1c1a674489fd492658aaebc74f46835508923290da236070afd54b3bfcd2",
+      "startTime": {
+        "timestamp": 1715699213
+      },
+      "endTime": {
+        "timestamp": 1715958413
+      },
+      "startTimestamp": 1715699213,
+      "endTimestamp": 1715958413,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 7525674.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7525673.501333368,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1715699811459,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZTdkNGM4NTBmOTc4YzU3ZWUxNGUyY2FlNTU5NTViMDdlYWFkZGNhOGY2ZDc3ZTdlZWZiNWQ2ZjJiYjQwZTJjZQ==",
+      "id": "0xe7d4c850f978c57ee14e2cae55955b07eaaddca8f6d77e7eefb5d6f2bb40e2ce",
+      "title": "MIP57 - Update rewards rate on wstETH markets",
+      "content": "We propose to update the rewards rates on wstETH / WETH markets to help the migration of liquidity to markets with exchange rate oracle:\n\n- wstETH/WETH (94.5%, Morpho ChainlinkOracle): 5,444.44 MORPHO / day + 0,2975 wstETH / day from Lido\n- wstETH/WETH (94.5%, Morpho ChainlinkOracleV2 Exchange Rate): 1,555.55 MORPHO / day + 0,085 wstETH / day from Lido\n- wstETH/WETH (96.5%, Morpho ChainlinkOracleV2 Exchange Rate): 777.78 MORPHO / day + 0,0425 wstETH / day from Lido\n\nThe wstETH/USDC (86%, Morpho ChainlinkOracle) market would continue to receive 7 777,78 MORPHO / day + 0,425 wstETH / day from Lido\n\nNB: distribution of incentives by the MORPHO DAO does not signify endorsement of market risks.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 33,
+      "blockNumber": 19867384,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xe7d4c850f978c57ee14e2cae55955b07eaaddca8f6d77e7eefb5d6f2bb40e2ce",
+      "startTime": {
+        "timestamp": 1715679333
+      },
+      "endTime": {
+        "timestamp": 1715938533
+      },
+      "startTimestamp": 1715679333,
+      "endTimestamp": 1715938533,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 8226225.5,
+          "choice": 0
+        },
+        {
+          "total": 0.6362772,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8226225.44627706,
+          "choice": 0
+        },
+        {
+          "total": 0.6362771722,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1715679867743,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZWE0ZDUzMjAxNTE5NDI0YzQ4MTQ5ZjcxN2Q2YWRkODE4NjAwZjRmZjYzOTNjMWRjZGIzYWM4OWQ0ZDI3NjZhYg==",
+      "id": "0xea4d53201519424c48149f717d6add818600f4ff6393c1dcdb3ac89d4d2766ab",
+      "title": "MIP56 - Rewards on ETH+ market",
+      "content": "We propose to allocate a total of 6,667 MORPHO on the ETH+/ETH for a 30-day period.\n\nNB: distribution of incentives by the MORPHO DAO does not signify endorsement of market risks.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 34,
+      "blockNumber": 19860066,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xea4d53201519424c48149f717d6add818600f4ff6393c1dcdb3ac89d4d2766ab",
+      "startTime": {
+        "timestamp": 1715590952
+      },
+      "endTime": {
+        "timestamp": 1715850152
+      },
+      "startTimestamp": 1715590952,
+      "endTimestamp": 1715850152,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 7902991.5,
+          "choice": 0
+        },
+        {
+          "total": 60420.203,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7902991.897438384,
+          "choice": 0
+        },
+        {
+          "total": 60420.20292812545,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1715591054935,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4N2ZlN2U3NmMyOWQyOTg4NTgzZjk1MjAzOWI1MjNiZDU4NDNjOGQ0N2JlNTQxZTcyOWU5MzQ1MThjYzBmNDgyNw==",
+      "id": "0x7fe7e76c29d2988583f952039b523bd5843c8d47be541e729e934518cc0f4827",
+      "title": "MIP55 - Incentives extension on weETH market",
+      "content": "Given the strong growth of the market, we propose to extend this campaign by a month, distributing 10k USDC from ether.fi and 13.33k MORPHO.\n\nNB: distribution of incentives by the MORPHO DAO does not signify endorsement of market risks.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 43,
+      "blockNumber": 19782556,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x7fe7e76c29d2988583f952039b523bd5843c8d47be541e729e934518cc0f4827",
+      "startTime": {
+        "timestamp": 1714654415
+      },
+      "endTime": {
+        "timestamp": 1714913615
+      },
+      "startTimestamp": 1714654415,
+      "endTimestamp": 1714913615,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 7613414.0,
+          "choice": 0
+        },
+        {
+          "total": 257.8443,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7613413.930209245,
+          "choice": 0
+        },
+        {
+          "total": 257.8442956545142,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1714654689821,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NDgxYmE5M2U2Y2NhODYwY2QzOTJmMjY5ZDcxZmQ1NThmZjI4ZWVlYmJiNDU1YzA1MmY5NTJhODUyMTg1YjEyOQ==",
+      "id": "0x481ba93e6cca860cd392f269d71fd558ff28eeebbb455c052f952a852185b129",
+      "title": "MIP54 - MORPHO whitelisting of Superform vaults",
+      "content": "We are making a request to whitelist each “Superform” contract to move MORPHO tokens before token transferability is enabled. As new MetaMorpho vaults are listed to Superform, each listing will create a new Superform contract which would need to be whitelisted in order for any MORPHO rewards from that vault to be distributed. If possible, this request could also serve as an approval to whitelist any future MetaMorpho Superform contracts created via the SuperformFactory 1. Subsequent MetaMorpho Superform contracts could be whitelisted on a monthly basis.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 43,
+      "blockNumber": 19767957,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x481ba93e6cca860cd392f269d71fd558ff28eeebbb455c052f952a852185b129",
+      "startTime": {
+        "timestamp": 1714478198
+      },
+      "endTime": {
+        "timestamp": 1714737398
+      },
+      "startTimestamp": 1714478198,
+      "endTimestamp": 1714737398,
+      "currentState": "closed",
+      "choices": [
+        "Yes, whitelist Superform vaults",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 3514279.5,
+          "choice": 0
+        },
+        {
+          "total": 20885.523,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3514279.542593552,
+          "choice": 0
+        },
+        {
+          "total": 20885.52259737947,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1714478619615,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4OWNjOGUyOTQ0YTViYWE5MDU5ODQyYzI2ZjFmMjRiZTU1YTk0NjJkMjNiMjhhZjc1ODU1N2YyZThlMDgxZThhZQ==",
+      "id": "0x9cc8e2944a5baa9059842c26f1f24be55a9462d23b28af758557f2e8e081e8ae",
+      "title": "MIP53 - Update of incentives on PYUSD markets ",
+      "content": "We propose to multiply the reward distribution on PYUSD markets by 3 to bring the total to 1500 MORPHO per day. Following the relative sizes of the markets, we propose to split it this way:\n\n- WBTC/PYUSD (86%): 1000 MORPHO per day\n- wstETH/PYUSD (86%): 500 MORPHO per day\n\nThe wbIB01/PYUSD (96.5%) market, which is currently the only one receiving rewards, would no longer receive any.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 24,
+      "blockNumber": 19741092,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x9cc8e2944a5baa9059842c26f1f24be55a9462d23b28af758557f2e8e081e8ae",
+      "startTime": {
+        "timestamp": 1714153538
+      },
+      "endTime": {
+        "timestamp": 1714412738
+      },
+      "startTimestamp": 1714153538,
+      "endTimestamp": 1714412738,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 2709576.0,
+          "choice": 0
+        },
+        {
+          "total": 240.74197,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2709575.515303959,
+          "choice": 0
+        },
+        {
+          "total": 240.74197015253665,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1714154627339,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4OGEwYzllMzY3NWZiOWE1M2QwODE2YzAzYjA0OGI4MmY3N2FhMTMyYmNhMDY4YTY4Mjc1NmIyNzkwNGJhNzc1YQ==",
+      "id": "0x8a0c9e3675fb9a53d0816c03b048b82f77aa132bca068a682756b27904ba775a",
+      "title": "MIP52 - Winding down low usage assets on Optimizers",
+      "content": "The Morpho Association proposes to:\n\n1. Pause supply and borrow on the following markets:\n- CompoundV2 Optimizer: COMP ($827.59), WETH ($67.1k), UNI ($117.57k), USDT ($319.28k)\n- AaveV2 Optimizer: CRV ($275.16k)\n- AaveV3 Optimizer: DAI ($486.78), WBTC ($74.73), cbETH ($8919.33), sDAI ($0.10), USDT ($0)\n\n2. Deprecate CRV on AaveV2 Optimizer.\n3. Stop MORPHO rewards on these markets.\n4. Divide by 2 the total number of MORPHO rewards distributed to Optimizers’ users.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x264c86DBbD2E4165FbBf0C35b0ddf0e00AEc6b31",
+      "totalVotes": 24,
+      "blockNumber": 19659817,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x8a0c9e3675fb9a53d0816c03b048b82f77aa132bca068a682756b27904ba775a",
+      "startTime": {
+        "timestamp": 1713286800
+      },
+      "endTime": {
+        "timestamp": 1713546000
+      },
+      "startTimestamp": 1713286800,
+      "endTimestamp": 1713546000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 3654522.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3654522.0637132186,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1713171273468,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YTA0Yjc2MThlMDYwZmQ1YWQwYjcxZDNiZWQ3MTliYWNkMjEwZTQ3Y2NlNzYxYWI5NWM5YTY2NTM4ZTIyZjlmNQ==",
+      "id": "0xa04b7618e060fd5ad0b71d3bed719bacd210e47cce761ab95c9a66538e22f9f5",
+      "title": "MIP51 - Incentives on USDA markets",
+      "content": "The Morpho Association proposes to allocate the following amount of MORPHO over the three month period:\n\n- wstETH/USDA: 66,667 MORPHO\n- rsETH/USDA: 33,333 MORPHO\n- ezETH/USDA: 33,333 MORPHO\nThe ANGLE and MORPHO distributions would follow the Standard method 4 for distributing rewards on Morpho Blue markets.\n\nNB: distribution of rewards by the MORPHO DAO does not signify endorsement of market risks.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 22,
+      "blockNumber": 19640594,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xa04b7618e060fd5ad0b71d3bed719bacd210e47cce761ab95c9a66538e22f9f5",
+      "startTime": {
+        "timestamp": 1712937852
+      },
+      "endTime": {
+        "timestamp": 1713197052
+      },
+      "startTimestamp": 1712937852,
+      "endTimestamp": 1713197052,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 5350707.0,
+          "choice": 0
+        },
+        {
+          "total": 452.33185,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5350706.821938206,
+          "choice": 0
+        },
+        {
+          "total": 452.3318521920883,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1713023089643,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MTRlZGJlYWQwZjE3MDQ5OGFhYTI1YWExMzc4ZDY4ZTZhOTc3NDJjYzdjMWQ5OWNjOGUwMGU5ZmJlMmRmYjhhMQ==",
+      "id": "0x14edbead0f170498aaa25aa1378d68e6a97742cc7c1d99cc8e00e9fbe2dfb8a1",
+      "title": "MIP50 - Incentives on sDAI/WETH markets",
+      "content": "The Morpho Association proposes to distribute 2534 MORPHO per day on the sDAI/WETH market to avoid losing volume on this market, and to further consolidate it.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 19,
+      "blockNumber": 19617018,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x14edbead0f170498aaa25aa1378d68e6a97742cc7c1d99cc8e00e9fbe2dfb8a1",
+      "startTime": {
+        "timestamp": 1712652831
+      },
+      "endTime": {
+        "timestamp": 1712912031
+      },
+      "startTimestamp": 1712652831,
+      "endTimestamp": 1712912031,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 4790550.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4790550.856278888,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712738617468,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MWVjMTdlOTIwMjgzOWVlMWNhM2M1MjYxNTM3YWU3NmY5NWQzODJkOWVhY2Y3Y2I4ZGQzMDA5MDFhMjk2OTNkMg==",
+      "id": "0x1ec17e9202839ee1ca3c5261537ae76f95d382d9eacf7cb8dd300901a29693d2",
+      "title": "MIP49 - Incentives on blue chip markets",
+      "content": "The current campaign for rewards on the wstETH markets will end on April 9th. We suggest continuing to distribute MORPHO on these markets to further bootstrap them.\n\nSome MetaMorpho vaults have started to list wstETH / WETH markets with exchange rate oracles. We propose to distribute rewards on these markets as well to help the migration of liquidity.\n\nThese rates would be set on April 9th at the end of the current campaign.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 28,
+      "blockNumber": 19597607,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x1ec17e9202839ee1ca3c5261537ae76f95d382d9eacf7cb8dd300901a29693d2",
+      "startTime": {
+        "timestamp": 1712417708
+      },
+      "endTime": {
+        "timestamp": 1712676908
+      },
+      "startTimestamp": 1712417708,
+      "endTimestamp": 1712676908,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 3808805.0,
+          "choice": 0
+        },
+        {
+          "total": 140.49947,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3808805.104862287,
+          "choice": 0
+        },
+        {
+          "total": 140.49946150817948,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712497442793,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ODJjNDRkZjk5NWJhMDI0YTJlMWI5YTZiOTY5OGY0ZGFmMGFiODg0ZWE2YjkwZDlmYmQ3NTE1Mzc4ZTI3ZmYwNg==",
+      "id": "0x82c44df995ba024a2e1b9a6b9698f4daf0ab884ea6b90d9fbd7515378e27ff06",
+      "title": "MIP48 - Incentives in mTBILL / USDC market",
+      "content": "The Morpho Association proposes to allocate a total of 60k MORPHO as incentives over a three month period to help grow the mTBILL / USDC market, to be distributed alongside 30k USDC from Midas.\n\nExecution will be conditioned on the receipt of the USDC amount on morpho.eth and the actual inclusion of the market in a MetaMorpho vault.\n\nNB: distribution of incentives by the MORPHO DAO does not signify endorsement of market risks.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 28,
+      "blockNumber": 19566349,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x82c44df995ba024a2e1b9a6b9698f4daf0ab884ea6b90d9fbd7515378e27ff06",
+      "startTime": {
+        "timestamp": 1712039725
+      },
+      "endTime": {
+        "timestamp": 1712298925
+      },
+      "startTimestamp": 1712039725,
+      "endTimestamp": 1712298925,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 2788410.0,
+          "choice": 0
+        },
+        {
+          "total": 0.6362772,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2788409.5595441107,
+          "choice": 0
+        },
+        {
+          "total": 0.6362771722,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712049160781,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MTQ2MDhiNjVhMTM3ZGQ5MWQ1ZmM4Y2U2MGIyODQzN2UwY2NjMDU3ZTJhNWJkMWVjZDA1NmMxZTdjODk1ZjEzNQ==",
+      "id": "0x14608b65a137dd91d5fc8ce60b28437e0ccc057e2a5bd1ecd056c1e7c895f135",
+      "title": "MIP47 - Incentives in mTBILL / USDC market",
+      "content": "The Morpho Association proposes to allocate a total of 60k MORPHO as incentives over a three month period to help grow the mTBILL / USDC market, to be distributed alongside 30k USDC from Midas.\n\nExecution will be conditioned on the receipt of the USDC amount on morpho.eth and the actual inclusion of the market in a MetaMorpho vault.\n\nNB: distribution of incentives by the MORPHO DAO does not signify endorsement of market risks.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 36,
+      "blockNumber": 19531700,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x14608b65a137dd91d5fc8ce60b28437e0ccc057e2a5bd1ecd056c1e7c895f135",
+      "startTime": {
+        "timestamp": 1711634400
+      },
+      "endTime": {
+        "timestamp": 1711893600
+      },
+      "startTimestamp": 1711634400,
+      "endTimestamp": 1711893600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 144800.72,
+          "choice": 0
+        },
+        {
+          "total": 257.84363,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 144800.80870505792,
+          "choice": 0
+        },
+        {
+          "total": 257.8436348926572,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711628565856,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MDExZmE4NjRhZTRjOWY5OTM3M2RjYmFhMTA1MzFkY2YzYjBjM2RjNWYyZmE5ZDdjZjlkYWQ1NjA2ZjVlYzU1Mg==",
+      "id": "0x011fa864ae4c9f99373dcbaa10531dcf3b0c3dc5f2fa9d7cf9dad5606f5ec552",
+      "title": "MIP46 - Incentives on LP Curve Tokens / crvUSD markets",
+      "content": "The Morpho Association proposes to allocate 500k MORPHO as incentives over a three month period to the 5 markets to grow along 357k CRV from Curve.\n\nExecution will be conditioned on the receipt the first payment CRV payment of 160k CRV to morpho.eth and the actual inclusion of the market in a MetaMorpho vault.\n\n_NB: distribution of incentives by the MORPHO DAO does not signify endorsement of market risks._",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 44,
+      "blockNumber": 19491713,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x011fa864ae4c9f99373dcbaa10531dcf3b0c3dc5f2fa9d7cf9dad5606f5ec552",
+      "startTime": {
+        "timestamp": 1711202400
+      },
+      "endTime": {
+        "timestamp": 1711461600
+      },
+      "startTimestamp": 1711202400,
+      "endTimestamp": 1711461600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 4171002.8,
+          "choice": 0
+        },
+        {
+          "total": 0.64739484,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4171002.6658972446,
+          "choice": 0
+        },
+        {
+          "total": 0.6473948158486693,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711201448300,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4OGI3YjU5YTU2OGU2ODk1NDk0NzZlZjc0Njk2NjBiMWFlMWMyZTAzMWM5YWE0NTcyOWY1NTY1OGNlMDJjYjU1Ng==",
+      "id": "0x8b7b59a568e689549476ef7469660b1ae1c2e031c9aa45729f55658ce02cb556",
+      "title": "MIP 45 - Incentives in mTBILL / USDC market",
+      "content": "The Morpho Association proposes to allocate a total of 60k MORPHO as incentives over a three month period to help grow the mTBILL / USDC market, to be distributed alongside 60k USDC from Midas.\n\nExecution will be conditioned on the receipt of the USDC amount on morpho.eth and the actual inclusion of the market in a MetaMorpho vault.\n\n*NB: distribution of incentives by the MORPHO DAO does not signify endorsement of market risks.*",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0xaCCE0C63B5BD3f7fDE4B1C53465F0924fbF0bC93",
+      "totalVotes": 39,
+      "blockNumber": 19453109,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x8b7b59a568e689549476ef7469660b1ae1c2e031c9aa45729f55658ce02cb556",
+      "startTime": {
+        "timestamp": 1710660907
+      },
+      "endTime": {
+        "timestamp": 1710920107
+      },
+      "startTimestamp": 1710660907,
+      "endTimestamp": 1710920107,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 185169.0,
+          "choice": 0
+        },
+        {
+          "total": 1.1048256,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 185169.0657001882,
+          "choice": 0
+        },
+        {
+          "total": 1.104825678086834,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710661388856,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4M2RjYmJhOWY2MGM5OWNmNTIwMDM3MjkxMWNlMTFmOGI2MDkzOGZhMmJlZDUyYzc0ZGM5ZWNhMjk5NmQ1NjYxZQ==",
+      "id": "0x3dcbba9f60c99cf5200372911ce11f8b60938fa2bed52c74dc9eca2996d5661e",
+      "title": "MIP 44 - Incentives in USDe and sUSDe markets",
+      "content": "The Morpho Association proposes to allocate a total of 90k MORPHO as incentives over a three month period to help grow the USDe and sUSDe markets. The incentives would be split 7/12 and 5/12 between USDe/USDT and sUSDe/USDT, in line with Ethena shards distribution.\n\nExecution will be contingent upon the shards distribution and the inclusion of the two markets in a MetaMoprho vault.\n\n*NB: distribution of incentives by the MORPHO DAO does not signify endorsement of market risks.*",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0xaCCE0C63B5BD3f7fDE4B1C53465F0924fbF0bC93",
+      "totalVotes": 40,
+      "blockNumber": 19427658,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x3dcbba9f60c99cf5200372911ce11f8b60938fa2bed52c74dc9eca2996d5661e",
+      "startTime": {
+        "timestamp": 1710351313
+      },
+      "endTime": {
+        "timestamp": 1710610513
+      },
+      "startTimestamp": 1710351313,
+      "endTimestamp": 1710610513,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 4413176.0,
+          "choice": 0
+        },
+        {
+          "total": 257.84457,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4413176.213718139,
+          "choice": 0
+        },
+        {
+          "total": 257.84454729599076,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710351831022,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NzRlYjI0YzQzMTBiYTc1OTg5NTU3YWY3Y2MzYTRhNGUxOWZlMTBiOGU1NTM3MWJkNDBlOTdkZjA1OGEwMDI5MQ==",
+      "id": "0x74eb24c4310ba75989557af7cc3a4a4e19fe10b8e55371bd40e97df058a00291",
+      "title": "MIP43 - Incentives in apxETH/WETH market",
+      "content": "The Morpho Association proposes to allocate a total of 150k MORPHO as incentives over a three month period to help grow the apxETH/WETH market, to be distributed alongside 75k BTRFLY from Redacted.\n\nExecution will be conditioned on the receipt of the BTRFLY amount on morpho.eth and the actual inclusion of the market in a MetaMorpho vault.\n\n*NB: distribution of incentives by the MORPHO DAO does not signify endorsement of market risks.*",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0xaCCE0C63B5BD3f7fDE4B1C53465F0924fbF0bC93",
+      "totalVotes": 39,
+      "blockNumber": 19427635,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x74eb24c4310ba75989557af7cc3a4a4e19fe10b8e55371bd40e97df058a00291",
+      "startTime": {
+        "timestamp": 1710351046
+      },
+      "endTime": {
+        "timestamp": 1710610246
+      },
+      "startTimestamp": 1710351046,
+      "endTimestamp": 1710610246,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 4283678.5,
+          "choice": 0
+        },
+        {
+          "total": 129754.195,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4283678.731721901,
+          "choice": 0
+        },
+        {
+          "total": 129754.20124326792,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710351107273,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YWE4ZmExZjY4NjY0ZDkyYjFjODcyNGY0ZjNiMjNjZWE0ZDllYTM0YWUxYjVjYmZiMDQ4MjE4ZWZjYjA0ZGZkZg==",
+      "id": "0xaa8fa1f68664d92b1c8724f4f3b23cea4d9ea34ae1b5cbfb048218efcb04dfdf",
+      "title": "MIP42 - Gauntlet's vaults whitelisting",
+      "content": "This vote is about whitelisting Gauntlet vaults address to allow the transfer of potential $MORPHO rewards to their depositors.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 43,
+      "blockNumber": 19390839,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xaa8fa1f68664d92b1c8724f4f3b23cea4d9ea34ae1b5cbfb048218efcb04dfdf",
+      "startTime": {
+        "timestamp": 1709905643
+      },
+      "endTime": {
+        "timestamp": 1710164843
+      },
+      "startTimestamp": 1709905643,
+      "endTimestamp": 1710164843,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 4992105.5,
+          "choice": 0
+        },
+        {
+          "total": 257.20215,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4992105.68601478,
+          "choice": 0
+        },
+        {
+          "total": 257.2021647690245,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709910183697,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YjNkM2Y5NDNkOTRkMjI1NTQyMjNiZDlmNjUwODc2YjIxNjFhMjE1ODRhYjczZjFhZThlYmM4OTdkYTczMDg1NA==",
+      "id": "0xb3d3f943d94d22554223bd9f650876b2161a21584ab73f1ae8ebc897da730854",
+      "title": "MIP41 - MORPHO incentives in ezETH/WETH market",
+      "content": "The Morpho Association proposes to allocate a total of 90k MORPHO as incentives over a three month period to help grow the ezETH/WETH market, to be distributed alongside 45k USDC from Renzo Protocol.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 50,
+      "blockNumber": 19320342,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xb3d3f943d94d22554223bd9f650876b2161a21584ab73f1ae8ebc897da730854",
+      "startTime": {
+        "timestamp": 1709107200
+      },
+      "endTime": {
+        "timestamp": 1709366400
+      },
+      "startTimestamp": 1709107200,
+      "endTimestamp": 1709366400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 11736423.0,
+          "choice": 0
+        },
+        {
+          "total": 2115.1348,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 11712816.086163558,
+          "choice": 0
+        },
+        {
+          "total": 2115.134649180723,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709107910480,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MmJmMWEyOGM0OWI0NGJlOWRjMjM4YTZmNTA1NTUwNWEzZmJiZjE5YjNlOGZkYmNmOTg4NjE3OGNmY2UwNjczZA==",
+      "id": "0x2bf1a28c49b44be9dc238a6f5055505a3fbbf19b3e8fdbcf9886178cfce0673d",
+      "title": "MIP40 - Flagship USDT and sDAI MetaMorpho Vaults whitelisting",
+      "content": "This vote is about whitelisting Flagship USDT and sDAI MetaMorpho vaults address to allow the transfer of potential $MORPHO rewards to their depositors.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 34,
+      "blockNumber": 19313256,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x2bf1a28c49b44be9dc238a6f5055505a3fbbf19b3e8fdbcf9886178cfce0673d",
+      "startTime": {
+        "timestamp": 1708968945
+      },
+      "endTime": {
+        "timestamp": 1709228145
+      },
+      "startTimestamp": 1708968945,
+      "endTimestamp": 1709228145,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 11533869.0,
+          "choice": 0
+        },
+        {
+          "total": 248.98703,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 11510261.94257238,
+          "choice": 0
+        },
+        {
+          "total": 248.98703554301204,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709058186044,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YzJmODZhMzA0ZTJiYzEwM2EzYWEyNGRjZWQ5OGRiODk2ZTRkM2ZkMmU0ZTk4NDE0MTBkNDUyZWQ1NGJjMmQyZg==",
+      "id": "0xc2f86a304e2bc103a3aa24dced98db896e4d3fd2e4e9841410d452ed54bc2d2f",
+      "title": "MIP39 - Steakhouse Financial: wUSDM, PYUSD and USDT MetaMorpho Vault Whitelisting",
+      "content": "This vote is about whitelisting Steakhouse Financial wUSDM, PYUSD and USDT MetaMorpho vaults address to allow the transfer of potential $MORPHO rewards to their depositors.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 33,
+      "blockNumber": 19313244,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xc2f86a304e2bc103a3aa24dced98db896e4d3fd2e4e9841410d452ed54bc2d2f",
+      "startTime": {
+        "timestamp": 1708968849
+      },
+      "endTime": {
+        "timestamp": 1709228049
+      },
+      "startTimestamp": 1708968849,
+      "endTimestamp": 1709228049,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 11533605.0,
+          "choice": 0
+        },
+        {
+          "total": 506.18356,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 11509997.6584071,
+          "choice": 0
+        },
+        {
+          "total": 506.1835793114959,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709058186044,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MDQwZDQ5ZjcyYzlmYzg5ZDk1MGNkMGFkY2MzODMyZjQ2OTUxNDAxYTc5MGU1MDJmYjQ1NTE1MzZjMjBjYzNmMg==",
+      "id": "0x040d49f72c9fc89d950cd0adcc3832f46951401a790e502fb4551536c20cc3f2",
+      "title": "MIP38 - Flagship USDT and sDAI MetaMorpho Vaults whitelisting",
+      "content": "This vote is about whitelisting Flagship USDT and sDAI MetaMorpho vaults address to allow the transfer of potential $MORPHO rewards to their depositors.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 41,
+      "blockNumber": 19282464,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x040d49f72c9fc89d950cd0adcc3832f46951401a790e502fb4551536c20cc3f2",
+      "startTime": {
+        "timestamp": 1708596591
+      },
+      "endTime": {
+        "timestamp": 1708855791
+      },
+      "startTimestamp": 1708596591,
+      "endTimestamp": 1708855791,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 124397.19,
+          "choice": 0
+        },
+        {
+          "total": 273.6034,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 124397.15968940362,
+          "choice": 0
+        },
+        {
+          "total": 273.6033613432436,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708600313033,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NTI0ZGFlZjNkZmViOWRjMmFhNTBlN2YxM2Q3ZDNiNTcxZjRkNGJmYTNkNjU3N2YwMjNjYjFjZDQ5MjVmMDE4Nw==",
+      "id": "0x524daef3dfeb9dc2aa50e7f13d7d3b571f4d4bfa3d6577f023cb1cd4925f0187",
+      "title": "MIP37 - Steakhouse Financial: wUSDM, PYUSD and USDT MetaMorpho Vault Whitelisting",
+      "content": "This vote is about whitelisting Steakhouse Financial wUSDM, PYUSD and USDT MetaMorpho vaults address to allow the transfer of potential $MORPHO rewards to their depositors.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 41,
+      "blockNumber": 19282442,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x524daef3dfeb9dc2aa50e7f13d7d3b571f4d4bfa3d6577f023cb1cd4925f0187",
+      "startTime": {
+        "timestamp": 1708596468
+      },
+      "endTime": {
+        "timestamp": 1708855668
+      },
+      "startTimestamp": 1708596468,
+      "endTimestamp": 1708855668,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 124390.4,
+          "choice": 0
+        },
+        {
+          "total": 273.6034,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 124390.37738582368,
+          "choice": 0
+        },
+        {
+          "total": 273.6033613432436,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708600313033,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YTg3MjBhMzIwNWNmMGIzZGJiMGQyNDE4NGFiYjVjOWZkZmQ1MmYxM2Y1YTdjNmU4OGU1OWZmNTE1M2NmYTQ0OQ==",
+      "id": "0xa8720a3205cf0b3dbb0d24184abb5c9fdfd52f13f5a7c6e88e59ff5153cfa449",
+      "title": "MIP36 - MORPHO rewards on wbIB01/PYUSD market",
+      "content": "Distribute 500 MORPHO per day on wbIB01/PYUSD (96.5%).\n\nDistribution would begin on February 19th.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 58,
+      "blockNumber": 19241083,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xa8720a3205cf0b3dbb0d24184abb5c9fdfd52f13f5a7c6e88e59ff5153cfa449",
+      "startTime": {
+        "timestamp": 1708094231
+      },
+      "endTime": {
+        "timestamp": 1708353431
+      },
+      "startTimestamp": 1708094231,
+      "endTimestamp": 1708353431,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 4420466.5,
+          "choice": 0
+        },
+        {
+          "total": 1518.7954,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4420465.530068262,
+          "choice": 0
+        },
+        {
+          "total": 1518.7954999586025,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708105779729,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZmJiMTkzYTAwMDhmMzQ0OWY4ZGM0MTUxYjZmZDkwM2FiNmNjMWU0MGI0MGYyMGFjMDA2MjAzMmQyYzM0NjI4Mg==",
+      "id": "0xfbb193a0008f3449f8dc4151b6fd903ab6cc1e40b40f20ac0062032d2c346282",
+      "title": "MIP35 - MORPHO rewards on WBTC/USDT and WBTC/USDC",
+      "content": "The Morpho Association proposes to distribute rewards on WBTC markets. Indeed, WBTC is one of the most used collateral with billions deposited in lending protocols.\n\nThe markets concerned, with their associated rewards emission, would be:\n- WBTC/USDT (86%, Morpho ChainlinkOracle): 7777.77 MORPHO per day\n- WBTC/USDC (86%, Morpho ChainlinkOracle): 3888,88 MORPHO per day\n\nDistributions would begin on February 9th.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 40,
+      "blockNumber": 19162773,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xfbb193a0008f3449f8dc4151b6fd903ab6cc1e40b40f20ac0062032d2c346282",
+      "startTime": {
+        "timestamp": 1707206400
+      },
+      "endTime": {
+        "timestamp": 1707465600
+      },
+      "startTimestamp": 1707206400,
+      "endTimestamp": 1707465600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 4765930.5,
+          "choice": 0
+        },
+        {
+          "total": 1786.9297,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4765930.744722554,
+          "choice": 0
+        },
+        {
+          "total": 1786.9298154965857,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707216000912,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MWZmYjAxM2E1YjU1NjkwNWM3MTMyNmQ2MzEwODY3MGY4Nzk2ZGU0OTIwNWE3YWEyMzZhM2E0ZjI4OTgyOWMzNw==",
+      "id": "0x1ffb013a5b556905c71326d63108670f8796de49205a7aa236a3a4f289829c37",
+      "title": "MIP34 - MORPHO incentives in osETH/WETH market",
+      "content": "The Morpho Association proposes to allocate a total of 90k MORPHO as incentives over the three month period to help grow the osETH/WETH market.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 23,
+      "blockNumber": 19077233,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x1ffb013a5b556905c71326d63108670f8796de49205a7aa236a3a4f289829c37",
+      "startTime": {
+        "timestamp": 1706173260
+      },
+      "endTime": {
+        "timestamp": 1706432460
+      },
+      "startTimestamp": 1706173260,
+      "endTimestamp": 1706432460,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 11390404.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 11390404.954637446,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706260437245,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MGJmY2RjN2RiZDZiOWY2Yzk3ZWEyM2I0NzA4NjQ3YzgzYmQ1MjFiZTk1ODRhNWU3NTUzOWYxNjhjZDdmNDQ1Ng==",
+      "id": "0x0bfcdc7dbd6b9f6c97ea23b4708647c83bd521be9584a5e75539f168cd7f4456",
+      "title": "MIP33 - MORPHO incentives in weETH/WETH market",
+      "content": "The Morpho Association proposes to allocate a total of 90k MORPHO as incentives over the three month period to help grow the weETH/WETH market.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 23,
+      "blockNumber": 19077211,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x0bfcdc7dbd6b9f6c97ea23b4708647c83bd521be9584a5e75539f168cd7f4456",
+      "startTime": {
+        "timestamp": 1706173200
+      },
+      "endTime": {
+        "timestamp": 1706432400
+      },
+      "startTimestamp": 1706173200,
+      "endTimestamp": 1706432400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 11390404.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 11390404.954637446,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706260437245,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NzhiYTYyYTcwZGNiYjBmZmJhMjVkNjY5MmZlMzcwZGNjNWIxYWY0MDQ1YjgzMjQxZWExMGM5OTUxMTJhMTFiMA==",
+      "id": "0x78ba62a70dcbb0ffba25d6692fe370dcc5b1af4045b83241ea10c995112a11b0",
+      "title": "MIP32 - Whitelist the MORPHO URD to distribute rewards",
+      "content": "As part of the incentives campaign on Morpho Blue markets, MORPHO tokens are distributed to lenders. The distribution methodology has been described in this forum post 1.\n\nTo distribute MORPHO tokens, the Morpho Association deployed a Universal Rewards Distributor (URD) contract at the following address: 0x678dDC1d07eaa166521325394cDEb1E4c086DF43 1. For context, the URD is a smart contract allowing the distribution of multiple ERC20 tokens from a single Merkle tree computed offchain.\n\nTo be able to transfer MORPHO tokens to the entitled recipients of rewards the URD must be whitelisted on the MORPHO token by the Morpho DAO.\n\nHence, the association proposes to sets the role 0 on the MORPHO token to 0x678dDC1d07eaa166521325394cDEb1E4c086DF43 1.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 40,
+      "blockNumber": 19063111,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x78ba62a70dcbb0ffba25d6692fe370dcc5b1af4045b83241ea10c995112a11b0",
+      "startTime": {
+        "timestamp": 1706000400
+      },
+      "endTime": {
+        "timestamp": 1706259600
+      },
+      "startTimestamp": 1706000400,
+      "endTimestamp": 1706259600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 11690699.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 11690700.77577404,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706027658860,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4OWMxMWNjYTUwMWRlMGIwYWQ1OGQyMGE0ZDYwY2FlODFlYjA4NjY1NzY4ZWIzZGM5ODhjZTA4OGZmOGM1OTE2ZA==",
+      "id": "0x9c11cca501de0b0ad58d20a4d60cae81eb08665768eb3dc988ce088ff8c5916d",
+      "title": "MIP31 - Re7 Lab's LST-backed ETH MetaMorpho Vault Whitelisting",
+      "content": "Re7 Labs will be launching a MetaMorpho vault that will lend ETH against various liquid staking tokens (LSTs). The goal is to drive adoption to LSTs by enabling leverage strategies and provide an above-market lending rate to ETH depositors.\n\nIt is possible that the MetaMorpho vault will receive $MORPHO rewards from supplying to incentivized markets on Morpho Blue. To allow the vault to transfer these potential $MORPHO rewards to depositors, we propose whitelisting our vault address. The vault address will be provided once launched.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 48,
+      "blockNumber": 19027792,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x9c11cca501de0b0ad58d20a4d60cae81eb08665768eb3dc988ce088ff8c5916d",
+      "startTime": {
+        "timestamp": 1705568400
+      },
+      "endTime": {
+        "timestamp": 1705827600
+      },
+      "startTimestamp": 1705568400,
+      "endTimestamp": 1705827600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, whitelist the future vault",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 688239.0,
+          "choice": 0
+        },
+        {
+          "total": 44.204872,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 688238.9545794547,
+          "choice": 0
+        },
+        {
+          "total": 44.20487225231549,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705577118301,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YzgzMDlkNzhhMmIzNDBhZmMzNDU3ZWZmYTE1Nzg1YTI3NTExYjdmZDRlNmZhMjE4MDJhZWYwNDk1OTI2MjhmMw==",
+      "id": "0xc8309d78a2b340afc3457effa15785a27511b7fd4e6fa21802aef049592628f3",
+      "title": "MIP30 - Incentives in USDC(wstETH) and WETH(wstETH) markets",
+      "content": "The Morpho DAO proposes to distribute 132 wstETH on behalf of the Liquidity Observation Lab. These incentives, as well as 1.4M MORPHO, would be split 50/50 between the USDC(wstETH) and WETH(wstETH) markets, and would follow the standardized method for distributing incentives on Morpho Blue markets.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 42,
+      "blockNumber": 18939946,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xc8309d78a2b340afc3457effa15785a27511b7fd4e6fa21802aef049592628f3",
+      "startTime": {
+        "timestamp": 1704467400
+      },
+      "endTime": {
+        "timestamp": 1704726600
+      },
+      "startTimestamp": 1704467400,
+      "endTimestamp": 1704726600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 18116800.0,
+          "choice": 0
+        },
+        {
+          "total": 1739.8069,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 18116799.055178747,
+          "choice": 0
+        },
+        {
+          "total": 1739.806978856986,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704446668465,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YzRlZjk5ZDAxN2ZiOTUxNDliYjZjMWVmZmJjNTgyZmE1YmU2MzY2NzBkYmE5Y2Y2ZGUxNTRhZGYyNTI5NGNjMg==",
+      "id": "0xc4ef99d017fb95149bb6c1effbc582fa5be636670dba9cf6de154adf25294cc2",
+      "title": "MIP29 - MORPHO Rewards on Optimizers post Morpho Blue launch",
+      "content": "Defines the distribution of rewards on Morpho Optimizers after the Morpho Blue launch on January 9th.\n\nWe propose to:\n\n- Stop using a defined schedule in favor of a flexible daily rate;\n- Set the daily rate at 10k $MORPHO;\n- Stop distributing rewards on CompoundV2 Optimizer.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 41,
+      "blockNumber": 18939936,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xc4ef99d017fb95149bb6c1effbc582fa5be636670dba9cf6de154adf25294cc2",
+      "startTime": {
+        "timestamp": 1704466800
+      },
+      "endTime": {
+        "timestamp": 1704726000
+      },
+      "startTimestamp": 1704466800,
+      "endTimestamp": 1704726000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 18214356.0,
+          "choice": 0
+        },
+        {
+          "total": 0.6362772,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 18214355.594964635,
+          "choice": 0
+        },
+        {
+          "total": 0.6362771722,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704446668465,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MDdmNmY2ZDliNmIxN2M3ZGY0Nzk3ZWU1ZTg3MTA1NjI3Y2E3MTNjYjEwYTU4MTU0NTFjZDYxZDI4M2ZlN2U1OQ==",
+      "id": "0x07f6f6d9b6b17c7df4797ee5e87105627ca713cb10a5815451cd61d283fe7e59",
+      "title": "MIP28 - Morpho DAO as owner of Morpho Blue",
+      "content": "The Morpho Association proposes that the Morpho DAO multisig becomes the owner of the new Morpho Blue protocol.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 77,
+      "blockNumber": 18920490,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x07f6f6d9b6b17c7df4797ee5e87105627ca713cb10a5815451cd61d283fe7e59",
+      "startTime": {
+        "timestamp": 1704268800
+      },
+      "endTime": {
+        "timestamp": 1704528000
+      },
+      "startTimestamp": 1704268800,
+      "endTimestamp": 1704528000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 23259364.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 23259364.065347783,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704212472362,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NDM3MDZkYzcwZjY1YzdjMjdmMGE3NjkzNTkyZDVlOTRjNDQ2ZTY0OWJmYjg0ZTk2YjY0MjdiMzE2NWZhNjQ5MA==",
+      "id": "0x43706dc70f65c7c27f0a7693592d5e94c446e649bfb84e96b6427b3165fa6490",
+      "title": "MIP27 - Block Analitica & B.Protocol's Flagship ETH and USDC MetaMorpho Vaults Whitelisting",
+      "content": "Block Analitica and B.Protocol, two leading DeFi risk teams, are partnering as risk curators, leveraging their experience and expertise in risk management to curate transparent and automated lending vaults for users. The first initiative is to co-launch Flagship ETH and USDC MetaMorpho vaults on top of Morpho Blue that will be rolled out consecutively.\n\nThe Flagship ETH and USDC MetaMorpho vaults will initially supply to stETH collateral markets and subsequently explore stablecoin and other LST collateral markets.\n\nThis proposal seeks Morpho DAO’s approval to whitelist the vaults’ smart contracts and make them eligible to transfer potential MORPHO rewards to depositors once live.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 45,
+      "blockNumber": 18714561,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x43706dc70f65c7c27f0a7693592d5e94c446e649bfb84e96b6427b3165fa6490",
+      "startTime": {
+        "timestamp": 1701788400
+      },
+      "endTime": {
+        "timestamp": 1702047600
+      },
+      "startTimestamp": 1701788400,
+      "endTimestamp": 1702047600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, whitelist future vaults",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 8644795.0,
+          "choice": 0
+        },
+        {
+          "total": 199.04155,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8644795.820757309,
+          "choice": 0
+        },
+        {
+          "total": 199.04155569510257,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701776703610,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MGNmZGQyZjMzYTEzOTc1ZjZiODVjZjIxNmQ4Yzg1Y2NmMjNkMTJlZTZlMzI1MDYzNDc3YjBhMjE5YzUzMjc4NQ==",
+      "id": "0x0cfdd2f33a13975f6b85cf216d8c85ccf23d12ee6e325063477b0a219c532785",
+      "title": "MIP26 - Steakhouse's RWA-backed Flagship USDC MetaMorpho Vault Whitelisting",
+      "content": "Steakhouse will be launching a USDC MetaMorpho vault that will initially lend against tokenized T-bills (Backed Finance’s bIB01) on Morpho Blue markets.\n\nThe vault might receive MORPHO rewards on Morpho Blue. Steakhouse proposes to whitelist the vault address to transfer MORPHO tokens. The vault address will be provided once launched.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 43,
+      "blockNumber": 18714536,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x0cfdd2f33a13975f6b85cf216d8c85ccf23d12ee6e325063477b0a219c532785",
+      "startTime": {
+        "timestamp": 1701784800
+      },
+      "endTime": {
+        "timestamp": 1702044000
+      },
+      "startTimestamp": 1701784800,
+      "endTimestamp": 1702044000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, whitelist the future vault",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 8644172.0,
+          "choice": 0
+        },
+        {
+          "total": 199.04155,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8644172.51969307,
+          "choice": 0
+        },
+        {
+          "total": 199.04155569510257,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701776703610,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4M2YwZTE5ZjIyZDMzNzQ0MjkwM2ZlM2RiMGZkM2RhMjVlMzZlNGUzZDRlMWRjNTFmNTU3N2JhZjVlNjgzOTllNQ==",
+      "id": "0x3f0e19f22d337442903fe3db0fd3da25e36e4e3d4e1dc51f5577baf5e68399e5",
+      "title": "MIP25 - MORPHO Rewards Age 9",
+      "content": "The purpose of this post is to define the framework for the distribution of rewards for Age 9, starting on November 18th.\n\nWe propose making the age duration flexible, ending at the official launch of Morpho Blue (date to be determined), and distributing a total of 16k $MORPHO per day during this period.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 35,
+      "blockNumber": 18599833,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x3f0e19f22d337442903fe3db0fd3da25e36e4e3d4e1dc51f5577baf5e68399e5",
+      "startTime": {
+        "timestamp": 1700395200
+      },
+      "endTime": {
+        "timestamp": 1700654400
+      },
+      "startTimestamp": 1700395200,
+      "endTimestamp": 1700654400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 4490762.0,
+          "choice": 0
+        },
+        {
+          "total": 199.04155,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4490761.630913423,
+          "choice": 0
+        },
+        {
+          "total": 199.04155569510257,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1700402600786,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZjAwMzI1OTExMGY3MTAzMDk0Y2I2ZjBlMTg2YWYxM2M3NTE0NGU3ODk5MTA3NDIyMDcyYjhjYjM2MDdiOTBiNw==",
+      "id": "0xf003259110f7103094cb6f0e186af13c75144e7899107422072b8cb3607b90b7",
+      "title": "MIP24 - MORPHO Rewards Age 9",
+      "content": "The purpose of this post is to define the framework for the distribution of rewards for Age 9, starting on November 18th.\n\nWe propose making the age duration flexible, ending at the official launch of Morpho Blue (date to be determined), and distributing a total of 16k $MORPHO per day during this period.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 37,
+      "blockNumber": 18572283,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xf003259110f7103094cb6f0e186af13c75144e7899107422072b8cb3607b90b7",
+      "startTime": {
+        "timestamp": 1699990787
+      },
+      "endTime": {
+        "timestamp": 1700249987
+      },
+      "startTimestamp": 1699990787,
+      "endTimestamp": 1700249987,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 467545.53,
+          "choice": 0
+        },
+        {
+          "total": 574.2941,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 467545.5890602808,
+          "choice": 0
+        },
+        {
+          "total": 574.2941067497088,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1700042602215,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NjE3OTY1YjRiNmRhZjliMjYzYTg0ZDUzZjZhNjg1NDc2ZTg4ZDFhZWE3YThiM2E1YTNiN2FhZjliNjFkZTA0OA==",
+      "id": "0x617965b4b6daf9b263a84d53f6a685476e88d1aea7a8b3a5a3b7aaf9b61de048",
+      "title": "MIP24 - MORPHO Rewards Age 8",
+      "content": "The Morpho Association proposes to distribute a total of 800k $MORPHO, keeping the same rules as for Age 7.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 52,
+      "blockNumber": 18254054,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x617965b4b6daf9b263a84d53f6a685476e88d1aea7a8b3a5a3b7aaf9b61de048",
+      "startTime": {
+        "timestamp": 1696168800
+      },
+      "endTime": {
+        "timestamp": 1696428000
+      },
+      "startTimestamp": 1696168800,
+      "endTimestamp": 1696428000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 4302358.5,
+          "choice": 0
+        },
+        {
+          "total": 221.60526,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4302358.415419176,
+          "choice": 0
+        },
+        {
+          "total": 221.6052491472909,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696168058612,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NmI5M2ZiZGM3ZjYxMTlhZWYyOGNkNTJlYjkwNjE4NmQ4ZTExMGViOWY2OTM3OTdlM2M0OGFlYzM4MzhlYjQ1NA==",
+      "id": "0x6b93fbdc7f6119aef28cd52eb906186d8e110eb9f693797e3c48aec3838eb454",
+      "title": "MIP23 - Update multisig signer ",
+      "content": "The Morpho Association proposes to replace Stefano Bernardi as DAO multisig signer with Guillaume Garchery (advisor of the Morpho Association).\n\nIn practice, it means replacing the following 0xcE1A723B066B2012550fb473558D6de681F8b5f7 address with 0x69FcEFDe2B48503d675181448B3D4272128bca9c owned by Guillaume Garchery.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 50,
+      "blockNumber": 18071945,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x6b93fbdc7f6119aef28cd52eb906186d8e110eb9f693797e3c48aec3838eb454",
+      "startTime": {
+        "timestamp": 1694008800
+      },
+      "endTime": {
+        "timestamp": 1694268000
+      },
+      "startTimestamp": 1694008800,
+      "endTimestamp": 1694268000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, update signers",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 7949908.0,
+          "choice": 0
+        },
+        {
+          "total": 199.04155,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7949906.936673334,
+          "choice": 0
+        },
+        {
+          "total": 199.04155569510257,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1694006562864,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NWUwNDEwMjUxZDBlMDNkZmMzMTZmZWFhNmVmN2NlNTZmNTIzMjhlMjIyMTVlODViNjAwYWRmYTEyM2UwOTE4YQ==",
+      "id": "0x5e0410251d0e03dfc316feaa6ef7ce56f52328e22215e85b600adfa123e0918a",
+      "title": "MIP22 - List sDAI and USDT as Collateral on the AaveV3-ETH Optimizer",
+      "content": "The Morpho Association proposes to list sDAI and USDT as collateral only on the AaveV3-ETH Optimizer as it would unlock new usecases for sDAI and USDT holders.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 57,
+      "blockNumber": 18071914,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x5e0410251d0e03dfc316feaa6ef7ce56f52328e22215e85b600adfa123e0918a",
+      "startTime": {
+        "timestamp": 1694001600
+      },
+      "endTime": {
+        "timestamp": 1694260800
+      },
+      "startTimestamp": 1694001600,
+      "endTimestamp": 1694260800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, list sDAI and USDT",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 7979787.0,
+          "choice": 0
+        },
+        {
+          "total": 199.04155,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7979786.565076925,
+          "choice": 0
+        },
+        {
+          "total": 199.04155569510257,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1694006562864,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MjI2ZjczNWIxZGM3ZDY4YzUzMzY0YTk0ODE0OTQ2YTdjZmQwZDA2NGQ3ZDczMzUzZmRiMTA4NTc1MTI5OWMzNw==",
+      "id": "0x226f735b1dc7d68c53364a94814946a7cfd0d064d7d73353fdb1085751299c37",
+      "title": "MIP21 - MORPHO rewards Age 7",
+      "content": "The Morpho association proposes to distribute a total of 900k $MORPHO, keeping the same rules as for age 6.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 55,
+      "blockNumber": 17926627,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x226f735b1dc7d68c53364a94814946a7cfd0d064d7d73353fdb1085751299c37",
+      "startTime": {
+        "timestamp": 1692194400
+      },
+      "endTime": {
+        "timestamp": 1692453600
+      },
+      "startTimestamp": 1692194400,
+      "endTimestamp": 1692453600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 9003691.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9003688.87798093,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692193382821,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4N2JhMzBlYTVhYjM4ODE4NzNiNzM4MzVkMWM0YmY2Mjg0ZjAyNjk2MzhhNWJmZGVmMDliODkyOWYzYmVmZjcxMQ==",
+      "id": "0x7ba30ea5ab3881873b73835d1c4bf6284f0269638a5bfdef09b8929f3beff711",
+      "title": "MIP20 - Ratification of June 2023 upgrades",
+      "content": "Proposal to ratify the upgrades that occurred and was required to protect users’ funds after a vulnerability disclosure in June 2023.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 38,
+      "blockNumber": 17899183,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x7ba30ea5ab3881873b73835d1c4bf6284f0269638a5bfdef09b8929f3beff711",
+      "startTime": {
+        "timestamp": 1691934480
+      },
+      "endTime": {
+        "timestamp": 1692193680
+      },
+      "startTimestamp": 1691934480,
+      "endTimestamp": 1692193680,
+      "currentState": "closed",
+      "choices": [
+        "Yes, ratify",
+        "No, don't ratify"
+      ],
+      "results": [
+        {
+          "total": 15808355.0,
+          "choice": 0
+        },
+        {
+          "total": 211.38365,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 15808356.755632404,
+          "choice": 0
+        },
+        {
+          "total": 211.38365338704503,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692021742072,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4Yjk2NDBlZjhiMGU2Yjk4ZWU5M2E3YTQzZjJjZTliMzk0YTNjZjhjYTlhODA1MzAzNzMxNWM4MDc0ZjBlYjY2ZA==",
+      "id": "0xb9640ef8b0e6b98ee93a7a43f2ce9b394a3cf8ca9a8053037315c8074f0eb66d",
+      "title": "MIP19 - Raise the P2P Cursor on AaveV2/V3 Optimizers for the WETH market",
+      "content": "Morpho Labs proposes to raise the peer-to-peer index cursor α on wETH markets for both Morpho’s AaveV2 and AaveV3-ETH Optimizers.\n\nThis change will increase the P2P supply from APY and should encourage more wETH supply. In turn, increasing the percentage of borrowers receiving the peer-to-peer APY.\n\nCurrent values for α:\n- Morpho-Aave V2 (wETH): 47.4%\n- Morpho-Aave V3 (wETH): 50.0%",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x1590e7F4c3E1B4493Abb462e34593aef3A9397Dd",
+      "totalVotes": 75,
+      "blockNumber": 17619620,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xb9640ef8b0e6b98ee93a7a43f2ce9b394a3cf8ca9a8053037315c8074f0eb66d",
+      "startTime": {
+        "timestamp": 1688486400
+      },
+      "endTime": {
+        "timestamp": 1688745600
+      },
+      "startTimestamp": 1688486400,
+      "endTimestamp": 1688745600,
+      "currentState": "closed",
+      "choices": [
+        "50%",
+        "60%",
+        "70%",
+        "80%"
+      ],
+      "results": [
+        {
+          "total": 176628.05,
+          "choice": 3
+        },
+        {
+          "total": 21707.207,
+          "choice": 0
+        },
+        {
+          "total": 12959191.0,
+          "choice": 2
+        },
+        {
+          "total": 3128.289,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 21707.206240264353,
+          "choice": 0
+        },
+        {
+          "total": 3128.289042015945,
+          "choice": 1
+        },
+        {
+          "total": 12959191.191406446,
+          "choice": 2
+        },
+        {
+          "total": 176628.05939104885,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688485464395,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NTkyZGFmZjYxM2M1MTBiYThhYzE1Y2U5NDg3YTNhODlmYTU5YmYwYWU0OTdhZGU2NGYxYTU3ZDE2YTYyODg3ZQ==",
+      "id": "0x592daff613c510ba8ac15ce9487a3a89fa59bf0ae497ade64f1a57d16a62887e",
+      "title": "MIP18 - List cbETH as collateral to AaveV3-ETH Optimizer",
+      "content": "This submission proposes to list the cbETH as collateral asset on the AaveV3-ETH Optimizer.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 76,
+      "blockNumber": 17619548,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x592daff613c510ba8ac15ce9487a3a89fa59bf0ae497ade64f1a57d16a62887e",
+      "startTime": {
+        "timestamp": 1688482800
+      },
+      "endTime": {
+        "timestamp": 1688742000
+      },
+      "startTimestamp": 1688482800,
+      "endTimestamp": 1688742000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, list cbETH",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 13155263.0,
+          "choice": 0
+        },
+        {
+          "total": 2336.5466,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 13155262.853235682,
+          "choice": 0
+        },
+        {
+          "total": 2336.5466567729877,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688497546940,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ODRjY2JmMzAzZTk0YTFjYTZkN2NkN2MzZTgyNTlhYmViMWY2MDdiNDVmZmU0OTkwZGY1MWE4ZThmMjQ5NzlkYg==",
+      "id": "0x84ccbf303e94a1ca6d7cd7c3e8259abeb1f607b45ffe4990df51a8e8f24979db",
+      "title": "MIP17 - MORPHO rewards Age 6",
+      "content": "The Morpho Association proposes to:\n- Distribute a total of 1 million $MORPHO;\n- Focus rewards distribution on markets where peer-to-peer matching is activated;\n- Emphasize the distribution of rewards on the supply side in WETH markets, as opposed to the borrow side.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 67,
+      "blockNumber": 17600606,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x84ccbf303e94a1ca6d7cd7c3e8259abeb1f607b45ffe4990df51a8e8f24979db",
+      "startTime": {
+        "timestamp": 1688299200
+      },
+      "endTime": {
+        "timestamp": 1688558400
+      },
+      "startTimestamp": 1688299200,
+      "endTimestamp": 1688558400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 10685733.0,
+          "choice": 0
+        },
+        {
+          "total": 1369.8451,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 10685733.546098614,
+          "choice": 0
+        },
+        {
+          "total": 1369.8451019642885,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688308294542,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NTFjNGU1OTA0ZWM1YjRlNzU3NDNlYjk4MjlkOTNjZDdmMGJmNGNjZGE4YzM4ZGQwYmQzMzc1YjJhMjA1ZDIwNw==",
+      "id": "0x51c4e5904ec5b4e75743eb9829d93cd7f0bf4ccda8c38dd0bd3375b2a205d207",
+      "title": "MIP16 - Accept ownership of the vault ma3WETH",
+      "content": "The Morpho Association proposes that the DAO accepts the ownership of the SupplyVault for WETH on the AaveV3-ETH Optimizer.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 60,
+      "blockNumber": 17527085,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x51c4e5904ec5b4e75743eb9829d93cd7f0bf4ccda8c38dd0bd3375b2a205d207",
+      "startTime": {
+        "timestamp": 1687363200
+      },
+      "endTime": {
+        "timestamp": 1687622400
+      },
+      "startTimestamp": 1687363200,
+      "endTimestamp": 1687622400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept ownership",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 906626.7,
+          "choice": 0
+        },
+        {
+          "total": 305.71918,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 906495.6244148568,
+          "choice": 0
+        },
+        {
+          "total": 305.71917630259907,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1687340427064,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MzFmODNjNjgzOWUyMGVmMGQyMzBmM2RmODMwNDJlYzRkNDRlMThkODdlZGI5ZTRkNDAzY2U0NWRkZDZhNTlmOQ==",
+      "id": "0x31f83c6839e20ef0d230f3df83042ec4d44e18d87edb9e4d403ce45ddd6a59f9",
+      "title": "MIP15 - List rETH as collateral only on the AaveV3-ETH Optimizer",
+      "content": "We propose to list rETH from Rocket Pool as collateral only on the AaveV3-ETH Optimizer.\n\nNote that rETH won't be borrowable.\n\nSee more information in the attached forum discussion.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x1590e7F4c3E1B4493Abb462e34593aef3A9397Dd",
+      "totalVotes": 62,
+      "blockNumber": 17414258,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x31f83c6839e20ef0d230f3df83042ec4d44e18d87edb9e4d403ce45ddd6a59f9",
+      "startTime": {
+        "timestamp": 1685967377
+      },
+      "endTime": {
+        "timestamp": 1686226577
+      },
+      "startTimestamp": 1685967377,
+      "endTimestamp": 1686226577,
+      "currentState": "closed",
+      "choices": [
+        "Yes, list the rETH as collateral",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 8003673.0,
+          "choice": 0
+        },
+        {
+          "total": 199.04155,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8003673.088440914,
+          "choice": 0
+        },
+        {
+          "total": 199.04155569510257,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685974782626,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MzI5YjM3NjFhYjI5MzY0MmNiNmVlOGRiM2Q5OWI0ZjNiMzAzZDc5ODdhZjI5NzNjOTBlYTdkOGIzYmYxMmE3Zg==",
+      "id": "0x329b3761ab293642cb6ee8db3d99b4f3b303d7987af2973c90ea7d8b3bf12a7f",
+      "title": "MIP14 - MORPHO rewards Age 5",
+      "content": "The purpose of this proposal is to define the framework for the distribution of rewards for Age 5 starting on May 22nd and ending on July 6th. We propose to:\n\n- Distribute a total of 1.1 million $MORPHO;\n- Focus rewards distribution on markets where peer-to-peer matching is activated;\n- Start incentivizing the supply side of the WETH market on the AaveV3-ETH Optimizer.\n\nMore information in the forum post below.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 56,
+      "blockNumber": 17278250,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x329b3761ab293642cb6ee8db3d99b4f3b303d7987af2973c90ea7d8b3bf12a7f",
+      "startTime": {
+        "timestamp": 1684313043
+      },
+      "endTime": {
+        "timestamp": 1684572243
+      },
+      "startTimestamp": 1684313043,
+      "endTimestamp": 1684572243,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 8389381.0,
+          "choice": 0
+        },
+        {
+          "total": 8601.938,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8421168.069348222,
+          "choice": 0
+        },
+        {
+          "total": 8601.93844052891,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684330955259,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZGU0ZTE0NWZhZWU0ZjU2YWMzZDZlOWUyNDU3NDdhYjhlZWI0NThlZTM5ZGExOTRhNzcyMTk3YmJhNjJkYTdjZQ==",
+      "id": "0xde4e145faee4f56ac3d6e9e245747ab8eeb458ee39da194a772197bba62da7ce",
+      "title": "MIP13 - Add a timelock to the AaveV3 ETH Optimizer owner",
+      "content": "The Morpho Association proposes to set the Morpho Admin as the owner of the AaveV3 ETH Optimizer like other Morpho protocols. The Morpho Admin is a Safe without signers that is directly controlled by the Morpho DAO, but with a delay of 24 hours between submitting a transaction modifying the state of the protocol and its execution.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 78,
+      "blockNumber": 17223367,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xde4e145faee4f56ac3d6e9e245747ab8eeb458ee39da194a772197bba62da7ce",
+      "startTime": {
+        "timestamp": 1683641114
+      },
+      "endTime": {
+        "timestamp": 1683900314
+      },
+      "startTimestamp": 1683641114,
+      "endTimestamp": 1683900314,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 15492473.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 15470115.435233882,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683661295139,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4NjljZmJiYTI3NTdiZDNhYTI0Y2MyMmVjZTk4Yjc5ZDJkNmRjOGY1NjU4NWU1YWE1ZGU4MjA3ZDZhYjI1NDk1MA==",
+      "id": "0x69cfbba2757bd3aa24cc22ece98b79d2d6dc8f56585e5aa5de8207d6ab254950",
+      "title": "MIP12 - Morpho DAO as owner of the AaveV3 ETH Optimizer",
+      "content": "The Morpho association has deployed the Morpho AaveV3 ETH eMode Optimizer and now proposes that the Morpho DAO accept the smart contracts’ ownership.\n\nAfter acceptance of the ownership, the DAO could upgrade the protocol after a delay of 24 hours and trigger all governance functions.\n\nAs for the previous versions, it proposes granting the Morpho Association access to different non-critical functions to react quickly in an emergency.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 94,
+      "blockNumber": 17171910,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x69cfbba2757bd3aa24cc22ece98b79d2d6dc8f56585e5aa5de8207d6ab254950",
+      "startTime": {
+        "timestamp": 1683016208
+      },
+      "endTime": {
+        "timestamp": 1683275408
+      },
+      "startTimestamp": 1683016208,
+      "endTimestamp": 1683275408,
+      "currentState": "closed",
+      "choices": [
+        "Yes, accept the proposal",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 15959769.0,
+          "choice": 0
+        },
+        {
+          "total": 91.59294,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 15937410.8786617,
+          "choice": 0
+        },
+        {
+          "total": 91.5929384724865,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683029571934,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4N2EzMzI1MmI3MjEzYWRjYzNlNGJiZGQwYzQ1MjhmMzliMzRjYjBlZDhhNzg4ODNjMTY3MTcyYzY5NGM3YTMzZQ==",
+      "id": "0x7a33252b7213adcc3e4bbdd0c4528f39b34cb0ed8a78883c167172c694c7a33e",
+      "title": "MIP11 - MORPHO rewards Age 4",
+      "content": "This proposal contains several adjustments to the current reward distribution scheme:\n1. Remove the notion of epochs and shorten ages from 3 months to 45 days.\n2. Distribute a total of 2 million $MORPHO during Age 4.\n3. Transition from using the gauges system to a tailored allocation across markets.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 101,
+      "blockNumber": 16940318,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x7a33252b7213adcc3e4bbdd0c4528f39b34cb0ed8a78883c167172c694c7a33e",
+      "startTime": {
+        "timestamp": 1680182498
+      },
+      "endTime": {
+        "timestamp": 1680441698
+      },
+      "startTimestamp": 1680182498,
+      "endTimestamp": 1680441698,
+      "currentState": "closed",
+      "choices": [
+        "Yes, apply changes",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 14549711.0,
+          "choice": 0
+        },
+        {
+          "total": 19.312729,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 14549712.635318443,
+          "choice": 0
+        },
+        {
+          "total": 19.312728505925868,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4YWNkY2U2YzM5NDkzMDY2ZWU5MzRlYzJiNjc5NDIyYjc4M2Q5NTA4YmY2NDg4NTNlOWZjMDgxZWU5NzQ3NjQ3MQ==",
+      "id": "0xacdce6c39493066ee934ec2b679422b783d9508bf648853e9fc081ee97476471",
+      "title": "MIP10 - Morpho, Lenses & Vaults upgrades  ",
+      "content": "Morpho Labs proposes to upgrade the Morpho, Lenses & Vaults for the reasons mentioned in the forum post attached to the description.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x1590e7F4c3E1B4493Abb462e34593aef3A9397Dd",
+      "totalVotes": 80,
+      "blockNumber": 16734628,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xacdce6c39493066ee934ec2b679422b783d9508bf648853e9fc081ee97476471",
+      "startTime": {
+        "timestamp": 1677770580
+      },
+      "endTime": {
+        "timestamp": 1678029780
+      },
+      "startTimestamp": 1677770580,
+      "endTimestamp": 1678029780,
+      "currentState": "closed",
+      "choices": [
+        "Yes, upgrade",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 9748197.0,
+          "choice": 0
+        },
+        {
+          "total": 47.480938,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9748199.196908848,
+          "choice": 0
+        },
+        {
+          "total": 47.4809367384,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZDFmNTYyOTc2ZjdlNTg5MDc3ZjdlZDJlZmYxNzc4OWFkYTU2YzM0MmEyYWYxZDNiYzQ3MGEwYmQyYjdjMTcxNg==",
+      "id": "0xd1f562976f7e589077f7ed2eff17789ada56c342a2af1d3bc470a0bd2b7c1716",
+      "title": "MIP9 - Peer-to-peer index cursors update",
+      "content": "Morpho Labs proposes to update the peer-to-peer index cursor $\\alpha$ on every market of Morpho where the peer-to-peer is enabled. This change should encourage further peer-to-peer matching of the liquidity. \n\nHere are the proposed values for the peer-to-peer index cursors:\n\nMorpho-Aave:\nDAI: 31.5%\nWETH: 47.4%\nUSDC: 41.5%\nUSDT: 70.9%\nWBTC: 45.4%\n\nMorpho-Compound:\nUSDT: 58.4%",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x1590e7F4c3E1B4493Abb462e34593aef3A9397Dd",
+      "totalVotes": 93,
+      "blockNumber": 16492095,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xd1f562976f7e589077f7ed2eff17789ada56c342a2af1d3bc470a0bd2b7c1716",
+      "startTime": {
+        "timestamp": 1674749492
+      },
+      "endTime": {
+        "timestamp": 1675008692
+      },
+      "startTimestamp": 1674749492,
+      "endTimestamp": 1675008692,
+      "currentState": "closed",
+      "choices": [
+        "Yes, update the cursors",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 5791458.0,
+          "choice": 0
+        },
+        {
+          "total": 47.480938,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5769099.61980689,
+          "choice": 0
+        },
+        {
+          "total": 47.4809367384,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZjM0ZjEzYTRjYjAxYmZiZTViZTE3MjM2NTIwYmJmYmY1M2Q3NjM2Nzk0OWNkY2YzM2EzYzIzMDgzZjEyNjdkMQ==",
+      "id": "0xf34f13a4cb01bfbe5be17236520bbfbf53d76367949cdcf33a3c23083f1267d1",
+      "title": "MIP8 - Governance & Snapshot update",
+      "content": "This proposal aims at introducing timelocks for the DAO and changing a few parameters in the Morpho.eth space.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 92,
+      "blockNumber": 16361431,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xf34f13a4cb01bfbe5be17236520bbfbf53d76367949cdcf33a3c23083f1267d1",
+      "startTime": {
+        "timestamp": 1673173248
+      },
+      "endTime": {
+        "timestamp": 1673518848
+      },
+      "startTimestamp": 1673173248,
+      "endTimestamp": 1673518848,
+      "currentState": "closed",
+      "choices": [
+        "Yes, apply changes",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 8315720.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8315719.994631894,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZjFjMjg4MjQzODVmNWM2NmNmNTE0YmEzN2YxNzE3YjBlY2QxNjA4ZGRmMzczMGY3ZGVhY2M1ZDRkMjZmMDcyYw==",
+      "id": "0xf1c28824385f5c66cf514ba37f1717b0ecd1608ddf3730f7deacc5d4d26f072c",
+      "title": "MIP7 - FEI market deprecation",
+      "content": "Morpho Labs proposes to deprecate the FEI market on Morpho-Compound. Note that borrow and supply functions were paused on Morpho in September, there is only $26 debt remaining on Morpho, and it has been deprecated on Compound in October.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x1590e7F4c3E1B4493Abb462e34593aef3A9397Dd",
+      "totalVotes": 63,
+      "blockNumber": 16263261,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xf1c28824385f5c66cf514ba37f1717b0ecd1608ddf3730f7deacc5d4d26f072c",
+      "startTime": {
+        "timestamp": 1671989481
+      },
+      "endTime": {
+        "timestamp": 1672335081
+      },
+      "startTimestamp": 1671989481,
+      "endTimestamp": 1672335081,
+      "currentState": "closed",
+      "choices": [
+        "Yes, depreciate the FEI Market",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 5236169.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5236170.167752196,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ZjQwMjE2MTE0M2M0MmFjNWVkZjY1ODliNzgzM2ViNzYwY2JlNTU2ZTE4NDUxYTIzMmU2YmUzZDM0ZDA2ZjI4Nw==",
+      "id": "0xf402161143c42ac5edf6589b7833eb760cbe556e18451a232e6be3d34d06f287",
+      "title": "[Gauges Vote] Age 3 - Epoch 1",
+      "content": "Vote for a repartition of MORPHO rewards across the different markets of the Morpho protocol.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 87,
+      "blockNumber": 16247960,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0xf402161143c42ac5edf6589b7833eb760cbe556e18451a232e6be3d34d06f287",
+      "startTime": {
+        "timestamp": 1671805053
+      },
+      "endTime": {
+        "timestamp": 1672150653
+      },
+      "startTimestamp": 1671805053,
+      "endTimestamp": 1672150653,
+      "currentState": "closed",
+      "choices": [
+        "aWETH",
+        "aCRV",
+        "aSTETH",
+        "aWBTC",
+        "aUSDT",
+        "aUSDC",
+        "aDAI",
+        "cWBTC",
+        "cUSDT",
+        "cUSDC",
+        "cUNI",
+        "cETH",
+        "cCOMP",
+        "cDAI"
+      ],
+      "results": [
+        {
+          "total": 10.290048,
+          "choice": 98
+        },
+        {
+          "total": 4696816.0,
+          "choice": 3728
+        },
+        {
+          "total": 1237.8395,
+          "choice": 9
+        },
+        {
+          "total": 71.384705,
+          "choice": 15
+        },
+        {
+          "total": 0.08664506,
+          "choice": 3
+        },
+        {
+          "total": 18.901196,
+          "choice": 17
+        },
+        {
+          "total": 1471.1791,
+          "choice": 29
+        },
+        {
+          "total": 1554351.0,
+          "choice": 0
+        },
+        {
+          "total": 83.679214,
+          "choice": 14
+        },
+        {
+          "total": 374.26965,
+          "choice": 13
+        },
+        {
+          "total": 108.54929,
+          "choice": 111
+        },
+        {
+          "total": 3338.2468,
+          "choice": 2
+        },
+        {
+          "total": 744.16125,
+          "choice": 699
+        },
+        {
+          "total": 2700531.0,
+          "choice": 372
+        },
+        {
+          "total": 169708.61,
+          "choice": 99
+        },
+        {
+          "total": 1292.1372,
+          "choice": 7
+        },
+        {
+          "total": 2.5755594,
+          "choice": 12
+        },
+        {
+          "total": 402.12146,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 3283109.226037937,
+          "choice": 0
+        },
+        {
+          "total": 38950.625940245,
+          "choice": 1
+        },
+        {
+          "total": 638011.7549077563,
+          "choice": 2
+        },
+        {
+          "total": 687881.188068982,
+          "choice": 3
+        },
+        {
+          "total": 1443609.4526016577,
+          "choice": 4
+        },
+        {
+          "total": 1240988.0919277768,
+          "choice": 5
+        },
+        {
+          "total": 263115.156890557,
+          "choice": 6
+        },
+        {
+          "total": 130190.4096925348,
+          "choice": 7
+        },
+        {
+          "total": 503973.02536166034,
+          "choice": 8
+        },
+        {
+          "total": 416380.8887417688,
+          "choice": 9
+        },
+        {
+          "total": 5972.286171035477,
+          "choice": 10
+        },
+        {
+          "total": 186857.11837609185,
+          "choice": 11
+        },
+        {
+          "total": 9371.87737881065,
+          "choice": 12
+        },
+        {
+          "total": 282150.7951064131,
+          "choice": 13
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4M2EwOTJjYWMyODZjOWFmZGViYzg5OWJiYjA0YzNhMTc4N2Y4MjI4NGI3YWE4ODVhNzYwOGQ3ZTFlZWFiOTNhMw==",
+      "id": "0x3a092cac286c9afdebc899bbb04c3a1787f82284b7aa885a7608d7e1eeab93a3",
+      "title": "MIP6 - Add granular pausing and asset deprecation ",
+      "content": "Morpho Labs proposes to give the governance more granularity over its power on the protocols, by adding granular pausing, asset deprecation, and increase peer-to-peer deltas.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x1590e7F4c3E1B4493Abb462e34593aef3A9397Dd",
+      "totalVotes": 70,
+      "blockNumber": 16121570,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x3a092cac286c9afdebc899bbb04c3a1787f82284b7aa885a7608d7e1eeab93a3",
+      "startTime": {
+        "timestamp": 1670279367
+      },
+      "endTime": {
+        "timestamp": 1670624967
+      },
+      "startTimestamp": 1670279367,
+      "endTimestamp": 1670624967,
+      "currentState": "closed",
+      "choices": [
+        "Yes, upgrade the protocol",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 7006988.0,
+          "choice": 0
+        },
+        {
+          "total": 246106.19,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7006987.915079605,
+          "choice": 0
+        },
+        {
+          "total": 246106.189434851,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4ODE2ZTQ5NzFjZDM5MTliYzhkZjdhZDA4OTJlYWQ5ODVmOGViYThkNzJhNzY0NGE2YjVhMDIyODQ3YjEyMzA1OQ==",
+      "id": "0x816e4971cd3919bc8df7ad0892ead985f8eba8d72a7644a6b5a022847b123059",
+      "title": "MIP5 - Whitelist Morpho's vaults and Sense contracts to transfer $MORPHO tokens",
+      "content": "The Morpho Association proposes to whitelist Morpho’s ERC4626 vaults and the rewards distributor contract to transfer $MORPHO tokens to users. Moreover, the proposal includes the whitelisting of the Sense contracts.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 46,
+      "blockNumber": 16099045,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x816e4971cd3919bc8df7ad0892ead985f8eba8d72a7644a6b5a022847b123059",
+      "startTime": {
+        "timestamp": 1670007335
+      },
+      "endTime": {
+        "timestamp": 1670352935
+      },
+      "startTimestamp": 1670007335,
+      "endTimestamp": 1670352935,
+      "currentState": "closed",
+      "choices": [
+        "Yes, allow these contracts",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 6900577.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6900578.445935812,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4MDUxYTYyMmJmM2U5ZTM0MDcxOGQ3MzQ4M2E3ZmY1ZDhjM2Q1Y2UxMmY4ZTcwOTNlYjA2ZDVlOTRhZGZjMzlmMg==",
+      "id": "0x051a622bf3e9e340718d73483a7ff5d8c3d5ce12f8e7093eb06d5e94adfc39f2",
+      "title": "MIP4 - Age 3 total distribution",
+      "content": "The Morpho association proposes to distribute 10M $MORPHO tokens (1% of total supply) during Age 3, with a constant distribution across all three epochs. The allotment between markets would follow from gauges votes (MIP3).",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 82,
+      "blockNumber": 16082773,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x051a622bf3e9e340718d73483a7ff5d8c3d5ce12f8e7093eb06d5e94adfc39f2",
+      "startTime": {
+        "timestamp": 1669810973
+      },
+      "endTime": {
+        "timestamp": 1670156573
+      },
+      "startTimestamp": 1669810973,
+      "endTimestamp": 1670156573,
+      "currentState": "closed",
+      "choices": [
+        "Yes, distribute 10M $MORPHO",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 6843051.0,
+          "choice": 0
+        },
+        {
+          "total": 149863.03,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6843050.530784059,
+          "choice": 0
+        },
+        {
+          "total": 149863.03544256368,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OjB4N2M2NmE1YzQ4YjgyMDZhMmFjYTUxZDgwNTBmOGE5MjBlMWVmNjRkZWYyMDgzMTIyZmU1M2I1Yjc0YWNlMmIzMQ==",
+      "id": "0x7c66a5c48b8206a2aca51d8050f8a920e1ef64def2083122fe53b5b74ace2b31",
+      "title": "MIP3 - Introducing Morpho Gauges for Age 3",
+      "content": "Morpho Labs proposes to set up a gauge system for the distribution of Age 3 rewards. $MORPHO holder would be allowed to vote for a rewards distribution between markets of Morpho-Compound and Morpho-Aave. Learn more on the forum post: https://forum.morpho.xyz/t/mip-introducing-morpho-gauges-for-age-3/169",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x1590e7F4c3E1B4493Abb462e34593aef3A9397Dd",
+      "totalVotes": 77,
+      "blockNumber": 16025088,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/0x7c66a5c48b8206a2aca51d8050f8a920e1ef64def2083122fe53b5b74ace2b31",
+      "startTime": {
+        "timestamp": 1669114571
+      },
+      "endTime": {
+        "timestamp": 1669460171
+      },
+      "startTimestamp": 1669114571,
+      "endTimestamp": 1669460171,
+      "currentState": "closed",
+      "choices": [
+        "Yes, use gauges for Age 3",
+        "No, keep the current system"
+      ],
+      "results": [
+        {
+          "total": 6686264.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6297205.680726701,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OmJhZmtyZWlnemZ5aTdtM2hlNHh2ZzdmajN6czJyNmFwdDJoZ29meWk0eDJ1djNwdGZqYjIzaGVuN3V1",
+      "id": "bafkreigzfyi7m3he4xvg7fj3zs2r6apt2hgofyi4x2uv3ptfjb23hen7uu",
+      "title": " MIP2 - Governance Update",
+      "content": "The Morpho Association is proposing to update Morpho’s Snapshot rule to add the delegation features and to include changes made by MIP1. Learn more on the governace post: https://forum.morpho.xyz/t/mip2-governance-update/155",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 77,
+      "blockNumber": 15890002,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/bafkreigzfyi7m3he4xvg7fj3zs2r6apt2hgofyi4x2uv3ptfjb23hen7uu",
+      "startTime": {
+        "timestamp": 1667484706
+      },
+      "endTime": {
+        "timestamp": 1667830306
+      },
+      "startTimestamp": 1667484706,
+      "endTimestamp": 1667830306,
+      "currentState": "closed",
+      "choices": [
+        "Yes, update governance",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 1376748.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1376747.9375763591,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bW9ycGhvOnNuYXBzaG90OmJhZmtyZWlhYWx2NG83NzJsNXlmNmlkYXV6aDI1YmVxcG95cHh5aHU1cDR1dnRxeHhtcGgzNXF1MnBh",
+      "id": "bafkreiaalv4o772l5yf6idauzh25beqpoypxyhu5p4uvtqxxmph35qu2pa",
+      "title": "MIP1 - Early Core Contributors Allocation",
+      "content": "Following the forum post published on August 19th: https://forum.morpho.xyz/t/mip1-early-core-contributors-allocation/94, the Morpho Association is finally proposing to allocate $MORPHO tokens to the initial core contributors of the protocol.",
+      "protocol": "morpho",
+      "adapter": "snapshot",
+      "proposer": "0x6ABfd6139c7C3CC270ee2Ce132E309F59cAaF6a2",
+      "totalVotes": 67,
+      "blockNumber": 15754403,
+      "externalUrl": "https://snapshot.org/#/morpho.eth/proposal/bafkreiaalv4o772l5yf6idauzh25beqpoypxyhu5p4uvtqxxmph35qu2pa",
+      "startTime": {
+        "timestamp": 1665847633
+      },
+      "endTime": {
+        "timestamp": 1666193233
+      },
+      "startTimestamp": 1665847633,
+      "endTimestamp": 1666193233,
+      "currentState": "closed",
+      "choices": [
+        "Yes, allow MECT to MORPHO swap",
+        "No, do nothing"
+      ],
+      "results": [
+        {
+          "total": 4686100.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4837970.8120029215,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236539557,
+      "txHash": "",
+      "quorum": 500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,1949 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4YTk3M2Y0MjRkY2YwNTBlZThkNGMyZTM2ZDdlMDk0YzQzZDEwMDY4Yzg1MzQ4OTQ0MzYzZWUxZDQzYWY2ZjA3MA==",
+      "id": "0xa973f424dcf050ee8d4c2e36d7e094c43d10068c85348944363ee1d43af6f070",
+      "title": "VSP Buybacks + Emissions Update",
+      "content": "Summary\n\nRestart buybacks of VSP for esVSP holders and set intentions for buybacks and VSP emissions into the future.\n\nAbstract\n\nWhile Vesper has emphasized bad debt repayment from revenue generated, the VSP buyback mechanism has been paused in favor of treasury emissions.\n\nThis proposal reintroduces the buyback mechanism as a supplement to VSP emissions with a fixed USD denominated monthly buyback target.\n\nInitially, no further changes will be made to revenue policy or emissions. \n\nHowever, this proposal also sets the following intentions:\n- To iteratively increase buybacks to the original percentage of revenue earned before buybacks were paused.\n- To sunset VSP emissions altogether.\n\nSpecifications\n- Introduce $3,000/mo worth of VSP buybacks, delivered to esVSP holders.\n- Seek to increase VSP buybacks beyond $3,000 to a maximum of 40% of total revenue, per the specifications of the previous revenue share policy.\n- Begin reducing monthly VSP emissions from 20,000/mo, with an end target of 0/mo.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 15,
+      "blockNumber": 20922471,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xa973f424dcf050ee8d4c2e36d7e094c43d10068c85348944363ee1d43af6f070",
+      "startTime": {
+        "timestamp": 1729018800
+      },
+      "endTime": {
+        "timestamp": 1729278000
+      },
+      "startTimestamp": 1729018800,
+      "endTimestamp": 1729278000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2396868.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2396868.1038780822,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1728410308272,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4NGJkZTJkMDU3YzgxYzBiY2QzODQyOGVlODQxNDliZWQ1MTQ1Mjc0YWE1NTIwMGUwZGFjNjM2ZDFmN2YwMDIyNA==",
+      "id": "0x4bde2d057c81c0bcd38428ee84149bed5145274aa55200e0dac636d1f7f00224",
+      "title": "Retire Avalanche Chain & Avalanche Pools",
+      "content": "Summary\n\nSunset the Avalanche chain along with all Avalanche pools and remove them from the primary Vesper dApp. Add chain and all pools to the Vesper Retired dApp.\n\nAbstract\n\nTVL and demand for Avalanche products on Vesper is lackluster.\n\nBy retiring the chain and these pools, the protocol can realize better revenue without detracting from the general user experience, while simultaneously improving the UI/UX for Vesper users.\n\nExpectations\n\nMigrate the following pools into a retirement application (retired.vesper.finance). As retired pools, users can still withdraw funds from the app, but they will no longer be earning any yield. Additionally, new deposits will not be permitted.\n\nThe following Avalanche pools are to be retired:\n\nAVAX\n\nUSDC\n\nWETH.e\n\nUSDC.e\n\nWBTC.e\n\nDAI.e\n\nQI\n\nSpecification\n\nMigrate the above pools into a retirement status within 10 days after approval, which requires the following changes:\n\nSmart Contract:\n\nPause deposits\n\nStop strategy rebalancing\n\nFront End:\n\nDisplay “Retiring” status\n\nRemove “Deposit” button\n\nRemove pools from the main Vesper dApp, and add to the retiring app.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0x606AFBd2e013202bF0454FcF3bFadD3Df6E67135",
+      "totalVotes": 7,
+      "blockNumber": 20125735,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x4bde2d057c81c0bcd38428ee84149bed5145274aa55200e0dac636d1f7f00224",
+      "startTime": {
+        "timestamp": 1718799585
+      },
+      "endTime": {
+        "timestamp": 1719058785
+      },
+      "startTimestamp": 1718799585,
+      "endTimestamp": 1719058785,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 594491.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 594491.4930671233,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718800258107,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4ODA0N2VmYWY2ZTM5NDkwOTZlZWY5NDViNmFjMjZiNDRlYzY3YzM3NDIyNGFkNTUzNzE4ZjdmYTEwYjkwZDJlMQ==",
+      "id": "0x8047efaf6e3949096eef945b6ac26b44ec67c374224ad553718f7fa10b90d2e1",
+      "title": "Sonne Exploit Remediation",
+      "content": "Summary\n\nUse $156,833 from the Vesper Finance Treasury to pay down debt on certain Vesper Optimism pools affected by the Sonne Finance exploit. Bring all Vesper Optimism pools back into a healthy state so that all users have access to their funds.\n\nAbstract\n\nFollowing the exploit of Sonne Finance, certain Vesper pools on Optimism carry large amounts of debt making them inoperable. This proposal outlines plans on the Vesper side to bring these pools back into full operation, so that users with deposits in these pools can quickly access their funds.\n\nMetronome, which routes large amounts of TVL through the affected Vesper pools (and is also thus affected by the Sonne exploit) will have a separate governance proposal outlining Metronome’s treasury assistance to Vesper to bring all pools and products back into operation.\n\nShould Vesper recover funds from the exploiter of Sonne, or through other remediation means, Metronome treasury will be paid back the funds they are contributing.\n\nExpectations\n\nBetween contributions from the Vesper Finance treasury, and the Metronome treasury, all Vesper Optimism pools will be brought back to a state of health where normal operations can resume, and all Vesper users will be able to access their deposits.\n\nSpecification\n\nPull $156,833 in total from four separate Vesper multi signature wallets (ETH, SAFE, USDC, OP) and use funds to repay debt on affected Vesper Optimism pools.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0x606AFBd2e013202bF0454FcF3bFadD3Df6E67135",
+      "totalVotes": 13,
+      "blockNumber": 19921429,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x8047efaf6e3949096eef945b6ac26b44ec67c374224ad553718f7fa10b90d2e1",
+      "startTime": {
+        "timestamp": 1716332547
+      },
+      "endTime": {
+        "timestamp": 1716418920
+      },
+      "startTimestamp": 1716332547,
+      "endTimestamp": 1716418920,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1213728.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1213728.6009835617,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716332860574,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4YzQxMDQwNjExMDY0Y2NlNDUxMzJhMDdkMjVjMDg2YjY2Y2Q3MzE5OTk5ZjI0YzMxZWMzMDg2YTRhM2E2NmFkMQ==",
+      "id": "0xc41040611064cce45132a07d25c086b66cd7319999f24c31ec3086a4a3a66ad1",
+      "title": "Add BASE Chain to Vesper",
+      "content": "Summary\n\nAdd BASE Chain to Vesper along with four initial BASE pools.\n\nPools: vaUSDC, vaETH, cbETH, wstETH\n\nAbstract\n\nThis proposal seeks to expand the Vesper ecosystem, userbase, and TVL by launching on popular chains that have achieved high levels of adoption, and also have healthy established defi ecosystems.\n\nThis proposal greenlights adding BASE chain to Vesper, along with four initial pools.\n\nExpectations\n\nLaunch BASE as a new chain on Vesper Finance\n\nLaunch four BASE pools: vaUSDC, vaETH, cbETH, wstETH\n\nSpecification\n\nSC team\n\nDeploy vaUSDC (native - USDCbC) pool\n\nExtra Fi Pool #1 deposit\nExtra Fi Pool #2 deposit\nCompound USDCbC deposit\nAave v3 deposit\nSonne deposit\nDeploy vaETH pool\n\nStargate Deposit\nExtra Fi Pool #1 deposit\nSonne deposit - borrow USDCbC\nDeploy cbETH pool\n\nSonne deposit - borrow USDCbC\nCompound Fi deposit - borrow ETH\nSonne leverage\nDeploy wstETH pool\n\nSonne deposit - borrow USDCbC\nSonne leverage\nJS team\n\nDeploy Vesper UI for Base with above pools",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0x606AFBd2e013202bF0454FcF3bFadD3Df6E67135",
+      "totalVotes": 8,
+      "blockNumber": 19827407,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xc41040611064cce45132a07d25c086b66cd7319999f24c31ec3086a4a3a66ad1",
+      "startTime": {
+        "timestamp": 1715788800
+      },
+      "endTime": {
+        "timestamp": 1716048000
+      },
+      "startTimestamp": 1715788800,
+      "endTimestamp": 1716048000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 972457.9,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 972457.8825356164,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1715197143511,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4OTc2NjVmMjRhNDg5OTIwMWRhYjJhZGZkMjA0N2E1MzI2MjE1NmM4MzhhMjZiYWYyMzVlNDQyNmYyMDU0YmMxMQ==",
+      "id": "0x97665f24a4899201dab2adfd2047a53262156c838a26baf235e4426f2054bc11",
+      "title": "Recovery for VSP on Avalanche",
+      "content": "Summary\n\n13,600 VSP tokens are forever lost on Avalanche due to Multi Chain no longer being operable. VSP holders on Avalanche to automatically receive an equal amount of VSP tokens from the Vesper DAO Treasury.\n\nAbstract\n\nPrior to multi chain ceasing operations, Vesper community members bridged ~13,600 VSP to Avalanche. These tokens are now effectively lost, irrecoverable, and burned. This VIP proposes that any user holding more than 100 VSP on Avalanche is reimbursed from the Vesper DAO Treasury on a 1:1 basis.\n\nExpectations\n\nUse 13,600 VSP from Vesper DAO Treasury to refund users\n\nSpecifications\n\nCreate a list of wallet addresses and balances >100 VSP owed a refund.\n\nCreate a bulk send transaction to refund users of their lost VSP.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0x606AFBd2e013202bF0454FcF3bFadD3Df6E67135",
+      "totalVotes": 8,
+      "blockNumber": 19827389,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x97665f24a4899201dab2adfd2047a53262156c838a26baf235e4426f2054bc11",
+      "startTime": {
+        "timestamp": 1715788800
+      },
+      "endTime": {
+        "timestamp": 1716048000
+      },
+      "startTimestamp": 1715788800,
+      "endTimestamp": 1716048000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 966472.9,
+          "choice": 0
+        },
+        {
+          "total": 1140.895,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 966472.8825356164,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 1140.895,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1715196320501,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4OTU1ODJjNDExMmRkYThlM2NmMTZiMWY4MDg3OTZkZTg1NGVlMGQ1YTFhODYyOTUxYTdlNjUyZDlmMDJiNWFiYQ==",
+      "id": "0x95582c4112dda8e3cf16b1f808796de854ee0d5a1a862951a7e652d9f02b5aba",
+      "title": "Retire Polygon Chain & Five Polygon Pools ",
+      "content": "Summary\n\nSunset the Polygon chain along with all Polygon pools and remove them from the primary Vesper dApp.  Add chain and all pools to the Vesper Retired dApp.\n\nAbstract\n\nTVL and demand for Polygon products on Vesper is lackluster.\nBy retiring the chain and these pools, the protocol can realize better revenue without detracting from the general user experience, while simultaneously improving the UI/UX for Vesper users.\n\nExpectations\n\nMigrate the following pools into a retirement application (retired.vesper.finance). As retired pools, users can still withdraw funds from the app, but they will no longer be earning any yield. Additionally, new deposits will not be permitted.\n\nThe following Polygon pools are to be retired:\n\nWBTC\nWETH\nDAI\nUSDC\nMATIC\n\nSpecification\n\nMigrate the above pools into a retirement status within 10 days after approval, which requires the following changes:\n\nSmart Contract\n•\tPause deposits\n•\tStop strategy rebalancing\n\nFront End\n•\tDisplay “Retiring” status\n•\tRemove “Deposit” button\n•\tRemove pools from the main Vesper dApp, and add to the retiring app.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0x16745C40DdE19754EE354b67858271373b0AC43E",
+      "totalVotes": 7,
+      "blockNumber": 19063410,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x95582c4112dda8e3cf16b1f808796de854ee0d5a1a862951a7e652d9f02b5aba",
+      "startTime": {
+        "timestamp": 1706547600
+      },
+      "endTime": {
+        "timestamp": 1706806800
+      },
+      "startTimestamp": 1706547600,
+      "endTimestamp": 1706806800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1327550.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1327550.0519246575,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705940605321,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4YzliYmZlZDVjYTAyN2E2YTUyNmI0YjdkODA5OWQxNTY0YzVkNmVhNmU2ZTBkOWRiM2RkMmU1MzRkY2E0MTgyZg==",
+      "id": "0xc9bbfed5ca027a6a526b4b7d8099d1564c5d6ea6e6e0d9db3dd2e534dca4182f",
+      "title": "Retire Conservative vUNI & vLINK Pools",
+      "content": "Summary\n\nSunset the vUNI and vLINK pools, and remove them from the primary Vesper dApp. Add both pools to the Vesper Retired dApp.\n\nAbstract\n\nThe strategies that are deployed for the vUNI and vLINK pools are no longer usable, due to Compound v2 having been sunset. While these strategies could be upgraded, the TVL in the pools doesn’t justify the engineering resources required, nor the future rebalancing gas costs.\n\nBy retiring these pools, the protocol can realize better revenue without detracting from the general user experience, while simultaneously improving the UI/UX for Vesper users.\n\nExpectations\n\nMigrate the following pools into a retirement application (retired.vesper.finance). As retired pools, users can still withdraw funds from the app, but they will no longer be earning any yield. Additionally, new deposits will not be permitted.\n\nThe following pools are to be retired:\n\nvLINK\n\nvUNI\n\nSpecification\n\nMigrate the above pools into a retirement status within 10 days after approval, which requires the following changes:\n\nSmart Contract:\n\nPause deposits\nStop strategy rebalancing\n\nFront End:\n\nDisplay “Retiring” status\nRemove “Deposit” button\nRemove pools from the main Vesper dApp, and add to the retiring app.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0x606AFBd2e013202bF0454FcF3bFadD3Df6E67135",
+      "totalVotes": 4,
+      "blockNumber": 18814980,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xc9bbfed5ca027a6a526b4b7d8099d1564c5d6ea6e6e0d9db3dd2e534dca4182f",
+      "startTime": {
+        "timestamp": 1703696400
+      },
+      "endTime": {
+        "timestamp": 1703955600
+      },
+      "startTimestamp": 1703696400,
+      "endTimestamp": 1703955600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 445486.72,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 445486.74025,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1702928882751,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4ZWRiZDFiYmFjNzRkNjJiNjlhMjExZTU3YzgxZDU5YmVmZDRjNDQyM2NkZjEwYzUxNzE0OGYwMmZkNTEzY2NlOA==",
+      "id": "0xedbd1bbac74d62b69a211e57c81d59befd4c4423cdf10c517148f02fd513cce8",
+      "title": "Pool Retirement, Retired dApp Creation, UI Improvements",
+      "content": "Create a new app for all retired Vesper pools (retired.vesper.finance). Retire all pools in the Vesper earn program. Move all ‘retiring’ pools previously voted to retire in VIP-24 to the new retired application, along with pools/programs voted to retire in this VIP. Add ‘retiring’ label to vVSP Governance Pool, which will then be moved to the Retired App once emissions fully migrate to Locked VSP\n\nRemove the ‘aggressive’ tags from all currently listed aggressive pools. Remove the ‘All Pools’ tab. Rename ‘Aggressive tab to ‘Grow Pools’.\n\nFull proposal below.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 7,
+      "blockNumber": 18165190,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xedbd1bbac74d62b69a211e57c81d59befd4c4423cdf10c517148f02fd513cce8",
+      "startTime": {
+        "timestamp": 1695675600
+      },
+      "endTime": {
+        "timestamp": 1695934800
+      },
+      "startTimestamp": 1695675600,
+      "endTimestamp": 1695934800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 198026.9,
+          "choice": 0
+        },
+        {
+          "total": 10.548849,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 198026.90411411307,
+          "choice": 0
+        },
+        {
+          "total": 10.5488491648621,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695068996107,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4N2JkYmNjYTAwODIxMmJiOWNiNWJkM2JhNGFlNDhiZWNiMjgwZmU4M2EzYThiYWE0YzAyNDVkNTZjNWQ0MmQ0MA==",
+      "id": "0x7bdbcca008212bb9cb5bd3ba4ae48becb280fe83a3a8baa4c0245d56c5d42d40",
+      "title": "Implementation of Locked VSP, On-Chain Governance, and Increased VSP Utility",
+      "content": "Implementation of Locked VSP (esVSP). Increase utility for the VSP token within the Vesper ecosystem. Implementation of on-chain DAO governance.\n\nFull Proposal and Governance Discussion found below.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 5,
+      "blockNumber": 17571778,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x7bdbcca008212bb9cb5bd3ba4ae48becb280fe83a3a8baa4c0245d56c5d42d40",
+      "startTime": {
+        "timestamp": 1688572800
+      },
+      "endTime": {
+        "timestamp": 1688832000
+      },
+      "startTimestamp": 1688572800,
+      "endTimestamp": 1688832000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 117748.38,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 117748.38890481446,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1687882748583,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4MzlkMDRlODVjNjgzZWRhYjZlYWQxZjY3ZTVjYzUyYzkyZjIxYTcyYjNjZWVhMTI0OTQwZWVhNTY1YzE5YmZhOQ==",
+      "id": "0x39d04e85c683edab6ead1f67e5cc52c92f21a72b3ceea124940eea565c19bfa9",
+      "title": "Adjustments to VSP Emissions, Revenue Model and vVSP Subsidy",
+      "content": "Reduce total VSP emissions from the Vesper DAO Treasury to 20,000 VSP per month (current emissions are 27,500 per month) with a portion of the budget allocated to incentivize VSP participants directly. Initiate a plan to cover ongoing PoolOps and residual \"bad debt\".\n\nSee full proposal and governance discussion below.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 12,
+      "blockNumber": 16950706,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x39d04e85c683edab6ead1f67e5cc52c92f21a72b3ceea124940eea565c19bfa9",
+      "startTime": {
+        "timestamp": 1680624000
+      },
+      "endTime": {
+        "timestamp": 1680883200
+      },
+      "startTimestamp": 1680624000,
+      "endTimestamp": 1680883200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 361738.28,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 361738.28239281505,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680308737834,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4YTZjNTVjNTBkMmI3YTY3MWIwMDk5ZjBkYjlkZmFkZTExZDA3MjA3M2YyYjAxYjM5ZjI3NDAyMzIxMjAwN2MyZQ==",
+      "id": "0xa6c55c50d2b7a671b0099f0db9dfade11d072073f2b01b39f274023212007c2e",
+      "title": "Pool Retirement",
+      "content": "Sunset several pools with low participation into “retirement”, closing new withdrawals and withdrawing funds from protocols.\n\nSee full discussion at the forum post below",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 10,
+      "blockNumber": 16399560,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xa6c55c50d2b7a671b0099f0db9dfade11d072073f2b01b39f274023212007c2e",
+      "startTime": {
+        "timestamp": 1674061200
+      },
+      "endTime": {
+        "timestamp": 1674320400
+      },
+      "startTimestamp": 1674061200,
+      "endTimestamp": 1674320400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 175744.31,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 175744.31070856642,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4NDE0YjY5MjUwODA4NGU5Y2YxYTQwY2M0YmQ1YTg2ZmUzNjJiMGMwYzY1MTAyNTMyMjY0NjZiMjFkNTkyYzAxOA==",
+      "id": "0x414b692508084e9cf1a40cc4bd5a86fe362b0c0c6510253226466b21d592c018",
+      "title": "Token Whitelisting",
+      "content": "Whitelist the following tokens for integration into Vesper pools as deposit assets:\n\nstETH\nLIDO\nmUSD\nMTA\nWOO\nxWOO\nPUNK\nBAYC\nJOE\nxJOE\nsJOE\nYETI\nYUSD\nQI\nsAVAX\nMKR\n\nSee forum post linked below for full details.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 15,
+      "blockNumber": 15257787,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x414b692508084e9cf1a40cc4bd5a86fe362b0c0c6510253226466b21d592c018",
+      "startTime": {
+        "timestamp": 1659387600
+      },
+      "endTime": {
+        "timestamp": 1659646800
+      },
+      "startTimestamp": 1659387600,
+      "endTimestamp": 1659646800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 338607.38,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 338607.3905354901,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4MDUzYTAyZWNiZDRlMDhjZjZmN2Q5MTIyNTljOGU2NTlmODY4YThiZTAzY2Q1NGI0NDZmMTE4NGU4YzhjYTFjZA==",
+      "id": "0x053a02ecbd4e08cf6f7d912259c8e659f868a8be03cd54b446f1184e8c8ca1cd",
+      "title": "Partner Revenue Share Framework",
+      "content": "Institute a revenue share framework that returns some revenue earned by Vesper DAO to partners routing TVL through Vesper pools.\n\nFull proposal at the discussion link below.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 16,
+      "blockNumber": 15257774,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x053a02ecbd4e08cf6f7d912259c8e659f868a8be03cd54b446f1184e8c8ca1cd",
+      "startTime": {
+        "timestamp": 1659387600
+      },
+      "endTime": {
+        "timestamp": 1659646800
+      },
+      "startTimestamp": 1659387600,
+      "endTimestamp": 1659646800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 356707.6,
+          "choice": 0
+        },
+        {
+          "total": 3576.4175,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 356707.55500218587,
+          "choice": 0
+        },
+        {
+          "total": 3576.4173902225643,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4ZjgwM2E4ZGI1NWY3ZmFjMjY4N2IwYzIxM2EwZmMyM2Y1Zjk5YmE0YjdhZmNjMGUyOGFiNDVhYjVhZWRhN2VmMw==",
+      "id": "0xf803a8db55f7fac2687b0c213a0fc23f5f99ba4b7afcc0e28ab45ab5aeda7ef3",
+      "title": "Sunset vVSP, Introduce Locked VSP",
+      "content": "Wind down revenue flow to vVSP to 0%, replaced by a VSP lockup mechanism, Time Capsule.\n\nFull proposal found in discussion link below to governance forums.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 17,
+      "blockNumber": 14540459,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xf803a8db55f7fac2687b0c213a0fc23f5f99ba4b7afcc0e28ab45ab5aeda7ef3",
+      "startTime": {
+        "timestamp": 1649358000
+      },
+      "endTime": {
+        "timestamp": 1649617200
+      },
+      "startTimestamp": 1649358000,
+      "endTimestamp": 1649617200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 203526.75,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 203526.7539825476,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4YjZlNjhlMjgxNjNmMzhhNDZiOWM4NjEyNGVhMDlkZjFkZmY2YjA1MGVjODcxODBhYmRhNjVmY2ViNWMxZDM5Yw==",
+      "id": "0xb6e68e28163f38a46b9c86124ea09df1dff6b050ec87180abda65fceb5c1d39c",
+      "title": "Surplus VSP Budget for Avalanche Launch",
+      "content": "Approve +50,000 VSP over two months following the Avalanche production launch to attract initial depositors and grow the community on the Avalanche ecosystem.\n\nSee full proposal via discussion link to governance forum.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 18,
+      "blockNumber": 14540479,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xb6e68e28163f38a46b9c86124ea09df1dff6b050ec87180abda65fceb5c1d39c",
+      "startTime": {
+        "timestamp": 1649358000
+      },
+      "endTime": {
+        "timestamp": 1649617200
+      },
+      "startTimestamp": 1649358000,
+      "endTimestamp": 1649617200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 203584.38,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 203584.3712015784,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4NmQ3YjA0NjhlZGYzY2VjODc1Mjk4OWVjN2RiNDZlOTBjZmI1ZmM5NTBlNWYzYjBlM2NlNDcwZTM5MTBhZTViMw==",
+      "id": "0x6d7b0468edf3cec8752989ec7db46e90cfb5fc950e5f3b0e3ce470e3910ae5b3",
+      "title": "VSP Bonding",
+      "content": "This proposal creates a conditions based framework to authorize VSP bonding.\n\nSee full proposal via discussion link to governance forums.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 16,
+      "blockNumber": 14540472,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x6d7b0468edf3cec8752989ec7db46e90cfb5fc950e5f3b0e3ce470e3910ae5b3",
+      "startTime": {
+        "timestamp": 1649358000
+      },
+      "endTime": {
+        "timestamp": 1649617200
+      },
+      "startTimestamp": 1649358000,
+      "endTimestamp": 1649617200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 122682.016,
+          "choice": 0
+        },
+        {
+          "total": 2027.3751,
+          "choice": 2
+        },
+        {
+          "total": 7399.4946,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 122682.03461096076,
+          "choice": 0
+        },
+        {
+          "total": 7399.4944353335795,
+          "choice": 1
+        },
+        {
+          "total": 2027.3750377727292,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4MDFiZWIyMzg5ZjEyN2FmYzFmYjY1ZjFkOGI1NjI3ZmIzOWNiOGY0MGQ0M2Y3NzZlM2RjOGMxNzE0MGNkNGJiYw==",
+      "id": "0x01beb2389f127afc1fb65f1d8b5627fb39cb8f40d43f776e3dc8c17140cd4bbc",
+      "title": "Fee Structure Overhaul",
+      "content": "Replace the existing fee structure with a single, universal fee. This prevents users from ever earning negative returns.\n\nSee full proposal via link to governance forums.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 17,
+      "blockNumber": 14540452,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x01beb2389f127afc1fb65f1d8b5627fb39cb8f40d43f776e3dc8c17140cd4bbc",
+      "startTime": {
+        "timestamp": 1649358000
+      },
+      "endTime": {
+        "timestamp": 1649617200
+      },
+      "startTimestamp": 1649358000,
+      "endTimestamp": 1649617200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 207746.8,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 207746.8068043823,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4NGMzMzMyNTAzM2E4MWNmMWNhYmVlMWFhZTAxYzZkNTgzOTRlNmNlYjgzYjdlN2IxOWJiNGIwMjA3MDdhMWFjYw==",
+      "id": "0x4c33325033a81cf1cabee1aae01c6d58394e6ceb83b7e7b19bb4b020707a1acc",
+      "title": "Emissions Overhaul",
+      "content": "Reduce VSP emissions; define a global budget to ensure a predictable, sustainable emissions.\n\nThis proposal reduces all pool emissions ~50%, with a maximum emissions budget of up-to 27,500 VSP per month.\n\nFull proposal found below:\n\nhttps://gov.vesper.finance/t/discussion-vsp-emissions-overhaul/79/2",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 45,
+      "blockNumber": 13986714,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x4c33325033a81cf1cabee1aae01c6d58394e6ceb83b7e7b19bb4b020707a1acc",
+      "startTime": {
+        "timestamp": 1642024800
+      },
+      "endTime": {
+        "timestamp": 1642284000
+      },
+      "startTimestamp": 1642024800,
+      "endTimestamp": 1642284000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 358851.47,
+          "choice": 0
+        },
+        {
+          "total": 35423.645,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 358851.45019871363,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 35423.64537959022,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4MTNiY2QxMTZmZGM4NGZhYjkxZmMwYTI1NDU3Mzk2YmJjMjk4MGU3NDU0MTM3MzFiZTk0MjJiZGIzMDJhM2Q2Yw==",
+      "id": "0x13bcd116fdc84fab91fc0a25457396bbc2980e745413731be9422bdb302a3d6c",
+      "title": "test vote",
+      "content": "please ignore",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 1,
+      "blockNumber": 13986325,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x13bcd116fdc84fab91fc0a25457396bbc2980e745413731be9422bdb302a3d6c",
+      "startTime": {
+        "timestamp": 1641931200
+      },
+      "endTime": {
+        "timestamp": 1641934800
+      },
+      "startTimestamp": 1641931200,
+      "endTimestamp": 1641934800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2742.8687,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 2742.868645215435,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4YmZmZWQ3YTgyNDNmZDliNmYxMjBiZmQ3NDk3MDRiNzVjNTE3YWViZmJiZDhmZWY4OTNkNGIzNDU4MmJmZDkzYg==",
+      "id": "0xbffed7a8243fd9b6f120bfd749704b75c517aebfbbd8fef893d4b34582bfd93b",
+      "title": "Should we consider cross chain to other chains, so that the project market is broader?",
+      "content": "",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0x74E7E1fec466161A061fBe3e88c410c37b060712",
+      "totalVotes": 0,
+      "blockNumber": 13695995,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xbffed7a8243fd9b6f120bfd749704b75c517aebfbbd8fef893d4b34582bfd93b",
+      "startTime": {
+        "timestamp": 1637985600
+      },
+      "endTime": {
+        "timestamp": 1638072000
+      },
+      "startTimestamp": 1637985600,
+      "endTimestamp": 1638072000,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4NTNmZGIzOTQ3YTI1Zjg4MmM4ZTExZmJjOWI2YjJmMzk2NDAzYzRhNzhmYzE1MTFjOTQ0ODliYzUxODA3NGU3Zg==",
+      "id": "0x53fdb3947a25f882c8e11fbc9b6b2f396403c4a78fc1511c94489bc518074e7f",
+      "title": "Add Ability To Comment On Proposals",
+      "content": "Should we have the ability to post comments on proposals? This would help educate other voters on their selection.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0x2833EEa5f1a3C93cC4Ed62b66A0eF433c76C0536",
+      "totalVotes": 1,
+      "blockNumber": 13676454,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x53fdb3947a25f882c8e11fbc9b6b2f396403c4a78fc1511c94489bc518074e7f",
+      "startTime": {
+        "timestamp": 1637726400
+      },
+      "endTime": {
+        "timestamp": 1637812800
+      },
+      "startTimestamp": 1637726400,
+      "endTimestamp": 1637812800,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [
+        {
+          "total": 76.49698,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 76.49697801397994,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4ZDM5OTY0MjgzMzg5ZDM2MTY2MzJkZDgyYjU1OTBmY2Q1NzQyZjc1ZDc3YzhmZDZkN2M4YzBmYmFkNzRlMjA1MQ==",
+      "id": "0xd39964283389d3616632dd82b5590fcd5742f75d77c8fd6d7c8c0fbad74e2051",
+      "title": "Do you think Vesper Finance will be in the top 200 in terms of market capitalization in the future?",
+      "content": "",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0x6e1c4F8EDE2dDf9cb14c77F1D9a88a94eADC4907",
+      "totalVotes": 1,
+      "blockNumber": 13652318,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xd39964283389d3616632dd82b5590fcd5742f75d77c8fd6d7c8c0fbad74e2051",
+      "startTime": {
+        "timestamp": 1637380800
+      },
+      "endTime": {
+        "timestamp": 1637467200
+      },
+      "startTimestamp": 1637380800,
+      "endTimestamp": 1637467200,
+      "currentState": "closed",
+      "choices": [
+        "most likely",
+        "impossible"
+      ],
+      "results": [
+        {
+          "total": 34.237225,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 34.23722402330036,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4YzM1MWY1MDUxMzI3ZDQyOTI5NDc4YmNlODU1Yjc3NmE2MWE2NDhmNDU5YzU5ZDk0YTAyMzAxYjRiMjNhYzRiZQ==",
+      "id": "0xc351f5051327d42929478bce855b776a61a648f459c59d94a02301b4b23ac4be",
+      "title": "[Addendum] Zero-Fee Pool Transfers",
+      "content": "Endorse zero-fee pool transfers for like-assets (ex: vDAI -> vaDAI)\n\nThis proposal is superimposed on top of the revenue overhaul proposal, and is dependent on its successful vote.\n\nDiscussion: https://gov.vesper.finance/t/addendum-zero-fee-pool-transfers/62\nVIP: https://github.com/vesperfi/doc/issues/32",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 48,
+      "blockNumber": 13622870,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xc351f5051327d42929478bce855b776a61a648f459c59d94a02301b4b23ac4be",
+      "startTime": {
+        "timestamp": 1637014500
+      },
+      "endTime": {
+        "timestamp": 1637273700
+      },
+      "startTimestamp": 1637014500,
+      "endTimestamp": 1637273700,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 338599.88,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 338599.86654124694,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4YWZiMWMwYjA3Njg5NDQzZTdiMTQ5MTBhOTcyNzIzNTdlMjVkZTQ3YmI3MDMxYjA1NTE5MGQyMjRkYzQ5MjI1Mg==",
+      "id": "0xafb1c0b07689443e7b14910a97272357e25de47bb7031b055190d224dc492252",
+      "title": "Vesper Orbit",
+      "content": "Create Vesper Orbit, \"an off-shoot Vesper application and associated Rari Fuse pool that can incubate exciting, controversial, or high potential tokens.\"\nDiscussion: https://gov.vesper.finance/t/proposal-vesper-orbit/35\nVIP: https://github.com/vesperfi/doc/issues/35",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 50,
+      "blockNumber": 13621893,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xafb1c0b07689443e7b14910a97272357e25de47bb7031b055190d224dc492252",
+      "startTime": {
+        "timestamp": 1637013600
+      },
+      "endTime": {
+        "timestamp": 1637272800
+      },
+      "startTimestamp": 1637013600,
+      "endTimestamp": 1637272800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 286490.6,
+          "choice": 0
+        },
+        {
+          "total": 11502.696,
+          "choice": 2
+        },
+        {
+          "total": 43602.918,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 286490.5600290373,
+          "choice": 0
+        },
+        {
+          "total": 43602.91980208152,
+          "choice": 1
+        },
+        {
+          "total": 11502.695998631803,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4Yjg4ZDRkMjczNjk2MWI5ZGFmOGUyMTU4ZWYwNDgyMjFkMmJmOGM5M2RlMjg4NjgxYzE5YWFjYzZhYzQ4ODc3NQ==",
+      "id": "0xb88d4d2736961b9daf8e2158ef048221d2bf8c93de288681c19aacc6ac488775",
+      "title": "Change Fee Structure, Treasury Management, and Treasury Allocation",
+      "content": "Change the withdrawal fee, performance fee, treasury management strategy, and structure for how protocol revenue is allocated. Optimize the fee structure and revenue allocation to improve long term growth in users and TVL. In its current state, the Vesper treasury is just holding VSP, which entails unnecessary risk through lack of diversification.\n\nThis proposal outlines a new revenue split:\n\nOperations and Marketing: 25%\nDeveloper: 5%\nPartner Program: 5%\nReplenishing VSP Reserves: 10%→25% (gradual transition)\nRewards: 55%→40% (gradual transition)\n\nDiscussion: https://gov.vesper.finance/t/proposal-change-fee-structure-treasury-management-and-revenue-allocation-from-economics-design/29/6\nVIP: https://github.com/vesperfi/doc/issues/32",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 52,
+      "blockNumber": 13621934,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0xb88d4d2736961b9daf8e2158ef048221d2bf8c93de288681c19aacc6ac488775",
+      "startTime": {
+        "timestamp": 1637013600
+      },
+      "endTime": {
+        "timestamp": 1637272800
+      },
+      "startTimestamp": 1637013600,
+      "endTimestamp": 1637272800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 325756.78,
+          "choice": 0
+        },
+        {
+          "total": 33217.16,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 325756.7751207881,
+          "choice": 0
+        },
+        {
+          "total": 33217.16097102695,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4OTM1NDIxMTBhMDljNTUzNmM4NDZmNjJlMGM1OTAxODYyNDc4YzhiZDQyOWQ5YjBmMWRlMDljNDljMDM0MzM1MA==",
+      "id": "0x93542110a09c5536c846f62e0c5901862478c8bd429d9b0f1de09c49c0343350",
+      "title": "Token Whitelisting Frenzy",
+      "content": "Whitelist the following tokens to Vesper: \n\nMIM, SPELL, sSPELL, SUSHI, xSUSHI, OHM, sOHM, wsOHM, FRAX, FXS, G-UNI(DAI-USDC), USDP, AAVE, stkAAVE, COMP, YFI, yvUSDC, yvUSDT, yvDAI, yvETH, yvWBTC, FEI, TRIBE, ALCX, alUSD, alETH, CRV, CVX, crvCVX, MET, LUNA, UST, BNB, BUSD, MVI, SNX, SUSD\n\nDiscussion: https://gov.vesper.finance/t/proposal-token-whitelisting-frenzy/34\nVIP: https://github.com/vesperfi/doc/issues/34",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 52,
+      "blockNumber": 13621922,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x93542110a09c5536c846f62e0c5901862478c8bd429d9b0f1de09c49c0343350",
+      "startTime": {
+        "timestamp": 1637013600
+      },
+      "endTime": {
+        "timestamp": 1637272800
+      },
+      "startTimestamp": 1637013600,
+      "endTimestamp": 1637272800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 290146.16,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 290146.1431948284,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4MmM3NDEzZGY1MzRjZDQzZTZjNjFlZjczZmEwODVmYmJlMjA2MTNhNzc5ZDE1MjQ0YmFmZWJlODIzODBiNWJjOQ==",
+      "id": "0x2c7413df534cd43e6c61ef73fa085fbbe20613a779d15244bafebe82380b5bc9",
+      "title": "Multi-Chain Whitelist",
+      "content": "Whitelist Polygon, Fantom, Arbitrum, Avalanche chains and associated network tokens to Vesper ecosystem.\nDiscussion: https://gov.vesper.finance/t/proposal-multi-chain-whitelist/33\nVIP: https://github.com/vesperfi/doc/issues/33",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 51,
+      "blockNumber": 13621887,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x2c7413df534cd43e6c61ef73fa085fbbe20613a779d15244bafebe82380b5bc9",
+      "startTime": {
+        "timestamp": 1637013600
+      },
+      "endTime": {
+        "timestamp": 1637272800
+      },
+      "startTimestamp": 1637013600,
+      "endTimestamp": 1637272800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 340309.1,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 340309.0670791622,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OjB4MDhiYzc1NDNlYTYzMmQ2OGYzNGZhMTI0MDQ0YzQ1YzdkN2M2MzUzM2QwN2FlN2M1YWI4ZThmYTk0OGFkMThjMA==",
+      "id": "0x08bc7543ea632d68f34fa124044c45c7d7c63533d07ae7c5ab8e8fa948ad18c0",
+      "title": "DPI Whitelist",
+      "content": "Whitelist DPI token for Vesper Pools\nDiscussion: https://gov.vesper.finance/t/proposal-dpi-whitelist/32\nFull VIP: https://github.com/vesperfi/doc/issues/29",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 50,
+      "blockNumber": 13621829,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/0x08bc7543ea632d68f34fa124044c45c7d7c63533d07ae7c5ab8e8fa948ad18c0",
+      "startTime": {
+        "timestamp": 1637013600
+      },
+      "endTime": {
+        "timestamp": 1637272800
+      },
+      "startTimestamp": 1637013600,
+      "endTimestamp": 1637272800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 339697.8,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 339697.81768030446,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OnFtdGFvejdidmx1NXJ5amxuaG56Y3AxZnVzajc4MW5pYmZ0dTkybm5ld25hcjU=",
+      "id": "QmTaoz7BvLU5rYjLNHnZCp1FusJ781nibFTU92NnEWnaR5",
+      "title": "Upgrade VSP Emissions",
+      "content": "Modify the current VSP emissions schedule to create a TVL-weighted global VSP emissions pool for Vesper Pools and VSP Liquidity Providers.\n\nFull details here:\nhttps://github.com/vesperfi/doc/blob/main/vips/VIP-10.md",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 62,
+      "blockNumber": 13018000,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/QmTaoz7BvLU5rYjLNHnZCp1FusJ781nibFTU92NnEWnaR5",
+      "startTime": {
+        "timestamp": 1628881200
+      },
+      "endTime": {
+        "timestamp": 1629140400
+      },
+      "startTimestamp": 1628881200,
+      "endTimestamp": 1629140400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 206984.86,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 206984.8570737856,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OnFteHRhcGhlYWlsd3duMm5sbGw5OGNjcGs1bWhoaHI2ZGFwM2J4YXVkdGVnYmE=",
+      "id": "QmXtApHeAiLWWn2NLLL98ccpk5MhHhR6DAp3BxauDtEGBa",
+      "title": "Engage Gauntlet for On-chain Risk Management",
+      "content": "Gauntlet will work with Vesper to build out a risk management module for Vesper Grow pool strategies.\n\nFull details here: https://github.com/vesperfi/doc/blob/main/vips/drafts/Engage%20Gauntlet%20for%20On-Chain%20Risk%20Management.md",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 80,
+      "blockNumber": 12498750,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/QmXtApHeAiLWWn2NLLL98ccpk5MhHhR6DAp3BxauDtEGBa",
+      "startTime": {
+        "timestamp": 1621882800
+      },
+      "endTime": {
+        "timestamp": 1622142000
+      },
+      "startTimestamp": 1621882800,
+      "endTimestamp": 1622142000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 152490.94,
+          "choice": 0
+        },
+        {
+          "total": 1267.0178,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 152490.9188525502,
+          "choice": 0
+        },
+        {
+          "total": 1267.0178808773687,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OnFtZHB5ZmV6MncybWhyZzQyemhpaXRrZWg5a3N5bWV5b3VoZm5nZ3d5c253ZzY=",
+      "id": "QmdPYfEz2W2mhrG42ZHiiTkeH9kSYMeYouHFnGgWYsnwg6",
+      "title": "Approve Blockforce Grant",
+      "content": "# VIP: $100k Grant to Blockforce Capital\n\n## Summary\nAward $100k worth of VSP from OpComms budget to Blockforce Capital for their work in integrating Vesper products in investments on behalf of their clients.\n\n## Abstract\n\nBlockforce Capital manages a multi-strategy hedgefund that targets digital assets.\n\nThis grant will enable a new fund that leverages Vesper products to maximize returns through Vesper Grow pools (including vVSP) and liquidity providing.\n\nThis proposal introduces a first-of-its-kind public/private partnership that will enable accredited investors to access Vesper in a wholly compliant manner.\n\nAs part of this grant, Blockforce Capital will also share management fees with the Vesper community through VSP buybacks that will be delivered to vVSP depositors in the same manner as our existing buybacks.\n\n## Expectations\n\nThe $100,000 grant enables Blockforce Capital to take on the miscellaneous legal, administrative, and regulatory costs to enable such a fund to exist in a wholly compliant capacity.\n\nThe fund will incorporate volatile digital assets (VSP, WBTC, ETH) and stablecoins (USDC, DAI) alike, which will be deposited to Vesper to earn yield.\n\n25% of Blockforce management fees will be shared with the Vesper community through open market buyback of VSP and delivery to the vVSP pool.\n\n## Specification\n\n* $100,000 worth of VSP paid to Blockforce Capital through the OpComms fund.\n* [Full proposal here](https://blockforcecapital.com/proposal/Blockforce-Vesper-Proposal.pdf)\n* * Hash: [fb9e733851f8d8f8f3f7ed058f5690f6b6332e12232ca586481423cd192d6920](https://live.blockcypher.com/btc/tx/f1dc8729ed60c855cee03a9df2f696db9b522e77e3f86c8798180f11350098f7/)",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xf4087b7AB24Bde9c445ddD0bc4DF257F81277214",
+      "totalVotes": 161,
+      "blockNumber": 12338679,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/QmdPYfEz2W2mhrG42ZHiiTkeH9kSYMeYouHFnGgWYsnwg6",
+      "startTime": {
+        "timestamp": 1619748000
+      },
+      "endTime": {
+        "timestamp": 1620007200
+      },
+      "startTimestamp": 1619748000,
+      "endTimestamp": 1620007200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 219665.19,
+          "choice": 0
+        },
+        {
+          "total": 1582.3295,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 219665.1854523688,
+          "choice": 0
+        },
+        {
+          "total": 1582.3295148783195,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OnFteDZvZmh4Zzh0ajloN2Fpa2hqaGV2ejR4Z2hzZXZ0eXJlc3l5aDUxNmVpMmI=",
+      "id": "QmX6oFHxG8tJ9h7AikhJhEVZ4XgHSevtYreSYyH516ei2B",
+      "title": "Whitelist UNI, USDT for Vesper Grow pools",
+      "content": "# VIP: Whitelist UNI and USDT for Vesper Pools\n## Summary\nWhitelist Uniswap (UNI) and Tether (USDT) as deposit assets to Vesper Pools.\n\n## Abstract\nVesper seeks to ultimately support all major ERC20 tokens to optimize yield in a hands-free experience for the end user. UNI and USDT are prime candidates as next-in-line for integration.\n\nAs both of these tokens are widely accepted on major DeFi platforms, UNI and USDT can both leverage existing strategies that route through the likes of Maker, Compound, and Aave.\n## Expectations\nThis proposal greenlights the creation of UNI and USDT Vesper Grow pools. Once strategies are modified for these tokens, those pools will be pushed to the [beta app](https://app.vesperdev.net)\n\nAfter successful Beta run, USDT and UNI can graduate to the main app with optional VSP boost.\n## Specification\nUNI token contract: 0x1f9840a85d5af5bf1d1762f925bdaddc4201f984\nUSDT token contract: 0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xf4087b7AB24Bde9c445ddD0bc4DF257F81277214",
+      "totalVotes": 155,
+      "blockNumber": 12338697,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/QmX6oFHxG8tJ9h7AikhJhEVZ4XgHSevtYreSYyH516ei2B",
+      "startTime": {
+        "timestamp": 1619748000
+      },
+      "endTime": {
+        "timestamp": 1620007200
+      },
+      "startTimestamp": 1619748000,
+      "endTimestamp": 1620007200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 209935.62,
+          "choice": 0
+        },
+        {
+          "total": 1885.5955,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 209935.65749983504,
+          "choice": 0
+        },
+        {
+          "total": 1885.5955628677495,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OnFtdGFmem1nbTFmc3RxZnpzbDh1anBjdmVwdjNwY3BhcGp5OGEzMXNzZ2RwY2g=",
+      "id": "QmTAFzMGm1FSTqfZsL8uJPCVePV3pCPAPJy8A31SSGdpch",
+      "title": "VIP-002: Add vLINK Pool",
+      "content": "Promote vLINK from the beta app (https://app.vesperdev.net) to the main app (https://app.vesper.finance). No action needed by current vLINK participants.\n\nFull details on Github: https://github.com/vesperfi/doc/blob/main/vips/drafts/VIP-link-pool.md",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 200,
+      "blockNumber": 12245600,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/QmTAFzMGm1FSTqfZsL8uJPCVePV3pCPAPJy8A31SSGdpch",
+      "startTime": {
+        "timestamp": 1618513200
+      },
+      "endTime": {
+        "timestamp": 1618772400
+      },
+      "startTimestamp": 1618513200,
+      "endTimestamp": 1618772400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 192108.45,
+          "choice": 0
+        },
+        {
+          "total": 633.4488,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 192108.36959878023,
+          "choice": 0
+        },
+        {
+          "total": 633.4487818610204,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dnNwOnNuYXBzaG90OnFtcTFlczUxOWxyd3N3MXh4azU1cHZ4bndmdGdsY2I3ZWVqeDVwZ3c0Zmh1b3g=",
+      "id": "QmQ1es519LRWSw1XXK55PVxnwFTgLcb7eejx5PGW4Fhuox",
+      "title": "VIP-001: OpComm Multi-Sig",
+      "content": "Create and Fund OpComm Multi-Sig\n\nFull details in Github: https://github.com/vesperfi/doc/blob/main/vips/drafts/VIP-opcomm.md\n\nNOTE: The OpComm wallet has already been created. This vote largely reflects an introductory \"test\" vote to show users how to participate in Vesper governance and to guide the voting model in further VIPs.",
+      "protocol": "vsp",
+      "adapter": "snapshot",
+      "proposer": "0xB454F20d38c0Bc020E18bDa03898904DCA77A38a",
+      "totalVotes": 206,
+      "blockNumber": 12206750,
+      "externalUrl": "https://snapshot.org/#/vsp.eth/proposal/QmQ1es519LRWSw1XXK55PVxnwFTgLcb7eejx5PGW4Fhuox",
+      "startTime": {
+        "timestamp": 1617998400
+      },
+      "endTime": {
+        "timestamp": 1618257600
+      },
+      "startTimestamp": 1617998400,
+      "endTimestamp": 1618257600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 190904.42,
+          "choice": 0
+        },
+        {
+          "total": 2065.0115,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 190904.41235959117,
+          "choice": 0
+        },
+        {
+          "total": 2065.0113445692973,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

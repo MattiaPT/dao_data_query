@@ -1,0 +1,1424 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4YWZkNzA4Y2JkZjVmY2EyYTgyNTQ0NTIzYzhmMTBhMzdhODBmN2UxMDJmY2U1OWJkMTM4OTkyOGZmOWQwNjFiYQ==",
+      "id": "0xafd708cbdf5fca2a82544523c8f10a37a80f7e102fce59bd1389928ff9d061ba",
+      "title": "ETHチェーン上にある和組トレジャリーをPolygonチェーンに移行することについて",
+      "content": "_**本提案について、和組のトレジャリー移動が伴う意思決定のため、和組Cats保有者のみ投票することができます。**_\n\n## 提案者\n- 和組Admin\n## 概要\n現状において、ETHチェーン上にある和組トレジャリーを、トークンの移動にあまりガス代がかからないPolygonチェーンへ移行したい。\n\n## 理由\n[和組公式サイトを始めとするシステム運用費を和組トレジャリーにて補填することについて](https://snapshot.org/#/wagumi.eth/proposal/0x0fe666e4a0edae1eb16c5c0e6a4d31342f4f92fd42c121fec417dfb20ac91335) の採用に伴い、和組のトレジャリーを利用するケースが生じており、低いガス代でトークンを移動することは急務だと考えている。\n\n## 詳細\n### 保有について\n- MaticとUSDCを2:8としてトークンを保有することを想定している\n\n### Polygonチェーン移行について\n- 以下のアプリをそれぞれの要件に合わせて利用することを想定している\n  - Bridge(ETHチェーンからPolygonチェーンへの資産の移行)\n    - [polygon portal](https://portal.polygon.technology/bridge)\n  - swap(ETHからMatic、USDCへ変換)\n    - [Uniswap Protocol](https://uniswap.org/)\n\n\n### 備考\n- ETHチェーン上にあるトークンは全てPolygonチェーンに移行する\n- トレジャリーウォレットの状況は次のURLの記載されている \n  - [ETH](https://etherscan.io/address/0xa0350575a5Fbe6df3343038e138Dee3f5Beb2Fff)\n  - [Matic](https://polygonscan.com/address/0xD2230A5C50d74BD1046C74FBB22b16Ac7636D2C7)",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xE28065C23407183b02B491e8eBFC11bfEf8F1f74",
+      "totalVotes": 7,
+      "blockNumber": 19262009,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0xafd708cbdf5fca2a82544523c8f10a37a80f7e102fce59bd1389928ff9d061ba",
+      "startTime": {
+        "timestamp": 1708348570
+      },
+      "endTime": {
+        "timestamp": 1708607770
+      },
+      "startTimestamp": 1708348570,
+      "endTimestamp": 1708607770,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708353066537,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4NmRiMDJjNDA5ZWUxNTViZmEwMGRlMGQxMDcyOTY5M2NiZDcyNjE0MDE4ZTYxZDE5YzA5Mjc5YmZlODkzNjAxOA==",
+      "id": "0x6db02c409ee155bfa00de0d10729693cbd72614018e61d19c09279bfe8936018",
+      "title": "ETHチェーン上にある和組トレジャリーをPolygonチェーンに移行することについて",
+      "content": "_**本提案について、和組のトレジャリー移動が伴う意思決定のため、和組Cats保有者のみ投票することができます。**_\n\n## 提案者\n- 和組Admin\n## 概要\n現状において、ETHチェーン上にある和組トレジャリーを、トークンの移動にあまりガス代がかからないPolygonチェーンへ移行したい。\n\n## 理由\n[和組公式サイトを始めとするシステム運用費を和組トレジャリーにて補填することについて](https://snapshot.org/#/wagumi.eth/proposal/0x0fe666e4a0edae1eb16c5c0e6a4d31342f4f92fd42c121fec417dfb20ac91335) の採用に伴い、和組のトレジャリーを利用するケースが生じており、低いガス代でトークンを移動することは急務だと考えている。\n\n## 詳細\n- MaticとUSDCを8:2としてトークンを保有することを想定している\n\n### 備考\n- ETHチェーン上にあるトークンは全てPolygonチェーンに移行する\n- トレジャリーウォレットの状況は次のURLの記載されている https://etherscan.io/address/0xa0350575a5Fbe6df3343038e138Dee3f5Beb2Fff",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xE28065C23407183b02B491e8eBFC11bfEf8F1f74",
+      "totalVotes": 0,
+      "blockNumber": 19219385,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x6db02c409ee155bfa00de0d10729693cbd72614018e61d19c09279bfe8936018",
+      "startTime": {
+        "timestamp": 1707830997
+      },
+      "endTime": {
+        "timestamp": 1708090197
+      },
+      "startTimestamp": 1707830997,
+      "endTimestamp": 1708090197,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707831018017,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4MGZlNjY2ZTRhMGVkYWUxZWIxNmM1YzBlNmE0ZDMxMzQyZjRmOTJmZDQyYzEyMWZlYzQxN2RmYjIwYWM5MTMzNQ==",
+      "id": "0x0fe666e4a0edae1eb16c5c0e6a4d31342f4f92fd42c121fec417dfb20ac91335",
+      "title": "和組公式サイトを始めとするシステム運用費を和組トレジャリーにて補填することについて",
+      "content": "_**本提案について、和組のトレジャリー移動が伴う意思決定のため、和組Cats保有者のみ投票することができます。**_\n\n## 提案者\n- 和組Admin\n## 概要\n和組で運用している公式サイトと、「wagumi.xyz」ドメイン、イベント参加botとセキュリティーbotのシステムを維持するために、現在の和組トレジャリーから維持費を補填する形についてご検討・投票いただきたい。\n\n## 背景\n和組で運用している公式サイトは、現在Microsoftのスタートアッププログラムによって付与されたAzureのクレジットを利用して運用されている。\n本枠における無料期限は2/6とされている。\n\n## 期間\n本提案の効力は、2/6より6/30までとする\n\n## 理由\n上記の背景において、和組の公式サイトを運用・維持するための費用を和組のトレジャリーから補填する必要があると考えている。\n本件における費用に関しては、公式サイトをホスティングするためのサーバー費とドメインの年間利用料を表しており、運用を行うメンバーへの人件費などを表すものではない。\n\n### 備考\n- 現在、和組のトレジャリーは1.28ethであり、日本円換算すると437809.28円にあたる(2/3現在)\n- トレジャリーウォレットの状況は次のURLの記載されている https://etherscan.io/address/0xa0350575a5Fbe6df3343038e138Dee3f5Beb2Fff\n- ドメイン維持費は年額$13, サーバー維持費は月額$20を想定している",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xE28065C23407183b02B491e8eBFC11bfEf8F1f74",
+      "totalVotes": 11,
+      "blockNumber": 19160385,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x0fe666e4a0edae1eb16c5c0e6a4d31342f4f92fd42c121fec417dfb20ac91335",
+      "startTime": {
+        "timestamp": 1707115682
+      },
+      "endTime": {
+        "timestamp": 1707374882
+      },
+      "startTimestamp": 1707115682,
+      "endTimestamp": 1707374882,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [
+        {
+          "total": 12.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 13.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707116574797,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4ZDdiYjkwNzUwN2UyZmYyNzY0YTQ1ZGFhNzQ1M2VlZGE3ZWEzYzJiN2RiM2MyNjc5ZTQ2YmFhMTE0ODk0MDBhZA==",
+      "id": "0xd7bb907507e2ff2764a45daa7453eeda7ea3c2b7db3c2679e46baa11489400ad",
+      "title": "和組公式サイトを始めとするシステム運用費を和組トレジャリーにて補填することについて",
+      "content": "_**本提案について、和組のトレジャリー移動が伴う意思決定のため、和組Cats保有者のみ投票することができます。**_\n\n## 提案者\n- 和組Admin\n## 概要\n和組で運用している公式サイトと、「wagumi.xyz」ドメイン、イベント参加botとセキュリティーbotのシステムを維持するために、現在の和組トレジャリーから維持費を補填する形についてご検討・投票いただきたい。\n\n## 背景\n和組で運用している公式サイトは、現在Microsoftのスタートアッププログラムによって付与されたAzureのクレジットを利用して運用されている。\n本枠における無料期限は2/6とされている。\n\n## 期間\n本提案の効力は、2/6より6/30までとする\n\n## 理由\n上記の背景において、和組の公式サイトを運用・維持するための費用を和組のトレジャリーから補填する必要があると考えている。\n本件における費用に関しては、公式サイトをホスティングするためのサーバー費とドメインの年間利用料を表しており、運用を行うメンバーへの人件費などを表すものではない。\n\n### 備考\n- 現在、和組のトレジャリーは1.28ethであり、日本円換算すると437809.28円にあたる(2/3現在)\n- トレジャリーウォレットの状況は次のURLの記載されている https://etherscan.io/address/0xa0350575a5Fbe6df3343038e138Dee3f5Beb2Fff\n- ドメイン維持費は年額$13, サーバー維持費は月額$20を想定している",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xE28065C23407183b02B491e8eBFC11bfEf8F1f74",
+      "totalVotes": 2,
+      "blockNumber": 19148337,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0xd7bb907507e2ff2764a45daa7453eeda7ea3c2b7db3c2679e46baa11489400ad",
+      "startTime": {
+        "timestamp": 1706969597
+      },
+      "endTime": {
+        "timestamp": 1707228797
+      },
+      "startTimestamp": 1706969597,
+      "endTimestamp": 1707228797,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706975385979,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4ODBkODJhODZlMTBlZmZkMTQ3ODgxZDk0NTk0M2NmYjk0NDRjYWM1MGY5YzI1YmI4MjRjNjM4ZjVmZGIyZmI5NA==",
+      "id": "0x80d82a86e10effd147881d945943cfb9444cac50f9c25bb824c638f5fdb2fb94",
+      "title": "和組サイト始めとするシステム維持費のトレジャリー補填について",
+      "content": "## 提案者\n- 和組Admin\n## 概要\n和組で運用している公式サイトと、「wagumi.xyz」ドメインとイベント参加botの3つを維持するために、現在の和組トレジャリーから維持費を補填する形についてご検討・投票いただきたいです。\n## 背景\n和組で運用している公式サイトは、現在Microsoftのスタートアッププログラムによって付与されたAzureのクレジットを利用して運用されている。\n本枠における無料期限は2/6とされている。\n\n## 理由\n上記の背景において、和組の公式サイトを運用・維持するための費用を和組のトレジャリーから補填する必要があると考えている。\n本件における費用に関しては、公式サイトをホスティングするためのサーバー費とドメインの年間利用料を表しており、運用を行うメンバーへの人件費などを表すものではない。\n\n## その他詳細\n- 現在、和組のトレジャリーは1.28ethであり、日本円換算すると437809.28円にあたる(2/3現在)\n- トレジャリーウォレットの状況は次のURLの記載されている https://etherscan.io/address/0xa0350575a5Fbe6df3343038e138Dee3f5Beb2Fff\n- ドメインが年額$13, サーバーが月額$20を想定している",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xE28065C23407183b02B491e8eBFC11bfEf8F1f74",
+      "totalVotes": 0,
+      "blockNumber": 19148283,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x80d82a86e10effd147881d945943cfb9444cac50f9c25bb824c638f5fdb2fb94",
+      "startTime": {
+        "timestamp": 1706968905
+      },
+      "endTime": {
+        "timestamp": 1707228105
+      },
+      "startTimestamp": 1706968905,
+      "endTimestamp": 1707228105,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706968945132,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4YzU0NDNhYTI5Njc0OGM2Yzc2YzQ0Yjg2MjYzZWIxYzZlZWE4NzU2MGRjNWYyMDI1YzhkOWUxZTRiNTQzNmUxMg==",
+      "id": "0xc5443aa296748c6c76c44b86263eb1c6eea87560dc5f2025c8d9e1e4b5436e12",
+      "title": "2024年上半期に向けた和組運営体制について",
+      "content": "## 提案者\n\n和組リーダー兼アドミン Takeshi\n\n## 概要\n\n以下の提案についてご承認いただきたいと思っています。\n\n現アドミンである\n\n- araimono（araimono.）\n- takeshi (tksohishi)\n- ikisuke (jungle_gap_gg)\n\nをアドミンとして選出させていただく。およびリーダーを空位とする。\n\n## 背景\n\n2023年9-12月期のアドミンの任期満了につき、新たに和組のアドミン体制をコミュニティに承認していただく必要があった。ならびに2023年下半期のリーダーの任期満了につき次期リーダーを検討する必要があった。\n\n## 詳細\n\n- 2024年1-3月期アドミンについては、現アドミンの3人を再任させていただきたい。現アドミンのkeijiさんは引き続きTeam Newsletterをリードしてもらうが、アドミンからは外れることになる。\n- 2024年上半期のリーダーについては検討の結果、空位とする。今後リーダー制の必要性の有無についても議論をしていく。\n- チームの担当については、araimonoさんがTeam Community担当、ikisukeさんがTeam Product担当とする。takeshiは、チームではないがGovernanceとTreasuryの担当、そしてTeam Newsletterを監督する。\n\n以上、検討、投票をよろしくお願いします。",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xa4dDE78906b73133296D43f23Ca4b41009059123",
+      "totalVotes": 17,
+      "blockNumber": 18980770,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0xc5443aa296748c6c76c44b86263eb1c6eea87560dc5f2025c8d9e1e4b5436e12",
+      "startTime": {
+        "timestamp": 1704940833
+      },
+      "endTime": {
+        "timestamp": 1705200033
+      },
+      "startTimestamp": 1704940833,
+      "endTimestamp": 1705200033,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [
+        {
+          "total": 17.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 17.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704941014454,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4YzdkNDc5OTBkZTkzZWQ2OWVjZjE3NDExOTU1ZjFmYjM3Yjc5MTA1ZTU2YWVjODBjNzVhZjBmNWRiMWY5NjNjOQ==",
+      "id": "0xc7d47990de93ed69ecf17411955f1fb37b79105e56aec80c75af0f5db1f963c9",
+      "title": "2023年10-12月期アドミン体制について",
+      "content": "## 提案者\n\n和組リーダー兼アドミン Takeshi\n\n## 概要\n\n以下の提案についてご承認いただきたいと思っています。\n\n現アドミンである\n\n- araimono（araimono.）\n- takeshi (tksohishi)\n- keiji (kjmooon)\n- ikisuke (jungle_gap_gg)\n\nをアドミンとして選出させていただく。\n\n## 背景\n\n2023年7-9月期のアドミンの任期満了につき、新たに和組のアドミン体制をコミュニティに承認していただく必要がある。\n\n## 理由\n\n現アドミン4人を改めてアドミンとして承認いただきたい。また現在アドミンとして活動していたTakaさんは、ご自身の活動にフォーカスされるということで今期をもって退任ということになる。\n\n## 詳細・その他\n\n- araimonoさんの稼働を考慮してTeam Communityの体制について改めて議論をしていく",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xa4dDE78906b73133296D43f23Ca4b41009059123",
+      "totalVotes": 22,
+      "blockNumber": 18298891,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0xc7d47990de93ed69ecf17411955f1fb37b79105e56aec80c75af0f5db1f963c9",
+      "startTime": {
+        "timestamp": 1696685432
+      },
+      "endTime": {
+        "timestamp": 1696921200
+      },
+      "startTimestamp": 1696685432,
+      "endTimestamp": 1696921200,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [
+        {
+          "total": 22.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 23.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696685545508,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4ZTUxNDNiZGU5YjMyYzJkYzE5M2UzZjgwMmRkZjUwZTM1NWE5ZWQwNmViZmUxNWY4NmU1MDllZDBjMWEzMmE3Mg==",
+      "id": "0xe5143bde9b32c2dc193e3f802ddf50e355a9ed06ebfe15f86e509ed0c1a32a72",
+      "title": "Wagumi SBT保有者に投票権を与える実験的取り組みの提案",
+      "content": "### **起案者(順不同、敬称略)**\n\n- ukishima\n- kazy39\n- keiji\n- masameta\n- ikisuke\n- taka\n- takeshi\n- araimono\n\n### 背景\n\n　和組への参加の動機のひとつとして、「DAO」への興味関心があり、特にDAOの文脈で一般的に語られる「トークンを活用したメンバーの投票によって意思決定が行われる」という視点での知的/行動欲求は大きいと考えられます。\n\n　一方、現状のWagumi Catsを利用した投票について、投票数は直近5回の平均として13票であり、和組の活動自体を左右する投票としては十分に機能していません。またWagumi Catsは二次流通での入手に限られており、投票者数を増やす施策をとりにくい要因のひとつとなっています。\n\n### 本提案が対象とする課題\n\n　直近の提案に対する投票数の平均が13票で推移するなど、和組の意思決定手段として機能しているとは言い難い状態であること。\n\n### 提案内容\n\n- 投票権の数を増やすことによる投票行動/結果への影響を調査する実験的な取り組みとして以下を行う\n    - Wagumi Cats保有者と併せて、Wagumi SBT保有者にも投票権を付与する\n    - Wagumi CatsとWagumi SBTの両方を保有するメンバーの投票権は１とする\n    - 新規のSBT発行にかかるガス代をトレジャリー(和組が保有する資産) から補助する\n        - SBTを新規発行したいユーザーへ有志がガス代のMATICを送信し、送信分のガス代を和組トレジャリーから有志へ送信してガス代の補助を行う\n        - 以下は、ガス代補助の具体的なプロセスである\n            1. 有志よりSBTの新規発行によるガス代補助を望むユーザーへ、ガス代として0.05Maticを送信する\n            2. 有志のガス代送信トランザクションURLと、ガス代補助されたユーザーのSBT新規発行トランザクションURLを和組Adminに共有する\n            3. 和組トレジャリーから有志のウォレットへ0.05Maticを送信する\n            \n            ※ 詳細な実行方法については変更の可能性あり\n            \n            ※ トレジャリーから有志のウォレットへのMATICの送信は、月に一度行われるMonthly Townhallの前後にて行うことを想定している\n    - 本提案承認後に行われる提案3回を対象とする\n    - トレジャリーに関連する提案については今まで通りWagumi Cats保有者のみによる投票とする\n- 本取り組みの終了後、投票数および関連する様々な影響についてAdminを中心に評価し、コミュニティに報告する\n    - 今回提案する実験的な取り組みの判断指標\n    \n    以下の指標にて、本提案の成果について計測し、公表する。\n    また本提案の成果に基づき、SBT保有者の投票へ参加する仕組みを和組に本格導入にするための開発、導入、運用を実施するかの合意形成及び判断を行う。\n  - SBT保有者が投票に参加できるという前提で、議論が活性化したか\n  - SBT保有者が投票に利用できることにより、SBT保持者が増加したか\n  - 投票数が変化したか(3回の投票につき、それ以前との投票数と比較する。比較方法は別途検討する)\n\n### 今回の提案で解決できること\n\n　あくまで実験的な取り組みであり、課題解決を目的としない。投票権の増加が投票数や和組の意思決定、運営にどのように影響するかの評価を行う。\n\n### 期間中の各努力目標\n\n- Admins\n    - それぞれのチームが施策を行う際の入念なサポートを行う\n- Team Community\n    - Wagumi SBT保有者を増やす施策を行う\n- Team Newsletter\n    - 期間中に発行するNewsletterにガバナンスや投票に関連する記事を含める\n- Team Product\n    - 必要なツールやプログラムの実装を行う",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0x5A21E07C07fAf6549Ce8247ba7dd7b1257C0FC4d",
+      "totalVotes": 11,
+      "blockNumber": 17846128,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0xe5143bde9b32c2dc193e3f802ddf50e355a9ed06ebfe15f86e509ed0c1a32a72",
+      "startTime": {
+        "timestamp": 1691206742
+      },
+      "endTime": {
+        "timestamp": 1691809200
+      },
+      "startTimestamp": 1691206742,
+      "endTimestamp": 1691809200,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [
+        {
+          "total": 11.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 11.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1691206844554,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4N2ExNzdhY2Y4MWUwY2JjZGE2Mzg3ZTRlOGZmOGMxMTU2NzQ5YzM5ZWM0M2M4ODIzOWNhNWRjYmYxMjk4MTNkMw==",
+      "id": "0x7a177acf81e0cbcda6387e4e8ff8c1156749c39ec43c88239ca5dcbf129813d3",
+      "title": "2023年下半期に向けた和組運営体制について",
+      "content": "## 起案者\n\n和組リーダー兼アドミン Takeshi\n\n## 概要\n\n以下の提案についてご承認いただきたいと思っております。\n\n- Takeshi（tksohishi）を2023年下半期リーダーとして再任\n- araimono（araimono.)、Taka（taka9999）、keiji（kjmooon）、ikisuke（jungle_gap_gg）Takeshiが2023年7-9月期アドミンとして任命\n\n## 背景\n\n2023年上半期のリーダーの任期満了、及び2023年4-6月期のアドミンの任期満了につき、改めてリーダー、アドミン体制をコミュニティに承認いただく必要がある。\n\n## 理由\n\n引き続きアドミン体制、チーム体制の検討・運営、Team Productのリーダーとして和組プロダクトのメンテナンスを担当しているTakeshiをリーダーとして再任していただき、現アドミンであるaraimonoさん、Takaさん、keijiさんに加えて、初期から和組にてアクティブに活動していただき、Team ProductとCommunityにて活躍されている現在モデレータをやられているikisukeさんを新たにアドミンに迎え、5人体制で新体制をスタートしたい。\n\n## 詳細\n\n- チーム体制については再度発表予定だが、Takeshi、ikisukeがProduct担当、keijiがNewsletter担当、araimono、TakaがCommunity担当。新たなチームも検討中。",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xa4dDE78906b73133296D43f23Ca4b41009059123",
+      "totalVotes": 14,
+      "blockNumber": 17580837,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x7a177acf81e0cbcda6387e4e8ff8c1156749c39ec43c88239ca5dcbf129813d3",
+      "startTime": {
+        "timestamp": 1687992059
+      },
+      "endTime": {
+        "timestamp": 1688252400
+      },
+      "startTimestamp": 1687992059,
+      "endTimestamp": 1688252400,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [
+        {
+          "total": 15.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 15.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1687992624542,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4MmVkYmE4ZTU0NWQ1OGM4NjI4YzcwNWZlMmRlODlhMTYyMDlkMzY2ZjhiYjM4NDVhOGFkMzRmMjliMzFiYmNiYg==",
+      "id": "0x2edba8e545d58c8628c705fe2de89a16209d366f8bb3845a8ad34f29b31bbcbb",
+      "title": "CryptoBase様のCommunity Partnerになることについて",
+      "content": "## 発案者\n\nTaka｜DAOWorker\n\n## 概要\n\n- web3事業を対象としているコーワーキングスペース兼イベントスペースの提供を行なっているCryptoBase様とCommunity Partnerになる\nhttps://cryptobase.green/\n- 和組のロゴの貸し出し\n- CryptoBaseの会場を使用する際、和組としての積極宣伝\n- 特典のNFTをadminで管理（特典の詳細は下記参照）\n\n## 背景\n\nCryptoBase様よりご提案いただいておりますCommunity Partner制度新設の背景や概要については下記のドキュメントをご参照ください\n\nhttps://docs.google.com/document/d/1hO0mdm8pAA44LdbNDR69o4A6JI3GKJdSn50fxqSg-WM/edit?usp=sharing\n\n## 理由\n\nコロナ情勢が落ち着き、また和組としても積極的にオフラインイベントを行なっていくことでコミュニティのエンゲージメントを高めていく方法を模索していた中、CryptoBase様よりCommunity Partnerについてのお声がけを頂きましたので、提携の是非について、Snapshotを取らせていただいております\n\n## 詳細\n\n### ■ご依頼事項■\n\n- イベント / 勉強会の開催・コンテンツ企画/配信 (1回以上/2ヶ月) ※今後変更可能性あり\n- コワーキングスペースの利用\nweb3の領域に限らず、多分野・領域の前線で活躍されているメンバーとのコミュニケーションを通じ、皆様のご活動に対する新たな可能性を追及する機会・場として積極的にご活用\n- 公式サイト上での会社名・会社ロゴの掲載\n(コミュニティ・パートナー登録フォームURL挿入)\n- CryptoBaseに関する情報発信（各種イベント/勉強会の告知・SNS上での拡散）\n和組としては、オフラインイベントを開催する際にCryptoBase様のネームを取り上げアナウンスメントを行う所存\n- Discordへの参加\nコワーキングスペース利用時、チェックインの際に報告手段としてDiscordにて連絡する必要があるため、スペース利用予定者のDiscordへの参加は必要である\n\n### ■特典■\n\n- After Five Ticket ×3枚 (会員証としてのNFTをエアドロップさせていただきます)\n平日17:00-23:00CryptoBase@NIB SHIBUYAの利用が可能\n※コミュニティメンバー3名以上の場合、同時利用3名までとなるため、NFTに関してはAdminメンバーで管理\n※和組内の活動で、積極的にご参加いただいている方の一特典として活用していく\n- CryptoBaseの3Fをイベントスペースを利用する場合はメンバー同様半額で利用可\n※ただし、和組は非営利団体であるため、特例にて無料でご提供いただけることになりました",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0x69Fa39203902B5dBC6bd2205aFD9C5eDa1D290d5",
+      "totalVotes": 8,
+      "blockNumber": 17336875,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x2edba8e545d58c8628c705fe2de89a16209d366f8bb3845a8ad34f29b31bbcbb",
+      "startTime": {
+        "timestamp": 1685026458
+      },
+      "endTime": {
+        "timestamp": 1685285940
+      },
+      "startTimestamp": 1685026458,
+      "endTimestamp": 1685285940,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 8.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685026780083,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4MWZmZTMxN2ZkZDU1ODA2YmMyMWQ3ZmMyNjFlZWU0ZTE0NmQyNTgyZWY0YTgwYWQ4NzNhZTk0MmNlNmE3NzM5YQ==",
+      "id": "0x1ffe317fdd55806bc21d7fc261eee4e146d2582ef4a80ad873ae942ce6a7739a",
+      "title": "和組の旧アドミンSafeから現アドミンSafeへのアセット移動のお願い",
+      "content": "## 提案者\n\n和組DAOリーダー兼アドミン Takeshi\n\n## 概要\n\n和組のトレジャリーの整理のために、旧アドミン管理のSafe (Multi-sigウォレット) から現アドミン管理のSafeへトークンを移行していただく件についてご検討・投票いただきたい。\n\n## 背景\n\n歴史的経緯により、旧アドミンが管理しているSafeに、wagumi.eth、Wagumi Cats NFT 11体と一定数のETHが保管されているが、現アドミンがその管理に関わっていない。\n\n旧アドミンの方々と相談し、すべてのアセットを移行するという方向性でお話させていただいた。\n\n## 理由\n\n上記のアセットについて、実質運営を推進している現アドミンが、改めてトレジャリーの一部として管理していく必要があると考える。例えばトレジャリーで保有しているWagumi Catsを景品や貢献してくれた人への報酬として寄贈する、などのアイデアが考えられる。そのようなアイデアを現アドミンがコミュニティと寄り添って素早く進めていくためにもアセットを現アドミンが管理するSafeに移動させていただきたい。\n\n## その他詳細\n\n- アセット移行の際にかかったガス代については、移行完了後、txごとに最大0.01ethを上限に和組のトレジャリーから補填するようにする。\n- 移行後の作業として、wagumi.ethのアドレス変更に際してSnapshotの設定を変更する必要がある\n\n## 参考リンク\n\n- 旧アドミン管理Safe: [https://etherscan.io/address/0xdce4694e268bd83ea41b335320ed11a684a1d7db](https://etherscan.io/address/0xdce4694e268bd83ea41b335320ed11a684a1d7db)\n- 現アドミン管理Safe: [https://etherscan.io/address/0xa0350575a5fbe6df3343038e138dee3f5beb2fff](https://etherscan.io/address/0xa0350575a5fbe6df3343038e138dee3f5beb2fff)",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xa4dDE78906b73133296D43f23Ca4b41009059123",
+      "totalVotes": 18,
+      "blockNumber": 17174008,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x1ffe317fdd55806bc21d7fc261eee4e146d2582ef4a80ad873ae942ce6a7739a",
+      "startTime": {
+        "timestamp": 1683041754
+      },
+      "endTime": {
+        "timestamp": 1683558000
+      },
+      "startTimestamp": 1683041754,
+      "endTimestamp": 1683558000,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [
+        {
+          "total": 19.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 19.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683042101286,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4NjI3NDkyOTFmNmNhYzJjMDNkZjVhMjhmNWNmYjkxYTlkNmYxNmNlZWZlNDI0MmI0NDcxZWEyNjUxNzljNmU2NQ==",
+      "id": "0x62749291f6cac2c03df5a28f5cfb91a9d6f16ceefe4242b4471ea265179c6e65",
+      "title": "2023年4-6月期アドミン体制について",
+      "content": "## 提案者\n\n和組リーダー兼アドミン Takeshi\n\n## 概要\n\n以下の提案についてご承認いただきたいと思っています。\n\n現アドミンである\n\n- Araimono（araimono.KaiWai#0885）\n- Takeshi (takeshi#5555)\n\nに加えて\n\n- Taka (Taka｜DAOWorker#9999)\n- Keiji (keiji#0337)\n\nを新たにアドミンとして選出させていただく。\n\n## 背景\n\n2023年1-3月期のアドミンの任期満了につき、新たに和組のアドミン体制をコミュニティに承認していただく必要がある。\n\n## 理由\n\n現アドミンであるTakeshi、Araimonoに加え、年賀状/お年玉企画のリーダーとして企画の推進と盛り上げを行っていただき、また現在はTeam Community Leadとして主にイベント開催を担当していただいているTakaさんと、Team NewsletterのTeam Leaderとして隔週のニュースレターの発行をチームメンバーの方々と行っていただいているKeijiさんを、次期アドミンとして選出させていただき、引き続き和組の活動を支えていってもらいたい。また現在アドミンとして活動しているJunさんは、ご自身の活動にフォーカスされるということで今期をもって退任ということになる。\n\n## 詳細・その他\n\n- チームの体制については再度発表をさせていただく予定ではあるが、Takeshi → Team Product, Keiji → Team Newsletterに加え、Taka/Araimono → Team CommunityそれぞれのLeaderを兼務する、という体制を検討している\n- チームごとに1人チームリーダーという形から、アドミン = チームリーダーという体制としていく",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xa4dDE78906b73133296D43f23Ca4b41009059123",
+      "totalVotes": 10,
+      "blockNumber": 16940388,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x62749291f6cac2c03df5a28f5cfb91a9d6f16ceefe4242b4471ea265179c6e65",
+      "startTime": {
+        "timestamp": 1680183341
+      },
+      "endTime": {
+        "timestamp": 1680440400
+      },
+      "startTimestamp": 1680183341,
+      "endTimestamp": 1680440400,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680183873537,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4YzliMGNkZWViMDQ1NTY1OGExNjAyMzE3NGRhNzA1YjFlYjBiN2U0NWEyMmE5ZWYzNGE5NWE4Mjg0MjQ1ZWU4ZQ==",
+      "id": "0xc9b0cdeeb0455658a16023174da705b1eb0b7e45a22a9ef34a95a8284245ee8e",
+      "title": "和組SBTにホルダー、もしくは運営によるバーン機能を追加する",
+      "content": "## 起案者\n\n和組アドミン兼リーダー Takeshi\n\n## 概要\n\n和組SBTに対してホルダー、または運営によるバーン機能を実装することについてDAOとして承認していただきたい。\n\n## 背景\n\nコミュニティメンバーの提案をもとに、和組SBTとして今後そのID性やユーティリティを検討したり、ある未来の時点での和組への関わりの変化を考慮する中で問題になってくるユースケースを想定し、保有者によるバーン機能、そして運営+コミュニティ合意に基づくバーン、リカバリー機能について検討することとなった。\n\n## 詳細\n\nSBTのコンセプトのメインとなる「転送不可能であること」が悪用されるユースケース（例えば社会的に好ましくないとされているものを含んだ転送不可能なNFTを勝手に自分のウォレットにmintされる）への対応、またトークンの保有者はそのトークンに対する最低限の自由を有するべきという思想に対して、「SBTのホルダーは他のアドレスに対して転送はできないものの、バーン（nullアドレスへの転送）はできるべきである」というコンセプトのもと、和組SBTに対して和組として、ホルダーによるバーン実装をしていきたい。\nまた、和組コミュニティへの参加状況を考慮して、コミュニティの合意の上に運営が任意のホルダーのSBTをバーンする機能を持つことで和組SBT保有状況の正確性を担保できるようにする。\nそしてそのバーン処理の復旧処置、またハッキングなどの被害にあったウォレットからの強制転送機能としての運営によるリカバリー機能についても実装していく。\n\n以下が実際に実装する機能群:\n- 和組SBTを所有しているホルダーが本人の意思でそのSBTを手放す（バーン）することができる機能\n- 和組SBTを運営がコミュニティの合意の上でバーンすることができる機能\n- 和組SBTを運営がリカバリーできる機能\n\n## 参考リンク\n\n- [和組SBT OpenSea](https://opensea.io/collection/wagumisbt)\n- [和組SBTコントラクトコード](https://github.com/wagumi/sbt-contract)\n- [和組SBT暫定ホワイトペーパー](https://wagumi-dao.notion.site/SBT-WHITE-PAPER-Draft-0922-34785272156e4439b59c624e7ed208e8)\n- [和組SBTのContributionデータベース](https://www.notion.so/wagumi-sbt/Contributions-042de8631ebf42b0b481862685345f13)\n- [和組Discordでの議論](https://discord.com/channels/914960638365810748/946596061215096842/1082552816134017024)\n",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xa4dDE78906b73133296D43f23Ca4b41009059123",
+      "totalVotes": 14,
+      "blockNumber": 16845386,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0xc9b0cdeeb0455658a16023174da705b1eb0b7e45a22a9ef34a95a8284245ee8e",
+      "startTime": {
+        "timestamp": 1679030115
+      },
+      "endTime": {
+        "timestamp": 1679292000
+      },
+      "startTimestamp": 1679030115,
+      "endTimestamp": 1679292000,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対",
+        "棄権"
+      ],
+      "results": [
+        {
+          "total": 13.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 13.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679030534759,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4NWVhNWU3MDYxNTY1YTQxYzEyMmQ4ZmZkMGI3NDgyNGQ0MWM4ZjAxODQ1NzNmNGFhZWY3ZTUxMDk4ZWI2OGI5NQ==",
+      "id": "0x5ea5e7061565a41c122d8ffd0b74824d41c8f0184573f4aaef7e51098eb68b95",
+      "title": "Microsoft for Startupsプログラムへの採択",
+      "content": "## 提案者\n\n和組リーダー兼アドミン Takeshi (takeshi#5555)\n\n## 概要\n\n以下の提案についてガバナンストークンホルダーの皆様にご承認いただきたいと考えています。\n\n- 和組DAOのMicrosoft for Startups (Founders Hub) プログラムへの採択\n\n## 背景\n\n和組として運用しているサービスの運用場所として、現在は開発メンバー個人の環境を使わせていただいている状態で、DAOとして運用可能な環境を構築したいと考えていた。和組アドミンであるaraimonoさんと開発メンバーのCieloさんと、Microsoftの宇鴻さんとのつながりを通して、Microsoft for Startupsプログラムを紹介いただいて、法人がない状態でもDAOとして採択していただける可能性があることを確認してもらい、アプリケーションを用意した。\n\n## 理由\n\nMicrosoft for Startupsは **“革新的な技術やサービスを有するスタートアップ企業のサービス立ち上げから顧客開拓まで徹底伴奏する無料支援プログラム”** ということで、クラウドサービスのAzureやMicrosoft 365などのサービスを、このプロダグラムに採択されたスタートアップを対象に、一定の使用について無償提供している。和組としては、特にAzureのサービスを利用して、和組の現在運用しているサービスや今後開発していくプロダクトをDAOとして管理していくために、このプログラムに採択いただき、環境構築を行っていきたい。\n\n## 詳細\n\n- Microsoft for Startups詳細ページ [https://www.microsoft.com/ja-jp/biz/startups](https://www.microsoft.com/ja-jp/biz/startups)\n- 申請作業用Notionページ [https://wagumi-dao.notion.site/Microsoft-for-Startup-5a176ee3793747e699c8700c1d959c4c](https://www.notion.so/Microsoft-for-Startup-5a176ee3793747e699c8700c1d959c4c)\n- 宇鴻さんのTwitterアカウント [https://twitter.com/library_02](https://twitter.com/library_02)",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xa4dDE78906b73133296D43f23Ca4b41009059123",
+      "totalVotes": 14,
+      "blockNumber": 16487764,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x5ea5e7061565a41c122d8ffd0b74824d41c8f0184573f4aaef7e51098eb68b95",
+      "startTime": {
+        "timestamp": 1674697222
+      },
+      "endTime": {
+        "timestamp": 1674961200
+      },
+      "startTimestamp": 1674697222,
+      "endTimestamp": 1674961200,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 14.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 14.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4YTJiYjE0MzZiYWZkYTJhMmZmMGNhYWY4MmM3ODViNjI3ZThmMDkwYjIwYTg4NjE5Zjc2MzIyZjYxMGM2NDUwMA==",
+      "id": "0xa2bb1436bafda2a2ff0caaf82c785b627e8f090b20a88619f76322f610c64500",
+      "title": "2023年上半期に向けた和組運営体制について",
+      "content": "## 提案者\n\n和組リーダー兼アドミン Takeshi\n\n## 概要\n\n以下の提案についてご承認いただきたいと思っております。\n\n- Takeshi（takeshi#5555）を2023年上半期リーダーとして再任\n- araimono（araimono.KaiWai#0885）及び JUN（JUN#7954）とTakeshiが2023年1-3月期アドミンとして続行\n\n## 背景\n\n2022年下半期のリーダーの任期満了、及び2022年10-12月期のアドミンの任期満了につき、改めてリーダー、アドミン体制をコミュニティに承認いただく必要がある。\n\n## 理由\n\n引き続きコミュニティ運営、チーム体制の検討、WGのリードなどを担当している私Takeshiをリーダーとして再任していただき、さらなる和組の発展に貢献させていただきたいと考えている。また、今までアドミンとしてコミュニティを支えてこられたaraimonoさんとJUNさんを、引き続き1-3月期のアドミンとして再任させていただきたい。\n\n## 詳細・その他\n\n- チームの体制については再度発表をさせていただく予定ではあるが、Team Communityはaraimonoさん、Team AMAはJUNさんが担当アドミン兼チームリーダーとして継続。現存のTeam Dev、Team Design、Team NewsletterについてTakeshiが担当アドミンとして改めてアサイン。\n- リーダーの最長任期についても検討していく。\n- 現アドミンが管理するトレジャリー用のmulti-sigについても順次用意していく。",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xa4dDE78906b73133296D43f23Ca4b41009059123",
+      "totalVotes": 23,
+      "blockNumber": 16287314,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0xa2bb1436bafda2a2ff0caaf82c785b627e8f090b20a88619f76322f610c64500",
+      "startTime": {
+        "timestamp": 1672279535
+      },
+      "endTime": {
+        "timestamp": 1672498740
+      },
+      "startTimestamp": 1672279535,
+      "endTimestamp": 1672498740,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 24.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 24.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4NzgzMzE1NTNlN2I4Y2Y1NGE4OTRlMjBhYjU5NGI2YmZiNTQzMTAzMjMxN2FhZjQ3NTM0MzQxOTU1M2Q5OTkwMw==",
+      "id": "0x78331553e7b8cf54a894e20ab594b6bfb5431032317aaf475343419553d99903",
+      "title": "和組SBT勉強会特別編OFF会",
+      "content": "### 前提\n\nこの度は、和組Adminメンバーである以下の3名の合意を得た上でSnapshotを提出させていただいております。\n\n・Takeshi (takeshi#5555)\n・Araimono (araimono.KaiWai#0885)\n・JUN (JUN#7954)\n\n### 概要\n\n和組DAOコミュニティでは2022年12月19日に和組 Team CommunityとCryptoBaseの共催で和組SBT勉強会特別編＆OFF会を開催いたします!\n\nそれにともない、入場料を無料にするために、和組トレジャリーから２万円予算枠として準備しフリードリンク等の準備へ補充させていただくことを検討しております。\n以前に開催された東京OFF会イベント開催協賛金として、Fore-x様、スカイランドベンチャー様に協賛いただいた20万円(1月頃入金予定)の一部を充当する予定です。(スカイランドご担当者様に使途を説明済み)\n\n和組SBT勉強会特別編＆OFF会に合わせ、期間の無い中でのSnapshotのお願い申し訳ございません。和組で開催されるイベントへのトレジャリーの使用についてご検討＆ご投票よろしくお願いいたします。\n※使途詳細はコミュニティに公開いたします。\n\n### イベント実施検討内容\n\n- 2022年のWeb3の振り返り\n- 和組SBT (SoulBoundToken) についてディスカッション (社会での活用シーンなど)\n- 和組年賀状×お年玉企画\n- 交流会\n\n※イベント告知URLはこちらよりご確認いただけます。\n[https://peatix.com/event/3439688](https://peatix.com/event/3439688)",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0x69Fa39203902B5dBC6bd2205aFD9C5eDa1D290d5",
+      "totalVotes": 7,
+      "blockNumber": 16202097,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x78331553e7b8cf54a894e20ab594b6bfb5431032317aaf475343419553d99903",
+      "startTime": {
+        "timestamp": 1671252179
+      },
+      "endTime": {
+        "timestamp": 1671375540
+      },
+      "startTimestamp": 1671252179,
+      "endTimestamp": 1671375540,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6.0,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4MmExNDY5MTIzMWRhNDhhMWI5MTNlYWUzZTc1MmFjZGZlNWNkY2I4NzI5NjRlZDgzZDU4MjMxYTViZmFmZjQ3NQ==",
+      "id": "0x2a14691231da48a1b913eae3e752acdfe5cdcb872964ed83d58231a5bfaff475",
+      "title": "和組年賀状×お年玉企画",
+      "content": "### 自己紹介\n\nTeam CommunityとWorking Group SBTに所属しております、\nTaka (Taka｜DAOWorker#9999) と申します。\n\n### 前提\n\nこの度は、和組Adminメンバーである以下の3名の合意を得た上でSnapshotを提出させていただいております。\n\n- Takeshi (takeshi#5555)\n- Araimono (araimono.KaiWai#0885)\n- JUN (JUN#7954)\n\n### Snapshot目的\n\nこの度はコミュニティ活動の一環とし、新規企画を行うことから以下の２点についてSnapshotを実施させていただきます。\n\n1. 和組年賀状✖️お年玉企画を和組として行うこと\n2. この企画に伴い、和組トレジャリーより2万円ほど予算を回していただきたい\n\n### 背景\n\n和組からコミュニティへ、この１年間の感謝の気持ちを込めて、年賀状NFTを新年に発行したいと考えております。\n\n### 理由\n\n和組が成り立っているのは、現在精力的に活動いただいている10数名をもとに、そこに価値を感じていただいているコミュニティメンバーがいて今の和組がある。和組のコミュニティメンバーに感謝を伝える手段として、年賀状を選びました。\n\n### トレジャリー支出の使い道\n\n当企画では、年賀状NFTを発行するにあたり、お年玉当選機能を実装する予定です。\n１等10,000円（１名）、２等5,000円（１名）、３等1,000円（５名）\n以上の内訳にてお年玉を配布いたします。\n\nまた、年賀状NFT Mintに伴うガス代に関して、当企画の主目的が「コミュニティへの感謝」になりますので、和組負担にてMintを行います。\n\n### その他詳細\n\n本プロジェクトの特徴は二つ\n一つ目は、レピュテーション数（これまでの貢献度合いや、勉強会などのイベント出席数など）に応じて、レア度の違う年賀状が受け取れます。レベルは全部で３種類を想定中です。\n\n二つ目は、年賀状に当選番号を埋め込み、当選された方にはお年玉がAirdropされる予定です。\n\nまた、年賀状に使われるイラストは、特定のデザイナーに頼る形ではなく、コミュニティに参加されている全てのメンバーが誰でも簡単にイラストを提出できるよう、Google Formにてイラストを収集を検討中です。\n\nご提出いただいたイラストから３つ選び年賀状にいたしますが、当イベントにてご提出いただく全てのイラスト（一部ふさわしくないものを除き）はコラージュNFTとしてイラスト提出者へ還元していく次第です。\n詳細に関しては、こちらのNotionURLよりご確認いただけます。\n[https://wagumi-dao.notion.site/0b75c267f11c44c4814c683208ee7b20](https://www.notion.so/0b75c267f11c44c4814c683208ee7b20)",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0x69Fa39203902B5dBC6bd2205aFD9C5eDa1D290d5",
+      "totalVotes": 9,
+      "blockNumber": 16015094,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x2a14691231da48a1b913eae3e752acdfe5cdcb872964ed83d58231a5bfaff475",
+      "startTime": {
+        "timestamp": 1668994035
+      },
+      "endTime": {
+        "timestamp": 1669172400
+      },
+      "startTimestamp": 1668994035,
+      "endTimestamp": 1669172400,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 9.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4MjQ1MjJiZDNmMWMyNTkwNThjODVmMDIwMWY2ZDM2ZTMwMzIwYzZmYmNiYjg5ZWNmMTJlYmFlYTZkMmQwYzdmOQ==",
+      "id": "0x24522bd3f1c259058c85f0201f6d36e30320c6fbcbb89ecf12ebaea6d2d0c7f9",
+      "title": "和組の”CAWA TOKYO 2022” へのコミュニティパートナーとしての参加",
+      "content": "概要\n和組メンバーでもあるMarino さん [https://twitter.com/marimosphere]の運営するNFTイベント “CAWA TOKYO 2022” (https://2022.cawa.tokyo/) に和組がコミュニティパートナーとして参加し、ロゴの提供やスピーカーとしての登壇をしたいと考えています。\n\n承認されれば、和組キャッツが会場の”Red Tokyo Tower”に展示されることになります。皆様、ご検討&投票をよろしくお願いいたします！\n\nCAWA TOKYO 2022について\n『アジア最大かつ最高のデジタルアートと音楽の祭典』\nCAWAはシンガポールで誕生したクリプトアートのフェスティバル。新しく革命的なテクノロジーを称賛しながらクリプトアートのコミュニティをより強固なモノへとすることを目的としています。\nフィジカルでは本拠地シンガポールを中心にアジア各地のサテライト会場で開催されます。バーチャルではアジア100箇所以上のメタバース（バーチャル会場）にて開催され、それぞれの会場がリンクで接続されます。（https://www.cryptoartweekasia.com/）\nCAWA TOKYOはその東京サイドを担う開催都市で、フィジカルとバーチャルを融合したハイブリッドNFTアート展覧会を同時開催。その規模とクオリティは昨年の実績から定評がありますが、今年は、DMM麻布サテライトオフィスのオシャレな空間でのギャラリーと、RED° TOKYO TOWERでのハイテクでサイバーな空間でNFTプロジェクトのピッチとパーティを行います。\n\nなぜ和組が協力するのか?\n1. 国内の主要コミュニティ/企業が関わるイベントに貢献することで和組の認知向上、メンバーを増やしていきたい\n2. AMA及び勉強会候補となるプロジェクト、企業ともつながれる可能性を模索する\n3.世界と日本をつなぐ架け橋になるイベントに協力することで、和組のビジョンを少しでも前に進める\n\nどのように協力するのか\n1. イベント会場やLPにロゴ掲載の許可\n2. イベントに登壇",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0x19a351b9F2991a3dd71f4ca38f98ad6F418Ed9ea",
+      "totalVotes": 7,
+      "blockNumber": 15644407,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x24522bd3f1c259058c85f0201f6d36e30320c6fbcbb89ecf12ebaea6d2d0c7f9",
+      "startTime": {
+        "timestamp": 1664519901
+      },
+      "endTime": {
+        "timestamp": 1664679600
+      },
+      "startTimestamp": 1664519901,
+      "endTimestamp": 1664679600,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4MDRjNzg2N2JiZjA4ZjAxZGEwOWYzMGQwMWUyODI2YzdmNmE5Yjk3MzYxNjliNGM2NDNjMTkyZjg2ZDZkNjE5NA==",
+      "id": "0x04c7867bbf08f01da09f30d01e2826c7f6a9b9736169b4c643c192f86d6d6194",
+      "title": "2022年10-12月期アドミン新体制について",
+      "content": "# 概要\n\n2022年10-12月期のアドミンとして以下のメンバーを選出することを提案する\n\n- Takeshi (takeshi#5555)\n- Araimono (araimono.KaiWai#0885)\n- JUN (JUN#7954)\n\n# 背景\n\n2022年7-9月期のアドミンの任期満了につき、新たに体制をコミュニティに承認していただく必要がある。\n\n# 理由\n\n今期アドミン4人からShun Kakinokiさんが退任され、残りの3人を引き続きアドミンメンバーとして選任する。アドミングループを小さく保つことで意思決定の速度を上げつつ、アドミングループとは別の体制で運営やガバナンスを強化する体制を検討していく。\n\n# 詳細・その他\n\n- 前述通り、アドミングループとは別のコアメンバーグループを検討する。これについては別途議論を行っていく。\n- 各アドミンメンバーのTeam Leaderとしての役割について、AraimonoさんはTeam Community Leader、JUNさんはTeam AMA Leaderであるが、TakeshiのTeam Dev Leader、ひいてはTeam Dev自体の存続については別途議論を行いたい。",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xa4dDE78906b73133296D43f23Ca4b41009059123",
+      "totalVotes": 15,
+      "blockNumber": 15624999,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x04c7867bbf08f01da09f30d01e2826c7f6a9b9736169b4c643c192f86d6d6194",
+      "startTime": {
+        "timestamp": 1664285494
+      },
+      "endTime": {
+        "timestamp": 1664596800
+      },
+      "startTimestamp": 1664285494,
+      "endTimestamp": 1664596800,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 16.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 16.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4NWJiZTZlMjgzZGU2OGY3NzhjYTgzZWU3NTQ3OTgwOTNmNzc4ZjY0NGU1YTM0YWNmMGQ0ZmUxZDE0YjBmNmNkZQ==",
+      "id": "0x5bbe6e283de68f778ca83ee754798093f778f644e5a34acf0d4fe1d14b0f6cde",
+      "title": "Airdrop the Derify Protocol governance token, eDRF, to the Wagumi community",
+      "content": "Derify Protocol is an emerging decentralized perpetual exchange holding an unique DAO governance philosophy. They want to further improve their governance with more decentralization and attract new members from other DAO to participate in Derify governance. Together, we can jointly build a truly decentralized organization. To learn more, you can check the proposal #004, https://snapshot.org/#/derify.eth/proposal/0xdd20c280939668ba7cb07cd53cdef4eddf3c77deec7097436311264ff56a2d71\n\n\nThe proposal conclusion is that Derify would airdrop 5,000 eDRF to each user who votes for this proposal.\n\n\nUsers who hold eDRF are eligible to participate in the governance of Derify DAO and enjoy other benefits at the same time. If you are interested in Derify Protocol, you can join their community in the following links:\n\n\nWebsite: https://derify.finance/\nDiscord: https://discord.gg/kSR6tz2pdm\nTwitter: https://twitter.com/DerifyProtocol\nsnapshot: https://snapshot.org/#/derify.eth\n\nAs a member of Wagumi community, are you interested in learning more about Derify and participating in their governance?",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0x02d33286fe1d09e12443f9B9336e5Bc8Ce836f9F",
+      "totalVotes": 1,
+      "blockNumber": 15552480,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x5bbe6e283de68f778ca83ee754798093f778f644e5a34acf0d4fe1d14b0f6cde",
+      "startTime": {
+        "timestamp": 1663407780
+      },
+      "endTime": {
+        "timestamp": 1664553600
+      },
+      "startTimestamp": 1663407780,
+      "endTimestamp": 1664553600,
+      "currentState": "closed",
+      "choices": [
+        " Yes, please give me airdrop",
+        "Emm~ I’ll think about it",
+        "Nope"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4ODc4ZWMyNmE1NzVjZGQ0MWM2YjlhODdiNTFlOGJhNjQ2YjY1MGYyYTg4ZDdmN2RlODI4YzJhNzM2YjJiM2IxZQ==",
+      "id": "0x878ec26a575cdd41c6b9a87b51e8ba646b650f2a88d7f7de828c2a736b2b3b1e",
+      "title": "和組の \"Tokyo Web3 Hackathon\" へのコミュニティパートナーとしての参加",
+      "content": "# 概要\n\n和組メンバーでもあるkinjoさん [https://twitter.com/illshin](https://twitter.com/illshin) の会社であるAKINDO主催のイベント “Tokyo Web3 Hackathon” に和組がコミュニティパートナーとして参加したいと考えています。\n\n承認されれば、初の外部開催イベントへの和組としての参加となります。皆様、ご検討&投票をよろしくお願いいたします！\n\n# Tokyo Web3 Hackathonについて\n\n「web2からweb3へのトランジション」をコンセプトとして、国内のエンジニア300人の参加を目標にした大規模ハッカソンイベント。NFT、DeFi、Metaverse、GamiFi、DAO、セキュリティ周りをテーマに、今年の10-11月を目処に2週間開発をしてもらう。スポンサー企業も集まっていて、賞金などのプライズも用意予定。メインのハッカソンイベントに加え、複数のサイドイベントも企画中。\n\n# なぜ和組が協力するのか?\n\n1.  “日本国内のWeb3のイノベーションを加速させる\" というビジョンに対して和組の \"日本をWeb3立国に\" というビジョンの元、和組にも度々貢献していただいているkinjoさん主催のイベントを盛り上げていきたい\n1. 国内の主要コミュニティ/企業が関わるイベントに貢献することで和組の認知向上、メンバーを増やしていきたい\n1. AMA及び勉強会候補となるプロジェクト、企業ともつながれる可能性を模索する\n1. Hackathonイベントの企画にあたり、和組壁打ちイベントにエントリー頂き壁打ちを実施した。和組コミュニティメンバーが企画ブレストをお手伝いさせていただいたプロジェクトの実現であり、和組発のWeb3エコシステム貢献事例として協力したい\n\n# どのように協力するのか\n\n以下のオンライン部分をTakeshi、オフライン部分をAraimonoが対応。状況に応じてコミュニティメンバーにヘルプをお願いするが、基本的にはAdminで対応予定。\n\n1. イベントLPにロゴ掲載の許可\n1. 審査員としてのご対応\n予選審査>オンライン\n最終審査>オフライン\n1. Keynote（和組の活動について）\n1. イベントLPに審査員、Keynoteされる方のプロフィールとアイコンを掲載\n1. Discord上での参加者へのアドバイス (オンデマンドベース)\n\n以上に加え、和組AMAでもハッカソンについての詳細をkinjoさんに紹介してもらう予定。",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xa4dDE78906b73133296D43f23Ca4b41009059123",
+      "totalVotes": 14,
+      "blockNumber": 15561281,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x878ec26a575cdd41c6b9a87b51e8ba646b650f2a88d7f7de828c2a736b2b3b1e",
+      "startTime": {
+        "timestamp": 1663514456
+      },
+      "endTime": {
+        "timestamp": 1663772400
+      },
+      "startTimestamp": 1663514456,
+      "endTimestamp": 1663772400,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 14.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 14.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4YTZkNTE5MTJlNmY0ZDhlZDU4MGNmODk4OTg2OWMyMzFhNTE4MDZmMWFkNWExOGExMWVmYjEwZjdhNmYwZmJjNg==",
+      "id": "0xa6d51912e6f4d8ed580cf8989869c231a51806f1ad5a18a11efb10f7a6f0fbc6",
+      "title": "和組開催イベント企業協賛について",
+      "content": "### **概要**\n\n和組では2022年9月9日に日本で初の主催イベントである東京OFF会を開催いたします。\n\nそれにともない、コロナ下の東京OFF会の開催ということもあり、当日欠席のリスクに対応するため企業様の協賛を検討しております。\nまた、東京OFF会でお披露目される和組SBTのMVP(Minimum Viable Product)のユーザー体験を向上するためのフリーミントの原資にしたいと思います。\n\n東京OFF会イベントスケジュールに合わせ、期間の無い中でのSnapshotのお願い申し訳ございません。和組で開催されるイベントへの企業協賛の是否についてご検討＆ご投票よろしくお願いいたします。\n\n### イベント実施検討内容\n\n1.協賛企業と交渉して実施\n2.バナーに協賛企業名を記載/共同プレスリリースの実施\n3.想定される使途\n\n→当日欠席＆未成年者割引原資に利用\n→和組SBTのフリーミント費用(MATIC入手困難メンバーさんへの補助)\n\n4.余った場合は和組トレジャリーに収納いたします\n\n5.使途はコミュニティに公開いたします\n\n\n### 告知バナーイメージ\n\n![wagumi tokyooff.png](ipfs://bafkreif4uhbo2irz6xoae76ex7kislacqesvxuffvzsfyil7ft477rgbim)\n    ",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xE3EF6f44C0aEcB8CF518a85D2739021aa3Cd02d9",
+      "totalVotes": 11,
+      "blockNumber": 15484734,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0xa6d51912e6f4d8ed580cf8989869c231a51806f1ad5a18a11efb10f7a6f0fbc6",
+      "startTime": {
+        "timestamp": 1662476038
+      },
+      "endTime": {
+        "timestamp": 1662562740
+      },
+      "startTimestamp": 1662476038,
+      "endTimestamp": 1662562740,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 11.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 12.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4NTIxMGJhYjBhYjFhYjBkY2MyNzg4ZDNlMmQ2ODc3YTdmNTdkODAwYWI4N2UxYjNhZWFlMWQwMzQwNDU2MWQ0Nw==",
+      "id": "0x5210bab0ab1ab0dcc2788d3e2d6877a7f57d800ab87e1b3aeae1d03404561d47",
+      "title": "和組SBTのMVP実施",
+      "content": "### 概要\n\n和組では2022年6月にWG-Tokenを発足し、和組でのトークン発行に関して実施案＆実施の是非について検討を行ってまいりました。\n\nWG-Token活動内容)\n●和組Discord #wg-token にて活動 \n●毎週日曜日のAM10時(JST)WG-Tokenの定例VC会議を実施\n●毎週木曜日のPM22時(JST)WG-Token 企画チーム定例VC会議を実施\n●2022年7月31日に第1回WG-TokenAMAを実施\n\n和組WG-Tokenにて検討を進めてまいりました、和組SBT(SoulBoundToken)のMVP開発/運用を実施したくSnapshotへの投票をお願いいたします。\n\n**モチベーション**\n\n和組DAO「Web3立国日本」をビジョンに掲げて、ナレッジの共有/インキュベーション/プロダクト開発を軸に各チーム体制で様々なミッションを実施しております。\n\n### 課題\n\n和組で実施されている大小様々な活動を実施するにあたり、積極的に運営/活動に参加いただいているメンバーさんの貢献度が適切にトレースされていません。\n\nまた、活動をするモチベーション/継続するためのインセンティブが現在はありません。\n\n### 想い\n\nがんばった人が報われる和組を目指したい!\n\nそのため、当初WG-TokenではFungible Tokenの発行の検討をスタートいたしました。\nしかし、実施にあたり法人準備/アロケーションの作成/合意形成等の事前準備ハードルが非常に高いことがわかりました。\nその後のWGディスカッションにより、まずSoulBoundTokenを和組に導入することで貢献度の可視化をおこない、将来的なFT(Fungible Token)発行へとつなげることも可能であるとの結論にいたりました。\n\n##3 本Snapshotのご提案\n\n和組SBTの検証に向け、MVP**(Minimum Viable Product)**の開発および運用を行いたい。\n\n### MVPスコープ\n\n●和組の運営にコントリビューションいただくメンバーさんの貢献の見える化\n●和組活動に参加いただくメンバーさんの活動実績の見える化\n●和組としての出所認証の確立\n\n### 投票実施内容\n\n投票期間　2022年8月14日 21:00 ～8月21日 JST\n\n和組SBTプロジェクト、MVP開発および運用の実施に賛成/反対\n\n### 将来の展望\n\n●和組としての出所認証を確立し、レピュティ―ションを基盤とした様々なユーティリティーをコミュニティで企画/検討/議論することが可能になります。\n\n●SBT自体のコレクション性/外部組織へのメンバー活動実績公開/FT(Fangible Token)のSoulDropの実施といった様々なユーティリティーの実現可能性の検討を進めてまいります。\n\n●和組において、SBTをベースにした最新のトークノミクスを企画/開発するだけでなく実践し、その成果を社会実装として広く還元することで、信用経済をベースにした分散型社会の実現に貢献します。\n\n### 添付資料\n\n[和組SBTホワイトペーパー(8/14 Snapshot用)](https://www.notion.so/SBT-8-14-Snapshot-79fd62322de547a4b454fb2c4879387d)\n\n### 用語の説明\n\n**FT(Fungible Token)とは?**\nERC-20に代表される、暗号通貨(トークン)です。\n\n**SBT(Soulbound Token)とは?**\nイーサリアム創業者のVitalik氏と論文共著者により提唱された、新しいEIP(イーサリアム企画提案)です。\n\n論文)\n****[https://wagumi-dao.notion.site/Decentralized-Society-Finding-Web3-s-Soul-a1cbdda9005045939eb432c9f9f74a65](https://www.notion.so/Decentralized-Society-Finding-Web3-s-Soul-a1cbdda9005045939eb432c9f9f74a65)\n\n**MVP(Minimum Viable Product)とは?**\n\nMVPとは、機能の確認ができる最小限のプロダクトのことを指します。\n\n完璧な製品・サービスを目指すのではなく和組が抱える課題を解決できる最低限の状態で提供します。\n提供後は、メンバーさんからのフィードバックなどを参考にし、新機能の追加や改善点の見直しを図ります。",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0x4fd9D0eE6D6564E80A9Ee00c0163fC952d0A45Ed",
+      "totalVotes": 24,
+      "blockNumber": 15328778,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x5210bab0ab1ab0dcc2788d3e2d6877a7f57d800ab87e1b3aeae1d03404561d47",
+      "startTime": {
+        "timestamp": 1660417200
+      },
+      "endTime": {
+        "timestamp": 1661022000
+      },
+      "startTimestamp": 1660417200,
+      "endTimestamp": 1661022000,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 24.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 24.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4OTk4ZDllNTBiMzYzMDg1M2FkZmE5MDc2ZmViZTI5ODc4ZmUxNmE2MjI3YjkxZWIxNzFlNzA1NmEzYjcyNzlhMg==",
+      "id": "0x998d9e50b3630853adfa9076febe29878fe16a6227b91eb171e7056a3b7279a2",
+      "title": "2022年下半期に向けた和組DAO新体制移行",
+      "content": "# 概要\n\n- @Takeshi をリーダーに任命（期間: 6ヶ月）\n- 新Admin体制へと移行\n\n# モチベーション\n\n和組DAOのさらなる成長を目指しつつ、より自律的なDAO運営体制を行っていくことを目標に、2022年下半期のAdmin体制を刷新します。引き続き、和組コミュニティ全体の方向性などについての意思決定をスピード感を持って進めるためにリーダー制を維持、Dev Team Leaderを担当していた @Takeshi をリーダーとして任命したいと考えています。\n\n# 詳細\n\n## リーダーの任命\n\n現在Team Dev Leaderを担当している @Takeshi をリーダーとして任命。\n活動内容: 和組の方向性の指針作り、各チームのマネジメント。\n期間: 2022/07/01 ~ 2022/12/31 の6ヶ月間。\n\n# 新Admin体制\n\n- @Takeshi (Leader)\n- @Shun Kakinoki (Team Dev Leader兼任)\n- @araimono.eth (Team Community Leader兼任)\n- @Jun (新, Team AMA Leader兼任)",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0x4fd9D0eE6D6564E80A9Ee00c0163fC952d0A45Ed",
+      "totalVotes": 25,
+      "blockNumber": 15085995,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x998d9e50b3630853adfa9076febe29878fe16a6227b91eb171e7056a3b7279a2",
+      "startTime": {
+        "timestamp": 1657070652
+      },
+      "endTime": {
+        "timestamp": 1657263600
+      },
+      "startTimestamp": 1657070652,
+      "endTimestamp": 1657263600,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 25.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 25.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4Nzg2ZGY4MjJlNmYyY2JiMTg4NDMyZTQxNTZjODkyYTIzZTIwOTM0YjkyYzZkMDExYzJjNTVmNDk1ODZiNzQ5ZA==",
+      "id": "0x786df822e6f2cbb188432e4156c892a23e20934b92c6d011c2c55f49586b749d",
+      "title": "和組AMA x 「あたらしい経済」提携",
+      "content": "和組AMAは幻冬舎のあたらしい経済と提携し、録音のファイルを独占的にお渡しし、AMAに付随した文字起こしやまとめ等を記事に掲載していただきたいと考えています。\n(これまでAMAは基本的に録音・配布ともに禁止とのことでしたが、この提携では、和組及びWeb3の認知を広げていくために録音を行うことになります。)\n\n*あたらしい経済について\n「あたらしい経済」は、幻冬舎のWEBメディア「あたらしい経済」からスタートして、独自のコミュニティ形成を目指し、メディアとコミュニティを主軸にして、イベントや学びの提供、書籍の出版、デジタルコンテンツの配信、トークンエコノミーを活用したコミュニティの活性化を目指している。\nhttps://www.neweconomy.jp/about\n\n*具体的な流れイメージ\n・https://neweconomy.jp/features/wagumiama（仮）のように、和組AMAだけまとめる連載ページが作られる。\n（ex. https://neweconomy.jp/features/totsu ）\n・各記事に対してヘッダー画像を作成し、その画像に「和組のロゴ」、もしくは「和組×あたらしい経済」とデザインしたロゴが掲載される。\n・和組の紹介文とリンクが掲載される。",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0xfD76B38f6782B14a44951879F64E787905d2479d",
+      "totalVotes": 67,
+      "blockNumber": 14189163,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0x786df822e6f2cbb188432e4156c892a23e20934b92c6d011c2c55f49586b749d",
+      "startTime": {
+        "timestamp": 1644652800
+      },
+      "endTime": {
+        "timestamp": 1644908340
+      },
+      "startTimestamp": 1644652800,
+      "endTimestamp": 1644908340,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 67.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 67.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6d2FndW1pOnNuYXBzaG90OjB4YTA3NDVlYTAxMDQ0MjEyNmZjMzZlNjZkZGY2NmE5MTU0OTE2M2VjYTQ2YjVlMTJmYjliZDNjNzU3MTI4Y2JjYw==",
+      "id": "0xa0745ea010442126fc36e66ddf66a91549163eca46b5e12fb9bd3c757128cbcc",
+      "title": "和組DAO化と新体制移行",
+      "content": "# 概要\n- @Shun Kakinoki をリーダーに任命（期間: 6ヶ月）\n- コントリビューター5名を新Teamリーダー(Admin)として任命\n- 全Teamリーダー 16名の役割・責務の決定\n\n# モチベーション\n和組DAOの移行に際して、創業メンバーからコミュニティーに権限譲渡していくと共に、ボトムアップなコミュニティーの運営体制に向けて具体的な整備を行なっていきます。そこでまずは、日々和組コミュニティーに貢献して下さっているコントリビューターを新Teamリーダーとして任命し、 全Adminの方に役割と責務を定めました。また今後、和組のコミュニティをスピード感を持って成長させるために、リーダーを任命しました。\n\n# 詳細\n\n## リーダーの任命\n現在Dev team Leadを担当している @Shun Kakinoki をリーダーとして任命。\n活動内容: 和組の方向性の指針作り、各チームのマネジメント。\n期間:  2022/01/01 ~ 2022/06/30 の6ヶ月間。\n\n## 全Teamリーダーの任命\n\nAMA Team Lead を @Taiga Kobayashi(和組AMA担当)  に任命。\n\nCommunity Team Lead を @Eisuke Hirata @たつぞう(新) @yshimura(新) に任命。\n\nCuration Team Lead を @Kiyo  @TAKΞSHI 🚀 (新) に任命。\n\nDesign Team Lead を @Mona🌔かじもな  に任命。\n\nDev Team Lead を  @Shun Kakinoki  @tadashim(新) @kennyt.eth (新) に任命。\n\nGovernance Team Lead を @kohei.eth｜Index に任命。\n\nGrowth Team Lead を @Yusuke Tanaka に任命。\n\nNewsletter Team Lead を @shugo に任命。",
+      "protocol": "wagumi",
+      "adapter": "snapshot",
+      "proposer": "0x4fd9D0eE6D6564E80A9Ee00c0163fC952d0A45Ed",
+      "totalVotes": 111,
+      "blockNumber": 13974504,
+      "externalUrl": "https://snapshot.org/#/wagumi.eth/proposal/0xa0745ea010442126fc36e66ddf66a91549163eca46b5e12fb9bd3c757128cbcc",
+      "startTime": {
+        "timestamp": 1641780000
+      },
+      "endTime": {
+        "timestamp": 1641931200
+      },
+      "startTimestamp": 1641780000,
+      "endTimestamp": 1641931200,
+      "currentState": "closed",
+      "choices": [
+        "賛成",
+        "反対"
+      ],
+      "results": [
+        {
+          "total": 111.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 111.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

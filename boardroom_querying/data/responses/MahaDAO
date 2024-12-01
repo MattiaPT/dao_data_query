@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bWFoYWRhbzpvbmNoYWluOjI2MDA2MzIyNzA5MDYyODEzNjE1NzA3MjA2NTMyODk3ODYxOTkwNDE4NTAzOTM3ODY0MTE5NjE1OTM1NjM0MzQ3NzIzODQ4NDQzODU2",
+      "id": "26006322709062813615707206532897861990418503937864119615935634347723848443856",
+      "title": "MIP.C2-0023: Update ARTH to Start Using the New Price Mechanism ",
+      "content": "Credits to @michael for helping draft this proposal. After months of research, simulations, and testing, we’ve developed a revolutionary new peg for the ARTH valuecoin.\n\n# ABSTRACT\nIn this proposal, we present a new price mechanism for the ARTH peg to replace the presently fixed peg of $2.00/ARTH and substitute the intended GMU basket.\n\nThe new mechanism reduces dependencies while achieving the desired outcome of hedging inflation. This eliminates common attack vectors such as oracles and bridges that would otherwise be required.\n\nThe new price mechanism simplifies the whole process down to a single rate adjustment, which the DAO then controls to increase or decrease the appreciation of ARTH.\n\nIn simple terms the mechanism appreciates ARTH whenever the market is bullish but stops the appreciation whenever the market turns bearish (relative to the US dollar)\n\n# PARTICULARS\n- Remove the fixed $2.00/ARTH peg\n- Peg ARTH to new GMU price mechanism\n- Activate new ARTH GMU\n\nDiscussion: [https://discuss.mahadao.com/t/mip-c2-0023-update-arth-to-start-using-the-new-price-mechanism/608](https://discuss.mahadao.com/t/mip-c2-0023-update-arth-to-start-using-the-new-price-mechanism/608)\n",
+      "protocol": "mahadao",
+      "adapter": "onchain",
+      "proposer": "0xeccE08c2636820a81FC0c805dBDC7D846636bbc4",
+      "totalVotes": 33,
+      "blockNumber": 15621539,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1664243639,
+      "endTimestamp": 1664559827,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 193725.1,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15797164
+          },
+          "event": "executed",
+          "timestamp": 1666363559,
+          "txHash": "0x17f9de9ef1d37015d58a7e3fe70c6239fa4879f947b195167ce82953d8fcf1ff"
+        },
+        {
+          "time": {
+            "blockNumber": 15681665
+          },
+          "event": "queued",
+          "timestamp": 1664970035,
+          "txHash": "0x870ae1aad8be6c19635123a4eb1c21bdd2e424757b2dcd9cbc91b970cf7b1a73"
+        },
+        {
+          "time": {
+            "blockNumber": 15614994
+          },
+          "event": "pending",
+          "timestamp": 1664164499,
+          "txHash": "0x32bad8e8d677a736354147cf037648fb38c86f5625b50fd5c09d532e56d7cf7a"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 193725.1,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

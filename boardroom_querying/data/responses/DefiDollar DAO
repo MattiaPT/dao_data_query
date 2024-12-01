@@ -1,0 +1,355 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6ZGVmaWRvbGxhcjpzbmFwc2hvdDpxbXV2bmZydW0xd3Z5Ym1tOHJlZWE2aWdmd2phaTF2ZnVnb2lyYXZhaDFlOXp3",
+      "id": "QmUvNFRuM1wVybmM8reeA6igFWJai1VFUgoirAVAH1E9zw",
+      "title": "Revise ibbtc mint/redeem fees.",
+      "content": "Change ibBTC fees as follows:\n- 0.2% Mint (from 0.5%)\n- 0.1%  Redeem (from 0.5%)\n\nThe current relatively higher fees were justified because ibbtc was in a guarded launch phase and most whitelisted participants enjoyed a 100%+ APY. With it being open to all and as we drive new use cases, it makes sense to revise fees that are more favourable and reflective of the underlying APY of ibbtc which hovers in a range of 2-4%.",
+      "protocol": "defidollar",
+      "adapter": "snapshot",
+      "proposer": "0x08F7506E0381f387e901c9D0552cf4052A0740a4",
+      "totalVotes": 20,
+      "blockNumber": 12639811,
+      "externalUrl": "https://snapshot.org/#/defidolla.eth/proposal/QmUvNFRuM1wVybmM8reeA6igFWJai1VFUgoirAVAH1E9zw",
+      "startTime": {
+        "timestamp": 1623778200
+      },
+      "endTime": {
+        "timestamp": 1623951000
+      },
+      "startTimestamp": 1623778200,
+      "endTimestamp": 1623951000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1291745.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1291745.3787351588,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGVmaWRvbGxhcjpzbmFwc2hvdDpxbWR0Y3Zvc2ZueWhqeGRzYnRjcjhpZnM5anI0OHEydWI0bWx6NnlwZWV6amNt",
+      "id": "QmdTCvoSFNYhjxdsbTcr8iFs9Jr48Q2ub4MLZ6ypEeZjcm",
+      "title": "[DIP-5] Yearn vault for $DUSD stablecoin liquidity",
+      "content": "Currently, yearn liquidity is being migrated to v2 vaults. The withdrawal fee from the vaults is [turned off](https://twitter.com/iearnfinance/status/1393431649698951169) and hence this is a good time to perform the migration of the underlying $DUSD liquidity which was proposed in the Q2 [roadmap](https://medium.com/defidollar/defidollar-roadmap-449465749537).\n\nYearn vault choices:\n\n1. crvSAAVE: Curve pool composed of aSUSD and aDAI. This pool was proposed by the DefiDollar team earlier. [Details](https://medium.com/defidollar/adai-asusd-curve-pool-c4cda9006142). This pool currently has $CRV and $AAVE incentives.\n\n2. 3CRV: The curve pool with the highest trading volume but a high reliance on centralized stablecoins.\n\n3. yUSD (yCRV vault): The $DUSD protocol currently parks liquidity in the yUSD v1 vault. Choosing this option would mean a liquidity migration from v1 to v2 vault.",
+      "protocol": "defidollar",
+      "adapter": "snapshot",
+      "proposer": "0x08F7506E0381f387e901c9D0552cf4052A0740a4",
+      "totalVotes": 10,
+      "blockNumber": 12437818,
+      "externalUrl": "https://snapshot.org/#/defidolla.eth/proposal/QmdTCvoSFNYhjxdsbTcr8iFs9Jr48Q2ub4MLZ6ypEeZjcm",
+      "startTime": {
+        "timestamp": 1621065600
+      },
+      "endTime": {
+        "timestamp": 1621238400
+      },
+      "startTimestamp": 1621065600,
+      "endTimestamp": 1621238400,
+      "currentState": "closed",
+      "choices": [
+        "crvSAAVE",
+        "3CRV",
+        "yUSD"
+      ],
+      "results": [
+        {
+          "total": 189699.12,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 189699.12663763383,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGVmaWRvbGxhcjpzbmFwc2hvdDpxbWE4N2RkeGg0d3p4dGc3c2xrcmdlNWdxcWRoZ2l2dW5rd2huZmVldWo4MWY2",
+      "id": "Qma87Ddxh4wZXTG7SLKrge5GQQDhGiVUNkWHnFEeuJ81f6",
+      "title": "[DIP-4] Incentives for DUSD/ETH Sushi pool",
+      "content": "This proposal is to re-evaluate the liquidity mining emissions for the DUSD/ETH sushiswap pool.\n\nThis pool was commissioned to attract liquidity from other stablecoin/ETH pairs. However, the pool has relatively low liquidity and trade volume. Currently, it is incentivized with 80,000 DFD/week which seems like an overkill for a pool that has about $3million in liquidity. We offer 2 alternatives, either allocate this amount to upcoming ibBTC vaults or refrain from spending it for now; effectively reducing the emissions.",
+      "protocol": "defidollar",
+      "adapter": "snapshot",
+      "proposer": "0x08F7506E0381f387e901c9D0552cf4052A0740a4",
+      "totalVotes": 0,
+      "blockNumber": 12349283,
+      "externalUrl": "https://snapshot.org/#/defidolla.eth/proposal/Qma87Ddxh4wZXTG7SLKrge5GQQDhGiVUNkWHnFEeuJ81f6",
+      "startTime": {
+        "timestamp": 1619884800
+      },
+      "endTime": {
+        "timestamp": 1620057600
+      },
+      "startTimestamp": 1619884800,
+      "endTimestamp": 1620057600,
+      "currentState": "closed",
+      "choices": [
+        "Continue the DUSD/ETH pool",
+        "Reallocate to ibBTC",
+        "Discontinue and reduce emission"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGVmaWRvbGxhcjpzbmFwc2hvdDpxbXNzemY1Z3p6d3piNW1qcm52c2VkeWVtYjVyd3F0ZHE2cHBoNnBkcHhwejc0",
+      "id": "QmSsZF5gZZwzb5mjRNVSEdyemB5RWQTDq6pPh6PDpxPZ74",
+      "title": "[DIP-3] Incentivise DEX pools on Binance Smart Chain",
+      "content": "Details: https://forum.dusd.finance/t/incentives-on-bsc-for-defidollar/50",
+      "protocol": "defidollar",
+      "adapter": "snapshot",
+      "proposer": "0x08F7506E0381f387e901c9D0552cf4052A0740a4",
+      "totalVotes": 0,
+      "blockNumber": 12275720,
+      "externalUrl": "https://snapshot.org/#/defidolla.eth/proposal/QmSsZF5gZZwzb5mjRNVSEdyemB5RWQTDq6pPh6PDpxPZ74",
+      "startTime": {
+        "timestamp": 1618900200
+      },
+      "endTime": {
+        "timestamp": 1619159400
+      },
+      "startTimestamp": 1618900200,
+      "endTimestamp": 1619159400,
+      "currentState": "closed",
+      "choices": [
+        "DFD/BNB",
+        "DFD/BUSD",
+        "Continue DFD/DUSD Balancer Pool"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGVmaWRvbGxhcjpzbmFwc2hvdDpxbXliYXY0aHZkZmxnNTNmcHBmcGNlYWVzemtrdm5mc3M5a2E2YmJmNWNreWty",
+      "id": "QmYBaV4hVdFLG53FPPfpCEAeSzKkVNfSS9Ka6bbF5ckYKR",
+      "title": "[DIP-2] Allocating DFD liquidity mining rewards to ibBTC",
+      "content": "Details: https://forum.dusd.finance/t/liquidity-mining-april-ibbtc-allocation/41",
+      "protocol": "defidollar",
+      "adapter": "snapshot",
+      "proposer": "0x08F7506E0381f387e901c9D0552cf4052A0740a4",
+      "totalVotes": 0,
+      "blockNumber": 12165099,
+      "externalUrl": "https://snapshot.org/#/defidolla.eth/proposal/QmYBaV4hVdFLG53FPPfpCEAeSzKkVNfSS9Ka6bbF5ckYKR",
+      "startTime": {
+        "timestamp": 1617431400
+      },
+      "endTime": {
+        "timestamp": 1617690600
+      },
+      "startTimestamp": 1617431400,
+      "endTimestamp": 1617690600,
+      "currentState": "closed",
+      "choices": [
+        "20% ibBTC - 80% DUSD",
+        "30% ibBTC - 70% DUSD",
+        "40% ibBTC - 60% DUSD"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGVmaWRvbGxhcjpzbmFwc2hvdDpxbXp1dXMxMWN2ZndwYXBobXM1M24xemJtZWF6dTNiaGtmempmcnllbnM5a2dm",
+      "id": "QmZUUs11CVfwPapHMs53N1ZbmeAzu3bhkfZJFRyENS9kGf",
+      "title": "testi",
+      "content": "yolo",
+      "protocol": "defidollar",
+      "adapter": "snapshot",
+      "proposer": "0xCf01547b6a3a41C459985EBA6874FEeaE0e3Fe8D",
+      "totalVotes": 0,
+      "blockNumber": 11543742,
+      "externalUrl": "https://snapshot.org/#/defidolla.eth/proposal/QmZUUs11CVfwPapHMs53N1ZbmeAzu3bhkfZJFRyENS9kGf",
+      "startTime": {
+        "timestamp": 1609171200
+      },
+      "endTime": {
+        "timestamp": 1612004400
+      },
+      "startTimestamp": 1609171200,
+      "endTimestamp": 1612004400,
+      "currentState": "closed",
+      "choices": [
+        "bambi",
+        "damki",
+        "gigi"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGVmaWRvbGxhcjpzbmFwc2hvdDpxbXVtaGptemFnbHJ1dmdoeml0Y2V3bmFkY3FqbnRiMnF1aXpxMXNzaXNjZ2t5",
+      "id": "QmUMhJmZaGLruVgHZitCeWnAdCqjNtB2qUiZq1SSiscGKY",
+      "title": "New DeFiDollar Logo",
+      "content": "Some in the community have proposed creating a new DeFiDollar logo that is more enticing and memorable. So, let's put it up to a vote.\n\nDoes the community want to change the logo and hold a brainstorming contest for a new look for DeFiDollar?",
+      "protocol": "defidollar",
+      "adapter": "snapshot",
+      "proposer": "0x8726E46618D880da56E9004Ad2a845950190822f",
+      "totalVotes": 0,
+      "blockNumber": 11653593,
+      "externalUrl": "https://snapshot.org/#/defidolla.eth/proposal/QmUMhJmZaGLruVgHZitCeWnAdCqjNtB2qUiZq1SSiscGKY",
+      "startTime": {
+        "timestamp": 1610622000
+      },
+      "endTime": {
+        "timestamp": 1610967600
+      },
+      "startTimestamp": 1610622000,
+      "endTimestamp": 1610967600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Let's Change the Logo",
+        "No, Keep As Is"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZGVmaWRvbGxhcjpzbmFwc2hvdDpxbXhmaWN0ajRiYWd0NWc2cnRtc3U5Y3pqd3pnd3doZDh6NGZ4bndlNXk4dDF3",
+      "id": "QmXFiCtj4BAgT5g6rTMSU9CZJWzGwwhD8z4fxNwE5y8T1w",
+      "title": "[DIP-1] ibDFD / ibDUSD vaults protocol fee split",
+      "content": "**Author**\n@shutterbugsid, @atvanguard\n\n**Summary**\nProposing fee sharing to redistribute the protocol income to the ibDFD (Interest-Bearing DFD) or DFD buyback vault.\n\n**Abstract**\nThe vault bakes in a DFD buyback mechanism into the protocol that is intended to accrue value for the DefiDollar stakeholders.\n\nCurrently the protocol income is directed to provide interest for the [ibDUSD ](https://app.dusd.finance/savings/) - The savings product, where DUSD holders stake their DUSD to earn a claim on the protocol’s income.\n\nWe propose to split the protocol income currently channeled to ibDUSD to establish a source of funding for the ibDFD vault. \n\nThe vote will be for the following breakup of protocol interest:\n\n1) ibDUSD - 50% & ibDFD - 50%\n2) ibDUSD - 70% & ibDFD - 30%\n\nCurrently the distribution stands at ibDUSD -100% and ibDFD - 0%\n\n**Relevance**\n\nWe are building a suite of products centred around the DefiDollar of which ibDUSD and ibDFD are the initial ones. The protocol income stream needs to be distributed accordingly in order to have positive network effects that lead to organic and sustainable long term growth of the protocol. \n\nBelow we highlight the pros and cons and also some concerns voiced by the community during our preliminary discussion on Discord.\n\nPros:\n1) Value accrues to DFD holders which is essential to strengthen the ecosystem as their incentivization is critical for the stability module and protocol governance.\n2) Given there is enough price appreciation created by the DFD buybacks there can be a surge in DUSD supply as more people would want to participate in yield farms using DUSD pools to farm DFD. This would lead to positive network effects.\n\nCons:\n1) ibDUSD has 4.2mn DUSD locked in at the time of writing. Depending on the vote the interest rate that these users receive will be impacted.\n2) The savings product will become less incentivized in the short term till network effects of the buyback are realized.\n\nNote: Your DFD ballet across all farming pools will be picked up automatically! i.e. you will not need to unstake DFD to vote in case you are yield farming in any of the active pools.\n",
+      "protocol": "defidollar",
+      "adapter": "snapshot",
+      "proposer": "0x08F7506E0381f387e901c9D0552cf4052A0740a4",
+      "totalVotes": 0,
+      "blockNumber": 11498480,
+      "externalUrl": "https://snapshot.org/#/defidolla.eth/proposal/QmXFiCtj4BAgT5g6rTMSU9CZJWzGwwhD8z4fxNwE5y8T1w",
+      "startTime": {
+        "timestamp": 1608561000
+      },
+      "endTime": {
+        "timestamp": 1608820200
+      },
+      "startTimestamp": 1608561000,
+      "endTimestamp": 1608820200,
+      "currentState": "closed",
+      "choices": [
+        "ibDUSD - 50% & ibDFD - 50%",
+        "ibDUSD - 70% & ibDFD - 30%"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

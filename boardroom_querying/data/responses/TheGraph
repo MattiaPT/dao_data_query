@@ -1,0 +1,251 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Z3JhcGhwcm90b2NvbDpzbmFwc2hvdDpxbXJ6MjlhZTR0eHBpOWhybmJuNnphMXNyZjF4ZWJlZ2J3OGh4cnBoenJ6NHJk",
+      "id": "QmRz29aE4TXpi9HrNbn6ZA1sRF1xEBeGbw8HxRpHZRZ4rD",
+      "title": "GIP-0013: Reduce Curation Tax",
+      "content": "This GIP proposes reducing the curation tax parameter in the protocol from 2.50% to 1.00%. Feedback received after launch of curation is that the cost of the curation tax may be too onerous for some network participants, particularly in instances where the subgraph needs to be upgraded multiple times due to bugs in the subgraph or due to the subgraph being under active development. This proposal significantly reduces the cost for subgraph upgrades.\n\nView the full proposal, including an evaluation of the Subgraph Withholding Attack here: https://hackmd.io/s3Fim2M8RxqWRLZ_8APuUg#\n\nFind the discussion for GIP-0013 in this Forum thread: https://forum.thegraph.com/t/proposal-to-reduce-curation-tax/2212\n\n---\n\nYou vote for the question: Do you support a curation tax reduction from 2.50% down to 1.00% ?",
+      "protocol": "graphprotocol",
+      "adapter": "snapshot",
+      "proposer": "0x1Ed916e723069c91130789E0eA8d300D8622D646",
+      "totalVotes": 331,
+      "blockNumber": 13276740,
+      "externalUrl": "https://snapshot.org/#/graphprotocol.eth/proposal/QmRz29aE4TXpi9HrNbn6ZA1sRF1xEBeGbw8HxRpHZRZ4rD",
+      "startTime": {
+        "timestamp": 1632330000
+      },
+      "endTime": {
+        "timestamp": 1632934800
+      },
+      "startTimestamp": 1632330000,
+      "endTimestamp": 1632934800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 212965890.0,
+          "choice": 0
+        },
+        {
+          "total": 2172401.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 212449299.38085788,
+          "choice": 0
+        },
+        {
+          "total": 2117585.361176926,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z3JhcGhwcm90b2NvbDpzbmFwc2hvdDpxbXRiZGdrZWFzdHkxdm5pcmxrcG1tcHR0cWlrbHZkc3U2N2VjbDVhem13djQz",
+      "id": "QmTbDGkeaSty1vNirLkpmMPtTqiKLVdSU67ECL5aZmWV43",
+      "title": "[Community Poll] GIP-0009: Arbitration Charter",
+      "content": "This is a community poll to measure support for GIP-0009, as well its dependencies: GIP-0008, GIP-0007, and GIP-0005. These changes were presented at recent [protocol town halls](https://forum.thegraph.com/tag/graph-townhall).\n\n- [**GIP-0009**](https://hackmd.io/MMHefHW5TxOOLtqqutP-VA) proposes an Arbitration Charter to clarify the behavior of the Arbitrator in the protocol and specify additional protections for Indexers. \n- [**GIP-0008**](https://hackmd.io/FU2VmNI6QnKK9vj3bQB4MQ) proposes a strategy for specifying the canonical version of subgraph API functionality in the protocol, as well as a support matrix that defines the support level for subgraph API features in the protocol.\n- [**GIP-0007**](https://hackmd.io/5MvmhaIARw2ohq2F9xn53w) proposes separate slashing percentages for indexing and query related faults, in order to balance the slashing risk to Indexers of participating in both activities. \n- [**GIP-0005**](https://hackmd.io/Ou0goFbrQGK4uwtogh-cfg) proposes a gas costing scheme for subgraphs in order to implement deterministic timeouts for long-running subgraph handler executions.\n\nThe full text of all the above GIPs can be found in [the Radicle repo](https://forum.thegraph.com/t/gip-0001-and-getting-started-with-gips-grps-grcs-etc/1722).  The latest commit as of this poll is `4bba37e454f67201dca8eb51837189a767e1dcc9`. For convenience, copies of the GIPs are also linked above.\n\n**Note**: This is a community poll to gauge support for the current state of the above GIPs. Proposals are subject to change based on community feedback.\n\n ",
+      "protocol": "graphprotocol",
+      "adapter": "snapshot",
+      "proposer": "0x37BC95e38235Ec42F185E945922a4E2C9795B391",
+      "totalVotes": 191,
+      "blockNumber": 12566080,
+      "externalUrl": "https://snapshot.org/#/graphprotocol.eth/proposal/QmTbDGkeaSty1vNirLkpmMPtTqiKLVdSU67ECL5aZmWV43",
+      "startTime": {
+        "timestamp": 1622822400
+      },
+      "endTime": {
+        "timestamp": 1623427200
+      },
+      "startTimestamp": 1622822400,
+      "endTimestamp": 1623427200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 931785340.0,
+          "choice": 0
+        },
+        {
+          "total": 517524.62,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 931732918.278156,
+          "choice": 0
+        },
+        {
+          "total": 517523.80787216686,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z3JhcGhwcm90b2NvbDpzbmFwc2hvdDpxbWQxa25nN3dtdXZhbDYyd3FyY3d0bm5vNnJtZmh0ODV6bWE1ZjVzZ3NzMTg2",
+      "id": "Qmd1kNg7wMUVaL62wQrCwTnno6rmFHt85zMa5f5SGss186",
+      "title": "GIP-0003: Fix accumulated subgraph rewards being reset to zero",
+      "content": "GIP-0003 resolves an issue that prevents indexing rewards from being collected in certain cases. The RewardsManager contract's main responsibility is to calculate rewards accrued for allocations based on the total token supply, tokens signaled on subgraphs, accumulated rewards on a subgraph and allocations. In a specific edge case, calculation could fail and block closing an allocation in a way that collects rewards.\n\nView the full proposal in the Graph Improvement Proposals repo hosted on [Radicle](https://radicle.xyz/), ID: `rad:git:hwd1yreg8s5ju3d7yr9w5p1zxpapjktajoxepf77womowk4mxaigp77rysr`\n\nFind the discussion for GIP-0003 in this [forum thread](https://forum.thegraph.com/t/accumulated-subgraph-rewards-reset-to-zero-on-edge-case/1537).\n\n",
+      "protocol": "graphprotocol",
+      "adapter": "snapshot",
+      "proposer": "0x37BC95e38235Ec42F185E945922a4E2C9795B391",
+      "totalVotes": 303,
+      "blockNumber": 12005450,
+      "externalUrl": "https://snapshot.org/#/graphprotocol.eth/proposal/Qmd1kNg7wMUVaL62wQrCwTnno6rmFHt85zMa5f5SGss186",
+      "startTime": {
+        "timestamp": 1615309200
+      },
+      "endTime": {
+        "timestamp": 1615910400
+      },
+      "startTimestamp": 1615309200,
+      "endTimestamp": 1615910400,
+      "currentState": "closed",
+      "choices": [
+        "I support",
+        "I don't support",
+        "I don't understand"
+      ],
+      "results": [
+        {
+          "total": 47947.35,
+          "choice": 9
+        },
+        {
+          "total": 3419295700.0,
+          "choice": 0
+        },
+        {
+          "total": 2301707.0,
+          "choice": 2
+        },
+        {
+          "total": 98176.98,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3419293980.137231,
+          "choice": 0
+        },
+        {
+          "total": 98176.9799883368,
+          "choice": 1
+        },
+        {
+          "total": 2301705.722447379,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Z3JhcGhwcm90b2NvbDpzbmFwc2hvdDpxbW50dWZjeDVzZ3QzamQxaGVkbWthNmxoOHdnbWpucWtpaWk3aDkxcnVhYmt3",
+      "id": "QmNTUFcx5SGt3Jd1heDmKa6Lh8WGmJnqKiii7H91RUAbKW",
+      "title": "GIP-0002: Separate destination address for Indexer indexing rewards",
+      "content": "GIP-0002 describes a mechanism for Indexers to withdraw rewards to a designated address instead of automatically re-staking these rewards in the protocol. The effect is that Indexers that interact with the protocol via the widely used TokenLock vesting contracts will be able to withdraw indexing rewards to cover operational costs, without fully unstaking from the protocol.\n\nView the full proposal in the Graph Improvement Proposals repo hosted on [Radicle](https://radicle.xyz/), ID: `rad:git:hwd1yreg8s5ju3d7yr9w5p1zxpapjktajoxepf77womowk4mxaigp77rysr`\n\nFind the discussion for GIP-0002 in this [forum thread](https://forum.thegraph.com/t/rewards-destination-for-indexers-indexing-rewards/1279).\n",
+      "protocol": "graphprotocol",
+      "adapter": "snapshot",
+      "proposer": "0x37BC95e38235Ec42F185E945922a4E2C9795B391",
+      "totalVotes": 370,
+      "blockNumber": 12005480,
+      "externalUrl": "https://snapshot.org/#/graphprotocol.eth/proposal/QmNTUFcx5SGt3Jd1heDmKa6Lh8WGmJnqKiii7H91RUAbKW",
+      "startTime": {
+        "timestamp": 1615309200
+      },
+      "endTime": {
+        "timestamp": 1615910400
+      },
+      "startTimestamp": 1615309200,
+      "endTimestamp": 1615910400,
+      "currentState": "closed",
+      "choices": [
+        "I support",
+        "I don't support",
+        "I don't understand"
+      ],
+      "results": [
+        {
+          "total": 3676507100.0,
+          "choice": 0
+        },
+        {
+          "total": 291291.84,
+          "choice": 2
+        },
+        {
+          "total": 10141838.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3676457708.392144,
+          "choice": 0
+        },
+        {
+          "total": 10141832.622850103,
+          "choice": 1
+        },
+        {
+          "total": 291291.51664209436,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

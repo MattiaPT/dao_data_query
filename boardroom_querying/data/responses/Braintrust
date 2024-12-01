@@ -1,0 +1,1594 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpvbmNoYWluOjc=",
+      "id": "7",
+      "title": "Allow Braintrust DAO gnosis Safe to withdrawal tokens for treasury management",
+      "content": "We're going to setup an on-chain treasury management tool called Aera (https://app.aera.finance/) to experiment with **Stablecoin-Only Yield**, **ETH/USDC Volatility Targeting** and **Levered ETH Staking**. &#x20;\n\nWe've met with the Gauntlet team who incubated Aera and feel it is a good risk management test for our on-chain treasury management.  We'll start with 300,000 BTRST.",
+      "protocol": "braintrust",
+      "adapter": "onchain",
+      "proposer": "0xf5D6bACf23eF66F8CE260D4b799b7EF74494d53e",
+      "totalVotes": 2,
+      "blockNumber": 19463453,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1710786443,
+      "endTimestamp": 1710996119,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 241703.72,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19463452
+          },
+          "event": "pending",
+          "timestamp": 1710786431,
+          "txHash": "0xdccdc2c6438f2b139ce866ceb055bceb56e3268e84c138d26f92f3f69d123334"
+        },
+        {
+          "time": {
+            "blockNumber": 19562104
+          },
+          "event": "executed",
+          "timestamp": 1711988135,
+          "txHash": "0xc101a18b4b52a61f399c8b0fef10f9586186532fb0a55282575ff85b0b6d98fb"
+        },
+        {
+          "time": {
+            "blockNumber": 19494990
+          },
+          "event": "queued",
+          "timestamp": 1711168955,
+          "txHash": "0xf0930507ef603c1ddd7069c7b0052fe441374938ca682aae3879aecc79181da9"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710786499363,
+      "txHash": "0xdccdc2c6438f2b139ce866ceb055bceb56e3268e84c138d26f92f3f69d123334",
+      "quorum": 100000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpvbmNoYWluOjY=",
+      "id": "6",
+      "title": "",
+      "content": "",
+      "protocol": "braintrust",
+      "adapter": "onchain",
+      "proposer": "0x6edC65D392e572eABbED279B64561646123086f8",
+      "totalVotes": 1,
+      "blockNumber": 18675843,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1701243695,
+      "endTimestamp": 1701452531,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 236777.17,
+          "choice": 0
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18675842
+          },
+          "event": "pending",
+          "timestamp": 1701243683,
+          "txHash": "0x525d0a4831ecddf25aef02a2fe94b194d47ec46e8951544c1e10b40cf2185e0c"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701244019286,
+      "txHash": "0x525d0a4831ecddf25aef02a2fe94b194d47ec46e8951544c1e10b40cf2185e0c",
+      "quorum": 100000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpvbmNoYWluOjU=",
+      "id": "5",
+      "title": "Braintrust marketplace business rule change: client fees",
+      "content": "The Braintrust community recently proposed, voted and passed a resolution to increase the client fee rate from 10% to 15%.  See Snapshot for more detail:  https://snapshot.org/#/usebraintrust.eth/proposal/0x6a484b61329d2496b66bf197995ade61440c2688d871f3268757e17b3839a971\n\nthis proposal modifies the smart contract the governs the fee rate in the Braintrust front end application.",
+      "protocol": "braintrust",
+      "adapter": "onchain",
+      "proposer": "0xf5D6bACf23eF66F8CE260D4b799b7EF74494d53e",
+      "totalVotes": 1,
+      "blockNumber": 17773239,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1690325999,
+      "endTimestamp": 1690534787,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 236896.16,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17794370
+          },
+          "event": "queued",
+          "timestamp": 1690581431,
+          "txHash": "0x6957ca510e29c549e3462702dd5f0878fc39aa05ec927e5aa037f22e7367409b"
+        },
+        {
+          "time": {
+            "blockNumber": 17844586
+          },
+          "event": "executed",
+          "timestamp": 1691187971,
+          "txHash": "0x6f726a8a85e64b5817996afc7ff5b40e77dabecf3cfa3f42fac914833660c2de"
+        },
+        {
+          "time": {
+            "blockNumber": 17773238
+          },
+          "event": "pending",
+          "timestamp": 1690325987,
+          "txHash": "0x5616599d0d9055b11bc38a644da7f93620c7aead4353ac81acd929f5e6aef66e"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690326038882,
+      "txHash": "0x5616599d0d9055b11bc38a644da7f93620c7aead4353ac81acd929f5e6aef66e",
+      "quorum": 100000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDoweDZhNDg0YjYxMzI5ZDI0OTZiNjZiZjE5Nzk5NWFkZTYxNDQwYzI2ODhkODcxZjMyNjg3NTdlMTdiMzgzOWE5NzE=",
+      "id": "0x6a484b61329d2496b66bf197995ade61440c2688d871f3268757e17b3839a971",
+      "title": "Proposal: Change in Client Side fees",
+      "content": "Proposal Summary:\nPropose to increase marketplace fees for clients from 10% to 15% for all hires going forward. \n\nProposed Change:\nSince Braintrust’s inception four years ago, fees have remained at a flat 10% charged to the client, which is often 90%+ below industry standards for contingent staffing services and 60%+ below industry standards for direct hire. That said, a nominal increase from 10% to 15% will still be far below industry average. Talent fees will remain at 0%.\n\nBenefits:\nBy collecting more fees from clients on each hire through Braintrust, this will give the network more resources to fund core operations (increasing project sustainability & accelerating growth) and also contribute more client fees to the fee converter. \n\nhttps://medium.com/snowfork/introducing-the-braintrust-fee-converter-21be7c8af951\n\nImplementation/Timeline:\nPropose that this change to the smart contract take effect on August 1, 2023. To roll this out, the platform fees will need to be updated, client/talent communications will need to be sent out, the website will need to be updated to reflect the changes, and the terms of service will need to be updated. \n\nAbout This Vote:\nVote WITH to update the fees from 10% to 15% for clients\nVote AGAINST to NOT update the fees from 10% to 15% for clients\nVote ABSTAIN if you would like to participate, but do not have a strong opinion\nMinimum of 100,000 BTRST total votes for voting to be validated",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0x2F45f7Fa28Bf4491E8E74A4977c05730A40fb0Eb",
+      "totalVotes": 20,
+      "blockNumber": 17680757,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/0x6a484b61329d2496b66bf197995ade61440c2688d871f3268757e17b3839a971",
+      "startTime": {
+        "timestamp": 1689204753
+      },
+      "endTime": {
+        "timestamp": 1689809400
+      },
+      "startTimestamp": 1689204753,
+      "endTimestamp": 1689809400,
+      "currentState": "closed",
+      "choices": [
+        "WITH",
+        "AGAINST",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 254254.39,
+          "choice": 0
+        },
+        {
+          "total": 2047.0455,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 254254.39018273,
+          "choice": 0
+        },
+        {
+          "total": 2047.045497901864,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689204815662,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpvbmNoYWluOjQ=",
+      "id": "4",
+      "title": "test",
+      "content": "test",
+      "protocol": "braintrust",
+      "adapter": "onchain",
+      "proposer": "0xf5D6bACf23eF66F8CE260D4b799b7EF74494d53e",
+      "totalVotes": 3,
+      "blockNumber": 17329786,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1684940291,
+      "endTimestamp": 1685150147,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 236923.38,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17329785
+          },
+          "event": "pending",
+          "timestamp": 1684940279,
+          "txHash": "0x68ebef795d2dd7ef689ad99120e522c1aafa9a3899f417302fe829f7dbc0bec1"
+        },
+        {
+          "time": {
+            "blockNumber": 18492922
+          },
+          "event": "queued",
+          "timestamp": 1699031243,
+          "txHash": "0xd02f51f061cf1bd76dbf5d441cabfebd931e4ed728e5b6677ce29047afa61988"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684940791344,
+      "txHash": "0x68ebef795d2dd7ef689ad99120e522c1aafa9a3899f417302fe829f7dbc0bec1",
+      "quorum": 100000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDoweGExNThkNmQxZjUxYzc1ZTQ5Y2VlMzEwMTdhMTc5ZmI0MDU2YTY2Y2ZiMmVkYzg3MzgxNDlhNDNiMTE1OGZmOTI=",
+      "id": "0xa158d6d1f51c75e49cee31017a179fb4056a66cfb2edc8738149a43b1158ff92",
+      "title": "[TEMPERATURE CHECK] DUPLICATE - Add Direct Hire Job Type to Braintrust Platform",
+      "content": "**A Note about this Proposal:** \nThe BT community has voted to conduct a re-vote on the original \"Add Direct Hire Job Type to Braintrust proposal\"  ([View original proposal](https://snapshot.org/#/usebraintrust.eth/proposal/QmWzoKkpGnHsS6uARPSGqLMyU7MLzWho56seSntza3vu7C)) in order to include the votes from Coinlists' internal vote.   For more information, please view the [revote proposal](https://snapshot.org/#/usebraintrust.eth/proposal/0x02913af718bad84bbf95151791bd58c2080ebd16a07c1815cc87d87d3743b3c1).  \n\n**No changes have been made to the below proposal.** \n\n___\n\n**Proposal Summary:** \nThis proposal introduces an additional payment/fee model that would enable clients to hire full time/direct hires on the platform, in addition to freelance / contractors.   \n\n\n**Problem Overview:** \nContractor hiring tends to be a low % of overall hiring at most organizations and many remain focused on full-time employees (FTEs). In addition, Braintrust is seeing a growing number of clients want to ultimately hire FTEs, but will agree to a 3-6 month contract before doing so – as a result we only get 3-6 months of GSV before the talent leaves the network (and fees for the converter).\n\nThat said, we do have lots of Talent/Community members who are interested in being hired directly as a full time employee vs. contractor or contract-to-hire.\n\n**Proposed Solution:**\n\nContinue to market Braintrust as a “freelance” network, but also enable clients to do direct hires for a fee. This will open up Braintrust to all types of talent who may be interested in freelance/contract, contract-to-hire, and/or getting hired directly. Proposed direct hire fee as follows: \n\nHiring talent directly fees:\n\n- Hire in first 0-6 months = 10% of first year salary (still way below market standard)\n- Hire after 6+ months = no conversion fees\n\nBraintrust will not offer guarantees or refunds. This is justified because most staffing firms will charge 20-30%+ for placements, but will have 90 day grace periods if the talent doesn’t work out. If in doubt, they can hire them as a contractor for 2 months, then convert at 10%. \n\n**Example Scenarios:** \n- Talent is hired directly (day 1) as an FTE and their annual salary is estimated at $150k, client pays $15k in fees to the fee converter up front. \n- Talent is converted to FTE after 3 months of contracting and their annual salary is estimated at $150k, client pays $15k in fees to the fee converter (15mo of fees total).\n- Talent is converted to FTE after 6 months, client pays $0 additional fees.\n\nThis message is simple, easy to understand, and aligned with our existing 10% messaging.  \n\n**GCV / Fee Impact in next 12 months (VERY HIGH):**\n\nGCV = Gross Contract Value. GCV looks at all the projects that have accepted offers and the anticipated contract value. This metric represents all actual and anticipated income into the Braintrust network. \n\n- **GCV: Add $50-100M in incremental GCV** \n- **Fee Converter: Add $5-10M**\n- Assumptions (hypothetical model here showing path to incremental $100M) [https://docs.google.com/spreadsheets/d/1TfSG6j13WfMlE3O3nkYcnBX-Y8ectQu3saohzV34N1A/edit?usp=sharing]\n- Add 20% more FTE jobs MoM (April - March)\n- Maintain 35% trailing fill rate for these roles\n- Average pay rate of $75/hr (below current average of $90/hr) – $150k salary\n\n**Benefits:** \n- Expand Total Addressable Market (TAM) significantly – opens up more clients and significantly more jobs within existing clients\n- More fees for the converter – instead of getting 3-6 months of fees for those who ultimately convert after 3-6 months, we can lock in 12mo of fees up front\n- More fees up front – we receive all the fees up front to juice the converter (or we can spread it out over time). \n- We don’t need to worry about ongoing collections with these - helping our float situation\n- Super easy to forecast vs. not knowing exactly when projects will be completed\n- Doubles our GCV per new job (12mo vs. 6mo terms)\n\n**Risks:**\n- We may lose talent out of the network, because they are getting hired directly. (Counter Argument: talent would likely be leaving the platform anyway after 3-6mo if the client intends to convert them either way).\n- Supporting a different job type in the Platform will require dedicated product resources and a shift in priorities.  \n\n**Open Questions to be determined at a later date:** \n- How will GSV be reported on the Network Dashboard?  As a single amount? Or amortized? \n- When will the fees be transferred to the fee converter? Up front or over 12mo?\n\n**About the vote:**\nThis is a temperature check to determine if Braintrust should/should not implement Direct Job hires on the Network.  \n- Vote WITH to add the Direct Hire Job type to the Braintrust Network\n- Vote AGAINST to NOT add Direct Hire Job type to the Braintrust Network.\n- Vote ABSTAIN if you would like to participate, but do not have a strong opinion.  \n\nBoth the Abstain voting option, and the “Weighted voting” vote type have been added at the request of the Coinlist Custodial Wallet.  BTRST token holders, who are keeping their tokens in their custodial Coinlist wallets are able to vote on this proposal internally at Coinlist.  The multisig custodial wallet will delegate votes to an eligible wallet and will disperse the voting power of that wallet to reflect the results of the internal Coinlist vote.  \n",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xdd892d0c8448fE759D2b19b8cbc15793596Cc749",
+      "totalVotes": 23,
+      "blockNumber": 14520604,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/0xa158d6d1f51c75e49cee31017a179fb4056a66cfb2edc8738149a43b1158ff92",
+      "startTime": {
+        "timestamp": 1649178000
+      },
+      "endTime": {
+        "timestamp": 1649696400
+      },
+      "startTimestamp": 1649178000,
+      "endTimestamp": 1649696400,
+      "currentState": "closed",
+      "choices": [
+        "WITH",
+        "AGAINST",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 3040285.8,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 282069.0266038802,
+          "choice": 0
+        },
+        {
+          "total": 72537.51000005566,
+          "choice": 1
+        },
+        {
+          "total": 2685679.268762061,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDoweDAyOTEzYWY3MThiYWQ4NGJiZjk1MTUxNzkxYmQ1OGMyMDgwZWJkMTZhMDdjMTgxNWNjODdkODdkMzc0M2IzYzE=",
+      "id": "0x02913af718bad84bbf95151791bd58c2080ebd16a07c1815cc87d87d3743b3c1",
+      "title": "Conduct Revote on “[TEMPERATURE CHECK] Add Direct Hire Job Type to Braintrust Platform” Proposal",
+      "content": "Proposal Summary:\nConduct a revote on the “[TEMPERATURE CHECK] Add Direct Hire Job Type to Braintrust Platform” proposal (proposal ID: QmWzoKkpGnHsS6uARPSGqLMyU7MLzWho56seSntza3vu7C). Due to a technical difficulty, delegates were unable to vote on behalf of their delegators in the original proposal, which would not reflect the community’s decision. \n\nProblem Overview:\nThe “erc20-balance-of-delegation” Snapshot strategy for the proposal was misconfigured, thus most delegates were not able to participate in the vote. At the end of the proposal, a large portion of voters participated via delegation. For instance, ~8.8k $BTRST (27 voters) voted on Snapshot while ~298k $BTRST (1,092 voters) voted on CoinList. \n\nProposed Solution:\nDo a revote on the “[TEMPERATURE CHECK] Add Direct Hire Job Type to Braintrust Platform” proposal (proposal ID: QmWzoKkpGnHsS6uARPSGqLMyU7MLzWho56seSntza3vu7C).\n\nAction Plan:\n- CoinList and Braintrust teams reconfigure the proposal to ensure delegation is enabled correctly for the revote\n- CoinList and Braintrust teams submit the exact same proposal again to Snapshot \n- Users cast a revote\n\nBenefits:\n- Does not interfere with the original proposal or disrupt Braintrust’s governance process\n- Allows delegates to accurately reflect their delegators opinions on the subject matter \n\nRisks: \n- Potential for lower participation rates due to a revote\n- Potential not to reflect the exact voting intentions of voters initially participating in the vote\n\nAbout the vote:\nThis is a vote to determine if the community should cast a revote on the “[TEMPERATURE CHECK] Add Direct Hire Job Type to Braintrust Platform” proposal.\nVote WITH if you think the community should cast a revote.\nVote AGAINST if you think the community should not cast a revote.\nVote ABSTAIN if you would like to abstain. \n\n\n\n\n\n",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0x99984decaF60Da61201f8e370C049f5783185624",
+      "totalVotes": 9,
+      "blockNumber": 14432044,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/0x02913af718bad84bbf95151791bd58c2080ebd16a07c1815cc87d87d3743b3c1",
+      "startTime": {
+        "timestamp": 1647975600
+      },
+      "endTime": {
+        "timestamp": 1648580400
+      },
+      "startTimestamp": 1647975600,
+      "endTimestamp": 1648580400,
+      "currentState": "closed",
+      "choices": [
+        "WITH",
+        "AGAINST",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 3308020.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 314288.6703435663,
+          "choice": 0
+        },
+        {
+          "total": 23246.549999999996,
+          "choice": 1
+        },
+        {
+          "total": 2970484.914243118,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbXd6b2trcGduaHNzNnVhcnBzZ3FsbXl1N21sendobzU2c2VzbnR6YTN2dTdj",
+      "id": "QmWzoKkpGnHsS6uARPSGqLMyU7MLzWho56seSntza3vu7C",
+      "title": "[TEMPERATURE CHECK] Add Direct Hire Job Type to Braintrust Platform",
+      "content": "**Proposal Summary:** \nThis proposal introduces an additional payment/fee model that would enable clients to hire full time/direct hires on the platform, in addition to freelance / contractors.   \n\n\n**Problem Overview:** \nContractor hiring tends to be a low % of overall hiring at most organizations and many remain focused on full-time employees (FTEs). In addition, Braintrust is seeing a growing number of clients want to ultimately hire FTEs, but will agree to a 3-6 month contract before doing so – as a result we only get 3-6 months of GSV before the talent leaves the network (and fees for the converter).\n\nThat said, we do have lots of Talent/Community members who are interested in being hired directly as a full time employee vs. contractor or contract-to-hire.\n\n**Proposed Solution:**\n\nContinue to market Braintrust as a “freelance” network, but also enable clients to do direct hires for a fee. This will open up Braintrust to all types of talent who may be interested in freelance/contract, contract-to-hire, and/or getting hired directly. Proposed direct hire fee as follows: \n\nHiring talent directly fees:\n\n- Hire in first 0-6 months = 10% of first year salary (still way below market standard)\n- Hire after 6+ months = no conversion fees\n\nBraintrust will not offer guarantees or refunds. This is justified because most staffing firms will charge 20-30%+ for placements, but will have 90 day grace periods if the talent doesn’t work out. If in doubt, they can hire them as a contractor for 2 months, then convert at 10%. \n\n**Example Scenarios:** \n- Talent is hired directly (day 1) as an FTE and their annual salary is estimated at $150k, client pays $15k in fees to the fee converter up front. \n- Talent is converted to FTE after 3 months of contracting and their annual salary is estimated at $150k, client pays $15k in fees to the fee converter (15mo of fees total).\n- Talent is converted to FTE after 6 months, client pays $0 additional fees.\n\nThis message is simple, easy to understand, and aligned with our existing 10% messaging.  \n\n**GCV / Fee Impact in next 12 months (VERY HIGH):**\n\nGCV = Gross Contract Value. GCV looks at all the projects that have accepted offers and the anticipated contract value. This metric represents all actual and anticipated income into the Braintrust network. \n\n- **GCV: Add $50-100M in incremental GCV** \n- **Fee Converter: Add $5-10M**\n- Assumptions (hypothetical model here showing path to incremental $100M) [https://docs.google.com/spreadsheets/d/1TfSG6j13WfMlE3O3nkYcnBX-Y8ectQu3saohzV34N1A/edit?usp=sharing]\n- Add 20% more FTE jobs MoM (April - March)\n- Maintain 35% trailing fill rate for these roles\n- Average pay rate of $75/hr (below current average of $90/hr) – $150k salary\n\n**Benefits:** \n- Expand Total Addressable Market (TAM) significantly – opens up more clients and significantly more jobs within existing clients\n- More fees for the converter – instead of getting 3-6 months of fees for those who ultimately convert after 3-6 months, we can lock in 12mo of fees up front\n- More fees up front – we receive all the fees up front to juice the converter (or we can spread it out over time). \n- We don’t need to worry about ongoing collections with these - helping our float situation\n- Super easy to forecast vs. not knowing exactly when projects will be completed\n- Doubles our GCV per new job (12mo vs. 6mo terms)\n\n**Risks:**\n- We may lose talent out of the network, because they are getting hired directly. (Counter Argument: talent would likely be leaving the platform anyway after 3-6mo if the client intends to convert them either way).\n- Supporting a different job type in the Platform will require dedicated product resources and a shift in priorities.  \n\n**Open Questions to be determined at a later date:** \n- How will GSV be reported on the Network Dashboard?  As a single amount? Or amortized? \n- When will the fees be transferred to the fee converter? Up front or over 12mo?\n\n**About the vote:**\nThis is a temperature check to determine if Braintrust should/should not implement Direct Job hires on the Network.  \n- Vote WITH to add the Direct Hire Job type to the Braintrust Network\n- Vote AGAINST to NOT add Direct Hire Job type to the Braintrust Network.\n- Vote ABSTAIN if you would like to participate, but do not have a strong opinion.  \n\nBoth the Abstain voting option, and the “Weighted voting” vote type have been added at the request of the Coinlist Custodial Wallet.  BTRST token holders, who are keeping their tokens in their custodial Coinlist wallets are able to vote on this proposal internally at Coinlist.  The multisig custodial wallet will delegate votes to an eligible wallet and will disperse the voting power of that wallet to reflect the results of the internal Coinlist vote.  \n",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xA0F8FaeD3ed20D4C8E6B422EdFD0A07C69fF9711",
+      "totalVotes": 27,
+      "blockNumber": 14311185,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmWzoKkpGnHsS6uARPSGqLMyU7MLzWho56seSntza3vu7C",
+      "startTime": {
+        "timestamp": 1646337600
+      },
+      "endTime": {
+        "timestamp": 1646942400
+      },
+      "startTimestamp": 1646337600,
+      "endTimestamp": 1646942400,
+      "currentState": "closed",
+      "choices": [
+        "WITH",
+        "AGAINST",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 8803.675,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 8793.674706342457,
+          "choice": 0
+        },
+        {
+          "total": 10.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbXh5cTRwZ2Fyb3Uxb2RkcHp4ano5dWh0dnFrbnBxcG0zamdtcGZ4aHhrYTZ0",
+      "id": "QmXYq4pgarou1odDPzXJZ9UhTvqKnPqpm3JgmPFxHxKA6T",
+      "title": "[TEMPERATURE CHECK] On-board an additional node to the Braintrust Network",
+      "content": "## Overview of Proposal:  \nThe Ownership Economy Association would like [Kunai](https://www.kunaico.com/) to join the Braintrust network as a node.  This would involve Kunai running all of its GSV through the Braintrust network, paying the 10% network fee, as well as Kunai’s management team joining as core contributors, building out the Braintrust network’s footprint in the financial services industry.  This will be a governance proposal on Snapshot/Discord and the community will vote on it.  To learn more about the Ownership Economy Association, please review the [Braintrust Whitepaper](https://www.usebraintrust.com/hubfs/%5BWhitepaper%5D%20Braintrust_The_Decentralized_Talent_Network_9_2_21.pdf). \n\n## Overview of Kunai: \nKunai is a digital product agency with a leadership team that has shipped over 150 products during the past twenty years. Since 2014, the agency has focused on financial services, working with large financial institutions and growing Fintech startups. Kunai has a flexible engagement model; it can provide the full-service agency treatment or simply augment the client’s existing team with specific people. \n\n## Key Kunai data points:\n- GSV for 2021 is $12,500,000 \n- ⅓ talent staffing, ⅔ agency engagements\n- GSV for 2022 is projected to be $20,000,000 (projected to be 50/50 agency & staffing)\n- 12 active clients across 3 industries\n- 110 active talent in its network \n- Core roles filled by Kunai: software engineering, design, and product management\n- Core talent skillsets: Scala, GoLang, React, iOS, Android, JAVA, Ruby on Rails, Creative Direction, UI Design, Fintech Strategy, Project Management, Product Management \n\t\n\n| Talent Type                  | Head-Count |\n|------------------------------|-----------:|\n| Product Managers             |         13 |\n| UI Designers                 |          8 |\n| Scala Engineers              |         16 |\n| Full Stack Web Engineers     |         23 |\n| Full Stack Mobile Engineers  |          8 |\n| Software Architects          |          4 |\n| Front-end Web Engineers      |          5 |\n| Backend Web Engineers        |         11 |\n| DevOps Engineers             |          5 |\n| QA Engineers                 |          6 |\n| JAVA/Go Engineers            |          7 |\n| FinTech Strategy Consultants |          4 |\n| Total                        |        110 |\n\n\n\n## Key integration points:\n- Kunai talent will create Braintrust talent accounts and request approval. \n- Kunai clients will continue to bill on its own platform.  Any existing contracts, margin, etc, remain private to Kunai.\n- All client expansion through jobs posted on Braintrust will use - Braintrust’s core platform for billing, contracts, hiring, etc\nKunai and Braintrust will pitch Kunai prospects on the Braintrust Network platform.\n- Kunai’s GSV will contribute to the overall network GSV, thus making Braintrust instantly larger and more attractive to clients and talent.\n10% of all Kunai GSV must be remitted to the Braintrust Fee Converter smart contract which converts USD to BTRST and sends it to the Braintrust Governor Alpha DAO. \n- Kunai has a robust talent recruiting engine that the entire Braintrust talent recruiting system will benefit from.  Kunai will share the tactics and IP with the goal of increasing overall talent recruiting efficiency over the entire Braintrust network.\n- Braintrust talent operations team will work in conjunction with Kunai to accelerate talent acquisition for both entities. \n- Lead routing to separate nodes \n- Part of the benefit of being a Braintrust node is getting access to the firehose of new client leads that come in because of the strength and growth of the Braintrust brand.\n- Leads should be routed based on the categories the node serves. In Kunai’s case, the focus will be financial services. Kunai has deep experience with serving both financial institutions and with building payment solutions for non-financial companies.  \nMarketing\n- Kunai’s brand and reputation in the Financial Services category will accelerate client / job posting growth on the Braintrust network.\nBraintrust network marketing and PR engine used to accelerate marketing in financial services category. \n- Kunai + Braintrust to publish writing about the ‘Web3 Agency’. “Decentralized networks will redefine the agency experience, leading to deeper transparency, increased collaboration among agencies, and a flatter engagement structure.”\n\n## BTRST Compensation:\nFundamentals:\nKunai is taking 10% of their revenue to buy BTRST which will be less liquid than buying it on the open market.  They need to be compensated for that, probably through a lower cost basis for the BTRST: **20% discount to trailing 90 day average.**\nMechanics:\n- Each quarter, we grant BTRST at (IE $5/BTRST) based on how much they paid in fees to the fee converter smart contract.  \n- Vesting: each grant has a **4 year vesting period with a 1 year cliff.**\n- Grant is not tied to the node continuing to be in the program.  They're compensation for prior membership as a node.  They'll be awarded to your individual wallets on Braintrust\nExample: \nin Q1 2022 they do $5m in GSV and pay $500k in fees\n- They get a grant for 100,000 BTRST that vests monthly over 4 years with a 1 yr cliff\n- Each quarter, their next BTRST grant price should be reset to **20% discount to a 90 day trailing average.**\n- This way, they’re earning BTRST at a discount to market rate and thus being compensated for their cash contribution\n- The vesting schedule prevents them from dumping too much on the market / just using the system to generate cash by selling their discounted tokens immediately\n\n\n## Severability: \n- The community can vote to sever this agreement if it become disadvantageous to the network\n- Node can simply stop participating (stop sending USDC to the fee converter)\n\n\n## Execution: \n- If this temperature check passes, a new smart contract should be created that will:\n- Keeping a whitelist of permitted nodes on the network.  Kunai will be #7.\n- Parameters for the node compensation program:\n- Valuing the BTRST grants\n- Vesting the BTRST grants\n- Node BTRST balance required (for future implementation)\n\n## Vote:\n- Vote **WITH** if you agree on bringing in Kunai as a seventh node of the Braintrust Network. \n- Vote **AGAINST** if you disagree with bringing in Kunai as a seventh node of the Braintrust Network.  \n\n\n\n\n\n\n",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xDf8AF150303CD69BfDDF200aB774c53706Be0111",
+      "totalVotes": 27,
+      "blockNumber": 14182241,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmXYq4pgarou1odDPzXJZ9UhTvqKnPqpm3JgmPFxHxKA6T",
+      "startTime": {
+        "timestamp": 1644613200
+      },
+      "endTime": {
+        "timestamp": 1645218000
+      },
+      "startTimestamp": 1644613200,
+      "endTimestamp": 1645218000,
+      "currentState": "closed",
+      "choices": [
+        "WITH",
+        "AGAINST"
+      ],
+      "results": [
+        {
+          "total": 28939.92,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 28939.921217904615,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDoweGI5NDU2NDA4M2ExM2RlMTdiMzA4ZjMxNjRmYmFhZThiNGQ5MjVkYzk0ZjBiZjVlMTM5ZDQxMGFiMDQ3MmVjOGY=",
+      "id": "0xb94564083a13de17b308f3164fbaae8b4d925dc94f0bf5e139d410ab0472ec8f",
+      "title": "Implementing staking token holding",
+      "content": "|| PROBLEM ||\n\nAdded Incentive for BTRST holders.\n\nThere is no perpetual rewards incentive for holders of BTRST tokens either being talents, companies and private or institutional investors.\n\n|| SOLUTION ||\n\n> Staking BTRST Tokens.\nThe main reason that staking is essential is to ensure that people will be rewarded for being loyal by holding and not selling their BTRST tokens with one very simple job: Hold in a specific wallet and at a later more mature stage [ Hold + Vote ] under a special governance portal. \n\n> Steps to Stake Braintrust\nNo complex action is required to start staking. If the proposal is approved a rewards wallet ( can be named BrainWallet ) with a minimum balance of 500 BTRST will be needed.\n\nThe proposed return could be 14.6% APY (Annual Percentage Yield) for all tokens that are allocated in the locked wallet. This can be done immediately and the only gas fee needed is transferring the tokens from Coinbase or Coinlist or any other CEX that someone bought the tokens. In case the tokens are Airdropped from the on-chain wallets for any reason then they must go direct to the Braintrust Wallet.\n\nStaking will be the primary profit distribution mechanism of the protocol for holders of BTRST that want to lock their tokens. It will be designed to be the primary mechanism of value accrual for the majority of users. For the holders, the best thing to do is to simply stake and compound the BTRST acquired\n\nThe minimum amount for withdrawal from the Braintrust Wallet will be 250 x BTRST tokens and the fee for all withdrawals will be 20 x BTRST tokens.\n\nThere can be a specific period of time for staking so that renewal can be voted on by the community once it's finished. The period can be 3 months each time.\n\n|| Summary of Terms Proposed ||\n\n* Period: 3 months\n* APY: 14.6 APY\n* Minimum tokens to participate: 500 x BTRST\n* Minimum amount to withdraw: 250 x BTRST\n* Fee for removal tokens: 20 x BTRST\n* Rewards Distribution: Weekly on Mondays\n\n|| ABOUT ||\nThis proposal is checking to see if the greater community is willing to dedicate development resources to add another special wallet feature for staking.\n",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0x33F3A1e8fDBc5e85fbA15cA7F00D0098068777f3",
+      "totalVotes": 38,
+      "blockNumber": 14125787,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/0xb94564083a13de17b308f3164fbaae8b4d925dc94f0bf5e139d410ab0472ec8f",
+      "startTime": {
+        "timestamp": 1644184800
+      },
+      "endTime": {
+        "timestamp": 1644789600
+      },
+      "startTimestamp": 1644184800,
+      "endTimestamp": 1644789600,
+      "currentState": "closed",
+      "choices": [
+        "WITH",
+        "AGAINST"
+      ],
+      "results": [
+        {
+          "total": 106906.85,
+          "choice": 0
+        },
+        {
+          "total": 34177.805,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 106906.85619202872,
+          "choice": 0
+        },
+        {
+          "total": 34177.80382455588,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDoweDk5M2EyZmJiNjQ1MTkyMjFiMDYyZGI1NGI4YWViOTYyYjBmMjcyNTI2OGJkNTc0ZDBmYzVjY2JkNmRlMTQ3MTY=",
+      "id": "0x993a2fbb64519221b062db54b8aeb962b0f2725268bd574d0fc5ccbd6de14716",
+      "title": "[Consensus Check] Which grants should be included in the MVP Wave?",
+      "content": "\n## About the Braintrust Grants Program:\nThe Grants program awards tokens and/or USD to community members and/or teams who take on initiatives to grow the project ecosystem. Rewards can be given for a variety of contributions from technical and research projects, to marketing activations and community education.\nIn a previous governance proposal, the formation of the inaugural Grants Committee was formed.  Review the passed proposal [here](https://snapshot.org/#/usebraintrust.eth/proposal/0x6c91c2cef94ce974fc093b80a4c2bdcf51c9d800e76d0580f8c9dee79f860757).  \n\nFunding for the Grants Program comes from a substantial token purchase.  Learn more about it [here](https://www.usebraintrust.com/blog/-100m-btrst-purchase?hsCtaTracking=9bd50de0-20a7-44f7-9a4f-262ca1d7609f%7C39166321-2b72-4982-91fe-8c7084a8870e). \n## About the MVP Grants Program:\nThe MVP Program serves to educate the wider Braintrust community about the mechanics of a Grants Program. The goal is to learn how to scale up the program and enable more grants in the future. The MVP program serves as a testing ground for how Braintrust contributors can plug into existing structures and processes.\nThe MVP Wave is the first round of grants to be made available to the community.  Call for submissions opens on January 12, 2022, and will include grants that are voted into the wave. Click on the links of each grant to learn more about them. \n### Ambassador Grants - 5 grants, totaling $36,600\n| Grant Number                                                                                 | Title                                          | Overview                                                                                                             | Total Compensation |\n|----------------------------------------------------------------------------------------------|------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|--------------------|\n| [A-0001](https://drive.google.com/file/d/1L2URDZ-j4cpMGCEK1BT9x2gzeN5mu4Cu/view?usp=sharing) | Social Media Ambassador Program Infrastructure | Build the infrastructure for the Social Media Ambassador Program to measure progress, and run test with first cohort |             $9,000 |\n| [A-0002](https://drive.google.com/file/d/1p6tGQmoe7KIwox89KO5CqtkSgai8Gx9Q/view?usp=sharing) | Discord Ambassador Program Infrastructure      | Build the infrastructure for the Discord Ambassador Program to measure progress, and run test with first cohort      |             $9,000 |\n| [A-0003](https://drive.google.com/file/d/120RpCKYlJpQyQOtzWOvCtYZrgO9_HgvM/view?usp=sharing) | Membership Ambassador Program Infrastructure   | Build the infrastructure for the Memberships Ambassador Program to measure progress, and run test with first cohort  |            $10,000 |\n| [A-0004](https://drive.google.com/file/d/13js47KwN24VJgHMks2H4q_qJK2QLPg7K/view?usp=sharing) | Social Media Analytics                         | Build social media reporting and analytics                                                                           |             $5,000 |\n| [A-0005](https://drive.google.com/file/d/1-2gkOiLSqocSz4Am-oB_FRd_oj86quCw/view?usp=sharing) | Web3 Landscape Explained                       | Build content and graphics that place Braintrust in context with other Web3 projects                                 |             $3,600 |\n\n### Builder Grants - 4 grants, totaling up to $57,750*\nNote: B-0004 is not yet approved by the Grants Committee.  This grant is subject to change in total compensation. \n| Grant Number                                                                                 | Title                              | Overview                                                                                                                           | Total Compensation |\n|----------------------------------------------------------------------------------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|--------------------|\n| [B-0001](https://drive.google.com/file/d/1b-znazqI4bAILPqKUNI9DsMYpZ2x7Tm0/view?usp=sharing) | Badging System / Skills Competency | Create external assessments that could grant badges to freelancers on their profiles                                               |         $14,250.00 |\n| [B-0002](https://drive.google.com/file/d/15UBokevxOXlm0IFMbRRsptt-eUO3peKQ/view?usp=sharing) | Jobs Module: Comments and/or FAQs  | Comments or FAQs specific for (interesting things to figure out: keep it useful, keep it relevant, keep out spam)                  |          $9,000.00 |\n| [B-0003](https://drive.google.com/file/d/15UBokevxOXlm0IFMbRRsptt-eUO3peKQ/view?usp=sharing) | Off-chain votes added to Vote Page | Overhaul the Vote page to include off-chain voting and include Snapshot votes (past and present) and update with new UI (provided) |          $8,500.00 |\n| [B-0004](https://drive.google.com/file/d/1hz-Y-i3Y1lDVaEr15VJHr73QAQzqMdxx/view?usp=sharing) | Ticketing System                   | A way for clients/talent to submit tickets for triage and reporting                                                                |         $26,000.00 |\n\n### Educator Grants - 3 grants, totaling up to $26,000\n| Grant Number                                                                                 | Title                                        | Overview                                                                                                                                                                                                                       | Total Compensation |\n|----------------------------------------------------------------------------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|\n| [E-0001](https://drive.google.com/file/d/146r28s2DEpyK3gcvPQce3-dkXFqdbUxt/view?usp=sharing) | Educator Program - Onboarder                 | Recruit, train, and launch the first batch of Community Onboarders based on the Educators roles spec.                                                                                                                          |            $10,000 |\n| [E-0002](https://drive.google.com/file/d/1vW7Sd6TD9qEZOzTljfzryCf351kbCuaI/view?usp=sharing) | Educator Program - Mentor                    | Recruit, train, and launch the first batch of Mentors based on the Educators roles spec.                                                                                                                                       |            $10,000 |\n| [E-0003](https://drive.google.com/file/d/1ZEQeU8pBn5PUmmDGItmN5Rj61HuuuK-3/view?usp=sharing) | Web3 and the Ownership Economy Cohort Course | Create an educational series like [this one](https://ournetwork.mirror.xyz/gP16wLY-9BA1E_ZuOSv1EUAgYGfK9mELNza8cfgMWPQ) to educate the community about web3 and ownership and further encourage contribution to the community. |             $6,000 |\n\n\n## How the vote works: \nGrants need at least 2% of the overall vote to be included in the wave.  Distribute your voting power to the grants you wish to include in the MVP Wave. Remember - you are voting for which grants are included, not the grants you personally want to apply for.  A temperature check was not necessary for this vote.",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xdd892d0c8448fE759D2b19b8cbc15793596Cc749",
+      "totalVotes": 39,
+      "blockNumber": 13953771,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/0x993a2fbb64519221b062db54b8aeb962b0f2725268bd574d0fc5ccbd6de14716",
+      "startTime": {
+        "timestamp": 1641498060
+      },
+      "endTime": {
+        "timestamp": 1641952800
+      },
+      "startTimestamp": 1641498060,
+      "endTimestamp": 1641952800,
+      "currentState": "closed",
+      "choices": [
+        "A1 - Social Media Ambdr Program",
+        "A2 - Discord Ambdr Program",
+        "A3 - Membership Ambdr Program ",
+        "A4 - Social Media Analytics",
+        "A5 - Web3 Landscape",
+        "B1 - Badging System",
+        "B2 - Job Comments",
+        "B3 - Vote Page",
+        "B4 - Support Ticket System",
+        "E1 - Onboarder",
+        "E2 - Mentors",
+        "E3 - Web3 Course"
+      ],
+      "results": [
+        {
+          "total": 502.03085,
+          "choice": 59
+        },
+        {
+          "total": 4250.1606,
+          "choice": 9
+        },
+        {
+          "total": 20.0,
+          "choice": 19
+        },
+        {
+          "total": 11.0,
+          "choice": 5
+        },
+        {
+          "total": 510.0,
+          "choice": 4
+        },
+        {
+          "total": 32555.102,
+          "choice": 0
+        },
+        {
+          "total": 100.0,
+          "choice": 14
+        },
+        {
+          "total": 503.32608,
+          "choice": 32
+        },
+        {
+          "total": 13.0,
+          "choice": 7
+        },
+        {
+          "total": 100.0,
+          "choice": 24
+        },
+        {
+          "total": 5871.5693,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 4738.5965292429955,
+          "choice": 0
+        },
+        {
+          "total": 1252.772408963585,
+          "choice": 1
+        },
+        {
+          "total": 1295.4152661064418,
+          "choice": 2
+        },
+        {
+          "total": 1318.3081232492991,
+          "choice": 3
+        },
+        {
+          "total": 4109.573566563586,
+          "choice": 4
+        },
+        {
+          "total": 8831.509036865446,
+          "choice": 5
+        },
+        {
+          "total": 2605.55476058752,
+          "choice": 6
+        },
+        {
+          "total": 4693.644995135011,
+          "choice": 7
+        },
+        {
+          "total": 3434.192208851233,
+          "choice": 8
+        },
+        {
+          "total": 3281.718042559729,
+          "choice": 9
+        },
+        {
+          "total": 4568.996819422959,
+          "choice": 10
+        },
+        {
+          "total": 4305.907482500122,
+          "choice": 11
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpvbmNoYWluOjM=",
+      "id": "3",
+      "title": "Proposal 3",
+      "content": "\"#Transfer Tokens Testing xfer from TimeLock\"",
+      "protocol": "braintrust",
+      "adapter": "onchain",
+      "proposer": "0xC6eD63963db7489a0633ef9351cE556fB018CEcE",
+      "totalVotes": 4,
+      "blockNumber": 13935987,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1641259095,
+      "endTimestamp": 1641490740,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 242763.67,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13964400
+          },
+          "event": "queued",
+          "timestamp": 1641640122,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14015868
+          },
+          "event": "executed",
+          "timestamp": 1642327388,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 242763.67,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDoweDZjOTFjMmNlZjk0Y2U5NzRmYzA5M2I4MGE0YzJiZGNmNTFjOWQ4MDBlNzZkMDU4MGY4YzlkZWU3OWY4NjA3NTc=",
+      "id": "0x6c91c2cef94ce974fc093b80a4c2bdcf51c9d800e76d0580f8c9dee79f860757",
+      "title": "[Consensus Check] Elect the first Grants Committee to run the Grants MVP program (6 months)",
+      "content": "\n\n## About the Braintrust Grants Program\nThe Grants program awards tokens and/or USD to community members and/or teams who take on initiatives to grow the project ecosystem. Rewards can be given for a variety of contributions from technical and research projects, to marketing activations and community education.\nMore information - including the types of grants - can be found [here:](https://usebraintrust.com/grants)\n\n## About the MVP Grants Program:\nThe MVP program serves to educate the wider Braintrust community about the mechanics of a Grants Program.  The goal is to learn how to scale up the program and enable more grants in the future.  The MVP program serves as a testing ground for how Braintrust contributors can plug into existing structures and processes.  \n\n\n## Grants Committee\nThe Grants Committee will be composed of representatives from Core Nodes, Braintrust Talent Community, and Backers. The stakeholders must represent expertise across the categories of grants being contributed (tech, design, marketing, product). The initial committee will be small, comprised of:\n\n1. [Shirley Yang,](https://www.linkedin.com/in/shirleyyang/) CEO, Muses, Core Node\n2. [Shoaib Mohammed,](https://www.linkedin.com/in/mohammeds140192/) Braintrust Talent Community \n3. [Sunny He,](https://www.linkedin.com/in/sunny-yang-h-19428324/) Hashkey Capital, Supporter/Investor \n4. [Daniel Kowalczyk,](https://www.linkedin.com/in/danielkowalczyk/) Co-founder, HexOcean,Core Node]\n5. [Megan Conard,](https://www.linkedin.com/in/megan-conard/) Product Manager, Freelance Labs - PM of Grants Program [Core Node] \n\n\n**Responsibilities:** Members of the inaugural committee will take an active role in developing and scaling this program further, including defining Grants Committee membership term length. Members will be announced as part of the broader announcement of the program. Members will be responsible for approving grants, selecting Mentors and Grantees, and for approving reward distributions.\n\n\n**Participation in Grants:** Grants Committee members can apply for grants, but then cannot participate in the vote for that grant. Grants Committee members can also serve as Mentors.\n\n\n**Term Limit:**  The inaugural Grants Committee will serve a six month term.  After six months, the wider Braintrust community will nominate and vote in new/additional members of the committee.  \n\n\n**How the vote works:**  Distribute your voting power to the nominees you wish to elect to the Grants Committee.  Committee nominees need at least 2% of the total vote to be elected.   A temperature check was not necessary for this vote.  \n\n",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xdd892d0c8448fE759D2b19b8cbc15793596Cc749",
+      "totalVotes": 25,
+      "blockNumber": 13862623,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/0x6c91c2cef94ce974fc093b80a4c2bdcf51c9d800e76d0580f8c9dee79f860757",
+      "startTime": {
+        "timestamp": 1640279700
+      },
+      "endTime": {
+        "timestamp": 1641023940
+      },
+      "startTimestamp": 1640279700,
+      "endTimestamp": 1641023940,
+      "currentState": "closed",
+      "choices": [
+        "Shirley Yang",
+        "Shoaib Mohammed",
+        "Sunny He",
+        "Daniel Kowalczyk",
+        "Megan Conard"
+      ],
+      "results": [
+        {
+          "total": 200.0,
+          "choice": 19
+        },
+        {
+          "total": 100.0,
+          "choice": 4
+        },
+        {
+          "total": 33149.12,
+          "choice": 0
+        },
+        {
+          "total": 20.0,
+          "choice": 49
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 6828.6242153739995,
+          "choice": 0
+        },
+        {
+          "total": 6627.2908820406665,
+          "choice": 1
+        },
+        {
+          "total": 6627.2908820406665,
+          "choice": 2
+        },
+        {
+          "total": 6692.2908820406665,
+          "choice": 3
+        },
+        {
+          "total": 6693.6242153739995,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDoweDE3ODlmNjExZDU1N2JmZmQ0ZTQxOTg2NTNiYWM5ODFkMWFiYWRiM2MwMTI2MjI2YmEyYTdmNDQ4YjJkM2JmNWY=",
+      "id": "0x1789f611d557bffd4e4198653bac981d1abadb3c0126226ba2a7f448b2d3bf5f",
+      "title": "[Temperature Check] Should Braintrust talent have an option to get paid in Crypto?",
+      "content": "**CONTEXT:**\nBraintrust helps enterprise clients find excellent freelance talent all over the world. However, paying talent in fiat currency can be extremely difficult in hard-to-invoice countries.  A crypto payment option enables more talent, in more places, to get paid quickly. \n\nIn addition, as a leading Web3 Project, Braintrust works with many crypto projects and crypto-focused professionals.  There has been a communicated desire within this user type to offer a crypto payment option.  The Talent Operations team believes there could also be a greater pool of developers to fill roles for clients if the option to get paid in Cryptocurrency was provided.  \n\nCurrently, the only option for Braintrust Talent to get paid is by using the payment partner, Wise.  Having a single payment partner presents a risk that can be mitigated with additional payment options available to users. \n \n**ABOUT:**\nIn Summer, 2021, 164 Braintrust community members responded to the survey.  Of the respondents, 57.3% indicated that they were either interested or interested to learn more about getting paid in crypto.  \n\nThis proposal is checking to see if the greater community is willing to dedicate development resources to add another payment option.  \n\n **EXECUTION:**\n- If this proposal passes, a committee will be gathered to evaluate options.  One immediate option to consider is BitPay. \n- If this proposal passes, this would be added to the developer roadmap for Q1 2022 (Mar-May). \n- A simple majority vote is required to pass, no quorum is needed.  \n\n**VOTE:**\n- Vote WITH if you would like to add an option to freelancers to get paid in crypto. \n- Vote AGAINST if you do not want to provide this option to freelancers. ",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xdd892d0c8448fE759D2b19b8cbc15793596Cc749",
+      "totalVotes": 19,
+      "blockNumber": 13729914,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/0x1789f611d557bffd4e4198653bac981d1abadb3c0126226ba2a7f448b2d3bf5f",
+      "startTime": {
+        "timestamp": 1638549000
+      },
+      "endTime": {
+        "timestamp": 1639123140
+      },
+      "startTimestamp": 1638549000,
+      "endTimestamp": 1639123140,
+      "currentState": "closed",
+      "choices": [
+        "WITH",
+        "AGAINST"
+      ],
+      "results": [
+        {
+          "total": 30675.885,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 30675.88449263,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbXJ3bW9ubXJ0bmNobnRnYmV6dWpoanlqaXltM2sxZ3V2aGdmMTh5Zmd4OHdh",
+      "id": "QmRWmoNMrTnChNTGBezUJHJyjiYm3k1GuvHgF18YFgX8WA",
+      "title": "[Consensus Check] Which type of Proposal Staking should Braintrust implement first? ",
+      "content": "CONTEXT:\n\nToken Staking is the concept that Braintrust token holders could stake their BTRST tokens to indicate urgency and interest for certain actions on the Braintrust platform.\n\nStaking is a differentiator that can help certain users stand out with their proposals, their jobs, or their referrals.\n\nThe community has recently passed a [Temperature Check](https://snapshot.org/#/usebraintrust.eth/proposal/QmRP7AnJhwCZKb1Mqt9HV9QNopNmshafwxFhCx4SXoKKuQ) that confirmed that there is interest in implementing Token Staking.  The purpose of this consensus vote is to determine which of the following Token Staking proposals should be implemented\n\nOPTION OVERVIEW:\n\nThere are several options for token staking already discussed in Discord. So far, options include:\n\n-   Proposal Staking - Talent adds a BTRST stake to their proposals to show their high level of interest in the project. Clients keep the stake if the talent doesn't deliver. Talent keeps the stake after the first invoice is paid.\n\n-   Job Staking - Clients add a BTRST stake to their jobs to incentivize proposals and show commitment to the community pool. Clients keep the stake if they hire on the BTRST platform. The stake is distributed to talent if the client does not hire on the BTRST platform.\n\n-   Referral Staking - Talent adds a reputational stake to their referrals, allowing their talent referrals to skip the screening queue and get to the front of the line. Referrers keep their stake if the talent is approved. The stake is returned to the treasury if the referral does not pass the screening.\n\nREAD MORE:\n\nA deeper dive into the rewards, risks, and considerations of each token staking option is explored in this [Staking Proposal Overview](https://docs.google.com/presentation/d/1sqf1Zhx0bollsoatuUZzTLCxEldLcOyw4FEwnaCD3io/edit?usp=sharing).  This document also includes a scorecard ranking system that analyzes the different options, potential impact, and level of effort to implement.  \n\nThe last two pages of this document include some data modeling analysis to predict the outcome of the options on GSV.   \n\nEXECUTION:\n\n-   If this proposal passes, Braintrust will begin implementing the chosen form of token staking.\n\nVOTE:\n\n-   Vote \"Option 1: Proposal Staking\" if you believe Braintrust should first implement proposal staking, which is available to talent.\n\n-   Vote \"Option 2: Job Staking\" if you believe Braintrust should first implement job staking, which is available to clients.\n\n-   Vote \"Option 3: Referral Staking\" if you believe Braintrust should first implement referral staking, which is available to talent and connector referrers.",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xdd892d0c8448fE759D2b19b8cbc15793596Cc749",
+      "totalVotes": 16,
+      "blockNumber": 13493585,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmRWmoNMrTnChNTGBezUJHJyjiYm3k1GuvHgF18YFgX8WA",
+      "startTime": {
+        "timestamp": 1635278400
+      },
+      "endTime": {
+        "timestamp": 1635800400
+      },
+      "startTimestamp": 1635278400,
+      "endTimestamp": 1635800400,
+      "currentState": "closed",
+      "choices": [
+        "Option 1: Proposal Staking",
+        "Option 2: Job Staking",
+        "Option 3: Referral Staking"
+      ],
+      "results": [
+        {
+          "total": 9423.024,
+          "choice": 0
+        },
+        {
+          "total": 194.3254,
+          "choice": 2
+        },
+        {
+          "total": 12299.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9423.02422976,
+          "choice": 0
+        },
+        {
+          "total": 12299.0,
+          "choice": 1
+        },
+        {
+          "total": 194.32539373,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbXFqMXZud3dneHhteTdnMXJmeGF2cHQ3YXUxeXVxb3ljb3F4c3J2ajc1bWwz",
+      "id": "QmQj1VNWwGXXmy7g1RfxAVpT7Au1YUqoYcoqXsrvj75mL3",
+      "title": "[Temperature Check] Implement a Canny or Canny-like board for Product Features",
+      "content": "If we really wanna tout Braintrust as \"user-owned\", something like that is paramount. And it should sit outside the Governance because it should be just for the website platform and not for Braintrust as a whole. So should house suggestions for things like the job board, profile, integrations, etc. \n\nObviously, this does impact resource management from the BT team but it does significantly increase transparency and user agency.\n\nThe way this could work is a board could be created on Canny.io (or similar) that lists features being worked on, user suggestions, and what has already been implemented from this point forward.\n\nA good example is Zapper's Canny board (https://zapper.canny.io/).\n\nAll this is publicly accessible.",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xe9c1b1ED748eC205561e5218B437F905426A6611",
+      "totalVotes": 3,
+      "blockNumber": 13409553,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmQj1VNWwGXXmy7g1RfxAVpT7Au1YUqoYcoqXsrvj75mL3",
+      "startTime": {
+        "timestamp": 1634115600
+      },
+      "endTime": {
+        "timestamp": 1635674400
+      },
+      "startTimestamp": 1634115600,
+      "endTimestamp": 1635674400,
+      "currentState": "closed",
+      "choices": [
+        "Aye",
+        "Nay"
+      ],
+      "results": [
+        {
+          "total": 7062.12,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7062.12,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbXd5dnU5bW0xc3F5dDh2cmRmb2NmOHBkb2huZm40cXBtdHdhb2FmdGhnNXRt",
+      "id": "QmWyVU9MM1SQYT8VRdfoCF8PdoHNfn4qPmTWaoAfthg5Tm",
+      "title": " [TEMPERATURE CHECK] Require customers to justify their reason for restricting jobs to a location",
+      "content": "\nCONTEXT:\n\nMany jobs on Braintrust require the candidate to be living in a certain location. Usually, that location is the US, however, there have been other restrictions as well, in which a job will require the candidate to be in one of a few select countries (usually, English speaking ones).\n\nConsidering that Braintrust employs a global work-force, and that we test extensively for English language capabilities, these restrictions are sometimes unnecessary and appear to be non-inclusive to many people on the network.\n\nSome of the companies have legitimate reasons to require certain locations for their candidates, for example, if they require a security clearance, however, most other reasons (administrative, time-zone, language etc.) are not always valid reasons and we need to educate our clients about the possibility and benefits of hiring talent abroad.\n\nPROBLEM:\n\nAt Braintrust, our goal is to create a global freelancing platform and we want to create an environment that is as inclusive as possible to everyone. Currently, a large number of companies on the platform are going against the grain by being overly selective on location, for reasons that could potentially be unnecessary.\n\nResolving this would require multiple changes/proposals in the future, but the first step we need to do is improve transparency and start educating our clients better about this issue.\n\nSOLUTION:\n\n1- Require employers to justify their reason for restricting candidates to a location\n\n2- Require our talent-matching specialists to discuss location restrictions with the employers, in an attempt to educate them and possibly get them to loosen their requirements.\n\nEXECUTION:\n\n1- Upon creating a job, employers wishing to restrict to a certain location will be required to choose the reason from a drop-down. The options in the drop-down will be:\n\nA) Security clearance required\nB) Time-zone\nC) Language\nD) Culture\nE) Economic/Administrative\nF) Other\n\nPractically speaking, we’d have 1 free-form text input that lets them enter the location they are restricting to, a drop-down listed in 1- above, and another free-form text text input in which they must elaborate on the reason for the restriction; ex: “Our HR policy doesn’t allow us to hire abroad”. The last input would have a minimum character restriction of 20.\n\n2- Our talent-matching team should gain the reflex to educate clients on our platform and how we aim to be a global workforce. Assuming they want to restrict to a location, we should discuss with them and see if their restriction could be waived. Some examples of arguments:\n \nB) Time-zone – We have workers abroad who have chosen to work US hours for the past 5 years, why not let them if it doesn’t bother them?\nC) Language – All our talent has been vetted extensively for English proficiency\nD) Culture – If you’re looking for talent with a similar culture, why not consider expats working abroad?\nE) Economic/Administrative – Did you know there are financial benefits to hiring contractors over w2 employees? They are considered an expense, and you don’t need to pay for health insurance...etc….\n\n\nVOTE:\n    • Vote WITH if you would like customers to be required to justify their location requirements and would like the talent-matching team to educate clients better on the subject.\n    • Vote AGAINST if you want to keep things as they are currently.\n",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0x363b39d15CC9A10438F26Fba51D41bC78cEB7fC4",
+      "totalVotes": 7,
+      "blockNumber": 13416969,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmWyVU9MM1SQYT8VRdfoCF8PdoHNfn4qPmTWaoAfthg5Tm",
+      "startTime": {
+        "timestamp": 1634223600
+      },
+      "endTime": {
+        "timestamp": 1634922000
+      },
+      "startTimestamp": 1634223600,
+      "endTimestamp": 1634922000,
+      "currentState": "closed",
+      "choices": [
+        "WITH",
+        "AGAINST"
+      ],
+      "results": [
+        {
+          "total": 1532.12,
+          "choice": 0
+        },
+        {
+          "total": 16238.43,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1532.12,
+          "choice": 0
+        },
+        {
+          "total": 16238.43013684,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbWZhM3RkM2J6a2ZqZnN2Z2NkeGpodGRiaWFldHFxbWx3amticnRidnhicnN1",
+      "id": "QmfA3TD3BZkFjfsvgcDxJhtDBiAEtQqmLWjkbRTbVxBRsu",
+      "title": "Reimburse 2800 Burned BTRST Tokens",
+      "content": "About a month ago I burned $100000 worth of BTRST tokens (2,810.59 BTRST Tokens) by sending them to the BTRST Contract instead of another wallet address.\n\nYou can see them sitting here in the contract address: https://etherscan.io/token/0x799ebfabe77a6e34311eeee9825190b9ece32824?a=0x799ebfabe77a6e34311eeee9825190b9ece32824\n\nI spoke with the team who said they are unrecoverable, and suggested they might be reimbursed by the treasury and to put forth a proposal. Given that the token value has fallen considerable during the last month, I'm not asking for \"full reimbursement\" but rather just the current number of tokens that were burned.\n\nThere are a number of examples of other communities that have reimbursed users in similar instances in the past. I think this is a great opportunity for Braintrust to step up and help a community member. \n\nPlease let me know if you have any feedback or if you have any other suggestions for reimbursement.\n\nThank you\n",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xA335ADE338308B8e071Cf2c8F3cA5e50F6563C60",
+      "totalVotes": 5,
+      "blockNumber": 13412976,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmfA3TD3BZkFjfsvgcDxJhtDBiAEtQqmLWjkbRTbVxBRsu",
+      "startTime": {
+        "timestamp": 1634169600
+      },
+      "endTime": {
+        "timestamp": 1634774400
+      },
+      "startTimestamp": 1634169600,
+      "endTimestamp": 1634774400,
+      "currentState": "closed",
+      "choices": [
+        "Reimburse 2,810.59 BTRST Tokens",
+        "Find another path for resolution"
+      ],
+      "results": [
+        {
+          "total": 1305.0,
+          "choice": 0
+        },
+        {
+          "total": 6327.5503,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1305.0,
+          "choice": 0
+        },
+        {
+          "total": 6327.55013684,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbXJwN2Fuamh3Y3prYjFtcXQ5aHY5cW5vcG5tc2hhZnd4ZmhjeDRzeG9ra3Vx",
+      "id": "QmRP7AnJhwCZKb1Mqt9HV9QNopNmshafwxFhCx4SXoKKuQ",
+      "title": "[Temperature Check] Should Braintrust implement token staking?",
+      "content": "**CONTEXT:**\nToken Staking is the concept that Braintrust token holders could stake their BTRST tokens to indicate urgency and interest for certain actions on the Braintrust platform.  \nStaking is a differentiator that can help certain users stand out with their proposals, their jobs, or their referrals.  \n\n**ABOUT:**\nToken Staking should be the second core use case for BTRST tokens as it offers greater control and influence in the network for BTRST token holders. \n\nThere are several options for token staking already discussed in Discord.  So far, options include: \n\n- **Proposal Staking** - Talent adds a BTRST stake to their proposals to show their high level of interest in the project.  Clients keep the stake if the talent doesn’t deliver.  Talent keeps the stake after the first invoice is paid.  \n\n- **Job Staking** - Clients add a BTRST stake to their jobs to incentivize proposals and show commitment to the community pool.  Clients keep the stake if they hire on the BTRST platform.  The stake is distributed to talent if the client does not hire on the BTRST platform. \n\n- **Referral Staking** - Talent adds a reputational stake to their referrals, allowing their talent referrals to skip the screening queue and get to the front of the line.  Referrers keep their stake if the talent is approved.  The stake is returned to the treasury if the referral does not pass the screening.  \n\n\n\n**EXECUTION:**\n- If this proposal passes, I will next propose a consensus check where Braintrust community members can vote on which type of token staking they would like to first implement.  \n- A simple majority vote is required to pass, no quorum is needed.  \n\n**VOTE:**\n- Vote WITH if you are with this proposal\n- Vote AGAINST if you are against this proposal",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xdd892d0c8448fE759D2b19b8cbc15793596Cc749",
+      "totalVotes": 6,
+      "blockNumber": 13404411,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmRP7AnJhwCZKb1Mqt9HV9QNopNmshafwxFhCx4SXoKKuQ",
+      "startTime": {
+        "timestamp": 1634052600
+      },
+      "endTime": {
+        "timestamp": 1634626740
+      },
+      "startTimestamp": 1634052600,
+      "endTimestamp": 1634626740,
+      "currentState": "closed",
+      "choices": [
+        "WITH - Implement Token Staking.",
+        "AGAINST - Do not implement."
+      ],
+      "results": [
+        {
+          "total": 12600.245,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 12600.245028215988,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbXJnYm5qdnp0bXNob3QyZGhhN2RhcWo0ZXlvM3JtZGh2dXVrbjl4cm5ib2Jx",
+      "id": "QmRgbnjVzTMShoT2dHa7dAQj4EYo3RMdhVUUKN9XrnBobQ",
+      "title": "[Temperature Check] Changing the fee payment model for Braintrust",
+      "content": "Current state:\n-Currently nodes on the Braintrust network charge clients a 10% success fee on every invoice and that fee is paid in USD and flows to the node that brought the business to the network.\n-Referral fees for the parties that referred talent and clients currently come from the network’s treasury and thus when they are paid, deplete the existing treasury, eventually completely exhausting it.\n\nProposals:\n-Create a new requirement that all fees on the network, including the current client success fee but also any other fees that may be initiated in the future, must be paid in BTRST.\n-Nodes will convert client fees collected in USD into USDC to send to the new Fee Converter smart contract\n-The new Fee Converter smart contract will purchase BTRST tokens with the USDC on a decentralized exchange\n-The newly purchased BTRST tokens will go to Braintrust’s on-chain treasury (Governor Alpha) to be used for community development grants and to pay referral fees\n-The node that submits the USDC to the Fee Converter smart contract will receive a bonus at the end of the year from Treasury equal to some % of the USDC they contributed.  The exact % can be voted on by the community later.  This incentivizes participation in the program by nodes.\n\nNet Effect:\n-The effect on monetary supply of BTRST will be 2-fold:\n1. The demand for BTRST will be programmatically linked to the GSV of the network as 10% of all GSV will be used to purchase BTRST\n2. Referral rewards and grants, paid in BTRST, will no longer come from existing treasury but will come from actual client fees.  This way the treasury will not become exhausted by paying referral fees and grants.\n\nImplementation phases:\nPhase 1: testing\n-Execute the USDC/BTRST swap using on-chain governance via Governor Alpha\n-This proposal includes a request to purchase $10,000 USDC worth of BTRST as an initial test\n\nPhase 2: automatic conversion via new Fee Converter smart contract\n-A new smart contract (“Fee Converter”) will be written to execute these trades at Uniswap when new USDC is deposited\n-The scripts from Phase 1 should be re-used\n-Newly purchased BTRST is sent to Governor Alpha on-chain treasury\n-Construction and security audits for the new fee converter will be grants from treasury to a community developer.\n\nFee Converter Smart Contract features:\n-Initially interact with Uniswap, other DEXes later\n-Nodes should look at liquidity and market conditions before sending USDC so please provide instructions / guidelines for doing this\n-Need instructions for when trades fail / high slippage\n",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0x5318E5b4321f0c9d866F65b571a4b4fEC2689617",
+      "totalVotes": 8,
+      "blockNumber": 13412533,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmRgbnjVzTMShoT2dHa7dAQj4EYo3RMdhVUUKN9XrnBobQ",
+      "startTime": {
+        "timestamp": 1634166000
+      },
+      "endTime": {
+        "timestamp": 1634338800
+      },
+      "startTimestamp": 1634166000,
+      "endTimestamp": 1634338800,
+      "currentState": "closed",
+      "choices": [
+        "Aye",
+        "Nay"
+      ],
+      "results": [
+        {
+          "total": 22368.55,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 22368.55013684,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbWVpanRlZDdndHMzYjVtcDJ4eDlla3Nnbjd0NWR5em01ZDc5OXozYnVweXRr",
+      "id": "QmeiJTEd7gTs3b5mP2xX9EksgN7t5dYzm5d799z3BuPYTK",
+      "title": "[Temperature Check] Know Your Customer Implementation for Braintrust ",
+      "content": "Temperature Check: Know Your Customer Implementation for Braintrust \n\n \n### CONTEXT:\nBraintrust experienced two large-scale bot attacks.  Fortunately, this resulted in no loss of BTRST tokens stolen from the treasury, but it did create unusable accounts and highlighted a need to add another level of protection to prevent and discourage fraud in the future. \n\n### PROBLEM:\n- A Know Your Customer solution (KYC) would enable Braintrust to validate the identity of individual users and make it far more difficult for bots to perform token performing activities on the platform.  \n      - Users would need to submit documentation proving their identity.\n      - Braintrust wouldn’t store the information and would go through a third-party vendor to process and clear users.  \n- A Know Your Customer solution (KYC) would preserve the integrity of the Braintrust token and enable more automated BTRST token earning activities (like Braintrust Academy).  \n- A Know Your Customer solution (KYC) would eliminate the current manual and labor-intensive prevention mechanisms used to identify duplicate users on the platform that are attempting to earn tokens across multiple identities.  \n\n### SOLUTION:\nI propose that Braintrust explores a Know Your Customer solution.  \n\n### ADDITIONAL USE CASES TO EXPLORE:\nThe following are use cases to explore as a community.  Passage of this proposal enables a continuance of this conversation, it does not finalize use cases: \n- Some Braintrust Clients request background checks on talent.  Talent could preemptively use their BTRST tokens to pay for an add-on background check (on top of KYC) that verifies identity and background as clear as a differentiator for their proposals.\n- In an effort to control costs associated with KYC, we could gate activities before KYC is used: \n1. Activate referral link\n2. Unlock the Braintrust Academy courses and associated rewards\n3. Withdraw tokens\n4. Become Verified (approved) Talent\n\n\n### EXECUTION:\nIf this proposal passes, a community-led committee would be convened to evaluate at least three third-party solutions.  \n1. Cost Analysis\n1. Workflow / How it would Work\n1. Risks\n1. Rewards\n1. User Experience\n1. Performance\n1. SLA/Support\n\nThe three solutions would be presented to the community for the final vote on which solution should be implemented.  The consensus vote would include an option to not implement a KYC solution. \n\n### VOTE:\n- Vote **WITH** if you would like to continue exploring a KYC solution at Braintrust.  \n- Vote **AGAINST** if you do not want to explore a KYC solution at Braintrust. \n\n\n",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xdd892d0c8448fE759D2b19b8cbc15793596Cc749",
+      "totalVotes": 8,
+      "blockNumber": 13375988,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmeiJTEd7gTs3b5mP2xX9EksgN7t5dYzm5d799z3BuPYTK",
+      "startTime": {
+        "timestamp": 1633666800
+      },
+      "endTime": {
+        "timestamp": 1634021940
+      },
+      "startTimestamp": 1633666800,
+      "endTimestamp": 1634021940,
+      "currentState": "closed",
+      "choices": [
+        "WITH - Explore KYC option",
+        "Against - Do not explore KYC"
+      ],
+      "results": [
+        {
+          "total": 7817.12,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7817.12,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbXUyenNpNjZ5eWtiMWh1bGttbWFwdHk3eWt2a21zNWJ0OGppNWFuanpqemh0",
+      "id": "QmU2Zsi66Yykb1huLkMmapTy7ykvkms5bT8Ji5aNjzJzht",
+      "title": "Temperature Check: Elect Calvin Blanchard ",
+      "content": "CONTEXT:\nBraintrust’s Dispute Resolution Process is designed to facilitate community-led arbitration should there be an invoice dispute between clients and talent transacting on the platform. \nThis process requires the leadership of a community member who can be trusted to guide the program through 2021.\n[Learn More](https://usebraintrust.com/dispute-resolution) about Dispute Resolution: \n[Learn More](https://app.usebraintrust.com/help-center/dispute-resolution/learn-about-dispute-resolution-from-a-specific-user-type/jury-arbitrator-learn-about-the-process-if-youre-a-jury-arbitrator) about the Jury Arbitrator Role\n\nPROBLEM:\nThe Braintrust community has not officially elected a Jury Arbitrator to lead the process. \n\nSOLUTION:\nI nominate that Calvin Blanchard is elected as the Jury Arbitrator.\nCalvin has been a member of the Braintrust community since April 2021 and is currently on a contract with an enterprise client as a Program Manager.  The client has reported nothing but favourable interactions with Calvin. \nCalvin has completed Jury Member Training for Dispute Resolution and has demonstrated a clear understanding of the process.\nCalvin volunteered to be the Jury Arbitrator in July 2021 and has successfully shadowed two disputes and helped herald professional and amicable conclusions.  \n\nEXECUTION:\nElecting Calvin Blanchard grants him access to the Claim Response Form and all case files. \nHe will be a part of all Disputes until the end of 2021.  \n\nVOTE:\nVote FOR if you would like to elect Calvin Blanchard\nVote AGAINST if you would not like to elect Calvin Blanchard\n\n",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0x33F3A1e8fDBc5e85fbA15cA7F00D0098068777f3",
+      "totalVotes": 6,
+      "blockNumber": 13366518,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmU2Zsi66Yykb1huLkMmapTy7ykvkms5bT8Ji5aNjzJzht",
+      "startTime": {
+        "timestamp": 1633538400
+      },
+      "endTime": {
+        "timestamp": 1633712400
+      },
+      "startTimestamp": 1633538400,
+      "endTimestamp": 1633712400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 2855.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2855.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpvbmNoYWluOjI=",
+      "id": "2",
+      "title": "Transfer next 10 test tokens to Mark",
+      "content": "Context:\n- We need to ensure voting works properly.\n- Voting needs to be tested live.\n\nProblem:\n- To test voting live, we need to create a live proposal.\n\nSolution:\n- This is the first proposal and it's just for test purposes.\n\nExecution:\n- Mark will receive 10 tokens.\n\nVote:\n- Vote WITH if you are with this proposal.\n- Vote AGAINST if you are against this proposal.",
+      "protocol": "braintrust",
+      "adapter": "onchain",
+      "proposer": "0x0e5671df6D3Cee932CB976AaEe98Ff56E6ae1EA1",
+      "totalVotes": 3,
+      "blockNumber": 13183843,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1631087464,
+      "endTimestamp": 1631318167,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 488080.6,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13996289
+          },
+          "event": "queued",
+          "timestamp": 1642065241,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 488080.6,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpvbmNoYWluOjE=",
+      "id": "1",
+      "title": "Transfer 10 test tokens to Mark",
+      "content": "Context:\n- We need to ensure voting works properly.\n- Voting needs to be tested live.\n\nProblem:\n- To test voting live, we need to create a live proposal.\n\nSolution:\n- This is the first proposal and it's just for test purposes.\n\nExecution:\n- Mark will receive 10 tokens.\n\nVote:\n- Vote WITH if you are with this proposal.\n- Vote AGAINST if you are against this proposal.",
+      "protocol": "braintrust",
+      "adapter": "onchain",
+      "proposer": "0x0e5671df6D3Cee932CB976AaEe98Ff56E6ae1EA1",
+      "totalVotes": 3,
+      "blockNumber": 13089052,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1629821574,
+      "endTimestamp": 1630051819,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 1010.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 10.0,
+          "choice": 0
+        },
+        {
+          "total": 1010.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbXFjbWdmYWIyaDd6eWVkdXFrN2Z2ZXR5cW55dnlwcmJqYmZ4Z3JkcjRwbWN4",
+      "id": "QmQcmgfAb2H7ZyedUQk7fVeTYQnyvyPRBJBfXgRDr4pmCx",
+      "title": "[Temperature Check] Title of your proposal goes here",
+      "content": "NOTE: Please use this template as a guide to structure proposals.\n\n----------------------------------------------------------------------------------------------\n\nCONTEXT:\n- Describe here in detail with bullet points and structure as much as possible...\n\nPROBLEM:\n- Describe here in detail with bullet points and structure as much as possible...\n\nSOLUTION:\n- Describe here in detail with bullet points and structure as much as possible...\n\nEXECUTION:\n- Describe here in detail with bullet points and structure as much as possible...\n\nVOTE:\n- Vote WITH if you are with this proposal\n- Vote AGAINST if you are against this proposal",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xdd892d0c8448fE759D2b19b8cbc15793596Cc749",
+      "totalVotes": 1,
+      "blockNumber": 13088957,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmQcmgfAb2H7ZyedUQk7fVeTYQnyvyPRBJBfXgRDr4pmCx",
+      "startTime": {
+        "timestamp": 1629820200
+      },
+      "endTime": {
+        "timestamp": 1629823800
+      },
+      "startTimestamp": 1629820200,
+      "endTimestamp": 1629823800,
+      "currentState": "closed",
+      "choices": [
+        "WITH",
+        "AGAINST"
+      ],
+      "results": [
+        {
+          "total": 500.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 500.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnJhaW50cnVzdDpzbmFwc2hvdDpxbXdqajlnN3JhbnFzZzFhYzdhNDhtdWV3M3JoaW0xbHlucGZycWN6bWNsNjhr",
+      "id": "QmWJj9G7RAnQsg1AC7A48mUeW3RHiM1LyNpFRqCzmcL68k",
+      "title": "[Consensus Check] Title of your proposal goes here",
+      "content": "NOTE: Please use this template as a guide to structure your proposal.\n\n----------------------------------------------------------------------------------------------\n\nCONTEXT:\n- Describe here in detail with bullet points and structure as much as possible...\n\nPROBLEM:\n- Describe here in detail with bullet points and structure as much as possible...\n\nCHOICE 1:\n- Describe here in detail with bullet points and structure as much as possible...\n\nCHOICE 2:\n- Describe here in detail with bullet points and structure as much as possible...\n\nCHOICE 3:\n- Describe here in detail with bullet points and structure as much as possible...\n\nVOTE:\n- Choice 1\n- Choice 2\n- Choice 3",
+      "protocol": "braintrust",
+      "adapter": "snapshot",
+      "proposer": "0xdd892d0c8448fE759D2b19b8cbc15793596Cc749",
+      "totalVotes": 2,
+      "blockNumber": 13088963,
+      "externalUrl": "https://snapshot.org/#/usebraintrust.eth/proposal/QmWJj9G7RAnQsg1AC7A48mUeW3RHiM1LyNpFRqCzmcL68k",
+      "startTime": {
+        "timestamp": 1629820200
+      },
+      "endTime": {
+        "timestamp": 1629823800
+      },
+      "startTimestamp": 1629820200,
+      "endTimestamp": 1629823800,
+      "currentState": "closed",
+      "choices": [
+        "Choice 1",
+        "Choice 2",
+        "Choice 3"
+      ],
+      "results": [
+        {
+          "total": 498050.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 498050.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

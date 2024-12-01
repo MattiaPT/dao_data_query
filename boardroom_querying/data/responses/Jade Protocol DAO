@@ -1,0 +1,1273 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4NDFhNTRhZWZkMTA0OWFlODAzNmY3YTBhYjg3MzA4NTVmY2FlMmI4Yzk1MGIwYWQyZWEzNDJkMWE1NWEyNWUzMQ==",
+      "id": "0x41a54aefd1049ae8036f7a0ab8730855fcae2b8c950b0ad2ea342d1a55a25e31",
+      "title": "CIP-7: Dissolve DAO and Terminate Operations",
+      "content": "Author(s): 𝖁𝖆𝖒𝖕𝖎𝖗𝖊 𝕺𝖋 𝕮𝖗𝖞𝖕𝖙𝖔 \nCreated: 9/25/23\n\n## Objective:\nTo lay out and execute a structured dissolution plan to orderly shut down the DAO. This allows JADE, sJADE, and vesting bonders to exit the DAO at the full value of the treasuries, aiming to protect community interests and assure equitable resource distribution.\n\n## Summary:\nThis proposal recommends immediate dissolution and cessation of all DAO operations amid rising uncertainties about the DAO’s vision and future. The prevailing apprehensions regarding the DAO landscape pose significant risks to all token holders.\n\n## Disclaimer:\nJade Protocol operates as a decentralized autonomous organization where decisions, including final website design selections, are community-driven. No individual entity can be solely responsible for the outcomes. The aim of this proposal is to establish community consensus through due diligence.\n\n## Abstract:\nThe DAO is currently stagnant due to escalating legal, regulatory, and operational concerns, creating significant investment risks. This proposal suggests distributing the full treasury NAV to all token holders and terminating all operations, causing JADE/FWD labs to cease existence.\n\n## Motivation:\nThere is a lack of clarity and growing concerns among the community surrounding the future of the DAO.\n\nOther critical issues that impact the success of the DAO include a lack of deal flow in the near foreseeable future, although a rebrand to Forward Labs was meant to address this.\n\nBased on the latest updates on Discord from core contributors, there is little to no confidence in the DAO being able to fulfill its original vision. It is simply difficult to get investments due to low volume/private market deal flow issues, NDA concerns and the challenging legal landscape for DAOs.\n\nCIP-7 highlights the need for a course change given the challenges the DAO is facing getting investments and navigating the uncertain regulatory environment.\n\nIn conclusion, distributing all treasury funds back to all token holders without delay is the ultimate win-win situation for everyone.\n\n## Next Steps:\nEvery governance proposal must be logistically feasible and legally sound in order to be implemented by a DAO. Thus, the following steps are recommended:\n\n1. A discussion should take place regarding this proposal.\n2. If approved by majority of community, it should go up for 7-day voting on the Governance forum (https://vote.jadeprotocol.io/)\n3. If this proposal passes, all assets between Investment Treasury and Backing Treasury will be converted to USDC and moved to Arbitrum (see “Treasury Value” below)\n4. If this proposal passes, an on-chain Snapshot will occur 48-hours after the end of the voting period. Exact date of on-chain Snapshot will be announced in Discord.\n5. 6 hours prior to Snapshot, all POL (Protocol Owned Liquidity) will be pulled on AVAX & BSC. It is recommended that all users unwind their liquidity positions as well.\n6. On-chain Snapshot occurs, looking at all JADE, sJADE & Remaining Vesting Bonds\n7. A website will be shared where users will have 72 hours to verify that the totals are correct. If users are reporting errors in Discord related to the accuracy of their balances, then a new Snapshot will need to occur.\n8. Once the community has verified that the Snapshot data is correct, a redemption UI will go live where users can immediately claim their USDC on Arbitrum, after digitally signing, via your crypto wallet, a [Disclaimer](https://docs.google.com/document/d/e/2PACX-1vQg2XCI-libVC33JzhM3Mu14uBbnOnLFclDo22r7qZLyZtkOvHzc5SoAx0evPrV3g/pub \"Disclaimer\") hosted on IPFS.\n\n## Updated Disclaimer:\nLegal safeguards and member protections will be bolstered through an enhanced Disclaimer, [accessible here](https://docs.google.com/document/d/e/2PACX-1vQg2XCI-libVC33JzhM3Mu14uBbnOnLFclDo22r7qZLyZtkOvHzc5SoAx0evPrV3g/pub \"accessible here\"), embodying legal best practices for web3 and risk mitigation strategies for DAOs.\n\nThe updated Disclaimer for the Redemption Interface has been refined to mitigate legal risks. These provisions are designed to limit and address potential litigation and regulatory challenges, now and in the future.\n\n## Treasury Value:\nAll token holders will have multiple opportunities to claim their respective portions of the Treasury Value - see “Redemption Windows” below. Treasury Value is defined by the value of all assets across all JADE-owned wallets which converted to USDC and moved to Arbitrum with a few exclusions: \n\n1. SkyMeta is not liquid. If it is able to be sold, assets will be moved into the Second Redemption Window, or if too late (see “Redemption Windows” below), then moved into LDF.\n\n2. All SMRTR in treasury wallets and the TRESR allocation allotted to the JADE DAO will be sent to a burn address (avax:0x0000000000000000000000000000000000000000). DAO-owned NFT.com Genesis Keys will have ownership transferred to the NFTREASURE treasury (avax:0xaDE43935a4fFB14a6FBe68a39300199c91d5F054).\n\nAs of September 29, 2023, “JADE-owned wallets” identified as:\n\n0x02944e3fb72aa13095d7cebd8389fc74bec8e48e\n0x6f0bc6217faa5a2f503c057ee6964b756a09ae2c\n0xf15ff5df9924dbf0f257a79b63bf5678701af564\n0xd012a9c8159b0e7325448ed30b1499fdddac0f40\n0x489f866c0698c8d6879f5c0f527bc8281046042d\n0xcb0718b150552af8904e7cb1c62758dcb149b072\n0xaea6b4aad5e315a40afd77a1f794f61161499fa5\n0x169169a50d9a8fbf99edacf9aa10297e2b3c92dd\n0x1aa87a1554919f1537e48626eaa49cb3e967a737\n\nAs of September 28, Treasury NAV = $31.9M (this is a rough calculation provided by Debank)\n![treasury.png](ipfs://bafkreiaegswvs5eevaashw23ujsv3en4snrvh6qgmmtkrreexam2tfiisy)\n\n## Redemption Windows:\nThe Redemption Windows are structured with the goal of facilitating an organized, transparent, and equitable distribution of the treasury to all token holders. \n\n* **Window One - 30 Day Claim Window:** All token holders will have a 30-day period to claim their respective portions of the Treasury Value. The claiming process will be facilitated through an intuitive, user-friendly interface, ensuring ease of access and transaction efficiency.\n\n* **Window Two - Unclaimed Funds Redistribution:** Should there be unclaimed funds remaining after the 30-day redemption period from Window One then Window Two will be activated for a 30-day period. This second phase redistributes unclaimed funds from Window One minus a carve out for non-redeemers from Window One, whereby non-redeemers who missed Window One can redeem at terminal floor ($8.35) during Window Three. Every wallet that successfully claimed their portion during Window One will be allocated an additional share, proportionate to their initial claim, of these Window One unclaimed funds, that they will then need to claim from the redemption UI during Window Two.\n\nA community made, rough estimate of this process and redemption totals can be found here: https://docs.google.com/spreadsheets/d/1Himr4ETYqrnl_x7ceofpN2GjWr06jY8KsAA0n5i8sKo/edit#gid=79025607\n\nAfter Window Two concludes, all socials and contributors are removed from the DAO, which will move to a single foundation admin.\n\n* **Window Three - One Year:** Window Three is designed to fairly compensate users who return to the protocol late. These users (non-redeemers from Window One) will find that their unvested Jade Bonds have been fully accelerated and can redeem at the current terminal floor of $8.35.\n\n* **Window Four - 30 days:** A form will be released for the final redistribution window for unclaimed funds from Window Three.\n\nPlease note that despite a clean audit and multiple code reviews by the DAO’s contributors for the Redemption Contract, community members should accept and be aware of industry standard smart contract risk during the Dissolution Process.\n\n## Monitoring and Notification Protocols:\nTo facilitate awareness and active participation, dates for each claim window will be set in advance and shared in Discord after the passing of CIP-7. \n\n## Website:\nJadeprotocol.io will be revamped to offer the following:\n\n1. Balance checker UI \n2. Redemption UI\n3. Ticket submission form to communicate with DAO admin for next 5 years\n4. Q&A to update any non-Discord users on CIP-7\n5. Links to Snapshot and Turbyne\n\n## Discord, Telegram, Twitter:\nFollowing the passing of CIP-7, Discord will be moved to “Announcements” and “Help Desk” only. All official dates regarding Redemption Windows will be shared immediately via Discord and Website Q&A.\n\nAfter Window Two: Discord, Telegram and Twitter will be decommissioned, and Turbyne will be set to “read-only”.\n\n## Quorum:\nAs per the supply document shared by DAO Contributor Avicenna: there are roughly 600,000 JADE + sJADE in user-owned wallets (excluding Liquidity Pools, CELR bridge & unvested bonds).\n\nWe propose a 3% quorum.\n\nThis would require that a minimum of 18,000 sJADE tokens participate in the vote with 51% of voting governance power “in favor” to approve the proposal.\n\nThis quorum is in line with other DAOs. The best data available shows the following numbers as historical DAO quorum numbers:\n\n* Aavegotchi - 14.21%\n* Sushi - 2.59%\n* Wonderland - 0.55%\n* Jade Protocol (historical quorum) - 0.087%\n\n## Legal Defense Fund (LDF):\nA provision to allocate an additional $0.5 million to the Legal Defense Fund (LDF), bringing its total to $1 million, to adeptly address the legal and operational complexities inherent in the DAO’s dissolution, as well as any potential future legal expenses for the next 5 years. This fund will cover legal costs regarding inquiries, litigation, and other issues targeting core contributors. \n\nSelf-insurance is a well-known risk management technique that consists in setting funds aside for covering a possible future cost. Technically, it is a tool for retaining and managing risks professionally. Typically, self-insurance is used when risk cannot be transferred through traditional insurance.\n\nThe LDF is structured to manage an array of crucial expenses and tasks necessary for a smooth and efficient winding down, such as maintaining essential communication channels, developing and upkeeping smart contracts for claim window deployment, and insurance for any future legal expenses. Also included is additional administration, such as the Foundation Company and its Director(s).\n\nThe $1 million enables the assembly of a specialized team, consisting of legal counsel, facilitating legal work, ongoing support (help desk) to meticulously conduct all remaining administrative and legal tasks over the next five years. This LDF administrative team’s compensation will be sourced from the LDF, reflecting the intricacy and risks involved.\n\nSushi $2M LDF: https://forum.sushi.com/t/establish-sushi-legal-defense-fund/11813\n\nMaker $5M LDF: https://forum.makerdao.com/t/mip55c3-sp14-defense-fund/19076\n\n## Core Contributors:\nThe current core contributors and moderators of Jade Protocol DAO shall continue being paid until December 31st, 2023 (as per CIP-5). These key individuals are entrusted to fortify the transitional phase, working synergistically with the administrative team to facilitate a smooth and efficient dissolution process.\n\n ## Voting:\nOnce the official CIP-7 goes live on Snapshot, a 24-hour warm-up period will precede a 7-day voting window.\n\n* [YES] Vote signifies agreement with the proposal to dissolve the DAO, distribute funds, and terminate operations.\n\n* [NO] Vote would maintain the status quo.\n\n## Eligibility:\nAll users with an sJADE balance on Avalanche and Binance Smart Chain are eligible to vote.\n\n## In Conclusion:\nThe immediate distribution of treasury funds appears to be the most balanced approach to address the diverse interests of new investors, longtime members, Smartcoin bonders, BSC holders, and advisors.\n\n*Note:* The proposal's adaptation and evolution are rooted in responsive, member-centric dialogues and feedback loops, ensuring a comprehensive and community-aligned resolution.",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x88407Ece233291877dA97Bea19DfDDbea65715cd",
+      "totalVotes": 283,
+      "blockNumber": 35949990,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x41a54aefd1049ae8036f7a0ab8730855fcae2b8c950b0ad2ea342d1a55a25e31",
+      "startTime": {
+        "timestamp": 1696366219
+      },
+      "endTime": {
+        "timestamp": 1696971019
+      },
+      "startTimestamp": 1696366219,
+      "endTimestamp": 1696971019,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Dissolve the DAO",
+        "No, Maintain the Status Quo"
+      ],
+      "results": [
+        {
+          "total": 29260.582,
+          "choice": 0
+        },
+        {
+          "total": 10235.492,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 29263.369930471064,
+          "choice": 0
+        },
+        {
+          "total": 10234.18969325092,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696279995586,
+      "txHash": "",
+      "quorum": 18000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4ZWQwMTI3OGM0MzU4ZWEzZmNmZWM2M2U5YmRjOTkyMjNiMTA2MDA2ZWUzZjcyMGZlOGM0NWE3NGUzZGEyYmMyMQ==",
+      "id": "0xed01278c4358ea3fcfec63e9bdc99223b106006ee3f720fe8c45a74e3da2bc21",
+      "title": "TMP-8: Rage Trade Risk Off Vault Conversion to 80-20 Tricrypto Vault",
+      "content": "Title: Rage Trade Risk-Off Vault Conversion to 80-20 Tricrypto Vault\nAuthor(s): Noodles, Dash, and Avi\nCreated: 6/8/2023\n\n## Summary\n\nThis Treasury Management Proposal suggests that the DAO transfer its $1.5M USDC Deposit in the Rage Trade Risk-Off GLP Vault to the Rage Trade Tricrypto 80-20 vault. This migration is due to Rage Trade deprecating their GLP vault to focus all their efforts on Rage Trade Perps V2 – built on GMX V2.\n\n## Disclaimer\n\nJade Protocol is a decentralized autonomous organization, which means that all treasury management proposals are discussed with the community and voted on as a collective. No single member of the DAO shall be held responsible for the positive or negative outcomes of the TMP should it pass. This proposal put forth by the author(s) was synthesized in good faith as a result of due diligence and community discussion on Jade Protocol’s governance platform. There are no guarantees of financial gain and the DAO collectively assumes responsibility for both the positive and negative outcomes that may result from executing this proposal. This proposal does not constitute investment advice, but rather presents opportunities available to the DAO. \n\nShould the community vote to pass this proposal, then the DAO and its contributors are authorized to carry out the suggestions set forth in this proposal. If the proposal represents an investment opportunity, the community accepts the risk that the DAO may lose the entirety of its deployed funds. If new information comes to light prior to the execution of this proposal (i.e. a change in the investment thesis) then the DAO reserves the right to not deploy funds even with the successful passing of this proposal, as it may pose an outsized risk to the DAO and its collective community.\n\nThere are risks associated with modifying token economics, moving funds across blockchains, yield farming, investing in seed stage projects or liquid tokens, including but not limited to: complete loss of funds, counterparty risk, de-peg risk, economic exploits, smart contract exploits and/or the risk of impermanent loss. Due diligence is meant to mitigate these risks, however the DAO must still acknowledge and accept that these risks exist.\n\n## Abstract\n\nAs an early depositor in the Rage Trade platform, the Jade Protocol DAO is continuing to work closely with their team in order to support its novel yield products. At this time, the Rage Trade team has chosen to deprecate both of its GLP vaults in order to focus efforts on Rage Trade Perps v2 built on top of GMX v2.  While the GLP vault concept was well positioned for sideways markets, the data analysis did not support its viability in the current market conditions. The pivot to focusing on its perps product is a welcome development as Rage Trade v2 offers a novel product offering with new revenue sources for the protocol.\n\nIn the meantime, migrating our Risk-Off GLP Vault deposit to the Tricrypto 80-20 vault allows the DAO to take a directional position now that market conditions are shifting. For unfamiliar users, Tricrypto represents a position that is composed of ⅓ USDT, ⅓ wBTC and ⅓ ETH. This position allows the DAO to be more directionally exposed while still muting volatility. You can find more information on how the Tricrypto 80-20 vault has performed in various market conditions here.\n\nAs of June 8th, 2023, the Tricrypto vault is generating ~7.95% APY (3.94% from Curve Emissions, 0.77% from 3CRV LP Fees, and 3.24% from Rage LP Fees) which outpaces most Tricrypto yields in DeFi by up to 20%. The vault achieves this by utilizing a rebalancing operation and updating ranges for its concentrated LP position. Of note, the current yield is near the lower bound of historical yields due to current sideways market conditions. The vault has historically outperformed Tricrypto by 8-10% over the last year, and the average yield has ranged from 10-15%. While higher APY opportunities may exist, they are typically unaudited, low TVL or carry additional leverage risk. The Rage Trade team has also reiterated its plan to retroactively airdrop $RAGE tokens to early supporters. This may provide a material boost to APY which cannot currently be measured, but should not be ignored.\n\n## Motivation\n\nBoth BTC and ETH are foundational assets for many crypto portfolios. While the DAO holds a considerable amount of ETH, this Tricrypto position would increase our BTC exposure. This also provides a new avenue to earn yield on BTC, which we are not currently earning with our wBTC holdings. While Tricrypto does carry IL risk due to price fluctuations of BTC and ETH, these assets have been highly correlated over long time periods. IL is unlikely to be realized unless there is a material deviation between BTC and ETH over the long term. Short term deviations won’t lock in any losses unless we actually withdraw and break the Tricrypto position. This means the DAO can appropriately time its withdrawal to minimize IL as long as the long term correlation between BTC/ETH remains intact.\n\n#### Yield Farming Criteria\n\n* The Rage Trade has a smart contract audit by Peckshield for the Tricrypto 80-20 Vault.\n* Rage Trade’s Global TVL is $11.3M, therefore the max allocation threshold is $0.68M USD (6%).\n* Rage Trade’s Tricrypto Vault has $7.5M TVL, therefore the total deposit cap is $1.125M USD (15%).\n* Rewards paid in native Tricrypto LP tokens, which are automatically re-staked.\n* Rage Trade is compatible with Gnosis Safe.\n* Although the proposed deposit amount exceeds the TVL thresholds, an exception will be granted with the passage of this governance proposal given that insolvency risk is minimal. Unlike bridging platforms like Stargate, where liquidity is moved across chains, this is a simple deposit strategy that does not result in movement of funds across chains.\n\n#### Pros\n\n* Adaptability: Unlike other vaults in the market which are typically static, this vault has the ability to react to evolving DeFi conditions.\n\n* Isolated Risk: At least 80% of the assets in the vault are allocated to external yield-generating LP tokens, reducing the exposure to risk associated with concentrated liquidity provision on Rage.\n\n* Organic Yield: The attractiveness of this opportunity is not contingent entirely on temporary token incentives. Depositors earn yield from multiple sources. The reason why this vault has been able to outperform Tricrypto and other Tricrypto DeFi farming opportunities is due to the fact that it accrues fees from Rage LPs. All yield is auto-compounded back into the Tricrypto LP position.\n\n* $RAGE Airdrop: Participating in this vault, in addition to our prior participation in the GLP Risk-Off Vault, will position us well to potentially receive an airdrop of the $RAGE token when it is announced.\n\n#### Cons\n\n* Exogenous Risks: The strategy is subject to exogenous risks, such as potential downtime of the Arbitrum network, which could deviate the expected UNI v2 payoff. Additionally, specific yield-generating assets may carry their own risks, including impermanent loss, which could affect the overall strategy's performance.\n\n* Market Volatility: Like any investment strategy in the crypto space, the 80-20 Vaults strategy is exposed to market volatility. Significant price movements of ETH and other assets can impact the overall performance and returns of the strategy.\n\n* Yield Generating Asset Risks: The strategy relies on external yield-generating assets, and their performance is subject to their own risks and market conditions. It's important to understand the specific risks associated with these assets (BTC, ETH and USDT) before participating in the strategy.\n\n* Smart Contract Risk: Rage Trade’s smart contracts or the smart contracts deployed by Curve could have unknown vulnerabilities. Rage Trade’s contracts for the Tricrypto 80-20 were audited by Peckshield and have been in production for almost a year with no exploits and considerable TVL (peak 10M).\n\n## Next Steps\n\nA high level summary of how the investment strategy will be implemented:\n\n* A deposit of 1.5M USDC will be made into the Tricrypto 80-20 vault by transferring our deposit over from the Risk-Off vault.\n* A review of the position’s performance will take approximately 30 days to determine if the position size should be increased, maintained or reduced.\n\n## Voting\n\nThis is a DAO Proposal that was drafted by Noodles, Dash and Avi on 6/8/2023. After 5 days of community discussion, the proposed edits were incorporated and consensus was reached. This vote will be subject to a 24 hour warmup period, followed by a 3 day voting window. \n\n#### If you agree with this proposal, a [YES] vote would confirm the following:\n* Migrate 1.5M USDC from the Risk-Off Vault into the Tricrypto 80-20 Vault on Arbitrum\n\n#### If you disagree with this proposal, a [NO] vote would confirm the following:\n* Withdraw 1.5M USDC from the Risk-Off Vault and DO NOT deposit into the Tricrypto 80-20 Vault\n\n## Eligibility\n\nAll users with an sJADE balance on Avalanche and Binance Smart Chain will be eligible to vote.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 24,
+      "blockNumber": 31542299,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0xed01278c4358ea3fcfec63e9bdc99223b106006ee3f720fe8c45a74e3da2bc21",
+      "startTime": {
+        "timestamp": 1687287122
+      },
+      "endTime": {
+        "timestamp": 1687546322
+      },
+      "startTimestamp": 1687287122,
+      "endTimestamp": 1687546322,
+      "currentState": "closed",
+      "choices": [
+        "YES - Migrate 1.5M USDC",
+        "NO - Withdraw and Hold USDC"
+      ],
+      "results": [
+        {
+          "total": 1505.4332,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1505.433232110168,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 1000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4ZWFjN2JiMzM2MGYxNDIyZTRjZWIyZjE2NWRhZTQzYzcyMDNkODk1ZDM0YWRhMjA4N2RhNzIwNWFiZjk5YTg0NQ==",
+      "id": "0xeac7bb3360f1422e4ceb2f165dae43c7203d895d34ada2087da7205abf99a845",
+      "title": "CIP-6: Finalizing Logo and Brand Elements",
+      "content": "Title: Finalizing Forward Labs Logo and Brand Elements\nAuthor: Jon Ray\nCreated: 6/9/2023\n\n## Summary\n\nThis proposal announces the four shortlisted logo and branding samples from the community and agency partners for the Forward Labs ($FWD) rebranding process, as per CIP-4: New Brand Name for JADE. We are now seeking a community consensus on which logo and branding elements will represent our newly renamed project, Forward Labs ($FWD), in the subsequent migration to the Arbitrum network.\n\n## Disclaimer\n\nForward Labs, previously JADE Protocol, is a decentralized autonomous organization. All decisions, such as the selection of the final branding elements, are collectively made by the community. No single individual or group can be held accountable for the outcomes of the choices made. This proposal has been compiled with due diligence, with a genuine intention to gather community insight and accord.\n\n## Abstract\n\nJade Protocol is rebranding as Forward Labs, and this proposal is focused on defining the new brand assets for Forward Labs. The following four options were generated by community members and branding agencies that were engaged as per the terms of CIP-4. During the drafting period, we encouraged feedback, improvements, and additions to the shortlisted brand elements from the community both on Discord and on our governance platform. The logos are now moving onto a Snapshot vote. This will be a ranked choice vote, and the logo receiving the majority vote will serve as the cornerstone for further brand development.\n\n## Motivation\n\nRebranding JADE Protocol as Forward Labs ($FWD) was a significant step in the project's evolution, voted for by our community. The new brand will be more representative of our direction and values. We are now seeking community involvement and consensus in choosing the visual elements that will best embody this change.\n\n## Community & Agency Submitted Brand Kits:\n\nPlease review the logo art and linked Brand Kit PDF for each logo submission and vote your preference below.\n\n#### Brand Kit #1\n![vote-white logo - FINAL.png](ipfs://bafkreiemma7wzdzispamghpl4witxnpihrxc4zahpgc2ddt7kbggedbz2m)\n\n#### Brand Kit 1 PDF: https://drive.google.com/file/d/131MrzWBwINdUsmUn7zKpqiFXR7lAU0FB/view?usp=sharing\n\n-----\n\n#### Brand Kit 2:\n![FINAL-Logo2.png](ipfs://bafkreigrswpfb3cct2ty4tgcnondyhnlzp4gbi4lr3qtrchgqsh3zw3et4)\n\n#### Brand Kit 2 PDF: https://drive.google.com/file/d/1qRU7C6czcD0iJWttg4dkHeQ1Mk9vvnxG/view?usp=sharing\n\n-----\n\n#### Brand Kit 3:\n![FINAL-Logo3.png](ipfs://bafkreibgkzqjiaf6kgpw6lyg66ztpenyfnhy6obmqyv5zzsxd7zn6bweci)\n\n#### Brand Kit 3 PDF: https://drive.google.com/file/d/13rYKtem29I4G7MBteLlsJ1NBOCA5v4Z9/view?usp=sharing\n\n-----\n\n#### Brand Kit 4:\n![FINAL-Logo4.png](ipfs://bafkreihdh7ctsoc4jfwi35bqtvvu5tbad2weft6ybogtxjqzmwyxmjzhz4)\n\n#### Brand Kit 4 PDF: \nhttps://drive.google.com/file/d/1a-X4u8sF5rIpZU3Z1hBg5M3tAu01J2jQ/view?usp=sharing\n\n-----\n\n## Next Steps\n\nCommunity Liaison, Jon Ray, will collaborate with the winning designer or agency to develop the following assets:\n\n* Final Logo Design: Creation of the final version of the logo in various formats (PNG, JPG, SVG, etc.).\n* Website Design: Collaboration with the development team to create a comprehensive website design reflecting the brand's visual style.\n* Social Media Graphics: Development of social media graphics, profile pictures, cover photos, and other graphical elements across multiple platforms.\n* Final Brand Guideline Document: A detailed guideline including logo usage, typography, color palette, and design elements instructions.\n\nAll assets are expected to be finalized within 4-weeks of this vote concluding on Snapshot.\n\n## Voting\n\nThis is a ranked choice vote, meaning you will rank your preference from (1) Highest Preference to (5) Lowest Preference. There will be a 24-hour warm-up period followed by a 5 day voting window.\n\nIf you agree with this proposal, your vote would indicate the following:\n\n* The selected logo and branding sample is your preferred choice for the Forward Labs rebrand.\n\nIf you disagree with this proposal, a Keep Exploring Options vote would indicate the following:\n\n* Your preference for a new round of logo submissions to select another logo and branding sample.\n\n## Eligibility\n\nAll users with an sJADE balance on Avalanche and Binance Smart Chain are eligible to vote.\n\n## Copyright\n\nCopyright and related rights waived via CC0.",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 44,
+      "blockNumber": 31131382,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0xeac7bb3360f1422e4ceb2f165dae43c7203d895d34ada2087da7205abf99a845",
+      "startTime": {
+        "timestamp": 1686446983
+      },
+      "endTime": {
+        "timestamp": 1686878983
+      },
+      "startTimestamp": 1686446983,
+      "endTimestamp": 1686878983,
+      "currentState": "closed",
+      "choices": [
+        "Brand Kit 1",
+        "Brand Kit 3",
+        "Brand Kit 3",
+        "Brand Kit 4",
+        "Keep Exploring Options"
+      ],
+      "results": [
+        {
+          "total": 218.60591,
+          "choice": 3
+        },
+        {
+          "total": 2538.5303,
+          "choice": 0
+        },
+        {
+          "total": 1064.4722,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 2538.5303115548795,
+          "choice": 0
+        },
+        {
+          "total": 1064.4721467733643,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 218.605896007921,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 1000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4OTk5ZjIzODllYTc4NGMzMjdlZDFhNThlZDJjOTIyNmY2OWNkMDk2Yjk0MjYyMTNhZmQxMTZkNmI4ODFkNzU1Mg==",
+      "id": "0x999f2389ea784c327ed1a58ed2c9226f69cd096b9426213afd116d6b881d7552",
+      "title": "CIP-5: DAO Transparency Framework",
+      "content": "Title: DAO Transparency framework\nAuthors: Lombi, Avicenna and Jon Ray\nCreated: 05/10/2023\n\n## Summary \n\nCreate a clear transparency framework that can be adopted by the Jade Protocol DAO.\n\n## Disclaimer\n\nJade Protocol is a decentralized autonomous organization, which means that all community improvement proposals are discussed with the community and voted on as a collective. No single member of the DAO shall be held responsible for the positive or negative outcomes of the CIP should it pass. This proposal put forth by the author(s) was synthesized in good faith as a result of due diligence and community discussion on Jade Protocol’s governance platform.\n\nShould the community vote to pass this proposal, then the DAO and its contributors are authorized to carry out the suggestions set forth in this proposal. If new information comes to light prior to the execution of this proposal (i.e. a change in regulatory policy) then the DAO reserves the right to not enact the proposed changes, even with the successful passing of this proposal, as it may pose an outsized risk to the DAO and its collective community.\n\nThere are risks associated with modifying DAO operations, engaging new contractors and the deployment of new smart contracts, including but not limited to: loss of funds, smart contract exploits, and/or delays in deployment timelines. Due diligence is meant to mitigate these risks, however the DAO must still acknowledge and accept that these risks exist.\n\n## Abstract \n\nThe emergence of decentralized protocols has revolutionized the way we interact and transact with each other. However, many of these protocols were initially created with a centralized approach, which has led to a lack of transparency and trust issues among users.\n\nAs a result, users of these protocols are left in the dark about how decisions are made and how resources are allocated. This lack of transparency makes it difficult for people to evaluate the protocol's potential risks and benefits, leading to FUD and low adoption.\n\n## Motivation\n\nOur DAO recognizes the need for maximum transparency in the operation of protocols to foster trust and increase adoption. While our protocol has continued to aspire towards decentralization, it still lacks some transparency in its processes – namely decision-making and resource allocation.\n\n#### Pros\n\n* It would foster trust among users and other stakeholders, which could lead to increased adoption of the protocol and the token, as well as potential new partnerships and investments.\n\n* The transparency and accountability framework could attract new contributors and developers who value a transparent and open work environment.\n\n* By providing regular financial reports, the protocol could demonstrate its financial sustainability, which could increase stakeholder confidence.\n\n* The DAO should also consider hiring an external team to audit its assets at least once a year. \n\n#### Cons\n\n* The implementation of the proposed solution could require resources, such as time, expertise, and financial investment.\n\n* The transparency framework could potentially expose sensitive information to competitors or bad actors, which could lead to security or privacy breaches.\n\n* The increased transparency and accountability could lead to increased scrutiny and criticism, especially if the information revealed is damaging to the team.\n\n* Some stakeholders may resist the proposed changes if they perceive them as limiting their decision-making power or reducing their financial incentives.\n\n## Next Steps\n\nThe community proposes the following changes to achieve maximum transparency regarding the DAO’s current operations:\n\n### DAO Constitution to Guide Future Operations\n\nCreate a living document that will be ratified and continuously updated by DAO governance. The constitution will outline a complete organizational structure, with SubDAOs that have clear responsibilities established by governance. An electoral process should be developed for members of each SubDAO and clear terms for duration of service in each role.\n\n### Current Contributor Transparency\n\nEnsure a clearly defined headcount along with roles and responsibilities of all current DAO contributors, including but not limited to: advisors, managers, analysts, marketers, developers, moderators and token holders. Contributors may remain anonymous, but each person’s responsibilities should be clear. This will serve as the foundation for which KPIs can be tracked and remuneration can be determined.\n\n### Decision-making Transparency\n\nEnsure that all decisions made related to the protocol's operation, including resource allocation, development roadmap, and partnership agreements, are made through a transparent and participatory process that involves all sJADE holders. Full transparency may not always be achievable given that some agreements may be under NDA, however, all other operational decisions should be made by the collective DAO members and not behind closed doors. All sJADE holders are considered members of the DAO and will be eligible to participate in governance discussion and vote on Snapshot proposals.\n\n### Resource Transparency\n\nEnsure that all resources allocated to the protocol, including but not limited to: funds for infrastructure (i.e. web hosting), legal counsel, development, operational services (i.e. foundation costs), and other operating expenses, are transparently managed and reported on a quarterly basis (at minimum). Furthermore, there should be transparency regarding contributor and advisor salaries. Develop a transparent remuneration framework that ensures fair and public compensation for all contributors to the protocol, including founders, active contributors, advisors and moderators. This new framework will start in 2024 as current contracts can not be modified for the remainder of 2023.\n\nCurrent monthly spend in salaries is 225K USD. There are currently 7 active contributors on salary: Kevin, Hector, Mac and Rex (part of the founding team) in addition to Avicenna, Jon, and Gavin (who were hired later as consultants with the project). These costs also include contractors that periodically work with the DAO (i.e., Zeal and Aquachoc who have been leading development efforts). Current monthly spend on advisors is 315K USD paid in JADE tokens and these payments cease indefinitely after August 2023.\n\nAll operating expenses must be well defined, and an annual budget should be created prior to the start of each year. Expenses must be reasonable and a clear process for making updates to a budget that has already been approved must be put into place. As of now, some operational expense line items include: foundation costs, hosting costs, legal costs, salaries, development, design and marketing.\n\n### Wallet Management Transparency\n\nThe DAO will need to work towards developing a decentralized treasury management system. This may begin as a SubDAO that is elected by the community to execute transactions within certain parameters defined in advance by DAO governance. This framework will evolve over time as the DAO matures.\n\nIn addition to the treasury balances, each monthly report (starting in July) should also include a section on operating expenses, which tracks the usage of remaining hyper growth fund balances and any treasury payments made for DAO salaries or services received by the DAO. All multi-sig signers for DAO wallets should be known publicly and rotated regularly with certain term periods (just as the Legal Fund signers are). For transparency, all DAO treasury wallet addresses are listed on Gitbook since January 1, 2022. \n\n### Hyper Growth Fund (HGF) Usage Transparency\n\nWe will make enquiries to the founding team to provide an update on the status of the hyper growth fund (HGF) with an updated ledger describing the use of these funds between January 2022 and today.  HFG initially stated that advisors and contributors were being paid from this 6M USD budget without a token allocation. We need to shed light on how much each contributor is earning and if they are being double paid from the HFG and the investment treasury.\n\n### Legal Fund Transparency\n\nWe will ensure that any reimbursement from the DAO’s legal fund is supported by evidence of the legal expense of the beneficiary, making them eligible for reimbursement. This process will be finalized by Jon Ray and Avicenna in the legal fund guide book as per the recently passed TMP-4.\n\n### Monitoring and Evaluating Transparency\n\nEstablish a Transparency SubDAO which will be responsible for tracking the progress of this proposal and ensuring that its goals are met. This SubDAO will be responsible for reporting to the community and also communicating with the founders, advisors and other contributors who will be involved in generating the information needed to further this initiative. This SubDAO should be made up primarily of active DAO community members who have shown an interest in transparency and productive discourse. Lombi has 10 years of experience designing and leading brainstorming sessions, and will lead this SubDAO to outline an approach towards each transparency framework mentioned above.\n\nThe proposed solution would increase transparency and accountability in the protocol's governance, decision-making, financial management, contributor remuneration, and resource allocation processes.\n\n### Conclusions\n\nA transparency framework for the DAO is a critical step towards building trust and confidence among stakeholders. This would enable greater participation, engagement, and collaboration among contributors, developers, and users, which can lead to increased adoption and growth of the DAO.\n\nWhile there are potential risks associated with implementing such a framework, the authors of this proposal believe the benefits outweigh the potential downsides. To minimize risks, it is crucial to carefully plan and execute the implementation process, including choosing the right tools and technologies, identifying and mitigating potential security risks, and communicating effectively with all stakeholders.\n\nOverall, by prioritizing transparency and accountability, a DAO can foster a culture of openness, trust, and collaboration, which is essential for achieving its long term goals.\n\n## Voting\n\nThis is a DAO Proposal that was drafted by community members Lombi, Avicenna & Jon Ray on 5/10/2023. After 20 days of community discussion, the proposed edits were incorporated and consensus was reached. This vote will be subject to a 24 hour warmup period, followed by a 5 day voting window. \n\n#### If you agree with this proposal, a [YES] vote would confirm the following:\n* Gather key outstanding questions from the community to be answered by the core team.\n* A request for a core team AMA with Kevin, Hector, Mac and Rex to shed light on all the questions gathered in step 1 above (not necessarily as a group).\n* All action items as highlighted above in each sub-section.\n\n#### If you disagree with this proposal, a [NO] vote would result in the continuation of operations as is.\n\n## Eligibility\n\nAll users with an sJADE balance on Avalanche and Binance Smart Chain will be eligible to vote.\n\n## Copyright\n\nCopyright and related rights waived via CC0.",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 47,
+      "blockNumber": 30713293,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x999f2389ea784c327ed1a58ed2c9226f69cd096b9426213afd116d6b881d7552",
+      "startTime": {
+        "timestamp": 1685591198
+      },
+      "endTime": {
+        "timestamp": 1686023198
+      },
+      "startTimestamp": 1685591198,
+      "endTimestamp": 1686023198,
+      "currentState": "closed",
+      "choices": [
+        "YES - Create Transparency",
+        "NO - Continue As Is"
+      ],
+      "results": [
+        {
+          "total": 2973.656,
+          "choice": 0
+        },
+        {
+          "total": 23.03865,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2973.6561150027956,
+          "choice": 0
+        },
+        {
+          "total": 23.038650701949653,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 1000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4M2JlYmQwNjQzMDNhODEyM2MxYWFlMGRhZjMxNWRhN2Q3MTUwYjE0ZjhiODdkMGZhMzZjNjBmODUwOGQwOTMwMw==",
+      "id": "0x3bebd064303a8123c1aae0daf315da7d7150b14f8b87d0fa36c60f8508d09303",
+      "title": "TMP-7: Real Yield USD Sommelier Vault",
+      "content": "Title: Real Yield USD Sommelier Vault\nAuthor(s): Seven Seas\nCreated: 5/20/2023\n\n## Summary\n\nThis Treasury Management Proposal suggests that the DAO allocate 1.25M USDC to the Real Yield USD vault, which aims to provide best-in-class stablecoin yields on Ethereum mainnet.\n\n## Disclaimer\n\nJade Protocol is a decentralized autonomous organization, which means that all treasury management proposals are discussed with the community and voted on as a collective. No single member of the DAO shall be held responsible for the positive or negative outcomes of the TMP should it pass. This proposal put forth by the author(s) was synthesized in good faith as a result of due diligence and community discussion on Jade Protocol’s governance platform. There are no guarantees of financial gain and no individual bears responsibility for either the positive or negative outcomes that may result from executing this proposal. This proposal does not constitute investment advice, but rather presents an opportunity available to the DAO. \n\nShould the community vote to pass this proposal, the DAO and its contributors are authorized to carry out the suggestions set forth in this proposal. If the proposal represents an investment opportunity, the community accepts the risk that the DAO may lose the entirety of its deployed funds. If new information comes to light prior to the execution of this proposal (i.e. a change in the investment thesis or exploit vector) then the DAO reserves the right to not deploy funds even with the successful passing of this proposal, as it may pose a direct risk to the DAO and its collective community.\n\nThere are risks associated with modifying token economics, moving funds across blockchains, yield farming, investing in seed stage projects, or purchasing liquid tokens, including but not limited to: complete loss of funds, counterparty risk, de-peg risk, economic exploits, smart contract exploits and/or the risk of impermanent loss. Due diligence is meant to mitigate these risks, however the DAO must still acknowledge and accept that even with proper due diligence – these risks will always exist.\n\n## Abstract\n\nThe DAO could benefit from depositing idle USDC held in the investment treasury into opportunities with outsized yields that fulfill the requirements outlined in TMP-1. More specifically, the DAO Treasury Management has 4.5M USD in stablecoins sitting idle earning 0%.\n\nSommelier is an innovative asset management protocol whose mission is to make DeFi more accessible, profitable, and efficient for everyone. Sommelier’s advanced technology, built on the Cosmos SDK, enables intelligent vaults that can optimize portfolios, trade long-short, borrow-lend, and farm autonomously based on strategist inputs. Independent strategists can leverage the power of off-chain computation to bring algorithmic vaults on-chain, allowing vaults to dynamically adapt to market conditions and provide enhanced opportunities and risk mitigation to users. All vaults are enabled by audited smart contracts and controlled by protocol governance, ensuring transparency and security.\n\nThe Real Yield USD Sommelier vault aims to offer best-in-class stablecoin yields on Ethereum mainnet.  Just over three months old, the vault is generating ~5.2% APY (as of May 30th, 2023) in organic yield which has ranged from 5-7% APY since inception. Historical yields can be viewed by visiting this page.\n\nThe Real Yield USD vault is different from other vaults in that it is intelligent. It has the ability to predict, react, optimize and evolve to current DeFi conditions whereas other vaults are static and limited to simple functions like auto-compounding or leveraging one asset. The vault uses these intelligent capabilities to engage in lending activity on Aave & Compound, in addition to optimizing tick ranges on Uniswap V3 stable pools. This provides users of the vault a high-quality, diversified, organic yield that can outperform many other native stablecoin yield opportunities. Importantly, this vault’s rewards won’t go “stale”, which means the DAO can participate in this vault and know that the strategists will be taking advantage of the latest and greatest stablecoin yield opportunities as they become available.\n\nLastly, the Real Yield USD vault continues to offer additional incentives in SOMM tokens (4.1% APY as of May 30th, 2023). These SOMM tokens can be sold for income or staked to secure the Sommelier Network. Information about SOMM and its role in the Sommelier ecosystem can be found here. Staking SOMM earns a percentage of fees generated by various vault strategies and generates a total APY of ~10% as of May 30th, 2023. Current SOMM tokenomics can be viewed here. \n\n## Motivation\n\nMany treasury protocols hold stablecoins to avoid volatility during times of market uncertainty. In the meantime, those stablecoins can be used in productive ways to generate yield. Given the USD’s yield curve inversion, it is important to look for organic stablecoin yield opportunities that are relatively safe while offering a premium over the risk free rate of treasury bills.\n\nReal Yield USD offers the DAO a way to enhance its stablecoin yield by putting that capital to work within DeFi. The vault will initially generate yield using two primary techniques, but has the potential to integrate with other protocols for new capabilities, subject to governance approval in the future. These techniques include lending activities, which involves lending stablecoins to borrowers on Aave and Compound. The other yield generation technique is liquidity provisioning, which involves providing liquidity to USD based stablecoins (USDC, DAI, USDT) on Uniswap V3, earning fees from traders who swap between the three tokens. The vault will dynamically adapt to changing price movements to quote the optimal tick range(s) that collect the most fees while also minimizing impermanent loss.\n\nOverall, an allocation to Real Yield USD has potential benefits in enhancing the DAOs investment treasury yields while maintaining a reasonable level of risk. The potential risks include impermanent loss as a result of concentrated liquidity farming. However, the Real Yield USD team has safeguards in place to mitigate risks and both lending and liquidity provisioning have proven effective in generating yield in DeFi.\n\n#### Yield Farming Criteria\n* The Real Yield Vault has an audit by a professional firm.\n* Sommelier’s Global TVL is $14.4M, therefore the max allocation is $0.86M USD (6%).\n* Sommelier’s RYUSD Vault has $8.4M TVL, therefore the deposit cap is $1.26M USD (15%).\n* The DAO is potentially allocating 0.85M USD in ETH to the RYE Vault, meaning that if we do allocate that ETH, then current farming guidelines state there is only room for depositing 0.01M of stables into RYUSD. In this case, the proposal is suggesting we remove the global TVL restriction for Sommelier’s platform given that each vault is treated as an independent strategy.\n* Rewards paid in native USDC and bonus rewards in SOMM, which can be staked for yield.\n* Sommelier is compatible with Gnosis Safe.\n\n#### Pros\n* Adaptability: Unlike other vaults in the market which are typically automated and static, this vault has the ability to predict, react, optimize and evolve to evolving DeFi conditions.\n\n* Diversified & Differentiated Yield: This vault generates “real” yield through lending and concentrated LPing. Sourcing yield from different protocols and DeFi activities makes the yield from the vault more resilient to shifts in market conditions and means that it is less exposed to any single type of risk.\n\n* Organic Yield: The attractiveness of this opportunity is not contingent on temporary token incentives. Importantly the yield from this opportunity is denominated in USDC which provides the DAO more certainty around investment return.\n\n#### Cons\n \n* Stablecoin De-Peg Risk: Stablecoin selection was an important consideration in the vault design and thus the vault only supports the most widely adopted stablecoins in the market (USDC, USDT and DAI). However, these assets are still subject to de-peg risk as shown in USDC’s recent de-peg in March. While the vault was able to successfully navigate that incident, there is no guarantee that it will perform as well in future events.    \n\n* Impermanent Loss Risk: Liquidity provisioning always runs the risk of incurring impermanent loss. However, impermanent loss risk is less likely with stable pairs. Additionally, the vault optimizes between this risk and earning trading fees.\n\n* Front Run Risk: Recently, the RYUSD vault was sandwich attacked during a rebalance call, which resulted in the loss of $8,500 USD from a $1.5M swap. Contingency reserves were used to refund the vault and no user funds were lost. This happened due to a high slippage tolerance configuration, which has now been lowered to 1%. Further safeguards have been put into place, and you may read them here.\n\n* Yield Volatility: Because this vault partially relies on trading fees to generate yield, the vault can experience some yield volatility as trading volumes fluctuate. This is especially true on shorter time frames such as a day-to-day basis. However, as stated earlier in the proposal, the vault is over 3 months old and has generated ~5.2% APY since inception (as of May 30th, 2023).\n\n* Smart Contract Risk: Sommelier’s smart contracts or the smart contracts deployed by Aave, Compound or Uniswap could have unknown vulnerabilities. All Sommelier contracts for Real Yield USD have been audited by independent third parties (Macro).\n\n## Next Steps\n\nA high level summary of how the investment strategy will be implemented:\n\n* A deposit of 1.25M USDC will be made into the Real Yield USD vault. \n* The DAO has the option to bond their LP tokens to earn additional SOMM incentives. A separate proposal will be required to discuss bonding vault tokens for additional SOMM rewards.\n* A review of the position’s performance will take approximately 30 days to determine if the position size should be increased, maintained or reduced.\n\n## Voting\n\nThis is a DAO Proposal that was drafted by Sommelier vault strategist Seven Seas on 5/20/2023. After 10 days of community discussion, the proposed edits were incorporated and consensus was reached. This vote will be subject to a 24 hour warmup period, followed by a 3 day voting window.  \n\n#### If you agree with this proposal, a [YES] vote would confirm the following:\n* Lift the global deposit cap specifically for the Sommelier platform, given that each vault is independent.\n* Deposit 1.25M USDC into the Real Yield USD vault on Sommelier.\n\n#### If you disagree with this proposal, a [NO] vote would result in the continuation of operations as is.\n\n## Eligibility\n\nAll users with an sJADE balance on Avalanche and Binance Smart Chain will be eligible to vote.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 28,
+      "blockNumber": 30712734,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x3bebd064303a8123c1aae0daf315da7d7150b14f8b87d0fa36c60f8508d09303",
+      "startTime": {
+        "timestamp": 1685590063
+      },
+      "endTime": {
+        "timestamp": 1685849263
+      },
+      "startTimestamp": 1685590063,
+      "endTimestamp": 1685849263,
+      "currentState": "closed",
+      "choices": [
+        "YES - Deposit 1.25M USDC",
+        "NO - Don't Deposit Any USDC"
+      ],
+      "results": [
+        {
+          "total": 1956.0454,
+          "choice": 0
+        },
+        {
+          "total": 113.21656,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1956.045504321116,
+          "choice": 0
+        },
+        {
+          "total": 113.21656137694546,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 1000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4ZDg5ZjU0M2ZiMWYzOTRjNThmMmNmOWFkZTM5ZGVlNzNkNTFkZGQ4ZjZmNjFlZTFmNGY0NDQyZmVhZGRiM2RhMQ==",
+      "id": "0xd89f543fb1f394c58f2cf9ade39dee73d51ddd8f6f61ee1f4f4442feaddb3da1",
+      "title": "TMP-6: Real Yield ETH Sommelier Vault",
+      "content": "Title: Real Yield ETH Sommelier Vault\nAuthor(s): Seven Seas\nCreated: 5/20/2023\n\n## Summary\n\nThis Treasury Management Proposal presents an opportunity for the DAO to allocate ETH to the Real Yield ETH vault, which aims to provide best-in-class ETH yields on Ethereum mainnet.\n\n## Disclaimer\n\nJade Protocol is a decentralized autonomous organization, which means that all treasury management proposals are discussed with the community and voted on as a collective. No single member of the DAO shall be held responsible for the positive or negative outcomes of the TMP should it pass. This proposal put forth by the author(s) was synthesized in good faith as a result of due diligence and community discussion on Jade Protocol’s governance platform. There are no guarantees of financial gain and no individual bears responsibility for either the positive or negative outcomes that may result from executing this proposal. This proposal does not constitute investment advice, but rather presents an opportunity available to the DAO. \n\nShould the community vote to pass this proposal, the DAO and its contributors are authorized to carry out the suggestions set forth in this proposal. If the proposal represents an investment opportunity, the community accepts the risk that the DAO may lose the entirety of its deployed funds. If new information comes to light prior to the execution of this proposal (i.e. a change in the investment thesis or exploit vector) then the DAO reserves the right to not deploy funds even with the successful passing of this proposal, as it may pose a direct risk to the DAO and its collective community.\n\nThere are risks associated with modifying token economics, moving funds across blockchains, yield farming, investing in seed stage projects, or purchasing liquid tokens, including but not limited to: complete loss of funds, counterparty risk, de-peg risk, economic exploits, smart contract exploits and/or the risk of impermanent loss. Due diligence is meant to mitigate these risks, however the DAO must still acknowledge and accept that even with proper due diligence – these risks will always exist.\n\n## Abstract\n\nThe DAO could benefit from depositing idle ETH held in the investment treasury into opportunities with outsized ETH yields that fulfill the requirements outlined in TMP-1. More specifically, the DAO’s investment treasury has ~1,000 ETH sitting idle earning 0%.\n\nSommelier is an innovative asset management protocol whose mission is to make DeFi more accessible, profitable, and efficient for everyone. Sommelier’s advanced technology, built on the Cosmos SDK, enables intelligent vaults that can optimize portfolios, trade long-short, borrow-lend, and farm autonomously based on strategist inputs. Independent strategists can leverage the power of off-chain computation to bring algorithmic vaults on-chain, allowing vaults to dynamically adapt to market conditions and provide enhanced opportunities and risk mitigation to users. All vaults are enabled by audited smart contracts and controlled by protocol governance, ensuring transparency and security.\n\nThe Real Yield ETH Sommelier vault aims to offer best-in-class ETH yields on Ethereum mainnet. While just over a month old, the vault is generating 11.6% APY (as of May 30th, 2023) in organic ETH yield and the vault creators estimate that an APY range of 10-20% is achievable as the vault scales to $50M+ of TVL. Historical yields can be viewed by visiting this page.\n\nThe Real Yield ETH vault is different from other vaults in that it is intelligent. It has the ability to predict, react, optimize and evolve to current DeFi conditions whereas other vaults are static and limited to simple functions like auto-compounding or leveraging one asset. The vault uses these intelligent capabilities to take leveraged staking positions in various liquid staked tokens (LSTs), specifically stETH, wstETH, rETH and cbETH on Aave & Compound. Those LST tokens are also paired with ETH on Uniswap v3 to earn “real” yield from trading fees. This provides users of the vault a high-quality, diversified, organic yield that can outperform baseline ETH staking rewards. Importantly, this vault’s rewards won’t go “stale”, which means the DAO can participate in this vault and know that the strategists will be taking advantage of the latest and greatest ETH/LST yield opportunities as they become available.\n\nLastly, the Real Yield ETH vault is currently in a bootstrapping phase and is offering additional incentives in SOMM tokens (6.5% APY as of May 30th, 2023). These SOMM tokens can be sold for income or staked to secure the Sommelier Network. Information about SOMM and its role in the Sommelier ecosystem can be found here. Staking SOMM earns a percentage of fees generated by various vault strategies and generates a total APY of ~10% as of May 20th, 2023. Current SOMM tokenomics can be viewed here & staking APY can be viewed here. Of note, SOMM tokens must be bridged to the Sommelier chain from ETH mainnet in order to be staked for yield.\n\n## Motivation\n\nETH remains a foundational asset for many portfolios, given the strength of the Ethereum ecosystem, protocol tokenomics, and the utility of ETH within the crypto economy. With the Shapella upgrade, ETH staking has become less risky, effectively making it the \"risk-free\" rate for holding Ethereum. Therefore, staking the investment treasury holdings or seeking audited farming opportunities that offer outsized yields makes sense. The risks taken on by obtaining outsized yields must be well understood and minimized.\n\nReal Yield ETH offers the DAO a way to enhance its ETH staking yield by putting that capital to work within DeFi. The vault will initially generate yield using two primary techniques, but has the potential to integrate with other protocols for new capabilities, subject to governance approval in the future. These techniques include leveraged staking, which involves exchanging ETH for an ETH-denominated LST, using it as collateral on Aave or Compound, borrowing more ETH, and repeating the cycle. The vault is leveraged, but its smart contract enforces a minimum 1.05 health factor during each rebalance as a safety precaution, and it closely monitors on-chain conditions to mitigate liquidation risk. While this greatly minimizes the chances of liquidation, the risk is not zero.\n\nThe other yield generation technique is liquidity provisioning, which involves providing liquidity to ETH/ETH-denominated LST trading pairs on Uniswap V3, earning fees from traders who swap between the two tokens. The vault will dynamically adapt to changing price movements to quote the optimal tick range(s) that collect the most fees while also minimizing impermanent loss.\n\nAt launch, the vault was heavily allocated towards cbETH because it believed it was trading between 0.5-1% below its intrinsic value, creating an arbitrage opportunity that could lead to substantial yields. Real Yield ETH acquired cbETH by collateralizing on Aave V3, borrowing ETH, swapping to cbETH, and re-collateralizing. Based on an average cost basis of 1.02629 WETH per cbETH, the vault expected an ROI of 3.83-4.43%, which if achieved within 30 days, could be annualized to 46-53%. In addition to leveraged staking, the vault heavily allocates to a cbETH-ETH LP pair on Uni V3, consistently generating ~3x or more of its corresponding TVL share. Over the first 30 days of the vaults launch this thesis largely played out, and cbETH is now only approximately 0.2% depegged. As the risk reward for ETH LSTs have changed, so has the allocations of the vault, which has now diversified into leverage staking of stETH on Aave V2 and wstETH on Aave V3.\n\nOverall, an allocation to Real Yield ETH has potential benefits in enhancing the DAOs investment treasury yields while maintaining a reasonable level of risk. The potential risks include liquidation from market changes and the value of cbETH not returning to its intrinsic value. However, the Real Yield ETH team has safeguards in place to mitigate risks, and leveraged staking and liquidity provisioning have proven effective in generating yield in DeFi.\n\n#### Yield Farming Criteria\n* The Real Yield Vault has an audit by a professional firm.\n* Sommelier’s Global TVL is $14.4M, therefore the max allocation is $0.86M USD (6%).\n* Sommelier’s RYE Vault has $5.9M TVL, therefore the total deposit cap is $0.88M USD of ETH (15%).\n* Rewards paid in native ETH and bonus rewards in SOMM, which can be staked for yield.\n* Sommelier is compatible with Gnosis Safe.\n\n#### Pros\n* Adaptability: Unlike other vaults in the market which are typically automated and static, this vault has the ability to predict, react, optimize and evolve to evolving DeFi conditions.\n\n* Diversified & Differentiated Yield: This vault generates “real” yield through leveraged staking, lending and concentrated LPing. Sourcing yield from different protocols and DeFi activities makes the yield from the vault more resilient to shifts in market conditions and means that it is less exposed to any single type of risk. No other vault offers this capability nor the LP performance (consistently earning ~3x of the fee pool relative to  its corresponding TVL share) making Real Yield ETH truly differentiated.\n\n* Organic Yield: The attractiveness of this opportunity is not contingent on temporary token incentives. Importantly the yield from this opportunity is denominated in ETH which provides the DAO more certainty around investment return.\n\n#### Cons\n* Leverage: This vault uses leverage which could result in assets being liquidated. While the vault enforces a minimum 1.05 health factor during each rebalance and closely monitors on-chain conditions to mitigate liquidation risk, there is no guarantee that it will avoid liquidation in all scenarios.\n \n* Yield Volatility: At present, the vault assumes that the cbETH trading at a discount will re-peg to its intrinsic value. It has therefore allocated heavily towards this asset, including taking on leverage to buy more cbETH to further enhance yields. Although the price of cbETH has trended towards re-pegging (see chart), that progress has not been perfectly linear. Therefore, the yield generated by the vault is subject to volatility based on the price of cbETH. This of course can change once cbETH re-pegs or the vault reallocates to a different LST. \n\n\n\n* Smart Contract Risk: Sommelier’s smart contracts or the smart contracts deployed by Aave, Compound or Uniswap could have unknown vulnerabilities. All Sommelier contracts for Real Yield ETH have been audited by an independent third party (Macro).\n\n## Next Steps\n\nA high level summary of how the investment strategy will be implemented:\n\n* A deposit of 450 ETH (worth ~852K USD on 5/30/23) will be made into the Real Yield ETH vault. \n* The DAO has the option to bond their LP tokens to earn additional SOMM incentives. A separate proposal will be required to discuss bonding vault tokens for additional SOMM rewards.\n* A review of the position’s performance will take approximately 30 days to determine if the position size should be increased, maintained or reduced.\n\n## Voting\n\nThis is a DAO Proposal that was drafted by Sommelier vault strategist Seven Seas on 5/20/2023. After 10 days of community discussion, the proposed edits were incorporated and consensus was reached. This vote will be subject to a 24 hour warmup period, followed by a 3 day voting window. \n\n#### If you agree with this proposal, a [YES] vote would confirm the following:\n* Deposit 450 ETH into the Real Yield ETH vault on Sommelier.\n\n#### If you disagree with this proposal, a [NO] vote would result in the continuation of operations as is.\n\n## Eligibility\n\nAll users with an sJADE balance on Avalanche and Binance Smart Chain will be eligible to vote.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 30,
+      "blockNumber": 30712543,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0xd89f543fb1f394c58f2cf9ade39dee73d51ddd8f6f61ee1f4f4442feaddb3da1",
+      "startTime": {
+        "timestamp": 1685589669
+      },
+      "endTime": {
+        "timestamp": 1685848869
+      },
+      "startTimestamp": 1685589669,
+      "endTimestamp": 1685848869,
+      "currentState": "closed",
+      "choices": [
+        "YES - Deposit 450 ETH",
+        "NO - Don't Deposit Any ETH"
+      ],
+      "results": [
+        {
+          "total": 2322.76,
+          "choice": 0
+        },
+        {
+          "total": 3.0679786,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2322.760032901685,
+          "choice": 0
+        },
+        {
+          "total": 3.067978608,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 1000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4NGFiZTQ3MDMyY2YyNjQwMjVjNzE0NzgxYTY4OWQyYzBiNjI4NGI0ZjYwNmMwNTNmYmIxNzlmMmJhNmQzZTdhNg==",
+      "id": "0x4abe47032cf264025c714781a689d2c0b6284b4f606c053fbb179f2ba6d3e7a6",
+      "title": "CIP-4: New Brand Name for JADE",
+      "content": "Jade Protocol DAO is calling for a community vote to decide on a new name for our DAO and associated token to be launched on Arbitrum. The goal is to select a name that reflects the DAO's values and vision and is available for the proper domain and token names.\n\nThe core contributors and a handful of consultants have reviewed and cleared the following options, which are now being presented to the community for voting. The winning name will be used as the basis for the brand kit and mood board request for submission (see below).\n\n# Brand Name Options:\n\nForward Labs - $FWD\nInnovation DAO - $INVD\nForge DAO - $FORGE\nCatalyst Labs - $LYST\nBack to Drawing Board\n\nThe community is encouraged to vote based on the name they believe best represents the DAO's values and vision, which are listed below:\n\n## Forward-Thinking\n* We look beyond hyper and look directly toward real utility.\n\n## Data-Driven\n* We make decisions using on-chain metrics and research data.\n\n## Authenticity\n* We speak our truth, even when it’s unpopular to do so.\n\n## Visionary\n* We set out on our own path to push the limits of what is possible.\n\nAfter this vote, the DAO will proceed with the brand kit and mood board request for submission. The selected name will be used for the DAO's rebranding initiative, including the issuance of a new token on the Arbitrum Network and the establishment of a terminal floor price for the token.\n\nLearn how you can submit your brand kit for consideration in our contest here: https://docs.google.com/document/d/1910aJ-DtKl8dyD-7FftPifFu2vz3YEnpy5CF42vw95U/edit#\n",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 74,
+      "blockNumber": 29794273,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x4abe47032cf264025c714781a689d2c0b6284b4f606c053fbb179f2ba6d3e7a6",
+      "startTime": {
+        "timestamp": 1683718408
+      },
+      "endTime": {
+        "timestamp": 1684150408
+      },
+      "startTimestamp": 1683718408,
+      "endTimestamp": 1684150408,
+      "currentState": "closed",
+      "choices": [
+        "Forward Labs ($FWD)",
+        "Innovation DAO ($INVD)",
+        "Catalyst Labs ($LYST)",
+        "Forge DAO ($FORGE)",
+        "Back to the Drawing Board"
+      ],
+      "results": [
+        {
+          "total": 163.71864,
+          "choice": 3
+        },
+        {
+          "total": 467.8256,
+          "choice": 4
+        },
+        {
+          "total": 1977.2876,
+          "choice": 0
+        },
+        {
+          "total": 141.52899,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 1977.2877260040343,
+          "choice": 0
+        },
+        {
+          "total": 141.52900515764236,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 163.71864502461165,
+          "choice": 3
+        },
+        {
+          "total": 467.82558018075423,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 1000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4OGNhZjExMTgzNDkyM2YwYjk4YjM1MTQ2NWE5OTA1NzlmYWIyZTFlZWI0YjJmNzY0MzZhNWJiY2I0MDRlYmZjNA==",
+      "id": "0x8caf111834923f0b98b351465a990579fab2e1eeb4b2f76436a5bbcb404ebfc4",
+      "title": "CIP-3: Re-brand & Re-launch JADE with A New Token and Terminal Floor Price",
+      "content": "Authors: Casper007, Jon Ray and Avicenna\nCreated: 4/13/2023\n\n## Summary\n\nThis proposal aims to re-brand Jade Protocol, issue a new token, establish a terminal floor price and give absolute clarity on the new token’s circulating supply. This also allows Smartans on long term vesting schedules to receive all their vesting tokens upfront after the migration occurs.\n\n## Disclaimer\n\nJade Protocol is a decentralized autonomous organization, which means that all community improvement proposals are discussed with the community and voted on as a collective. No single member of the DAO shall be held responsible for the positive or negative outcomes of the CIP should it pass. This proposal put forth by the author(s) was synthesized in good faith as a result of due diligence and community discussion on Jade Protocol’s governance platform.\n\nShould the community vote to pass this proposal, then the DAO and its contributors are authorized to carry out the suggestions set forth in this proposal. If new information comes to light prior to the execution of this proposal (i.e. a change in regulatory policy) then the DAO reserves the right to not enact the proposed changes, even with the successful passing of this proposal, as it may pose an outsized risk to the DAO and its collective community.\n\nThere are risks associated with modifying DAO operations, engaging new contractors and the deployment of new smart contracts, including but not limited to: loss of funds, smart contract exploits, and/or delays in deployment timelines. Due diligence is meant to mitigate these risks, however the DAO must still acknowledge and accept that these risks exist.\n\n## Abstract\n\nThis proposal seeks permission from the DAO to completely rebrand Jade Protocol, issue a new token on the Arbitrum Network, and establish a terminal floor price for said token. The new brand will address previously identified PR issues in securing high-quality investments due to misconceptions about our DAO in the marketplace. \n\nThe branding will better reflect our values and vision as a DAO, while shedding any past references to being an OHM fork. By launching a new token, we are also able to address some of the current technical limitations of our multi-chain set up and also re-establish the floor price narrative. This improves the DAOs ability to maintain a floor without reducing it monthly.\n\nThese changes open up the opportunity to attract knowledgeable DAO members and maintain those who genuinely want to be part of the project. This proposal also outlines a plan for payout acceleration to Smartans receiving vested JADE, facilitating those who no longer wish to be in the project to leave amicably. \n\n## Motivation\n\nThe motivation behind this proposal is to address the current barriers to entry for various partnerships caused by Jade Protocol's branding, as well as technical limitations to the current token. By completely rebranding Jade Protocol and issuing a new token with improved infrastructure and economics, we can:\n\n### Secure better seed investment opportunities\n\n* Establishing and marketing a new social media presence will allow the DAO to improve public relations and drive more value for seed investments.\n\n### Attract new and knowledgeable DAO members\n\n* The floor price narrative is a strong one, and with a dropping floor each month, this inhibits our ability to market JADE to new and valuable DAO members.\n\n### Accelerate payout to Smartans, allowing those who wish to leave the project to do so.\n\n* Issuing a new token allows us to issue all pending tokens to users regardless of their bonding time frames.\n* This allows for instant redemptions if users want to leave the project, and opens up the opportunity for users to stake their tokens and be active DAO members.\n\n### Establish circulating supply transparency and a fully diluted floor value.\n\n* Early advisors have signed legal documents entitling them to vested JADE payments through the month of August 2023. These contracts are binding, therefore payments cannot be changed. The total monthly payment in USD is $315,000 and all future monthly payments will be based on the trailing 30-day average price of JADE, meaning that advisors will receive May payments on June 1st, and the payment will be based on the average price of JADE from May 1st to May 31st. The last payment will be made in September 2023 for the month of August 2023. The allocation set aside for payments in the “vesting payments” excel sheet linked below is the maximum amount of JADE needed to pay these allocations. Any leftover JADE will be burned by the end of Sept 2023 after payments have concluded. There will be a corresponding raise in the floor price after the burn occurs.\n* The active contributors will no longer earn ~50-30% of their salary in JADE vested over 6 months.The DAO will transition to paying all active contributor salaries via stablecoins. The excess JADE in the DAO wallet can then be burned.\n* This spreadsheet (https://docs.google.com/spreadsheets/d/1nMco7bBItzsdq_jXWmZ4VdOCwcnM7y_wZSoOGEELODc/edit?usp=sharing) shows estimated advisor payments through the end of August and the terminal floor price based on the excess JADE in the DAO wallet being burned.\n* If only advisor payments are paid in JADE, the terminal floor is ~$8.40 and advisors own ~28.6% of circulating supply when considering all the JADE allocated to them from the start of vesting in July 2022.\n* This terminal floor price is fluid and may go down if redemptions accelerate between now and April 30th, 2023.\n* Founders/advisors have agreed to NOT redeem any JADE before the terminal floor price adjustment. About 30K JADE is claimable in the bonding contracts, which means there could be some redemptions from retail bonds before the floor price is adjusted to the terminal floor price on May 1st.\n* All excess DAO owned JADE will be burned September 2023 and the floor price will be raised according to the reduction in circulating supply.\n* From 2024 onward, all active contributor salaries can be re-negotiated. All salaries must be approved via snapshot voting by December 2023 prior to payments commencing in January 2024. Clear roles should be defined along with responsibilities and KPIs (if applicable). Incentive structures should be aligned with the success of the DAO.\n* Discussions should begin in Q3 2023 to ensure consensus can be reached to avoid a scenario whereby operations must be halted due to disagreements re: salary for each role.\n* Competitive salary research should be performed, in addition to accounting for risk of the role given the current regulatory environment.\n* Farming strategies should be optimized to ensure a sustainable source of revenue for covering all DAO opex.\n\n### Enhance the technical capabilities of our token (ie, restricted minting, on-chain auto-burns via redemption contract, veTokenomics, decentralized governance, etc).\n\n* The current ERC-20 contracts on BNB Chain are modeled after the olympus rebasing contracts, which are no longer a relevant model for the DAO.\n* The ERC-20 contracts on Avalanche are a pegged bridge token which cannot be burned by users (only the bridge can burn) meaning the on-chain supply cannot be reduced, leading to confusion about the circulating supply.\n* A new ERC-20 token allows the DAO to deploy on a chain with a strong narrative (Arbitrum) while also keeping transaction fees low.\n* A new ERC-20 token and supporting contracts (staking, redeem, etc.) allows the DAO to customize them to serve the current and future needs of the DAO, without any of the current limitations around staking or burning.\n* Moving towards true on-chain governance is the ultimate goal, and for the interim, time locked upgradable contracts with multi-sig admin controls can be created until on-chain DAO governance infrastructure can be integrated. This is the most important long term goal of the DAO in order to be compliant with true decentralization standards.\n\n## Next Steps\n\nA total budget of $39,500 will be set aside for the purposes of executing all costs related to this proposal. The estimated timeline for this project (from start to finish) is 45 days.\n\n### Re-Branding ($19,500 total)\n\n#### The community will authorize $4,500 to create mood boards, mock-ups, and pitch decks for three [3] separate branding options ($1,500/per pitch).\n* Each pitch should include a new name, logo concept, and mood board that references how the venture brand would be incorporated into website design, social media, and marketing materials). The JADE DAO will review each of these options and select one [1] new brand concept through a community-driven process and off-chain vote.\n* As per governance discussion, 2 pitches will be reserved for professional agencies, and 1 pitch will be reserved for a contest submission spot, so that anyone from the community can refer someone to apply, or apply themselves. The community will then vote on the best submission.\n* The new brand will then be fully developed by the winning agency and adopted across all public-facing platforms [Budget: $10,000]. The JADE DAO will review all branding materials in phases and have an opportunity to ask for revisions, changes, or additions to the branding materials during the development process.\n* Budget for ensuring the new token is listed in all relevant venues (i.e., DeBank, Nansen, CoinMarketCap, etc.) [Budget: $5,000].\n* Unwind all social media and token channels related to Jade Protocol and create all social media and token channels for the new token.\n* Launch a new website design and campaign to promote the new brand/token.\n* Remove any previous messaging that conflicts with the new brand/token.\n\n### Re-Deployment Development Costs ($20,000 total)\n\n#### Contract admins under multisig control until moving to true on-chain governance.\n* All contracts will be tested on testnet to ensure functionality as intended.\n* Quote includes: ERC-20 contract, redeem contract, and staking contract.\n* Deploy ERC-20 contract with proper time locked upgrade security, including strict role management for minting and other functions, including burn mechanisms.\n* Minting is restricted to a single mint to establish maximum supply. \n* No bonding or other minting mechanisms will be introduced.\n* Build a new lightweight and secure upgradable staking contract\n* Includes time tracking mechanism for linear voting power release (ie, more voting power the longer you are staked) with reduction of governance voting power upon unstaking your tokens\n\n#### Airdrop of new token to all users\n* This is the most time consuming part of the process, since there are multiple sources to be queried for balances (JADE on both chains, sJADE on both chains, bonding contracts, vesting on Sablier/Furo streams).\n* In order to minimize gas costs, a custom Merkle tree mechanism will need to be developed (costs <$1 in gas vs. >$10-20K in gas for CSV upload with over 40K users holding JADE).\n* Terminal amount will be calculated for each user, all data will be aggregated and shared publicly to ensure verifiable accuracy.\n* Connection of Merkle Proof mechanism to the front end UI\n\n#### Sunset Old Contracts\n* Remove liquidity for JADE tokens on BNB Chain and Avalanche network.\n* Remove stablecoins from old redeem contracts and migrate them to the new redeem contract once it has been deployed.\n* Add the new token to Liquidity Book on TraderJoe (Arbitrum).\n* Accelerate vesting JADE payouts to all Smartans who bonded on Avalanche network.\n* Honor remaining advisor payments through Aug 2023 and begin paying active team members in stablecoins instead of vested JADE.\n* Burn any excess DAO owned JADE based on terminal floor price calculations by the end of September 2023.\n\n## Voting\n\nThis is a DAO Proposal that was drafted by community members Casper007, Jon Ray and Avi. It was subsequently posted in Discord on 4/14/2023 at 12:11pm PST. After 5-days of community discussion, the proposed edits were incorporated and consensus was reached. The vote is now going to an on-chain vote. This vote will be subject to a 24-hour warmup period, followed by a 5-day voting window.\n\nIf you agree with this proposal, a [YES] vote would confirm the following:\n\n* The complete rebranding of Jade Protocol DAO.\n* The issuance of a new token with improved infrastructure and clear circulating supply.\n* Accelerating the payout to Smartans who bonded on the Avalanche network via an airdrop of the new token.\n* Establishing a terminal floor price for the new token.\n* Termination of all founder/advisor payments by the end of August 2023.\n* Halt vested JADE Payments to the active contributors and re-start payments in stables as of May 1st, 2023.\n* Burn all excess DAO owned JADE that is not needed to honor advisor payouts by the end of September 2023; and raise the floor price accordingly.\n* The adoption of the new brand and token across all public-facing platforms.\n* The launch of a new website design and campaign to promote the new brand and token.\n\nIf you disagree with this proposal, a [NO] vote would confirm the following:\n\n* The continuation of operations as is.\n\n## Eligibility\n\nAll users with an sJADE balance on Avalanche and Binance Smart Chain will be eligible to vote.\n\n## Copyright\n\nCopyright and related rights waived via CC0.",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 91,
+      "blockNumber": 29044796,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x8caf111834923f0b98b351465a990579fab2e1eeb4b2f76436a5bbcb404ebfc4",
+      "startTime": {
+        "timestamp": 1682188197
+      },
+      "endTime": {
+        "timestamp": 1682447397
+      },
+      "startTimestamp": 1682188197,
+      "endTimestamp": 1682447397,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 9190.74,
+          "choice": 0
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        },
+        {
+          "total": 48.78769,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9190.7401547525,
+          "choice": 0
+        },
+        {
+          "total": 48.787685601949654,
+          "choice": 1
+        },
+        {
+          "total": 1.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 1000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4MzViNjkwYmI4MWM1ZmY4OTk4YWMyMGRkYjdhYWU4NmQ3MzdmMDRjMWNjZDQ3YWFmMDA0OWUwNWEwNWMwM2Q5Zg==",
+      "id": "0x35b690bb81c5ff8998ac20ddb7aae86d737f04c1ccd47aaf0049e05a05c03d9f",
+      "title": "TMP-5 : Migrating Liquidity to TraderJoe",
+      "content": "Title: Migrate Liquidity to TraderJoe\nAuthor: Avicenna\nCreated: 3/14/2023\n\n## Summary\n\nMigrate all BNB chain liquidity from PancakeSwap to TraderJoe and enable liquidity book, in addition to listing JADE on Avalanche liquidity book pending governance approval from TraderJoe’s community.\n\n## Disclaimer\n\nJade Protocol is a decentralized autonomous organization, which means that all treasury management proposals are discussed with the community and voted on as a collective. No single member of the DAO shall be held responsible for the positive or negative outcomes of the TMP should it pass. This proposal put forth by the author(s) was synthesized in good faith as a result of due diligence and community discussion on Jade Protocol’s governance platform. There are no guarantees of financial gain and the DAO collectively assumes responsibility for both the positive and negative outcomes that may result from executing this proposal. This proposal does not constitute investment advice, but rather presents opportunities available to the DAO. \n\nShould the community vote to pass this proposal, then the DAO and its contributors are authorized to carry out the suggestions set forth in this proposal. If the proposal represents an investment opportunity, the community accepts the risk that the DAO may lose the entirety of its deployed funds. If new information comes to light prior to the execution of this proposal (i.e. a change in the investment thesis) then the DAO reserves the right to not deploy funds even with the successful passing of this proposal, as it may pose an outsized risk to the DAO and its collective community.\n\nThere are risks associated with modifying token economics, moving funds across blockchains, yield farming, investing in seed stage projects or liquid tokens, including but not limited to: complete loss of funds, counterparty risk, de-peg risk, economic exploits, smart contract exploits and/or the risk of impermanent loss. Due diligence is meant to mitigate these risks, however the DAO must still acknowledge and accept that these risks exist.\n\n## Abstract\n\nThe DAO has a Pancake Swap LP (750k) deployed on BNB Chain and Trader Joe LP (120k) deployed on Avalanche. These LPs are traditional AMM LPs, meaning that we are providing liquidity across all price ranges (infinite liquidity). While this has served us well for the past year or so, there are now new DeFi innovations that will allow us to be more capital efficient while minimizing slippage. Concentrated liquidity on TraderJoe’s liquidity book platform would allow for capital efficiency and the return of some funds to our investment treasury to supplement our investment allocations.\n\n## Motivation\n\nThe DAO could benefit from having concentrated liquidity in addition to a traditional LP pool for a few reasons.\n\n1) Given the unique nature of the floor price, the DAO will benefit from having concentrated liquidity that deepens liquidity around that specific price. This means we could maintain current slippage rates on the BNB Chain with less capital.\n\n2) The DAO will generate fees in both JADE and BUSD/USDC for both liquidity book pairs. The DAO can decide how to utilize these fees, options include: 1) re-compounding the fees into the LP, 2) claiming the stables for the treasury and burning the JADE, 3) or simply claiming and holding both the stables and JADE tokens. This can be decided in another governance proposal, or built into this proposal prior to it going live.\n\n3) A base layer of liquidity will need to remain in a traditional v1 LP (minimum of 100k recommended by TraderJoe) to serve as a buffer if price ever migrates outside the bin ranges set on the liquidity book. This allows the DAO time to re-set bin ranges without having to worry about being illiquid when doing so.\n\nThe TraderJoe team is one of the most reliable shippers of code on Avalanche, and are now rapidly expanding their product to other EVM chains (Arbitrum/BNB Chain/etc.).\n\nAs a result of this new partnership with TJ, we can work closely with them to coordinate the launch of new token pairs on Liquidity Book anytime one of our seed investments wants to launch or expand liquidity.  This will allow us to provide further value to our seed investments, while also providing a pipeline for TraderJoe to onboard new and innovative projects.\n\n#### Pros\n* Capital efficiency\n* Strengthen our relationship with a premier project that is expanding its reach\n\n#### Cons\n* Migration of funds will take some time\n* Addition of JADE on Avalanche to the liquidity book is not guaranteed, and must pass TraderJoe governance first.\n\n## Next Steps\n\nA high level summary of how the investment strategy will be implemented:\n\n* 150k of LP withdrawn from PCS and added to TJ v1 pool on BNB Chain.\n* 200k of LP withdrawn from PCS and added to the TJ Liquidity Book on BNB Chain with bin ranges set to +/-15% of the floor price. These bin ranges will ensure deep liquidity at the floor price while also minimizing IL.\n* Remaining LP withdrawn from PCS (~400k), LP tokens are unpaired to yield JADE (200k) and BUSD (200k). The Jade tokens can be burned, and then the BUSD can be held in the treasury or swapped to USDC. Given the concentrated liquidity from liquidity book, removing the remainder of PCS LP will not have a negative effect on slippage. In fact, there should be less slippage now that we have both a traditional LP and supplemental concentrated liquidity.\n* Adding JADE to Liquidity book on Avalanche does require our DAO to go through TraderJoe's governance process. \n* If approved, bridge over 100k of USDC and 100k of JADE to Avalanche and then add liquidity to LB on Avalanche with bin ranges identical to BNB Chain.\n* Anytime the floor is going to change, the DAO will need to adjust the bin ranges on both Avalanche and BNB Chain to reflect the new floor price. Prior to floor changes, the DAO will remove the concentrated liquidity, and allow the price to naturally fall to the floor via the underlying v1 LP. Once the floor is reached, arbitrageurs will begin to keep the price steady while we re-deploy the concentrated LP.\n\n## Voting\n\nThis is a Core Proposal that was presented to the community via 3/14/2023 on. After a 10 day community discussion, the proposed edits were incorporated and consensus was reached. This vote will be subject to a 24 hour warmup period, followed by a 3 day voting window. \n\n#### If you agree with this proposal, a [YES] vote would confirm the implementation of all next steps highlighted above.\n\n#### If you disagree with this proposal, a [NO] vote would result in the continuation of operations as is.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 84,
+      "blockNumber": 27866839,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x35b690bb81c5ff8998ac20ddb7aae86d737f04c1ccd47aaf0049e05a05c03d9f",
+      "startTime": {
+        "timestamp": 1679790181
+      },
+      "endTime": {
+        "timestamp": 1680049381
+      },
+      "startTimestamp": 1679790181,
+      "endTimestamp": 1680049381,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7187.0317,
+          "choice": 0
+        },
+        {
+          "total": 204.14313,
+          "choice": 2
+        },
+        {
+          "total": 17.266064,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7187.032129600842,
+          "choice": 0
+        },
+        {
+          "total": 17.26606380259956,
+          "choice": 1
+        },
+        {
+          "total": 204.14312687693888,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 1000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4MjM1ZTQ1ZjYyNGM5NWUyNjFkYzJkMzI4MGNkMzg3YTliYWI3ZDMxMGFkODAxODRlNDdlN2E5MTM2OWQzNDg0OA==",
+      "id": "0x235e45f624c95e261dc2d3280cd387a9bab7d310ad80184e47e7a91369d34848",
+      "title": "TMP-4: Establish Legal Defense Fund for Jade Protocol DAO",
+      "content": "Title: Establish Legal Defense Fund for Jade Protocol DAO\nAuthor(s): Jon Ray & Avicenna\nCreated: 3/17/2023\n\n## Summary\n\nGiven the shifting regulatory landscape and Jade Protocol DAO’s (the “DAO”) efforts to stay informed while aiming for ongoing compliance, this Treasury Management Proposal seeks to establish a Legal Defense Fund for covered participants of the DAO.\n\n## Disclaimer\n\nJade Protocol is a decentralized autonomous organization, which means that all treasury management proposals are discussed with the community and voted on as a collective. No single member of the DAO shall be held responsible for the positive or negative outcomes of the TMP should it pass. This proposal put forth by the author(s) was synthesized in good faith as a result of due diligence and community discussion on Jade Protocol’s governance platform. There are no guarantees of financial gain and the DAO collectively assumes responsibility for both the positive and negative outcomes that may result from executing this proposal. This proposal does not constitute investment advice, but rather presents opportunities available to the DAO. \n\nShould the community vote to pass this proposal, then the DAO and its contributors are authorized to carry out the suggestions set forth in this proposal. If the proposal represents an investment opportunity, the community accepts the risk that the DAO may lose the entirety of its deployed funds. If new information comes to light prior to the execution of this proposal (i.e. a change in the investment thesis) then the DAO reserves the right to not deploy funds even with the successful passing of this proposal, as it may pose an outsized risk to the DAO and its collective community.\n\nThere are risks associated with modifying token economics, moving funds across blockchains, yield farming, investing in seed stage projects or liquid tokens, including but not limited to: complete loss of funds, counterparty risk, de-peg risk, economic exploits, smart contract exploits and/or the risk of impermanent loss. Due diligence is meant to mitigate these risks, however the DAO must still acknowledge and accept that these risks exist.\n\n## Abstract\n\nThis proposal seeks to allocate 500,000 USDC to a Legal Defense Fund for covered participants of the Jade Protocol DAO. This self-insurance mechanism will protect covered members while fostering continued growth and open participation in the DAO.\n\nThis fund may only be used to reimburse qualified legal defense expenses incurred by covered participants in the event that they become the target of adverse legal or regulatory action. This is part of a multi-phase due diligence campaign to further develop decentralized systems while retaining and attracting qualified and knowledgeable DAO contributors.\n\n### Definitions\n\nCovered Participants - Core contributors of the DAO who are actively drafting and submitting governance proposals, managing DAO operations and developing the framework for which Jade Protocol can function as a decentralized autonomous organization.\n\nQualified Legal Defense Expenses - Any legal defense expenses specifically related to legal action that arises against a core contributor due to their participation in Jade Protocol DAO.\n\nMore Key Definitions to be outlined in the claims process manual by the elected committee.\n\n## Motivation\n\nRisk management is an appropriate part of any well-functioning decentralized ecosystem. Risks to both the DAO and its membership can be reasonably anticipated, and offset, by setting aside funds for covering costs if those risks are realized. This self-insurance mechanism protects the contributors of the Jade Protocol DAO and serves as a tool for continued retention and open participation in the ecosystem.\n\nBecause protection from certain risks cannot be accessed from traditional sources or methods, the self-insurance mechanism proposed here solves this gap. The Defense Fund will help the DAO’s Core Contributors by offering direct support to qualified legal defense expenses where and when members may be exposed to novel legal risks that may be associated with participation and management of a DAO.\n\n### Defense Fund and Claim Specifications\n\nThe Defense Fund will be used as a contingency budget with the purpose of covering qualified legal defense costs in the event that a Jade Protocol DAO core contributor becomes the target of certain adverse legal action due to their involvement within Jade Protocol DAO. Qualification, claims process, specifications, and payouts will be managed according to the Claim Process Manual, which is currently being developed by DAO community members, Jon Ray & Avicenna, with guidance from legal counsel. \nThis manual is being developed borrowing the best industry practices and utilizing the latest information available. \n\nCurrently, the claim process will follow these principles and system process:\n\n* A covered participant who becomes the target of adverse legal or regulatory action as a direct result of their participation in or management of the Jade Protocol DAO and who qualifies for reimbursement of related legal expenses (a “Beneficiary”) will be reimbursed for relevant legal costs. The Beneficiary must first assume and pay for all legal expenses. Once those legal expenses have qualified for reimbursement from the Defense Fund, the Beneficiary must submit a claim to the Defense Fund for reimbursement, which must be accompanied by supporting documentation of the claim, qualification requirements, and relevant expenses (a “Claim”).\n* All Claims must first be submitted to an external technical committee (the “Claims Committee”). The Claims Committee will verify and qualify the eligibility of the Beneficiary, assess the claim, and evaluate the supporting documentation. The Claims Committee will then issue a recommendation that approves or rejects a Claim within 14 days from the complete submission of the Claim (the “Committee Recommendation”).\n* The Committee Recommendation must then be submitted to the members of Jade Protocol DAO’s treasury multi-sig (the “Comptroller's”) for verification (the “Committee Recommendation Submission”).\nIf the Comptrollers verify that the Committee Recommendation Submission accepts the Beneficiary’s claim, the Comptrollers will then authorize the Claims Committee (in writing) to initiate a transfer transaction for the approved amount from the Legal Defense Fund to the Beneficiary’s designated wallet address. Prior to the transfer, the Beneficiary must verify that the wallet address is in fact owned by them. All transactions will be approved by a 3 of 5 multi-signature wallet controlled by the Claims Committee.\n* If the Committee Recommendation Submission is rejected, the Comptrollers must provide a rational basis for their rejection supported by facts in the Claim within 14 business days. The Comptrollers may request additional information or opinions from the Claims Committee, which may in turn request additional information from the Beneficiary. The Comptroller’s decision is final and if a Claim is rejected it cannot be filed again unless there is substantial new information or facts that would have a material effect on the outcome of the claim.\n\n### The Claim Process Manual will define and include all relevant operational aspects for submitting, evaluating, and processing claims, including:\n\n* User guide\n* Definition of terms\n* Claim process\n* Terms of use\n* Qualification description, coverage amounts, and exclusions\n* Claim process, timing, and evaluation criteria\n* Supporting documentation and claim requirements\n* Process for updating the Claim Process Manual\n\n### Funding Specifications\n\n* Funding for an approved claim will only be paid out when the Comptrollers have verified and approved the Committee Recommendation Submission in writing.\n* Funds in the Legal Defense Fund are designated as contingency budgets for covering legal defense and legal representation expenses.\n* The Defense Fund does not cover the operational costs of the DAO.\n* Claim approvals and rejections will follow the Claim Process Manual.\n* A new multi-sig wallet (“Claims Committee Multisig”) will be created on the Arbitrum network which will hold the Legal Defense Funds in USDC [address TBD].\n\n#### Pros\n* Creates a legal fund that is within best practices for DAOs operating in an uncertain regulatory environment.\n* Promotes the activity of active, engaged and experienced contributors.\n* Allows for a transparent system to reimburse eligible users who become the target of regulatory scrutiny.\n\n#### Cons\n* Utilizes funds from the investment treasury that could otherwise be invested for a return.\n\n## Next Steps\n\nA high level summary of how the investment strategy will be implemented:\n\n* Create a Claims Committee, Claims Committee Multisig, and assign Claims Committee members as signers to the Claims Committee Multisig.\n* Transfer 500,000 USDC from the Jade Protocol DAO Investment Treasury [0x02944e3fb72aa13095d7cebd8389fc74bec8e48e] to the Claims Committee Multisig.\n* Appoint the following individuals to the Claims Committee: jonray#0639 - Core contributor; Avicenna#7448 - Core contributor; Mac Tonight#0001 - Core contributor; 0xEntheox 🔺💎#0253 - Community Moderator; cryp-rod#8127 - Contributing Developer\n* Establish the Claim Process Manual\n* Assign Claims Committee Members to the Claims Committee Multisig\n\n## Voting\n\nThis is a Core Proposal that was presented to the community on 3/17/2023. After 7 days of community discussion, the proposed edits were incorporated and consensus was reached. This vote will be subject to a 24 hour warmup period, followed by a 3 day voting window. \n\n#### If you agree with this proposal, a [YES] vote would confirm the implementation of all next steps highlighted above.\n\n#### If you disagree with this proposal, a [NO] vote would result in the continuation of operations as is.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 83,
+      "blockNumber": 27866567,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x235e45f624c95e261dc2d3280cd387a9bab7d310ad80184e47e7a91369d34848",
+      "startTime": {
+        "timestamp": 1679789576
+      },
+      "endTime": {
+        "timestamp": 1680048776
+      },
+      "startTimestamp": 1679789576,
+      "endTimestamp": 1680048776,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7427.7847,
+          "choice": 0
+        },
+        {
+          "total": 45.2029,
+          "choice": 2
+        },
+        {
+          "total": 190.7526,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7427.784829922353,
+          "choice": 0
+        },
+        {
+          "total": 190.75259074123028,
+          "choice": 1
+        },
+        {
+          "total": 45.202900274,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 1000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4YTJjZGJhMTA0MzY2ODIxYjljM2Q0ZThlNmFhMmY4YTZmNzA5MDcwZTc4ZWQzZmRmMzc4MDgyYTNjOGU0YjRhMA==",
+      "id": "0xa2cdba104366821b9c3d4e8e6aa2f8a6f709070e78ed3fdf378082a3c8e4b4a0",
+      "title": "TMP-3: Burning All JADE in Treasury and Redeem Contracts",
+      "content": "Title: TMP-3: Burning All JADE in Treasury and Redeem Contracts\nAuthor: JulzCaliNT#5315 (@julz_caliNFT)\nCreated: 03/01/2023\n\n## Summary\n\nThis Treasury Management Proposal suggests that the DAO burn all JADE tokens contained in the redeem contracts on BNB Chain and Avalanche, in addition to burning the 207,000 JADE in the DAO treasury (0x45ecfd1f5cf000a8320d8b88d53373bdf964f091).\n\n## Disclaimer\n\nJade Protocol is a decentralized autonomous organization, which means that all treasury management proposals are discussed with the community and voted on as a collective. No single member of the DAO shall be held responsible for the positive or negative outcomes of the TMP should it pass. This proposal put forth by the author(s) was synthesized in good faith as a result of due diligence and community discussion on Jade Protocol’s governance platform. There are no guarantees of financial gain and the DAO collectively assumes responsibility for both the positive and negative outcomes that may result from executing this proposal. This proposal does not constitute investment advice, but rather presents opportunities available to the DAO. \n\nShould the community vote to pass this proposal, then the DAO and its contributors are authorized to carry out the suggestions set forth in this proposal. If the proposal represents an investment opportunity, the community accepts the risk that the DAO may lose the entirety of its deployed funds. If new information comes to light prior to the execution of this proposal (i.e. a change in the investment thesis) then the DAO reserves the right to not deploy funds even with the successful passing of this proposal, as it may pose an outsized risk to the DAO and its collective community.\n\nThere are risks associated with modifying token economics, moving funds across blockchains, yield farming, investing in seed stage projects or liquid tokens, including but not limited to: complete loss of funds, counterparty risk, de-peg risk, economic exploits, smart contract exploits and/or the risk of impermanent loss. Due diligence is meant to mitigate these risks, however the DAO must still acknowledge and accept that these risks exist.\n\n## Abstract\n\nThe DAO previously deployed upgradable redemption contracts on Avalanche and BNB Chain in order to allow users to redeem their JADE for stablecoins from the backing treasury without incurring slippage. These redeem contracts have now accumulated a significant amount of JADE, and in order to ensure that these tokens no longer re-enter the circulating supply, it is suggested to burn their current JADE balances.\n\nThis proposal also suggests burning the 207,000 JADE in the DAO treasury that was initially reserved for DAO to DAO swaps. \n\nThis further reduces the circulating supply of JADE and reduces the amount of stablecoins needed in the backing treasury to support the floor price. This strengthens the case for raising the floor price in the future using profits from the investment treasury, and also reduces attack surfaces that could potentially hurt the DAO and its token holders.\n\n## Motivation\n\nUltimately, the goal of this proposal is to protect the DAO’s token holders by upholding the promise to reduce the circulating supply of JADE and remove any potential attack vectors that could jeopardize the floor price.\n\nSince the redeem contracts on Avalanche and BNB Chain were deployed, we have seen a significant amount of redemptions. These contracts now hold a combined ~640,000 JADE tokens and this represents over $8M USD in value. These tokens were redeemed with the intention of never re-entering the circulating supply, therefore it is important to permanently burn the tokens at this time.\n\nFurthermore, given the programmed inflation from the Avalanche bonding event, it is now prudent to burn all other JADE tokens that are not required to sustain DAO operations. This includes the 207,000 JADE in the DAO treasury that were initially intended to be used for DAO to DAO swaps with other projects. Burning these JADE tokens enables the DAO to further reduce circulating supply and eventually raise the floor with less capital from profits that are derived from investments in our investment treasury.\n\nAvalanche Burn Vault: https://snowtrace.io/token/0x80b010450fdaf6a3f8df033ee296e92751d603b3?a=0x9448e099761da0253ef2fa9296d2ba77d322e28c\n\nBSC Burn Vault:\nhttps://bscscan.com/token/0x7ad7242a99f21aa543f9650a56d141c57e4f6081?a=0x9448e099761da0253ef2fa9296d2ba77d322e28c\n\nDAO Treasury:\nhttps://bscscan.com/address/0x45ecfd1f5cf000a8320d8b88d53373bdf964f091 \n\n## Next Steps\n\nA high level summary of how the proposal will be implemented:\n\n* The DAO will burn all JADE tokens currently inside the Avalanche and BNB Chain redeem contracts.\n* The DAO will burn all JADE tokens currently inside the DAO Treasury wallet.\n\n## Voting\n\nThis is a DAO Proposal that was drafted by community member JulzCaliNT on March 1st, 2023. After 16 days of community discussion, the proposed edits were incorporated and consensus was reached. Another 7 days of soft voting demonstrated strong support of this proposal. This vote will now be subject to a 24 hour warmup period, followed by a 72 hour voting window. \n\n#### If you agree with this proposal, a [YES] vote would confirm the following:\n* All JADE tokens in the redeem contracts and DAO treasury will be burned.\n\n#### If you disagree with this proposal, a [NO] vote would result in:\n* Continued operations as is, and no burning of any JADE tokens.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 89,
+      "blockNumber": 27859397,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0xa2cdba104366821b9c3d4e8e6aa2f8a6f709070e78ed3fdf378082a3c8e4b4a0",
+      "startTime": {
+        "timestamp": 1679774493
+      },
+      "endTime": {
+        "timestamp": 1680033693
+      },
+      "startTimestamp": 1679774493,
+      "endTimestamp": 1680033693,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7386.6685,
+          "choice": 0
+        },
+        {
+          "total": 10.997278,
+          "choice": 2
+        },
+        {
+          "total": 297.5627,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7386.668258638952,
+          "choice": 0
+        },
+        {
+          "total": 297.56271575328367,
+          "choice": 1
+        },
+        {
+          "total": 10.997278514803105,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 1000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4ODA1NTRmZmE2M2QxNTkxMzQzZGEyNTgxNzJmYjljNzBkYjQ3MWJjMjZhNzIzMTlhNzY3OTQ1NWNjMzVkMDAwMw==",
+      "id": "0x80554ffa63d1591343da258172fb9c70db471bc26a72319a7679455cc35d0003",
+      "title": "TMP-2: DXP/VELA Airdrop Reallocation",
+      "content": "## Summary\n\nThis Treasury Management Proposal provides an alternative to the prior plan of distributing 50% of the DAO’s DXP/VELA token allocation to sJADE holders. The authors are collectively suggesting that the entire seed allocation of DXP/VELA tokens should instead remain in the DAO’s Investment Treasury.\n\n## Abstract\n\nThe DAO Investment Treasury provided $100K USD in seed funding to Dex Pools in return for 400,000 DXP/VELA tokens (0.25 cents per token). The terms of the token acquisition included a 3 month vesting cliff followed by 12 months of linear vesting, which began on April 1st 2022.\n\nInitially, 50% of the allocation (200,000 tokens) were marked for distribution to sJADE holders who were staking JADE during the entire month of February 2022. In total, there were 35,469 unique wallets eligible for the airdrop, with a wide range of token balances per wallet.\n\nAssuming that each holder receives an equivalent airdrop, this would represent 5.63 tokens per wallet address, which at current market value ($5.39/token), would translate to $30 per holder. Although the airdrop was intended to be allocated in proportion to each user's sJADE balance (to prevent gaming the airdrop), these numbers are quite low on a per wallet basis.\n\nTMP #2 proposes that rather than airdropping a comparatively small amount of DXP/VELA to 35,469 holders, the collective DAO would benefit most from simply holding onto the entire allocation. At current prices, this would represent a ~$1M USD boost to the Investment Treasury which places us closer to profits and raises to the floor price. This also reduces the PVP nature of profit taking, which would ultimately benefit those who sell their DXP/VELA airdrop first, rather than those who do not. \n\nLastly, holding the entire allocation would enable the community to discuss a more long term profit taking strategy that would provide maximum benefit to JADE’s floor price, while also mitigating sell pressure on the DXP/VELA token as we approach the launch of Vela Exchange. This includes the possibility of staking on the platform or selling via concentrated LP positions to avoid adversely affecting price action.\n\nAs a decentralized investment collective, Jade Protocol DAO seeks to flip the crypto funding narrative on its head to deliver value for both the DAO and the projects that we have provided seed funding for. This proposal is in line with that ethos, and we believe it brings value to both DAO members, the Vela Exchange team and the growing Vela Exchange community.\n\n## Motivation\n\nThis proposal aligns the DAO’s seed investment strategy with our community’s long term investment horizon while also bringing increased value to the DAO treasury. \n\n## Next Steps\n\n* If the proposal passes, then the total VELA allocation will remain in the investment treasury.\n\n* If this proposal does not pass, then our developers will need to repurpose the airdrop contracts to handle the VELA airdrop.\n\n## Voting\n\n* Snapshot voting will commence with a 24 hour warmup period and last for 3 days.\n\n#### If you agree with this proposal, a [FOR] vote would confirm the following:\n\n* The DAO’s entire DXP/VELA token allocation will be kept in the investment treasury.\n\n#### If you disagree with this proposal, an [AGAINST] vote would result in:\n\n* 200,000 DXP/VELA tokens (50% of the DAO’s allocation) will be airdropped to all addresses that staked Jade during the entire month of February 2022.\n* All users who were staking Jade (regardless of whether they are active or not) will be eligible to claim the airdrop for 30 days. \n* After 30 days have passed, any VELA remaining in the airdrop contract will be clawed back to the Jade Investment Treasury.\n\n#### An [ABSTAIN] vote means that you are neither FOR nor AGAINST the proposal.\n\n* If this proposal does not garner at least 51% support FOR or AGAINST the proposal, then it will go back to governance discussion.",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 114,
+      "blockNumber": 26053652,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x80554ffa63d1591343da258172fb9c70db471bc26a72319a7679455cc35d0003",
+      "startTime": {
+        "timestamp": 1676068343
+      },
+      "endTime": {
+        "timestamp": 1676327543
+      },
+      "startTimestamp": 1676068343,
+      "endTimestamp": 1676327543,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 119419.44,
+          "choice": 0
+        },
+        {
+          "total": 565.644,
+          "choice": 2
+        },
+        {
+          "total": 2226.7664,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 119419.43616999996,
+          "choice": 0
+        },
+        {
+          "total": 2226.7665650000004,
+          "choice": 1
+        },
+        {
+          "total": 565.643992,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4MDJlNTc2N2EyYTgzMDJiYzAxNWYyMjk3ZmZiMThmNDRiYzlmMTMxMWQzMGRlYTdjODkxYjhlNDdjNTBjNGE2Nw==",
+      "id": "0x02e5767a2a8302bc015f2297ffb18f44bc9f1311d30dea7c891b8e47c50c4a67",
+      "title": "TMP-1: Yield Farming",
+      "content": "Title: TMP-1: Yield Farming\nAuthor: Avicenna (@book_of_healing)\nCreated: 12/23/2022\n\n## Summary\n\nThis Treasury Management Proposal provides a framework for how the DAO can evaluate yield farming opportunities and highlights some current opportunities to farm with the DAO’s treasury assets.\n\n## Abstract\n\nThe DAO’s treasury has $7M in stables and 3.3K ETH that is liquid and not currently earning any yield. This proposal suggests allocations for various yield farming opportunities that have been curated for community review and approval. This proposal also suggests initial parameters for evaluating yield farming opportunities and mitigating their associated risks. These parameters may be updated in the future with subsequent proposals. This is the first step towards decentralizing Jade Protocol’s treasury management efforts and enabling the community to play a role in how treasury funds are utilized.\n\nDisclaimer: There are risks associated with yield farming, including but not limited to: counterparty risk, de-peg risk, economic exploits, smart contract exploits and/or the risk of impermanent loss. This proposal put forth by the author was synthesized as a result of due diligence and community discussion on Jade Protocol’s governance platform. There are no guarantees of financial gain and the DAO collectively assumes responsibility for both the positive and negative outcomes that may result from yield farming. This proposal does not constitute investment advice, but rather presents opportunities available to the DAO. Should the community vote to pass this proposal, then the DAO is authorized to deploy capital as described in the google sheet. At worst, the DAO may lose the entirety of its deployed funds, and at best, the DAO may generate ~$65K of monthly income based on current yields.\n\n## Motivation\n\nThe DAO recently withdrew all assets from yield farms out of an abundance of caution given fallout from the FTX contagion. Although there remain some unknown risks in the market (for example, questions around the solvency of Genesis), there are some opportunities that do not appear to have  DAO is currently sitting on ~$11M of assets that could be earning a competitive monthly yield of $65K.\n\nThe motivation for this proposal is to further decentralize the treasury management efforts of Jade Protocol DAO by including the community in the decision making process. \n\nBelow are a list of criteria that have been proposed to guide the DAO in deciding which yield farms to consider when deploying capital. These criteria have been designed to mitigate the aforementioned risks associated with yield farming.\n\n* Never farm with more than 50% of the backing treasury funds.\n* All proposed investment treasury yield farms must be audited by at least one professional software auditing firm and must have the audit published for public review.\n* Backing treasury funds should only be deposited in conservative farming opportunities that are well established and have multiple (2+) security audits published.\n* The max allocation per farm must never exceed 6% of the farm's global TVL. For example, if Stargate's global TVL is $350M, the DAO’s total allocation to Stargate would never exceed $8.75M (across all chains).\n* Max farm allocation per asset on a given chain in the protocol should never exceed 15% of the TVL for that given asset & chain. For example, if there is 10M of Ethereum based USDC TVL on Stargate, the cap for that asset and chain would be 1.5M USDC.\n* The DAO should seek to only deposit funds in farms that have sufficient deep liquidity for their reward token(s). Liquidity should exceed $1M and the token must have liquidity on the chain where it is being farmed (or a straightforward method to bridge it to a chain with sufficient liquidity).\n* The risks associated with each proposed farm must be properly disclosed in the proposal.\n* All farms (and necessary bridges to sell rewards) must be compatible with Gnosis Safe multisig wallets.\n\nThe Google sheet linked below displays a list of all proposed yield farms, allocations, TVL metrics, projected yields, projected income, and LP size for each reward token. Audit links and risks are provided for each protocol, along with a DEX link where the reward token can be sold.\n\nhttps://docs.google.com/spreadsheets/u/0/d/128yyaT5V-465wGe4gIRJaZvnIGL_DYPBg8cmC1wUnt0\n\n## Next Steps\n\nA high level summary of how the proposal will be implemented:\n\n* The DAO will adopt the guidelines set forth by this proposal to evaluate future yield farming opportunities.\n* The DAO will deploy capital into the yield farms outlined in the google sheet.\n* The DAO will adhere to the asset allocations outlined in the google sheet.\n* The DAO will sell rewards from yield farming activities on a weekly basis.\n\n## Voting\n\nThis is a DAO Proposal that was drafted by community member Avicenna on December 7th, 2022. After 16 days of community discussion, the proposed edits were incorporated and consensus was reached. This vote will be subject to a 24 hour warmup period, followed by a 72 hour voting window. \n\n#### If you agree with this proposal, a [YES] vote would confirm the following:\n* A set of guidelines for how to evaluate future yield farming opportunities.\n* Agreement to deploy capital into the yield farms described in the google sheet.\n* Agreement to the allocations as described in the google sheet.\n\n#### If you disagree with this proposal, a [NO] vote would result in:\n* No set guidance for evaluating future yield farming opportunities and no funds being allocated to any yield farms at this time.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 98,
+      "blockNumber": 24028526,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x02e5767a2a8302bc015f2297ffb18f44bc9f1311d30dea7c891b8e47c50c4a67",
+      "startTime": {
+        "timestamp": 1671931579
+      },
+      "endTime": {
+        "timestamp": 1672190779
+      },
+      "startTimestamp": 1671931579,
+      "endTimestamp": 1672190779,
+      "currentState": "closed",
+      "choices": [
+        "YES - Begin Yield Farming",
+        "NO - Do Not Begin Yield Farming"
+      ],
+      "results": [
+        {
+          "total": 84433.61,
+          "choice": 0
+        },
+        {
+          "total": 5477.943,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 84433.611637,
+          "choice": 0
+        },
+        {
+          "total": 5477.942996,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4MzgzMjNiMDFjMDA4YTExMTE2ODIyMDg0ODI0MGIwMjNlMDE3ZDVmMTBkMzM3YTkxNTE5NWNjMDA4YzFlNmEyOA==",
+      "id": "0x38323b01c008a111168220848240b023e017d5f10d337a915195cc008c1e6a28",
+      "title": "CIP-2: Consensus on DAO Tooling",
+      "content": "Title: CIP-2: Consensus on DAO Tooling\nAuthors: Avicenna, Inevitable, Jon Ray, and Andrew Swartzberg\nCreated: 9/19/2022\n\n## Summary\n\nJade Protocol requires robust DAO tooling and a comprehensive governance platform for proposal ideation, discussion and polling. We are proposing the onboarding of two new tools for the DAO. The first is Guild.xyz, which is a gating platform for Web3 communities (this will replace the existing Collab.Land implementation). The second is a Web3 governance platform being developed by a member of our community. This platform can be accessed by connecting a Web3 wallet to a secure website & will be tailored to meet our exact needs. This includes a fully customized UI that is consistent with Jade Protocol’s new branding.\n\n## Abstract\n\nThis is the second of three proposals designed to obtain community consensus on new innovations within the Jade Protocol DAO for immediate implementation.\n\nWe are currently using Collab.Land for token-gating and Discord for governance ideation and discussion. Proposals are then posted on-chain for voting using Snapshot.org. While Discord is great for discussing ideas, there is no polling mechanism that can simulate the various token-driven voting strategies that we use on Snapshot.org. This proposal seeks to implement robust tooling that will augment the governance experience and create a seamless work flow for ideation, discussion and on-chain voting. This new web-based platform will expand our ability to share token-gated information with users (i.e., fund report & Unicorn Project repository) without requiring them to connect their wallet with Discord. The platform will also provide another avenue for our DAO members to receive announcements and ticket based support outside of Discord.\n\n#### Guild.xyz\nTransitioning from Collab.Land to Guild.xyz would also provide us with a more robust system for “gating” certain channels based on community participation in addition to token balances in user wallets. Guild also allows us to easily utilize the Proof of Attendance Protocol (POAP) to create new roles and benefits for users who are actively engaged with the DAO. Guild.xyz continues to add new features on a regular basis and has grown substantially in the last few months. We believe this will provide a superior gating and engagement experience for the community moving forward.\n\n#### Web 3 Governance Platform\nThe new Web3 governance platform being worked on by “Inevitable” (a community member) aims to achieve all the above stated goals. A dedicated governance platform will also reduce clutter in Discord, creating a better user experience in our server. Most importantly, their token-weighted polling mechanism can be used quickly and easily to obtain “temperature checks” during the course of proposal discussion. The polling strategies can be easily customized, for example, we would be able to simulate polling results using the sum of vested tokens from bonding and the existing sJADE balance on both Avalanche and BNB chains’ for a given wallet. \n\n#### Costs\nGuild.xyz is free, however the new governance platform being developed by Inevitable will have an associated monthly subscription cost of $499. That said, we may be able to negotiate a referral agreement that gives us discounted access to the platform.\n\n## Motivation\n\nWith the CIP-1 rebrand to highlight our growing set of DAO tools and community engagement, Jade Protocol needs a better governance system for ideation, discussion, and voting. Currently, Discord is limited in its ability to provide a seamless governance experience. Furthermore, our token-gating mechanism (Collab.Land) has been buggy and has not enabled any new features for some time.\n\nA shift to using new tooling does pose some risks, but we believe these new additions offer a myriad of benefits that greatly outweigh any risks, which are outlined below: \n\n* We will get discounted access to what is usually an expensive service (some DAOs pay thousands a month for customized Discourse forums that offer more than what we need). When compared to Discourse, this option will be highly customizable to our needs without the massive price tag. Features include: customizable polling weights, in-app ticket support, customized UI, web based token-gating for content/forums, and a robust interface for ideations & discussion.\n\n* Prior to paying for the service, Jade Protocol’s community will be allowed to beta test Inevitable’s web-based governance platform and we will also receive a free UI customization package for being one of their first clients.\n\n* Supporting and promoting services developed by community members continues to support the narrative that Jade Protocol is a community-driven project with a true desire to elevate good ideas from our users and implement them based on the will of the DAO.\n\n* Using Guild.xyz will open up the ability to gate Discord access based on Twitter engagement, AMA participation, and other POAP “activity” metrics that are more granular than token balance alone. We view this as a massive improvement over Collab.Land.\n\nThe proposers view these changes as natural next steps for the DAO as we begin utilizing more robust DAO tooling. These tools will support our ability to discuss and implement changes that will enable Jade’s continued growth. We believe these changes will also help ensure a seamless onboarding experience for new users during our next phases of growth.\n\nThe primary risks associated with using a brand new governance platform are delays in development and the costs of paying for a service that is not yet “battle tested” by other DAOs in the space. That said, Inevitable and his team are dedicated to taking the MVP to market within the next 21 days and have enough runway for ~1 year of continued development at their current burn rate. \n\nTo be clear, this runway is based on independent funding and Jade Protocol is not funding this project in any way. This runway does not consider income that the platform may generate over the next 12 months, meaning that successful adoption of the platform has the potential to further extend the runway. \n\nFrom a security standpoint, the platform only uses “sign” transactions to connect and read your wallet token balance. This is similar to the “gasless” voting mechanism used on Snapshot.org and does not pose any additional risk for end users.\n\nThe risks associated with switching from Collab.Land to Guild are transitional problems that may occur during the switch (losing access to certain gated channels, etc). We will conduct thorough testing to avoid these issues.\n\n## Next Steps\n\nA high level summary of how the proposal will be implemented:\n\n* A “Governance” category will be created in Discord which highlights a clear and succinct workflow for governance ideation, discussion and proposals. A Snapshot feed will also be created to notify users when proposals go on-chain.\n\n* Once ready, the new governance platform will be integrated with the existing governance workflow to facilitate a more robust experience for the end-user. The minimum viable product is set to be ready sometime mid to late October for beta testing by the community.\n\n* Collab.Land will be retired in favor of Guild.xyz, as it provides a more robust gating experience. We will also change the naming of token-gated roles to the following:\n** Tier III (>100 sJADE) Role will be re-named “Citadel”\n** Tier II (>10 sJADE) Role will be retired until further staking benefits are created\n** Tier I (> 1 sJADE) Role will be re-named “DAO Member”\n\n## Voting\n\nThis is a DAO Proposal that was drafted by community members Avicenna, Inevitable, Jon Ray, and Andrew Swartzberg. An initial draft was presented to the community via Discord on 9/24/2022 at 16:34 PM UTC. After 72 hours of community discussion, the proposed edits were incorporated and consensus was reached. This vote will be subject to a 24 hour warmup period, followed by a 5 day voting window. \n\n#### If you agree with this proposal, a [YES] vote would confirm the following:\n* Implementation of Guild.xyz and the removal of Collab.Land from Discord.\n* The renaming of token-gated roles and the temporary removal of the Tier II role.\n* Moving forward with using the proposed Web3 governance platform built by Inevitable and his team.\n* Assuming a successful beta test of the platform, this proposal confirms the approval of a 1-year budget of $6,000 that covers all governance platform fees for up to 12 months.\n\n#### If you disagree with this proposal, a [NO] vote would confirm the following:\n* Continue to explore using other existing governance platforms, such as Discourse.org (costs $18,000 annually for their Enterprise solution with similar customization requests). These costs are based on quotes from the [BAYC](https://forum.apecoin.com/t/aip-1-proposing-the-dao-process/39) and [Radiant Capital](https://snapshot.org/#/radiantcapital.eth/proposal/0xffe6588f96159f052ea6ccb9c683a971b6a4fa8b2532f0d0755504be72fdeb6f) teams with similar proposals.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 189,
+      "blockNumber": 20368832,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x38323b01c008a111168220848240b023e017d5f10d337a915195cc008c1e6a28",
+      "startTime": {
+        "timestamp": 1664423503
+      },
+      "endTime": {
+        "timestamp": 1664855503
+      },
+      "startTimestamp": 1664423503,
+      "endTimestamp": 1664855503,
+      "currentState": "closed",
+      "choices": [
+        "YES - Use Proposed DAO Tooling",
+        "NO - Explore Other Options"
+      ],
+      "results": [
+        {
+          "total": 148913.14,
+          "choice": 0
+        },
+        {
+          "total": 258.98483,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 148913.18682499998,
+          "choice": 0
+        },
+        {
+          "total": 258.984852,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4MThiNWNkYWI3NzA3YWJjNGIxYjJlNGRjZTFkYjg5M2NkMWI4YzM3YWIyNTA1MTBiYjA3NTZiMzMzOTZkZDk4ZQ==",
+      "id": "0x18b5cdab7707abc4b1b2e4dce1db893cd1b8c37ab250510bb0756b33396dd98e",
+      "title": "Rebranding Jade Protocol",
+      "content": "Authors: Jon Ray (@JonRay) & Andrew Swartzberg (@Swartzberg)\nCreated: 08-30-2022\n\n## Summary\n\nJade Protocol DAO will rebrand itself as a community governed investment collective, with a particular emphasis on the implementation of DAO tooling to facilitate a deeper level of accountability for our growing community.\n\n## Abstract\n\nThis is the first of three proposals designed to obtain community consensus on new innovations within Jade Protocol for immediate implementation.\n\nThis proposal focuses on rebranding Jade Protocol as a DAO with a particular emphasis on the implementation of DAO tooling that facilitates a deeper level of accountability for our growing community. In addition to enabling our DAO to operate as a community governed investment collective, an affirmative vote will also authorize the removal of all historical messaging that conflicts with the proposed rebrand.\n\nNothing in this proposal disrupts Jade Protocol’s current operations in any way. It is simply a next step in further formalizing the values and official structure for community input and governance.\n\n## Motivation\n\nJade Protocol continues to survive and thrive within current market conditions due to our ability to champion and implement “iteration” quickly and when necessary. Due to the iterative nature of Jade Protocol and the recent supply impact from the bonding event, we can utilize this rebranding opportunity to leverage a new marketing storyline that better positions our brand and image to be consistent and appealing to new investors. This ultimately serves our entire community and each of our seed partners. \n\nThe Jade Protocol community has proven to be innovative, intuitive, and iterative in its approach to treasury management and protocol development. Many in the community feel that we should ride that momentum by taking the “DAO training wheels” off and creating systems that allow for a deeper level of involvement from our community members. The rebrand will focus on the creation of new guiding values and the removal of any prior messaging that is not congruent with these values.\n\nThrough the adoption of these new guiding values, Jade Protocol DAO seeks to operate as a decentralized investment collective that is designed to leverage our community (the “JADE Alpha Army”) to identify and offer due diligence on liquid token and seed investment opportunities. The JADE Alpha Army will present these opportunities to officials elected from the community that will perform further due diligence on the potential and integrity of these proposed investments. \n\nIn an effort to utilize the expertise of certain individuals within our community, we will hold regular elections to appoint a seasoned \"Investment Council\".  The members of this council will represent the collective interests of the JADE Alpha Army. This will be preceded by a vote to ratify a constitution for our DAO that clearly defines the responsibilities of all council members elected to act on behalf of the community.\n\nAs part of our rebrand, we will cull any past content on Medium, Twitter, YouTube, Reddit, Discord, etc., that promotes a message that is no longer consistent with the aforementioned future direction of the DAO.\n\n### The proposed guiding values of Jade Protocol DAO are:\n\n#### Adventurous\nWe push the envelope of what is possible and never back down from a worthy challenge.\n\n#### Forward-Thinking\nWe look beyond emotional hype and directly towards future utility.\n\n#### Data-Driven\nNumbers don’t lie and we will utilize them to drive decision-making.\n\n#### Authenticity\nWe will always speak our truth, even when it’s unpopular to do so.\n\n#### Visionary\nWe see each desired outcome and collectively hold space for its completion.\n\n## Next Steps\n\nA high level summary of how the proposal will be implemented:\n\n* New branding and messaging that will reflect a shift towards a higher level of involvement and accountability from our community. This includes a redesign of the existing website, including a landing page that highlights our newly adopted values as a community.\n\n* The community will collectively draft and review a Constitution for Jade Protocol DAO that will govern operations.\n\n* All prior messaging that is incongruent with the proposed rebrand and DAO structure will be removed from our public facing platforms.\n\n## Voting\n\nThis is a DAO Proposal that was drafted by community members Jon Ray & Andrew Swartzberg. It was subsequently posted in Discord on 8/29/2022 at 10:14 PM UTC. After 24 hours of [community discussion](https://discord.com/channels/904292869622362152/1013934811028660255), the proposed edits were incorporated and consensus was reached. The vote is now going to an on chain vote. This vote will be subject to a 24 hour warmup period, followed by a 5 day voting window.\n\n#### If you agree with this proposal, a [YES] vote would confirm the following:\n\n* A new website rebrand and future marketing campaign which focuses on the implementation of community governance and the aforementioned values in this proposal. \n\n* Ensure that the JADE Alpha Army community has the power to submit proposals, vote on the most interesting and promising ideas, then make them real. \n\n* The removal of all conflicting historical messages that do not reflect the current state of the marketplace and intentions of the JADE Alpha Army.\n\n#### If you disagree with this proposal, a [NO] vote would confirm the following:\n\n* The continuation of operations as is.\n\n## Eligibility\n\nAll users with an sJADE balance prior to [Block Height 19294666](https://snowtrace.io/block/19294666) on Avalanche and [Block Height 20880685](https://bscscan.com/block/20880685) on BNB Chain will be eligible to vote. \n\nAdditionally, all users who took part in the Avalanche bonding event will be eligible to vote with their pending balance of JADE. Please be aware that the claimed and claimable JADE balances were not included in your voting power as part of the snapshot.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x560CB93Cc18e3635dd76CFC081AC872696E1E2AF",
+      "totalVotes": 262,
+      "blockNumber": 19334530,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x18b5cdab7707abc4b1b2e4dce1db893cd1b8c37ab250510bb0756b33396dd98e",
+      "startTime": {
+        "timestamp": 1661988773
+      },
+      "endTime": {
+        "timestamp": 1662420773
+      },
+      "startTimestamp": 1661988773,
+      "endTimestamp": 1662420773,
+      "currentState": "closed",
+      "choices": [
+        "YES - Rebrand Jade Protocol DAO",
+        "NO - Keep Operations As Is"
+      ],
+      "results": [
+        {
+          "total": 200223.2,
+          "choice": 0
+        },
+        {
+          "total": 892.20544,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 200223.15245499997,
+          "choice": 0
+        },
+        {
+          "total": 892.205468,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4YmZkOTE5ZWE1ZDAzMmYyYzRmZjdiZjQ4NmRkYjYzNjk1OWYyNTUxMWZjYjcyMjBkNzE4MTNjNzI4NmQzMzRlZg==",
+      "id": "0xbfd919ea5d032f2c4ff7bf486ddb636959f25511fcb7220d71813c7286d334ef",
+      "title": "BuyBot 2.0",
+      "content": "## Overview: \nThus far, there have been two iterations of Jade’s BuyBot. Both have had their pros and cons. If the goal is to always buy Jade at the floor, why not create a smart contract that does exactly that?\n\nWe can create a smart contract with the sole purpose of exchanging BUSD for JADE at the floor price. This will essentially act as our own one-way OTC desk. For every JADE token that a user deposits into the smart contract, they will receive $20.93 in BUSD in return. As the floor is raised, this number would also be automatically updated. We would also create a new “Redeem” section in the website UI where this exchange will occur.\n\nThis eliminates the need for a bot, and creates arbitrage opportunities that will ensure the price of Jade rarely (if ever) falls below the floor price. For real this time.\n\nThis new smart contract will act as the \"Core Contract\". Prior to implementation, the Jade Development team will audit and stage this smart contract for testing. The smart contract will also be published as open-source on the blockchain for all to view. Any additional functionality/upgrades added in future \"Layer 2\" contract(s) will require an official external audit before implementation.\n\n## Pros \n- Jade can ALWAYS be redeemed at the floor price for any user (eliminates FUD).\n- Creates more predictable accounting for defending the floor price (no over/under paying).\n- Massively reduces sell pressure near the floor (users would simply “sell” to the smart contract).\n- Eliminates the need to have a bot running 24/7, and eliminates front running altogether \n- Can opt to run BuyBot in the background in case price ever drops below the floor.\n- Can eventually add a script that manually/automatically burns a portion/all of the JADE that is deposited into the contract. Could display “JADE Burned Today: XX” on the website as well.\n- Solution is very simple, requiring less than 50 lines of code.\n- Backing treasury no longer pays fees, sellers would pay the transaction fee which is extremely low.\n\n## Cons \n- Smart Contract risk (minimal, since it is a simple contract with less than 50 lines of code).\n- Would utilize a dev cycle.\n\n## Voting\nBecause this is a Community-backed proposal, the 24 hour discussion period has already taken place, with community consensus having been reached. The proposal was subsequently escalated to this Core vote.\n\nTherefore, the vote will have a 1 hour warmup period, followed by a 3 day voting window.\n\nIf you agree with the proposal to immediately begin work on the proposed BuyBot 2.0 system above, select **\"in favor\"**.\n\nIf you wish to keep BuyBot 1.1 as is, select **\"not in favor\"**.",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x7E97fa730496b8f8671e3E2cF5632FF2e68DD06c",
+      "totalVotes": 525,
+      "blockNumber": 16835269,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0xbfd919ea5d032f2c4ff7bf486ddb636959f25511fcb7220d71813c7286d334ef",
+      "startTime": {
+        "timestamp": 1649631932
+      },
+      "endTime": {
+        "timestamp": 1649891132
+      },
+      "startTimestamp": 1649631932,
+      "endTimestamp": 1649891132,
+      "currentState": "closed",
+      "choices": [
+        "In favor",
+        "Not in favor"
+      ],
+      "results": [
+        {
+          "total": 64410.152,
+          "choice": 0
+        },
+        {
+          "total": 695.68976,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 64410.14239858202,
+          "choice": 0
+        },
+        {
+          "total": 695.6897941839999,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4ZmRmZTgwNDQ3ZDEwYTJhODdlNWQ5MmViMTRhZWFjMjY2NmYxY2Y0MzE0Y2MwOTQwMmNhNTQ1NjgzOTkyYzhhYw==",
+      "id": "0xfdfe80447d10a2a87e5d92eb14aeac2666f1cf4314cc09402ca545683992c8ac",
+      "title": "7 Days of Memes Initiative",
+      "content": "## Summary\nAllocate $7k of treasury funds for a weeklong meme contest in tandem with Jade’s upcoming launch on Avalanche.\n\n## Motivation\nJade Protocol will be ramping up marketing initiatives over the coming weeks in light of our multi-chain launch and project updates.\n\nWe are proposing the allocation of 7k $BUSD in treasury funds to incentivize community engagement and leverage Twitter as a promotional tool.\n\n## Details\nIf ratified, this initiative would allocate 7k $BUSD to a memes contest held over Twitter. The contest will launch in tandem with Jade’s deployment on Avalanche. A winning meme will be selected daily by our team over the course of a week. Seven winners will receive 1k $BUSD each.\n\nContest winners will not be eligible to win more than once. Priority will be given to entrants based on quality, humor and knowledge of the ecosystem. We will screen for “professional contest entrants”, aka people uninvolved with the project who take a random meme, slap a token logo on it, and enter it in multiple contests.\n\n## Voting\nThe vote has a 24 hour warmup period in order to foster community discussion before the vote goes live.\n\nThe vote will commence on 12-March, 2022 at 02:00 GMT and conclude on 18-March, 2022 at 03:00 UTC.\n\nVoting weight will be measured by balance of sJADE at the block number at time of posting.\n\n· If you approve of allocation of funds for this marketing initiative, vote “Yes”.\n\n· If you disapprove, vote “No”.",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x7E97fa730496b8f8671e3E2cF5632FF2e68DD06c",
+      "totalVotes": 274,
+      "blockNumber": 15952946,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0xfdfe80447d10a2a87e5d92eb14aeac2666f1cf4314cc09402ca545683992c8ac",
+      "startTime": {
+        "timestamp": 1647050415
+      },
+      "endTime": {
+        "timestamp": 1647482415
+      },
+      "startTimestamp": 1647050415,
+      "endTimestamp": 1647482415,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 25530.902,
+          "choice": 0
+        },
+        {
+          "total": 3948.9248,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 25530.90356521199,
+          "choice": 0
+        },
+        {
+          "total": 3948.924478439001,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4YzA2ODQ2NjI0MmZkYzIzYjg2NThkNWYzZjVkMjNhYjU5N2VhZDBmMGI0MTk0NzU4NzA5ODlmOGNlMzlkYmUyZg==",
+      "id": "0xc068466242fdc23b8658d5f3f5d23ab597ead0f0b419475870989f8ce39dbe2f",
+      "title": "Twitter Communications Strategy Policy",
+      "content": "## Summary\nThis proposal aims to address how we handle [@JadeProtocol](https://twitter.com/JadeProtocol) Twitter communications moving forward.\n\n## Motivation\nIn light of the upcoming updates to Jade Protocol’s website, the deployment on Avalanche and our subsequent marketing push, we anticipate many new sets of eyes on the project in the coming weeks.\n\nAs we continue to develop Jade Protocol, we wish to maximize the potential rate of return these updates can provide for our existing community.\n\nTo that effect, our Twitter account has a very contentious degree of engagement. All messaging–even objectively good news–is met by a contingency of extreme negativity. While we do encourage discourse, transparency and legitimate feedback, we also want to ensure that our ecosystem is as attractive to new investors and potential partners as possible. __The better positioned we are with forward-facing comms, the better positioned $JADE is to return value to its holders.__\n\n## Details\nWe would like you, the invested Jade community, to decide how we mitigate bad actors on our Twitter platform. We can: \n\n1. Keep it as-is for the sake of total transparency. Continue to block bots and other accounts that constantly harass our posts. This does however leave a significant number of negative comments on our profile. Knowing this, we run the risk of dampening the positive effects from our updates and marketing push.\n\n2. Disable all comments on subsequent tweets and encourage all follow-up discourse to be held on Discord. While this would solve the immediate issue, several members have brought up the concern around censorship, which we realize may also turn off potential new investors.\n\n3. Spearhead a “FUD Fighters” initiative. Several dedicated community members have expressed interest in proactively educating newcomers and combating misinformation posted in Twitter replies. This option would maintain an open comments section and allocate a Discord channel and role for people to identify bad actors and address them directly via Twitter. The criteria for obtaining this role would __initially__ be gated to Tier III sJADE holders (≥ 100sJADE, as verified through collab.land), and then vetted by our moderation team, with the potential to extend the criteria to Tier II as needed.\n\n## Voting\nThe vote has a 24 hour warmup period in order to foster community discussion before the vote goes live.\n\nThe vote will commence on 12-March, 2022 at 01:50 GMT and conclude on 17-March, 2022 at 02:50 UTC.\n\nVoting weight will be measured by balance of sJADE at the block number time of posting.\n\n· If you want @jadeprotocol to maintain its current system for Twitter comms as-is, select “Maintain current system”.\n\n· If you want @jadeprotocol to disable all comments moving forward, select “Disable comments”.\n\n· If you want us to implement a system that enables our community members to coordinate and address FUD and misinformation, select “Combat FUD”.\n",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x7E97fa730496b8f8671e3E2cF5632FF2e68DD06c",
+      "totalVotes": 268,
+      "blockNumber": 15952844,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0xc068466242fdc23b8658d5f3f5d23ab597ead0f0b419475870989f8ce39dbe2f",
+      "startTime": {
+        "timestamp": 1647049761
+      },
+      "endTime": {
+        "timestamp": 1647481761
+      },
+      "startTimestamp": 1647049761,
+      "endTimestamp": 1647481761,
+      "currentState": "closed",
+      "choices": [
+        "Maintain current system",
+        "Disable comments",
+        "Combat FUD"
+      ],
+      "results": [
+        {
+          "total": 2747.4639,
+          "choice": 0
+        },
+        {
+          "total": 30165.357,
+          "choice": 2
+        },
+        {
+          "total": 566.2331,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2747.463855915,
+          "choice": 0
+        },
+        {
+          "total": 566.233044199,
+          "choice": 1
+        },
+        {
+          "total": 30165.351111063992,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4NDQyZmNiYzI0ZDkwODAzNjBkYmM3MmY4ZjkwMzFkYjc1ZTBiZjkyMWY2NWIxZWY4ZDFmNTUxZmE4Nzc4YzA2ZA==",
+      "id": "0x442fcbc24d9080360dbc72f8f9031db75e0bf921f65b1ef8d1f551fa8778c06d",
+      "title": "Reduce JADE APY% To Sustainable Levels",
+      "content": "### Summary\nJade Protocol is currently the fastest-growing DeFi project/community in the world. This vote intends to address the scarcity, emissions, and supply of $JADE as the project reaches Escape Velocity.\n\nIn order to make an informed vote, you must [read our latest Medium post](https://medium.com/@SmartCoin/is-jade-a-ponzi-197dd7488deb).\n\n### Motivation\nAt a certain point, the rising supply of $JADE (from high APYs) will surpass demand, creating perpetual selling pressure. APYs of 100,000,000%+ are an effective marketing and “new user” onboarding mechanism but are unsustainable over a long-term time horizon as they will inevitably cause the price to slip.\n\nNow that we’ve validated the market’s rabid interest in the idea of a “Decentralized VC Fund”, we believe that unsustainable yields are no longer a good idea. We're going after a multi-billion (trillion) dollar idea; the long-term upside is much more exciting than short-term yield.\n\nThe reason we’ve grown to over 65,000 wallets in less than 3 weeks is not because of high APY. Plenty of OHM Forks have similar APY percentages.\n\nOur unusually fast growth is because of market demand for our utility vision: a massive treasury that serves as a Decentralized VC Fund; for the people, by the people.\n\nThe signal from other founders and the community is: transition into utility mode ASAP.\n\nThis means SLOWLY reducing APY and focusing on creating paradigm-breaking, real-world utility and value for our ecosystem (which we’re implementing at break-neck speed). The reduced APY would still be high enough to be very attractive in terms of rewards generated (we aim to eventually stabilize APY at a number significantly higher than $TIME).\n\nAs our community base grows and we continue to develop our vision, we believe it is imperative to address the matter of sustainability now.\nIf the community votes to reduce APY to sustainable levels, our team would adjust to allow for at minimum a 1-year runway. \n\n### Proposal\nWe propose two options to the community as follows:\n\n1. Keep APY percentages as they are. This is an effective marketing mechanism and will continue to attract short-term investors. However, there are serious long-term implications for the sustainability of the protocol at current emission levels.\n\n2. Reduce APY to sustainable levels that allow for at minimum, 1-year of runway. This will increase the scarcity of the $JADE token and solidify the long-term sustainability for the project, as a whole. This would also increase the odds of significant price appreciation of $JADE because demand would dramatically outweigh supply over time.\n\n### Voting\nThe vote has a \"warmup\" period. This is intentionally designed to foster community discussion before the vote goes live.\n\nThe vote will go live on December 12th, at 6:30 PM PST. It will be open to voting for 24 hours and will conclude on December 13th at 6:30 PM PST.\n\n- If you agree with our proposal to reduce APY, select “IN FAVOR of slowly reducing APY.”\n\n- If you disagree with our proposal to reduce APY, select “NOT IN FAVOR of reducing APY.\"",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x84857689aA19414D3b5EDDd83088a6307BfB25b5",
+      "totalVotes": 6925,
+      "blockNumber": 13420069,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x442fcbc24d9080360dbc72f8f9031db75e0bf921f65b1ef8d1f551fa8778c06d",
+      "startTime": {
+        "timestamp": 1639362600
+      },
+      "endTime": {
+        "timestamp": 1639449000
+      },
+      "startTimestamp": 1639362600,
+      "endTimestamp": 1639449000,
+      "currentState": "closed",
+      "choices": [
+        "IN FAVOR of slowly reducing APY",
+        "NOT IN FAVOR of reducing APY"
+      ],
+      "results": [
+        {
+          "total": 139431.16,
+          "choice": 0
+        },
+        {
+          "total": 7271.648,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 139431.15056506105,
+          "choice": 0
+        },
+        {
+          "total": 7271.648516677998,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4OTFiOWNhNGM5OTkxODVlMmExN2E2Y2ViYTZiYjgzYzc0Yzk4MDBjZDlkMmRkNjRjMTI0MzFhY2EyMTY5ZDQ1OA==",
+      "id": "0x91b9ca4c999185e2a17a6ceba6bb83c74c9800cd9d2dd64c12431aca2169d458",
+      "title": "Allocate 15% Of Treasury for Hyper-Growth and Funding a Bigger Team",
+      "content": "You, the JADE community, will vote on whether or not 15% of our treasury will be used for these benefits: \n\n1. Aggressively growing our team — we want to continue bringing in geniuses from all around the world. Priority #1 is expanding our dev team.\n\n2. Allowing our team to quit their day jobs — several devs still have a day job, and some are even running entire businesses. Incentivizing them to go “all in” with us will require capital. \n\nAll uses of the Growth Fund will be on a public ledger. A link will be posted on our Gitbook.\n\nIf this vote passes, we believe it will have a significantly positive impact on the JADE ecosystem. More industry-leading devs we can hire. A full-time, round-the-clock committed team.\n\nWe believe the price impact of this decision is incredibly bullish. We’re thinking about the 10+ year future of our ecosystem. Having a reliable way to attract the smartest people to fully commit is critical. \n\nDedicating 15% of our treasury is our solution.\n\nFor full details, see our forthcoming Medium post here: https://medium.com/@SmartCoin",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x7E97fa730496b8f8671e3E2cF5632FF2e68DD06c",
+      "totalVotes": 7274,
+      "blockNumber": 13338565,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x91b9ca4c999185e2a17a6ceba6bb83c74c9800cd9d2dd64c12431aca2169d458",
+      "startTime": {
+        "timestamp": 1639098865
+      },
+      "endTime": {
+        "timestamp": 1639358065
+      },
+      "startTimestamp": 1639098865,
+      "endTimestamp": 1639358065,
+      "currentState": "closed",
+      "choices": [
+        "In Favor",
+        "Not in Favor"
+      ],
+      "results": [
+        {
+          "total": 116190.57,
+          "choice": 0
+        },
+        {
+          "total": 6634.443,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 116190.88368988528,
+          "choice": 0
+        },
+        {
+          "total": 6634.442152287,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6amFkZXByb3RvY29sZXRoOnNuYXBzaG90OjB4ODgwMGU0MTI1MDIxZTg3N2JhZTYwMGM0NDYxNWRiZmVhZjRiYjhiM2NlZjJjMDlkODk5MDM4MzYyN2M3ZTUxMQ==",
+      "id": "0x8800e4125021e877bae600c44615dbfeaf4bb8b3cef2c09d8990383627c7e511",
+      "title": "Test Proposal",
+      "content": "Would you rather live in a beach bungalow or a log cabin in the woods?",
+      "protocol": "jadeprotocoleth",
+      "adapter": "snapshot",
+      "proposer": "0x7E97fa730496b8f8671e3E2cF5632FF2e68DD06c",
+      "totalVotes": 4,
+      "blockNumber": 13146961,
+      "externalUrl": "https://snapshot.org/#/jadeprotocol.eth/proposal/0x8800e4125021e877bae600c44615dbfeaf4bb8b3cef2c09d8990383627c7e511",
+      "startTime": {
+        "timestamp": 1638500400
+      },
+      "endTime": {
+        "timestamp": 1638522000
+      },
+      "startTimestamp": 1638500400,
+      "endTimestamp": 1638522000,
+      "currentState": "closed",
+      "choices": [
+        "Beach Bungalow",
+        "Cabin in Woods"
+      ],
+      "results": [
+        {
+          "total": 111.42693,
+          "choice": 0
+        },
+        {
+          "total": 170.39838,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 111.42693216,
+          "choice": 0
+        },
+        {
+          "total": 170.398376262,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689960435131,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

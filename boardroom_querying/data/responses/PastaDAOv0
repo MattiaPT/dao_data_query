@@ -1,0 +1,575 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6cGFzdGE6c25hcHNob3Q6cW1wMmFhY3Y5bWNqd2VnbXpoYnk1MWhkZXg0OGdrdmVvem5wZGJkZWM5Z2lvbg==",
+      "id": "QmP2aacV9mcjwegmzhBy51Hdex48gKVEoZNPDbdeC9gion",
+      "title": "Transfer LP Tokens From Multisig to Gov Timelock",
+      "content": "Proposed by @monet-supply\n\n### Background\n\nWhen first becoming involved with the Pasta project, I transferred/donated some LP tokens to the [PastaDAO multisig](https://gnosis-safe.io/app/#/safes/0xB449dfE00aACf406eb442B22745A25430490FE1b/balances). These have been sitting idle, and there's no reason the multisig would need access to them. \n\nTo increase decentralization, I propose transferring them to the on chain [governance timelock](https://etherscan.io/tokenholdings?a=0x9bb5a48878baa8bd884ecf6bdbc3812ca2bf9b9f).\n\n### Proposal Actions\n\n- Transfer 33.70650896 [Uniswap v2 PASTA/ETH LP](https://etherscan.io/token/0xe92346d9369fe03b735ed9bdeb6bdc2591b8227e?a=0xB449dfE00aACf406eb442B22745A25430490FE1b) from multisig to timelock\n- Transfer 4,528.20915098 [Uniswap v2 PASTAv1/PASTAv2 LP](https://etherscan.io/token/0x012ff93bc177a03177074e29875397977eb07a67?a=0xB449dfE00aACf406eb442B22745A25430490FE1b) from multisig to timelock\n- Transfer 244.94963364 [Uniswap v2 DAI/(PASTA/ETH LP) LP](https://etherscan.io/token/0x40476a0580f960cae11e182e9fe3b8326e61db14?a=0xB449dfE00aACf406eb442B22745A25430490FE1b) from multisig to timelock\n\n### Vote Choices\n\n**Yes** - Transfer all of the above listed tokens from the multisig to the on chain governance timelock.\n**No** - Leave the tokens in the multisig.\n",
+      "protocol": "pasta",
+      "adapter": "snapshot",
+      "proposer": "0x8d07D225a769b7Af3A923481E1FdF49180e6A265",
+      "totalVotes": 2,
+      "blockNumber": 13013000,
+      "externalUrl": "https://snapshot.org/#/pasta.eth/proposal/QmP2aacV9mcjwegmzhBy51Hdex48gKVEoZNPDbdeC9gion",
+      "startTime": {
+        "timestamp": 1628812800
+      },
+      "endTime": {
+        "timestamp": 1629417600
+      },
+      "startTimestamp": 1628812800,
+      "endTimestamp": 1629417600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 178328.33,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 178328.32805004157,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cGFzdGE6c25hcHNob3Q6cW1iMnh0cmNmM2N5cWpuMmV1ZXBqNG5mc2xoZjNhaXZxZzVjcHBrdXhqcjZnZw==",
+      "id": "Qmb2XtRCf3cYQjn2euepj4NFSLHf3AivQG5CpPKUxjr6Gg",
+      "title": "Transfer 500,000 PASTA to Governance Timelock",
+      "content": "Proposed by @monet-supply\n\n### Background\n\nThe vast majority of DAO funds are still held in the [PastaDAO multisig](https://gnosis-safe.io/app/#/safes/0xB449dfE00aACf406eb442B22745A25430490FE1b/balances), but it would be more secure and decentralized to use on chain governance mechanisms for management, allowing voters to have direct control over the treasury.\n\nAs part of this path to decentralization and full on chain governance, the PastaDAO multisig recently [transferred](https://etherscan.io/tx/0x65da2f9eecc7c68bcb6e6c95dc7ca470e9fb9671e6c08b0f2d2f5d52e1dc1fdf) 100,000 PASTA to the [governance timelock](https://etherscan.io/tokenholdings?a=0x9bb5a48878baa8bd884ecf6bdbc3812ca2bf9b9f), per the previously approved [Snapshot vote](https://snapshot.org/#/pasta.eth/proposal/QmV1sd7rvdcvmxytmEavNAWKyV7Upo5VAKt5yrjodfiiBn). I propose transferring an additional 500,000 PASTA to the timelock contract to continue pushing this process forward.\n\n### Proposal Action\n\n- Transfer 500,000 PASTA from the multisig to the timelock\n\n### Vote Choices\n\n**Yes** - Transfer tokens as stated above\n**No** - Leave tokens in the multisig",
+      "protocol": "pasta",
+      "adapter": "snapshot",
+      "proposer": "0x8d07D225a769b7Af3A923481E1FdF49180e6A265",
+      "totalVotes": 2,
+      "blockNumber": 13013000,
+      "externalUrl": "https://snapshot.org/#/pasta.eth/proposal/Qmb2XtRCf3cYQjn2euepj4NFSLHf3AivQG5CpPKUxjr6Gg",
+      "startTime": {
+        "timestamp": 1628812800
+      },
+      "endTime": {
+        "timestamp": 1629417600
+      },
+      "startTimestamp": 1628812800,
+      "endTimestamp": 1629417600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 178328.33,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 178328.32805004157,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cGFzdGE6c25hcHNob3Q6cW1kcXg2emVhZ25leXl2NGZqb2pjdm9ocDJnMjlyYmZwY3h4Zmtta3J4Y3drdw==",
+      "id": "QmdQX6zeAgneyyV4FjojcVohp2G29RBFpCxXfKmkRxcWKw",
+      "title": "Long Term Liquidity Incentives",
+      "content": "Proposed by [@monet-supply]().\n\n### Background\n\nPASTA liquidity has improved considerably since the last [liquidity incentive program](https://snapshot.org/#/pasta.eth/proposal/QmWcGfdRQF8bWAboDuqf1S3jtwjNKyWXCgfUntyEMgrwPY) was conducted, with nearly 2 million PASTA now held in the [Uniswap v2 pool](https://v2.info.uniswap.org/pair/0xe92346d9369fe03b735ed9bdeb6bdc2591b8227e). However, this still represents less than 15% of the total token supply. \n\nOne potential issue is that regular Uniswap LP fees may not be enough to offset impermanent loss from occasional large changes in the PASTA/ETH price ratio. Adding predictable, long term incentives should help counterbalance this effect and support greater participation.\n\n### Proposal\n\nI propose initiating a new liquidity incentive program, distributing 300,000 PASTA tokens to the Uniswap v2 PASTA/ETH LP over 3 months. Funds would be distributed directly to the Uniswap Pool via a [Pasta Chef](https://github.com/Pasta-DAO/pasta-chef) contract like the first distribution.\n\nThe [PastaDAO multisig](https://gnosis-safe.io/app/#/safes/0xB449dfE00aACf406eb442B22745A25430490FE1b/balances) currently holds 1,219,000 PASTA, of which 190,000 have been committed to previously approved expenses but not yet issued (90,000 for development grants, 100,000 to be transferred to the [DAO timelock](https://etherscan.io/address/0x9bb5a48878baa8bd884ecf6bdbc3812ca2bf9b9f)). So this proposed 300,000 expense would represent roughly 30% of the multisig's remaining funding over the next 3 months. During this time, additional fees from PASTA transfers or sales should partly offset this expenditure.\n\n### Next Steps\n\nIf this proposal is approved by voters, the multisig will fund a liquidity incentive distribution mechanism with 300,000 PASTA from the treasury for a 3 month distribution period. Notice will be given to the community in [Discord](https://discord.com/invite/XAZMWBTrMH) in advance of when the rewards period begins.\n\n### Proposal Question\n\nDo you approve transferring 300,000 PASTA from the DAO multisig for this 3 month liquidity incentive program?",
+      "protocol": "pasta",
+      "adapter": "snapshot",
+      "proposer": "0x8d07D225a769b7Af3A923481E1FdF49180e6A265",
+      "totalVotes": 5,
+      "blockNumber": 12565000,
+      "externalUrl": "https://snapshot.org/#/pasta.eth/proposal/QmdQX6zeAgneyyV4FjojcVohp2G29RBFpCxXfKmkRxcWKw",
+      "startTime": {
+        "timestamp": 1622775600
+      },
+      "endTime": {
+        "timestamp": 1623207600
+      },
+      "startTimestamp": 1622775600,
+      "endTimestamp": 1623207600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 308147.3,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 308400.99443870335,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cGFzdGE6c25hcHNob3Q6cW12MXNkN3J2ZGN2bXh5dG1lYXZuYXdreXY3dXBvNXZha3Q1eXJqb2RmaWlibg==",
+      "id": "QmV1sd7rvdcvmxytmEavNAWKyV7Upo5VAKt5yrjodfiiBn",
+      "title": "Transfer Initial Funds to DAO Timelock",
+      "content": "Proposed by [@monet-supply](https://twitter.com/MonetSupply).\n\n### Background\n\nPastaDAO has an on chain governance mechanism based on the Compound governor alpha framework. In the long term this could potentially be a better governance solution for the treasury versus the current [PastaDAO multisig](https://gnosis-safe.io/app/#/safes/0xB449dfE00aACf406eb442B22745A25430490FE1b/balances). While the multisig is more agile, it’s also potentially less secure.\n\nTransferring an initial portion of the treasury reserve to the governance timelock could be a good measure to test governance resilience, while also derisking the treasury by spreading it out among several controllers.\n\n### Proposal\n\nI propose transferring 100,000 PASTA from the [PastaDAO multisig](https://gnosis-safe.io/app/#/safes/0xB449dfE00aACf406eb442B22745A25430490FE1b/balances) to the [PastaDAO governance timelock](https://etherscan.io/address/0x9bb5a48878baa8bd884ecf6bdbc3812ca2bf9b9f#code). From there they will be at the disposal of voters via the [PastaDAO token contract](https://etherscan.io/token/0x19f6afe15c7fd8a900dbc86623b0d36912a2af1f#balances) and [governor contract](https://etherscan.io/address/0x78bd635e7c76d6a48d1e4bda89e95ae8394ded11#code).\n\n### Next Steps\n\nIf this proposal is approved by voters, the multisig will transfer 100,000 to the governance timelock.\n\n### Proposal Question\n\nDo you approve this funds transfer?\n",
+      "protocol": "pasta",
+      "adapter": "snapshot",
+      "proposer": "0x8d07D225a769b7Af3A923481E1FdF49180e6A265",
+      "totalVotes": 8,
+      "blockNumber": 12352100,
+      "externalUrl": "https://snapshot.org/#/pasta.eth/proposal/QmV1sd7rvdcvmxytmEavNAWKyV7Upo5VAKt5yrjodfiiBn",
+      "startTime": {
+        "timestamp": 1619924400
+      },
+      "endTime": {
+        "timestamp": 1620356400
+      },
+      "startTimestamp": 1619924400,
+      "endTimestamp": 1620356400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 868238.6,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 374656.9467397807,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cGFzdGE6c25hcHNob3Q6cW1jZXVyOHBic3Bxdm5wcHZmYzI1eXNyZGthZDhreGZqZDhmanV1aHJ6cGM4cg==",
+      "id": "QmcEuR8pBspQvNPPvFC25ysrdKaD8kxfjd8FjUuHRZPC8R",
+      "title": "Reimburse DAO expenses #2",
+      "content": "Reimburse DAO expenses #2\n\nProposed by [@monet-supply](https://twitter.com/MonetSupply).\n\n### Background\n\n[@mubaris](https://twitter.com/0xmubaris) has deployed the PastaDAO governance contracts and incentive distribution mechanism as specified in the previous grant proposal [here](). Deployment of the contracts required a decent amount of gas expenses, which I feel should be reimbursed by the DAO.\n\nDeployment expenses include the following transactions:\n\n- [PastaDAO token](https://etherscan.io/tx/0x7fdc7c4aca240d55124a759b43613105202203d965cb6437b6247ecd22b053e5): 0.2814 ETH\n- [Governor](https://etherscan.io/tx/0x31da7323fda41d8b255c7fb4d7599c2c6242beff774be5cb4d77abcf467fc331): 0.4626 ETH\n- [Timelock](https://etherscan.io/tx/0x9a6269634bfcff0482607112ef8789ab808d14c8841392565824320485e5cc9f): 0.1681 ETH\n- [PastaChef Liquidity Incentivizer](https://etherscan.io/tx/0xd55af0bbeb34e4675f70190b2b16759aad5a1641e01d48061633acb47b70c359): 0.1245 ETH\n\nTotal: 1.0366 ETH\n\n### Proposal\n\nBased on current [PASTA/ETH](https://info.uniswap.org/pair/0xE92346d9369Fe03b735Ed9bDeB6bdC2591b8227E) liquidity proportions, the market value is roughly 12,700 PASTA per ETH.\n\nI propose the DAO disburse 13,165 PASTA to mubaris to reimburse the above listed expenses.\n\n### Next Steps\n\nIf this proposal is approved by voters, the [PastaDAO multisig]() will be authorized to transfer the sum shown above to mubaris. \n\n### Proposal Question\n\nDo you approve this expense reimbursement and funds transfer?\n",
+      "protocol": "pasta",
+      "adapter": "snapshot",
+      "proposer": "0x8d07D225a769b7Af3A923481E1FdF49180e6A265",
+      "totalVotes": 3,
+      "blockNumber": 12351950,
+      "externalUrl": "https://snapshot.org/#/pasta.eth/proposal/QmcEuR8pBspQvNPPvFC25ysrdKaD8kxfjd8FjUuHRZPC8R",
+      "startTime": {
+        "timestamp": 1619920800
+      },
+      "endTime": {
+        "timestamp": 1620352800
+      },
+      "startTimestamp": 1619920800,
+      "endTimestamp": 1620352800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 150891.11,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 150891.10782418336,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cGFzdGE6c25hcHNob3Q6cW1ydGF6a3JwZmVheWFjM2c2MWtzNGFlb3FnY2h0anFmcnB2bHoxenlrejVybA==",
+      "id": "QmRtazKrPfEayac3g61kS4aEoQGCHtjQFrPVLZ1ZyKz5rL",
+      "title": "Contribute PASTA to Gitcoin Grants",
+      "content": "Proposed by [@monet-supply](https://twitter.com/MonetSupply).\n\n### Background\n\nIn a previous [snapshot vote](https://snapshot.org/#/spaghetti/proposal/QmbExpq8p6xez2K4Md51v8nuVoQaYcMSGhEL6zCVYXhoEm), the community signaled support in principle for contributing funds for public goods grants. [Gitcoin](https://gitcoin.co/blog/gitcoin-grants-round-9-governance-brief/) is one of Ethereum’s preeminent public goods funding mechanisms, and would be a good candidate for PastaDAO’s initial contribution campaign. \n\nVitalik Buterin also mentioned the value of ongoing grants funding in his recent [post](https://vitalik.ca/general/2021/04/02/round9.html) on Gitcoin Grants Round 9. PASTA’s ingrained transfer fee mechanism could serve as a foundation for sustainable ecosystem contributions, while retaining enough funds for community development initiatives and protocol reserves.\n\n### Proposal\n\nI propose a two part donation to Gitcoin Grants matching fund.\n\n- One time initial contribution of 150,000 PASTA to Gitcoin Grants Round 10, with the intention of PastaDAO joining as a sponsor (roughly 10% of PastaDAO's initial foodbank funding)\n- Ongoing donation of 10% of tokens earned by the protocol foodbank through the PASTA transfer fee, until such time as governance passes a further proposal to discontinue the donation\n\nNote that Gitcoin accepts funds in either DAI or ETH, so PASTA amounts shown above will be exchanged for one of these assets at the multisig signers’ discretion before funds are sent to Gitcoin. \n\nThe ongoing donation will be targeted towards matching funding for future Gitcoin rounds, with accumulated assets transferred to Gitcoin on a quarterly basis.\n\n### Next Steps\n\nIf this measure is approved by voters, the PastaDAO multisig will be authorized to convert 150,000 PASTA to DAI or ETH and transfer this amount to Gitcoin for use as matching funds in grants round 10.\n\nFurthermore, the multisig will earmark 10% of future inflows from PASTA transfer fees for Gitcoin grants matching, with funds converted to DAI or ETH at the multisig signers’ discretion and transferred on a quarterly basis. This will continue until a governance proposal discontinues the ongoing donation.\n\n### Proposal Question\n\nDo you support donating an initial 150,000 PASTA to Gitcoin Grants Round 10 matching fund, with ongoing donations of 10% of transfer fee revenues to future Gitcoin matching rounds?\n",
+      "protocol": "pasta",
+      "adapter": "snapshot",
+      "proposer": "0x8d07D225a769b7Af3A923481E1FdF49180e6A265",
+      "totalVotes": 24,
+      "blockNumber": 12176500,
+      "externalUrl": "https://snapshot.org/#/pasta.eth/proposal/QmRtazKrPfEayac3g61kS4aEoQGCHtjQFrPVLZ1ZyKz5rL",
+      "startTime": {
+        "timestamp": 1617584400
+      },
+      "endTime": {
+        "timestamp": 1618102800
+      },
+      "startTimestamp": 1617584400,
+      "endTimestamp": 1618102800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, contribute funds",
+        "No, don't contribute funds",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2631750.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2138168.551530766,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cGFzdGE6c25hcHNob3Q6cW1udXp5M3NxZWpqanp2d3FlMTlnNXh0dHhjanRiZGdwamd1bnV3ZzNjemg5cA==",
+      "id": "QmNUzy3sQejjjZvwqE19G5xttXcJtBdGPjGunUwg3CzH9p",
+      "title": "Fund Development Grants",
+      "content": "Proposed by [@monet-supply](https://twitter.com/MonetSupply).\n\n### Background\n\n[@mubaris](https://twitter.com/realmubaris) has created some contracts for on chain governance and liquidity incentive distribution (Github link [here](https://github.com/Pasta-DAO)). These will be invaluable to the DAO moving forward, and it seems fitting that these contributions are properly recognized and rewarded.\n\nPastaDAO also benefits from the previous open source development work of other protocols including Compound (governor alpha and comp token frameworks) and Uniswap (infrastructure for PASTA/ETH liquidity). Granting funds back to these organizations sets a positive example for open source development and could help build goodwill between communities.\n\n### Proposal\n\nI propose granting 120,000 PASTA from the [DAO multisig](https://gnosis-safe.io/app/#/safes/0xB449dfE00aACf406eb442B22745A25430490FE1b/balances) to the following grantees for their contribution to the PastaDAO codebase:\n\n- [@mubaris](https://twitter.com/realmubaris): 60,000 PASTA for development of the Pasta Chef and governance contracts\nAddress: mubaris.eth\nTerms: 30,000 PASTA will be released immediately upon vote approval, with the remaining 30,000 PASTA released after 3 months\n\n- [Compound governance](https://compound.finance/): 45,000 PASTA for development of COMP token and governor alpha contracts\nAddress: 0x6d903f6003cca6255D85CcA4D3B5E5146dC33925 (Compound governance timelock)\nTerms: 45,000 PASTA will be released after the price of PASTA reaches $1.\n\n- [Uniswap governance](https://uniswap.org/): 15,000 PASTA for development of Uniswap v2\nAddress: uniswap.eth (Uniswap governance timelock)\nTerms: 15,000 PASTA will be released after the price of PASTA reaches $1.\n\n### Next Steps\n\nIf this proposal is approved by voters, the multisig will be authorized to transfer 120,000 PASTA to the grantees listed above according to the specified terms.\n\nI also plan to work with the DAO on additional funding proposals for any other community development needs. Everyone is welcome to join us in [Discord](https://discord.com/invite/XAZMWBTrMH) to discuss this and future proposals.\n\n### Proposal Question\n\nDo you approve granting 120,000 PASTA from the DAO multisig to the parties listed above?",
+      "protocol": "pasta",
+      "adapter": "snapshot",
+      "proposer": "0x8d07D225a769b7Af3A923481E1FdF49180e6A265",
+      "totalVotes": 22,
+      "blockNumber": 12131500,
+      "externalUrl": "https://snapshot.org/#/pasta.eth/proposal/QmNUzy3sQejjjZvwqE19G5xttXcJtBdGPjGunUwg3CzH9p",
+      "startTime": {
+        "timestamp": 1616986800
+      },
+      "endTime": {
+        "timestamp": 1617505200
+      },
+      "startTimestamp": 1616986800,
+      "endTimestamp": 1617505200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, fund development grants",
+        "No, don't fund grants",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1956535.9,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1956813.7580686023,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cGFzdGE6c25hcHNob3Q6cW1jYWR4anFiemJwam5jc3M3dHY4aTN4Y3J5NHZxZnlwbW5oaGVqNDhtMjlhdg==",
+      "id": "QmcAdxjqbZbPjNcSS7tv8i3XcrY4vQfypMNHHEj48M29av",
+      "title": "Reimburse DAO expenses",
+      "content": "Proposed by [@monet-supply](https://twitter.com/MonetSupply)\n\n### Background\n\nThe setup and operations of the PastaDAO multisig and discord has incurred the following expenses:\n- @monet-supply:\n  - 1.024989141 ETH: Purchasing [pasta.eth domain](https://etherscan.io/tx/0x960090d78302a7cb3df40d9277cb264ec21a438e024d7ce0c3b6fe23e08f591f)\n  - 0.028450241 ETH: [Domain renewal](https://etherscan.io/tx/0xc65a65a6370d999cccbc019c1b491abec3da7d6c5e7dc252c135e203125ba69d)\n  - $100 USD: Purchasing discord boost to L1 for a year\n  - 0.035941185 ETH: [Deploying multisig](https://etherscan.io/tx/0x7bc919eba28deaea2163eb07d843f7bb197696f2cc9094d9cb471c050e2a97f7)\n  - 0.011467478 ETH: [Adding Mubaris to multisig](https://etherscan.io/tx/0x540039795f8f704d7ae98c8b021a04cfbd0f5ac3e96e12896482ee1599183afc)\n  - 0.016581075 ETH: [Adding Andy to multisig](https://etherscan.io/tx/0x75b65caa084f69a9298a8210bf906a5ace55f5d1e8d4fa0f14a9a9f4c1ba0556)\n- @mubaris:\n  - 0.01141361 ETH: Executing multisig [test transaction](https://etherscan.io/tx/0x022901fc860b3166a2569f33a8b3b0ef5faa59a07cbb4fb8753f043f2da6dfef)\n\n### Proposal\n\nI propose reimbursement for the above mentioned expenses for @monet-supply and @mubaris. \n\nBased on the past week's price ranges, I propose reimbursement with PASTA from the treasury at the following nominal exchange rates:\n- $0.25 per PASTA\n- $1800 per ETH\n\nThis equates to:\n- 7200 PASTA per 1 ETH\n- 4 PASTA per $1\n\nThese exchange rates yield the following final reimbursement amounts:\n- @monet-supply\n  - 1.11742912 ETH * 7200 PASTA/ETH = 8045 PASTA\n  - $100 * 4 PASTA/$ = 400 PASTA\n  - Total: 8445 PASTA\n- @mubaris\n  - 0.01141361 ETH * 7200 PASTA/ETH = 83 PASTA\n  - Total: 83 PASTA\n\nGrant total: 8528 PASTA\n\n### Next Steps\n\nIf this proposal is approved by voters, the PastaDAO multisig will be authorized to transfer the amounts shown above to reimburse DAO expenses. \n\n@monet-supply is also planning to submit a vote to approve funding for development work undertaken so far on the PastaDAO governance contracts and liquidity incentive mechanism. This will be presented in a future proposal.\n\n### Proposal Question\n\nDo you approve transferring 8045 PASTA to @monet-supply ([monetsupply.eth](https://etherscan.io/address/0x8d07d225a769b7af3a923481e1fdf49180e6a265)) and 83 PASTA to @mubaris ([mubaris.eth](https://etherscan.io/address/0x8ecce8e28af4a2b8d3b093ef34b24525af0989c6)) as reimbursement for DAO related expenses?",
+      "protocol": "pasta",
+      "adapter": "snapshot",
+      "proposer": "0x8d07D225a769b7Af3A923481E1FdF49180e6A265",
+      "totalVotes": 8,
+      "blockNumber": 12078500,
+      "externalUrl": "https://snapshot.org/#/pasta.eth/proposal/QmcAdxjqbZbPjNcSS7tv8i3XcrY4vQfypMNHHEj48M29av",
+      "startTime": {
+        "timestamp": 1616284800
+      },
+      "endTime": {
+        "timestamp": 1616716800
+      },
+      "startTimestamp": 1616284800,
+      "endTimestamp": 1616716800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, transfer PASTA",
+        "No, don't transfer PASTA",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1086828.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1087525.58484263,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cGFzdGE6c25hcHNob3Q6cW1jdmd0YW9nY2tidm5ocW5tcDVxeHBremNtbXF5bW9uZmp2OWZtY21rY3RmZg==",
+      "id": "QmcvGtaogckBvNHQNMp5QxpkzCmmQYmonFjv9FMCmKCtFF",
+      "title": "Move to new Snapshot voting page",
+      "content": "Proposed by [@monet-supply](https://twitter.com/MonetSupply)\nMirrored from the OG PASTA snapshot page [here](https://snapshot.org/#/spaghetti/proposal/QmYSKE8fD1FTr8qeGYfXaVs4pE7yjFVJFKM3ueo8UVVpvH)\n\n### Background\n\nThe current snapshot page doesn't support voting with PASTA supplied to LP tokens. It's also not upgradable, which limits the ability to create new voting strategies going forward.\n\n### Proposal\n\nTransition all new proposals and PASTA voting from [https://snapshot.org/#/spaghetti](https://snapshot.org/#/spaghetti) to the pasta.eth snapshot space: [https://snapshot.org/#/pasta.eth](https://snapshot.org/#/pasta.eth)\n\nThe new Snapshot space uses a voting strategy which counts total PASTA owned in the wallet and supplied to Uniswap. This allows a wider group of potential users to participate in governance.\n\nThe space can also be upgraded/updated via the controller of the pasta.eth domain (currently monetsupply for convenience but this can be transitioned to DAO ownership in the future). This allows the DAO to upgrade its voting mechanisms in the future without additional migrations.\n\n### Proposal Question\n\nShould the DAO move all future Snapshot polls and proposals to the pasta.eth space (this Snapshot space)?",
+      "protocol": "pasta",
+      "adapter": "snapshot",
+      "proposer": "0x8d07D225a769b7Af3A923481E1FdF49180e6A265",
+      "totalVotes": 11,
+      "blockNumber": 12066875,
+      "externalUrl": "https://snapshot.org/#/pasta.eth/proposal/QmcvGtaogckBvNHQNMp5QxpkzCmmQYmonFjv9FMCmKCtFF",
+      "startTime": {
+        "timestamp": 1616126400
+      },
+      "endTime": {
+        "timestamp": 1616558400
+      },
+      "startTimestamp": 1616126400,
+      "endTimestamp": 1616558400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1096728.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 603146.8778731452,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cGFzdGE6c25hcHNob3Q6cW13Y2dmZHJxZjhid2Fib2R1cWYxczNqdHdqbmt5d3hjZ2Z1bnR5ZW1ncndweQ==",
+      "id": "QmWcGfdRQF8bWAboDuqf1S3jtwjNKyWXCgfUntyEMgrwPY",
+      "title": "Authorize PASTA liquidity mining 💧⛏",
+      "content": "Proposed by [@monet-supply](https://twitter.com/MonetSupply)\n\n### Background\n\nPASTA liquidity is relatively thin, with only 300-400,000 PASTA available in the [Uniswap pool](https://info.uniswap.org/pair/0xe92346d9369fe03b735ed9bdeb6bdc2591b8227e) over the past week. This limits the ability of old holders to exit their position, and for potential new members to join the DAO.\n\nDeeper liquidity could benefit PASTA by improving price discovery and allowing free entry and exit from the DAO, and may also increase the amount of tokens accrued to the [treasury](https://gnosis-safe.io/app/#/safes/0xB449dfE00aACf406eb442B22745A25430490FE1b/balances) if trading volume increases as a result. \n\nAdditionally, more liquidity will increase the value and impact of any DAO approved PASTA token donations, such as the public goods funding contemplated [here](https://snapshot.org/#/spaghetti/proposal/QmbExpq8p6xez2K4Md51v8nuVoQaYcMSGhEL6zCVYXhoEm).\n\n### Proposal\n\nAuthorize the PastaDAO multisig to use 100,000 PASTA tokens for liquidity incentives to be distributed over an initial 7 day period. \n\nIncentives will be drip fed directly to the Uniswap PASTA/ETH liquidity pool, so users can gain rewards simply by depositing their funds to Uniswap without needing to stake their LP tokens in an additional contract.\n\n### Next Steps\n\nIf this proposal is approved by voters, the multisig will deploy the liquidity incentive distribution mechanism and fund it with 100,000 PASTA from the treasury for a 1 week distribution period. Notice will be given to the community in [Discord](https://discord.com/invite/XAZMWBTrMH) at least 24 hours before the rewards period begins.\n\nWork on the distributor contract is ongoing, so the exact date liquidity incentives can begin remains TBD.\n\nDepending on the impact and benefits of this incentives program, the community could choose to extend or modify incentives through additional proposals in the future.",
+      "protocol": "pasta",
+      "adapter": "snapshot",
+      "proposer": "0x8d07D225a769b7Af3A923481E1FdF49180e6A265",
+      "totalVotes": 35,
+      "blockNumber": 12072260,
+      "externalUrl": "https://snapshot.org/#/pasta.eth/proposal/QmWcGfdRQF8bWAboDuqf1S3jtwjNKyWXCgfUntyEMgrwPY",
+      "startTime": {
+        "timestamp": 1616198400
+      },
+      "endTime": {
+        "timestamp": 1616544000
+      },
+      "startTimestamp": 1616198400,
+      "endTimestamp": 1616544000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, fund liq mining",
+        "No, don't fund liq mining",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2556214.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2063674.1563657683,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

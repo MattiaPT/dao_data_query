@@ -1,0 +1,1764 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4M2JkNjllYmVjOTNmNjFmZmY4YmU1MTM2MTBjZjg5NWNkYTljZmIwZDFlMGIzZTU2NzYyMzAwZmFjODBmYTczNA==",
+      "id": "0x3bd69ebec93f61fff8be513610cf895cda9cfb0d1e0b3e56762300fac80fa734",
+      "title": "MIP-31: Mantle Budget (Second Year)",
+      "content": "This proposal is authored by the Mantle Core Contributor team.\n\n### Background\nThe current Mantle budget authorization was submitted for [forum discussion](https://forum.mantle.xyz/t/passed-bip-19-securing-the-future-with-mantle-a-comprehensive-plan/4533) on Jan. 31st, 2023, and approved through [BIP-19](https://discourse.bitdao.io/t/passed-bip-19-securing-the-future-with-mantle-a-comprehensive-plan/4533) on Feb. 20th, 2023. Given that the budget was to cover the testnet phase and first year of Mantle Network Mainnet, the latter of which was launched in July 2023, it has run its course as of June 2024.\n\nWhile spending has been within the scope of BIP-19, two key factors have impacted the budget assumptions, namely: the merger of BitDAO/governance components ([BIP-21](https://snapshot.org/#/bitdao.eth/proposal/0xe81f852d90ba80929b1f19683da14b334d63b31cb94e53249b8caed715475693)), and the development and launch of [Mantle LSP](https://meth.mantle.xyz/stake).\n\nThe monthly expenses have been regularly published through [Treasury Monitor](https://treasurymonitor.mantle.xyz/mantle-core-budget).\n\nThis proposal is to update the budget for the second budget cycle (12 months from Jul 2024 to Jun 2025).\n\n### Format and Interpretation\n\n#### Proposal\nBy voting “Yes”, you endorse the following terms:\n\n#### 1. Limits — The authorized limits for the second budget cycle (a 12-month period from July 2024 to June 2025) shall be set at:\n\na. Total USDx limit: 52M Units\nb. Total MNT limit: 200M Units\n\nHigher limits are proposed to provide flexibility for business expansion, while maintaining an oversight checkpoint from Mantle Governance. Any actual or forecasted spending above the limits requires a subsequent discussion and vote.\n\n#### 2. Exclusions — The following items shall not be part of the Budget scope and limits:\n\na. Financing Activities (e.g., node delegation, working capital loans if any): Loan receivables will be returned or settled, and are not considered expenses.\nb. Bridge Liquidity: This BIP-19 item shall be removed from the Budget, and instead be handled by EC Proposal [MIP-28](https://snapshot.org/#/bitdao.eth/proposal/0x1f23e992b5123d0948e48681da08cb511e3dc6405baf0d301198ecce4c1e1d5a).\nc. Gas Costs: Gas costs related to Protocols (e.g., L1 commitment gas costs, LSP node gas transactions, and ad hoc deployment expenses) shall not be part of the budget limits, as these costs are unavoidable, and will be tracked on Treasury Monitor.\nd. Other Non USDx/MNT Spending: ETH/mETH or other ecosystem partner tokens may be used for various ecosystem incentives. Such programs, if any, are public and are subject to community oversight.\n\n#### 3. Budget Cycle\n\na. All annual budgets and limits shall be extended pro-rata for up to 3 months of the following budget cycle to allow for subsequent budget to be proposed, discussed, and approved.\n\n### Provisional Budget Limit for Second Budget Cycle (July 2024 - June 2025)\n\nHigher limits are proposed to provide flexibility for business expansion while maintaining an oversight checkpoint from Mantle Governance. Actual spend will likely be well below limits.\n![image](ipfs://bafkreibhkpp63tr2zs3xdt2z53qmki536afvxgqdiezvtg4thk67gxbhha)\n\n### Review & Budget by Category\n#### Category: Workforce\n\n• Mantle’s core team has grown from 50 to 83 full time contributors from January 2023 to June 2024. The Growth & Marketing team grew from 25 to 45 full time contributors, while the R&D team grew from 25 to 38 full time contributors. Mantle continued to engage more than 20 professionals in HR, legal, and finance functions as part-time contributors.\n\n• For the second budget cycle, the plan is to further expand the team as Mantle has introduced expanded product lines. The target number of full time contributors is around 100 to 120.\n\n• $MNT allocation was not specified under [BIP-19](https://discourse.bitdao.io/t/passed-bip-19-securing-the-future-with-mantle-a-comprehensive-plan/4533) due to no clearly defined rewards designated for team incentives in the early days. However, token incentives for the core team are critical for any token governed business. Around 21 million $MNT was awarded to Mantle workforce in the first budget cycle.\n\n• The provisional budget to Mantle core contributors is 15 million $USDx and 50 million $MNT in the second budget cycle. The $MNT allocation represents around 1.5% of $MNT circulating supply, which is lower than industry standard.\n\n#### Category: General and Administrative\n\n• Mantle used various professional service providers for recruitment services, legal advisory, and system support. These services account for 60% of expenses. Other G&A expenses include rent, travel, and miscellaneous costs.\n\n• The provisional budget for G&A is 5 million in $USDx.\n\n#### Category: Marketing\n\n• Mantle has collaborated with various marketing agencies, marketing partners, and research entities to enhance its visibility across the broader crypto community. Reputable media and research institutions including Bankless, Unchained Podcast, Delphi Digital, Messari, etc., and influential thought-leaders have covered Mantle.\n\n• Mantle has amassed more than 700,000 followers on Twitter, and the community on Telegram and Discord remains active with more than 300,000 members participating in discussions, AMA sessions, and project updates. More than 120 AMAs have been conducted across official social media channels and ecosystem channels, featuring thought leaders and project team members. This includes series like Mantle Ecowaves, Mantle Showcase Radio, Ecosystem-Community Deep Dives, and DeFi Uncovered, which have been instrumental in driving user engagement and adoption. Mantle continues to be involved in global events, with more than 50 and counting.\n\n• The actual marketing spend in the first budget cycle in dollar terms is within budget, while some payments were settled in $MNT.\n\n• We’d expect increasing marketing activities in the next budget cycle as Mantle has expanded product lines and established a broader ecosystem. The provisional marketing budget has increased to 12 million $USDx and 20 million $MNT for potential significant activations.\n\n#### Category: Ecosystem and Builder Programs\n\n• Ecosystem and Builder Programs are incentives for applications and users. During the first budget cycle, we allocated a meaningful amount of ecosystem incentives to promising teams and projects, including: IntentX, MetaCene, INIT Capital, Merchant Moe, Catizen, among others.\n\n• Throughout the past 18 months, Mantle has offered extensive support to its ecosystem partners through grants and investments. To date, Mantle Ecosystem has awarded grants to 112 ecosystem projects spanning various verticals. Noteworthy projects include INIT Capital, Merchant Moe, Vertex, Catizen, MetaCene, Chronicle, and Chat3, etc. Additionally, selected projects have also received backing from the Mantle EcoFund, such as MetaCene, Merchant Moe, and Catizen.\n\n• From August 2023 to January 2024, Mantle introduced “Mantle Journey (MJ) Season Alpha”, a five month ecosystem wide campaign with a total commitment of $25 million prize pools. This included six consecutive initiatives aimed at fostering user engagement with Mantle Ecosystem through various on-and off-chain activities, offering MJ rewards for participation. Mantle Journey successfully attracted more than 140k users across diverse channels and geographic regions. More than 50 ecosystem dApps actively participated in the campaign, achieving an average improvement of 50% to 65% in their operational metrics such as Daily Active Wallet (DAW) and transaction volume.\n\n• As for developer activities, Mantle has sponsored and hosted 26 hackathons worldwide, along with numerous tech workshops and online AMA sessions. There were more than 900 hackathon project submissions. \n\n• Mantle has also organized six exclusive Sozu Haus activations (a mini-accelerator and hacker house program by Mantle), alongside major global crypto events to attract top-tier founders and developers. \n\n• Mantle LSP mETH was launched in November 2023 and reached 530k ETH TVL (around $2B in value) in March 2024. “[Double-Dose Drive](https://www.mantle.xyz/blog/announcements/meth-double-dose-drive)” contributed greatly to the rapid growth, and incurred a cost of 3,800 ETH as community subsidy.\n\n• The majority of MNT incentives and all the ETH incentives were distributed to users through dapp campaigns.\n\n• We’d expect increasing ecosystem activities in the next budget cycle. The provisional budget has increased to 12 million $USDx and 120 million $MNT.\n\n#### Category: Infrastructure & Security Services\n\n• Cloud service (including RPC node hosting), security audits and blockchain infrastructure providers (explorers, oracles, third party RPC, indexer, etc.) are major expense categories.\n\n• Security audit and monitoring expenses will likely further increase as products are continuously upgraded, and new product lines and programs are introduced. We have two major upgrades for Mantle Network planned for the rest of 2024, and one major planned development and upgrade of Mantle LSP.\n\n• The provisional budget is 8 million $USDx and 10 million $MNT in the second budget cycle.\n\n#### Category: Protocol Expense\n\n• Protocol Expense was mainly the gas fee for Mantle Network to roll up on Ethereum. Thanks to Mantle DA, an alternative data availability solution powered by EigenDA technology, gas expense was significantly lower than originally expected. 3,765 ETH was spent in the first budget cycle.\n\n• Gas costs related to protocols (e.g., L1 commitment gas costs, LSP node gas transactions, and adhoc deployment expenses) will not be part of the budget limits in the second budget cycle as these costs are unavoidable. The protocol expense will still be tracked on Treasury Monitor ongoing.\n\nRead the full proposal [here](https://forum.mantle.xyz/t/voting-mip-31-mantle-core-budget-for-second-budget-cycle/).",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xB07DA0DFaBAe4C6F55e436BcD43e79c4DcE6B916",
+      "totalVotes": 840,
+      "blockNumber": 20681608,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x3bd69ebec93f61fff8be513610cf895cda9cfb0d1e0b3e56762300fac80fa734",
+      "startTime": {
+        "timestamp": 1725505892
+      },
+      "endTime": {
+        "timestamp": 1726110692
+      },
+      "startTimestamp": 1725505892,
+      "endTimestamp": 1726110692,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 205196590.0,
+          "choice": 0
+        },
+        {
+          "total": 1937.6301,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 240216911.3657716,
+          "choice": 0
+        },
+        {
+          "total": 1937.6301064281456,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1725506131080,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4ZGYyNTY0MWM3ZWZmOTI2YjczYWU5YjczMjM2YzhmNDg3ZWIwNGMyNDdlODI5NjYxNjI1ZDhmZjg1NTg2NGM0ZQ==",
+      "id": "0xdf25641c7eff926b73ae9b73236c8f487eb04c247e829661625d8ff855864c4e",
+      "title": "MIP-30: Exploring the next Phase of mETH",
+      "content": "# Background\n\nMantleLSP's public launch was on November 27th, 2023. The project has achieved over 500k staked ETH, mETH top-4 ranking for LSTs (see [DefiLlama Analytics](https://defillama.com/protocols/liquid%20staking/Ethereum)), and mETH wide adoption as the primary liquid-staked-ETH asset on Mantle L2.\n\nFor the next phase of development, we have received feedback from community members and stakeholders, and reviewed the successful launches of new ETH liquid staking and restaking protocols. The recommendation is for MantleLSP to expand via: 1) a separate governance token and points program; and 2) a user-opt-in product extension which captures the risk-reward of restaking strategies.\n\nThe proposal below seeks high-level authorizations for the above, while affording the relevant execution teams flexibility for product development, partnerships, and incentive programs.\n\n# Proposal\n\nBy voting \"yes\" you endorse the following:\n\n1) A **spinout** of MantleLSP (codename: '**NewProject**'), including: a new governance token (codename: '**ProjectGovToken**'), a product extension for restaking strategies and a corresponding liquid restaked token (codename: '**cMETH**'), and a go-to-market plan involving a pre-token points program and token incentive program.\n\n2. The establishment of NewProject **Tokenomics** within the following parameters:\n\nA) A minimum of 30% of the ProjectGovToken total supply shall be allocated to the **Mantle Treasury**. Usage of such tokens for various purposes shall be authorized by Mantle Governance and subject to existing authorizations such as inflight Mantle Economics Committee proposals, and Mantle Budget proposals.\n\nB) A maximum of 10% of the ProjectGovToken total supply shall be allocated to the NewProject **Core Contributor Team**, with a minimum of 1 year cliff and 3 year linear vesting as calculated from the TGE date. Note that there is likely a transition period or cross over between the current and incoming core contributors, and this token allocation shall cover all such core contributors including retroactive efforts.\n\nC) A maximum of 10% of the ProjectGovToken total supply shall be allocated to **Private Sales**.\n\nD) The remaining ~50% of the ProjectGovToken supply shall be allocated to the **NewProject Treasury (Ecosystem)** for the purposes of product adoption. Indicative usage of such tokens includes: mETH early adopters, MNT holders, development partners, distribution partners, and application partners. Such distributions may be executed through various campaigns including pre-token points programs, and are likely to prioritize mETH and cMETH holders on Mantle L2.\n\n3. A phased NewProject **Governance and Administrative** transition:\n\nInitially, the existing Mantle Core Contributor team and Committees shall be authorized to govern and administer the NewProject development and product operations. For clarity, these bodies shall be free to execute on the above items 2A-D within the stated limitations.\n\nNext, there shall be a sharing of governance roles and responsibilities with the NewProject Core Contributor team.\n\nFinally, the NewProject shall be governed via ProjectGovToken and a selected framework (DAO). Note that by virtue of the Mantle Treasury holdings of ProjectGovToken, Mantle Governance shall retain significant influence over decisions either directly or via delegates to the Project Governance.\n\n4. A phased NewProject **Finance and Budgetary** transition:\n\nInitially, the NewProject development shall be financed by the Mantle Treasury via the existing Mantle Core budget authorization (BIP-19).\n\nNext, the NewProject shall maintain its own Treasury(s), with revenue from various mETH and cMETH protocol fees, and expenses for R&D, operations, and growth. Note, depending on the option and scale of private sales, the Mantle Treasury may additionally provide seed financing to the Project Treasury up to a limit of $5M.\n\n# Details\n\n*Disclaimer: the following is not part of the official proposal. It aims to provide initial perspectives on various topics. Changes are to be expected.*\n\n## Product Extension\n\nA product extension shall enable the restaking of mETH into whitelisted strategies such as EigenLayer restaking. This will be a **liquid** restaking protocol, with a receipt token **cMETH** which can be further used on L2 Applications.\n\nExisting mETH holders will be unaffected. mETH holders who wish to participate in the risk-reward of restaking strategies will be required to opt-in by subscribing or swapping their mETH into cMETH.\n\nmETH will remain non-custodial, with Ethereum-PoS-validation services provided by the existing Tier 1 Node Operators (P2P, Blockdaemon, A41, StakeFish), and security infrastructure provided by Mantle Guardian nodes and the Mantle Security Council.\n\ncMETH is likely to be architected as a smart contract **Strategy Manager**. A high criticality role (likely Security Council, DAO controller, or specialized Committee) will manage the whitelisting of Strategies (e.g. mETH restaking on Eigenlayer) and limits. An optimization node (the Allocator) will allocate the mETH between whitelisted strategies, optimizing between risk, return, and redemption UX. Guardian nodes will be in place to provide real time protection via pauser permissions.\n\n\nA simplified diagram of the core mechanics is as follows:\n![[cMeth] Diagram 1.png](ipfs://bafkreiaeyiyjgdsabv7kaymxuy3ndkxr4mcgkmqd7q6u6jmhw7mgkjqvke)\n\n*Note: the above diagram shows the primary channels for the subscription and redemption of meth:cmeth. We anticipate most participants will use secondary channels (e.g. swap facilities) to convert their ETH / mETH to cMETH on L2.*\n\n## Go-to-Market, User Programs\n\nThe following programs will likely be implemented:\n\n* Points campaign(s) for mETH and cMETH holders, prioritizing L2 holdings and application deployments, with retroactive indexing.\n\n* Points campaign(s) for MNT lockers via the [Mantle Rewards Station](https://www.mantle.xyz/rewards-station).\n\n* Future convertibility of points to ProjectGovTokens.\n\n## Partnerships\n\nWe are open to exploring partnerships for the following:\n\nDevelopment\n\n* Smart Contracts (strategy manager or vault type) which have been battletested for LST restaking strategies.\n\n* Omnichain bridging protocols for cMETH and ProjectGovTokens.\n\nOperations\n\n* Risk management services for strategy whitelisting and limits parametization.\n\n* Quantitative services for optimizing the Allocator node algorithms.\n\n* Guardian Node(s) for real time risk detection and pausing services.\n\nDistribution\n\n* mETH restaking strategies.\n\n* L2 applications that can attract high mETH/cMETH TVL.\n\n* Protocols, or chains, which adopt mETH / cMETH as a prioritized yield-bearing-ETH asset.\n* Future convertibility of points to ProjectGovTokens.\n\n## Partnerships\n\nWe are open to exploring partnerships for the following:\n\nDevelopment\n\n* Smart Contracts (strategy manager or vault type) which have been battletested for LST restaking strategies.\n\n* Omnichain bridging protocols for cMETH and ProjectGovTokens.\n\nOperations\n\n* Risk management services for strategy whitelisting and limits parametization.\n\n* Quantitative services for optimizing the Allocator node algorithms.\n\n* Guardian Node(s) for real time risk detection and pausing services.\n\nDistribution\n\n* mETH restaking strategies.\n\n* L2 applications that can attract high mETH/cMETH TVL.\n\n* Protocols, or chains, which adopt mETH / cMETH as a prioritized yield-bearing-ETH asset.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 2698,
+      "blockNumber": 19915417,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0xdf25641c7eff926b73ae9b73236c8f487eb04c247e829661625d8ff855864c4e",
+      "startTime": {
+        "timestamp": 1716259996
+      },
+      "endTime": {
+        "timestamp": 1716864796
+      },
+      "startTimestamp": 1716259996,
+      "endTimestamp": 1716864796,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 198277890.0,
+          "choice": 0
+        },
+        {
+          "total": 2771.468,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 198278442.48663116,
+          "choice": 0
+        },
+        {
+          "total": 2771.4675629996705,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716260507512,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4MTg5ODU3ZjBkZjliMzRlODJiMGU2ODJiYWMwOWQzODljMDJmN2FjMjM2YWY0Njk5MGQ0MzkxMDc0MDZlNDFmNw==",
+      "id": "0x189857f0df9b34e82b0e682bac09d389c02f7ac236af46990d439107406e41f7",
+      "title": "MIP-29: [EF Proposal] Second Capital Call and Updates",
+      "content": "This proposal is co-authored by Mirana Ventures and the Mantle Core Contributor Team.\n\n# Background\n\nThis proposal presents an update on [MIP-24: Mantle EcoFund ](https://snapshot.org/#/bitdao.eth/proposal/0x395e58727038c5a855977248a1dd6e07356674c11f0293eb4b0f68de4e73792f), which authorized the establishment of a US$100 million Mantle EcoFund capitalised by the Mantle Treasury. This update will provide an overview of Mantle EcoFund’s investments from the first capital call of US$10 million, changes to existing governance processes, and expansion of the investment mandate of Mantle EcoFund.\n\n# Proposal\n\nBy voting “Yes”, you endorse the following terms with reference to details below:\n\n* Authorize the second capital call of US$30 million (in USDC) from Mantle Treasury.\n* Authorize the updated governance processes and expanded investment mandate of Mantle EcoFund.\n\n## Updates on Mantle EcoFund’s Investments\n\nFrom 1st September 2023 to 15th January 2024, the Mantle EcoFund team reviewed **252** projects for potential investments. Amongst these, **58 (23%)** projects were selected for deeper due diligence across multiple areas, such as the founders’ experiences, product and roadmap, traction, financials, tokenomics, and their strategic value towards Mantle Network. With a high degree of selectivity, only **10 (3.9%)** projects were eventually selected for investment, and the projects are:–\n \n![image](ipfs://bafybeih7uuo4um4fwdiv3ve25algegnezjwiudpj57kkm3rsy3lmb7yuny)\n     \nThese projects have each generated substantial growth and traction for Mantle Ecosystem. For instance, Merchant Moe recorded 4,700 active users on launch day, and attracted US$25 million TVL within the first week. Another EcoFund portfolio company, INIT Capital, attracted an impressive $49 million TVL in the first two weeks of their launch.\n\n### Catalyzing external capital and resources into Mantle Ecosystem\n\nCrucially, the impact of the EcoFund was amplified by bringing external capital into the ecosystem. **In total, the above **10 portfolio companies raised more than US $30 million on top of the Ecofund’s investments, translating to more than 3x of the EcoFund’s initial US$10 million capital call.** This outcome is a positive demonstration of the EcoFund’s efficacy in attracting and incentivizing reputable investors to invest in and support Mantle Ecosystem.\n\nIn particular, the above projects saw strong participation from the EcoFund’s Strategic Ventures Parnters (SVPs), who share a commitment towards supporting top-tier founders within Mantle Ecosystem. For example, **SevenX, Bankless Ventures, Figment Capital, IOSG Ventures, Dragonfly Capital and Selini Capital** co-invested in the above companies. Other reputable VCs such as **Electric Capital, Robot Ventures, Nomad Capital, Tangent and Maven11** also participated in these funding rounds.\n\nThese investors not only provide independent validation of the EcoFund’s due diligence processes, but also offer invaluable post-investment support. They bring in-depth knowledge of the industry, product experience, and their extensive networks to fuel the continued growth of the EcoFund’s portfolio companies.\n\n## Updates to Mantle EcoFund’s Governance Processes and Strategies\n\nMarket dynamics have shifted significantly since the inception of Mantle EcoFund. In order to continue attracting quality projects/founders to build on Mantle, adjustments need to be made for greater operational efficiency and competitiveness. The following amendments are proposed such that the EcoFund can continue to achieve its objectives.\n\n### Changes to Investment Committee (IC) membership and approval framework\n\n* The Members of the full Investment Committee will be updated to the following:\n  * 3x Representatives from Mantle Core Contributor team, Mantle Economics Committee, and advisors\n  * 1x Major $MNT holder\n  * 1x Representative from Mantle EcoFund operator (Mirana Ventures)\n* The IC Approval Framework will be updated to the following:\n  * Each IC member must vote [Yes, Abstain, No] on each deal, and votes of each member will not be revealed publicly\n  * For investments ≤ US$500,000, it requires at least 2 “Yes” votes by the IC\n  * For investments > US$500,000, it requires a simple majority of “Yes” votes by the IC\n\n### Changes to Capital Call requirements\n\n* Subsequent Capital Call for the Mantle EcoFund is subjected to the performance review and approval by all members of the Investment Committee.\n* A quarterly report for the EcoFund will be shared with the Mantle Community.\n\n### Expansion of Investment Mandate\n\n* The EcoFund has always been the “first money” for high-quality and innovative early-stage projects building on Mantle. This also includes offering liquidity support and/or follow-on investment to portfolio companies that have demonstrated significant traction and adoption.\n* Moving forward, it is proposed that the Mantle EcoFund shall have an expanded investment mandate to invest into Accelerators, Incubators, Venture Studios and Funds selectively. These investments are subject to the same updated IC approval framework as described above, and capped at the maximum of 20% of the total US$100 million fund size.\n* The rationale for this expansion is that strategic investments into Accelerators, Incubators and Venture Studios (platforms that build, finance, and accelerate the growth of startups) would provide Mantle Ecosystem with a steady flow of projects that are native and exclusive to Mantle. Similarly, investments into Venture Funds would create opportunities for deeper strategic partnerships, leading to an expanded pipeline of deals, and greater involvement of Strategic Venture Partners (SVPs) in supporting founders that build on Mantle.\n\n# Conclusion\n\nWith the successful deployment of $10M from the first capital call, this proposal seeks approval for the second capital call of 30 million USDC in accordance with MIP-24, to update the governance processes, and expand the investment mandate of the Mantle EcoFund.\n\n**Additional Resources:**\n\n* [[Benzinga] Mantle EcoFund’s $200M Fund To Propel Web3 Innovation ](https://www.benzinga.com/markets/cryptocurrency/23/09/34610179/mantle-ecofunds-200m-fund-to-propel-web3-innovation&sa=D&source=editors&ust=1707202896527973&usg=AOvVaw3y6yByQxuVbV0uI0pmdCyO)\n* [[Blockster] Mantle EcoFund Initiates $200M Capital Pool Deployment and $150M dApp Liquidity Support](https://blockster.com/mantle-ecofund-initiates-200m-capital-pool-deployment-and-150m-dapp-liquidity-support)\n* [[CNYes] Mantle EcoFund公布獲得其基金支持的三個項目](https://news.cnyes.com/news/id/5326116)\n* [[Blockbeats] Mantle EcoFund has announced three projects that received support from its fund.](https://www.theblockbeats.info/en/flash/176793)\n* [[Yahoo! Finance] Mantle EcoFund Announces $10M Deployment Into Six DeFi Projects ](https://ca.finance.yahoo.com/news/protocol-village-coti-allocates-25m-150000996.html)\n* [[TradingView CN] Mantle生态投资基金Mantle EcoFund已部署1000万美元，投资了六个DeFi项目](https://cn.tradingview.com/news/panews:a4d3fa10fe3f9:0/)\n* [[Crypto News] Mantle EcoFund Hits $10M Milestone in DeFi Investments, Eyes Additional $30M](https://cryptonews.net/news/defi/28417400/)\n* [[TechNode Global] Mantle EcoFund Completes $10M in Investments With Fresh Funding For DeFi Projects: Merchant Moe, Init Capital, Butter, Renzo, Mufex, TsunamiX ](https://technode.global/2024/01/18/mantle-ecofund-completes-10m-in-investments-with-fresh-funding-for-defi-projects-merchant-moe-init-capital-butter-renzo-mufex-and-tsunamix/)\n\n**Note:**\n\n*When the proposal is passed by the Mantle community through a “Yes” vote, the project team(s) are authorized to take all necessary actions to accomplish what is contemplated in the proposal, including without limitation, forming one or more legal entities and executing necessary legal documents. All legal and operational structures and documents shall substantially reflect the terms and conditions that are set forth in the proposal. Any material deviation from or inconsistency with such terms and conditions, except where such deviation or inconsistency is more favorable to the Mantle community, shall make the legal structure and documents voidable by the community. For the avoidance of doubt, terms that provide more governance rights, investor rights, deploy less investment amount for substantially the same stake or interest, or otherwise provide more economic benefits for Mantle shall be deemed as “more favorable terms”.*",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xf87095925339f7fFdde266258f62947567de6aEb",
+      "totalVotes": 2937,
+      "blockNumber": 19310984,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x189857f0df9b34e82b0e682bac09d389c02f7ac236af46990d439107406e41f7",
+      "startTime": {
+        "timestamp": 1708941427
+      },
+      "endTime": {
+        "timestamp": 1709546227
+      },
+      "startTimestamp": 1708941427,
+      "endTimestamp": 1709546227,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 212794320.0,
+          "choice": 0
+        },
+        {
+          "total": 1743.5289,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 212795527.31767753,
+          "choice": 0
+        },
+        {
+          "total": 1776.0891048596673,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708941448885,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4MWYyM2U5OTJiNTEyM2QwOTQ4ZTQ4NjgxZGEwOGNiNTExZTNkYzY0MDViYWYwZDMwMTE5OGVjY2U0YzFlMWQ1YQ==",
+      "id": "0x1f23e992b5123d0948e48681da08cb511e3dc6405baf0d301198ecce4c1e1d5a",
+      "title": "MIP-28: [EC Proposal] Expanded Strategies and Liquidity Programs",
+      "content": "This proposal is authored by the Mantle Economics Committee ([MIP-25](https://snapshot.org/#/bitdao.eth/proposal/0xa34107e34b4dc4ff4cd16b77d66e62a51f4d35457a4f4b1f68ab8ac821f58561)).\n\n# Background\n\nThe Mantle Economics Committee recommends a set of amended Strategies and Allowances for the following reasons:\n\n* In response to community feedback for more active deployment of Mantle Treasury resources to support ecosystem growth through partnerships and liquidity support for applications.\n\n* To support the incoming cohort of Mantle Network applications including lending primitives, novel DEXs, vaults, and other trading applications.\n\n* To expand beyond the initial subscriptions and deployments under MIP-25 and MIP-26 - such as Ondo USDY, Lido wstETH, and Mantle LSP - which are soon approaching their allocation limits.\n\n* To generate returns for the Mantle Treasury to finance product development, growth, and tokenomic activities (see [summary of development resources](https://treasurymonitor.mantle.xyz/mantle-treasury), and [summary of development spending](https://treasurymonitor.mantle.xyz/mantle-core-budget)).\n\nNote: The Economics Committee shall continue to serve as a decision-making and risk assessment body only. Consistent with prior frameworks, the principal assets, returns, farmed incentives, and negotiated incentives shall belong to the Mantle Treasury.\n\n# Proposal\n\nBy voting “Yes”, and interpreted under the [MIP-25](https://snapshot.org/#/bitdao.eth/proposal/0xa34107e34b4dc4ff4cd16b77d66e62a51f4d35457a4f4b1f68ab8ac821f58561) and [MIP-26](https://snapshot.org/#/bitdao.eth/proposal/0x26884fce58b66e82fa74735a2e255f76654618278432897f4ca2430702e95dcd) \"strategies and allowances\" framework, you endorse the following terms:\n\nThe combined strategy of MIP-26 \"Liquidity Support for Applications\" and \"Liquidity Support for Third Party Bridges\" shall be amended to the following:\n\n\n**1\\ Strategy: Liquidity Support for Applications**\n\n  a. Combined allowance: 300M USDx, 250k ETH, 2,000 BTC, and 400M MNT.\n\nComment: The conditions and restrictions applicable to individual projects under \"EcoFund v Other\" categories shall be removed. Liquidity support for each application will be evaluated based on individual factors, irrespective of EcoFund investment status. Factors include internal and external audits, risk assessments, product maturity, and synergies with other applications (positioning within the DeFi stack, composability, usage). These factors make it challenging to specify allocation limits per application type. Liquidity deployments can be tracked by the community via publicized wallet sets, liquidity deployments will be scaled up gradually, and we will respond to community concerns.\n\n\n**2\\ Strategy: Seed Liquidity For** **RWA-Yield-Backed** **Stablecoins**\n\nAmendments:\n\na. Amend the strategy name to \"Strategy: Subscription to Yield-Bearing Assets\".\n\nb. Set the combined allowance to: 250M USDx.\n\n\n**3\\ (new) Strategy: Asset Rebalancing**\n\n a. Authorized rebalancing between BTC, ETH, USDC, USDT, and MNT assets.\n\nComment: There are requests to support wBTC liquidity for AMM, lending, and margin trading applications. There are requests to concentrate liquidity with either USDC or USDT pairs instead of fragmenting between two pools for better user experience for depth and trade execution.\n\n\n**4\\ (new) Strategy: Subscription to** **Market Neutral** **Liquid Funds**\n\n  a. Combined allowance of: $100M equivalent.\n\n  b. Mandatory criteria: a maximum of 15 day redemption notice, and daily NAV position tracking or live dashboards available to the Economics Committee.\n\n  c. Preference criteria: funds that maintain assets on on-chain trackable addresses, and exhibit high Sharpe ratios with liquid farming and high-frequency trading strategies.\n\nComment: This newly introduced strategy aims to diversify the approach to generating returns for the Mantle Treasury to finance continued ecosystem growth and other tokenomic activities. While the current strategies, such as ~5% through Treasuries backed RWA subscriptions and ~4% through ETH Staking Strategies, offer stable returns, this strategy seeks to explore opportunities with more optimized risk-return outcomes.\n\n\n# Notes - MEC Updates\n\n## Status of ETH-Staking\n\n**Lido** **stETH:** In August 2023 , Mantle Treasury subscribed to 40k ETH equivalent of Lido wstETH. These assets are currently held in [Mantle Treasury L1](https://etherscan.io/address/0x78605df79524164911c144801f41e9811b7db73d). The Mantle Core Contributor team is working with Lido for an official wstETH on Mantle L2, after which we can deploy these wstETH assets to bootstrap liquidity for applications.\n\n**Mantle LSP mETH:** In October 2023, the smart contracts and offchain systems have completed audits and been deployed on Ethereum Mainnet. The protocol is currently in Permissioned Closed Alpha. Permissionless access is expected to be available within the next few weeks. Stay tuned for updates.\n\n## Status of RWA\n\n**Ondo USDY and mUSD:** In September 2023, Mantle Treasury subscribed to $30M of Ondo USDY, and received the tokens in the [Mantle Treasury L2](https://explorer.mantle.xyz/address/0x94FEC56BBEcEaCC71c9e61623ACE9F8e1B1cf473). USDY has since been paired to create USDY-USDC AMM pools on various L2 DEXs such as [FusionX](https://fusionx.finance/swap?inputCurrency=0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9&outputCurrency=0x5bE26527e817998A7206475496fDE1E68957c5A6) and [Agni](https://agni.finance/swap?outputCurrency=0x5bE26527e817998A7206475496fDE1E68957c5A6&inputCurrency=0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9). A rebasing version, mUSD, will be available soon ([blog post](https://www.mantle.xyz/blog/announcements/rwa-backed-usdy-live-on-mantle-musd-to-follow), [Ondo docs](https://docs.ondo.finance/developer-guides/mantle-integration-guidelines#musd)).\n\n**Ethena USDe:** We are currently negotiating with [Ethena](https://www.ethena.fi/) to subscribe to the Guarded Mainnet Prelaunch program for USDe, the inclusion of mETH into their collateral basket, and the adoption of USDe on Mantle L2. Stay tuned for updates.\n\n## Status of Deployment Tracking\n\nThe status of MIP-25 and MIP-26 treasury deployments can be monitored using the following wallet sets: [Treasury Core Holdings](https://docs.mantle.xyz/governance/parameters/treasury#treasury-holdings-core), and [EC Service Provider](https://docs.mantle.xyz/governance/parameters/treasury#treasury-holdings-ecsp).\n\nCollaborative efforts with the Mantle Core Contributor team and third-party analytics providers are underway to establish real-time and published \"bundles\", enhancing transparency for the community.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 12004,
+      "blockNumber": 18653528,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x1f23e992b5123d0948e48681da08cb511e3dc6405baf0d301198ecce4c1e1d5a",
+      "startTime": {
+        "timestamp": 1700973731
+      },
+      "endTime": {
+        "timestamp": 1701578531
+      },
+      "startTimestamp": 1700973731,
+      "endTimestamp": 1701578531,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 126704410.0,
+          "choice": 0
+        },
+        {
+          "total": 5856.99,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 136711634.88867763,
+          "choice": 0
+        },
+        {
+          "total": 5856.991921801976,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1700974065178,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4MDA2MjVjNGYyZDlhYTlkNGVmYjQxZWYzZDA5NDIxOTRjYTIwODdmYWUwNTk5ZGVjZWQ4YjhlZDg2MzcyYzZjMg==",
+      "id": "0x00625c4f2d9aa9d4efb41ef3d0942194ca2087fae0599deced8b8ed86372c6c2",
+      "title": "MIP-27: Clarification of $BIT to $MNT migration policy and service",
+      "content": "# Background\n\nThe recent [forum topic](https://forum.mantle.xyz/t/discussion-clarification-of-bit-to-mnt-migration-policy-and-service/7877) regarding the migratability of the $BIT tokens held by FTX Group has received a lot of discussions among Mantle community members. According to the [previous proposal MIP-22](https://snapshot.org/#/bitdao.eth/proposal/0x950dac4d5715b8aa8eab29c484b1c9dd0eed161141262b0425874f65be4d9f8e), \"potentially controversial decisions will be subject to discussion and consultation with the community through official channels\". This issue has a history of controversy, highlighted by several community members and external observers, and is sufficiently controversial to warrant a Mantle Governance decision on the topic. Therefore, the following proposal has been drafted for the community to vote on the issue.\n\n# Proposal\n\nBy Voting “Yes”, you endorse the following terms:\n\n1. Pause the current on-chain migration smart contract.\n\n2. Authorize the implementation a new migration smart contract or migration service that can restrict the automatic migratability of FTX Group’s $BIT tokens, pending the resolution of related issues. This includes the ability to approve migration requests on a discretionary basis.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 7636,
+      "blockNumber": 18068252,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x00625c4f2d9aa9d4efb41ef3d0942194ca2087fae0599deced8b8ed86372c6c2",
+      "startTime": {
+        "timestamp": 1693892492
+      },
+      "endTime": {
+        "timestamp": 1694497292
+      },
+      "startTimestamp": 1693892492,
+      "endTimestamp": 1694497292,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 174684300.0,
+          "choice": 0
+        },
+        {
+          "total": 4202.8916,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 174685026.13036153,
+          "choice": 0
+        },
+        {
+          "total": 4236.779548271942,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1693892913935,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4MjY4ODRmY2U1OGI2NmU4MmZhNzQ3MzVhMmUyNTVmNzY2NTQ2MTgyNzg0MzI4OTdmNGNhMjQzMDcwMmU5NWRjZA==",
+      "id": "0x26884fce58b66e82fa74735a2e255f76654618278432897f4ca2430702e95dcd",
+      "title": "MIP-26: [EC Proposal] Treasury Assets in Support of Applications",
+      "content": "This proposal is authored by the Mantle Economics Committee ([MIP-25](https://snapshot.org/#/bitdao.eth/proposal/0xa34107e34b4dc4ff4cd16b77d66e62a51f4d35457a4f4b1f68ab8ac821f58561)).\n\n# Background\n\nWe have taken into account feedback regarding the use of Mantle Treasury assets to support applications on Mantle Network. Many applications benefit from a foundational amount of liquidity to function and provide a better experience for Mantle users.\n\nWhile retaining assets in Mantle Treasury is the most secure option, deploying a portion of these assets to support applications may lead to higher levels of success for the overall Mantle Ecosystem. The following proposal outlines an initial strategy for executing this deployment with a focus on risk management.\n\n# Proposal\n\nBy voting “Yes”, you endorse the following terms:\n\n1. In accordance with the [MIP-25 framework](https://snapshot.org/#/bitdao.eth/proposal/0xa34107e34b4dc4ff4cd16b77d66e62a51f4d35457a4f4b1f68ab8ac821f58561), authorize the following **new strategies** and allowances:\n\n* **Liquidity Support for Applications** - up to a combined allowance of 60M USDx, 30k ETH, and 120M MNT\n\n  * [Ecofund](https://snapshot.org/#/bitdao.eth/proposal/0x395e58727038c5a855977248a1dd6e07356674c11f0293eb4b0f68de4e73792f) invested applications shall have an individual allowance up to - 10M USDx, 5000 ETH, and 20M MNT\n\n  * Other applications shall have an individual allowance up to - 1M USDx, 1000 ETH, and 2M MNT\n\n* **Seed Liquidity for RWA-yield Backed Stablecoins** - up to a combined allowance of 60M USDx\n\n* **Liquidity Support for Thirdparty Bridges** - up to a combined allowance of 10M USDx, and 5k ETH\n\nNote:\n\n* \"USDx\", \"ETH\", and \"MNT\" above refer to various standard, wrapped, and reward-bearing versions of their respective types.\n\n* The above allocations could overlap. For example, the same 60M USDx used to create RWA-backed versions could then be provided as liquidity support for applications.\n\n* The above allocations are the max allowances only. It will likely take some time to ramp up to those limits.\n\n2. Authorize the Economics Committee to engage **Service Providers**, top on-chain systematic trading firms, to support the deployment of the above strategies. This includes discussions with various parties and, if necessary, negotiation of partnership terms or other commercial agreement regarding liquidity deployment. The Economics Committee is a decision-making body only and shall not directly handle treasury assets.\n\n\n# Details\n\n## Rationale\n\nApplications:\n\n* Liquidity is crucial for the proper functioning of many applications, enhancing the user experience in terms of trade execution.\n\n* Some applications have requested greater liquidity support before deployment on Mantle.\n\nRWA:\n\n* Our aim is to source sustainable reward generators from ETH-staking and RWA-backed constituents that Mantle users can participate in, and that applications on Mantle can utilize in their products. ETH-staking is managed by the [Mantle LSD](https://forum.mantle.xyz/t/discussion-mantle-lsd/7085) project, along with the recent partnership with Lido (see [MIP-25](https://snapshot.org/#/bitdao.eth/proposal/0xa34107e34b4dc4ff4cd16b77d66e62a51f4d35457a4f4b1f68ab8ac821f58561)).\n\n* Regarding RWA-backed assets, the Mantle core contributor team is in discussions with various issuers. The above serves as a pre-authorization to execute on the partnership and seed liquidity. This seed liquidity will result in a receipt token which will be first held in Mantle Treasury, and subsequently used to support liquidity for applications on Mantle Network. The receipt token may also be redeemed by Mantle Treasury.\n\nThird Party Bridges:\n\n* https://bridge.mantle.xyz/ provides the canonical bridging solution to Mantle Network, and should be used for larger transactions. However, it has certain UX limitations:\n\n  * It only bridges between Ethereum and Mantle Network.\n\n  * L1 to L2 bridging takes at least 64 Ethereum Blocks (~10 minutes) and a moderate amount of ETH L1 gas fees.\n\n  * L2 to L1 requires the challenge period (~7 days) and a moderate amount of ETH L1 gas fees for claiming.\n* To enable faster, cheaper and omnichain bridging options for users, Mantle has onboarded several centralized exchanges and permissionless bridges.\n\n* Some permissionless bridges work via a pool-based model and require a baseline level of TVL on each chain. They have also requested support for Mantle-pool TVL before integration. We are requesting authorization to deploy liquidity support solely on Mantle Network.\n\n## Criteria for Service Providers\n\nRisk Management and Execution Systems:\n\n* The service provider must rank within the global top 20 players in on-chain systematic trading.\n\n* The service provider shall utilize enterprise-grade systematic trading, risk management, and key management systems.\n\n* The service provider shall possess internal due diligence and risk assessment capabilities for applications and smart contracts.\n\nReporting Requirements:\n\n* The service provider shall provide a real-time dashboard of their positions, either a custom dashboard or through existing analytics platforms such as [https://debank.com/.](https://debank.com/)\n\n* On-chain wallet addresses shall be revealed to the community for independent tracking and transparency purposes.\n\n* All assets shall be held onchain for verifiability.\n\nPrincipal Protection and Guarantees:\n\n* Assets shall be lent to the Service Provider. Each asset type (USDx, ETH, MNT) will be accounted for individually for profit-and-loss calculation.\n\n* The Service Provider shall provide principal protection guarantees.\n\n  * Special exemptions may apply for impermanent losses arising from major pools, such as USDx-ETH.\n\n  * Special exemptions may apply for the first X% of losses of each principal asset.\n\n  * Special exemptions may apply for gas fees.\n* The Service Provider (and/or guarantor) shall be a registered corporation with sufficient net assets to cover the guarantee.\n\n## Deployment Strategy\n\nGeneral Priorities:\n\n* The objective is to support liquidity for the proper functioning of applications while maintaining principal protection. As such, the general priorities shall be:\n\n  * Applications types: primitive applications such as DEXs and money markets.\n\n  * Pool types: pure staking pools, single sided pools, USDx-ETH type pools, and lending pools backed by ETH and WBTC collateral.\n\n## Risk Control\n\nRisk Management:\n\n* In addition to the high-level strategies and allowances permitted by Mantle Governance above, the Economics Committee shall provide the Service Provider with a list of approved strategies and allowances for individual applications and pools.\n\n* The Economics Committee may request derisking of any application or pool at any time, and the Service Provider shall comply within 12 hours.\n\n* The Service Provider shall perform their own risk assessment and make decisions on deploying to specific applications and pools. As the Service Provider may be liable for principal losses, they will have final decision-making for any deployment. The Economics Committee cannot compel them to enter any position.\n\nRecall:\n\n* The Economics Committee may recall principal assets from the Service Provider at any time. The Service Provider shall return the assets to the relevant Mantle Treasury within 3 days.\n\n## Fees and Incentives\n\nReturns:\n\n* Any net returns from asset deployment (such as farming rewards) shall belong to Mantle Treasury.\n\n* Any side-negotiated deals with applications shall belong to Mantle Treasury.\n\nFees and Incentives:\n\n* The Service Provider shall be compensated in a manner to be negotiated with the Mantle core team under the [BIP-19 budget authorization](https://snapshot.org/#/bitdao.eth/proposal/0x5e82c6ef374db3e472717d3e79b05f246f9a29de3435adb457ae34afa192b5be) (or subsequent budget proposal updates). This may entail specific performance requirements and vesting rules.\n\n* Profit-sharing arrangements with the Service Provider may apply.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 8233,
+      "blockNumber": 18068224,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x26884fce58b66e82fa74735a2e255f76654618278432897f4ca2430702e95dcd",
+      "startTime": {
+        "timestamp": 1693892158
+      },
+      "endTime": {
+        "timestamp": 1694496958
+      },
+      "startTimestamp": 1693892158,
+      "endTimestamp": 1694496958,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 123667416.0,
+          "choice": 0
+        },
+        {
+          "total": 3170.009,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 148676540.39978865,
+          "choice": 0
+        },
+        {
+          "total": 3170.0090839709833,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1693892283090,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4YTM0MTA3ZTM0YjRkYzRmZjRjZDE2Yjc3ZDY2ZTYyYTUxZjRkMzU0NTdhNGY0YjFmNjhhYjhhYzgyMWY1ODU2MQ==",
+      "id": "0xa34107e34b4dc4ff4cd16b77d66e62a51f4d35457a4f4b1f68ab8ac821f58561",
+      "title": "MIP-25: Mantle Economics Committee, and ETH Staking Strategies",
+      "content": "This proposal is authored by [Cateatpeanut](https://twitter.com/CatEatPeanut) and the Mantle core contributor team.\n\n## 1 Background\n\nTreasury management, specifically related to LSD and ETH Staking proposals, has generated significant discussion. While Mantle Governance is responsible for approving the macro strategy, it is recommended to establish an authorized sub-governance body to handle minor details and time-sensitive decisions. Mantle Governance retains the ability to modify or revoke these authorizations based on performance.\n\nWe propose the establishment of a specialized sub-governance body called the Mantle Economics Committee. This committee will operate under the direction of Mantle Governance, within the scope of approved strategies and allowances. Its primary responsibility will be to evaluate and make decisions regarding the allocation of Mantle Treasury assets in a risk-averse and conservative manner. The committee will function solely as a decision-making body and will not hold or custody treasury assets. By structuring it as a special-purpose committee, our aim is to enable efficient and informed decision-making, facilitate commercial negotiations, and maintain strong checks and balances among existing Mantle entities.\n\n## 2 Proposal\n\nBy voting “Yes”, you endorse the following terms:\n\n1. Authorize the establishment of Mantle Economics Committee as a sub-governance body of Mantle Governance, as per the terms below. The committee shall solely focus on decision-making and shall not hold any Mantle Treasury assets.\n\n2. Authorize the [Mantle LSD](https://forum.mantle.xyz/t/discussion-mantle-lsd/7085) and [Lido](https://forum.mantle.xyz/t/discussion-mantle-x-lido-strategic-collaboration/7151) ETH staking strategies, with a combined allowance of up to 200k ETH, and Lido ETH staking strategies up to an individual allowance of 40k ETH. The committee may engage in commercial negotiations and decide on the timing and size of strategy entry and exits.\n\n3. Other LSD projects' ETH staking strategies will be assessed and proposed to Mantle Governance for approval in the future.\n\n## 3 Terms\n\n### 3.1 Responsibilities\n\nThe Economics Committee shall have the following key responsibilities:\n\n1. Periodically review strategies and make recommendations to Mantle Governance to modify the **Approved Strategies and Approved Allowances** lists. Any such modifications require a proposal to Mantle Governance and a subsequent vote.\n\n2. Make decisions on entries into and exits from the Approved Strategies within the Approved Allowances. From the perspective of Mantle Treasury, the Economics Committee shall soley act as a decision-making body and shall not hold or custody any Mantle Treasury assets.\n\n3. Evaluate strategies from the perspectives of Mantle product synergy, technical risks, commercial risks, and economic risks with a strong preference for strategies hosted on top-tier and battle-tested onchain applications.\n\n4. Negotiate commercial terms for strategies, prioritizing principal protection mechanisms (e.g. insurance, bonding, collateral), lower fees, and flexible commitment durations.\n\n5. Take any other actions or decisions for the purpose of any decisions or proposals that have been approved by Mantle Governance, with a focus on risk management and principal protection of Mantle Treasury assets.\n\n### 3.2 Approved Strategies and Allowances\n\nThe Approved Strategies and Allowances are limited to the following:\n\n1. **ETH Staking, LSD**\n\nMax Allowance:\n\n* 200k ETH (combined)\n* 40k ETH for stETH / wstETH specifically (including LP components)\n\nSpecific Positions:\n\n* To be interpreted in the context of the [Mantle LSD forum post](https://forum.mantle.xyz/t/discussion-mantle-lsd/7085) and [Lido forum post](https://forum.mantle.xyz/t/discussion-mantle-x-lido-strategic-collaboration/7151).\n\n* Lido stETH and/or wstETH.\n\n* Mantle LSD mntETH.\n\n* Direct staking with Tier-1 node operators for Mantle LSD (during ramp-up phase).\n\n* Construction of (w)stETH-ETH and mntETH-ETH LP pairs on Ethereum L1 and Mantle L2 DEXes.\n\n### 3.3 Internal Governance\n\nThe Economics Committee shall adopt a highly conservative approach to risk, and must abide by the following rules, which can only be modified through Mantle Governance:\n\n1. The Economics Committee is a sub-governance body of Mantle Governance, and its membership, internal governance rules, and authorized scope of strategies and allowances can be modified by Mantle Governance at any time.\n\n2. Expansion of **Strategies and Allowances** shall require authorization by Mantle Governance.\n\n3. **Strategy entries / deployment increase:** Requires majority approval from committee members, with a minimum of 3 approvals.\n\n4. **Strategy exits / deployment reduction:** Can be triggered by any 2 committee members.\n\nNote: the above rule set is intentionally designed to prioritize a cautious approach for strategy entries while allowing for quicker strategy exits.\n\n### 3.4 Membership\n\nInitial Membership:\n\n1. The initial membership of the Economics Committee shall consist of:\n\n- One member representing Mantle Governance, for policy interpretation and administrative support (Cateatpeanut).\n\n- Two members from the Mantle community and advisors with a background in trading or asset management (Jordi [@gametheorizing](https://twitter.com/gametheorizing) and one member yet to be announced).\n\n- Two representatives from Mantle product Core Contributor teams (Mantle Network or Mantle LSD).\n\nChanges to Membership:\n\n2. Changes to the membership of the Economics Committee shall require either:\n\n- A majority decision by the existing Economics Committee members, with notification on the Mantle forum.\n\n- Direction from Mantle Governance.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 3313,
+      "blockNumber": 17797324,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0xa34107e34b4dc4ff4cd16b77d66e62a51f4d35457a4f4b1f68ab8ac821f58561",
+      "startTime": {
+        "timestamp": 1690617155
+      },
+      "endTime": {
+        "timestamp": 1691221955
+      },
+      "startTimestamp": 1690617155,
+      "endTimestamp": 1691221955,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 184464110.0,
+          "choice": 0
+        },
+        {
+          "total": 1028.5074,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 184460406.03963768,
+          "choice": 0
+        },
+        {
+          "total": 1028.5075486857031,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690617774026,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4Mzk1ZTU4NzI3MDM4YzVhODU1OTc3MjQ4YTFkZDZlMDczNTY2NzRjMTFmMDI5M2ViNGIwZjY4ZGU0ZTczNzkyZg==",
+      "id": "0x395e58727038c5a855977248a1dd6e07356674c11f0293eb4b0f68de4e73792f",
+      "title": "MIP-24: Mantle EcoFund",
+      "content": "This proposal is co-authored by Mirana Ventures and the Mantle Core Contributor Team.\n\n# Background\n\nMantle Network is a high-performance Ethereum layer-2 network built with modular architecture and aligned with Mantle strategic interests via the $MNT token.\n\nEcosystem funds have historically served as an important catalyst of growth for new emerging protocols and ecosystems, in particular, developer and decentralized applications (dApps) adoption of a new protocol.\n\nThis proposal represents an updated version of the previous [Mantle EcoFund Proposal](https://forum.mantle.xyz/t/discussion-mantle-ecofund/4692). It has been enhanced by incorporating valuable feedback from both the Mantle Community and Strategic Venture Partners.\n\n# Proposal\n\nBy voting \"Yes\", you endorse the following terms with reference to details below:\n\n1. Authorize the establishment of the Mantle EcoFund with $100M from Mantle Treasury.\n\n2. Authorize the establishment of the Mantle EcoFund Investment Committee.\n\n3. Authorize the first capital call: 10 million USDC from Mantle Treasury.\n\n*Note: When the proposal is passed by the Mantle community by a \"Yes\" vote, the project team(s) are authorized to take all necessary actions to accomplish what is contemplated in the proposal, including without limitation, forming one or more legal entities and executing necessary legal documents. All legal and operational structures and documents shall substantially reflect the terms and conditions that are set forth in the proposal. Any material deviation from or inconsistency with such terms and conditions, except where such deviation or inconsistency is more favorable to the Mantle community, shall make the legal structure and documents voidable by the community. For the avoidance of doubt, terms that provide more governance rights, investor rights, deploy less investment amount for substantially the same stake or interest, or otherwise provide more economic benefits for Mantle shall be deemed as \"more favorable terms\".*\n\n# Overview\n\nOur proposal aims to catalyse a capital pool of $200 million, to be deployed within the Mantle ecosystem over the next 3 years through the collaborative efforts of the Mantle EcoFund and Strategic Venture Partners. This $200 million capital pool consists of two components:\n\n1. 100 million USDC provided by Mantle from its Treasury and managed by the Mantle EcoFund.\n\n2. As the Mantle EcoFund's investments are matched typically 1:1 with the Strategic Venture Partners, the remaining $100 million will be comprised of the external matching capital from Strategic Venture Partners when they co-invest with the Mantle EcoFund opportunistically.\n\n# Objectives\n\nThe Mantle Ecofund's key objectives are:\n\n* Supporting founders and protocol technology partners building within Mantle Ecosystem\n\n* Driving adoption of Mantle Network among developers and dApps\n\n* Incentivizing reputable Strategic Venture Partners to support and invest in Mantle Ecosystem\n\n* Ensuring sustainability of the Mantle EcoFund through fund performance and returns\n\n# Summary\n \n![image](ipfs://bafybeih4fi4nokf3gvoqgs6k5kcug2bkpkva5lcfp6ngu5fla5vxrkjjsu)\n\n# Details\n\n## Investment Mandate\n\nThe Mantle EcoFund aims to be the \"first money\" into high-quality and innovative early-stage projects building within Mantle Ecosystem, providing support alongside the Strategic Venture Partners.\n\nBeyond initial investments, the Mantle EcoFund has the flexibility to offer liquidity or follow-on investments to portfolio companies that show traction and robust use cases involving $MNT. These decisions are subject to review by the investment committee.\n\n## Investment Committee (IC)\n\nTo ensure adherence to industry best practices and rigour for venture investing, we propose that an independent Investment Committee be set up for the Mantle EcoFund to enhance transparency, accountability, and the overall quality of investments made by the Mantle EcoFund.\n\n*Policies - IC Membership*\n \n![image](ipfs://bafkreifhf3bzl62oxi2h4xjrwswene6wrjushaz24sa5ayij6wab4d6254)\n    \n*Policies - IC Approval Framework*\n \n![image](ipfs://bafybeighjxaketm7t57oduvpw4g7n5ldzwkkvafxdncmgmziu4erkz6egu)\n    \n    \n## Strategic Venture Partners\n\nThe Strategic Venture Partners should be independent, qualified and reputable venture funds and individuals (e.g., founders, subject matter experts, key thought leaders, etc.) that can provide in-depth knowledge of the industry, product experience, strong networks, and have demonstrated commercial success and returns from previous investments. Crucially, these partners should share our belief in supporting aspiring founders within Mantle Ecosystem.\n\nWe believe that a diverse mix of venture funds and individuals as Strategic Venture Partners will create exciting opportunities for future growth in the web3 ecosystem. By supporting innovative products developed by ambitious founders, driven by real market needs and sustainable business models, we can better catalyse growth within the Mantle ecosystem.\n\nVenture funds who have expressed interest in being Strategic Venture Partners include Alumni Ventures Blockchain Fund, Animoca Ventures, Bankless Ventures, Cadenza Ventures, Dragonfly Capital, Figment Capital, Folius Ventures, Ghaf Capital Partners, Hashed, Hashkey Capital, Leadblock Partners, Lemniscap, Pantera Capital, Play Ventures, QCP Capital, Republic Crypto, Selini Capital, SevenX Ventures, Shima Capital, Spartan Group and Whampoa Digital.\n\n*Policies - Strategic Venture Partner Membership*\n \n \n \n![image](ipfs://bafkreibrtrsx64gdqluzi7elfgwhu4g2vvug335lsusvvppjh4bsrbgxjm)\n    \n    \n## Structure, Fees, and Incentives\n\nThe deployment period for the Mantle EcoFund is targeted to be 3 years with an optional 2-year extension. To ensure accountability and monitor progress, the Investment Committee will conduct reviews of performance and key metrics twice a year.\n\nRegarding management fees, we propose adhering to the industry standard of a 2% annual management fee. This fee will be based on the capital called and be used to support the operating requirements of the Mantle EcoFund team, such as sourcing, due diligence, legal, portfolio support, fund admin, etc.\n\n*Incentives - Strategic Venture Partners*\n\nTo foster meaningful capital deployment and strengthen post-investment support within the Mantle ecosystem, we propose a profit-sharing mechanism wherein 20% of the investment returns generated by the Mantle EcoFund are shared with the Strategic Venture Partners. Note that this distribution will only occur after the initial capital contributed by Mantle has been returned, and each Strategic Venture Partner's incentives shall be calculated independently based on their matched investments.\n\nThis incentive structure aims to create greater financial alignment between the Mantle EcoFund and the Strategic Venture Partners, which translates to a stronger joint commitment to support founders and projects building on Mantle. Additionally, the Mantle EcoFund reserves the right to request support from the Strategic Venture Partners in due diligence processes and divestment activities as needed. This collaborative approach ensures a mutually beneficial and collaborative relationship between the Mantle EcoFund and the Strategic Venture Partners.\n\n*Incentives - Mantle EcoFund Operating team*\n\nTo incentivise the Mantle EcoFund Operating team, we propose to implement a 10% carry on returns (reduced from industry norm of 20% to 30%) after the $100 million investment principal has been returned to Mantle.\n\nNote that this carry incentive applies to the total portfolio of the Mantle EcoFund and not the sub-portfolios of each Strategic Venture Partner. For additional clarity, there will be no carry for the Mantle EcoFund Operating team until the entirety of the $100 million investment principal has been returned to Mantle.\n\n*Policies - Fund Structure and Operator Incentives*\n  \n \n \n![image](ipfs://bafybeigjrpmax3tcqulr6ok536g33d5hzmwb4yfnk5asiyya2kfsxt4v3i)\n    \n    \n    \n\n*Simplified Example - Using Two Strategic Venture Partners*\n \n \n![image](ipfs://bafkreigg2hgls7zjyxmxfogagdbup4qrrsd3m2zdnse3lu3lckgpayfwlm)\n    \n    \n## Key Performance Targets\n\n* Developmental target of >40 Projects deployed in Mantle Ecosystem over a period of 3 years\n\n* Financial returns target of >1.5x MOIC (Multiple on Invested Capital)",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xf87095925339f7fFdde266258f62947567de6aEb",
+      "totalVotes": 7013,
+      "blockNumber": 17648426,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x395e58727038c5a855977248a1dd6e07356674c11f0293eb4b0f68de4e73792f",
+      "startTime": {
+        "timestamp": 1688812200
+      },
+      "endTime": {
+        "timestamp": 1689417000
+      },
+      "startTimestamp": 1688812200,
+      "endTimestamp": 1689417000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 155201940.0,
+          "choice": 0
+        },
+        {
+          "total": 1963.0736,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 155204327.254251,
+          "choice": 0
+        },
+        {
+          "total": 2003.2159114429096,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688812581490,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4ODQ0NjQwNGJkMmRiZDZhMGI2YjNhNzBkZDJkYjY0YmQ1YjRhNTQwODY4NGFhOTNiMjYzNjIzZmEwZmRjMGU4NQ==",
+      "id": "0x8446404bd2dbd6a0b6b3a70dd2db64bd5b4a5408684aa93b263623fa0fdc0e85",
+      "title": "MIP-23: $MNT Supply Optimization in Preparation for Launch",
+      "content": "This proposal is authored by [Cateatpeanut](https://twitter.com/CatEatPeanut), the Mantle core contributor team, and advisors including Jordi ([@gametheorizing](https://twitter.com/gametheorizing)).\n\n# 1. Background\n\nThis proposal is triggered by the upcoming deployment of $MNT token as authorized by [BIP-21](https://snapshot.org/#/bitdao.eth/proposal/0xe81f852d90ba80929b1f19683da14b334d63b31cb94e53249b8caed715475693) and [MIP-22](https://snapshot.org/#/bitdao.eth/proposal/0x950dac4d5715b8aa8eab29c484b1c9dd0eed161141262b0425874f65be4d9f8e). We have previously received a lot of Mantle community feedback regarding the high fully diluted supply of $BIT and $MNT, and this presents a good opportunity to take first steps to optimize the numbers in preparation for $MNT token launch.\n\n\n# 2. Proposal\n\nBy voting \"Yes\", you endorse the following terms:\n\n1. **Non-conversion of** **3 billion** **$BIT tokens:** 3bln $BIT tokens currently held in Mantle Treasury will not be converted to $MNT. This decision will effectively reduce the fully diluted supply of $MNT at launch by 3bln tokens when compared to $BIT.\n\n\n2. Non-converted $BIT tokens will be sent to the [nominated burn address](https://etherscan.io/address/0x000000000000000000000000000000000000dead). For additional details on this address please refer to the following [research article](https://github.com/windranger-io/public-docs/blob/main/research/R003.md#alternative-to-burn-function).\n\n\n# 3. Supporting Information\n\nDisclaimer: Please note that the following supporting information provides additional context and aspects related to the proposal. While it is not an official component of the proposal, any modifications must conform to the proposal's terms.\n\n## 3.1 Impact of Proposal\n\nApproximate numbers:\n\n|Holder Category|Current*|Proposed|Vesting, Distribution|\n| --- | --- | --- | --- |\n|Mantle Treasury $MNT|6,045,424,258|3,045,424,258|Based on Mantle Governance Proposals|\n|Circulating $MNT|3,173,892,510|3,173,892,510|None|\n|Fully Diluted Supply|9,219,316,768|6,219,316,768||\n\n(*) Based on the latest estimates of current Mantle Treasury $BIT holdings and the MIP-22 1:1 conversion.\n\n## 3.2 Optimization Analysis\n\n### 3.2.1 Objective\n\nThe objective of this optimization analysis is to achieve a balanced approach to managing the amount of $MNT tokens to be held in the Mantle Treasury. This is accomplished by considering the following competing factors:\n\n1. Minimizing the fully diluted supply of $MNT to enhance predictability for current and future token holders; and\n\n2. Ensuring adequate resources are available to support ongoing and future product development and adoption activities.\n\n### 3.2.2 Key Considerations\n\nTo effectively optimize the amount of $MNT to be held in Mantle Treasury, it is important to keep in mind the following points:\n\n* **Mantle Governance** **'s** **Process:** The distribution of $MNT tokens from Mantle Treasury follows Mantle Governance's process. Currently, the primary active proposal is the [BIP-19 Mantle Network Budget](https://snapshot.org/#/bitdao.eth/proposal/0x5e82c6ef374db3e472717d3e79b05f246f9a29de3435adb457ae34afa192b5be), covering up to 6 months of testnet and 12 months of mainnet. BIP-19 allows for a maximum allocation of 100M $BIT/$MNT for Ecosystem Incentives and 45M $BIT/$MNT for Technology Partner Incentives. The current run rate, as visible on the [Treasury Monitor](https://treasurymonitor.mantle.xyz/), is within the allocated limits.\n\n* **Dynamic Spend and Accumulation:** Resources from Mantle Treasury are allocated to product development and product adoption, leading to the accumulation of resources through medium-to-long-term protocol fees. This dynamic process requires ongoing evaluation and adjustments.\n\n* **Multi-Asset Resources:** In addition to its native token $MNT, Mantle Treasury holds a significant amount of other resources, such as USDC, USDT, and ETH. The management of these additional assets introduces complexities that must be considered.\n\n### 3.2.3 Major Resource Spend Categories\n\n* **User Incentives:** Driving user adoption of Mantle products is a priority, achieved through the implementation of various strategies such as multi-season achievements, quests, and other incentive programs. Target metrics for user adoption include daily active users, total transactions and protocol fees, total value locked (TVL), and other relevant product adoption metrics. These incentives aim to attract and engage users within Mantle Ecosystem.\n\n* **Technology Partner Incentives:** This category aims to incentivize dApps, infrastructure service providers, and core protocol technology partners who contribute to the growth and development of Mantle Ecosystem. By providing incentives to these partners, Mantle aims to foster collaborations and partnerships that enhance the ecosystem and the overall user experience.\n\n* **Core Contributor Team and Advisors:** This category is subject to the same budget proposal process, ensuring transparency and accountability in the allocation of resources to the team and advisors who actively contribute to the success of the project.\n\n* **Other Opportunities:** This category includes potential opportunities that may arise, such as acquisitions, token swaps, treasury sales, and other deals. Each opportunity will be evaluated on a case-by-case basis, taking into consideration their potential benefits to Mantle Ecosystem and alignment with the project's goals.\n\n### 3.2.4 Major Resource Accumulation Categories\n\n* **Mantle Protocol Fees:** Mantle Network charges gas fees for L2 transactions and incurs fees for rollup to Ethereum L1, as well as various protocol node operators (e.g. Data Availability). Further details and industry comparisons on protocol fee dynamics can be found here: https://defillama.com/fees. While there may be a short-term outflow of Treasury resources, if the Mantle community votes to allocate resources effectively, this allocation can contribute to net positive protocol fee generation in the medium-to-long term.\n\n* **Mantle Treasury Yield:** Another potentially significant source of resource accumulation is deploying Mantle Treasury to various staking service providers, such as ETH staking via [Mantle LSD](https://forum.mantle.xyz/t/discussion-mantle-lsd/7085).",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 7255,
+      "blockNumber": 17591221,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x8446404bd2dbd6a0b6b3a70dd2db64bd5b4a5408684aa93b263623fa0fdc0e85",
+      "startTime": {
+        "timestamp": 1688117700
+      },
+      "endTime": {
+        "timestamp": 1688722500
+      },
+      "startTimestamp": 1688117700,
+      "endTimestamp": 1688722500,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 202839980.0,
+          "choice": 0
+        },
+        {
+          "total": 904.33405,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 202840665.3777733,
+          "choice": 0
+        },
+        {
+          "total": 904.3341896512524,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688117865083,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4OTUwZGFjNGQ1NzE1YjhhYThlYWIyOWM0ODRiMWM5ZGQwZWVkMTYxMTQxMjYyYjA0MjU4NzRmNjViZTRkOWY4ZQ==",
+      "id": "0x950dac4d5715b8aa8eab29c484b1c9dd0eed161141262b0425874f65be4d9f8e",
+      "title": "MIP-22: Mantle Token Design, Conversion Parameters, and Asset Handling",
+      "content": "This proposal is co-authored by [Cateatpeanut ](https://twitter.com/CatEatPeanut) and the Mantle Network team.\n\n# Context\n\n[BIP-21](https://snapshot.org/#/bitdao.eth/proposal/0xe81f852d90ba80929b1f19683da14b334d63b31cb94e53249b8caed715475693) has approved the brand and token merger, with pre-authorization for a token conversion plan. It is recommended to hold a formal discussion and vote on key issues concerning the token conversion plan.\n\n# Proposal\n\nBy voting \"Yes\", you endorse the following terms:\n\n1. The Mantle token, $MNT, shall incorporate functions analogous to the \"Upgradability\" and \"Mint\" functions of the $ARB and $OP tokens.\n\n2. The one-way token conversion ratio shall be set at 1 $BIT token to 1 $MNT token.\n\n3. The Mantle core contributor team shall be authorized to determine the optimal timing and sequence for the delisting of $BIT tokens, listing of $MNT tokens, opening of conversion channels, and the Mantle Network Mainnet.\n\n4. A DEX liquidity pool for $MNT-ETH may be created, utilizing the proceeds from the deconstructed $BIT-ETH pool, and with reference to the intent of [BIP-10](https://snapshot.org/#/bitdao.eth/proposal/0x0f6d39f40b42d829c62c07a574b4c8f320715926a872e40492387649a19da9a8).\n\n5. A temporary conversion treasury may be established to provide support for the token creation and conversion process.\n\n# Supporting Information\n\nDisclaimer: Please note that the following supporting information provides additional context and aspects related to the token plan. While it is not an official component of the proposal, any modifications must conform to the proposal's terms.\n\n## Token Ticker Symbol\n\n* The token ticker symbol $MNT has been chosen due to its distinguishability and availability across major exchanges and aggregators.\n\n## Token Functionality\n\nKey design recommendations include:\n\n* **Upgradability:** the L1 $MNT token will be upgradable using the OpenZeppelin Transparent UpgradableProxy contract, which is also used by the $ARB, $AAVE, and many other reputable protocol's tokens. This enables the Owner (Mantle Governance) to maintain the $MNT token functionality to support future product and governance use cases, reducing the need for a future token migration.\n\n* **Mint:** the Mint function allows Mantle Governance to authorize potential future inflation of the $MNT token to support long-term ecosystem development. The $MNT token will be minted on L1.\n\n  * The recommendation is for $MNT to permit Mint once per year with a default setting of 0%. While we see the benefits of this functionality, we do not yet have foreseeable needs for future inflation.\n\n  * This also allows the Mantle community to propose burning Treasury $MNT without as much concern for multi-decade future requirements.\n\n  * As a reference, other L2 tokens such as $ARB permit Mint of up to 2% of token total supply once per year upon governance approval.\n* **No Special Supply Synchronization Between $MNT on L1 and L2:** $ARB and $OP can be minted on both L1 and L2, and require a \"bridgemintburn\" token function to synchronize total supply. The Mantle R&D team's recommended approach is a more simplified version where the $MNT token can only be minted on L1. The $MNT token minted on L1 can be bridged to L2 via the canonical bridge without the need for additional supply synchronization.\n\nFor more technical details and to provide feedback, please see the following document which will be updated by the Mantle R&D team from time to time: https://hackmd.io/@-KOCYYc7QJeaaCqGkwHGhw/Bkv1lVfEh\n\n## Sequence of Delistings, Listings, Conversion Channels, and Mainnet\n\n* The main goal is to ensure a successful launch of the Mantle Network, engagement for the Mantle ecosystem, and smooth transition for the $MNT token.\n\n* Delisting of $BIT tokens and subsequent listing of $MNT tokens on DEX and CEX platforms may have a time gap due to various listing requirements and technical considerations.\n\n* The Mantle Network Mainnet requires $MNT price feeds.\n\n* Potentially controversial decisions will be subject to discussion and consultation with the community through official channels.\n\n## Protocol Owned Liquidity\n\n* The $BIT-ETH pool, as referenced in [BIP-10](https://snapshot.org/#/bitdao.eth/proposal/0x0f6d39f40b42d829c62c07a574b4c8f320715926a872e40492387649a19da9a8), will be deconstructed and replaced with the $MNT-ETH pool on Uniswap v3.\n\n* ETH proceeds resulting from the deconstruction process will be gradually utilized for the construction of the $MNT-ETH pool.\n\n* Any excess $MNT, $BIT, $ETH will be returned to the appropriate Treasury.\n\n* The asset flows will be periodically updated on the Treasury Monitor.\n\n## Temporary Conversion Treasury (TCT)\n\n* A TCT may be established to support the token creation and conversion process.\n\n* The TCT will receive all initially created $MNT.\n\n* The TCT will swap $BIT for $MNT with significant holders such as the previous BitDAO Treasury (now Mantle Treasury), and Mantle Network budget multisig.\n\n* The TCT will send $MNT to conversion channels, including a L1 conversion smart contract \"**L1CSC**\", and centralized exchanges who have been approved to support the conversion.\n\n* Please note that the TCT itself does not function as an official conversion channel, and users are strongly advised not to send $BIT to the TCT. Instead, they should rely on the L1CSC frontend to be hosted on mantle.xyz or officially participating centralized exchanges.\n\n* The TCT will receive $BIT before 1x $MNT, reducing escrow risk, with the exception of the L1CSC.\n\n* The final ratio of \"total received $BIT units\" versus \"total sent $MNT units\" by the TCT will be 1:1.\n\n* $BIT held in the TCT will be burned, and the TCT will be decommissioned after the completion of conversions.\n\n* The asset flows will be periodically updated on the Treasury Monitor.\n\n## Next Steps and Expected Timing\n\nThe following actions will be carried out concurrently, all of which need to be completed before the $BIT to $MNT conversion channels can become operational:\n\n* Assessment and incorporation of any feedback into $MNT token functions and the conversion plan.\n\n* Approval of this proposal, with a minimum 7-day discussion and 7-day voting period.\n\n* Conducting an audit of the $MNT token, and the audit report is made available to the community.\n\n* Deployment of the $MNT token on L1, with initial supply under the custody of the TCT.\n\n* Conducting an audit and testing of the L1 Conversion Smart Contract.\n\n* Securing support from select centralized exchanges for the $BIT to $MNT conversion.\n\n* Implementation of the $MNT token on Mantle Network testnet and mainnet.* $BIT held in the TCT will be burned, and the TCT will be decommissioned after the completion of conversions.\n\n* The asset flows will be periodically updated on the Treasury Monitor.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 5764,
+      "blockNumber": 17377513,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x950dac4d5715b8aa8eab29c484b1c9dd0eed161141262b0425874f65be4d9f8e",
+      "startTime": {
+        "timestamp": 1685519861
+      },
+      "endTime": {
+        "timestamp": 1686124661
+      },
+      "startTimestamp": 1685519861,
+      "endTimestamp": 1686124661,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 169570240.0,
+          "choice": 0
+        },
+        {
+          "total": 654.9387,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 169568402.46806142,
+          "choice": 0
+        },
+        {
+          "total": 654.9386848419799,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685520387274,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4ZTgxZjg1MmQ5MGJhODA5MjliMWYxOTY4M2RhMTRiMzM0ZDYzYjMxY2I5NGU1MzI0OWI4Y2FlZDcxNTQ3NTY5Mw==",
+      "id": "0xe81f852d90ba80929b1f19683da14b334d63b31cb94e53249b8caed715475693",
+      "title": "BIP-21: Optimization of Brand, Token, and Tokenomics",
+      "content": "This proposal is co-authored by [Cateatpeanut](https://twitter.com/CatEatPeanut) and the Mantle Network team.\n\n## Observations\n\nBitDAO was established as an open platform for ideas, with experiments in subDAO-type initiatives, community initiatives, and $BIT-powered products. The current hypothesis is that \"Products\" are the primary strategy for user and developer engagement, Web3 adoption, and long-term $BIT prosperity.\n\nThere is fragmentation of communities, messaging, and mind-share between the Governance (BitDAO) and Product (Mantle) components of the existing BIT ecosystem. There is complexity as to whether $BIT should be valued for its governance component or product component or some combination.\n\n## Objective\n\nThis proposal aims to recommend changes to branding and structuring that lead to the greatest long-term token holder prosperity, provide the greatest chances of success for core products (e.g. Mantle Network), and preserves the governance and economic rights of token holders.\n\n## Proposal\n\n1\\ Apply a **\"One brand, One token\"** principle.\n\na. Position [mantle.xyz](https://www.mantle.xyz/) as the **unified ecosystem brand** with a **product focus.**\n\n* Product components utilize the Mantle brand, for example mantle.xyz/network and mantle.xyz/lsd.\n* Governance components adopt the Mantle brand, for example mantle.xyz/governance.\n* Changes from BitDAO.io shall be a cosmetic rebrand only - all existing governance processes are preserved including proposals, budgeting, and treasury resource management.\n* The existing BitDAO Treasury holdings and exposure shall remain under the governance of token holders. The treasury will be referred to as the Mantle Treasury.\n\nb. Authorize a **token conversion** plan.\n\n* Token conversion rules and ratios shall apply to all token holders equally.\n* There shall be a flexible conversion period instead of a \"balance snapshot\" for more convenient user experience. Therefore, existing token holders do not have to take any preparatory actions, and new buyers may buy $BIT in preparation for the conversion.\n* The new token design, conversion mechanisms, and conversion channels shall be shared after the audit.\n\n2\\ **Simplify tokenomics** for a fresh start for the Mantle Network mainnet, and token listings.\n\na. Accelerate all BIP-20 contributions and BitDAO launch vesting schedules.\n\n\n## Supporting Information\n\nDisclaimer: The information provided below describes the current direction of design and structure options but is not an official component of the proposal. Any changes made must comply with the terms outlined in the official proposal.\n\n### One Brand One Token\n\n#### Current\n\n||*Ecosystem*|*Product Components*|*Governance Components*|\n| --- | --- | --- | --- |\n|*Brand*|BitDAO, Mantle, BIT Ecosystem|Mantle [Network], TBD|BitDAO , BitDAO Treasury|\n|*Token*|$BIT|$BIT|$BIT|\n\n#### Proposed\n\n||*Ecosystem*|*Product Components*|*Governance Components*|\n| --- | --- | --- | --- |\n|*Brand*|Mantle|Mantle [Network], Mantle [TBD]|Mantle [Governance], Mantle [Treasury]|\n|*Token*|$BIT --> Mantle*|$BIT --> Mantle*|$BIT --> Mantle*|\n\n**ticker symbol TBD*\n\n### Token Design\n\n* The new token will incorporate the latest design principles and features, including additional features to support Mantle products and Mantle governance, with references to peer token designs and functionality (e.g. layer 2 tokens and DAO tokens).\n\n* Preliminary research and design will be shared for community feedback.\n\n### Token Conversion\n\n* Multiple official token conversion channels will be established to support the transition.\n\n* The token conversion may introduce a fixed exchange rate for all users, which preserves all existing proportions of governance rights and other interests.\n\n* The token conversion will be a gradual process with various official conversion channels for holders to select from. Existing holders will have the option to convert their tokens at any time during the transition.\n\n### Tokenomic Simplification\n\n* All contributions due from [BIP-20](https://snapshot.org/#/bitdao.eth/proposal/0x6ebdd692948cb84ef2f1855718ffd4aa6421c092a656825870f70b2c27485040) (2.58b $BIT) and remaining vesting schedules from launch (2.8125b $BIT) will be accelerated. This will simplify the token circulating supply and make it more predictable, with no outstanding vesting schedules inherited from the original BitDAO launch.\n\n* All distributions from the treasury shall continue to be approved via the governance process, providing an advantage versus other projects that have significant investor and founding team vesting schedules.\n\n* Tokenomics aggregators and media companies will no longer report large amounts of monthly vesting.\n\n### Governance\n\n* This proposal will not result in material changes to the existing governance process.\n\n* Ideas and discussions are welcome on a permissionless forum, and proposals require ratification by the token holder vote on Snapshot.\n\n* Although [governance parameters](https://docs.bitdao.io/litepaper-1/governance-overview) including proposal threshold, vote threshold, vote duration will remain effectively the same, there may be proportional adjustments to the numbers due to the token conversion ratio.\n\n### Resource Management and the Treasury\n\n* This proposal will not result in material changes to the existing resource management process.\n\n* The treasury will remain under the general governance of token holders, and not any specific product line or initiative.\n\n* Product lines such as Mantle Network (Rollup) will still be required to submit budget request proposals (such as [BIP-19](https://snapshot.org/#/bitdao.eth/proposal/0x5e82c6ef374db3e472717d3e79b05f246f9a29de3435adb457ae34afa192b5be)), and tracking of capital calls and spending will be available at [Treasury Monitor](https://treasurymonitor.bitdao.io/).\n\n### Existing Initiatives\n\n* This proposal will not result in material changes to existing initiatives.\n\n* Existing initiatives, for example Game7 and EduDAO, will maintain their rights to determine their brand, governance processes, mission, and strategy.\n\n### Website and Naming Conventions\n\n* The overall ecosystem will be called Mantle, and the website will be https://www.mantle.xyz/.\n\n* The existing Rollup project will be referred to as Mantle Network.\n\n* New product lines which are powered by the Mantle token will use the naming convention Mantle [Name] as a default.\n\n* The existing governance and DAO will be referred to as Mantle Governance. This signals flexibility to explore governance mechanisms and parameters that work for our ecosystem, including operating councils, on-chain and off-chain voting, vote modification schemes, budgeting processes, and more.\n\n* All Mantle branded product lines, governance components, and initiatives will be under the umbrella website https://www.mantle.xyz/ .\n\n* To assist with the transition, the bitdao.io website components will be maintained for some time, with redirects to the corresponding Mantle Governance pages.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 4651,
+      "blockNumber": 17243690,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0xe81f852d90ba80929b1f19683da14b334d63b31cb94e53249b8caed715475693",
+      "startTime": {
+        "timestamp": 1683889205
+      },
+      "endTime": {
+        "timestamp": 1684494005
+      },
+      "startTimestamp": 1683889205,
+      "endTimestamp": 1684494005,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 235447950.0,
+          "choice": 0
+        },
+        {
+          "total": 997.9442,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 235448800.89342824,
+          "choice": 0
+        },
+        {
+          "total": 997.9441861748368,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683889625702,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4NmViZGQ2OTI5NDhjYjg0ZWYyZjE4NTU3MThmZmQ0YWE2NDIxYzA5MmE2NTY4MjU4NzBmNzBiMmMyNzQ4NTA0MA==",
+      "id": "0x6ebdd692948cb84ef2f1855718ffd4aa6421c092a656825870f70b2c27485040",
+      "title": "BIP-20: Adjustments to Bybit Contributions to the BitDAO Treasury to Improve Tokenomics, Project Focus, and Decentralization",
+      "content": "This proposal is authored by [cateatpeanut](https://twitter.com/CatEatPeanut).\n\n# Objectives\n\nSince BitDAO's launch in July 2021, we have explored various strategies, and received datapoints from community feedback, price performance, and observations of other crypto projects. To optimize BitDAO's long-term prosperity and competitiveness within a dynamic crypto industry, it is imperative that we periodically review BitDAO structuring.\n\nThis proposal is intended to address the following key issues that arose from feedback and observations:\n\n1. The lack of focus of the BitDAO strategy and narratives - the community has supported a variety of initiatives and pilot programs, including: the initial and ongoing Bybit Contribution, venture investments, broad mandate ecosystem initiatives, and core product development led by Mantle and various ad hoc projects. This multi-strategy approach lacks competitive strength, and it is preferred that BitDAO looks for its own long term vision with clear focus of strategies and resources.\n\n2. The unpredictable nature of the $BIT circulating supply (due to the dynamic Bybit Contribution).\n\n3. The concentration of $BIT token holdings.\n\nThis proposal aims to take first steps to deal with the above issues through simple adjustments to existing mechanisms. The intended result is: a focus on product and user growth (instead of treasury growth); a focus on BitDAO initiatives instead of Bybit; increased the stability and predictability of $BIT tokenomics; and decentralization of $BIT holdings and governance.\n\n# Proposal\n\nBy voting \"Yes\" on this proposal, you are in favor of:\n\n1. Modifying the Bybit Contribution from a dynamic exchange-linked-amount to a fixed-schedule-amount over 48 months, starting at 120M $BIT per month and halving every 12 months (total 2.7B units).\n\n2. Retaining the Bybit Contribution $BIT in the BitDAO Treasury instead of immediately burning. The burn may be restarted via a subsequent BitDAO proposal.\n\n\n*New Bybit Contribution Schedule*\n\n|Period|$BIT per Month|Total $BIT tokens|\n| --- | ---: | ---: |\n|First 12 months [1]|120,000,000|1,440,000,000|\n|Next 12 months|60,000,000|720,000,000|\n|Next 12 months|30,000,000|360,000,000|\n|Next 12 months|15,000,000|180,000,000|\n|||2,700,000,000|\n\nNotes:\n\n[1] The first contribution under the new schedule shall be 2023 April 20th, in replacement of the contribution under the old model.\n\n# Analysis and Commentary\n\n## Fixed-Schedule Contribution\n\nThe existing Bybit Contribution depends on the dynamic trading volume. Modifying this to a fixed schedule brings the following benefits:\n\n1. Focus $BIT tokenomics on BitDAO initiatives such as the development and adoption of core $BIT products (e.g. Mantle), instead of Bybit performance.\n\n2. Focus BitDAO on products and user growth, instead of treasury growth.\n\n   * While treasury resources are critical for development and longevity, BitDAO prosperity is primarily accelerated and sustainable through product and user adoption.\n3. Decouple the economic and legal exposures of BitDAO and Bybit.\n\n   * Reduce the likelihood of $BIT being viewed as a \"Centralized Exchange Token\" or \"Bybit Token\".\n\n   * Reduce risk from future regulations around Centralized Exchange Tokens.\n\n   * Pave the way for $BIT to be listed on other centralized exchanges (which may view Bybit as a competitor).\n4. Increase the predictability of $BIT tokenomics.\n\n   * More predictable $BIT circulating supply.\n\n   * Easier to benchmark $BIT to other tokens.\n5. Improve the decentralization of $BIT holdings and governance.\n\n   * Each future contribution tranche furthers the decentralization of $BIT holdings, from Bybit-owned to community-owned-and-distributed via the BitDAO Treasury.\n\n\n## Bybit's Support for BitDAO Products\n\nBybit has contributed more than $600M USDC/USDT and 177k ETH to the BitDAO treasury (see [Treasury Monitor Analytics](https://treasurymonitor.bitdao.io/bitdao?)). This level of resources is sufficient to support the development of BitDAO products. There is a high standard for approving new initiatives, as we should ensure deployment of BitDAO resources has a direct impact on long-term BitDAO prosperity.\n\nThat being said, Bybit remains an important sponsor and partner to the BitDAO community. BitDAO will continue to partner with Bybit in terms of technology development and product adoption, particularly in the areas of product ideation, bootstrapping product development, $BIT integration, user integration, and product distribution. We believe such support will create more value for the BitDAO community.\n\nAs an example, the early stages of [Mantle](https://www.mantle.xyz/) development was funded by Bybit until the recent Mantle budget proposal under BitDAO. Mantle will use $BIT as native token (versus having its own token), and be BitDAO governed and accountable (see [BIP-19 Budget Proposal](https://snapshot.org/#/bitdao.eth/proposal/0x5e82c6ef374db3e472717d3e79b05f246f9a29de3435adb457ae34afa192b5be), [Mantle Ecofund Proposal](https://discourse.bitdao.io/t/discussion-mantle-ecofund/4692), and [Mantle zkEVM Discussions](https://discourse.bitdao.io/t/discussion-mantle-zkevm-research-industry-collaboration/4699)).\n\nAfter completion of the 2.7B $BIT fixed-schedule contribution, Bybit will likely remain the largest holder of $BIT and be incentivized in BitDAO's success ([see wallet holdings](https://docs.bitdao.io/litepaper-1/tokenomics#key-addresses-list)).\n\n\n\n## Tokenomic Impact\n\nThe resultant supply impact of this proposal is that the circulating supply of $BIT (defined as outside of the BitDAO Treasury and Burn address) will be reduced from approximately **6.0 bln** units (3.3bln treasury, 0.7 bln burned) to **3.3 bln** units (6.0 bln treasury, 0.7 bln burned). This represents a 1.8x boost of BitDAO economics and governance voting power for all existing $BIT holders.\n\nNote: the circulating supply of $BIT will be increased from any distributions and issuance from BitDAO Treasury (approved by future BIPs), and decreased via any approved burn, $BIT token sinks designed into core products, or BIT purchase programs.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 4074,
+      "blockNumber": 16931205,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x6ebdd692948cb84ef2f1855718ffd4aa6421c092a656825870f70b2c27485040",
+      "startTime": {
+        "timestamp": 1680071790
+      },
+      "endTime": {
+        "timestamp": 1680676590
+      },
+      "startTimestamp": 1680071790,
+      "endTimestamp": 1680676590,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 253277940.0,
+          "choice": 0
+        },
+        {
+          "total": 1114527.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 253276050.29503772,
+          "choice": 0
+        },
+        {
+          "total": 1114527.2284036505,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680071986245,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4NWU4MmM2ZWYzNzRkYjNlNDcyNzE3ZDNlNzliMDVmMjQ2ZjlhMjlkZTM0MzVhZGI0NTdhZTM0YWZhMTkyYjViZQ==",
+      "id": "0x5e82c6ef374db3e472717d3e79b05f246f9a29de3435adb457ae34afa192b5be",
+      "title": "BIP-19: Mantle Budget (First Year)",
+      "content": "### Proposal Summary\n\n#### 1. Approve the transfer of the following amounts to the Mantle Core Multisig:\n\n* **[Testnet Opex] 10M $BIT and 14M $USDC —** To cover operations during an up to 6-month long testnet. The length of the testnet is subject to the results of testing and maturity of the new implementations (e.g. proof generation and data availability). A maximum of $7M will be spent on payroll and G&A costs.\n\n#### 2. Approve budget allocation for Mantle Mainnet Phase 1 (First Year) as below:\n\n* **[Mainnet Opex for First Year] 145M $BIT and 34M $USDC —** A maximum of $17m will be spent on payroll and G&A costs.\n\n* **[Ethereum L1 Gas Fees] 15,000 $ETH —** This will be offset by $BIT transaction fees received on Mantle Network. It will be up to a subsequent BitDAO proposal to rebalance $BIT into $ETH.\n\n* **[Loan] 30M $BIT and $60M equivalent in major assets —** For the purposes of funding canonical bridge and node delegation. These assets belong to BitDAO and will be trackable on-chain.\n\n#### 3. Approve the disbursement of funds for Mantle Mainnet Phase 1 based on the policies below:\n\n* The approved budget will be held in BitDAO Treasury until called for by the Mantle Core Team. Disbursement of funds shall be from BitDAO Treasury to the Mantle Core Multisig. The target working capital buffer for Mantle shall be 3 months.\n\n* Expenditures that fall within 115% (projected annual) of the Mantle Mainnet Phase 1 budget shall not require a subsequent BitDAO proposal. Expansions or major modifications shall require an updated BitDAO proposal.\n\n* Mantle Core Team shall provide a regular report of budget spending and outcomes for the purpose of performance review. To preserve privacy and commercial partner relationships, individual salaries and individual service provider commercial terms will not be revealed.\n\n* All disbursed but unused funds by Mantle Core shall remain the property of BitDAO. By default, all unused funds for Phase 1 will be rolled into subsequent Phases.\n\n#### 4. BitDAO may modify the above terms at any time pending a subsequent proposal and vote.\n\n**Read the full proposal [here](https://discourse.bitdao.io/t/voting-securing-the-future-with-mantle-a-comprehensive-plan/4533).**",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xB07DA0DFaBAe4C6F55e436BcD43e79c4DcE6B916",
+      "totalVotes": 2960,
+      "blockNumber": 16620289,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x5e82c6ef374db3e472717d3e79b05f246f9a29de3435adb457ae34afa192b5be",
+      "startTime": {
+        "timestamp": 1676296800
+      },
+      "endTime": {
+        "timestamp": 1676901600
+      },
+      "startTimestamp": 1676296800,
+      "endTimestamp": 1676901600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 127405136.0,
+          "choice": 0
+        },
+        {
+          "total": 99.22675,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 127408150.7727948,
+          "choice": 0
+        },
+        {
+          "total": 99.22675547,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4YmE1ZTFiMDA1NDZmNmYzNzNjZDg2ZmU2OWIyZDAzMzI0ZmIxNTgyNDNjOWQ4OGYzNDc0NzFkY2QxZmUxNzQ2ZA==",
+      "id": "0xba5e1b00546f6f373cd86fe69b2d03324fb158243c9d88f347471dcd1fe1746d",
+      "title": "BIP-18: $BIT Purchase Program, Jan 2023",
+      "content": "## Context\nThis proposal is authored by [cateatpeanut](https://twitter.com/CatEatPeanut).\n\nThis proposal is a parameter update to [BIP-9: $BIT Purchase Program](https://snapshot.org/#/bitdao.eth/proposal/0xb418608f1691d2f11468766e076ec7ac24aaafbdae85c0ea5f1e219eb67684ee), and [BIP-12](https://snapshot.org/#/bitdao.eth/proposal/0xa1cc8e7254fd7a28c5e740070960baf2cf5dd3fb06744ef6746e60a5e6f3853d).\n\n## Proposal\n\n1. Set the Target Daily Purchase Amount (TDPA) at $2.0M USDT per day starting 2023 Jan 1st for 50 days (total $100M USDT).\n\n## Analysis\n\n### Key Reasons\n\n* Recommended priorities for BitDAO capital deployment include: High = $BIT products; Low = swap and investments, yield strategies (see explanation below).\n\n* Analogous to traditional corporations, when there are limited deployment opportunities available, excess capital may be returned to token holders via distribution or token repurchasing. Token holders have different risk appetites and opportunities that they can explore with their own capital (separate from the DAO's mandates and risk tolerances).\n\n* Post $BIT purchase, the BitDAO Treasury will still hold $300M USDT/USDC and 270k ETH (~$345M), which should be sufficient to cover 5+ years of $BIT product development.\n\n* The current price of $BIT is attractive, especially with the incoming Mantle project.\n\n### Recommended on Priorities (a personal opinion)\n\n#### $BIT Products\n\nWhen BitDAO was launched in 2021, the original strategy was to grow the treasury via direct investments, and the creation of BitDAO-like entities (sub-DAOs / autonomous entities) and investments. This strategy has had questionable impact on driving outcomes for $BIT, and there have been [calls by the $BIT community and stakeholders](http://discourse.bitdao.io/t/discussion-bitdao-l1-infrastructure/2508) to develop $BIT core products to drive adoption. The most performant DAOs (Lido, Aave, Uni) have been centered around underlying core products which have large addressable markets and longevity.\n\n[Mantle](https://www.mantle.xyz/) is envisaged to be one of these $BIT core products. Mantle is an Ethereum layer-2 network built with modular architecture delivering low fees and high security. Mantle provides a protocol to attract mass users and dApp adoption, and better outcomes for marketing and growth activities. Note: that initial development of Mantle has been bootstrapped by Bybit, with the next phase being a DAO proposal and budget cycles for expanded development and go-to-market activities.\n\nReferences: [twitter announcement](https://twitter.com/BitDAO_Official/status/1597942493899034624), [TheBlock media release](https://www.theblock.co/post/190926/bitdao-launches-modular-ethereum-layer-2-network-mantle?utm_source=twitter&utm_medium=social)\n\n#### Swaps and Investments\n\nIt is not recommended to pursue swaps and investments that do not have additional strategic outcomes for $BIT, due to the following reasons: 1) has little impact on $BIT token holders other than passively observing investment returns; 2) DAOs have less flexibility to negotiate competitive deals compared to specialized VCs; 3) DAOs have fewer options for post-investment legal and governance involvement once funds have been transferred (see FTT swap situation).\n\n#### Yield Strategies\n\nThere has not been community consensus on whether to allocate the treasury to yield generating products (onchain vaults, centralized platforms, funds, etc.). In hindsight, some products of interest did not have good outcomes, and we are fortunate BitDAO assets were not exposed. Examples of recent events include: centralized platform yield ([FTX](https://www.cbsnews.com/news/ftx-bankruptcy-3-billion-crypto-sam-bankman-fried/), [BlockFi](https://www.cnbc.com/2022/11/28/blockfi-files-for-bankruptcy-as-ftx-fallout-spreads.html), [Genesis](https://cointelegraph.com/news/crypto-lender-genesis-has-no-solution-yet-for-withdrawal-halts), [Gemini Earn](https://www.gemini.com/blog/an-important-message-regarding-gemini-earn)); and blue-chip DeFi protocols such as [AAVE v2 longtail assets risk](https://twitter.com/AaveAave/status/1595168986978783232), and [Lido stETH price decoupling](https://www.coinbase.com/institutional/research-insights/research/monthly-outlook/liquid-staking-june-2022).\n\nThere is high systemic risk in crypto due to: 1) difficulty in calculating a fair price and slippage for altcoins (protocols rely on oracles or liquidations mechanics are vulnerable); and 2) the pressure of projects to compete on go-to-market timing and financial product innovations resulting in many novel products that have not yet been empirically battle-tested. 3) web of borrowings and collateral assets across entities and other “degen-box” type activity.\n\nThe risks scale with capital deployment size, and liquidity may be scarce when we need to unwind positions. As such, it is not recommended that BitDAO participate in yield strategies for the time being.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 198,
+      "blockNumber": 16254928,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0xba5e1b00546f6f373cd86fe69b2d03324fb158243c9d88f347471dcd1fe1746d",
+      "startTime": {
+        "timestamp": 1671854400
+      },
+      "endTime": {
+        "timestamp": 1672459200
+      },
+      "startTimestamp": 1671854400,
+      "endTimestamp": 1672459200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 147631330.0,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 147631512.98480657,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 100000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4MjhhZGE1N2QyMDgzODE4NDhjYTEwYTYxNDBmMWM1NWUyNTFmOTEwNzY3NWNhM2QxZTkxYzVlMDIwZWIzZjUzOQ==",
+      "id": "0x28ada57d208381848ca10a6140f1c55e251f9107675ca3d1e91c5e020eb3f539",
+      "title": "BIP-17: ApeX Protocol Proposal to BitDAO",
+      "content": "**[ApeX Protocol](https://apex.exchange/)** proposes:\n\n1. Token swap of $2M USDC for 11M $APEX governance tokens\n* BitDAO will commit not to sell the $APEX tokens for 2 years;\n* The USDC may be used immediately to improve liquidity on ApeX Pro and support more trading pairs;\n* Additionally, should any extenuating circumstances arise, BitDAO retains the rights to undo the token swap within a 2-year timeframe (pending BitDAO proposal).\n\n||BitDAO Swaps|ApeX Swaps||\n| --- | --- | --- | --- |\n||$USDC|$APEX||\n|Swap Units|2,000,000|11,000,000||\n|Current Price|$1.00|$0.30||\n|TWAP Price||$0.40|Discount|\n|Current Value|$2,000,000|$3,300,000|39%|\n|TWAP Value|$2,000,000|$4,433,000|55%|\n|Lockup|None|2 year hold||\nNote: The TWAP price (2022/11/02-2022/11/15) of $APEX on Coingecko is 0.4028\n\n2. Commitment from ApeX Protocol to prioritize the deployment of ApeX Pro on the upcoming BitDAO Infrastructure Project (BitNetwork).\n\n[Read the full proposal here](https://discourse.bitdao.io/t/discussion-apex-and-bitdao-proposal/4331)",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0x7E2f1cF2174788E3dbA18A3633cD33BBa047B38d",
+      "totalVotes": 206,
+      "blockNumber": 16168998,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x28ada57d208381848ca10a6140f1c55e251f9107675ca3d1e91c5e020eb3f539",
+      "startTime": {
+        "timestamp": 1670852652
+      },
+      "endTime": {
+        "timestamp": 1671422400
+      },
+      "startTimestamp": 1670852652,
+      "endTimestamp": 1671422400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 142706110.0,
+          "choice": 0
+        },
+        {
+          "total": 911.0,
+          "choice": 2
+        },
+        {
+          "total": 110.09,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 142706187.5953079,
+          "choice": 0
+        },
+        {
+          "total": 110.09,
+          "choice": 1
+        },
+        {
+          "total": 911.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4MmUwNTUyNTdhNWQxMDRhMjlkZmExNmVkY2Q1ZDM2OTYzMmQ4NDYwY2U5NTJiOTMyMmJjNjNiMzYyYTQ2NWNmNA==",
+      "id": "0x2e055257a5d104a29dfa16edcd5d369632d8460ce952b9322bc63b362a465cf4",
+      "title": "BIP-16: BitDAO - Greater Participation in Decentralized Stable Assets",
+      "content": "Who is involved? Continent DAO and MakerDAO Growth Core Unit.\n\nTo promote greater decentralization and stability for the BitDAO treasury, this proposal has the following main objectives:\n\n● Decentralization of stable assets.\n● Generating Revenue.\n● Security.\n● More use cases ($BIT).\n\nNew progressive allocation of stablecoins in BitDAO treasury:\n\n$USDT = $73,912,371\n$USDC = $137,975,009\n\n$DAI = $100,000,000\n$LUSD  = $30,000,000\n\"POOL\" = $70,000,000\n\nRead the full proposal here: https://docs.google.com/document/d/1AVjpMrv5Zd1y8t9f-hS39ZH9Pm-8tkYA/\n\nSee our track record here:\nhttps://discourse.bitdao.io/t/archive-bitdao-greater-participation-in-decentralized-stable-assets/3114",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0x596B9A02345930Ae5372D3a8a89774870d299FDA",
+      "totalVotes": 200,
+      "blockNumber": 16147597,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x2e055257a5d104a29dfa16edcd5d369632d8460ce952b9322bc63b362a465cf4",
+      "startTime": {
+        "timestamp": 1670594463
+      },
+      "endTime": {
+        "timestamp": 1671375600
+      },
+      "startTimestamp": 1670594463,
+      "endTimestamp": 1671375600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 244905.2,
+          "choice": 0
+        },
+        {
+          "total": 45050916.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 244905.1963809518,
+          "choice": 0
+        },
+        {
+          "total": 45050914.932775535,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4OWY5YTFmMDA5OWQ0ZjZkNjk1NGMzODY3YzA4M2I4NTUzNzFiZDQ3Njc4M2U1N2Y3M2Y2Mjg2YjAxZjU2YzA1MQ==",
+      "id": "0x9f9a1f0099d4f6d6954c3867c083b855371bd476783e57f73f6286b01f56c051",
+      "title": "BIP-15: Continent DAO: Bringing Mass Adoption to BIT",
+      "content": "This proposal is authored by Don from Continent DAO.\n\nHighlights:\nSolving internet access problems and creating economies in Latin America.\n\nContinent DAO intends to establish a partnership with BitDAO to implement programs aimed at promoting the mass adoption of Web 3 in Latin America.\n\nContinent DAO will migrate to Mantle Network and use $BIT as its main token.\n\nContinent DAO has committed to reserving 50% of the collections from its \"Free Wi-Fi\" utility NFT with preference in choosing and allocating 30% of its voting governors committee seats designated by BitDAO governance.\n\nBitDAO commits to providing funding to Continent DAO in the amount of $22 million USD, divided into five tranches of $4.4 million USD each, in the form of cryptocurrency assets. The first tranche will be sent after the approval of this proposal, and the remaining tranches will be sent based on milestones and approval from the BitDAO governance.\n\nThe allocation of funds provided by BitDAO will be as follows: 80% will be used for investments, 15% for grants, and 5% for education.\n\nThis project makes sense for BitDAO because it will put the organization, Continent DAO, and the concept of DAOs and AEs in the public eye through pioneering programs in the real-world mass adoption of this partnership through private and government collaboration. This proposal benefits not only the economic side adding value to the $BIT governance token, but also the social and participatory factor among our communities.\n\nRead the full proposal here: https://docs.google.com/document/d/1X1eYw0chuF-ICyPaq0Hl-xReS-0TUTjPZKkMNdAMw78/\n\nSee our track record here:\nhttps://discourse.bitdao.io/t/archive-continent-dao-bringing-mass-adoption-to-bit/1434",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0x596B9A02345930Ae5372D3a8a89774870d299FDA",
+      "totalVotes": 198,
+      "blockNumber": 16147522,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x9f9a1f0099d4f6d6954c3867c083b855371bd476783e57f73f6286b01f56c051",
+      "startTime": {
+        "timestamp": 1670593567
+      },
+      "endTime": {
+        "timestamp": 1671202800
+      },
+      "startTimestamp": 1670593567,
+      "endTimestamp": 1671202800,
+      "currentState": "closed",
+      "choices": [
+        "Yes - Fund Continent DAO",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 242926.72,
+          "choice": 0
+        },
+        {
+          "total": 5972.531,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 245144.7101809518,
+          "choice": 0
+        },
+        {
+          "total": 5972.53084509,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4MDQxOGZmN2YxMTdhMjIwNmI1N2JjMGQ0MGQ3M2UzYWZlM2UzMjAyMjUzZmNiZjRiNDMyOGE0ZDRlMmI4OGZlNA==",
+      "id": "0x0418ff7f117a2206b57bc0d40d73e3afe3e3202253fcbf4b4328a4d4e2b88fe4",
+      "title": "BIP-6.1: EduDAO Launch",
+      "content": "## Context\n\nThe proposal below will initiate the formal launch of EduDAO, the planned delegation of voting rights and the deployment of the first tranche of funding, allowing our community to begin its journey.\n\n## Proposal\n\nBy voting ‘Yes’ on this proposal, you approve:\n\n- The official launch of EduDAO\n\n- The adoption of selection criteria for the initial bootstrapping Steering Committee\n\n- The disbursement of the first tranche of funding in accordance with the original proposal ($5.5m)\n\n### Steering Committee Criteria\n\nIn order to facilitate entity formation, and operations for EduDAO during the Bootstrapping phase, a Steering Committee Council must be selected by the BitDAO community. We propose the following:\n\n1 representative selected by Windranger Labs\n\n1 representative selected by Mirana Ventures\n\n1 representative selected by a majority vote by all participating EduDAO universities (currently: Blockchain at Berkeley, FranklinDAO, Harvard Blockchain Club, MIT Sloan Blockchain Club, Blockchain at Michigan, Blockchain@USC, Oxford Blockchain Society, and Tsinghua University Students Blockchain Association)\n\nAny of these entities can be replaced as representatives on the Steering Committee Council by a BitDAO snapshot vote. The amount of representatives can also be changed by a BitDAO snapshot vote.\n\n[Read the full proposal here](https://drive.google.com/file/d/1ck1JIryR0OW1Esdf4R-mKArv6QRnzGTi/view?usp=sharing)",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xAAB8572B96987EDD51Ba5f2Ea57Ed0453f0a7E9A",
+      "totalVotes": 149,
+      "blockNumber": 15486750,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x0418ff7f117a2206b57bc0d40d73e3afe3e3202253fcbf4b4328a4d4e2b88fe4",
+      "startTime": {
+        "timestamp": 1662490800
+      },
+      "endTime": {
+        "timestamp": 1663095600
+      },
+      "startTimestamp": 1662490800,
+      "endTimestamp": 1663095600,
+      "currentState": "closed",
+      "choices": [
+        "Yes - Launch EduDAO",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 199043260.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 199043292.93320808,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4ODViYjc3YjM1MGFlZmIzOWM1NjI1ZmE1YjJkOTA3ZjQxMWI0Y2MwMjIxMTM1MWM3MTdiZDUxY2U2N2JhYTQ4YQ==",
+      "id": "0x85bb77b350aefb39c5625fa5b2d907f411b4cc02211351c717bd51ce67baa48a",
+      "title": "BIP-14: Updated Parameters and Initiatives",
+      "content": "This proposal is authored by [Ben of Bybit](https://twitter.com/benbybit)\n[Link to original forum post](https://discourse.bitdao.io/t/discussion-updated-parameters-and-initiatives/2995)\n\n## Context\n\nThis proposal has been inspired by community feedback regarding: 1) the pathway for decentralization of $BIT holdings and reduction of total supply; and 2) a focus on building and user adoption.\n\n## Proposal\n\nParameter Updates\n\n1. The [Contribution Asset Mix](https://docs.bitdao.io/partners/bybit-pledge) shall be changed to 100% $BIT starting 2022 September 16th.\n2. Contributed $BIT shall be burnt (by sending directly to the nominated burn address).\n3. [Target Daily Purchase Amount (TDPA)](https://snapshot.org/#/bitdao.eth/proposal/0xa1cc8e7254fd7a28c5e740070960baf2cf5dd3fb06744ef6746e60a5e6f3853d) shall be paused from 2022 September 16th.\n\nNew Initiatives\n\n4. Bybit shall bootstrap the R&D and go-to-market of BitNetwork (temporary name).\n\n## Additional Information\n\n#### Commentary on Parameter Updates\n\nBased on strategic needs, the parameters (Contribution Asset Mix, Burn, and TDPA) can be dynamically adjusted via proposal for strategic needs. Factors to consider include:\n\n\n*Burn and Decentralization*\nDecentralization of $BIT holdings is required for the long-term security of BitNetwork, and governance function of BitDAO. We can kick start this process by Bybit contributing and burning $BIT.\n\n*Use of Funds*\nThe current BitDAO treasury holds ~$1bln of non-$BIT assets, and 3bln+ $BIT units — which is sufficient to fund existing ecosystem partners (e.g. [Game7](https://game7.io/) and [zkSync](https://zksync.io/) / [zkDAO](https://zkdao.io/), etc.) as well as a handful of new large initiatives. Going forward, we recommend that BitDAO is highly selective with new initiatives, by applying a “flywheel for growth” mentality, and prioritizing synergies with BitDAO ecosystem partners from a user and technology perspective.\n\n#### More on BitDAO x Infra\n\nAs a follow-up to the original forum [post](https://discourse.bitdao.io/t/discussion-bitdao-l1-infrastructure/2508)\n\nBitNetwork (temporary name for BitDAO Protocol) will be a suite of Ethereum scaling solutions including an optimistic rollup and zk rollup built using an iterative modular chain approach, and supported by BitDAO’s native token $BIT. More details will be provided shortly.\n\nIt is designed to bolster support for high throughput decentralized applications (dApps) — from decentralized derivatives exchanges (DEXs) and gaming, to operations of decentralized autonomous organizations (DAOs).\n\nImmediate go-to-market advantages include synergies with BitDAO ecosystem; and synergies with Bybit users, distribution networks, relationships, and exchange onramps. To accelerate the timelines for BitNetwork, Bybit will commit people and resources to bootstrapping: global R&D efforts (including core protocol development, protocol research, user portals, developer portals); and go-to-market efforts (grants, accelerators, ecofunds).\n\n#### $BIT, BitDAO, and BitNetwork\n\n$BIT will represent: the protocol value of BitNetwork, value and governance control over the existing BitDAO treasury and initiatives, exposure to BitDAO ecosystem partners, the Bybit contribution, and continued use cases across on-chain and off-chain platforms.\n\nWe predict that the circulating supply of $BIT will decrease over time through the following mechanisms: contribution and burn, direct treasury burn, the tokenomic design of BitNetwork, and utility integrated into BitDAO ecosystem partners.\n\nThe focus on “build” will allow BitDAO to participate in the fastest growing sectors such as ETH scaling, zero knowledge technologies, Web3 applications, etc. This direction coupled with significant reduction in the supply of $BIT will have many advantages for $BIT holders.\n",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 133,
+      "blockNumber": 15456944,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x85bb77b350aefb39c5625fa5b2d907f411b4cc02211351c717bd51ce67baa48a",
+      "startTime": {
+        "timestamp": 1662091392
+      },
+      "endTime": {
+        "timestamp": 1663041600
+      },
+      "startTimestamp": 1662091392,
+      "endTimestamp": 1663041600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 198805870.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 198805957.45083645,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4MzljZjBlODE2YjY5NjIxM2I5M2U4NjAyYjNmOTAzMjk5ZjVjNDM5OTViNDkzMTk4YjgyYTEwZTdiZTJjNGViMA==",
+      "id": "0x39cf0e816b696213b93e8602b3f903299f5c43995b493198b82a10e7be2c4eb0",
+      "title": "BIP-13: AfricaDAO: Accelerating Web3 Adoption Across The Fastest Growing Continent",
+      "content": "This proposal is authored by: Alice from AfricaDAO, James & Annemarie from Jambo, Jonathan Allen from Mirana Ventures, Eden Kidane from Windranger Labs, Sandeep Nailwal from Polygon, Santiago R Santos, Piers Kicks from Delphi Digital, and Marius Barnett from Karatage\n\n# Background\n\nAfrica has been closely watched as the next big growth market for nearly a decade — and for good reason: the African continent is home to some of the youngest populations in the world, internet connectivity is expanding at exponential rates, and it is increasingly mobile phone-enabled.\n\nRecent years have seen hundreds of tech hubs emerging across the African continent, driving innovation and providing significant employment, especially for its youth population. In 2020, The African Development Bank reported that 22% of Africa’s working-age population are starting businesses — the highest rate of entrepreneurship in the world. There is truly a blossoming community of young, driven entrepreneurs looking to build. With over 700M individuals owning cell phones (nearly 72% of youth aged 15-24) and the use of 4G expected to double over the next three years, hundreds of millions of Africans are extremely well positioned to launch, build, and participate in the future of web3.\n\n# How this benefits BitDAO:\n\nIn order to truly succeed, BitDAO will need to engage millions of users around the world. By positioning itself to support one of the largest, fastest-growing, and most promising markets, BitDAO stands to benefit immensely.\n\nThere is significant alignment with other previously launched BitDAO Autonomous Entities. Game7 stands to engage hundreds of millions of potential mobile users and empower them through new primitives such as those seen in P2E games. EduDAO would be extremely additive to African universities through collaborating and sharing knowledge to help students prepare for a career in web3. zkDAO is extremely ethos aligned in assisting in bringing truly community-owned and affordable scalability to future web3 applications usable by all. AfricaDAO will work with all of the existing BitDAO AE’s to expand their communities to the African continent.\n\n# Proposal:\n\nBelow we propose creating AfricaDAO, which will utilize a three-pronged approach to accelerating Africa into a hub for web3 innovation. $105M has already been soft committed, and $20M in funding is requested from the BitDAO community as an anchor partner.\n\n[Read the full proposal here](https://drive.google.com/file/d/116m5tMxQ3Dhmd7DrgRF_dlURPYZpFruq/view?usp=sharing2/view?usp=sharingS8c9gwfU1ndIhXF6PNZrMs-G/view?usp=sharingODqYJsyf800AqxQ/view?usp=sharing)\n\nFunding is contingent on AfricaDAO fulfilling BitDAO legal review and best practices.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xAAB8572B96987EDD51Ba5f2Ea57Ed0453f0a7E9A",
+      "totalVotes": 38,
+      "blockNumber": 15258672,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x39cf0e816b696213b93e8602b3f903299f5c43995b493198b82a10e7be2c4eb0",
+      "startTime": {
+        "timestamp": 1659383834
+      },
+      "endTime": {
+        "timestamp": 1660060800
+      },
+      "startTimestamp": 1659383834,
+      "endTimestamp": 1660060800,
+      "currentState": "closed",
+      "choices": [
+        "Yes - Fund AfricaDAO",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 180892780.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 180892781.8722025,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4MjUzZDQzZmRlNjYzYTVjMmI3MDliYTFjMmU0YmJlNmJjZTFmNDc2ZWNjYzk1N2IxNzQ0NTI1M2ZiNmFlMTRkZg==",
+      "id": "0x253d43fde663a5c2b709ba1c2e4bbe6bce1f476eccc957b17445253fb6ae14df",
+      "title": "BIP-5.1: Game7 Bootstrapping Phase",
+      "content": "# Background\nIn October 2021, the Game7 proposal attracted over 2000 individuals interested in contributing to the DAO. It started with multiple separate groups, working independently to define the next steps, which then evolved into a vibrant community of game developers and web3 builders discussing governance structures, strategy, and initiatives aligned with the DAO’s mission: to accelerate the adoption of blockchain gaming.\n\n# Proposal\nThe proposal below will initiate the formal kick-off of Game7 DAO, the planned delegation of voting rights, and the deployment of the first tranche of funding, allowing our community to begin its journey.\n\nWe’ve outlined our vision, mission, values, and grassroots initiatives ideated by our early contributors. We identified key objectives to drive a progressive plan for community ownership and outlined how you can start contributing today.\n\nBy voting ‘Yes’ on this proposal, you approve:\n\n-The official launch of Game7 DAO\n-Voting Rights delegation to committees\n-For topics such as Grants, Investments, and Events → Decision-making by Committee\n-The development of a plan to allow voting rights holders to elect, propose, and replace committees and their members.\n-Official BitDAO representatives for Game7 are Jon Allen and cateatpeanut.\n-Approve the first $80M tranche of funding by BitDAO (an additional $20M from Forte expected after Forte approval) for a total of $100M\n-Approve the operational funds budget of up to 5% of each tranche\n-Approve the Ownership Rights Transfer allocation\n\n[Read the full proposal here](https://docs.google.com/document/d/1dZ39ew2LS-vSPv3683_8QtTY1Y8Yy7EyMefbpXtT_yw/edit#).\n\nGLHF!",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xAAB8572B96987EDD51Ba5f2Ea57Ed0453f0a7E9A",
+      "totalVotes": 39,
+      "blockNumber": 15257078,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x253d43fde663a5c2b709ba1c2e4bbe6bce1f476eccc957b17445253fb6ae14df",
+      "startTime": {
+        "timestamp": 1659362440
+      },
+      "endTime": {
+        "timestamp": 1660060800
+      },
+      "startTimestamp": 1659362440,
+      "endTimestamp": 1660060800,
+      "currentState": "closed",
+      "choices": [
+        "Yes - initiate G7",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 180892860.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 180892881.8722025,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4YTFjYzhlNzI1NGZkN2EyOGM1ZTc0MDA3MDk2MGJhZjJjZjVkZDNmYjA2NzQ0ZWY2NzQ2ZTYwYTVlNmYzODUzZA==",
+      "id": "0xa1cc8e7254fd7a28c5e740070960baf2cf5dd3fb06744ef6746e60a5e6f3853d",
+      "title": "BIP-12: Update $BIT Purchase Program",
+      "content": "This proposal is authored by [cateatpeanut](https://twitter.com/CatEatPeanut)\n\n# Context\nThis proposal is a parameter update to [BIP-9: $BIT Purchase Program](https://snapshot.org/#/bitdao.eth/proposal/0xb418608f1691d2f11468766e076ec7ac24aaafbdae85c0ea5f1e219eb67684ee).\n\nCurrent statistics: annualized treasury inflows exceeding $800M ([based on last 30 days](https://www.bitdao.io/analytics)); [treasury value](https://etherscan.io/address/0x78605Df79524164911C144801f41e9811B7DB73D) of ~$720M (excluding $BIT); market capitalization of ~$2.9B (excluding 30% of $BIT to be held within the treasury).\n\nRecommendation: increase Target Daily Purchase Amount (TDPA) of $BIT\n\n# Proposal\n1. Adjust the TDPA from $0.7M to $1.5M USDT per day, starting 2022 July 1st.\n\n2. Fund the purchasing with assets from the BitDAO Treasury. This change enables increased flexibility and simplicity for setting the TDPA, as it will no longer be capped by Bybit’s monthly contribution amount.\n",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 19,
+      "blockNumber": 15008254,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0xa1cc8e7254fd7a28c5e740070960baf2cf5dd3fb06744ef6746e60a5e6f3853d",
+      "startTime": {
+        "timestamp": 1655911074
+      },
+      "endTime": {
+        "timestamp": 1656561600
+      },
+      "startTimestamp": 1655911074,
+      "endTimestamp": 1656561600,
+      "currentState": "closed",
+      "choices": [
+        "Yes - adjust parameters",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 105511704.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 105511702.5,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OnFtdGFzdmU1c3RuNnVtMXp5Z3NuZjNlcHJweHdwMjhqNWttZjNkNWJwbWU5a2o=",
+      "id": "QmTaSve5stn6um1zygSNF3ePrPxwp28J5kmf3d5bPmE9Kj",
+      "title": "BIP-11: BitDAO Rebrand by Windranger ",
+      "content": "This proposal is authored by [Cole Jorissen](https://twitter.com/cole_handle) (Creative Director) & other members of [Windranger Labs](https://twitter.com/WindrangerLabs)\n\n[Link to BitDAO forum discussion topic](https://discourse.bitdao.io/t/proposal-bitdao-rebrand-by-windranger-labs/2142/)\n\nBitDAO has evolved and grown rapidly. To support this evolution, we’re proposing a new brand and website that will serve as a foundation for all of us to continue to grow the ecosystem into the future. We believe this new brand and landing page better represents the state of activities and development; and highlights areas where builders, partners, and community members can join the mission. We recommend implementing the website and invite the community to contribute to future updates. \n\nThis rebrand and updated landing page will be implemented by [Windranger Labs](https://twitter.com/WindrangerLabs). There will be no request for BitDAO funding for this proposal.\n\n[Click here to view the demo site](https://bitdao-rebrand.vercel.app)\n\n[Click here to view the proposal](https://www.dropbox.com/s/8of1pd0uux6lqev/BitDAO%20Rebrand%20Soft%20Proposal%20April%202022.pdf?dl=0)\n\n\n\n\n\n\n\n\n",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xD4E64896CEF5D204A911014a5698752366C5b586",
+      "totalVotes": 36,
+      "blockNumber": 14673435,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/QmTaSve5stn6um1zygSNF3ePrPxwp28J5kmf3d5bPmE9Kj",
+      "startTime": {
+        "timestamp": 1651158342
+      },
+      "endTime": {
+        "timestamp": 1652112000
+      },
+      "startTimestamp": 1651158342,
+      "endTimestamp": 1652112000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 105275504.0,
+          "choice": 0
+        },
+        {
+          "total": 28988.914,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 105275500.55780824,
+          "choice": 0
+        },
+        {
+          "total": 28988.913922356296,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4YjQxODYwOGYxNjkxZDJmMTE0Njg3NjZlMDc2ZWM3YWMyNGFhYWZiZGFlODVjMGVhNWYxZTIxOWViNjc2ODRlZQ==",
+      "id": "0xb418608f1691d2f11468766e076ec7ac24aaafbdae85c0ea5f1e219eb67684ee",
+      "title": "BIP-9: $BIT Purchase Program",
+      "content": "This proposal is authored by [cateatpeanut](https://twitter.com/CatEatPeanut) \n\nThe BitDAO forum discussion thread: https://discourse.bitdao.io/t/proposal-bit-purchase-program/1995\n\n# Background\nThe BitDAO Treasury is forecasted to grow via several avenues:\n1. Bybit contribution, which is transferred monthly based on the following [parameters](https://docs.bitdao.io/partners/bybit-pledge). The current contribution is composed of 50% ETH and 50%USDT/USDC, see [details]( https://www.bitdao.io/analytics/).\n2. Deployment of assets to Autonomous Entities (Game7, zkDAO, EduDAO, etc…), labs, venture/swaps, and yield opportunities. These are long term strategies which aim to achieve a flywheel of growth for the BitDAO Treasury.\n3. Growth of project tokens in the BitDAO Treasury.\n\n# Purpose\nThe purpose of the $BIT Purchase Program is to increase the economic connection between BitDAO Treasury growth and the $BIT token.\n\n# $BIT Purchase Parameters\n1. The “Targeted Daily Purchase Amount (TDPA)” shall initially be set at $700,000 per day (approximately $21M per month).\n2. TDPA can be dynamically adjusted pending BitDAO vote:\n     - If funds are required for asset deployment opportunities, the TDPA can be decreased, with a lower bound of zero.\n     - If the BitDAO Treasury is growing faster than forecasted asset deployment opportunities, the TDPA can be increased.\n     - BitDAO voters shall also consider whether the prevailing $BIT price is attractive for purchase.\n3. Purchasing shall occur on publicly available secondary markets including CEXs and DEXs.\n4. For transparency, the daily purchases shall be executed linearly with a bot.\n\n### Phase 1 Purchasing\n5. Initial purchases shall be conducted as a component of Bybit’s monthly contributions:\n   - Part of the Bybit monthly contribution shall be used to purchase $BIT and then be contributed to the BitDAO Treasury;\n   - Phase 1 TDPA will not exceed Bybit’s monthly pledged contribution amount;\n   - The remaining pledged contribution amount not used for $BIT purchase purposes shall retain the prevailing contribution asset mix (currently 50% ETH, 50% USDC/USDT).\n\n### Option: Phase 2 Purchasing\n6. In the future, pending BitDAO vote, a reputable third-party service provider can perform $BIT purchases on behalf of BitDAO, on the condition that all purchasing occurs on publicly available secondary markets (DEXs, CEXs).\n\n### Option: Burn\n7. In the future, as a separate proposal topic, we can explore the burn of $BIT from the BitDAO Treasury.\n\n### Timing\n8. Start 2022 June 1st.\n\n# Other Considerations\nThe Targeted Daily Purchase Amount (TDPA) should aim to balance between: 1) the growth of BitDAO Treasury; and 2) opportunities to deploy assets for long-term growth, via: autonomous entities, labs, venture/swaps, and yield.\n\nThe recommendation is to be conservative with TDPA at the start, and retain enough treasury assets for the opportunities stated above.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 32,
+      "blockNumber": 14652175,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0xb418608f1691d2f11468766e076ec7ac24aaafbdae85c0ea5f1e219eb67684ee",
+      "startTime": {
+        "timestamp": 1650867489
+      },
+      "endTime": {
+        "timestamp": 1651723200
+      },
+      "startTimestamp": 1650867489,
+      "endTimestamp": 1651723200,
+      "currentState": "closed",
+      "choices": [
+        "Yes - start program",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 210098320.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 210098312.09127277,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4MGY2ZDM5ZjQwYjQyZDgyOWM2MmMwN2E1NzRiNGM4ZjMyMDcxNTkyNmE4NzJlNDA0OTIzODc2NDlhMTlkYTlhOA==",
+      "id": "0x0f6d39f40b42d829c62c07a574b4c8f320715926a872e40492387649a19da9a8",
+      "title": "BIP-10: BitDAO Owned Liquidity for $BIT",
+      "content": "This proposal is authored by [cateatpeanut](https://twitter.com/CatEatPeanut) \n\n\n# Background\nThe [SushiSwap Onsen](https://medium.com/bitdao/2x-reward-farms-on-sushiswap-ff6099bb957f) rewards 4 are expected to expire on 2022 April 26th. After this the $BIT-ETH pool on [SushiSwap](https://app.sushi.com/farm?chainId=1) will no longer be incentivized by $BIT rewards, which may lead to a decrease in the $BIT-ETH LP (liquidity provider) amount.\n\n# Proposal\n- For the BitDAO Treasury to provide liquidity for $BIT on DEXs.\n- Initial setting shall be approximately $60M Uniswap v3 BIT-ETH full range with 0.3% swap fee.\n- DEX selection and settings can be adjusted via subsequent BitDAO proposals.\n\n# Execution\n$BIT and ETH shall be transferred out of the [BitDAO Treasury](https://etherscan.io/address/0x78605Df79524164911C144801f41e9811B7DB73D), sent to a trusted operator for BIT-ETH LP creation, and returned to the BitDAO Treasury.\n\n# Analysis\n### Why do we need DEX liquidity?\n- To provide avenues for DeFi users to trade $BIT.\n- To interact with DeFi protocols.\n\n\n### Why should BitDAO Treasury provide liquidity for $BIT?\n- The BitDAO Treasury has surplus $BIT and $ETH assets that are not currently utilized.\n- Current Sushi Onsen rewards for the $BIT-ETH pool are set at 100,000 $BIT units per day. By providing its own liquidity, BitDAO can reduce the costs of incentivizing liquidity. Subsequent incentivization of liquidity can be proposed later, especially in support of future BitDAO DeFi partnered projects.\n- For further details on the benefits of “protocol owned liquidity”, there are good articles from [OlympusDAO](https://www.olympusdao.finance/), including:\n[FAQ - Olympus](https://docs.olympusdao.finance/main/basics/basics#why-is-pol-important)\n[Medium Article - Olympus](https://olympusdao.medium.com/introducing-olympus-pro-d8db3052fca5)\n\n### Why Uniswap V3?\nBased on analysis of [Ethereum Layer1 DEX volumes and users](https://www.coingecko.com/en/dex), Uniswap v3 has the highest trading volume and users. Other contenders are Uniswap v2, SushiSwap, and Balancer.\n\nDepending on strategic opportunities with other DeFi protocols, especially around structured products, we may propose to move the liquidity to another DEX.\n\n### Why Full Range?\nUniswap V3 allows the liquidity provider to quote a narrower range “concentrated liquidity”. For more information, read this [Uniswap V3 Article](https://uniswap.org/blog/uniswap-v3).\n\nHowever, a concentrated liquidity position is not recommended for the BitDAO Treasury as: 1) suffers increased impermanent loss; and 2) prices may move out of range and it is difficult for BitDAO to actively manage the position (as proposals take more than 2 weeks).\n\n### Can we explore options with other DEX Partners?\nSome exploratory conversations for a Balancer 80/20 pool are in progress.\n\nThe BitDAO forum discussion thread: https://discourse.bitdao.io/t/proposal-bitdao-owned-liquidity-for-bit/2039",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xb73eaAC0215B57B31ca041d9c9700adB7013b556",
+      "totalVotes": 27,
+      "blockNumber": 14652214,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x0f6d39f40b42d829c62c07a574b4c8f320715926a872e40492387649a19da9a8",
+      "startTime": {
+        "timestamp": 1650869473
+      },
+      "endTime": {
+        "timestamp": 1651550400
+      },
+      "startTimestamp": 1650869473,
+      "endTimestamp": 1651550400,
+      "currentState": "closed",
+      "choices": [
+        "Yes - start on UniV3",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 210093340.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 210093322.09127283,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4YzU3NjQ1MDhhZDBhMjllZDY0NjMxNjE5NzY4NmY2NjFiZWU0NzJmZDVhYjA1MTc5MzhiZjAzOWEzZTgyZjUzZQ==",
+      "id": "0xc5764508ad0a29ed646316197686f661bee472fd5ab0517938bf039a3e82f53e",
+      "title": "BIP-8: PleasrDAO x BitDAO",
+      "content": "![PleasrDAO Logo](https://i.imgur.com/LiUvoJq.png)\n\n---\n\n**OPPORTUNITY:**\n\nImagine a world run by communities, not centralized companies. A world in which bottom-up engagement and agency for individuals is celebrated and supported, rather than compartmentalized and extracted. BitDAO is building an ecosystem of fractal growth made possible by empowering communities in specific industries, and enabling them to build to heights not previously possible. A spirit of mutualism has arisen in this model, in which BitDAO provides resources to passionate and capable individuals and their success leads to more opportunities for BitDAO to provide resources. This virtuous cycle is beginning to show the world that life need not be zero sum. Together we are strong. Together we can change the world. \n\nNo single group can achieve this goal alone, no matter how passionate or motivated - the ethos of “partner when possible” is imperative to succeed. By aligning with other like-minded communities we can expedite this vision; in our opinion, other large and successful DAOs are the perfect partner to actualize this ideal. There are several ways of aligning: through ecosystem support of AEs (as seen with Game7, EduDAO, and zkDAO), token swaps (as seen with the ~$200M FTT <-> BIT proposal), and through direct investment. \n\nPleasrDAO is one of the most well-known DAOs in the world with a fantastic history of innovation in digital art. It is supported by nearly 85 members of which most, if not all, are seen as global leaders in the crypto and digital art domains. They are open to investment to engage strategic partners and amplify their ability to create delightful experiences and community engagement. This community has continually shown itself to be a good actor by supporting some of the most important global causes and individuals. \n\nWe have been in conversation with them in regard to a potential partnership in which BitDAO would invest in PleasrDAO. The investment amount would be $6.5M (95% ETH/USDT and 5% in BIT), and lead to many potential collaborative efforts between the two communities. \n\n > *Addendum: This proposal is being sent to Snapshot vote due to time constraints related to the funding opportunity. Due to legal requirements, the exact details of the fundraise cannot be disclosed; however Windranger, Mirana, and Alameda have reviewed the terms and are supportive of this partnership. For more insight regarding the legal issues faced at the cutting edge of what DAOs can (and can't) do, please refer to the [editorial](https://medium.com/mirana-ventures/what-cant-daos-do-b1fbe78726ab) recently published by Mirana Ventures Managing Partner and BitDAO core contributor Jon Allen.*\n\n\n\n**Read the full proposal here:**\n[Drive Link](https://drive.google.com/file/d/1P-VN4Ej0BV-2fBzQ6N3qduwhWWhZiCLT/view?usp=sharing)\n[IPFS Link](https://bafybeig55mzponyatsjq2di6wfbcrxhd5aou4ltvefoxpguqjgxym7ak6a.ipfs.infura-ipfs.io/)\n\n\n\n",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0x38488DCa8dccFEebfD3CC298436134e3b3aF6B8B",
+      "totalVotes": 43,
+      "blockNumber": 14587850,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0xc5764508ad0a29ed646316197686f661bee472fd5ab0517938bf039a3e82f53e",
+      "startTime": {
+        "timestamp": 1649997289
+      },
+      "endTime": {
+        "timestamp": 1650599940
+      },
+      "startTimestamp": 1649997289,
+      "endTimestamp": 1650599940,
+      "currentState": "closed",
+      "choices": [
+        "Yes - Fund PleasrDAO",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 201785540.0,
+          "choice": 0
+        },
+        {
+          "total": 3160.9902,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 201785507.33733937,
+          "choice": 0
+        },
+        {
+          "total": 3160.9901098,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4N2YxZWM2MDFiZjlkOTU4NTVhMzhiMTQxYTNkMzkzZTQxYWUxMmJlNGNjYmE0YzU2MTViNmI2ZWMwMjYxYTg0NA==",
+      "id": "0x7f1ec601bf9d95855a38b141a3d393e41ae12be4ccba4c5615b6b6ec0261a844",
+      "title": "BIP-7: zkDAO",
+      "content": "Authors: Alex Gluchowski, Marco Cora, and Zoé Gadsden from Matter Labs & Jon Allen from Mirana Ventures\n\nHighlights:\nThis proposal is intended to promote Ethereum scalability and adoption of zkSync as a Layer2 scaling solution (utilized by dapps, tools, exchanges, etc…)\n\nzkSync will fully decentralize governance of its platform, and open source all development making this the scaling solution most aligned with the crypto community and BitDAO ethos currently being deployed\n\nThe team will provide a scaling solution and tools for BitDAO and DAOs in general.\n\nInitial mandate: grants 7.5%, security/audit 7.5%, strategic capital 70%, R&D 5%, education 5%, operations 5%.\n\nCommitment by BitDAO of $200M in various crypto assets across 5 tranches, first tranche being $40M, and subsequent tranches will be released based on achieved milestones and BitDAO governance vote approval.\n\nCommitments from other parties are possible which may lead to dilution of BitDAO partner rights and voting rights in zkDAO. Major dilutions will be approved by the BitDAO representative and BitDAO governance vote.\n\nBitDAO’s interests will be managed by the BitDAO representative, who can be replaced via BitDAO vote.\n\nWhy this makes sense for BitDAO: zkSync is likely to be a leader among ETH L2’s and is extremely aligned with BitDAO’s mission to support builders and empower the decentralized community. This partnership enables BitDAO to gain significant exposure to the zkSync ecosystem (via partner rights in zkDAO, and projects on zkSync which will be funded via strategic capital allocation).\n\nRead the full proposal here: https://docs.google.com/document/d/1a5crhI-PDqovcOTtr67XRE_94AU6NR6nP4QfbuB5tKQ/edit?usp=sharing\n\nIPFS link: https://ipfs.infura.io/ipfs/QmQb9SgHmYW3c2At9z4TN6F45twPft9gx581tDPeWEWwAn\n\n",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xAAB8572B96987EDD51Ba5f2Ea57Ed0453f0a7E9A",
+      "totalVotes": 11,
+      "blockNumber": 14030915,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x7f1ec601bf9d95855a38b141a3d393e41ae12be4ccba4c5615b6b6ec0261a844",
+      "startTime": {
+        "timestamp": 1642528800
+      },
+      "endTime": {
+        "timestamp": 1643306400
+      },
+      "startTimestamp": 1642528800,
+      "endTimestamp": 1643306400,
+      "currentState": "closed",
+      "choices": [
+        "Yes - Fund zkDAO",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 171514750.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 171514753.63528633,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4NDgyNGVlNjdlNjhmY2MyNzE5OTY2MjhjYjQ3ZmM0NzAyYjQwMzBhMDFkZjg4YTE5MzFmZTY1ODQ5ZmJhZDI5NA==",
+      "id": "0x4824ee67e68fcc271996628cb47fc4702b4030a01df88a1931fe65849fbad294",
+      "title": "BIP-6: Education DAO",
+      "content": "Authors: Jonathan Allen from Magnus Ventures and Jocelyn Weber from UC Berkeley RDI\n\nUniversities are an amazing place for untapped talent and a small amount of support, guidance, and funding can have a profound effect on the innovators of the future. We have already seen numerous founders and projects spin out of university groups and we believe this trend will not only continue but greatly increase. Faculty and University Centers are beginning to take interest in this burgeoning space and supporting academic research and enabling professors to begin focusing more time on solving fundamental problems will benefit everyone.\n\nThis proposal ensures that universities know BitDAO is fully supportive of their endeavors as well as aligns BitDAO to sponsor first time founders, their projects, and future autonomous entities. In addition, one of the main issues BitDAO currently faces is a lack of critical engagement and feedback from the community. This proposal is a way of quickly engaging some of the brightest minds and bringing them into the BitDAO community to focus on exactly that.\n\nRead the full proposal here: https://docs.google.com/document/d/1kYLI50a4iNmOml3sOjT8_S8W00qSMaZXWQXcYqWa1l4/edit?usp=sharing\n\nIPFS Link: https://ipfs.infura.io/ipfs/QmT8Px837aMA3YG8jkbW8JQUDeaXKxrTm6DhLr6ntc1RxH\n\nDiscuss here:\nhttps://discourse.bitdao.io/t/discussion-education-dao/1283/31",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xAAB8572B96987EDD51Ba5f2Ea57Ed0453f0a7E9A",
+      "totalVotes": 12,
+      "blockNumber": 13772532,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0x4824ee67e68fcc271996628cb47fc4702b4030a01df88a1931fe65849fbad294",
+      "startTime": {
+        "timestamp": 1639072800
+      },
+      "endTime": {
+        "timestamp": 1639677600
+      },
+      "startTimestamp": 1639072800,
+      "endTimestamp": 1639677600,
+      "currentState": "closed",
+      "choices": [
+        "Yes - Fund Education DAO",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 153077700.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 153077690.9593407,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OjB4YmQxM2U2NzZjMzc1ZTEzNmVmOTQzYmY5NGQyZWUwN2VhNzA1ZDZlZGY5N2M0MzQ2ZWE0OGM4MWZmYTIzZjhkMA==",
+      "id": "0xbd13e676c375e136ef943bf94d2ee07ea705d6edf97c4346ea48c81ffa23f8d0",
+      "title": "BIP-5: Blockchain Gaming Ecosystem Acceleration DAO",
+      "content": "This proposal was co-authored by Ronen Kirsh from Forte.io and Jon Allen from Magnus.vc\n\nA huge thanks to the numerous community members who helped to shape and evolve this proposal into the final product, and the passionate initial Community Partners who volunteered to help guide this initiative. \n\nWe propose a $500M blockchain ecosystem acceleration DAO specifically designed and built to accelerate the adoption and development of the blockchain gaming industry, and become the largest unbiased, impartial blockchain gaming support network in the world.\n\nGame7 will focus on three key levers to spur greater adoption of blockchain-enabled game economies for a global base: open-source public goods fundings, education, and strategic capital with industry know-how.\n\nGame7 will set ambitious returns and social impact metrics, measure itself against quantifiable results and emphasize community participation. We will bring together the global gaming community and lead the transition from the current status quo to a new, prosperous meta-world.\n\nView the full proposal here: https://docs.google.com/document/d/10spr-QoJu-V4maU-NZ39WgTn1gC5sd4LRyuXaWuP_Bg/edit?usp=sharing\n\nIPFS Link: https://ipfs.infura.io/ipfs/QmSgahrW7SAC2HvYWuXnvjphwosjv4YcPDmynJ1rk31btp",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xAAB8572B96987EDD51Ba5f2Ea57Ed0453f0a7E9A",
+      "totalVotes": 11,
+      "blockNumber": 13576964,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/0xbd13e676c375e136ef943bf94d2ee07ea705d6edf97c4346ea48c81ffa23f8d0",
+      "startTime": {
+        "timestamp": 1636394400
+      },
+      "endTime": {
+        "timestamp": 1637085600
+      },
+      "startTimestamp": 1636394400,
+      "endTimestamp": 1637085600,
+      "currentState": "closed",
+      "choices": [
+        "Yes - Fund Game7",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 250259860.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 250259862.3241316,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OnFteGtkaDh1NTR3aGdrZ3VwZWMzaXIzdXhmMXpxZWthZGNxdG01Y3JhZm5wdGY=",
+      "id": "QmXKDH8U54wHgKGUpeC3iR3UxF1ZQekADCQtM5crafnptF",
+      "title": "BIP-4: Swap BIT for FTT",
+      "content": "This proposal has been submitted by Alameda.\nCo-authored with cateatpeanut.eth from Windranger.\n\n### **Background**\nAlameda is a quantitative trading firm bringing expertise from Wall Street and Silicon Valley to provide liquidity in crypto markets worldwide. Alameda is also an investor in FTX, a top tier crypto exchange, and a holder of their exchange token, FTT ([https://ftx.com/intl/ftt](https://ftx.com/intl/ftt)). \n\n### **Terms**\n- 100,000,000 BIT tokens (~1% total supply) for 3,362,315 FTT tokens (~1% total supply)\n- Tokens transferred immediately if the proposal passes\n    - FTT to BitDAO Treasury address: 0x78605df79524164911c144801f41e9811b7db73d\n    - BIT to Alameda address: 0x84D34f4f83a87596Cd3FB6887cFf8F17Bf5A7B83\n- Public commitment not to sell each other's tokens for 3 years.\n\n### **Why this makes sense for Alameda**\n- We hold a similar vision for a decentralized and tokenized economy.\n- BitDAO has an open mandate and proposal process, and is massively scalable through the creation of specialized Autonomous Entities (such as artist guilds, farming cooperatives, ecosystem funds). BitDAO is likely to be the world's largest and most influential DAOs. Alameda wants to contribute to proposals and have voting power through BIT.\n\n### **Why this makes sense for BitDAO**\n- Alameda can bring great ideas and proposals. BitDAO is open to all ideas and is chain and project agnostic. It is up to BIT token holders to approve and reject proposals.\n- Alameda is a reputable and significant player in the crypto industry, with a track record of supporting builders, and executing on ideas.\n- Exposure to Alameda and to the FTT community.\n- Exposure to FTX performance through FTT. A great addition to the existing Bybit pledge.\n- Media coverage around this swap.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0x84D34f4f83a87596Cd3FB6887cFf8F17Bf5A7B83",
+      "totalVotes": 12,
+      "blockNumber": 13447300,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/QmXKDH8U54wHgKGUpeC3iR3UxF1ZQekADCQtM5crafnptF",
+      "startTime": {
+        "timestamp": 1634702400
+      },
+      "endTime": {
+        "timestamp": 1635566400
+      },
+      "startTimestamp": 1634702400,
+      "endTimestamp": 1635566400,
+      "currentState": "closed",
+      "choices": [
+        "Yes - Swap BIT for FTT",
+        "No "
+      ],
+      "results": [
+        {
+          "total": 136327490.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 136327479.01894313,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OnFtcWlxbHplcWN3dXhzbGRrcG90aWNlOHZkY2VrY3puZHk0eWN6cWVtanU4czI=",
+      "id": "QmQiqLzEQcwUXsLdKPoTiCe8vdCEKczndY4YczQeMju8s2",
+      "title": "BIP-3 Reduce Proposal Threshold",
+      "content": "Original forum topic here:\nhttps://discourse.bitdao.io/t/discussion-reduce-proposal-threshold/906\n\nBackground\nThe current Proposal Threshold is set to ~10M BIT tokens.\n\nNote that the Proposal Threshold is the minimum number of delegated BIT an account needs to submit a proposal, and Voting Threshold is minimum number of delegated BIT that needs to vote on that proposal to be valid (currently 100M BIT).\n\nProposal: Reduce Proposal Threshold\n\nBenefits:\nEnable more ideas to be proposed.\n\nDownsides:\nIncreased need for moderation. For example: 1) Proposals that do not meet the minimum vote duration of 7 days; or 2) Proposals that are not executable such as “lets partner with DAO XYZ”.\n\nIn our opinion, token swaps and partnerships require negotiation and analysis of key terms (such as exchange rates, vesting periods, use-cases for BIT token) and reasons why this cooperation makes sense for both parties. They are also often contingent on discussions and polling in the partner communities. These discussions need to happen before a token swap proposal goes to vote.\n\nToken swap coordination, exploratory discussions and proposal ideation are more suited to the BitDAO Discourse and the BitDAO Discord.\n\nRecommendation\nWhile proposal templates, guidelines, and moderation policies have not yet been defined, we recommend keeping the proposal threshold on the higher end: approximately 200,000 Delegated BIT.\n\n*This proposal is authored by Cateatpeanut of the Windranger Labs team. All opinions are my own.",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0x09da12f0977eD3534124a4f593D9C1a243beA598",
+      "totalVotes": 6,
+      "blockNumber": 13365345,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/QmQiqLzEQcwUXsLdKPoTiCe8vdCEKczndY4YczQeMju8s2",
+      "startTime": {
+        "timestamp": 1633579200
+      },
+      "endTime": {
+        "timestamp": 1634443200
+      },
+      "startTimestamp": 1633579200,
+      "endTimestamp": 1634443200,
+      "currentState": "closed",
+      "choices": [
+        "Reduce to 200,000 BIT",
+        "Reduce to 1,000,000 BIT",
+        "Keep at 9,999,999 BIT"
+      ],
+      "results": [
+        {
+          "total": 104698990.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 104698999.34299792,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Yml0ZGFvOnNuYXBzaG90OnFtZHNoaWIyYXZrczhtNjJzN2F5ZHV6ZHB5d3BmdnpoMnBwZ2prdmZxbTZzbzY=",
+      "id": "QmdSHiB2AVKs8m62S7ayDUZdpYwpFvzH2pPgJKvfQM6so6",
+      "title": " BIP-2: Reduce amount of BITs required to submit governance proposal",
+      "content": "Background:\nThe current proposal creation requires 10M BITs too high, and no new proposal has been created so far.\n\nLowering the threshold is conducive to active communities, making it easier for people with ideas to create proposals, and allowing more people to participate in building a BitDao.\n\nProposal:\nAccording to BitDAO Token Holders, there are very few addresses with a balance higher than 10M, and most of the BIT is in the contract address. So I think the threshold should be 5M or lower.\n\n",
+      "protocol": "bitdao",
+      "adapter": "snapshot",
+      "proposer": "0xF85a0bB760F322aaB57383C67a8cc596C13c3E55",
+      "totalVotes": 2,
+      "blockNumber": 13248579,
+      "externalUrl": "https://snapshot.org/#/bitdao.eth/proposal/QmdSHiB2AVKs8m62S7ayDUZdpYwpFvzH2pPgJKvfQM6so6",
+      "startTime": {
+        "timestamp": 1632034800
+      },
+      "endTime": {
+        "timestamp": 1632423600
+      },
+      "startTimestamp": 1632034800,
+      "endTimestamp": 1632423600,
+      "currentState": "closed",
+      "choices": [
+        "10M",
+        "5M",
+        "2M"
+      ],
+      "results": [
+        {
+          "total": 11020117.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 11020117.703238944,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

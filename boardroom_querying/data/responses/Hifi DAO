@@ -1,0 +1,661 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6aGlmaWRhbzpvbmNoYWluOjk=",
+      "id": "9",
+      "title": "HIP 10 - Administrative Appointment of DAO Manager",
+      "content": "## Summary\n\nThis proposal seeks to appoint Doug Leonard as the DAO Manager for Hifi DAO, in accordance with Section 3.2 of Hifi DAO's Association Agreement.\n\n## Motivation\n\nAs Hifi DAO is a US entity subject to US tax law, it is necessary to appoint a DAO Manager before filing our first tax return. This appointment is crucial for maintaining compliance and ensuring the DAO can perform actions that cannot be executed on the blockchain.\n\n## Specification\n\nAppoint Doug Leonard as DAO Manager with the following responsibilities and authority:\n\n1. Legal representation of the DAO\n2. Financial activities, including tax filings\n3. Execution of contractual agreements on behalf of the DAO\n4. Performance of administrative duties as required\n\nThe full scope of the DAO Manager's authority and responsibilities can be found in [Section 3.2](https://github.com/hifi-finance/legal-docs/blob/main/Formation%20Docs/HIFI%20DAO%20TUNAA.pdf) of Hifi DAO's Association Agreement.\n\n## Impact\n\nThis appointment will:\n\n1. Enable Hifi DAO to comply with US tax regulations\n2. Provide a formal mechanism for off-chain actions and representation\n3. Maintain operational continuity in the DAO's current practices\n\nIt's important to note that this appointment does not change how the DAO has been operating and will continue to operate. It simply provides a formal structure for compliance and off-chain activities.\n\n## Action Items\n\nUpon successful voting on this proposal:\n\n1. Doug Leonard will be officially appointed as DAO Manager\n2. The appointment will be recorded in the DAO's official records\n3. Doug Leonard will be authorized to represent the DAO in legal and financial matters as specified in the Association Agreement\n\n## Effect\n\nUpon majority approval, Hifi DAO will execute the Resolution To Appoint DAO Manager with Doug Leonard.\n\nIf the majority vote disapproves, no further action will be taken regarding this proposal.\n\nFor a comprehensive understanding of the DAO Manager role, token holders are encouraged to review the [full resolution](https://github.com/hifi-finance/legal-docs/blob/main/HIP10/Resolution%20to%20Appoint%20DAO%20Manager.pdf).",
+      "protocol": "hifidao",
+      "adapter": "onchain",
+      "proposer": "0xC67B9E199481Adde2eceE9A71cED2652C14EF7B3",
+      "totalVotes": 18,
+      "blockNumber": 20841536,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1727434979,
+      "endTimestamp": 1727868731,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 8557306.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20828396
+          },
+          "event": "pending",
+          "timestamp": 1727276687,
+          "txHash": "0x23560b579299cde17a32a8b56f4594bc538ab3bdcc640003416df628525a3df3"
+        },
+        {
+          "time": {
+            "blockNumber": 20907668
+          },
+          "event": "executed",
+          "timestamp": 1728231671,
+          "txHash": "0x65b3aed6689c9acc87009916a1bd8569c357aa01b9919c00c58e2f9ffca8d070"
+        },
+        {
+          "time": {
+            "blockNumber": 20878098
+          },
+          "event": "queued",
+          "timestamp": 1727875523,
+          "txHash": "0x752d409fa62cbbf06728299b7059134f8b4ab23c9032768d4d3042e3a61952d3"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1727276778611,
+      "txHash": "0x23560b579299cde17a32a8b56f4594bc538ab3bdcc640003416df628525a3df3",
+      "quorum": 2827258,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGlmaWRhbzpvbmNoYWluOjg=",
+      "id": "8",
+      "title": "HIP 9 - Approve Medical Equipment Collateral Ruleset",
+      "content": "## [](#p-1056-overview-1)Overview\n\nThis improvement proposal seeks to:\n\n* Approve a Collateral Ruleset for Medical Equipment\n* Onboard [$MEC1](https://etherscan.io/address/0x4e44b82d6fb5e341a4b83501b04ca683ae6de1f8) ERC-20 Token, a digital representation of collateral value which adheres to the [Medical Equipment Collateral Ruleset](https://blog.hifi.finance/collateral-ruleset-medical-equipment-1cf3d1c404e7)\n* Approve a new System Wide Credit Limit for the Medical Equipment ruleset\n\n## [](#p-1056-details-2)Details\n\nThe $MEC1 ERC-20 token will have a fixed oracle value of $1 per token. Collateral tokens represent the value of the Lending Partner’s customer deposits. The Designee is responsible for validating valuations and minting new collateral tokens into existence. These tokens cannot be liquidated on-chain, and appropriate provisions exist in the contracts for liquidation of the real-world assets. The corresponding $MEC price feed can be found [here](https://etherscan.io/address/0xb33665b4ec08573a4b460b46e85b0f65af996b0e).\n\n### [](#p-1056-mec1-parameters-3)$MEC1 Parameters:\n\n* Collateral Ceiling: 3M\n* System Wide Credit Limit: $1M\n* 125% collateralization ratio (80% loan-to-value)\n\n### [](#p-1056-medical-equipment-financing-ruleset-4)Medical Equipment Financing Ruleset\n\n* **Equipment Eligibility**\n  * New and used medical equipment\n  * FDA-approved (if applicable)\n  * Minimum equipment value of $10,000\n  * Maximum equipment age of 5 years for used equipment\n  * Eligible equipment types include imaging equipment, surgical equipment, patient monitoring systems, laboratory equipment, dental equipment, optometry equipment, telemedicine technology, and admin equipment\n* **Borrower Qualifications**\n  * Minimum 2 years in business for established practices\n  * For new practices, primary healthcare provider must have at least 5 years of experience\n* **Loan Terms**\n  * Loan amounts from $25,000 to $500,000\n  * Maximum Loan-to-Value (LTV) Ratio of 80%\n  * Down payment recommendation: 10% for new equipment, 15% for used equipment\n* **Collateral and Security**\n  * Financed equipment serves as primary collateral\n  * Personal guarantee required for individual borrowers or key stakeholders in smaller practices\n  * Additional collateral may be required for high-value equipment\n* **Insurance Requirements**\n  * Comprehensive insurance coverage on the equipment, with the lender named as loss payee\n  * General liability insurance for the medical practice\n* **Documentation Requirements**\n  * Equipment quote or invoice from an authorized dealer\n* **Repayment Terms**\n  * Monthly payments\n* **Equipment Considerations**\n  * Lender reserves the right to inspect the equipment\n  * Borrower must maintain the equipment according to manufacturer specifications\n* **Default and Recovery**\n  * Default triggered by missed payments, breach of loan terms, or loss of necessary licensing\n  * Lender reserves the right to repossess equipment in case of default\n* **Reporting Requirements**\n  * Notification of significant changes in business structure or ownership\n  * Immediate notification of any regulatory issues or loss of applicable licenses\n\n## [](#p-1056-designee-role-5)Designee Role\n\nPlease note, Mainframe Group, Inc. continues to act in its capacity as HIFI DAO’s Designee. The DAO appointed designee will oversee and represent Hifi DAO’s interests in the transaction. This includes reviewing reports and updates provided by Lending Partners and ensuring compliance with DAO approved collateral rulesets. The Designee is responsible for both minting collateral tokens equal to the value of the lending partner’s customer deposits and for enforcing DAO set credit limits.\n\n## [](#p-1056-lending-partners-6)Lending Partners\n\nPlease note Finance Ventures continues to act in its capacity as a lending partner. The lending partner is responsible for driving demand for protocol sourced liquidity, administering loans to borrowers, and liquidating assets when appropriate. Lending partners are required to keep accurate records and source independent third-party appraisals for accurately assessing the value of collateral.\n\n## [](#p-1056-legal-agreements-7)Legal Agreements\n\nNo new legal agreements are necessary for this HIP. Existing agreements, cover the scope of this new collateral ruleset once approved by governance. For your reference, here are links to our existing [Designation Agreement](https://github.com/hifi-finance/legal-docs/blob/main/HIP8/HIP%208%20Hifi%20DAO%20Designee%20Agreement%20Redacted.pdf) and [Agreement of Association](https://github.com/hifi-finance/legal-docs/blob/main/HIP8/HIP%208%20Hifi%20DAO%20Lending%20Partner%20Agreement%20Redacted.pdf).\n\n## [](#p-1056-voting-8)Voting\n\nUpon this proposal’s success, Hifi DAO will execute the necessary variable changes to the Hifi Protocol’s Fintroller and take the necessary technical steps to integrate $MEC1 Tokens into the Hifi Protocol with the set collateral ceiling and fixed oracle value. It is recommended that DAO members review the full agreement for a comprehensive understanding before casting their votes.\n\n## [](#p-1056-additional-resources-9)Additional Resources\n\nAdditional details can be found in our recent blog post:\n\n* [Collateral Ruleset: Medical Equipment](https://blog.hifi.finance/collateral-ruleset-medical-equipment-1cf3d1c404e7)",
+      "protocol": "hifidao",
+      "adapter": "onchain",
+      "proposer": "0xf03198cA050844F4951e0d5Ee58e9acA5e9dA853",
+      "totalVotes": 17,
+      "blockNumber": 20835871,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1727366711,
+      "endTimestamp": 1727800511,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 7413.3247,
+          "choice": 0
+        },
+        {
+          "total": 8468077.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20907674
+          },
+          "event": "executed",
+          "timestamp": 1728231743,
+          "txHash": "0x6d5a054b6dacf7322e17ac788c97438982403c97bccb1cb98adc720fe824845c"
+        },
+        {
+          "time": {
+            "blockNumber": 20822731
+          },
+          "event": "pending",
+          "timestamp": 1727208323,
+          "txHash": "0x329e20e6e5d4e6ba021d60631c67fa3bb8ceebf0385e295d9ae41d9a5c25b7c8"
+        },
+        {
+          "time": {
+            "blockNumber": 20872151
+          },
+          "event": "queued",
+          "timestamp": 1727803883,
+          "txHash": "0x91d4bef72e53a2bf7dd3e521b888451f5618fe5814c81d426607397aa1bb497b"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1727208494568,
+      "txHash": "0x329e20e6e5d4e6ba021d60631c67fa3bb8ceebf0385e295d9ae41d9a5c25b7c8",
+      "quorum": 2827258,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGlmaWRhbzpvbmNoYWluOjc=",
+      "id": "7",
+      "title": "HIP 8: Onboard Two New Collateral Rulesets",
+      "content": "## Overview\n\nThis improvement proposal seeks the following:\n\n* Approve Collateral Rulesets for Residential Construction Collateral and Horse Collateral\n* Onboard $[RCC1](https://etherscan.io/address/0xb8a6f4d5402e437e3a784113a762488cabcd72c4) ([Residential Construction Collateral 1](https://etherscan.io/address/0xb8a6f4d5402e437e3a784113a762488cabcd72c4)) ERC-20 Token, a digital representation of collateral value which adheres to the Residential Construction Collateral Ruleset.\n* Onboard $[HC1](https://etherscan.io/address/0xa4273c363dce9544ec838b0043ddc2060cea99d8) ([Horse Collateral 1](https://etherscan.io/address/0xa4273c363dce9544ec838b0043ddc2060cea99d8)) ERC-20 Token, a digital representation of collateral value which adheres to the Professionally Managed Racehorse Collateral Ruleset.\n* Enter into a [Designation Agreement](https://github.com/hifi-finance/legal-docs/blob/main/HIP8/Hifi%20DAO%20Designee%20Agreement.pdf) with Mainframe Group, Inc. as HIFI DAO’s Designee, to represent the DAO’s interests overseeing all borrowing that adhere’s to these two Collateral Rulesets.\n* Enter into an [Agreement of Association](https://github.com/hifi-finance/legal-docs/blob/main/HIP8/Hifi%20DAO%20Lending%20Partner%20Agreement.pdf) with Finance Ventures as a Lending Partner, to allow Finance Ventures to leverage Hifi’s on-chain liquidity for loans to their customers in accordance with these two Collateral Rulesets.\n* Approve new System Wide Credit Limits for each ruleset.\n\n## Details\n\nBoth $RCC1 and $HC1 ERC-20 tokens will have a fixed oracle value of $1 per token. Collateral tokens represent the value of the Lending Partner’s customer deposits. The Designee is responsible for validating valuations and minting new collateral tokens into existence. These tokens cannot be liquidated on-chain, and so appropriate provisions exist in the contracts for liquidation of the real-world assets.\n\nA new system wide credit limit empowers the designee to legally enforce an upper limit on borrowing, even if technically it is possible to borrow more from the protocol. This is necessary to encourage healthier loan to value ratios and have a mechanism in place to balance the types of collateral HIFI token holders would like to lend against at any given time.\n\n### $RCC1 Parameters:\n\n* Collateral Ceiling: 10M\n* System Wide Credit Limit: $5M\n* 125% collateralization ratio (80% loan-to-value)\n\n### $HC1 Parameters:\n\n* Collateral Ceiling: 20M\n* System Wide Credit Limit: $5M\n* 166.67% collateralization ratio (60% loan-to-value)\n\n### Residential Construction Ruleset\n\n* **Property Requirements**\n  * Residential properties only (single-family, multi-family, townhomes, condominiums).\n  * Minimum property value of $500,000.\n* **Borrower Qualifications**\n  * No loans to individual borrowers, professionally managed business entities only.\n  * The Borrower must agree to not grant any other party a security interest in the Collateral without the Lender's prior written consent.\n  * Personal Guarantee: Borrowers with good credit who wish to pledge other personal assets as additional collateral may do so at an effective LTV ratio of 50% on these assets. These assets require an independent third-party appraisal or a recent purchase of at least a 25% ownership stake of the asset to determine their fair market value.\n* **Loan Terms**\n  * Loan origination fee of 1-2% of the loan amount.\n  * Maximum Loan-to-Value (LTV) Ratio of 80%.\n  * Loan term up to 24 months for construction, with an option for a 12-month extension, and should only extend through the construction phase of the project.\n  * Maximum loan amount of $2 million per property.\n  * Prepaid interest or Interest-only payments during construction, followed by principal and interest payments.\n  * Approved, independent third-party appraisal required.\n  * Collateral may include other land or property. Subject to the same appraisal and LTV requirements.\n* **Disbursement**\n  * Funds are disbursed in stages as construction milestones are met. The exact schedule can vary depending on the project, but the following draw schedule provides a guide for Lenders to adhere to:\n    1. Initial draw: This covers the cost of permits, plans, and initial site preparation. It's usually a larger percentage of the total loan, around 10-20%.\n    2. Foundation: Typically 10-15% of the loan.\n    3. Framing: Including the roof, windows, and doors, 15-20% of the loan is disbursed.\n    4. Rough mechanicals: Rough electrical, plumbing, and HVAC, 10-15% is released.\n    5. Insulation and drywall: Insulation and drywall, another 10% of the loan is typically disbursed.\n    6. Finishing: Interior finishes like trim, cabinets, and flooring, 10-15% is released.\n    7. Final draw: The remaining 10-15% of the loan is disbursed after the final inspection and a certificate of occupancy is issued.\n  * Before each draw is released, the lender sends an inspector or checks government records to verify that the work has been completed according to the plans and building codes. The borrower is responsible for submitting draw requests and providing any necessary documentation.\n  * Interest is charged only on the amount of money that has been disbursed at each stage.\n* **Lender Requirements**\n  * As appropriate, perfect your security interest and establish priority over future creditors.\n  * If there are existing liens on the collateral, consider requiring the borrower to obtain subordination agreements from the other creditors to ensure your priority position.\n  * Documentation and Due Diligence:\n    * Comprehensive loan application and supporting documentation.\n    * Detailed project budget and timeline.\n    * Contractor agreements and necessary permits.\n    * Title insurance and hazard insurance.\n    * Regular inspections and progress reports during construction.\n\n### Professionally Managed Racehorse Ruleset\n\n* Collateral Requirements:\n  * Must be a racehorse or racehorse syndicate.\n  * Can be either a single horse or multi-horse syndicate.\n  * Approved, independent third-party appraisal required.\n  * Profesional Management:\n    * Minimum 3 years of experience in professional racehorse management.\n    * Proven track record of successful horse training, racing, or breeding.\n    * Financially stable.\n  * Insurance coverage\n    * Individual racehorses: required for all individual racehorses.\n    * Multi-horse syndicates: required on any horses actively racing and the appraised value of the individual horse is above $200,000.\n    * When possible, the Lending Partner must be named as an additional insured party on the policy.\n* Borrower Requirements:\n  * Provide quarterly updates on horse health and racing performance.\n  * Provide updated appraisals upon significant events (e.g., major wins, injuries).\n  * Permit Lending partners to exercise their right to inspect collateral annually.\n  * Must agree to not grant any other party a security interest in the Collateral without the Lender's prior written consent.\n* Loan Terms:\n  * Loan origination fee of 1-2% of the loan amount.\n  * At a minimum, require monthly interest payments and annual principal payments.\n  * Loan-to-Value (LTV) Ratio\n    * Individual racehorses: Lend up to 50% of the horse's fair market value (FMV).\n    * Multi-horse syndicates: Lend up to 60% of the syndicate's net asset value (NAV).\n  * Personal Guarantee: Borrowers with good credit who wish to pledge their personal assets as an additional layer of collateral backing the loan may do so at an effective LTV ratio of 50% on these additional assets. The assets included as a part of a personal guarantee require an independent third-party appraisal or a recent purchase of at least a 25% ownership stake to determine their fair market value.\n  * Exclusions:\n    * Geldings are expressly excluded from consideration as collateral as both an individual racehorse and as apart of a Multi-horse syndicate, due to their inability to contribute to breeding potential, which significantly impacts their long-term value assessment and liquidity considerations in the equine market.\n\n### Designee Role\n\nConsistent with other collateral requirements the DAO appointed designee will oversee and represent Hifi DAO’s interests in the transaction. This includes reviewing reports and updates provided by Lending Partners and ensuring compliance with DAO approved collateral rulesets. The key updates HIFI token holders should understand are that the Designee is responsible for both minting collateral tokens equal to the value of the lending partner’s customer deposits and for enforcing DAO set credit limits.\n\n### Lending Partners\n\nThe lending partner is responsible for driving demand for protocol sourced liquidity, administering loans to borrowers, and liquidating assets when appropriate. Lending partners are required to keep accurate records and source independent third-party appraisals for accurately assessing the value of collateral.\n\n## Legal Agreements\n\nUpon this proposal’s success, Hifi DAO will also enter into a legally binding Agreement of Association with Finance Ventures, which can be viewed [here](https://github.com/hifi-finance/legal-docs/blob/main/HIP8/Hifi%20DAO%20Designee%20Agreement.pdf). And enter in to a legally binding Designation Agreement with Mainframe Group, Inc. which can be viewed [here](https://github.com/hifi-finance/legal-docs/blob/main/HIP8/Hifi%20DAO%20Lending%20Partner%20Agreement.pdf).\n\n## Voting\n\nUpon this proposal’s success, Hifi DAO will execute the Agreement of Association with Finance Ventures and the Designation Agreement with Mainframe Group, Inc. Hifi DAO will also execute the necessary variable changes to the Hifi Protocol’s Fintroller. and take the necessary technical steps to integrate $RCC1 & $HC1 Tokens into the Hifi Protocol with the set collateral ceilings and fixed oracle values. It is recommended that DAO members review the full agreement for a comprehensive understanding before casting their votes.\n\n## Additional Resources\n\nAdditional details can be found in our recent blog posts:\n\n* [RWA Framework Improvements](https://blog.hifi.finance/rwa-framework-improvements-c7b71b44b4ba)\n* [Collateral Ruleset: Residential Construction](https://blog.hifi.finance/collateral-ruleset-residential-construction-3126c35ce4e9)\n* [Collateral Ruleset: Professionally Managed Racehorses](https://blog.hifi.finance/collateral-ruleset-professionally-managed-racehorses-45871b4771bc)\n* [Collateral Ruleset: Implementation Details](https://blog.hifi.finance/collateral-ruleset-implementation-details-fe5e9b281dee)",
+      "protocol": "hifidao",
+      "adapter": "onchain",
+      "proposer": "0x5d7caCB00526eb07D5a39CD4457660E280c080b3",
+      "totalVotes": 52,
+      "blockNumber": 19803987,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1714913243,
+      "endTimestamp": 1715348351,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 5411109.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19840321
+          },
+          "event": "queued",
+          "timestamp": 1715352359,
+          "txHash": "0xdb74fe292e7f57aaa20cbd62ef420cb830c6aa1ce1eafce3a4c4b30942af9cda"
+        },
+        {
+          "time": {
+            "blockNumber": 19861534
+          },
+          "event": "executed",
+          "timestamp": 1715608607,
+          "txHash": "0x63f6a5d0e1f04664bb5aca8b51a6f12297a5fad8fa221a129fd5c78676ad3838"
+        },
+        {
+          "time": {
+            "blockNumber": 19790847
+          },
+          "event": "pending",
+          "timestamp": 1714754519,
+          "txHash": "0xda4a340d39d52bed376bf9e8ddf8514712ecb91b7ccf8f2c7936ae245b60a163"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1714754592228,
+      "txHash": "0xda4a340d39d52bed376bf9e8ddf8514712ecb91b7ccf8f2c7936ae245b60a163",
+      "quorum": 2824843,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGlmaWRhbzpvbmNoYWluOjY=",
+      "id": "6",
+      "title": "HIP 7 - Commercial Real Estate ($CRE1p) as Collateral",
+      "content": "This improvement proposal builds upon our strategic partnership with Finance Ventures, seeking to integrate the [\"CRE1p\" token](https://etherscan.io/address/0xc981d516a3ff48782dadb154ea8cfbd09bfcf923) to be integrated as collateral in the Hifi Protocol. The intent is to facilitate Finance Ventures' ability to extend credit to borrowers using Hifi's DeFi infrastructure. The proposal sets a collateral ceiling of 20 CRE1p token, a fixed oracle value of $62,500 USD per CRE1p token, and a 125% collateralization ratio (80% loan-to-value).\n\nThe [CRE1p Token](https://etherscan.io/address/0xc981d516a3ff48782dadb154ea8cfbd09bfcf923) is a digital representation of an operational [commercial real estate property](https://blog.hifi.finance/real-estate-as-collateral-77e60814aaa1), its respective business revenues, and a personal guarantee of its respective owner. Similar to HIP 3 and the VW Micro Bus, Finance Ventures will originate loans to borrowers using this asset as collateral. Capital for the loan will be sourced from Hifi's Protocol. The CRE1p Token cannot be liquidated on-chain, and so appropriate provisions exist in the contract for liquidation of the real-world asset.\n\nThe property is a 93-unit residential building built in 2001. The professionally managed facility is located in Utah, USA. A recent valuation of the property valued it at $7.85M. This proposal seeks to add a $1.25M fractional share of the asset, including personal guarantees from borrowers, to Hifi's Protocol.\n\n# Details\n\nUnder the proposed Agreement of Association, Hifi DAO will enable Finance Ventures to leverage the Hifi lending protocol by utilizing the CRE1p Token as collateral to secure credit represented by hTokens.\n\nAs per the agreement's conditions, there will be a collateral ceiling of 20 CRE1p tokens, which will have a fixed oracle value of $62,500 USD per CRE1p Token and a 125% collateralization ratio (80% loan-to-value). The collateral ceiling is set as a cap on the credit extended to Finance Ventures in this agreement.\n\nUpon this proposal's success, Hifi DAO will execute the necessary variable changes to the Hifi Protocol's Fintroller. Hifi DAO will also enter into a legally binding Agreement of Association with Finance Ventures, which can be viewed [here](https://github.com/hifi-finance/legal-docs/blob/main/HIP7/Hifi%20DAO%20x%20FVLLC%20CRE1p.pdf).\n\nTo safeguard Hifi DAO's interests, Mainframe Group Inc. has been designated to monitor Finance Ventures' monthly financial updates. Finance Ventures is required to comply with specific loan eligibility criteria to ensure that only high-quality loans are financed and must also provide regular monthly reports.\n\nIn case of a default by Finance Ventures' borrower, an explicit collateral liquidation process is in place to ensure the recovery of the outstanding hTokens. More information about Hifi's framework can be found on the blog, [here](https://blog.hifi.finance/real-world-assets-the-framework-f8180a749256).\n\n# Benefits\n\nI**ncreased TVL**: With the ongoing success of HIP6: Hifi's Liquidity Bootstrapping Effort, adding our commercial real estate as collateral increases utilization of our growing protocol liquidity and pushes us closer to our goal of getting to $25M in TVL!\n\n**Expanding Hifi's Utility**: The expanded partnership with Finance Ventures and integration of commercial real estate as a supported real-world asset extends Hifi's real-world utility.\n\n**Expanding Strategic Partnerships**: The partnership with Finance Ventures allows Hifi DAO to continue to expand its reach and engagement within the DeFi sector and traditional finance.\n\n**Risk Management**: By establishing a collateral ceiling and a fixed oracle value, the proposal provides a balanced risk management approach while ensuring transparency and stability.\n\n# Voting\n\nUpon majority approval, Hifi DAO will execute the partnership agreement with Finance Ventures and take the necessary technical steps to integrate CRE1p Token into the Hifi Protocol with the set collateral ceiling and fixed oracle value.\n\nIf the majority vote disapproves, no further action will be taken regarding this proposal.\n\nIt is recommended that DAO members review the full agreement for a comprehensive understanding before casting their votes.\n\nThe proposal is now live. Reminder that there is now a 48 hour voting delay before the voting snapshot is taken and voting begins. Please ensure you have delegation set up on your account if you wish to participate in this governance proposal.",
+      "protocol": "hifidao",
+      "adapter": "onchain",
+      "proposer": "0x5d7caCB00526eb07D5a39CD4457660E280c080b3",
+      "totalVotes": 30,
+      "blockNumber": 19347951,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1709388155,
+      "endTimestamp": 1709822411,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 206008.39,
+          "choice": 0
+        },
+        {
+          "total": 4046349.2,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19406305
+          },
+          "event": "executed",
+          "timestamp": 1710093143,
+          "txHash": "0x74a923f7716de8d3f4cd2a3e492b9d20f613c850fc992a055b6289150dfcad4e"
+        },
+        {
+          "time": {
+            "blockNumber": 19334811
+          },
+          "event": "pending",
+          "timestamp": 1709229575,
+          "txHash": "0xbdf14f568fc81e78a156228789b560bfdbd035bd7a912a8864e231cefe939676"
+        },
+        {
+          "time": {
+            "blockNumber": 19384090
+          },
+          "event": "queued",
+          "timestamp": 1709824079,
+          "txHash": "0xdb763d61920d82fbb9256a1d5857e15447fa68627f5aff4ae12b5a7334539604"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709229821494,
+      "txHash": "0xbdf14f568fc81e78a156228789b560bfdbd035bd7a912a8864e231cefe939676",
+      "quorum": 2815210,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGlmaWRhbzpvbmNoYWluOjU=",
+      "id": "5",
+      "title": "HIP 6 - Liquidity Bootstrapping Program",
+      "content": "## Summary\n\nHIP 6, Hifi's Liquidity Bootstrapping Program, proposes a significant expansion of the protocol's liquidity. This will be achieved through purchasing and owning liquidity, a strategy based on comprehensive research of other DeFi protocol’s liquidity programs. The program involves minting 20M HIFI tokens and, over a ten-month period, purchasing USDC and adding it to the protocol. The HIFI tokens and all proceeds from this program are fully owned by HIFI token holders.\n\n## Motivation\n\nThe initiative is driven by the need to accelerate Hifi's growth and increase its Total Value Locked (TVL) by over 25x. Achieving this ambitious goal is not possible with the limited liquidity currently available. Despite the core team's contributions, further action is needed. Purchasing and owning liquidity is viewed as a sustainable method to foster long-term growth and impact.\n\n## Details\n\n* **Approach**: The proposal will have Hifi DAO purchasing and owning liquidity financed by new token emissions.\n* **Ownership**: The acquired liquidity will be completely owned by HIFI token holders, adding valuable backing to the HIFI token. No resources will be allocated to Hifi Labs.\n* **Research and Observations**: The decision is backed by research of various DeFi protocol's liquidity programs. Key findings highlight the importance of market timing, potential exploitation of economic incentives, and the success of systems leveraging time in their program design.\n* **Criteria**: The proposal seeks to prevent negative outcomes like unwarranted token emissions during economic downturns. It emphasizes sustainable resource allocation over time, avoiding discounts.\n* **Budget**: 2M HIFI per month for ten months.\n* **Refunds**: Full refund option for participants after one year. Denominated in USDC or hUSDC tokens.\n* **Administration**: Managed by Hifi Labs.\n* **Participant Qualifications**: KYC compliance, restrictions for US residents (accredited investors only), and a minimum transaction size of 100K USDC or USD are required.\n\n### Governance Update\n\nIncluded in HIP 6 is an update to the `votingDelay` parameter on Hifi's Governor Bravo Smart Contract, aligning with best practices used by Uniswap and Compound.\n\n## Benefits\n\nThe HIP 6 Liquidity Bootstrapping Program marks a strategic shift in Hifi's liquidity approach, targeting a more robust and long-lasting growth model and presents several key benefits to the Hifi ecosystem and its stakeholders:\n\n1. Enhanced Growth and Scalability: By significantly increasing the Total Value Locked (TVL), the program sets the stage for accelerated growth and scalability of the Hifi protocol. This is crucial for achieving the ambitious goal of expanding the TVL by more than 25 times.\n2. Sustainable Liquidity Model: The decision to purchase and own liquidity, as opposed to renting it, offers a more sustainable and long-term approach. This model is expected to provide a stable foundation for Hifi's growth and operations.\n3. Strategic Utilization of Resources: The proposal's approach to token emission and resource allocation is strategic and mindful of market conditions. By choosing to emit tokens only during stronger economic periods and spreading the transactions over ten months, the program mitigates risks associated with market volatility and sudden economic shifts. The option for a full refund to participants after one year offers a safety net, reducing the risk associated with their investment. This feature could attract more participants, further bolstering the program's success.\n\n## Action Items\n\n1. Set voting Delay to 13,140 blocks (~2 days)\n2. Mint 20M HIFI to multi-sig wallet address: 0x999540BF17c9A6EA03cD39B97476Af172Ddd04e1\n\n## Voting\n\nUpon majority approval, Hifi DAO will issue resources to Hifi Labs for administration and execution of the Liquidity Bootstrapping Program and update the `votingDelay` governance parameter. If the majority vote disapproves, no further action will be taken regarding this proposal.",
+      "protocol": "hifidao",
+      "adapter": "onchain",
+      "proposer": "0xf03198cA050844F4951e0d5Ee58e9acA5e9dA853",
+      "totalVotes": 33,
+      "blockNumber": 18728694,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1701882815,
+      "endTimestamp": 1702318655,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 5082.36,
+          "choice": 0
+        },
+        {
+          "total": 2857370.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18792061
+          },
+          "event": "executed",
+          "timestamp": 1702649891,
+          "txHash": "0xc81e645f4d6112650d1ff6506da60e90585c267c037774e4d65988ca44192eb0"
+        },
+        {
+          "time": {
+            "blockNumber": 18728693
+          },
+          "event": "pending",
+          "timestamp": 1701882803,
+          "txHash": "0x28f032ab13caf3ecb6674605c91893e8044637ca4d49d64c680a4e86537a2831"
+        },
+        {
+          "time": {
+            "blockNumber": 18764823
+          },
+          "event": "queued",
+          "timestamp": 1702320239,
+          "txHash": "0xd7338fd9490d0d39decb05c58e248c60f904839604b3d5b75ccee6dbb4166e3d"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 256933.94,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701883458408,
+      "txHash": "0x28f032ab13caf3ecb6674605c91893e8044637ca4d49d64c680a4e86537a2831",
+      "quorum": 2410805,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGlmaWRhbzpvbmNoYWluOjQ=",
+      "id": "4",
+      "title": "HIP 5 (Revote) - SHEETp (Sheet Heads) Collateral",
+      "content": "### Preface\n\nThe initial attempt on HIP 5 failed to meet quorum by 812,206 HIFI. Given unanimous support for the proposal, HIP 5 is up for a second vote. Regardless of what Tally is representing, to meet quorum we need ~2.4M HIFI represented to succeed in passing this proposal. You can verify this by visiting [Hifi’s Governor Bravo Smart contract on etherscan](https://etherscan.io/address/0xef0a0421ea43b602e5be35e9018dd3e34bcee007#readProxyContract) and expanding the `quorumVotes` parameter.\n\n## **Summary**\n\nThis improvement proposal aims to integrate the “[SHEETp](https://etherscan.io/token/0xc2bc2320D22D47D1e197E99D4a5dD3261ccf4A68)” token into the Hifi Protocol as collateral. The objective is to offer holders of [Sheet Heads NFT](https://opensea.io/collection/sheet-heads) an opportunity to leverage their NFTs and borrow against them using the Hifi Protocol's DeFi framework. The proposal comes with a conservative collateral ceiling and an admin-managed price feed to maintain the robustness of the protocol.\n\nSHEETp is an ERC-20 representation of the ERC-721 Sheet Head NFT, and this integration means borrowers can utilize their $SHEETp as collateral, with the lending capital sourced from the Hifi Lending Protocol.\n\n## **Background**\n\nHifi Labs developed the concept of [Pooled NFT](https://poolednft.com/) to address challenges faced by NFT communities. The Hifi community has eagerly anticipated the opportunity to unlock borrowing against their NFTs. The Sheet Heads mint period provided ample time for SHEETp price discovery, making it an apt time for the token's integration into the Hifi Protocol as collateral.\n\n## **Potential Risks**\n\nThe volatile and low liquidity nature of Sheet Heads, a digital collectible, presents a potential risk of bad debt to the protocol. Adversarial price manipulation could exacerbate this situation. However, several safeguards have been put in place by the core team to mitigate these challenges.\n\n### **Safeguards**\n\n1. **Durable Liquidity:** Hifi Labs ensures on-chain liquidity, primarily in the SHEETp/USDC market. This liquidity backs the SHEETp TWAP feed from a Uniswap V3 pool.\n2. **Admin-managed Price Ceiling:** A manual intervention is necessary to raise the price feed above a specified threshold. Initially, the ceiling is set at ~150% of the SHEETp's current price. The initial price ceiling will be set to ~150% of the current price of SHEETp. At the time of writing SHEETp is valued at ~33 USDC which would put the price ceiling at 50 USDC.\n3. **Conservative Collateralization Ratio:** Set at ~333%, this ratio signifies that SHEETp holders must deposit ~$3 for every $1 borrowed.\n4. **Generous Liquidation Incentive:** A liquidation incentive of 150% provides liquidators with a significant buffer and motivation to liquidate undercollateralized positions.\n5. [**Time-Weighted Average Price Feed (TWAP)**](https://etherscan.io/address/0xA677FA773110ED1a27B9694330C298ce3D381222)**:** Utilizing a 12-hour Uniswap V3 TWAP deters inorganic price manipulations.\n6. **Conservative Collateral Ceiling:** Deposits as collateral are limited to 4000 SHEETp tokens, which helps minimize potential adverse impacts on the lending protocol.\n\n## **Key Parameters**\n\nUpon execution of the proposal, the Hifi DAO will grant users the ability to leverage the SHEETp token as collateral to obtain credit symbolized by hTokens with the following parameters:\n\n* Collateralization ratio: ~333%.\n* Liquidation incentive: 150%.\n* Collateral ceiling: 4000 SHEETp tokens.\n* Price Oracle: 12-hr Uniswap V3 TWAP-based.\n\n## **Benefits**\n\n1. **Protocol Demonstration:** This initiative showcases the protocol's capabilities and potential constraints, providing insights applicable to future collateral types.\n2. **Enhanced Liquidity:** Incorporating Sheet Heads as collateral in Hifi’s Lending protocol provides additional liquidity avenues for collectors.\n\n## **Voting**\n\n* A majority approval will authorize the Hifi DAO to execute the necessary technical integrations to incorporate the SHEETp Token into the Hifi Protocol with the defined collateral ceiling and TWAP.\n* Should the majority disapprove, no further steps will be undertaken concerning this proposal.\n\nIt's strongly advised for DAO members to thoroughly examine the proposal to gain a holistic understanding prior to voting.",
+      "protocol": "hifidao",
+      "adapter": "onchain",
+      "proposer": "0x5d7caCB00526eb07D5a39CD4457660E280c080b3",
+      "totalVotes": 32,
+      "blockNumber": 18479303,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1698866411,
+      "endTimestamp": 1699302311,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 2828618.2,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18515379
+          },
+          "event": "queued",
+          "timestamp": 1699303235,
+          "txHash": "0xddf2f23e51d3e1979fb683259d0030f71067694cd2bd630303dbbda8c4398a98"
+        },
+        {
+          "time": {
+            "blockNumber": 18529714
+          },
+          "event": "executed",
+          "timestamp": 1699476383,
+          "txHash": "0xc9d44e18e72d33019b4ebe807f9491451b17eca0b54239d89fef942a7c19ac92"
+        },
+        {
+          "time": {
+            "blockNumber": 18479302
+          },
+          "event": "pending",
+          "timestamp": 1698866399,
+          "txHash": "0xefba2274ce92eb059cb0e8af176d5b0a196849e9a174e89cc8c6d7cc456a11a2"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698866593363,
+      "txHash": "0xefba2274ce92eb059cb0e8af176d5b0a196849e9a174e89cc8c6d7cc456a11a2",
+      "quorum": 2403403,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGlmaWRhbzpvbmNoYWluOjM=",
+      "id": "3",
+      "title": "HIP 5 - SHEETp (Sheet Heads) Collateral",
+      "content": "## Summary\n\nThis improvement proposal aims to integrate the “[SHEETp](https://etherscan.io/token/0xc2bc2320D22D47D1e197E99D4a5dD3261ccf4A68)” token into the Hifi Protocol as collateral. The objective is to offer holders of [Sheet Heads NFT](https://opensea.io/collection/sheet-heads) an opportunity to leverage their NFTs and borrow against them using the Hifi Protocol's DeFi framework. The proposal comes with a conservative collateral ceiling and an admin-managed price feed to maintain the robustness of the protocol.\n\nSHEETp is an ERC-20 representation of the ERC-721 Sheet Head NFT, and this integration means borrowers can utilize their $SHEETp as collateral, with the lending capital sourced from the Hifi Lending Protocol.\n\n## Background\n\nHifi Labs developed the concept of [Pooled NFT](https://poolednft.com/) to address challenges faced by NFT communities. The Hifi community has eagerly anticipated the opportunity to unlock borrowing against their NFTs. The Sheet Heads mint period provided ample time for SHEETp price discovery, making it an apt time for the token's integration into the Hifi Protocol as collateral.\n\n## Potential Risks\n\nThe volatile and low liquidity nature of Sheet Heads, a digital collectible, presents a potential risk of bad debt to the protocol. Adversarial price manipulation could exacerbate this situation. However, several safeguards have been put in place by the core team to mitigate these challenges.\n\n### Safeguards\n\n1. **Durable Liquidity:** Hifi Labs ensures on-chain liquidity, primarily in the SHEETp/USDC market. This liquidity backs the SHEETp TWAP feed from a Uniswap V3 pool.\n2. **Admin-managed Price Ceiling:** A manual intervention is necessary to raise the price feed above a specified threshold. Initially, the ceiling is set at ~150% of the SHEETp's current price. The initial price ceiling will be set to ~150% of the current price of SHEETp. At the time of writing SHEETp is valued at ~33 USDC which would put the price ceiling at 50 USDC.\n3. **Conservative Collateralization Ratio:** Set at ~333%, this ratio signifies that SHEETp holders must deposit ~$3 for every $1 borrowed.\n4. **Generous Liquidation Incentive:** A liquidation incentive of 150% provides liquidators with a significant buffer and motivation to liquidate undercollateralized positions.\n5. [**Time-Weighted Average Price Feed (TWAP)**](https://etherscan.io/address/0xA677FA773110ED1a27B9694330C298ce3D381222)**:** Utilizing a 12-hour Uniswap V3 TWAP deters inorganic price manipulations.\n6. **Conservative Collateral Ceiling:** Deposits as collateral are limited to 4000 SHEETp tokens, which helps minimize potential adverse impacts on the lending protocol.\n\n## Key Parameters\n\nUpon execution of the proposal, the Hifi DAO will grant users the ability to leverage the SHEETp token as collateral to obtain credit symbolized by hTokens with the following parameters:\n\n* Collateralization ratio: ~333%.\n* Liquidation incentive: 150%.\n* Collateral ceiling: 4000 SHEETp tokens.\n* Price Oracle: 12-hr Uniswap V3 TWAP-based.\n\n## Benefits\n\n1. **Protocol Demonstration:** This initiative showcases the protocol's capabilities and potential constraints, providing insights applicable to future collateral types.\n2. **Enhanced Liquidity:** Incorporating Sheet Heads as collateral in Hifi’s Lending protocol provides additional liquidity avenues for collectors.\n\n## Voting\n\n* A majority approval will authorize the Hifi DAO to execute the necessary technical integrations to incorporate the SHEETp Token into the Hifi Protocol with the defined collateral ceiling and TWAP.\n* Should the majority disapprove, no further steps will be undertaken concerning this proposal.\n\nIt's strongly advised for DAO members to thoroughly examine the proposal to gain a holistic understanding prior to voting.",
+      "protocol": "hifidao",
+      "adapter": "onchain",
+      "proposer": "0x5d7caCB00526eb07D5a39CD4457660E280c080b3",
+      "totalVotes": 28,
+      "blockNumber": 18422322,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1698177179,
+      "endTimestamp": 1698612539,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 1591192.6,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18422321
+          },
+          "event": "pending",
+          "timestamp": 1698177167,
+          "txHash": "0xbb6230a1925211c3f97c2495983cf25a7040d85d8ff0173327db5b0a2281a411"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698177699728,
+      "txHash": "0xbb6230a1925211c3f97c2495983cf25a7040d85d8ff0173327db5b0a2281a411",
+      "quorum": 2403258,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGlmaWRhbzpvbmNoYWluOjI=",
+      "id": "2",
+      "title": "Administrative Changes to the Voting Period and Proposal Threshold",
+      "content": "# Abstract\n\nThe purpose of this proposal is twofold:\n\nTo adjust the voting period for proposals within the DAO from the current duration of 2 days to a more suitable duration of 5 days.\nTo raise the proposal threshold from the present requirement of 2.83K Hifi tokens to a more significant requirement of 50K Hifi tokens.\n\n# Motivation\n\nThe proposed changes aim to improve the governance structure by ensuring broader participation and more substantial stakeholder input in decision-making. Extending the voting period will provide token holders with more time to evaluate proposals, and the higher threshold will require a more substantial stake in the project for proposal submissions, reducing potential spam.\n\n# Specification\n\n**1. Change to Voting Period:**\n\nSet the votingPeriod parameter in the GovernorBravo contract to a 5-day (36000 blocks) period, currently at a 2-day (17280 blocks) period.\n\n**2. Change to Proposal Threshold:**\n\nSet the proposalThreshold parameter in the GovernorBravo contract to a requirement of 50,000 Hifi tokens, currently at 2,830 Hifi tokens.\n\n# Action Items\n\nUpon successful voting on this proposal, the GovernorBravo contract should be updated to reflect the changes mentioned above.",
+      "protocol": "hifidao",
+      "adapter": "onchain",
+      "proposer": "0xf03198cA050844F4951e0d5Ee58e9acA5e9dA853",
+      "totalVotes": 30,
+      "blockNumber": 17673339,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1689114539,
+      "endTimestamp": 1689324575,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1031.9589,
+          "choice": 0
+        },
+        {
+          "total": 2439887.8,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17673338
+          },
+          "event": "pending",
+          "timestamp": 1689114527,
+          "txHash": "0xc36f63dd6bbfb203fe6dc06d5fff24c7b40b89f1b45a8aa788bd51331043c8a5"
+        },
+        {
+          "time": {
+            "blockNumber": 17691824
+          },
+          "event": "queued",
+          "timestamp": 1689339203,
+          "txHash": "0x8c49ea86e423f7264aa25eb8168fb079f67c06e930c85838b9f4018942d04199"
+        },
+        {
+          "time": {
+            "blockNumber": 17713712
+          },
+          "event": "executed",
+          "timestamp": 1689605759,
+          "txHash": "0x0076a6a4beeb23834d0ff0649fd195c1500fac864e8d955f5ad7234edf69ac63"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1031.9589,
+          "choice": 0
+        },
+        {
+          "total": 2439887.8,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961715219,
+      "txHash": "0xc36f63dd6bbfb203fe6dc06d5fff24c7b40b89f1b45a8aa788bd51331043c8a5",
+      "quorum": 2384663,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6aGlmaWRhbzpvbmNoYWluOjE=",
+      "id": "1",
+      "title": "Inclusion of VWMBp as Collateral in the Lending Protocol",
+      "content": "# Summary\n\nThis improvement proposal aims to form a strategic partnership with Finance Ventures, allowing the [\"VWMBp\" token](https://etherscan.io/address/0x858f0bdb905fdbb3e04d0430d9b4f9f48381f103) to be integrated into the Hifi Protocol as collateral. The intent is to facilitate Finance Ventures' ability to extend credit to its borrower, Kevin Bradburn, using Hifi Protocol's DeFi infrastructure, with a collateral ceiling of 10 VWMBp token, a fixed oracle value of $65,000 USD per VWMBp Token, and a 125% collateralization ratio (80% loan-to-value). Valuation can be found [here.](https://blog.hifi.finance/introducing-our-first-real-world-asset-2395668f5aaf)\n\nThe [VWMBp Token](https://etherscan.io/address/0x858f0bdb905fdbb3e04d0430d9b4f9f48381f103) is a digital representation of an extremely valuable vintage [Volkswagen Microbus](https://blog.hifi.finance/introducing-our-first-real-world-asset-2395668f5aaf). Finance Ventures will be originating a loan to the owner using the vehicle as collateral. Capital for the loan will be sourced from the Hifi Lending Protocol. The VWMBp token cannot be liquidated on-chain, but if the borrower defaults there are provisions in the contract for liquidation of the real-world asset.\n\n# Details\n\nUnder the proposed Agreement of Association, Hifi DAO will enable Finance Ventures to leverage the Hifi lending protocol by utilizing the VWMBp Token as collateral to secure credit represented by hTokens.\n\nAs per the agreement's conditions, there will be a collateral ceiling of 10 VWMBp tokens, which will have a fixed oracle value of $65,000 USD per VWMBp Token, and a 125% collateralization ratio. The collateral ceiling is set as a cap on the credit extended to Finance Ventures in this agreement.\n\nUpon this proposal's success, Hifi DAO will execute the necessary variable changes to the Hifi Protocol's Fintroller. Hifi DAO will also enter into a legally binding Agreement of Association with Finance Ventures which can be [viewed here](https://github.com/hifi-finance/legal-docs/blob/main/HIP3/HIFIDAO%20FVLLC%20Contract.pdf).\n\nTo safeguard Hifi DAO's interests, Hifi DAO will designate Mainframe Group Inc. to monitor Finance Ventures' monthly financial updates. Finance Ventures is required to comply with specific loan eligibility criteria to ensure only high-quality loans are financed, and they must also provide regular monthly reports.\n\nIn case of a default by Finance Ventures' borrower, an explicit collateral liquidation process is in place to ensure the recovery of the outstanding hTokens. More information about Hifi's framework can be found on the blog, [here](https://blog.hifi.finance/real-world-assets-the-framework-f8180a749256).\n\n# Benefits\n\nExpanding Hifi's Utility: The partnership with Finance Ventures and integration of a real-world asset, with a defined collateral ceiling, showcases the utility of the Hifi lending protocol in facilitating credit extension for real-world assets while managing risk.\n\nEstablishing Strategic Partnerships: The partnership with Finance Ventures allows Hifi DAO to expand its reach and engagement within the DeFi sector and traditional finance.\n\nRisk Management: By establishing a collateral ceiling and a fixed oracle value, the proposal provides a balanced risk management approach while ensuring transparency and stability.\n\n# Voting\n\nTo approve the proposal, facilitating Finance Ventures to extend credit to its borrowers via Hifi protocol with the specified collateral ceiling and fixed oracle value.\n\nTo disapprove the proposal, maintaining the current operational status of Hifi DAO.\n\n# Effect\n\nUpon majority approval, Hifi DAO will execute the partnership agreement with Finance Ventures and take the necessary technical steps to integrate VWMBp Token into the Hifi Protocol with the set collateral ceiling and fixed oracle value.\n\nIf the majority vote disapproves, no further action will be taken regarding this proposal.\n\nIt is recommended that DAO members review the full agreement for a comprehensive understanding before casting their votes.",
+      "protocol": "hifidao",
+      "adapter": "onchain",
+      "proposer": "0x5d7caCB00526eb07D5a39CD4457660E280c080b3",
+      "totalVotes": 30,
+      "blockNumber": 17672855,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1689108587,
+      "endTimestamp": 1689318695,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2397693.2,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17672854
+          },
+          "event": "pending",
+          "timestamp": 1689108575,
+          "txHash": "0x9e3c32ba05e9e58d6bd62464375ef46beaefe00a552f7d8786d54fa62478d682"
+        },
+        {
+          "time": {
+            "blockNumber": 17690286
+          },
+          "event": "queued",
+          "timestamp": 1689320531,
+          "txHash": "0x4d86473f004af43ca1da9bd6b2c12f0e504a179ea0c1a7cbc51965eb97945cff"
+        },
+        {
+          "time": {
+            "blockNumber": 17713698
+          },
+          "event": "executed",
+          "timestamp": 1689605591,
+          "txHash": "0x06fc138976d12a7c991661c8003c2feb5588502f924726fc2924806db0ffe845"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 2397693.2,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689961715219,
+      "txHash": "0x9e3c32ba05e9e58d6bd62464375ef46beaefe00a552f7d8786d54fa62478d682",
+      "quorum": 2384663,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,1824 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHhkZmYzMDQyMTdhMjM5Mzk0MGNiZTJjZmQxZjQxMGRkMmVmNGQzNTdkODcyY2E3MGVhNzZkNjA2ODQ2YjM5ODUy",
+      "id": "0xdff304217a2393940cbe2cfd1f410dd2ef4d357d872ca70ea76d606846b39852",
+      "title": "TIP-45: Forming the Treasure Delegate Council (TDC)",
+      "content": "# Summary\nAs TreasureDAO transitions from Arbitrum to ZKsync (as outlined in TIP-44), the governance structure that oversaw the DAO’s activities within Arbitrum, previously known as the Arbitrum Representative Council (ARC), is also set to end on October 30th. \n\nWe propose transitioning the ARC to a Treasure Delegate Council (TDC) to provide resources and expertise to assist TreasureDAO with navigating ZKsync governance processes to ensure that Treasure continues to thrive within this new ecosystem.\n\nThe community will be asked to vote on one of three paths forward to shape the future of TreasureDAO’s engagement with ZKsync governance.\n\n1. The Treasure Core team selects all 3 members for the TDC.\n2. The Treasure Core team selects 1 member of the TDC, while the remaining 2 members are elected by the community. \n3. No renewal— dissolve the external governance function entirely.\n\n# Actions\n- [Read the full proposal for TIP-45: Forming the Treasure Delegate Council (TDC) here](https://forum.treasure.lol/discussion/25169-updated-tip-45-forming-the-treasure-delegate-council-tdc)\n- [Review and consider nominating someone or yourself for the TDC here](https://forum.treasure.lol/discussion/25299-nomination-thread-treasure-delegate-council-tdc-applications)\n\n\n# Voting Eligibility\nThe following holders of MAGIC can vote:\n- (A) Stakers in the TreasureDAO [Governance Staking contract](https://governance-staking.treasure.lol/) and Sushi (MAGIC-ETH SLP) on Arbitrum One.\n- (B) Holders of all listed Magicswap LP tokens and stakers in Beefy’s mooSushiMAGIC-ETH vault or Balancer’s 50% MAGIC / 50% USDC weighted pool.\n\ngMAGIC will be calculated on a 1:1 basis in (A) and 0.5 ratio in (B) (50% of MAGIC amount)",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 70,
+      "blockNumber": 266931074,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0xdff304217a2393940cbe2cfd1f410dd2ef4d357d872ca70ea76d606846b39852",
+      "startTime": {
+        "timestamp": 1729715042
+      },
+      "endTime": {
+        "timestamp": 1730147400
+      },
+      "startTimestamp": 1729715042,
+      "endTimestamp": 1730147400,
+      "currentState": "active",
+      "choices": [
+        "Approve (3 Core)",
+        "Approve (1 Core + 2 Community)",
+        "Reject - No Renewal",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1.7791196,
+          "choice": 3
+        },
+        {
+          "total": 1454402.1,
+          "choice": 0
+        },
+        {
+          "total": 49091.168,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1454402.1040185003,
+          "choice": 0
+        },
+        {
+          "total": 49091.15927163821,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 1.7791197,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1729717789152,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHg4MjRiMTJmYzY3ZDc5MTBhZDg2ZDA0NTY5ODM2MmMwZGQzNWM4ZjE2MzhjN2U5OWU3NTljZWM4M2ExNjhiYTc5",
+      "id": "0x824b12fc67d7910ad86d045698362c0dd35c8f1638c7e99e759cec83a168ba79",
+      "title": "TIP-44: Launching Treasure L2 on ZKsync",
+      "content": "# Summary\n[The proposal from Matter Labs](https://forum.treasure.lol/discussion/24867-proposal-for-treasuredao-to-launch-treasure-l2-as-part-of-the-zksyncs-elastic-chain) and the [accompanying proposal issued jointly by both ZKsync Foundation and the Treasure core contributors](https://forum.treasure.lol/discussion/24868-proposal-for-treasuredao-zksync-foundation-token-swap) revisits the ratified proposal TIP-36: Ecosystem Selection for the Treasure Chain (approved by TreasureDAO on February 21, 2024) to launch the Treasure L2 as the leading gaming chain on ZKsync’s Elastic Chain, instead of on Arbitrum Orbit.\n\nTIP-44 combines the two proposals above, as well as outlines the final parameters of the Treasure L2 to launch it as the leading gaming chain on ZKsync’s Elastic Chain, instead of on Arbitrum Orbit.\n\n# Read Full Proposal\n- [Read the full proposal behind TIP-44: Launching Treasure L2 on ZKsync here](https://forum.treasure.lol/discussion/24869-tip44-launching-treasure-l2-on-zksync)\n\n# Voting Eligibility\nThe following holders of MAGIC can vote:\n- (A) Stakers in the TreasureDAO [Governance Staking contract](https://governance-staking.treasure.lol/), and Sushi (MAGIC-ETH SLP) on Arbitrum One.\n- (B) Holders of all listed Magicswap LP tokens and stakers in Beefy’s mooSushiMAGIC-ETH vault or Balancer’s 50% MAGIC / 50% USDC weighted pool.\n\ngMAGIC will be calculated on a 1:1 basis in (A) and 0.5 ratio in (B) (50% of MAGIC amount)",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 154,
+      "blockNumber": 254300260,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x824b12fc67d7910ad86d045698362c0dd35c8f1638c7e99e759cec83a168ba79",
+      "startTime": {
+        "timestamp": 1726537041
+      },
+      "endTime": {
+        "timestamp": 1727055000
+      },
+      "startTimestamp": 1726537041,
+      "endTimestamp": 1727055000,
+      "currentState": "closed",
+      "choices": [
+        "Approve (Migrate to ZKsync)",
+        "Reject",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4154230.2,
+          "choice": 0
+        },
+        {
+          "total": 0.17398475,
+          "choice": 2
+        },
+        {
+          "total": 22236.908,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4154230.6005693697,
+          "choice": 0
+        },
+        {
+          "total": 22236.906630193953,
+          "choice": 1
+        },
+        {
+          "total": 0.17398475448115605,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1726537441755,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHgyZmY2MDI4MjVhMDA3ZjE1OTk3Mjg4MDI1MWIyMGQ4YTQxMjM3MWFhZTBkZWE1NzM1NmI5MGQ5YjU3OTg5ZDU2",
+      "id": "0x2ff602825a007f159972880251b20d8a412371aae0dea57356b90d9b57989d56",
+      "title": "TIP-43: Chain Migration Incentives",
+      "content": "# Summary\n- Migrate 80% of TreasureDAO’s DAO-owned MAGIC/ETH liquidity on Arbitrum One to the Treasure L2 mainnet (100%) upon its launch.\n- Migrate the other 20% of DAO-owned MAGIC/ETH liquidity from Arbitrum One to L1 Ethereum at the time of proposal passage.\n- Institute new LP rewards to encourage migration of MAGIC and partner token liquidity from Arbitrum One on Sushi and Magicswap to Treasure L2.\n\n# Read Full Proposal\n- [Read the full proposal for TIP-43: Chain Migration Incentives\nhere](https://forum.treasure.lol/discussion/24826-tip43-chain-migration-incentives)\n\n# Voting Eligibility\nThe following holders of MAGIC can vote:\n- (A) Stakers in the TreasureDAO [Governance Staking contract](https://governance-staking.treasure.lol/), and Sushi (MAGIC-ETH SLP) on Arbitrum One.\n- (B) Holders of all listed Magicswap LP tokens and stakers in Beefy’s mooSushiMAGIC-ETH vault or Balancer’s 50% MAGIC / 50% USDC weighted pool.\n\ngMAGIC will be calculated on a 1:1 basis in (A) and 0.5 ratio in (B) (50% of MAGIC amount)",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 124,
+      "blockNumber": 254299107,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x2ff602825a007f159972880251b20d8a412371aae0dea57356b90d9b57989d56",
+      "startTime": {
+        "timestamp": 1726536784
+      },
+      "endTime": {
+        "timestamp": 1726795800
+      },
+      "startTimestamp": 1726536784,
+      "endTimestamp": 1726795800,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Reject",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4211427.5,
+          "choice": 0
+        },
+        {
+          "total": 0.002,
+          "choice": 2
+        },
+        {
+          "total": 13633.995,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4211428.126525577,
+          "choice": 0
+        },
+        {
+          "total": 13633.995895491222,
+          "choice": 1
+        },
+        {
+          "total": 0.002,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1726536956363,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHhiNjQ3Y2E0OWY3MTA1NTBhMTljOTUxOWNlM2EwNTk2NTA5MWIwNmU4NDk4NjMwNzNlNGZkOWJiZjgzZmIxNGVh",
+      "id": "0xb647ca49f710550a19c9519ce3a05965091b06e849863073e4fd9bbf83fb14ea",
+      "title": "TIP-42(b): Confirming Bridgeworld Emissions Reallocation and Snapshot Date",
+      "content": "# Summary\nAmend TIP-42 to confirm the Bridgeworld (BW) emission reallocation and snapshot date by either:\n1. Halting MAGIC emissions through Harvesters and taking the BW snapshot on Monday August 26; or;\n2. Reallocating 200,000 MAGIC per month back to BW Harvesters and maintain MAGIC emissions as a stop gap measure with a flexible end and snapshot date coinciding with the launch of EigenDA chain staking on Treasure mainnet.\n\nIn either case, all other parameters of the original TIP-42 will not be impacted and will continue to take place on Monday, August 26. For the avoidance of doubt:\n- Reallocate Bridgeworld emissions towards Treasure Chain DA emissions totalling 1.55mil MAGIC per year, with 3 mil MAGIC (less any MAGIC reallocated if (2) is selected) retained for Bridgeworld v2 (out of approximately 10 mil remaining emissions) and the excess going to the DAO treasury for future infrastructure emissions.\n- Close BW v1 gameplay loops (Questing, Crafting, Corruption, Corruption Crypts)\n- Scrap the yearly halving schedule and institute terminal inflation beginning in Y8 (in four years).\n- Sunset TIP-08.\n- Maintain the transition plan to BW v2 (Conversion Points and Seekers).\n- Update gMAGIC calculation for governance voting power.\n\n# Read Full Proposal\n👉 [See the proposal on the TreasureDAO governance forum](https://forum.treasure.lol/discussion/24564-tip42b-confirming-bridgeworld-emissions-reallocation-and-snapshot-date)\n\n# Voting Eligibility\nThe following holders of MAGIC can vote:\n- (A) Stakers in the Harvesters or the TreasureDAO Governance Staking contract, and holders of MAGIC-ETH SLP on Arbitrum One.\n- (B) Holders of all listed Magicswap LP tokens and stakers in Beefy’s mooSushiMAGIC-ETH vault or Balancer’s 50% MAGIC / 50% USDC weighted pool.\n\ngMAGIC will be calculated on a 1:1 basis in (A) and 0.5 ratio in (B) (50% of MAGIC amount)",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 296,
+      "blockNumber": 245295212,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0xb647ca49f710550a19c9519ce3a05965091b06e849863073e4fd9bbf83fb14ea",
+      "startTime": {
+        "timestamp": 1724271807
+      },
+      "endTime": {
+        "timestamp": 1724590800
+      },
+      "startTimestamp": 1724271807,
+      "endTimestamp": 1724590800,
+      "currentState": "closed",
+      "choices": [
+        "Approve (1)",
+        "Approve (2)",
+        "Abstain",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 3
+        },
+        {
+          "total": 7396239.5,
+          "choice": 0
+        },
+        {
+          "total": 1608.0048,
+          "choice": 2
+        },
+        {
+          "total": 3919695.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7396239.725482558,
+          "choice": 0
+        },
+        {
+          "total": 3919695.139682545,
+          "choice": 1
+        },
+        {
+          "total": 1608.00480147999,
+          "choice": 2
+        },
+        {
+          "total": 5.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1724272016275,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHhiNjgwZWVkMDVlZjA4NGIzNzliYzEwMjcwZWQyZjQyMjYyZmUzN2FhZTcwM2UxNjRlNDU0N2Q5ZmYxMzdhZDVi",
+      "id": "0xb680eed05ef084b379bc10270ed2f42262fe37aae703e164e4547d9ff137ad5b",
+      "title": "TIP-42: Reallocating Bridgeworld Emissions to Treasure Chain EigenLayer Staking and Transition to Bridgeworld v2",
+      "content": "# Summary\n\nReallocate Bridgeworld emissions to support Treasure mainnet staking through EigenLayer and EigenDA.\n- Reallocate Bridgeworld emissions towards Treasure Chain DA emissions totalling 1.55mil MAGIC per year, with 3 mil MAGIC retained for Bridgeworld v2 (out of approximately 10 mil remaining emissions) and the excess going to the DAO treasury for future infrastructure emissions.\n- Scrap the yearly halving schedule and institute terminal inflation beginning in Y8 (in four years).\n- Sunset TIP-08 emissions.\n- Tentatively cease Bridgeworld v1 operations on ~~August 24~~ **August 26**\n- Update gMAGIC calculation to account for the future Treasure L2.\n\nThis proposal will briefly describe the planned system for Bridgeworld NFTs and the next iteration of Bridgeworld. However, for the purposes of governance clarity, this TIP strictly concerns the emissions policy regarding MAGIC. This proposal is not a referendum on Bridgeworld v2.\n\n## Changelog (as of Aug 6 as of 12:12am ET)\n\nThe following parameters have changed from the original proposal to Snapshot (edited to be reflected in the proposal and summarized below):\n\n- Moved the target date to tentatively cease Bridgeworld v1 operations and take the snapshot of Bridgeworld assets to be **Monday, August 26** instead of on Saturday, August 24. This change will allow the team to be online and active during the week and able to provide support. \n\n  - The date remains tentative and a final date will be announced closer in the coming weeks as this is highly subject to the readiness and coordination of external partners with respect to EigenLayer and EigenDA (eg. launch of their custom quorum feature into production, whitelisting of the MAGIC token and underlying strategy) as well as mainnet readiness. With the transition from one staking solution (Harvesters) to another (EigenLayer), it is important that the window of time between the two options is as short as possible.\n\n  - Given the tentative timeline, in the event there are further unforeseen delays outside of Treasure's control, there may be a need for a subsequent DAO proposal to be considered to maintain Bridgeworld emissions for slightly longer as a stop gap measure. At this time, the Treasure core contributors do not believe this is necessary.\n\n# Read Full Proposal\nPlease [click here](https://forum.treasure.lol/discussion/24254-tip42-reallocating-bridgeworld-emissions-to-treasure-chain-eigenlayer-staking-and-transition-to-bridgeworld-v2) to read the full TIP-42 proposal.\n\n# Voting Eligibility\n- The following holders of MAGIC can vote:\n  - (A) Stakers in the Harvesters or the TreasureDAO Governance Staking contract, and holders of MAGIC-ETH SLP on Arbitrum One.\n  - (B) Holders of all listed Magicswap LP tokens and stakers in Beefy’s mooSushiMAGIC-ETH vault or Balancer’s 50% MAGIC / 50% USDC weighted pool.\n- gMAGIC will be calculated on a 1:1 basis in (A) and 0.5 ratio in (B) (50% of MAGIC amount)",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 210,
+      "blockNumber": 239912586,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0xb680eed05ef084b379bc10270ed2f42262fe37aae703e164e4547d9ff137ad5b",
+      "startTime": {
+        "timestamp": 1722917696
+      },
+      "endTime": {
+        "timestamp": 1723467600
+      },
+      "startTimestamp": 1722917696,
+      "endTimestamp": 1723467600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 5408881.5,
+          "choice": 0
+        },
+        {
+          "total": 51.6249,
+          "choice": 2
+        },
+        {
+          "total": 428409.97,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5408885.136866423,
+          "choice": 0
+        },
+        {
+          "total": 428409.96976160223,
+          "choice": 1
+        },
+        {
+          "total": 51.6249,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1722918495471,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHgxZTFiMzJhYmQ1MDJkNzc0NWE3ZTQwY2Q3N2FiNTkxZTM2YjEzNjdkMWVlYzIwMGNmYTViMTI5NTEzYmE5YjUz",
+      "id": "0x1e1b32abd502d7745a7e40cd77ab591e36b1367d1eec200cfa5b129513ba9b53",
+      "title": "TIP-41: Acquisition of Ryu to Accelerate Treasure's Product Roadmap",
+      "content": "# Summary\nThis proposal is authored by Ross Krasner, the Co-Founder & CEO of Ryu Technologies Inc. (”Ryu”) and Core Contributor to the Distribution of Games Protocol (“DoG Protocol”). We would like to propose to the Treasure DAO community the following:\n- In consideration for $400,000 equivalent as MAGIC, acquire all of Ryu and DoG Protocol’s assets and IP to Treasure comprising our desktop app/client technology, SDKs, self-serve developer dashboard and management console, developed games and content, and more.\n- The token that was previously planned and associated with DoG Protocol to be reworked to better fit within the Treasure ecosystem and $MAGIC holders.\n- Integrate the Ryu and DoG Protocol core team (n = 4) into Treasure’s core contributing team (under Game Builder Services, Inc., a service provider to Treasure) to accelerate the DAO’s product and technology initiatives while strengthening the ecosystem and partnerships.\n\nWe’re huge fans of the Treasure ecosystem as builders, partners, and players, and have very naturally came to this conclusion of wanting to be part of it in a much more real and meaningful way through this proposal.\n\nThank you to Karel, Yuri, and others from the Treasure core team for their input and thoughtfulness in discussing this proposal before we brought this to the rest of the Treasure community.\n\n# Read Full Proposal\nPlease [click here](https://forum.treasure.lol/discussion/23921-tip41-acquisition-of-ryu-to-accelerate-treasures-product-roadmap) to read the full TIP-41 proposal.\n\n# Voting Eligibility\n- The following holders of MAGIC can vote:\n  - (A) Stakers in the Harvesters or the TreasureDAO Governance Staking contract, and holders of MAGIC-ETH SLP on Arbitrum One.\n  - (B) Holders of all listed Magicswap LP tokens and stakers in Beefy’s mooSushiMAGIC-ETH vault or Balancer’s 50% MAGIC / 50% USDC weighted pool.\n- gMAGIC will be calculated on a 1:1 basis in (A) and 0.5 ratio in (B) (50% of MAGIC amount)",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 158,
+      "blockNumber": 231627959,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x1e1b32abd502d7745a7e40cd77ab591e36b1367d1eec200cfa5b129513ba9b53",
+      "startTime": {
+        "timestamp": 1720837820
+      },
+      "endTime": {
+        "timestamp": 1721221200
+      },
+      "startTimestamp": 1720837820,
+      "endTimestamp": 1721221200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3765042.8,
+          "choice": 0
+        },
+        {
+          "total": 54000.004,
+          "choice": 2
+        },
+        {
+          "total": 9683.756,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3765043.2901266622,
+          "choice": 0
+        },
+        {
+          "total": 9683.755682905026,
+          "choice": 1
+        },
+        {
+          "total": 54000.002,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1720838342158,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHhmMTU2N2RhYzRmOWRiNmMzNjU5N2ZiYzNjN2QyYTJkNTFjNzkyOTI0NDE5ZDliMzE5MGY4NmU4YjJiNGYzMGVk",
+      "id": "0xf1567dac4f9db6c36597fbc3c7d2a2d51c792924419d9b3190f86e8b2b4f30ed",
+      "title": "TIP-40: Deploy Magicswap v2 and Authorize First NFT-ERC-20 Pools by Zeeverse",
+      "content": "# Summary\n- Deploy Magicswap v2 as an evolution to Magicswap v1\n- Begin process of migrating existing liquidity and rewards from v1 to v2\n- Set baseline protocol fee to 0.3%\n- Approve launch of the first NFT-ERC-20 pool on v2 by Zeeverse, as well as a blanket approval for all future NFT pool creations\n- Upon the launch of Treasure mainnet, also approve in advance its deployment as the native AMM and DEX for the Treasure Chain and network of Infinity Chains\n\nThis proposal will authorize core contributors to deploy Magicswap v2, a permissionless AMM that supports ERC-20 and NFT trading. Pools currently on Magicswap v1 will begin to be migrated to v2 in collaboration with partners, and eventually to Treasure Chain. Any existing LP reward programs will be migrated to v2.\n\nThe protocol will take a 0.3% fee on transactions. Pool creators will be able to establish LP rewards. The admin will assign token creator rewards to pools.\n\nUpon launch of Treasure mainnet, this proposal authorizes the DAO to deploy Magicswap v2 on the Treasure Chain and network of Infinity Chains.\n\nFor the full proposal, please see: https://forum.treasure.lol/discussion/23919-tip40-deploy-magicswap-v2-and-authorize-first-nfterc20-pools-by-zeeverse",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 150,
+      "blockNumber": 230155237,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0xf1567dac4f9db6c36597fbc3c7d2a2d51c792924419d9b3190f86e8b2b4f30ed",
+      "startTime": {
+        "timestamp": 1720468508
+      },
+      "endTime": {
+        "timestamp": 1720789200
+      },
+      "startTimestamp": 1720468508,
+      "endTimestamp": 1720789200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3437957.0,
+          "choice": 0
+        },
+        {
+          "total": 0.002,
+          "choice": 2
+        },
+        {
+          "total": 51.06764,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3437957.1880787155,
+          "choice": 0
+        },
+        {
+          "total": 51.067637157,
+          "choice": 1
+        },
+        {
+          "total": 0.002,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1720469220533,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHg4MzMxYzFiYmExNzZhMjU5YzRmZWE3MDVlYjJmOTAyYzFhMDM5NzJkMTEyYzk4NzQ1MDIxOTg0MTRmYzQ4YmJk",
+      "id": "0x8331c1bba176a259c4fea705eb2f902c1a03972d112c9874502198414fc48bbd",
+      "title": "TIP-39: Approving MAGIC Token Contract Operations to Clawback Past Contributor Tokens and Remove Admin Functions",
+      "content": "# Summary\nWhile performing discovery in connection with the Treasure Chain, Treasure’s core developers discovered a means by which the vesting tokens allocated to long departed contributors can be clawed back. This proposal seeks to authorize the DAO multisig to initiate a clawback of all unclaimed and unvested MAGIC tokens for past contributors. These funds will be reallocated to two primary purposes: (i) revocable allocations for contributors granted significantly smaller rewards after joining after the original team allocation had been fully allocated in 2021, (ii) supporting MAGIC liquidity and partner token launches in the lead up to the Treasure Chain.\n\nThis proposal will also authorize an upgrade of the original L1 MAGIC contract to remove the `adminTransfer()` and `adminMint()` function at the time of execution.\n\n# Read Full Proposal\nPlease [click here](https://forum.treasure.lol/discussion/17127-tip39-approving-magic-token-contract-operations-to-clawback-past-contributor-tokens-and-remove-admin-functions) to read the full TIP-39 proposal.\n\n# Voting Options\n- **For Clawback + Function Removal:** Approve (i) the token clawback of unclaimed and unvested tokens from former contributors; and (ii) the removal of the `adminTransfer()` and `adminMint()` functions from the L1 MAGIC contract.\n- **For Clawback Only:** Approve only the token clawback of unclaimed and unvested tokens from former contributors.\n- **For Function Removal Only:** Approve only the removal of the `adminTransfer()` and `adminMint()` functions from the L1 MAGIC contract.\n- **Against**: Reject all proposed actions.\n- **Abstain**: Refrain from voting on this proposal.\n\n# Voting Period\nVoting commences now, ending Monday, April 29, 2024 at 1:40pm UTC (unix timestamp: 1714398000 - copy and paste [here](https://www.unixtimestamp.com/) to see local time).\n\n# Voting Eligibility\n- The following holders of MAGIC can vote:\n  - (A) Stakers in the Harvesters or the TreasureDAO Governance Staking contract, and holders of MAGIC-ETH SLP on Arbitrum One.\n  - (B) Holders of all listed Magicswap LP tokens and stakers in Beefy’s mooSushiMAGIC-ETH vault or Balancer’s 50% MAGIC / 50% USDC weighted pool.\n- gMAGIC will be calculated on a 1:1 basis in (A) and 0.5 ratio in (B) (50% of MAGIC amount)",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 371,
+      "blockNumber": 204690644,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x8331c1bba176a259c4fea705eb2f902c1a03972d112c9874502198414fc48bbd",
+      "startTime": {
+        "timestamp": 1714052959
+      },
+      "endTime": {
+        "timestamp": 1714398000
+      },
+      "startTimestamp": 1714052959,
+      "endTimestamp": 1714398000,
+      "currentState": "closed",
+      "choices": [
+        "For Clawback + Function Removal",
+        "For Clawback Only",
+        "For Function Removal Only",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 9492.057,
+          "choice": 3
+        },
+        {
+          "total": 77.935814,
+          "choice": 4
+        },
+        {
+          "total": 4440578.0,
+          "choice": 0
+        },
+        {
+          "total": 19.13584,
+          "choice": 2
+        },
+        {
+          "total": 21.60363,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4440582.759046716,
+          "choice": 0
+        },
+        {
+          "total": 21.60362894713678,
+          "choice": 1
+        },
+        {
+          "total": 19.13584,
+          "choice": 2
+        },
+        {
+          "total": 9492.056897107086,
+          "choice": 3
+        },
+        {
+          "total": 77.93581756267504,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1714053947025,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHg1NmQzMTRkMGVlMzA3Mzg5NmFmOWY0YTU1ODRlNjNiM2VmZjAzZDQ2MmIwNjE0NDlmYzcwOWY3YTQxNTgwMDk2",
+      "id": "0x56d314d0ee3073896af9f4a5584e63b3eff03d462b061449fc709f7a41580096",
+      "title": "TIP-38: Future of Treasure’s Arbitrum Council (ARC)",
+      "content": "# Summary\nTreasureDAO (“Treasure”) is a prominent and respected member of the Arbitrum ecosystem. This position comes with significant responsibilities; both to the Treasure community in advocating for its interests, to be a leader championing web3 gaming more broadly within Arbitrum, and to support the success of Arbitrum DAO itself.\n\nTo fulfil this commitment, the Treasure core council has established the [Arbitrum Council (ARC)](https://snapshot.org/#/treasuregaming.eth/proposal/0x8cf2806c4dcd2474272ac3c93e2cb47155700a999cbcf4d907bf9fec4a6a9f4d), an independant community-led council, consisting of members from both the Treasure and Arbitrum communities. By forming the ARC, Treasure core contributors were able to remain primarily focused on ecosystem growth at Treasure while also seeking to satisfy our obligation to Arbitrum - ultimately resulting in benefits to both the Treasure and Arbitrum communities.\n\nThe first term of the ARC formally ends on April 30, 2024. For this reason we present three different options for community considerations on how to proceed:\n1. ARC Renewed\n2. ARC Reelected\n3. ARC Dissolved\n\n# Read Full Proposal\nPlease [click here](https://forum.treasure.lol/discussion/16640-tip38-future-of-treasures-arbitrum-council-arc) to read the full TIP-38 proposal.\n\n# Voting Period\nVoting commences now, ending Monday, March 25, 2024 at 16:00 UTC (unix timestamp: 1711382400 - copy and paste [here](https://www.unixtimestamp.com/) to see local time).\n\n# Voting Eligibility\n- The following holders of MAGIC can vote:\n    - (A) Stakers in the Harvesters or the TreasureDAO Governance Staking contract, and holders of MAGIC-ETH SLP on Arbitrum One.\n    - (B) Holders of all listed Magicswap LP tokens and stakers in Beefy’s mooSushiMAGIC-ETH vault or Balancer’s 50% MAGIC / 50% USDC weighted pool.\n- gMAGIC will be calculated on a 1:1 basis in (A) and 0.5 ratio in (B) (50% of MAGIC amount)",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 755,
+      "blockNumber": 191413721,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x56d314d0ee3073896af9f4a5584e63b3eff03d462b061449fc709f7a41580096",
+      "startTime": {
+        "timestamp": 1710705655
+      },
+      "endTime": {
+        "timestamp": 1711382400
+      },
+      "startTimestamp": 1710705655,
+      "endTimestamp": 1711382400,
+      "currentState": "closed",
+      "choices": [
+        "Renew ARC",
+        "Re-elect ARC",
+        "Dissolve ARC"
+      ],
+      "results": [
+        {
+          "total": 3397356.0,
+          "choice": 0
+        },
+        {
+          "total": 89.323616,
+          "choice": 2
+        },
+        {
+          "total": 11342.224,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3397383.071618918,
+          "choice": 0
+        },
+        {
+          "total": 11342.232456658969,
+          "choice": 1
+        },
+        {
+          "total": 89.32360000000004,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710705886415,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHgzZjdlMmVkYTNkNDMzNGZiZTU5MzNjM2ZiZTNkY2RlNWZiNjUyZmE5YjAyN2E4MmQ0OTBlNzVlMTY1NjIwYjYw",
+      "id": "0x3f7e2eda3d4334fbe5933c3fbe3dcde5fb652fa9b027a82d490e75e165620b60",
+      "title": "MIP-07: Reduce Swap Fees on Magicswap",
+      "content": "# Summary\nMagicswap, a decentralized exchange (DEX) developed by TreasureDAO (“Treasure”), currently imposes swap fees that are substantially higher than its competitors. This proposal aims to address this issue by reducing swap fees on Magicswap.\n\n*This proposal was submitted by long-standing Treasure community member \"The Smolinator\".*\n\n# Rationale\n- **Competitive Positioning:** By reducing swap fees, Magicswap can enhance its competitiveness in the decentralized exchange market. Lower fees could attract more users and liquidity to the platform, thereby increasing trading volume and overall ecosystem activity.\n- **User Experience Improvement:** High swap fees can deter users, especially those trading smaller amounts, from utilizing Magicswap. Lowering fees would improve the user experience and make the platform more accessible to a broader range of traders, including retail investors.\n- **Liquidity Incentive:** Reduced fees can incentivize liquidity providers to stake their assets on Magicswap, leading to deeper liquidity pools. Deeper liquidity enhances price stability and reduces slippage, benefiting all traders on the platform.\n- **Community Satisfaction:** Addressing the community’s concerns about high swap fees demonstrates TreasureDAO’s responsiveness to user feedback and commitment to creating a user-centric decentralized ecosystem. This can foster greater trust and loyalty among community members.\n- **Long-Term Sustainability:** While high fees may generate short-term revenue, they could hinder Magicswap’s long-term growth potential by limiting user adoption and ecosystem expansion. Lowering fees can support sustainable growth and ensure Magicswap’s viability in the competitive DEX landscape.\n- **Network Effects:** By reducing barriers to entry, lower swap fees can amplify network effects, attracting more users, developers, and projects to integrate with Magicswap. This positive feedback loop can accelerate the platform’s growth and establish it as a leading DEX in the decentralized finance (DeFi) space.\n- **Alignment with DeFi Principles:** Decentralized finance aims to democratize access to financial services and reduce reliance on traditional intermediaries. Lowering swap fees aligns with these principles by making DeFi more inclusive and empowering a broader spectrum of participants to engage in decentralized trading and liquidity provision.\n\n# Proposa:\nAdjust the fee structure on Magicswap to enhance competitiveness while continuing to incentivize builders to select Magicswap for their liquidity provision needs. The proposed fee structure is as follows:\n\n## Base Fee\nReduce the base swap fee from 3% to 0.5%, aligning more closely to the industry standard set by Sushiswap and the mid-tier fee tier of Uniswap. This reduction significantly lowers the barrier for entry for traders and encourages higher trading volumes on Magicswap.\n\n## Distribution of Fees\n- **Liquidity Providers:** Allocate 0.4% of the swap fee to liquidity providers, ensuring they continue to receive a substantial portion of the fees generated by their provided liquidity. This aligns with the fee distribution model of Sushiswap and provides an attractive incentive for liquidity provision on Magicswap.\n- **Community Gamification Fund:** Dedicate 0.05% of the swap fee to the Community Gamification Fund, supporting community engagement initiatives and incentivizing active participation in the Magicswap ecosystem. \n- **Community Ecosystem Fund:** Allocate 0.05% of the swap fee to the Community Ecosystem Fund, which will be used to fund development projects, partnerships, and other ecosystem-building activities. This ensures sustainable growth and innovation within the Magicswap ecosystem.\n\nThis fee structure maintains a competitive edge for Magicswap while continuing to incentivize liquidity providers and builders to choose Magicswap for their liquidity needs.\n\n# Voting Period\nVoting commences now, ending Friday, March 8, 2024 at 17:40 UTC (unix timestamp: 1709919600 - copy and paste [here](https://www.unixtimestamp.com/) to see local time).\n\n# Voting Eligibility\n- The following holders of MAGIC can vote:\n    - (A) Stakers in the Harvesters or the TreasureDAO Governance Staking contract, and holders of MAGIC-ETH SLP on Arbitrum One.\n    - (B) Holders of all listed Magicswap LP tokens and stakers in Beefy’s mooSushiMAGIC-ETH vault or Balancer’s 50% MAGIC / 50% USDC weighted pool.\n- gMAGIC will be calculated on a 1:1 basis in (A) and 0.5 ratio in (B) (50% of MAGIC amount)",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 379,
+      "blockNumber": 187410321,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x3f7e2eda3d4334fbe5933c3fbe3dcde5fb652fa9b027a82d490e75e165620b60",
+      "startTime": {
+        "timestamp": 1709660607
+      },
+      "endTime": {
+        "timestamp": 1709919600
+      },
+      "startTimestamp": 1709660607,
+      "endTimestamp": 1709919600,
+      "currentState": "closed",
+      "choices": [
+        "Reduce Swap Fee to 0.5% from 3%",
+        "No Change to Swap Fee (3%)"
+      ],
+      "results": [
+        {
+          "total": 3916263.2,
+          "choice": 0
+        },
+        {
+          "total": 10.7103615,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3916269.3977673505,
+          "choice": 0
+        },
+        {
+          "total": 10.710361698712148,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709660617966,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHg5NTczNDlmNmQ2MGYwN2U5NWQ2ZTQyNjUzNjk5NmFmOTZjYTYzZjBiOWUwNDk1ZWU4ZTczNTU0MjA3Y2IyMzgx",
+      "id": "0x957349f6d60f07e95d6e426536996af96ca63f0b9e0495ee8e73554207cb2381",
+      "title": "TIP-37: Extend Treasure with EIP-4824",
+      "content": "# Summary\nEIP-4824 defines daoURI, a standard JSON schema for publishing DAO metadata on-chain. If this proposal passes, Treasure will adopt EIP-4824 by deploying a new smart contract on the Ethereum/Arbitrum mainnet to store its daoURI. \n\nToday, there are over 20,000 DAOs, deployed using different governance frameworks, many with token holders and treasuries on multiple chains. This number is set to increase by orders of magnitude in the next few years. Additionally, with new layer-2s and cross-chain products, the number of DAO-controlled parameters is increasing day by day. EIP-4824 establishes a robust framework to process this data. \n\nEIP-4824 provides two main value adds: \n- **It allows you to access any info about the DAO from an on-chain location, in a global format (irrespective of governance structure or chain)**: This point is about ensuring interoperability with the larger web3 ecosystem. At present, it takes a lot of manual coordination to add or change data in any of the leading aggregators. As a result, new DAOs, DAO frameworks, and novel DAO data fail to be indexed. daoURI solves this issue by providing a standard interface to publish and consume DAO data. Outside of the standard specification, Treasure may also publish a treasureTagURI, a URI returning trusted service providers or major delegates, etc. to enrich its on-chain information availability. DAOstar will provide the development resources necessary to build a daoURI for treasure. \n- **It provides a base layer for building other public infrastructure:** we are presently building an opt-in Regulatory Interface and Tax Standard for DAOs with the support of the Arbitrum Foundation; a Grants Management standard with Gitcoin and an Attestation standard with EAS, Optimism, and others. EIP-4824 functions as an effective base layer for these public infrastructures and more.   \n\nThe standard has gained significant momentum in the last year in terms of adoption:\n\nEIP-4824 was adopted by Snapshot X. Going forward, 100s and possibly 1000s of DAOs created using Snapshot X will be automatically EIP-4824 compliant. ShapeShift DAO, Unlock Protocol, and LXDAO recently adopted EIP-4824. DAO frameworks including Aragon V3, DAODAO (Cosmos), Moloch v2 / DAOHaus, Moloch v3 / DAOHaus, Gnosis Safe, DAOstack, KALI, Q.org, Power Protocol, and XDAO have either already adopted or have committed to adopting EIP-4824 in the short term.\n\nWe are supported by the Arbitrum Foundation, Optimism Collective, Ethereum Foundation, Gnosis, Aragon, Radicle, MolochDAO, MetaCartel Ventures, The Graph, and many other members of DAOstar One. \n\n# Proposal\nTo enrich the on-chain information availability on Treasure and to make it easier for existing and future tools to seamlessly interact with the DAO, we propose adopting EIP-4824. \n\n## Specification\nThe standard JSON-LD schema defined by EIP-4824:\n```\n    \"@context\": \"http://www.daostar.org/schemas\",\n    \"type\": \"DAO\",\n    \"name\": \"<name of the DAO>\",\n    \"description\": \"<description>\",\n    \"membersURI\": \"<URI>\",\n    \"proposalsURI\": \"<URI>\",\n    \"activityLogURI\": \"<URI>\",\n    \"governanceURI\": \"<URI>\",\n    \"contractsRegistryURI\": \"<URI>\"\n}\n```\n\nWe invite community feedback on each subURI for a potential daoURI for Treasure. General suggestions: \n- membersURI can return all Snapshot voters; \n- governanceURI can link to Treasure’s governance doc; \n\nWith the help of the Arbitrum Foundation grant, DAOstar can help customize any of the subURIs or add any additional data that the Treasure community may be interested in including in its daoURI. \n\nThe DAOstar register page provides a simple interface to generate a daoURI. daoURIs hence generated are automatically stored to IPFS.\n\n## Execution\nAll we are trying to do is store the daoURI onchain. Though there are multiple ways to do this (through ENS text records, EAS, etc.), the current easiest way is to deploy an EIP4824 registration contract to store the daoURI. This proposal assumes the usage of this method. \n\nIf passed, Treasure will execute the following call to the EIP-4824 Registration Factory (0x2Dac5DBbF1D024c1E0D9c92D3AeDa7618e15aDd7 on Ethereum Mainnet (the Registration Factory is being deployed to Arbitrum), to complete the registration, setting Treasure DAO as admin:\n\n*Call EIP4824RegistrationSummoner.summonRegistration(salt, daoURI, manager, contracts, data)*\n\n**New clones are deployed to predictable addresses using the message sender and a bytes32 value combined as a salt.**\n\nIn summary, this is an extremely low-risk proposal that’ll take us one step closer to true interoperability within the DAO ecosystem. This proposal does not involve any transfer of funds or changes to Treasure’s smart contracts. Other than gas fees required to execute the transaction, this proposal does not require additional expenditure of resources from Treasure. DAOstar stands to provide all assistance necessary to smoothen the adoption of EIP-4824. \n\nThis initiative is made possible through an Arbitrum Foundation grant that has funded DAOstar to assist DAOs on Arbitrum in adopting this standard. We have begun engaging with DAOs on Arbitrum, and the first DAO to approve this proposal is Lodestar Finance, which recently voted in favor of EIP-4824. We look forward to receiving valuable feedback from the Treasure community on this initiative. \n\nAs additional references, please refer to: \n1. EIP-4824 adoption by ShapeShift DAO using SafeSnap. \n2. EIP-4824 adoption by Unlock DAO using Tally/Governor.  \n\nProposal TO-DOs: \n1. Finalize a daoURI for Treasure. If the DAO does not want to add any additional data at the moment, we can go with the standard specification. \n2. If the proposal passes, deploy a registration contract to store Treasure’s daoURI. \n\n# Voting Period\nVoting commences now, ending Friday, March 8, 2024 at 17:40 UTC (unix timestamp: 1709919600 - copy and paste [here](https://www.unixtimestamp.com/) to see local time).\n\n# Voting Eligibility\n- The following holders of MAGIC can vote:\n    - (A) Stakers in the Harvesters or the TreasureDAO Governance Staking contract, and holders of MAGIC-ETH SLP on Arbitrum One.\n    - (B) Holders of all listed Magicswap LP tokens and stakers in Beefy’s mooSushiMAGIC-ETH vault or Balancer’s 50% MAGIC / 50% USDC weighted pool.\n- gMAGIC will be calculated on a 1:1 basis in (A) and 0.5 ratio in (B) (50% of MAGIC amount)",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 400,
+      "blockNumber": 187411021,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x957349f6d60f07e95d6e426536996af96ca63f0b9e0495ee8e73554207cb2381",
+      "startTime": {
+        "timestamp": 1709660781
+      },
+      "endTime": {
+        "timestamp": 1709919600
+      },
+      "startTimestamp": 1709660781,
+      "endTimestamp": 1709919600,
+      "currentState": "closed",
+      "choices": [
+        "Extend Treasure with EIP-4824",
+        "Do not implement"
+      ],
+      "results": [
+        {
+          "total": 3385892.0,
+          "choice": 0
+        },
+        {
+          "total": 46.63658,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3569907.2677180534,
+          "choice": 0
+        },
+        {
+          "total": 46.63658215461608,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709661222175,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHhkNDRlZjVhN2FhOGUxZjFmYzdkYmFlZmY2NjhmNDAxYWNmNzQxNzBiMzdiZDYzZTJiOTQ2NTkwYmEwYWVlNmNl",
+      "id": "0xd44ef5a7aa8e1f1fc7dbaeff668f401acf74170b37bd63e2b946590ba0aee6ce",
+      "title": "TIP-36: Ecosystem Selection for the Treasure Chain",
+      "content": "# Summary\nTIP-36 outlines a proposal for TreasureDAO (“Treasure”) to select the ecosystem to build the Treasure Chain. The Treasure Chain, secured by MAGIC, will serve as a settlement layer and enable the development of an end-to-end ecosystem for Treasure as a decentralized gaming network.\n\nDespite the core contributors not running a public request for proposal (RFP) process, Treasure DAO received its first public ecosystem proposal on January 30, 2024 beginning with Optimism and later followed by zkSync and SKALE in order. The core contributor team published a [litepaper](https://go.treasure.lol/litepaper) on February 5, 2024 outlining their vision for the Treasure Chain and highlighted Arbitrum as its ecosystem recommendation.\n\n**Ecosystem Proposals** (in order of publishing):\n- [Optimism](https://forum.treasure.lol/discussion/15048-treasure-on-the-superchain)\n- [zkSync](https://forum.treasure.lol/discussion/15058-zksync-and-treasure-dao-crafting-a-future-in-decentralized-gaming)\n- [SKALE](https://forum.treasure.lol/discussion/15178-skale-network-treasure-dao-scaling-blockchain-gaming-for-mass-adoption)\n- Arbitrum*\n\nThis proposal will only select the ecosystem to build the Treasure Chain. A separate proposal will follow at a later date to ratify chain specifications.\n\n**Note: No public proposal was published by the Arbitrum Foundation, but Arbitrum as a recommendation was embedded within the Treasure Infinity Chains litepaper published by the core contributing team.*\n\n# Rationale\nThe Treasure Chain represents the next evolution of Treasure to emerge as a decentralized gaming ecosystem. The chain will unlock deeper value accrual for the $MAGIC token and enable new innovations by developers and community through blockspace solely dedicated for the gaming use case.\n\nThe chain exploration was started by the core contributing team in full force in late November and coincided with the launch of a new channel in Treasure’s public Discord under “#chain-chat”. Treasure contributors dove into research on chain development while the community engaged in lengthy discussions about the topic. \n \nIn order to progress to the next stage of development for the Treasure Chain, the DAO must consider and select an ecosystem with which to partner. Several considerations need to be factored into making an ecosystem decision, including:\n- Technology capabilities\n- Access to distribution and liquidity\n- Reputation and influence\n- Ease of migration\n\nHere we attempt to briefly describe the key considerations listed above. We invite readers to review each of the received ecosystem proposals posted separately.\n\n## Technology Capabilities\nEthereum scaling efforts have adopted a variety of approaches. The core contributors primarily considered rollups rather than sidechains. We spent a long time deliberating between a Layer 2 (L2) chain that settles onto Ethereum or a Layer 3 (L3) chain settling on Arbitrum One. L2s and L3s are highly customizable in regards to throughput, privacy, gas tokens, governance, data availability layers, and more. However, some rollup networks permit more customization than others. Optimism’s Superchain design, for example, aims to foster interoperability between chains, but this approach precludes custom design decisions by specific chains regarding data availability and gas tokens in order to maintain standardization across the Superchain. Arbitrum and zkSync, on the other hand, permit more flexibility for individual chains in the network.\n\n## Access to Distribution & Liquidity\nTreasure’s decision to build its own chain was contingent on having first established a strong base of liquidity and user activity on Arbitrum One. The core contributors believed that moving to our own chain should happen at a time when we began experiencing enough activity to justify our own blockspace. Since 2021, Treasure has amassed a strong, loyal community of players and developers. MAGIC has strong liquidity on both centralized and decentralized exchanges. Nevertheless, the chain decision should depend in part on the liquidity and user base across the larger rollup network. In the case of Arbitrum, a Treasure chain would maintain a strong connection to L1 liquidity, Arbitrum One, and Nova. Optimism chains enjoy connections to the OP Mainnet, Base, and Zora.\n\n## Reputation & Influence\nWith Treasure’s long history building upon Arbitrum and serving as the single largest delegate in Arbitrum DAO at the time of writing, the community should weigh the opportunity cost of relinquishing this position by leaving the Arbitrum network. It is unknown whether Treasure can achieve similar influence elsewhere. At the same time, maintaining Treasure’s position within Arbitrum DAO is not without its challenges. Remaining an active, engaged delegate is a significant time commitment and reputational responsibility. The DAO recently formed the Treasure’s Arbitrum Council to help scale this function and serve Treasure’s best interests within Arbitrum DAO. \n\n## Ease of Migration\nGiven Treasure’s long history on Arbitrum One, a significant amount of smart contracts, tooling, state, and assets will need to undergo migration. The ecosystem should make it as easy as possible for users/players, developers, and other builders to migrate to the new Treasure Chain and provide meaningful support to facilitate a smooth and effortless transition. Remaining within Arbitrum as Treasure’s existing underlying ecosystem from a player and developer perspective would be the least disruptive move compared to other networks.\n\n# Proposal\nSelect the ecosystem to build the Treasure Chain:\n- Optimism\n- zkSync\n- SKALE\n- Arbitrum\n\nA separate proposal will follow at a later date to ratify chain specifications such as the configurable chain components, DAC membership (if built atop Arbitrum Orbit using AnyTrust), $MAGIC burn mechanics, etc.\n\n# Voting Period\nVoting commences now, ending Wednesday, Feburary 21, 2024 at 16:30 UTC (unix timestamp: `1708504200` - [copy and paste here to see local time](https://www.unixtimestamp.com/)).\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or the TreasureDAO Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options\n- gMAGIC changes via TIP-34 have not yet been implemented",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 1064,
+      "blockNumber": 180802800,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0xd44ef5a7aa8e1f1fc7dbaeff668f401acf74170b37bd63e2b946590ba0aee6ce",
+      "startTime": {
+        "timestamp": 1707949436
+      },
+      "endTime": {
+        "timestamp": 1708551000
+      },
+      "startTimestamp": 1707949436,
+      "endTimestamp": 1708551000,
+      "currentState": "closed",
+      "choices": [
+        "Optimism",
+        "zkSync",
+        "SKALE",
+        "Arbitrum",
+        "Do not build the Treasure Chain"
+      ],
+      "results": [
+        {
+          "total": 5735911.0,
+          "choice": 3
+        },
+        {
+          "total": 135.3664,
+          "choice": 4
+        },
+        {
+          "total": 10293.331,
+          "choice": 0
+        },
+        {
+          "total": 24.697779,
+          "choice": 2
+        },
+        {
+          "total": 2500.4746,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 10293.330565747685,
+          "choice": 0
+        },
+        {
+          "total": 2500.4747546807544,
+          "choice": 1
+        },
+        {
+          "total": 24.697778561658257,
+          "choice": 2
+        },
+        {
+          "total": 5735922.123291454,
+          "choice": 3
+        },
+        {
+          "total": 135.36638832903975,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707953011664,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHgwNGQxMmU0MjFmYzU1OTZiMjUwNmQwMzY3NjQ4MTA0MGQ5MTkxMDQzNTcyNjc2NGZmMTJhZmY4MTNlYmY5MmZj",
+      "id": "0x04d12e421fc5596b2506d03676481040d91910435726764ff12aff813ebf92fc",
+      "title": "TIP-36: Updates to MAGIC LP Incentives: Conservation for Future Initiatives",
+      "content": "# Summary\nTIP-36 outlines a proposal for TreasureDAO (“Treasure”) to select the ecosystem to build the Treasure Chain. The Treasure Chain, secured by MAGIC, will serve as a settlement layer and enable the development of an end-to-end ecosystem for Treasure as a decentralized gaming network.\n\nDespite the core contributors not running a public request for proposal (RFP) process, Treasure DAO received its first public ecosystem proposal on January 30, 2024 beginning with Optimism and later followed by zkSync and SKALE in order. The core contributor team published a [litepaper](https://go.treasure.lol/litepaper) on February 5, 2024 outlining their vision for the Treasure Chain and highlighted Arbitrum as its ecosystem recommendation.\n\n**Ecosystem Proposals** (in order of publishing):\n- [Optimism](https://forum.treasure.lol/discussion/15048-treasure-on-the-superchain)\n- [zkSync](https://forum.treasure.lol/discussion/15058-zksync-and-treasure-dao-crafting-a-future-in-decentralized-gaming)\n- [SKALE](https://forum.treasure.lol/discussion/15178-skale-network-treasure-dao-scaling-blockchain-gaming-for-mass-adoption)\n- Arbitrum*\n\nThis proposal will only select the ecosystem to build the Treasure Chain. A separate proposal will follow at a later date to ratify chain specifications.\n\n**Note: No public proposal was published by the Arbitrum Foundation, but Arbitrum as a recommendation was embedded within the Treasure Infinity Chains litepaper published by the core contributing team.*\n\n# Rationale\nThe Treasure Chain represents the next evolution of Treasure to emerge as a decentralized gaming ecosystem. The chain will unlock deeper value accrual for the $MAGIC token and enable new innovations by developers and community through blockspace solely dedicated for the gaming use case.\n\nThe chain exploration was started by the core contributing team in full force in late November and coincided with the launch of a new channel in Treasure’s public Discord under “#chain-chat”. Treasure contributors dove into research on chain development while the community engaged in lengthy discussions about the topic. \n \nIn order to progress to the next stage of development for the Treasure Chain, the DAO must consider and select an ecosystem with which to partner. Several considerations need to be factored into making an ecosystem decision, including:\n- Technology capabilities\n- Access to distribution and liquidity\n- Reputation and influence\n- Ease of migration\n\nHere we attempt to briefly describe the key considerations listed above. We invite readers to review each of the received ecosystem proposals posted separately.\n\n## Technology Capabilities\nEthereum scaling efforts have adopted a variety of approaches. The core contributors primarily considered rollups rather than sidechains. We spent a long time deliberating between a Layer 2 (L2) chain that settles onto Ethereum or a Layer 3 (L3) chain settling on Arbitrum One. L2s and L3s are highly customizable in regards to throughput, privacy, gas tokens, governance, data availability layers, and more. However, some rollup networks permit more customization than others. Optimism’s Superchain design, for example, aims to foster interoperability between chains, but this approach precludes custom design decisions by specific chains regarding data availability and gas tokens in order to maintain standardization across the Superchain. Arbitrum and zkSync, on the other hand, permit more flexibility for individual chains in the network.\n\n## Access to Distribution & Liquidity\nTreasure’s decision to build its own chain was contingent on having first established a strong base of liquidity and user activity on Arbitrum One. The core contributors believed that moving to our own chain should happen at a time when we began experiencing enough activity to justify our own blockspace. Since 2021, Treasure has amassed a strong, loyal community of players and developers. MAGIC has strong liquidity on both centralized and decentralized exchanges. Nevertheless, the chain decision should depend in part on the liquidity and user base across the larger rollup network. In the case of Arbitrum, a Treasure chain would maintain a strong connection to L1 liquidity, Arbitrum One, and Nova. Optimism chains enjoy connections to the OP Mainnet, Base, and Zora.\n\n## Reputation & Influence\nWith Treasure’s long history building upon Arbitrum and serving as the single largest delegate in Arbitrum DAO at the time of writing, the community should weigh the opportunity cost of relinquishing this position by leaving the Arbitrum network. It is unknown whether Treasure can achieve similar influence elsewhere. At the same time, maintaining Treasure’s position within Arbitrum DAO is not without its challenges. Remaining an active, engaged delegate is a significant time commitment and reputational responsibility. The DAO recently formed the Treasure’s Arbitrum Council to help scale this function and serve Treasure’s best interests within Arbitrum DAO. \n\n## Ease of Migration\nGiven Treasure’s long history on Arbitrum One, a significant amount of smart contracts, tooling, state, and assets will need to undergo migration. The ecosystem should make it as easy as possible for users/players, developers, and other builders to migrate to the new Treasure Chain and provide meaningful support to facilitate a smooth and effortless transition. Remaining within Arbitrum as Treasure’s existing underlying ecosystem from a player and developer perspective would be the least disruptive move compared to other networks.\n\n# Proposal\nSelect the ecosystem to build the Treasure Chain:\n- Optimism\n- zkSync\n- SKALE\n- Arbitrum\n\nA separate proposal will follow at a later date to ratify chain specifications such as the configurable chain components, DAC membership (if built atop Arbitrum Orbit using AnyTrust), $MAGIC burn mechanics, etc.\n\n# Voting Period\nVoting commences now, ending Wednesday, Feburary 21, 2024 at 16:30 UTC (unix timestamp: `1708504200` - [copy and paste here to see local time](https://www.unixtimestamp.com/)).\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or the TreasureDAO Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options\n- gMAGIC changes via TIP-34 have not yet been implemented",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 28,
+      "blockNumber": 180786136,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x04d12e421fc5596b2506d03676481040d91910435726764ff12aff813ebf92fc",
+      "startTime": {
+        "timestamp": 1707945178
+      },
+      "endTime": {
+        "timestamp": 1708551000
+      },
+      "startTimestamp": 1707945178,
+      "endTimestamp": 1708551000,
+      "currentState": "closed",
+      "choices": [
+        "Optimism",
+        "zkSync",
+        "SKALE",
+        "Arbitrum",
+        "Do not build the Treasure Chain"
+      ],
+      "results": [
+        {
+          "total": 822608.56,
+          "choice": 3
+        },
+        {
+          "total": 0.2,
+          "choice": 0
+        },
+        {
+          "total": 2018.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.2,
+          "choice": 0
+        },
+        {
+          "total": 16.5,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 824610.5247708381,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707945765390,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHhjMWRhM2ViOGNlZDcxMDJiZTZiODUxNzQ3NzUzNDQwM2FmNTc3NDY0NmI1NjkzZDRhYjUzNGE4NzM1MTlkZGI3",
+      "id": "0xc1da3eb8ced7102be6b8517477534403af5774646b5693d4ab534a873519ddb7",
+      "title": "TIP-35: Updates to MAGIC LP Incentives: Conservation for Future Initiatives",
+      "content": "# Summary\nAmend Sushi LP rewards downwards to reduce unnecessary inflation to MAGIC circulating supply, recoup MAGIC that was previously allocated to Arbitrum Nova and Hop via TIP-27, and preserve incentives to be used in future new user growth and market discovery initiatives as Treasure moves towards the Treasure Chain. \n# Rationale\n## Healthy MAGIC Markets\nIn the past year MAGIC has enjoyed healthy volume and liquidity across a number of venues including major centralized exchanges such as Binance and Coinbase, as well as decentralized exchanges like Sushi. As of 7 December 2023, the Sushi LP pool holds approximately $11.2 mil MAGIC/ETH and has enough depth to support significant trading activities with acceptable slippage. A $100k buy or sale would move prices roughly only 1% to 1.5% at current liquidity depth. This allows us to lower LP incentives and conserve emissions for future use in line with [TIP-20(b)](https://gov.treasure.lol/discussion/8670-tip20b-amendment-to-magic-lp-incentives). \n## Conserving Emissions for Future Initiatives (eg. Treasure Chain)\nWith increased focus by the core contributing team on the Treasure Chain as one of the upcoming initiatives for the Treasure DAO ecosystem, it is imperative that liquidity and attention not be fragmented away from the current “homebase” of Treasure (Arbitrum One) and that we ease any potential migration to come. Moreover, emissions allocated to staking and liquidity incentives should be preserved in order to support future new user growth, developer adoption, and market discovery as the Treasure Chain moves from a discussion point to realization. To-date, there has been minimal MAGIC-related activity on Arbitrum Nova due to the absence of Treasure ecosystem games and projects building outside of Arbitrum One. As such, the majority of MAGIC allocated via [TIP-27](https://forum.treasure.lol/discussion/11285-tip27-hop-protocol-partnership) (and later agreed to by the Hop community through [HIP-29](https://snapshot.org/#/hop.eth/proposal/0x1662f448beae6ae663643744e56320ac715ffd030c0258d6e467a2f621156058)) to seed Hop Protocol’s infrastructure to turn on fast bridging support for MAGIC via bonding and the StableSwap AMM should be recouped by Treasure DAO. To-date, the bonder has earned a little more than 2,500 MAGIC for bonding transfers as revenue to the DAO.\n# Proposal\n## Amend Sushi LP rewards downwards:\n- **Arbitrum One**\n    - **Jan to End March** → 90k MAGIC for the period (30k / month)\n    - **March to End June** → 60k MAGIC for the period (20k / month)\n- Total over 6 months: 150k MAGIC\n- Reward amounts are monthly totals. The changes will take effect in the week following ratification of this proposal.\n## Recoup all available MAGIC as part of the Hop Protocol\nAfter consulting with Hop, ~80% of the remaining MAGIC that seeded the bridge can be recouped by Treasure DAO with negligible impact to the bridging experience. The following balances are proposed to be retained in the bonder and AMMs:\n- **Bonder:** 200k MAGIC (originally 1M MAGIC)\n- **AMMs:**\n    - **Arbitrum One:** 50k MAGIC (originally 250k MAGIC)\n    - **Arbitrum Nova:** 50k MAGIC (originally 250k MAGIC)\n# Voting Period\nVoting commences now, ending Friday, January 5, 2023 at 12:00 UTC (unix timestamp: `1704412800` - [copy and paste here to see local time](https://www.unixtimestamp.com/)).\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or the TreasureDAO Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options\n- gMAGIC changes via TIP-34 have not yet been implemented",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 584,
+      "blockNumber": 165110546,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0xc1da3eb8ced7102be6b8517477534403af5774646b5693d4ab534a873519ddb7",
+      "startTime": {
+        "timestamp": 1703894687
+      },
+      "endTime": {
+        "timestamp": 1704412800
+      },
+      "startTimestamp": 1703894687,
+      "endTimestamp": 1704412800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 2939949.8,
+          "choice": 0
+        },
+        {
+          "total": 114387.125,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2939952.1552777467,
+          "choice": 0
+        },
+        {
+          "total": 114387.14246536505,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703895229725,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHg2ODg3YjBjMTg4MjZmZWRmNTQwZThiOGQxMDE5OGMxODgzNTc1NTBhZTY5NTE0NzY3OGMwMTRjNWVlMzU4MDZh",
+      "id": "0x6887b0c18826fedf540e8b8d10198c188357550ae695147678c014c5ee35806a",
+      "title": "MIP-06: List Community Smolcoin (SMOL)",
+      "content": "# Description\nSmol is an original Treasure IP behind the popular Smol Brains NFTs, one of the earliest and the most popular PFP collections on Arbitrum. A game based upon Smol IP is currently in development by Darkbright Studios, Treasure’s in-house game studio. \n\n$SMOL is an unofficial community-created meme coin with no stated purpose. Earlier today, $SMOL was [embraced](https://discord.com/channels/897404773622505482/898259277356085288/1187554232103096410) by the Smol community for the culture.\n# Team\nThe original developer and/or team behind the $SMOL token is currently unknown.\n# Token \nAs stated, $SMOL is an unofficial community-created meme coin with no clearly stated purpose and no formal utility within existing or planned game loops or purposes in Smol, Smolverse, or Treasure at this point in time.\n\n$SMOL appears to be a fair launch project distributed to holders of Smol NFTs including Smol Brains, Smol Bodies and Smol Jrs. Ownership of the token smart contract has since been renounced by its original owner and the supply has been distributed entirely to NFTs holders with no presale or insiders.\n\nThe contract is not known to have been audited but has been reviewed by the community and concluded to be a barebones ERC-20 smart contract with one modification: the inclusion of a tax that only comes into play based on the Uniswap V2 pair it created. However, this does not apply with it primarily trading on Camelot (SMOL/WETH Camelot pool).\n\nThe total supply is 1,000,000,000,000 and 100% of supply is already circulating and has been distributed to the community.\n\nToken contract address: 0x9E64D3b9e8eC387a9a58CED80b71Ed815f8D82B5\n\n**UPDATE - Community Analysis**\nAdded at December 21 at 11:59pm EST. Additional context provided by Minebuu, a respected long-standing Treasure community member and web3 security researcher at ChainLight:\n```\nOther than the uniswapV2 fee, there are no particular problems with SmolCoin.\n\nSummary of UniswapV2 fees with SmolCoin:\n- There are fees for marketing (0.1%), development (0.1%), charity (0.1%) and liquidity. (0.2% fee for Buy, 0.3% fee for Sell)\n- When a uniswapV2 swap occurs, the liquidity fee is automatically converted to LP.\n- Another fee is automatically exchanged for ETH and sent to the fee recipient.\n- The current recipient of the fee (Marketing, Development, Charity) is the creator of the contract (0xe1a33cb8516a60b7adeea4dbb798f6a0d4c1b5b9). However, since there is no current owner of the contract, it cannot be changed to a different address.\n- The fee mechanism only applies to uniswapV2 pair (MAGIC-WETH).\n- Since there is no liquidity in uniswapV2 yet, the above fee mechanism has never worked.\n\nThe above fee problem can be solved by simply using Uniswap V3 pool, Magic Swap, or Camelot, which currently has liquidity.\n```\n\n# Benefit to Treasure\nIn crypto, timing and momentum is everything. As we see “meme coin season” beginning to heat up across several ecosystems such as Solana, Avalanche, and most recently Arbitrum, $SMOL has emerged as a prime opportunity for both the Smol and Treasure community to embrace the culture and leverage it to drive attention and attract new users and liquidity to the ecosystem and, by extension, MAGIC and all of the games that are building here. As both Treasure and Smol were both conceived as free mint, fair distribution projects, we are deeply aligned with the bottom-up ethos that appears to be shared by the original developer of the community token $SMOL.\n\n*Note: Please be sure to do your own research and exercise an abundance of caution. $SMOL is likely to be more volatile than other tokens currently listed on Magicswap. A listing of $SMOL on Magicswap, if ratified, does not constitute an endorsement of the community-created token by Treasure, the core contributing team, or the DAO and Treasure community at-large.*\n# Liquidity Strategy\nLike $SMOL’s inception, its liquidity strategy should be left entirely to the community.\n# Council Delisting Discretion\nAs $SMOL is a community-created token and may be highly volatile, the AMM Council should be granted the power to delist $SMOL from Magicswap at their sole discretion.\n# Voting Period\nVoting commences now, ending Sunday, December 24, 2023 at 15:30 UTC (see local time via timestamp: [1703431800](https://hammertime.cyou/?t=1703431800)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or the TreasureDAO Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\ngMAGIC will be calculated on a 1:1 basis across all options\n- gMAGIC changes via TIP-34 have not yet been implemented",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 580,
+      "blockNumber": 162628771,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x6887b0c18826fedf540e8b8d10198c188357550ae695147678c014c5ee35806a",
+      "startTime": {
+        "timestamp": 1703258679
+      },
+      "endTime": {
+        "timestamp": 1703431800
+      },
+      "startTimestamp": 1703258679,
+      "endTimestamp": 1703431800,
+      "currentState": "closed",
+      "choices": [
+        "FOR - approve $SMOL listing",
+        "AGAINST - reject $SMOL listing"
+      ],
+      "results": [
+        {
+          "total": 4647861.5,
+          "choice": 0
+        },
+        {
+          "total": 7200.458,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4647864.0539627485,
+          "choice": 0
+        },
+        {
+          "total": 7200.457976675941,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHgwOGJkYjA0NTcxNzY5OTEzNDBkZWE1MzU3ZmYzMTBiMjk3MThkYjJjMmNmNTcyYTU2ZjBmN2VjZGYxYmMwMzk2",
+      "id": "0x08bdb0457176991340dea5357ff310b29718db2c2cf572a56f0f7ecdf1bc0396",
+      "title": "TIP-34: gMAGIC Expansion and Governance Staking Lockup Reduction",
+      "content": "# Summary\n- Expand gMAGIC to account for additional sources of locked MAGIC, including: (i) [Magicswap](https://magicswap.lol/) through all pools with game partner ERC-20s; and (ii) decentralized finance and other exchanges such as [Beefy](https://app.beefy.com/vault/sushi-arb-magic-weth)’s mooSushiMAGIC-ETH vault and [Balancer](https://app.balancer.fi/#/arbitrum/pool/0xb3028ca124b80cfe6e9ca57b70ef2f0ccc41ebd40002000000000000000000ba)’s 50% MAGIC / 50% USDC weighted pool. \n- Reduce the governance staking contract’s staking lockup period from 14-days to **7-days**.\n\n# Rationale\n## Accounting for Magicswap \nWith Magicswap serving as the native automated market maker (“AMM”) governed by the TreasureDAO community built specifically for its ecosystem of game tokens, all MAGIC added by the community to MAGIC denominated liquidity pools with listed ERC-20s should count towards governance power within TreasureDAO. Currently, the listed game tokens include $ANIMA (Realm), $ELM (Tales of Elleria), $GFLY (BattleFly), and $VEE (Zeeverse).\n\n## Accounting for decentralized finance and other exchanges\nOver time, MAGIC has seen increased adoption across the decentralized finance and exchange landscape with alternative liquidity sources being formed organically through the adoption and usage of new protocols by the Treasure and MAGIC community. Today, these protocols include Beefy’s mooSushiMAGIC-ETH vault and Balancer’s 50% MAGIC / 50% USDC weighted pool which was initially seeded by the frank125 of the Life DAO team ([see original proposal](https://forum.balancer.fi/t/bip-26-enable-magic-usdc-gauge-arbitrum/3439)).\n\n## Increasing potential governance participation while minimizing risk\nFollowing the sunset of the Atlas Mine in Bridgeworld, the MAGIC governance staking contract was implemented to enable alternative channels to obtain gMAGIC outside of the Harvesters and MAGIC-ETH Sushi LP. To this day, any MAGIC that is staked in the governance contract is subject to a 14-day withdrawal lockup period to mitigate governance risks. Reducing the lockup period to 7-days is likely to encourage greater participation in MAGIC governance while continuing to maintain the necessary protection against governance attacks.\n\n# Proposal\n### (1) Add gMAGIC support for all Magicswap LP tokens at 0.5 ratio to MAGIC for all current and future supported ERC-20 pairs\nCurrent pairs include:\n- ANIMA-MAGIC LP\n- ELM-MAGIC LP\n- GFLY-MAGIC LP\n- VEE-MAGIC LP\n\n### (2) Add gMAGIC support for Beefy’s mooSushiMAGIC-ETH vault at a 0.5 ratio to MAGIC.\nCalculated using balanceOf `mooSushiMAGIC-ETH` * `getPricePerFullShare` ([0x8cbaAC87FDD9Bb6C3FdB5b3C870b2443D0284fa6](https://arbiscan.io/address/0x8cbaAC87FDD9Bb6C3FdB5b3C870b2443D0284fa6))\n\n### (3) Add gMAGIC support for Balancer’s 50% MAGIC / 50% USDC weighted pool at a 0.5 ratio to MAGIC.\nCalculated based on a user’s share of the pool:\n- (A) User’s holdings of [BPT](https://arbiscan.io/token/0x81765a6df6279564b30292a509bdf0d45bfc4ac4)\n- (B) Total supply of [BPT](https://arbiscan.io/token/0x81765a6df6279564b30292a509bdf0d45bfc4ac4)\n- (C) User’s % share of [BPT](https://arbiscan.io/token/0x81765a6df6279564b30292a509bdf0d45bfc4ac4) = (A) / (B)\n- (D) Total MAGIC of pool in the [Balancer Vault](https://arbiscan.io/address/0xba12222222228d8ba445958a75a0704d566bf2c8#readContract): `getPoolTokenInfo`\n    -`poolId`: `0xb3028ca124b80cfe6e9ca57b70ef2f0ccc41ebd40002000000000000000000ba`\n    - `token`: `0x539bde0d7dbd336b79148aa742883198bbf60342`\n- (E) User’s MAGIC contribution = (C) * (D)\n\n### (4) Decrease lock period from 14 days to 7 in the MAGIC governance staking contract\n[See contract link](https://arbiscan.io/address/0xc0e641c7ea263166a238285556ff61fdf37a4c79)\n\n# Voting Period\nVoting commences now, ending Thursday, December 14, 2023 at 6:00 UTC (see local time via timestamp: [1702569600](https://hammertime.cyou/?t= 1702569600)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or the TreasureDAO Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options\n- If TIP-34 is ratified, this voting eligibility will change for future proposals",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 594,
+      "blockNumber": 159100042,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x08bdb0457176991340dea5357ff310b29718db2c2cf572a56f0f7ecdf1bc0396",
+      "startTime": {
+        "timestamp": 1702310320
+      },
+      "endTime": {
+        "timestamp": 1702569600
+      },
+      "startTimestamp": 1702310320,
+      "endTimestamp": 1702569600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4558717.5,
+          "choice": 0
+        },
+        {
+          "total": 27.349998,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4558718.8947837455,
+          "choice": 0
+        },
+        {
+          "total": 27.35,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHgzNzcxOWI0Y2I4Y2NlNTYzNDdkZWNhYTA4MzdiODUyZDFhOWRiMjc0ZTQ2MmNmNGM4Nzc3YzRiMzZiMjJiNDNh",
+      "id": "0x37719b4cb8cce56347decaa0837b852d1a9db274e462cf4c8777c4b36b22b43a",
+      "title": "TIP-33(b): Divest gFLY and Acquire Bridgeworld’s Genesis Legions from BattleFly DAO",
+      "content": "# Summary\nThis community counter proposal suggests a minor but important amendment to [TIP-33](https://gov.treasure.lol/discussion/14281-tip33-divest-gfly-and-acquire-bridgeworlds-genesis-legions-from-battlefly-dao) to better protect the DAO from potential legal issues from BattleFly. Considering recent information, this TIP proposes the following: \n1. Present the scope of a mutual release to the DAO for voting before execution.\n2. Contingent upon the execution of the mutual release: Transfer 511k gFLY which was obtained via [TIP-16](https://commonwealth.im/treasure-dao/discussion/6965-tip16-use-of-ecofund-for-token-sale-and-strategic-partnership-with-battlefly) and is currently vesting to BattleFlyDAO in exchange for 7x Rare Genesis Legions and 2x Special Genesis Legions.\n\n# Rationale\nIt is essential to address the possibility and risk of possible legal actions by BattleFly that was later communicated with the TreasureDAO community, in addition to the [original rationale provided by the Treasure DAO core team in TIP-33](https://gov.treasure.lol/discussion/14281-tip33-divest-gfly-and-acquire-bridgeworlds-genesis-legions-from-battlefly-dao).\n\n## Mitigating Legal Risks\nEngaging in legal action can be both time-consuming and costly and will distract the Treasure team from its mission of executing TreasureDAO’s vision. Finding a solution to avoid litigation not only in the present but also in the future is in the best interest of the DAO. A mutual release should be adequately scoped and made public so that the DAO can evaluate its merits in safeguarding Treasure against BattleFly and any associated parties.\n\nThe current proposal (both its original and amended forms) is flawed because the DAO only approves the action of the transfer arrangement which is still subject to a “satisfactory mutual release”. This mutual release should not be drafted and agreed upon behind closed doors by both core councils of TreasureDAO and BattleFlyDAO as it has direct implications to the DAO. It is crucial that the DAO votes and signs off on the scope of the mutual release, ensuring transparency and alignment with the DAO's interests.\n\n# Proposal\n1. Disclose the scope of a mutual release to the DAO for voting on it before execution:\n    - A mutual release should be signed to free both parties of any litigation based on past, current and future actions. A summary of the scope of the mutual release should be presented to the DAO and be voted on. The signing off of the mutual agreement from the DAO is a prerequisite before transfer assets can be approved.  This is to ensure the spirit of decentralization, transparency, and to strengthen the DAO.\n    - The drafting or designing the mutual release should be coordinated by the core councils, and the DAO is not required to be part of it. However, the final summary should be made public to ensure it satisfactorily protects both the DAO and its core contributors.\n2. Transfer 511k gFLY obtained via TIP-16 and is currently vesting to BattleFly DAO in exchange for 7 Rare Genesis Legions and 2x Special Genesis Legions.\n    - The same 6-month TWAP calculation and other details should be used as put forth in TIP-33.\n\n# Voting Period\nVoting commences now, ending Monday, December 11, 2023 at 15:30 UTC (see local time via timestamp: [1702308600](https://hammertime.cyou/?t=1702308600)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or the TreasureDAO Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 773,
+      "blockNumber": 157472346,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x37719b4cb8cce56347decaa0837b852d1a9db274e462cf4c8777c4b36b22b43a",
+      "startTime": {
+        "timestamp": 1701876313
+      },
+      "endTime": {
+        "timestamp": 1702308600
+      },
+      "startTimestamp": 1701876313,
+      "endTimestamp": 1702308600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3765879.5,
+          "choice": 0
+        },
+        {
+          "total": 146.07018,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3765889.299456618,
+          "choice": 0
+        },
+        {
+          "total": 146.07017484516084,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHgyMmZkNjM3YzhhYTI4MzVhZmZkYTc1MmU2OTJhNDFjZWFlNjcyMDljZDg3Y2I5YjI1NDkwYTc3ZTRhZGZkMWRh",
+      "id": "0x22fd637c8aa2835affda752e692a41ceae67209cd87cb9b25490a77e4adfd1da",
+      "title": "TIP-32: Allocating ARB for ARC Multisig Setup and Operations Budget",
+      "content": "# Summary\nAs a prominent participant in the Arbitrum ecosystem, Treasure acknowledges the significant responsibility it bears in advocating for the interests of the Treasure Community within Arbitrum, and concurrently, fostering the expansion and prosperity of the overarching Arbitrum DAO.\nTo fulfill this commitment, the Treasure core council recently established the ARC, a community led group consisting of members from both the Treasure and Arbitrum communities. This initiative aims to facilitate more proactive monitoring, engagement, and active participation in Arbitrum's governance initiatives. This will allow Treasure core contributors to remain focused on ecosystem growth at Treasure, ensuring Arbitrum and Treasure can both win together.\n\nTo support the effective operational functioning of the ARC. This TIP requests 10,000 ARB in funding from the DAO to support:\n1. ARC Multisig Setup\n2. Flexible operational budget\n\n# Voting Period\nVoting commences now, ending Saturday, November 2, 2023 at 5:45 PM EST ([see local time via timestamp: 1701557100](https://hammertime.cyou/?t=1701557100)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or the TreasureDAO Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 763,
+      "blockNumber": 155361888,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x22fd637c8aa2835affda752e692a41ceae67209cd87cb9b25490a77e4adfd1da",
+      "startTime": {
+        "timestamp": 1701297541
+      },
+      "endTime": {
+        "timestamp": 1701557100
+      },
+      "startTimestamp": 1701297541,
+      "endTimestamp": 1701557100,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3579702.0,
+          "choice": 0
+        },
+        {
+          "total": 19.397171,
+          "choice": 2
+        },
+        {
+          "total": 46.488544,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3579709.4739107615,
+          "choice": 0
+        },
+        {
+          "total": 46.48855,
+          "choice": 1
+        },
+        {
+          "total": 19.39717065125222,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHhkN2NjYzk5NTdmODcxNDg4MGMwYjRiODcwZWJhM2M2ZDhmM2MyZjc1Mzk2YWRiYWRkODAxMDVmZmI2MTMwMWUy",
+      "id": "0xd7ccc9957f8714880c0b4b870eba3c6d8f3c2f75396adbadd80105ffb61301e2",
+      "title": "TIP-31: Migration of L1 Treasures",
+      "content": "# Summary\nIn line with the [RFC and detailed discussion post to migrate the L1 Treasures](https://gov.treasure.lol/discussion/13283-rfc-migration-of-l1-treasures), the Treasure core council would like to move the proposal to an informal vote by the community. Notably, we propose that we migrate Treasures on L1 to Arbitrum One by airdropping holders of L1 Treasures, their equivalent on Arbitrum One in the form of new Soulbound Treasures that can be used to unlock Treasures through gameplay and a new “Treasure Essence” system.\n\n# Voting Period\nVoting commences now, ending Friday, November 3, 2023 at 4:15 PM EST ([see local time via timestamp: 1699042500](https://hammertime.cyou/?t=1699042500)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or the TreasureDAO Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 834,
+      "blockNumber": 145511532,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0xd7ccc9957f8714880c0b4b870eba3c6d8f3c2f75396adbadd80105ffb61301e2",
+      "startTime": {
+        "timestamp": 1698696619
+      },
+      "endTime": {
+        "timestamp": 1699042500
+      },
+      "startTimestamp": 1698696619,
+      "endTimestamp": 1699042500,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3037313.5,
+          "choice": 0
+        },
+        {
+          "total": 13.953876,
+          "choice": 2
+        },
+        {
+          "total": 10048.108,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3037317.0028438224,
+          "choice": 0
+        },
+        {
+          "total": 10048.1072728558,
+          "choice": 1
+        },
+        {
+          "total": 13.95387463613114,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHg4Y2YyODA2YzRkY2QyNDc0MjcyYWMzYzkzZTJjYjQ3MTU1NzAwYTk5OWNiY2Y0ZDkwN2JmOWZlYzRhNmE5ZjRk",
+      "id": "0x8cf2806c4dcd2474272ac3c93e2cb47155700a999cbcf4d907bf9fec4a6a9f4d",
+      "title": "TIP-30: Forming the Treasure Arbitrum Representative Council (ARC)",
+      "content": "# Summary\nIn line with the RFC and detailed discussion post to form the Treasure Arbitrum Representative Council (ARC), the Treasure core council would like to stand up a community-led group comprising members of the Treasure and Arbitrum community to enable more proactive monitoring, engagement, and participation in Arbitrum governance initiatives. This will allow Treasure core contributors to remain focused on ecosystem growth at Treasure while ensuring Arbitrum and Treasure can both win together.\n\n# Voting Period\nVoting commences now, ending Monday, October 25, 2023 at 2:00 PM EST ([see local time via timestamp: 1698688800](https://hammertime.cyou/?t=1698688800)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or the TreasureDAO Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 1059,
+      "blockNumber": 143942912,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x8cf2806c4dcd2474272ac3c93e2cb47155700a999cbcf4d907bf9fec4a6a9f4d",
+      "startTime": {
+        "timestamp": 1698258020
+      },
+      "endTime": {
+        "timestamp": 1698688800
+      },
+      "startTimestamp": 1698258020,
+      "endTimestamp": 1698688800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3591159.2,
+          "choice": 0
+        },
+        {
+          "total": 15.019398,
+          "choice": 2
+        },
+        {
+          "total": 3181.1353,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3591160.3775889124,
+          "choice": 0
+        },
+        {
+          "total": 3181.13532,
+          "choice": 1
+        },
+        {
+          "total": 15.019396856999998,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHhjOGE3NjZjZjVjYWU3ZjFkYjMxMGViYjA2YWVlNDcxZTc3YWQ2NjIyZjNiMzJkMTM2OGZmYTM4OTVmNDg2ZDMy",
+      "id": "0xc8a766cf5cae7f1db310ebb06aee471e77ad6622f3b32d1368ffa3895f486d32",
+      "title": "TIP-29: MAGIC Reconciliation Mint and TIP-25 Token Schedule Assignment",
+      "content": "# Summary\nTIP-29 outlines three proposals for TreasureDAO (“Treasure”): (i) mint tokens identified as being unminted from the genesis event and subsequent minting events following a reconciliation conducted by the council and r3gen Finance teams (financial ops partner selected to produce the DAO report as part of TIP-26 and [published here](https://commonwealth.im/treasure-dao/discussion/12731-treasure-dao-q2-financial-report) on August 15, 2023); (ii) reallocate the minting balance to the Ecosystem Fund (“Ecofund”); and (iii) assign a vesting schedule to the minted tokens as well as the tokens re-allocated from the Staking/LP fund in line with TIP-25. The reconciliation identified a total of 8,068,497 MAGIC remains unminted which was attributed to an overestimation of the original MAGIC Farm on Ethereum L1 which resulted in a current max total supply of ~339,645,510 instead of 347,714,007 as set forth in the original tokenomics framework.\n\nFor more details and the full proposal, please see the [governance forum](https://commonwealth.im/treasure-dao/discussion/12755-tip29-magic-reconciliation-mint-and-tip25-token-schedule-assignment).\n\n# Voting Period\nVoting commences now, ending Thursday, August 24, 2023 at 7:00 PM UTC ([see local time via timestamp: 1692903300](https://hammertime.cyou/?t= 1692903300)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or the TreasureDAO Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 1398,
+      "blockNumber": 123633317,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0xc8a766cf5cae7f1db310ebb06aee471e77ad6622f3b32d1368ffa3895f486d32",
+      "startTime": {
+        "timestamp": 1692644209
+      },
+      "endTime": {
+        "timestamp": 1692918000
+      },
+      "startTimestamp": 1692644209,
+      "endTimestamp": 1692918000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4319407.0,
+          "choice": 0
+        },
+        {
+          "total": 30.145723,
+          "choice": 2
+        },
+        {
+          "total": 10245.959,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4319408.41499954,
+          "choice": 0
+        },
+        {
+          "total": 10245.959678504429,
+          "choice": 1
+        },
+        {
+          "total": 30.145724,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHhkYjk0NDVmZTY0Mjc4ZTgzZTkxOTE4OGRkZDU5MWI1Y2I2NGNhYmU3NTE2ZGU3NDA3YmJlOTUzYThlZTU1Mjli",
+      "id": "0xdb9445fe64278e83e919188ddd591b5cb64cabe7516de7407bbe953a8ee5529b",
+      "title": "TIP-28: Use of ARB for Game Studio Partnerships",
+      "content": "# Summary\nAllocate 2,000,000 of the 8,000,000 (25%) ARB distribution from the Arbitrum Foundation towards recognising contributing game builders and strengthening strategic and aligned relationships with high calibre games and studios, igniting the next stage of Treasure’s growth as a web3 games publishing ecosystem.\n\nOf the 2,000,000 ARB we look to distribute approximately 500,000 ARB in recognizing existing game developers who have meaningfully contributed to Treasure to date (via an assessment driven combination of grant and treasury swap to support growth and operational expenses), with the remaining 1,500,000 ARB earmarked for future treasury swaps / investments or grants with prospective, high quality game studios. This approach leverages the existing Game Builders Program (the successor framework to TIP-09) to assess, monitor, and structure mutually beneficial partnerships. This proposal is a crucial step to remain competitive and seed long-term relationships with quality, value-aligned game builders in a hyper competitive market.\n\n## Proposal Options\nBased on community feedback and the lively discussion both in the governance forum and within the community Discord, two options are proposed for Proposal A regarding the use of 500,000 ARB to select game builders (see A1 and A2 below). We also would like to leave a note of acknowledgement to the BattleFly DAO community for their decision to not accept the potential ARB allocation as part of TIP-28.\n\n### Proposal A1 - All\n- Includes: The Beacon, Realm, Tales of Elleria, Knights of the Ether, The Lost Donkeys, Smithonia, Ruffion Reborn, CastleDAO, Power Plins, City Clash, Smol Age, Billy's World, Kasumi Dungeons, Smuverse, Eggfam, Smolsharks, and Skyscraper\n- Omits: BattleFly and Toadstoolz\n\n### Proposal A2 - Forward Looking, Game Focused\n- Includes: The Beacon, Realm, Tales of Elleria, Knights of the Ether, The Lost Donkeys, Smithonia, Ruffion Reborn, CastleDAO, Power Plins, City Clash, Smol Age, Billy's World, and Kasumi Dungeons\n- Omits: BattleFly, Toadstoolz, Smuverse, Eggfam, Smolsharks, and Skyscraper\n\nProposal B regarding the use of 1,500,000 ARB would remain the same in either Proposal A1 or A2.\n\nFor more details and the full proposal, please see the [governance forum](https://commonwealth.im/treasure-dao/discussion/11384-tip28-use-of-arb-for-game-studio-partnerships).\n\n# Voting Period\nVoting commences now, ending Monday, June 5, 2023 at 12:00 PM UTC ([see local time via timestamp: 1685966400](https://hammertime.cyou/?t=1685966400)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 1854,
+      "blockNumber": 96768656,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0xdb9445fe64278e83e919188ddd591b5cb64cabe7516de7407bbe953a8ee5529b",
+      "startTime": {
+        "timestamp": 1685641140
+      },
+      "endTime": {
+        "timestamp": 1685966400
+      },
+      "startTimestamp": 1685641140,
+      "endTimestamp": 1685966400,
+      "currentState": "closed",
+      "choices": [
+        "Approve (A1)",
+        "Approve (A2)",
+        "Reject",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 17.83046,
+          "choice": 3
+        },
+        {
+          "total": 1365490.2,
+          "choice": 0
+        },
+        {
+          "total": 108636.73,
+          "choice": 2
+        },
+        {
+          "total": 3644158.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1365491.7582510265,
+          "choice": 0
+        },
+        {
+          "total": 3644157.648335899,
+          "choice": 1
+        },
+        {
+          "total": 108636.73736968606,
+          "choice": 2
+        },
+        {
+          "total": 17.83045837341631,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 3000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHhlNWE2Y2QwMzE4MDRmNjViZDE3NGEwNjFhNjhiODU2NWQ4ZTVlNTExM2Y2ZDNkZGQwNmM4ODQ3MjI2YmY2MDdl",
+      "id": "0xe5a6cd031804f65bd174a061a68b8565d8e5e5113f6d3ddd06c8847226bf607e",
+      "title": "TIP-27: Hop Protocol Partnership",
+      "content": "# Summary\nThis proposal seeks to use up to 1.5M MAGIC and 5 ETH for Hop Protocol’s fast bridging support for MAGIC to/from Arbitrum One (One), Arbitrum Nova (Nova) and ETH L1 as part of an initial pilot for 6 months. This would allow a daily bridge limit of ~250k in each direction and can be increased if/when demand is required. Fast bridging will greatly improve the UX of transferring MAGIC across chains when games building with Treasure on Nova scale up. Once established, this could reduce bridging time from One to Nova (and vice versa) down to 1 minute (indicative). MAGIC used in this program is recoverable by the DAO.\n\nFor more details and the full proposal, please see the [governance forum](https://commonwealth.im/treasure-dao/discussion/11285-tip27-hop-protocol-partnership).\n\n# Voting Period\nVoting commences now, ending Monday, May 8, 2023 at 2:00 PM UTC ([see local time via timestamp: 1683554400](https://hammertime.cyou/?t=1683554400)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 2619,
+      "blockNumber": 87227379,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0xe5a6cd031804f65bd174a061a68b8565d8e5e5113f6d3ddd06c8847226bf607e",
+      "startTime": {
+        "timestamp": 1683207720
+      },
+      "endTime": {
+        "timestamp": 1683554400
+      },
+      "startTimestamp": 1683207720,
+      "endTimestamp": 1683554400,
+      "currentState": "closed",
+      "choices": [
+        "Approve TIP-27",
+        "Reject TIP-27"
+      ],
+      "results": [
+        {
+          "total": 4310390.5,
+          "choice": 0
+        },
+        {
+          "total": 310810.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4310399.004318098,
+          "choice": 0
+        },
+        {
+          "total": 310810.6086009498,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHgwMGRkMDEwMWJiMjEwYjc5YmI0N2FjMjRlODZiODc2ZmI2Y2MxOGQ1YmYyMDA2MjU5YzFkZTMzOTlkODc2M2Ux",
+      "id": "0x00dd0101bb210b79bb47ac24e86b876fb6cc18d5bf2006259c1de3399d8763e1",
+      "title": "TIP-26: Increase Transparancy and Accountability",
+      "content": "# Summary\nThis TIP by Treasure community member Smol Phil outlines a proposal for TreasureDAO to increase its transparency and accountability by publishing quarterly reports that cover the current state of DAO financials and providing greater visibility into the high-level roadmap and key initiatives that Treasure and its core contributor team is undertaking to build the leading ecosystem for community-driven games. \n\nFor more details, please see the [governance forum](https://commonwealth.im/treasure-dao/discussion/11263-tip26-increase-transparancy-and-accountability).\n\n# Voting Period\nVoting commences now, ending Monday, May 8, 2023 at 2:00 PM UTC ([see local time via timestamp: 1683554400](https://hammertime.cyou/?t=1683554400)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 2501,
+      "blockNumber": 87226850,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x00dd0101bb210b79bb47ac24e86b876fb6cc18d5bf2006259c1de3399d8763e1",
+      "startTime": {
+        "timestamp": 1683207720
+      },
+      "endTime": {
+        "timestamp": 1683554400
+      },
+      "startTimestamp": 1683207720,
+      "endTimestamp": 1683554400,
+      "currentState": "closed",
+      "choices": [
+        "Approve TIP-26",
+        "Reject TIP-26"
+      ],
+      "results": [
+        {
+          "total": 1617465.1,
+          "choice": 0
+        },
+        {
+          "total": 87.53429,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1617466.7557914683,
+          "choice": 0
+        },
+        {
+          "total": 87.53429696274357,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHgyZjU4NDZkZGQwMjMwOWE3ODkwMjhhNzU2ZTlmYTBjMTdlNDkxMTRmYzExYTdlZjhlZmUyOWE4YTZmMGUzYWZh",
+      "id": "0x2f5846ddd02309a789028a756e9fa0c17e49114fc11a7ef8efe29a8a6f0e3afa",
+      "title": "MIP-05 - List Zeeverse (VEE)",
+      "content": "### Description\nZeeverse is a F2P monster-tamer MMORPG set in an indigenous fantasy world. You begin your journey as a Shaman tasked with collecting and training Zee who serve as cute, fierce and faithful battle companions.\nZeeverse aims to blur lines between Web2 and Web3 to onboard the next million players and looks to list their in-game currency VEE on Magicswap.\n\n### Team\nThe team behind Zeeverse includes 23 seasoned gaming veterans covering every angle of game development, economy design, marketing, and community building.\nFounder: Edgars Vecozolins has 10 years of experience running a successful gaming business. Forbes 30 under 30.\n\n### Token\nVEE is the in-game currency of Zeeverse which is used to:\n• Upgrade Zee NFTs\n• Wager in PvP battles \n• Power up Zee Attributes\n• Purchase items from NPC merchants\n\nTotal supply is 100,000,000,000 with 100% of supply going to liquidity and rewards.\n\n### Liquidity Strategy\nThe team will provide 10,000 $MAGIC tokens to $MAGIC/$VEE pair to mirror the existing market cap on the Curve.fi\n\n",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xf685F15F89833D7532553c09d5f90ba2B19cB2Aa",
+      "totalVotes": 1940,
+      "blockNumber": 87247772,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x2f5846ddd02309a789028a756e9fa0c17e49114fc11a7ef8efe29a8a6f0e3afa",
+      "startTime": {
+        "timestamp": 1683212928
+      },
+      "endTime": {
+        "timestamp": 1683388800
+      },
+      "startTimestamp": 1683212928,
+      "endTimestamp": 1683388800,
+      "currentState": "closed",
+      "choices": [
+        "List VEE on Magicswap",
+        "Abstain for now"
+      ],
+      "results": [
+        {
+          "total": 3065141.0,
+          "choice": 0
+        },
+        {
+          "total": 310237.03,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3065145.255445255,
+          "choice": 0
+        },
+        {
+          "total": 310237.08300057985,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHg3YjFlYmY3MGU5YzI2MDhmMmRhZWU4MjhiOWYyY2M4ZjYyN2Y3NjI2OGFlYTU5OWY3M2I4NmJmOWI5OGJiM2Nh",
+      "id": "0x7b1ebf70e9c2608f2daee828b9f2cc8f627f76268aea599f73b86bf9b98bb3ca",
+      "title": "TIP-24: Financing a Bridgeworld Game Through Protocol Owned Liquidity",
+      "content": "# Summary\nTIP-24 outlines a proposal for TreasureDAO (“Treasure”) to reallocate a portion of the MAGIC-ETH protocol-owned liquidity towards standing up a game development team for producing a playable Bridgeworld game.\n\nFor more details, please see the [governance forum](https://commonwealth.im/treasure-dao/discussion/10337-tip24-financing-a-bridgeworld-game-through-protocol-owned-liquidity) and the [Bridgeworld FAQ and Addendum to TIP-24](https://docs.google.com/document/d/1-O5Y-5zvsSvD1AhbQXPlYCEWzIysu8gQBPqTLTNg2Ho/edit?usp=sharing).\n\n# Voting Period\nVoting commences now, ending Sunday, April 16, 2023 at 4:00 PM UTC ([see local time via timestamp: 1681660800](https://hammertime.cyou/?t= 1681660800)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 1936,
+      "blockNumber": 79476041,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x7b1ebf70e9c2608f2daee828b9f2cc8f627f76268aea599f73b86bf9b98bb3ca",
+      "startTime": {
+        "timestamp": 1681250340
+      },
+      "endTime": {
+        "timestamp": 1681660800
+      },
+      "startTimestamp": 1681250340,
+      "endTimestamp": 1681660800,
+      "currentState": "closed",
+      "choices": [
+        "Approve TIP-24",
+        "Reject TIP-24"
+      ],
+      "results": [
+        {
+          "total": 4258241.5,
+          "choice": 0
+        },
+        {
+          "total": 310227.34,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4258258.910483254,
+          "choice": 0
+        },
+        {
+          "total": 310227.36830986576,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHg3ZTdiNDgwYjdmNTBkYTAxZjI3NmE1YTcxN2JhNjk3YTIyM2QyMjRjM2NjYzAzNTJlN2IxNjgxZTU2YjhhNjRh",
+      "id": "0x7e7b480b7f50da01f276a5a717ba697a223d224c3ccc0352e7b1681e56b8a64a",
+      "title": "MIP04 - List Realm ANIMA",
+      "content": "Realm is seeking to list ANIMA on MagicSwap, a community driven AMM for TreasureDAO projects. \n\n**Description**\nRealm is a world-building and exploration game where players choose between two paths: Realmer and Adventurer. As a Realmer, manage your resources to become the most productive Realm in the ecosystem. As an Adventurer, explore the Realmverse as you discover your true origins.\n \n**Token** \nANIMA ($ANIMA) is currently used for:\n• Levelling up characters (Time constrained)\n• Ability to choose a new character Variant (Adventurer)\n• Continuous usage(burn) to earn LootBoxes (Adventurers)\n• Gamified staking to get portion of daily ANIMA emissions (Staker)\n\n**Liquidity Strategy**\nRealm plans to unlock trading restrictions on $ANIMA and allow its community to contribute and own the liquidity pools earning AMM fees. This will allow liquidity to grow in an organic manner that strengthens the correlation between the token’s value and in-game demand for the token. The team may decide to later provide liquidity.\nWe will be providing in-game incentives to offset any possible impermanent loss on the part of the provider. These incentives will mature as the risk for loss decreases.\n\n**Additional details may be found in the commonwealth discussion thread.**",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xf685F15F89833D7532553c09d5f90ba2B19cB2Aa",
+      "totalVotes": 1425,
+      "blockNumber": 75435284,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x7e7b480b7f50da01f276a5a717ba697a223d224c3ccc0352e7b1681e56b8a64a",
+      "startTime": {
+        "timestamp": 1680226245
+      },
+      "endTime": {
+        "timestamp": 1680483600
+      },
+      "startTimestamp": 1680226245,
+      "endTimestamp": 1680483600,
+      "currentState": "closed",
+      "choices": [
+        "List ANIMA",
+        "Abstrain for now"
+      ],
+      "results": [
+        {
+          "total": 1648856.6,
+          "choice": 0
+        },
+        {
+          "total": 116.607,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1648857.6720417195,
+          "choice": 0
+        },
+        {
+          "total": 116.60699238556104,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHgyYzEzNWY4ZmU2MGVhMTdjZjIyYzYwNzM3ODkzOWY2YWY2YjAyNDg2NmU1Njc4NDM3OGNlODk1YTY2YmQ0OWM0",
+      "id": "0x2c135f8fe60ea17cf22c607378939f6af6b024866e56784378ce895a66bd49c4",
+      "title": "TIP-25: Re-Allocation of LP and Staking Rewards to Ecofund and Contributors",
+      "content": "# Summary\nTIP-25 outlines a proposal for TreasureDAO (“Treasure”) to reallocate a portion of MAGIC originally assigned for LP and staking rewards to the Ecosystem Fund (“Ecofund”) and to be earmarked for new contributor allocations.\n\nFor more details, please see the [governance forum](https://gov.treasure.lol/discussion/10338-tip25-reallocation-of-lp-and-staking-rewards-to-ecofund-and-contributors).\n\n# Voting Period\nVoting commences now, ending Thursday, March 16, 2023 at 5:00 PM UTC ([see local time via timestamp: 1678986000](https://hammertime.cyou/?t=1678986000)).\n\n# Voting Eligibility\n- Only holders of MAGIC staked in the Harvesters or Governance Staking contract, and MAGIC-ETH SLP on Arbitrum can vote.\n- gMAGIC will be calculated on a 1:1 basis across all options\n\n👉 Stake to gain gMAGIC here: https://governance-staking.treasure.lol/",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 337,
+      "blockNumber": 69807870,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x2c135f8fe60ea17cf22c607378939f6af6b024866e56784378ce895a66bd49c4",
+      "startTime": {
+        "timestamp": 1678812996
+      },
+      "endTime": {
+        "timestamp": 1678986000
+      },
+      "startTimestamp": 1678812996,
+      "endTimestamp": 1678986000,
+      "currentState": "closed",
+      "choices": [
+        "Approve TIP-25",
+        "Reject TIP-25"
+      ],
+      "results": [
+        {
+          "total": 3234137.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3234134.3278491125,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dHJlYXN1cmVnYW1pbmdldGg6c25hcHNob3Q6MHg0NzgwZTAwNjgyMDkyMTljOWMzMzU5NzZhZDM5ZThhNGIxYTE5ZDhhYWUxZjlkYTMxY2YwNGFhOTE4MzQ4Mjhi",
+      "id": "0x4780e0068209219c9c335976ad39e8a4b1a19d8aae1f9da31cf04aa91834828b",
+      "title": "Migrate this space",
+      "content": "**Request to the Snapshot team to migrate this space:**\n- To: https://snapshot.org/#/treasuregaming.eth (NEW)\n- From: https://snapshot.org/#/treasuredao.eth",
+      "protocol": "treasuregamingeth",
+      "adapter": "snapshot",
+      "proposer": "0xBAe65c4bA62799F68817Cbb2bB353Da4572C23Ae",
+      "totalVotes": 0,
+      "blockNumber": 62280633,
+      "externalUrl": "https://snapshot.org/#/treasuregaming.eth/proposal/0x4780e0068209219c9c335976ad39e8a4b1a19d8aae1f9da31cf04aa91834828b",
+      "startTime": {
+        "timestamp": 1676772165
+      },
+      "endTime": {
+        "timestamp": 1677376800
+      },
+      "startTimestamp": 1676772165,
+      "endTimestamp": 1677376800,
+      "currentState": "closed",
+      "choices": [
+        "n/a"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703805386241,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

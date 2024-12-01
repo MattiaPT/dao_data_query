@@ -1,0 +1,4292 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDJjMWNmNmMzMzVlZThmMDdjYzk1NTEzM2I2ZTBjNWY3ZTZiYzNmZDA2NzZjNGQwNmQzMmY2NzhjMDZhYjNhMGU=",
+      "id": "0x2c1cf6c335ee8f07cc955133b6e0c5f7e6bc3fd0676c4d06d32f678c06ab3a0e",
+      "title": "Protocol Development Funding Renewal (RPIP-37)",
+      "content": "RPIP-37 determines the process around core protocol development and funding.\n\nOutcome If Positive\n- Protocol development funding remains 5% of RPL inflation.\n- pDAO budget expense of `52,079.200 RPL` will be executed to cover protocol development from 2024-10-25 until 2025-10-24.\n    \nOutcome If Negative\n- The pDAO budget expense will **not** be executed.\n- Feedback will be gathered to understand why it was negative and a new vote raised at a later time.  \n\n## Rationale\n\nRPIP-37 was passed in February 2024 to ensure the long-term sustainability and continued innovation of the Rocket Pool protocol. That RPIP lays out the high-level roles, responsibilities, processes, and funding for core protocol development.\n\nOne of the items is that \"Protocol development funding is initially set to 5% of RPL inflation.\" This vote is to continue that level of payment to the Core Development Team through 2025-10-24.\n\n## Context\n\n- [RPIP-37: Protocol Development](https://rpips.rocketpool.net/RPIPs/RPIP-37)\n- [RPIP-10: pDAO Budget Allocation](https://rpips.rocketpool.net/RPIPs/RPIP-10)\n- [Expense](https://github.com/rocket-pool/RPIPs/blob/b30ca70c9a2fee14a257e552edf545467753f85d/assets/rpip-10/expense_4.md)\n- [Discord](https://discordapp.com/channels/405159462932971535/1271919130525831279)\n- [Discussion](https://dao.rocketpool.net/t/2024-core-team-funding-sentiment-poll/3315)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 83,
+      "blockNumber": 20955822,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x2c1cf6c335ee8f07cc955133b6e0c5f7e6bc3fd0676c4d06d32f678c06ab3a0e",
+      "startTime": {
+        "timestamp": 1728812547
+      },
+      "endTime": {
+        "timestamp": 1730022147
+      },
+      "startTimestamp": 1728812547,
+      "endTimestamp": 1730022147,
+      "currentState": "active",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 17722.91,
+          "choice": 0
+        },
+        {
+          "total": 138.59811,
+          "choice": 2
+        },
+        {
+          "total": 28.986073,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 17383.11122122523,
+          "choice": 0
+        },
+        {
+          "total": 28.986072101836463,
+          "choice": 1
+        },
+        {
+          "total": 138.59810296305537,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1728812580379,
+      "txHash": "",
+      "quorum": 14116,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDFkNzVjNTI0N2NmNDU3ZDI2ZmJmN2YyNjYyMmMyMWRlOTEyNTY1MjU2ZmMzMjczYjkyYTQwYWExNGRkMWFmM2Q=",
+      "id": "0x1d75c5247cf457d26fbf7f26622c21de912565256fc3273b92a40aa14dd1af3d",
+      "title": "Houston Hotfix (RPIP-63)",
+      "content": "This vote is to ratify the [RPIP-63: Houston Hotfix](https://rpips.rocketpool.net/RPIPs/RPIP-63).\n\n## Rationale\nThis proposal resolves post Houston launch issues, opens up roadmap options, and strengthens security around the onchain voting system based on bug bounty feedback. The hotfix will support enabling Protocol DAO voting going forward.\n\n## Outcome If Positive\nThe Protocol DAO asks the development team to deploy the Houston hotfix and for the Oracle DAO to facilitate the protocol upgrade.\n\n## Outcome If Negative\nThe RPIP-63 Houston hotfix is not approved at this time. The authors will engage with the community to understand why it was not approved and another vote will be raised at a later time.\n\n## Context\nThe Houston hotfix is primarily a bugfix upgrade but includes two components that opens up potential roadmap options. Although further votes are required to actually deliver the roadmap options (example RPIP-62), these components make the options technically possible, in the near term.\n\n**Key required bugfixes:**\n- Fixing legacy minipool finalisation\n- Onchain voting: Prevent abuse of proposals to exit RPL stake\n- Onchain voting: Prevent attacks that allow a proposer’s bond to be stolen\n- Reduce the guardrail on on-chain voting quorum (the exact number is up for discussion)\n\n**Key items that aren’t required bugfixes:**\n- Allow the minimum per-minipool RPL stake to go to zero without causing reverts elsewhere; while this is a bugfix, it’s only needed to enable something similar to RPIP-62\n- Use ETH for the scrub check penalty instead of RPL; this is primarily needed to enable something similar to RPIP-62\n\n## Resources\n[Discussion Thread](https://dao.rocketpool.net/t/rpip-63-houston-hotfix)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 142,
+      "blockNumber": 20863119,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x1d75c5247cf457d26fbf7f26622c21de912565256fc3273b92a40aa14dd1af3d",
+      "startTime": {
+        "timestamp": 1727695154
+      },
+      "endTime": {
+        "timestamp": 1728904754
+      },
+      "startTimestamp": 1727695154,
+      "endTimestamp": 1728904754,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 19481.188,
+          "choice": 0
+        },
+        {
+          "total": 3296.8855,
+          "choice": 2
+        },
+        {
+          "total": 2051.8394,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 18898.357571424673,
+          "choice": 0
+        },
+        {
+          "total": 1805.7831985309704,
+          "choice": 1
+        },
+        {
+          "total": 3153.9226125178147,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1727695881719,
+      "txHash": "",
+      "quorum": 14116,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDdmNmM5NzgyNTFlMGFlNzUyYzYxOWNjNDU5MzMxZTViM2NjMDgxYWVkMTNiMTMzMTU5YjQzZmI2MTk0YjMzMDQ=",
+      "id": "0x7f6c978251e0ae752c619cc459331e5b3cc081aed13b133159b43fb6194b3304",
+      "title": "Tokenomics Rework Prelude (RPIP-62)",
+      "content": "This proposal aims to improve RPL tokenomics in the short term to unlock protocol growth.\n\n## Outcome If Either Variant Passes\n- The RPL requirement for new minipools will be removed\n- The commission for new minipool contracts will be lowered to 5%\n- Minipool commission structure will change (dynamic commission)\n    - 8 ETH minipools opted into the smoothing pool will receive bonus commission as part of their reward claim \n    - Nodes without an associated RPL stake will be entitled to 10% total commission (e.g. 5% contract + 5% bonus)\n    - Total commission increases linearly with RPL stake up to a maximum of 14% for RPL positions worth at least 10% of borrowed ETH\n    - Contract commission is fixed and acts as a lower bound for total commission. Therefore, existing minipools with higher contract commission will not be affected by this change\n    - Bonus commission will be removed (leaving only the 5% contract commission) with the 5th reward snapshot after Saturn 1\n- The parameter changes will be implemented using pDAO bootstrap mode\n    - The guardian will be instructed to invoke the function at the start of the reward period immediately following the vote\n    - Dynamic commission may not be rolled out at the same time as it requires the implementation of [Reward Tree Spec v10](https://rpips.rocketpool.net/assets/rpip-62/rewards-calculation-spec)\n\n## Outcome If Variant A Passes \n- RPL reward structure will remain the same\n    - Nodes with an RPL stake above 10% of borrowed ETH qualify for RPL issuance rewards\n    - Nodes with an RPL stake of 10-15% of borrowed ETH receive the maximum APY\n    - Marginal RPL staking APY decreases beyond 15%\n\n## Outcome If Variant B Passes\n- RPL reward structure will change \n    - Nodes with an RPL stake of any size qualify for RPL issuance rewards\n    - Nodes with an RPL stake of 0-15% of borrowed ETH receive the maximum APY\n    - Marginal RPL staking APY decreases beyond 15%\n\n## Rationale\nWith the DAO having voted for the Saturn upgrade, the fundamental value of RPL will primarily be based on future megapool TVL. Short term increases in TVL are beneficial for the protocol as long as they can be expected to convert to megapools. On the other hand, as competition emerges and an equivalent or higher yield is accessible without the need to acquire a protocol token, short-term RPL utility is unlikely to continue to significantly support fundamental value. Therefore, node operation is made more attractive by allowing minipool creation without RPL. Contract commission for these new ETH-only minipools is kept less attractive than megapool validators under Saturn 1 to encourage migration once dynamic commission is disabled. In the interest of acting fast, this proposal minimizes smart contract changes. The suggested parameter changes can be enacted immediately after the vote passes and [RPIP-63](https://rpips.rocketpool.net/RPIPs/RPIP-63) is implemented.\n\n## Context\n- [RPIP-62](https://rpips.rocketpool.net/RPIPs/RPIP-62)\n- [RPIP-62 Discussion Thread](https://dao.rocketpool.net/t/rpip-62-tokenomics-rework-prelude/3238)\n- [RPIP-62 Sentiment Poll](https://dao.rocketpool.net/t/rpip-62-tokenomics-rework-prelude/3238/19)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 150,
+      "blockNumber": 20863025,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x7f6c978251e0ae752c619cc459331e5b3cc081aed13b133159b43fb6194b3304",
+      "startTime": {
+        "timestamp": 1727694646
+      },
+      "endTime": {
+        "timestamp": 1728904246
+      },
+      "startTimestamp": 1727694646,
+      "endTimestamp": 1728904246,
+      "currentState": "closed",
+      "choices": [
+        "For A (keep reward cliff)",
+        "For B (remove reward cliff)",
+        "Against both variants"
+      ],
+      "results": [
+        {
+          "total": 3666.2183,
+          "choice": 0
+        },
+        {
+          "total": 1566.5669,
+          "choice": 2
+        },
+        {
+          "total": 19724.385,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 3635.0249783896047,
+          "choice": 0
+        },
+        {
+          "total": 18994.40697897356,
+          "choice": 1
+        },
+        {
+          "total": 1469.4252015177249,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1727694811111,
+      "txHash": "",
+      "quorum": 14116,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDlkY2E4MWZjMWMwZmRhMWM4MDYxOTEyZGQyZDlmYzYxNmIxMDYwOGQzN2NlN2JiYjc4MzFmNTIxMDNiZmUzMzQ=",
+      "id": "0x9dca81fc1c0fda1c8061912dd2d9fc616b10608d37ce7bbb7831f52103bfe334",
+      "title": "Balance Submission Guardrail (RPIP-61)",
+      "content": "RPIP-61 limits how much the oDAO can change the rETH exhange rate.\n\n## Outcome If Vote Passes\nThe pDAO asks the development team to include RPIP-61 in the next major smart contract release.\n\n## Rationale\nCurrently, the oDAO can change rETH exchange rate arbitrarily within one block. This exposes rETH holders to unnecessary risk. In the worst case, a compromised oDAO can make rETH worthless for any holder and extract any ETH available. During normal operation, the rETH exchange rate doesn't need to change a lot. This proposal aims to reduce oDAO trust by introducing a sensible limit that doesn't interfere with legitimate use of balance updates and minimizes impact from illegitimate use.\n\n## Context\n- [RPIP-61](https://rpips.rocketpool.net/RPIPs/RPIP-61)\n- [RPIP-61 Discussion Thread](https://dao.rocketpool.net/t/rpip-61-balance-submission-guardrail/3010)\n- [RPIP-61 Discussion Thread - Sentiment Poll](https://dao.rocketpool.net/t/rpip-61-balance-submission-guardrail/3010/6)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 135,
+      "blockNumber": 20483295,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x9dca81fc1c0fda1c8061912dd2d9fc616b10608d37ce7bbb7831f52103bfe334",
+      "startTime": {
+        "timestamp": 1723113270
+      },
+      "endTime": {
+        "timestamp": 1724322870
+      },
+      "startTimestamp": 1723113270,
+      "endTimestamp": 1724322870,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 21832.273,
+          "choice": 0
+        },
+        {
+          "total": 807.2626,
+          "choice": 2
+        },
+        {
+          "total": 560.52277,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 21168.44368584049,
+          "choice": 0
+        },
+        {
+          "total": 560.5227824935705,
+          "choice": 1
+        },
+        {
+          "total": 784.1367730665254,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1723113555531,
+      "txHash": "",
+      "quorum": 14337,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDBlZjU5YTQ2YmZlOGY2Yzc4MGQ4ZDk1NzFjMzhkMmJiYTIzZDIzNTAxMzlmOTUzOTZiMDVmN2UyY2NjYWM0ZGQ=",
+      "id": "0x0ef59a46bfe8f6c780d8d9571c38d2bba23d2350139f95396b05f7e2cccac4dd",
+      "title": "MEV Penalty Guardrail (RPIP-58)",
+      "content": "RPIP-58 introduces a limit on the total number of MEV penalties that the oDAO can apply to minipools in one week.\n\n## Outcome If Vote Passes\nThe pDAO asks the development team to include RPIP-58 in the next major smart contract release.\n\n## Rationale\nCurrently, the oDAO can apply an unlimited number of penalties without any delay. This exposes node operators to unnecessary risk. In the worst case, a compromised oDAO can penalize 100% of the ETH that node operators have in minipools. For legitimate use of the penalty system, this is overpowered. This proposal aims to reduce oDAO trust by introducing a sensible limit that doesn’t interfere with legitimate use of the penalty system and minimizes impact from illegitimate use.\n\n## Context\n- [RPIP-58](https://rpips.rocketpool.net/RPIPs/RPIP-58)\n- [RPIP-58 Discussion Thread](https://dao.rocketpool.net/t/rpip-58-mev-penalty-guardrail/3009)\n- [RPIP-58 Discussion Thread - Sentiment Poll](https://dao.rocketpool.net/t/rpip-58-mev-penalty-guardrail/3009/5)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 135,
+      "blockNumber": 20483289,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x0ef59a46bfe8f6c780d8d9571c38d2bba23d2350139f95396b05f7e2cccac4dd",
+      "startTime": {
+        "timestamp": 1723113204
+      },
+      "endTime": {
+        "timestamp": 1724322804
+      },
+      "startTimestamp": 1723113204,
+      "endTimestamp": 1724322804,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 22664.826,
+          "choice": 0
+        },
+        {
+          "total": 560.52277,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 21952.580458907018,
+          "choice": 0
+        },
+        {
+          "total": 560.5227824935705,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1723113555531,
+      "txHash": "",
+      "quorum": 14337,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGUxYmM4OTEyYjgwYzI0YTMyNGI3MWI3MThhZmZiYjJlZmM0Mjk5YWM1ZDI4YjliMzI1ZWMzNzViYWM0YjQxOTY=",
+      "id": "0xe1bc8912b80c24a324b71b718affbb2efc4299ac5d28b9b325ec375bac4b4196",
+      "title": "Node Distributor User Fund Unbundling (RPIP-57)",
+      "content": "RPIP-57 guarantees that anyone can distribute ETH in Node Distributors (where execution layer rewards for people not in the smoothing pool go). \n\n## Outcome If Vote Passes\nThe pDAO asks the development team to include RPIP-57 in the next major smart contract release.\n\n## Rationale\nCurrently, anyone can call distribution on a Node Distributor. It attempts to send the node operator’s share to their withdrawal address and if that fails the entire distribution including sending of rETH share fails. For example, a node operator could set their withdrawal address to a smart contract that doesn’t accept ETH or only accepts it when they are personally initiating the distribution.\nA profit motive for node operators to do this exists when rETH is traded at a discount. Ensuring that everyone can distribute would help support the rETH peg through better arbitrage and better match expectation that anyone can distribute.\n\n## Context\n- [RPIP-57](https://rpips.rocketpool.net/RPIPs/RPIP-57)\n- [RPIP-57 Discussion Thread](https://dao.rocketpool.net/t/rpip-57-node-distributor-user-fund-unbundling/3008)\n- [RPIP-57 Discussion Thread - Sentiment Poll](https://dao.rocketpool.net/t/rpip-57-node-distributor-user-fund-unbundling/3008/4)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 134,
+      "blockNumber": 20483277,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xe1bc8912b80c24a324b71b718affbb2efc4299ac5d28b9b325ec375bac4b4196",
+      "startTime": {
+        "timestamp": 1723113064
+      },
+      "endTime": {
+        "timestamp": 1724322664
+      },
+      "startTimestamp": 1723113064,
+      "endTimestamp": 1724322664,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 22725.354,
+          "choice": 0
+        },
+        {
+          "total": 29.230614,
+          "choice": 2
+        },
+        {
+          "total": 560.52277,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 22119.971850283888,
+          "choice": 0
+        },
+        {
+          "total": 560.5227824935705,
+          "choice": 1
+        },
+        {
+          "total": 29.23061278133561,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1723113555531,
+      "txHash": "",
+      "quorum": 14337,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGIwZTFjODJmZGY4M2YzMWRlN2I4Zjg0NzY3YTA5MmZkZGZiMjFhYmI3MWQ4MWVhM2FlZWM5YWNkY2Y0MzkwMmQ=",
+      "id": "0xb0e1c82fdf83f31de7b8f84767a092fddfb21abb71d81ea3aeec9acdcf43902d",
+      "title": "RPIP-49 Tokenomics Rework",
+      "content": "This vote is to ratify the core RPIP-49 Tokenomics Rework set. This includes the following RPIPs:\n* [RPIP-42: Bond Curves](https://rpips.rocketpool.net/RPIPs/RPIP-42)\n* [RPIP-43: Megapools](https://rpips.rocketpool.net/RPIPs/RPIP-43)\n* [RPIP-44: Integrating Execution Layer Triggerable Exits](https://rpips.rocketpool.net/RPIPs/RPIP-44)\n* [RPIP-46: Universal Adjustable Revenue Split](https://rpips.rocketpool.net/RPIPs/RPIP-46)\n* [RPIP-47: Enable Forced Delegate Upgrades](https://rpips.rocketpool.net/RPIPs/RPIP-47)\n* [RPIP-59: Deposit Mechanics](https://rpips.rocketpool.net/RPIPs/RPIP-59)\n* [RPIP-60: Protocol Upgrade Guardrails](https://rpips.rocketpool.net/RPIPs/RPIP-60)\n\nNote that [RPIP-49](https://rpips.rocketpool.net/RPIPs/RPIP-49) is an informational RPIP describing the set and does not need to be ratified. \n\nSeveral items in the set are to be considered flexible until ratified explicitly, rather than ratified alongside the tokenomics rework package as a whole. They are:\n* Saturn 2 Surplus Share Strategy\n* Vote Eligible RPL Targets\n* Deposit Strategy\n* Penalty System\n* When the security council should change node operator commission\n\nEach item is described in more detail in RPIP-49. Any other significant issues the development team identifies that impact their ability to deliver this upgrade may also require future votes.\n\n## Rationale\nThe current structure has contributed significantly to dampening Rocket Pool’s growth. When Node Operators (NOs) are unwilling to take on the required RPL exposure to start minipools, rETH supply is constrained. When NOs are unwilling to top off to get RPL rewards, the premise of RPL’s value capture fails (and can even backfire if NOs opt to exit minipools in order to receive RPL rewards).\n\nThe RPIP-49 rework looks to:\n- separate out the roles in the overall system (especially allowing ETH-only operation and allowing RPL to gain value from total TVL)\n- listen to the market to determine how much value each group should receive\n- increase capital efficiency with smaller bonds\n\n## Outcome If Positive\nThe pDAO asks the development team to begin implementation work on the RPIP-49 Tokenomics Rework set, leading to the Saturn protocol upgrades. The RPIPs contained in the set will be marked with the 'Living' status. \n\nThe outstanding flexible items in the specification will have one or more snapshot votes to ratify their final form, once all of these items are resolved the RPIPs will be set to 'Final' status.\n\n## Outcome If Negative\nThe RPIP-49 Tokenomics Rework set is not approved at this time. The authors suggest a new vote in approximately one month that would include all rework proposals (see context below) that have formal RPIP specifications at that time, but this would be a new governance action.\n\n## Context\n\n### Alternative Rework Proposals\n\nThere are two alternative rework proposals that have mutually exclusive elements. They are:\n* The [1kx proposal](https://dao.rocketpool.net/t/1kx-tokenomics-proposal/3119), which retains the RPL collateral requirement and introduces delegated staking.\n* The [ib1gymnast proposal](https://dao.rocketpool.net/t/an-alternative-and-simple-tokenomics-proposal/3130), which reduces the RPL bond requirement, uses smaller ETH bonds and maintains the 14% commission.\n\nThese proposals do not yet have formal specifications that are ready for a snapshot vote. Voters should vote against the RPIP-49 rework in this vote if they prefer the direction outlined in one of these proposals.  \n\n### Resources and Debate\n* The [Tokenomics Rework](https://rpl.rehab) page which contains explainers and overview content \n* A [Q&A video](https://www.youtube.com/watch?v=p-Q6fQsVBTY) with two of the main authors, courtesy of the Rocket Fuel podcast\n* The rework [sentiment vote](https://dao.rocketpool.net/t/rpip-49-tokenomics-rework-update-2-sentiment-poll/3136)\n* [Discussion Threads](https://dao.rocketpool.net/tag/tokenomics-rework) including critiques from NodeSet and 1kx.",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 147,
+      "blockNumber": 20480154,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xb0e1c82fdf83f31de7b8f84767a092fddfb21abb71d81ea3aeec9acdcf43902d",
+      "startTime": {
+        "timestamp": 1723075417
+      },
+      "endTime": {
+        "timestamp": 1724285017
+      },
+      "startTimestamp": 1723075417,
+      "endTimestamp": 1724285017,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 24109.95,
+          "choice": 0
+        },
+        {
+          "total": 49.367157,
+          "choice": 2
+        },
+        {
+          "total": 89.57244,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 23306.01518007029,
+          "choice": 0
+        },
+        {
+          "total": 89.57244088794808,
+          "choice": 1
+        },
+        {
+          "total": 49.3671574562328,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1723075846704,
+      "txHash": "",
+      "quorum": 14303,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDEyOWVhYTE3Nzk5MTZiOTZmYTFhMzRjN2Y5ZTI0Zjg3YWJhZDgyMGM4ZmJlOGVhMjY2M2YxNzA4OTEyOTVlMmU=",
+      "id": "0x129eaa1779916b96fa1a34c7f9e24f87abad820c8fbe8ea2663f170891295e2e",
+      "title": "2024-05 IMC Full Membership Selection (RPIP-20)",
+      "content": "This vote will select a new full slate of 9 members for the Incentives Management Committee (IMC).\n\n## Outcomes\n- The top 9 nominees, in order of vote power received, will comprise the next IMC\n- If any elected members leave the IMC within 6 months, runner ups may be asked to fill vacancies in order of vote power received\n\n## Rationale\nThe IMC is defined in [RPIP-20](https://rpips.rocketpool.net/RPIPs/RPIP-20) and follows the MC selection process defined in [RPIP-10](https://rpips.rocketpool.net/RPIPs/RPIP-10).\n\nIt has been ~14 months since the last full committee selection. Per RPIP-10, \"MCs SHALL be fully re-selected between 10-14 months from their last full selection\".\n\n## Context\nSee [the forum](https://dao.rocketpool.net/t/2024-05-imc-members-selection/2985) for:\n- Nominee information statements\n- Supplementary nominee metrics\n- Discussion, including questions for the nominees\n\nIMC membership history can be found in [RPIP-36](https://rpips.rocketpool.net/RPIPs/RPIP-36#incentives-management-committee).\n\nLinks to each nominee information statement: [peteris](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/23), [samus](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/22), [valdorff](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/18), [Jasperthefriendlyghost](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/27), [NonFungibleYokem](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/24), [drworm](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/19), [phil](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/21), [waq](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/26), [astoneta](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/28), [deukey](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/20), [haloooloolo](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/25), [leighm](https://dao.rocketpool.net/t/2024-05-imc-nomination-thread/2959/29)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 154,
+      "blockNumber": 19957423,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x129eaa1779916b96fa1a34c7f9e24f87abad820c8fbe8ea2663f170891295e2e",
+      "startTime": {
+        "timestamp": 1716767419
+      },
+      "endTime": {
+        "timestamp": 1717977019
+      },
+      "startTimestamp": 1716767419,
+      "endTimestamp": 1717977019,
+      "currentState": "closed",
+      "choices": [
+        "peteris",
+        "samus",
+        "valdorff",
+        "Jasperthefriendlyghost",
+        "NonFungibleYokem",
+        "drworm",
+        "phil",
+        "waq",
+        "astoneta",
+        "deukey",
+        "haloooloolo",
+        "leighm"
+      ],
+      "results": [
+        {
+          "total": 8.690499,
+          "choice": 69
+        },
+        {
+          "total": 14.025943,
+          "choice": 15
+        },
+        {
+          "total": 30.522034,
+          "choice": 19
+        },
+        {
+          "total": 53.307716,
+          "choice": 3
+        },
+        {
+          "total": 64.861755,
+          "choice": 5
+        },
+        {
+          "total": 72.23502,
+          "choice": 4
+        },
+        {
+          "total": 5405.8306,
+          "choice": 0
+        },
+        {
+          "total": 59.334496,
+          "choice": 2
+        },
+        {
+          "total": 64.22571,
+          "choice": 99
+        },
+        {
+          "total": 19.641005,
+          "choice": 7
+        },
+        {
+          "total": 33.069843,
+          "choice": 49
+        },
+        {
+          "total": 3155.914,
+          "choice": 1
+        },
+        {
+          "total": 104.94371,
+          "choice": 106
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 945.769749217726,
+          "choice": 0
+        },
+        {
+          "total": 734.0210988398977,
+          "choice": 1
+        },
+        {
+          "total": 1014.9903167927936,
+          "choice": 2
+        },
+        {
+          "total": 1080.7508741268082,
+          "choice": 3
+        },
+        {
+          "total": 869.4809748034211,
+          "choice": 4
+        },
+        {
+          "total": 586.3252172246155,
+          "choice": 5
+        },
+        {
+          "total": 591.1508363117119,
+          "choice": 6
+        },
+        {
+          "total": 913.8390914385068,
+          "choice": 7
+        },
+        {
+          "total": 561.4843343261182,
+          "choice": 8
+        },
+        {
+          "total": 499.7335498531714,
+          "choice": 9
+        },
+        {
+          "total": 782.2280330460904,
+          "choice": 10
+        },
+        {
+          "total": 496.3095872578257,
+          "choice": 11
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716767943652,
+      "txHash": "",
+      "quorum": 7224,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGY5MTk2ZmE3ZTBlODI0MThiYmZhNjljYmQwNmYwYmFkNzk2MjE4ZWFjNDUzOGI5MTUzY2JjNzhmZTkyNDk5NGY=",
+      "id": "0xf9196fa7e0e82418bbfa69cbd06f0bad796218eac4538b9153cbc78fe924994f",
+      "title": "Rewards Tree v9 Specification (RPIP-52)",
+      "content": "v9 specifies and standardizes the Reward Tree File. This supersedes the current specification for RPL Inflation and Smoothing Pool reward allocation.\n\nThe proposal seeks to:\n1. Standardize the expected format of the currently unspecified Rewards Tree File\n2. Switch it from json to ssz\n3. Standardize the expected structure of the IPFS submission\n4. Remove compression from the IPFS submission\n\n# Outcome If Vote Passes\nRPIP-52 will go into effect and the oDAO will adopt the new format and process for computing the IPFS CID.\nThe JSON format will continue to be made available until such a time as tooling (Smart Node and external applications) can be adjusted to use the SSZ format.\n\n# Rationale\nThe current 'official' implementation of watchtower uses a compression library prior to calculating the CID which does not produce stable output across versions. While this reduces the size of the files dramatically, it means that the oDAO must use the same version of the same library across all seats, which prevents custom implementations of treegen from being used.\n\nIn order to remove compression, we must either reduce the size of the file, or accept larger storage costs. Switching from JSON to SSZ produces files which are the same size as compressed JSON in their uncompressed state.\n\nSSZ was chosen for its speed, size, and its status as the defacto Ethereum binary format.\n\nFinally, formally defining the format in which the IPFS CID should be calculated makes the Rewards Tree File generation process fully specified from start to finish.\n\n# Context\n- [RPIP-52](https://rpips.rocketpool.net/RPIPs/RPIP-52)\n- [RPIP-52 Discussion Thread](https://dao.rocketpool.net/t/rewards-tree-spec-v9/2928)\n- [RPIP-52 Discussion Thread - Sentiment Poll](https://dao.rocketpool.net/t/rewards-tree-spec-v9/2928/7)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 152,
+      "blockNumber": 19828879,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xf9196fa7e0e82418bbfa69cbd06f0bad796218eac4538b9153cbc78fe924994f",
+      "startTime": {
+        "timestamp": 1715214166
+      },
+      "endTime": {
+        "timestamp": 1716423766
+      },
+      "startTimestamp": 1715214166,
+      "endTimestamp": 1716423766,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 8779.302,
+          "choice": 0
+        },
+        {
+          "total": 182.41484,
+          "choice": 2
+        },
+        {
+          "total": 38.3474,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8779.301738627963,
+          "choice": 0
+        },
+        {
+          "total": 38.34740094729021,
+          "choice": 1
+        },
+        {
+          "total": 182.4148412786742,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1715214812792,
+      "txHash": "",
+      "quorum": 7225,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGU4OWFiMGE4NDY4NDY4ODRiMDg4YmE0ZWM1ZTM3ZmI0ZWNiMWEzYTViOTYzOWM1M2VlNDgwMDU1NTcwYzUzZDI=",
+      "id": "0xe89ab0a846846884b088ba4ec5e37fb4ecb1a3a5b9639c53ee480055570c53d2",
+      "title": "RPIP-41: Committee Stipends",
+      "content": "RPIP-41 establishes stipends for members of pDAO committees.\n\n* The global hourly stipend rate is decided by the pDAO and applies to all committees. \n* The initial stipend rate is set at 30 USD / hr.\n* Committees receive a stipend total of:\n`members * expected hours * global rate`\n* Committees may split their stipend total amongst their members in any manner they choose.\n* Stipend payouts are managed by the Grants Management Committee (GMC) and paid from the GMC's budget.\n* Total cost of initial committee stipends is 7020 USD / month. \n\nRPIP-41 does not fund committee members retroactively.\n\n## Outcome If Vote Passes\n\nRPIP-41 will be ratified by the pDAO, empowering the GMC to pay stipends to members of pDAO committees. At the time of this vote, the only pDAO committees within Rocket Pool are the [Grants Management Committee](https://rpips.rocketpool.net/RPIPs/RPIP-40) and the [Incentive Management Committee](https://rpips.rocketpool.net/RPIPs/RPIP-20).\n\n## Rationale\n\nCommittee members fill important roles within the Rocket Pool DAO. On a moral level, they deserve to be rewarded for the time and value they are providing to the DAO. On a more practical level, previous committee elections have struggled to find sufficient nominees to both:\n* Offer meaningful choice to the pDAO.\n* Provide a sufficient number of substitute members if a committee member is no longer able to volunteer their time. \n\nA stipend may help to increase the attractiveness of the membership roles and will reward committee members for the value they provide to the Rocket Pool DAO.\n\n## Context\n\n* [RPIP-41](https://rpips.rocketpool.net/RPIPs/RPIP-41)\n* [RPIP-41 discussion thread](https://dao.rocketpool.net/t/rpip-41-committee-stipends-forum-vote-active/2824)\n* [RPIP Precursor discussion thread (Dec 2023)](https://dao.rocketpool.net/t/discussion-compensation-for-committee-members/2521)\n* [GMC Member Stipend Proposal thread (Sept 2023)](https://dao.rocketpool.net/t/proposal-gmc-member-stipend/2203)\n* [Stipends for pDAO Roles thread (Oct 2022)](https://dao.rocketpool.net/t/stipends-for-pdao-roles/1134)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 174,
+      "blockNumber": 19737382,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xe89ab0a846846884b088ba4ec5e37fb4ecb1a3a5b9639c53ee480055570c53d2",
+      "startTime": {
+        "timestamp": 1714108515
+      },
+      "endTime": {
+        "timestamp": 1715318115
+      },
+      "startTimestamp": 1714108515,
+      "endTimestamp": 1715318115,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7823.423,
+          "choice": 0
+        },
+        {
+          "total": 1413.5665,
+          "choice": 2
+        },
+        {
+          "total": 113.2106,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7823.422273851865,
+          "choice": 0
+        },
+        {
+          "total": 89.34537938452235,
+          "choice": 1
+        },
+        {
+          "total": 1437.4317824731158,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1714111043919,
+      "txHash": "",
+      "quorum": 7226,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGRlNDAzZDkxYTFkNDVlOTU4YjRhZDNjOThjNDViZDA3YjIxOWE1ZDQ5OGU4MWE0YWRlOTE0MzFhMGE5NzlkYTk=",
+      "id": "0xde403d91a1d45e958b4ad3c98c45bd07b219a5d498e81a4ade91431a0a979da9",
+      "title": "RPIP-39 Bounty Incentives",
+      "content": "RPIP-39 proposes to allow the Grants Management Committee to pay out incentives to community members engaging with the bounty system.\n\n* Incentives are limited to 10% of the total bounty reward amount.\n* A consistent allocation method for bounty incentives is left to the GMC to determine and announce.\n* These incentives are paid out of the GMC's budget.\n* The pDAO may challenge individual payouts and changes to the incentive allocation method using the existing committee decision challenge system.\n\n## Outcome If Vote Passes\n\nRPIP-39 will be ratified by the pDAO, empowering the GMC to spend up to 10% of a given bounty payout value on incentives connected to that bounty. \n\n## Rationale\n\nBounties provide a good middle ground between retroactive payment applications and grant applications in terms of the risk balance between the DAO and the service provider. However, bounty proposals require more effort from the community to be successful in their goal. This includes both up-front efforts to make an effective proposal, and ongoing efforts to support bounty hunters that lack deep knowledge of Rocket Pool. The existing bounty framework does not recognize this effort, and the GMC is not explicitly empowered to recognize it absent pDAO input. \n\nIn practice, this change allows the GMC to incentivize any or all of the following:\n* A higher quantity of bounty proposals.\n* A higher quality of bounty proposals.\n* Effective support for bounty hunters lacking some Rocket Pool knowledge. \n\nIf used, these incentives may result in a more effective, consistent, and populous bounty program. \n\n## Context\n\n* [RPIP-39](https://rpips.rocketpool.net/RPIPs/RPIP-39)\n* [RPIP-39 discussion thread](https://dao.rocketpool.net/t/rpip-39-bounty-incentives-forum-vote-live/2753)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 173,
+      "blockNumber": 19622779,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xde403d91a1d45e958b4ad3c98c45bd07b219a5d498e81a4ade91431a0a979da9",
+      "startTime": {
+        "timestamp": 1712722549
+      },
+      "endTime": {
+        "timestamp": 1713932149
+      },
+      "startTimestamp": 1712722549,
+      "endTimestamp": 1713932149,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7092.4985,
+          "choice": 0
+        },
+        {
+          "total": 1400.6396,
+          "choice": 2
+        },
+        {
+          "total": 389.63525,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7092.499188331251,
+          "choice": 0
+        },
+        {
+          "total": 389.6352337971269,
+          "choice": 1
+        },
+        {
+          "total": 1400.6396760342093,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712722919193,
+      "txHash": "",
+      "quorum": 7233,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGU1M2Y5OGJiYTg3OTdiZmE2ZGRhZjRmZDIwODA5YzUzZmFiY2E0YWFhOWIwMGQwOTU1N2U2ZjI3MDYzNGI4MjA=",
+      "id": "0xe53f98bba8797bfa6ddaf4fd20809c53fabca4aaa9b00d09557e6f270634b820",
+      "title": "Grants and Management Committee [RPIP-40]",
+      "content": "RPIP-40 replaces RPIP-26 which describes the guiding principles, selection of, operation of, and governance of the Grants and Bounties Management Committee. RPIP-40 includes changes that increase the GMC's operational efficiency.\n\n## Changes\n- Revise the conflict of interest section to allow GMC members to participate in grants that have not been identified as competing grants\n- Add additional clarity on GMC members participating in bounties\n- Adjust where the application deadline falls within the schedule to improve consistency\n- Restore the 'Selection and Governance' section that was unintentionally removed in RPIP-26\n\n## Rationale\nThe conflict of interests section does not allow GMC members to fulfill their regular duties, and it has been a recurring issue for the GMC. Under this rule, the GMC has hit periods where it has been forced to make less informed decisions with fewer committee members present. Other changes make minor improvements to efficiency and fix issues introduced in the last update.\n\n## Outcomes\nIf this passes, it replaces RPIP-26 with RPIP-40, which will make minor changes to how the GMC operates.\n\nPlease read the full RPIP [here](https://rpips.rocketpool.net/RPIPs/RPIP-40).\n\n## Further context\n* [Forum post with poll](https://dao.rocketpool.net/t/gmc-updates-proposal/2750)\n* [Previous forum discussion](https://dao.rocketpool.net/t/gmc-rpip-18-conflict-of-interest-community-feedback/1959)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 225,
+      "blockNumber": 19429983,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xe53f98bba8797bfa6ddaf4fd20809c53fabca4aaa9b00d09557e6f270634b820",
+      "startTime": {
+        "timestamp": 1710379672
+      },
+      "endTime": {
+        "timestamp": 1711589272
+      },
+      "startTimestamp": 1710379672,
+      "endTimestamp": 1711589272,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 10420.551,
+          "choice": 0
+        },
+        {
+          "total": 381.6532,
+          "choice": 2
+        },
+        {
+          "total": 20.905186,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10420.554015119847,
+          "choice": 0
+        },
+        {
+          "total": 20.90518552628813,
+          "choice": 1
+        },
+        {
+          "total": 381.6531406750993,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710379981090,
+      "txHash": "",
+      "quorum": 7348,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDQyMzVjODBkNmJiODc0NjU5MTQyYjgyZGZmZjU0YjYyYTExN2RmZTJlOTdhNTMyOGJlOWI2NzRlN2EzYzFiZWU=",
+      "id": "0x4235c80d6bb874659142b82dfff54b62a117dfe2e97a5328be9b674e7a3c1bee",
+      "title": "Appeal GMC Decision on BA082401 (RPIP-38) and reduce scope of Eigenlayer bounty",
+      "content": "This vote, the second in a pair of connected votes, is to determine whether or not to reduce the scope of BA082401.\n\nBA082401 allocates $10,000 USD from the GMC for a bounty to research and report on a possible Eigenlayer integration for Rocket Pool nodes, and allocates an additional $50,000 USD towards its development, pending review of the research.\n\n## Rationale\nFunding an integration with Eigenlayer has the potential to attract many node operators, but also the potential to create additional risks to rETH holders.\nThe pDAO should decide whether or not to assign values to further milestones before research is completed.\n\n## Outcomes\n* Paired vote passes: BA082401 shall not be funded.\n* Paired vote fails, this vote passes: BA0824010 shall be rewritten to include only Milestone 0 and funding shall be limited to $10k.\n* Paired vote fails and this vote fails: BA0824010 shall be funded as passed by the GMC.\n\n\n## Further context\n* [BA082401](https://github.com/shfryn/rocketpool-gmc/blob/main/bounties/BA082401.md)\n* [GMC's decision to fund the bounty and subsequent discussion](https://dao.rocketpool.net/t/round-8-dec-10-jan-14-grants-bounties-retrospective-awards-results/2686/1)\n* [Discussion on the forum challenging the bounty](https://dao.rocketpool.net/t/eigenlayer-integration-bounty-challenge/2703)\n* [Full RPIP-38 text](https://github.com/jshufro/RPIPs/blob/jms/eil/RPIPs/RPIP-38.md)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 287,
+      "blockNumber": 19371244,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x4235c80d6bb874659142b82dfff54b62a117dfe2e97a5328be9b674e7a3c1bee",
+      "startTime": {
+        "timestamp": 1709669231
+      },
+      "endTime": {
+        "timestamp": 1710878831
+      },
+      "startTimestamp": 1709669231,
+      "endTimestamp": 1710878831,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 5677.313,
+          "choice": 0
+        },
+        {
+          "total": 956.63245,
+          "choice": 2
+        },
+        {
+          "total": 6621.641,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5705.640743724378,
+          "choice": 0
+        },
+        {
+          "total": 6600.5892508007555,
+          "choice": 1
+        },
+        {
+          "total": 956.6324041278622,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709669572348,
+      "txHash": "",
+      "quorum": 7457,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGY3NDBmM2NjYWU2NDdlZTE1M2NkMjQzYzZhNmE1ZjgzNjIzYWQ3N2U5YWM0NTlmNjYwMmUzMTcwZWM3NWE0Mzg=",
+      "id": "0xf740f3ccae647ee153cd243c6a6a5f83623ad77e9ac459f6602e3170ec75a438",
+      "title": "Appeal GMC Decision on BA082401 (RPIP-38) and reject Eigenlayer integration bounty",
+      "content": "This vote, the first in a pair of connected votes, is to determine whether or not to reject the funding of BA082401 outright.\n\nBA082401 allocates $10,000 USD from the GMC for a bounty to research and report on a possible Eigenlayer integration for Rocket Pool nodes, and allocates an additional $50,000 USD towards its development, pending review of the research.\n\n## Rationale\nFunding an integration with Eigenlayer has the potential to attract many node operators, but also the potential to create additional risks to rETH holders.\nThe decision whether to pursue this integration is important and contentious enough to warrant involvement of the whole pDAO.\n\n## Outcomes\n* This vote passes: BA082401 shall not be funded.\n* This vote fails, paired vote passes: BA0824010 shall be rewritten to include only Milestone 0 and funding shall be limited to $10k.\n* This vote fails and paired vote fails: BA0824010 shall be funded as passed by the GMC.\n\n## Further context\n* [BA082401](https://github.com/shfryn/rocketpool-gmc/blob/main/bounties/BA082401.md)\n* [GMC's decision to fund the bounty and subsequent discussion](https://dao.rocketpool.net/t/round-8-dec-10-jan-14-grants-bounties-retrospective-awards-results/2686/1)\n* [Discussion on the forum challenging the bounty](https://dao.rocketpool.net/t/eigenlayer-integration-bounty-challenge/2703)\n* [Full RPIP-38 text](https://github.com/jshufro/RPIPs/blob/jms/eil/RPIPs/RPIP-38.md)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 281,
+      "blockNumber": 19371228,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xf740f3ccae647ee153cd243c6a6a5f83623ad77e9ac459f6602e3170ec75a438",
+      "startTime": {
+        "timestamp": 1709669076
+      },
+      "endTime": {
+        "timestamp": 1710878676
+      },
+      "startTimestamp": 1709669076,
+      "endTimestamp": 1710878676,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1506.1091,
+          "choice": 0
+        },
+        {
+          "total": 719.96423,
+          "choice": 2
+        },
+        {
+          "total": 9719.96,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1506.1089095117184,
+          "choice": 0
+        },
+        {
+          "total": 9719.961306493497,
+          "choice": 1
+        },
+        {
+          "total": 719.9642498210634,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709669572348,
+      "txHash": "",
+      "quorum": 7457,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGNmNjVkYjY4MmQyMzkyYmE3MjNhZjQzNzE2OGIwZmI1Mjg1NjdmMTc2NTY3OGQyZWY4OGI5MmEwZWRjMDRiMTI=",
+      "id": "0xcf65db682d2392ba723af437168b0fb528567f1765678d2ef88b92a0edc04b12",
+      "title": "Protocol Development and Funding (RPIP-37)",
+      "content": "RPIP-37 determines the process around core protocol development and funding.\n\n## Outcome if vote passes\n- RPIP-37 will set the framework for protocol development and funding.\n- Protocol development funding set to **5% of RPL inflation** (currently 3.33%).\n- pDAO budget expense of **49,420.55 RPL** will be executed to cover protocol development from **2023-10-26** until **2024-10-24**.\n\n## Rationale\nTo ensure the long-term sustainability and continued innovation of the Rocket Pool protocol, this RPIP lays out the high-level roles, responsibilities, processes, and funding for core protocol development.\n\nThe RPIP will continuously evolve as the development process evolves through community feedback. \n\n## Context\n- [Full RPIP](https://rpips.rocketpool.net/RPIPs/RPIP-37)\n- [RPIP-10 Expense](https://rpips.rocketpool.net/assets/rpip-10/expense_3)\n- [Forum thread](https://dao.rocketpool.net/t/dev-team-funding/2038)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 207,
+      "blockNumber": 19110338,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xcf65db682d2392ba723af437168b0fb528567f1765678d2ef88b92a0edc04b12",
+      "startTime": {
+        "timestamp": 1706509041
+      },
+      "endTime": {
+        "timestamp": 1707718641
+      },
+      "startTimestamp": 1706509041,
+      "endTimestamp": 1707718641,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 6204.7744,
+          "choice": 0
+        },
+        {
+          "total": 2949.3967,
+          "choice": 2
+        },
+        {
+          "total": 806.0458,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6204.773999239935,
+          "choice": 0
+        },
+        {
+          "total": 806.0458638790416,
+          "choice": 1
+        },
+        {
+          "total": 2949.396547787561,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706509220765,
+      "txHash": "",
+      "quorum": 7420,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDA5YTQxNjk2NmI5NGM3MzlhNDZhNmM4ODYzOTlhY2I2MWZlMzM3ODQyOWE4MDE5M2U3NWRkMjE5ZmUyZDZjMmM=",
+      "id": "0x09a416966b94c739a46a6c886399acb61fe3378429a80193e75dd219fe2d6c2c",
+      "title": "Time-based Balance and RPL Price Submissions (RPIP-35)",
+      "content": "RPIP-35 makes Balance and RPL Price submissions time-based. This allows for a predictable time between last price update and reward snapshot, among other benefits.\n\n### Outcome if vote passes\n\nRPIP-35 will be implemented in a future smart contract release\nOnce implemented, the prices and balances oDAO duties will be performed on a consistent and predicable timing.\n\n### Rationale\n\nNodes that have under 10% collateral in terms of RPL staked are not eligible for rewards. This value, called their \"effective stake\", is calculated at the time of the interval's end and is a function of the ETH:RPL ratio, which is reported by the Oracle DAO. This means the last price update prior to the end of the interval determines whether or not a node is above 10% collateral and eligible for rewards at that interval. If a node is not eligible, the owner has until the end of the interval to \"top up\" by staking enough RPL to bring the node back above 10%. The issue here is that this \"top up window\" (the time between the final RPL report and the end of the interval) is somewhat uncertain and fluctuates from interval to interval. One of the more common pain points we see in the community is from people who are close to the 10% mark (or under it) and ask what the window is for the current interval; unfortunately, it's not easy to give them a direct answer due to the way the price and balance reporting periods are currently calculated.\n\nThis change removes the uncertainty associated with this timing by shifting price and balance intervals from a number based on blocks to a number based on seconds, which has parity with the way rewards intervals are calculated today. Essentially it means prices and balances will be reported at the same time each day without exception. It standardizes the timing of both functions to make them easier to predict.\n\n### Context\n[Full RPIP](https://rpips.rocketpool.net/RPIPs/RPIP-35)\n[Forum thread](https://dao.rocketpool.net/t/rpip-35-time-based-balance-and-rpl-price-submissions/2419)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 252,
+      "blockNumber": 18730337,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x09a416966b94c739a46a6c886399acb61fe3378429a80193e75dd219fe2d6c2c",
+      "startTime": {
+        "timestamp": 1701902853
+      },
+      "endTime": {
+        "timestamp": 1703112453
+      },
+      "startTimestamp": 1701902853,
+      "endTimestamp": 1703112453,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 10178.1875,
+          "choice": 0
+        },
+        {
+          "total": 1596.0063,
+          "choice": 2
+        },
+        {
+          "total": 101.8516,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10178.18966556782,
+          "choice": 0
+        },
+        {
+          "total": 101.85160128518906,
+          "choice": 1
+        },
+        {
+          "total": 1596.0061757312233,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701903915261,
+      "txHash": "",
+      "quorum": 7432,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDFlM2JkNGNjZmE5NmI1Y2Y4ZGExZmZlYzNlYzdiMjU3YTUxZWIxNGZkMWVmMDUxZGMwYmZhMjZkZjNjZDYxOTA=",
+      "id": "0x1e3bd4ccfa96b5cf8da1ffec3ec7b257a51eb14fd1ef051dc0bfa26df3cd6190",
+      "title": "Implementation of an On-Chain pDAO (RPIP-33)",
+      "content": "RPIP-33 specifies an on-chain replacement for the pDAO governance system's execution process. It uses an optimistic\nfraud-proof system that allows any node operator to raise proposals and vote on proposals to adjust \"pDAO protocol\nparameters\" and spend treasury funds.\n\n### Outcome if vote passes\n\nRPIP-33 will be implemented in a future smart contract release\nOnce implemented, it will allow the pDAO to control protocol parameters and spend treasury funds.\n\n### Rationale\n\nThe pDAO has two primary powers within Rocket Pool. The first is having control over certain parameters which define how\nthe protocol operates. e.g. Enabling or disabling deposits or setting the rate of inflation. The second role is spending\ntreasury funds; A portion of RPL inflation is sent to a contract which the pDAO has the power to spend.\n\nCurrently, the core team is responsible for executing pDAO duties at the behest of the community governance process. For\nexample, the team carries out the monthly IMC and GMC payments as per the governance voted payment schedules. The plan\nwas for this power to reside with the team temporarily until a new power structure is set up to take over these\nresponsibilities.\n\nThe motivation for this proposal is to remove the dependency on the team, making the protocol more decentralised and\ntrustless.\n\n### Context\n[Full RPIP](https://rpips.rocketpool.net/RPIPs/RPIP-33)\n[Forum thread](https://dao.rocketpool.net/t/on-chain-pdao-replacement/1998)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 249,
+      "blockNumber": 18730332,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x1e3bd4ccfa96b5cf8da1ffec3ec7b257a51eb14fd1ef051dc0bfa26df3cd6190",
+      "startTime": {
+        "timestamp": 1701902796
+      },
+      "endTime": {
+        "timestamp": 1703112396
+      },
+      "startTimestamp": 1701902796,
+      "endTimestamp": 1703112396,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 9580.666,
+          "choice": 0
+        },
+        {
+          "total": 2089.9956,
+          "choice": 2
+        },
+        {
+          "total": 161.98297,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9580.66925578224,
+          "choice": 0
+        },
+        {
+          "total": 161.98296685090966,
+          "choice": 1
+        },
+        {
+          "total": 2089.995485992358,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701903915261,
+      "txHash": "",
+      "quorum": 7432,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGFlMWYxMDJlNzk1MzMyMmYzMWUwN2VlNzUxMmRkMWZhNGYwZTFmMWY5Y2YyMDY0MzY4OWMzNTI3NGVjNDE1MTY=",
+      "id": "0xae1f102e7953322f31e07ee7512dd1fa4f0e1f1f9cf20643689c35274ec41516",
+      "title": "Stake ETH on behalf of node (RPIP-32)",
+      "content": "RPIP-32 lets an independent address fund an RP node with ETH. The node can use this ETH to make minipools, without having direct access to the ETH.\n\n### Outcome if vote passes\n\nRPIP-32 will be implemented in a future smart contract release\nOnce implemented, it supports a variety of situations were the node operator is not directly providing the ETH.\n\n### Rationale\n\nThis supports a variety of situations were the node operator is not directly providing the ETH:\n- Enhanced security for node operators, as they can stake directly from their hardware wallet, eliminating the need to transfer funds to the node beforehand\n- Staking as a Service providers where custody of funds are managed by a trusted custodian\n- Protocol integrations where custody of funds are managed by smart contracts\n- DAOs or organisations where custody of funds are managed by a treasury\n\nWhile the primary aim of this feature is to facilitate single depositor scenarios, it's worth noting that multiple independent depositors can also leverage this capability by creating smart contracts layered on top.\n\n### Context\n[Full RPIP](https://rpips.rocketpool.net/RPIPs/RPIP-32)\n[Forum thread](https://dao.rocketpool.net/t/rpip-32-stake-eth-on-behalf-of-node/2252)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 252,
+      "blockNumber": 18730318,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xae1f102e7953322f31e07ee7512dd1fa4f0e1f1f9cf20643689c35274ec41516",
+      "startTime": {
+        "timestamp": 1701902617
+      },
+      "endTime": {
+        "timestamp": 1703112217
+      },
+      "startTimestamp": 1701902617,
+      "endTimestamp": 1703112217,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 10468.668,
+          "choice": 0
+        },
+        {
+          "total": 1415.983,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10468.668065396374,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 1415.983122020948,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701903915261,
+      "txHash": "",
+      "quorum": 7432,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDZmMzZmYThlZThjMDc3Y2M4YTZiZDgxM2ZkYjI2MWNjZjVkODRmOGZhYzI1M2EzM2I2ZGRlYmVlYTczYWZkNDA=",
+      "id": "0x6f36fa8ee8c077cc8a6bd813fdb261ccf5d84f8fac253a33b6ddebeea73afd40",
+      "title": "RPL Withdrawal Address (RPIP-31)",
+      "content": "RPIP-31 proposes to add an optional \"RPL withdrawal address\". If set, RPL rewards/withdrawals will go to the RPL withdrawal address, while ETH rewards/withdrawals will go to the primary withdrawal address. If the RPL withdrawal address is not set, the primary withdrawal address will receive both (as it currently does).\n\n### Outcome if vote passes\n\nRPIP-31 will be implemented in a future smart contract release\nOnce implemented, it will facilitate the splitting of ETH bond/rewards and RPL bond/rewards, allowing different actors to supply each collateral type.\n\n### Rationale\n\nThis facilitates the splitting of ETH bond/rewards and RPL bond/rewards, allowing different actors to supply each collateral type. This can be achieved either as a direct trusted relationship (i.e whale marriage) between parties, through a staking-as-a-service provider, or through a third-party staking protocol integration.  \n\nThe goal of the proposal is to support growth of the node operator set and to utilise RPL that is currently not being staked within the protocol.\n\n> There is a demand for parties to stake ETH with Rocket Pool without it necessary to take a position in RPL. There is also a demand from parties uninterested with running a Rocket Pool node to be able to loan unstaked RPL to other parties and earn yield on their loaned RPL.\n\nhttps://dao.rocketpool.net/t/withdrawal-address-splitter-contract/563\n\n### Context\n[Full RPIP](https://rpips.rocketpool.net/RPIPs/RPIP-31)\n[Forum thread](https://dao.rocketpool.net/t/rpip-31-rpl-withdrawal-address/2251)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 249,
+      "blockNumber": 18730309,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x6f36fa8ee8c077cc8a6bd813fdb261ccf5d84f8fac253a33b6ddebeea73afd40",
+      "startTime": {
+        "timestamp": 1701902519
+      },
+      "endTime": {
+        "timestamp": 1703112119
+      },
+      "startTimestamp": 1701902519,
+      "endTimestamp": 1703112119,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 10134.8,
+          "choice": 0
+        },
+        {
+          "total": 1728.0315,
+          "choice": 2
+        },
+        {
+          "total": 66.92794,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 10134.803290650048,
+          "choice": 0
+        },
+        {
+          "total": 66.92794155184288,
+          "choice": 1
+        },
+        {
+          "total": 1728.031594324572,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701902609365,
+      "txHash": "",
+      "quorum": 7432,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDE4NTJkN2VkMTg5OTgwMzZhOWI3MjUxYTVkOWFhYWYwYmU1ZTljOTAyM2JmNTg4NGQzNjIzZjgzZDlmMTNkM2I=",
+      "id": "0x1852d7ed18998036a9b7251a5d9aaaf0be5e9c9023bf5884d3623f83d9f13d3b",
+      "title": "2023-11 Budget Update (RPIP-10)",
+      "content": "This vote aims to correct a budget implementation error and further increase the IMC budget.\n\n### Outcomes if vote passes\n- The mismatch between intent and implementation in an [earlier vote](https://vote.rocketpool.net/#/proposal/0x510383ca82a0096fa670a260692cf7a4097e199ce4f731dc4efd97a21f19f988) will be corrected\n  - Forward-looking, the split will be corrected to match intent for both IMC and GMC\n  - Backward-looking, a one-time payment will be made to the IMC and GMC from the pDAO treasury to make up for the periods since the mismatch\n- The IMC's split of the pDAO's incoming funds will be increased by 16%\n\n### Rationale\nThe earlier vote had a math error in the implementation (as noted on the [forum](https://dao.rocketpool.net/t/intended-vs-actual-budget-mismatch-in-rpip-10/2053?u=valdorff)). This vote is to resolve the error both moving forward and retroactively via a one-time transfer.\n\nIn addition, this vote increases the IMC's portion of the inflation split by 16%, which is roughly \"50% of funds that were initially going to the oDAO that now go to the pDAO\". This value was arrived at mostly from a [forum poll](https://dao.rocketpool.net/t/justification-for-moving-odao-inflation-to-the-imc/1939/12), but taking a conservative step as a starting point.  \n\n### Context \n- [Forum thread](https://dao.rocketpool.net/t/mc-budget-update-proposal/2319)\n- [PR implementing changes](https://github.com/rocket-pool/RPIPs/pull/106/files)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 314,
+      "blockNumber": 18489035,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x1852d7ed18998036a9b7251a5d9aaaf0be5e9c9023bf5884d3623f83d9f13d3b",
+      "startTime": {
+        "timestamp": 1698984319
+      },
+      "endTime": {
+        "timestamp": 1700193919
+      },
+      "startTimestamp": 1698984319,
+      "endTimestamp": 1700193919,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 13072.421,
+          "choice": 0
+        },
+        {
+          "total": 1140.4264,
+          "choice": 2
+        },
+        {
+          "total": 23.181374,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 13037.334702913984,
+          "choice": 0
+        },
+        {
+          "total": 23.18137304705968,
+          "choice": 1
+        },
+        {
+          "total": 1140.4264781842974,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698984421146,
+      "txHash": "",
+      "quorum": 7365,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGM5ZGVlOWFlNmJkMTY2MjlhY2ViNTM5OTBiNjA5NTQ4Y2M2MjI1Y2E0YjJmNDA4NjdmZjk4OTMxMWMzNGYxYzc=",
+      "id": "0xc9dee9ae6bd16629aceb53990b609548cc6225ca4b2f40867ff989311c34f1c7",
+      "title": "Deposits Under the Minimum (RPIP-28)",
+      "content": "RPIP-28 proposes an additional method of creating a new minipool by depositing ETH and RPL together, which will be possible regardless of the Node's current amount of RPL staked.  \n\n### Outcome if vote passes\n- RPIP-28 will be implemented in a future smart contract release\n- Once implemented, it will be possible to make a minipool deposit when under the \"minimum\" RPL threshold by depositing the ETH and staking (at least) the minimum amount of RPL needed for a single minipool of that type\n  - Note that this new method is in _addition_ to the current method\n\n### Rationale\nIt is currently possible to create a new node to deposit a minipool. In other words, this feature does _not_ change the ability for a Node Operator to create a new minipool - they'll be able to create one for the same amount of ETH and RPL.\n\nThis change instead makes the process more convenient. A handful of folks have said they would have created more minipool(s) if they could've added them to their existing node while being under the minimum.\n\nThis should help us provide more rETH supply, with no significant trade-off.\n\n### Context\n- [Full RPIP](https://rpips.rocketpool.net/RPIPs/RPIP-28)\n- [Forum thread](https://dao.rocketpool.net/t/allow-minipool-deposits-while-under-min-rpl/2100)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 325,
+      "blockNumber": 18489013,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xc9dee9ae6bd16629aceb53990b609548cc6225ca4b2f40867ff989311c34f1c7",
+      "startTime": {
+        "timestamp": 1698984065
+      },
+      "endTime": {
+        "timestamp": 1700193665
+      },
+      "startTimestamp": 1698984065,
+      "endTimestamp": 1700193665,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 14327.174,
+          "choice": 0
+        },
+        {
+          "total": 70.385666,
+          "choice": 2
+        },
+        {
+          "total": 47.393333,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 14292.088447334108,
+          "choice": 0
+        },
+        {
+          "total": 47.39333461644106,
+          "choice": 1
+        },
+        {
+          "total": 70.38566671652757,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698984421146,
+      "txHash": "",
+      "quorum": 7365,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGMzMDhiMWE1YjMxMTEwNTAyN2YyZjUwMDdhOTNkNGQwNzdhZTZkMTY2ZGQzYTNkMGVlNWJiYzVhZjc2NjA3NjE=",
+      "id": "0xc308b1a5b311105027f2f5007a93d4d077ae6d166dd3a3d0ee5bbc5af7660761",
+      "title": "RPL Staking Rework (RPIP-30)",
+      "content": "This vote aims to align RPL reward spend with rETH capacity created.\n\n### Summary\n- RPL rewards will scale differently, with a focus on aligning RPL rewards with supplying rETH\n- It will be possible to withdraw down to 15% borrowed ETH (this threshold is currently 150% of bonded ETH)\n- We will transition to the new states over time (some implementation time, six reward periods of ramping, and fully implementing the withdrawal changes will need a smart contract release)\n- Withdrawing will become a 2-step process where RPL is set to \"withdrawing\" for 28 days before it can be withdrawn\n\n### Rationale\nThe goal is to align the DAO's spending on RPL rewards with the DAO's goals. In particular, we'll continue to send 70% of inflation to Node Operators, but better align it far more with the amount of minted rETH.\n\n_Please_ read the Intro document's [context section](https://github.com/Valdorff/rp-thoughts/tree/main/rpl_staking#context) for a visual representation of spending before and after this change. \n\n### Outcomes if vote passes\n- RPL rewards will scale differently\n  - Adding a minipool will increase RPL rewards (even if you already had enough staked RPL)\n  - Converting an EB16 to two LEB8s will increase rewards (even if you already had enough staked RPL)\n  - You will still need staked RPL value of ≥10% borrowed ETH to get RPL rewards [unchanged]\n  - Staking more RPL will mean more rewards [unchanged], though now without a maximum (note that marginal APR gets lower and lower as more is staked)\n  - Beyond 15% borrowed ETH, additional rewards go up slower and slower\n  - The rewards changes will be phased in slowly over 6 months\n- It will be possible to withdraw down to 15% borrowed ETH\n- RPL withdrawal will become a 2-step process\n  - Set X RPL to \"withdrawing\"; these RPL are no longer eligible for rewards or voting \n  - After 28 days, the RPL may be withdrawn\n  - The new rules will be partially phased in over time, and then fully implemented with the next smart contract release\n  - Note that this will apply to all withdrawals, even ones that would currently be instant\n  - Note that this will not apply to claiming rewards, as that isn't a withdrawal\n- Once the 2-step process is implemented, the current \"28-day withdrawal lock when you stake RPL\" will be removed \n- These changes will apply equally to both existing and new NOs\n\n### Context\n- Intro document [live on Val's rp-thoughts repo](https://github.com/Valdorff/rp-thoughts/tree/main/rpl_staking) or [archived printout in RPIP repo](https://github.com/rocket-pool/RPIPs/blob/main/assets/rpip-30/rpl_staking_readme.pdf) \n- [Forum thread](https://dao.rocketpool.net/t/rpl-staking-rework-proposal/2090)\n- [Full RPIP](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-30.md)\n- [Deep dive links](https://github.com/Valdorff/rp-thoughts/tree/main/rpl_staking#what-else-has-been-looked-at-around-this-proposal) (a section within the intro document)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 349,
+      "blockNumber": 18488988,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xc308b1a5b311105027f2f5007a93d4d077ae6d166dd3a3d0ee5bbc5af7660761",
+      "startTime": {
+        "timestamp": 1698983798
+      },
+      "endTime": {
+        "timestamp": 1700193398
+      },
+      "startTimestamp": 1698983798,
+      "endTimestamp": 1700193398,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 13352.381,
+          "choice": 0
+        },
+        {
+          "total": 1058.5018,
+          "choice": 2
+        },
+        {
+          "total": 272.09958,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 13215.428537096974,
+          "choice": 0
+        },
+        {
+          "total": 272.0995691720167,
+          "choice": 1
+        },
+        {
+          "total": 1058.5018033860863,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698983830897,
+      "txHash": "",
+      "quorum": 7365,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGQwMDkyZDhkMzBlNjFlYTNjZGFmZGFlZWNiYzgxZGI4ZTg0ZWRiYzA0NWNmOTIyMzY1ODY4ZGU0MGYwNWJhMTM=",
+      "id": "0xd0092d8d30e61ea3cdafdaeecbc81db8e84edbc045cf922365868de40f05ba13",
+      "title": "2023-10 GMC Membership Selection (for RPIP-26)",
+      "content": "This vote will select a new full membership slate for the Grants and Bounties Management Committee (GMC).\n\n### Outcomes\n- The top 9 nominees, in order of vote power received, will comprise the next GMC\n- Nominees beyond the top 9 will be serve as backups, in order of vote power received, in case anyone leaves the GMC within the next 6 months\n\n### Rationale\nIt has been 12 months since the last full committee selection, and \"MCs SHALL be fully re-selected between 10-14 months from their last full selection\".\n\n### Context\nSee the [forum thread](https://dao.rocketpool.net/t/gmc-membership-selection-2023-2024/2322) for:\n- Nominee information statements\n- Supplementary nominee metrics\n- Discussion, including questions for the nominees\n\nYou may also wish to refer to [RPIP-26](https://rpips.rocketpool.net/RPIPs/RPIP-26), which defines the GMC and/or [RPIP-10:Management Committee Selection](https://rpips.rocketpool.net/RPIPs/RPIP-10#management-committee-selection), which defines how management committees are selected.",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 236,
+      "blockNumber": 18439387,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xd0092d8d30e61ea3cdafdaeecbc81db8e84edbc045cf922365868de40f05ba13",
+      "startTime": {
+        "timestamp": 1698383943
+      },
+      "endTime": {
+        "timestamp": 1699593543
+      },
+      "startTimestamp": 1698383943,
+      "endTimestamp": 1699593543,
+      "currentState": "closed",
+      "choices": [
+        "waqwaqattack",
+        "epineph",
+        "rplmaxi.eth",
+        "Dondochaka",
+        "Destroyaaa",
+        "ken",
+        "jcrtp",
+        "rocknet",
+        "drdoofus",
+        "FeelingoodFeelingrt (KentPhilly)",
+        "lookingforowls"
+      ],
+      "results": [
+        {
+          "total": 1102.574,
+          "choice": 11
+        },
+        {
+          "total": 117.798965,
+          "choice": 9
+        },
+        {
+          "total": 173.92188,
+          "choice": 19
+        },
+        {
+          "total": 62.43871,
+          "choice": 3
+        },
+        {
+          "total": 31.03455,
+          "choice": 5
+        },
+        {
+          "total": 85.64783,
+          "choice": 4
+        },
+        {
+          "total": 35.45251,
+          "choice": 34
+        },
+        {
+          "total": 7972.4307,
+          "choice": 0
+        },
+        {
+          "total": 27.440353,
+          "choice": 39
+        },
+        {
+          "total": 14.015531,
+          "choice": 300
+        },
+        {
+          "total": 285.04333,
+          "choice": 2
+        },
+        {
+          "total": 67.60815,
+          "choice": 99
+        },
+        {
+          "total": 57.221386,
+          "choice": 32
+        },
+        {
+          "total": 32.83529,
+          "choice": 24
+        },
+        {
+          "total": 101.935616,
+          "choice": 49
+        },
+        {
+          "total": 1554.0759,
+          "choice": 1
+        },
+        {
+          "total": 63.179577,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 1271.6183253252204,
+          "choice": 0
+        },
+        {
+          "total": 927.187057620264,
+          "choice": 1
+        },
+        {
+          "total": 916.6336135379536,
+          "choice": 2
+        },
+        {
+          "total": 925.6613887813234,
+          "choice": 3
+        },
+        {
+          "total": 751.8758851592494,
+          "choice": 4
+        },
+        {
+          "total": 1324.1835103171943,
+          "choice": 5
+        },
+        {
+          "total": 1909.974016249006,
+          "choice": 6
+        },
+        {
+          "total": 891.754241345903,
+          "choice": 7
+        },
+        {
+          "total": 858.2818270881056,
+          "choice": 8
+        },
+        {
+          "total": 969.0231510553898,
+          "choice": 9
+        },
+        {
+          "total": 984.9671328767772,
+          "choice": 10
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698384653915,
+      "txHash": "",
+      "quorum": 7406,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDg1MzRiN2M4MDZlNTU4Njg0OTA5YjVhOGZiYTA3MzBiZWE0NjI2Nzg3ZGFkNTc0YzA3NzIxMTc2ODFhZTAxMWE=",
+      "id": "0x8534b7c806e558684909b5a8fba0730bea4626787dad574c0772117681ae011a",
+      "title": "Determine Voting Criteria (RPIP-4) [eligible voters: all nodes]",
+      "content": "This vote will determine eligible voters for future pDAO governance votes.\n\nThere are two concurrent votes to determine voting criteria:\n- `Determine Voting Criteria (RPIP-4) [eligible voters: all nodes]`\n- `Determine Voting Criteria (RPIP-4) [eligible voters: nodes w/RPL ≥10% borrowed ETH]`\n\nThese votes are identical except that different strategies were used to determine voter eligibility. Vote power was calculated the same way, etc.\n\n# Context around the situation\n\nRPIP-4 defines who gets to vote: `To be eligible for vote participation, the RPL must be effectively staked in the Rocket Pool protocol as reported by getNodeEffectiveRPLStake().`\n\nThis is currently interpreted by people multiple ways, including at least:\n\n - It was meant to be effective stake (10-150%); the function was not there as a definition, but as an implementation that was bugged. Fixing the bugged function (and vote weight) was proper.\n- Effective stake is defined in the RPIP using the function at the time. Fixing the bugged function (and vote weight) was inappropriate without pDAO input.\n- It's ambiguous.\n\nBefore Atlas, `getNodeEffectiveRPLStake()` counted all RPL below 150%. After Atlas, this function returned 0 if the node had less RPL staked than the value of 10% of borrowed ETH. The voting body *was* changed with Atlas release - whether that was ok depends on where you land above. Since this is about voting, we can't do a single vote to figure out what we want -- the set of people that should vote on that is in question (ie, this is a bootstrap problem). This is why the approach is to vote using both possible voting bodies to determine eligibility moving forward.\n\n# Outcomes\n\n- If both concurrent votes `(Determine Voting Criteria (RPIP-4) [eligible voters: all nodes]` and `Determine Voting Criteria (RPIP-4) [eligible voters: nodes w/RPL ≥10% borrowed ETH])` have matching results, the RPIP Editors are instructed to clarify RPIP-4 and RPIP-8 per those results\n  - Implementation for [eligible voters: all nodes (commit a967777)](https://github.com/rocket-pool/RPIPs/pull/85)\n  - Implementation for [eligible voters: nodes w/RPL ≥10% borrowed ETH (commit f0be7ac)](https://github.com/rocket-pool/RPIPs/pull/86)\n- If the votes do not match, or quorum fails on either vote, no action is taken\n  - Other votes will remain blocked until a future successful attempt to determine the voting body\n\n# Further context\n\n- [Ongoing forum conversation](https://dao.rocketpool.net/t/rpip-4-discussion-who-should-vote/2249)\n- Val suggests a clarification and [polls for overwhelming consensus](https://dao.rocketpool.net/t/rpip-4-effective-rpl-10/2068/7) -- it's clear that there's no overwhelming consensus\n- Patches suggests the concurrent vote path, which enjoyed strong support in the poll\n- Deep dive:\n  - [Full forum thread](https://dao.rocketpool.net/t/rpip-4-effective-rpl-10/2068) that included both of the highlighted posts. Note that the initial topic is slightly different and that incidentally raised this point of ambiguity.\n  - Selected discord discussions: [1](https://discord.com/channels/405159462932971535/405163713063288832/1148270849401565315), [2](https://discord.com/channels/405159462932971535/774497904559783947/1150386963153698898)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 291,
+      "blockNumber": 18318507,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x8534b7c806e558684909b5a8fba0730bea4626787dad574c0772117681ae011a",
+      "startTime": {
+        "timestamp": 1696922342
+      },
+      "endTime": {
+        "timestamp": 1698131942
+      },
+      "startTimestamp": 1696922342,
+      "endTimestamp": 1698131942,
+      "currentState": "closed",
+      "choices": [
+        "All nodes eligible",
+        "≥10% borrowed ETH eligible",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 9317.749,
+          "choice": 0
+        },
+        {
+          "total": 107.64698,
+          "choice": 2
+        },
+        {
+          "total": 3282.2725,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9672.615639930176,
+          "choice": 0
+        },
+        {
+          "total": 3246.89754621223,
+          "choice": 1
+        },
+        {
+          "total": 85.95133358687534,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696922603800,
+      "txHash": "",
+      "quorum": 7393,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGY4ZjdlM2Q4NTk1YTE1NTUzNGQwM2NjNWY3ODMxMGM2OWMyMTAwOWEzY2JjNjBhYzQzYTdmYTE3MWFjZjdmYWU=",
+      "id": "0xf8f7e3d8595a155534d03cc5f78310c69c21009a3cbc60ac43a7fa171acf7fae",
+      "title": "Determine Voting Criteria (RPIP-4) [eligible voters: nodes w/RPL ≥10% borrowed ETH]",
+      "content": "This vote will determine eligible voters for future pDAO governance votes.\n\nThere are two concurrent votes to determine voting criteria:\n- `Determine Voting Criteria (RPIP-4) [eligible voters: all nodes]`\n- `Determine Voting Criteria (RPIP-4) [eligible voters: nodes w/RPL ≥10% borrowed ETH]`\n\nThese votes are identical except that different strategies were used to determine voter eligibility. Vote power was calculated the same way, etc.\n\n# Context around the situation\n\nRPIP-4 defines who gets to vote: `To be eligible for vote participation, the RPL must be effectively staked in the Rocket Pool protocol as reported by getNodeEffectiveRPLStake().`\n\nThis is currently interpreted by people multiple ways, including at least:\n\n - It was meant to be effective stake (10-150%); the function was not there as a definition, but as an implementation that was bugged. Fixing the bugged function (and vote weight) was proper.\n- Effective stake is defined in the RPIP using the function at the time. Fixing the bugged function (and vote weight) was inappropriate without pDAO input.\n- It's ambiguous.\n\nBefore Atlas, `getNodeEffectiveRPLStake()` counted all RPL below 150%. After Atlas, this function returned 0 if the node had less RPL staked than the value of 10% of borrowed ETH. The voting body *was* changed with Atlas release - whether that was ok depends on where you land above. Since this is about voting, we can't do a single vote to figure out what we want -- the set of people that should vote on that is in question (ie, this is a bootstrap problem). This is why the approach is to vote using both possible voting bodies to determine eligibility moving forward.\n\n# Outcomes\n\n- If both concurrent votes `(Determine Voting Criteria (RPIP-4) [eligible voters: all nodes]` and `Determine Voting Criteria (RPIP-4) [eligible voters: nodes w/RPL ≥10% borrowed ETH])` have matching results, the RPIP Editors are instructed to clarify RPIP-4 and RPIP-8 per those results\n  - Implementation for [eligible voters: all nodes (commit a967777)](https://github.com/rocket-pool/RPIPs/pull/85)\n  - Implementation for [eligible voters: nodes w/RPL ≥10% borrowed ETH (commit f0be7ac)](https://github.com/rocket-pool/RPIPs/pull/86)\n- If the votes do not match, or quorum fails on either vote, no action is taken\n  - Other votes will remain blocked until a future successful attempt to determine the voting body\n\n# Further context\n\n- [Ongoing forum conversation](https://dao.rocketpool.net/t/rpip-4-discussion-who-should-vote/2249)\n- Val suggests a clarification and [polls for overwhelming consensus](https://dao.rocketpool.net/t/rpip-4-effective-rpl-10/2068/7) -- it's clear that there's no overwhelming consensus\n- Patches suggests the concurrent vote path, which enjoyed strong support in the poll\n- Deep dive:\n  - [Full forum thread](https://dao.rocketpool.net/t/rpip-4-effective-rpl-10/2068) that included both of the highlighted posts. Note that the initial topic is slightly different and that incidentally raised this point of ambiguity.\n  - Selected discord discussions: [1](https://discord.com/channels/405159462932971535/405163713063288832/1148270849401565315), [2](https://discord.com/channels/405159462932971535/774497904559783947/1150386963153698898)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 212,
+      "blockNumber": 18318454,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xf8f7e3d8595a155534d03cc5f78310c69c21009a3cbc60ac43a7fa171acf7fae",
+      "startTime": {
+        "timestamp": 1696921686
+      },
+      "endTime": {
+        "timestamp": 1698131286
+      },
+      "startTimestamp": 1696921686,
+      "endTimestamp": 1698131286,
+      "currentState": "closed",
+      "choices": [
+        "All nodes eligible vote",
+        "≥10% borrowed ETH eligible",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7168.445,
+          "choice": 0
+        },
+        {
+          "total": 95.93968,
+          "choice": 2
+        },
+        {
+          "total": 2872.5085,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7152.710091088818,
+          "choice": 0
+        },
+        {
+          "total": 2818.9078897957934,
+          "choice": 1
+        },
+        {
+          "total": 95.93968430337692,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696922128635,
+      "txHash": "",
+      "quorum": 5254,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGM3NzllMTQyMjY5MzVjYWVjZTZiY2YwNzZmMjZiMzQxNjVlMTkxZTQ3NThmNTVkYTQwZDJhODE4ODE0NGVlYWM=",
+      "id": "0xc779e14226935caece6bcf076f26b34165e191e4758f55da40d2a8188144eeac",
+      "title": "Determine Voting Criteria (RPIP-4) [eligible voters: all nodes]",
+      "content": "This vote will determine eligible voters for future pDAO governance votes.\n\nThere are two concurrent votes to determine voting criteria:\n- `Determine Voting Criteria (RPIP-4) [eligible voters: all nodes]`\n- `Determine Voting Criteria (RPIP-4) [eligible voters: nodes w/RPL ≥10% borrowed ETH]`\n\nThese votes are identical except that different strategies were used to determine voter eligibility. Vote power was calculated the same way, etc.\n\n# Context around the situation\n\nRPIP-4 defines who gets to vote: `To be eligible for vote participation, the RPL must be effectively staked in the Rocket Pool protocol as reported by getNodeEffectiveRPLStake().`\n\nThis is currently interpreted by people multiple ways, including at least:\n\n - It was meant to be effective stake (10-150%); the function was not there as a definition, but as an implementation that was bugged. Fixing the bugged function (and vote weight) was proper.\n- Effective stake is defined in the RPIP using the function at the time. Fixing the bugged function (and vote weight) was inappropriate without pDAO input.\n- It's ambiguous.\n\nBefore Atlas, `getNodeEffectiveRPLStake()` counted all RPL below 150%. After Atlas, this function returned 0 if the node had less RPL staked than the value of 10% of borrowed ETH. The voting body *was* changed with Atlas release - whether that was ok depends on where you land above. Since this is about voting, we can't do a single vote to figure out what we want -- the set of people that should vote on that is in question (ie, this is a bootstrap problem). This is why the approach is to vote using both possible voting bodies to determine eligibility moving forward.\n\n# Outcomes\n\n- If both concurrent votes `(Determine Voting Criteria (RPIP-4) [eligible voters: all nodes]` and `Determine Voting Criteria (RPIP-4) [eligible voters: nodes w/RPL ≥10% borrowed ETH])` have matching results, the RPIP Editors are instructed to clarify RPIP-4 and RPIP-8 per those results\n  - Implementation for [eligible voters: all nodes (commit a967777)](https://github.com/rocket-pool/RPIPs/pull/85)\n  - Implementation for [eligible voters: nodes w/RPL ≥10% borrowed ETH (commit f0be7ac)](https://github.com/rocket-pool/RPIPs/pull/86)\n- If the votes do not match, or quorum fails on either vote, no action is taken\n  - Other votes will remain blocked until a future successful attempt to determine the voting body\n\n# Further context\n\n- [Ongoing forum conversation](https://dao.rocketpool.net/t/rpip-4-discussion-who-should-vote/2249)\n- Val suggests a clarification and [polls for overwhelming consensus](https://dao.rocketpool.net/t/rpip-4-effective-rpl-10/2068/7) -- it's clear that there's no overwhelming consensus\n- Patches suggests the concurrent vote path, which enjoyed strong support in the poll\n- Deep dive:\n  - [Full forum thread](https://dao.rocketpool.net/t/rpip-4-effective-rpl-10/2068) that included both of the highlighted posts. Note that the initial topic is slightly different and that incidentally raised this point of ambiguity.\n  - Selected discord discussions: [1](https://discord.com/channels/405159462932971535/405163713063288832/1148270849401565315), [2](https://discord.com/channels/405159462932971535/774497904559783947/1150386963153698898)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0xAc69b72672aBb00Ab51837F74a4F28B45296b09E",
+      "totalVotes": 14,
+      "blockNumber": 18309654,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xc779e14226935caece6bcf076f26b34165e191e4758f55da40d2a8188144eeac",
+      "startTime": {
+        "timestamp": 1696815273
+      },
+      "endTime": {
+        "timestamp": 1698024873
+      },
+      "startTimestamp": 1696815273,
+      "endTimestamp": 1698024873,
+      "currentState": "closed",
+      "choices": [
+        "All nodes eligible",
+        "≥10% borrowed ETH eligible",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 189.89485,
+          "choice": 0
+        },
+        {
+          "total": 2096.9092,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 277.80983711652004,
+          "choice": 0
+        },
+        {
+          "total": 2096.9092455684254,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696815557563,
+      "txHash": "",
+      "quorum": 5190,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDdjNmExMzY4NzNhMGUyYzdkMjRkNjE5YmNkNWQzYmNmYmE1MTE1ZDdmN2ZiNjkxZDliMmMxMzA4M2JhNjUzZWI=",
+      "id": "0x7c6a136873a0e2c7d24d619bcd5d3bcfba5115d7f7fb691d9b2c13083ba653eb",
+      "title": "Determine Voting Criteria (RPIP-4) [eligible voters: nodes w/RPL ≥10% borrowed ETH]",
+      "content": "This vote will determine eligible voters for future pDAO governance votes.\n\nThere are two concurrent votes to determine voting criteria:\n- `Determine Voting Criteria (RPIP-4) [eligible voters: all nodes]`\n- `Determine Voting Criteria (RPIP-4) [eligible voters: nodes w/RPL ≥10% borrowed ETH]`\n\nThese votes are identical except that different strategies were used to determine voter eligibility. Vote power was calculated the same way, etc.\n\n# Context around the situation\n\nRPIP-4 defines who gets to vote: `To be eligible for vote participation, the RPL must be effectively staked in the Rocket Pool protocol as reported by getNodeEffectiveRPLStake().`\n\nThis is currently interpreted by people multiple ways, including at least:\n\n - It was meant to be effective stake (10-150%); the function was not there as a definition, but as an implementation that was bugged. Fixing the bugged function (and vote weight) was proper.\n- Effective stake is defined in the RPIP using the function at the time. Fixing the bugged function (and vote weight) was inappropriate without pDAO input.\n- It's ambiguous.\n\nBefore Atlas, `getNodeEffectiveRPLStake()` counted all RPL below 150%. After Atlas, this function returned 0 if the node had less RPL staked than the value of 10% of borrowed ETH. The voting body *was* changed with Atlas release - whether that was ok depends on where you land above. Since this is about voting, we can't do a single vote to figure out what we want -- the set of people that should vote on that is in question (ie, this is a bootstrap problem). This is why the approach is to vote using both possible voting bodies to determine eligibility moving forward.\n\n# Outcomes\n\n- If both concurrent votes `(Determine Voting Criteria (RPIP-4) [eligible voters: all nodes]` and `Determine Voting Criteria (RPIP-4) [eligible voters: nodes w/RPL ≥10% borrowed ETH])` have matching results, the RPIP Editors are instructed to clarify RPIP-4 and RPIP-8 per those results\n  - Implementation for [eligible voters: all nodes (commit a967777)](https://github.com/rocket-pool/RPIPs/pull/85)\n  - Implementation for [eligible voters: nodes w/RPL ≥10% borrowed ETH (commit f0be7ac)](https://github.com/rocket-pool/RPIPs/pull/86)\n- If the votes do not match, or quorum fails on either vote, no action is taken\n  - Other votes will remain blocked until a future successful attempt to determine the voting body\n\n# Further context\n\n- [Ongoing forum conversation](https://dao.rocketpool.net/t/rpip-4-discussion-who-should-vote/2249)\n- Val suggests a clarification and [polls for overwhelming consensus](https://dao.rocketpool.net/t/rpip-4-effective-rpl-10/2068/7) -- it's clear that there's no overwhelming consensus\n- Patches suggests the concurrent vote path, which enjoyed strong support in the poll\n- Deep dive:\n  - [Full forum thread](https://dao.rocketpool.net/t/rpip-4-effective-rpl-10/2068) that included both of the highlighted posts. Note that the initial topic is slightly different and that incidentally raised this point of ambiguity.\n  - Selected discord discussions: [1](https://discord.com/channels/405159462932971535/405163713063288832/1148270849401565315), [2](https://discord.com/channels/405159462932971535/774497904559783947/1150386963153698898)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0xAc69b72672aBb00Ab51837F74a4F28B45296b09E",
+      "totalVotes": 12,
+      "blockNumber": 18309629,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x7c6a136873a0e2c7d24d619bcd5d3bcfba5115d7f7fb691d9b2c13083ba653eb",
+      "startTime": {
+        "timestamp": 1696814972
+      },
+      "endTime": {
+        "timestamp": 1698024572
+      },
+      "startTimestamp": 1696814972,
+      "endTimestamp": 1698024572,
+      "currentState": "closed",
+      "choices": [
+        "All nodes eligible",
+        "≥10% borrowed ETH eligible",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 160.31445,
+          "choice": 0
+        },
+        {
+          "total": 1806.791,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 160.31445340612436,
+          "choice": 0
+        },
+        {
+          "total": 1806.791160787632,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696815274287,
+      "txHash": "",
+      "quorum": 5190,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDdlNmIzMTlmNmFkMTc4MjlkNTc4ZjVlMTk4M2EyOTIxOGY2MDQwY2Q3NzVlMWEyOTUwZmEyMWRiNDYyOGNhMjI=",
+      "id": "0x7e6b319f6ad17829d578f5e1983a29218f6040cd775e1a2950fa21db4628ca22",
+      "title": "Test Proposal using v3",
+      "content": "Test",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 134,
+      "blockNumber": 18217046,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x7e6b319f6ad17829d578f5e1983a29218f6040cd775e1a2950fa21db4628ca22",
+      "startTime": {
+        "timestamp": 1695696223
+      },
+      "endTime": {
+        "timestamp": 1696905823
+      },
+      "startTimestamp": 1695696223,
+      "endTimestamp": 1696905823,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1053.5609,
+          "choice": 0
+        },
+        {
+          "total": 3480.924,
+          "choice": 2
+        },
+        {
+          "total": 2747.821,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1053.5609014077218,
+          "choice": 0
+        },
+        {
+          "total": 2747.8210375331605,
+          "choice": 1
+        },
+        {
+          "total": 3480.924021612352,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695696778174,
+      "txHash": "",
+      "quorum": 5670,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGNhODA2NTU3YzNkYmQ0MDAxYmJmODZmZWJmYmUwOGZiZWZlYThiMjljNzlhZDBkZWJkMGEzOGEyYTIyODc1NzU=",
+      "id": "0xca806557c3dbd4001bbf86febfbe08fbefea8b29c79ad0debd0a38a2a2287575",
+      "title": "Test Proposal using v2",
+      "content": "Testing",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 112,
+      "blockNumber": 18209298,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xca806557c3dbd4001bbf86febfbe08fbefea8b29c79ad0debd0a38a2a2287575",
+      "startTime": {
+        "timestamp": 1695602565
+      },
+      "endTime": {
+        "timestamp": 1696812165
+      },
+      "startTimestamp": 1695602565,
+      "endTimestamp": 1696812165,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1671.8119,
+          "choice": 0
+        },
+        {
+          "total": 2730.93,
+          "choice": 2
+        },
+        {
+          "total": 1890.08,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1671.8119447959305,
+          "choice": 0
+        },
+        {
+          "total": 1890.0798826120115,
+          "choice": 1
+        },
+        {
+          "total": 2730.9302013841493,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695607297341,
+      "txHash": "",
+      "quorum": 5670,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDk5MGZhMjUwNDBjNzI1ZjVlNjA4NjRiODIwODZlNjcxZGY2MmQ1YjY0MzY4YjZiOWM3NTBmZmI0NmU1MTUwMTg=",
+      "id": "0x990fa25040c725f5e60864b82086e671df62d5b64368b6b9c750ffb46e515018",
+      "title": "Test Proposal using v2",
+      "content": "Test",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 0,
+      "blockNumber": 18188937,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x990fa25040c725f5e60864b82086e671df62d5b64368b6b9c750ffb46e515018",
+      "startTime": {
+        "timestamp": 1695356041
+      },
+      "endTime": {
+        "timestamp": 1696565641
+      },
+      "startTimestamp": 1695356041,
+      "endTimestamp": 1696565641,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695358771252,
+      "txHash": "",
+      "quorum": 5670,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDcxYWI0NTUwYjZhYjQ5NzU3MWZlM2FmZThmMjJmNTZiNDYwMTdmZTViYzIwMjdlMTcxMDYzZjc4ZDg5NjBlYWM=",
+      "id": "0x71ab4550b6ab497571fe3afe8f22f56b46017fe5bc2027e171063f78d8960eac",
+      "title": "Test Proposal using v2",
+      "content": "Test",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 0,
+      "blockNumber": 18188273,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x71ab4550b6ab497571fe3afe8f22f56b46017fe5bc2027e171063f78d8960eac",
+      "startTime": {
+        "timestamp": 1695348023
+      },
+      "endTime": {
+        "timestamp": 1696557623
+      },
+      "startTimestamp": 1695348023,
+      "endTimestamp": 1696557623,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695351042611,
+      "txHash": "",
+      "quorum": 5670,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDg1NWM4YTBlZWRmOWY2MjRmMzE1OWNmMGMwYmZjZmI5M2Y3NTA4ZWFhOTk5MDRmNmZlMWIwYTQ5NTg2ODhjOTU=",
+      "id": "0x855c8a0eedf9f624f3159cf0c0bfcfb93f7508eaa99904f6fe1b0a4958688c95",
+      "title": "Test Proposal using v3",
+      "content": "Test",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 0,
+      "blockNumber": 18188130,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x855c8a0eedf9f624f3159cf0c0bfcfb93f7508eaa99904f6fe1b0a4958688c95",
+      "startTime": {
+        "timestamp": 1695346280
+      },
+      "endTime": {
+        "timestamp": 1696555880
+      },
+      "startTimestamp": 1695346280,
+      "endTimestamp": 1696555880,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695347575346,
+      "txHash": "",
+      "quorum": 5670,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGMxZTY0OGJhMmY4NjFiMzI4Yzk5MTk3MTM3YTU4ZWExN2NhYmIzMTMwY2ZlMjdmYzQwYzc0ZmRhNzlmMTZkMWQ=",
+      "id": "0xc1e648ba2f861b328c99197137a58ea17cabb3130cfe27fc40c74fda79f16d1d",
+      "title": "Test Proposal using v2",
+      "content": "Test",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 0,
+      "blockNumber": 18188123,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xc1e648ba2f861b328c99197137a58ea17cabb3130cfe27fc40c74fda79f16d1d",
+      "startTime": {
+        "timestamp": 1695346199
+      },
+      "endTime": {
+        "timestamp": 1696555799
+      },
+      "startTimestamp": 1695346199,
+      "endTimestamp": 1696555799,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695347575346,
+      "txHash": "",
+      "quorum": 5670,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGU4NGU1OGRmMTY5M2U0ODdhZTIwMWI4MDU5NDcyMDdlNmFjODI4NTA2NmFjYjI2NWJjMGI5OGU0Y2UyN2FmMTY=",
+      "id": "0xe84e58df1693e487ae201b805947207e6ac8285066acb265bc0b98e4ce27af16",
+      "title": "Test Proposal using v2",
+      "content": "",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 0,
+      "blockNumber": 18187837,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xe84e58df1693e487ae201b805947207e6ac8285066acb265bc0b98e4ce27af16",
+      "startTime": {
+        "timestamp": 1695342758
+      },
+      "endTime": {
+        "timestamp": 1696552358
+      },
+      "startTimestamp": 1695342758,
+      "endTimestamp": 1696552358,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695342855812,
+      "txHash": "",
+      "quorum": 5670,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDFmNTFkZmQ4MmIwZTYwZDdhM2I5NzRjODE5ZjYxM2VmMDM1ZDM1OTk0MjkzODIxYjliMzBkYjYyODcyYjFjYzI=",
+      "id": "0x1f51dfd82b0e60d7a3b974c819f613ef035d35994293821b9b30db62872b1cc2",
+      "title": "Appeal GMC decision on GA032303 and fund Rocket Split (RPIP-27)",
+      "content": "### Outcomes\n- A positive outcome to this vote will ratify RPIP-27\n- RPIP-27 instructs the GMC to approve the Rocket Split grant and pay for it\n\n### Reasoning\nThe Rocket Split proposal was misunderstood during the GMC's deliberations, so it's being appealed to the overall pDAO\n\n### Full content\n- If you're familiar with the Draft version of the RPIP, note that the exchange rate was updated\n- Please read the full [RPIP](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-27.md) and the [grant application](https://dao.rocketpool.net/t/july-2023-gmc-call-for-grant-applications-deadline-is-july-15th/1934/4)\n- You may read discussion around this in the [forum thread](https://dao.rocketpool.net/t/appeal-of-july-2023-gmc-results-rocket-split-ga032303/2085)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 151,
+      "blockNumber": 18009374,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x1f51dfd82b0e60d7a3b974c819f613ef035d35994293821b9b30db62872b1cc2",
+      "startTime": {
+        "timestamp": 1693180228
+      },
+      "endTime": {
+        "timestamp": 1694389828
+      },
+      "startTimestamp": 1693180228,
+      "endTimestamp": 1694389828,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4904.3667,
+          "choice": 0
+        },
+        {
+          "total": 2676.609,
+          "choice": 2
+        },
+        {
+          "total": 72.199905,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4787.501874624512,
+          "choice": 0
+        },
+        {
+          "total": 72.19990421024931,
+          "choice": 1
+        },
+        {
+          "total": 2676.60918262109,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1693180833207,
+      "txHash": "",
+      "quorum": 5670,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGMxZWNlMDcwZmVlYjQ0MTE1ZGJmZDc5ODI3ZTEwZTM1ZDg2YzkzMDQzZTgwNzM2OWU1NGVjMmQ2MmE0ZmNhY2U=",
+      "id": "0xc1ece070feeb44115dbfd79827e10e35d86c93043e807369e54ec2d62a4fcace",
+      "title": "Updating of Grants Management Committee (RPIP-26)",
+      "content": "**PROCESS NOTE**\nIf this looks [familiar](https://vote.rocketpool.net/#/proposal/0x1c976f159a298e4b16c820654f9ec9b4fa9d972fe16daa9fd2c44767aa0a7705), you're right.\n\nWe had a process error where the RPIP was not Final; there was a Draft version merged and a pull request for a Review version that was intended to become Final, but didn't finish getting there.\n\nWe [polled the community](https://dao.rocketpool.net/t/minor-issue-in-current-vote-rpip-26/2039?u=valdorff) to check if there was overwhelming support for using the vote despite the error, and there definitely was not.\nAs a result we are redoing the vote, now with a properly finalized RPIP.\n\n---\n\nThe changes: \n- Eliminate the retrospective award cap.\n- Award cycle updated from quarterly to monthly.\n- Establish a part-time GMC Administrator position.\n\nPlease read the full RPIP [here](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-26.md). You can read discussion around this in the [forum thread](https://dao.rocketpool.net/t/updating-of-grants-management-committee/1968).",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 164,
+      "blockNumber": 17839928,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xc1ece070feeb44115dbfd79827e10e35d86c93043e807369e54ec2d62a4fcace",
+      "startTime": {
+        "timestamp": 1691131688
+      },
+      "endTime": {
+        "timestamp": 1692341288
+      },
+      "startTimestamp": 1691131688,
+      "endTimestamp": 1692341288,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7418.887,
+          "choice": 0
+        },
+        {
+          "total": 10.5658,
+          "choice": 2
+        },
+        {
+          "total": 60.54333,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7390.859799851156,
+          "choice": 0
+        },
+        {
+          "total": 60.54333151404529,
+          "choice": 1
+        },
+        {
+          "total": 10.56579951208142,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1691131851617,
+      "txHash": "",
+      "quorum": 5670,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDFjOTc2ZjE1OWEyOThlNGIxNmM4MjA2NTRmOWVjOWI0ZmE5ZDk3MmZlMTZkYWE5ZmQyYzQ0NzY3YWEwYTc3MDU=",
+      "id": "0x1c976f159a298e4b16c820654f9ec9b4fa9d972fe16daa9fd2c44767aa0a7705",
+      "title": "Updating of Grants Management Committee (RPIP-26)",
+      "content": "The changes: \n- Eliminate the retrospective award cap.\n- Award cycle updated from quarterly to monthly.\n- Establish a part-time GMC Administrator position.\n\nPlease read the full RPIP [here](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-26.md). \n\nYou can read discussion around this in the [forum thread](https://dao.rocketpool.net/t/updating-of-grants-management-committee/1968)",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 205,
+      "blockNumber": 17739192,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x1c976f159a298e4b16c820654f9ec9b4fa9d972fe16daa9fd2c44767aa0a7705",
+      "startTime": {
+        "timestamp": 1689914442
+      },
+      "endTime": {
+        "timestamp": 1691124042
+      },
+      "startTimestamp": 1689914442,
+      "endTimestamp": 1691124042,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7577.9893,
+          "choice": 0
+        },
+        {
+          "total": 138.96307,
+          "choice": 2
+        },
+        {
+          "total": 482.25388,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7509.838152842946,
+          "choice": 0
+        },
+        {
+          "total": 482.2538830488418,
+          "choice": 1
+        },
+        {
+          "total": 138.96307890749574,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689914517541,
+      "txHash": "",
+      "quorum": 5491,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGI5ZjM4OWE1ZGU4YWU3ZDQzNTZlZjUwOGZkNWFmNzI3N2ZhZTg4ZDY2NjE2ZmVkNWVmNzFhYTljYzBmOTNmZmY=",
+      "id": "0xb9f389a5de8ae7d4356ef508fd5af7277fae88d66616fed5ef71aa9cc0f93fff",
+      "title": "pDAO Charter (RPIP-23)",
+      "content": "This vote is interlinked with the `oDAO Charter` and `Inflation & pDAO Budget Allocation` votes -- if any of the 3 fail, all will be considered failed (and none will take effect).\n\nThe pDAO charter establishes what the pDAO is and what its values are. I don't think it can be summarized further than the RPIP, so _please_ read the RPIP.\n\nPlease read the full RPIP [here](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-23.md).\n\nYou can read discussion around this in the [forum thread](https://dao.rocketpool.net/t/odao-charter-draft-and-more/1832).",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 280,
+      "blockNumber": 17611317,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xb9f389a5de8ae7d4356ef508fd5af7277fae88d66616fed5ef71aa9cc0f93fff",
+      "startTime": {
+        "timestamp": 1688371200
+      },
+      "endTime": {
+        "timestamp": 1689580800
+      },
+      "startTimestamp": 1688371200,
+      "endTimestamp": 1689580800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 9671.31,
+          "choice": 0
+        },
+        {
+          "total": 29.013254,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9671.3120999503,
+          "choice": 0
+        },
+        {
+          "total": 29.013254633825586,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688361669585,
+      "txHash": "",
+      "quorum": 5590,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDUxMDM4M2NhODJhMDA5NmZhNjcwYTI2MDY5MmNmN2E0MDk3ZTE5OWNlNGY3MzFkYzRlZmQ5N2EyMWYxOWY5ODg=",
+      "id": "0x510383ca82a0096fa670a260692cf7a4097e199ce4f731dc4efd97a21f19f988",
+      "title": "Inflation & pDAO Budget Allocation (RPIP-25 & RPIP-10)",
+      "content": "This vote is interlinked with the `pDAO Charter` and `oDAO Charter` votes -- if any of the 3 fail, all will be considered failed (and none will take effect).\n\nThe inflation changes:\n- Immediately reduce the oDAO share from 15% to 8%\n- Further reduce the oDAO share to 1.5% over the next ~year\n- Node Operator share is held at 70%, so pDAO share increases as oDAO share decreases\n\nThe budget changes:\n- Allow for the pDAO to directly spend funds\n- Execute a direct expenditure to fund 3 months of dev (this is interim funding; we likely want to fund longer based on a roadmap, but that can be a separate vote)\n- Modify the MC budget splits so that total budget is similar to current levels when the pDAO share of inflation increases (just the initial large step)\n\nPlease read the full RPIP [here](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-25.md).\n\nYou can read discussion around this in the [forum thread](https://dao.rocketpool.net/t/odao-charter-draft-and-more/1832).",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 286,
+      "blockNumber": 17611446,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x510383ca82a0096fa670a260692cf7a4097e199ce4f731dc4efd97a21f19f988",
+      "startTime": {
+        "timestamp": 1688371200
+      },
+      "endTime": {
+        "timestamp": 1689580800
+      },
+      "startTimestamp": 1688371200,
+      "endTimestamp": 1689580800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 9735.057,
+          "choice": 0
+        },
+        {
+          "total": 53.537533,
+          "choice": 2
+        },
+        {
+          "total": 29.013254,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 9735.059502504606,
+          "choice": 0
+        },
+        {
+          "total": 29.013254633825586,
+          "choice": 1
+        },
+        {
+          "total": 53.53753430750635,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688363480061,
+      "txHash": "",
+      "quorum": 5590,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDA3YjM4YmNiZDk0OTkyM2JhN2Q3MmY1ODMyYmNhMjJlMGE5MzU0YmNlMzAzNjAyYzgwMmVkZjEwNDZlYjY4ZmU=",
+      "id": "0x07b38bcbd949923ba7d72f5832bca22e0a9354bce303602c802edf1046eb68fe",
+      "title": "oDAO Charter (RPIP-24)",
+      "content": "This vote is interlinked with the `pDAO Charter` and `Inflation & pDAO Budget Allocation` votes -- if any of the 3 fail, all will be considered failed (and none will take effect).\n\n**This snapshot will be voted on by the oDAO, not the pDAO.**\n\nThe oDAO charter establishes what the oDAO is, what its values are, how it will function, and what its responsibilities are. I don't think it can be summarized further than the RPIP, so _please_ read the RPIP.\n\noDAO members will vote by using `rocketpool node send-message` from their oDAO node and sending a message to `0x0Da0000000000000000000000000000000000000`. The data of the message should be utf-8 encoded and say \"_seatname_ votes For/Against/Abstain on RPIP-24\". If there is more than one vote from a seat, the last vote in the vote window will be counted. In order for this vote to pass, at least 51% must vote \"For\" (10 votes). Anyone will be able to trivially verify the votes on Etherscan based on the signing address and data interpreted as utf-8.\n\npDAO members MAY or MAY NOT use the For/Against/Abstain buttons here to _signal_. This is purely a signal; pDAO votes and quorum will not impact the result in any way.\n\nPlease read the full RPIP [here](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-24.md).\nYou can read discussion around this in the [forum thread](https://dao.rocketpool.net/t/odao-charter-draft-and-more/1832).\n\nFor reference the oDAO addresses that can vote are:\n- bankless 0x2c6c5809a257ea74a2df6d20aee6119196d4bea0\n- beaconcha.in 0xd7f94c53691afb5a616c6af96e7075c1ffa1d8ee\n- blockchaincapital 0xb13fa6eff52e6db8e9f0f1b60b744a9a9a01425a\n- coinbaseventures+unit410 0x55bf89c8af56414f2114d48764a608019da17d2b\n- consensyscodefi 0xdf590a63b91e8278a9102bee9aafd444f8a4b780\n- cryptomanufaktur 0x1df9a4f9421ae6306bc7b171dff8470640f96e72\n- etherscan 0xaf820bb236fde6f084641c74a4c62fa61d10b293\n- fireeyes 0x9c69e7fce961fd837f99c808ad75ed39a2c549cb\n- gitcoin 0x58fa2ca71c4a37f6b280fc55e04cc8effa68a18a\n- lighthouse 0xc5d291607600044348e5014404cc18394bd1d57d\n- nimbus 0xb3a533098485bede3cb7fa8711af84fe0bb1e0ad\n- rocketpool-1 0x2354628919e1d53d2a69cf700cc53c4093977b94\n- rocketpool-2 0xccbff44e0f0329527feb0167bc8744d7d5aed3e9\n- rocketpool-3 0x16222268bb682aa34ce60c73f4527f30aca1b788\n- rocketpool-t 0x8d074ad69b55dd57da2708306f1c200ae1803359\n- rocketscientists-1 0x9f56f3aeed0e79f0e7612119aca0bab15477cec6\n- sassal 0x8fb569c14b372430f9af8b235940187b449d0dec\n- superphiz 0x751683968fd078341c48b90bc657d6babc2339f7",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 268,
+      "blockNumber": 17611419,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x07b38bcbd949923ba7d72f5832bca22e0a9354bce303602c802edf1046eb68fe",
+      "startTime": {
+        "timestamp": 1688371200
+      },
+      "endTime": {
+        "timestamp": 1689580800
+      },
+      "startTimestamp": 1688371200,
+      "endTimestamp": 1689580800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 8732.533,
+          "choice": 0
+        },
+        {
+          "total": 577.2745,
+          "choice": 2
+        },
+        {
+          "total": 63.095917,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8732.53571973089,
+          "choice": 0
+        },
+        {
+          "total": 63.09591873257643,
+          "choice": 1
+        },
+        {
+          "total": 577.27449548078,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688362898975,
+      "txHash": "",
+      "quorum": 5590,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDc4ZmIyM2RhMzQ4MzcxNzBiYjE4MmYyMWZiNTdlNGEwMjNmN2M1MmMxMzc5NzUxZTgyNGEzNDg0NjdmOTZhNjU=",
+      "id": "0x78fb23da34837170bb182f21fb57e4a023f7c52c1379751e824a348467f96a65",
+      "title": "Expanding IMC Charter (RPIP-20)",
+      "content": "This vote adds two bullets to the \"Guiding Principles\" section\n- As a lesser goal, the IMC SHOULD support RPL/ETH TWAP oracle safety\n- As a lesser goal, the IMC MAY act to improve accessibility of RPL; efforts for this goal SHOULD NOT exceed 10% of resources\n\nPlease read the [full RPIP here](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-20.md).\nYou can read discussion around this in the [forum thread](https://dao.rocketpool.net/t/add-an-rpl-related-goal-to-imc-charter/1656).",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 214,
+      "blockNumber": 17171084,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x78fb23da34837170bb182f21fb57e4a023f7c52c1379751e824a348467f96a65",
+      "startTime": {
+        "timestamp": 1683006151
+      },
+      "endTime": {
+        "timestamp": 1684215751
+      },
+      "startTimestamp": 1683006151,
+      "endTimestamp": 1684215751,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7360.3247,
+          "choice": 0
+        },
+        {
+          "total": 66.24001,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7360.3262033306255,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 66.24001640085194,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684784316293,
+      "txHash": "",
+      "quorum": 6117,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDk3YmZiMzM5MjgxZDBiZjJmODhkNmE5MjllZDBmN2RmMWQ1NzVkZTAwMmYxNWY1YzAwZGIyYmZhYjg1MjU0OWQ=",
+      "id": "0x97bfb339281d0bf2f88d6a929ed0f7df1d575de002f15f5c00db2bfab852549d",
+      "title": "oDAO Health Clarity (RPIP-19)",
+      "content": "This vote directs the dev team to improve our ability to assess oDAO health in performing their duties, both short and long term.\n\nIn the short term, it does this with subcommittees, so we reliably know which node should be expected to submit specific duties during each update.\n\nIn the long term, it has smart contract changes to allow voting beyond the necessary threshold.\n\nPlease read the [full RPIP here](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-19.md).\nYou can read discussion around this in the [forum thread](https://dao.rocketpool.net/t/make-odao-health-clearer/1658).",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 215,
+      "blockNumber": 17171063,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x97bfb339281d0bf2f88d6a929ed0f7df1d575de002f15f5c00db2bfab852549d",
+      "startTime": {
+        "timestamp": 1683005907
+      },
+      "endTime": {
+        "timestamp": 1684215507
+      },
+      "startTimestamp": 1683005907,
+      "endTimestamp": 1684215507,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7010.0005,
+          "choice": 0
+        },
+        {
+          "total": 415.01025,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7010.00049011754,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 415.0101929588969,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684784316293,
+      "txHash": "",
+      "quorum": 6117,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDE5NTA0YTJiYzNhYzViMmI0ZmU5ZjU0ZWYwOGNhMjM2NTZmYjRmNmU2NzhkMTdhZGI2OGM4MmQzYmRmMzY5YWY=",
+      "id": "0x19504a2bc3ac5b2b4fe9f54ef08ca23656fb4f6e678d17adb68c82d3bdf369af",
+      "title": "2023-03 IMC Membership Selection (per RPIP-10)",
+      "content": "This vote will select nine members as the Incentives Management Committee (IMC; defined in RPIP-11) per the method in RPIP-10.\n\nSee [the forum](https://dao.rocketpool.net/t/2023-03-imc-members-selection/1622) for:\n\n- Nominee information statements\n- Supplementary nominee metrics\n- Discussion, including questions for the nominees",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 189,
+      "blockNumber": 16916310,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x19504a2bc3ac5b2b4fe9f54ef08ca23656fb4f6e678d17adb68c82d3bdf369af",
+      "startTime": {
+        "timestamp": 1679890889
+      },
+      "endTime": {
+        "timestamp": 1681100489
+      },
+      "startTimestamp": 1679890889,
+      "endTimestamp": 1681100489,
+      "currentState": "closed",
+      "choices": [
+        "Valdorff",
+        "Langers",
+        "Uisce",
+        "Daserdog",
+        "Denum.eth",
+        "Jasperthefriendlyghost",
+        "knoshua",
+        "NonfungibleYokem",
+        "halzen627 (aka halzen.eth)",
+        "ramana.eth (aka xrchz.eth)",
+        "drworm",
+        "phils.eth (aka philcares.reth)"
+      ],
+      "results": [
+        {
+          "total": 7.266321,
+          "choice": 11
+        },
+        {
+          "total": 22.58505,
+          "choice": 9
+        },
+        {
+          "total": 100.9467,
+          "choice": 19
+        },
+        {
+          "total": 49.42452,
+          "choice": 9999
+        },
+        {
+          "total": 522.299,
+          "choice": 3
+        },
+        {
+          "total": 5.8729463,
+          "choice": 5
+        },
+        {
+          "total": 27.737267,
+          "choice": 4
+        },
+        {
+          "total": 5399.808,
+          "choice": 0
+        },
+        {
+          "total": 306.4713,
+          "choice": 2
+        },
+        {
+          "total": 5.252386,
+          "choice": 75
+        },
+        {
+          "total": 51.413807,
+          "choice": 99
+        },
+        {
+          "total": 24.83722,
+          "choice": 32
+        },
+        {
+          "total": 98.01641,
+          "choice": 24
+        },
+        {
+          "total": 47.434166,
+          "choice": 49
+        },
+        {
+          "total": 529.40765,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 968.9499061280889,
+          "choice": 0
+        },
+        {
+          "total": 941.7147618319668,
+          "choice": 1
+        },
+        {
+          "total": 812.986570109514,
+          "choice": 2
+        },
+        {
+          "total": 123.30467293674047,
+          "choice": 3
+        },
+        {
+          "total": 706.0761836640771,
+          "choice": 4
+        },
+        {
+          "total": 1267.837753435418,
+          "choice": 5
+        },
+        {
+          "total": 838.0582631390512,
+          "choice": 6
+        },
+        {
+          "total": 357.2230048625042,
+          "choice": 7
+        },
+        {
+          "total": 62.21995776965624,
+          "choice": 8
+        },
+        {
+          "total": 718.3931295360976,
+          "choice": 9
+        },
+        {
+          "total": 133.95988535524825,
+          "choice": 10
+        },
+        {
+          "total": 268.04911637245647,
+          "choice": 11
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679890995667,
+      "txHash": "",
+      "quorum": 5707,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGU2OGI1OTg2YjE4NjExMDI0ODU3NTI4NDYzNzllMGMwZmNmYWNlNmQ0NGJiMTkwNDZiMDYzZDc5NjE3YjFlYzA=",
+      "id": "0xe68b5986b1861102485752846379e0c0fcface6d44bb19046b063d79617b1ec0",
+      "title": "2023-02 RPIP-10 Update",
+      "content": "This update includes:\n\n- ~Yearly elections\n- How vacancies get filled\n- IMC election must kick off (as it’s made up of non-elected members)\n- MCs may optionally add a team backup signer\n- Removed a line about pDAO review of MC membership – not very clear what it meant, and less important with a schedule\n\nPlease read the [full RPIP](https://github.com/Valdorff/RPIPs/blob/mc_elections/RPIPs/RPIP-10.md) here or the [changes](https://github.com/rocket-pool/RPIPs/pull/37/files) here.\n\nYou can read discussion around this in the [forum thread](https://dao.rocketpool.net/t/mc-terms-vacancies-backup-signers/1504).",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 160,
+      "blockNumber": 16696462,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xe68b5986b1861102485752846379e0c0fcface6d44bb19046b063d79617b1ec0",
+      "startTime": {
+        "timestamp": 1677220573
+      },
+      "endTime": {
+        "timestamp": 1678430173
+      },
+      "startTimestamp": 1677220573,
+      "endTimestamp": 1678430173,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 6327.6475,
+          "choice": 0
+        },
+        {
+          "total": 5.9308333,
+          "choice": 2
+        },
+        {
+          "total": 36.386036,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 6327.645720797134,
+          "choice": 0
+        },
+        {
+          "total": 36.3860361347359,
+          "choice": 1
+        },
+        {
+          "total": 5.930833291651862,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5212,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDM0MzE5ODc3NTAyMjRjNTJlZTRiMWZkMDUxMDI2M2ZmMDVkYmFlZTViNzI1OGMwNzg4NjUwNDJiZmZhMDNkOGQ=",
+      "id": "0x3431987750224c52ee4b1fd0510263ff05dbaee5b7258c078865042bffa03d8d",
+      "title": "2023-02 GMC Membership Selection (per RPIP-18)",
+      "content": "This vote will select four members serving on the Grants and Bounties Management Committee (GMC; defined in RPIP-15) per the method in RPIP-10.\n\nSee [the forum](https://dao.rocketpool.net/t/2023-02-gmc-members-selection/1577) for:\n\n- Nominee information statements\n- Supplementary nominee metrics\n- Discussion, including questions for the nominees",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 158,
+      "blockNumber": 16696447,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x3431987750224c52ee4b1fd0510263ff05dbaee5b7258c078865042bffa03d8d",
+      "startTime": {
+        "timestamp": 1677220391
+      },
+      "endTime": {
+        "timestamp": 1678429991
+      },
+      "startTimestamp": 1677220391,
+      "endTimestamp": 1678429991,
+      "currentState": "closed",
+      "choices": [
+        "fornax (aka 0xfornax)",
+        "dondochaka (aka dondo)",
+        "ShfRyn",
+        "rplmaxi.eth",
+        "underwood (aka Bernard)",
+        "Kevster",
+        "anisoptera"
+      ],
+      "results": [
+        {
+          "total": 14.053993,
+          "choice": 79
+        },
+        {
+          "total": 73.35247,
+          "choice": 19
+        },
+        {
+          "total": 31.425684,
+          "choice": 30
+        },
+        {
+          "total": 382.24396,
+          "choice": 3
+        },
+        {
+          "total": 76.228615,
+          "choice": 29
+        },
+        {
+          "total": 28.107986,
+          "choice": 54
+        },
+        {
+          "total": 25.724747,
+          "choice": 4
+        },
+        {
+          "total": 4478.952,
+          "choice": 0
+        },
+        {
+          "total": 62.851368,
+          "choice": 205
+        },
+        {
+          "total": 31.425684,
+          "choice": 99999
+        },
+        {
+          "total": 34.425114,
+          "choice": 39
+        },
+        {
+          "total": 325.61942,
+          "choice": 2
+        },
+        {
+          "total": 22.350758,
+          "choice": 99
+        },
+        {
+          "total": 43.654938,
+          "choice": 7
+        },
+        {
+          "total": 123.3215,
+          "choice": 24
+        },
+        {
+          "total": 98.01641,
+          "choice": 25
+        },
+        {
+          "total": 115.25515,
+          "choice": 49
+        },
+        {
+          "total": 242.65535,
+          "choice": 1
+        },
+        {
+          "total": 24.34223,
+          "choice": 23
+        },
+        {
+          "total": 7.981493,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 1512.9810443016672,
+          "choice": 0
+        },
+        {
+          "total": 1076.1599258848744,
+          "choice": 1
+        },
+        {
+          "total": 1254.7873438746396,
+          "choice": 2
+        },
+        {
+          "total": 553.8535653008505,
+          "choice": 3
+        },
+        {
+          "total": 256.47746382727155,
+          "choice": 4
+        },
+        {
+          "total": 1189.485507762585,
+          "choice": 5
+        },
+        {
+          "total": 398.2438992016204,
+          "choice": 6
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5212,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGIxYjhkYjQyODI1Nzg2MjQyMDlkN2MyYjc2NmM4Nzk4MzNkM2JhMzIxZGZlYzYzOTQ4N2UyYThjNjlmYzFlYjM=",
+      "id": "0xb1b8db4282578624209d7c2b766c879833d3ba321dfec639487e2a8c69fc1eb3",
+      "title": "Change Protocol Settings for Atlas (RPIP-16)",
+      "content": "This vote specifies how settings will be modified in response to Atlas and the upcoming withdrawals fork.\n\nThe settings will be changed to:\n- allow pent up demand to build up in the deposit pool, in expectation of large supply\n- keep maximum (APR) drag in mind\n- allow easier motion of ETH from the rETH contract to the deposit pool\n  - doesn't impact burning much, as that is often bot-driven\n  - allows supply side to be paired more rapidly to minimize unproductive protocol ETH\n\nThis will be done by:\n- changing how much ETH sits on the rETH contract before overflowing into the deposit pool from 10% of rETH TVL to 1%\n- changing the deposit pool size from 5k to 18k\n  - this size increase seems large; please see the model's from [knoshua](https://dao.rocketpool.net/t/proposed-protocol-settings-for-atlas-release/1367/11?u=valdorff) and [Valdorff](https://dao.rocketpool.net/t/proposed-protocol-settings-for-atlas-release/1367/12?u=valdorff) for why this is seen as a conservative increase\n\nPlease read the [full RPIP](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-16.md) here.\nYou can read discussion around this in the [forum thread](https://dao.rocketpool.net/t/proposed-protocol-settings-for-atlas-release/1367).",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 219,
+      "blockNumber": 16517272,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xb1b8db4282578624209d7c2b766c879833d3ba321dfec639487e2a8c69fc1eb3",
+      "startTime": {
+        "timestamp": 1675053210
+      },
+      "endTime": {
+        "timestamp": 1676262810
+      },
+      "startTimestamp": 1675053210,
+      "endTimestamp": 1676262810,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7836.56,
+          "choice": 0
+        },
+        {
+          "total": 26.03941,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7836.558496640889,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 26.03940919296245,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5187,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDc1Y2E5ZTM1NTU1MTUwYzcxM2UzMzJkNTg1YjlmZGY3MTg1YzljZjQyMjJhZDcwNTQ1OWIzMGNmNmQ2YmI3ZmI=",
+      "id": "0x75ca9e35555150c713e332d585b9fdf7185c9cf4222ad705459b30cf6d6bb7fb",
+      "title": "Updating of Grants Management Committee (RPIP-18)",
+      "content": "In its first few months of operation, several small practical issues have have arisen with the Grants and Bounties Management Committee (GMC) regarding work load and membership. This proposal aims to correct these issues.\n\nThis vote is to change GMC operations by:\n\n- Changing the committee size from 7 to 9\n- Specifying how vacancies are handled in the future\n- Calling for a vote for vacancies (expecting 2 from growing and 1 from Calurduran stepping down)\n- Changing rewards cycles from 2 months to 3 months\n- Removing the restriction around how many \"non-community\" members can be on the GMC\n  - This was complicated by the Rocket Scientist oDAO seat, and in the end just allowing elections to guide was considered best/simplest in discussion\n\nPlease read the [full RPIP](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-18.md) here (note that this supersedes RPIP-15 entirely).\nYou can read discussion around this in the [forum thread](https://dao.rocketpool.net/t/rpip-modifying-operations-of-gmc/1448).",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 202,
+      "blockNumber": 16517231,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x75ca9e35555150c713e332d585b9fdf7185c9cf4222ad705459b30cf6d6bb7fb",
+      "startTime": {
+        "timestamp": 1675052721
+      },
+      "endTime": {
+        "timestamp": 1676262321
+      },
+      "startTimestamp": 1675052721,
+      "endTimestamp": 1676262321,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7377.2466,
+          "choice": 0
+        },
+        {
+          "total": 125.93613,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7377.246032515998,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 125.93612204741952,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5187,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDllMDkzZGVhNDlkZWU5ZDFiM2U0M2RiYjZlMGQ4NzM1MTQ5YzVmZGU2ZWY3MDM2MjA5NzAxMjliODFkMGY3Zjg=",
+      "id": "0x9e093dea49dee9d1b3e43dbb6e0d8735149c5fde6ef703620970129b81d0f7f8",
+      "title": "Self-limiting Rocket Pool (RPIP-17)",
+      "content": "This vote establishes a set of principles the pDAO will abide by:\n\n**Guiding Principles**\n- Rocket Pool will act in the best interest of Ethereum health\n- Rocket Pool will consider the impacts of its choices on Ethereum, both immediately and long term\n- Rocket Pool will prefer to damage itself before endangering the stability of Ethereum\n  - Rocket Pool’s growth should be improving the decentralization of Ethereum, and RP should limit itself if it detracts from it\n- Rocket Pool will give its NOs autonomy to make meaningful choices and to leave the RP system if they find it unsatisfactory (eg, we currently allow exiting without pre-conditions, and minipool upgrades are opt-in)\n\nPlease read the [full RPIP](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-17.md) here.\nYou can read discussion around this in the [forum thread](https://dao.rocketpool.net/t/self-limiting-principles/1396).",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 232,
+      "blockNumber": 16517222,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x9e093dea49dee9d1b3e43dbb6e0d8735149c5fde6ef703620970129b81d0f7f8",
+      "startTime": {
+        "timestamp": 1675052616
+      },
+      "endTime": {
+        "timestamp": 1676262216
+      },
+      "startTimestamp": 1675052616,
+      "endTimestamp": 1676262216,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 8520.759,
+          "choice": 0
+        },
+        {
+          "total": 38.13653,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 8520.76036483429,
+          "choice": 0
+        },
+        {
+          "total": 38.13653182407111,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5187,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDc0MjY0NjlhZTFmN2M2ZGU0ODJhYjRjMjkyOWMzZTI5MDU0OTkxNjAxYzk1ZjI0ZjRmNDA1NmQ0MjRmOWY2NzE=",
+      "id": "0x7426469ae1f7c6de482ab4c2929c3e29054991601c95f24f4f4056d424f9f671",
+      "title": "Max Effective Stake for LEB8s (RPIP-8)",
+      "content": "This vote is to specify the max effective stake for LEB8s.\n\nHere's a table showing how the proposed strategies look for the minipool sizes that will be available in Atlas:\n\n| **Option Name**                  | **Max effective RPL stake**  | **Minipool16** (min-max effective)    | **LEB8** (min-max effective)          |\n|----------------------------------|------------------------------|---------------------------------------|---------------------------------------|\n| Scale with NO ETH                | 1.5*NO_ETH                   | 1.6-24                                | 2.4-12                                |\n| Flat number of ETH per validator | 24                           | 1.6-24                                | 2.4-24                                |\n| Scale with Protocol ETH          | 1.5*Protocol_ETH             | 1.6-24                                | 2.4-36                                |\n\nNote that while this vote is meant to establish our design moving forward, there are other ideas being actively pursued. As with the rest of RP - the DAO may vote for further changes in the future as it sees fit.\n\nThis vote uses _approval voting_. This means you can vote for one or more options, with each selection getting your full voting power. The intent is for voters to select all choices that they approve of (if multiple), instead of limiting them to their top preference.\n\n### Further Reading\n- Full LEB proposal: [RPIP-8](https://github.com/Valdorff/RPIPs/blob/max_collateral_leb8/RPIPs/RPIP-8.md)\n- [An NO ETH centered proposal, with reasoning](https://dao.rocketpool.net/t/max-collateral-for-lebs/1166?u=valdorff)\n- [A protocol ETH centered proposal, with reasoning](https://dao.rocketpool.net/t/an-argument-in-favor-of-protocol-eth/1208)\n- A flat number of ETH per validator is proposed here as a compromise position between the above two",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 266,
+      "blockNumber": 15851338,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x7426469ae1f7c6de482ab4c2929c3e29054991601c95f24f4f4056d424f9f671",
+      "startTime": {
+        "timestamp": 1667017823
+      },
+      "endTime": {
+        "timestamp": 1667622623
+      },
+      "startTimestamp": 1667017823,
+      "endTimestamp": 1667622623,
+      "currentState": "closed",
+      "choices": [
+        "Scale with NO ETH (12 ETH)",
+        "Flat number of ETH per validator",
+        "Scale with Protocol ETH (36 ETH)",
+        "Remove LEB8s from Atlas",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 30.540884,
+          "choice": 4
+        },
+        {
+          "total": 6271.3354,
+          "choice": 0
+        },
+        {
+          "total": 1078.833,
+          "choice": 2
+        },
+        {
+          "total": 3796.0938,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "approval",
+      "indexedResult": [
+        {
+          "total": 6719.259431598815,
+          "choice": 0
+        },
+        {
+          "total": 4966.213557715146,
+          "choice": 1
+        },
+        {
+          "total": 3496.2066803316334,
+          "choice": 2
+        },
+        {
+          "total": 124.48329819845412,
+          "choice": 3
+        },
+        {
+          "total": 57.92701233816682,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 4717,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDkwOGVmZDAzZjc4NTVlOTI3ZWQ4ZjE4NzUwMzdmMjVhNjkxMGZmZGQyY2I1YTk4NjkyOGY1ODdlMWY0ZjI2ODE=",
+      "id": "0x908efd03f7855e927ed8f1875037f25a6910ffdd2cb5a986928f587e1f4f2681",
+      "title": "pDAO Treasurer Selection (for RPIP-10)",
+      "content": "This vote will select the pDAO treasurer (defined in [RPIP-10](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-10.md)) per the method in [RPIP-10](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-10.md).\n\nSee <https://dao.rocketpool.net/t/gmc-membership-pdao-treasurer-selection/1183> for:\n- Nominee information statements\n- Supplementary nominee metrics\n- Discussion, including questions for the nominees",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 135,
+      "blockNumber": 15814458,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x908efd03f7855e927ed8f1875037f25a6910ffdd2cb5a986928f587e1f4f2681",
+      "startTime": {
+        "timestamp": 1666571612
+      },
+      "endTime": {
+        "timestamp": 1667176412
+      },
+      "startTimestamp": 1666571612,
+      "endTimestamp": 1667176412,
+      "currentState": "closed",
+      "choices": [
+        "ZMAN4eva",
+        "vacalaranja"
+      ],
+      "results": [
+        {
+          "total": 17.495129,
+          "choice": 108
+        },
+        {
+          "total": 12.998838,
+          "choice": 674
+        },
+        {
+          "total": 24.331364,
+          "choice": 11
+        },
+        {
+          "total": 26.783909,
+          "choice": 9
+        },
+        {
+          "total": 6.4980764,
+          "choice": 5
+        },
+        {
+          "total": 197.99974,
+          "choice": 29
+        },
+        {
+          "total": 4690.418,
+          "choice": 0
+        },
+        {
+          "total": 35.582455,
+          "choice": 35
+        },
+        {
+          "total": 31.658417,
+          "choice": 6
+        },
+        {
+          "total": 23.612448,
+          "choice": 109
+        },
+        {
+          "total": 14.414713,
+          "choice": 13
+        },
+        {
+          "total": 163.43732,
+          "choice": 2
+        },
+        {
+          "total": 399.1671,
+          "choice": 99
+        },
+        {
+          "total": 68.38115,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 678.1895574733069,
+          "choice": 0
+        },
+        {
+          "total": 5034.589180107979,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 4665,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDhmMTY2Y2IyYzBhZGJiMjA2NmNkZWJmOTdhMzJlNjlkZDM0NDNlZmI2MWMxNTQ0NjVhMDNhYTM3YTJkNzZmNjA=",
+      "id": "0x8f166cb2c0adbb2066cdebf97a32e69dd3443efb61c154465a03aa37a2d76f60",
+      "title": "GMC Membership Selection (for RPIP-15)",
+      "content": "This vote will select the initial seven members serving as the Grants and Bounties Management Committee (GMC; defined in [RPIP-15](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-15.md)) per the method in [RPIP-10](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-10.md).\n\nSee <https://dao.rocketpool.net/t/gmc-membership-pdao-treasurer-selection/1183> for:\n- Nominee information statements\n- Supplementary nominee metrics\n- Discussion, including questions for the nominees",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 151,
+      "blockNumber": 15814449,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x8f166cb2c0adbb2066cdebf97a32e69dd3443efb61c154465a03aa37a2d76f60",
+      "startTime": {
+        "timestamp": 1666571612
+      },
+      "endTime": {
+        "timestamp": 1667176412
+      },
+      "startTimestamp": 1666571612,
+      "endTimestamp": 1667176412,
+      "currentState": "closed",
+      "choices": [
+        "enkriptix",
+        "calurduran",
+        "objectObject",
+        "Kevster",
+        "jcrtp",
+        "invis",
+        "Dondochaka",
+        "Wander",
+        "mentor",
+        "ramana",
+        "waqwaqattack",
+        "Ken",
+        "fornax",
+        "jort"
+      ],
+      "results": [
+        {
+          "total": 76.18199,
+          "choice": 9
+        },
+        {
+          "total": 6.4980764,
+          "choice": 19
+        },
+        {
+          "total": 17.29835,
+          "choice": 3
+        },
+        {
+          "total": 11.834362,
+          "choice": 17
+        },
+        {
+          "total": 20.460375,
+          "choice": 5
+        },
+        {
+          "total": 45.722992,
+          "choice": 29
+        },
+        {
+          "total": 33.112545,
+          "choice": 4
+        },
+        {
+          "total": 5045.841,
+          "choice": 0
+        },
+        {
+          "total": 35.582455,
+          "choice": 35
+        },
+        {
+          "total": 8.596036,
+          "choice": 349998
+        },
+        {
+          "total": 44.03392,
+          "choice": 14
+        },
+        {
+          "total": 18.939083,
+          "choice": 13
+        },
+        {
+          "total": 291.982,
+          "choice": 2
+        },
+        {
+          "total": 340.19263,
+          "choice": 99
+        },
+        {
+          "total": 5.114277,
+          "choice": 7
+        },
+        {
+          "total": 48.08361,
+          "choice": 24
+        },
+        {
+          "total": 377.64288,
+          "choice": 1
+        },
+        {
+          "total": 286.0796,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 250.88017458513005,
+          "choice": 0
+        },
+        {
+          "total": 674.0918134676107,
+          "choice": 1
+        },
+        {
+          "total": 607.6061175472247,
+          "choice": 2
+        },
+        {
+          "total": 341.5770376204134,
+          "choice": 3
+        },
+        {
+          "total": 1073.200146593413,
+          "choice": 4
+        },
+        {
+          "total": 677.0862146059875,
+          "choice": 5
+        },
+        {
+          "total": 256.28074124133855,
+          "choice": 6
+        },
+        {
+          "total": 624.6030158236957,
+          "choice": 7
+        },
+        {
+          "total": 624.5204338227667,
+          "choice": 8
+        },
+        {
+          "total": 70.58322227118293,
+          "choice": 9
+        },
+        {
+          "total": 676.5651314553605,
+          "choice": 10
+        },
+        {
+          "total": 625.0464504554274,
+          "choice": 11
+        },
+        {
+          "total": 87.8053756547657,
+          "choice": 12
+        },
+        {
+          "total": 123.35128823466388,
+          "choice": 13
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 4665,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDdjYzYwYmIxYmJjNWYwZmMwNjFlNjVlMWY1ZmM0Y2EyM2FkYmU5YjM1M2M2ZWRlY2UyZWM2ODYwYjQxMDE4NjA=",
+      "id": "0x7cc60bb1bbc5f0fc061e65e1f5fc4ca23adbe9b353c6edece2ec6860b4101860",
+      "title": "Creation of Grants and Bounties Management Committee (RPIP-15)",
+      "content": "This proposal establishes the Grants and Bounties Management Committee (GMC), describes the goals it will work towards, defines 3 types of awards (grants, bounties, and retrospective awards), and describes how awards will be given out and assessed.\n\nSome highlights:\n- Grants are for some action over a timeframe - they are awarded to the proposer\n- Bounties are for a particular end result - they are awarded to whoever accomplishes the result\n- Retrospective rewards are for a past result - they are awarded to whoever accomplished the result\n  - Retrospective rewards are limited to 50% of the awarded RPL per period; this aims to balance a focus on the future with the ability to reward past contributions\n- There will be open calls for applications every other month with a published rubric\n- The GMC will start at 7 people and will be at least 50% not-RP-fulltime/not-oDAO\n\nSee the full RPIP-15 proposal here: \nhttps://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-15.md\n\nSee the forum discussion here: \nhttps://dao.rocketpool.net/t/grants-and-bounties-rpip/1064",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 125,
+      "blockNumber": 15672670,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x7cc60bb1bbc5f0fc061e65e1f5fc4ca23adbe9b353c6edece2ec6860b4101860",
+      "startTime": {
+        "timestamp": 1664861125
+      },
+      "endTime": {
+        "timestamp": 1665465925
+      },
+      "startTimestamp": 1664861125,
+      "endTimestamp": 1665465925,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 5078.0283,
+          "choice": 0
+        },
+        {
+          "total": 13.388218,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5078.027484395159,
+          "choice": 0
+        },
+        {
+          "total": 13.388217684207966,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 4480,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDFiNjM3NDVlOWQzN2U4ZGU0N2I4ZTAwZGI1N2EyMGMwODQ1NmUxNTliMDI2NDc3MmNmMTgzYzRmMzJmZTVkNWI=",
+      "id": "0x1b63745e9d37e8de47b8e00db57a20c08456e159b0264772cf183c4f32fe5d5b",
+      "title": "Test Proposal",
+      "content": "This is a test proposal, for.. testing.",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 40,
+      "blockNumber": 15118362,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x1b63745e9d37e8de47b8e00db57a20c08456e159b0264772cf183c4f32fe5d5b",
+      "startTime": {
+        "timestamp": 1657502740
+      },
+      "endTime": {
+        "timestamp": 1664503200
+      },
+      "startTimestamp": 1657502740,
+      "endTimestamp": 1664503200,
+      "currentState": "closed",
+      "choices": [
+        "Option 1",
+        "Option 2"
+      ],
+      "results": [
+        {
+          "total": 510.641,
+          "choice": 0
+        },
+        {
+          "total": 520.506,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 510.6410079261754,
+          "choice": 0
+        },
+        {
+          "total": 520.5059585515763,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGViZDZlZmM3NjM1OWMzNmUwYTg1OTEyYzUxMTAwZWYwYTFlNjJiZTYwZWE2MDQ2MTMyOTA3ZDg4N2Y1MjEzNTI=",
+      "id": "0xebd6efc76359c36e0a85912c51100ef0a1e62be60ea6046132907d887f521352",
+      "title": "Amendment: pDAO Budget Allocation (RPIP-10)",
+      "content": "This proposal is to establish, how Management Committee memberships are selected.\n\n**Nominations**\n- Forum: a thread is created and any willing community member may be nominated\n\n**Nominee information sharing**\n- Nominees provide info explaining their alignment, conflicts, identity, and past community contributions. Identity is explicitly noted as being as much or as little as they wish to share (this would include fully doxxed to fully anon).\n- A forum thread organizer posts some factual info about the nominees.\n\n**Snapshot voting**\n  - Members get to split their vote power however they wish to vote for nominees\n  - The top N vote power recipients are selected (where N is the number of memberships that the process is looking to fill)\n\nIt amends RPIP-10, which is a “Living” RPIP  by adding a new sub-section.\n\n**Full proposal**\n\nSee https://github.com/rocket-pool/RPIPs/pull/23/files to see just the newly inserted text (note this shows the markdown text, and is not rendered).\n\nSee https://github.com/Valdorff/RPIPs/blob/mc-selection/RPIPs/RPIP-10.md to see the whole of RPIP-10, rendered and including the new section.\n",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 124,
+      "blockNumber": 15518200,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xebd6efc76359c36e0a85912c51100ef0a1e62be60ea6046132907d887f521352",
+      "startTime": {
+        "timestamp": 1662946944
+      },
+      "endTime": {
+        "timestamp": 1663551744
+      },
+      "startTimestamp": 1662946944,
+      "endTimestamp": 1663551744,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4352.3115,
+          "choice": 0
+        },
+        {
+          "total": 7.762963,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4352.3117353367,
+          "choice": 0
+        },
+        {
+          "total": 7.762962903186745,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 3998,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDUxMTdhNmM1ZDMzOTU3ODIxMDA4MzM4ZTdlNjI4ZTVjZjAwYzQ2NjAyNTMwYzE1NDU4NjRlYWJmOWZlMWVjMjA=",
+      "id": "0x5117a6c5d33957821008338e7e628e5cf00c46602530c1545864eabf9fe1ec20",
+      "title": "Community Resolutions and Voting (RPIP-4)",
+      "content": "This proposal does two things:\n- Formally introduces components that are already part of our snapshot and voting process (eg, quadratic scaling for power)\n- Provides a structure for how votes MUST flow and how they are RECOMMENDED to flow\n\nThe rough outline is:\n- Proposals must have a post on the forums and demonstrate sufficient community interest (a poll is recommended)\n- Rocket Pool Core team (initially) starts a Snapshot vote that lasts at least 1 week, with 2 preferred\n- Votes require at least a 15% quorum, with a mechanism for quorum reduction if it’s consistently not met so the process doesn’t get stuck\n- Vote power is srqt(effective_RPL_stake) [this is currently implemented with a factor of 0.5; this is considered an inconsequential bug]\n- Voting should use basic voting (For/Against/Abstain), and whichever of For/Against has the most power wins\n  - Voting MAY use other voting types, but doing so has to be in an accepted RPIP. I.e. to do this, a basic vote is required to confirm that “for this particular type of decision, we’ll use an alternative voting method.”\n- RPIP-4 also notes that there is a built-in veto because Snapshot is a signaling mechanism and someone needs to execute on the signal. There is text covering how that veto power should and should not be used.\n",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 137,
+      "blockNumber": 15438789,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x5117a6c5d33957821008338e7e628e5cf00c46602530c1545864eabf9fe1ec20",
+      "startTime": {
+        "timestamp": 1661840762
+      },
+      "endTime": {
+        "timestamp": 1662445562
+      },
+      "startTimestamp": 1661840762,
+      "endTimestamp": 1662445562,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3193.8228,
+          "choice": 0
+        },
+        {
+          "total": 270.63867,
+          "choice": 2
+        },
+        {
+          "total": 1382.3096,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3193.8222083819214,
+          "choice": 0
+        },
+        {
+          "total": 1382.3096673582472,
+          "choice": 1
+        },
+        {
+          "total": 270.6386639173576,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 4083,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDMyZDVmMTk2YWJhMmRjNjhjMzFiZmVkYzM4ZGIyOTdkYmQ4OWZkOWZmZjllMzY4ZTg1YjgwYjYzMmY1NWViOGM=",
+      "id": "0x32d5f196aba2dc68c31bfedc38db297dbd89fd9fff9e368e85b80b632f55eb8c",
+      "title": "Incentive Management Committee Membership",
+      "content": "This vote establishes the initial member of the Incentive Management Committee (IMC). These will be the members formally charged with determining how to best meet the goals from the IMC Charter and executing on the strategy.\n\nThe proposal is to create a 9-person committee, which will operate using a 6 of 9 multisig, with the following members:\n1. **RP Team 1**\n2. **RP Team 2**\n3. **Jasper** (jasper_the_friendly_ghost#7591)\n4. **Marceau** (Marceau#9498)\n5. **Valdorff** (Val#5027)\n6. **Rhett** (rhett#7084)\n7. **Uisce** (uisce.eth#7707)\n8. **DaserDog** (DaserDog.eth#2764)\n9. **Denum** (Denum.eth#3446)\n\nA \"For\" vote indicates support of the entire proposed membership. An \"Against\" vote rejects the proposed membership.\n\nSee [https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-11.md](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-11.md) for details on the charter that this membership will be executing.\n\nSee https://dao.rocketpool.net/t/imc-nominee-conflict-statements/949 for conflict statements from the nominees.\n\nNote: As this vote is directly reliant on [**pDAO Budget Allocation (RPIP-10)**](https://vote.rocketpool.net/#/proposal/0xb98a8dce8640f8bf5e65c31e240344c5012fbc469b25befaa719da45526d9760) and [Incentive Management Committee Charter (RPIP-11)](https://vote.rocketpool.net/#/proposal/0x22a49c5384815358512fc8092da06f8f7e129fec6613a38f916ee8b17703014c), this vote is discarded and has no effect if either or both of the RPIP-10 and RPIP-11 votes fail.\n",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 127,
+      "blockNumber": 15363514,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x32d5f196aba2dc68c31bfedc38db297dbd89fd9fff9e368e85b80b632f55eb8c",
+      "startTime": {
+        "timestamp": 1660804881
+      },
+      "endTime": {
+        "timestamp": 1661409681
+      },
+      "startTimestamp": 1660804881,
+      "endTimestamp": 1661409681,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4417.6143,
+          "choice": 0
+        },
+        {
+          "total": 20.083658,
+          "choice": 2
+        },
+        {
+          "total": 65.67674,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4417.61448958591,
+          "choice": 0
+        },
+        {
+          "total": 65.67673958542876,
+          "choice": 1
+        },
+        {
+          "total": 20.083658603392557,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 3900,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDIyYTQ5YzUzODQ4MTUzNTg1MTJmYzgwOTJkYTA2ZjhmN2UxMjlmZWM2NjEzYTM4ZjkxNmVlOGIxNzcwMzAxNGM=",
+      "id": "0x22a49c5384815358512fc8092da06f8f7e129fec6613a38f916ee8b17703014c",
+      "title": "Incentive Management Committee Charter (RPIP-11)",
+      "content": "This proposal establishes the Incentive Management Committee (IMC), describes the goals it will work towards, and describes the values it will keep in mind.\n\nIt also establishes an informal method to generate an initial IMC member roster, which would then be formally ratified in a separate vote.\n\nSee the full RPIP-11 proposal here:\n[https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-11.md](https://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-11.md)\n\nNote: As this vote is directly reliant on the definitions in RPIP-10, this vote is discarded and has no effect if the [**pDAO Budget Allocation (RPIP-10 )**](https://vote.rocketpool.net/#/proposal/0xb98a8dce8640f8bf5e65c31e240344c5012fbc469b25befaa719da45526d9760) vote fails.",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 136,
+      "blockNumber": 15363469,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x22a49c5384815358512fc8092da06f8f7e129fec6613a38f916ee8b17703014c",
+      "startTime": {
+        "timestamp": 1660804199
+      },
+      "endTime": {
+        "timestamp": 1661408999
+      },
+      "startTimestamp": 1660804199,
+      "endTimestamp": 1661408999,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4697.212,
+          "choice": 0
+        },
+        {
+          "total": 27.386127,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4697.212352830208,
+          "choice": 0
+        },
+        {
+          "total": 27.386127875258307,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 3900,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGJjODFjMDZmNThjZmQzOTNmNTY5NjQ4OGZkYzQ2NDgzMWMyNDM1ODY0YTU5Zjg1NjE1N2YxMmNiMTgxZDk2YzE=",
+      "id": "0xbc81c06f58cfd393f5696488fdc464831c2435864a59f856157f12cb181d96c1",
+      "title": "pDAO Budget Allocation (RPIP-10)",
+      "content": "This proposal is to establish:\n\n- How the pDAO can and should take in funds, disburse them, move them, etc\n- The concept of Management Committees, which are in charge of actually spending funds\n- The initial split of incoming funds:\n  - Incentives (e.g., LP bonuses) - 50%\n  - Grants and Bounties - 30%\n  - Reserve Treasury - 20%\n\nSee the full RPIP-10 proposal here:\nhttps://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-10.md",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 138,
+      "blockNumber": 15369012,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xbc81c06f58cfd393f5696488fdc464831c2435864a59f856157f12cb181d96c1",
+      "startTime": {
+        "timestamp": 1660880177
+      },
+      "endTime": {
+        "timestamp": 1661398577
+      },
+      "startTimestamp": 1660880177,
+      "endTimestamp": 1661398577,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 4985.7515,
+          "choice": 0
+        },
+        {
+          "total": 40.662163,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4985.752098043558,
+          "choice": 0
+        },
+        {
+          "total": 40.66216304409778,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 3900,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweDMzMzcxOTA2ZTIzOTQwYmYzMjcyZTMyOTc5NjUzNzRlZWI2ZDEyNGVhNTI0ZmY3MzUxZjQ2OGIwMDliY2E0MjM=",
+      "id": "0x33371906e23940bf3272e3297965374eeb6d124ea524ff7351f468b009bca423",
+      "title": "Increase the Deposit Pool limit ",
+      "content": "This proposal is to increase the deposit pool limit to 5,000 ETH from the current setting of 2,000 ETH.\n\nIncreasing the deposit pool limit will allow for more efficient and larger deposits by Institutional, DAO, and private whale depositors into the deposit pool.\n\nIncreasing the deposit pool limit does present a small potential reduction risk on the rETH APR but only occurs when the deposit pool has a positive balance. For further calculation on the impact please refer to the attached proposal.\n\nhttps://github.com/rocket-pool/RPIPs/blob/main/RPIPs/RPIP-9.md",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x87D92E016B0e93ec59b65086a85b1719F09992e0",
+      "totalVotes": 138,
+      "blockNumber": 15307756,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0x33371906e23940bf3272e3297965374eeb6d124ea524ff7351f468b009bca423",
+      "startTime": {
+        "timestamp": 1660045118
+      },
+      "endTime": {
+        "timestamp": 1660649918
+      },
+      "startTimestamp": 1660045118,
+      "endTimestamp": 1660649918,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3996.907,
+          "choice": 0
+        },
+        {
+          "total": 18.789589,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3996.906701838856,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 18.789588349972735,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 3885,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cm9ja2V0cG9vbDpzbmFwc2hvdDoweGU2ZWMxMWZmMzc3YmU3MjJmMTc4ZmUwY2E0NDYwOTAzYzAwYjlhYWI1M2ZjOGFiZWY5OWEwYTNmNDMxMzRjNzQ=",
+      "id": "0xe6ec11ff377be722f178fe0ca4460903c00b9aab53fc8abef99a0a3f43134c74",
+      "title": "Spelling",
+      "content": "",
+      "protocol": "rocketpool",
+      "adapter": "snapshot",
+      "proposer": "0x220576274Cd2561a1cc396B023A36631862604f0",
+      "totalVotes": 8,
+      "blockNumber": 15087726,
+      "externalUrl": "https://snapshot.org/#/rocketpool-dao.eth/proposal/0xe6ec11ff377be722f178fe0ca4460903c00b9aab53fc8abef99a0a3f43134c74",
+      "startTime": {
+        "timestamp": 1657093955
+      },
+      "endTime": {
+        "timestamp": 1657353155
+      },
+      "startTimestamp": 1657093955,
+      "endTimestamp": 1657353155,
+      "currentState": "closed",
+      "choices": [
+        "S",
+        "Z"
+      ],
+      "results": [
+        {
+          "total": 59.023148,
+          "choice": 0
+        },
+        {
+          "total": 361.28754,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 59.02314891646542,
+          "choice": 0
+        },
+        {
+          "total": 361.2875206228814,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

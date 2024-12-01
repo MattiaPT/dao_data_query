@@ -1,0 +1,1395 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4OTI3MWM2NTFlOTg3YTc1NGM2ODk4NDRkOGI5NjFiM2IwNWYxZGMxMzgyYjJiZTZlMTdlNTY4MWU1MzBlODM2MA==",
+      "id": "0x9271c651e987a754c689844d8b961b3b05f1dc1382b2be6e17e5681e530e8360",
+      "title": "Secure funding from VCs, Market Makers, Exchanges, and DAOs.",
+      "content": "Sell Biswap Devs tokens (BSW) to Market Makers and VCs for continued development of the Biswap exchange.\n***\nThe community wants Biswap to grow and advance quickly. By securing funding from VCs, Biswap can expand its team and develop new features faster.\n***",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB45e7Bdb1a3E716972811f10fBb8c4fF7cc04A1d",
+      "totalVotes": 54,
+      "blockNumber": 37277875,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x9271c651e987a754c689844d8b961b3b05f1dc1382b2be6e17e5681e530e8360",
+      "startTime": {
+        "timestamp": 1711370208
+      },
+      "endTime": {
+        "timestamp": 1711629408
+      },
+      "startTimestamp": 1711370208,
+      "endTimestamp": 1711629408,
+      "currentState": "closed",
+      "choices": [
+        "Find new Investors",
+        "No Changes"
+      ],
+      "results": [
+        {
+          "total": 2569723.2,
+          "choice": 0
+        },
+        {
+          "total": 58849.637,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2569722.958828941,
+          "choice": 0
+        },
+        {
+          "total": 58849.6380002534,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711370582141,
+      "txHash": "",
+      "quorum": 1500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4NjcwNmQzZWM2YTM4Mjk0ZjA2MWQ2MTA0ZWRmMTAwZTVjZDEwNmUyYzFlMzQxMGVhMTliMTI4ZDYwNjg3ZDkyOQ==",
+      "id": "0x6706d3ec6a38294f061d6104edf100e5cd106e2c1e3410ea19b128d60687d929",
+      "title": "Change Distribution of BSW in Investment Pool",
+      "content": "Currently, 12-month lockers are earning a lower APY than 3-month lockers. At this rate, nobody will lock BSW for 12 months, which could negatively impact the BSW price and circulation supply.\n***\nBiswap community wants the team to change the distribution so that 12-month lockers will earn more than other tiers again.\n***",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB45e7Bdb1a3E716972811f10fBb8c4fF7cc04A1d",
+      "totalVotes": 65,
+      "blockNumber": 37277711,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x6706d3ec6a38294f061d6104edf100e5cd106e2c1e3410ea19b128d60687d929",
+      "startTime": {
+        "timestamp": 1711369794
+      },
+      "endTime": {
+        "timestamp": 1711628994
+      },
+      "startTimestamp": 1711369794,
+      "endTimestamp": 1711628994,
+      "currentState": "closed",
+      "choices": [
+        "Change APY for 12-month lockers",
+        "No Changes"
+      ],
+      "results": [
+        {
+          "total": 4798314.0,
+          "choice": 0
+        },
+        {
+          "total": 455063.34,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4798314.481894117,
+          "choice": 0
+        },
+        {
+          "total": 455063.3606170425,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711369948521,
+      "txHash": "",
+      "quorum": 1500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4NzViYmFlMWRmYTk1OWZhNmFkYjIzY2E5ZDVhNDIwNjQxMmRlYTBmNGMwZGI4MmEzZDRlZWQxOTVlNjQ1M2Y1NQ==",
+      "id": "0x75bbae1dfa959fa6adb23ca9d5a4206412dea0f4c0db82a3d4eed195e6453f55",
+      "title": "Integrate Cross-Chain Swaps",
+      "content": "Integrate Cross-Chain swaps powered by Squid Router/Axelar/LayerZero/Wormhole.\n***\nCommunity wants to use Biswap as a Cross-Chain platform and suggests developers integrate Cross-Chain Swaps\n***",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB45e7Bdb1a3E716972811f10fBb8c4fF7cc04A1d",
+      "totalVotes": 55,
+      "blockNumber": 37277624,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x75bbae1dfa959fa6adb23ca9d5a4206412dea0f4c0db82a3d4eed195e6453f55",
+      "startTime": {
+        "timestamp": 1711369425
+      },
+      "endTime": {
+        "timestamp": 1711628625
+      },
+      "startTimestamp": 1711369425,
+      "endTimestamp": 1711628625,
+      "currentState": "closed",
+      "choices": [
+        "Integrate Cross-Chain Swaps",
+        "No Changes"
+      ],
+      "results": [
+        {
+          "total": 4100414.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4100413.564543811,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711369462618,
+      "txHash": "",
+      "quorum": 1500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4YjM3MTFiMTFmZDZhY2RhNzQ1NWIwYzAxZGQyOGNiYzIwYjgzNWFkNjA1NjdmNmExNTI1ZGYyZTRmMTZmNGQyYQ==",
+      "id": "0xb3711b11fd6acda7455b0c01dd28cbc20b835ad60567f6a1525df2e4f16f4d2a",
+      "title": "Release Biswap 2024 Roadmap",
+      "content": "Biswap community has been waiting for a new roadmap since the beginning of the year\n***\nCommunity wants to see the developers’ plans for this year, as well as more transparency in all actions and developments\n***",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB45e7Bdb1a3E716972811f10fBb8c4fF7cc04A1d",
+      "totalVotes": 57,
+      "blockNumber": 37277534,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0xb3711b11fd6acda7455b0c01dd28cbc20b835ad60567f6a1525df2e4f16f4d2a",
+      "startTime": {
+        "timestamp": 1711369200
+      },
+      "endTime": {
+        "timestamp": 1711628400
+      },
+      "startTimestamp": 1711369200,
+      "endTimestamp": 1711628400,
+      "currentState": "closed",
+      "choices": [
+        "Release New Roadmap",
+        "I don't want Roadmap"
+      ],
+      "results": [
+        {
+          "total": 5803953.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5803953.922171507,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711369462618,
+      "txHash": "",
+      "quorum": 1500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4ZDgxNTFmZDA3ZmZhZWE3MDhmYTQxMWFiMzg2NmJhMTg0ZTNlNTA0MjY0MjNjMTM3YmQ4NTE5MTQzYWQwNTkyZA==",
+      "id": "0xd8151fd07ffaea708fa411ab3866ba184e3e50426423c137bd8519143ad0592d",
+      "title": "Deploy Biswap V3 to Blast L2",
+      "content": "# Overview of Blast:\nBlast is an Ethereum L2 solution with native yield for ETH and stablecoins (yield comes from ETH staking and RWA protocols). Blast has attracted more than 1.7 billion dollars in Total Value Locked on Mainnet with only 56 protocols deployed. The average daily DEX volume on Blast is $150 million+.\n***\n# Motivation:\nBiswap is well-positioned on the BNB chain, but to grow bigger and acquire more revenue for the protocol and BSW holders, it is crucial to explore new promising networks where Biswap can easily deploy the already-made product: Biswap V3. The community wants to deploy on Blast because it does not require many incentives to attract liquidity providers/traders due to the Blast Point system and a small number of competitors.\n***\n# Deployment Suggestions:\nThe Biswap community believes it would be a good idea to allocate around 0.7 BSW per block from BSW emission to incentivize the USDB/WETH pool on Blast to attract around $2 million in TVL and continue expansion on Blast.\n***\nUseful Links:\nhttps://defillama.com/chain/Blast\nhttps://dexscreener.com/blast\nhttps://docs.blast.io/about-blast",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB45e7Bdb1a3E716972811f10fBb8c4fF7cc04A1d",
+      "totalVotes": 47,
+      "blockNumber": 37277442,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0xd8151fd07ffaea708fa411ab3866ba184e3e50426423c137bd8519143ad0592d",
+      "startTime": {
+        "timestamp": 1711368887
+      },
+      "endTime": {
+        "timestamp": 1711628040
+      },
+      "startTimestamp": 1711368887,
+      "endTimestamp": 1711628040,
+      "currentState": "closed",
+      "choices": [
+        "Add Blast L2 network",
+        "No changes"
+      ],
+      "results": [
+        {
+          "total": 2719505.8,
+          "choice": 0
+        },
+        {
+          "total": 11455.56,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2719505.459747486,
+          "choice": 0
+        },
+        {
+          "total": 11455.56,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711369462618,
+      "txHash": "",
+      "quorum": 1500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4OTRhMmVlYTUzOTExZTg3ZDRlYzE2OTZiY2Y0M2QzYzgyNjIxMTE4NjUxODNjOTNhZTIwZmYzNmEwZTkwMjIyYg==",
+      "id": "0x94a2eea53911e87d4ec1696bcf43d3c8262111865183c93ae20ff36a0e90222b",
+      "title": "Community Voting | Distribution of Farming Rewards",
+      "content": "##### **Dear Biswap Community**,\n##### \nRecently, a successful community vote was held to stop the BSW emission for Farms with BUSD. The absolute majority voted in favor, so due to this and the fact that Binance will stop supporting BUSD in 2024, rewards for the following farms will be disabled: \n\n\n#### **Biswap V3**: \n* BNB-BUSD (0.08%) \n* USDT-BUSD (0.015%) \n* CGPT-BUSD (0.08%)\n\n\n#### **Biswap V2**: \n* BNB-BUSD \n* IGU-BUSD \n* GHNY-BUSD \n* ALPACA-BUSD \n* USDT-BUSD \n* TMT-BUSD \n* BUSD-GQ\n\n📍*Please note that BUSD tokens remain available for exchange on the Biswap platform.*\n##\nAllocating the rewards from Farms with BUSD to other farming pairs will ensure a beneficial experience for liquidity providers and continue to circulate in higher-priority Farms. \n##\nAs BSW emission and its distribution are crucial for further development, we propose you choose which V3 Farms the BSW rewards will be redistributed to. We hope your decision will have the most favorable consequences for ecosystem participants and BSW holders.\n\n#### Here are the options for your consideration and voting:\n### \n* Distribute rewards to Farms with BSW\n* Distribute rewards to Farms with stablecoins \n* Distribute rewards to Farms with BTCB\n\n##### Voting Duration:\n\n📆 Start: 12:00 PM UTC, March 25\n\n📆 End: 12:00 PM UTC, March 26\n\n#### Terms & Conditions\n1. The voting period is from 2024.03.25 12:00 PM UTC to 2024.03.26 12:00 PM UTC.\n2. The vBSW can be obtained in the BSW Classic Pool and BSW Investment Pool.\n3. Voting results will take effect within 7 business days.\n4. Once voted, you will not be able to vote again.\n5. You do not need to unstake your BSW tokens from Classic or Investment Pool to vote. \n6. If you cannot vote on the Biswap Voting page, please vote on the snapshot.\n\n#### Disclaimer\nAs we operate in the DeFi space, the Biswap team assumes no responsibility or liability for the wallets participating in this community voting, which is out of our control. Biswap has never used the team’s tokens to manipulate the community voting results, nor is it planning to do so in the future.\n##\nAny reliance you place on the information provided by unofficial Biswap channels is strictly at your own risk. Under no circumstance shall Biswap be held liable for the wallets participating in the current community voting. The voting results shall be considered accurate and fair therefore representing public opinion. Everyone has the right to voice an opinion.\n\n#### Closing Word\nYour decision will influence the allocation of BSW emission and help determine the trajectory of the Biswap ecosystem. Each option has its own value and potential, reflecting our commitment to providing various opportunities for community members.\n##\nQuality utilization of financial resources is integral to the functionality and growth of our platform. Farms play an important role in the DEX ecosystem, serving as one of the key components that provide liquidity and facilitate efficient trading.\n##\nIn closing, your thoughtful participation in voting is not just a choice, but a step in shaping the Biswap DEX. Thank you for your invaluable contribution to our shared journey.\n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 46,
+      "blockNumber": 37276186,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x94a2eea53911e87d4ec1696bcf43d3c8262111865183c93ae20ff36a0e90222b",
+      "startTime": {
+        "timestamp": 1711368000
+      },
+      "endTime": {
+        "timestamp": 1711454400
+      },
+      "startTimestamp": 1711368000,
+      "endTimestamp": 1711454400,
+      "currentState": "closed",
+      "choices": [
+        "BSW",
+        "Stablecoins",
+        "BTCB"
+      ],
+      "results": [
+        {
+          "total": 1155866.8,
+          "choice": 0
+        },
+        {
+          "total": 2345107.8,
+          "choice": 2
+        },
+        {
+          "total": 288881.53,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1195617.4748566896,
+          "choice": 0
+        },
+        {
+          "total": 288881.54191266024,
+          "choice": 1
+        },
+        {
+          "total": 2345107.8406786653,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711365146324,
+      "txHash": "",
+      "quorum": 1500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4MTcwZjMzNWM4MGQ4NjI2YTI3N2ZjM2NkODI3ZGMxMjJlMTk2NjhmODJmY2U1OTMwNjY0OTViM2RhMWNhMjlmZA==",
+      "id": "0x170f335c80d8626a277fc3cd827dc122e19668f82fce593066495b3da1ca29fd",
+      "title": "Stop BSW emission for BUSD pairs",
+      "content": "Currently, Biswap is incentivizing several BUSD pairs across V2 and V3. There is no demand to trade BUSD since Paxos (BUSD issuer) ceased minting new BUSD and ended its relationship with Binance.\n\nBinance has also stopped all support for BUSD, so there is no need to waste BSW to incentivize low liquidity and low-volume pools with the inactive stablecoin BUSD.\n\nThe community wants the Biswap team to stop BSW emission to pools listed below:\n\nBiswap V3:\nBNB-BUSD (0.08%)\nUSDT-BUSD (0.015%) \nCGPT-BUSD (0.08%) \n\nBiswap V2:\nBNB-BUSD\nIGU-BUSD\nGHNY-BUSD\nALPACA-BUSD\nUSDT-BUSD\nTMT-BUSD\nBUSD-GQ\n\nUseful Links:\nhttps://paxos.com/2023/02/13/paxos-will-halt-minting-new-busd-tokens/",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB45e7Bdb1a3E716972811f10fBb8c4fF7cc04A1d",
+      "totalVotes": 170,
+      "blockNumber": 36905411,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x170f335c80d8626a277fc3cd827dc122e19668f82fce593066495b3da1ca29fd",
+      "startTime": {
+        "timestamp": 1710249842
+      },
+      "endTime": {
+        "timestamp": 1710768120
+      },
+      "startTimestamp": 1710249842,
+      "endTimestamp": 1710768120,
+      "currentState": "closed",
+      "choices": [
+        "Stop BUSD support",
+        "No Changes"
+      ],
+      "results": [
+        {
+          "total": 8112120.5,
+          "choice": 0
+        },
+        {
+          "total": 53965.37,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8112119.822835394,
+          "choice": 0
+        },
+        {
+          "total": 53965.37382281437,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710250006956,
+      "txHash": "",
+      "quorum": 1500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4ZjRiMjZiMTVmOTJmOThmY2Q4MGNmODM3ZWQzMTZhYzhkODUzNDJjNGMzYzEzNzVmNzBjNzEyNzNkOGRiY2YzNQ==",
+      "id": "0xf4b26b15f92f98fcd80cf837ed316ac8d85342c4c3c1375f70c71273d8dbcf35",
+      "title": "multichain",
+      "content": "Should make multichain ",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0x3DAA247e01fb4961DF146d7A1FCEcEF79F95c0cB",
+      "totalVotes": 153,
+      "blockNumber": 36905941,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0xf4b26b15f92f98fcd80cf837ed316ac8d85342c4c3c1375f70c71273d8dbcf35",
+      "startTime": {
+        "timestamp": 1710259200
+      },
+      "endTime": {
+        "timestamp": 1710604800
+      },
+      "startTimestamp": 1710259200,
+      "endTimestamp": 1710604800,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 7173730.0,
+          "choice": 0
+        },
+        {
+          "total": 4162.57,
+          "choice": 2
+        },
+        {
+          "total": 26179.203,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 7173732.259283556,
+          "choice": 0
+        },
+        {
+          "total": 26179.203730353212,
+          "choice": 1
+        },
+        {
+          "total": 4162.57,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710251699471,
+      "txHash": "",
+      "quorum": 1500000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4Zjk5YzNhNjI4ZDZiNjUzZTk5YjdlNzk5NDU5ZTM1NTllZjA1MTNkNWQ5YjNmOGM4MzY2OWYyYzE2OGU2ZTMyZg==",
+      "id": "0xf99c3a628d6b653e99b7e799459e3559ef0513d5d9b3f8c83669f2c168e6e32f",
+      "title": "Community Voting | BSW Emission Decrease",
+      "content": "Welcome to the crucial community voting. We present you with the opportunity to significantly contribute to the development process of Biswap by sharing your vote on reducing the BSW token emission per block. Currently, we are releasing 15 tokens per block, and this parameter holds the utmost significance for the overall tokenomics of the project and determines the rewards for our farmers. This voting aimed to influence the upcoming lock mechanism for native Biswap token strengthening - BSW Investment Pool. Following the release of the pool, as promised, 3 tokens per block will be allocated to the BSW Investment Pool and Classic Pools ecosystems.\n\nHere are the options currently before you for consideration and voting:\n\n\nReduce emission to 13 tokens per block.\nReduce emission to 11 tokens per block.\nMaintain emission at 15 tokens per block (no changes).\n\n\nAnalyze the impact of each of these options on our Biswap ecosystem with a more formal approach.\n\n \n![voting table (2) (1).png](ipfs://bafybeiacqp5kr7s2pe6sv6afjusnnc36xfdznmhbahipmldu2klg37arxe)\n    \n\n*Let's take an example from the USDT - BNB V3 Farm. At the moment, this farm has a 15.37% APR. After the release of the BSW Investment Pool, the APR will change to one of the voting options:\n\n\n18.829787% (with 15 tokens per block)\n15.49296% (with 13 tokens per block)\n12.154596% (with 11 tokens per block).\n\nLet’s review each voting outcome in more detail and see how they will impact both the BSW emission and farming rewards.\n\n⭐ Reduction to 13 tokens per block\nThis option will have little impact on the APR rewards for Biswap farmers and will maintain them at almost the same level.\n\nThe 13 BSW per block will extend the period until the end of emission by approximately 12.9% compared to 15 tokens per block.\n\n⭐ Reduction to 11 tokens per block\n\nThis option will have a more significant impact on farming APRs. The 11 BSW per block will decrease the rewards for Biswap farmers by 20.9%, which, in turn, will extend the emission period by approximately 26.6% compared to the 15 tokens per block currently set.\n\nSuch emission will also influence the overall BSW emission and create additional opportunities for the project's stable operation.\n\n⭐ Maintaining emission at 15 tokens per block (unchanged)\nThe choice of non-change may lead to negative consequences for further Biswap development and expansion. \n\nHigh inflation: a substantial emission of 15 tokens per block can lead to a high level of inflation. This means that more new tokens will be available on the market, which may result in their value decreasing. Inflation can negatively impact token value retention and the project's attractiveness for new users, partners and investors;\n\nWeaker incentive for investors: decreased token value due to a large emission may reduce the appeal of Biswap to potential investors. Potential investors may be less inclined to invest in a project where their contributions could lose value due to the large number of new BSW tokens in the DeFi market.\n\nDuration of emission: the greater the number of tokens emitted per block, the shorter the emission period will be. Conversely, a lengthier emission period can benefit a project by enabling a more stable token distribution and ensuring the steady functioning of the ecosystem.\n\nTerms & Conditions\nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, and BNB — BSW, USDT — BSW V2 Farming Pairs.\nVoting results will take effect after the release of the BSW Investment Pool.\nDespite the voting outcome, the allocation of 600 million BSW tokens in tokenomics will be distributed by the initial ratio:\n1. Farms / Launchpools: 80.7% per block\n2. Referral Program: 4.3% per block\n3. SAFU: 1% per block\n4. Team: 9% per block\n5. Investment Fund: 5% per block\nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\nIf you are unable to vote on the Biswap Voting page, please vote on the snapshot.\n\nDisclaimer\nAs we operate in the DeFi space, the Biswap team assumes no responsibility or liability for the wallets participating in this community voting, as this is out of our control. Biswap has never used the team’s tokens to manipulate the community voting results, nor is it planning to do so in the future.\n\nAny reliance you place on the information provided by unofficial Biswap channels is strictly at your own risk. Under no circumstance shall Biswap be held liable for the wallets participating in the current community voting. The voting results shall be considered accurate and fair therefore representing public opinion. Everyone has the right to voice an opinion.\n\nClosing Words\nNow that all the voting options have been clarified, feel free to cast your vote for the one you believe could best contribute to the future growth of Biswap and the fortification of BSW. We sincerely appreciate your contributions to the collective development of Biswap. \n\nWe urge you to actively participate in this community voting and choose the option that best aligns with the interests of Biswap, its overall objectives, current state, future strategic plans, and its community. Your decision will define the further path of Biswap's elaboration and a booming token economy.",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 272,
+      "blockNumber": 33742025,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0xf99c3a628d6b653e99b7e799459e3559ef0513d5d9b3f8c83669f2c168e6e32f",
+      "startTime": {
+        "timestamp": 1700737200
+      },
+      "endTime": {
+        "timestamp": 1701169200
+      },
+      "startTimestamp": 1700737200,
+      "endTimestamp": 1701169200,
+      "currentState": "closed",
+      "choices": [
+        "Reduction to 13 tokens",
+        "Reduction to 11 tokens",
+        "Maintaining at 15 tokens"
+      ],
+      "results": [
+        {
+          "total": 174557.12,
+          "choice": 0
+        },
+        {
+          "total": 2456325.0,
+          "choice": 2
+        },
+        {
+          "total": 8793646.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 174557.1152956599,
+          "choice": 0
+        },
+        {
+          "total": 8793647.383184966,
+          "choice": 1
+        },
+        {
+          "total": 2456325.313613233,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1700737497336,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4NjhjN2E1MDMyY2U3MDY4NTcyMWUyNmYzZTg0MzUzOTJmZjI1MmUyOWExYjYwZTFiMjM1ZTQxMTU1ZTVkNDNiZA==",
+      "id": "0x68c7a5032ce70685721e26f3e8435392ff252e29a1b60e1b235e41155e5d43bd",
+      "title": "Voting for BSW Emission Reduction | Fortify the BSW Token!",
+      "content": "Emission is a necessary process that determines the token rate and its capabilities. Reducing the BSW emission will increase the token's value and provide more beneficial advantages to its holders in case of positive growth dynamics of the token. The Biswap team proposes to reduce the BSW token emission from 16 to 15 tokens per block with 12 960 000 emission per month.\n\nAdvantages of the BSW Emission Reduction:\n\nLess BSW tokens will be released each month, which will increase the value of the BSW token\nMore benefits for BSW Holders \nBoost in BSW value \nHigher demand for BSW\nPositive long-term impact on the BSW price \nHigher crypto rankings for BSW token \n\nVoting options\nChoose the option that will be the most optimal for earning on Biswap and will positively affect the development of BSW.\n\nOption 1: Reduce from 16 to 15 tokens per block\n12 960 000 emission per month (864 000 less BSW tokens per month) \nStrengthening BSW on the market\n\nOption 2: No Changes \n13 824 000 emission per month\n\nVoting Duration: \n📆 Start: 03:00 PM UTC, January 13\n📆 End: 03:00 PM UTC, January 16\n\nTerms & Conditions\n\nThe voting period is from January 13, 03:00 PM UTC to January 16, 03:00 PM UTC.  \nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, and BNB — BSW, USDT — BSW Farming Pairs.\nIf the number of votes for Option 1 is 51% or more, changes will be implemented within 7 days after the voting results.\nDespite the voting outcome, the allocation of 600 million BSW tokens in tokenomics will be distributed by the initial ratio:\nFarms / Launchpools: 80.7% per block\nReferral Program: 4.3% per block\nSAFU: 1% per block\nTeam: 9% per block\nInvestment Fund: 5% per block\nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\n\nDisclaimer\nAs we operate in the DeFi space, the Biswap team assumes no responsibility or liability for the wallets participating in this community voting, as this is out of our control. Biswap has never used the team’s tokens to manipulate the community voting results, nor is it planning to do so in the future.  \n\nAny reliance you place on the information provided by unofficial Biswap channels is strictly at your own risk. Under no circumstance shall Biswap be held liable for the wallets participating in the current community voting. The voting results shall be considered accurate and fair therefore representing public opinion. Everyone has the right to voice an opinion. \n\nTo Sum Up\nBiswap is evolving daily and is focused on ensuring its users get the best results. That is why your opinion is essential in making such decisions. Thanks to your activity, we have reached a significant scale!\n\nTogether to the moon!\n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 549,
+      "blockNumber": 24749653,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x68c7a5032ce70685721e26f3e8435392ff252e29a1b60e1b235e41155e5d43bd",
+      "startTime": {
+        "timestamp": 1673614800
+      },
+      "endTime": {
+        "timestamp": 1673874000
+      },
+      "startTimestamp": 1673614800,
+      "endTimestamp": 1673874000,
+      "currentState": "closed",
+      "choices": [
+        "Reduce to 15 tokens per block",
+        "No Changes"
+      ],
+      "results": [
+        {
+          "total": 7362392.5,
+          "choice": 0
+        },
+        {
+          "total": 1812521.6,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7362392.864992236,
+          "choice": 0
+        },
+        {
+          "total": 1812521.4803598323,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4MDhkZmJkOWM0N2FjODkxNzk1ZDJmODA0OTliNmJmY2NkM2Q2MmEyMjYxODY3MGVkOGUwOTExYWQ2OTVlMTA5Mw==",
+      "id": "0x08dfbd9c47ac891795d2f80499b6bfccd3d62a22618670ed8e0911ad695e1093",
+      "title": "Biswap Community Voting | Stablecoin Pairs Trade Fee Reduction",
+      "content": "The Biswap DEX team is constantly working on the project's development. We analyze the market trends and situation to provide the best service to the users. Having analyzed the case, we understand that the commission and conditions for trading stablecoins on our platform are no longer as beneficial as they used to be compared to the market ones. That's why this case leads us to new modifications on the platform, which will result in a better user-oriented experience on Biswap. \n \nComparison of Fees for Stablecoin Trading\n \nTake a look at the trade fees of other DEXs that the Biswap team has analyzed:\n\nDEX 1: 0.15%\nDEX 2: 0.01% – 0.25%\n\nConsidering the movement and tendency of the DeFi industry we are progressing in, the Biswap team proposes to reduce the trade fee from 0.2% to 0.1% per trade for all stablecoin pairs:\n \n🔹BUSD-USDT\n🔹USDC-USDT\n🔹DAI-USDT\n \nIf you choose to reduce the stablecoin pairs trade fee to 0.1%, here’s how it will be distributed:\n \n0.075% - LP Reward for Liquidity Providers\n0.005% - BSW Token Burn\n0.01% - Biswap Earn (Multi-reward pool, Double Launchpools, other product features)\n0.01% - Biswap Team\n \nVoting Options\n \nBiswap always keeps abreast, which is why it brings two options for solving this issue together with you. Choose the option that will improve the conditions of your trading actions on the platform.\n \nOption 1:\nReduce stablecoin pairs trade fee to 0.1%\n \nOption 2:\nKeep stablecoin pairs trade fee of 0.2% \n \nVoting Duration:\n\n📆 Start: 11:00 AM UTC, December 28\n📆 End: 11:00 AM UTC, December 30\n \nDisclaimer:\n\nAs we operate in the DeFi space, the Biswap team assumes no responsibility or liability for the wallets participating in this community voting, as this is out of our control. Biswap has never used the team's tokens to manipulate the community voting results, nor is it planning to do so in the future.\n \nAny reliance you place on the information provided by unofficial Biswap channels is strictly at your own risk. Under no circumstance shall Biswap be held liable for the wallets participating in the current community voting. The voting results shall be considered accurate and fair therefore representing public opinion. Everyone has the right to voice an opinion.\n \nTerms & Conditions:\nThe voting period is from 11:00 AM UTC, December 28 to 11:00 AM UTC, December 30.\nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, BNB — BSW, USDT — BSW Farming Pairs and BSW on the BEP-20 wallet balances.\nIf the number of votes is 51% or more for option “trade fee increase from 0.1% to 0.2%”, the implementation date of all important changes will be announced by the Biswap team after the voting completion.\nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\nAny changes will take place within 72 hours after voting ends.\n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 114,
+      "blockNumber": 24288604,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x08dfbd9c47ac891795d2f80499b6bfccd3d62a22618670ed8e0911ad695e1093",
+      "startTime": {
+        "timestamp": 1672218000
+      },
+      "endTime": {
+        "timestamp": 1672390800
+      },
+      "startTimestamp": 1672218000,
+      "endTimestamp": 1672390800,
+      "currentState": "closed",
+      "choices": [
+        "Reduce trade fee to 0.1%",
+        "Keep trade fee to 0.2%"
+      ],
+      "results": [
+        {
+          "total": 1702826.1,
+          "choice": 0
+        },
+        {
+          "total": 48377.703,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1702826.211466634,
+          "choice": 0
+        },
+        {
+          "total": 48377.702002896185,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4MzBiZjRlNTM2YzE3YjAwNWI5M2ZkOGEwZjYyMjA3ZTMyMTQxOWU3NjlmMzgyOTJkYWEzMTMyYjg5MDViNzExNg==",
+      "id": "0x30bf4e536c17b005b93fd8a0f62207e321419e769f38292daa3132b8905b7116",
+      "title": "Double Launchpools Community Voting | Important Decision by Biswappers!",
+      "content": "The Biswap team values its users' opinions and comfort with earning on the platform. And to remain the best for you, we want Biswap updates to coincide with good conditions. Double Launchpools are very popular on Biswap. Due to feedback from the community regarding changes in the validity period of Double Launchpools, we are putting two options to a vote. Your answers will help us to provide the most suitable solutions on Biswap!\n\nVoting Options\n\nThe implementation is essential for your comfort and conditions to make crypto on Biswap. Choose the 1st or the 2nd option according to your preferences.\n\n⭐️1 Option: Two 30-day Double Launchpools / month\n\n⭐️2 Option: Four 15-day Double Launchpools / month\n\n📅Voting Duration: 24 hours\n\nMake a choice for lucrative earning!\n\nTerms & Conditions\n\nThe voting period is from 12:00 PM UTC, 22 December to 12:00 PM UTC, 23 December.\nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, BNB—BSW, USDT—BSW Farming Pairs and BSW on the BEP-20 wallet balances.\nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\n\nDisclaimer\n\nAs we operate in the DeFi space, the Biswap team assumes no responsibility or liability for the wallets participating in this community voting, as this is out of our control. Biswap has never used the team’s tokens to manipulate the community voting results, nor is it planning to do so in the future.\n\nAny reliance you place on the information provided by unofficial Biswap channels is strictly at your own risk. Under no circumstance shall Biswap be held liable for the wallets participating in the current community voting. The voting results shall be considered accurate and fair therefore representing public opinion. Everyone has the right to voice an opinion.",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 251,
+      "blockNumber": 24118028,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x30bf4e536c17b005b93fd8a0f62207e321419e769f38292daa3132b8905b7116",
+      "startTime": {
+        "timestamp": 1671703200
+      },
+      "endTime": {
+        "timestamp": 1671789600
+      },
+      "startTimestamp": 1671703200,
+      "endTimestamp": 1671789600,
+      "currentState": "closed",
+      "choices": [
+        "Two 30-day Double Launchpools",
+        "Four 15-day Double Launchpools"
+      ],
+      "results": [
+        {
+          "total": 2238799.2,
+          "choice": 0
+        },
+        {
+          "total": 180788.17,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2238798.0310452767,
+          "choice": 0
+        },
+        {
+          "total": 180788.18731726517,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4YzViN2QyOWJiZTg5OTU2NDBlNjZhOWI2MzU2ZmJiMWU3YjVkYjI5Yjc4YmI4YzA1NTk1Yzc5YmNkNmQ1YzM0NA==",
+      "id": "0xc5b7d29bbe8995640e66a9b6356fbb1e7b5db29b78bb8c05595c79bcd6d5c344",
+      "title": "Community Voting for the NFT Staking | The Rewards Distribution Changes",
+      "content": "Biswap is one of the most advanced projects that keeps building & building in all conditions. Despite the bear market, we keep evolving to achieve the set goals.\n\nCurrent market conditions have impacted many strong projects, including Biswap. However, we are constantly aiming to progress and make changes that will bring the best results for the project and its community. \n\nA few words about building in the bear market\n\nBuilding in the bear market requires making some important decisions that will have a positive effect on every feature development, collaborations’ establishment, and users’ contentment in the long-term perspective. So now we need to hear your opinion before paving the way to future progress considering the current circumstances.\n\nThe Optimisation Suggestion\n\nCurrently, The daily distribution in the NFT pool amounts: 5 000 BSW and 2 500 USDT. This budget was allocated from team funds. But due to the bear market, the trading volume has become lower, and the team income from commissions is now not enough to cover the USDT part of the pool. It means that the team will have to sell BSW tokens for USDT to replenish the USDT pool. To prevent this situation and to balance the budget, the team suggests:\n\nReplace the 2 500 USDT distribution for 10 000 BSW daily.\nTherefore, users will receive 15 000 BSW daily from the NFT Staking Pool. \n\nMoreover, there will be a collaboration boost with our strategic partner, BetFury! And we will present to Biswappers a really hot offer:\n🔥 1 500 000 BFG for 30 days in the pool! It means 50 000 BFG per day.\n \nSuch a change will save BSW from the daily exchange for USDT, given the bear market. Besides, the earned BSW tokens can be used via various profitable features. It also will lock them and positively impact the token. It means BSW Holders and Biswap will also feel it in the future! So, let’s overview them:\n\nBenefits of the token’s distribution change:\n\n🚀 To reduce BSW selling pressure\n🚀 15 000 BSW Daily Distribution\n🚀 Hot Offer from strategic partner 1 500 000 BFG in the Pool for 30 days\n\nBSW Earning Possibilities\n\nIf the number of BSW increases in the pool, it may increase its Holders' possibilities to use more Biswap earning features. Because BSW has a bright variety of utilities, so everyone will find a feature that suits them. As a BSW Holder, you can open a whole world of opportunities to multiply your crypto asset, such as:\n\n💰Multi-type Referral Program\n💰Farms with TOP crypto\n💰Launchpools with up to 100% APR \n💰Double Launchpools with two tokens as a reward\n💰Multi-Reward Pool as additional income for traders\n💰And multiple BSW integrations on the partners’ side\n\nReview all the lucrative utilities in detail: https://bit.ly/3MqZSq0\n\nVoting Options\n\nWe value your opinion and feedback. Hence, we want to inform you about the ideas and prospects so that we can make a decision together.\n\n1 Option: Change the Distribution in the NFT Staking Pool\nTo reduce BSW selling pressure\n15 000 BSW Daily Distribution\nHot Offer 1 500 000 BFG Pool\n\n2 Option: No changes\nSell BSW tokens for USDT\nNo additional offers\n\nVoting Duration\n📆 Start: 01:00 PM UTC, 17 October\n📆 End: 01:00 PM UTC, 18 October\n\nTerms & Conditions\n\nThe voting period is from 01:00 PM UTC, 17 October to 01:00 PM UTC, 18 October.\nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, BNB — BSW, USDT — BSW Farming Pairs and BSW on the BEP-20 wallet balances.\nIf the number of votes is 51% or more for Option 1, the implementation date of all important changes will be announced by the Biswap team after the voting completion.\nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\nAny changes will take place within 7 days after voting ends.\n\nDisclaimer\n\nAs we operate in the DeFi space, the Biswap team assumes no responsibility or liability for the wallets participating in this community voting, as this is out of our control. Biswap has never used the team’s tokens to manipulate the community voting results, nor is it planning to do so in the future.\n\nAny reliance you place on the information provided by unofficial Biswap channels is strictly at your own risk. Under no circumstance shall Biswap be held liable for the wallets participating in the current community voting. The voting results shall be considered accurate and fair therefore representing public opinion. Everyone has the right to voice an opinion.\n\nClosing Words\n\nThe Biswap team is meticulously developing the project, so hard work and striking motivation will definitely become tangible and pay off in the bull market.\n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 212,
+      "blockNumber": 22250594,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0xc5b7d29bbe8995640e66a9b6356fbb1e7b5db29b78bb8c05595c79bcd6d5c344",
+      "startTime": {
+        "timestamp": 1666000800
+      },
+      "endTime": {
+        "timestamp": 1666087200
+      },
+      "startTimestamp": 1666000800,
+      "endTimestamp": 1666087200,
+      "currentState": "closed",
+      "choices": [
+        "Change the Distribution",
+        "No Changes"
+      ],
+      "results": [
+        {
+          "total": 1889638.8,
+          "choice": 0
+        },
+        {
+          "total": 579256.56,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1889639.5753621012,
+          "choice": 0
+        },
+        {
+          "total": 579256.535245247,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4MjI0MmY5MGE1MmE0ZDYyMjg4ODFhZWNmODdhMjliYmQ1ZDZjN2VhOTM0MDZjNmRhMTg1ZTMwYmU0Y2ZjMDc4Ng==",
+      "id": "0x2242f90a52a4d6228881aecf87a29bbd5d6c7ea93406c6da185e30be4cfc0786",
+      "title": "Voting for Staff Game Workers Purchase | Proposal for Optimizing the Distribution!",
+      "content": "Biswap values the voice of its community and always works on improving its products. Biswap users are a big part of the project’s progress. And that’s why another important decision needs to be made through community voting.\n\n\nWe consider and value the opinion of our users. After analyzing the feedback from our community, we understand that with the current distribution in the Staff Game, many users do not have time to buy a Worker. Considering that the amount of Workers for sale is gradually decreasing, we found a way to optimize the process by distributing the remaining 11 000 Workers at once. Consequently, our users will have an easier time purchasing them and participating in the Staff Game.\n\nEssential Factors to Keep in Mind \n\nBefore reviewing the proposal from our team, let’s go over some of the crucial aspects. \n\nA total of 48 500 Workers with distribution for 48 weeks were available for sale at the launch of Staff Game. So far, 37 000 workers have been sold during 16 distributions. On August 18, the 17th distribution will take place for another 500 workers to be sold. A total of 11 000 workers will remain for distribution for the remaining 31 weeks. \n\nFor users to be able to participate in the Staff Game, we offer to put up for sale all remaining 11 000 Workers on August 25, 12:00 PM UTC.  \n\nThe sale of 11 000 Workers at once will not affect the stability of the BSW token. There are 60 094 BSW rewards for users who will purchase these 11 000 Workers. \n\n❗Note: \n\nIf the decision is made to distribute 11 000 remaining Workers at the same time, the conditions for purchase will remain the same:\n\n10 BSW staked in the BSW Holder Pool \n25 BSW is the price to hire 1 Worker (will be returned to you at the end of the hiring duration of your Worker along with a gained BSW reward) \n2 active Workers per wallet \n\nVoting Options \n\nTake into consideration all the information provided above. Your opinion is important to us - vote and let’s make a decision together.\n\nOption 1: Sell 11 000 Workers at once\nWorkers will be available to those who previously couldn’t hire one to participate in the Staff Game.\n\nOption 2: No Changes \nDistribution continues according to the previous specifications, and 11 000 Workers will be sold within the remaining 31 weeks.\n\nTerms & Conditions:\n\nThe voting period is from 11:00 AM UTC, August 12, to 11:00 AM UTC, August 15.\nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, BNB — BSW, USDT — BSW Farming Pairs and BSW on the BEP-20 wallet balances.\nIf the number of votes is 51% or more for the option “Sell 11 000 remaining Workers Distribution at once”, the remaining Workers will be put up for sale on August 25, 12:00 PM UTC.  \nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\n\nDisclaimer:\n\nAs we operate in the DeFi space, the Biswap team assumes no responsibility or liability for the wallets participating in this community voting, as this is out of our control. Biswap has never used the team’s tokens to manipulate the community voting results, nor is it planning to do so in the future. \n\nAny reliance you place on the information provided by unofficial Biswap channels is strictly at your own risk. Under no circumstance shall Biswap be held liable for the wallets participating in the current community voting. The voting results shall be considered accurate and fair therefore representing public opinion. Everyone has the right to voice an opinion.\n\nClosing Thoughts \n\nWe remain committed to our mission, vision, and values. We must make decisions to ensure the platform's growth and improve our features for BSW holders. Biswap deeply appreciates your contribution to determining its future course. \n\nLet’s keep progressing and reaching new heights together! \n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 355,
+      "blockNumber": 20373481,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x2242f90a52a4d6228881aecf87a29bbd5d6c7ea93406c6da185e30be4cfc0786",
+      "startTime": {
+        "timestamp": 1660291200
+      },
+      "endTime": {
+        "timestamp": 1660550400
+      },
+      "startTimestamp": 1660291200,
+      "endTimestamp": 1660550400,
+      "currentState": "closed",
+      "choices": [
+        "Sell 11 000 Workers at once",
+        "No Changes"
+      ],
+      "results": [
+        {
+          "total": 1452034.1,
+          "choice": 0
+        },
+        {
+          "total": 222193.67,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1452034.828594302,
+          "choice": 0
+        },
+        {
+          "total": 222193.65974426203,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4OGVjNjRiNTU4M2NlZmQ1MTEyMTQwMjgwMDJmNGNlNGM2MzI0MzMzN2JmMzAxNzVjMDY1MzMyMTNmZGUwMWQ2Ng==",
+      "id": "0x8ec64b5583cefd511214028002f4ce4c63243337bf30175c06533213fde01d66",
+      "title": "Community Voting for a Trade Fee Increase to 0.2% | Strengthening the Biswap DEX! ",
+      "content": "Biswap is one of the most progressive DEXs in the DeFi space! Despite the market's instability and volatility, we keep building our platform qualitatively to set goals. \n\nOur team recognises the importance of progress and thoroughly analyses the crypto industry to discover what changes need to be made for the platform's advancement. Biswap aims to implement new products and improve its ecosystem. Efficient distribution of the financial and human resources is crucial to every feature's functioning, large-scale collaborations' development, and users' satisfaction.  \n\nOnce again, with your help, we need to make an important decision that will directly influence the progress of the Biswap platform in the long-term perspective. As a part of the new advancement, Biswap wants to implement a Trade Fee Increase from 0.1% to 0.2%. Change in trade fee distribution is a win-win case for BSW Holders, investors and the development of the Biswap DEX! So, let's overview the factors that backed the trade fee increase advantages. \n\n0.2% Trade Fee Distribution: \n\n0.15%  -  LP Reward for Liquidity Providers\n0.01%  -  BSW Token Burn \n0.02% - Biswap Earn (Multi-reward pool, Double Launchpools, other product features)\n0.02%  -  Biswap Team\n\nA Few Things to Consider Regarding Trading Fee Distribution\n\nBiswap Team:\n\nThe Biswap team puts a lot of effort into the project. For over a year, the team has been working 24/7 to ensure the expansion of the platform and profitable opportunities for its users. However, no funds were allocated to the Biswap team from the trade fee. The team continuously invested its funds to launch new products with the best quality and supported it with many events by the Marketing team.  Yet, the hard work that team members do every day needs to be recognised and rewarded. This approach will establish higher motivation and necessary funds for the team to push the Biswap development! For this and other reasons that will be mentioned below, the trade fee increase is a key to the sustainable growth of the Biswap platform!\n\nBSW Burn:\n\nWe always keep the value of BSW in focus and understand the importance of the BSW Burn to reduce the number of tokens available on the market. But still, we should take into consideration that different stages of the platform's development require specific and complex decisions that will maximise the pace of Biswap DEX’s progress as a holistic system. \n\nTo boost Biswap DEX improvement and provide our users with quality exchange with low slippage, firstly, we need to increase LP Rewards and thus raise the TVL by attracting new investors. That is why these aspects - are our priority for now. We expect that such a strategy will allow us to gradually decrease the token's emission per block and maintain the TOP positions in DeFi. The 700 000 000 BSW is the maximum possible supply of BSW tokens on the market, 36 938 270 BSW of which have already been burned. BSW token Burn is still an active tool on the Biswap platform, and in a long-term perspective, the BSW supply will be significantly reduced. \n\nAt the same time, we plan to strengthen the BSW value by existing and new utilities such as Double Launchpools, Multi-reward Pool, a New innovative Launchpad system, etc., that will increase the BSW demand. All these features require an inflow of assets. For this reason, a trading fee increase to 0.2% will become a source of BSW utility funding. \n\nAdvantages of 0.2% Trade Fee Increase: \n\n🌟 3X  Increase of  LP Reward for Liquidity Providers\nThe increase of the trade fee will positively influence the earnings of the Liquidity Providers on Biswap. The LP Reward will have a 3X boost and reach a stunning percentage of 0.15%!\n\n🌟 Total Value Locked Increase on Biswap platform\nAfter a significant inflow of new users and investors, the Total Value locked (TVL) will rise and cause an increase of the liquidity on Biswap DEX. \n\n🌟 More Convenient Exchange with Easier Swaps \nExchanging tokens will be more comfortable as liquidity increases and slippage decreases. With higher Total Value Locked, users that trade large amounts of crypto will experience less slippage. \n\n🌟 More Investors & Active Users \nBiswap constantly welcomes new investors to the platform. LP Rewards will be increased to 0.15%, and liquidity providers will find it more beneficial to contribute. More Active Users will appear on Biswap as the greater amounts of liquidity will make trading more convenient with less slippage.\n\n\n🌟Multi-reward Pool Implementation\nMulti-reward Pool is an exclusive earning feature for Biswap users and BSW Holders, where they can get tokens such as BSW, BNB and BUSD by making trading volume at Biswap Exchange. The increased trade fee plays a valuable role in the replenishment of the Pool. Every time, 10% of the 0.2% trade fee will be contributed to the Biswap Earn, including the Multi-reward Pool as well as to other product releases.\n\n🌟Benefits for BSW Holders\nBSW Holders have many privileges, such as access to the Double Launchpools! So, the trade fee increase is positive news for them because 10% of the trade fee will be distributed to the Biswap Earn, such as Double Launchpools and Multi-reward Pool and will contribute to the development of new earn features and the strengthening of the BSW token.\n\n🌟 Higher Ratings & Statistics \nAs more investors join the platform and liquidity grows, the statistics will uplift, and Biswap will take more leading positions in the crypto world.\nThe following indicators statistic has a great chance to grow more:\n\nTotal Value Locked \nTotal Trading Volume \nMore Active Users\nMore BSW Holders \n\n\nVoting Options \n\nWe value your opinion and feedback. Hence, we want to inform you about the ideas and prospects so that we can make a decision together. \n\n Option 1: Trade Fee Increase from 0.1% to 0.2% \n\n3X Boost of LP Rewards for Liquidity Providers \nTotal Value Locked Increase \nMore convenient exchange with minor slippage \nNew investors and Active Users \nMulti-reward Pool Offer for BSW Holders\nBenefits for BSW Holders\nHigher ratings & statistics \nNew possibilities with 0.02% allocated to the Biswap Earn features\n\nOption 2: No Changes \n\nSlower development of the Biswap DEX\nNo boost in LP Reward for Liquidity Providers\nInsufficient competitiveness in the market\nThe little influx of Investors and Active Users\nDifficulties in the strengthening of BSW token and slower BSW Holders growth\n\nYour opinion is essential to the growth of Biswap, so speak up!\n\nTerms & Conditions: \n\nThe voting period is from 11:00 AM UTC, 2 August to 11:00 AM UTC, 9 August.\nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, BNB — BSW, USDT — BSW Farming Pairs and BSW on the BEP-20 wallet balances.\nIf the number of votes is 51% or more for option “trade fee increase from 0.1% to 0.2%”, the implementation date of all important changes will be announced by the Biswap team after the voting completion.\nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\nAny changes will take place within 14 days after voting ends.\n \nDisclaimer: \n\nAs we operate in the DeFi space, the Biswap team assumes no responsibility or liability for the wallets participating in this community voting, as this is out of our control. Biswap has never used the team’s tokens to manipulate the community voting results, nor is it planning to do so in the future.  \n\nAny reliance you place on the information provided by unofficial Biswap channels is strictly at your own risk. Under no circumstance shall Biswap be held liable for the wallets participating in the current community voting. The voting results shall be considered accurate and fair therefore representing public opinion. Everyone has the right to voice an opinion.\n\nClosing Thoughts:\n\nBiswap is constantly developing and has already achieved high rates in the crypto industry. Indeed, progress would not be possible without you Biswappers! Only with your help we can make important decisions that will strengthen Biswap and take it to the TOP. \n\nThe trade fee increase demonstrates that the changes are beneficial to users’ earnings and the future progress of the Biswap DEX as a whole. \nNow is the time for us to take a big step for mutual success!\n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 628,
+      "blockNumber": 20088458,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x8ec64b5583cefd511214028002f4ce4c63243337bf30175c06533213fde01d66",
+      "startTime": {
+        "timestamp": 1659427200
+      },
+      "endTime": {
+        "timestamp": 1660032000
+      },
+      "startTimestamp": 1659427200,
+      "endTimestamp": 1660032000,
+      "currentState": "closed",
+      "choices": [
+        "Trade Fee Increase to 0.2% ",
+        "No Changes"
+      ],
+      "results": [
+        {
+          "total": 5946422.0,
+          "choice": 0
+        },
+        {
+          "total": 923495.3,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5946427.270356919,
+          "choice": 0
+        },
+        {
+          "total": 923495.3502513904,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4NDk2MmI0ZGQ0NDUzOTMwZGIwY2VkNWVmYzRkYjQ1NDVlYThjZGM1ZTJmMzFkYjZiYjVhMzk3OGQ0NGU4NzJlNw==",
+      "id": "0x4962b4dd4453930db0ced5efc4db4545ea8cdc5e2f31db6bb5a3978d44e872e7",
+      "title": "Community Voting for Lottery Budget Reallocation | Opportunities for BSW Holders!",
+      "content": "Biswap keeps moving forward and progressing in the crypto industry. There is always more to achieve and higher peaks to conquer. The Biswap team focuses primarily on the DEX and on developing features that directly affect the advancement of the platform. \n\nWe are committed to boosting Trading Volume, Liquidity, and BSW token utilities. Our team wants to ensure that all the resources are directed into the features that will make Biswap #1 DEX. That’s why we need your help to make a decision with us to strengthen the Biswap platform. \n\nWhat to Consider Regarding Lottery Deactivation & Budget Reallocation\n\n\nAfter a detailed analysis of the Lottery feature and its impact on Biswap, we clearly understand that it does not significantly influence our platform by boosting the platform or BSW token on the market. And at the same time, it requires constant replenishment of funds (80 000 BSW per month was allocated to replenish the lottery pool). \n\nWe understand that many of our users enjoy the Lottery, but we need to take into account important aspects before making any decision:  \n\nThe Lottery does not greatly impact BSW token utilities and the platform: for 9 months that it was active, total volume by users using the Lottery reached only 3 141 730 BSW. \nThe amount of tokens allocated for Burn is insignificant: a total of 408 425 BSW was burned from the Lottery during the 9 months of its functioning, which is only 1.11% of the total burned amount of 36 938 221 BSW. \n\nAs evident, the Lottery does not effectively achieve any of the goals when it comes to increasing Liquidity, boosting TTV, and creating utilities for the BSW token. We need to consider the progress of Biswap DEX and what will benefit BSW Holders in the long run. \n\nTherefore, we propose to disable the Lottery and redistribute the budget of 80 000 BSW per month to Double Launchpools and other profitable features for BSW holders. It will create more value for the BSW token and opportunities for more utilities. We want to make decisions regarding the future fate of the Lottery together with YOU, and it is essential for us to hear your feedback.\n\nVoting Options \n\nTake into consideration all the information provided above and cast your vote! \n\nOption 1: Reallocate the budget and Disable the Lottery\n\nMore profitable opportunities for BSW Holders \nBeneficial utilities and strengthening of BSW token\nIncrease in BSW token & Biswap statistics\nEnhancement of Biswap DEX in DeFi \n\nOption 2: No Changes \n\nThe lottery will not be disabled and will be reactivated, so the budget will not be reallocated to create more lucrative features for BSW Holders and to strengthen the Biswap platform along with its native BSW token.  \n\nVoting Duration:\n\n📆 Start: 11:00 AM UTC, 5 August\n📆 End: 11:00 AM UTC, 8 August \n\nTerms & Conditions:\n\nThe voting period is from 11:00 AM UTC, 5 August to 11:00 AM UTC, 8 August.\nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, BNB — BSW, USDT — BSW Farming Pairs and BSW on the BEP-20 wallet balances.\nIf the number of votes is 51% or more for the option “Reallocate budget and Disable the Lottery”, users will have 30 days after the end of the voting to withdraw funds from the balance on the Lottery page! \nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\n\nDisclaimer:\n\nAs we operate in the DeFi space, the Biswap team assumes no responsibility or liability for the wallets participating in this community voting, as this is out of our control. Biswap has never used the team’s tokens to manipulate the community voting results, nor is it planning to do so in the future. \n\nAny reliance you place on the information provided by unofficial Biswap channels is strictly at your own risk. Under no circumstance shall Biswap be held liable for the wallets participating in the current community voting. The voting results shall be considered accurate and fair therefore representing public opinion. Everyone has the right to voice an opinion.\n\nClosing Thoughts  \n\nWe thank you for taking the time to consider all the aspects and participating in the voting. Your opinion is valuable in making important decisions. We are grateful for those who actively participate in the development of Biswap! As a result of your input and feedback, the team is motivated to make every effort to create more beneficial features for the platform and its users. \n\nLet’s keep progressing together! \n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 270,
+      "blockNumber": 20173200,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x4962b4dd4453930db0ced5efc4db4545ea8cdc5e2f31db6bb5a3978d44e872e7",
+      "startTime": {
+        "timestamp": 1659686400
+      },
+      "endTime": {
+        "timestamp": 1659945600
+      },
+      "startTimestamp": 1659686400,
+      "endTimestamp": 1659945600,
+      "currentState": "closed",
+      "choices": [
+        "Reallocate budget ",
+        "No Changes"
+      ],
+      "results": [
+        {
+          "total": 2447435.8,
+          "choice": 0
+        },
+        {
+          "total": 369283.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2447435.265030275,
+          "choice": 0
+        },
+        {
+          "total": 369282.99503736326,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4ZTRjYjU0ZTEzYmI3NTYzNzJmZWU1NzE5ODA3NmRmYzgwNjZlNDJiOTRhMTZjOGVkMDE5ZTc5OGY0Yjg4NGE4Mg==",
+      "id": "0xe4cb54e13bb756372fee57198076dfc8066e42b94a16c8ed019e798f4b884a82",
+      "title": "Voting for GameFi Contracts Purchase | Possible Ways of Squid NFT World Functioning",
+      "content": "A while back, considering the established budget for GameFi direction, some changes were implemented to Squid NFT World. The changes were deployed to prolong its functioning. Certain changes were related to the Game Contract purchases, namely the setting up of a limit for Contracts purchases. \n\nAll the changes and reasoning are described in detail in the Budget Report:\n📍 https://bit.ly/3K0qpYA\n\n❗️At the time of the voting, the purchase of contracts is paused until the decision is implemented\n\nTo the Contract Purchase Case\nAfter launching the limit for Game Contracts Purchase, we started to receive your feedback and analyzed the flow of functioning. \n\nAfter a thorough analysis, calculations of the budget and consideration of the feedback, the Biswap team concluded several ways of optimally resolving the case and adapting our initial plan regarding SNW. \n\n\nThe initial budget before any changes came into effect was 95 900 Сontracts. Given the fact that 14 000 Contracts have already been bought, the remaining budget accounts for 81 900 Contracts. Hence, based on the aforementioned calculations, the Biswap team suggests the following solutions.\n\nThe first way is to disable any limits for Contracts purchases and to put up for sale 81 900 Contracts for 15 and 30 days. After the Contracts are sold out, the Biswap GameFi will operate until the expiration of the purchased Contracts. Contracts will be put up for the purchase with a 5% discount.\n\nThe second way is to disable any limits for Contracts purchases and to put up for purchase 163 800 of 15-days Contracts. After the Contracts are sold out, the Biswap GameFi will operate until the expiration of the purchased Contracts. Furthermore, 15-days Contracts will be put up for the purchase with a 5% discount.\n\nTaking into account the extremely high demand for Contracts, we decided to offer twice as many contracts - 163 800. This way enables a much larger number of users to: \n\n\n🔥 Buy more Contracts\n🔥 Play SNW more \n🔥 Use more of their Squid NFTs\n\nCheck out detailed calculations:\n📍https://bit.ly/3yM8qmG\n\nThe last way is supposed to leave purchases as they are: \nOne Contract can be purchased to 1 wallet every 6 hours.\nOne Contract can be purchased via 1 transaction every 6 hours. It is no longer possible to buy multiple contracts at the same time via one transaction.\nThe available amount for purchase per day will decrease weekly.\nAfter the 46th week, contracts won't be available for purchase.\n\nYou can take a closer look at the decreasing schedule and other details in the Budget Report.\n\nWe are analyzing your feedback and searching for ways to find the best solutions to lead us both ahead. The Biswap team tends to overcome any obstacles together with its community. That's why we bring the case up for Community Voting.\n\nVoting Options\nHereinafter, you can choose the best way to purchase Contracts and have an impact on the duration of the Biswap GameFi.\n\nOption 1: Purchase 81 900 Contracts without limits\nThe 81 900 Game Contracts for 15 and 30 days will be put on purchase.\nAll the time limits for the purchase of Game Contracts are turned off.\nThe GameFi continues until the Contracts expiration date ends.\nContracts will be put up for the purchase with a 5% discount. \n\nOption 2: Purchase 163 800 Contracts without limits\nThe 163 800 Game Contracts for 15 days will be put on purchase.\nAll the time limits for the purchase of Game Contracts are turned off.\nThe GameFi continues until the Contracts expiration date ends.\nContracts will be put up for the purchase with a 5% discount.\n\nOption 3: No changes\nThe Game Contracts Purchase will be functioning in the current way for 46 weeks.\n\nTerms & Conditions:\n\nThe voting period is from 02:00 PM UTC 19 May to 02:00 PM UTC 21 May.\nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, and BNB — BSW, USDT — BSW Farming Pairs and on a BEP-20 wallet balance.\nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\nChanges will be implemented within 72 hours after voting ends.\n\nDisclaimer\n\n​​As we operate in the DeFi space, the Biswap team assumes no responsibility or liability for the wallets participating in this community voting, as this is out of our control. Biswap has never made use of the team's tokens to manipulate the results of the community voting, nor is planning to do so in the future.  \nAny reliance you place on the information provided by unofficial Biswap’s channels is therefore strictly at your own risk. Under no circumstance shall Biswap be held liable for the wallets participating in the current community voting. The results of this voting shall be considered accurate and fair therefore representing public opinion. Everyone has the right to voice an opinion.\n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 2582,
+      "blockNumber": 17937463,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0xe4cb54e13bb756372fee57198076dfc8066e42b94a16c8ed019e798f4b884a82",
+      "startTime": {
+        "timestamp": 1652958000
+      },
+      "endTime": {
+        "timestamp": 1653130800
+      },
+      "startTimestamp": 1652958000,
+      "endTimestamp": 1653130800,
+      "currentState": "closed",
+      "choices": [
+        "Purchase 81 900 Contracts",
+        "Purchase 163 800 Contracts",
+        "No changes"
+      ],
+      "results": [
+        {
+          "total": 3451545.5,
+          "choice": 0
+        },
+        {
+          "total": 255178.23,
+          "choice": 2
+        },
+        {
+          "total": 2880319.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3451540.6119565326,
+          "choice": 0
+        },
+        {
+          "total": 2880317.947373093,
+          "choice": 1
+        },
+        {
+          "total": 255178.2396239824,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4MTcyYWViODM1ZjEzMzYxNzNiZGNkYjBjOWZkOWQ1NDlmMzY5MTcwOTk4ZDUyYzFiODk2NWEwNzA3MTZmOGFkZA==",
+      "id": "0x172aeb835f1336173bdcdb0c9fd9d549f369170998d52c1b8965a070716f8add",
+      "title": "Voting for BSW Emission Reduction | BSW Tokenomics Enhancement! ",
+      "content": "Biswap is moving to the TOP, overcoming various milestones. Breaking records and reaching high positions is proof that Biswap keeps progressing in the DeFi space. There is no stopping point for Biswap but rather a path forward that demands hard work and persistence from our team. \n\nBSW token is the core of Biswap DEX. Strengthening tokenomics will benefit the whole platform and its products. As a part of Biswap’s development, a new decision needs to be made. For the past few weeks, BSW rose to new leading positions. Thus now is the time to encourage further growth by enhancing tokenomics and reducing emission. \n\nAs you have witnessed before, emission reduction has a positive impact on the worth of BSW. Moreover, a recent BSW token listing on Binance has led to a significant boost in value. That’s why it is important to boost BSW more via token emission reduction. Currently, there are 20 tokens per block with 17 280 000 emission per month. But the greater BSW growth could happen if fewer tokens will be produced to the market. The Biswap team presents 2 proposals to decrease BSW tokens’ emission: \n\n- From 20 tokens to 16 tokens per block with 13 824 000 emission per month (3 456 000 less BSW tokens per month). \n- From 20 tokens to 17 tokens per block with 14 688 000 emission per month ( 2 592 000 less BSW tokens per month). \n\nWe value the feedback and input of our community in the progress of Biswap. Your voice is needed to make this crucial decision so that the BSW can rise to the next level. All of you are central to the further advancement of the Biswap DEX. We need your support to make a choice that benefits Biswap tokenomics. \n\nBenefits of the BSW Emission Reduction: \n\n🔥 Each month, fewer BSW tokens will be released that will favourably impact influence the value of the BSW token  \n🔥 A higher ranking for BSW token in the crypto industry\n🔥 Long-term positive impact on BSW price\n🔥 Growth of BSW value in the DeFi \n🔥 More privileges for BSW Holders\n🔥 Increased demand for BSW \n🔥 New records for BSW in statistics  \n\nIt is evident that BSW and its holders will benefit greatly from this decision. Biswap will open new doors with various profitable opportunities. \n\nVoting Options \nCast your vote for one of the 3 following options: \n \n🔥 Option 1: Reduce from 20 to 16 tokens per block \n13 824 000 emission per month (3 456 000 less BSW tokens per month). \n\n🔥 Option 2: Reduce from 20 to 17 tokens per block \n14 688 000 emission per month (2 592 000 less BSW tokens per month).\n\n❌ Option 3: No Changes \n17 280 000 emission per month.\n\nTerms & Conditions: \n\n1. The voting period is from April 20, 02:00 PM UTC to April 25, 02:00 PM UTC. \n2. The voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, and BNB — BSW, USDT — BSW Farming Pairs.\n3. If the number of votes for both options for \"Emission Reduction\" is 51% or more, the most voted option will be implemented within 7 days after the voting results. \n4. Despite the voting outcome, the allocation of 600 million BSW tokens in tokenomics will be distributed by the initial ratio:\n- Farms / Launchpools: 80.7% per block\n- Referral Program: 4.3% per block\n- SAFU: 1% per block\n- Team: 9% per block\n- Investment Fund: 5% per block\n5. Once voted, you will not be able to vote again.\n6. There is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\n\n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 3958,
+      "blockNumber": 17110728,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x172aeb835f1336173bdcdb0c9fd9d549f369170998d52c1b8965a070716f8add",
+      "startTime": {
+        "timestamp": 1650452400
+      },
+      "endTime": {
+        "timestamp": 1650884400
+      },
+      "startTimestamp": 1650452400,
+      "endTimestamp": 1650884400,
+      "currentState": "closed",
+      "choices": [
+        "🔥 Reduce to 16 tokens per block",
+        "🔥 Reduce to 17 tokens per block",
+        "❌ No Changes "
+      ],
+      "results": [
+        {
+          "total": 16048335.0,
+          "choice": 0
+        },
+        {
+          "total": 2819455.2,
+          "choice": 2
+        },
+        {
+          "total": 452862.53,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 16048333.17409529,
+          "choice": 0
+        },
+        {
+          "total": 452862.525573944,
+          "choice": 1
+        },
+        {
+          "total": 2819455.53395327,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4YTU4MjYxOTNhZDE1OTVmMWNkYTdkOGRjNzkyMmRjNjQ2ZmRlYTA1N2I0MGQyNGI5M2MxOTJjZjcwYmM2ZWYzOQ==",
+      "id": "0xa5826193ad1595f1cda7d8dc7922dc646fdea057b40d24b93c192cf70bc6ef39",
+      "title": "Community Voting for Squid NFT World V2.0 | Optimisation of the Biswap GameFi Economy",
+      "content": "The Biswap team constantly aims to improve its BSW token, products, features and potent directions of its expanding Metaverse. The Biswap team has a clear vision on how to optimise the GameFi economics. The Biswap team wants to bring up voting for implementation of an updated GameFi economy, which would enhance the BSW token and determine the further development of Biswap GameFi. Coming changes will be able to strengthen the Biswap GameFi further advancement and carry on its fruitful functioning.\n\nWe thank you immensely for your tremendous support and loyalty. As only our synergy and deep understanding of motives and objectives of each other, can show fruitful and long-lasting results for both sides. \n\nBenefits for Community in Squid NFT World V2.0\nThe idea is to implement V2.0 Squid NFT World that will impact the continuation of GameFi as a strong direction with the following updates:\n\n🚀Fixed Game Contract Price for 1SE\n🚀Sustained & forecasted APR in BSW\n🚀Winning chance increase (99% - 93%)\n🚀Stable BSW rewards\n🚀Realization of Optimised Economy\n\nWe value feedback from our wise community. That is why, before making any decisions, we want to inform you of the idea and agree on the planning process.\n\nAs you know, we are constantly searching, analyzing, and comparing methods that will lead Biswap global project up and up. After thorough analysis, the Biswap team proposes a way to optimise the GameFi and update it to the Squid NFT World V2.0. The new version will include the following innovations, which are required to keep the striking advancement of Squid NFT World. \n\n❗️Keep in Mind Important Aspects❗️\n\n📍 Squid NFT World V2.0 does not require any new type of NFTs. All Squid NFTs can be used in the SNW V2.0\n\n📍Note: If the Squid NFT World V2.0 is accepted by the Biswap Community, the first version of the GameFi will keep functioning till you get all rewards for current games, for your paid contracts. \nIn case of voting’s acceptance, you will have 2 days more after the end of voting to buy Game Contracts for 15 or 30 days to have the opportunity to play games  in Squid NFT World V1.0.\n\nRead the detailed information about Squid NFT World  V2.0:\n👉 https://bit.ly/3JEj4Ox\n\nHere are the proposals:\nYou can vote for any of the following two options:\n\nOption 1: 🔥🔥🔥 Implement Squid NFT World V2.0\n\nFixed Game Contract Price for 1SE\nBuying a Contract, you will pay BSW specifically for 1 Squid Energy per day, regardless of the level of NFT Player. It will greatly balance the disparity between Contracts' price for NFT Players of different levels.\n\nWinning Chance Increase\nThe probability of winning will range from 99% - 93% depending on the game played.\n\nStable BSW Rewards in Games \nIt will make GameFi APR prognosed, and it will be especially advantageous in tandem with almost infallible winning chance.\n\nRealization of Optimised Economy\nStable BSW rewards will lead BSW and the Biswap project to an optimised economy, decrease the pressure on the GameFi reward pool and BSW token as a whole. In addition, it will cause a positive impact on Biswap ecosystem. \n\nOption 2: ❌ No changes\n\nTerms & Conditions\n\nThe voting period is from 12:00 AM UTC 19 February to 12:00 PM UTC, 23 February.\nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, and BNB - BSW, USDT - BSW Farming Pairs.\nIf the number of votes is 51% or more for option “Implementing of Squid NFT World V2.0”, the implementation date of all important changes in Squid NFT World, will be announced by the Biswap team after the voting completion.\nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\nAny changes will take place within 30 days after voting ends.\n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 2947,
+      "blockNumber": 15376457,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0xa5826193ad1595f1cda7d8dc7922dc646fdea057b40d24b93c192cf70bc6ef39",
+      "startTime": {
+        "timestamp": 1645221600
+      },
+      "endTime": {
+        "timestamp": 1645610400
+      },
+      "startTimestamp": 1645221600,
+      "endTimestamp": 1645610400,
+      "currentState": "closed",
+      "choices": [
+        "🔥 Implement SNW V2.0",
+        "❌ No changes"
+      ],
+      "results": [
+        {
+          "total": 5149427.0,
+          "choice": 0
+        },
+        {
+          "total": 3049161.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5149427.801222116,
+          "choice": 0
+        },
+        {
+          "total": 3049157.0053086597,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4YTM2NzRlNjE0NzU0MzY1ZWQwNWZiNTdkMzkyODdkYjJkZTQxYmYzY2Y4ZjY0NWJlNWZhN2EyMGRlNmQ3N2NmYg==",
+      "id": "0xa3674e614754365ed05fb57d39287db2de41bf3cf8f645be5fa7a20de6d77cfb",
+      "title": "Community Voting for Biswap New Network!​​ | Biswap Evolution to Multi-Chain Platform!",
+      "content": "Despite being a top 2 DEX on the Binance Smart Chain network, it is time for Biswap to move forward and expand its operations to new blockchains. It is time for Biswap to start a new chapter. \n\nWe’re extremely grateful for the tremendous support, loyalty and resiliency shown by each and every member of our community. After extensive research the team has come to a conclusion that making Biswap a multi-chain DEX is the way to boost the project with new users, liquidity and TVL.  \n\nNew networks attract millions of crypto users that migrate from already existing networks in an effort to save on transaction costs and speed up their operations. New networks offer new opportunities not only for the end-user but also for projects like Biswap as they can be used as a way to expand its user-base, and attract more liquidity. \n\nWhen operating within one network a project is limited to the number of users using this network as well as the financial resources being in circulation within this network. Scalability is extremely important because expansion brings more users, hence greater financial inflows. One of the ways to scale Biswap is expanding its operations to new networks that have a wide user-base and high TVL. We cannot avoid the opportunities new blockchains offer, we have to embrace them. \n\nThe list of potential benefits new network might bring is:\n\n🚀 Biswap exclusive features on other networks\n🚀 Greater choice for Biswappers\n🚀  Expand of rewards earning potential\n🚀  Best conditions among DEXs on another chain\n🚀  Simplification of cross-chain trading \n🚀  Powerful extension of the Biswap Metaverse\n🚀  Strengthening of BSW token and its utilities\n🚀  More fruitful collaborations\n🚀  Widening of community\n🚀  Interoperability\n\nWhile our internal systems are being prepared for multi-chain integration, we would like to hear your opinion on the network that you think Biswap should go for. To help you make up your choice, we have prepared a comparison analysis of the two networks that currently have the one of the largest user-base and total value locked: Fantom and Avalanche. These are the networks Biswap is currently considering. \n\nBiswap has always been a project that totally focuses on the behavior of its users as they are the reason we’re here. We have always been committed to those we serve. For that reason, Biswap would like to hear the opinion of its community. Therefore, we invite you to participate in the community voting and voice your thoughts on the first new chain that will be added to Biswap.  \n\nAvalanche and Fantom take the leading positions by TVL after Ethereum and BSC. Hence, the decision on the next chain will be centered around these two networks. \n\nHere are the proposals:\nYou can vote for one of the following options:\n\n 🔥Option 1: Add Fantom network\n$8.89 billions Total Value Locked\n30 809 Top Fantom DEX Daily Users\n$178 718 736 Daily Trading Volume on Top Fantom DEX \n\n🔥Option 2: Add Avalanche network\n$11.3 billions Total Value Locked\n28 864 Top Avalanche DEX Daily Users\n$135 319 246 Daily Trading Volume on Top Avalanche DEX \n\n❌Option 3: No changes\nThis option will open no new ways of development to Biswap and its users.\n\n📍 Another important statement to be made is that Binance Smart Chain will always remain a priority network for Biswap. All the new products, features, and services will be developed and launched on BSC first and only then deployed to other networks. \n📍As we operate in the DeFi space, the Biswap team assumes no responsibility or liability for the wallets participating in this community voting as this is out of our control. Biswap has never made use of the team’s tokens to manipulate the results of the community voting nor is planning to do so in the future. \n📍Any reliance you place on the information provided by unofficial Biswap’s channels is therefore strictly at your own risk. Under no circumstance shall Biswap be held liable for the wallets participating in the current community voting. The results of this voting shall be considered accurate and fair, therefore representing public opinion. Everyone has the right to voice an opinion.\n\nClosing Thoughts \n\nOur mission, vision and values remain unchanged and unwavering. For this reason, it is our responsibility to make the decisions that will guarantee our token holders long-term growth and attractive returns on their investments. The financial security we seek to help our users achieve is not created overnight. It is a long-term endeavor, and we take a long-term approach.\n\nWe, the Biswap team, remain committed to being your partner in all aspects, to be here when you need us, provide you with the leading technology, offer innovative solutions, unrivaled flexibility and everything else needed to ensure success now and in the future. \n\nTerms & Conditions\n\nThe voting period is from 14-19 February, 04:30 PM UTC\nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, and BNB - BSW, USDT - BSW Farming Pairs.\nIf less than 51% of users vote for “No Changes”, one of the remaining Network will be chosen based on the higher number of votes.\nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 1208,
+      "blockNumber": 15253903,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0xa3674e614754365ed05fb57d39287db2de41bf3cf8f645be5fa7a20de6d77cfb",
+      "startTime": {
+        "timestamp": 1644849000
+      },
+      "endTime": {
+        "timestamp": 1645281000
+      },
+      "startTimestamp": 1644849000,
+      "endTimestamp": 1645281000,
+      "currentState": "closed",
+      "choices": [
+        "🔥Add Fantom network",
+        "🔥Add Avalanche network",
+        "❌No changes"
+      ],
+      "results": [
+        {
+          "total": 5013160.5,
+          "choice": 0
+        },
+        {
+          "total": 635638.3,
+          "choice": 2
+        },
+        {
+          "total": 3714470.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5013159.417522032,
+          "choice": 0
+        },
+        {
+          "total": 3714470.6310012634,
+          "choice": 1
+        },
+        {
+          "total": 635638.3160647833,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4N2E3NWQ3ZGIzYjJmODZmMmRhMzAzYjAxOTBlNzVjZDFiMzFkOTA0MTRjZmU1YjBkNTFjYzM3NDQxZTQ1NzNhYQ==",
+      "id": "0x7a75d7db3b2f86f2da303b0190e75cd1b31d90414cfe5b0d51cc37441e4573aa",
+      "title": "Community Voting for NFT Staking Pool V2.0 | Strengthening Prospect of Biswap Ecosystem! ",
+      "content": "Biswap is moving ahead every day and developing in the industry. There is no limit for Biswap growth, but it depends on significant decisions that fuel Biswap progress. \n\nThank you for being with us from the beginning and taking an active part in the Biswap development. Due to community votings, we have made many significant decisions that gave us excellent results. Together with you, we have improved and strengthened BSW tokenomics, gave impetus to creating Biswap Metaverse with a great variety of products, and that’s not all.\n\nWe need to take an important decision that will affect the pace of development of your crypto possibilities on Biswap. As a robust project with great aspiration for development, Biswap wants to Upgrade NFT Staking to Version 2.0 and add power to APY, APR, BSW burnings, Trading Volumes and crypto rewards users get for staking their NFTs. This innovation will positively impact Biswap NFT Earn, which is already taking TOP positions in Binance Smart Chain charts.\n\nAdvantages of the NFT Staking Pool V2.0: \n\n🚀Higher APY & APR for active users\n🚀Strengthening & growth of BSW token\n🚀Users’ trading activity increase\n🚀Positive impact on Biswap position in the industry\n🚀Bigger BSW token burnings\n🚀Greater Trading Volumes on Biswap \n\nThe position of DApp is indicated by its users’ activity and trading volume. Users' activity will strengthen Biswap within its innovative and lucrative crypto offerings. \n\nHere are the proposals\n\n(The calculations below are made in the case of 5 000 000 Robi Boosts staked in the pool)\nYou can vote for one of the following options:\n\n🔥Option 1: Implementation of 0.3%\n66.60% first year RB reduction\n$1 776 976 734 quarterly increase in the trading volume on Biswap\n$888 488 quarterly increase in BSW burn on Biswap\n496.39% APY in NFT Staking Pool in 3 months\n179.01% APR in NFT Staking Pool in 3 months\n\n🔥Option 2: Implementation of 0.25% \n59.89%  first year RB reduction\n$1 512 815 304 quarterly increase in the trading volume on Biswap\n$756 408 quarterly increase in BSW burn on Biswap\n421.30% APY of NFT Staking Pool in 3 months\n171.11%  APR of NFT Staking Pool in 3 months\n\n❌Option 3: No changes \nThis option will not lead to any movement forward for Biswap, including increase of rewards, APR, APY for users in NFT Staking Pool or trading volume, amount of BSW burned on Biswap as a whole. \n\n📍 The team won’t vote by the funds allocated for the Biswap team, NFT Staking, GameFi and other Biswap products.\n📍In case the number of RB staked in the NFT pool goes below from its current amount, daily rewards will not be decreased.\n📍 When the number of RB staked in the NFT pool reaches 5 million and 6 million, daily BSW rewards will be increased to 50 000 and 60 000 accordingly. \n📍1st LVL NFTs will experience no changes in NFT Staking Pool V2.0.\n\n📍 You can make your own calculations using the formulas provided in a spreadsheet. See table with calculation for that: 👉https://bit.ly/3HJ1mZK\n\n\nClosing thought\n\nConsequently, this NFT Staking V2.0 will lead you to the spreading of your earning possibilities in the future since it will contribute to the lasting improvement of the Biswap global project, notably its NFT Earn. It is the way to become even more potent in DeFi. Biswap is grateful to those who take an active position in the continuous growth of the project! Your feedback is guiding us on the ways of further development. Let’s make a significant decision for mutual success!\n\nTerms & Conditions\n\nThe voting period is from 11-18 February, 05:00 PM UTC\nThe voting counts BSW tokens in BSW Holder Pool, BSW Auto-compounding Launchpool, Manual BSW Launchpool, and BNB - BSW, USDT - BSW Farming Pairs.\nIf less than 51% of users vote for “no changes”, one of the remaining options will be chosen based on the higher number of votes.\nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens locked in Farms & Launchpools. Your BSW tokens will stay with you.\nIf you are unable to vote on the Biswap Voting page, please vote on the snapshot.\nAny changes will take place not earlier than 60 days after voting ends.\n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 2799,
+      "blockNumber": 15168401,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x7a75d7db3b2f86f2da303b0190e75cd1b31d90414cfe5b0d51cc37441e4573aa",
+      "startTime": {
+        "timestamp": 1644591600
+      },
+      "endTime": {
+        "timestamp": 1645196400
+      },
+      "startTimestamp": 1644591600,
+      "endTimestamp": 1645196400,
+      "currentState": "closed",
+      "choices": [
+        "🔥Implementation of 0.3%",
+        "🔥Implementation of 0.25%",
+        "❌No changes"
+      ],
+      "results": [
+        {
+          "total": 7764452.5,
+          "choice": 0
+        },
+        {
+          "total": 3629626.0,
+          "choice": 2
+        },
+        {
+          "total": 459742.7,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7764457.482307286,
+          "choice": 0
+        },
+        {
+          "total": 459742.6542401773,
+          "choice": 1
+        },
+        {
+          "total": 3629627.910298811,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4MmM4ZjgwMGFlYzA1MWE1ZTY3ZWY3N2FkODczOWEzYWNkZDAyYzc2ZDZmYjA4ODQ5ZDMzOTUwNTI0NGFhN2NkMg==",
+      "id": "0x2c8f800aec051a5e67ef77ad8739a3acdd02c76d6fb08849d339505244aa7cd2",
+      "title": "Voting for Emission Reduction | Make BSW Stronger",
+      "content": "Biswap is breaking new records and moving ahead in the industry. Conquering higher levels and stepping on a new stage only means a great motivation for the team to break through even further. There is no stop sign for Biswap, only the route forward which requires a lot of effort and significant decisions which will fuel Biswap progress.\n\nThe Biswap team values its native token BSW and tokenomics as a whole, therefore in a constant manner applying methods for its enhancement. As a robust project with great aspiration for development, Biswap wants to take another important decision and add incredible power to the BSW token.\n\nAs you know, the planned BSW emission reduction from 28 to 26 tokens per block took place on December 2. The cost of the BSW token at the time of the emission reduction was $ 1.07. After the reduction the price is now over $1.5 for BSW.\n\nConsidering the current BSW price and the upcoming launch of Biswap GameFi (22 - 29 December), in which users need to constantly buy BSW to participate, it is the right moment to take BSW to more potent levels.\n\nThe Biswap team offers to increase the value of the BSW token by decreasing the emission of BSW tokens from 26 tokens per block to 20 tokens per block. It means that the supply for BSW will decrease, meanwhile strengthening its value and positively influencing the price as the number of BSW tokens released to the market would be much lower.\n\nAs you know Biswappers, the improvement of the project is not possible without your feedback, support, and dynamic energy. Each one of you is the main navigator in the further rise of the global Biswap DEX in DeFi.\n\nIf we look back we will see how many great innovations, ideas, releases, and features have been implemented thanks to our common decisions and synergy created by the project and Biswap Community itself.\n\nFor this reason, Biswap needs your voice and support in taking this vital decision which will notably impact the advancement of BSW.\n\nAdvantages of the BSW Emission Reduction:\n\n- 5 184 000 tokens less will be released each month, which will positively affect the strengthening of BSW token price\n- More benefits for BSW Holders\n- Increase BSW value in DeFi\n- Greater demand for BSW\n- Higher position of BSW token in top crypto rankings\n\nAs you see, this decision will have a bright and positive impact on BSW and its holders. New utilities will be opened along with new lucrative possibilities for users of biswap.org!\n\nHere are the proposals:\n\nYou can vote for any of the following two options:\n\n🔥🔥🔥 Option 1: Make BSW Stronger \nReduce BSW Tokens Emission from 26 tokens per block to 20 tokens per block that will reduce emission by 5 184 000 tokens monthly\n\n❌ Option 2: No change \nLeave BSW Tokenomics unchanged that will not significantly impact the BSW token growth.\n\nTerms & Conditions\n\n1. The voting period is from 14/12/2021 to 16/12/2021\n2. If the number of votes is 51% or more for option “Make BSW Stronger”, the implementation date of token emission reduction, from 26 to 20 tokens per block, will be announced by the Biswap team after the voting completion. \n3.Despite the voting outcome, the allocation of 600 million BSW tokens in tokenomics will be distributed by the initial ratio:\n\nFarms / Launchpools: 80.7% per block \nReferral Program: 4.3% per block \nSAFU: 1% per block\n Team: 9% per block \nInvestment Fund: 5% per block\n\n4. Once voted, you will not be able to vote again.\n5. There is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens on the wallet and those locked in Farms & Launchpools. Your BSW tokens will stay with you.\n\n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 2428,
+      "blockNumber": 13471526,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x2c8f800aec051a5e67ef77ad8739a3acdd02c76d6fb08849d339505244aa7cd2",
+      "startTime": {
+        "timestamp": 1639490400
+      },
+      "endTime": {
+        "timestamp": 1639663200
+      },
+      "startTimestamp": 1639490400,
+      "endTimestamp": 1639663200,
+      "currentState": "closed",
+      "choices": [
+        "🔥🔥🔥 Make BSW Stronger",
+        "❌ No change"
+      ],
+      "results": [
+        {
+          "total": 12001526.0,
+          "choice": 0
+        },
+        {
+          "total": 707607.1,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 12001535.625981169,
+          "choice": 0
+        },
+        {
+          "total": 707607.2447918768,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OjB4N2NiMWJjN2FmYjE0ZmNjM2JiZjlmMjUxNjgyMTZlZWI0OTI4NjhmMmMwNDE0MzNkNWI0ZjNmYjgwZWI2NDU4MA==",
+      "id": "0x7cb1bc7afb14fcc3bbf9f25168216eeb492868f2c041433d5b4f3fb80eb64580",
+      "title": "Voting for Integration NFT (Earn), GameFi (Play to Earn), Strategic Partnerships | New Directions for Biswap! ",
+      "content": "The Biswap team constantly searches for new ways of advancement and analyses the DeFi industry. Via the precise evaluation, it is vivid that the market is moving in the prospect of such spheres: NFT (Earn), GameFi (Play to Earn), and Strategic Partnerships between strong projects. Those spheres have epic volumes and thousands of active users on Binance Smart Chain.\n\nThe team thoroughly monitors requests from the Biswap community and has received a great number of requests concerning the implementation of new directions which are highly popular in DeFi.\n\nEach one of you is the main navigator in the development of the global Biswap DEX. All your support inspires us to make aims real. Your active participation in the decision-making with Biswap like the Community Voting has shown incredible result: Binance Labs has officially announced the strategic investment in the improvement of Biswap!\n\nSuch outcomes of the synergy between the project and community when both support one idea motivates us to reach even higher peaks and we are extremely grateful for all of that!\n\nDue to the reason that together we look in the same direction and you support our decisions, we want to evolve in popular directions like NFT (Earn), GameFi (Play to Earn), and Strategic Partnerships.\n\nAdvantages of the Biswap evolvement in the popular directions:\n🌐 Powerful and greater Biswap ecosystem\n🌐 New levels and records in DeFi\n🌐 Strengthening of the BSW token\n🌐 Involvement of thousands of new users to Biswap DEX\n🌐 Lucrative opportunities for community\n🌐 Huge partnerships possibilities\n🌐 Greater volumes and statistics\n🌐 BSW token burnings\n\nThe Path of Implementing New Biswap Directions \nSuccessful releases require a substantial amount of resources. In order to release the prospective directions of NFT (Earn), GameFi (Earn to Play), and Strategic Partnerships in the Biswap ecosystem, it is necessary to affect the BSW tokenomics by redistributing 70 mln BSW tokens for those purposes.\n\nIn the meantime, 6 mln BSW tokens got used, during 5 months, out of 100 mln BSW tokens allocated for Transaction Fee Mining (Fee Return) in BSW tokenomics. We see that this amount is a lot for the Fee Return. By taking the dynamic speed of development of the DeFi sector into account, we offer: redistribute 70 mln BSW from the Transaction Fee Mining pool. \n\n📍This amount will be redistributed gradually over a substantial period.\n\nSo, 24 mln  BSW will be left for Fee Return after Biswap uses 70 mln to expand the ecosystem of the project and provide new products for Biswappers. The future depiction of Biswap tokenomics in favor of new Biswap directions only shows that modifications won’t negatively influence users’ earnings or opportunities on Biswap.\n\nThe BSW tokenomics could be modified in the following way:\n\nMax Supply: 700 000 000 BSW tokens\n\n600 mln  BSW tokens are allocated as follows:\n\n80.7% — Farms & Launchpools\n4.3 % — Referral Program\n5 % — Investment Fund\n1 % — SAFU (Security Asset Fund for Users)\n9 % — Team\n\n100 mln BSW tokens will be distributed:\n\n- 70 mln BSW for NFT (Earn), GameFi (Play to Earn), and Strategic Partnerships\n- 30 mln BSW for Transaction Fee Mining.\n \nThe rest of the Fee Return pool left after the changes in BSW tokenomics (24 mln BSW tokens) is a substantial amount that will continue to reward Biswappers, along with mighty NFT (Earn), GameFi (Play to Earn), and Strategic Partnerships releases implemented for further globalization of the Biswap DEX!\n\nHere are the proposals:\n\n🔥🔥🔥 Option 1: Move towards NFT, GameFi (Play to Earn) and new Strategic Partnerships \n\n80.7% - Farms & Launchpools\n4.3 % - Referral Program\n5 % - Investment Fund\n1% - SAFU (Security Asset Fund for Users)\n9% - Team\n\n100 mln BSW tokens from Fee Return will distributed:\n\n70 mln BSW for NFT (Earn), GameFi (Play to Earn) and Strategic Partnerships\n30 mln BSW for Transaction Fee Mining.\n\n❌ Option 2: Keep the tokenomics as it is:\n\n80.7% - Farms & Launchpools\n4.3 % - Referral Program\n5 % - Investment Fund\n1% - SAFU (Security Asset Fund for Users)\n9% - Team\n\n100 mln BSW tokens from Fee Return will be kept with no integration of new direction for Biswap.\n\nTerms & Conditions\n\nThe voting period is 5 (five) days\nThe choice that will accumulate more than 51% of votes or exactly 51% will win the voting.\nOnce voted, you will not be able to vote again.\nThere is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens on the wallet, and the ones that are locked in Farms & Launchpools. Your BSW tokens will stay with you.\nIf you are unable to vote on the Biswap Voting page, please vote on the snapshot.\nBSW tokens which have been staked in the AIRT, ZOON, PCT Launchpools do not participate in the voting.\n\n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xB9BcFBF87f02272a76b7387E268A857A33511bD1",
+      "totalVotes": 4467,
+      "blockNumber": 12112707,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/0x7cb1bc7afb14fcc3bbf9f25168216eeb492868f2c041433d5b4f3fb80eb64580",
+      "startTime": {
+        "timestamp": 1635260400
+      },
+      "endTime": {
+        "timestamp": 1635696000
+      },
+      "startTimestamp": 1635260400,
+      "endTimestamp": 1635696000,
+      "currentState": "closed",
+      "choices": [
+        "🔥🔥🔥 Integrate new directions",
+        "❌ No changes"
+      ],
+      "results": [
+        {
+          "total": 40630520.0,
+          "choice": 0
+        },
+        {
+          "total": 1506143.1,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 40630654.072722,
+          "choice": 0
+        },
+        {
+          "total": 1506142.9437056505,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Ymlzd2Fwb3JnZXRoOnNuYXBzaG90OnFteW1zaXRrcWlnaG52N29xd282cndkeHBibXFxZGNub3gzaGZ0eGdlbGFnZng=",
+      "id": "QmYMsitkqiGHnv7oQwo6rWdXpBMqQdCnoX3HfTxGeLAGFX",
+      "title": "New Opportunities for Biswap - Community Voting",
+      "content": "Since day one of the life of the project, the Biswap team has always been looking for new development opportunities for the project and for the community as a whole. Due to the fact that Biswap wants to become a benchmark for all the DEX platforms on the market, the team has to make decisions that will definitely help the project reach its goals. \n\nA lot of work has already been done and various achievements have already been achieved. And now it’s the time for another milestone for Biswap. It’s the time for change that will give a HUGE boost for the future of Biswap.  \n\nBiswap team is currently in talks with a huge crypto investment company that is willing to invest in the project and continuously assist in bringing Biswap to the new heights. This deal requires significant BSW token resources. \n\nDue to the fact that all the tokens are now distributed across the pre-defined pools, the management team of Biswap has to make the changes to the current tokenomics and create a separate pool for the Biswap investors. The only way to have this pool created is to derive a certain percentage from the existing pools. \n\n# What Are the Benefits for the Community? \n**The list of potential benefits our investor might bring is:**\n\n&#128525; Community expansion  \n&#128525; Brand awareness \n&#128525; More partnerships with well-known DeFi projects    \n&#128525; Token price growth \n&#128525; Worldwide exposure  \n&#128525; Support from the top players on the market  \n\n**Once we close the deal, Biswap will immediately disclose the name of the investor.**\n\nBiswap would not have been able to achieve such magnificent results without our community. The opinion of every user is extremely crucial to our team and our users have always been an integral part of the development of the project. \n\nGiven this vision, we cannot make such changes without the approval of our beloved family members. Hence, we invite every user of Biswap to join this community voting and support the team with its beneficial proposal. \n\n**Let’s help Biswap grow with a furious speed!**\n\n### **Here are the proposals:**\nYou can vote for any of the following two options: \n\n## 🔥🔥🔥 Option 1: Improve the tokenomics and help the project rapidly grow \n- 80.7% - Farms & Launchpools \n- 4.3 % - Referral Program  \n- 5 % - Investment Fund\n- 1% - SAFU (Security Asset Fund for Users) \n- 9% - Team  \n&nbsp;\n## ❌ Option 2: Keep the tokenomics as it is.  \n - 85.7% - Farms & Launchpools \n - 4.3 % - Referral Program  \n - 1% - SAFU (Security Asset Fund for Users) \n - 9% - Team  \n\n## Please note\nIn case the community approves our proposal, all the changes to the tokenomics will be made only after closing the deal with our potential investor.\n\n## Terms & Conditions \n- The voting period is 7 (seven) days.  \n- The choice that will accumulate more than 51% of votes or exactly 51% will win the voting.  \n- Once voted, you will not be able to vote again.  \n- There is no need to unstake your BSW tokens from Farms and/or Launchpools to vote. The system will automatically sum up all your tokens on the wallet, and the ones that are locked in Farms & Launchpools. Your BSW tokens will stay with you. \n",
+      "protocol": "biswaporgeth",
+      "adapter": "snapshot",
+      "proposer": "0xc6aF770101dA859d680E0829380748CCcD8F7984",
+      "totalVotes": 1135,
+      "blockNumber": 9886261,
+      "externalUrl": "https://snapshot.org/#/biswap-org.eth/proposal/QmYMsitkqiGHnv7oQwo6rWdXpBMqQdCnoX3HfTxGeLAGFX",
+      "startTime": {
+        "timestamp": 1628528400
+      },
+      "endTime": {
+        "timestamp": 1629133200
+      },
+      "startTimestamp": 1628528400,
+      "endTimestamp": 1629133200,
+      "currentState": "closed",
+      "choices": [
+        "🔥🔥 🔥 Improve the tokenomics",
+        "❌ No changes"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689959851894,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

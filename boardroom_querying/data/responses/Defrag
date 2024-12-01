@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6ZGVmcmFnOm9uY2hhaW46MzkyNjc3NTcwNzMzMDUxODQzNjgyMDQ0MDkzMjgyMTQxNzIxNTI0NzMwNjE3ODUwMjIxMzM2MzY5NDU4NjA0MzI3NzY1NDEzODEwODk=",
+      "id": "39267757073305184368204409328214172152473061785022133636945860432776541381089",
+      "title": "Migrating Liquidity To Arbitrum",
+      "content": "**TLDR;**\n\nDeFragDAO is proposing to bridge liquidity from Ethereum Mainnet to Arbitrum. The liquidity was raised from the minting of DeFragDAO’s Metamatician NFTs. This will enhance the DAOs ability to bootstrap liquidity for more NFT collections, which in turn will drive usage, and provide more passthrough revenue for the liquidity providers (Metamatician holders).\n\n**What is DeFrag?**\n\nDeFrag is a lending protocol where borrowers can use NFT assets as collateral to get instant loans. Borrowers tap into the liquidity provided by the underwriters to get instant loans without negotiating peer-to-peer loan terms. Underwriters pool liquidity to earn fees.\n\n**Introduction:**\n\nUp until now, the DeFrag team has used their own runway to bootstrap liquidity for Genesis Legions and most recently Smol Brains’ collection. We are live on app.defrag.fi, and have over 20 loan transactions that have tested and validated our protocol. It’s time to take the next step which is using the liquidity that we raised to help accelerate the growth of the protocol.\n\nDeFragDAO’s treasury will take an active role in voting alongside our community. Here’s why, when we initiated the minting of our Metamaticians, approximately a year ago, we did so with the assumption that market conditions would remain stronger for a longer period of time. That did not happen, we ended up minting 367 out of an expected 8000. We even encoded a DeFragDAO mint after the public got first dibs of 1600 Metamaticians which were to be used for encouraging builders and community members to support our mission.\n\nHere’s the most important part we got wrong, we set a quorum, the number of required participation votes to pass a proposal of 320. Essentially we need close to a 90% participation of votes to pass any proposal. To give you an example Uniswap requires a quorum of 40 million UNI tokens for an on-chain proposal to be voted through which at current circulation is roughly a 5% participation rate. As you can see, this is an unfortunate predicament we’re in.\n\n**The solution:**\n\nNot counting DeFragDAO’s treasury, there have been 367 Metamaticians minted, totaling approximately 222ETH. DeFragDAO will use its own runway to mint additional Metamaticians to increase voter participation. Any ETH that has been added by DeFragDAO’s treasury will be returned back to DeFragDAO’s treasury after the vote concludes. In addition to ETH being returned, we will also send roughly ~30% of ETH raised to cover liquidity we’ve self-funded till now with several other costs we’ve allocated from our own runway. Our goal is to maximize the liquidity our community provided to increase the growth of the protocol.\n\n**How This Will Work:**\n\nThe lending protocol will be deployed on Arbitrum therefore liquidity from mainnet will need to be bridged over. The best way to do this is to transfer ownership of the Metamatician NFT Smart Contract to a multisig wallet composed of 4 DeFrag Council Members with 3 of 4 signatures required to execute. This will be done after utilizing an interim DeFragDAO wallet: 0x5b39C3907Bd9db69B435A6cbf485915135FfFfd6 to reallocate liquidity for underwriting and ETH needed to be sent back to team treasury.\n\nOnce the proposal is passed and funds reallocated, the left-over underwriting liquidity will move to a multisig on L1 and then bridged over to DeFragDAOs multisig on L2 (0x1b197EB65dE2e868492c90A0f18bd708E18aaB57) which will be used to jump-start additional liquidity pools for other collections. All claimable protocol fees are being accrued and will in the future become available to Metamatician holders. We will continue to update you along the process.\n\n\nPrevious Snapshot vote is [here](https://snapshot.org/#/defragdao.eth/proposal/0x92c63b0af08a7c094f316a3521dfa7df2f2ef8f396d1a41e3d06e7d8a604354a).\n\n**Resources:**\n\n[Twitter](https://twitter.com/DeFragDAO)\n\n[Discord](https://discord.gg/jJs2gRSxsC)\n\n[Gitcoin](https://gitcoin.co/grants/5051/defrag)\n\n",
+      "protocol": "defrag",
+      "adapter": "onchain",
+      "proposer": "0x5b39C3907Bd9db69B435A6cbf485915135FfFfd6",
+      "totalVotes": 39,
+      "blockNumber": 16083043,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1669814219,
+      "endTimestamp": 1670092199,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 3.6900008e-16,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16106163
+          },
+          "event": "queued",
+          "timestamp": 1670093159,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16106170
+          },
+          "event": "executed",
+          "timestamp": 1670093267,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

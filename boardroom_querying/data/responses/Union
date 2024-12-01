@@ -1,0 +1,1030 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjoyNDI5NDM0Njc2NDI4MjYwNDAxNDM4Mzc2MjA2MjQ4OTE4OTExNTI0MjUzOTQ4NzU1OTMzODk5MTM2Mzc1MDQ3Nzk1MDQ1MTExMDY3Mw==",
+      "id": "24294346764282604014383762062489189115242539487559338991363750477950451110673",
+      "title": "UIP-016: Update Half Decay Point and Max Stake Parameters",
+      "content": "# Abstract\n\n- Set half decay point of the Mainnet Comptroller to 10,000.\n\n- Set half decay point of the Arbitrum Comptroller to 1,000.\n\n- Set half decay point of the Optimism Comptroller to 100,000.\n\n- Raise the max stake on Optimism to 50,000 DAI.\n\n# Specification\n\n- Set the half decay point of the Ethereum Mainnet Comptroller to 10,000\n\n- Set the half decay point of the Arbitrum Comptroller to 1,000\n\n- Set the half decay point of the Optimism Comptroller to 100,000\n\n- Raise the max stake on Optimism to 50,000 DAI.\n\n# Test Cases\n\nTests and simulations can be found here: [PR](https://github.com/unioncredit/UIPs/pull/25)\n\n# Implementation\n\nFor Mainnet:\n- Call [Comptroller](https://etherscan.io/address/0x216dE4089dCdD7B95BC34BdCe809669C788a9A5d).setHalfDecayPoint(\"10000\") to set the half decay point to 10,000.\n\nFor Arbitrum:\n- Call [Comptroller](https://arbiscan.io/address/0x641DD6258cb3E948121B10ee51594Dc2A8549fe1).setHalfDecayPoint(\"1000\") to set the half decay point to 1,000.\n\nFor Optimism:\n- Call [OpOwner](https://optimistic.etherscan.io/address/0x946A2C918F3D928B918C01D813644f27Bcd29D96).execute() to call [Comptroller](https://optimistic.etherscan.io/address/0x06a31efa04453C5F9C0A711Cdb96075308C9d6E3).setHalfDecayPoint(\"100000\") to set the half decay point to 100,000.\n- Call [OpOwner](https://optimistic.etherscan.io/address/0x946A2C918F3D928B918C01D813644f27Bcd29D96).execute() to call [UserManager](https://optimistic.etherscan.io/address/0x8E195D65b9932185Fcc76dB5144534e0f3597628).setMaxStakeAmount(\"50000000000000000000000\") to set max stake to 50,000 DAI.\n\n    ",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xCbD1c32A1b3961cC43868B8bae431Ab0dA65beEb",
+      "totalVotes": 3,
+      "blockNumber": 20237800,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1720152287,
+      "endTimestamp": 1720412819,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 100147080.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20230600
+          },
+          "event": "pending",
+          "timestamp": 1720065347,
+          "txHash": "0x242c40023f282434b9a1c2fb43ab8dcb79c2756236ae92d576d3061935d5fade"
+        },
+        {
+          "time": {
+            "blockNumber": 20322971
+          },
+          "event": "executed",
+          "timestamp": 1721179811,
+          "txHash": "0xaae711034ec9f6c6c21fe60d1a72774913911a011f76d9c56add525f9b8a762d"
+        },
+        {
+          "time": {
+            "blockNumber": 20262310
+          },
+          "event": "queued",
+          "timestamp": 1720447955,
+          "txHash": "0x3cd101229aa80bde430e6a4db0160927ff978b5dd16d5ad1430bf4da4e59ecab"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1720065359105,
+      "txHash": "0x242c40023f282434b9a1c2fb43ab8dcb79c2756236ae92d576d3061935d5fade",
+      "quorum": 39999997,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjo0ODgwMDQ0NTg5NTQyMTQwNDgxMDk2MTQ4NTk4NzIyMTYxNDE2NjYyOTM2OTQxMjIwNzk5ODk2Mjg2OTEzODMyNzEwMTU3ODk1OTIyMA==",
+      "id": "48800445895421404810961485987221614166629369412207998962869138327101578959220",
+      "title": "UIP-015: Union Safety Module",
+      "content": "# Abstract\n\nDeploy the Cozy Safety Module for UNION.\n\n# Specification\n\n- Deploying the Union Safety Module requires 3 steps\n\n1. Deploying the governance-controlled trigger contract\n1. Deploying the Safety Module\n1. Update the Safety Module metadata\n\n- Deploy the Union Rewards Manager requires 2 steps\n\n1. Deploying the rewards dripping model\n1. Deploying the rewards manager\n\n# Test Cases\n\nTests and simulations can be found [here](https://github.com/unioncredit/UIPs/pull/24)\n\n# Implementation\n- Deploy the governance-controlled trigger contract by calling CozyRouter.deployOwnableTrigger(address,(string,string,string,string),bytes32)\n- Deploy the Safety Module by calling CozyRouter.deploySafetyModule(address,address,((uint256,address)[],(address,address,bool)[],(uint64,uint64,uint64)),bytes32)\n- Update the Safety Module metadata by calling CozyRouter.updateSafetyModuleMetadata(address,address,(string,string,string,string))\n- Deploy the Drip Model for the Rewards Manager by calling CozyRouter.deployDripModelConstant(address,uint256,bytes32)\n- Deploy the Rewards Manager by calling CozyRouter.deployRewardsManager(address,address,(address,uint16)[],(address,address)[],bytes32)\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xCbD1c32A1b3961cC43868B8bae431Ab0dA65beEb",
+      "totalVotes": 1,
+      "blockNumber": 20138555,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1718954339,
+      "endTimestamp": 1719215327,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 100000000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20164456
+          },
+          "event": "queued",
+          "timestamp": 1719267287,
+          "txHash": "0xaf9f8bb344ceea1f971e79171eb3542e3b087b32590f06a6aa2a8f339618f7d5"
+        },
+        {
+          "time": {
+            "blockNumber": 20173404
+          },
+          "event": "executed",
+          "timestamp": 1719375275,
+          "txHash": "0x0799b89524bd9d1c1599eea3237a337a7d7e9891f133f9a44bbae5cf210c74fc"
+        },
+        {
+          "time": {
+            "blockNumber": 20131355
+          },
+          "event": "pending",
+          "timestamp": 1718867363,
+          "txHash": "0xd0e2efce31c155a460903c5e1df30d8fc77d4f3711fc8dc1d00e7d7db0240c9c"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718868128521,
+      "txHash": "0xd0e2efce31c155a460903c5e1df30d8fc77d4f3711fc8dc1d00e7d7db0240c9c",
+      "quorum": 39999997,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjo2NjI3Njc2NzI0NzA4NDE4NTM3NDg3OTQxNTE0ODkzNjE2MzExNzcyNTgzNDc5MjEzNjcxNjU2Mzg4NDIwMjkyMTA0Mjc2ODEzOTIzNQ==",
+      "id": "66276767247084185374879415148936163117725834792136716563884202921042768139235",
+      "title": "UIP-015: Union Safety Module",
+      "content": "# Abstract\n\n\n# Specification\n\n- Deploying the Union Safety Module requires 3 transactions to the CozyRouter contract (0xC58F8634E085243CC661b1623B3bC3224D80B439)\n\n1. Deploying the governance-controlled trigger contract\n1. Deploying the Safety Module\n1. Update the Safety Module metadata\n\n# Test Cases\n\nTests and simulations can be found [here](https://github.com/unioncredit/UIPs/pull/24)\n\n# Implementation\n- Deploying the governance-controlled trigger contract by calling CozyRouter.deployOwnableTrigger(address,(string,string,string,string),bytes32)\n- Deploying the Safety Module by calling CozyRouter.deploySafetyModule(address,address,((uint256,address)[],(address,address,bool)[],(uint64,uint64,uint64)),bytes32)\n- Update the Safety Module metadata by calling CozyRouter.updateSafetyModuleMetadata(address,address,(string,string,string,string))\n\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xCbD1c32A1b3961cC43868B8bae431Ab0dA65beEb",
+      "totalVotes": 1,
+      "blockNumber": 20076916,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1718209403,
+      "endTimestamp": 1718470463,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 34065.99,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20069716
+          },
+          "event": "pending",
+          "timestamp": 1718122535,
+          "txHash": "0x70c13157beab420bb7f9d579cea2d1dc53c586ea1c73c8f0641059dd0fa7ca5c"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718123047383,
+      "txHash": "0x70c13157beab420bb7f9d579cea2d1dc53c586ea1c73c8f0641059dd0fa7ca5c",
+      "quorum": 39999997,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjozNDk3ODAyMDA4MzMwMjQ4Nzk4MjMwODI3OTk2NTQ4NTM2OTEwNTgzMDY4Mjk2OTY3NjU5NDY5Mjg5OTEzOTQxMjQ1MTA3OTU1OTgxNw==",
+      "id": "34978020083302487982308279965485369105830682969676594692899139412451079559817",
+      "title": "UIP-014: Recognized Delegate Program",
+      "content": "# Abstract\n\nWe propose implementing a recognized delegate program to distribute UNION tokens to active delegates and those who delegate. \n\n# Specification\n\n- Invoke the Treasury.grantToken() function to send 900,000 Union tokens to the [multisig wallet](https://etherscan.io/address/0xB869146C2d215B359E875aab583dA3F54440f278).\n\n# Test Cases\n\nTests and simulations can be found here: [PR](https://github.com/unioncredit/UIPs/pull/23)\n\n# Implementation\n\nCall Treasury.grantToken() to send 900,000 Union tokens to the [multisig wallet](https://etherscan.io/address/0xB869146C2d215B359E875aab583dA3F54440f278).\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xCbD1c32A1b3961cC43868B8bae431Ab0dA65beEb",
+      "totalVotes": 12,
+      "blockNumber": 19744332,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1714192595,
+      "endTimestamp": 1714453643,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 100364816.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19822249
+          },
+          "event": "executed",
+          "timestamp": 1715133935,
+          "txHash": "0x0239c9e08ff7726a235cff469b08045915893b5dad637b484f2ba43658b5a775"
+        },
+        {
+          "time": {
+            "blockNumber": 19809587
+          },
+          "event": "queued",
+          "timestamp": 1714980935,
+          "txHash": "0xcdccae121b80b4387f13fc91c3d09e308eaa0cb37cfe7da64f695caaf4bec211"
+        },
+        {
+          "time": {
+            "blockNumber": 19737132
+          },
+          "event": "pending",
+          "timestamp": 1714105451,
+          "txHash": "0x50910bb88658d681b12bbdd47a96ddc20ea80b765fa422fc196efec5e1187f4e"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 100364816.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1714107319332,
+      "txHash": "0x50910bb88658d681b12bbdd47a96ddc20ea80b765fa422fc196efec5e1187f4e",
+      "quorum": 39999997,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjo5OTE2MjI2OTM1ODIxNzExOTk1MDE0MDExMTY0NzIyMTAwMzAxMDA3OTI1MDM4MzIzMzU2NzI4Nzk2NDk5MzQ4OTAzOTA1OTE5NDE4",
+      "id": "9916226935821711995014011164722100301007925038323356728796499348903905919418",
+      "title": "UIP-013: Update Half Decay Point and Max Stake Parameters",
+      "content": "# Abstract\n\n- Set half decay point of the Mainnet Comptroller to 25,000.\n\n- Set half decay point of the Arbitrum Comptroller to 25,000.\n\n- Raise the max stake on Optimism to 25,000 DAI.\n\n# Motivation\n\nNow that v2 is insured it doesn't make sense to continue to over incentivize TVL on v1. \n\n# Specification\n\n- Set the half decay point of the Arbitrum Comptroller to 25,000\n\n- Set the half decay point of the Ethereum Mainnet Comptroller to 25,000\n\n- Raise the max stake on Optimism to 25,000 DAI.\n\n# Test Cases\n\nTests and simulations can be found here: [PR](https://github.com/unioncredit/UIPs/pull/22)\n\n# Implementation\n\nFor Mainnet:\n- Call [Comptroller](https://etherscan.io/address/0x216dE4089dCdD7B95BC34BdCe809669C788a9A5d).setHalfDecayPoint(\"25000\") to set the half decay point to 25,000.\n\nFor Arbitrum\n- Call [Comptroller](https://arbiscan.io/address/0x641DD6258cb3E948121B10ee51594Dc2A8549fe1).setHalfDecayPoint(\"25000\") to set the half decay point to 25,000.\n\nFor Optimism\n- Call [OpOwner](https://optimistic.etherscan.io/address/0x946A2C918F3D928B918C01D813644f27Bcd29D96).execute() to call [UserManager](https://optimistic.etherscan.io/address/0x8E195D65b9932185Fcc76dB5144534e0f3597628).setMaxStakeAmount(\"25000000000000000000000\") to set max stake to 25,000 DAI.\n\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xCbD1c32A1b3961cC43868B8bae431Ab0dA65beEb",
+      "totalVotes": 1,
+      "blockNumber": 19282971,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1708602707,
+      "endTimestamp": 1708863803,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 100000000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19275771
+          },
+          "event": "pending",
+          "timestamp": 1708515335,
+          "txHash": "0x85e1ec379141f380aef25b752c061603fe464a0aee30bdc010015f3715657b12"
+        },
+        {
+          "time": {
+            "blockNumber": 19311434
+          },
+          "event": "queued",
+          "timestamp": 1708946771,
+          "txHash": "0xd07864f020d7bf1b2ca305575111bfc9b0043fadb885167e49e08584a12ccb38"
+        },
+        {
+          "time": {
+            "blockNumber": 19319528
+          },
+          "event": "executed",
+          "timestamp": 1709044607,
+          "txHash": "0x626c5c247a782c5c55ddd2d0a32b69915494cce40dbcd3d774335d95909b453b"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708515695325,
+      "txHash": "0x85e1ec379141f380aef25b752c061603fe464a0aee30bdc010015f3715657b12",
+      "quorum": 39999997,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjo2OTIyNTkwMzgxNjU4MjcyODAyMDk1NTMzMDU4NzA5ODgxODk4OTU1OTQ0ODc0ODI5OTg0MDIwNjk5NTQ4OTg5NDA1MzIzNTg2NzUyOA==",
+      "id": "69225903816582728020955330587098818989559448748299840206995489894053235867528",
+      "title": "UIP-012 Update Arbitrum Dripping Schedule",
+      "content": "# Abstract\n    \n    Update Arbitrum dripping schedule to send another 1,296,000 UNION tokens to Arbitrum.\n    \n    # Motivation\n    \n    This proposal aims to resolve the issue identified in UIP-008, which was intended to update the Union dripping schedule for Arbitrum. The problem with UIP-008 was that it proposed dripping a total of 1,296,000 UNION to Arbitrum. However, while updating Arbitrum's existing dripping schedule, UIP-008 mistakenly set the total dripping amount to 1,296,000 without accounting for the amount previously dripped. This error caused the Arbitrum dripping to stop, as the previous dripped amount was already greater than the newly proposed amount. To rectify this, we propose changing the total dripping amount to the sum of the previously dripped amount (2,400,000) and the newly proposed amount (1,296,000), bringing the total to 3,696,000.\n    \n    # Specification\n    \n    - Invoke the Treasury.editSchedule() function to modify the dripping schedule for Arbitrum. Set dripStart to the block number at which UIP-008 was executed. The dripRate should be set to 1 UNION per block. Specify the target as the ArbConnector (address: 0x307ED81138cA91637E432DbaBaC6E3A42699032a). Set the total dripping amount to be 3,696,000 UNION.\n    \n    # Test Cases\n    \n    Tests and simulations can be found here: PR\n    \n    # Implementation\n    \n    Call Treasury.editSchedule() to update the dripping schedule for the Arbitrum.\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0x7a0C61EdD8b5c0c5C1437AEb571d7DDbF8022Be4",
+      "totalVotes": 3,
+      "blockNumber": 19067584,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1705991171,
+      "endTimestamp": 1706252795,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 58036504.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19096484
+          },
+          "event": "queued",
+          "timestamp": 1706341163,
+          "txHash": "0xd63abb0818c0e12dc724f38b9a9d42eae2788f626f7c818448be86ede9a19184"
+        },
+        {
+          "time": {
+            "blockNumber": 19116518
+          },
+          "event": "executed",
+          "timestamp": 1706583839,
+          "txHash": "0x1030712822b4b03fce7477ce1c90bbfb317fa97399a999ee93c84fe67d8b49c6"
+        },
+        {
+          "time": {
+            "blockNumber": 19060384
+          },
+          "event": "pending",
+          "timestamp": 1705903547,
+          "txHash": "0x0b7eb2d476468190f39d64821e85616ba77af01ea483dbdc80f8926c63687720"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705904312014,
+      "txHash": "0x0b7eb2d476468190f39d64821e85616ba77af01ea483dbdc80f8926c63687720",
+      "quorum": 39999997,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjozNDkyMTgyMTAwNTkzNDk4MTIwNTY0OTM5MTY1OTI3MDEwNjc3MDU4OTc2OTI4MjgwOTIwNDQyMjQ5NDg4Nzg4NTUwNDYyNTEzNTE2NA==",
+      "id": "34921821005934981205649391659270106770589769282809204422494887885504625135164",
+      "title": "UIP-011: Enable Transferability of the UNION Token",
+      "content": "# Abstract\n\n- Disable the whitelist of the UNION token to enable the transferability on Mainnet, Arbitrum, and Optimism.\n\n# Specification\n\n- Enable the transferability on Mainnet by calling UnionToken.disableWhitelist().\n- Enable the transferability on Arbitrum by calling ArbUnion.disableWhitelist().\n- Enable transferability on Optimism by calling OpUnion.disableWhitelist().\n\n# Implementation\n\nFor Mainnet:\n- Call [UnionToken.disableWhitelist()](https://etherscan.io/address/0x5Dfe42eEA70a3e6f93EE54eD9C321aF07A85535C#writeContract) from the Timelock.\n\nFor Arbitrum:\n- Send cross-chain transaction to [ArbUnion.disableWhitelist()](https://arbiscan.io/address/0x6DBDe0E7e563E34A53B1130D6B779ec8eD34B4B9#writeContract).\n\nFor Optimism:\n- Send cross-chain transaction to [OpUnion.disableWhitelist()](https://optimistic.etherscan.io/address/0xB025ee78b54B5348BD638Fe4a6D77Ec2F813f4f9#writeContract).\n\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xFEBdeEdA29BCc2bBD89e7318F5791D172c5e45fe",
+      "totalVotes": 9,
+      "blockNumber": 18671288,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1701188639,
+      "endTimestamp": 1701449711,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 91951950.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18664088
+          },
+          "event": "pending",
+          "timestamp": 1701101495,
+          "txHash": "0x05bfe1bdcabfb0a4cbf8b300364cbbd8c96c253a2ce6405df8d319f14fb0cf8e"
+        },
+        {
+          "time": {
+            "blockNumber": 18694109
+          },
+          "event": "queued",
+          "timestamp": 1701464459,
+          "txHash": "0x597d335f207bf041a6851f2416f6df85db963ee5b2d4067ee2f6542ebc8e7628"
+        },
+        {
+          "time": {
+            "blockNumber": 18712770
+          },
+          "event": "executed",
+          "timestamp": 1701690119,
+          "txHash": "0x6b45ffcf49f8030a8cc4342dd0973e0a04ed4310411ddf35d18ed82a33ecb2ce"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701102114269,
+      "txHash": "0x05bfe1bdcabfb0a4cbf8b300364cbbd8c96c253a2ce6405df8d319f14fb0cf8e",
+      "quorum": 39999997,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjo3MDc2MzA2NjA0NTI5NTg0NDY0MjUzMTY3MDEzNTMxMDUwNTQxMTUyNDA5OTI0NzM0OTI0MTgwNzkzNzU0MjgwNDY0NTY4NTY1NDE0Mw==",
+      "id": "70763066045295844642531670135310505411524099247349241807937542804645685654143",
+      "title": "UIP-010: Change the borrow rate on Optimism",
+      "content": "# Abstract\n\n - Change the borrow rate to 5% on Optimism\n\n# Specification\n\n - Call FixedInterestRateModel.setInterestRate() to change borrow rate to 5% on Optimism. \n\n# Implementations\n\nFor Optimism:\n- Send the encoded transactions to the [Optimism bridge](https://etherscan.io/address/0x25ace71c97B33Cc4729CF772ae268934F7ab5fA1) to call the [OpOwner](https://optimistic.etherscan.io/address/0x946A2C918F3D928B918C01D813644f27Bcd29D96) on Optimism, which further calls [FixedInterestRateModel](https://optimistic.etherscan.io/address/0x206b0053F2435abE8e2bF974aCBfC37E8F98b0a9).setInterestRate(1585489599) on Optimism.\n\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xd7e233D06811e502aC071128B221CF29f7DD8360",
+      "totalVotes": 4,
+      "blockNumber": 18252031,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1696119215,
+      "endTimestamp": 1696379963,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 100176256.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18285484
+          },
+          "event": "queued",
+          "timestamp": 1696523075,
+          "txHash": "0x54612eb4a5f4a9ae25dd024cba5822e3be2f2aa7ff6cba25fda98d528c6d56f0"
+        },
+        {
+          "time": {
+            "blockNumber": 18303861
+          },
+          "event": "executed",
+          "timestamp": 1696745123,
+          "txHash": "0x041e31b3c74a2c683e929eeaab6fe1113c39d760086ee2197534e0ffbe87bffe"
+        },
+        {
+          "time": {
+            "blockNumber": 18244831
+          },
+          "event": "pending",
+          "timestamp": 1696032323,
+          "txHash": "0xda49ccc193543dc9d6d009b535d0341ba1fe80077bb78e32546fbeada2883b5a"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 100176256.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696088410194,
+      "txHash": "0xda49ccc193543dc9d6d009b535d0341ba1fe80077bb78e32546fbeada2883b5a",
+      "quorum": 39999997,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjo3NTQ0MTYzNTAwNDA5OTY4MjcyNDA4MDMzMzMzMTkyOTMzNDkyNzc2ODQ1MzIzOTI1NTA0NDQzMDg1MzQ3MDAxNzYwNDk3MjY3ODg3Mw==",
+      "id": "75441635004099682724080333331929334927768453239255044430853470017604972678873",
+      "title": "UIP-009: Change Optimism reward schedule",
+      "content": "# Abstract\n\n- Change Optimism drip schedule to 1 UNION for 12 months\n\n# Motivation\n\nWe propose to continue a 1 UNION per block drip for the next 12 months to the users of Union on Optimism.\n\n# Specification\n\n- Call Treasury.editSchedule() to change the dripping schedule for Optimism. Set the dripStart to be the block number when executed, dripRate to be 1 ether, target to be OpConnector ([0xF5690129Bf7AD35358Eb2304f4F5B10E0a9B9d65](https://etherscan.io/address/0xF5690129Bf7AD35358Eb2304f4F5B10E0a9B9d65)), and amount to be 2628000\n\n# Test Cases\n\nTests and simulations can be found here: [PR](https://github.com/unioncredit/UIPs/pull/18)\n\n# Implementation\n\nFor Mainnet:\n- Call [Treasury](https://etherscan.io/address/0x6DBDe0E7e563E34A53B1130D6B779ec8eD34B4B9).editSchedule() to update the dripping schedule for the Optimism.\n\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0x7a0C61EdD8b5c0c5C1437AEb571d7DDbF8022Be4",
+      "totalVotes": 5,
+      "blockNumber": 17482856,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1686802535,
+      "endTimestamp": 1687064519,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 110200096.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17475656
+          },
+          "event": "pending",
+          "timestamp": 1686714947,
+          "txHash": "0x0f0a471bb851f19161b888e2ff35f37fc8d17b703ca0c34048ff7efa87bed98c"
+        },
+        {
+          "time": {
+            "blockNumber": 17511969
+          },
+          "event": "queued",
+          "timestamp": 1687155611,
+          "txHash": "0x5df4e63dc8827c7b4e194b76678ce20a8eb57055a8511e0e5473e2cdb550a3b3"
+        },
+        {
+          "time": {
+            "blockNumber": 17521452
+          },
+          "event": "executed",
+          "timestamp": 1687270667,
+          "txHash": "0x407e472fd4d6714578e348ec06c9e7a25a44ee55f2b033150de91552d2991abc"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686715142136,
+      "txHash": "0x0f0a471bb851f19161b888e2ff35f37fc8d17b703ca0c34048ff7efa87bed98c",
+      "quorum": 39999997,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjo5ODU2NzY0MTQ3MjMwMjQ1MjU0NTc1MDQwOTE5NjU4NzgxMzM3MTA4MzQxMDc5OTc2MDc2OTQ1OTQwMTI0MTQ4MDgxMjI1NDgxMjk5MA==",
+      "id": "98567641472302452545750409196587813371083410799760769459401241480812254812990",
+      "title": "UIP-008: Change Arbitrum dripping schedule and update half decay point of the Comptroller",
+      "content": "# Abstract\n\n- Drip of 1 UNION for 6 months to the Comptroller on Arbitrum.\n\n- Set half decay point of the Arbitrum Comptroller to 250,000.\n\n# Motivation\n\nAs there is not yet a v2 deployment on Arbitrum, we propose to continue a 1 UNION per block drip for the next 6 months to the users of Union on Arbitrum. At the end of the 6 months we can revisit the question, as it seems likely there will either be an Arbitrum v2 deployment or everyone will have migrated to Union v2 on Optimism.\n\nWe also propose lowering the half-decay point to 250k. Now that v2 is insured it doesn't make sense to continue to over incentivize TVL on v1. \n\n# Specification\n\n- Call Treasury.editSchedule() to change the dripping schedule for Arbitrum. Set the dripStart to be the block number when executed, dripRate to be 1 ether, target to be ArbConnector (0x307ED81138cA91637E432DbaBaC6E3A42699032a), and amount to be 1,296,000\n\n- Set the half decay point of the Arbitrum Comptroller to 250,000\n\n# Test Cases\n\nTests and simulations can be found here: [PR](https://github.com/unioncredit/UIPs/pull/17)\n\n# Implementation\n\nFor Mainnet:\n- Call [Treasury](https://etherscan.io/address/0x6DBDe0E7e563E34A53B1130D6B779ec8eD34B4B9).editSchedule() to update the dripping schedule for the Arbitrum.\n\nFor Arbitrum\n- Call [Comptroller](https://arbiscan.io/address/0x641DD6258cb3E948121B10ee51594Dc2A8549fe1).setHalfDecayPoint(\"250000\") to set the half decay point to 250,000.\n\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xCbD1c32A1b3961cC43868B8bae431Ab0dA65beEb",
+      "totalVotes": 2,
+      "blockNumber": 17477087,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1686732371,
+      "endTimestamp": 1686994739,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 100027270.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17469887
+          },
+          "event": "pending",
+          "timestamp": 1686644939,
+          "txHash": "0x16895750eb874f38659e82f1b52cc439949ffbc18627cf962e2c775dc7dce1c8"
+        },
+        {
+          "time": {
+            "blockNumber": 17511967
+          },
+          "event": "queued",
+          "timestamp": 1687155587,
+          "txHash": "0x95f553819aa51ac0a55beb973abef612d4baceca5fef2acfeb2c00e4ef6f7c2d"
+        },
+        {
+          "time": {
+            "blockNumber": 17521463
+          },
+          "event": "executed",
+          "timestamp": 1687270799,
+          "txHash": "0x39585740aa3bcefbb2c4b4ad86216ca9bd9c75845cc1a367fa68864fa1756ec6"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686644997548,
+      "txHash": "0x16895750eb874f38659e82f1b52cc439949ffbc18627cf962e2c775dc7dce1c8",
+      "quorum": 39999997,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjo3MDk4MDQ4MDMxMzYzODc0NzgwMDU1MzkzNTgzMTUzODQyOTYxNzU4MzM2Mjc3NDY2NzMxMTI4ODY4Mjg1NTU4NDg1ODAzOTE1NzM4NQ==",
+      "id": "70980480313638747800553935831538429617583362774667311288682855584858039157385",
+      "title": "UIP-007: Adapt to PoS blocktime",
+      "content": "# Abstract\n\n- Change the interest rate per block from 41668836919 to 38051750380\n- Change overdue period blocks from 197250 to 216000\n\n# Motivation\n\nNow that PoS has passed and enough time passed to get an accurate Blocks per year. It's necessary to adjust.\n\n# Specification\n\n- To calculate the new interest rate per block, we use the PoS block time of approximately 12 seconds, and the targeted 10% interest rate per annum, which is 1e17. Therefore, the calculation would be 1e17 / 2,628,000, which results in 38051750380\n- To calculate the number of new overdue blocks, we use the PoS block time of approximately 12 seconds and a 30-day overdue period. Therefore, the calculation would be (3600 * 24 * 30) / 12, which results in 216,000\n\n# Test Cases\n\nTests and simulations can be found here: [PR](https://github.com/unioncredit/UIPs/pull/15)\n\n# Implementation\n\nFor Mainnet:\n- Call [FixedInterestRateModel](https://etherscan.io/address/0xfDd998ce04AB8f48B473cE4C9af1C2F8F8E264Eb).setInterestRate(\"38051750380\") to update the interest rate per block\n- Call [UToken](https://etherscan.io/address/0x954F20DF58347b71bbC10c94827bE9EbC8706887).setOverdueBlocks(\"216000\") to change the loan overdue period\n\nFor Arbitrum\n- Call [FixedInterestRateModel](https://arbiscan.io/address/0x051e2514E3fE8da88CaA2951442a21042BCe99Ea).setInterestRate(\"38051750380\") to update the interest rate per block\n- Call [UToken](https://arbiscan.io/address/0x954F20DF58347b71bbC10c94827bE9EbC8706887).setOverdueBlocks(\"216000\") to change the loan overdue period\n\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xCbD1c32A1b3961cC43868B8bae431Ab0dA65beEb",
+      "totalVotes": 8,
+      "blockNumber": 16752224,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1677898199,
+      "endTimestamp": 1678137791,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 100234664.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16782663
+          },
+          "event": "queued",
+          "timestamp": 1678267859,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16797697
+          },
+          "event": "executed",
+          "timestamp": 1678450907,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjoxMTA3MDQ0MzczMDI1MjA5NTQ2MzIyOTM1Mjg4MDk3MjcwMzQzNjgwNjEwNzUyMjg1MDQyNjM0ODk3NzQzMjc4Mzk2NDU3NjA1OTE3MjQ=",
+      "id": "110704437302520954632293528809727034368061075228504263489774327839645760591724",
+      "title": "UIP-006: Dropping the Effective Number from 3 to 1",
+      "content": "# Abstract\n\nRight now, the number of vouches required to become a Union member is 3. This requirement is called the “effective number.” This proposal will change the effective number from 3 to 1. It's important for protocol health for the global average number of edges per node to be >1. With this proposal we plan to drop the hard requirement to 1 and monitor where the actual averages end up. \n\n# Motivation\n\nThe goal of changing the effective number is to facilitate user interaction with the protocol. Dropping the effective number affects two aspects of user interaction: onboarding and follow-through.\n- Streamline onboarding: Dropping the effective number to 1 allows for current members to onboard their community members quickly, and promotes local network growth.\n- Increase membership follow-through: A current issue with the effective number being 3 is that if someone is missing one or two of the vouches required to become a member, they are less likely to follow through on membership completion. This problem also gates people from vouching for others. Reducing the amount of vouches required to become a member will result in a higher rate of membership completion.\n\n# Specification\n\nChange the 'effectiveNumber' in [SumOfTrust](https://github.com/unioncredit/union-v1-contracts/blob/master/contracts/user/SumOfTrust.sol) from '3' to '1'.\n\n# Backwards Compatibility\n\nExisting Union members with 3 or more vouches should still work as previously.\n\n# Test Cases\n\nTests and simulations can be found here: [Link to PR](https://github.com/unioncredit/UIPs/pull/12)\n\n# Implementation\n\nSet the 'effectiveNumber' of [SumOfTrust](https://github.com/unioncredit/union-v1-contracts/blob/master/contracts/user/SumOfTrust.sol)  to '1' by calling 'SumOfTrust.setEffectiveNumber(1)'\nLink to PR: https://github.com/unioncredit/UIPs/pull/12\n\n# Security Considerations\n\nOne of the implications is that if only one member is vouching for you, and someone else is borrowing against that person’s vouch, your total amount of available credit could go down to 0. The possibility of a member’s available credit being dependent on only one credit provider should encourage the user to onboard more members as underwriters, and incentivize users to not rely on a sole credit provider.\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xCbD1c32A1b3961cC43868B8bae431Ab0dA65beEb",
+      "totalVotes": 8,
+      "blockNumber": 15177342,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1658290571,
+      "endTimestamp": 1658554343,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 118010216.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15197522
+          },
+          "event": "queued",
+          "timestamp": 1658560225,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15210168
+          },
+          "event": "executed",
+          "timestamp": 1658732077,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 118010216.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjo3NDM0NTYxNjQyODA0ODUwMjc0MzY1OTMyODAyOTIxMzE5MDcwNDk5MzUzODU3NjE4MjY3MDcxODkxODU3MjY4MzY4OTA5ODQyNzE2Ng==",
+      "id": "74345616428048502743659328029213190704993538576182670718918572683689098427166",
+      "title": "UIP-005: Add Aave V3 Support on Arbitrum",
+      "content": "## Intro\nThis is a change to the protocol, and therefore will go through the UIP process.\n\n## Motivation\nCurrently, all unlent DAI in Union on Arbitrum is stored in a puretoken DAI adapter. Now that aave V3 has been deployed to Arbitrum, an adapter can be written to support depositing a portion of deposited DAI in aave V3 to earn interest.\n\n## Proposal / Solution\nCreate an AssetManager Adapter that works with Aave V3 to deposit a portion of unlent DAI to Aave V3 on Arbitrum to earn interest and rewards.\n\n### Main functions:\n- deposit() - deposit DAI in AssetManager to Aave to earn interest.\n- withdraw() - withdraw DAI from Aave and move to AssetManager.\n- claimRewards() - get the rewarded Aave token.\n\n### Parameters\n- Set AaveV3Adapter floor to 10,000 DAI\n- Set AaveV3Adapter ceiling to 50,000 DAI\n\n## Defining Success\nBe able to deposit to / withdraw from Aave, and be able to claim rewards token from Aave on Arbitrum.\n\n## Backwards Compatibility\nNo issues with backward compatibility for this proposal.\n\n## Test Cases\nTests and simulations can be found here: [Link to PR](https://github.com/unioncredit/union-v1-contracts/pull/106)\n\n## Implementation\n\n### Before creating the proposal:\n\n- Create and deploy AaveV3Adapter on Arbitrum\n- Set AaveV3Adapter floor to 10,000 DAI\n- Set AaveV3Adapter ceiling to 50,000 DAI\n- Set AaveV3Adapter mapTokenToAToken\n\n### In the proposal:\n\n- Call AssetManager.addAdapter() to add AaveV3Adapter.\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xCbD1c32A1b3961cC43868B8bae431Ab0dA65beEb",
+      "totalVotes": 11,
+      "blockNumber": 15063953,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1656776186,
+      "endTimestamp": 1657039673,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 68064624.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15087846
+          },
+          "event": "queued",
+          "timestamp": 1657095713,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15094875
+          },
+          "event": "executed",
+          "timestamp": 1657188796,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 68064624.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjoxMDE4OTIwNjY0MzY5NzQyMTAwNjA5OTg1OTM2ODk5NzM5MzY0OTQwMTY1ODk0MjA0MTI2NzQ3MjgwNzc0NzE3MzA1NjU3Njc3MTM5NTk=",
+      "id": "101892066436974210060998593689973936494016589420412674728077471730565767713959",
+      "title": "UIP-004: Drip UNION to Arbitrum comptroller",
+      "content": "## Abstract\nIn order to support Union on Arbitrum, UNION token will need to be distributed to participants. The L1 treasury will drip UNION token to the Arbitrum comptroller. An intermediary contract (ArbConnector) is added to connect L1 treasury to the Union Arbitrum comptroller.\n\n## Motivation\nProtocol participants will need to be able to claim UNION on the Arbitrum One Network. Therefore, the Union protocol comptroller on the Arbitrum network needs to have UNION continuously dripped over.\n\n## Specification\nAdd ArbConnector contract to be a new dripping target of the Treasury, and set the dripping rate to be 1 UNION per block in a total amount of 2.4M UNION tokens, which will last for 1 year at the current Ethereum block minting rate (13.14 seconds per block)\n\n## Rationale\nAdding a treasury on L2 was considered, but there was no identifiable upside for going this route. Adding a comptroller provided the same benefits with lower effort.\n\n## Backwards Compatibility\nNo issues with backwards compatibility for this proposal\n\n## Test Cases\nTests and simulations can be found here: [Link to PR](https://github.com/unioncredit/union-v1-proposals/pull/9)\n\n## Implementation\nCall the function 'addSchedule(uint256,uint256,address,uint256)' of the Treasury contract ([0x6DBDe0E7e563E34A53B1130D6B779ec8eD34B4B9](https://etherscan.io/address/0x6DBDe0E7e563E34A53B1130D6B779ec8eD34B4B9#code)) with the following parameters:\n- drip start block: the block when the proposal is created\n- drip rate: 1 UNION per block\n- target address: arbConnector ([0x307ED81138cA91637E432DbaBaC6E3A42699032a](https://etherscan.io/address/0x307ED81138cA91637E432DbaBaC6E3A42699032a))\n- total amount: 2.4M UNION\n- PR link: https://github.com/unioncredit/union-v1-proposals/pull/9\n\n## Security Considerations\n- ArbConnector contract should work correctly to bridge any wrapped UNION on its balance to the Arbitrum comptroller.\n- Any wrapped UNION in ArbConnector cannot be sent to any addresses other than the Arbitrum bridge.\n- Wrapped UNION in ArbConnector can be withdrawn by the owner in case of emergency (by calling 'claimTokens(address recipient)')\n\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0xCbD1c32A1b3961cC43868B8bae431Ab0dA65beEb",
+      "totalVotes": 6,
+      "blockNumber": 14499381,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1648803207,
+      "endTimestamp": 1649069557,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 108036130.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14524288
+          },
+          "event": "queued",
+          "timestamp": 1649139928,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14530900
+          },
+          "event": "executed",
+          "timestamp": 1649228617,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 108036130.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dW5pb246b25jaGFpbjo5NDE1NzE3NDI3Mzc0Njk1OTcxOTgwODE3MjU4OTcwMzM2NDc0ODE4ODQ2NDI5MzU5MDQ3NzQyMjI1MjM3NzgwMjQwNjM1NDYyMjQ1NQ==",
+      "id": "94157174273746959719808172589703364748188464293590477422252377802406354622455",
+      "title": "UIP-003: Transfer treasury's ownership to Timelock",
+      "content": "# Simple Summary\n\nIn short, as part of progressive decentralization, this proposal transfers ownership of the treasury from Admin key to DAO governance. In order to execute https://unioncredit.slite.com/app/docs/LKtqwvcEiQDocE, the treasury's ownership must belong to Timelock. This proposal executes the transfer of ownership.\n\n# Motivation\n\nIncreasing decentralization is the primary motivation. In addition, to execute UIP 0004, setting up a UNION drip from Mainnet to Arbitrum One, treasury ownership must be transferred to Timelock from Admin key.\n\n# Specification\n\n- Prerequisites: Set the 'newAdmin' property of the Treasury contract to be the Timelock's address (0xBBD3321f377742c4b3fe458b270c2F271d3294D8).\n- Call the function 'acceptAdmin()' of the Treasury contract to set its 'admin' property.\n\n# Test Cases\n\nSimulation on mainnet here: https://github.com/unioncredit/union-v1-proposals/blob/uip/003-treasury-admin-transfer/proposals/003_TreasuryAdminTransfer/testProposal.js\n\n# Implementation\n\n- Call the function 'acceptAdmin()' of the Treasury contract\n\n# Security Considerations\n\nMake sure the new admin is Timelock's address. UIP 0003 and UIP 0004 could have been completed together, but as this change pertains to the treasury, and abundance of caution is beneficial to limit risk. Therefore, the changes were split up into individual proposals and will be handled one at a time.\n\n",
+      "protocol": "union",
+      "adapter": "onchain",
+      "proposer": "0x497C20fEd24D61C7506EF2500065e4fd662f3779",
+      "totalVotes": 3,
+      "blockNumber": 14351766,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1646818026,
+      "endTimestamp": 1647082026,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 108000810.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14382545
+          },
+          "event": "queued",
+          "timestamp": 1647231583,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14389586
+          },
+          "event": "executed",
+          "timestamp": 1647326056,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 108000810.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,757 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweDk5YTE0ZWRhYmFlZGQ5ZWYzNmI2YWNmZWZmNWVjYTVlMTBiNzEyNDE1YzczYWVlOTRlNzRlN2FlMTVkNjAwN2I=",
+      "id": "0x99a14edabaedd9ef36b6acfeff5eca5e10b712415c73aee94e74e7ae15d6007b",
+      "title": "Proposal 0x99a14edabaedd9ef36b6acfeff5eca5e10b712415c73aee94e74e7ae15d6007b",
+      "content": "pause",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xA915dc6E27C8a3ca24f0F640a10B3Cabc121c9a5",
+      "totalVotes": 1,
+      "blockNumber": 20496698,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1723361063
+      },
+      "endTime": {
+        "timestamp": 1723706663
+      },
+      "startTimestamp": 1723361063,
+      "endTimestamp": 1723706663,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 86.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20496698
+          },
+          "event": "pending",
+          "timestamp": 1723274663,
+          "txHash": "0x6502379a8f490678f4a951e7e4cbe7c1a03cd8661b6261813b4e48ab36943bc5"
+        },
+        {
+          "time": {
+            "blockNumber": 20609132
+          },
+          "event": "executed",
+          "timestamp": 1724631431,
+          "txHash": "0x2ebbd09a385949ad2444e50664d90ab757a4a165f50e7c78dd818800d4632f82"
+        },
+        {
+          "time": {
+            "blockNumber": 20568281
+          },
+          "event": "queued",
+          "timestamp": 1724138123,
+          "txHash": "0xa102807526bc7c79f7db31b85c6894e283943d924e5eb4a762808ca1ca378de2"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 86.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1723274755752,
+      "txHash": "0x6502379a8f490678f4a951e7e4cbe7c1a03cd8661b6261813b4e48ab36943bc5",
+      "quorum": 24,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweDNmNzU1OWY4MzRhNjhlZTQxMGIxZWY3Y2Q3ZTQ1YTZjYzY1ZmI3MzFjYjNjM2FmYjZhYjE0ODIyNDJhZTAzODQ=",
+      "id": "0x3f7559f834a68ee410b1ef7cd7e45a6cc65fb731cb3c3afb6ab1482242ae0384",
+      "title": "Cheers",
+      "content": "Cheers!",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xf2BE0cD090b3Ab2d98B6b18EBC7ca25A6c18c85A",
+      "totalVotes": 2,
+      "blockNumber": 20472428,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1723068659
+      },
+      "endTime": {
+        "timestamp": 1723414259
+      },
+      "startTimestamp": 1723068659,
+      "endTimestamp": 1723414259,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 85.0,
+          "choice": 0
+        },
+        {
+          "total": 23.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20472428
+          },
+          "event": "pending",
+          "timestamp": 1722982259,
+          "txHash": "0x097e6d6e7740e1a0fb8500dcd4e6f20507754cc9e07d399f997f9fe4b496f8f0"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 85.0,
+          "choice": 0
+        },
+        {
+          "total": 23.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1722982651205,
+      "txHash": "0x097e6d6e7740e1a0fb8500dcd4e6f20507754cc9e07d399f997f9fe4b496f8f0",
+      "quorum": 24,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweGIyM2QwNWY4NWQ5OTAzMGRlZTViYjAwNDk1MjE1ZTg2OGExZTg3MzBiYjhlMzRkMTE0MjE5YmFiYjg2MDk4ZmM=",
+      "id": "0xb23d05f85d99030dee5bb00495215e868a1e8730bb8e34d114219babb86098fc",
+      "title": "Dissolve the DAO",
+      "content": "This proposal distributes the treasury pro rata to every token holder with 2+ tokens in their wallet.",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xf2BE0cD090b3Ab2d98B6b18EBC7ca25A6c18c85A",
+      "totalVotes": 2,
+      "blockNumber": 20441093,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1722690935
+      },
+      "endTime": {
+        "timestamp": 1723036535
+      },
+      "startTimestamp": 1722690935,
+      "endTimestamp": 1723036535,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 82.0,
+          "choice": 0
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20441093
+          },
+          "event": "pending",
+          "timestamp": 1722604535,
+          "txHash": "0xf4958ed163625b4ee3f5fe7eac1d558d588ed951b4ec43dcff4d90fc333919a0"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 82.0,
+          "choice": 0
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1722604864791,
+      "txHash": "0xf4958ed163625b4ee3f5fe7eac1d558d588ed951b4ec43dcff4d90fc333919a0",
+      "quorum": 24,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweDM1YjRkZGI5NGUzZDI4MTYwMjU2OWQ0M2JmZWEzYTE3OTM4YTIxMzRmY2FmNGVkMGI4NTA3ODcyNWMxMjRhNjc=",
+      "id": "0x35b4ddb94e3d281602569d43bfea3a17938a2134fcaf4ed0b85078725c124a67",
+      "title": "Proposal 0x35b4ddb94e3d281602569d43bfea3a17938a2134fcaf4ed0b85078725c124a67",
+      "content": "pause ",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xA915dc6E27C8a3ca24f0F640a10B3Cabc121c9a5",
+      "totalVotes": 2,
+      "blockNumber": 19988102,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1717224227
+      },
+      "endTime": {
+        "timestamp": 1717569827
+      },
+      "startTimestamp": 1717224227,
+      "endTimestamp": 1717569827,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 12.0,
+          "choice": 0
+        },
+        {
+          "total": 49.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20031266
+          },
+          "event": "queued",
+          "timestamp": 1717658543,
+          "txHash": "0x0b2741ea7b75ef94d31becfaa6a21942d528273ad8a0b2ffcc252d62d1b3661b"
+        },
+        {
+          "time": {
+            "blockNumber": 19988102
+          },
+          "event": "pending",
+          "timestamp": 1717137827,
+          "txHash": "0xf43068d4a5d2a10e24c4910e494bd862e89b504036fa9e37600b49cbc316f441"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 12.0,
+          "choice": 0
+        },
+        {
+          "total": 49.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1717138525863,
+      "txHash": "0xf43068d4a5d2a10e24c4910e494bd862e89b504036fa9e37600b49cbc316f441",
+      "quorum": 17,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweDhkOWM4Mjc2MjEwMGVmMjBmYTczMTRkNjU0NDU1NDk1NDBmODNhZWMzMDZkNDdmYTRiNGNjZjRlNzBjN2EyOTU=",
+      "id": "0x8d9c82762100ef20fa7314d65445549540f83aec306d47fa4b4ccf4e70c7a295",
+      "title": "Rage Quit",
+      "content": "I would like to rage quit this failed DAO at book value minus 10%. Book value of the tokens I hold is 2.76 ETH and this proposal requests 2.49 ETH. When this proposal passes I will send my tokens to the DAO treasury.\n\nPlease reach out on blockscan if you have any questions or comments.\nhttps://chat.blockscan.com/\n\nThanks",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xf2BE0cD090b3Ab2d98B6b18EBC7ca25A6c18c85A",
+      "totalVotes": 2,
+      "blockNumber": 19968932,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1716992555
+      },
+      "endTime": {
+        "timestamp": 1717338155
+      },
+      "startTimestamp": 1716992555,
+      "endTimestamp": 1717338155,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 47.0,
+          "choice": 0
+        },
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19968932
+          },
+          "event": "pending",
+          "timestamp": 1716906155,
+          "txHash": "0x600b60dd38627940273dbd7df349c1b9c007355894aef8786953899a6b81d78e"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 47.0,
+          "choice": 0
+        },
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716906601350,
+      "txHash": "0x600b60dd38627940273dbd7df349c1b9c007355894aef8786953899a6b81d78e",
+      "quorum": 17,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweDYzYjhmY2Q1OTliODQ2MmQxOWJjOThiNTVhYzdjYThmMWZmMjJiNGMzNDFjOGU5NTRlMWEzZWJmMWVlMGQ0MTM=",
+      "id": "0x63b8fcd599b8462d19bc98b55ac7ca8f1ff22b4c341c8e954e1a3ebf1ee0d413",
+      "title": "Pause Auctions",
+      "content": "Pause Auctions",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xf2BE0cD090b3Ab2d98B6b18EBC7ca25A6c18c85A",
+      "totalVotes": 3,
+      "blockNumber": 19932323,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1716550559
+      },
+      "endTime": {
+        "timestamp": 1716896159
+      },
+      "startTimestamp": 1716550559,
+      "endTimestamp": 1716896159,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 55.0,
+          "choice": 0
+        },
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19932323
+          },
+          "event": "pending",
+          "timestamp": 1716464159,
+          "txHash": "0x77545f4c318fdaa629fcb8da04cb333da1453575e9003da59b597f42755555da"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 55.0,
+          "choice": 0
+        },
+        {
+          "total": 21.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716464824754,
+      "txHash": "0x77545f4c318fdaa629fcb8da04cb333da1453575e9003da59b597f42755555da",
+      "quorum": 17,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweGQ0MjQ1OTc2ZGY2MDA4OGI4MjYyYWNhMTUwNWJhYWE3YzE0NWU4MTBlMjBmMGMxNmE5ZjViZDc2ZjI2NDk3Y2Y=",
+      "id": "0xd4245976df60088b8262aca1505baaa7c145e810e20f0c16a9f5bd76f26497cf",
+      "title": "Return 20 eth to BuilderDAO",
+      "content": "Due to the inactivity of this DAO, I recommend returning the funds from the BuilderDAO prop house back to BuilderDAO. \n\nThis prop will return the 20eth grant to BuilderDAO.",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xCEEd9585854F12F81A0103861b83b995A64AD915",
+      "totalVotes": 2,
+      "blockNumber": 18934298,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1704461663
+      },
+      "endTime": {
+        "timestamp": 1704807263
+      },
+      "startTimestamp": 1704461663,
+      "endTimestamp": 1704807263,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 56.0,
+          "choice": 0
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18934298
+          },
+          "event": "pending",
+          "timestamp": 1704375263,
+          "txHash": "0xc01fdc3e097571e17b94db80173b3f20c1b00561389bdef755e8346c39760e3d"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 56.0,
+          "choice": 0
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1704375693500,
+      "txHash": "0xc01fdc3e097571e17b94db80173b3f20c1b00561389bdef755e8346c39760e3d",
+      "quorum": 14,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweDZlZjY5Nzg3YmYwZjgwMjg5NmJjMGYyYTY2M2RkM2MyZDQ4OGJkMGI0M2EzNDgzYmViOGYyZTZlYzkyYzRmNTA=",
+      "id": "0x6ef69787bf0f802896bc0f2a663dd3c2d488bd0b43a3483beb8f2e6ec92c4f50",
+      "title": "Host 3 months of Live Ideation Sessions",
+      "content": "Hi all, Mike Good here~\n\nI'm an idea guy. I absolutely love coming up with ideas, brainstorming and hosting ideation sessions.\n\nWhen I saw this DAO pop up, I had just been thinking about how awesome it would be to have a group dedicated to forming ideas for others to pick up and run with. \n\nThrough this prop, I'm hoping to do just that...\n\nLet me host pre-planned weekly ideation sessions for a 2-3 month span of time on Twitter Spaces. We'll promote Noun.Build, Nouns and Idea DAO through engaging sessions where we invite people to brainstorm weekly. \n\nI think something like this can/will really energize the community at large, and get the creative juices flowing across a 10-12 ideation sessions.\n\nTo kick start sessions I'll bring forward ideas and invite key guests who will be known builders throughout the community.. Doing this should put some more focus/attention on Idea DAO and possibly gain us more token holders. \n\nThanks for your consideration and support in advance! \n\nFeel free to message me on Twitter with questions @goodbeats",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xFC538FFD2923ddDaED09c8aD1a51686275C56183",
+      "totalVotes": 7,
+      "blockNumber": 17616129,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1688506343
+      },
+      "endTime": {
+        "timestamp": 1688851943
+      },
+      "startTimestamp": 1688506343,
+      "endTimestamp": 1688851943,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 30.0,
+          "choice": 0
+        },
+        {
+          "total": 11.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17616129
+          },
+          "event": "pending",
+          "timestamp": 1688419943,
+          "txHash": "0xfa1b4a29187431137dbad607517c5725e5f3e908a7c946f137d93495be212eb4"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 30.0,
+          "choice": 0
+        },
+        {
+          "total": 11.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688420526500,
+      "txHash": "0xfa1b4a29187431137dbad607517c5725e5f3e908a7c946f137d93495be212eb4",
+      "quorum": 8,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweGJlMThhYzA0NjEwOGI2MjE2N2E4YmZhYmQyOTg0YjFmYTVkMmJjNmIwOTdkZDkxMzhjYmJjOGRjMDJjZWYzOTM=",
+      "id": "0xbe18ac046108b62167a8bfabd2984b1fa5d2bc6b097dd9138cbbc8dc02cef393",
+      "title": "Reduce Auction Duration",
+      "content": "Reduce auction duration from 24 hours to 12 hours.",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xf2BE0cD090b3Ab2d98B6b18EBC7ca25A6c18c85A",
+      "totalVotes": 4,
+      "blockNumber": 17585220,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1688131307
+      },
+      "endTime": {
+        "timestamp": 1688476907
+      },
+      "startTimestamp": 1688131307,
+      "endTimestamp": 1688476907,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 23.0,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17585220
+          },
+          "event": "pending",
+          "timestamp": 1688044907,
+          "txHash": "0xfd637de2a9f528d662b05dc0239c25bd94c86131ee7784ff1745f785183956c9"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 23.0,
+          "choice": 0
+        },
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688045449990,
+      "txHash": "0xfd637de2a9f528d662b05dc0239c25bd94c86131ee7784ff1745f785183956c9",
+      "quorum": 8,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweDk5YWJjZDVmNGI3MzFhMGMwYjg3ZDZlOGY4NDQ5NTU3NzBkYmNmYjczYjIwNzgwNjk4YTk0MTBmNGRlNTllNDc=",
+      "id": "0x99abcd5f4b731a0c0b87d6e8f844955770dbcfb73b20780698a9410f4de59e47",
+      "title": "Socialize The Idea Factory",
+      "content": "Imagineer Responsibilities \n\nImagineers are in charge of dreaming, designing and building theme parks, attractions, cruise ships, resorts etc. Basically, they're about live entertainment. They create things you can see and touch and smell, experiences that you can walk right into.\n\nWe want to form The Idea Factory into a collective of builders from all over the globe with varied skillsets, collaborating together to bring forth amazing experiences to our community through amazing and intentional collaborations and events.\n\n# Socialize The Idea Factory\n\n## Strategy:\n\nOur social media strategy will begin focus on the following platforms: **Twitter**, and **Discord**. Our messaging will be **informative, educational, and engaging**. We plan to post a variety of content, including news updates, educational resources, and infographics. Our messaging will be consistent across all platforms to maintain brand coherence.\n\nWe plan to **post** on each platform **at least twice a week** to ensure our presence is visible and active. We will use relevant resources such as attending twitter spaces and important influencers to increase our reach and engagement with the community. We will also engage with our followers by responding to comments and messages promptly.\n\n**Use Visuals**: To make our social media posts more engaging, we will incorporate visuals such as **images, videos, and infographics**. We will also ensure that our visual content aligns with our brand guidelines and is consistent across all platforms.\n\n**Share Updates and News**: We will regularly share updates on The Idea Factory DAO's projects and initiatives, as well as any news related to the DAO, DeFi, and NFT industry. We will also highlight the achievements of our community members and showcase their contributions to the DAO.\n\n**Use Advertising Campaigns**: To increase our reach and attract new followers, we will use targeted advertising campaigns on social media platforms. These campaigns will be designed to reach our target audience and will be optimized for maximum impact. An example might be an art contest or limited edition nft drop. We will collaborate with other influencers on campaigns as well.\n\n\n## Resources:\nTo implement new social medias profiles, and a social media campaign, we will require the following resources:\n\n* Hiring a social media manager who will be responsible for creating and executing our social media strategy. 1.5 ETH \n* Funding for advertising campaigns/contests to increase our reach and attract new followers. 1 ETH \n* Training and development for existing team members to ensure they have the necessary skills to support our social media presence. 1 ETH \n",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xf9d71b5fB8345F2508C1302a74d4362DEAb7D104",
+      "totalVotes": 5,
+      "blockNumber": 17275473,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1684365599
+      },
+      "endTime": {
+        "timestamp": 1684711199
+      },
+      "startTimestamp": 1684365599,
+      "endTimestamp": 1684711199,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 16.0,
+          "choice": 0
+        },
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17275473
+          },
+          "event": "pending",
+          "timestamp": 1684279199,
+          "txHash": "0x7e31c47e79bee3d5b3c292c85dbe3498288f7caccc0cc15903e08ed17ad0d7b3"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 16.0,
+          "choice": 0
+        },
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684279251232,
+      "txHash": "0x7e31c47e79bee3d5b3c292c85dbe3498288f7caccc0cc15903e08ed17ad0d7b3",
+      "quorum": 6,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweDAzMjIzZjQ1NGYyOGE2Yjk2ZDJmZjNkMWU3MzVkZmFjZmFjZWRlYTc5N2JkZWQ5NzkwNDhlN2FhZTJhY2IwN2E=",
+      "id": "0x03223f454f28a6b96d2ff3d1e735dfacfacedea797bded979048e7aae2acb07a",
+      "title": "DAO Upgrades v1_1 ",
+      "content": "<p>I'm re-submitting the DAO upgrades for Idea Factory since we overlooked them when first submitted by Zora.</p><p><br></p><p><br></p>",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xFC538FFD2923ddDaED09c8aD1a51686275C56183",
+      "totalVotes": 1,
+      "blockNumber": 16449532,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1674322355
+      },
+      "endTime": {
+        "timestamp": 1674667955
+      },
+      "startTimestamp": 1674322355,
+      "endTimestamp": 1674667955,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 6.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16565937
+          },
+          "event": "queued",
+          "timestamp": 1675640579,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417003097,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6dGhlaWRlYWZhY3Rvcnk6b25jaGFpbjoweGU2NWI0OTUwNTQyYmNmYjlkNDE5MmY4ZDgwMzMyNzNlYzg3MWZhMjcxYjVlN2YwZGIwZDc2NDI2ZDQ1MDFhN2E=",
+      "id": "0xe65b4950542bcfb9d4192f8d8033273ec871fa271b5e7f0db0d76426d4501a7a",
+      "title": "DAO Upgrade V1_1",
+      "content": "<p><img src=\"https://i.imgur.com/HrQKZMG.png\"></p><h2><br></h2><h2>Summary</h2><p>This proposal upgrades the DAO to V1.1 to add the following features, improvements and bug fixes.</p><h3><br></h3><h3>Updatable Founder Shares</h3><p>DAOs will now be able to propose changes to founders shares. This gives DAOs the ability to add, modify and remove founders shares via proposal.</p><p>With this new feature DAO creators will have the ability to modify any errors that may have been caused at DAO deployment.</p><h3><br></h3><h3>Upgrade Visibility</h3><p>In V1.1, each smart contract of a DAO now has an explicit version attached. This means that members and developers will be able easily understand which protocol implementation a DAO is utilizing at any given time.</p><p>This will also make it easier for future upgrades that are in development: including <em>airdrops</em> and <em>custom metadata renderers</em>.</p><h3><br></h3><h3>Proposal Spam Fix</h3><p>Proposal submission to a DAO has an incorrectly implemented check which can allow for spam proposals to be submitted to a DAO. In V1.1 it works as expected.</p><h3><br></h3><h3>Auction Improvements</h3><p>Improved bid handling and edge case management in the Auction House contracts.</p><h3><br></h3><h3>Author</h3><p>This upgrade has been developed and proposed by <strong>Zora</strong> (<a href=\"https://etherscan.io/address/0xd1d1d4e36117ab794ec5d4c78cbd3a8904e691d0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(51, 122, 183); background-color: transparent;\">zora.eth</a>)</p>",
+      "protocol": "theIdeaFactory",
+      "adapter": "onchain",
+      "proposer": "0xd1d1D4e36117aB794ec5d4c78cBD3a8904E691D0",
+      "totalVotes": 0,
+      "blockNumber": 16208323,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1671413639
+      },
+      "endTime": {
+        "timestamp": 1671759239
+      },
+      "startTimestamp": 1671413639,
+      "endTimestamp": 1671759239,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417003097,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

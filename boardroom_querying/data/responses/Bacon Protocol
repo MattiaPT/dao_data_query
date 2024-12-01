@@ -1,0 +1,1596 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4M2U1NDRiM2Y3Njc3OGRmYmNkMmM0NjgyZGM4NjQ1MWJiMDFlZjc4OGRkY2ViZWY1OGU0ZTgyMjUwNTE1NDIwZQ==",
+      "id": "0x3e544b3f76778dfbcd2c4682dc86451bb01ef788ddcebef58e4e82250515420e",
+      "title": "Split Loan Sales Liquidity",
+      "content": "This proposal is to split the $2M worth of loans that was approved to be sold by the previous purposal into two pools. As each loan is sold 50% of the proceeds are to be directed to the Curve Factory pool ot increase HOME liquidity on the secondary market, while the other 50%  will be used to open a token gated redemption function from the protocol itself, when any wallet attempting to redeem USDC for HOME at 1:1 will need to have RWA or a HOME Boost NFT in there wallet.",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0xB45F55bB76197064DFa3bb5059b22efec236622B",
+      "totalVotes": 0,
+      "blockNumber": 19570459,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0x3e544b3f76778dfbcd2c4682dc86451bb01ef788ddcebef58e4e82250515420e",
+      "startTime": {
+        "timestamp": 1712089555
+      },
+      "endTime": {
+        "timestamp": 1712673000
+      },
+      "startTimestamp": 1712089555,
+      "endTimestamp": 1712673000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712089666043,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4YjE2YTc2MDg3NmQ5MTZjOWEyYzMxZjlhNjc2YTg2Y2U2NGU4ZDdjYmJkNWY5YmM5OGMwMjk0NjBmMzNkYTM1MQ==",
+      "id": "0xb16a760876d916c9a2c31f9a676a86ce64e8d7cbbd5f9bc98c029460f33da351",
+      "title": "Sell loans to provide liquidity for HOME",
+      "content": "The protocol has received requests to sell some of the loans it holds to provide liquidity to HOME holders. Selling loans would provide USDC to the protocol that could be used by holders of unboosted HOME to redeem their HOME for USDC.\n\nIf this proposal is successful, the protocol would be directing the servicer (LoanSnap) to use their capital markets relationships to sell a number of loans and return the proceeds to the protocol in USDC.\n\nThere are three options in this vote:\n1) Sell $1.000.000 worth of loans\n2) Sell $2.000.000 worth of loans \n3) Don't sell any loans\n\nThe proposal is to either sell no loans or sell enough to cover the formal request for liquidity.",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0xaD0567E17d55d6636760Dc73baEF4aABda4ce647",
+      "totalVotes": 9,
+      "blockNumber": 19399177,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0xb16a760876d916c9a2c31f9a676a86ce64e8d7cbbd5f9bc98c029460f33da351",
+      "startTime": {
+        "timestamp": 1710007121
+      },
+      "endTime": {
+        "timestamp": 1710522000
+      },
+      "startTimestamp": 1710007121,
+      "endTimestamp": 1710522000,
+      "currentState": "closed",
+      "choices": [
+        "Sell $1.000.000 worth of loans",
+        "Sell $2.000.000 worth of loans",
+        "Don't sell any loans"
+      ],
+      "results": [
+        {
+          "total": 3208027.5,
+          "choice": 0
+        },
+        {
+          "total": 11652687.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3208027.5375796035,
+          "choice": 0
+        },
+        {
+          "total": 11652687.581266211,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1710007694739,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4ZGE5MmZkMGE2Y2M3N2ZiODFjZTQwMDk0ZjZiZTY2ODc4MTUzNDc5NzkyZDgyYTE3Yzk4OTcyM2Q2ZDM5MzQzOQ==",
+      "id": "0xda92fd0a6cc77fb81ce40094f6be66878153479792d82a17c989723d6d393439",
+      "title": "Sell loans to provide liquidity for HOME",
+      "content": "The protocol has received requests to sell some of the loans it holds to provide liquidity to HOME holders. Selling loans would provide USDC to the protocol that could be used by holders of unboosted HOME to redeem their HOME for USDC.\n\nIf this proposal is successful, the protocol would be directing the servicer (LoanSnap) to use their capital markets relationships to sell a number of loans and return the proceeds to the protocol in USDC.\n\nRequests for $150,000 worth of USDC have been made.\n\nThe proposal is to either sell no loans or sell enough to cover the formal request for liquidity.",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0x771DFbeaFB82E90ff2493709eca5caab568f2ee1",
+      "totalVotes": 6,
+      "blockNumber": 17558075,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0xda92fd0a6cc77fb81ce40094f6be66878153479792d82a17c989723d6d393439",
+      "startTime": {
+        "timestamp": 1687715402
+      },
+      "endTime": {
+        "timestamp": 1687974480
+      },
+      "startTimestamp": 1687715402,
+      "endTimestamp": 1687974480,
+      "currentState": "closed",
+      "choices": [
+        "Sell $150k worth of loans",
+        "Don't sell loans"
+      ],
+      "results": [
+        {
+          "total": 8501731.0,
+          "choice": 0
+        },
+        {
+          "total": 12791935.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8501731.53788369,
+          "choice": 0
+        },
+        {
+          "total": 12791935.00706032,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1687715787595,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4MDIxMThjZGQ2NzVhNTFmZTMwNGE3ZTMzYWI4NTI2YjU1Yjk2NGRjNGViN2QxNTJmM2YxNzcyOGU3YTFmY2EyMw==",
+      "id": "0x02118cdd675a51fe304a7e33ab8526b55b964dc4eb7d152f3f17728e7a1fca23",
+      "title": "New name for the governance token",
+      "content": "The vote to retire BACON as the name of the governance toke passed with a resounding 100% and a large quorum. It's clear this is the right move for the future of the protocol. Now it's time to finalize a new name, deploy the new token, and update assets and naming everywhere.\n\nThis vote is to choose the new name for the governance token and approve the deployment of a new contract to issue the new token. After this vote, a new, simple ERC-20 token will be created with the new name and ticker. It will replace the utility of the BACON token in the protocol.\n\nThe new token will be exchangeable 1-1 for existing BACON holders and the tokenomics will not change.\n\nPlease vote for the name and ticker you feel will best help the protocol grow and attract new users and attention.\n\nThe top names from the governance discussion are included in the list to vote on.",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0xC9380Eb3bA8a6D02DB426119942A25EEaD8A12E6",
+      "totalVotes": 13,
+      "blockNumber": 16587458,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0x02118cdd675a51fe304a7e33ab8526b55b964dc4eb7d152f3f17728e7a1fca23",
+      "startTime": {
+        "timestamp": 1675900636
+      },
+      "endTime": {
+        "timestamp": 1676480400
+      },
+      "startTimestamp": 1675900636,
+      "endTimestamp": 1676480400,
+      "currentState": "closed",
+      "choices": [
+        "RWA / Real World Asset",
+        "HOMEV / Home Vote",
+        "HOA / Home Owners Association",
+        "REAL / Real",
+        "HOWN / Home Owner"
+      ],
+      "results": [
+        {
+          "total": 319879.06,
+          "choice": 4
+        },
+        {
+          "total": 17076162.0,
+          "choice": 0
+        },
+        {
+          "total": 1773516.6,
+          "choice": 2
+        },
+        {
+          "total": 1000000.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 17076161.714148242,
+          "choice": 0
+        },
+        {
+          "total": 1000000.0,
+          "choice": 1
+        },
+        {
+          "total": 1773516.7110344945,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 319879.0538522989,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4YmYxZDg4MDgxZGNmNDNkYzExMTcyNjkzM2Y4MzY4ZTU5MjhhY2JlMDVhYWYwMTYxNGY0OTcwYWEwMmU0ZjM2NQ==",
+      "id": "0xbf1d88081dcf43dc111726933f8368e5928acbe05aaf01614f4970aa02e4f365",
+      "title": "Remove 1% rewards for Holding HOME",
+      "content": "Currently, holding HOME in a wallet provides 1% reward, claimable anytime.\n\nThis has not had the effect on the use of the protocol it was intended to drive. See the discussion link for full commentary and discussion.\n\nThis vote is to remove the 1% reward and use that HOME to increase reward to 1 year boosts. If approved, the protocol will upgrade the contracts to make that change.\n\nThis vote is only to remove the 1% for holding and to allow it to flow to 1 year boosts. Further discussion is happening and future proposals may be submitted on changing where and how HOME is allocated to improve the usefulness of the protocol.",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0xC9380Eb3bA8a6D02DB426119942A25EEaD8A12E6",
+      "totalVotes": 9,
+      "blockNumber": 16580222,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0xbf1d88081dcf43dc111726933f8368e5928acbe05aaf01614f4970aa02e4f365",
+      "startTime": {
+        "timestamp": 1675813071
+      },
+      "endTime": {
+        "timestamp": 1676394000
+      },
+      "startTimestamp": 1675813071,
+      "endTimestamp": 1676394000,
+      "currentState": "closed",
+      "choices": [
+        "Yes. Remove 1% for holding HOME",
+        "No. Keep 1% for holding HOME"
+      ],
+      "results": [
+        {
+          "total": 8555564.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8555564.895830564,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4NWJjOWE2MTY0NDRkZTQ4NzYzMmJkOTcxYTgzNDliZmIzNTc3NmI4MTk5YmMwNzc2NzVkZmI0NWE1MDZlNTJhMQ==",
+      "id": "0x5bc9a616444de487632bd971a8349bfb35776b8199bc077675dfb45a506e52a1",
+      "title": "Deploy HOME protocol natively on an L2 chain",
+      "content": "Requests to deploy HOME on L2s started from the beginning of the project. Now that the project has matured and many of the L2s have gotten more solid track records, the community has been pushing harder to get our first L2 deployment started.\n\nThis proposal is to decide to invest in development work to deploy HOME protocol natively on an L2 chain. If it passes, the development team will start work on an L2 deployment.\n\nA first deployment on an L2 chain would include the core protocol features: \n* creation of a native HOME token on the L2\n* lien NFTs\n* boosting HOME for rewards\n* integration with a DEX\n* updating the website to connect to an L2 chain\n\nTo simplify the first deployment, other features will remain only on mainnet, for example, the governance token and LP staking and rewards.\n\nThis vote is also to choose which L2 to deploy to first. A few L2 chains stood out in the recent discussion: Polygon, Arbitrum, and Optimism.\n\nPlease consider as you vote:\n1. which chain you will help the protocol grow the fastest through liquidity, marketing, and adoption.\n2. which chain you will able to help get boostrapped by buying and boosting HOME and adding liquidity to a DEX. \n3. which L2 has the strongest stability, security, and scaling.\n",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0xC9380Eb3bA8a6D02DB426119942A25EEaD8A12E6",
+      "totalVotes": 10,
+      "blockNumber": 16571922,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0x5bc9a616444de487632bd971a8349bfb35776b8199bc077675dfb45a506e52a1",
+      "startTime": {
+        "timestamp": 1675712786
+      },
+      "endTime": {
+        "timestamp": 1676307600
+      },
+      "startTimestamp": 1675712786,
+      "endTimestamp": 1676307600,
+      "currentState": "closed",
+      "choices": [
+        "Deploy to Arbitrum",
+        "Deploy to Optimism",
+        "Deploy to Polygon",
+        "Stay only on Mainnet for now"
+      ],
+      "results": [
+        {
+          "total": 3916563.5,
+          "choice": 0
+        },
+        {
+          "total": 3375499.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3916563.541154595,
+          "choice": 0
+        },
+        {
+          "total": 3375499.3544384167,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4MGFkNjdjNDk3MzM1MDI4Y2ZhNTcwZjk0ZTdiZTBlNTY1YzgzN2Q3MjNmNmUwZjUzYzI3ODVmNTRmZmNjYTlhOA==",
+      "id": "0x0ad67c497335028cfa570f94e7be0e565c837d723f6e0f53c2785f54ffcca9a8",
+      "title": "Rename the protocol",
+      "content": "We have been getting a lot of feedback and traction which leads me to a sad conclusion. We need to consider retiring Bacon as the name for the governance token.  Given what has happened in crypto in the last few months it just triggers too much negative sentiment.  We loved the idea behind Bacon i.e. \"Bring home the bacon,\" which can be traced far back to exchanging some of you for work.  However,  in the face of the feedback and (thankfully) return to building solid defi foundations, we need a name that matches our durable, transparent, stable project. \n\nWe hope to have your support in making a change for the better of the protocol that more closely reflects our ethos.\n\nWe are proposing a vote to change the name of the governance token away from BACON and to remove the remaining associated branding. This vote is only to decide whether to rename or not. Choice of a new name will happen after there is signal that governance is behind a change. \n",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0xC9380Eb3bA8a6D02DB426119942A25EEaD8A12E6",
+      "totalVotes": 12,
+      "blockNumber": 16192384,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0x0ad67c497335028cfa570f94e7be0e565c837d723f6e0f53c2785f54ffcca9a8",
+      "startTime": {
+        "timestamp": 1671134966
+      },
+      "endTime": {
+        "timestamp": 1671739200
+      },
+      "startTimestamp": 1671134966,
+      "endTimestamp": 1671739200,
+      "currentState": "closed",
+      "choices": [
+        "Rename the protocol",
+        "Keep Bacon Protocol"
+      ],
+      "results": [
+        {
+          "total": 10347940.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 10347940.259207623,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOm9uY2hhaW46MTE=",
+      "id": "11",
+      "title": "Move Timelock control to Multisig",
+      "content": "The Governance contract isn't adding any security right now and only adds an extra layer of complexity to the protocol. The multisig already can control the votes here so switching the Timelock admin will only increase security by removing the extra contract. In the future, the protocol will move back to fully distributed, on-chain governance.",
+      "protocol": "baconcoin",
+      "adapter": "onchain",
+      "proposer": "0x58BA5a24fa8833477339072f1221E03bB3b29130",
+      "totalVotes": 1,
+      "blockNumber": 16196622,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1671186035,
+      "endTimestamp": 1671306671,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 91451760.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16212760
+          },
+          "event": "queued",
+          "timestamp": 1671380747,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16215892
+          },
+          "event": "executed",
+          "timestamp": 1671418571,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 91451760.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681928404410,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4ZWI0NzBlZjg2Zjk4MzU5Y2NlZTdjZGZlMWFkMzQzOTYzOTIwMjYzMWIwYWI1YzE5M2U1MjdlYzhjYWIzYTExZg==",
+      "id": "0xeb470ef86f98359ccee7cdfe1ad3439639202631b0ab5c193e527ec8cab3a11f",
+      "title": "Independence from USDC",
+      "content": "A simple, but powerful, change to make HOME truly independent. Stop minting HOME from USDC deposits. Instead, start minting HOME when a home loan is created. HOME will be created directly from borrowing against the value of a house.\n\nSee the blog post at https://mirror.xyz/dashboard/edit/JQnea4YgFzH_kEVkb-hjr02dKrhQOrHfouwWMHFDffQ for more details and examples of why this is an important upgrade.\n\nDirect changes to the contracts:\n\n1. Mint HOME on borrow. Burn HOME on principal repayment.\n2. Remove USDC deposit/redeem from contracts. Move all HOME exchange to DEX pools.\n3. Adjust the AMM to be market-driven instead of liquidity driven and use a simple off-chain mechanism.\n\n\nJoin the discussion happening in Discord at https://discord.com/channels/877989586054299678/1035392282125418637\n",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0xC9380Eb3bA8a6D02DB426119942A25EEaD8A12E6",
+      "totalVotes": 17,
+      "blockNumber": 15879008,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0xeb470ef86f98359ccee7cdfe1ad3439639202631b0ab5c193e527ec8cab3a11f",
+      "startTime": {
+        "timestamp": 1667352010
+      },
+      "endTime": {
+        "timestamp": 1667836800
+      },
+      "startTimestamp": 1667352010,
+      "endTimestamp": 1667836800,
+      "currentState": "closed",
+      "choices": [
+        "Yes. Mint HOME independently",
+        "No. Leave the protocol unchanged"
+      ],
+      "results": [
+        {
+          "total": 40069928.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 40069928.2531884,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4NDVjYzVkYmFlNmFhZWU1YTk0YWYwZTk5N2EyZDc2OGM1NDJmYmJkMTYzYjQzYTUxOWI5YzZhYzAxZTYwMTA2NA==",
+      "id": "0x45cc5dbae6aaee5a94af0e997a2d768c542fbbd163b43a519b9c6ac01e601064",
+      "title": "Boost Level for Remaining Staked HOME",
+      "content": "The October 15th deadline for the end of staking HOME is rapidly approaching, and the decision about which boosting period, if any, the remaining staked HOME should be placed into after the deadline passes.\n\nThis proposal is to gather input from the community, as to their preference for which tranche any remaining staked HOME should be automatically placed.\n\nPlease see the Discord link for the previous discussions about the pros & cons of each approach, and to add to that discussion, if you have input.",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0x2f7e2a6e4aDe03c10f8555180c8A6cf8541Bc5B4",
+      "totalVotes": 9,
+      "blockNumber": 15691372,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0x45cc5dbae6aaee5a94af0e997a2d768c542fbbd163b43a519b9c6ac01e601064",
+      "startTime": {
+        "timestamp": 1665087256
+      },
+      "endTime": {
+        "timestamp": 1665667800
+      },
+      "startTimestamp": 1665087256,
+      "endTimestamp": 1665667800,
+      "currentState": "closed",
+      "choices": [
+        "1-year Boost (Max% & 2x BACON)",
+        "90-day Boost (2% & 1x BACON)",
+        "No Boost (1% & No BACON)"
+      ],
+      "results": [
+        {
+          "total": 5341761.5,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 5341761.230025817,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4ZDgzOTI3ZTFhODQ4MTQ0MjYyNWU2ZDJhNjgyN2UxMjA5NzBlOWMwMjM1ODA1NjJkZmRhYzE5ZDg4OWU4ODYxNA==",
+      "id": "0xd83927e1a8481442625e6d2a6827e120970e9c023580562dfdac19d889e88614",
+      "title": "Sell loans to provide liquidity for HOME",
+      "content": "The protocol has received requests to sell some of the loans it holds to provide liquidity to HOME holders. Selling loans would provide USDC to the protocol that could be used by holders of unboosted HOME to redeem their HOME for USDC.\n\nThis would also result in the protocol losing continued payments from those loans and, when new liquidity comes in, having to incur overhead buy new loans at the prevailing rate at the time. It is uncertain and unpredictable what rates will be and how that will affect the protocol.\n\nBalancing the short-term liquidity needs of HOME holders against the expectations of long-term HOME holders is an important goal of the protocol.\n\nSelling loans would also give the protocol a chance to show the process and prove out the selling system.\n\nIf this proposal is successful, the protocol would be directing the servicer (LoanSnap) to\n\n- use their capital markets relationships to sell a number of loans\n- return the proceeds to the protocol in USDC\n- remove the corresponding liens from the protocol\n- stop receiving payments from those borrowers\n\nThe protocol team recommends that loans of various rates be selected to sell so that the balance between return and stability of returns is kept.\n\nFormal requests for $165,000 worth of USDC have been made. It appears there is also some informal demand for liquidity.\n\nThe protocol currently holds ~$6.7m worth of loans at a blended rate of 2.55%. These loans are a mix of first lien and SmartLoc loans.\n\nThe proposal is to either sell no loans, sell enough to cover the formal request for liquidity, or sell enough to cover the request and have an additional liquidity buffer.\n",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0xC9380Eb3bA8a6D02DB426119942A25EEaD8A12E6",
+      "totalVotes": 17,
+      "blockNumber": 15550368,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0xd83927e1a8481442625e6d2a6827e120970e9c023580562dfdac19d889e88614",
+      "startTime": {
+        "timestamp": 1663382179
+      },
+      "endTime": {
+        "timestamp": 1663959600
+      },
+      "startTimestamp": 1663382179,
+      "endTimestamp": 1663959600,
+      "currentState": "closed",
+      "choices": [
+        "Sell no loans",
+        "Sell $165,000 worth",
+        "Sell $500,000 worth"
+      ],
+      "results": [
+        {
+          "total": 3390.0642,
+          "choice": 0
+        },
+        {
+          "total": 26504840.0,
+          "choice": 2
+        },
+        {
+          "total": 22401.277,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3390.0642829326916,
+          "choice": 0
+        },
+        {
+          "total": 22401.27804524263,
+          "choice": 1
+        },
+        {
+          "total": 26504836.899880048,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOm9uY2hhaW46MTA=",
+      "id": "10",
+      "title": "Bacon allocations for Coordinape epochs 4 and 5 and 6 - 300k BACON",
+      "content": "I propose to allocate 100,000 BACON community grant tokens for distribution according to Bacon Protocol's 4th, 5th, and 6th Coordinape epochs, which ran from from 5/1/2022-7/31/2022. Each epoch will distribute 100,000 tokens, frying it to medium-crispy first for optimal taste.\n\nTokens will be distributed based on the epoch results. See amounts for each contributor in the snapshot vote. This vote will send 300k BACON to the multi-sig for distribution.\n\nSnapshot vote to auto approve coordinape resultshttps://vote.baconcoin.com/#/proposal/QmWmejrWts9BGfUjKqC2zTPbUJ4eD8fwyc3HeuNcsXFfGj",
+      "protocol": "baconcoin",
+      "adapter": "onchain",
+      "proposer": "0x58BA5a24fa8833477339072f1221E03bB3b29130",
+      "totalVotes": 1,
+      "blockNumber": 15262263,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1659432320,
+      "endTimestamp": 1659567299,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 78542510.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15272349
+          },
+          "event": "queued",
+          "timestamp": 1659568308,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15272353
+          },
+          "event": "executed",
+          "timestamp": 1659568350,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 78542510.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681928404410,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOm9uY2hhaW46OQ==",
+      "id": "9",
+      "title": "Bacon allocations for Coordinape epochs 4 and 5 - 200k BACON (attempt 2)",
+      "content": "I propose to allocate 100,000 BACON community grant tokens for distribution according to Bacon Protocol's 2nd and 3rd Coordinape epochs, which ran from 2/14/2022 - 3/31/2022 and from 4/1/2022-4/30/2022. Each epoch will distribute 100,000 tokens, frying it to medium-crispy first for optimal taste.\n\nTokens will be distributed based on the epoch results. See amounts for each contributor in the snapshot vote. This vote will send 200k BACON to the multi-sig for distribution.\n\nSee successful Snapshot vote at https://vote.baconcoin.com/#/proposal/QmWmejrWts9BGfUjKqC2zTPbUJ4eD8fwyc3HeuNcsXFfG\n\nNote: This is a second attempt at this proposal. First attempt did not pass quorum on the contract. Tally was reading the quorum threshold incorrectly.\n",
+      "protocol": "baconcoin",
+      "adapter": "onchain",
+      "proposer": "0x58BA5a24fa8833477339072f1221E03bB3b29130",
+      "totalVotes": 0,
+      "blockNumber": 15242369,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1659165192,
+      "endTimestamp": 1659298876,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681928404410,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOm9uY2hhaW46OA==",
+      "id": "8",
+      "title": "Bacon token allocations for Coordinape epochs 4 and 5 - 200k BACON to distribute",
+      "content": "I propose to allocate 100,000 BACON community grant tokens for distribution according to Bacon Protocol's 2nd and 3rd Coordinape epochs, which ran from 2/14/2022 - 3/31/2022 and from 4/1/2022-4/30/2022. Each epoch will distribute 100,000 tokens, frying it to medium-crispy first for optimal taste.\n\nTokens will be distributed based on the epoch results. See amounts for each contributor in the snapshot vote. This vote will send 200k BACON to the multi-sig for distribution.\n\nSee successful Snapshot vote at https://vote.baconcoin.com/#/proposal/QmWmejrWts9BGfUjKqC2zTPbUJ4eD8fwyc3HeuNcsXFfG",
+      "protocol": "baconcoin",
+      "adapter": "onchain",
+      "proposer": "0x58BA5a24fa8833477339072f1221E03bB3b29130",
+      "totalVotes": 11,
+      "blockNumber": 15217628,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1658831858,
+      "endTimestamp": 1658966510,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 54955316.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 54955316.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681928404410,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4MWY3NDllYzk1MTE1YzYyYTIxMGUzMDk1NWRmYjM5MmE2ODE2OTNiY2FhN2ViMjBjNTc3MWRiOTc4YjEyNjZmOQ==",
+      "id": "0x1f749ec95115c62a210e30955dfb392a681693bcaa7eb20c5771db978b1266f9",
+      "title": "Rewards Distribution",
+      "content": "This proposal is to add in a rewards distribution following the change to HOME to become fully stable. Before rewards were distributed through increase in the price of HOME. Now they will be claimable through the smart contracts with three levels.\n\n\nTLDR; \n\nHolders get a small amount, locking HOME for a short period of time gets more, locking HOME for a longer period of time gets the most!\n\n\n* Hold HOME in a wallet - 1%\n\n* Lock HOME for 90 days - 2% + 1x BACON\n\n* Lock HOME for 1 year - Get full returns + 2x BACON\n\n\nAll the deets;\n\nOne consistent problem since the start of the protocol is not knowing how long people intend for their liquidity to stay in the protocol. Some times it's a few days. Sometimes it's effectively forever. That makes it very hard for the AMM to make good decisions about making the kinds of long term loans the protocol provides.\n\nThis system will allow users of the protocol to let it know how long it gets to use the liquidity and in return, users get a bigger return for locking up their HOME for longer terms.\n\nHere are the proposed levels:\n\n1. Hold HOME in a wallet. Get 1%.\n\nSimple. Easy. Don't have to do anything special. Just get some HOME in your wallet.\n\nThe protocol will know the liquidity in wallets shouldn't be lent out and will be available for liquidity. It does reduce the amount the protocol can earn since it can't lend those funds out long term, so the return is low. Even when mortgage rates were at historic lows, there was sufficient income to the protocol to cover this reward level.\n\n\n2. Lock for 90 days. Get 2%. Earn 1x BACON.\n\nAlso simple. Take HOME to the contract and lock it for 90 days and get 2% claimable at the end of 90 days. At the end of 90 days, you can withdraw your HOME or relock for another 90 days automatically.\n\nThese funds can be used by the protocol for holding mortgages short-term that it expects to sell off within 10-30 days.\n\nThis level earns base BACON returns, but only half as much as the next level.\n\n3. Lock for 1 year. Get maximum returns (currently 3-5%). Earn 2x BACON.\n\nIf you're already planning to be in the protocol long term and stack your BACON, might as well get in long term.\n\nThe protocol will know these funds are around for a while and use them for mortgage making.\n\nTake your HOME to the contract and lock for 1 year. This level earns the maximum returns for HOME.\n\nThe returns for this level are the full return from the mortgages in the Pan plus any excess return over the 1-2% earned by the other levels. For example, if the Pan is earning 6% and one third of the liquidity is in each level, then the top level could earn 8% by borrowing return from the other levels.\n\n\nEarly Exit\n\nThe 90 day and 1 year lockups will create receipt tokens that could be traded on DEX pool at a discount to their face value for people that need to exit the position early and get liquidity.\n\n",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0xC9380Eb3bA8a6D02DB426119942A25EEaD8A12E6",
+      "totalVotes": 21,
+      "blockNumber": 15015846,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0x1f749ec95115c62a210e30955dfb392a681693bcaa7eb20c5771db978b1266f9",
+      "startTime": {
+        "timestamp": 1656034213
+      },
+      "endTime": {
+        "timestamp": 1656595800
+      },
+      "startTimestamp": 1656034213,
+      "endTimestamp": 1656595800,
+      "currentState": "closed",
+      "choices": [
+        "Yes. Create the new system.",
+        "No. Leave it as is."
+      ],
+      "results": [
+        {
+          "total": 8857727.0,
+          "choice": 0
+        },
+        {
+          "total": 487370.97,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8857727.021793375,
+          "choice": 0
+        },
+        {
+          "total": 487370.9711590949,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OnFtd21lanJ3dHM5YmdmdWprcWMyenRwYnVqNGVkOGZ3eWMzaGV1bmNzeGZmZ2o=",
+      "id": "QmWmejrWts9BGfUjKqC2zTPbUJ4eD8fwyc3HeuNcsXFfGj",
+      "title": "Automatic Coordinape monthly token distributions",
+      "content": "I propose that Coordinape epoch results be automatically approved. This means the pro-rated Bacon community grant tokens will be distributed without a Snapshot vote, starting with the results from May 2022. \n\nEach Coordinape result will be uploaded into the governance channel in Discord.  Distribution of the tokens will initially be facilitated manually by the Loansnap team, which serves as a way to test whether this works. \n\nAt such time that everything is on-chain, I will start a Discord discussion to determine how to best manage that, followed by a new Snapshot proposal to finalize things.",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0x88781E801435966EA716DEB20E1Dd5F53F107902",
+      "totalVotes": 17,
+      "blockNumber": 15003811,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/QmWmejrWts9BGfUjKqC2zTPbUJ4eD8fwyc3HeuNcsXFfGj",
+      "startTime": {
+        "timestamp": 1655839224
+      },
+      "endTime": {
+        "timestamp": 1656442800
+      },
+      "startTimestamp": 1655839224,
+      "endTimestamp": 1656442800,
+      "currentState": "closed",
+      "choices": [
+        "Auto approve Coordinape results!",
+        "No, I want to vote every month"
+      ],
+      "results": [
+        {
+          "total": 7768187.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7768187.328388753,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOm9uY2hhaW46Nw==",
+      "id": "7",
+      "title": "Bacon token allocations for Coordinape epochs 4 - 100k BACON to distribute",
+      "content": "Send 100k from the DAO to the MultiSig for distribution to Epoch 4 contributors.",
+      "protocol": "baconcoin",
+      "adapter": "onchain",
+      "proposer": "0x58BA5a24fa8833477339072f1221E03bB3b29130",
+      "totalVotes": 0,
+      "blockNumber": 15024695,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1656176865,
+      "endTimestamp": 1656338307,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681928404410,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OnFtZWhnZ2pnNDJtaHBjYjQ5aGJlczI1eTNmdnF0eXloMmt1enFmYXlheGZyd3I=",
+      "id": "QmehGgjG42Mhpcb49HBEs25Y3FvQtyYh2kUZqfayaxfRwr",
+      "title": "Add Curve HOME/3Pool Incentive [reproposed]",
+      "content": "Now that bHOME is truly stable, a Curve pool matching bHOME and the 3pool will be a powerful tool to provide more liquidity and help promote the protocol.\n\nWe propose that staked LP tokens from this new pool earn BACON rewards at the same rate as staked bHOME. The rewards will come from the 8% \"Other Rewards\" pool as described in the whitepaper. The rewards would be based on the full value of the LP token (bHOME + 3crv).\n\nThis will give people a large incentive to provide liquidity to the new pool. The value to the protocol of having liquidity in the pool is the same as providing liquidity directly through the smart contracts.\n\nThe new pool can be found at https://curve.fi/factory/123\n\n",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0x58BA5a24fa8833477339072f1221E03bB3b29130",
+      "totalVotes": 14,
+      "blockNumber": 14887084,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/QmehGgjG42Mhpcb49HBEs25Y3FvQtyYh2kUZqfayaxfRwr",
+      "startTime": {
+        "timestamp": 1654118156
+      },
+      "endTime": {
+        "timestamp": 1654714800
+      },
+      "startTimestamp": 1654118156,
+      "endTimestamp": 1654714800,
+      "currentState": "closed",
+      "choices": [
+        "Yes. Add LP incentive for Curve.",
+        "No. Do not incentivize."
+      ],
+      "results": [
+        {
+          "total": 17113870.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 17113869.7410152,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4ZjU0ZjA5ZTQ2MzMyN2E2YjRlMTNmMTBiZTZjMDJkZjBlMjE5NDMwZDU0YTQ5MWRkZTVkZmI3ZjZkZWVmNzYxYQ==",
+      "id": "0xf54f09e463327a6b4e13f10be6c02df0e219430d54a491dde5dfb7f6deef761a",
+      "title": "Add Curve HOME/3Pool Incentive",
+      "content": "Now that bHOME is truly stable, a Curve pool matching bHOME and the 3pool will be a powerful tool to provide more liquidity  and help promote the protocol.\n\nWe propose that staked LP tokens from this new pool earn BACON rewards at the same rate as staked bHOME. This will give people a large incentive to provide liquidity to the new pool. The value to the protocol of having liquidity in the pool is the same as providing liquidity directly through the smart contracts.\n\nThe new pool can be found at https://curve.fi/factory/123\n\n\n\n",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0x58BA5a24fa8833477339072f1221E03bB3b29130",
+      "totalVotes": 16,
+      "blockNumber": 14846274,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0xf54f09e463327a6b4e13f10be6c02df0e219430d54a491dde5dfb7f6deef761a",
+      "startTime": {
+        "timestamp": 1653545297
+      },
+      "endTime": {
+        "timestamp": 1653937200
+      },
+      "startTimestamp": 1653545297,
+      "endTimestamp": 1653937200,
+      "currentState": "closed",
+      "choices": [
+        "Yes. Add LP incentive for Curve",
+        "No. Do not incentivize. "
+      ],
+      "results": [
+        {
+          "total": 3061151.0,
+          "choice": 0
+        },
+        {
+          "total": 2748.3738,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3061150.8582128296,
+          "choice": 0
+        },
+        {
+          "total": 2748.3737773913217,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOm9uY2hhaW46Ng==",
+      "id": "6",
+      "title": "Bacon token allocations for Coordinape epochs 2 and 3 - 200k BACON to distribute",
+      "content": "I propose to allocate 100,000 BACON community grant tokens for distribution according to Bacon Protocol's 2nd and 3rd Coordinape epochs, which ran from 2/14/2022 - 3/31/2022 and from 4/1/2022-4/30/2022. Each epoch will distribute 100,000 tokens, frying it to medium-crispy first for optimal taste.\n\nTokens will be distributed based on the epoch results. See amounts for each contributor in the snapshot vote. This vote will send 200k BACON to the multi-sig for distribution.\n\nSee successful Snapshot vote at https://vote.baconcoin.com/#/proposal/0x6b45b32d7e080ee3b7a1f2e84d81ec9b0bfa6b1d679b95bb8933de8ba2bf3876",
+      "protocol": "baconcoin",
+      "adapter": "onchain",
+      "proposer": "0x58BA5a24fa8833477339072f1221E03bB3b29130",
+      "totalVotes": 2,
+      "blockNumber": 14805992,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1652978167,
+      "endTimestamp": 1653118161,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 61597848.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14819977
+          },
+          "event": "queued",
+          "timestamp": 1653174037,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14819986
+          },
+          "event": "executed",
+          "timestamp": 1653174227,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 61597848.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681928404410,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOm9uY2hhaW46NQ==",
+      "id": "5",
+      "title": "Bacon token allocations for Coordinape epochs 2 and 3 - 200k BACON to distribute",
+      "content": "I propose to allocate 100,000 BACON community grant tokens for distribution according to Bacon Protocol's 2nd and 3rd Coordinape epochs, which ran from 2/14/2022 - 3/31/2022 and from 4/1/2022-4/30/2022. Each epoch will distribute 100,000 tokens, frying it to medium-crispy first for optimal taste.\n\nTokens will be distributed based on the epoch results. See amounts for each contributor in the snapshot vote. This vote will send 200k BACON to the multi-sig for distribution.",
+      "protocol": "baconcoin",
+      "adapter": "onchain",
+      "proposer": "0x58BA5a24fa8833477339072f1221E03bB3b29130",
+      "totalVotes": 1,
+      "blockNumber": 14791501,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1652776450,
+      "endTimestamp": 1652914063,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681928404410,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OnFtcXFma2tpdXNudHJrYzVyNGZ5eGsycTllZ2ZycTQ0cnZsa3pjZ3p4ZnF3Y2Y=",
+      "id": "QmQqFKKiusntRkC5r4FyxK2q9eGFRq44RVLKzcgZxfqWcf",
+      "title": "Make bHOME a true stable coin",
+      "content": "When bHOME was first invented, we decided to use the price mechanism as a way to send value back to holders without having to do anything. Just hold bHOME. That made the contracts and user experience simple and easy to implement.\n\nAs the Bacon Protocol has grown and matured the last six months, we’ve found that increasing the price of bHOME has been a source of lots of questions and confusion. It also put bHOME in a weird spot between stable coins and other coins -- not quite stable but not fully variable either.\n\nToday, we’re proposing to change bHOME to be fully stable against the US Dollar and to move rewards to a claiming system. This will increase the size of the market interested in bHOME and the Bacon Protocol, make it possible to integrate bHOME with more other protocols, and simplify bHOME to be easier for new users to understand.\n\nHere’s the proposed changes to the protocol:\n\n\n- Change the Pan contract to always exchange bHOME to USDC and back at exactly 1 bHOME : 1 USDC.\n- Always have the amount of outstanding bHOME be equal to the USDC in the Pan plus the sum of outstanding loans.\n- Airdrop existing bHOME holders new bHOME to cover the difference between $1 and the bHOME price when the new contract is deployed.\n- Make a new system where bHOME base rewards are claimable. Temporarily send interest paid to the protocol to an observable multi-sig wallet for a few weeks until the new system is on-chain.\n- The origination and servicing fee to the protocol and servicer will continue to be paid in bHOME. The 1% fee will now be deduced from the loan amount sent to the originator and will effectively be paid by the borrower.",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0x58BA5a24fa8833477339072f1221E03bB3b29130",
+      "totalVotes": 21,
+      "blockNumber": 14769786,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/QmQqFKKiusntRkC5r4FyxK2q9eGFRq44RVLKzcgZxfqWcf",
+      "startTime": {
+        "timestamp": 1652477663
+      },
+      "endTime": {
+        "timestamp": 1652814000
+      },
+      "startTimestamp": 1652477663,
+      "endTimestamp": 1652814000,
+      "currentState": "closed",
+      "choices": [
+        "Yes. Make it purely stable!x",
+        "No. I like bHOME the way it is."
+      ],
+      "results": [
+        {
+          "total": 9948209.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 9948208.77455299,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOm9uY2hhaW46NA==",
+      "id": "4",
+      "title": "Bacon token allocations for Coordinape epochs 2 and 3 - 200k BACON to distribute",
+      "content": "I propose to allocate 100,000 BACON community grant tokens for distribution according to Bacon Protocol's 2nd and 3rd Coordinape epochs, which ran from 2/14/2022 - 3/31/2022 and from 4/1/2022-4/30/2022. Each epoch will distribute 100,000 tokens, frying it to medium-crispy first for optimal taste.\n\nTokens will be distributed based on the epoch results. See amounts for each contributor in the snapshot vote. This vote will send 200k BACON to the multi-sig for distribution.",
+      "protocol": "baconcoin",
+      "adapter": "onchain",
+      "proposer": "0x58BA5a24fa8833477339072f1221E03bB3b29130",
+      "totalVotes": 0,
+      "blockNumber": 14766534,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1652433658,
+      "endTimestamp": 1652570769,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681928404410,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4NmI0NWIzMmQ3ZTA4MGVlM2I3YTFmMmU4NGQ4MWVjOWIwYmZhNmIxZDY3OWI5NWJiODkzM2RlOGJhMmJmMzg3Ng==",
+      "id": "0x6b45b32d7e080ee3b7a1f2e84d81ec9b0bfa6b1d679b95bb8933de8ba2bf3876",
+      "title": "Bacon token allocations for Coordinape epochs 2 and 3",
+      "content": "I propose to allocate 100,000 BACON community grant tokens for distribution according to Bacon Protocol's 2nd and 3rd Coordinape epochs, which ran from 2/14/2022 - 3/31/2022 and from 4/1/2022-4/30/2022. Each epoch will distribute 100,000 tokens, frying it to medium-crispy first for optimal taste.\n\nTokens will be distributed based on the epoch results. See amounts for each contributor in the attached images.\n\n![Coordinape epoch 2.JPG](ipfs://QmapmaCz4nDzY8mASkSNbYVMTajPx6PmrS9jHxC9CaRe7B)\n![Coordinape epoch 3.JPG](ipfs://QmaVneK3QxkyTEezy2ArpeftYXU27GGSm6ZY2kb5JWQZqc)",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0xc9821C5cbA1c14e01561521Bd27440248Edd1346",
+      "totalVotes": 18,
+      "blockNumber": 14706061,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0x6b45b32d7e080ee3b7a1f2e84d81ec9b0bfa6b1d679b95bb8933de8ba2bf3876",
+      "startTime": {
+        "timestamp": 1651600680
+      },
+      "endTime": {
+        "timestamp": 1652248800
+      },
+      "startTimestamp": 1651600680,
+      "endTimestamp": 1652248800,
+      "currentState": "closed",
+      "choices": [
+        "Dish out that Bacon!",
+        "Nah, fry it longer"
+      ],
+      "results": [
+        {
+          "total": 6090927.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6090926.995892409,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4ODNmMGQzMWEwODk5NjgyMzhlZGY1ZTY0MTc4ZGNlZDk2ZDgxOTZkYWZkZmM4MGI4NWY1Mjc2MmRjYjUzYTdjMA==",
+      "id": "0x83f0d31a089968238edf5e64178dced96d8196dafdfc80b85f52762dcb53a7c0",
+      "title": "Coordinape Epoch #2 token allocation",
+      "content": "I propose to allocate 100,000 BACON tokens for distribution according to Bacon Protocol's 2nd Coordinape epoch which ran from 2/14/2022 - 3/31/2022.  \nTokens will be distributed based on the epoch results after 4/1/2022.",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0xE69f48B69E2342356b8E677Eb415800c91E86aE0",
+      "totalVotes": 16,
+      "blockNumber": 14501591,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0x83f0d31a089968238edf5e64178dced96d8196dafdfc80b85f52762dcb53a7c0",
+      "startTime": {
+        "timestamp": 1648832531
+      },
+      "endTime": {
+        "timestamp": 1649433600
+      },
+      "startTimestamp": 1648832531,
+      "endTimestamp": 1649433600,
+      "currentState": "closed",
+      "choices": [
+        "Allocate that Bacon!",
+        "nope, not this time"
+      ],
+      "results": [
+        {
+          "total": 3887386.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3887386.353687819,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 5000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOm9uY2hhaW46Mw==",
+      "id": "3",
+      "title": "send 250,000 baconCoin to multi-sig for distribution",
+      "content": "",
+      "protocol": "baconcoin",
+      "adapter": "onchain",
+      "proposer": "0x134278f44b5780C67a6E6263f0927be207455941",
+      "totalVotes": 1,
+      "blockNumber": 14499655,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1648806973,
+      "endTimestamp": 1648941820,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 45657144.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14509681
+          },
+          "event": "queued",
+          "timestamp": 1648942109,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14509683
+          },
+          "event": "executed",
+          "timestamp": 1648942152,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 45657144.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681928404410,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOm9uY2hhaW46Mg==",
+      "id": "2",
+      "title": "send 250,000 baconCoin to multi-sig for distribution",
+      "content": "",
+      "protocol": "baconcoin",
+      "adapter": "onchain",
+      "proposer": "0x134278f44b5780C67a6E6263f0927be207455941",
+      "totalVotes": 2,
+      "blockNumber": 14481173,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1648558052,
+      "endTimestamp": 1648692031,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 48631060.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14491313
+          },
+          "event": "queued",
+          "timestamp": 1648694110,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 48631060.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681928404410,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOm9uY2hhaW46MQ==",
+      "id": "1",
+      "title": "send 250,000 baconCoin to multi-sig for distribution",
+      "content": "",
+      "protocol": "baconcoin",
+      "adapter": "onchain",
+      "proposer": "0x134278f44b5780C67a6E6263f0927be207455941",
+      "totalVotes": 1,
+      "blockNumber": 14454074,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1648193391,
+      "endTimestamp": 1648327906,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 42044340.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 42044340.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681928404410,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmFjb25jb2luOnNuYXBzaG90OjB4MzI4MTA3OGFlMTMxMTBjOTg5YmRiNzBmMmM3NzljNmJhMDMyZTU4YjdkNzBhOTJjYTYyZmNlZjUzNDRkODNmYQ==",
+      "id": "0x3281078ae13110c989bdb70f2c779c6ba032e58b7d70a92ca62fcef5344d83fa",
+      "title": "Allocation of Bacon tokens from Coordinape epoch #1",
+      "content": "I propose to allocate 250,000 Bacon community grant tokens based on the results from the Coordinape epoch #1 ending February 14th. The results are as follows, with ETH addresses provided privately to the LoanSnap team for distribution to individuals:\n\nDiscord Name\tTokens\n0xffff\t6310\nAbdalla.sol\t47175\nBeter_Wurld\t1502\nBigMachoRandySavage\t10216\nCoordinape\t8113\nGDak\t63101\nNattyBoom\t5409\nRangerRowekin\t5409\nThreeDivide\t26142\nacjay\t52885\nch31\t5409\nchrisadamhuang\t5409\nexpatdiver\t6010\ngrantschneider\t5108\nwonz\t1803\n",
+      "protocol": "baconcoin",
+      "adapter": "snapshot",
+      "proposer": "0x88781E801435966EA716DEB20E1Dd5F53F107902",
+      "totalVotes": 19,
+      "blockNumber": 14205812,
+      "externalUrl": "https://snapshot.org/#/baconcoin.eth/proposal/0x3281078ae13110c989bdb70f2c779c6ba032e58b7d70a92ca62fcef5344d83fa",
+      "startTime": {
+        "timestamp": 1644877800
+      },
+      "endTime": {
+        "timestamp": 1645070400
+      },
+      "startTimestamp": 1644877800,
+      "endTimestamp": 1645070400,
+      "currentState": "closed",
+      "choices": [
+        "Allocate that Bacon!",
+        "Nah, maybe next time"
+      ],
+      "results": [
+        {
+          "total": 6795785.5,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6795785.848728537,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

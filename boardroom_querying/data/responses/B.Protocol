@@ -1,0 +1,969 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OjB4MGVkYTE0MjBlNTcwN2ZhY2Y2NzViODJlMjRmMDA4MDU1ZTc4M2M5MzMyYjExMmQ4Njc5Zjc3YTgzYTkyOGUyZQ==",
+      "id": "0x0eda1420e5707facf675b82e24f008055e783c9332b112d8679f77a83a928e2e",
+      "title": "BIP #15: Should B.Protocol deposit the LUSD from the Liquity fee pool back into the B.AMM?",
+      "content": "Should B.Protocol deposit the ~100k $LUSD from the Liquity fee pool (0x7095F0B91A1010c11820B4E263927835A4CF52c9) back into the B.AMM? \n\nPROS:\n- Add more backstop capital\n- Increase protocol TVL\n- Earn LQTY (currently 6.8% APR)\n\nCONS:\n- Slight reduction in backstopper yield due to smaller B.AMM share ($100k deposit on $18m pool = .53%)",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0xf2031b3a119e93c5D13b3B0d1aF6251E5aeBE735",
+      "totalVotes": 13,
+      "blockNumber": 15519484,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/0x0eda1420e5707facf675b82e24f008055e783c9332b112d8679f77a83a928e2e",
+      "startTime": {
+        "timestamp": 1662965118
+      },
+      "endTime": {
+        "timestamp": 1663527600
+      },
+      "startTimestamp": 1662965118,
+      "endTimestamp": 1663527600,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 294264.12,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 294264.15370387817,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OjB4NzA3NTBjNTNkZTljNGIxODM2YWZmNGYzMDUyOGZkMjFlZjdlNzJiMDNiMzg3MTdiMTY0ZGMzMjMwMWE0NTc5MA==",
+      "id": "0x70750c53de9c4b1836aff4f30528fd21ef7e72b03b38717b164dc32301a45790",
+      "title": "BIP #14",
+      "content": "As proposed on the [forum](https://forum.bprotocol.org/t/bip-14-b-amm-fee-activation/228). This proposal will need to achieve the required quorum (250K BPRO for any fee choice) for a B.AMM integration before it can be executed by the multisig.\n\nThere are currently 4 integrations to vote for fee activation on:\n\n* Liquity [v2] - this will be for the latest version of the Liquity B.AMM\n* Hundred Finance (Arbitrum)\n* Hundred Finance (Fantom)\n* Vesta (Arbitrum)\n\nMax fee is 1%.",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0xa9d062B23650C9191673d9496d9e700d37DC55f5",
+      "totalVotes": 24,
+      "blockNumber": 14179406,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/0x70750c53de9c4b1836aff4f30528fd21ef7e72b03b38717b164dc32301a45790",
+      "startTime": {
+        "timestamp": 1644537600
+      },
+      "endTime": {
+        "timestamp": 1644969600
+      },
+      "startTimestamp": 1644537600,
+      "endTimestamp": 1644969600,
+      "currentState": "closed",
+      "choices": [
+        "Liquity - 0%",
+        "Liquity - 0.5%",
+        "Liquity - 1%",
+        "============",
+        "Hundred (Arb) - 0%",
+        "Hundred (Arb) - 0.5%",
+        "Hundred (Arb) - 1%",
+        "============",
+        "Hundred (Fant) - 0%",
+        "Hundred (Fant) - 0.5%",
+        "Hundred (Fant) - 1%",
+        "============",
+        "Vesta - 0%",
+        "Vesta - 0.5%",
+        "Vesta - 1%"
+      ],
+      "results": [
+        {
+          "total": 1197.2972,
+          "choice": 5
+        },
+        {
+          "total": 320.84973,
+          "choice": 0
+        },
+        {
+          "total": 45.945946,
+          "choice": 14
+        },
+        {
+          "total": 1255.2896,
+          "choice": 13
+        },
+        {
+          "total": 73159.59,
+          "choice": 2
+        },
+        {
+          "total": 278428.44,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "approval",
+      "indexedResult": [
+        {
+          "total": 366.7956739697479,
+          "choice": 0
+        },
+        {
+          "total": 307590.20799238636,
+          "choice": 1
+        },
+        {
+          "total": 100768.84320240868,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        },
+        {
+          "total": 307180.936484896,
+          "choice": 5
+        },
+        {
+          "total": 73229.17145440934,
+          "choice": 6
+        },
+        {
+          "total": 0.0,
+          "choice": 7
+        },
+        {
+          "total": 0.0,
+          "choice": 8
+        },
+        {
+          "total": 307180.936484896,
+          "choice": 9
+        },
+        {
+          "total": 73229.17145440934,
+          "choice": 10
+        },
+        {
+          "total": 0.0,
+          "choice": 11
+        },
+        {
+          "total": 0.0,
+          "choice": 12
+        },
+        {
+          "total": 305983.6391875959,
+          "choice": 13
+        },
+        {
+          "total": 73229.17145440934,
+          "choice": 14
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OjB4NGM0ZWUwOTFkMTBmYTBiZWVjYjRiNWI4MjY3Y2RiOTFhZWYwNjRmMTc3MjE2YWNlNTUxYmI1NzNhYzIyZmU5Zg==",
+      "id": "0x4c4ee091d10fa0beecb4b5b8267cdb91aef064f177216ace551bb573ac22fe9f",
+      "title": "BIP #10 -13",
+      "content": "Below are the summaries of the different proposals which were discussed over the [forum](https://forum.bprotocol.org/).\n\nPlease vote on each of the proposals below according to your preferences. **Each** Proposal will need to achieve the required quorum on itself before it can be executed by the multisig.\n\nPlease pay attention that **BIP #12** and **BIP#13** are **Signal Votes** for the community to show its support/preference for further research and development of the subjects proposed.\n\nBIP #10 and BIP#11 will each need to achieve a majority with the required quorum of 250k BPRO for a YES vote before it can be executed by the DAO multisig. \n\n### BIP#10 - Participate in KeeperDAO’s coordination games\n\nShare MEV in the rebalance process with KeeperDAO, on the expense of some part of the DAO's fees.\nIn return:\n\n1. Get a more efficient and secure rebalance process.\n2. KeeperDAO will deposit $5m in B.Protocol’s BAMM’s to help seeding new backstop markets (up to gov vote of KeeperDAO).\n\nLink to forum discussion - https://forum.bprotocol.org/t/bip-10-participate-in-keeperdaos-coordination-games/218 \n\n### BIP#11 - Nexus Mutual Cover for B.Protocol smart contracts\n\nB.Protocol DAO to allocate 10,000 BPRO from its reserve to a Shield Mining campaign on [Nexus Mutual ](https://nexusmutual.io/) in order to increase cover capacity and lower cover cost for B.Protocol integrations.\n\nThis is a re-vote on BIP#9 that didn't reach quorum.\n\nLink to the forum discussion - https://forum.bprotocol.org/t/bip-11-nexus-mutual-cover-for-b-protocol-smart-contracts/227\n\n### [Signal Vote] BIP #12 - A veTokenomic-like Staking Design\n\nThis is a Signal Vote. Vote YES if you want this option to be further researched and developed into a full executable BIP. \n\nShould B.Protocol adopt veBPRO/bSTABLE tokenomic design as described in this Forum discussion - \nhttps://forum.bprotocol.org/t/signal-vote-bip-12-a-vetokenomic-like-staking-design-for-b-protocol/224\n\n### [Signal Vote] BIP #13 - Liquidity Provision for BPRO\n\nThis is a Signal Vote. Vote on your preferred option of the 5 options listed below. \n\nProviding liquidity on other L1s/ L2s can be voted on in addition to other options listed. \nLink to the forum discussion -  https://forum.bprotocol.org/t/signal-vote-bip-13-liquidity-provision-for-bpro/226/2\n\n\n\nSee votes choices below - ",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0xa9d062B23650C9191673d9496d9e700d37DC55f5",
+      "totalVotes": 26,
+      "blockNumber": 14179378,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/0x4c4ee091d10fa0beecb4b5b8267cdb91aef064f177216ace551bb573ac22fe9f",
+      "startTime": {
+        "timestamp": 1644537600
+      },
+      "endTime": {
+        "timestamp": 1644969600
+      },
+      "startTimestamp": 1644537600,
+      "endTimestamp": 1644969600,
+      "currentState": "closed",
+      "choices": [
+        "BIP #10 - YES",
+        "BIP #10 - NO",
+        "============",
+        "BIP #11 - YES",
+        "BIP #11 - NO",
+        "============",
+        "BIP #12 - Yes",
+        "BIP #12 - NO",
+        "============",
+        "BIP #13 - G-UNI/B.AMM",
+        "BIP #13 - Visor",
+        "BIP #13 - Olympus Pro",
+        "BIP #13 - Classic LM",
+        "BIP #13 - LP on other L1s",
+        "BIP #13 - LP on L2"
+      ],
+      "results": [
+        {
+          "total": 5856.682,
+          "choice": 9
+        },
+        {
+          "total": 255775.19,
+          "choice": 0
+        },
+        {
+          "total": 1100.3588,
+          "choice": 7
+        }
+      ],
+      "events": [],
+      "type": "approval",
+      "indexedResult": [
+        {
+          "total": 262732.2299540923,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 256155.4181175946,
+          "choice": 3
+        },
+        {
+          "total": 826.8118364976999,
+          "choice": 4
+        },
+        {
+          "total": 0.0,
+          "choice": 5
+        },
+        {
+          "total": 255881.87114845272,
+          "choice": 6
+        },
+        {
+          "total": 1100.3588056395608,
+          "choice": 7
+        },
+        {
+          "total": 0.0,
+          "choice": 8
+        },
+        {
+          "total": 44372.47181569558,
+          "choice": 9
+        },
+        {
+          "total": 97523.84082890292,
+          "choice": 10
+        },
+        {
+          "total": 74638.1389343831,
+          "choice": 11
+        },
+        {
+          "total": 8997.089628232814,
+          "choice": 12
+        },
+        {
+          "total": 16422.939162093033,
+          "choice": 13
+        },
+        {
+          "total": 82289.69741298983,
+          "choice": 14
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OjB4ZGM3MTZmMDUxMmFmZmMzZjdiZjM5MmQ5MmQ3ODZlMjU4ZmVmZmU5MGM5MWU3ODA3ZDgzYjMwMDI2OWMwMmZiMA==",
+      "id": "0xdc716f0512affc3f7bf392d92d786e258feffe90c91e7807d83b300269c02fb0",
+      "title": "Should we consider cross chain to other chains, so that the project market is broader?",
+      "content": "",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0x635C5Fd1BA391d7c3Db2725C0d1ccFB2b3E8ae45",
+      "totalVotes": 0,
+      "blockNumber": 13696084,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/0xdc716f0512affc3f7bf392d92d786e258feffe90c91e7807d83b300269c02fb0",
+      "startTime": {
+        "timestamp": 1637985600
+      },
+      "endTime": {
+        "timestamp": 1638072000
+      },
+      "startTimestamp": 1637985600,
+      "endTimestamp": 1638072000,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OjB4YTFiZDgwM2IxNzM0NWUxNDBlYWY1ZDA5MGJlYWUzNjFiOGMyZjc3MTljNGI0NjQxZDUwMjdiYzM0ODJhZTM3NA==",
+      "id": "0xa1bd803b17345e140eaf5d090beae361b8c2f7719c4b4641d5027bc3482ae374",
+      "title": "Should we consider cross chain to other chains, so that the project market is broader?",
+      "content": "",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0xe847521057c5c0B441259945FB10063a6C43a43a",
+      "totalVotes": 0,
+      "blockNumber": 13696073,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/0xa1bd803b17345e140eaf5d090beae361b8c2f7719c4b4641d5027bc3482ae374",
+      "startTime": {
+        "timestamp": 1637985600
+      },
+      "endTime": {
+        "timestamp": 1638072000
+      },
+      "startTimestamp": 1637985600,
+      "endTimestamp": 1638072000,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OjB4NmU1MmJlZmVjOWIxODkzZTQzMjY3ZWQzMmNiOGExODcwOTk0NDcxM2U0NzMxMjVmYWE3ZTU4ZjdkNDBkYmJlNw==",
+      "id": "0x6e52befec9b1893e43267ed32cb8a18709944713e473125faa7e58f7d40dbbe7",
+      "title": "Add Ability To Comment On Proposals",
+      "content": "Should we have the ability to post comments on proposals? This would help educate other voters on their selection.",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0x22C1464e083d45b7c6e3d949C3a06016B419A333",
+      "totalVotes": 1,
+      "blockNumber": 13676490,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/0x6e52befec9b1893e43267ed32cb8a18709944713e473125faa7e58f7d40dbbe7",
+      "startTime": {
+        "timestamp": 1637726400
+      },
+      "endTime": {
+        "timestamp": 1637812800
+      },
+      "startTimestamp": 1637726400,
+      "endTimestamp": 1637812800,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [
+        {
+          "total": 500.09387,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 500.09386813838137,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OjB4MzA4YjMyMmU3YmZiZWQ2ODY0OTM3MDNmZjJjMTMxMWY3MDVkZTk4Nzg0Mjk4YjBkZWNkNDk0Zjc1NzI5NDI3OQ==",
+      "id": "0x308b322e7bfbed686493703ff2c1311f705de98784298b0decd494f757294279",
+      "title": "Will we become the leader of the plate?",
+      "content": "Will we become the leader of the plate?",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0x9d5bf21aE0373545B13Bcd37E2992437e723dae7",
+      "totalVotes": 1,
+      "blockNumber": 13652340,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/0x308b322e7bfbed686493703ff2c1311f705de98784298b0decd494f757294279",
+      "startTime": {
+        "timestamp": 1637380800
+      },
+      "endTime": {
+        "timestamp": 1637467200
+      },
+      "startTimestamp": 1637380800,
+      "endTimestamp": 1637467200,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [
+        {
+          "total": 742.89386,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 742.8938681383814,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OjB4NDdhNmJlN2NmNjdkODYzNmNhZjc1MWI1NGUxZTZjMTNlMmM2ZGUyYzQyNWMyM2ZkOGM0MzcwODY5NWIwZmY5Mg==",
+      "id": "0x47a6be7cf67d8636caf751b54e1e6c13e2c6de2c425c23fd8c43708695b0ff92",
+      "title": "BIP #8 and BIP #9 Proposal vote",
+      "content": "Below are the summaries of the two different proposals currently up for vote.\n\nPlease vote YES/NO on each of the proposals below according to your approval of it. Each Proposal will need to achieve the required quorum on itself before it can be executed by the multisig.\n\nMake sure to click only on the YES or NO buttons for each proposal below.\n\n*Each BIP will need to achieve a majority with the required quorum of 250k BPRO for a YES vote before it can be executed by the multisig.*\n\n### BIP #8 - Build Protocol Owned Liquidity On Uniswap v3\n\nSupply 100,000 BPRO (approx. $700K) to a _single-sided range order_ on the BPRO/ETH Uniswap v3 pool. Visor Finance will manage that range order and rebalance according to strategies developed by its research organization Gamma Strategies to optimize for slippage, yield, and availability of liquidity.\n\n*Detailed proposal* - https://forum.bprotocol.org/t/bip-8-build-protocol-owned-liquidity-on-uniswap-v3/201/2\n\n### BIP #9 - Incentivize Cover underwriters on Nexus Mutual for B.Protocol v2\n\nThis proposal suggests that the B.Protocol DAO should allocate 10,000 BPRO (~$75,000) from its reserve to a Shield Mining campaign on [Nexus Mutual](https://nexusmutual.io/) in order to increase cover capacity and lower cover cost for B.Protocol v2.\n\n*Detailed proposal* - https://forum.bprotocol.org/t/proposal-nexus-mutual-cover-for-b-protocol-v2-smart-contracts/195\n\n\n",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0xa9d062B23650C9191673d9496d9e700d37DC55f5",
+      "totalVotes": 32,
+      "blockNumber": 13621472,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/0x47a6be7cf67d8636caf751b54e1e6c13e2c6de2c425c23fd8c43708695b0ff92",
+      "startTime": {
+        "timestamp": 1636995600
+      },
+      "endTime": {
+        "timestamp": 1637427600
+      },
+      "startTimestamp": 1636995600,
+      "endTimestamp": 1637427600,
+      "currentState": "closed",
+      "choices": [
+        "BIP #8 - YES",
+        "BIP #8 - NO",
+        "============",
+        "BIP #9 - YES",
+        "BIP #9 - NO"
+      ],
+      "results": [
+        {
+          "total": 49871.29,
+          "choice": 3
+        },
+        {
+          "total": 127311.414,
+          "choice": 0
+        },
+        {
+          "total": 10194.258,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "approval",
+      "indexedResult": [
+        {
+          "total": 171461.42612120076,
+          "choice": 0
+        },
+        {
+          "total": 15915.54755501234,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 174352.03785515172,
+          "choice": 3
+        },
+        {
+          "total": 13024.935821061365,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OnFtYTU2cGdraHYzYmt0ZGd3bG9xdG5sN2tzOW9wdGJweXpib3lodHJ2N2Vta2c=",
+      "id": "Qma56pGKhv3BkTDGWLoqtNL7KS9optbPyzBoyhtrV7EMKG",
+      "title": "BIP #7 Hats Finance BPRO Allocation Vote",
+      "content": "***BIPs need to achieve a majority with the required quorum of 250k BPRO for a YES vote before it can be executed by the multisig.***\n\nFind further discussion concerning this proposal [here](https://forum.bprotocol.org/t/b-protocol-white-hat-incentive-vault-funding-proposal/181/11).\n\n## Simple Summary\n* Following the setup of the B.protocol vault and committee on [Hats.finance](https://app.hats.finance/) dapp, and our [last forum post](https://forum.bprotocol.org/t/b-protocol-hats-finance-proactive-security-for-smart-contract/113), the goal of this proposal is to fund the vault.\n\n* Hats.finance is a proactive bounty protocol for white hat hackers and auditors, where projects, community members, and stakeholders incentivize protocol security and responsible disclosure.\n\n##  Abstract\nHats.finance created scalable vaults using the project’s own token. The value of the bounty increases with the success of the token and project. In addition, NFT artists will create numerous unique NFTs that will be minted specially for hackers and auditors that will responsibly disclose vulnerabilities.\n\nWe offer every participant in the Ethereum ecosystem skin in the game to ensure a more secure future for the users of #Ethereum.\n\nThis proposal aims to incentivize hackers, auditors, and the community to protect the B.protocol contracts by promoting responsible disclosure.\n\nThe proposal suggests depositing BPRO tokens into B.protocol proactive vault on Hats. BPRO vault is a permissionless vault where anyone can participate by depositing and withdrawing. $BPRO.\n\n## Motivation\n\n* 24/7 audit on your protocol with a proactive approach that incentivizes the hacker to disclose the vulnerability instead of exploiting it.\n* A disclosed vulnerability means no TVL/ TOKEN and, most of all, no reputation loss.\n* PR of disclosure and fix becomes a strength to the project and its development team.\n* Attract more users to the “strong and secure protocol.”\n* Permissionless vault - token holders and the B.protocol community can deposit or withdraw in the same permissionless nature.\n\n**BPRO value:**\n\n* BPRO staked in Hats vault increases B.protocol security guarantees\n* Staking BPRO in the hat vaults reduces circulating token supply\n* One-sided yield farming based on your BPRO\n* Participating in Hats pull at this initial phase will be rewarded with extra allocation points (Extra token incentive for the first 20 projects to join). This way, the B.protocol community will have extra voting power in what can potentially become an important security layer of the ecosystem.\n\n**B.protocol community / BPRO holders:**\n\n* Join the effort to secure the ecosystem.\n* Financial incentive in the form of Yield farming (Protocol protection mining)\n* Protect their own project token by risking a portion of their holdings. By doing that, get $HAT and become influential in the Hats governance process.\nHats liquidity mining program will start soon.\n\n## Specification\nThe hats protocol is permissionless, meaning anyone can participate and lock BPRO in the Hats BPRO vault. The BPRO vault protects the B.protocol contracts from hacks by incentivizing responsible disclosure through the Hats protocol.\n\nIf a hacker responsibly discloses an exploit through the Hats mechanism, a portion (depending on severity) of the locked BPRO tokens will go to the hacker as a reward, some vested, and some immediately. ( See the reward split in Kleros vault, for example)\n\nThis is a win-win situation for Hackers, the B.protocol community, and the core team.\n\nAs a BPRO holder: Statistically, when a protocol suffers a hack or exploit, its token value will drop between 35-50% at the 24 hours following the hack (Messari). It is rational to lock part of a user’s holdings to protect the rest of her holdings from a potential hack.\n\nHacker gets a substantial amount of FUNGIBLE money, become known for disclosing a critical vulnerability instead of rekt’ing the protocol and its stakeholders, and receive funds without becoming a worldwide criminal.\n\nWe found out that a crucial element for black hat hackers is privacy, permissionless, no KYC.\n\nThe decentralization of the protocol is critical in order to incentivize anyone involved in the protocols to protect it: community, artist, investors, team members, & developers.\n\n## Rationale\nSecurity underlies the technology of smart contracts; there isn’t such a thing as too much security. We think Ethereum dapps should include both our solution and others.\n\nThe beauty of Hats being a fully permissionless protocol is that DAOs, treasuries, and individuals can deposit or withdraw funds from the vault at any point. Utilize Idle funds for active protection with full depositor control for treasuries and users alike.\n\nThe Hats contracts are public (find the link at the first comment) verified on Etherscan and can be found by clicking the “View Contracts Covered” under Hats vault in hats dApp (find the link at the first comment)\n\n## Audit and safety measures:\n\n* Audit reports - find the link at the first comment.\n* Hats is live with Hats vault containing more than $130K USDC worth of tokens to further incentivize responsible disclosure.\n\n## Vault fund:\n\nAs a community, you can take mutual action to incentivize others to make B.protocol a safer environment.\n\nBear in mind that funds will be released from the vault only due to vulnerability disclosure. The upside from fixing issues is drastically more valuable than the financial face value of the BPRO tokens that are going to be deposited.\n\nIt’s in the hands of the B.protocol community to determine changes to this initial deposit and to increase/ decrease its size in relation to changes you are doing in the contracts.\n\n## Implementation\n\n* Fund $BPRO vault on hats\n\n## Proposal:\n\nB.protocol DAO will deposit a 100k$ worth in BPRO to incentivize White hats hackers and auditors to make B.protocol a safer environment.\n\nAs a reference, Kleros and Liquity already decided to deposit 200k$ and 250k$ worth of tokens in hats vault.",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0xa9d062B23650C9191673d9496d9e700d37DC55f5",
+      "totalVotes": 28,
+      "blockNumber": 13373033,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/Qma56pGKhv3BkTDGWLoqtNL7KS9optbPyzBoyhtrV7EMKG",
+      "startTime": {
+        "timestamp": 1633626000
+      },
+      "endTime": {
+        "timestamp": 1634058000
+      },
+      "startTimestamp": 1633626000,
+      "endTimestamp": 1634058000,
+      "currentState": "closed",
+      "choices": [
+        "Yes - BIP #7",
+        "NO - BIP #7"
+      ],
+      "results": [
+        {
+          "total": 261368.34,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 261368.34458679703,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OnFtemMxcGhjamsyNzV3anU3bXZkaXBoa3h1Y3A4cWxkb3RwZ3N5bTdyc2J5cWY=",
+      "id": "QmZC1PhCjK275WJu7mvDiphkXucp8qLDotPGSYM7rSbYQf",
+      "title": "BIP #3 - BIP #6 BPRO Allocation Vote",
+      "content": "Below are the summaries of the different BPRO allocation proposals which were discussed over the [forum](https://forum.bprotocol.org/t/allocating-bpro-from-the-dao-reservoir-lm-phase-2/151).\n\nPlease vote YES/NO on **each** of the proposals below according to your approval of it. Each Proposal will need to achieve the required quorum on itself before it can be executed by the multisig. \n\nMake sure to click only on the YES or NO buttons for each proposal below. \n\n*Each BIP will need to achieve a majority with the required quorum of 250k BPRO for a YES vote before it can be executed by the multisig.*  \n\n### BIP #3 - Allocating BPRO to reward v2 native integrations\n\nAllocating 200,000 BPRO to a dedicated account under the control of the Multisig to be used as incentive rewards for new native integrations.\n\nDetailed proposal - https://forum.bprotocol.org/t/bip-3-allocating-bpro-to-reward-v2-native-integrations/166\n\n### BIP #4 - Use UMA's KPI Options Program for users' Liquidity Mining\n\nDeposit 90,000 BPRO from the DAO Reservoir into a BPRO KPI-Option program on UMA Protocol that will take DeFi Llama as its TVL source.\n\nDetailed proposal - https://forum.bprotocol.org/t/bip-4-use-umas-kpi-options-program-for-users-liquidity-mining/167\n\n### BIP #5 - Growth Squad Fund\n\nTransfer 25,000 BPRO to a Growth Squad Fund account, controlled by the Growth Squad multisig. \n\nDetailed proposal - https://forum.bprotocol.org/t/bip-5-growth-squad-fund/168\n\n### BIP #6 - Backing B.Protocol-Immunefi Bug Bounty Program\n\nTransfer 50,000 BPRO to a dedicated account for Immunefi payouts if needed.\n\nDetailed proposal - https://forum.bprotocol.org/t/bip-6-backing-b-protocol-immunefi-bug-bounty-program/169\n",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0xa9d062B23650C9191673d9496d9e700d37DC55f5",
+      "totalVotes": 45,
+      "blockNumber": 13217930,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/QmZC1PhCjK275WJu7mvDiphkXucp8qLDotPGSYM7rSbYQf",
+      "startTime": {
+        "timestamp": 1631544300
+      },
+      "endTime": {
+        "timestamp": 1631976300
+      },
+      "startTimestamp": 1631544300,
+      "endTimestamp": 1631976300,
+      "currentState": "closed",
+      "choices": [
+        "BIP #3 - YES",
+        "BIP #3 - NO",
+        "============",
+        "BIP #4 - YES",
+        "BIP #4 - NO",
+        "============",
+        "BIP #5 - YES",
+        "BIP #5 - NO",
+        "============",
+        "BIP #6 - YES",
+        "BIP #6 - NO"
+      ],
+      "results": [
+        {
+          "total": 11924.132,
+          "choice": 9
+        },
+        {
+          "total": 278126.5,
+          "choice": 0
+        },
+        {
+          "total": 1249.6475,
+          "choice": 6
+        }
+      ],
+      "events": [],
+      "type": "approval",
+      "indexedResult": [
+        {
+          "total": 289376.14246520516,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 278368.1898622499,
+          "choice": 3
+        },
+        {
+          "total": 10657.864126122922,
+          "choice": 4
+        },
+        {
+          "total": 0.0,
+          "choice": 5
+        },
+        {
+          "total": 267104.9615751252,
+          "choice": 6
+        },
+        {
+          "total": 17921.04811293151,
+          "choice": 7
+        },
+        {
+          "total": 0.0,
+          "choice": 8
+        },
+        {
+          "total": 273267.87341306783,
+          "choice": 9
+        },
+        {
+          "total": 13682.26838275251,
+          "choice": 10
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OnFtY21jbTE3ZHpqbWI0Mmc3YXNobTdqdXRraXFmdnV5YmZqZ3NyaWluMWYxZms=",
+      "id": "QmcMCm17DZJMB42g7aShm7JUTkiQFvuybfJgsRiiN1f1fK",
+      "title": "BIP-2 : Community Mining (LM phase 2)",
+      "content": "The LM phase 2 will run for 591300 blocks (~3 months), starting at block number 12895835 (one block after LM phase 1 ended) and will end at block number 13487135.\n\n## 1. Incentivising New Users\n\nNew B.Protocol users includes any users who join during LM phase 2 (as described above) through any of these integrations:\n\n* Current Maker and Compound integrations.\n* New Liquity<>B.Protocol integration (from any UI, including Pickle and other UIs that might be added).\n* Instadapp<>B.Protocol and/or other integrations that might be added during this LM phase.\n\nIt is proposed that a one-time reward of 50 BPRO will be given to new users who Import their accounts or open new ones on B.Protocol.\n\nIn order to prevent sybil attacks, eligible accounts for this reward must have a minimum of $10k worth of assets in deposits, for a minimum period of 30 days. The reward is limited to the first 300 unique addresses. ​​All rewards will be distributed 30 days after the end of the 90-days period to enable also last minute users to get the rewards they are entitled to.\n\n## 2. KPI-based Liquidity Mining for users\n \nIt is proposed that [UMA’s KPI Options](https://umaproject.org/kpi-options.html) will be used for the KPI based LM.\n\nFor that, 90k BPRO from the DAO Reservoir account will be deposited as collateral to mint 90k BPRO UMA Option tokens (ERC20), that will be distributed to Users according to the same conditions as the previous LM. A floor price of 33% will be set and the options will mature at the end of the 2nd LM phase, at block number 13487135. If the TVL of B.Protocol will reach or exceeds $150m, the options will mature to 100% (1 BPRO per option). If the TVL fails to reach $150m the option will mature at the floor price (0.33 BPRO per option), and the remaining 60k BPRO will be returned to the DAO Reservoir account.\n\n## 3. Providing One-Sided BPRO Liquidity on Uniswap v3\n\nHaving liquidity of BPRO for new members who would like to join and participate in the governance of B.Protocol is important for the health of the protocol. Still, it seems the LPs rewards in the first LM didn’t achieve the goal of growing the number of participants.\n\nIt is suggested that the B.Protocol DAO will deposit 100k BPRO tokens from its reservoir into a Uniswap V3 BPRO/ETH pool, as a new mechanism to provide liquidity for new small to medium members. The 100k BPROs will be concentrated between the range of $2-$5, according to the current ETH value at the day of the execution. .\n\nThis way the DAO can guarantee liquidity for new members who wish to join the governance.\n\n## 4. Growth Squad Fund\n\nPutting direct efforts in the growth, promotion and marketing of the protocol was raised by a few members on the forum and Discord. It was [proposed](https://forum.bprotocol.org/t/b-protocol-growth-squad-fund-proposal-draft/115/9) that a new community based “Growth Squad” will be formed to pursue this goal.\n\nThis proposal suggests, in accordance with previous discussions, that a Growth Squad Fund will be funded by the DAO with 25k BPRO to be utilized towards certain growth KPIs were suggested in this thread [link](https://forum.bprotocol.org/t/b-protocol-growth-squad-fund-proposal-draft/115/9?u=a7om).\n\n## 5. Backing B.Protocol-Immunefi Bug Bounty Program\n\nMany users in DeFi consider the security of the protocols they are using as the leading measurement for their involvement. Last week, Immunefi launched a new Bounty Program for B.Protocol, with up to 50k BPRO bounties.\n\nThis proposal suggests that the DAO will dedicate a special vault with 50k BPRO to be used by the multisig if and only if payouts are needed to be made to bug hunters of the Immunefi program.\n\n## Summary\n\nThis proposal suggests 5 sections to be voted by the DAO to dedicate funds from its Reserve:\n\n1. 15,000 BPRO - for up to 300 new users, 50 BPRO each, rewarding new or imported accounts.\n2. 90,000 BPRO - using [UMA’s KPI Options](https://umaproject.org/kpi-options.html)\n3. 100,000 BPRO - to be deposited from the DAO Reservoir to Uniswap BPRO-ETH v3 pool to provide liquidity to new governance members to join.\n4. 25,000 BPRO - to fund the B.Protocol Growth Squad Fund.\n5. 50,000 BPRO - to be deposited in a dedicated vault to be used for payouts to Immunefi Bug Hunters only if and when a bug is found.",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0xa9d062B23650C9191673d9496d9e700d37DC55f5",
+      "totalVotes": 26,
+      "blockNumber": 12923584,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/QmcMCm17DZJMB42g7aShm7JUTkiQFvuybfJgsRiiN1f1fK",
+      "startTime": {
+        "timestamp": 1627601400
+      },
+      "endTime": {
+        "timestamp": 1628033400
+      },
+      "startTimestamp": 1627601400,
+      "endTimestamp": 1628033400,
+      "currentState": "closed",
+      "choices": [
+        "For BIP-2",
+        "Against BIP-2"
+      ],
+      "results": [
+        {
+          "total": 186604.88,
+          "choice": 0
+        },
+        {
+          "total": 28172.92,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 186604.89552356972,
+          "choice": 0
+        },
+        {
+          "total": 28172.917267388195,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OnFtcjFydGVhbm10NGN3eXZjM21wa2JzZGRsdXdjNXY1ZnV2d2tlZ3V3Nmd3dm0=",
+      "id": "QmR1rTEAnmT4CwYvC3MpkBsddLuWc5v5fUvwKEgUW6gwVM",
+      "title": "BIP-1 : $BPRO Tokenomics change: Reward Liquidity Providers on Sushiswap and Uniswap",
+      "content": "## Simple Summary\nThe goal of this proposal is to enable better liquidity for the BPRO token as it would arguably attract new users to B.Protocol.\n\n## Abstract\nThis proposal aims to incentivize BPRO liquidity via a BPRO-ETH Sushiswap and Uniswap pools. This proposal suggests that 50% of the current BPRO rewards that are being distributed to users of B.Protocol as part of the Liquidity Mining Program, will be directed towards Liquidity Providers on the Sushiswap and Uniswap BPRO-ETH pools. This change will get into effect once it passes the governance vote on Snapshot, (roughly in 5 days) , and will run until the end of the current Liquidity Mining Program at block 14085231 (approximately 2 months).\n\n## Motivation\nThe current liquidity of BPRO on Uniswap is relatively low and diminishing. As a result, the main goal of the liquidity mining program that was voted by the DAO, is not met - new users are joining in very low numbers as the BPRO rewards can’t be utilized due to the low liquidity.\n\nIn addition, new players who would like to participate in the protocol governance, can’t purchase tokens on the market due to this very low liquidity.\n\nAs the current Liquidity Mining Program runs for exactly a month now, this proposal main goal is to re-adjust the rewards on BPRO in a way that will be better aligned with all stakeholders of the protocol (Users and Token Holders alike) in order to bring new traction both to the protocol and to the token itself as they now go hand in hand.\n\n## Specification\n\n### Overview\nIncentivizing Sushiswap and Uniswap V2 BPRO-ETH liquidity providers with BPRO will increase liquidity for the BPRO-ETH pair and enable new (and existing) players to buy BPRO tokens.\n\n### Rationale\n**DEX choice:** Though initially, and over Discord, the discussion was around Sushiswap only, Uniswap is still the most popular DEX and holds the current liquidity of BPRO. So though Sushiswap may have some incentive mechanisms that are missing in Uniswap, this proposal suggests rewarding LPs on both DEXes at this stage.\n\n**Rewards:**The current Liquidity Mining Program distributes every block roughly 0.14 BPRO to the users of B.Protocol. This proposal suggests to re-adjust this distribution in a way that 50% (0.07 BPRO) will be distributed as rewards to SLP holders of the BPRO-ETH Sushiswap and Uniswap V2 pools. The remaining 50% (0.07 BPRO) will be distributed to B.Protocol users in each block under the same conditions of the current Liquidity Mining Program.\n\n**Duration:** This new Sushiswap/Uniswap BPRO-ETH SLP/LP holders rewards will become part of the current Liquidity Mining Program and will end at the same time as it was voted upon initially by the DAO by the end of July 2021 at block 14085231.\n\n### Technical Specification\nAt every block the ETH-BPRO SLP holders on Sushi, and LP holders on Uniswap will be recorded. Further at every block it will be recorded upon how many BPRO tokens each user controls (i.e., eligible to withdraw from Sushi/Uniswap).\n\nA total amount of 0.07 BPRO will be accrued, in every block, to the entire holders, proportional to their BPRO holdings at Uniswap and Sushi.\n\nThe accumulated BPRO will be distributed to the users once the current program ends (at block 14085231).",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0x1107b8ed3A132a601716989FD84fD66ed1122C72",
+      "totalVotes": 58,
+      "blockNumber": 12498691,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/QmR1rTEAnmT4CwYvC3MpkBsddLuWc5v5fUvwKEgUW6gwVM",
+      "startTime": {
+        "timestamp": 1621881900
+      },
+      "endTime": {
+        "timestamp": 1622347140
+      },
+      "startTimestamp": 1621881900,
+      "endTimestamp": 1622347140,
+      "currentState": "closed",
+      "choices": [
+        "For BIP-1",
+        "Against BIP-1"
+      ],
+      "results": [
+        {
+          "total": 384842.44,
+          "choice": 0
+        },
+        {
+          "total": 7974.666,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 384842.4739822179,
+          "choice": 0
+        },
+        {
+          "total": 7974.66543883813,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OnFtYnU2dDV0c3dldnljdXpwcXNyenRhODJ6ZGJmMWZ1dzhiZmV3c3lvaDFwbHM=",
+      "id": "QmbU6T5tSWeVycUzpqSRZTa82zDBf1fuW8BfewsyoH1PLs",
+      "title": "Should BProtocol adopt a model similar in nature to the CRV/veCRV model used by Curve?",
+      "content": "This is an initial proposal to see how much interest there is in the community to implement a governance token model similar to CRV/veCRV. See, for details on it. --> https://docs.yearn.finance/how-to-guides/how-to-understand-crv-vote-locking \n\nTHIS IS ONLY A SIGNAL VOTE, NO CHANGES WILL BE MADE! \n\nThis proposal was submitted for a future time (6:30 PM EST) to allow more token holders to claim their tokens and have a vote.",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0xa9d062B23650C9191673d9496d9e700d37DC55f5",
+      "totalVotes": 17,
+      "blockNumber": 12338120,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/QmbU6T5tSWeVycUzpqSRZTa82zDBf1fuW8BfewsyoH1PLs",
+      "startTime": {
+        "timestamp": 1619735400
+      },
+      "endTime": {
+        "timestamp": 1619908200
+      },
+      "startTimestamp": 1619735400,
+      "endTimestamp": 1619908200,
+      "currentState": "closed",
+      "choices": [
+        "For CRV/veCRV Token Model",
+        "Against CRV/veCRV Token Model"
+      ],
+      "results": [
+        {
+          "total": 299663.03,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 299663.01235055306,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YnByb3RvY29sOnNuYXBzaG90OnFtcjJ1d3c1ZnJiZHBmbXNhNWVmZGpnZ3NyaTJtZG05YWFmNTY5YWNnYWRydng=",
+      "id": "QmR2Uww5fRBDpFMsA5efDJggSri2mdm9aAf569acGADrvx",
+      "title": "Should BProtocol add pool2 incentives for liquidity providers?",
+      "content": "This is an initial proposal to see how much interest there is in the community to implement some type of pool2 system for BProtocol liquidity providers.\n \nTHIS IS ONLY A SIGNAL VOTE!\n\n***This proposal was resubmitted for a future time (6:30 PM EST) to allow more token holders to claim their tokens and have a vote***",
+      "protocol": "bprotocol",
+      "adapter": "snapshot",
+      "proposer": "0xa9d062B23650C9191673d9496d9e700d37DC55f5",
+      "totalVotes": 16,
+      "blockNumber": 12338120,
+      "externalUrl": "https://snapshot.org/#/bpro.eth/proposal/QmR2Uww5fRBDpFMsA5efDJggSri2mdm9aAf569acGADrvx",
+      "startTime": {
+        "timestamp": 1619735400
+      },
+      "endTime": {
+        "timestamp": 1619908200
+      },
+      "startTimestamp": 1619735400,
+      "endTimestamp": 1619908200,
+      "currentState": "closed",
+      "choices": [
+        "For Pool2",
+        "Against Pool2"
+      ],
+      "results": [
+        {
+          "total": 311182.38,
+          "choice": 0
+        },
+        {
+          "total": 3691.0493,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 311182.37377655273,
+          "choice": 0
+        },
+        {
+          "total": 3691.049093803145,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

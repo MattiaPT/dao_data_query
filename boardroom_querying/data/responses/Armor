@@ -1,0 +1,410 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YXJtb3JmaTpvbmNoYWluOjc=",
+      "id": "7",
+      "title": "Proposal 7",
+      "content": "Third proposal to transfer ownership to Ease DAO.",
+      "protocol": "armorfi",
+      "adapter": "onchain",
+      "proposer": "0x47898746B627B73EB781d834e0F2Ac98d62763a6",
+      "totalVotes": 5,
+      "blockNumber": 15578403,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1663721831,
+      "endTimestamp": 1663931711,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 32631368.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15601813
+          },
+          "event": "queued",
+          "timestamp": 1664005559,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15621508
+          },
+          "event": "executed",
+          "timestamp": 1664243267,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJtb3JmaTpvbmNoYWluOjY=",
+      "id": "6",
+      "title": "Proposal 6",
+      "content": "Second proposal to transfer ownership to Ease DAO.",
+      "protocol": "armorfi",
+      "adapter": "onchain",
+      "proposer": "0xC489621CCAa04B1f62A738937f04bb8922931A7b",
+      "totalVotes": 5,
+      "blockNumber": 15578367,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1663721399,
+      "endTimestamp": 1663931279,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 32631368.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15601811
+          },
+          "event": "queued",
+          "timestamp": 1664005535,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15621512
+          },
+          "event": "executed",
+          "timestamp": 1664243315,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJtb3JmaTpvbmNoYWluOjU=",
+      "id": "5",
+      "title": "Proposal 5",
+      "content": "First proposal to transfer ownership to Ease DAO.",
+      "protocol": "armorfi",
+      "adapter": "onchain",
+      "proposer": "0xc93356BdeaF3cea6284a6cC747fa52dD04Afb2a8",
+      "totalVotes": 2,
+      "blockNumber": 15578261,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1663720115,
+      "endTimestamp": 1663929995,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 34631368.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15620305
+          },
+          "event": "executed",
+          "timestamp": 1664228735,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15601807
+          },
+          "event": "queued",
+          "timestamp": 1664005487,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJtb3JmaTpvbmNoYWluOjQ=",
+      "id": "4",
+      "title": "[arP-002] Accept Ownership of Ease Vaults",
+      "content": "The multisig is currently owner of the vaults (can adjust variables) but for full safety this should be assigned to the DAO. We've begun the transfer to DAO from the multisig and now must accept transfer to the DAO.",
+      "protocol": "armorfi",
+      "adapter": "onchain",
+      "proposer": "0xc93356BdeaF3cea6284a6cC747fa52dD04Afb2a8",
+      "totalVotes": 7,
+      "blockNumber": 14922802,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1654633806,
+      "endTimestamp": 1654887963,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 54357784.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14958306
+          },
+          "event": "queued",
+          "timestamp": 1655157563,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14974907
+          },
+          "event": "executed",
+          "timestamp": 1655405549,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 54357784.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJtb3JmaTpvbmNoYWluOjM=",
+      "id": "3",
+      "title": "Accept Ownership of Ease Vaults",
+      "content": "The Ease vaults were initially owned by our address for quick adding of vaults. Ownership by DAO is pending at the moment and we just need to accept ownership to make sure only DAO has power over the vaults. This transaction accepts that full ownership.",
+      "protocol": "armorfi",
+      "adapter": "onchain",
+      "proposer": "0xc93356BdeaF3cea6284a6cC747fa52dD04Afb2a8",
+      "totalVotes": 0,
+      "blockNumber": 14749641,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1652200702,
+      "endTimestamp": 1652439119,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [],
+      "events": [],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJtb3JmaTpvbmNoYWluOjI=",
+      "id": "2",
+      "title": "[arP-001] ~250MM Token Burn from Treasury ",
+      "content": "Simple Summary:\n\nBurn 250MM token from the multisig treasury reducing the total supply of $Armor by ~25% to 750MM\n\nAim:\n\nImprove the tokenomics of the governance token, provide peace of mind to our current holders, and generate marketing buzz about Armor.\n\nMotivation: After review of the total treasury value, the team believed that there is an unnecessary amount of $Armor tokens allocated to the following:\n\n- Payout of Development Grants\n- Education programs\n- Future Team members\n- Future DAO funding\n\nAfter discussion on the forums, it is proposed to do a single burn, totaling 250MM tokens in the Armor Treasury. The belief is that this will:\n\n- Improve tokenomics\n- Be used as a marketing tool to advertise the protocol\n- Improve peace of mind for current users\n\nOverview: These are the current allocations to each program in the treasury:\n\n- Payout development grants – 120MM allocated.\n- Education programs – 60MM allocated.\n- Future team members/partners – 162MM allocated, ~30MM has been disbursed so far (132MM remaining).\n- Future DAO funding – 175MM allocated.\n\nCutting each allocation by 50% with an additional 5,773,200 from team funding would lead to a total of 249,273,200 $Armor. The new allocations in the treasury being:\n\n- Payout development grants – 60MM allocated\n- Education programs – 30MM allocated\n- Future team members/partners – 60,226,800 allocated\n- Future DAO funding – 87.5MM allocated\n\nThe 249,273,200 $Armor would then be sent to address 0x000000000000000000000000000000000000dEaD, functionally “burning” the tokens from the supply. This amount, added to the previously 726800 $Armor burned from our previous social burns will equal exactly 250MM $Armor burned and a new total supply of 750MM $Armor.",
+      "protocol": "armorfi",
+      "adapter": "onchain",
+      "proposer": "0xc93356BdeaF3cea6284a6cC747fa52dD04Afb2a8",
+      "totalVotes": 20,
+      "blockNumber": 13779091,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1639161764,
+      "endTimestamp": 1639392690,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 45091216.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13797605
+          },
+          "event": "queued",
+          "timestamp": 1639408825,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 13810567
+          },
+          "event": "executed",
+          "timestamp": 1639582359,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 45091212.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJtb3JmaTpvbmNoYWluOjE=",
+      "id": "1",
+      "title": "[arP-001] ~250MM Token Burn from Treasury ",
+      "content": "Simple Summary:\n\nBurn 250MM token from the multisig treasury reducing the total supply of $Armor by ~25% to 750MM\n\nAim:\n\nImprove the tokenomics of the governance token, provide peace of mind to our current holders, and generate marketing buzz about Armor.\n\nMotivation:\nAfter review of the total treasury value, the team believed that there is an unnecessary amount of $Armor tokens allocated to the following:\n\n    - Payout of Development Grants\n    - Education programs\n    - Future Team members\n    - Future DAO funding\n\nAfter discussion on the forums, it is proposed to do a single burn, totaling 250MM tokens in the Armor Treasury. The belief is that this will:\n\n    - Improve tokenomics\n    - Be used as a marketing tool to advertise the protocol\n    - Improve peace of mind for current users\n\nOverview: These are the current allocations to each program in the treasury:\n\n    - Payout development grants – 120MM allocated.\n    - Education programs – 60MM allocated.\n    - Future team members/partners – 162MM allocated, ~30MM has been disbursed so far (132MM remaining).\n    - Future DAO funding – 175MM allocated.\n\nCutting each allocation by 50% with an additional 5,773,200 from team funding would lead to a total of 249,273,200 $Armor. The new allocations in the treasury being:\n\n    - Payout development grants – 60MM allocated\n    - Education programs – 30MM allocated\n    - Future team members/partners – 60,226,800 allocated\n    - Future DAO funding – 87.5MM allocated\n\nThe 249,273,200 $Armor would then be sent to address 0x000000000000000000000000000000000000dEaD, functionally “burning” the tokens from the supply. This amount, added to the previously 726800 $Armor burned from our previous social burns will equal exactly 250MM $Armor burned and a new total supply of 750MM $Armor.",
+      "protocol": "armorfi",
+      "adapter": "onchain",
+      "proposer": "0xc93356BdeaF3cea6284a6cC747fa52dD04Afb2a8",
+      "totalVotes": 3,
+      "blockNumber": 13767220,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1638999698,
+      "endTimestamp": 1639234196,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 66505.945,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13773644
+          },
+          "event": "canceled",
+          "timestamp": 1639088615,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 66505.945,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

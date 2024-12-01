@@ -1,0 +1,4180 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjI2",
+      "id": "26",
+      "title": "Cryptex Aerodrome Pilot Program && Renewal of WinterMute Loan",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0x9eeCEEC01aC7bE64C747B235552A2357af8534c1",
+      "totalVotes": 7,
+      "blockNumber": 20681094,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1725499595,
+      "endTimestamp": 1725707903,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 433276.1,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20743227
+          },
+          "event": "executed",
+          "timestamp": 1726249031,
+          "txHash": "0xe368528437dadbd34a64531ac26af7e8c6fb602fd2a51a50a5d9a49127a2e5ff"
+        },
+        {
+          "time": {
+            "blockNumber": 20713893
+          },
+          "event": "queued",
+          "timestamp": 1725895007,
+          "txHash": "0x57f33f65e57be166c82d18a245d3959726b959af3c9f40525d9104541ff29111"
+        },
+        {
+          "time": {
+            "blockNumber": 20681093
+          },
+          "event": "pending",
+          "timestamp": 1725499583,
+          "txHash": "0x425602aa22ba3f705ea3bef873d781bb4b8642191a258aaf7ba1aeef62f3d9c9"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1725499892751,
+      "txHash": "0x425602aa22ba3f705ea3bef873d781bb4b8642191a258aaf7ba1aeef62f3d9c9",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjI1",
+      "id": "25",
+      "title": "Cryptex Aerodrome Pilot Program",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0x9eeCEEC01aC7bE64C747B235552A2357af8534c1",
+      "totalVotes": 1,
+      "blockNumber": 20673143,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1725403715,
+      "endTimestamp": 1725612083,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 90114.04,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20678596
+          },
+          "event": "canceled",
+          "timestamp": 1725469487,
+          "txHash": "0xe5ee34480ddfc4bcf4b0a4bc12933fe483c39040b371f112825d94476c26796e"
+        },
+        {
+          "time": {
+            "blockNumber": 20673142
+          },
+          "event": "pending",
+          "timestamp": 1725403703,
+          "txHash": "0xb1ccf49fd4b8c72156ee7c1a428854694de5c8b140e5438e19a573eddd9c6007"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 90114.04,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1725403822428,
+      "txHash": "0xb1ccf49fd4b8c72156ee7c1a428854694de5c8b140e5438e19a573eddd9c6007",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDFmM2QzMGJjNDBhZTIwNjliMWFhNzI5M2NlZTc1YzkzOTJhODRhOTk1NzU2Nzg3OTk0YzAwMDI2ZjkwMmZlZjQ=",
+      "id": "0x1f3d30bc40ae2069b1aa7293cee75c9392a84a995756787994c00026f902fef4",
+      "title": "Cryptex Aerodrome Pilot Program",
+      "content": "Dear Community Members,\n\nI want to share a proposal to create a pilot liquidity program. The program aims to create deeper liquidity and help the subDAO earn a yield with its POL on Aerodrome.\n\nBackground\nIn June 2024, the subDAO provided approximately $300k in liquidity on Aerodrome. An initial incentive campaign distributed 5,600 CTX over an 8-week period, successfully attracting ~115k in additional liquidity and 120k+ in volume. Additionally, liquidity providers (LPs) received an average of 70% APR in Aerodrome emissions for participating, making this campaign a HUGE success!!\n\nPilot Program Overview\nBuilding on this success, I propose that the subDAO launch another incentive program over the course of a year. The subDAO should allocate $25k from the treasury, split evenly between CTX and USDC, to incentivize the CTX/USDC pool for 8 weeks. The incentives would be distributed weekly, with a cap of 3% of the pool’s total TVL at any time. To ensure sustainability after the incentives end, the subDAO should lock approximately 40-50% of the Aerodrome emissions earned and vote to direct emissions to the CTX/USDC pool. This approach creates a baseline yield for LPs.\n\nThe subDAO should receive a revenue share of 10% only after the program has broken even based on emissions distributed to LPs (~$25,000 in Aerodrome token emissions).\n\nA Bit of Math\nBased on the test campaign, the expected incentive-to-emissions ratio is 1.5. This means that for every $1 the subDAO spends on incentives, the CTX/USDC pool will earn ~$1.5 in Aerodrome emissions. With a $25k incentive program, the expected total return is approximately $37,500 in emissions to the CTX/USDC pool. The subDAO would earn the lion’s share of these emissions due to the large percentage of Protocol-Owned Liquidity (POL) in the pool. Even in a worst-case scenario, with a 50% reduction in emissions, the subDAO can still expect to break even based on emissions and yield from the veAero.\n\nFinal Thoughts\nThe goal of this campaign is to generate income using DAO assets. I believe Aerodrome provides a great opportunity to do this. Hopefully, the community recognizes the value and potential growth this can bring to the Cryptex ecosystem.\n\nTLDR: \n- The subDAO will run a pilot campaign for 8 weeks with a budget of ~$25k.\n\n- The goal for this campaign is to generate income using DAO assets and secondary goals being to increase TVL for CTX/USDC pool.\n\n- The subDAO will receive a revenue share of 10%. The revenue share is only distributed if a positive return is generated during the campaign.\n\n- At the end of the 8 week campaign the subDAO will share outcomes and results with the greater Cryptex Community.\n\n- Upon a successful campaign the subDAO and community will vote one more time to extend the incentive program for the full 52 week duration.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x7Dcd02442D92748a2DAc40181890bf47209AbD4e",
+      "totalVotes": 8,
+      "blockNumber": 20622125,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x1f3d30bc40ae2069b1aa7293cee75c9392a84a995756787994c00026f902fef4",
+      "startTime": {
+        "timestamp": 1724846400
+      },
+      "endTime": {
+        "timestamp": 1725105600
+      },
+      "startTimestamp": 1724846400,
+      "endTimestamp": 1725105600,
+      "currentState": "closed",
+      "choices": [
+        "Agree ",
+        "Do Not Agree"
+      ],
+      "results": [
+        {
+          "total": 434808.78,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 434808.81237098464,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1724791754103,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjI0",
+      "id": "24",
+      "title": "CIP:31 2024 Operating Expenditures Treasury Transfers for Q3+Q4",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 6,
+      "blockNumber": 20334940,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1721324183,
+      "endTimestamp": 1721532443,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 406082.06,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20355911
+          },
+          "event": "queued",
+          "timestamp": 1721576963,
+          "txHash": "0x9777b16dd095cc30d5f810cb1f172a8a926e1976c68cfd52daaf233368f66c6a"
+        },
+        {
+          "time": {
+            "blockNumber": 20378697
+          },
+          "event": "executed",
+          "timestamp": 1721851811,
+          "txHash": "0x29f96eb424b7029cc526c9edd9597fa7e1f8b10e6b4ad7235b204b904e544bd5"
+        },
+        {
+          "time": {
+            "blockNumber": 20334939
+          },
+          "event": "pending",
+          "timestamp": 1721324171,
+          "txHash": "0xfa3cc6a660f382ce250cd2d7d6e9b68eaa52661e2b21da9af90fe182f93e00f6"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1721324234102,
+      "txHash": "0xfa3cc6a660f382ce250cd2d7d6e9b68eaa52661e2b21da9af90fe182f93e00f6",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGIzYWQ3YzgyN2MxNTNhZjg0OWU4NzIyZGI3NTcyZDgzMTU4ZjNhYTJjYzdkZjBhZjY2ZGNmMDU5YmI3Yzg4NGY=",
+      "id": "0xb3ad7c827c153af849e8722db7572d83158f3aa2cc7df0af66dcf059bb7c884f",
+      "title": "2024 Operating Expenditures Treasury Transfers for Q3+Q4 ",
+      "content": "Now, as we enter Q3+Q4, we need to facilitate the transfer of assets from our treasury to support ongoing operational activities. We are also proposing a budget increase in the following areas:\n\nIncrease the part time contributor budget by 125,000 USDC to pay senior level devs to build the new version of TCAP and yield generating vaults for existing Cryptex products.\nIncrease the operations budget by 70,000 USDC to pay for audits for the new version of TCAP and yield generating vaults.\nIncrease the misc budget by 75,000 USDC for a pending integration fee.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 6,
+      "blockNumber": 20314481,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xb3ad7c827c153af849e8722db7572d83158f3aa2cc7df0af66dcf059bb7c884f",
+      "startTime": {
+        "timestamp": 1721077667
+      },
+      "endTime": {
+        "timestamp": 1721311620
+      },
+      "startTimestamp": 1721077667,
+      "endTimestamp": 1721311620,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 513595.62,
+          "choice": 0
+        },
+        {
+          "total": 112211.56,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 513595.6113625448,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 112211.56450771728,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1721078604517,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjIz",
+      "id": "23",
+      "title": "CIP-30: Q3 2024 Funds for SubDAO operations (fix)",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0x097c39E5E576A8706404CD0D81e05b522f5bCAfF",
+      "totalVotes": 8,
+      "blockNumber": 20210575,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1719823703,
+      "endTimestamp": 1720032275,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 581283.1,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20228275
+          },
+          "event": "queued",
+          "timestamp": 1720037327,
+          "txHash": "0xd4d3828b37fd3ab157216c6744bc79c3defba4b4b3a8f614e5c3399b64e224ae"
+        },
+        {
+          "time": {
+            "blockNumber": 20210574
+          },
+          "event": "pending",
+          "timestamp": 1719823691,
+          "txHash": "0x02ca79ee247bd314703d82018f424969bb522fe106f722331055eb4a24cf8431"
+        },
+        {
+          "time": {
+            "blockNumber": 20254918
+          },
+          "event": "executed",
+          "timestamp": 1720358747,
+          "txHash": "0x0570bc0f5c162b08a73dad22b28606a054edc8a2bd87d3576c5c9272cf7ae2b2"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719823808509,
+      "txHash": "0x02ca79ee247bd314703d82018f424969bb522fe106f722331055eb4a24cf8431",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjIy",
+      "id": "22",
+      "title": "CIP-30: Q3 2024 Funds for SubDAO operations",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0x097c39E5E576A8706404CD0D81e05b522f5bCAfF",
+      "totalVotes": 0,
+      "blockNumber": 20190972,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1719587183,
+      "endTimestamp": 1719795671,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20190971
+          },
+          "event": "pending",
+          "timestamp": 1719587159,
+          "txHash": "0xdfeefe03485337726a2a6cb186cff5182ba51988d745be0ccde82881ec708470"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719587477651,
+      "txHash": "0xdfeefe03485337726a2a6cb186cff5182ba51988d745be0ccde82881ec708470",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjIx",
+      "id": "21",
+      "title": "Transfer assets for CTX liquidity to the Cryptex Liquidity Management SubDAO",
+      "content": "Dear Cryptex DAO members,\n\n\n\nAs mentioned in the previous proposal ([https://www.tally.xyz/gov/cryptex/proposal/19](https://www.tally.xyz/gov/cryptex/proposal/19 \"https://www.tally.xyz/gov/cryptex/proposal/19\")), we will now proceed with the second on-chain vote regarding liquidity management.&#x20;\n\n\n\nDue to recent developments, the DAO has received USDC from market makers who have exercised their options. This influx of funds enables the DAO to proceed with the establishment of the CTX trading pool without the need for programmatically selling CTX for USDC as initially planned.&#x20;\n\n\n\nTo expand CTX liquidity on decentralized exchanges, the Cryptex DAO will allocate **50'000 CTX** and **150,000 USDC** from the **Cryptex DAO Treasury**. This amount will be transferred to the **Cryptex Liquidity Management SubDAO**.&#x20;\n\n\n\nThe Cryptex Liquidity Management SubDAO is a decentralized autonomous organization within the Cryptex ecosystem that manages liquidity provision for the protocol. It operates independently from the core development team and is governed by a multisig wallet managed by community members. The SubDAO's primary role is to make decisions related to liquidity allocation, token pairings, and adjustments, ensuring the protocol remains decentralized and responsive to the needs of its users.&#x20;\n\n\n\nWe invite all members of the Cryptex community to vote on this proposal to start the transfer. Your participation is crucial in shaping the future of our protocol and ensuring its continued growth and success.",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0x097c39E5E576A8706404CD0D81e05b522f5bCAfF",
+      "totalVotes": 1,
+      "blockNumber": 20177828,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1719428651,
+      "endTimestamp": 1719637127,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 104053.63,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20177827
+          },
+          "event": "pending",
+          "timestamp": 1719428639,
+          "txHash": "0xeb38a6d77324b10940a93438ae9c86396d42567fd34d091d86e538211743cd42"
+        },
+        {
+          "time": {
+            "blockNumber": 20178084
+          },
+          "event": "canceled",
+          "timestamp": 1719431735,
+          "txHash": "0x5078e2749f7235ef3dfc67ba1dc24a2e0a628cc9066852300ca32373cc24cbde"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 104053.63,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719429937812,
+      "txHash": "0xeb38a6d77324b10940a93438ae9c86396d42567fd34d091d86e538211743cd42",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjIw",
+      "id": "20",
+      "title": "CIP-29: Renew Wintermute Trading/SkyNet Trading",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 6,
+      "blockNumber": 20077682,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1718218631,
+      "endTimestamp": 1718427467,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 556710.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20118738
+          },
+          "event": "executed",
+          "timestamp": 1718714891,
+          "txHash": "0x0b41b6a8e7487de9874effdee5cbf59f79872c509fb6ea0786579f58b065c5df"
+        },
+        {
+          "time": {
+            "blockNumber": 20094976
+          },
+          "event": "queued",
+          "timestamp": 1718427635,
+          "txHash": "0x7695529d41eefc3c63073fcdaddce3803300c1176a9423afe07e9eb5bb1ebb46"
+        },
+        {
+          "time": {
+            "blockNumber": 20077681
+          },
+          "event": "pending",
+          "timestamp": 1718218619,
+          "txHash": "0xb71bd579eb937c562a224479f879bdb0f721604d2e18a95cf8f220b2beb2f98f"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718219544034,
+      "txHash": "0xb71bd579eb937c562a224479f879bdb0f721604d2e18a95cf8f220b2beb2f98f",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDk0ZjNjOWJlN2RjNTQyMzI0MzcyMmFhNzFhNTZjNjk2YjQ4M2MxNjE0YWZkODcxYjc0Y2VkMTRmM2FiMTQzYjY=",
+      "id": "0x94f3c9be7dc5423243722aa71a56c696b483c1614afd871b74ced14f3ab143b6",
+      "title": "Renew Wintermute Trading/SkyNet Trading",
+      "content": "This proposal seeks to renew the DAOs existing liquidity provisioning agreements with both Wintermute Trading and Skynet Trading.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 8,
+      "blockNumber": 20027837,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x94f3c9be7dc5423243722aa71a56c696b483c1614afd871b74ced14f3ab143b6",
+      "startTime": {
+        "timestamp": 1717617297
+      },
+      "endTime": {
+        "timestamp": 1718049180
+      },
+      "startTimestamp": 1717617297,
+      "endTimestamp": 1718049180,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 407895.66,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 407895.6498084995,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1717617388019,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjE5",
+      "id": "19",
+      "title": "Transfer assets for TCAP liquidity to the Cryptex Liquidity Management SubDAO",
+      "content": "Dear Community Members,\n\nThe snapshot vote to select candidates for the SubDAO multisig has concluded. Based on the results, 0xDonnie, dnkta, and ClownBaby received approximately 70% of the votes.\n\nThe SubDAO multisig will begin with 3 signers, and on a quarterly, bi-annual, or annual basis, we can vote on adding more contributors to the SubDAO.\n\nThe multisig has been created and is ready to use, see below:\n\nETH: <https://etherscan.io/address/0x41187c70eB8eeEfDaEd4ED0bFF20005C53c3a7DD>\n\nBase: <https://basescan.org/address/0x41187c70eB8eeEfDaEd4ED0bFF20005C53c3a7DD>\n\nArbitrum: <https://arbiscan.io/address/0x41187c70eB8eeEfDaEd4ED0bFF20005C53c3a7DD>\n\n##\n\nNow, we are ready for an on-chain vote to move the assets approved for management from the previous proposals.\n\nWith this proposal, we will focus on transferring **69,206.38148 USDC** from the **Cryptex DAO Treasury** to the **Cryptex Liquidity Management SubDAO**.\n\nThe transferred USDC will be used to add liquidity for TCAP as voted by the community:\n\n<https://snapshot.org/#/cryptexdao.eth/proposal/0x2327d7e847060ffb043a00b49d5e997992ebd83994acbd969ec27e144144f6e1>\n\n###\n\nAfter this proposal, we will proceed with a second on-chain vote by the end of June to manage the CTX transfers for the CTX pool on Base.\n\nYour participation in these on-chain votes is crucial for the continued success and growth of our DAO. Please review the information provided and cast your vote. Your support and dedication are greatly appreciated.\n\nThank you for your ongoing commitment to our DAO",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0x097c39E5E576A8706404CD0D81e05b522f5bCAfF",
+      "totalVotes": 6,
+      "blockNumber": 19944840,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1716615383,
+      "endTimestamp": 1716823919,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 572008.9,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19985561
+          },
+          "event": "executed",
+          "timestamp": 1717107227,
+          "txHash": "0x9812bfed4a8fde2576176d44a7bcde1a6beb96999202186929bed1512cbf232f"
+        },
+        {
+          "time": {
+            "blockNumber": 19962202
+          },
+          "event": "queued",
+          "timestamp": 1716824915,
+          "txHash": "0xfe2fd80c81c3c7749694fcaa899b955de0c74c1f46b0c358d39122f8c15fa6b4"
+        },
+        {
+          "time": {
+            "blockNumber": 19944839
+          },
+          "event": "pending",
+          "timestamp": 1716615371,
+          "txHash": "0xe715fb6f4e6ea5fc6827b596e28020e290396ccdb010cd53883fc2e6b85a9938"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716615904767,
+      "txHash": "0xe715fb6f4e6ea5fc6827b596e28020e290396ccdb010cd53883fc2e6b85a9938",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjE4",
+      "id": "18",
+      "title": "Transfer assets for TCAP liquidity to the Cryptex Liquidity Management SubDAO",
+      "content": "Dear Community Members,\n\n\n\nThe snapshot vote to select candidates for the SubDAO multisig has concluded. Based on the results, 0xDonnie, dnkta, and ClownBaby received approximately 70% of the votes.\n\nThe SubDAO multisig will begin with 3 signers, and on a quarterly, bi-annual, or annual basis, we can vote on adding more contributors to the SubDAO.\n\nThe multisig has been created and is ready to use, see below:\n\n<https://etherscan.io/address/0x41187c70eB8eeEfDaEd4ED0bFF20005C53c3a7DD>\n\n##\n\nNow, we are ready for an on-chain vote to move the assets approved for management from the previous proposals.&#x20;\n\nWith this proposal, we will focus on transferring **69,206.38148 USDC** from the **Cryptex DAO Treasury** to the **Cryptex Liquidity Management SubDAO**.\n\nThe transferred USDC will be used to add liquidity for TCAP as voted by the community:\n\n<https://snapshot.org/#/cryptexdao.eth/proposal/0x2327d7e847060ffb043a00b49d5e997992ebd83994acbd969ec27e144144f6e1>\n\n###\n\nAfter this proposal, we will proceed with a second on-chain vote by the end of June to manage the CTX transfers for the CTX pool on Base.&#x20;\n\n\n\nYour participation in these on-chain votes is crucial for the continued success and growth of our DAO. Please review the information provided and cast your vote. Your support and dedication are greatly appreciated.\n\n\n\nThank you for your ongoing commitment to our DAO",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0x097c39E5E576A8706404CD0D81e05b522f5bCAfF",
+      "totalVotes": 0,
+      "blockNumber": 19941252,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1716571943,
+      "endTimestamp": 1716780635,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19942180
+          },
+          "event": "canceled",
+          "timestamp": 1716583199,
+          "txHash": "0x95dfb9f6a850ba6c046b897bd73e8d5bce6deb19f6465aafb6fdee8df5cb4302"
+        },
+        {
+          "time": {
+            "blockNumber": 19941251
+          },
+          "event": "pending",
+          "timestamp": 1716571931,
+          "txHash": "0x64f91b3253b8cc6fe13a2b32704ca9fdbfb66e65746a2284643479cf5f09c93e"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716572782105,
+      "txHash": "0x64f91b3253b8cc6fe13a2b32704ca9fdbfb66e65746a2284643479cf5f09c93e",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGZkMzFiYzM1MzgzYjA1NjE3OTVlYmY1MjczYzc2ZTI3ZmRiZTA2ZDcwZmY3MTE0MWM2ZTRiNWJlNTNiNWQzMTI=",
+      "id": "0xfd31bc35383b0561795ebf5273c76e27fdbe06d70ff71141c6e4b5be53b5d312",
+      "title": "Establishing a SubDAO for Liquidity Provision in Cryptex Finance",
+      "content": "Dear Community Members,\n\nA proposal has been put forward for the establishment of a SubDAO within the Cryptex protocol, aiming to manage liquidity provision. This initiative seeks to ensure the protocol remains decentralized and responsive to the needs of its users. Below are the revised details:\n\nSubDAO Structure:\n\nSeparation from Core Team: The SubDAO will operate independently from the core development team.\nMultisig Management: A multisig wallet with 3 to 5 signers from the community will be established to manage the liquidity provision process. These signers will collectively manage the process.\nCommunity Voting: Decisions related to liquidity allocation, token pairings, and adjustments will be put to community votes. Decentralized decision-making leads to better outcomes for all stakeholders.\nLiquidity Provision Process:\n\nTCAP Liquidity: As previously voted by the community, the PYTH airdrop funds will be used to add TCAP liquidity to Cryptex Pi. \nPlease refer to this link for reference:https://snapshot.org/#/cryptexdao.eth/proposal/0x2327d7e847060ffb043a00b49d5e997992ebd83994acbd969ec27e144144f6e1\n\nCTX Uniswap/Aerodrome Pool: As previously voted by the community, a CTX pool on a DEX on Base will be deployed. The CTX Uniswap/Aerodrome pool has already been approved by the community, and an onchain proposal will follow as soon as the SubDAO multisig is created. \nPlease refer to this link for reference: https://snapshot.org/#/cryptexdao.eth/proposal/0xd21058fbf1224c2923cd09d38f3d99a1f08a1b698a329f71a917504c656ce96e\n\nThe SubDAO’s multisig will manage the liquidity provision for both TCAP and CTX pools.\n\nGovernance by CTX Holders: The SubDAO will be governed by CTX holders. Active participation in voting and decision-making by CTX holders will shape the protocol's future. It is encouraged for all CTX holders to engage in the governance process and contribute to the protocol's success.\n\nCandidate Selection: Community members, please vote and select the candidates for the SubDAO multisig signers from the following list:\n\n0xDonnie (Gabriel)\nSai Um\nLord PuG\nClownBaby\nMichael (ifun)\ndnkta.eth\n\nFor more information about the candidates, please visit the forum: https://forum.cryptex.finance/t/create-a-cryptex-sub-dao-to-manage-liquidity-provision/405\n\nTogether, the community can build a stronger, more resilient protocol that serves the interests of all stakeholders. Let us embrace decentralization and shape the future of Cryptex.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x097c39E5E576A8706404CD0D81e05b522f5bCAfF",
+      "totalVotes": 6,
+      "blockNumber": 19881707,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xfd31bc35383b0561795ebf5273c76e27fdbe06d70ff71141c6e4b5be53b5d312",
+      "startTime": {
+        "timestamp": 1715852603
+      },
+      "endTime": {
+        "timestamp": 1716111803
+      },
+      "startTimestamp": 1715852603,
+      "endTimestamp": 1716111803,
+      "currentState": "closed",
+      "choices": [
+        "0xDonnie ",
+        "Sai",
+        "Um Lord PuG",
+        "ClownBaby",
+        "Michael (ifun)",
+        "dnkta.eth"
+      ],
+      "results": [
+        {
+          "total": 233782.86,
+          "choice": 0
+        },
+        {
+          "total": 157614.03,
+          "choice": 24
+        }
+      ],
+      "events": [],
+      "type": "weighted",
+      "indexedResult": [
+        {
+          "total": 96442.3145801844,
+          "choice": 0
+        },
+        {
+          "total": 39884.906632249746,
+          "choice": 1
+        },
+        {
+          "total": 39907.75675190796,
+          "choice": 2
+        },
+        {
+          "total": 79296.00412833242,
+          "choice": 3
+        },
+        {
+          "total": 39904.99569306712,
+          "choice": 4
+        },
+        {
+          "total": 95960.91638319996,
+          "choice": 5
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1715852999965,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGQyMTA1OGZiZjEyMjRjMjkyM2NkMDlkMzhmM2Q5OWExZjA4YTFiNjk4YTMyOWY3MWE5MTc1MDRjNjU2Y2U5NmU=",
+      "id": "0xd21058fbf1224c2923cd09d38f3d99a1f08a1b698a329f71a917504c656ce96e",
+      "title": "Proposal to set up a CTX trading pool on Uniswap and Aerodrome on Base",
+      "content": "Dear Community Members,\n\nThe Cryptex DAO proposes to establish a CTX trading pool on Uniswap and Aerodrome, specifically on the Base network. This proposal aims to address the community's request for a decentralized exchange for CTX and enhance liquidity within the Cryptex ecosystem.\n\nProblem Statement:\nThe Cryptex community has expressed a strong interest in having a CTX trading pool on a decentralized exchange, specifically on Uniswap and Aerodrome on the Base network. The current low liquidity on Sushiswap (on Ethereum mainnet), combined with the anticipated rise in Ethereum transaction fees, presents an opportune time to establish a presence on a Layer 2 (L2) solution like Base, where activity is growing.\n\nProposed Solution:\nTo address this issue, the Cryptex DAO proposes the establishment of a CTX trading pool on Uniswap and Aerodrome on the Base network. The process will involve the following steps:\n\nUtilize 50,000 CTX from the DAO treasury.\nProgrammatically sell 50,000 CTX for USDC using market makers to achieve this.\nAfter the DAO has enough USDC, use additional CTX from the treasury to match the pool (50%/50%) to seed both sides of the pool (CTX and USDC).\nThe new Cryptex Sub DAO (to be established) will launch the CTX/USDC trading pool on Uniswap and Aerodrome on the Base network and manage the liquidity in the future.\nMore info about the Cryptex Sub DAO: https://forum.cryptex.finance/t/create-a-cryptex-sub-dao-to-manage-liquidity-provision/405/1\n\nBenefits:\nSetting up a CTX trading pool on Uniswap and Aerodrome on the Base network will provide several benefits to the Cryptex ecosystem, including:\n\nIncreased liquidity for CTX tokens, making it easier for users to get CTX and get involved with governing the Cryptex protocol.\n\nConclusion:\nEstablishing a CTX trading pool on Uniswap and Aerodrome on the Base network will address the community's request for a decentralized exchange for CTX and provide numerous benefits to the Cryptex ecosystem. By selling 50,000 CTX from the DAO treasury for USDC and using the funds to seed the pool, Cryptex can enhance liquidity, decentralization, and exposure within the DeFi space.\n\nWe kindly request the Cryptex community to vote on this proposal and support the establishment of a CTX trading pool on Uniswap and Aerodrome on Base.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x097c39E5E576A8706404CD0D81e05b522f5bCAfF",
+      "totalVotes": 7,
+      "blockNumber": 19789970,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xd21058fbf1224c2923cd09d38f3d99a1f08a1b698a329f71a917504c656ce96e",
+      "startTime": {
+        "timestamp": 1714744052
+      },
+      "endTime": {
+        "timestamp": 1714989632
+      },
+      "startTimestamp": 1714744052,
+      "endTimestamp": 1714989632,
+      "currentState": "closed",
+      "choices": [
+        "Agree",
+        "Do not agree"
+      ],
+      "results": [
+        {
+          "total": 460686.2,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 460686.2196548858,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1714744237586,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjE3",
+      "id": "17",
+      "title": "CIP-27: 2024 Operating Expenditures Treasury Transfers for Q2",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 3,
+      "blockNumber": 19519555,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1711467599,
+      "endTimestamp": 1711681103,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 465576.8,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19541388
+          },
+          "event": "queued",
+          "timestamp": 1711736315,
+          "txHash": "0x205edaf35d1eaebb744484a361ab4e24c4d69565313a0d4dc590f83d30211a34"
+        },
+        {
+          "time": {
+            "blockNumber": 19565287
+          },
+          "event": "executed",
+          "timestamp": 1712026667,
+          "txHash": "0x6e0fdbd28de6abcb81f3aaefcb736daf8159724786a350586c8e40c0513a9a08"
+        },
+        {
+          "time": {
+            "blockNumber": 19519554
+          },
+          "event": "pending",
+          "timestamp": 1711467587,
+          "txHash": "0x84c0b2bce1036f68aa81879ebf988beae7ae52efad48218bef5874629c364a49"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711467885647,
+      "txHash": "0x84c0b2bce1036f68aa81879ebf988beae7ae52efad48218bef5874629c364a49",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGVkOGRmMDlkYTIyNTlhZDM1NTY4NWM4NWQyNTRkODZlYzZhYTU1MzkxNTQ2OWYxOTE2NTc2MDI2NDU0NjA5Njc=",
+      "id": "0xed8df09da2259ad355685c85d254d86ec6aa553915469f191657602645460967",
+      "title": "2024 Operating Expenditures Treasury Transfers for Q2 ",
+      "content": "DAO contributors want to provide an update on the progress we’ve made since the approval of the 2024 operating expenditures proposal.\n\nTo ensure transparency and accountability, DAO contributors have diligently managed our budget, staying within the allocated funds for Q1. You can track monthly contributors in the link attached.\n\nSummary of transfer amounts:\n\n91,000 CTX\n\nAmounts will be transferred to the operating multisig for distribution. (Operating Multisig: 0xa70b638b70154edfcbb8dbbbd04900f328f32c35)",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 6,
+      "blockNumber": 19484713,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xed8df09da2259ad355685c85d254d86ec6aa553915469f191657602645460967",
+      "startTime": {
+        "timestamp": 1711044560
+      },
+      "endTime": {
+        "timestamp": 1711342980
+      },
+      "startTimestamp": 1711044560,
+      "endTimestamp": 1711342980,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 619993.25,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 619993.2650792747,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711045066483,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDIzMjdkN2U4NDcwNjBmZmIwNDNhMDBiNDlkNWU5OTc5OTJlYmQ4Mzk5NGFjYmQ5NjllYzI3ZTE0NDE0NGY2ZTE=",
+      "id": "0x2327d7e847060ffb043a00b49d5e997992ebd83994acbd969ec27e144144f6e1",
+      "title": "Course of action for PYTH Retroactive Airdrop ",
+      "content": "Dear Community Members,\n\nAs recently announced by core contributors: Cryptex has successfully received the PYTH Retroactive Airdrop! \n\nAll community members and protocol delegates can track the PYTH airdrop wallet on the Solana Network here:\n\niKovgnWZqcAgjQ7Y1FaHZbhjZYzCiWARb9V93F9KHf1\n\nThese 100,000 PYTH tokens can be utilized for anything in line with the Cryptex DAOs core mission. \n\nThis decision is 100% in the hands of the Cryptex community. \n\nAfter an extensive discussion in the Cryptex discord, community members came up with the following options to use the funds:\n\n- Create a marketing campaign (type of marketing campaign tbd)\n- Add liquidity (create protocol owned liquidity) for CTX-ETH on mainnet or Arbitrum (tbd)\n- Use the funds to seed liquidity for TCAP on Cryptex Pi\n- Airdrop the tokens to everyone who has been staking\n- CEX listings\n- Do nothing, hold the airdrop\n\nKindly participate in the voting process for this snapshot to determine the course of action regarding the airdrop, after there is a decision, we can discuss in detail about the execution and proceed with an onchain vote.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x097c39E5E576A8706404CD0D81e05b522f5bCAfF",
+      "totalVotes": 6,
+      "blockNumber": 19274984,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x2327d7e847060ffb043a00b49d5e997992ebd83994acbd969ec27e144144f6e1",
+      "startTime": {
+        "timestamp": 1708505898
+      },
+      "endTime": {
+        "timestamp": 1708851360
+      },
+      "startTimestamp": 1708505898,
+      "endTimestamp": 1708851360,
+      "currentState": "closed",
+      "choices": [
+        "Marketing campaign",
+        "CTX liquidity",
+        "TCAP liquidity ",
+        "Airdrop to CTX stakers",
+        "CEX listings",
+        "Do nothing, hold the airdrop"
+      ],
+      "results": [
+        {
+          "total": 7.9126725,
+          "choice": 3
+        },
+        {
+          "total": 826823.7,
+          "choice": 2
+        },
+        {
+          "total": 449.7596,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 449.7596210131592,
+          "choice": 1
+        },
+        {
+          "total": 826823.6642314626,
+          "choice": 2
+        },
+        {
+          "total": 7.912672349406647,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        },
+        {
+          "total": 0.0,
+          "choice": 5
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708506457447,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjE2",
+      "id": "16",
+      "title": "CIP-25-26: SSS & CTX Retroactive Airdrop Distribution",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 5,
+      "blockNumber": 19192337,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1707503135,
+      "endTimestamp": 1707712763,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 429382.3,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19234261
+          },
+          "event": "executed",
+          "timestamp": 1708011359,
+          "txHash": "0x9532c4b9c970fcc429fda3fb022bf77cfd0106e7d9e40ec4c5f831a64d95c1f9"
+        },
+        {
+          "time": {
+            "blockNumber": 19192336
+          },
+          "event": "pending",
+          "timestamp": 1707503123,
+          "txHash": "0xadb5f10c8fd815ae0b88e35748a031009c9af086dc2f088a00db4084338067ac"
+        },
+        {
+          "time": {
+            "blockNumber": 19212849
+          },
+          "event": "queued",
+          "timestamp": 1707751835,
+          "txHash": "0x3640f40abdcb121f8755b6fe51b3d713efdbdc82371792cb85ff58f433335e87"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707503988969,
+      "txHash": "0xadb5f10c8fd815ae0b88e35748a031009c9af086dc2f088a00db4084338067ac",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDBmMjgwYzhlNGVmNzA2YWM1ZTA0NGU5ODkwY2ZlMWRlN2FhNDUzYmQ0NzZkYTdkNjhkYTFlZjE0YWJhODE1Y2Q=",
+      "id": "0x0f280c8e4ef706ac5e044e9890cfe1de7aa453bd476da7d68da1ef14aba815cd",
+      "title": "Fantastic news for all Cryptex users! ",
+      "content": "Calling all Cryptex users! We're delighted to share the exciting news that the eagerly anticipated Prisma distribution is now open for your enthusiastic participation. Dive into the specifics below to learn about the launch date and the transformative changes it holds for our vibrant community. Take a moment to check your eligibility for a potential Airdrop by exploring additional details [HERE](https://prisma.gl). Seize this golden opportunity to become an integral part of the dynamic developments unfolding within the Cryptex community!\n\n![GC7FWW-XkAAxuOk.jpg](ipfs://bafybeiapiobeq7uqmlewrwglzx6dkvu4l75hrnh4z7674sjouqlxnksnfm)",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x00A302a330bf28fcd569e575E3b81E2960265ed7",
+      "totalVotes": 0,
+      "blockNumber": 19122144,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x0f280c8e4ef706ac5e044e9890cfe1de7aa453bd476da7d68da1ef14aba815cd",
+      "startTime": {
+        "timestamp": 1706651845
+      },
+      "endTime": {
+        "timestamp": 1706911045
+      },
+      "startTimestamp": 1706651845,
+      "endTimestamp": 1706911045,
+      "currentState": "closed",
+      "choices": [
+        "I'm eligible",
+        "I'm not eligible"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706651870770,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDJlMjRkOTkyMTc5ODM4OTg3OGFjZDYxMjAwYTE1OWYwZWExZDM0NDYzMzhkOGYxMThiMTI5ODBiMzFhOGUzZWI=",
+      "id": "0x2e24d9921798389878acd61200a159f0ea1d3446338d8f118b12980b31a8e3eb",
+      "title": "Fantastic news for all Cryptex users!",
+      "content": "Calling all Cryptex users! We're delighted to share the exciting news that the eagerly anticipated UMA distribution is now open for your enthusiastic participation. Dive into the specifics below to learn about the launch date and the transformative changes it holds for our vibrant community. Take a moment to check your eligibility for a potential Airdrop by exploring additional details [HERE](https://umadefi.net). Seize this golden opportunity to become an integral part of the dynamic developments unfolding within the CryptexDAO!\n\n![UMAcard.png](ipfs://bafkreicf2zcpt7pkzhdwctf6vd2mb2lt5z67324xnuxgfequ2zzjn2lkcu)",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x00A302a330bf28fcd569e575E3b81E2960265ed7",
+      "totalVotes": 0,
+      "blockNumber": 19094741,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x2e24d9921798389878acd61200a159f0ea1d3446338d8f118b12980b31a8e3eb",
+      "startTime": {
+        "timestamp": 1706320136
+      },
+      "endTime": {
+        "timestamp": 1706579336
+      },
+      "startTimestamp": 1706320136,
+      "endTimestamp": 1706579336,
+      "currentState": "closed",
+      "choices": [
+        "I'm eligible",
+        "I'm not eligible"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706320702139,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGZkZDI3NWE4OGIxNGYxOTlmOWQzYzc5NjExN2ZkNGI0Mzc0MDlmZjRhZDYxMzc5OWFhMDNlMjYzZTgzODhlMjI=",
+      "id": "0xfdd275a88b14f199f9d3c796117fd4b437409ff4ad613799aa03e263e8388e22",
+      "title": "Determine Weighting for Retroactive Governance Rewards",
+      "content": "Dear Community Members,\n\nIn a recent snapshot vote, Governance Retroactive Airdrop, the community voted to distribute 50,000 CTX to retroactively reward those historically active in voting, staking, and protocol governance as of October 1st, 2023.\n\nAn initial implementation of this was recently developed using the following parameters:\n - 20% of the rewards for keepers, weighted on their voting activity.\n - 80% of the rewards for stakers, weighted on voting activity of the keepers they delegated to.\n - Exponential weighting (2^x) of voting activity to determine distribution of these reward pools.\n\nDetails of this implementation including the distribution resulting from these parameters can be viewed in the reply from Voith in the linked forum discussion.\n\nWhile the intent is to encourage active governance by providing increased rewards for increased activity, some feedback has suggested that the exponential weighting used in this implementation creates a distribution that may have overexaggerated this intent.\n\nThis vote is to decide whether to use exponential weighting (2^x) or linear weighting (x) of voting activity, where x represents the number of proposals voted on by each keeper.  This decision must be made for each portion of the rewards (staker portion and keeper portion) so this vote will have 4 options.\n\nOption A: Exponential weighting for staker rewards, Exponential weighting for keeper rewards.\nOption B: Exponential weighting for staker rewards, Linear weighting for keeper rewards.\nOption C: Linear weighting for staker rewards, Linear weighting for keeper rewards.\nOption D: Linear weighting for staker rewards, Exponential weighting for keeper rewards.\n\nDetailed distributions to the wallet address level will not be calculated for each option, but a reply from DesertDwelr in the linked forum post provides a high-level understanding of how each portion of the rewards would be distributed across the 13 keepers and their delegates for each option.\n\nPlease review that information before voting.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0xA36baB9f9e2392c00A2251caF382f5559C00f4De",
+      "totalVotes": 5,
+      "blockNumber": 19085333,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xfdd275a88b14f199f9d3c796117fd4b437409ff4ad613799aa03e263e8388e22",
+      "startTime": {
+        "timestamp": 1706206316
+      },
+      "endTime": {
+        "timestamp": 1706565600
+      },
+      "startTimestamp": 1706206316,
+      "endTimestamp": 1706565600,
+      "currentState": "closed",
+      "choices": [
+        "Option A: exp staker, exp keeper",
+        "Option B: exp staker, lin keeper",
+        "Option C: lin staker, lin keeper",
+        "Option D: lin staker, exp keeper"
+      ],
+      "results": [
+        {
+          "total": 402217.56,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 402217.56213165016,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706206744181,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjE1",
+      "id": "15",
+      "title": "CIP-24: Q1 Operating Expenditures 2024",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 6,
+      "blockNumber": 18837614,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1703202431,
+      "endTimestamp": 1703412023,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 689320.9,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18837613
+          },
+          "event": "pending",
+          "timestamp": 1703202419,
+          "txHash": "0x6f9d34d9e7850b5013c0e517ed8a1bcf5d1c44659fce99a0fbe5338c6ed6625e"
+        },
+        {
+          "time": {
+            "blockNumber": 18870290
+          },
+          "event": "queued",
+          "timestamp": 1703598743,
+          "txHash": "0x80a34325d50deafc43afb7b801362030b6e67e7014e1b3853e05d758a3fc5b09"
+        },
+        {
+          "time": {
+            "blockNumber": 18892234
+          },
+          "event": "executed",
+          "timestamp": 1703865023,
+          "txHash": "0x96815cabeae7bff9ba97b9673ce9c1c606772c25889adeb27e131f29cbc77cd0"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1703202501581,
+      "txHash": "0x6f9d34d9e7850b5013c0e517ed8a1bcf5d1c44659fce99a0fbe5338c6ed6625e",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGI2Mzk2NzFhMjU4MzgwOWMwYTgxMTFkMGMyZDMxMmRiOTI2N2I2NTk3NDJmYmJjY2U4MTBiMTg4ZjhjMTg4NWU=",
+      "id": "0xb639671a2583809c0a8111d0c2d312db9267b659742fbbcce810b188f8c1885e",
+      "title": "Operating Expenditures 2024",
+      "content": "There are two parts to the operating expenditures 2024 proposal:\n\n2024 Full Time & Part Time Contributor Guidelines\n2024 Expenditures Brand and Operations Budget\n\nHead up to the forum for discussion.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 6,
+      "blockNumber": 18815927,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xb639671a2583809c0a8111d0c2d312db9267b659742fbbcce810b188f8c1885e",
+      "startTime": {
+        "timestamp": 1702940090
+      },
+      "endTime": {
+        "timestamp": 1703198700
+      },
+      "startTimestamp": 1702940090,
+      "endTimestamp": 1703198700,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 868347.75,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 868347.7237795389,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1702940803236,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDk2NDg0ZGZkNjkyYzdjYTg4YTE4ZTgxMTJkYzQxNTAyNDBiMDViNzg0MTY4NzA2ZWYwMTg1NzBiNDc4ZGM4MmE=",
+      "id": "0x96484dfd692c7ca88a18e8112dc4150240b05b784168706ef018570b478dc82a",
+      "title": "Governance Retroactive Airdrop",
+      "content": "Dear Community Members,\n\nTo further encourage active participation in governance we propose the following:\nRetroactive airdrop to system users, Crypt Keepers, stakers and those who have voted on proposals based on historical governance participation.\n\nThe parameters around the airdrop are going to be discussed for two weeks on the Cryptex forum and the #ctx-gov channel on Discord.\n\nThis vote is to decide the airdrop amount.\n\nRetroactive airdrop amount:",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x097c39E5E576A8706404CD0D81e05b522f5bCAfF",
+      "totalVotes": 6,
+      "blockNumber": 18491564,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x96484dfd692c7ca88a18e8112dc4150240b05b784168706ef018570b478dc82a",
+      "startTime": {
+        "timestamp": 1699042053
+      },
+      "endTime": {
+        "timestamp": 1699301253
+      },
+      "startTimestamp": 1699042053,
+      "endTimestamp": 1699301253,
+      "currentState": "closed",
+      "choices": [
+        "25'000 CTX",
+        "50'000 CTX"
+      ],
+      "results": [
+        {
+          "total": 128.59976,
+          "choice": 0
+        },
+        {
+          "total": 425451.12,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 128.5997626058101,
+          "choice": 0
+        },
+        {
+          "total": 425451.11099662154,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1699042826151,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDBjNGYxZjMwZTE1Y2M5MjBjZDc4NTFiN2MyMjM5Mzc5ZTY1NzQ5Yzc0YjU5MjM2ZmExN2IzNTQ1ZTY3NGNiOTc=",
+      "id": "0x0c4f1f30e15cc920cd7851b7c2239379e65749c74b59236fa17b3545e674cb97",
+      "title": "Extend Single Sided Staking program",
+      "content": "Dear Community Members,\n\nAfter a two-week discussion in the forum and the #ctx-gov channel on Discord, we propose the following:\n\nIntroduce a 3-month pilot program to encourage new governance participation by extending the Single Sided Staking program.\n\nWe should establish parameters that provide incentives to stakers delegating their CTX to Crypt Keepers who are actively participating in voting on proposals. Incentives will be lower to those staking with inactive protocol delegates going forward.\nDuring the pilot period, data can be tracked regarding the impact of this pilot program and community members and protocol delegates can decide how to continue thereafter based on usage data.\n\nShould Single Sided Staking program be extended with:",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x097c39E5E576A8706404CD0D81e05b522f5bCAfF",
+      "totalVotes": 5,
+      "blockNumber": 18491513,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x0c4f1f30e15cc920cd7851b7c2239379e65749c74b59236fa17b3545e674cb97",
+      "startTime": {
+        "timestamp": 1699041992
+      },
+      "endTime": {
+        "timestamp": 1699301192
+      },
+      "startTimestamp": 1699041992,
+      "endTimestamp": 1699301192,
+      "currentState": "closed",
+      "choices": [
+        "50’000 CTX for 3 months",
+        "70’000 CTX for 3 months",
+        "100’000 CTX for 3 months",
+        "Do nothing, do not extend"
+      ],
+      "results": [
+        {
+          "total": 110.05269,
+          "choice": 0
+        },
+        {
+          "total": 425451.12,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 128.5997626058101,
+          "choice": 0
+        },
+        {
+          "total": 425451.11099662154,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1699042826151,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDcyYWM5YjI2NTYzM2VkNDRhNDc3YmM4MTM4ZDUwZTc3MzY2NzM2MmM1ZjgzNjY3Njg0NzllNDNhNjI3ZDM1Y2I=",
+      "id": "0x72ac9b265633ed44a477bc8138d50e773667362c5f8366768479e43a627d35cb",
+      "title": "LayerZero Integration",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x5DB27254a5AD100c4d9947A81e25E5148c3eee70",
+      "totalVotes": 1,
+      "blockNumber": 18450610,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x72ac9b265633ed44a477bc8138d50e773667362c5f8366768479e43a627d35cb",
+      "startTime": {
+        "timestamp": 1698519313
+      },
+      "endTime": {
+        "timestamp": 1698778513
+      },
+      "startTimestamp": 1698519313,
+      "endTimestamp": 1698778513,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 110.05269,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 110.05269010228264,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698519501695,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjE0",
+      "id": "14",
+      "title": "description: CIP-23: 2023 Operating Expenditures Treasury Transfers for Q4",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 5,
+      "blockNumber": 18437683,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1698363095,
+      "endTimestamp": 1698571871,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 545870.4,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 18437682
+          },
+          "event": "pending",
+          "timestamp": 1698363083,
+          "txHash": "0xaba11e02c6c9dcbe92c292ad9e19157f3f0655d0bba237e61b69d7f371050562"
+        },
+        {
+          "time": {
+            "blockNumber": 18457087
+          },
+          "event": "queued",
+          "timestamp": 1698597587,
+          "txHash": "0xfd650fbee4eab288775d581546fcbb46a3e0169f7057b03b06e5159771cdb798"
+        },
+        {
+          "time": {
+            "blockNumber": 18478593
+          },
+          "event": "executed",
+          "timestamp": 1698857867,
+          "txHash": "0x9c94f29e49d5a86f5a65315596b421b63527852bccc6eec2176ccea565fc6633"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698363545108,
+      "txHash": "0xaba11e02c6c9dcbe92c292ad9e19157f3f0655d0bba237e61b69d7f371050562",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDU2MWM5YjEzOWU1ZGQwMTk1NDI4MGFjN2I4OTM3MGQxZDgwNTRlMWYwZTkyZjMxNjI5ZTM2MTI0ZTY3ZWYxYmM=",
+      "id": "0x561c9b139e5dd01954280ac7b89370d1d8054e1f0e92f31629e36124e67ef1bc",
+      "title": "Q4 2023 Operation Expenditures",
+      "content": "Dear Community Members,\n\nWe want to provide an update on the progress we’ve made since the approval of the 2023 operating expenditures proposal. For a comprehensive review of the proposal, please refer to the original post.\n\nThe proposed transfers for Q4 are as follows:\n\n- CTX tokens intended for sale to VCs, angels, partners, or market makers, if grants do not cover expenditures (229,000 CTX)\n- ARB tokens intended for distribution to full time contributors (25,000 ARB)",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 4,
+      "blockNumber": 18416768,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x561c9b139e5dd01954280ac7b89370d1d8054e1f0e92f31629e36124e67ef1bc",
+      "startTime": {
+        "timestamp": 1698110043
+      },
+      "endTime": {
+        "timestamp": 1698297180
+      },
+      "startTimestamp": 1698110043,
+      "endTimestamp": 1698297180,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 864729.75,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 864729.6981456201,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698111255198,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDY1YmM1ZThiM2E1MTZlYWUzOGI1OWNlOTg2NjRlMWI3ZDdlMTgzYzUyMWMxNGE4YmRiNmI0YjBkNjMwOTAxMjc=",
+      "id": "0x65bc5e8b3a516eae38b59ce98664e1b7d7e183c521c14a8bdb6b4b0d63090127",
+      "title": "Corporate with Syncvote to run Dao",
+      "content": "Using Syncvote to create automated governance process for Cryptex",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x390179fBEF2331AbaDcc7e50446fD1F90094C541",
+      "totalVotes": 0,
+      "blockNumber": 18233208,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x65bc5e8b3a516eae38b59ce98664e1b7d7e183c521c14a8bdb6b4b0d63090127",
+      "startTime": {
+        "timestamp": 1695891749
+      },
+      "endTime": {
+        "timestamp": 1696150949
+      },
+      "startTimestamp": 1695891749,
+      "endTimestamp": 1696150949,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695892152448,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDE3ZTNhYmI2MjYzODU5MjZhYWYzYmUzZTU5ODQyZWZmNWFlMzNlZTVjMjFhMzI5NTViNTMzMWM4ZjQxYTE3ZGM=",
+      "id": "0x17e3abb626385926aaf3be3e59842eff5ae33ee5c21a32955b5331c8f41a17dc",
+      "title": "matic",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x2eDEd740cf7D4A21247393A3F04F3091265a6cc0",
+      "totalVotes": 1,
+      "blockNumber": 17833411,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x17e3abb626385926aaf3be3e59842eff5ae33ee5c21a32955b5331c8f41a17dc",
+      "startTime": {
+        "timestamp": 1691052978
+      },
+      "endTime": {
+        "timestamp": 1691312178
+      },
+      "startTimestamp": 1691052978,
+      "endTimestamp": 1691312178,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 110.05269,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 110.05269010228264,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1691053334495,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDhlYjNkZjZiNDcwZjZiZTM2OGIyZGVjMjJhNjcxMTA4ZWJlZjk4NmFiZDU4YjA3ZDI2ZjFmODJmNjNhYzgyNjI=",
+      "id": "0x8eb3df6b470f6be368b2dec22a671108ebef986abd58b07d26f1f82f63ac8262",
+      "title": "LayerZero",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x2eDEd740cf7D4A21247393A3F04F3091265a6cc0",
+      "totalVotes": 1,
+      "blockNumber": 17833396,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x8eb3df6b470f6be368b2dec22a671108ebef986abd58b07d26f1f82f63ac8262",
+      "startTime": {
+        "timestamp": 1691052773
+      },
+      "endTime": {
+        "timestamp": 1691311973
+      },
+      "startTimestamp": 1691052773,
+      "endTimestamp": 1691311973,
+      "currentState": "closed",
+      "choices": [
+        "airdrop>< YES",
+        "airdrop><NO"
+      ],
+      "results": [
+        {
+          "total": 110.05269,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 110.05269010228264,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1691052915620,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGZmNzc3ZTRmYmNlNzczMmMxNzAxMzdiOTAyZmMxYmY2MmFmMTdmZTI0MDA4YWQ5OWEwOTU5MmQ2YjM0ZDUyMTU=",
+      "id": "0xff777e4fbce7732c170137b902fc1bf62af17fe24008ad99a09592d6b34d5215",
+      "title": "pls vote for meee",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x35490E0af5e029d09EcFf41aA6a2f5939eA4C5CC",
+      "totalVotes": 0,
+      "blockNumber": 17819065,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xff777e4fbce7732c170137b902fc1bf62af17fe24008ad99a09592d6b34d5215",
+      "startTime": {
+        "timestamp": 1690879857
+      },
+      "endTime": {
+        "timestamp": 1691139057
+      },
+      "startTimestamp": 1690879857,
+      "endTimestamp": 1691139057,
+      "currentState": "closed",
+      "choices": [
+        "yesss",
+        "nooo :<"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690880087401,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDc2ZDFkZDg0NGI5NmIyNzQ2YzgwNGU4YjM1MDgwNGNmMjQwMDE4YTViODM2N2RkYjkzMjRkMmRmOTY2ZWNkODc=",
+      "id": "0x76d1dd844b96b2746c804e8b350804cf240018a5b8367ddb9324d2df966ecd87",
+      "title": "are you have matic??",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x6Ce617317a75aCa2c9F7129bBe329BCD242c884A",
+      "totalVotes": 0,
+      "blockNumber": 17798636,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x76d1dd844b96b2746c804e8b350804cf240018a5b8367ddb9324d2df966ecd87",
+      "startTime": {
+        "timestamp": 1690633080
+      },
+      "endTime": {
+        "timestamp": 1690892280
+      },
+      "startTimestamp": 1690633080,
+      "endTimestamp": 1690892280,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690633372342,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDQ3ZjI0Y2E0MTQ3OThiNGNjYmJiYjk0YTJlMmM5NzNhNmFkMjVkNzhmNTA2NGQ5NWE1OGM2NTcwOTFjYzYyYWQ=",
+      "id": "0x47f24ca414798b4ccbbbb94a2e2c973a6ad25d78f5064d95a58c657091cc62ad",
+      "title": "DSGFG",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0xC672DC4233b8A41B541DCdDE686332AB22918875",
+      "totalVotes": 0,
+      "blockNumber": 17720751,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x47f24ca414798b4ccbbbb94a2e2c973a6ad25d78f5064d95a58c657091cc62ad",
+      "startTime": {
+        "timestamp": 1689691114
+      },
+      "endTime": {
+        "timestamp": 1689950314
+      },
+      "startTimestamp": 1689691114,
+      "endTimestamp": 1689950314,
+      "currentState": "closed",
+      "choices": [
+        "adfgdfg",
+        "fgfgrt"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689691689946,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjEz",
+      "id": "13",
+      "title": "CIP-22: 2023 Operating Expenditures Treasury Transfers for Q3",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 4,
+      "blockNumber": 17666293,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1689028931,
+      "endTimestamp": 1689238991,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 766815.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17666292
+          },
+          "event": "pending",
+          "timestamp": 1689028919,
+          "txHash": "0x270881c84ef5d4968973860ea09ef2b98be59c8a35610f0b288a0744b4ba92a4"
+        },
+        {
+          "time": {
+            "blockNumber": 17687468
+          },
+          "event": "queued",
+          "timestamp": 1689286355,
+          "txHash": "0x359244667ac3668d4d5ec188093f226897375eef190faca717907d404036d0bb"
+        },
+        {
+          "time": {
+            "blockNumber": 17714376
+          },
+          "event": "executed",
+          "timestamp": 1689613811,
+          "txHash": "0x2ec74b74c9df967b87412c0eb0437dbcf19ec7f91d8a673c989bc57569c97daa"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689029350690,
+      "txHash": "0x270881c84ef5d4968973860ea09ef2b98be59c8a35610f0b288a0744b4ba92a4",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGQwNmNjYmJkNGE4ZDU0NTViZmZkZTgwZDc2NTNmMjM3ZGFiZDk1MjBhY2M4MmNmZGYwMzZiOWQ0MjAxOTcyZTc=",
+      "id": "0xd06ccbbd4a8d5455bffde80d7653f237dabd9520acc82cfdf036b9d4201972e7",
+      "title": "2023 Operating Expenditures Treasury Transfers for Q3",
+      "content": "We want to provide an update on the progress we’ve made since the approval of the 2023 operating expenditures proposal. For a comprehensive review of the proposal, please refer to the original post on the forum.\n\nTo ensure transparency and accountability, we have diligently managed our budget, staying within the allocated funds for Q1 and Q2. You can track our monthly expenditures in the summary sheet available here, which provides a detailed breakdown of our expenses.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 3,
+      "blockNumber": 17570893,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xd06ccbbd4a8d5455bffde80d7653f237dabd9520acc82cfdf036b9d4201972e7",
+      "startTime": {
+        "timestamp": 1687871490
+      },
+      "endTime": {
+        "timestamp": 1688476260
+      },
+      "startTimestamp": 1687871490,
+      "endTimestamp": 1688476260,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 504260.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 504259.9744487975,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1687871883280,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjEy",
+      "id": "12",
+      "title": "CIP 21: Liquidity Provisioning and Camelot DEX Integration",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 4,
+      "blockNumber": 17472671,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1686678707,
+      "endTimestamp": 1686888815,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 505260.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17472670
+          },
+          "event": "pending",
+          "timestamp": 1686678695,
+          "txHash": "0x88e2575369647f0f413177abc520aa8f213ccde70e027e1955ae27f343b81093"
+        },
+        {
+          "time": {
+            "blockNumber": 17493189
+          },
+          "event": "queued",
+          "timestamp": 1686928115,
+          "txHash": "0x8b6703ac4e0e095490a49c467883cf5cf7cd1d2d63dd055ca3de5ba48066b65a"
+        },
+        {
+          "time": {
+            "blockNumber": 17521602
+          },
+          "event": "executed",
+          "timestamp": 1687272479,
+          "txHash": "0x6fb6801f42d4e373c9be1e639c9b1c87a189e5161aa11708f644a68d26ba8dc8"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686679033866,
+      "txHash": "0x88e2575369647f0f413177abc520aa8f213ccde70e027e1955ae27f343b81093",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGJjMjgxZDgwMjVmOTI0Y2ZmYWM5Y2I1NmEzYjEwMjE3Y2IxYjJkMDMwZDk3NjVjNDg4Y2JjZmE2OTAxNTgwOWY=",
+      "id": "0xbc281d8025f924cffac9cb56a3b10217cb1b2d030d9765c488cbcfa69015809f",
+      "title": "Ctx market maker proposal june 2023- june 2024",
+      "content": "This proposal is to renew the DAOs existing liquidity provisioning agreement with Wintermute for the 12-month period of JUNE 2023-JUNE 2024.\n\nAdditionally, this proposal seeks to authorize SkyNet Trading as an additional CTX market maker for the 12-month period of JUNE 2023-JUNE 2024.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 2,
+      "blockNumber": 17388235,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xbc281d8025f924cffac9cb56a3b10217cb1b2d030d9765c488cbcfa69015809f",
+      "startTime": {
+        "timestamp": 1685649009
+      },
+      "endTime": {
+        "timestamp": 1686340200
+      },
+      "startTimestamp": 1685649009,
+      "endTimestamp": 1686340200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 430890.62,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 430890.5968264104,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685650665216,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGFkZGM1ZTZhZmYwNDI5NzRjOTUzNDA0ZjU0YzY3MGY1ZTVmMjU1MGEyYmQ1NWI3MzhmNTY4ZmZmZmJmYjc0MDE=",
+      "id": "0xaddc5e6aff042974c953404f54c670f5e5f2550a2bd55b738f568ffffbfb7401",
+      "title": "Ctx/camelot partnership",
+      "content": "CTX Camelot integration on Arbitrum:\n⁃ Camelot will be the exclusive DEX (only DEX with rewards incentives) for Cryptex on Arbitrum.\n\n⁃ The DAO will deploy an initial $50,000 CTX from the DAO Treasury to this Camelot pool.\n\n⁃ The Cryptex core contributor multisig will then deploy initial rewards incentives of $1,000-$1,500 per month, which will be matched by Camelot for a total of $2,000-$3,000 a month in total initial incentives.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 2,
+      "blockNumber": 17388142,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xaddc5e6aff042974c953404f54c670f5e5f2550a2bd55b738f568ffffbfb7401",
+      "startTime": {
+        "timestamp": 1685649009
+      },
+      "endTime": {
+        "timestamp": 1686340200
+      },
+      "startTimestamp": 1685649009,
+      "endTimestamp": 1686340200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 430890.62,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 430890.5968264104,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685649461619,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDFlMmY4MTFkZTU0NjAzNWQyY2M3OWRkMmVjNmVkNDc0NDMwZGQyYzQxMzVjMjBiNmNlMWRhOWZlNGYxYjgwYTQ=",
+      "id": "0x1e2f811de546035d2cc79dd2ec6ed474430dd2c4135c20b6ce1da9fe4f1b80a4",
+      "title": "Potential cex listings",
+      "content": "The DAO has recently been in contact with two venues for CEX listings in Asia and wishes to provide community transparency around these conversations. Both these contacts were established through a well known third party within the industry and have been determined on a best efforts basis to be genuine as a result of the origin of these initial introductions from this third party.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 2,
+      "blockNumber": 17388138,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x1e2f811de546035d2cc79dd2ec6ed474430dd2c4135c20b6ce1da9fe4f1b80a4",
+      "startTime": {
+        "timestamp": 1685649009
+      },
+      "endTime": {
+        "timestamp": 1686340200
+      },
+      "startTimestamp": 1685649009,
+      "endTimestamp": 1686340200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 430890.62,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 430890.5968264104,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685649461619,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjEx",
+      "id": "11",
+      "title": "CIP-20 (Fixed): Transfer ARB tokens to create an incentive program",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 4,
+      "blockNumber": 17371698,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1685449151,
+      "endTimestamp": 1685659271,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 723651.06,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17371697
+          },
+          "event": "pending",
+          "timestamp": 1685449139,
+          "txHash": "0xd1cd1aaab02fe683689bbb61c3c98be19e8a85991c9c81e15e36cf80a7e5d6ba"
+        },
+        {
+          "time": {
+            "blockNumber": 17393878
+          },
+          "event": "queued",
+          "timestamp": 1685718995,
+          "txHash": "0x5ac65c8fee559dd341eff6b290d617e560d8266fb7c58a65f11c2c5c03e27385"
+        },
+        {
+          "time": {
+            "blockNumber": 17415226
+          },
+          "event": "executed",
+          "timestamp": 1685979203,
+          "txHash": "0x0bea578de1a12b37fb12a6eed189a38ea6f21695ab2daf7f7c222ecd3cd3226c"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685449660010,
+      "txHash": "0xd1cd1aaab02fe683689bbb61c3c98be19e8a85991c9c81e15e36cf80a7e5d6ba",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjEw",
+      "id": "10",
+      "title": "description: CIP-20: Transfer ARB tokens to create an incentive program",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 2,
+      "blockNumber": 17272426,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1684242107,
+      "endTimestamp": 1684452587,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 603296.1,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 17365388
+          },
+          "event": "executed",
+          "timestamp": 1685372339,
+          "txHash": "0x1aec9f125dce482b2aff4ae502d7ca7ed7a719eb6759320e373aa4beba351277"
+        },
+        {
+          "time": {
+            "blockNumber": 17272425
+          },
+          "event": "pending",
+          "timestamp": 1684242095,
+          "txHash": "0xf7c8dd1c7cff5cd66e514597d40d119e2c4ae465be20e8b1a160a43a03787fb4"
+        },
+        {
+          "time": {
+            "blockNumber": 17337303
+          },
+          "event": "queued",
+          "timestamp": 1685031599,
+          "txHash": "0x8af6b9e99ebd3ceba18fad58ba4b9aade264d614dc1f91aea283d4b8b75c7b13"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1684242439752,
+      "txHash": "0xf7c8dd1c7cff5cd66e514597d40d119e2c4ae465be20e8b1a160a43a03787fb4",
+      "quorum": 400000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGNiNGZhMWIwYzU2YzdhMzgxYjQ0Yzc0NTQ2OTZkNThhMmRhMjY0MzZlNmFmNjU4YzA2NzlmOGE0ZmFmNThhNzU=",
+      "id": "0xcb4fa1b0c56c7a381b44c7454696d58a2da26436e6af658c0679f8a4faf58a75",
+      "title": "Initial Cryptex v2 Incentive Program",
+      "content": "The revised v2 incentive program proposes the following:\n\n$50,000 CTX for v2 Liquidity Incentives: To encourage participation and increase liquidity within the Cryptex ecosystem, we will allocate $50,000 worth of CTX tokens as incentives for liquidity providers. This incentive will be distributed over a three-month period.\n\n$50,000 ARB for v2 Trading Rebates: Acknowledging the importance of activity on our platform, we will dedicate $50,000 worth of ARB tokens from the DAO treasury to usage rebates. This initiative will be active until ARB is exhausted, with a daily cap of $555.55 (calculated as $50,000/90) to ensure fair distribution and sustained engagement.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 6,
+      "blockNumber": 17183853,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xcb4fa1b0c56c7a381b44c7454696d58a2da26436e6af658c0679f8a4faf58a75",
+      "startTime": {
+        "timestamp": 1683160920
+      },
+      "endTime": {
+        "timestamp": 1683506520
+      },
+      "startTimestamp": 1683160920,
+      "endTimestamp": 1683506520,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1030857.06,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1030857.1123892708,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683161807695,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGEyNDQ1YWNjZGQ5ODgwNjVhZTRmNDc4MDAzYzM2MzIxYmUyYjljZGVlMWRkYmJhOWI3YmExZGNmMWYxNTliNjM=",
+      "id": "0xa2445accdd988065ae4f478003c36321be2b9cdee1ddbba9b7ba1dcf1f159b63",
+      "title": "Utilizing ARB Token Allocation to Incentivize and Empower the Cryptex Community",
+      "content": "Cryptex is proud to announce that our collective efforts and commitment to fostering innovation and growth within the DeFi space have led to our DAO being recognized as a key player in the Arbitrum ecosystem. As part of this recognition, our DAO has been granted an allocation of 75,000 ARB tokens.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 3,
+      "blockNumber": 17119851,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xa2445accdd988065ae4f478003c36321be2b9cdee1ddbba9b7ba1dcf1f159b63",
+      "startTime": {
+        "timestamp": 1682383351
+      },
+      "endTime": {
+        "timestamp": 1682728920
+      },
+      "startTimestamp": 1682383351,
+      "endTimestamp": 1682728920,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 301382.66,
+          "choice": 0
+        },
+        {
+          "total": 33151.734,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 301382.63728298905,
+          "choice": 0
+        },
+        {
+          "total": 33151.733680632984,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682384831148,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjk=",
+      "id": "9",
+      "title": "CIP-19: Operating Expenditures 2023",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 4,
+      "blockNumber": 16284903,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1672250387,
+      "endTimestamp": 1672458779,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 710881.56,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16371716
+          },
+          "event": "queued",
+          "timestamp": 1673297147,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16394940
+          },
+          "event": "executed",
+          "timestamp": 1673577479,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 710881.56,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGZhYTc2NDY4NmUwMWExYjRlNzliMDNmNjhhOTc4Y2RmZWRjODcxMGM0OGIxNDBmNjc0MjhmMWY0ZDAwMTY1ZjY=",
+      "id": "0xfaa764686e01a1b4e79b03f68a978cdfedc8710c48b140f67428f1f4d00165f6",
+      "title": "CIP-19: Operating Expenditures 2023",
+      "content": "There are two parts to the operating expenditures 2023 proposal:\n\n2023 Full Time & Part Time Contributor Guidelines\n2023 Expenditures Brand, Marketing, and Operations Budget\n\nCheck the forum post for full details",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 5,
+      "blockNumber": 16235772,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xfaa764686e01a1b4e79b03f68a978cdfedc8710c48b140f67428f1f4d00165f6",
+      "startTime": {
+        "timestamp": 1671658305
+      },
+      "endTime": {
+        "timestamp": 1671991200
+      },
+      "startTimestamp": 1671658305,
+      "endTimestamp": 1671991200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 653662.6,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 653662.5824117314,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDVlYWI5YTIxM2I5OGRiYTk4NmJjYWExNDkwY2Q1MTAzZjRmMGFkMTAxMGZjOGYyYmQ2NTg4YWE4OTZiNDFlNTA=",
+      "id": "0x5eab9a213b98dba986bcaa1490cd5103f4f0ad1010fc8f2bd6588aa896b41e50",
+      "title": "CIP-18: Create Staked ETH Vault",
+      "content": "This proposal is to signal interest in having a Staked ETH Vault using the same parameters as Hardmode ETH Vault to encourage people to use sETH as collateral. If this proposal passes a vault will be deployed in Goerli for internal testing, then community testing, and finally mainnet.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 5,
+      "blockNumber": 16235716,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x5eab9a213b98dba986bcaa1490cd5103f4f0ad1010fc8f2bd6588aa896b41e50",
+      "startTime": {
+        "timestamp": 1671462360
+      },
+      "endTime": {
+        "timestamp": 1671991200
+      },
+      "startTimestamp": 1671462360,
+      "endTimestamp": 1671991200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 653662.6,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 653662.5824117314,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGYzZjdlZDVhNjYwMzFkOGRjMTQ3ODY4Mjc2NTVkMDMwMDA1YmQ3NmVlN2FkNWY3ZDZjNWNkZDQ1ZDAxNTZmZTA=",
+      "id": "0xf3f7ed5a66031d8dc14786827655d030005bd76ee7ad5f7d6c5cdd45d0156fe0",
+      "title": "CIP-17: Migrate CTX-WETH Rewards to Uniswap V3",
+      "content": "Summary\n\nMigrate 13,348 CTX for next 3 months of CTX-WETH LP rewards to Uniswap V3 instead of continuing to incentivize LPs on Sushiswap.",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0xA36baB9f9e2392c00A2251caF382f5559C00f4De",
+      "totalVotes": 9,
+      "blockNumber": 15271563,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xf3f7ed5a66031d8dc14786827655d030005bd76ee7ad5f7d6c5cdd45d0156fe0",
+      "startTime": {
+        "timestamp": 1659558275
+      },
+      "endTime": {
+        "timestamp": 1659909600
+      },
+      "startTimestamp": 1659558275,
+      "endTimestamp": 1659909600,
+      "currentState": "closed",
+      "choices": [
+        "Migrate rewards to Uniswap V3",
+        "Renew rewards on Sushiswap",
+        "Split rewards across Uni & Sushi",
+        "Do not extend rewards at all"
+      ],
+      "results": [
+        {
+          "total": 546997.8,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 546997.8348377169,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpiYWZrcmVpZzZra2ltNWV2aWZmNnVldzNlZXRtbXM0bGd1M3dpNG5xYndmMnQ2NW5kN3pvN2djdnB3aQ==",
+      "id": "bafkreig6kkim5eviff6uew3eetmms4lgu3wi4nqbwf2t65nd7zo7gcvpwi",
+      "title": "CIP:16 Migrate SushiSwap rewards to Uniswap V3",
+      "content": "Summary\n\n- Migrate 26,038 CTX LP rewards from Sushiswap to Uniswap V3",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 5,
+      "blockNumber": 15195111,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/bafkreig6kkim5eviff6uew3eetmms4lgu3wi4nqbwf2t65nd7zo7gcvpwi",
+      "startTime": {
+        "timestamp": 1658528482
+      },
+      "endTime": {
+        "timestamp": 1658858400
+      },
+      "startTimestamp": 1658528482,
+      "endTimestamp": 1658858400,
+      "currentState": "closed",
+      "choices": [
+        "Migrate rewards to Uniswap V3",
+        "Leave rewards on Sushiswap",
+        "Don't add more rewards"
+      ],
+      "results": [
+        {
+          "total": 33.615643,
+          "choice": 0
+        },
+        {
+          "total": 452142.06,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 33.615643013659614,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 452142.0641604357,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjg=",
+      "id": "8",
+      "title": "Proposal 8",
+      "content": "  CIP-15: 2nd Half 2022 Expenditures: Contributors, Marketing and Operations Budget",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 6,
+      "blockNumber": 15186550,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1658415158,
+      "endTimestamp": 1658645839,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 452137.06,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 15206542
+          },
+          "event": "queued",
+          "timestamp": 1658682489,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 15226208
+          },
+          "event": "executed",
+          "timestamp": 1658947747,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 452137.06,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpiYWZrcmVpZHp4ZGRmb25pYWxkdmk2bzZxc293bm14cnJ6amlja3B3MnFodmNpdjQyejJwM2dpd2QyZQ==",
+      "id": "bafkreidzxddfonialdvi6o6qsownmxrrzjickpw2qhvciv42z2p3giwd2e",
+      "title": "2nd Half 2022 Expenditures: Brand & Marketing Budget 2nd Half 2022",
+      "content": "Summary\n\n**Brand & Marketing Budget**\n\n-Approve Budget Amount & Allocation\n\n**Operations Budget**\n\n-Approve Budget Amount & Allocation",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 5,
+      "blockNumber": 15143101,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/bafkreidzxddfonialdvi6o6qsownmxrrzjickpw2qhvciv42z2p3giwd2e",
+      "startTime": {
+        "timestamp": 1657832285
+      },
+      "endTime": {
+        "timestamp": 1658340000
+      },
+      "startTimestamp": 1657832285,
+      "endTimestamp": 1658340000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 587120.7,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 587120.6963452905,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpxbXplYWhqaWQ5bWJueXRhYmM2ZGttN2lpcmM0cmpjajdscW1ncjZoZnVrcHlp",
+      "id": "QmZEAhjid9mBNyTaBc6Dkm7iiRc4RJcJ7LQmGR6HFuKPyi",
+      "title": "2nd Half 2022 Full Time, Part Time, Bounty Contributors",
+      "content": "**Summary**\n\nFull Time, Part Time, Bounty Contributors\n\n-Transferring full time rewards from the treasury to contributors\n\n-Evolve the part time contributor model",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 7,
+      "blockNumber": 14998387,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/QmZEAhjid9mBNyTaBc6Dkm7iiRc4RJcJ7LQmGR6HFuKPyi",
+      "startTime": {
+        "timestamp": 1655740800
+      },
+      "endTime": {
+        "timestamp": 1656345600
+      },
+      "startTimestamp": 1655740800,
+      "endTimestamp": 1656345600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 419628.34,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 419628.34827998024,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjc=",
+      "id": "7",
+      "title": "Proposal 7",
+      "content": "CIP-14: Increase Hard Mode Vault Liquidation Ratio to 125% & Penalty to 19%",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 7,
+      "blockNumber": 14957347,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1655143387,
+      "endTimestamp": 1655401281,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 662151.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14975517
+          },
+          "event": "queued",
+          "timestamp": 1655414904,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14997559
+          },
+          "event": "executed",
+          "timestamp": 1655742759,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 662151.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpxbWNxY2FibjltZWg1ZXJyeWcyajd6eTlhc3I3azZtdXdwbmt1M3p6aW1pZnZz",
+      "id": "QmcQCABN9meH5eRRYg2j7Zy9ASR7K6MuWpnKU3ZzimiFvS",
+      "title": "CIP-14: Increase Hard Mode Vault Liquidation Ratio to 125%",
+      "content": "**Summary**\n\nChange the Liquidation Ratio of ETH, DAI, USDC, and WBTC hard mode vaults from 110% to 125% ",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 6,
+      "blockNumber": 14905342,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/QmcQCABN9meH5eRRYg2j7Zy9ASR7K6MuWpnKU3ZzimiFvS",
+      "startTime": {
+        "timestamp": 1654377584
+      },
+      "endTime": {
+        "timestamp": 1654704000
+      },
+      "startTimestamp": 1654377584,
+      "endTimestamp": 1654704000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 400664.84,
+          "choice": 0
+        },
+        {
+          "total": 2.5060675,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 400664.8603645526,
+          "choice": 0
+        },
+        {
+          "total": 2.506067604095611,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjY=",
+      "id": "6",
+      "title": "Proposal 6",
+      "content": "CIP-13: Add hard mode vaults to TCAP",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 7,
+      "blockNumber": 14758008,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1652315224,
+      "endTimestamp": 1652554450,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 642087.94,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14776964
+          },
+          "event": "queued",
+          "timestamp": 1652576260,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14796349
+          },
+          "event": "executed",
+          "timestamp": 1652842656,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 642087.94,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpxbWVlYWpjaGVxd2t0c3N6cG1kZWZqam9hYWt5N2JuY2hndXp4aGplYmVkdWkx",
+      "id": "QmeeaJcheqWkTsSzPMdEFjJoaAKY7bNChguZxhjebEdui1",
+      "title": "Deploy Cryptex Protocol into Optimism",
+      "content": "This proposal is for deploying Cryptex Protocol in Optimism Protocol. All the governance will remain in Mainnet, meaning that CTX, Treasury, and Single Side Staking will be required to update the protocol on Optimism and Mainnet.\n\nBesides our 4 approved Vaults (ETH, DAI, LINK, and AAVE). Deploying in Optimism will add CRV, UNI, and SNX vaults.\n",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 6,
+      "blockNumber": 14129218,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/QmeeaJcheqWkTsSzPMdEFjJoaAKY7bNChguZxhjebEdui1",
+      "startTime": {
+        "timestamp": 1643824800
+      },
+      "endTime": {
+        "timestamp": 1644170400
+      },
+      "startTimestamp": 1643824800,
+      "endTimestamp": 1644170400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 432689.62,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 432689.6214749599,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjU=",
+      "id": "5",
+      "title": "Proposal 5",
+      "content": "CIP-12: Q1 + Q2 Brand, Marketing & Development Budget",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 5,
+      "blockNumber": 14071959,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1643075802,
+      "endTimestamp": 1643307022,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 442857.84,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14116350
+          },
+          "event": "executed",
+          "timestamp": 1643667987,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14095278
+          },
+          "event": "queued",
+          "timestamp": 1643387609,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 442857.84,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweGNhM2FjOGY2ZmM0MmRlOWQ4YTQ5YmUwOGExYWVlYWQwNzUwZDJjODA2MzMyYzMyZDM3NjRmYmE0YTAxZmNmODg=",
+      "id": "0xca3ac8f6fc42de9d8a49be08a1aeead0750d2c806332c32d3764fba4a01fcf88",
+      "title": "Full Time, Part Time & Bounty Contributor Guidelines 2022 ",
+      "content": "Description: https://forum.cryptex.finance/t/full-time-part-time-bounty-contributor-guidelines-2022/252",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 6,
+      "blockNumber": 14032832,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0xca3ac8f6fc42de9d8a49be08a1aeead0750d2c806332c32d3764fba4a01fcf88",
+      "startTime": {
+        "timestamp": 1642528800
+      },
+      "endTime": {
+        "timestamp": 1643133600
+      },
+      "startTimestamp": 1642528800,
+      "endTimestamp": 1643133600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 465463.22,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 465463.2448091118,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDoweDg4Y2VhMWNhZmJlYzMyMGZjYTgwNTY5ZTZjZTI1ZTcwNDkzMTEwZTg0OTIyMzAyMjQwYTQwOTM3ODMxM2IzOTI=",
+      "id": "0x88cea1cafbec320fca80569e6ce25e70493110e84922302240a409378313b392",
+      "title": "Q1&Q2 2022 Brand & Marketing Budget",
+      "content": "Discussion on: https://forum.cryptex.finance/t/q1-q2-2022-brand-marketing-budget/259",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 6,
+      "blockNumber": 14032834,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/0x88cea1cafbec320fca80569e6ce25e70493110e84922302240a409378313b392",
+      "startTime": {
+        "timestamp": 1642528800
+      },
+      "endTime": {
+        "timestamp": 1643133600
+      },
+      "startTimestamp": 1642528800,
+      "endTimestamp": 1643133600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 465463.25,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 465463.2448091118,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpxbXF2ZmNzeXI2ZW1tejQ0c3RmYnJiaGtmZXZ2Nm55NGZ4aGpsZDdmaGpydXB1",
+      "id": "QmQvfcsYR6EMmZ44STFBRbhKfEvv6ny4fXhJLd7fhjrUPU",
+      "title": "CIP-11: Bug Bounty Program",
+      "content": "\nDiscussion on:  \nhttps://forum.cryptex.finance/t/cip-11-bug-bounty-platform/263",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 9,
+      "blockNumber": 13934697,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/QmQvfcsYR6EMmZ44STFBRbhKfEvv6ny4fXhJLd7fhjrUPU",
+      "startTime": {
+        "timestamp": 1641232800
+      },
+      "endTime": {
+        "timestamp": 1642356000
+      },
+      "startTimestamp": 1641232800,
+      "endTimestamp": 1642356000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 289981.62,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 289981.6256426937,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjQ=",
+      "id": "4",
+      "title": "Proposal 4",
+      "content": "CIP-11 Add AAVE and LINK Vaults",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 5,
+      "blockNumber": 13994022,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1642034570,
+      "endTimestamp": 1642266670,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 425613.94,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14032914
+          },
+          "event": "queued",
+          "timestamp": 1642554254,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14069477
+          },
+          "event": "executed",
+          "timestamp": 1643042550,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 425613.94,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpxbXp2ZXZkZHlqbWVhZmZ3bWo5eHBzand2bGM4Y3RrcmVwZmo4ZHhlbTZibGZ5",
+      "id": "QmZveVDDYJmeAFFWmJ9XPsJwVLc8cTkRepfj8Dxem6BLfy",
+      "title": "How about now?",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 5,
+      "blockNumber": 13810962,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/QmZveVDDYJmeAFFWmJ9XPsJwVLc8cTkRepfj8Dxem6BLfy",
+      "startTime": {
+        "timestamp": 1639587600
+      },
+      "endTime": {
+        "timestamp": 1639764000
+      },
+      "startTimestamp": 1639587600,
+      "endTimestamp": 1639764000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 385845.44,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 385845.4109778908,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpxbWRuZWJ5dmtmZHpucnF2NXdic2dieXZpaHBtbXpweWZtNW0xb216cGlud2d2",
+      "id": "QmdneByVKFDZnrQV5wbSGBYviHPMmZpyfm5m1oMZpiNwgv",
+      "title": "Hire Voith as Solidity Developer",
+      "content": "Discussion on: https://forum.cryptex.finance/t/hire-voith-as-solidity-developer/251",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 3,
+      "blockNumber": 13774118,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/QmdneByVKFDZnrQV5wbSGBYviHPMmZpyfm5m1oMZpiNwgv",
+      "startTime": {
+        "timestamp": 1639072800
+      },
+      "endTime": {
+        "timestamp": 1639764000
+      },
+      "startTimestamp": 1639072800,
+      "endTimestamp": 1639764000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 103.63968,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 103.6396833089408,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpxbWE5c3l1MnZtZGltM2V2a2JzYWN5dmZ2NmF4aHJ2NTlodWE3amVuanlrdXQy",
+      "id": "Qma9SyU2VMdim3EVkbSacYvFV6AXhRV59hUa7jenjykUt2",
+      "title": "Can you vote?",
+      "content": "",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 0,
+      "blockNumber": 13810724,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/Qma9SyU2VMdim3EVkbSacYvFV6AXhRV59hUa7jenjykUt2",
+      "startTime": {
+        "timestamp": 1639584000
+      },
+      "endTime": {
+        "timestamp": 1639764000
+      },
+      "startTimestamp": 1639584000,
+      "endTimestamp": 1639764000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjM=",
+      "id": "3",
+      "title": "Proposal 3",
+      "content": "CIP-7: Airdrop early TCAP Testers & CIP-10 Cryptex Community Grants Program Q4",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 3,
+      "blockNumber": 13608893,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1636823399,
+      "endTimestamp": 1637059734,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 166787.44,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 166787.44,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjI=",
+      "id": "2",
+      "title": "Proposal 2",
+      "content": "CIP-8: Brand and Marketing Budget",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 1,
+      "blockNumber": 13148652,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1630617157,
+      "endTimestamp": 1630847587,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 998601.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13169844
+          },
+          "event": "queued",
+          "timestamp": 1630899601,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 13194745
+          },
+          "event": "executed",
+          "timestamp": 1631232894,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 998601.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpvbmNoYWluOjE=",
+      "id": "1",
+      "title": "Proposal 1",
+      "content": "CIP-3 & 4: Transfer ETH to team multi sign for funding of payroll and community grants",
+      "protocol": "cryptex",
+      "adapter": "onchain",
+      "proposer": "0xa70b638B70154EdfCbb8DbbBd04900F328F32c35",
+      "totalVotes": 1,
+      "blockNumber": 12884722,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1627071610,
+      "endTimestamp": 1627305009,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR"
+      ],
+      "results": [
+        {
+          "total": 1000000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 12904392
+          },
+          "event": "queued",
+          "timestamp": 1627337630,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 12924922
+          },
+          "event": "executed",
+          "timestamp": 1627619748,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1000000.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpxbWJyN3Yyd2hvN2pxY3ZiNHNtd3VncnAya2hldXRnZ3N4NHdtZ3BycXQyMnd5",
+      "id": "Qmbr7V2who7JQcVB4SMwuGRP2KHeUtGgSx4WMGPRQt22Wy",
+      "title": "Can you vote with your LP?",
+      "content": "Can you vote with your LP?",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 2,
+      "blockNumber": 12691148,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/Qmbr7V2who7JQcVB4SMwuGRP2KHeUtGgSx4WMGPRQt22Wy",
+      "startTime": {
+        "timestamp": 1622570400
+      },
+      "endTime": {
+        "timestamp": 1625076000
+      },
+      "startTimestamp": 1622570400,
+      "endTimestamp": 1625076000,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [
+        {
+          "total": 0.119946525,
+          "choice": 0
+        },
+        {
+          "total": 36.4079,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.1199465215129395,
+          "choice": 0
+        },
+        {
+          "total": 36.4079025092656,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpxbWY1YXd3OGlhcHl3ZWU4cG02Y3Zia2ZkZGZ1amVvbWZxamVka2xybXQ0Z3N1",
+      "id": "Qmf5AWW8iApywEe8pM6CvBKfDdFujEoMfQjEDKLRmT4gsU",
+      "title": "CIP 2 : Add TCAP/DAI incentivized SUSHI pool",
+      "content": "Having TCAP paired with a stable coin like DAI would lower the volatility of TCAP. We’re already in the process of lowering CR from 200% to 150%, and supplementing it with an incentivized pool will add more liquidity to TCAP and lowers volatility.\n\nThis vote is to see the sentiment of the community as discussed on https://forum.cryptex.finance/t/cip-2-add-tcap-dai-incentivized-sushi-pool/78",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 5,
+      "blockNumber": 12687517,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/Qmf5AWW8iApywEe8pM6CvBKfDdFujEoMfQjEDKLRmT4gsU",
+      "startTime": {
+        "timestamp": 1624384800
+      },
+      "endTime": {
+        "timestamp": 1624816800
+      },
+      "startTimestamp": 1624384800,
+      "endTimestamp": 1624816800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 5217.2,
+          "choice": 0
+        },
+        {
+          "total": 36.4079,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5217.199841021076,
+          "choice": 0
+        },
+        {
+          "total": 36.4079025092656,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y3J5cHRleDpzbmFwc2hvdDpxbXh3eGtuY3NlZ3JzdG42NW5nOGVoZmRzaTdqY2U3M294dGpyczUya2NyYnN4",
+      "id": "QmXWXkNcSegrStn65nG8ehfDSi7jCE73oXtJrs52kCRBsX",
+      "title": "Should we launch a Meme Contest?",
+      "content": "Launch meme contest to have fun and reward creativity\n",
+      "protocol": "cryptex",
+      "adapter": "snapshot",
+      "proposer": "0x4954c9004A45bDe97A53B43130A1030a2b6EfBB1",
+      "totalVotes": 2,
+      "blockNumber": 12628098,
+      "externalUrl": "https://snapshot.org/#/cryptexdao.eth/proposal/QmXWXkNcSegrStn65nG8ehfDSi7jCE73oXtJrs52kCRBsX",
+      "startTime": {
+        "timestamp": 1623520800
+      },
+      "endTime": {
+        "timestamp": 1624039200
+      },
+      "startTimestamp": 1623520800,
+      "endTimestamp": 1624039200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 146274.6,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 146274.58835222124,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

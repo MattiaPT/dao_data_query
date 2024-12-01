@@ -1,0 +1,1893 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHgzOGYzNjZkNDhlZmI3MmZmNmVhYjUzYmQwYTA3MjMzNDM5YzE0ZjMxNWQxOTFlODcyODBmNWFkNWYwOTZlZTZm",
+      "id": "0x38f366d48efb72ff6eab53bd0a07233439c14f315d191e87280f5ad5f096ee6f",
+      "title": "LP protocol fee distribution - Q3 2023",
+      "content": "LRC holders and LRC LPs will decide which AMM pools are to be incentivized with protocol fees for the months of July, August, and September 2023.\n\nFour pools will automatically be rewarded: LRC/ETH, LRC/USDC, LRC/USDT, and TLOS/ETH\n\nThis vote will determine which remaining pools will be included. Any pool that receives a minimum of 10% of the vote will be rewarded in the upcoming quarter's fee distribution.\n\nOnly pools with $50k in liquidity will be listed as voted in LIP #4\n(https://vote.loopring.io/#/proposal/0xd99ac433eb95157817f583fbcedb90feaa102bf8237c8c06d150a01eb872acce).\n\nProtocol rewards will be distributed to the pools designated by the DAO. The distribution amongst the pools will be done in proportion to each pool’s total liquidity.",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 150,
+      "blockNumber": 17530831,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0x38f366d48efb72ff6eab53bd0a07233439c14f315d191e87280f5ad5f096ee6f",
+      "startTime": {
+        "timestamp": 1687557520
+      },
+      "endTime": {
+        "timestamp": 1687730320
+      },
+      "startTimestamp": 1687557520,
+      "endTimestamp": 1687730320,
+      "currentState": "closed",
+      "choices": [
+        "BIT/USDC",
+        "DPI/ETH",
+        "ETH/DAI",
+        "ETH/USDC",
+        "ETH/USDT",
+        "IMX/USDC",
+        "LINK/ETH",
+        "LRC/WBTC",
+        "MANA/USDC",
+        "MASK/LRC",
+        "NONE",
+        "RETH/ETH",
+        "RICE/USDT",
+        "SAND/USDC",
+        "WBTC/ETH"
+      ],
+      "results": [
+        {
+          "total": 12480.0,
+          "choice": 11
+        },
+        {
+          "total": 140575.36,
+          "choice": 3
+        },
+        {
+          "total": 285795.0,
+          "choice": 5
+        },
+        {
+          "total": 16679.0,
+          "choice": 4
+        },
+        {
+          "total": 1781.8309,
+          "choice": 0
+        },
+        {
+          "total": 36972.0,
+          "choice": 10
+        },
+        {
+          "total": 32.0,
+          "choice": 6
+        },
+        {
+          "total": 3213.0,
+          "choice": 14
+        },
+        {
+          "total": 19383.0,
+          "choice": 2
+        },
+        {
+          "total": 31262.203,
+          "choice": 7
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1781.83095111,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 19383.0,
+          "choice": 2
+        },
+        {
+          "total": 140575.3596212548,
+          "choice": 3
+        },
+        {
+          "total": 16679.0,
+          "choice": 4
+        },
+        {
+          "total": 285795.00046527,
+          "choice": 5
+        },
+        {
+          "total": 32.0,
+          "choice": 6
+        },
+        {
+          "total": 31262.20390517301,
+          "choice": 7
+        },
+        {
+          "total": 0.0,
+          "choice": 8
+        },
+        {
+          "total": 0.0,
+          "choice": 9
+        },
+        {
+          "total": 36972.0,
+          "choice": 10
+        },
+        {
+          "total": 12480.0,
+          "choice": 11
+        },
+        {
+          "total": 0.0,
+          "choice": 12
+        },
+        {
+          "total": 0.0,
+          "choice": 13
+        },
+        {
+          "total": 3213.0,
+          "choice": 14
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1687384805122,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHhmN2JiMTI5YWE5YzRjMTVkODRiOWNlYjE5NWYzNTdhYzYyOGU3NTAxYzc4NTZmNGJlMTE4NDYyNDcxOTFhMWZl",
+      "id": "0xf7bb129aa9c4c15d84b9ceb195f357ac628e7501c7856f4be11846247191a1fe",
+      "title": "Which token should be supported next on Loopring L2?",
+      "content": "LRC holders and LRC liquidity providers (LPs) will decide which token will be supported next on Loopring. In addition, an AMM pool will be created for this newly supported token vs. ETH. To further encourage the adoption of this new AMM pool, it will be incentivized with protocol fees for the months of July, August, and September 2023.",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 192,
+      "blockNumber": 17493540,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0xf7bb129aa9c4c15d84b9ceb195f357ac628e7501c7856f4be11846247191a1fe",
+      "startTime": {
+        "timestamp": 1687105548
+      },
+      "endTime": {
+        "timestamp": 1687278348
+      },
+      "startTimestamp": 1687105548,
+      "endTimestamp": 1687278348,
+      "currentState": "closed",
+      "choices": [
+        "Blur (BLUR)",
+        "Metis (METIS)",
+        "Quant (QNT)",
+        "Telos (TLOS)"
+      ],
+      "results": [
+        {
+          "total": 1168267.2,
+          "choice": 3
+        },
+        {
+          "total": 47475.79,
+          "choice": 0
+        },
+        {
+          "total": 1113556.0,
+          "choice": 2
+        },
+        {
+          "total": 41900.25,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 47475.78571311456,
+          "choice": 0
+        },
+        {
+          "total": 41900.24750705478,
+          "choice": 1
+        },
+        {
+          "total": 1113555.9792178306,
+          "choice": 2
+        },
+        {
+          "total": 1168267.2107591175,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1686932910096,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHg2ZDUzMDU4NjU1NzBkNjU5ZjUwOTI2YjdjNDEwOGI2NjI3NGM2YTFjYWJlNTk5MzQ5YzFkOTZmMzAzMjA4NTlj",
+      "id": "0x6d5305865570d659f50926b7c4108b66274c6a1cabe599349c1d96f30320859c",
+      "title": "LP protocol fee distribution - Q2 2023",
+      "content": "LRC holders and LRC LPs will decide which AMM pools are to be incentivized with protocol fees for the months of April, May, and June 2023.\n\nFour pools will automatically be rewarded: LRC/ETH, LRC/USDC, LRC/USDT, and LQTY/ETH\n\nThis vote will determine which remaining pools will be included. Any pool that receives a minimum of 10% of the vote will be rewarded in the upcoming quarter's fee distribution.\n\nOnly pools with $50k in liquidity will be listed as voted in LIP #4\n(https://vote.loopring.io/#/proposal/0xd99ac433eb95157817f583fbcedb90feaa102bf8237c8c06d150a01eb872acce).\n\nProtocol rewards will be distributed to the pools designated by the DAO. The distribution amongst the pools will be done in proportion to each pool’s total liquidity.",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 96,
+      "blockNumber": 16885872,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0x6d5305865570d659f50926b7c4108b66274c6a1cabe599349c1d96f30320859c",
+      "startTime": {
+        "timestamp": 1679694322
+      },
+      "endTime": {
+        "timestamp": 1679867122
+      },
+      "startTimestamp": 1679694322,
+      "endTimestamp": 1679867122,
+      "currentState": "closed",
+      "choices": [
+        "BIT/USDC",
+        "DPI/ETH",
+        "ETH/DAI",
+        "ETH/USDC",
+        "ETH/USDT",
+        "IMX/USDC",
+        "LINK/ETH",
+        "LRC/WBTC",
+        "MANA/USDC",
+        "MASK/LRC",
+        "RETH/ETH",
+        "RICE/USDT",
+        "SAND/USDC",
+        "VETH/ETH",
+        "WBTC/ETH",
+        "WBTC/USDC",
+        "NONE"
+      ],
+      "results": [
+        {
+          "total": 2954.0,
+          "choice": 15
+        },
+        {
+          "total": 230744.0,
+          "choice": 3
+        },
+        {
+          "total": 242.0,
+          "choice": 5
+        },
+        {
+          "total": 997.87415,
+          "choice": 4
+        },
+        {
+          "total": 1564.0721,
+          "choice": 0
+        },
+        {
+          "total": 156756.77,
+          "choice": 10
+        },
+        {
+          "total": 898.0,
+          "choice": 6
+        },
+        {
+          "total": 108.0,
+          "choice": 14
+        },
+        {
+          "total": 7470.0005,
+          "choice": 2
+        },
+        {
+          "total": 118199.58,
+          "choice": 16
+        },
+        {
+          "total": 68111.516,
+          "choice": 7
+        },
+        {
+          "total": 7.0,
+          "choice": 1
+        },
+        {
+          "total": 5.0,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1564.0720850768776,
+          "choice": 0
+        },
+        {
+          "total": 7.0,
+          "choice": 1
+        },
+        {
+          "total": 7470.000342742393,
+          "choice": 2
+        },
+        {
+          "total": 230744.00000002,
+          "choice": 3
+        },
+        {
+          "total": 997.87417674,
+          "choice": 4
+        },
+        {
+          "total": 242.0,
+          "choice": 5
+        },
+        {
+          "total": 898.0,
+          "choice": 6
+        },
+        {
+          "total": 68111.51971792,
+          "choice": 7
+        },
+        {
+          "total": 5.0,
+          "choice": 8
+        },
+        {
+          "total": 0.0,
+          "choice": 9
+        },
+        {
+          "total": 156756.76195073,
+          "choice": 10
+        },
+        {
+          "total": 0.0,
+          "choice": 11
+        },
+        {
+          "total": 0.0,
+          "choice": 12
+        },
+        {
+          "total": 0.0,
+          "choice": 13
+        },
+        {
+          "total": 108.0,
+          "choice": 14
+        },
+        {
+          "total": 2954.0,
+          "choice": 15
+        },
+        {
+          "total": 118199.5740551216,
+          "choice": 16
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679521812196,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHhiZDIwNTg1Y2U0MmJlMjAxOTEyYjI3M2MwNDkyMjg5OGVlYmY3NmNiODgyOTU4MzZjYmMyYmM5MTRkYjA0ZGZh",
+      "id": "0xbd20585ce42be201912b273c04922898eebf76cb88295836cbc2bc914db04dfa",
+      "title": "Which token should be supported next on Loopring L2?",
+      "content": "LRC holders and LRC liquidity providers (LPs) will decide which token will be supported next on Loopring. In addition, an AMM pool will be created for this newly supported token vs. ETH. To further encourage the adoption of this new AMM pool, it will be incentivized with protocol fees for the months of April, May, and June 2023.",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 114,
+      "blockNumber": 16842770,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0xbd20585ce42be201912b273c04922898eebf76cb88295836cbc2bc914db04dfa",
+      "startTime": {
+        "timestamp": 1679172156
+      },
+      "endTime": {
+        "timestamp": 1679344956
+      },
+      "startTimestamp": 1679172156,
+      "endTimestamp": 1679344956,
+      "currentState": "closed",
+      "choices": [
+        "Blur (BLUR)",
+        "Liquity (LQTY)",
+        "Metis (METIS)",
+        "Quant (QNT)"
+      ],
+      "results": [
+        {
+          "total": 73199.195,
+          "choice": 3
+        },
+        {
+          "total": 92147.84,
+          "choice": 0
+        },
+        {
+          "total": 92141.0,
+          "choice": 2
+        },
+        {
+          "total": 1057013.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 92147.84149094,
+          "choice": 0
+        },
+        {
+          "total": 1057013.2950505258,
+          "choice": 1
+        },
+        {
+          "total": 92141.0,
+          "choice": 2
+        },
+        {
+          "total": 73199.19608861342,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678999804139,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHgxNjFjMmJhODRmYjk0NWRlNWFkNTc5MWNmNjQ4OThlMmQ2MTI3MmQ1MTE0MWU5ZGEyY2JjYWFjYzY1NDk2Zjg1",
+      "id": "0x161c2ba84fb945de5ad5791cf64898e2d61272d51141e9da2cbcaacc65496f85",
+      "title": "LP protocol fee distribution - Q1 2023",
+      "content": "LRC holders and LRC LPs will decide which AMM pools are to be incentivized with protocol fees for the months of January, February, and March 2023.\n\nFour pools will automatically be rewarded: LRC/ETH, LRC/USDC, LRC/USDT, and LDO/ETH\n\nThis vote will determine which remaining pools will be included. Any pool that receives a minimum of 10% of the vote will be rewarded in the upcoming quarter's fee distribution.\n\nOnly pools with $50k in liquidity will be listed as voted in LIP #4\n(https://vote.loopring.io/#/proposal/0xd99ac433eb95157817f583fbcedb90feaa102bf8237c8c06d150a01eb872acce).\n\nProtocol rewards will be distributed to the pools designated by the DAO. The distribution amongst the pools will be done in proportion to each pool’s total liquidity.",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 47,
+      "blockNumber": 16235680,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0x161c2ba84fb945de5ad5791cf64898e2d61272d51141e9da2cbcaacc65496f85",
+      "startTime": {
+        "timestamp": 1671830583
+      },
+      "endTime": {
+        "timestamp": 1672003383
+      },
+      "startTimestamp": 1671830583,
+      "endTimestamp": 1672003383,
+      "currentState": "closed",
+      "choices": [
+        "BIT/USDC",
+        "DPI/ETH",
+        "ETH/DAI",
+        "ETH/USDC",
+        "ETH/USDT",
+        "IMX/USDC",
+        "LINK/ETH",
+        "MANA/USDC",
+        "MASK/LRC",
+        "RICE/USDT",
+        "SAND/USDC",
+        "VETH/ETH",
+        "WBTC/ETH",
+        "NONE"
+      ],
+      "results": [
+        {
+          "total": 366728.5,
+          "choice": 3
+        },
+        {
+          "total": 139789.0,
+          "choice": 5
+        },
+        {
+          "total": 14603.0,
+          "choice": 6
+        },
+        {
+          "total": 40954.0,
+          "choice": 13
+        },
+        {
+          "total": 11001.0,
+          "choice": 2
+        },
+        {
+          "total": 65090.0,
+          "choice": 12
+        },
+        {
+          "total": 37276.0,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 11001.0,
+          "choice": 2
+        },
+        {
+          "total": 386237.4926685743,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        },
+        {
+          "total": 139789.0,
+          "choice": 5
+        },
+        {
+          "total": 14603.000076821718,
+          "choice": 6
+        },
+        {
+          "total": 0.0,
+          "choice": 7
+        },
+        {
+          "total": 37276.0,
+          "choice": 8
+        },
+        {
+          "total": 0.0,
+          "choice": 9
+        },
+        {
+          "total": 0.0,
+          "choice": 10
+        },
+        {
+          "total": 0.0,
+          "choice": 11
+        },
+        {
+          "total": 65090.0,
+          "choice": 12
+        },
+        {
+          "total": 40954.00099302,
+          "choice": 13
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHg0MDk2NGFjYmY2ZGY3ODRhOTEyYmNkZTU2OWVlYmYzNGJmNDUxYWEyNjU4NjljNWEzZGU2N2Y0Mzg1YzNmOTgz",
+      "id": "0x40964acbf6df784a912bcde569eebf34bf451aa265869c5a3de67f4385c3f983",
+      "title": "Which token should be supported next on Loopring L2?",
+      "content": "LRC holders and LRC liquidity providers (LPs) will decide which token will be supported next on Loopring. In addition, an AMM pool will be created for this newly supported token. To further encourage the adoption of this new AMM pool, it will be incentivized with protocol fees for the months of January, February, and March 2022, as previously voted on in LIP #6 (https://vote.loopring.io/#/proposal/0x146956c0061c5ae9e26aa1dda71324db4ad41640832f24345f8f3ae1d191c41a).",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 93,
+      "blockNumber": 16171552,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0x40964acbf6df784a912bcde569eebf34bf451aa265869c5a3de67f4385c3f983",
+      "startTime": {
+        "timestamp": 1671056447
+      },
+      "endTime": {
+        "timestamp": 1671229247
+      },
+      "startTimestamp": 1671056447,
+      "endTimestamp": 1671229247,
+      "currentState": "closed",
+      "choices": [
+        "Ankr (ANKR)",
+        "Axie Infinity (AXS)",
+        "Lido DAO (LDO)",
+        "Quant (QNT)"
+      ],
+      "results": [
+        {
+          "total": 202136.7,
+          "choice": 3
+        },
+        {
+          "total": 12636.0,
+          "choice": 0
+        },
+        {
+          "total": 1681719.8,
+          "choice": 2
+        },
+        {
+          "total": 22450.309,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 12636.0,
+          "choice": 0
+        },
+        {
+          "total": 22450.307606760813,
+          "choice": 1
+        },
+        {
+          "total": 1681717.8036280388,
+          "choice": 2
+        },
+        {
+          "total": 202350.713761738,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHhjNDViOTA1YWU0Y2IyZWZkYWM4ZDhmZjQ2OGE0YWQyYTc4NTRiYTBkYWI5Mzk2MGQwYjZlODM4ZjU5YTA1OTJk",
+      "id": "0xc45b905ae4cb2efdac8d8ff468a4ad2a7854ba0dab93960d0b6e838f59a0592d",
+      "title": "Should Loopring add Layer 2 LRC Staking to Loopring Earn?",
+      "content": "---\n\nA passing 'YES' vote will add Layer 2 LRC Staking into the development roadmap of the Loopring core team.\n\n---\n\nL2 LRC Staking pool will receive 45% of the protocol fee distributions going forward, once implemented. Distributions will take place once every quarter to ensure stakers remain staked for at least one full quarter in order to receive distributions.\n\nProtocol fee distributions going forward (once staking is implemented) will be:\n\n45% to LPs in qualifying AMM pools\n45% to LRC stakers\n10% to DAO pool\n\n IN ORDER FOR 'YES' VOTE TO PASS IT MUST ALSO PASS WITH:\n\n - 60% or higher of total votes for 'YES'\n - 10million or higher amount of LRC reflected in the total vote (quorum)\n\nANYTHING LOWER WILL RESULT IN A 'NO' VOTE PASSING\n\n---\n\nA passing 'NO' vote will mean protocol fee distribution remains the same and no new action is taken.\n\n---",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x674EDb847199a0B87b8d33ADE8636939d68f64cc",
+      "totalVotes": 1665,
+      "blockNumber": 16078766,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0xc45b905ae4cb2efdac8d8ff468a4ad2a7854ba0dab93960d0b6e838f59a0592d",
+      "startTime": {
+        "timestamp": 1670021840
+      },
+      "endTime": {
+        "timestamp": 1670453840
+      },
+      "startTimestamp": 1670021840,
+      "endTimestamp": 1670453840,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 25105856.0,
+          "choice": 0
+        },
+        {
+          "total": 324423.3,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 25302765.861422192,
+          "choice": 0
+        },
+        {
+          "total": 326050.29988490447,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 10000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHg5NTJkMWU2NWQ5NTU2OWI3ODEzZTgyYTg5MTRmNTdhMzcwNGZkODQyMmMxZTZmMDZhNWU4MjE1OTNhNDFhY2E5",
+      "id": "0x952d1e65d95569b7813e82a8914f57a3704fd8422c1e6f06a5e821593a41aca9",
+      "title": "Liquidity provider protocol fee distribution - Q4",
+      "content": "LRC holders and LRC LPs will decide which AMM pools are to be incentivized with protocol fees for the months of October, November, and December.\n\nFour pools will automatically be rewarded: LRC/ETH, LRC/USDC, LRC/USDT, and rETH/ETH\n\nThis vote will determine which remaining pools will be included. Any pool that receives a minimum of 10% of the vote will be rewarded in the upcoming quarter's fee distribution.\n\nOnly pools with $50k in liquidity will be listed as voted in LIP #4\n(https://vote.loopring.io/#/proposal/0xd99ac433eb95157817f583fbcedb90feaa102bf8237c8c06d150a01eb872acce).\n\nProtocol rewards will be disbursed with equal weight to each pool that is designated to receive them.",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 107,
+      "blockNumber": 15586307,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0x952d1e65d95569b7813e82a8914f57a3704fd8422c1e6f06a5e821593a41aca9",
+      "startTime": {
+        "timestamp": 1663991461
+      },
+      "endTime": {
+        "timestamp": 1664164261
+      },
+      "startTimestamp": 1663991461,
+      "endTimestamp": 1664164261,
+      "currentState": "closed",
+      "choices": [
+        "BIT/USDC",
+        "DPI/ETH",
+        "ETH/DAI",
+        "ETH/USDC",
+        "ETH/USDT",
+        "IMX/USDC",
+        "LINK/ETH",
+        "LRC/WBTC",
+        "MANA/USDC",
+        "MASK/LRC",
+        "MATIC/ETH",
+        "RICE/USDT",
+        "SAND/USDC",
+        "VETH/ETH",
+        "WBTC/ETH",
+        "NONE"
+      ],
+      "results": [
+        {
+          "total": 1987.0,
+          "choice": 11
+        },
+        {
+          "total": 2296.0,
+          "choice": 9
+        },
+        {
+          "total": 78818.164,
+          "choice": 15
+        },
+        {
+          "total": 988261.5,
+          "choice": 3
+        },
+        {
+          "total": 149213.5,
+          "choice": 5
+        },
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 394376.4,
+          "choice": 10
+        },
+        {
+          "total": 301.0001,
+          "choice": 6
+        },
+        {
+          "total": 25044.0,
+          "choice": 14
+        },
+        {
+          "total": 196788.38,
+          "choice": 2
+        },
+        {
+          "total": 116273.86,
+          "choice": 7
+        },
+        {
+          "total": 1479.0,
+          "choice": 8
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 196788.36696804,
+          "choice": 2
+        },
+        {
+          "total": 995361.55178564,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        },
+        {
+          "total": 149213.49743101935,
+          "choice": 5
+        },
+        {
+          "total": 301.000076821717,
+          "choice": 6
+        },
+        {
+          "total": 116273.8635110782,
+          "choice": 7
+        },
+        {
+          "total": 1479.0,
+          "choice": 8
+        },
+        {
+          "total": 2296.0,
+          "choice": 9
+        },
+        {
+          "total": 394376.409802458,
+          "choice": 10
+        },
+        {
+          "total": 1987.0,
+          "choice": 11
+        },
+        {
+          "total": 0.0,
+          "choice": 12
+        },
+        {
+          "total": 0.0,
+          "choice": 13
+        },
+        {
+          "total": 25044.0,
+          "choice": 14
+        },
+        {
+          "total": 78818.16182211426,
+          "choice": 15
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHgxNDY5NTZjMDA2MWM1YWU5ZTI2YWExZGRhNzEzMjRkYjRhZDQxNjQwODMyZjI0MzQ1ZjhmM2FlMWQxOTFjNDFh",
+      "id": "0x146956c0061c5ae9e26aa1dda71324db4ad41640832f24345f8f3ae1d191c41a",
+      "title": "Should the quarterly token be automatically added to LP protocol fee distributions for its 1st quarter?",
+      "content": "Each quarter LRC token holders will vote on a new token to be supported on Loopring (https://vote.loopring.io/#/proposal/0x080531cd46ca897ca97e7f8586ba96ef4fd9e02c2dbbd3b033b7a9c814dea5c3). In addition, an AMM pool will be created for each newly supported token. \n\nSince the winning token's corresponding AMM pool will have little to no liquidity to being with, should the quarterly token be automatically added to LP protocol fee distributions for its 1st quarter to help to help jump-start its liquidity.\n\nVoting 'YES' will automatically add the quarterly voted token's corresponding AMM pool to LP protocol fee distribution for the 1st quarter after its addition.",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 71,
+      "blockNumber": 15536055,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0x146956c0061c5ae9e26aa1dda71324db4ad41640832f24345f8f3ae1d191c41a",
+      "startTime": {
+        "timestamp": 1663376905
+      },
+      "endTime": {
+        "timestamp": 1663549705
+      },
+      "startTimestamp": 1663376905,
+      "endTimestamp": 1663549705,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 890045.06,
+          "choice": 0
+        },
+        {
+          "total": 63764.58,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 890044.9986894926,
+          "choice": 0
+        },
+        {
+          "total": 63764.57655972,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHgwODA1MzFjZDQ2Y2E4OTdjYTk3ZTdmODU4NmJhOTZlZjRmZDllMDJjMmRiYmQzYjAzM2I3YTljODE0ZGVhNWMz",
+      "id": "0x080531cd46ca897ca97e7f8586ba96ef4fd9e02c2dbbd3b033b7a9c814dea5c3",
+      "title": "Which new token should be supported next on Loopring L2?",
+      "content": "Each quarter LRC token holders will vote on a new token to be supported on Loopring. In addition, an AMM pool will be created for each newly supported token. ",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 106,
+      "blockNumber": 15535979,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0x080531cd46ca897ca97e7f8586ba96ef4fd9e02c2dbbd3b033b7a9c814dea5c3",
+      "startTime": {
+        "timestamp": 1663375997
+      },
+      "endTime": {
+        "timestamp": 1663548797
+      },
+      "startTimestamp": 1663375997,
+      "endTimestamp": 1663548797,
+      "currentState": "closed",
+      "choices": [
+        "Apecoin (APE)",
+        "Axie Infinity (AXS)",
+        "Lido DAO (LDO)",
+        "Rocket Pool ETH (RETH)"
+      ],
+      "results": [
+        {
+          "total": 1032615.06,
+          "choice": 3
+        },
+        {
+          "total": 17746.162,
+          "choice": 0
+        },
+        {
+          "total": 434173.7,
+          "choice": 2
+        },
+        {
+          "total": 81997.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 17641.161455425623,
+          "choice": 0
+        },
+        {
+          "total": 81997.00062331343,
+          "choice": 1
+        },
+        {
+          "total": 485348.6901120983,
+          "choice": 2
+        },
+        {
+          "total": 1031921.0048670524,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHhkOTlhYzQzM2ViOTUxNTc4MTdmNTgzZmJjZWRiOTBmZWFhMTAyYmY4MjM3YzhjMDZkMTUwYTAxZWI4NzJhY2Nl",
+      "id": "0xd99ac433eb95157817f583fbcedb90feaa102bf8237c8c06d150a01eb872acce",
+      "title": "What should the minimum liquidity value threshold be for AMM pools to be listed in the LP protocol fee vote?",
+      "content": "For context there were 98 AMM pools listed in the first protocol fee vote (https://vote.loopring.io/#/proposal/0x35ed127d0b297b9d848de4ffc054951134c3afe6c458f80859fc4ffb1600066b). Many felt that future proposals could be improved by reducing the number of options. In addition, establishing a minimum liquidity value may provide an incentive for less liquid AMM pools to acquire more liquidity in order to be listed in the quarterly protocol fee vote. \n\nPlease note that protocol fee LP voting will take place quarterly, and any pool that receives a minimum of 10% of the vote will be rewarded for the quarterly fee distribution.",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 142,
+      "blockNumber": 15505324,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0xd99ac433eb95157817f583fbcedb90feaa102bf8237c8c06d150a01eb872acce",
+      "startTime": {
+        "timestamp": 1662936260
+      },
+      "endTime": {
+        "timestamp": 1663109060
+      },
+      "startTimestamp": 1662936260,
+      "endTimestamp": 1663109060,
+      "currentState": "closed",
+      "choices": [
+        "$0",
+        "$25,000",
+        "$50,000"
+      ],
+      "results": [
+        {
+          "total": 651221.0,
+          "choice": 0
+        },
+        {
+          "total": 1521834.4,
+          "choice": 2
+        },
+        {
+          "total": 1006085.94,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 651221.025066288,
+          "choice": 0
+        },
+        {
+          "total": 1006085.9336826436,
+          "choice": 1
+        },
+        {
+          "total": 1521834.2548132346,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHg5MTFlMmQ3MjU0NjI4NzAyYWE4ZmJmM2VkOTRhYzE4MGFkNDY0NTkwOWVlMmMwMWZhNGE5MDVlZDU2OWExZGIy",
+      "id": "0x911e2d7254628702aa8fbf3ed94ac180ad4645909ee2c01fa4a905ed569a1db2",
+      "title": "Should LRC LPs be allowed to vote on Loopring proposals using their LP tokens?",
+      "content": "There has been significant demand for LRC LPs to be able to vote on Loopring Improvement Proposals (LIPs). Many LPs have pointed out that they have to choose between providing liquidity on Loopring Layer 2 and voting on Loopring governance. This proposal's goal is to allow the community to decide whether LP token voting should be implemented. \n\nVoting will be supported for the following LRC LPs:\n- LRC / ETH\n- LRC / USDC\n- LRC / USDT\n- LRC / WBTC\n- LRC / MASK\nLRC Pools initialized in the future will also be supported.\n\nVoting 'YES' will allow LRC LPs to vote with their LP tokens on all future proposals.",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 166,
+      "blockNumber": 15499981,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0x911e2d7254628702aa8fbf3ed94ac180ad4645909ee2c01fa4a905ed569a1db2",
+      "startTime": {
+        "timestamp": 1662860353
+      },
+      "endTime": {
+        "timestamp": 1663033153
+      },
+      "startTimestamp": 1662860353,
+      "endTimestamp": 1663033153,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 2870406.5,
+          "choice": 0
+        },
+        {
+          "total": 561986.6,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 2870406.723824745,
+          "choice": 0
+        },
+        {
+          "total": 561986.6088256545,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHhiNmY2YjViNTY2M2ZmNjJmN2ExOTFjODZmMzk5YTc5MzMxNTgzYzk3YWQ1NmFiMGQ4MDdkNWY3YjY0NjAzZTM5",
+      "id": "0xb6f6b5b5663ff62f7a191c86f399a79331583c97ad56ab0d807d5f7b64603e39",
+      "title": "How long should the DAO voting period be?",
+      "content": "A proposal to increase the voting period for all governance proposals. \n\nThe voting period is the duration that the proposal is active and votes can be casted.",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 297,
+      "blockNumber": 15480379,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0xb6f6b5b5663ff62f7a191c86f399a79331583c97ad56ab0d807d5f7b64603e39",
+      "startTime": {
+        "timestamp": 1662589465
+      },
+      "endTime": {
+        "timestamp": 1662762265
+      },
+      "startTimestamp": 1662589465,
+      "endTimestamp": 1662762265,
+      "currentState": "closed",
+      "choices": [
+        "2 DAYS",
+        "3 DAYS",
+        "4 DAYS"
+      ],
+      "results": [
+        {
+          "total": 1318280.9,
+          "choice": 0
+        },
+        {
+          "total": 729631.7,
+          "choice": 2
+        },
+        {
+          "total": 492661.84,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1318280.9907667213,
+          "choice": 0
+        },
+        {
+          "total": 492661.8548960315,
+          "choice": 1
+        },
+        {
+          "total": 729631.654274477,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bG9vcHJpbmc6c25hcHNob3Q6MHgzNWVkMTI3ZDBiMjk3YjlkODQ4ZGU0ZmZjMDU0OTUxMTM0YzNhZmU2YzQ1OGY4MDg1OWZjNGZmYjE2MDAwNjZi",
+      "id": "0x35ed127d0b297b9d848de4ffc054951134c3afe6c458f80859fc4ffb1600066b",
+      "title": " Liquidity provider protocol fee distribution - September",
+      "content": "LRC holders will decide which AMM pools are to be incentivized with protocol fees for the month of September.\n\nThree pools will automatically be rewarded: LRC/ETH, LRC/USDC, and LRC/USDT.\n\nThis vote will determine which remaining pools will be included. Any pool that receives a minimum of 10% of the vote will be rewarded in the upcoming month’s fee distribution.\n\nYou will be able to vote with your LRC balances on Ethereum L1 as well as Loopring L2. For those who hold LRC on both layers, their balance is calculated as the sum of their Loopring + Ethereum LRC.\n\nProtocol rewards will be disbursed with equal weight to each pool that is designated to receive them.\n\nFees generated by the protocol are distributed to Liquidity providers, the Loopring insurance fund, and the Loopring DAO. \nFee Distribution:\n- 80% towards LPs.\n- 10% to the Loopring insurance fund.\n- 10% to the Loopring DAO.\n\nAbout Loopring DAO and Protocol Fees \nhttps://medium.loopring.io/introducing-dao-voting-46a210c373bc",
+      "protocol": "loopring",
+      "adapter": "snapshot",
+      "proposer": "0x3C29D4b663b0DA3616405973457A8e18e1A0A691",
+      "totalVotes": 1635,
+      "blockNumber": 15372808,
+      "externalUrl": "https://snapshot.org/#/loopringdao.eth/proposal/0x35ed127d0b297b9d848de4ffc054951134c3afe6c458f80859fc4ffb1600066b",
+      "startTime": {
+        "timestamp": 1661107156
+      },
+      "endTime": {
+        "timestamp": 1661279956
+      },
+      "startTimestamp": 1661107156,
+      "endTimestamp": 1661279956,
+      "currentState": "closed",
+      "choices": [
+        "1INCH/ETH",
+        "AAVE/ETH",
+        "AC/ETH",
+        "AC/USDT",
+        "ADX/ETH",
+        "AMP/ETH",
+        "BAL/ETH",
+        "BAND/ETH",
+        "BCDT/ETH",
+        "BCP/ETH",
+        "BEL/ETH",
+        "BIT/USDC",
+        "BKT/USDT",
+        "BNT/ETH",
+        "BTC2XFLI/ETH",
+        "BTU/ETH",
+        "BZRX/ETH",
+        "CEL/ETH",
+        "COMP/ETH",
+        "CRV/ETH",
+        "DAI/USDT",
+        "DEFIL/ETH",
+        "DEP/ETH",
+        "DOUGH/ETH",
+        "DPI/ETH",
+        "DPR/ETH",
+        "ENJ/ETH",
+        "ENS/ETH",
+        "ENTRP/ETH",
+        "ETH/DAI",
+        "ETH/USDC",
+        "ETH/USDT",
+        "FARM/ETH",
+        "FIN/ETH",
+        "FLI/ETH",
+        "FLX/ETH",
+        "FUSE/ETH",
+        "GNO/ETH",
+        "GRG/ETH",
+        "GRID/ETH",
+        "GRT/ETH",
+        "HBTC/ETH",
+        "HBTC/USDT",
+        "HEX/ETH",
+        "ICHI/ETH",
+        "IDLE/ETH",
+        "IMX/USDC",
+        "INDEX/ETH",
+        "JRT/ETH",
+        "KEEP/ETH",
+        "KNC/ETH",
+        "KP3R/ETH",
+        "LINK/ETH",
+        "LRC/ETH",
+        "LRC/USDC",
+        "LRC/USDT",
+        "LRC/WBTC",
+        "MANA/USDC",
+        "MASK/LRC",
+        "MATIC/ETH",
+        "MCB/ETH",
+        "MKR/ETH",
+        "MOVD/ETH",
+        "NIOX/ETH",
+        "NMR/ETH",
+        "OBTC/ETH",
+        "OGN/ETH",
+        "OMG/ETH",
+        "OVR/ETH",
+        "PNK/ETH",
+        "PNT/ETH",
+        "RAI/ETH",
+        "REN/ETH",
+        "RENBTC/ETH",
+        "RENDOGE/ETH",
+        "REPT/ETH",
+        "RFOX/ETH",
+        "RGT/ETH",
+        "RICE/USDT",
+        "RPL/ETH",
+        "RSPT/USDC",
+        "SAND/USDC",
+        "SENT/USDC",
+        "SMARTCREDIT/ETH",
+        "SNT/ETH",
+        "SUSHI/ETH",
+        "SX/ETH",
+        "UNI/ETH",
+        "VETH/ETH",
+        "VSP/DAI",
+        "VSP/ETH",
+        "WBTC/DAI",
+        "WBTC/USDC",
+        "WBTC/USDT",
+        "WETH/ETH",
+        "WOO/USDT",
+        "YFI/ETH",
+        "YFII/ETH"
+      ],
+      "results": [
+        {
+          "total": 100.0,
+          "choice": 87
+        },
+        {
+          "total": 694.0,
+          "choice": 71
+        },
+        {
+          "total": 63177.492,
+          "choice": 52
+        },
+        {
+          "total": 12284.001,
+          "choice": 92
+        },
+        {
+          "total": 1113.0,
+          "choice": 22
+        },
+        {
+          "total": 2432614.0,
+          "choice": 59
+        },
+        {
+          "total": 6917.0,
+          "choice": 40
+        },
+        {
+          "total": 39316.0,
+          "choice": 9
+        },
+        {
+          "total": 39.0,
+          "choice": 26
+        },
+        {
+          "total": 22605.0,
+          "choice": 57
+        },
+        {
+          "total": 23154.0,
+          "choice": 61
+        },
+        {
+          "total": 72434.055,
+          "choice": 81
+        },
+        {
+          "total": 1505785.0,
+          "choice": 30
+        },
+        {
+          "total": 103.89794,
+          "choice": 3
+        },
+        {
+          "total": 111321.08,
+          "choice": 5
+        },
+        {
+          "total": 1025676.6,
+          "choice": 56
+        },
+        {
+          "total": 50.0,
+          "choice": 74
+        },
+        {
+          "total": 41958.805,
+          "choice": 29
+        },
+        {
+          "total": 927359.75,
+          "choice": 54
+        },
+        {
+          "total": 79.8749,
+          "choice": 4
+        },
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 12438.0,
+          "choice": 10
+        },
+        {
+          "total": 8671.0,
+          "choice": 31
+        },
+        {
+          "total": 81309.625,
+          "choice": 62
+        },
+        {
+          "total": 533099.1,
+          "choice": 46
+        },
+        {
+          "total": 2301060.2,
+          "choice": 53
+        },
+        {
+          "total": 84.208084,
+          "choice": 25
+        },
+        {
+          "total": 4420.168,
+          "choice": 94
+        },
+        {
+          "total": 8437.967,
+          "choice": 20
+        },
+        {
+          "total": 6998.0,
+          "choice": 76
+        },
+        {
+          "total": 6.000077,
+          "choice": 18
+        },
+        {
+          "total": 23039.262,
+          "choice": 55
+        },
+        {
+          "total": 64619.0,
+          "choice": 27
+        },
+        {
+          "total": 61334.78,
+          "choice": 58
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 103.897942,
+          "choice": 3
+        },
+        {
+          "total": 79.87489956917439,
+          "choice": 4
+        },
+        {
+          "total": 111321.07884091,
+          "choice": 5
+        },
+        {
+          "total": 0.0,
+          "choice": 6
+        },
+        {
+          "total": 0.0,
+          "choice": 7
+        },
+        {
+          "total": 0.0,
+          "choice": 8
+        },
+        {
+          "total": 39316.0,
+          "choice": 9
+        },
+        {
+          "total": 12438.0,
+          "choice": 10
+        },
+        {
+          "total": 0.0,
+          "choice": 11
+        },
+        {
+          "total": 0.0,
+          "choice": 12
+        },
+        {
+          "total": 0.0,
+          "choice": 13
+        },
+        {
+          "total": 0.0,
+          "choice": 14
+        },
+        {
+          "total": 0.0,
+          "choice": 15
+        },
+        {
+          "total": 0.0,
+          "choice": 16
+        },
+        {
+          "total": 0.0,
+          "choice": 17
+        },
+        {
+          "total": 6.000076821717019,
+          "choice": 18
+        },
+        {
+          "total": 0.0,
+          "choice": 19
+        },
+        {
+          "total": 8437.966338836028,
+          "choice": 20
+        },
+        {
+          "total": 0.0,
+          "choice": 21
+        },
+        {
+          "total": 1113.0,
+          "choice": 22
+        },
+        {
+          "total": 0.0,
+          "choice": 23
+        },
+        {
+          "total": 0.0,
+          "choice": 24
+        },
+        {
+          "total": 84.20808624853737,
+          "choice": 25
+        },
+        {
+          "total": 39.0,
+          "choice": 26
+        },
+        {
+          "total": 64619.0,
+          "choice": 27
+        },
+        {
+          "total": 0.0,
+          "choice": 28
+        },
+        {
+          "total": 41958.803932032475,
+          "choice": 29
+        },
+        {
+          "total": 1505785.032949073,
+          "choice": 30
+        },
+        {
+          "total": 8671.0,
+          "choice": 31
+        },
+        {
+          "total": 0.0,
+          "choice": 32
+        },
+        {
+          "total": 0.0,
+          "choice": 33
+        },
+        {
+          "total": 0.0,
+          "choice": 34
+        },
+        {
+          "total": 0.0,
+          "choice": 35
+        },
+        {
+          "total": 0.0,
+          "choice": 36
+        },
+        {
+          "total": 0.0,
+          "choice": 37
+        },
+        {
+          "total": 0.0,
+          "choice": 38
+        },
+        {
+          "total": 0.0,
+          "choice": 39
+        },
+        {
+          "total": 6917.0,
+          "choice": 40
+        },
+        {
+          "total": 0.0,
+          "choice": 41
+        },
+        {
+          "total": 0.0,
+          "choice": 42
+        },
+        {
+          "total": 0.0,
+          "choice": 43
+        },
+        {
+          "total": 0.0,
+          "choice": 44
+        },
+        {
+          "total": 0.0,
+          "choice": 45
+        },
+        {
+          "total": 533099.1465407226,
+          "choice": 46
+        },
+        {
+          "total": 0.0,
+          "choice": 47
+        },
+        {
+          "total": 0.0,
+          "choice": 48
+        },
+        {
+          "total": 0.0,
+          "choice": 49
+        },
+        {
+          "total": 0.0,
+          "choice": 50
+        },
+        {
+          "total": 0.0,
+          "choice": 51
+        },
+        {
+          "total": 63177.49243807,
+          "choice": 52
+        },
+        {
+          "total": 2301060.350456631,
+          "choice": 53
+        },
+        {
+          "total": 927359.7465283535,
+          "choice": 54
+        },
+        {
+          "total": 23039.262670638214,
+          "choice": 55
+        },
+        {
+          "total": 1025676.6021525732,
+          "choice": 56
+        },
+        {
+          "total": 22605.0,
+          "choice": 57
+        },
+        {
+          "total": 61334.78252689387,
+          "choice": 58
+        },
+        {
+          "total": 2432613.987961667,
+          "choice": 59
+        },
+        {
+          "total": 0.0,
+          "choice": 60
+        },
+        {
+          "total": 23154.0,
+          "choice": 61
+        },
+        {
+          "total": 81309.62999138657,
+          "choice": 62
+        },
+        {
+          "total": 0.0,
+          "choice": 63
+        },
+        {
+          "total": 0.0,
+          "choice": 64
+        },
+        {
+          "total": 0.0,
+          "choice": 65
+        },
+        {
+          "total": 0.0,
+          "choice": 66
+        },
+        {
+          "total": 0.0,
+          "choice": 67
+        },
+        {
+          "total": 0.0,
+          "choice": 68
+        },
+        {
+          "total": 0.0,
+          "choice": 69
+        },
+        {
+          "total": 0.0,
+          "choice": 70
+        },
+        {
+          "total": 694.0,
+          "choice": 71
+        },
+        {
+          "total": 0.0,
+          "choice": 72
+        },
+        {
+          "total": 0.0,
+          "choice": 73
+        },
+        {
+          "total": 50.0,
+          "choice": 74
+        },
+        {
+          "total": 0.0,
+          "choice": 75
+        },
+        {
+          "total": 6998.0,
+          "choice": 76
+        },
+        {
+          "total": 0.0,
+          "choice": 77
+        },
+        {
+          "total": 0.0,
+          "choice": 78
+        },
+        {
+          "total": 0.0,
+          "choice": 79
+        },
+        {
+          "total": 0.0,
+          "choice": 80
+        },
+        {
+          "total": 72434.05703568,
+          "choice": 81
+        },
+        {
+          "total": 0.0,
+          "choice": 82
+        },
+        {
+          "total": 0.0,
+          "choice": 83
+        },
+        {
+          "total": 0.0,
+          "choice": 84
+        },
+        {
+          "total": 0.0,
+          "choice": 85
+        },
+        {
+          "total": 0.0,
+          "choice": 86
+        },
+        {
+          "total": 100.0,
+          "choice": 87
+        },
+        {
+          "total": 0.0,
+          "choice": 88
+        },
+        {
+          "total": 0.0,
+          "choice": 89
+        },
+        {
+          "total": 0.0,
+          "choice": 90
+        },
+        {
+          "total": 0.0,
+          "choice": 91
+        },
+        {
+          "total": 12284.000534059076,
+          "choice": 92
+        },
+        {
+          "total": 0.0,
+          "choice": 93
+        },
+        {
+          "total": 4420.167835084075,
+          "choice": 94
+        },
+        {
+          "total": 0.0,
+          "choice": 95
+        },
+        {
+          "total": 0.0,
+          "choice": 96
+        },
+        {
+          "total": 0.0,
+          "choice": 97
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

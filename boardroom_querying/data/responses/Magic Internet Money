@@ -1,0 +1,4606 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MDJhYzdjZTllNTExM2UxNmEyZjUxNTBhOTgzNzQ5MzVlYWE0NGUzN2JlNDM2NWYyMzQ3ZTYyYzU5YWJhYTQxOA==",
+      "id": "0x02ac7ce9e5113e16a2f5150a98374935eaa44e37be4365f2347e62c59abaa418",
+      "title": "AIP #57 - Add a USD0++ Cauldron",
+      "content": "Add a USD0++ cauldron.\n\nCauldron Parameters\nInterest Rate: 8.5%\n\nBorrow Fee: 0.5%\n\nMinimum Collateralization Ratio (MCR): 86%\n\nLiquidation Fee: 7.5%\n\nInitial Top-Up:\n\n1 million $MIM initially, with potential scaling up to 2 million depending on volume and liquidity.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 9,
+      "blockNumber": 20870181,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x02ac7ce9e5113e16a2f5150a98374935eaa44e37be4365f2347e62c59abaa418",
+      "startTime": {
+        "timestamp": 1727877600
+      },
+      "endTime": {
+        "timestamp": 1728136800
+      },
+      "startTimestamp": 1727877600,
+      "endTimestamp": 1728136800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Add the USD0++ cauldron",
+        "No, Do not add the cauldron"
+      ],
+      "results": [
+        {
+          "total": 6544899600.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 6544899823.133212,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1727780414485,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NDRiNzE2YWNiZjJhNzVlOTUzOTMyNmJiMzZmNDllZWQxMGM2OGY5ODAwN2Q4NTE1ZTU3ZDBmMDM0MTlhYWYwNA==",
+      "id": "0x44b716acbf2a75e9539326bb36f49eed10c68f98007d8515e57d0f03419aaf04",
+      "title": "SAIP #51.3 - Ending Potion Point Conversion",
+      "content": "Following the successful implementation of SAIP #51 - SAIP #51.2, this AIP outlines a plan to officially end the current conversion of Potion points and remove the claiming functionality from the UI of MIMSwap. The aim is to streamline the protocol’s operations and simplify the user experience by eliminating legacy features.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 7,
+      "blockNumber": 20863912,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x44b716acbf2a75e9539326bb36f49eed10c68f98007d8515e57d0f03419aaf04",
+      "startTime": {
+        "timestamp": 1727791200
+      },
+      "endTime": {
+        "timestamp": 1727964000
+      },
+      "startTimestamp": 1727791200,
+      "endTimestamp": 1727964000,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5609933000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5609932851.944187,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1727705514853,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MTczODg4YjVjNTdmMjgyYTBmZjNiMzViZThiMzM4N2UwYjNjOTBhZDEyNWE4ZGY0MmI4ZWMxYWZjY2JiNWRhZQ==",
+      "id": "0x173888b5c57f282a0ff3b35be8b3387e0b3c90ad125a8df42b8ec1afccbb5dae",
+      "title": "SAIP 56 - Allocate 2m USDT to bootstrap the MIMSwap deUSD/MIM pool",
+      "content": "This proposal seeks approval from the Abracadabra DAO to allocate $2 million USDT from the treasury to provide initial liquidity for the deUSD/MIM pool on MIMSwap Ethereum. The primary objective is to kickstart the pool’s liquidity, ensuring a stable trading environment and an attractive experience for new liquidity providers (LPs) who are interested in participating in this pool.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 9,
+      "blockNumber": 20634255,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x173888b5c57f282a0ff3b35be8b3387e0b3c90ad125a8df42b8ec1afccbb5dae",
+      "startTime": {
+        "timestamp": 1725112800
+      },
+      "endTime": {
+        "timestamp": 1725199200
+      },
+      "startTimestamp": 1725112800,
+      "endTimestamp": 1725199200,
+      "currentState": "closed",
+      "choices": [
+        "Approve",
+        "Reject"
+      ],
+      "results": [
+        {
+          "total": 5728717000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5728716631.613801,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1724935204866,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NmFhYzEwMjQ3MTkzNmJmMzUzYTYwZWNiMDBiMzA3ODI0YWIxOGI4Mjk1ZGYwNThjODJjNDllY2NiZTQxMzA0Yw==",
+      "id": "0x6aac102471936bf353a60ecb00b307824ab18b8295df058c82c49eccbe41304c",
+      "title": "SAIP #34.2 - Adjust gmCauldrons borrow fees",
+      "content": "Tldr: Reduce the borrow fee for all gmCauldrons from 1% to 0.3%.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 9,
+      "blockNumber": 20585136,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x6aac102471936bf353a60ecb00b307824ab18b8295df058c82c49eccbe41304c",
+      "startTime": {
+        "timestamp": 1724508000
+      },
+      "endTime": {
+        "timestamp": 1724594400
+      },
+      "startTimestamp": 1724508000,
+      "endTimestamp": 1724594400,
+      "currentState": "closed",
+      "choices": [
+        "yes, adjust the borrow fee",
+        "no, do not adjust the borrow fee"
+      ],
+      "results": [
+        {
+          "total": 5612315600.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5612315736.636038,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1724342290004,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NGIyMzhhZDhmMWUzMTU2ZDAyNjJjODNlYzkwMzE5MGRlNDYyYzFlYjc5YzI3YjJiMTlkNTNlMjhkMmNiMDFjYw==",
+      "id": "0x4b238ad8f1e3156d0262c83ec903190de462c1eb79c27b2b19d53e28d2cb01cc",
+      "title": "SAIP #54.1 - Launch of Secondary sdeUSD Cauldron",
+      "content": "Tldr: Due to overwhelming demand, we propose the launch of a secondary sdeUSD cauldron with updated parameters to meet the high demand and ensure broader user participation.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 8,
+      "blockNumber": 20584999,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x4b238ad8f1e3156d0262c83ec903190de462c1eb79c27b2b19d53e28d2cb01cc",
+      "startTime": {
+        "timestamp": 1724421600
+      },
+      "endTime": {
+        "timestamp": 1724508000
+      },
+      "startTimestamp": 1724421600,
+      "endTimestamp": 1724508000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, add the second cauldron",
+        "No, dont add the second cauldron"
+      ],
+      "results": [
+        {
+          "total": 5588585000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5588585449.959196,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1724341129150,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NzA1YTI0YjNhNjgyNzgwM2JiY2NlNGRlOWRkYTdjOTAzODllN2ZjN2Q3NzAyNDUzOWQ1NTMxNTBmYmYxZmRiMg==",
+      "id": "0x705a24b3a6827803bbcce4de9dda7c90389e7fc7d77024539d553150fbf1fdb2",
+      "title": "AIP #55 - Make a strategic treasury investment into Kodiak Finance ",
+      "content": "tl;dr: In preparation for Abracadabra’s expansion to Berachain, make a strategic investment into Kodiak Finance from the DAO treasury to strengthen our positioning in the Berachain ecosystem.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 14,
+      "blockNumber": 20462532,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x705a24b3a6827803bbcce4de9dda7c90389e7fc7d77024539d553150fbf1fdb2",
+      "startTime": {
+        "timestamp": 1722866400
+      },
+      "endTime": {
+        "timestamp": 1723125600
+      },
+      "startTimestamp": 1722866400,
+      "endTimestamp": 1723125600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Proceed with the AIP",
+        "No, dont proceed with the AIP"
+      ],
+      "results": [
+        {
+          "total": 5724684300.0,
+          "choice": 0
+        },
+        {
+          "total": 7442209.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5724684122.67161,
+          "choice": 0
+        },
+        {
+          "total": 7442209.315552003,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1722863156658,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YjRhZmM3YWU0NWQ5YjFhMjhiMDhhZTVkZTI5MGFmZTQxYmI3YTkzMGRjOTQxMzgyNDFmYTdlZTZlMmE5Yjg0OA==",
+      "id": "0xb4afc7ae45d9b1a28b08ae5de290afe41bb7a930dc94138241fa7ee6e2a9b848",
+      "title": "SAIP #54 - Add a stdeUSD Cauldron",
+      "content": "Tldr: Add a stdeUSD cauldron to our Ethereum Lineup.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 11,
+      "blockNumber": 20426882,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xb4afc7ae45d9b1a28b08ae5de290afe41bb7a930dc94138241fa7ee6e2a9b848",
+      "startTime": {
+        "timestamp": 1722522600
+      },
+      "endTime": {
+        "timestamp": 1722781800
+      },
+      "startTimestamp": 1722522600,
+      "endTimestamp": 1722781800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Add the Cauldron",
+        "No, Do Not Add the Cauldron"
+      ],
+      "results": [
+        {
+          "total": 5962765300.0,
+          "choice": 0
+        },
+        {
+          "total": 477299.3,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5962765915.721669,
+          "choice": 0
+        },
+        {
+          "total": 477299.30686004664,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1722433746298,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4M2IxOGRjOGJmNTQ5MTI4M2ZmNzhlNjMxNjYxYmJjNjczZjBhZjcyMGZkMjIwZDg4NWRiYjk2MmMzOTYwZTFkZA==",
+      "id": "0x3b18dc8bf5491283ff78e631661bbc673f0af720fd220d885dbb962c3960e1dd",
+      "title": "SAIP #51.2 - Detailed Conversion Plan for the “Potion” Point System",
+      "content": "Following the successful passing of AIP #51 and AIP #51.1, this proposal outlines the detailed conversion plan for the “Potion” point system.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 11,
+      "blockNumber": 20333723,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x3b18dc8bf5491283ff78e631661bbc673f0af720fd220d885dbb962c3960e1dd",
+      "startTime": {
+        "timestamp": 1721397600
+      },
+      "endTime": {
+        "timestamp": 1721656800
+      },
+      "startTimestamp": 1721397600,
+      "endTimestamp": 1721656800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Approve the plan",
+        "No, No Dot Approve the plan"
+      ],
+      "results": [
+        {
+          "total": 5693108000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5693108229.182213,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1721309715717,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MGNmMzcxMzhhOGY0NDJhMjdmOTVhMmI1YzRjOGY3YTE4YjBiMjUwNTRjYTJlNzgxZmNjMTYxMGUxZDk5ZTZjMw==",
+      "id": "0x0cf37138a8f442a27f95a2b5c4c8f7a18b0b25054ca2e781fcc1610e1d99e6c3",
+      "title": "SAIP #51.1.2 - Detailed Distribution Plan for the “Potion” Point System",
+      "content": "Following the successful passing of AIP #51, this proposal outlines the detailed distribution plan for the “Potion” point system.\n\nThis plan aims to ensure transparent, efficient, and fair distribution of points within the Abracadabra ecosystem.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 11,
+      "blockNumber": 20162050,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x0cf37138a8f442a27f95a2b5c4c8f7a18b0b25054ca2e781fcc1610e1d99e6c3",
+      "startTime": {
+        "timestamp": 1719238500
+      },
+      "endTime": {
+        "timestamp": 1719324900
+      },
+      "startTimestamp": 1719238500,
+      "endTimestamp": 1719324900,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Start the Potion Points",
+        "No, Dont star the Potion Points"
+      ],
+      "results": [
+        {
+          "total": 7487849500.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7487849394.593369,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1719238357553,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YWViNTY0NzU0MDczYmYyN2Y0MTgyOTc3NDc0ODhjZjU5ZmZlMWMyYmRiZjNhNDRhNTg0Y2VkZTQzZDgzYjk5Mg==",
+      "id": "0xaeb564754073bf27f418297747488cf59ffe1c2bdbf3a44a584cede43d83b992",
+      "title": "SAIP #51.1 - Detailed Distribution Plan for the “Potion” Point System",
+      "content": "Following the successful passing of AIP #51, this proposal outlines the detailed distribution plan for the “Potion” point system.\n\n This plan aims to ensure transparent, efficient, and fair distribution of points within the Abracadabra ecosystem.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 2,
+      "blockNumber": 20132169,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xaeb564754073bf27f418297747488cf59ffe1c2bdbf3a44a584cede43d83b992",
+      "startTime": {
+        "timestamp": 1718964000
+      },
+      "endTime": {
+        "timestamp": 1719050400
+      },
+      "startTimestamp": 1718964000,
+      "endTimestamp": 1719050400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Start the Potion Point",
+        "No, dont start the Potion Point"
+      ],
+      "results": [
+        {
+          "total": 2524842500.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2524842468.561042,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718877392675,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4Yzk4NWQwNzk0MDk2MTAyOGZkY2Y4NGIyOTgyZTRiNWYyY2Y5MzljZTZkNDFiYTVlNTFmNTkzYzI1YmRkMTYwMg==",
+      "id": "0xc985d07940961028fdcf84b2982e4b5f2cf939ce6d41ba5e51f593c25bdd1602",
+      "title": "AIP #53: Launching MIMSwap on the Kava Network",
+      "content": "tldr; Launch MIMSwap on the Kava Network to utilize its speed, scalability, and interoperability. This move aims to grow MIM liquidity using KAVA rewards and expand Abracadabra’s ecosystem.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 16,
+      "blockNumber": 20103131,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xc985d07940961028fdcf84b2982e4b5f2cf939ce6d41ba5e51f593c25bdd1602",
+      "startTime": {
+        "timestamp": 1718532000
+      },
+      "endTime": {
+        "timestamp": 1718791200
+      },
+      "startTimestamp": 1718532000,
+      "endTimestamp": 1718791200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Deploy MIMswap on Kava",
+        "No, Dont Deploy MIMswap on Kava"
+      ],
+      "results": [
+        {
+          "total": 8266546700.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8266546547.989788,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718526744710,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZjQxYzZkNTVkM2RmZDllOTUzZmFiMjkyYzQyYzg1YTA2ZjA0NjY0NzIyNWI0OGZiZjNmYWU2YzJmMGI3MmI0Yw==",
+      "id": "0xf41c6d55d3dfd9e953fab292c42c85a06f046647225b48fbf3fae6c2f0b72b4c",
+      "title": "SAIP #52: Deployment of $5 Million from DAO Treasury into sDAI, Stargate USDT, and Stargate USDC Farming",
+      "content": "tldr: Deploy $5 million DAI in the treasury into sDAI, Stargate USDT, and Stargate USDC to increase DAO revenues.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 12,
+      "blockNumber": 20062209,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xf41c6d55d3dfd9e953fab292c42c85a06f046647225b48fbf3fae6c2f0b72b4c",
+      "startTime": {
+        "timestamp": 1718114400
+      },
+      "endTime": {
+        "timestamp": 1718287200
+      },
+      "startTimestamp": 1718114400,
+      "endTimestamp": 1718287200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 5234271700.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5234271680.071392,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1718033325802,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MzFjYzZmYzdlZjQxOGI5NGJiNjM2NGI3YTM3Y2JlYjBkNmI3NGUwMGFjYTI1NDJiODQ1M2Y4OTZhZDc0NWFmNA==",
+      "id": "0x31cc6fc7ef418b94bb6364b7a37cbeb0d6b74e00aca2542b8453f896ad745af4",
+      "title": "AIP #51 - Introducing “Potion” a novel incentive mechanism for the Abracadabra ecosystem",
+      "content": "tl;dr Establishment of the Potion Point System: Approve the creation of the point system to further incentivise liquidity on MIMSwap, beginning with the Blast L2 network.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 12,
+      "blockNumber": 20017753,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x31cc6fc7ef418b94bb6364b7a37cbeb0d6b74e00aca2542b8453f896ad745af4",
+      "startTime": {
+        "timestamp": 1717509600
+      },
+      "endTime": {
+        "timestamp": 1717768800
+      },
+      "startTimestamp": 1717509600,
+      "endTimestamp": 1717768800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, approve AIP #51 ",
+        "No, Do Not Approve AIP #51 "
+      ],
+      "results": [
+        {
+          "total": 5192521700.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5192521832.740069,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1717495857616,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MTAyY2YyNzVlMTRjY2RiZDJlOWFhMGJhZTBkMmEyOGRiOWYyY2RlNmMyZTE3MWU1N2VjZmQ3NDg4NTQ5ZTM2Mw==",
+      "id": "0x102cf275e14ccdbd2e9aa0bae0d2a28db9f2cde6c2e171e57ecfd7488549e363",
+      "title": "SAIP #50 - Post Abracadabra’s RFP to take part in the LayerZero airdrop",
+      "content": "Tl;dr The following proposal is for the DAO to approve the criteria that will be valid for Abracadabra’s RPF, that will allow our DAO to reward its users thanks to the LayerZero airdrop.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 22,
+      "blockNumber": 19918691,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x102cf275e14ccdbd2e9aa0bae0d2a28db9f2cde6c2e171e57ecfd7488549e363",
+      "startTime": {
+        "timestamp": 1716390000
+      },
+      "endTime": {
+        "timestamp": 1716562800
+      },
+      "startTimestamp": 1716390000,
+      "endTimestamp": 1716562800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Post the RFP",
+        "No, Do not post the RFP"
+      ],
+      "results": [
+        {
+          "total": 5149584400.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5149584394.819137,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716299859699,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ODY5NTI3NDNiNTA5ZWYwZWZmNWI4YWM5YzkyM2NmYzE3YjIyMmFiNWQyOTA2ZGExNjM5N2U0YWRiZjgzOTQxZg==",
+      "id": "0x86952743b509ef0eff5b8ac9c923cfc17b222ab5d2906da16397e4adbf83941f",
+      "title": "SAIP #33.1 - Voting discretion on LTIP with treasury ARB",
+      "content": "Tl;dr Grant the treasury multisig ability to vote with the treasury ARB on partners and promising projects alike, without the need of individual votes in the context of the Arbitrum DAO the Long Term Incentives Program (LTIP), mimicking the setup outlined in SAIP #33.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 10,
+      "blockNumber": 19618537,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x86952743b509ef0eff5b8ac9c923cfc17b222ab5d2906da16397e4adbf83941f",
+      "startTime": {
+        "timestamp": 1712671348
+      },
+      "endTime": {
+        "timestamp": 1712757660
+      },
+      "startTimestamp": 1712671348,
+      "endTimestamp": 1712757660,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Approve SAIP #33.1",
+        "No, Do Not Approve SAIP #33.1"
+      ],
+      "results": [
+        {
+          "total": 4204598300.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4204598352.39114,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712671417188,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZmRiM2NmMGNkZWM3YjMxODU4NmRjMzhmM2RkZGIwYjdjNWVhZWMwYzMzMzI3YTI3NjQ5YWYzMjIzZDM0YTVjNQ==",
+      "id": "0xfdb3cf0cdec7b318586dc38f3dddb0b7c5eaec0c33327a27649af3223d34a5c5",
+      "title": "SAIP #49 - Conclude Bentobox to Degenbox Migration",
+      "content": "tl:dr Last week, the DAO successfully executed a planned migration that allowed to move all of the Abracadabra cauldrons collateral backing MIM from the Bentobox infrastructure to Degenbox.\n\nThe following proposals aim at closing this double counted position, similar to what has happened in the past with migrated cauldrons.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 13,
+      "blockNumber": 19567920,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xfdb3cf0cdec7b318586dc38f3dddb0b7c5eaec0c33327a27649af3223d34a5c5",
+      "startTime": {
+        "timestamp": 1712152800
+      },
+      "endTime": {
+        "timestamp": 1712325600
+      },
+      "startTimestamp": 1712152800,
+      "endTimestamp": 1712325600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Approve the Proposal",
+        "No, Do Not Approve the proposal"
+      ],
+      "results": [
+        {
+          "total": 5781306000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5781306272.511003,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712059178141,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YjExYjQ3ZTQ4YjU2ZmRkYWYzYzE0M2Q2Y2E4YTdmNDRlY2QxZTExNjQ1M2U2Y2YyYzc2Yjk2YmQ3MmQ1NmVmNw==",
+      "id": "0xb11b47e48b56fddaf3c143d6ca8a7f44ecd1e116453e6cf2c76b96bd72d56ef7",
+      "title": "AIP #19.1 - Increase treasury collateralised MIM Position",
+      "content": "tl;dr: Following the large value increase in the protocol treasury, expand the MIM credit line outlined in AIP #19 to close off the cauldron loss accrued in the Exploit happened at the start of February.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 12,
+      "blockNumber": 19514107,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xb11b47e48b56fddaf3c143d6ca8a7f44ecd1e116453e6cf2c76b96bd72d56ef7",
+      "startTime": {
+        "timestamp": 1711551600
+      },
+      "endTime": {
+        "timestamp": 1711810800
+      },
+      "startTimestamp": 1711551600,
+      "endTimestamp": 1711810800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Approve the credit line",
+        "No, Do not Approve it"
+      ],
+      "results": [
+        {
+          "total": 4867801000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4867801317.1571455,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711402418263,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MjIwNmNlYmMyMzU2NTFjOTg2OGRjMTFlNzI5Nzg0YzQ1ZWZmMmIxMzY0OTA5NDUwMjJiOWYzNWU5YjQ5NDM3Mw==",
+      "id": "0x2206cebc235651c9868dc11e729784c45eff2b136490945022b9f35e9b494373",
+      "title": "AIP #48 - Increase Ethereum Mainnet cauldrons interest rates to 15% across the board",
+      "content": "Tl;dr Adjust interest across the board for all Ethereum Mainnet Cauldrons to meet the 15% mark, which currently represents the risk free borrow interest rate in DeFi.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 13,
+      "blockNumber": 19514124,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x2206cebc235651c9868dc11e729784c45eff2b136490945022b9f35e9b494373",
+      "startTime": {
+        "timestamp": 1711551600
+      },
+      "endTime": {
+        "timestamp": 1711810800
+      },
+      "startTimestamp": 1711551600,
+      "endTimestamp": 1711810800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Raise the rates",
+        "No, Do not Raise the rates"
+      ],
+      "results": [
+        {
+          "total": 7190465500.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7190465774.51027,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711402418263,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YWJjYjMyNjcyYmViMDMxNDhlYjQxNDJhY2MyMDEwY2I2NTVkZDQxNzIxNzEwODRjYTBlNjk4ZTVjMDYyZjc0MA==",
+      "id": "0xabcb32672beb03148eb4142acc2010cb655dd4172171084ca0e698e5c062f740",
+      "title": "AIP #47 - Voting With treasury ARB on the STIP-Bridge",
+      "content": "Introduction\nThe following AIP is to determine the DAO’s opinion on voting on STIP-Bridge proposal recently posted on the Arbitrum Forum. The treasury currently owns 901,392 ARB as well as additional ARB delegated to it.\n\nThe Arbitrum Snapshot will be found here.\n\nhttps://snapshot.org/#/arbitrumfoundation.eth/proposal/0x51df52b1596195d672c3120658b3d2aecee2a871f9c1a5ef7509298f98b9e825",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 14,
+      "blockNumber": 19497916,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xabcb32672beb03148eb4142acc2010cb655dd4172171084ca0e698e5c062f740",
+      "startTime": {
+        "timestamp": 1711204445
+      },
+      "endTime": {
+        "timestamp": 1711378800
+      },
+      "startTimestamp": 1711204445,
+      "endTimestamp": 1711378800,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 3751227000.0,
+          "choice": 0
+        },
+        {
+          "total": 5261387.5,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3751226671.8748183,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 5261387.316890238,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1711205026801,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZWE4YzQxOWM0MGM3YjViM2FmZTc3NWE1NTg3OTMwN2NhYzg5OTMzYThjNTg2YTEzZDRhYTZiOWM1MzFhNDAwNg==",
+      "id": "0xea8c419c40c7b5b3afe775a55879307cac89933a8c586a13d4aa6b9c531a4006",
+      "title": "AIP #45: Interest Rate Adjustment for the gmCauldrons",
+      "content": "Tl;dr Increase by 3% the interest of all the gmCauldrons bringing the various interest to:\n\ngmARB: 7.2%\n\ngmBTC: 8%\n\ngmETH: 8%\n\ngmLINK 9.9%\n\ngmSOL: 9.9%\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/aip-45-interest-rate-adjustment-for-the-gmcauldrons/4458",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 12,
+      "blockNumber": 19318195,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xea8c419c40c7b5b3afe775a55879307cac89933a8c586a13d4aa6b9c531a4006",
+      "startTime": {
+        "timestamp": 1709115300
+      },
+      "endTime": {
+        "timestamp": 1709374500
+      },
+      "startTimestamp": 1709115300,
+      "endTimestamp": 1709374500,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Increase interest",
+        "No, do not Increase interest"
+      ],
+      "results": [
+        {
+          "total": 4065797000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4065796800.2836256,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709029322391,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZjE1YTYxYzc5YmYxYzNiMWFiODMzZDEyMjVjYzM4YTBlNTAwNjU5N2NjOTg0ZDI1OGNlZTIyY2EyYzVlZWQ0Zg==",
+      "id": "0xf15a61c79bf1c3b1ab833d1225cc38a0e5006597cc984d258cee22ca2c5eed4f",
+      "title": "Remove the MSPELL staking contract",
+      "content": "My fellow mages, it is counter productive to have 2 staking contracts. If other mages wish to get MIM instead of SPELL then they can sell on there own. cutting SSpell buys in half makes zero sense, we should be adding as much buying pressure as we can not cutting it in half.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x346F1d297C98C28574742B067b67A80cdA2Dc0d9",
+      "totalVotes": 16,
+      "blockNumber": 19311671,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xf15a61c79bf1c3b1ab833d1225cc38a0e5006597cc984d258cee22ca2c5eed4f",
+      "startTime": {
+        "timestamp": 1708949717
+      },
+      "endTime": {
+        "timestamp": 1709235480
+      },
+      "startTimestamp": 1708949717,
+      "endTimestamp": 1709235480,
+      "currentState": "closed",
+      "choices": [
+        "remove the mspell contract",
+        "les rewards for mpell contract"
+      ],
+      "results": [
+        {
+          "total": 2684194600.0,
+          "choice": 0
+        },
+        {
+          "total": 166995.48,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2684194013.8372774,
+          "choice": 0
+        },
+        {
+          "total": 166995.4923154625,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708950018277,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZmU4NWQyYTJjYTllNTdmZWQwZGMwN2NjYTQ3NTU3NzhmMmZmOWMwMzEzNTI5NzE1ZjhkZDE2NjcwZWUzYTE3Ng==",
+      "id": "0xfe85d2a2ca9e57fed0dc07cca4755778f2ff9c0313529715f8dd16670ee3a176",
+      "title": "AIP #46: Add an ETH based cauldron on Blast",
+      "content": "Tl;dr: Add a new ETH based market on Blast, to allow Blast users to borrow MIM and pair it with USDB to take part in the bootstrapping event for MIMswap on Blast.\n\nMarket Parameters:\nInterest: 6%\n\nBorrow Fee: 0.5%\n\nMCR: 80%\n\nLiquidation Fee: 6%\n\nInitial top up of 2m $MIMs, with the possibility of scaling up to 4m depending on volumes and liquidity without further votes.\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/aip-46-add-an-eth-based-cauldron-on-blast/4472",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 7,
+      "blockNumber": 19318212,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xfe85d2a2ca9e57fed0dc07cca4755778f2ff9c0313529715f8dd16670ee3a176",
+      "startTime": {
+        "timestamp": 1709046000
+      },
+      "endTime": {
+        "timestamp": 1709132400
+      },
+      "startTimestamp": 1709046000,
+      "endTimestamp": 1709132400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, add the Cauldron",
+        "No, Do not add the Cauldron"
+      ],
+      "results": [
+        {
+          "total": 4157551000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4157550829.52155,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1709029322391,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4OTRkNTRkNDViZDVmYTJhMzE3YjBlZWU1N2QwZGQ3MGY0YjNiZTJlNDUzYThhMWM0YmIyYzdhN2RhNTNkMTA3NA==",
+      "id": "0x94d54d45bd5fa2a317b0eee57d0dd70f4b3be2e453a8a1c4bb2c7a7da53d1074",
+      "title": "Remove the MSPELL staking contract",
+      "content": "My fellow mages, it is counter productive to have 2 staking contracts. If other mages wish to get MIM instead of SPELL then they can sell on there own. cutting SSpell buys in half makes zero sense, we should be adding as much buying pressure as we can not cutting it in half.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x8cdbDb4a43CaFa26211F02263821cA9A0332d76F",
+      "totalVotes": 22,
+      "blockNumber": 19235457,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x94d54d45bd5fa2a317b0eee57d0dd70f4b3be2e453a8a1c4bb2c7a7da53d1074",
+      "startTime": {
+        "timestamp": 1708025930
+      },
+      "endTime": {
+        "timestamp": 1708285130
+      },
+      "startTimestamp": 1708025930,
+      "endTimestamp": 1708285130,
+      "currentState": "closed",
+      "choices": [
+        "remove the mspell contract",
+        "les rewards for mpell contract"
+      ],
+      "results": [
+        {
+          "total": 568534400.0,
+          "choice": 0
+        },
+        {
+          "total": 3703654.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 568539479.5139042,
+          "choice": 0
+        },
+        {
+          "total": 3698484.5047210823,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708026070965,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4OWZhMzVjYmFkYzMzZTc5NmMwZGRiYTZkOTMxNzM0ZmExZDIxNzg5YTgzMjU5OTY5NGM3NWE1NGMzNDA5MzFlMQ==",
+      "id": "0x9fa35cbadc33e796c0ddba6d931734fa1d21789a832599694c75a54c340931e1",
+      "title": "AIP #44: Constitute a Depeg Contingency Fund",
+      "content": "Tl;dr: Constitute a Depeg Contingency Fund (DCF), coming initially from the DAO’s SPELL emissions budget and later on from other sources of revenue of the DAO, to step in and improve MIM peg and collateralisation in situations of extreme stress.\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/aip-44-constitute-a-depeg-contingency-fund/4464",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 9,
+      "blockNumber": 19176410,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x9fa35cbadc33e796c0ddba6d931734fa1d21789a832599694c75a54c340931e1",
+      "startTime": {
+        "timestamp": 1707318000
+      },
+      "endTime": {
+        "timestamp": 1707577200
+      },
+      "startTimestamp": 1707318000,
+      "endTimestamp": 1707577200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Approve the DCF",
+        "No, Do Not Approve the DCF"
+      ],
+      "results": [
+        {
+          "total": 4293852200.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4293852102.531376,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1707310288416,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MWUwMjAxMjM0NDFlMDRiNDIzYzI4NTdiYjYxMmYxMzUzNGIyNDY4NDUxMTg2YjMwMGJiMzJjNGU2ZTkwYjQ5Nw==",
+      "id": "0x1e020123441e04b423c2857bb612f13534b2468451186b300bb32c4e6e90b497",
+      "title": "SAIP #39: DWF Labs $MIM Loan and Market Making Proposal",
+      "content": "Tl;dr Provide 100k MIM to the DAO Market Makers, coming from the DAO treasury to deepen MIM liquidity on CEXs.\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/saip-39-dwf-labs-mim-loan-and-market-making-proposal/4452",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 6,
+      "blockNumber": 19083326,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x1e020123441e04b423c2857bb612f13534b2468451186b300bb32c4e6e90b497",
+      "startTime": {
+        "timestamp": 1706281200
+      },
+      "endTime": {
+        "timestamp": 1706540400
+      },
+      "startTimestamp": 1706281200,
+      "endTimestamp": 1706540400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Approve the proposal",
+        "No, Do Not Approve the proposal"
+      ],
+      "results": [
+        {
+          "total": 4292405200.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4292405167.836718,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706182235914,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MzRlMjVkY2ZjZmE1MGU1NzRjYzMyMmM0MzBlZmRiMjFjN2E1MDJjZDhiOTdlMmYyN2ZkOTJmOTQ0ODM3NTUyMg==",
+      "id": "0x34e25dcfcfa50e574cc322c430efdb21c7a502cd8b97e2f27fd92f9448375522",
+      "title": "SAIP #43: Add a WBTC and WETH Market",
+      "content": "Tl;dr: Add a new BTC and WETH market on Arbitrum, to allow market makers to borrow MIM and pair it with USDT and USDC to improve liquidity for MIM on chain.\n\nBoth Market Parameters:\n\nInterest: 6%\n\nBorrow Fee: 0.25%\n\nMCR: 80%\n\nLiquidation Fee: 6%\n\nInitial top up of 1 m $MIMs each, with the possibility of scaling up to 3m depending on volumes and liquidity without further votes.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x941ec857134B13c255d6EBEeD1623b1904378De9",
+      "totalVotes": 5,
+      "blockNumber": 19084909,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x34e25dcfcfa50e574cc322c430efdb21c7a502cd8b97e2f27fd92f9448375522",
+      "startTime": {
+        "timestamp": 1706202000
+      },
+      "endTime": {
+        "timestamp": 1706288400
+      },
+      "startTimestamp": 1706202000,
+      "endTimestamp": 1706288400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Launch the Cauldrons",
+        "No, Do not launch the Cauldrons"
+      ],
+      "results": [
+        {
+          "total": 4293223700.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4293223696.6290255,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706201526126,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZWY5OTMyYjFjOGJhOTZhYWZlMzJmYmQwZDA1MjMxMDEwNmY3YTAyYzQzYWFmMTEyNGYwODEyNzVlNTFlNjk5ZQ==",
+      "id": "0xef9932b1c8ba96aafe32fbd0d052310106f7a02c43aaf1124f081275e51e699e",
+      "title": "SAIP #37: Voting for Jojo and Castle Capital as LTIP Advisor Candidates",
+      "content": "tl;dr Vote with treasury ARB in favour of JoJo and Castle Capital as LTIP Advisor Candidates\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/saip-37-voting-for-jojo-and-castle-capital-as-ltip-advisor-candidate/4449",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 5,
+      "blockNumber": 19026467,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xef9932b1c8ba96aafe32fbd0d052310106f7a02c43aaf1124f081275e51e699e",
+      "startTime": {
+        "timestamp": 1705590000
+      },
+      "endTime": {
+        "timestamp": 1705676400
+      },
+      "startTimestamp": 1705590000,
+      "endTimestamp": 1705676400,
+      "currentState": "closed",
+      "choices": [
+        "Yes Vote for both",
+        "No, Vote only for JoJo",
+        "No, Vote only for Castle Capital",
+        "No, Abstain "
+      ],
+      "results": [
+        {
+          "total": 3982974200.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3982973981.551782,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705493452068,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NjlmZTBkYTQ3Mjc4MjQ1YjViMzZiMDJmOTY5ZWExZDAwZjU3MzNjOGYzNzcwNmZiZTVhNDRjY2U0MmM3YmIzNQ==",
+      "id": "0x69fe0da47278245b5b36b02f969ea1d00f5733c8f37706fbe5a44cce42c7bb35",
+      "title": "SAIP #38: Voting for GMX as LTIP Council Candidate",
+      "content": "tl;dr Vote with treasury ARB in favour of GMX as LTIP Council Candidate\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/saip-38-voting-for-gmx-as-ltip-council-candidate/4450",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 8,
+      "blockNumber": 19028970,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x69fe0da47278245b5b36b02f969ea1d00f5733c8f37706fbe5a44cce42c7bb35",
+      "startTime": {
+        "timestamp": 1705590000
+      },
+      "endTime": {
+        "timestamp": 1705676400
+      },
+      "startTimestamp": 1705590000,
+      "endTimestamp": 1705676400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Vote for GMX",
+        "No, Do Not vote for GMX"
+      ],
+      "results": [
+        {
+          "total": 4084909800.0,
+          "choice": 0
+        },
+        {
+          "total": 9.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4084909705.666299,
+          "choice": 0
+        },
+        {
+          "total": 9.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705523564879,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YmY1NzcxNTg5NmNiYTA5NTgwZTE3YzRhN2EyYmUwYzcyMDliNmU0MTgzNDQzYTQ1MWQwZTNjZmU0NjE1MTA5Zg==",
+      "id": "0xbf57715896cba09580e17c4a7a2be0c7209b6e4183443a451d0e3cfe4615109f",
+      "title": "SAIP #34.1 - 20m cumulative $MIM top up for gmCauldrons",
+      "content": "TL;DR: Mint 20m MIM to the be deposited in the gmCauldrons cauldron to allow new positions to be opened.\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/saip-34-1-20m-cumulative-mim-top-up-for-gmcauldrons/4442",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 6,
+      "blockNumber": 18990583,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xbf57715896cba09580e17c4a7a2be0c7209b6e4183443a451d0e3cfe4615109f",
+      "startTime": {
+        "timestamp": 1705071600
+      },
+      "endTime": {
+        "timestamp": 1705158000
+      },
+      "startTimestamp": 1705071600,
+      "endTimestamp": 1705158000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Execute the top up",
+        "No, Do Note Execute the top up"
+      ],
+      "results": [
+        {
+          "total": 3990133800.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3990133680.115851,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1705060475696,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4Y2M0YjVjYTY2OGVlY2NmNWNlYzdkNDRjN2Q1YzNhZDBiMjc1OTg5YjI3MTM1MmY3MmU4OGY0NjZmOGEwY2Q2NA==",
+      "id": "0xcc4b5ca668eeccf5cec7d44c7d5c3ad0b275989b271352f72e88f466f8a0cd64",
+      "title": "AIP #36: Deploy Abracadabra on Blast",
+      "content": "tl;dr Deploy the Abracadabra infrastructure, MIM and cauldrons suite natively on Blast!\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/aip-36-deploy-abracadabra-on-blast/4419",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 7,
+      "blockNumber": 18780595,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xcc4b5ca668eeccf5cec7d44c7d5c3ad0b275989b271352f72e88f466f8a0cd64",
+      "startTime": {
+        "timestamp": 1702652400
+      },
+      "endTime": {
+        "timestamp": 1702911600
+      },
+      "startTimestamp": 1702652400,
+      "endTimestamp": 1702911600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Deploy on Blast",
+        "No, do Not Deploy on Blast"
+      ],
+      "results": [
+        {
+          "total": 3800010000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3800009747.811975,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1702512520350,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZThmMDU2NzE2MWM5ZmE0ODk0N2I4MTNiNTA0YzgzYTRjY2IzYTdkM2E1NzdjZGU4YzU5ODMxMTZiN2MzYjI1Nw==",
+      "id": "0xe8f0567161c9fa48947b813b504c83a4ccb3a7d3a577cde8c5983116b7c3b257",
+      "title": "[GRANT][UI/UX Design of a MIM Stableswap]",
+      "content": "# Summary:\n\nPXL Labs is a boutique web design agency where your vision transforms into digital artistry. Nestled at the intersection of creativity and technology, our team of experienced and passionate designers specialize in crafting products that not only look exquisite but also offer unparalleled user experiences.\n\nOur designers have contributed to protocols like Trader Joe, Redacted, Jito, Y2K Finance and many more!\n\nAbracadabra DAO wants to expand in their technology stack and develop an in-house stableswap to fully vertically integrate their product suite. Abracadabra DAO needs assistance in creating the Branding and UI/UX for a Stableswap that will facilitate MIM/$TOKEN pairs. The required front end design will be an end-to-end DEX implementation similar to Uni V3, done via a subdomain integration similar to crvUSD <> Curve.\n\n# Deliverables:\n\n## Branding\n\n### Colors and Graphics\n1 Revision based on the Core Contributors Request\nDelivered in Figma and PDF\nUI/UX Design of a Stableswap\n\n### UI/UX (Desktop)\nLow Fidelity End-To-End Stableswap designs\n1 Revision based on the Core Contributors Request\nHigh Fidelity End-To-End Stableswap designs\n1 Revision based on the Core Contributors Request\nDelivery in Figma\n# Total Requested Grant:\nUSD 15,000 to be paid in USDC based on the below schedule\n\nInvoice 1: 50% of the project will be invoiced at the time of proposal approval.\nInvoice 2: 50% of the project will be invoiced at project completion.\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/grant-ui-ux-design-of-a-mim-stableswap/4429/1",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 3,
+      "blockNumber": 18792110,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xe8f0567161c9fa48947b813b504c83a4ccb3a7d3a577cde8c5983116b7c3b257",
+      "startTime": {
+        "timestamp": 1702652400
+      },
+      "endTime": {
+        "timestamp": 1702738800
+      },
+      "startTimestamp": 1702652400,
+      "endTimestamp": 1702738800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Approve the Grant",
+        "No, Do not Approve the Grant"
+      ],
+      "results": [
+        {
+          "total": 3903389700.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3903389747.3508167,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1702651572960,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4N2UzMjdiZWJhOWU2YTE4OWZjNzFiZTJjYjNlMjBlOWFlNDc3OWI2YjA2YmZhMjg1N2ZiNzIxMzc1YWMyZDE1ZQ==",
+      "id": "0x7e327beba9e6a189fc71be2cb3e20e9ae4779b6b06bfa2857fb721375ac2d15e",
+      "title": "SAIP #35: Add a gmLink Cauldron",
+      "content": "TL;DR: Add one new gmMarket using gmLink as collateral on Arbitrum.\n\nCauldrons parameters:\n\ngmLINK\n-70% LTV\n\n-6.9% Interest\n\n-1% Borrow Fee\n\n-6% Liquidation Fee\n\nInitial Top Up: 5m MIMs\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/saip-35-add-a-gmlink-cauldron/4421",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 5,
+      "blockNumber": 18734095,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x7e327beba9e6a189fc71be2cb3e20e9ae4779b6b06bfa2857fb721375ac2d15e",
+      "startTime": {
+        "timestamp": 1701948327
+      },
+      "endTime": {
+        "timestamp": 1702121100
+      },
+      "startTimestamp": 1701948327,
+      "endTimestamp": 1702121100,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Add the cauldron",
+        "No, do not add the cauldron"
+      ],
+      "results": [
+        {
+          "total": 3799555600.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3799555541.6704264,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701955322668,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NWRiMzM3OTYwZjg5NWQ3MmY1Y2QyZGViYTQ0YTZmNDNhYzBhNTdkZjAyZjJlNjQ1ZDM4MDYwYjRmYWY1ZjUwZg==",
+      "id": "0x5db337960f895d72f5cd2deba44a6f43ac0a57df02f2e645d38060b4faf5f50f",
+      "title": "SAIP #35: Add a gmLink Cauldron",
+      "content": "TL;DR: Add one new gmMarket using gmLink as collateral on Arbitrum.\n\nCauldrons parameters:\n\ngmLINK\n-70% LTV\n\n-6.9% Interest\n\n-1% Borrow Fee\n\n-6% Liquidation Fee\n\nInitial Top Up: 5m MIMs\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/saip-35-add-a-gmlink-cauldron/4421",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 0,
+      "blockNumber": 18734048,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x5db337960f895d72f5cd2deba44a6f43ac0a57df02f2e645d38060b4faf5f50f",
+      "startTime": {
+        "timestamp": 1701948000
+      },
+      "endTime": {
+        "timestamp": 1702120800
+      },
+      "startTimestamp": 1701948000,
+      "endTimestamp": 1702120800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, the cauldron",
+        "No, Do Not add the cauldron"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701948160575,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MGMyZDUyMTk5ODhkODQ0YjIzZTJiZThmMTUyYWJlN2JkMDljYzIyMmM0NTBlNTZiYzVkNWZkZDI1YTRmMGI4Yg==",
+      "id": "0x0c2d5219988d844b23e2be8f152abe7bd09cc222c450e56bc5d5fdd25a4f0b8b",
+      "title": "SAIP #34: Adding gmETH, gmBTC, gmARB and gmSOL cauldrons",
+      "content": "TL;DR: Add 4 new markets using gmETH, gmBTC, gmARB, gmSOL as collateral on Arbitrum.\n\nCauldrons parameters:\n\ngmBTC and gmETH\n-85% LTV\n\n-5% Interest\n\n-1% Borrow Fee\n\n-6% Liquidation Fee\n\ngmSOL\n-75% ltv\n\n-6.9% Interest\n\n-1% opening\n\n-6% liquidation\n\ngmARB\n-75% LTV\n\n-4.2% Interest\n\n-1% Borrow Fee\n\n-6% Liquidation Fee\n\nCumulative top up of 20m MIM across the 4 cauldrons, starting with low 6 figures top ups for beta testing.\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/saip-34-adding-gmeth-gmbtc-gmarb-and-gmsol-cauldrons/4413",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 11,
+      "blockNumber": 18664333,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x0c2d5219988d844b23e2be8f152abe7bd09cc222c450e56bc5d5fdd25a4f0b8b",
+      "startTime": {
+        "timestamp": 1701104520
+      },
+      "endTime": {
+        "timestamp": 1701277200
+      },
+      "startTimestamp": 1701104520,
+      "endTimestamp": 1701277200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Add the gm Cauldrons",
+        "No, Do not Add them."
+      ],
+      "results": [
+        {
+          "total": 3836881700.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3836881556.784647,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1701105051200,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MjgzODExODIzYmE2MDYwNzVjMTNmNTllZDdiYzQ5Y2RlYTE0YjkyYzM0ZWQ3ZjExODY2Y2E5YzdlZjQ4YjEzNA==",
+      "id": "0x283811823ba606075c13f59ed7bc49cdea14b92c34ed7f11866ca9c7ef48b134",
+      "title": "Title: AIP #24 - Implementing a Grant Budget for Community Contributions",
+      "content": "Summary/Scope:\nThis AIP proposes the creation of a grant budget within the Abracadabra protocol. This budget would be used to fund projects proposed by community members that bring value to the protocol, such as analytics pages, design ideas, or other useful contributions that improve the user experience.\n\nReference: community members created useful analytics dashboards\nhttps://dune.com/brab/beam 5\nhttps://dune.com/melenxyz/abracadabra-mim-beaming\n\nHigh-Level Overview:\nThe grant budget would provide a source of funding for community members who wish to contribute to the development and growth of the protocol. By providing financial support, we can incentivize community participation and innovation, fostering a more active and engaged community.\n\nLow Level Details:\nThe grant budget would be sourced from a portion of protocol revenues. Community members could apply for a grant to fund.\n\nThe initiation of the Grant program will be funded with an initial contribution of 20,000 MIM, sourced directly from the protocol’s beaming fees.\n\nStep-by-Step Framework for Grant Application:\n\nInitial Idea:\nThe user comes up with an idea for a project that will benefit the Abracadabra protocol. This could be anything from a data analytics page to UI designs, so long as it adds value to the protocol.\n\nPre-application Discussion:\nThe user engages in discussion with the community, either informally on Discord or through the Idea Discussion category in our forum, to refine their idea and gauge interest.\n\nGrant Application:\nProposals that resonate with the community and the proposer are formalized through a comprehensive grant application. This application, to be submitted in a dedicated ‘Grant Applications’ forum section, must detail the project’s scope, its potential benefits to Abracadabra, a projected budget, and a timeline.\n\nApplication Review:\nThe Abracadabra community or a designated review committee will then evaluate the application based on its merits and potential value to the protocol. Other community members may also have the opportunity to voice their opinions during this stage.\n\nDAO Voting:\nBefore final approval, a 24-hour voting period is initiated on Snapshot, during which DAO members are encouraged to cast their votes for or against the proposal. To maintain a coherent and transparent record, proposals must adhere to a specific naming template and provide a direct link back to the original discussion or idea inception. This ensures that the context and history of the proposal are easily accessible for informed decision-making.\n\nSnapshot Proposal Naming Template: “[GRANT]*[ProposalName]”\n\n[GRANT]: This prefix is critical as it immediately identifies the proposal as a grant application within the Abracadabra community.\n\n[Proposal Name]: This segment should be a brief, clear title that encapsulates the primary goal or unique feature of the proposal. It’s advisable to avoid overly technical language or complex terminology that might not be immediately clear to all community members.\n\nGrant Approval:\nIf the application is approved, the user will receive the grant funds and can begin their project. Grant funds may be dispersed in installments, depending on the project timeline and milestone delivery.\n\nProgress Updates:\nThe user will provide regular updates to the community on the project’s progress, ensuring transparency and allowing for community feedback.\n\nProject Completion:\nUpon completion of the project, the user will present the finished product to the community. If the project is not completed within the estimated timeline, the user may need to provide an explanation and revised timeline, subject to community or core team approval.\n\nThis framework will foster a more engaged and active community, incentivize innovative projects that benefit the protocol, and ensure a fair and transparent process for distributing grant funds. By providing financial support for community-led projects, Abracadabra can continue to grow and improve with the help of its dedicated community.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x93652aE25d0ba757c3C92A4Deb0b05dd1D4efE35",
+      "totalVotes": 9,
+      "blockNumber": 18413921,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x283811823ba606075c13f59ed7bc49cdea14b92c34ed7f11866ca9c7ef48b134",
+      "startTime": {
+        "timestamp": 1698141600
+      },
+      "endTime": {
+        "timestamp": 1698400800
+      },
+      "startTimestamp": 1698141600,
+      "endTimestamp": 1698400800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, approve and top up",
+        "No, dont make a grant framework"
+      ],
+      "results": [
+        {
+          "total": 3537550000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3537549693.7282004,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1698076082014,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NjIzMTQyZTg5N2U5ZjdlNmYwNmU1NDJjNjcyMzE0NTJjNTc1YjExZTVmZjNjZmE4ZDBiZDVjYmEwYmQ4MDFjMA==",
+      "id": "0x623142e897e9f7e6f06e542c67231452c575b11e5ff3cfa8d0bd5cba0bd801c0",
+      "title": "SAIP #33: Voting discretion on STIP with treasury ARB ",
+      "content": "Tl;dr Grant the treasury multisig ability to vote with the treasury ARB on partners and promising projects alike, without the need of individual votes in the context of the Arbitrum DAO the Short Term Incentives Program (STIP).\n\nAs a reminder, Abracadabra’s STIP proposal can be found here.\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/saip-33-voting-discretion-on-stip-with-treasury-arb/4379",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 7,
+      "blockNumber": 18276724,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x623142e897e9f7e6f06e542c67231452c575b11e5ff3cfa8d0bd5cba0bd801c0",
+      "startTime": {
+        "timestamp": 1696418100
+      },
+      "endTime": {
+        "timestamp": 1696504500
+      },
+      "startTimestamp": 1696418100,
+      "endTimestamp": 1696504500,
+      "currentState": "closed",
+      "choices": [
+        "Yes, approve SAIP #33",
+        "No, do not approve SAIP #33"
+      ],
+      "results": [
+        {
+          "total": 3609917400.0,
+          "choice": 0
+        },
+        {
+          "total": 31.34,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3609917355.79197,
+          "choice": 0
+        },
+        {
+          "total": 31.34,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1696417904624,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZWY4MmUzYTRiNzI0NDcwNGJiZWFiMGE0OGE5N2Y0MWM5OGViM2I5NDQ3NTZhNmY5MDJmYmU1NWRiMmYxZDU5MA==",
+      "id": "0xef82e3a4b7244704bbeab0a48a97f41c98eb3b944756a6f902fbe55db2f1d590",
+      "title": "AIP #31 - Add a MIM/USDT Curve LP token cauldron on Kava",
+      "content": "TL;DR: Add a new market using MIM/USDT curve LP tokens as collateral on Kava.\n\nInitial Interest: 3%\n\nBorrow Fee: 0.15%\n\nLTV: 97%\n\nLiquidation Fee: 0.5%\n\nProposed Oracle: Redstone\n\nInitial top up of 5m $MIMs, with the possibility of scaling up to 10m depending on volumes and liquidity. Further top ups will require 24 hours voting periods.\n\n📖 Read more on the proposal: https://forum.abracadabra.money/t/aip-31-add-a-mim-usdt-curve-lp-token-cauldron-on-kava/4310",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 12,
+      "blockNumber": 18234860,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xef82e3a4b7244704bbeab0a48a97f41c98eb3b944756a6f902fbe55db2f1d590",
+      "startTime": {
+        "timestamp": 1696168800
+      },
+      "endTime": {
+        "timestamp": 1696341600
+      },
+      "startTimestamp": 1696168800,
+      "endTimestamp": 1696341600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Add the Cauldron",
+        "No, do not add the Cauldron"
+      ],
+      "results": [
+        {
+          "total": 3539493000.0,
+          "choice": 0
+        },
+        {
+          "total": 9.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3539492893.079485,
+          "choice": 0
+        },
+        {
+          "total": 9.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695911887577,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MzNiMmRhZDA4Nzg0NzJkMjAyMTNhNTI0MmQyMDAwMGU2OWU3MzhmYjNlNTBmOTM2ODBiYmIzZjk1OTgyZmIxYQ==",
+      "id": "0x33b2dad0878472d20213a5242d20000e69e738fb3e50f93680bbb3f95982fb1a",
+      "title": "AIP #32 - Add a Stargate USDT Cauldron on KAVA",
+      "content": "Tl;dr Add a Stargate USDT cauldron on KAVA network.\n\n0.15% Borrow Fee\n\n0.5 % Liq Fee\n\n97 % LTV\n\n3% Interest\n\nProposed Oracle: Redstone\n\nInitial top up of 2m $MIMs, with the possibility of scaling up to 10m depending on volumes and liquidity. Further top ups will require 24 hours voting periods.\n\n📖 Read more about the proposal: https://forum.abracadabra.money/t/aip-32-add-a-stargate-usdt-cauldron-on-kava/4368",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 11,
+      "blockNumber": 18234871,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x33b2dad0878472d20213a5242d20000e69e738fb3e50f93680bbb3f95982fb1a",
+      "startTime": {
+        "timestamp": 1696168800
+      },
+      "endTime": {
+        "timestamp": 1696341600
+      },
+      "startTimestamp": 1696168800,
+      "endTimestamp": 1696341600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, add the Cauldron",
+        "No, do not add the Cauldron"
+      ],
+      "results": [
+        {
+          "total": 3539493000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3539492893.079485,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695912409756,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YTI2MmM5MzAzNWJjOWViMjY0ZmJlZWYxNDE3MjcyNjc3MzU4OWNhMDk4MGQxMDVjNzY3MTdmNDBmNWEzZmRkMQ==",
+      "id": "0xa262c93035bc9eb264fbeef14172726773589ca0980d105c76717f40f5a3fdd1",
+      "title": "AIP #30 - Vote for Ali Atiia yAcademy/yAudit Founder for Arbitrum Security Council",
+      "content": "This RFC is to vote in favor of Ali Atiia for Arbitrum Security Council using treasury $ARB. The first Security Council Election began on September 15 and runs for 7 days. Details on the responsibilities for the Security Council can be found here: https://docs.arbitrum.foundation/dao-constitution#section-4-security-council-elections\n\n📖 Read more on the proposal here: https://forum.abracadabra.money/t/aip-30-vote-for-ali-atiia-yacademy-yaudit-founder-for-arbitrum-security-council/4373",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 15,
+      "blockNumber": 18172403,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xa262c93035bc9eb264fbeef14172726773589ca0980d105c76717f40f5a3fdd1",
+      "startTime": {
+        "timestamp": 1695211200
+      },
+      "endTime": {
+        "timestamp": 1695297600
+      },
+      "startTimestamp": 1695211200,
+      "endTimestamp": 1695297600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Vote for Ali Atiia",
+        "No, do not Vote for Ali Atiia"
+      ],
+      "results": [
+        {
+          "total": 3623264000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3623264167.117847,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695156835552,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZDQ4NWU3NmJlMzJlYTE0MTY1OTE3ZjE1YjRmN2E3NjBkM2ViODdkODU1NzJiM2Q3ZDU3ZmUwNmFkYmNhZmI4MA==",
+      "id": "0xd485e76be32ea14165917f15b4f7a760d3eb87d85572b3d7d57fe06adbcafb80",
+      "title": "AIP #29 - Voting on Arbitrum Short-term incentive Program with Treasury ARB ",
+      "content": "The following AIP is to determine the DAO’s opinion on voting on the proposal  posted by Arbitrum Incentives Working Group on the Arbitrum governance forum. \n\nThe treasury currently owns 901,392 ARB as well as additional ARB delegated to it.\n\n📖 Read Arbitrum Proposal here: https://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 16,
+      "blockNumber": 18119697,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xd485e76be32ea14165917f15b4f7a760d3eb87d85572b3d7d57fe06adbcafb80",
+      "startTime": {
+        "timestamp": 1694527200
+      },
+      "endTime": {
+        "timestamp": 1694700000
+      },
+      "startTimestamp": 1694527200,
+      "endTimestamp": 1694700000,
+      "currentState": "closed",
+      "choices": [
+        "Up to 25M ARB through Jan 2024",
+        "Up to 50M ARB through Jan 2024",
+        "Up to 75M ARB through JAN 2024",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 10125723.0,
+          "choice": 4
+        },
+        {
+          "total": 151737220.0,
+          "choice": 0
+        },
+        {
+          "total": 3542711300.0,
+          "choice": 2
+        }
+      ],
+      "events": [],
+      "type": "ranked-choice",
+      "indexedResult": [
+        {
+          "total": 151737230.9844749,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 3542711114.1915007,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 10125723.349546395,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1694515249269,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NDkxNmY5NmY2YzRkYjY0NDY0NjU3MzdjNzExODQ2ZjU3OGJkYTIyMzlkZjM4NjE1OWM0ODJkOGYxYTAzZWZiYg==",
+      "id": "0x4916f96f6c4db6446465737c711846f578bda2239df386159c482d8f1a03efbb",
+      "title": "AIP #28 - DWF Labs $SPELL Token Loan and Purchase Plans ",
+      "content": "tl;dr: Approve the offer proposed by DWF Labs in AIP #28, selecting DWF as the DAO market makers. \n\nDWF's aim is to enhance liquidity for SPELL across both Defi and centralized exchanges by requesting a 4,620,000,000 SPELL (1.8m USD) token loan and a 1m USD worth of token purchase at a 15% discount, locked for 24 months coming from future SPELL emissions budget.\n\nFurther details on DWF's offer, can be find in detail in the body of AIP #28.\n\n📖 Read more about it: https://forum.abracadabra.money/t/aip-28-dwf-labs-spell-token-loan-and-purchase-plans/4361",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 589,
+      "blockNumber": 18111478,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x4916f96f6c4db6446465737c711846f578bda2239df386159c482d8f1a03efbb",
+      "startTime": {
+        "timestamp": 1694440800
+      },
+      "endTime": {
+        "timestamp": 1694700000
+      },
+      "startTimestamp": 1694440800,
+      "endTimestamp": 1694700000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Approve DWF Proposal",
+        "No, Do Not Approve DWF Proposal"
+      ],
+      "results": [
+        {
+          "total": 4574762500.0,
+          "choice": 0
+        },
+        {
+          "total": 72630384.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4574786155.310333,
+          "choice": 0
+        },
+        {
+          "total": 72630389.66422145,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1694415700081,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NDE1ZWZmOGUyYTE1ZjhiYmNjMGRmZjJjMjQ2OWE4ZjU5NWJmMjA1OGVhYWY2ZmQ1ZTVmMjE1NmM4OGM5ODYwZA==",
+      "id": "0x415eff8e2a15f8bbcc0dff2c2469a8f595bf2058eaaf6fd5e5f2156c88c9860d",
+      "title": "AIP #22.3 - Abracadabra DAO Legal Framework - Swiss Association",
+      "content": "Now that both AIP 22.1 and AIP 22.2 have passed, the DAO must execute a final vote to select the Swiss association that will act as the representative that will ultimately allow Abracadabra Money DAO to interact with centralized entities.\n\nBased on forum discussions, two entities have emerged as suitable options to represent the DAO.\n\nOption 1 - @tomcont - AIP #22 - Abracadabra DAO Legal Framework: Bridging Worlds - #11 by tomcont\nOption 2 - @AlexDAObox AIP #22 - Abracadabra DAO Legal Framework: Bridging Worlds - #12 by AlexDAObox\n\nAIP 22.3 will allow the DAO members to vote upon these two options.\n\n📖 Read more on the proposal and its options: https://forum.abracadabra.money/t/aip-22-abracadabra-dao-legal-framework-bridging-worlds/4272/14",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 52,
+      "blockNumber": 18063222,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x415eff8e2a15f8bbcc0dff2c2469a8f595bf2058eaaf6fd5e5f2156c88c9860d",
+      "startTime": {
+        "timestamp": 1693922400
+      },
+      "endTime": {
+        "timestamp": 1694181600
+      },
+      "startTimestamp": 1693922400,
+      "endTimestamp": 1694181600,
+      "currentState": "closed",
+      "choices": [
+        "Option 1, by tomcont",
+        "Option 2, by AlexDAObox"
+      ],
+      "results": [
+        {
+          "total": 3503976200.0,
+          "choice": 0
+        },
+        {
+          "total": 82930040.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3503977606.1682253,
+          "choice": 0
+        },
+        {
+          "total": 82930038.2321079,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1693832441765,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZjJjZjQ0NmQ5ZjM0M2JjMmMyYzhkMTkzODBlY2UxY2I5ZGNlNWJkNzBlYTYyY2EzZWZhNGYwNjVlNDA1M2QxYw==",
+      "id": "0xf2cf446d9f343bc2c2c8d19380ece1cb9dce5bd70ea62ca3efa4f065e4053d1c",
+      "title": "AIP #22.1 - Abracadabra DAO Legal Framework - Entity",
+      "content": "Following the successful passing of AIP 22, the DAO decided to choose Switzerland as the preferred jurisdiction in which to look for a Legal Entity. It is now time for the DAO to accept options based on this jurisdiction, in order to move the creation of the legal entity forward.\n\nIt is important that options coming from the community are now able to be proposed for the DAO consideration. \n\nThe two proposed entities are Swiss Foundation and Swiss Association.\n\n📖 Read more on the proposal and its options: https://forum.abracadabra.money/t/aip-22-abracadabra-dao-legal-framework-bridging-worlds/4272/10",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 697,
+      "blockNumber": 18036240,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xf2cf446d9f343bc2c2c8d19380ece1cb9dce5bd70ea62ca3efa4f065e4053d1c",
+      "startTime": {
+        "timestamp": 1693569600
+      },
+      "endTime": {
+        "timestamp": 1693828800
+      },
+      "startTimestamp": 1693569600,
+      "endTimestamp": 1693828800,
+      "currentState": "closed",
+      "choices": [
+        "Swiss Association",
+        "Swiss Foundation"
+      ],
+      "results": [
+        {
+          "total": 3575914500.0,
+          "choice": 0
+        },
+        {
+          "total": 296203.47,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3575943429.1707134,
+          "choice": 0
+        },
+        {
+          "total": 296203.4677336602,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1693510838992,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4N2FhNzc5ODMyMGI4NzFmNzQzMTg0NTliMDRmYzJhNDJmMWYyNzZmMTJhMjFjMWNmOGExMTY1OTRmZWNmNDAwNQ==",
+      "id": "0x7aa7798320b871f74318459b04fc2a42f1f276f12a21c1cf8a116594fecf4005",
+      "title": "AIP #22.2 - Abracadabra DAO Legal Framework - Entity",
+      "content": "tl;dr Following the successful passing of AIP 22, the DAO decided to choose Switzerland as the preferred jurisdiction in which to look for a Legal Entity. \n\nIt is now time for the DAO to accept options based on this jurisdiction, in order to move the creation of the legal entity forward.\n\nGiven the options presented, the following vote is to decide in favour or against a Swiss Association as legal framework.\n\n📖 Read more on the proposal and the options: https://forum.abracadabra.money/t/aip-22-abracadabra-dao-legal-framework-bridging-worlds/4272/10?u=romy",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 0,
+      "blockNumber": 18036192,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x7aa7798320b871f74318459b04fc2a42f1f276f12a21c1cf8a116594fecf4005",
+      "startTime": {
+        "timestamp": 1693569600
+      },
+      "endTime": {
+        "timestamp": 1693828800
+      },
+      "startTimestamp": 1693569600,
+      "endTimestamp": 1693828800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, choose Swiss Association",
+        "No dont choose Swiss Association"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1693504780208,
+      "txHash": "",
+      "quorum": 3000000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NTU3MzA2YTQ4Y2JmM2M4MDZjZmY3Mjg2OWI2NGNjMTVjYTY1NWFhNzAyZDgyYmViOTUzMTJkMjEyNDUzZTljYg==",
+      "id": "0x557306a48cbf3c806cff72869b64cc15ca655aa702d82beb95312d212453e9cb",
+      "title": "AIP #27: Governance Framework Update ",
+      "content": "The current proposal is an update to the existing governance framework 1 that implements community feedback and overall improvements collected from more than 2 years of Abracadabra Money DAO operations.\n\nThe following proposal rewrites some parts of the current governance framework but also adds new paragraphs and templates to maximize the DAO efficiency while maintaining its decentralization and freedom to operate.\n\n📖 Read the proposal here",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 0,
+      "blockNumber": 17978450,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x557306a48cbf3c806cff72869b64cc15ca655aa702d82beb95312d212453e9cb",
+      "startTime": {
+        "timestamp": 1692810000
+      },
+      "endTime": {
+        "timestamp": 1693069200
+      },
+      "startTimestamp": 1692810000,
+      "endTimestamp": 1693069200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Update the Framework",
+        "No, Maintain the old Framework"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692806459490,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NjMzZWRhYjg5ZDg5ODMwNjU3M2M5M2FkZDVhNWZmMDAzZmUzOTg4MzgyYmJhODViM2FhM2EwYzA0NmFhMmE4Zg==",
+      "id": "0x633edab89d898306573c93add5a5ff003fe3988382bba85b3aa3a0c046aa2a8f",
+      "title": "AIP #27: Governance Framework Update",
+      "content": "The current proposal is an update to the existing governance framework 1 that implements community feedback and overall improvements collected from more than 2 years of Abracadabra Money DAO operations.\n\nThe following proposal rewrites some parts of the current governance framework but also adds new paragraphs and templates to maximize the DAO efficiency while maintaining its decentralization and freedom to operate.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-27-governance-framework-update/4341",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 388,
+      "blockNumber": 17978466,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x633edab89d898306573c93add5a5ff003fe3988382bba85b3aa3a0c046aa2a8f",
+      "startTime": {
+        "timestamp": 1692810000
+      },
+      "endTime": {
+        "timestamp": 1693069200
+      },
+      "startTimestamp": 1692810000,
+      "endTimestamp": 1693069200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Update the Framework",
+        "No, Maintain the old Framework"
+      ],
+      "results": [
+        {
+          "total": 4309167600.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4309181562.125282,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692813435669,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MzM2ODRkOWNjN2I3MDAxMDczYzNjZTdiMmJhNWUzNmQyZGVkNjFlNTk3MWYwOWY2ZWY3YzdhM2ZhMjY5MWU2Nw==",
+      "id": "0x33684d9cc7b7001073c3ce7b2ba5e36d2ded61e5971f09f6ef7c7a3fa2691e67",
+      "title": "AIP #27: Governance Framework Update ",
+      "content": "The current proposal is an update to the existing governance framework 1 that implements community feedback and overall improvements collected from more than 2 years of Abracadabra Money DAO operations.\n\nThe following proposal rewrites some parts of the current governance framework but also adds new paragraphs and templates to maximize the DAO efficiency while maintaining its decentralization and freedom to operate.\n\n📖 Read the proposal here",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 0,
+      "blockNumber": 17978459,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x33684d9cc7b7001073c3ce7b2ba5e36d2ded61e5971f09f6ef7c7a3fa2691e67",
+      "startTime": {
+        "timestamp": 1692810000
+      },
+      "endTime": {
+        "timestamp": 1693069200
+      },
+      "startTimestamp": 1692810000,
+      "endTimestamp": 1693069200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Update the Framework",
+        "No, Maintain the old Framework"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1692806459490,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NDk3NTNlMTFmNjJjNzllMTJhYjUzZGUwMDc1NThjYjBhY2QwNTVlZDIzMzAyODY1YmEzNDY0ZGQ0MDA5OTM0NA==",
+      "id": "0x49753e11f62c79e12ab53de007558cb0acd055ed23302865ba3464dd40099344",
+      "title": "#AIP: 13.6 - Adjustment in Interest",
+      "content": "tl;dr Abracadabra is currently exposed to significant amounts of CRV risk. To address this, a strategy is proposed to apply collateral-based interest to both CRV cauldrons.\n\nVote Yes to accept the proposal as stated.\n\nDiscussion here:\nhttps://forum.abracadabra.money/t/aip-13-6-further-amendment-on-interest-rate/4325",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x99459A327E2e1f7535501AFF6A1Aada7024C45FD",
+      "totalVotes": 18,
+      "blockNumber": 17828495,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x49753e11f62c79e12ab53de007558cb0acd055ed23302865ba3464dd40099344",
+      "startTime": {
+        "timestamp": 1691013600
+      },
+      "endTime": {
+        "timestamp": 1691272800
+      },
+      "startTimestamp": 1691013600,
+      "endTimestamp": 1691272800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 12297809000.0,
+          "choice": 0
+        },
+        {
+          "total": 11400079.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 12297808883.944294,
+          "choice": 0
+        },
+        {
+          "total": 11400078.942292742,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690993928295,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZjU3MjJhNDJkZmRiM2ZlNzNhNjg5OTM2ZTlkMmMwOTRhNTZlMTQwMjAwYWUwODMyMWI1YjIwYzcwMDFlZTMzOA==",
+      "id": "0xf5722a42dfdb3fe73a689936e9d2c094a56e140200ae08321b5b20c7001ee338",
+      "title": "AIP #13.5: Interest rate adjustment for the CRV cauldrons",
+      "content": "tl;dr Abracadabra is currently exposed to significant amounts of CRV risk. To address this, a strategy is proposed to apply collateral-based interest to both CRV cauldrons.\n\nAll proceeds from this strategy will be kept in our treasury and used to reduce the DAO risk associated with the liquidity conditions associated with CRV.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-13-5-interest-rate-adjustment-for-the-crv-cauldrons/4320",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 208,
+      "blockNumber": 17818234,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xf5722a42dfdb3fe73a689936e9d2c094a56e140200ae08321b5b20c7001ee338",
+      "startTime": {
+        "timestamp": 1690869890
+      },
+      "endTime": {
+        "timestamp": 1691035200
+      },
+      "startTimestamp": 1690869890,
+      "endTimestamp": 1691035200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Raise Interest",
+        "No, Keep Interest stables"
+      ],
+      "results": [
+        {
+          "total": 4012404700.0,
+          "choice": 0
+        },
+        {
+          "total": 10453405000.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4012410583.547003,
+          "choice": 0
+        },
+        {
+          "total": 10453404409.392092,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690870022863,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MWFlNjEyZjJjNmQ1ZGVhMDliMDMxODVkZWVlOGE3ZjQyNGViOGNmNDM1MzBiYmFiNTJjYWE4ZmE5NjEwNjZkYQ==",
+      "id": "0x1ae612f2c6d5dea09b03185deee8a7f424eb8cf43530bbab52caa8fa961066da",
+      "title": "AIP #13.4: Emergency Freeze of the CRV Market Liquidation",
+      "content": "Tl:dr Given the extreme liquidity conditions currently experienced by CRV, the following proposal is to fix the cauldron oracle price at price optimised to retain value for the DAO to avoid liquidations during a cascade.\n\n📖 Read the proposal: https://forum.abracadabra.money/t/aip-13-4-emergency-freeze-of-the-crv-market-liquidation/4319",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 5,
+      "blockNumber": 17817890,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x1ae612f2c6d5dea09b03185deee8a7f424eb8cf43530bbab52caa8fa961066da",
+      "startTime": {
+        "timestamp": 1690865741
+      },
+      "endTime": {
+        "timestamp": 1690872900
+      },
+      "startTimestamp": 1690865741,
+      "endTimestamp": 1690872900,
+      "currentState": "closed",
+      "choices": [
+        "Yes, approve the proposal",
+        "No, do not approve the proposal"
+      ],
+      "results": [
+        {
+          "total": 13744887000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 13744887531.9958,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690866045009,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4Zjk2NWNjMDU0ZmQxMjZkODgxYmQxYjRkMDU0MDVlMDA3MTg2N2ZiZmI4NDAyZWM4NmUwMDczZGY5NGM1ZjBkMA==",
+      "id": "0xf965cc054fd126d881bd1b4d05405e0071867fbfb8402ec86e0073df94c5f0d0",
+      "title": "AIP #26 - Implement a 1$ flat beaming fee on all networks",
+      "content": "Tl:dr Implement a 1$ flat beaming fee for all MIM beams across networks. Such Beaming fee will be paid in gas tokens on the origin chain and will be used as treasury revenue.\n\n📖 Read the proposal: https://forum.abracadabra.money/t/aip-26-implement-a-1-flat-beaming-fee-on-all-networks/4308",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 494,
+      "blockNumber": 17777204,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xf965cc054fd126d881bd1b4d05405e0071867fbfb8402ec86e0073df94c5f0d0",
+      "startTime": {
+        "timestamp": 1690459200
+      },
+      "endTime": {
+        "timestamp": 1690718400
+      },
+      "startTimestamp": 1690459200,
+      "endTimestamp": 1690718400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Implement the beaming fee",
+        "No, Keep it at $0"
+      ],
+      "results": [
+        {
+          "total": 4705673000.0,
+          "choice": 0
+        },
+        {
+          "total": 10321309.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4705688086.87412,
+          "choice": 0
+        },
+        {
+          "total": 10321309.288944386,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1690374681469,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ODkwZWUzNTI5NWI3NTM2MWZhMTUxN2Q5NTVmZWUyMDdiZjU2MmUzOWQzNGIzY2NhZjM3ODhiZTYzMzdkMmE3NA==",
+      "id": "0x890ee35295b75361fa1517d955fee207bf562e39d34b3ccaf3788be6337d2a74",
+      "title": "AIP #25: Voting on Camelot Proposal with treasury ARB",
+      "content": "TL;DR\n\nThe following AIP is to determine the DAO’s opinion on voting in favour, or against, the proposal posted by the Camelot DEX team on the Arbitrum governance forum. \n\nThe treasury currently owns 901,392 ARB as well as additional ARB delegated to it.\n\n📖 Read Camelot Proposal here: https://forum.arbitrum.foundation/t/proposal-accelerating-arbitrum-leveraging-camelot-as-an-ecosystem-hub-to-support-native-builders/15116",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 18,
+      "blockNumber": 17697857,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x890ee35295b75361fa1517d955fee207bf562e39d34b3ccaf3788be6337d2a74",
+      "startTime": {
+        "timestamp": 1689499800
+      },
+      "endTime": {
+        "timestamp": 1689672600
+      },
+      "startTimestamp": 1689499800,
+      "endTimestamp": 1689672600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 1253599400.0,
+          "choice": 0
+        },
+        {
+          "total": 32001556.0,
+          "choice": 2
+        },
+        {
+          "total": 2900333.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1253599349.846326,
+          "choice": 0
+        },
+        {
+          "total": 2900333.017014902,
+          "choice": 1
+        },
+        {
+          "total": 32001554.90495609,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1689412979491,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4Yzg2Mjk1ZGM3ZGU4ZDBjMTNkNzY1YTI1OTg5MmM0NDUzY2IxZjBjMGM5MmE1ZDcwM2Y5ZWFiZjVjNTg0N2ZiZg==",
+      "id": "0xc86295dc7de8d0c13d765a259892c4453cb1f0c0c92a5d703f9eabf5c5847fbf",
+      "title": "AIP #23 - Deploy Abracadabra on Kava Network",
+      "content": "tl;dr - Deploy the Abracadabra infrastructure, MIM and cauldrons suite natively on Kava Network following the conditions outlined in AIP #23!\n\n📖 Read the proposal: https://forum.abracadabra.money/t/aip-23-deploy-abracadabra-on-kava-network/4277",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 241,
+      "blockNumber": 17662477,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xc86295dc7de8d0c13d765a259892c4453cb1f0c0c92a5d703f9eabf5c5847fbf",
+      "startTime": {
+        "timestamp": 1688990400
+      },
+      "endTime": {
+        "timestamp": 1689249600
+      },
+      "startTimestamp": 1688990400,
+      "endTimestamp": 1689249600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, deploy on Kava",
+        "No, Do Not deploy on Kava"
+      ],
+      "results": [
+        {
+          "total": 3541246500.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3541252021.5774913,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688983466852,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MDc5ZTI3NWJmNGFiZDgxZWFiMDRjM2JlZTcwODU0MWViNmNhOTFhN2RhNTBhM2NjMzg4MWMwM2Y0NjkwNTljMQ==",
+      "id": "0x079e275bf4abd81eab04c3bee708541eb6ca91a7da50a3cc3881c03f469059c1",
+      "title": "AIP #22.1 - Abracadabra DAO Legal Framework - Jurisdiction",
+      "content": "AIP #22.1 is the first of a series of AIPs that will be used to allow the DAO to decide on how to set up its Legal Structure as outlined in AIP #22.\n\nThis initial vote will focus on choosing the jurisdiction.\n\nOptions:\n- Malta: friendly regulations towards blockchain & cryptocurrency\n- Switzerland: progressive government approach attracted protocols like Ethereum\n- Bermuda: regulatory framework specific to crypto businesses\n- Singapore: leading crypto hub; forward thinking regulatory authority\n- None of the above\n\n📖 Read the proposal: https://forum.abracadabra.money/t/aip-22-abracadabra-dao-legal-framework-bridging-worlds/4272",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 239,
+      "blockNumber": 17662461,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x079e275bf4abd81eab04c3bee708541eb6ca91a7da50a3cc3881c03f469059c1",
+      "startTime": {
+        "timestamp": 1688990400
+      },
+      "endTime": {
+        "timestamp": 1689249600
+      },
+      "startTimestamp": 1688990400,
+      "endTimestamp": 1689249600,
+      "currentState": "closed",
+      "choices": [
+        "Malta",
+        "Switzerland",
+        "Bermuda",
+        "Singapore",
+        "None of the above"
+      ],
+      "results": [
+        {
+          "total": 9963741.0,
+          "choice": 3
+        },
+        {
+          "total": 59.56,
+          "choice": 4
+        },
+        {
+          "total": 3531099600.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 3531105370.816802,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 9963741.324475087,
+          "choice": 3
+        },
+        {
+          "total": 59.56,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1688983466852,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NTRkNTIxNDQxNWFkM2NmYmU2ZmEyZWUzOTIzZDUyMzM5MTZlZGI2OTc0ZmQzZDZmZDZhYTM0YmE4NjllOTBkOA==",
+      "id": "0x54d5214415ad3cfbe6fa2ee3923d5233916edb6974fd3d6fd6aa34ba869e90d8",
+      "title": "AIP #21 - Implement Chainalysis Crypto Incident Response Plan for Abracadabra’s Smart Contracts",
+      "content": "This is a proposal to adopt Chainalysis Incident Response to protect Abracadabra in the event of a hack or exploit. After a hack commences, investigative response time is the most critical vector to asset recovery. Chainalysis Incident Response (CIR), the leading crypto asset recovery solution, is an important security measure to have in place to protect Abracadabra in the event of a hack. It also serves as a strong deterrent to help minimize the risk of a hack in the first place.\n\nThe proposal is to implement a budget of $100k in stablecoins from the DAO treasury to activate such service.\n\n📖 Read the proposal: https://forum.abracadabra.money/t/aip-21-implement-chainalysis-crypto-incident-response-plan-for-abracadabra-s-smart-contracts/4219/9",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 14,
+      "blockNumber": 17130496,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x54d5214415ad3cfbe6fa2ee3923d5233916edb6974fd3d6fd6aa34ba869e90d8",
+      "startTime": {
+        "timestamp": 1682776800
+      },
+      "endTime": {
+        "timestamp": 1683036000
+      },
+      "startTimestamp": 1682776800,
+      "endTimestamp": 1683036000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Implement the Budget.",
+        "No, Do Not implement the Budget."
+      ],
+      "results": [
+        {
+          "total": 3039138300.0,
+          "choice": 0
+        },
+        {
+          "total": 9.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3039138184.87035,
+          "choice": 0
+        },
+        {
+          "total": 9.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1682513430170,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NDlhZDRkYjU4MDI2ZDJiMTlhNTRiYWRjMzgwMGIyZmJjZjEzNDk2ZjIyODIyODA2NjQ0NGM1YTZiNzUyYmYzNQ==",
+      "id": "0x49ad4db58026d2b19a54badc3800b2fbcf13496f228228066444c5a6b752bf35",
+      "title": "AIP #13.3: 5m MIM Top Up to the $CRV Cauldron ",
+      "content": "TL;DR: Mint 5m MIM to the $CRV cauldron to allow new positions to be opened.\n\nCumulative Previous Limit: 15m MIM\n\nCumulative New Limit: 20m MIM\n\n📖 Read the proposal: https://forum.abracadabra.money/t/aip-13-3-5m-mim-top-up-to-the-crv-cauldron/4216",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 10,
+      "blockNumber": 17087188,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x49ad4db58026d2b19a54badc3800b2fbcf13496f228228066444c5a6b752bf35",
+      "startTime": {
+        "timestamp": 1682074800
+      },
+      "endTime": {
+        "timestamp": 1682161200
+      },
+      "startTimestamp": 1682074800,
+      "endTimestamp": 1682161200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Mint 5m MIM",
+        "No, Do Not Mint 5m MIM"
+      ],
+      "results": [
+        {
+          "total": 3042073600.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3042073533.533244,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681988037105,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NTU0Y2QwNzgzODNkM2Q0MWNkNzRiZmM3NmQzODdkNzJiY2M2YjhkMTA0ZTQzZjNhNGYyYTQzOTJmZDE1YjY0Zg==",
+      "id": "0x554cd078383d3d41cd74bfc76d387d72bcc6b8d104e43f3a4f2a4392fd15b64f",
+      "title": "AIP #20 - Protocol-owned Liquidity: MIM3pool Cauldron",
+      "content": "Add a new private cauldron accepting MIM-3pool (staked in convex for boosted rewards) as collateral, open only for Abracadabra's treasury.\n\nInterest fee 1%\nMaximum collateral ratio 98%\nLiquidation fee 0.5%\nBorrow fee 0%\nInitial Top Up: up to 50m MIM\n\nThe treasury will borrow against USDT (converted to 3pool) and will conservatively manage the liquidation price (e.g., $0.90).\n\n📖 Read more about it: https://forum.abracadabra.money/t/aip-20-protocol-owned-liquidity-mim3pool-cauldron/4194",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 19,
+      "blockNumber": 17051675,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x554cd078383d3d41cd74bfc76d387d72bcc6b8d104e43f3a4f2a4392fd15b64f",
+      "startTime": {
+        "timestamp": 1681567200
+      },
+      "endTime": {
+        "timestamp": 1681826400
+      },
+      "startTimestamp": 1681567200,
+      "endTimestamp": 1681826400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Proceed with AIP #20",
+        "No, Do not Proceed with AIP #20"
+      ],
+      "results": [
+        {
+          "total": 3058270700.0,
+          "choice": 0
+        },
+        {
+          "total": 3465724.8,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3058270891.232349,
+          "choice": 0
+        },
+        {
+          "total": 3465724.7294407813,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681552979641,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZjQyZWY4MDY4Njg4ZjU2YjMyOTU3ZjMxMDUwMjJjNzQzNGY0NGUyMjc0MWEzODA3MDIxODBhNzA1NzYzODUwYQ==",
+      "id": "0xf42ef8068688f56b32957f3105022c7434f44e22741a380702180a705763850a",
+      "title": " AIP#19: Consolidate UST bad debt under treasury collateralised position",
+      "content": "Open a debt position to borrow 7.1M $MIM against treasury collateral and completely repay the bad debt. Going forward, the protocol will aim to reduce this position by 100K $MIM per month.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-19-consolidate-ust-bad-debt-under-treasury-collateralised-position/4177\n\n",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 31,
+      "blockNumber": 16853516,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xf42ef8068688f56b32957f3105022c7434f44e22741a380702180a705763850a",
+      "startTime": {
+        "timestamp": 1679238000
+      },
+      "endTime": {
+        "timestamp": 1679497200
+      },
+      "startTimestamp": 1679238000,
+      "endTimestamp": 1679497200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Proceed with AIP #19",
+        "No, Do Not Proceed with AIP #19"
+      ],
+      "results": [
+        {
+          "total": 3036129000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3036128848.785329,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679128992246,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YzNmYzYwZjVjMzFlZDEyYmQ3MzQ0NWUwYWNhZWU5YTFhMDdlYTJmN2VjMGM4YmYwNWE1ZDE2YzNhZjUxZTE0ZQ==",
+      "id": "0xc3fc60f5c31ed12bd73445e0acaee9a1a07ea2f7ec0c8bf05a5d16c3af51e14e",
+      "title": " AIP #18: SPELL Market Making Proposal - Arrakis PALM",
+      "content": "Deploy Arrakis PALM to conduct market-making on UniV3 for SPELL.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-18-spell-market-making-proposal-arrakis-palm/4156",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 32,
+      "blockNumber": 16818867,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xc3fc60f5c31ed12bd73445e0acaee9a1a07ea2f7ec0c8bf05a5d16c3af51e14e",
+      "startTime": {
+        "timestamp": 1678719600
+      },
+      "endTime": {
+        "timestamp": 1678978800
+      },
+      "startTimestamp": 1678719600,
+      "endTimestamp": 1678978800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Deploy PALM",
+        "No, Do not Deploy PALM"
+      ],
+      "results": [
+        {
+          "total": 2904791600.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2904791392.050398,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678708407010,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YTdjNTcyMjU0ZWE5MjFlM2FiYjZiNjc4NmZhNWFlM2YzN2I3Mjg5NGE1MGRhNDNlOGU1MTg0YzBmNzA4MmVhMw==",
+      "id": "0xa7c572254ea921e3abb6b6786fa5ae3f37b72894a50da43e8e5184c0f7082ea3",
+      "title": " AIP #17: Creating the MIM-USDT Overpeg Defense Mechanism (ODM) on Arbitrum",
+      "content": "tl;dr In order to ensure that we never overpeg during periods of high liquidations / repayments, we want to mint MIM to create a single-sided Uniswap V3 position on Arbitrum where users can trade 1 USDT for 0.9994 MIM.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 30,
+      "blockNumber": 16670500,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xa7c572254ea921e3abb6b6786fa5ae3f37b72894a50da43e8e5184c0f7082ea3",
+      "startTime": {
+        "timestamp": 1676912400
+      },
+      "endTime": {
+        "timestamp": 1677171600
+      },
+      "startTimestamp": 1676912400,
+      "endTimestamp": 1677171600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Create the ODM",
+        "No, Do not Create the ODM"
+      ],
+      "results": [
+        {
+          "total": 2981989000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2981988897.8493237,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZTEzY2JjNWQ3MGVjMjBkYWNhNzBhZjIyMTk5OWFmZmY3ZjYyNzg3OGY0MGJlNWQyYzU0ZDAxY2IwN2MxNWJlYQ==",
+      "id": "0xe13cbc5d70ec20daca70af221999afff7f627878f40be5d2c54d01cb07c15bea",
+      "title": " AIP #16: Add an $APE Cauldron",
+      "content": "TL;DR: Add a new market using $APE (in the form of $magicAPE) as collateral.\n\nInitial Interest: 18%\nBorrow Fee: 0%\nMCR: 70%\nLiquidation Fee: 7.5%\nInitial top up of 3m $MIMs, with the possibility of scaling up to 7m depending on volumes and liquidity.\n\nNote: this market will accept magicAPE tokens as collateral. magicAPE is Abracadabra’s in-house $APE auto compounder, read more about magicAPE below!",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 29,
+      "blockNumber": 16626402,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xe13cbc5d70ec20daca70af221999afff7f627878f40be5d2c54d01cb07c15bea",
+      "startTime": {
+        "timestamp": 1676386800
+      },
+      "endTime": {
+        "timestamp": 1676559600
+      },
+      "startTimestamp": 1676386800,
+      "endTimestamp": 1676559600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, add a magicAPE cauldron",
+        "No, dont add a magicAPE cauldron"
+      ],
+      "results": [
+        {
+          "total": 2869931300.0,
+          "choice": 0
+        },
+        {
+          "total": 62172476.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2869931148.151323,
+          "choice": 0
+        },
+        {
+          "total": 62172478.03846488,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MDVmYWY0ZmFlYzg5NmViZDU0N2JhODMxNDUyNDVlZTI0NmQ1MDJmMGE0MjFlMTIwZjIwMWRmMzYwOTg5ZTA2Yw==",
+      "id": "0x05faf4faec896ebd547ba83145245ee246d502f0a421e120f201df360989e06c",
+      "title": "AIP #15.1 - Increase Stargate POF, minting 4m additional MIMs",
+      "content": "Tl;dr Given the great success of POF, allow the protocol to mint 4m additional MIM to be deposited into the POF cauldron, to increase treasury revenues!\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-15-1-increase-stargate-pof-minting-4m-additional-mims/4138",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 22,
+      "blockNumber": 16598890,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x05faf4faec896ebd547ba83145245ee246d502f0a421e120f201df360989e06c",
+      "startTime": {
+        "timestamp": 1676127600
+      },
+      "endTime": {
+        "timestamp": 1676214000
+      },
+      "startTimestamp": 1676127600,
+      "endTimestamp": 1676214000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Mint 4m Additional MIM",
+        "No, Don't Mint 4m Additional MIM"
+      ],
+      "results": [
+        {
+          "total": 2861398300.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2861398190.6721077,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NjI1NWIwMWNmOTIzNzM4YjAyZTUyNWE5ZDRiMjNhZDBhYzU2OTYxOTE0ZjAwMmY0ZDY2NWZjYmFjNGIyZDJlZA==",
+      "id": "0x6255b01cf923738b02e525a9d4b23ad0ac56961914f002f4d665fcbac4b2d2ed",
+      "title": "AIP #13.2: 5m MIM Top Up to the $CRV Cauldron",
+      "content": "TL;DR: Mint 5m MIM to the $CRV cauldron to allow new positions to be opened.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-13-2-5m-mim-top-up-to-the-crv-cauldron/4096",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 19,
+      "blockNumber": 16285805,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x6255b01cf923738b02e525a9d4b23ad0ac56961914f002f4d665fcbac4b2d2ed",
+      "startTime": {
+        "timestamp": 1672349400
+      },
+      "endTime": {
+        "timestamp": 1672435800
+      },
+      "startTimestamp": 1672349400,
+      "endTimestamp": 1672435800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Add 5m $MIM",
+        "No, Do not Add 5m $MIM"
+      ],
+      "results": [
+        {
+          "total": 2190065000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2190065252.6368923,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4OGM0MmUyYzc2ODQ0YTNjZWEyYzA3MTZmZDY2MWNjZTQ4MzAyZjM0ODdkNmMyNjU4NDMyOWU1NTFjNDQ0Y2FmYQ==",
+      "id": "0x8c42e2c76844a3cea2c0716fd661cce48302f3487d6c26584329e551c444cafa",
+      "title": " AIP #14 - Add a Rage Trade’s Delta Neutral Vault Cauldron",
+      "content": "TL;DR: If this proposal passes,\n\nAbracadabra will build a cauldron, after risk assessment analysis is complete,  and allow users to deposit LP shares of Rage Trade’s delta neutral Vault.\n\nRage will emit $200k in vested RAGE tokens towards MIM liquidity\nVested RAGE tokens will be priced at the previous round’s $40M valuation with participation from Primitive Ventures, DOPEX DAO, Dialectic, Genesis Block Ventures, and BizYugo (#1 on DeBank + #2 on DegenScore)\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-14-add-a-rage-trades-delta-neutral-vault-cauldron/4013",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 33,
+      "blockNumber": 16219880,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x8c42e2c76844a3cea2c0716fd661cce48302f3487d6c26584329e551c444cafa",
+      "startTime": {
+        "timestamp": 1671469200
+      },
+      "endTime": {
+        "timestamp": 1671728400
+      },
+      "startTimestamp": 1671469200,
+      "endTimestamp": 1671728400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No "
+      ],
+      "results": [
+        {
+          "total": 335169500.0,
+          "choice": 0
+        },
+        {
+          "total": 219765.89,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 335169512.2938567,
+          "choice": 0
+        },
+        {
+          "total": 219765.89426236623,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YjI3NTQyNzM4ZTJiMzAyY2M5ZTYzMWM1NWZlNWY4NjU0ZmY5ZjcyNTRjYWJmOWJjOGZmMjk4NDU3OTQzMmQyOQ==",
+      "id": "0xb27542738e2b302cc9e631c55fe5f8654ff9f7254cabf9bc8ff2984579432d29",
+      "title": " AIP #15 - Protocol-owned Farms",
+      "content": "TL;DR Deploy treasury funds in  “protocol-owned farms” (POF) where Abracadabra treasury itself participates in yield farming in order to generate returns for its users.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-15-protocol-owned-farms-pof/4070",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 31,
+      "blockNumber": 16179295,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xb27542738e2b302cc9e631c55fe5f8654ff9f7254cabf9bc8ff2984579432d29",
+      "startTime": {
+        "timestamp": 1671022800
+      },
+      "endTime": {
+        "timestamp": 1671282000
+      },
+      "startTimestamp": 1671022800,
+      "endTimestamp": 1671282000,
+      "currentState": "closed",
+      "choices": [
+        "Yes , I am in favour of POF",
+        "No, I am not in favour of POF"
+      ],
+      "results": [
+        {
+          "total": 3060180000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3060179977.7503853,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZmE5NGYwZDAxOGQ2OTk3NjliYjFiMDc2ZmQxNzE3MGEyZjVkZjE1Mjc3MzczNGU1ODY2NDY1YTc1YzI2ZDMzNw==",
+      "id": "0xfa94f0d018d699769bb1b076fd17170a2f5df152773734e5866465a75c26d337",
+      "title": "AIP #13.1 - $CRV Interest Rate Adjustment",
+      "content": "TL;DR: Allow interest fee reimbursement to whitelisted users using the CRV cauldron, in exchange for veCRV votes to be used to increase protocol liquidity.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-13-1-crv-interest-rate-adjustment/4078",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 18,
+      "blockNumber": 16185544,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xfa94f0d018d699769bb1b076fd17170a2f5df152773734e5866465a75c26d337",
+      "startTime": {
+        "timestamp": 1671094800
+      },
+      "endTime": {
+        "timestamp": 1671181200
+      },
+      "startTimestamp": 1671094800,
+      "endTimestamp": 1671181200,
+      "currentState": "closed",
+      "choices": [
+        "Change to new limits",
+        "Keep current limits "
+      ],
+      "results": [
+        {
+          "total": 2368718600.0,
+          "choice": 0
+        },
+        {
+          "total": 5129290.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2368718625.6628456,
+          "choice": 0
+        },
+        {
+          "total": 5129289.750062196,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MWViMWI0MGRiNDY5YmU4ZmNmOWQyODYxYzIyZTFhNDQzZWFiMTA3YTc3ZDVmYzZlN2EyOTFiZjNhZmQzYzAwYQ==",
+      "id": "0x1eb1b40db469be8fcf9d2861c22e1a443eab107a77d5fc6e7a291bf3afd3c00a",
+      "title": " AIP #13 - Add a $CRV Cauldron",
+      "content": "TL;DR Add a $CRV Cauldron to Abracadabra with the following parameters:\n\n- Interest rate: 18%\n- Borrow fee: 0%\n- MCR: 75%\n- Liquidation fee: 10%\n- Initial top up: 10 million $MIMs\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-13-add-a-crv-cauldron/4055",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5EeDA5BDF0A647a7089329428009eCc9CB9451cc",
+      "totalVotes": 38,
+      "blockNumber": 16126904,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x1eb1b40db469be8fcf9d2861c22e1a443eab107a77d5fc6e7a291bf3afd3c00a",
+      "startTime": {
+        "timestamp": 1670418000
+      },
+      "endTime": {
+        "timestamp": 1670677200
+      },
+      "startTimestamp": 1670418000,
+      "endTimestamp": 1670677200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Add a $CRV cauldron",
+        "No, Do not add a $CRV Cauldron"
+      ],
+      "results": [
+        {
+          "total": 3038915600.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3038916121.7195144,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4ZWQ0MTk5OGNlOWExZTlhOGZhZjQ3MDU3NjQxY2JjOGE2ZmY3M2U0ZjBkYzkxZDVmYjlkMWIzNjNkYTUzMTdlMA==",
+      "id": "0xed41998ce9a1e9a8faf47057641cbc8a6ff73e4f0dc91d5fb9d1b363da5317e0",
+      "title": "AIP #12 - Increase WETH and WBTC Cauldrons Interest",
+      "content": "TL;DR Increase Interest through the use of negative strategies for the WBTC and WETH cauldrons.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-12-increase-weth-and-wbtc-cauldron-interest/3992 \n    ",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5E49a561b35d6867d98D67B702C3b7946edeF044",
+      "totalVotes": 60,
+      "blockNumber": 16083333,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xed41998ce9a1e9a8faf47057641cbc8a6ff73e4f0dc91d5fb9d1b363da5317e0",
+      "startTime": {
+        "timestamp": 1669914000
+      },
+      "endTime": {
+        "timestamp": 1670173200
+      },
+      "startTimestamp": 1669914000,
+      "endTimestamp": 1670173200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Increase Interest Rates",
+        "No, Keep Interest rates the same"
+      ],
+      "results": [
+        {
+          "total": 2555166000.0,
+          "choice": 0
+        },
+        {
+          "total": 98663240.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2555166407.3576627,
+          "choice": 0
+        },
+        {
+          "total": 98663245.80831064,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NmYyN2JhMjFiZTA5NTljZTk2NzY4NjJkN2ZlYmZjNWUyZTI3ZTYzMGVmNzY0NzkxMDI3ODQ2ODI3N2M1MGJkMw==",
+      "id": "0x6f27ba21be0959ce9676862d7febfc5e2e27e630ef7647910278468277c50bd3",
+      "title": " AIP 11 - Emergency Increase in cvxRenCrv and yvcrvstETH cauldrons interest rate ",
+      "content": "TL;DR Increase interest on cvxRenCrv and yvcrvstETH cauldrons to incentivise users to close their positions.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-11-emergency-increase-in-cvxrencrv-and-yvcrvsteth-cauldrons-interest-rate/3995/1",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5E49a561b35d6867d98D67B702C3b7946edeF044",
+      "totalVotes": 48,
+      "blockNumber": 16049958,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x6f27ba21be0959ce9676862d7febfc5e2e27e630ef7647910278468277c50bd3",
+      "startTime": {
+        "timestamp": 1669494600
+      },
+      "endTime": {
+        "timestamp": 1669581000
+      },
+      "startTimestamp": 1669494600,
+      "endTimestamp": 1669581000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Increase Interest",
+        "No, Keep Interest the same"
+      ],
+      "results": [
+        {
+          "total": 3023888400.0,
+          "choice": 0
+        },
+        {
+          "total": 150.029,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3023888482.828184,
+          "choice": 0
+        },
+        {
+          "total": 150.029,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MTVlMjRiZGQ4YzA1MWU5OTBlOTFkNjY4YTA4MzRjZGEyMDY0MzhmYWEyNmE0MjdmMzZhNTVmZTc2OTkxZGZiNw==",
+      "id": "0x15e24bdd8c051e990e91d668a0834cda206438faa26a427f36a55fe76991dfb7",
+      "title": " AIP #10 - Bad Debt Repayment Plan",
+      "content": "TL;DR Define a plan to repay the Bad Debt caused by the $UST collapse.\n\nOption 1: Using Treasury Funds\nOption 2: Using Protocol Revenue\nOption 3: Combination of Protocol Revenue and Treasury Funds\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-10-bad-debt-repayment-plan/3940\n",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5E49a561b35d6867d98D67B702C3b7946edeF044",
+      "totalVotes": 43,
+      "blockNumber": 15860481,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x15e24bdd8c051e990e91d668a0834cda206438faa26a427f36a55fe76991dfb7",
+      "startTime": {
+        "timestamp": 1667138400
+      },
+      "endTime": {
+        "timestamp": 1667397600
+      },
+      "startTimestamp": 1667138400,
+      "endTimestamp": 1667397600,
+      "currentState": "closed",
+      "choices": [
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ],
+      "results": [
+        {
+          "total": 2275535.5,
+          "choice": 0
+        },
+        {
+          "total": 9924771000.0,
+          "choice": 2
+        },
+        {
+          "total": 25071216.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2275535.568423135,
+          "choice": 0
+        },
+        {
+          "total": 25071216.725439932,
+          "choice": 1
+        },
+        {
+          "total": 9924772454.920698,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YTVjMjdiMGM1OGE0YjRmZTY4ZDRmODk4MTliMTZmZmRlYjc3YTYxY2E0OTk2NzlkNDA1OWU5ODg0NGI0ZGVhNQ==",
+      "id": "0xa5c27b0c58a4b4fe68d4f89819b16ffdeb77a61ca499679d4059e98844b4dea5",
+      "title": "AIP #9.1 - Locking ⅓ of treasury $CRVs as yveCRV",
+      "content": "TL;DR: Lock 1/3 of treasury CRVs using Yearn Finance.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-9-1-locking-of-treasury-crvs-as-yvecrv/3893",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x5E49a561b35d6867d98D67B702C3b7946edeF044",
+      "totalVotes": 24,
+      "blockNumber": 15502156,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xa5c27b0c58a4b4fe68d4f89819b16ffdeb77a61ca499679d4059e98844b4dea5",
+      "startTime": {
+        "timestamp": 1662732000
+      },
+      "endTime": {
+        "timestamp": 1662991200
+      },
+      "startTimestamp": 1662732000,
+      "endTimestamp": 1662991200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, lock using Yearn",
+        "No, lock directly on Curve"
+      ],
+      "results": [
+        {
+          "total": 2463502000.0,
+          "choice": 0
+        },
+        {
+          "total": 1879594.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2463501763.6480684,
+          "choice": 0
+        },
+        {
+          "total": 1879594.2438788216,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YjE1ZTg5NjcwOGJhZDRmNGJmNGM1ZjVhZjQ2ZWE2OTY5MDIwZTU5ODRhOTBlZTU2OWI1N2MxZGQzMmRhYTA1YQ==",
+      "id": "0xb15e896708bad4f4bf4c5f5af46ea6969020e5984a90ee569b57c1dd32daa05a",
+      "title": "AIP #9 - Locking ⅓ of treasury $CRVs",
+      "content": "TL;DR: Lock for 4 years 3.3M CRV tokens to take part in gauge voting.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/rfc-locking-of-treasury-crvs/3856",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x93652aE25d0ba757c3C92A4Deb0b05dd1D4efE35",
+      "totalVotes": 57,
+      "blockNumber": 15364496,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xb15e896708bad4f4bf4c5f5af46ea6969020e5984a90ee569b57c1dd32daa05a",
+      "startTime": {
+        "timestamp": 1660829400
+      },
+      "endTime": {
+        "timestamp": 1661088600
+      },
+      "startTimestamp": 1660829400,
+      "endTimestamp": 1661088600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, lock the CRVs",
+        "No, do not lock the CRVs"
+      ],
+      "results": [
+        {
+          "total": 756584000.0,
+          "choice": 0
+        },
+        {
+          "total": 35326620.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 756584189.2430788,
+          "choice": 0
+        },
+        {
+          "total": 35326618.497523956,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MjdmMGFkNGYwNjE4OTRjZGM4NzE2OTJlOTM4MDdlMzQyNzExMjc2NjFkNzk4ZTQ1ODFhZWJiN2ZlOTgxZTI4Yg==",
+      "id": "0x27f0ad4f061894cdc871692e93807e34271127661d798e4581aebb7fe981e28b",
+      "title": "Signaling Proposal: deploy on Evmos",
+      "content": "",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x7BFEe91193d9Df2Ac0bFe90191D40F23c773C060",
+      "totalVotes": 4,
+      "blockNumber": 14875139,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x27f0ad4f061894cdc871692e93807e34271127661d798e4581aebb7fe981e28b",
+      "startTime": {
+        "timestamp": 1653949430
+      },
+      "endTime": {
+        "timestamp": 1654208630
+      },
+      "startTimestamp": 1653949430,
+      "endTimestamp": 1654208630,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 134107304.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 134107303.3359585,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4Y2JkZjUxM2JhNGJiZGYyZDRlNzE2OWRjZTBkMGI0MjhiNWEwMDI3ODkzZDE0Zjg5ZWUxNjY2MzIzNWFkMjllOA==",
+      "id": "0xcbdf513ba4bbdf2d4e7169dce0d0b428b5a0027893d14f89ee16663235ad29e8",
+      "title": "AIP #8 - An update on Abracadabra fee distribution, introducing mSpell staking pools",
+      "content": "TL;DR: Offer the option to Spell users to lock their tokens for mSpell and earn MIM.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-8-an-update-on-abracadabra-fee-distribution-introducing-mspell-staking-pools/3218",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x7897531b47C6dB37570b4d2441a4484Dd5f97133",
+      "totalVotes": 119,
+      "blockNumber": 14410814,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xcbdf513ba4bbdf2d4e7169dce0d0b428b5a0027893d14f89ee16663235ad29e8",
+      "startTime": {
+        "timestamp": 1647615600
+      },
+      "endTime": {
+        "timestamp": 1647874800
+      },
+      "startTimestamp": 1647615600,
+      "endTimestamp": 1647874800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, add mSPELL",
+        "No, do not add mSPELL"
+      ],
+      "results": [
+        {
+          "total": 2248753700.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2248753145.298551,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4Yjg2ZGE2MWM0NGM2ZTkxZjk0NzM2OTk0MTQ0ZmJiN2E3NTc2OTRmNDAzMjc5ZWFkZDkzNTcyMTEyZGZjMGNjMw==",
+      "id": "0xb86da61c44c6e91f94736994144fbb7a757694f403279eadd93572112dfc0cc3",
+      "title": "AIP #7 - Expecto Patronum",
+      "content": "TL;DR: Use a maximum of 30B SPELL from the treasury to acquire MIMs thourgh the WonderlandDAO rage quit option, and use those MIMs to build a CRV treasury.\n\n📖 Read the proposal here: https://forum.abracadabra.money/t/aip-7-expecto-patronum-a-shield-for-all-frogs/2755\n",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x7897531b47C6dB37570b4d2441a4484Dd5f97133",
+      "totalVotes": 133,
+      "blockNumber": 14320757,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xb86da61c44c6e91f94736994144fbb7a757694f403279eadd93572112dfc0cc3",
+      "startTime": {
+        "timestamp": 1646406000
+      },
+      "endTime": {
+        "timestamp": 1646665200
+      },
+      "startTimestamp": 1646406000,
+      "endTimestamp": 1646665200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, initiate Patronum",
+        "No, don't initiate Patronum"
+      ],
+      "results": [
+        {
+          "total": 2939052500.0,
+          "choice": 0
+        },
+        {
+          "total": 48796936.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2939052016.211281,
+          "choice": 0
+        },
+        {
+          "total": 48796934.86865286,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YTVmMWJiMTI3YmEzNTE2ZGRjMTZlZDQ0YWNlMTJhZDQ4Zjc0ZjAyZThjM2FlZTU0MmU3ODczNWVmNmJiM2E0Mw==",
+      "id": "0xa5f1bb127ba3516ddc16ed44ace12ad48f74f02e8c3aee542e78735ef6bb3a43",
+      "title": "AIP #5 - Abracadabra Team Proposal: Get MIM on Aave",
+      "content": "tl;dr: Aave collaterals get voted in by governance, in order to make sure that MIM gets voted in, the Abracadabra Team, proposes that we take 2 weeks of protocols earnings (capped at $5mil) to Bribe votes, via Bribe Protocol.\n\nRead more here: https://forum.abracadabra.money/t/aip-5-abracadabra-team-proposal-get-mim-on-aave/2399",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x7897531b47C6dB37570b4d2441a4484Dd5f97133",
+      "totalVotes": 92,
+      "blockNumber": 14061352,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xa5f1bb127ba3516ddc16ed44ace12ad48f74f02e8c3aee542e78735ef6bb3a43",
+      "startTime": {
+        "timestamp": 1642935600
+      },
+      "endTime": {
+        "timestamp": 1643194800
+      },
+      "startTimestamp": 1642935600,
+      "endTimestamp": 1643194800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Approve",
+        "No, Disapprove"
+      ],
+      "results": [
+        {
+          "total": 842478460.0,
+          "choice": 0
+        },
+        {
+          "total": 9722.604,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 842478390.3865844,
+          "choice": 0
+        },
+        {
+          "total": 9722.603533805024,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YWRkNTliYzI3MjhhZmU5ZDkxZDIzNGNmYWM4ZTJhYmQwNTQ1MGMxNDQ0MTgwOGEwMmRjMWJkODYyNjBjODVlNw==",
+      "id": "0xadd59bc2728afe9d91d234cfac8e2abd05450c14441808a02dc1bd86260c85e7",
+      "title": "AIP: MIM Replenishes for PLP Cauldrons",
+      "content": "Proposal: https://forum.abracadabra.money/t/aip-1-mim-replenishes-for-plp-cauldrons/55/89\n\nThis is the first proposal up for vote to top up of 25m MIM a total of 150m MIM for each of the following Popsicle Finance PLP Cauldrons:\n\nUSDT/WETH\nUSDC/WETH\nWBTC/WETH\nUSDT/UST\nUSDC/UST\nUSDC/USDT\n\nThe fees for the cauldrons as normal go to Abracadabra.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x7897531b47C6dB37570b4d2441a4484Dd5f97133",
+      "totalVotes": 160,
+      "blockNumber": 13867588,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xadd59bc2728afe9d91d234cfac8e2abd05450c14441808a02dc1bd86260c85e7",
+      "startTime": {
+        "timestamp": 1640343600
+      },
+      "endTime": {
+        "timestamp": 1640602800
+      },
+      "startTimestamp": 1640343600,
+      "endTimestamp": 1640602800,
+      "currentState": "closed",
+      "choices": [
+        "Yes, mint the MIM ",
+        "No, dont mint the MIM"
+      ],
+      "results": [
+        {
+          "total": 365456300.0,
+          "choice": 0
+        },
+        {
+          "total": 2847278.2,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 365456278.1097552,
+          "choice": 0
+        },
+        {
+          "total": 2847278.3701820187,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4YmZhYzk0ZTg0ZTk3YzM2ZDgwNjRlODliYTEyMzE2NWY1OWMwZGM5MTM5NWEwNGZjMDgzYTMxNmZlZDY1YzI0Yg==",
+      "id": "0xbfac94e84e97c36d8064e89ba123165f59c0dc91395a04fc083a316fed65c24b",
+      "title": "AIP #3 - Deploy Abracadabra Money on Polygon PoS",
+      "content": "tl;dr Polygon Team’s proposal to deploy Abracadabra Money on Polygon PoS Chain on behalf of the community.\n\nForum Discussion: https://forum.abracadabra.money/t/aip-3-deploy-abracadabra-money-on-polygon-pos/864",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x7897531b47C6dB37570b4d2441a4484Dd5f97133",
+      "totalVotes": 198,
+      "blockNumber": 13817239,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0xbfac94e84e97c36d8064e89ba123165f59c0dc91395a04fc083a316fed65c24b",
+      "startTime": {
+        "timestamp": 1639670400
+      },
+      "endTime": {
+        "timestamp": 1639929600
+      },
+      "startTimestamp": 1639670400,
+      "endTimestamp": 1639929600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, deploy on Polygon PoS",
+        "No, do not deploy on Polygon PoS"
+      ],
+      "results": [
+        {
+          "total": 711467650.0,
+          "choice": 0
+        },
+        {
+          "total": 4784038.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 711467540.7259429,
+          "choice": 0
+        },
+        {
+          "total": 4784038.014958665,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4MGJhMjk5MWJlOWY0MDNmMDEyYTMyM2E0MTRhZDNiZjMzMWRiYWNmYTYyM2FjMWI3MmU1ZTdkODYyOGMzYmNlZA==",
+      "id": "0x0ba2991be9f403f012a323a414ad3bf331dbacfa623ac1b72e5e7d8628c3bced",
+      "title": "AIP #2 - Burn Proposal of the Unallocated SPELL per week",
+      "content": "tl;dr:  We are proposing to burn 5.25B SPELL tokens on January 3, 2022. The burned tokens will be coming from a reduction in the weekly emissions of SPELL used to incentivise liquidity.\n\nproposal https://forum.abracadabra.money/t/2-burn-proposal-of-the-unallocated-spell-per-week/926",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x7897531b47C6dB37570b4d2441a4484Dd5f97133",
+      "totalVotes": 386,
+      "blockNumber": 13759925,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x0ba2991be9f403f012a323a414ad3bf331dbacfa623ac1b72e5e7d8628c3bced",
+      "startTime": {
+        "timestamp": 1638896400
+      },
+      "endTime": {
+        "timestamp": 1639155600
+      },
+      "startTimestamp": 1638896400,
+      "endTimestamp": 1639155600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Burn",
+        "No, don't Burn"
+      ],
+      "results": [
+        {
+          "total": 2029463000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2029463160.9180744,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OjB4NjcxYTQzZWZkYzBmMjJjZWRmOGFiMjgyYjI5NjAwODM0ZmZlYWJmYWYzZGQ0MGQ3ZjAxZDM0Y2U2OGRlZDEwZg==",
+      "id": "0x671a43efdc0f22cedf8ab282b29600834ffeabfaf3dd40d7f01d34ce68ded10f",
+      "title": "Proposal: Deploy Cauldrons and Degenbox on BSC",
+      "content": "**Proposal to Deploy Cauldrons and Degenbox on BSC**\n\nBinance Smart Chain is the first chain that really started the EVM compatibility ecosystem. Currently BSC is seeing 1.6M Daily Active Addresses with a total of $20B TVL being onchain, this is obviously a substantial amount. With Abracadabra moving to BSC, we could capture more TVL, new assets and completely new users.\n\nNeedless to say, the Binance Smart Chain Ecosystem Fund of $1 Billion that was recently announced will very likely further increase adoption of the chain and also further grow TVL.\n\nAbracadabra.money is a multichain project and because of this it is a no brainer to deploy on BSC as it is the second largest chain in this EVM ecosystem.\n",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x7897531b47C6dB37570b4d2441a4484Dd5f97133",
+      "totalVotes": 459,
+      "blockNumber": 13498652,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/0x671a43efdc0f22cedf8ab282b29600834ffeabfaf3dd40d7f01d34ce68ded10f",
+      "startTime": {
+        "timestamp": 1635328800
+      },
+      "endTime": {
+        "timestamp": 1635501600
+      },
+      "startTimestamp": 1635328800,
+      "endTimestamp": 1635501600,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Deploy",
+        "No, don't deploy"
+      ],
+      "results": [
+        {
+          "total": 3510012400.0,
+          "choice": 0
+        },
+        {
+          "total": 4235347.5,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3510012715.6032414,
+          "choice": 0
+        },
+        {
+          "total": 4235347.521173811,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OnFtcmltbG1rYzU3emR6b2VqeW9nc2g0cGVxeXVxMjVvM2NrZ3A4OXl5OHl2Zm8=",
+      "id": "QmRiMLmkc57zDzoEJYogSH4pEqyuQ25o3CkGP89yY8yVfo",
+      "title": "Should Abracadabra accumulate vlCVX?",
+      "content": "With my support, as written up by Clonescody, a proposal that Abracadabra purchase CVX to facilitate cheaper curve boosts: https://hackmd.io/@Clonescody/ByksCm1BK",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x588A07FdB3dDafF7E32B7fe20828afAB7D3387E7",
+      "totalVotes": 269,
+      "blockNumber": 13389179,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/QmRiMLmkc57zDzoEJYogSH4pEqyuQ25o3CkGP89yY8yVfo",
+      "startTime": {
+        "timestamp": 1633885200
+      },
+      "endTime": {
+        "timestamp": 1634490000
+      },
+      "startTimestamp": 1633885200,
+      "endTimestamp": 1634490000,
+      "currentState": "closed",
+      "choices": [
+        "Yes, vlCVX for the wizards",
+        "No vlCVX for the wizards"
+      ],
+      "results": [
+        {
+          "total": 3307953200.0,
+          "choice": 0
+        },
+        {
+          "total": 814322500.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 3307952321.092169,
+          "choice": 0
+        },
+        {
+          "total": 814322477.1198324,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OnFtdnRia3VmM21xbmE0YmhjcW4xeHJzcHJicnRjcmJkYnhtbmVibHY1dHEzZG0=",
+      "id": "QmVtBKUF3MqNA4bhcQn1XrsPrbRtcRbDBXMNebLV5tq3dM",
+      "title": "Proposal to integrate B.Protocol v2 with Abracadabra over Ethereum",
+      "content": "**TL; DR**: Integrate B.Protocol v2 to offer better liquidation ratios and up to 90% Collateral Factor on chosen non-stable ibTKN Vaults. \n\nB.Protocol is a backstop liquidity protocol for DeFi, handling liquidations in scale. B.Protocol v2 is pooling users’ funds that are dedicated towards liquidations, using the B.AMM (Backstop AMM) novel design.\n\n**Expected Benefits**:\nFor Users: Have better capital efficiency for using their funds in DeFi. Getting a bigger buffer before being liquidated when using lower CF with better liquidation ratios.\nFor Abracadabra: Being among the first lending platforms in DeFi to offer high leverage/ CF  on non stable coin pairs, earn fees for the protocol, grow TVL and user base.\nFor DeFI: Providing a backstop to enable a better liquidation system that can unleash better capital efficiency for DeFi users and more stability for lending and margin trading platforms. Prove again that composability introduces new opportunities in DeFi.\n\n**Details**:\nThis proposal suggests starting with a pilot experiment, opening a new Vault(s) with higher CF of up to 90%. Details on specific Collateral types will be discussed later.   \n\nThe Backstop Pool will be open for MIM deposits that will be used for liquidating unsafe CDPs on the backstopped Vaults. \n\nThe seized ibTKN collateral will be sold back into MIM and returned into the Backstop pool with any additional profits made during the liquidation and rebalancing process (see the illustrated diagram below).\n\n**Incentivizing Backstop deposits**:\nIn order to incentivize early depositors into the backstop pool of MIM, and in order to demonstrate the endless composability opportunities in DeFi, a joint Liquidity Mining program will be put in place, that will reward MIM liquidity providers to the Backstop pool with SPELL and BPRO. The required amounts for the LM will be discussed at later stages.\n\n",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x7897531b47C6dB37570b4d2441a4484Dd5f97133",
+      "totalVotes": 247,
+      "blockNumber": 13402773,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/QmVtBKUF3MqNA4bhcQn1XrsPrbRtcRbDBXMNebLV5tq3dM",
+      "startTime": {
+        "timestamp": 1634039880
+      },
+      "endTime": {
+        "timestamp": 1634479200
+      },
+      "startTimestamp": 1634039880,
+      "endTimestamp": 1634479200,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Integrate B.Protocol",
+        "No, don't integrate B.Protocol"
+      ],
+      "results": [
+        {
+          "total": 4447902700.0,
+          "choice": 0
+        },
+        {
+          "total": 42879072.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4447904367.079832,
+          "choice": 0
+        },
+        {
+          "total": 42879075.9140169,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OnFtcDhzaWpncW1tZWFudWRia2dldG5pd2pobzFzdGZrZnVxOWZvZWxyeDdoaGg=",
+      "id": "QmP8siJgqmmeANUdBkGeTNiwJho1STfKfUq9FoELrX7hHh",
+      "title": "#3 Add $SHIB as Collateral ",
+      "content": "LTV: 70%\nInterest: 6%\nInitial fee: 0.5%\nLiquidation fee: 12.5%\nOracle: 10 minute UniV3 TWAP with the ETH/USD price feed from ChainLink.\n\nUniswap V3 Pool: https://info.uniswap.org/#/pools/0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec\n\n\n\n",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x8A7f7C5b556B1298a74c0e89df46Eba117A2F6c1",
+      "totalVotes": 151,
+      "blockNumber": 13378039,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/QmP8siJgqmmeANUdBkGeTNiwJho1STfKfUq9FoELrX7hHh",
+      "startTime": {
+        "timestamp": 1633687200
+      },
+      "endTime": {
+        "timestamp": 1634032800
+      },
+      "startTimestamp": 1633687200,
+      "endTimestamp": 1634032800,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1882963100.0,
+          "choice": 0
+        },
+        {
+          "total": 63689800.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 1882962913.060788,
+          "choice": 0
+        },
+        {
+          "total": 63689789.22708103,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OnFteTN1NHNsamR2a2x0d2liZDJiZ3F1aHZyZXFncnVucDZkc3U4cHBoZ3R6Z20=",
+      "id": "QmY3U4SLjDVKLTwiBd2BGQUHvreqgrUnP6Dsu8PPHgtZGM",
+      "title": "#2 $SPELL Farming Reduction and Supply Burn Proposal",
+      "content": "Abracadabra has become a force of nature, we are seeing usage explode, and MIM peg being extremely strong. For this reason I propose to burn and reduce 20% of the SPELL that has been allocated to farming rewards. This marketing budget is no longer required, the team and treasury does not need this allocation.\n\nTo read the details about amounts to be burned and more please refer to the medium post here: https://abracadabramoney.medium.com/spell-farming-reduction-and-supply-burn-proposal-9e6e0dfdb78f",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x8A7f7C5b556B1298a74c0e89df46Eba117A2F6c1",
+      "totalVotes": 483,
+      "blockNumber": 13371791,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/QmY3U4SLjDVKLTwiBd2BGQUHvreqgrUnP6Dsu8PPHgtZGM",
+      "startTime": {
+        "timestamp": 1633600800
+      },
+      "endTime": {
+        "timestamp": 1633946400
+      },
+      "startTimestamp": 1633600800,
+      "endTimestamp": 1633946400,
+      "currentState": "closed",
+      "choices": [
+        "Yes, Burn",
+        "No, keep rewards"
+      ],
+      "results": [
+        {
+          "total": 12311427000.0,
+          "choice": 0
+        },
+        {
+          "total": 39495696.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 12311431516.735325,
+          "choice": 0
+        },
+        {
+          "total": 39495694.423046686,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YWJyYWNhZGFicmFieW1lcmxpbnRoZW1hZ2ljaWFuZXRoOnNuYXBzaG90OnFtd2dsOHV2b2s0OGd5emtmaG10aG54dGpwcmV5cGZzcWd1Mm44YnJ6Zndqang=",
+      "id": "QmWGL8uVoK48GYzKFhMtHNXTjpReYPfsQgU2N8bRzFWjJx",
+      "title": "#1: Add AGLD Cauldron",
+      "content": "Hello everyone, \nas an initial proposal I would like to vote about adding a cauldron with AGLD as collateral with the following conditions:\n\nLTV: 50%\nInterest: 4%\nInitial fee: 0.5%\nLiquidation fee: 12.5%\nOracle: 0xFDeBd11f8f821B7Bf404DfaFD4d2bC83DCb8bB26\n\nThe oracle is a combined 10 minute UniV3 TWAP with the ETH/USD price feed from ChainLink.",
+      "protocol": "abracadabrabymerlinthemagicianeth",
+      "adapter": "snapshot",
+      "proposer": "0x99459A327E2e1f7535501AFF6A1Aada7024C45FD",
+      "totalVotes": 199,
+      "blockNumber": 13291135,
+      "externalUrl": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth/proposal/QmWGL8uVoK48GYzKFhMtHNXTjpReYPfsQgU2N8bRzFWjJx",
+      "startTime": {
+        "timestamp": 1632477600
+      },
+      "endTime": {
+        "timestamp": 1632779940
+      },
+      "startTimestamp": 1632477600,
+      "endTimestamp": 1632779940,
+      "currentState": "closed",
+      "choices": [
+        "Yes, with 5M MIM initial limit",
+        "Yes, with 2M MIM initial limit",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 2976501800.0,
+          "choice": 0
+        },
+        {
+          "total": 313461800.0,
+          "choice": 2
+        },
+        {
+          "total": 144543280.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2976501548.4660535,
+          "choice": 0
+        },
+        {
+          "total": 144543282.58131114,
+          "choice": 1
+        },
+        {
+          "total": 313461811.2647375,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

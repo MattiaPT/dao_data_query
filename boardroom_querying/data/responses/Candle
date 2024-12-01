@@ -1,0 +1,536 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Y2FuZGxlOnNuYXBzaG90OjB4Mzg4ZWY2YjhiZjBiNTAzZjg5MGI4ZmQzNjFhY2UxZGQ3YjcxMGUxNGU5Mjg0MzBmMWMzNWQwYzJjMGZjMzI1Yw==",
+      "id": "0x388ef6b8bf0b503f890b8fd361ace1dd7b710e14e928430f1c35d0c2c0fc325c",
+      "title": "Test Proposal",
+      "content": "Test #28",
+      "protocol": "candle",
+      "adapter": "snapshot",
+      "proposer": "0x546D090bbcEC3d96903d41e38C3436c1C601AF9c",
+      "totalVotes": 0,
+      "blockNumber": 2356374,
+      "externalUrl": "https://snapshot.org/#/cndl.eth/proposal/0x388ef6b8bf0b503f890b8fd361ace1dd7b710e14e928430f1c35d0c2c0fc325c",
+      "startTime": {
+        "timestamp": 1657171160
+      },
+      "endTime": {
+        "timestamp": 1657174760
+      },
+      "startTimestamp": 1657171160,
+      "endTimestamp": 1657174760,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 2000000,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y2FuZGxlOm9uY2hhaW46Nzc2ODQ1MDM1MjI3MTA2MzMxNTM4MDk4NjI0NTQyODUyMTE3NDk4NDMwODU3NjEwNTk4MjYxNjUyNzk3NTg1MTQ0NjY2NzI4MTQ0ODM=",
+      "id": "77684503522710633153809862454285211749843085761059826165279758514466672814483",
+      "title": "Transfer from Candle governance treasury",
+      "content": "Test Transfer 1\n\n",
+      "protocol": "candle",
+      "adapter": "onchain",
+      "proposer": "0x1661344468cB010c77113c7bE07a40fc0eF6e702",
+      "totalVotes": 1,
+      "blockNumber": 14269938,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1645721210,
+      "endTimestamp": 1645895823,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 85265810000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14283029
+          },
+          "event": "active",
+          "timestamp": 1645895823,
+          "txHash": "0xf4d5b01c8674845dfac4d06ea3970947e3bc2913c0c519bee755b83bc1e823c0"
+        },
+        {
+          "time": {
+            "blockNumber": 14267938
+          },
+          "event": "pending",
+          "timestamp": 1645693792,
+          "txHash": "0xf4d5b01c8674845dfac4d06ea3970947e3bc2913c0c519bee755b83bc1e823c0"
+        },
+        {
+          "time": {
+            "blockNumber": 14292745
+          },
+          "event": "executed",
+          "timestamp": 1646026225,
+          "txHash": "0x2f8b5178fd332aeff7dd1426be9cfb5fe4cf75ae14051188310afb71d98aae16"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 85265810000.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y2FuZGxlOm9uY2hhaW46NTMzOTk0ODM0MTI0MjA3NjE3ODk5MDI5OTQwNTY0NzY2NDM0NDk2MDExMzMzODcxMzUyMDMzMTExMDczMDYzMzgzNzU0NTA0MTc0OQ==",
+      "id": "5339948341242076178990299405647664344960113338713520331110730633837545041749",
+      "title": "Test Gnosis Multi-Sig Safe ",
+      "content": "Test One\n\n",
+      "protocol": "candle",
+      "adapter": "onchain",
+      "proposer": "0x546D090bbcEC3d96903d41e38C3436c1C601AF9c",
+      "totalVotes": 2,
+      "blockNumber": 14237323,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1645285323,
+      "endTimestamp": 1645459754,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 200080000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 14250414
+          },
+          "event": "closed",
+          "timestamp": 1645459754,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 14250414
+          },
+          "event": "active",
+          "timestamp": 1645459754,
+          "txHash": "0x9ca723d828f9cd40fa64682dc73af17a9afaf34d8c36240f82ea1511cb007b6a"
+        },
+        {
+          "time": {
+            "blockNumber": 14235323
+          },
+          "event": "pending",
+          "timestamp": 1645257283,
+          "txHash": "0x9ca723d828f9cd40fa64682dc73af17a9afaf34d8c36240f82ea1511cb007b6a"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 200080000.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y2FuZGxlOnNuYXBzaG90OjB4NjY4ZjY3ODAxYmI5NGI1YWU4YzcyNDA3MjIyZjQyZTQzZWQ1MDhjMTBiMDQxMmYzYzRlYjJmMjU4N2U0MmRmNg==",
+      "id": "0x668f67801bb94b5ae8c72407222f42e43ed508c10b0412f3c4eb2f2587e42df6",
+      "title": "Focus on the Metaverse",
+      "content": "Do we focus on the metaverse or web3 religion?",
+      "protocol": "candle",
+      "adapter": "snapshot",
+      "proposer": "0x546D090bbcEC3d96903d41e38C3436c1C601AF9c",
+      "totalVotes": 0,
+      "blockNumber": 14071018,
+      "externalUrl": "https://snapshot.org/#/cndl.eth/proposal/0x668f67801bb94b5ae8c72407222f42e43ed508c10b0412f3c4eb2f2587e42df6",
+      "startTime": {
+        "timestamp": 1643070325
+      },
+      "endTime": {
+        "timestamp": 1643077525
+      },
+      "startTimestamp": 1643070325,
+      "endTimestamp": 1643077525,
+      "currentState": "closed",
+      "choices": [
+        "The Metaverse",
+        "Web3 Religion"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y2FuZGxlOnNuYXBzaG90OjB4ODJjZTFhNmQ2YTUyNzRlNWZjZjhhOTc4YjkzYzBkYzg3MmVkYWViODYyY2ZmMTE1NzE4OWU4MmY0M2U2MTU2OA==",
+      "id": "0x82ce1a6d6a5274e5fcf8a978b93c0dc872edaeb862cff1157189e82f43e61568",
+      "title": "Expand Burning To Polygon?",
+      "content": "",
+      "protocol": "candle",
+      "adapter": "snapshot",
+      "proposer": "0x546D090bbcEC3d96903d41e38C3436c1C601AF9c",
+      "totalVotes": 0,
+      "blockNumber": 13996333,
+      "externalUrl": "https://snapshot.org/#/cndl.eth/proposal/0x82ce1a6d6a5274e5fcf8a978b93c0dc872edaeb862cff1157189e82f43e61568",
+      "startTime": {
+        "timestamp": 1642069544
+      },
+      "endTime": {
+        "timestamp": 1642073144
+      },
+      "startTimestamp": 1642069544,
+      "endTimestamp": 1642073144,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y2FuZGxlOm9uY2hhaW46Mzk5NzA3NjgwMTAwNjA1MDkxMTM2NjQ4MDAxNDQzMzc5OTU4NDIzODk4MTQwNDk3MjY3MzExNjEwMzYxMTA3NTgzNDc2OTUyNTczNQ==",
+      "id": "3997076801006050911366480014433799584238981404972673116103611075834769525735",
+      "title": "Proposal burn",
+      "content": "burn",
+      "protocol": "candle",
+      "adapter": "onchain",
+      "proposer": "0x546D090bbcEC3d96903d41e38C3436c1C601AF9c",
+      "totalVotes": 1,
+      "blockNumber": 13940659,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1641322101,
+      "endTimestamp": 1641497101,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 98987980000.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13953750
+          },
+          "event": "active",
+          "timestamp": 1641497101,
+          "txHash": "0xbffa996452987a2d171b4aeb65913c58bebb69e0380ca61b51369aaf51990d0b"
+        },
+        {
+          "time": {
+            "blockNumber": 13938659
+          },
+          "event": "pending",
+          "timestamp": 1641294738,
+          "txHash": "0xbffa996452987a2d171b4aeb65913c58bebb69e0380ca61b51369aaf51990d0b"
+        },
+        {
+          "time": {
+            "blockNumber": 14241182
+          },
+          "event": "executed",
+          "timestamp": 1645336222,
+          "txHash": "0x39a73810c9f3aa863450442b080b4592ee6bdeca7e08010b78d7ea5688d6125e"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 98987980000.0,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y2FuZGxlOnNuYXBzaG90OjB4Yjg5NjA4MDUxZjk1YmIxNTFjYWZiYTMyNzVjOWQxMjU3NmMwMzg2ZmM3OWUxYjQzNWJkYzBmYzdlM2M1MjA2YQ==",
+      "id": "0xb89608051f95bb151cafba3275c9d12576c0386fc79e1b435bdc0fc7e3c5206a",
+      "title": "Upgrade Voting To Support Multichain voting",
+      "content": "Since CNDL is on Polygon, Binance Smart Chain, and xDai (Gnosis) Chain, we should upgrade the voting protocol to support multichain voting. ",
+      "protocol": "candle",
+      "adapter": "snapshot",
+      "proposer": "0x546D090bbcEC3d96903d41e38C3436c1C601AF9c",
+      "totalVotes": 4,
+      "blockNumber": 13936001,
+      "externalUrl": "https://snapshot.org/#/cndl.eth/proposal/0xb89608051f95bb151cafba3275c9d12576c0386fc79e1b435bdc0fc7e3c5206a",
+      "startTime": {
+        "timestamp": 1641263042
+      },
+      "endTime": {
+        "timestamp": 1641284642
+      },
+      "startTimestamp": 1641263042,
+      "endTimestamp": 1641284642,
+      "currentState": "closed",
+      "choices": [
+        "Yes - Switch to Multichain",
+        "No - Keep it on Ethereum"
+      ],
+      "results": [
+        {
+          "total": 99289990000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 99289988878.474,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y2FuZGxlOnNuYXBzaG90OnFtcmhpZnJoOTN4cndud3EzcXB5dm12dWp5aXlobGJ1ZXVmand3NzhxZ2x4cmY=",
+      "id": "QmRHiFrH93XRWNWq3qpYVMvujyiYHLBueuFJwW78QGLXrf",
+      "title": "should we adjust the dimensions of the icon?",
+      "content": "the current icon is too small, therefore there is a blue border around it. adjusting it would remove said border. ",
+      "protocol": "candle",
+      "adapter": "snapshot",
+      "proposer": "0x83D550668894ad542D011D60945A5D7d0CFe1527",
+      "totalVotes": 3,
+      "blockNumber": 13936302,
+      "externalUrl": "https://snapshot.org/#/cndl.eth/proposal/QmRHiFrH93XRWNWq3qpYVMvujyiYHLBueuFJwW78QGLXrf",
+      "startTime": {
+        "timestamp": 1641267217
+      },
+      "endTime": {
+        "timestamp": 1641270817
+      },
+      "startTimestamp": 1641267217,
+      "endTimestamp": 1641270817,
+      "currentState": "closed",
+      "choices": [
+        "Yes adjust the dimensions",
+        "No leave it as is"
+      ],
+      "results": [
+        {
+          "total": 99189990000.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 99189988878.474,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6Y2FuZGxlOm9uY2hhaW46MTEwNDY0MzI2ODg3NzM2NjY1MTI0NDMxMzE3NjM2NTg4OTk2OTU2NDc5OTkzMDM2NzAyMjcxNzE3OTYxOTU5Nzg4ODM1NDA3OTYxODAy",
+      "id": "110464326887736665124431317636588996956479993036702271717961959788835407961802",
+      "title": "Proposal d",
+      "content": "d",
+      "protocol": "candle",
+      "adapter": "onchain",
+      "proposer": "0x546D090bbcEC3d96903d41e38C3436c1C601AF9c",
+      "totalVotes": 0,
+      "blockNumber": 13914041,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1640966229,
+      "endTimestamp": 1641140947,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 13927132
+          },
+          "event": "active",
+          "timestamp": 1641140947,
+          "txHash": "0xa25f2e41fd6de3ae43c15f7e032a2931fd7bded6896b7c4b0860bb73124c04d4"
+        },
+        {
+          "time": {
+            "blockNumber": 13912041
+          },
+          "event": "pending",
+          "timestamp": 1640938769,
+          "txHash": "0xa25f2e41fd6de3ae43c15f7e032a2931fd7bded6896b7c4b0860bb73124c04d4"
+        },
+        {
+          "time": {
+            "blockNumber": 13927132
+          },
+          "event": "closed",
+          "timestamp": 1641140947,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

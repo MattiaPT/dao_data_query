@@ -1,0 +1,463 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6bmFtZWRhbzpvbmNoYWluOjB4Nzc1NGQxMDE3YWZjNDBjZjg5N2UzODU5ZmYxNzA1YWQxMDQyNmRhMjI4ZGQ4ZjU1NzgzNGUzYzFlY2VjZDMzYg==",
+      "id": "0x7754d1017afc40cf897e3859ff1705ad10426da228dd8f557834e3c1ececd33b",
+      "title": "Proposal 0x7754d1017afc40cf897e3859ff1705ad10426da228dd8f557834e3c1ececd33b",
+      "content": "",
+      "protocol": "nameDao",
+      "adapter": "onchain",
+      "proposer": "0xa8A8248Cf3B0aA439a184f099d0d61F10315A472",
+      "totalVotes": 1,
+      "blockNumber": 20430848,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1722480960
+      },
+      "endTime": {
+        "timestamp": 1722826560
+      },
+      "startTimestamp": 1722480960,
+      "endTimestamp": 1722826560,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 20459584
+          },
+          "event": "queued",
+          "timestamp": 1722827387,
+          "txHash": "0x1e6f6792edd723ce563e3322ee9f1f8b47d9f310a80eba16fb90b5fa325d051c"
+        },
+        {
+          "time": {
+            "blockNumber": 20430848
+          },
+          "event": "pending",
+          "timestamp": 1722480959,
+          "txHash": "0x4fba31a9d3dce6f1092dc7a4d6f0c3d91c8ca2932a188a6244dcb7e9c6a74c3c"
+        },
+        {
+          "time": {
+            "blockNumber": 20475492
+          },
+          "event": "executed",
+          "timestamp": 1723019195,
+          "txHash": "0xbda456258db1873d9e2a7fcfd086d53456b2d769af025af334d2deefdcc84c83"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1722482354270,
+      "txHash": "0x4fba31a9d3dce6f1092dc7a4d6f0c3d91c8ca2932a188a6244dcb7e9c6a74c3c",
+      "quorum": 5,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bmFtZWRhbzpvbmNoYWluOjB4NTc2MmZkYmY2ODEwNGFkMWZjY2IxNjQ5ZjJkM2E1YjFiNWUwNGExMWUxZTdlZjBjYTJhNzQ0ODBjOTkwZjdmZA==",
+      "id": "0x5762fdbf68104ad1fccb1649f2d3a5b1b5e04a11e1e7ef0ca2a74480c990f7fd",
+      "title": "Update Auction Time to 4 Hours for ETHDenver",
+      "content": "Update auction time to 4 hours so we can build excitement and membership faster while at ETHDenver. The plan is to change it back after, but we can decide together what we want to do at that time.",
+      "protocol": "nameDao",
+      "adapter": "onchain",
+      "proposer": "0xA9fA105CC800137B8BC9E7bD34d26460E1E77b9A",
+      "totalVotes": 2,
+      "blockNumber": 19257511,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1708293720
+      },
+      "endTime": {
+        "timestamp": 1708639320
+      },
+      "startTimestamp": 1708293720,
+      "endTimestamp": 1708639320,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19293936
+          },
+          "event": "queued",
+          "timestamp": 1708735391,
+          "txHash": "0x563fa3c9cccdea293655078506ecfa5dcecd51b77d1e7ba3bba6ddc930acd8f4"
+        },
+        {
+          "time": {
+            "blockNumber": 19257511
+          },
+          "event": "pending",
+          "timestamp": 1708293719,
+          "txHash": "0x24bca14065ee2ea3430aad170385ad043c9b380713283f4f4c5068e99bb9bfde"
+        },
+        {
+          "time": {
+            "blockNumber": 19314539
+          },
+          "event": "executed",
+          "timestamp": 1708984403,
+          "txHash": "0xe76489afd0010d4da3749bdf9b62e2aa49dc83ee4dc9558a0f481116a2e66274"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 7.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708293728395,
+      "txHash": "0x24bca14065ee2ea3430aad170385ad043c9b380713283f4f4c5068e99bb9bfde",
+      "quorum": 4,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bmFtZWRhbzpvbmNoYWluOjB4NDg5NGI1NGJhYjBmMDdmZTM5YWM5MjMxNjFlODg2NGUyYWQ3M2MwNGEyZTQ2MWJlNzY4MGE5NTRhMWI5YTY2OQ==",
+      "id": "0x4894b54bab0f07fe39ac923161e8864e2ad73c04a2e461be7680a954a1b9a669",
+      "title": "T-Shirts for ETHDenver",
+      "content": "I propose we buy ~200 t-shirts or as many as we can for 1 ETH, for ETHDenver. They will have a blank name tag on them, possibly an example NFT, or possibly even a unique shirt for each current member. \n\nSee examples below. The exact design is in the works.\n\nThis proposal sends 1 ETH to DAO founder and member Adam Miller, who will use his credit card to buy the shirts and return any unused money to the DAO. Sven will be helping with the design, and the other Adam may also help with the design.\n\nThe purpose is to use these shirts to promote our DAO at ETHDenver, both because we DAO members will wear them and because we can give them to people who bid or who buy new membership NFTs during the event.\n\n![image](https://ipfs.decentralized-content.com/ipfs/bafybeibyj62mkagjaarpkwrl7vdkfyidjw2fmbuosmlotlp5qbragox4hq)\n\n![image](https://ipfs.decentralized-content.com/ipfs/bafybeigda55maorbybhxt3wpvkdwhw2m5hpvjovig2m7juksj4q6n2r5ci)\n\n![image](https://ipfs.decentralized-content.com/ipfs/bafkreifywzsa5ue2ij2sxhaoeivwf6agf4jiqsablndqy7e7i3mkupmxie)",
+      "protocol": "nameDao",
+      "adapter": "onchain",
+      "proposer": "0xA9fA105CC800137B8BC9E7bD34d26460E1E77b9A",
+      "totalVotes": 2,
+      "blockNumber": 19081838,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1706164020
+      },
+      "endTime": {
+        "timestamp": 1706509620
+      },
+      "startTimestamp": 1706164020,
+      "endTimestamp": 1706509620,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19131555
+          },
+          "event": "executed",
+          "timestamp": 1706765915,
+          "txHash": "0x6b0c9d774bdc9445920bc62dd7debcde832d68d6e7b85333d6fe79aedea5236d"
+        },
+        {
+          "time": {
+            "blockNumber": 19081838
+          },
+          "event": "pending",
+          "timestamp": 1706164019,
+          "txHash": "0x4064b83a93fc662aa1fa99fbe142200572bd4759ad1259c3e2b616d628a30792"
+        },
+        {
+          "time": {
+            "blockNumber": 19113647
+          },
+          "event": "queued",
+          "timestamp": 1706549003,
+          "txHash": "0x36595583796088cca968370179c5ecce352e073a638cc14b5f2f4308a9db52cd"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 5.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1706165060514,
+      "txHash": "0x4064b83a93fc662aa1fa99fbe142200572bd4759ad1259c3e2b616d628a30792",
+      "quorum": 4,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bmFtZWRhbzpvbmNoYWluOjB4MzZlMGRmMDVmZmMyNTQ4ZDQ1NDU3NTM4NGM2NzkyMWVkOGMwMzllMmI5ZTJhNmQzNjc3Mzg3NjA1NjQ2OWE0NQ==",
+      "id": "0x36e0df05ffc2548d454575384c67921ed8c039e2b9e2a6d36773876056469a45",
+      "title": "Seeding Auction from Multisig",
+      "content": "<p>Currently multiple people would like to participate in the NameDAO auction but the high gas price of the settlement is a deterrent. I propose to transfer 0.5 ETH to the founder multisig with the express purpose to be used to settle each auction as well as place the min bid of 0.05ETH.&nbsp;</p><p>Should the auction not get any additional bids, then that NFT will be reserved for a \"grant program\" where anyone that wishes to contribute to NameDAO, but may not have the financial means to bid, can apply.&nbsp;Said grant program can be held through e.g. Snapshot on Polygon to minimize cost (since the entire point is enabling inclusion of talent beyond capital).</p><p><br></p><p>Economics (estimated by current gas prices):</p><p>Settlement cost: \t\t0.00065Eth ($25)</p><p>Min Bid: \t\t\t\t\t0.05Eth&nbsp;</p><p>Max NFTs: \t\t\t\t~9</p>",
+      "protocol": "nameDao",
+      "adapter": "onchain",
+      "proposer": "0x0c687a27410E8a655Bf31befc4c88237A60B1D3D",
+      "totalVotes": 2,
+      "blockNumber": 16786683,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1678403171
+      },
+      "endTime": {
+        "timestamp": 1678748771
+      },
+      "startTimestamp": 1678403171,
+      "endTimestamp": 1678748771,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16837360
+          },
+          "event": "queued",
+          "timestamp": 1678932695,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16852303
+          },
+          "event": "executed",
+          "timestamp": 1679114135,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417147351,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bmFtZWRhbzpvbmNoYWluOjB4YTJmOTE2NDkzNWM2YzkwMjhlMTQyZjVjNTUxNTJkMmYyMWZiMDNhY2VhMTExNGYyMmRlNWE5NGE5MmIxODE4OQ==",
+      "id": "0xa2f9164935c6c9028e142f5c55152d2f21fb03acea1114f22de5a94a92b18189",
+      "title": "check spend",
+      "content": "<p>check spend with .01 eth transaction to multisig</p>",
+      "protocol": "nameDao",
+      "adapter": "onchain",
+      "proposer": "0xB1FEDcC8BCA3f07702D3F92538f281a5095b0537",
+      "totalVotes": 1,
+      "blockNumber": 16784820,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1678380455
+      },
+      "endTime": {
+        "timestamp": 1678726055
+      },
+      "startTimestamp": 1678380455,
+      "endTimestamp": 1678726055,
+      "currentState": "queued",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16820618
+          },
+          "event": "queued",
+          "timestamp": 1678729319,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417147351,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bmFtZWRhbzpvbmNoYWluOjB4MDY3YzQ2MTBhNWMzMGNkODY1OWFkODdmMjU2NWMzNWVkZWJjNWI3NGRhYzdkZTc2MGFiZTZkMDIyNGI2YTBkNg==",
+      "id": "0x067c4610a5c30cd8659ad87f2565c35edebc5b74dac7de760abe6d0224b6a0d6",
+      "title": "Update auction parameters for post-ETHDenver",
+      "content": "This proposal changes the delay between a proposal and a vote starting from 24 hours to 1 second (the minimum). \n\nThis proposal also changes the auction period to 24 hours instead of 6. ",
+      "protocol": "nameDao",
+      "adapter": "onchain",
+      "proposer": "0xA9fA105CC800137B8BC9E7bD34d26460E1E77b9A",
+      "totalVotes": 2,
+      "blockNumber": 16742185,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1677862463
+      },
+      "endTime": {
+        "timestamp": 1678208063
+      },
+      "startTimestamp": 1677862463,
+      "endTimestamp": 1678208063,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16779010
+          },
+          "event": "queued",
+          "timestamp": 1678223507,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16801238
+          },
+          "event": "executed",
+          "timestamp": 1678493951,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417147351,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6bmFtZWRhbzpvbmNoYWluOjB4MDQ1ZjkyZjA0NTJiYTM3ODM5ZDcwMGIyY2EyZDdhZDE5YjY5NGNlYmIwMzQwY2Q2NGRmNDY5ZDRiMzdiNzE2NA==",
+      "id": "0x045f92f0452ba37839d700b2ca2d7ad19b694cebb0340cd64df469d4b37b7164",
+      "title": "Description typo fixes ",
+      "content": "Removing quotations from description, as they caused slashes to be added when displayed. \n\nFixed ETHDEnver to ETHDenver ",
+      "protocol": "nameDao",
+      "adapter": "onchain",
+      "proposer": "0xA9fA105CC800137B8BC9E7bD34d26460E1E77b9A",
+      "totalVotes": 2,
+      "blockNumber": 16740958,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1677847427
+      },
+      "endTime": {
+        "timestamp": 1678193027
+      },
+      "startTimestamp": 1677847427,
+      "endTimestamp": 1678193027,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16779007
+          },
+          "event": "queued",
+          "timestamp": 1678223471,
+          "txHash": ""
+        },
+        {
+          "time": {
+            "blockNumber": 16801235
+          },
+          "event": "executed",
+          "timestamp": 1678493915,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679417147351,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

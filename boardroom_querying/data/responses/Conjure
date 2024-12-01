@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6Y29uanVyZTpzbmFwc2hvdDpxbXB4anhobG9wa3lmaTZpYnlqemdsaGxza2IxajF3cmRpdGdhenJ3dzNod3Bk",
+      "id": "QmPxjXHLoPkyFi6ibyjZgLHLskB1J1WRDiTGazrww3hWPD",
+      "title": "Soft Proposal 0 - Pause LP rewards",
+      "content": "Soft Proposal 0 - Pause LP rewards\nThe LP reward phase has been happening for 12w now and has secured a stable 500k TVL. While that allows for decent liquidity we don't have the distribution where we’d like, as we want a large user base and control, not a few with a lot. So we’d like to propose to pause the rewards. The rewards have gone for 12w/24, and so we could save 1.2 m tokens for later use.\n\nProposal\nStop LP rewards for synthetic assets for CNJ, reallocate to growth or later LP rewards.\n\nWe’d like to see what people think and how they feel, as we want this to be a community decision.",
+      "protocol": "conjure",
+      "adapter": "snapshot",
+      "proposer": "0xAB96B1105a62448FFCDB4CC5641bfEd88c722fA9",
+      "totalVotes": 6,
+      "blockNumber": 13211871,
+      "externalUrl": "https://snapshot.org/#/conjure.eth/proposal/QmPxjXHLoPkyFi6ibyjZgLHLskB1J1WRDiTGazrww3hWPD",
+      "startTime": {
+        "timestamp": 1631466000
+      },
+      "endTime": {
+        "timestamp": 1631811600
+      },
+      "startTimestamp": 1631466000,
+      "endTimestamp": 1631811600,
+      "currentState": "closed",
+      "choices": [
+        "Stop LP Rewards",
+        "Continue LP Rewards"
+      ],
+      "results": [
+        {
+          "total": 16108.338,
+          "choice": 0
+        },
+        {
+          "total": 57265.363,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 16108.337871376058,
+          "choice": 0
+        },
+        {
+          "total": 57265.36263270456,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

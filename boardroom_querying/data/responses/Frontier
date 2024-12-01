@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6ZnJvbnRpZXI6c25hcHNob3Q6cW11eTR0eXB1cDN5Z3FydzZmNDhrZGRtcmpoNWRjd2JjbjR4aHF0MmNyMTMycQ==",
+      "id": "QmUY4TYPUP3ygqrW6f48kDdmRjH5dCWbCN4xHQt2Cr132Q",
+      "title": "Determine Preliminary Threshold for Frontier Community Votes",
+      "content": "The current configuration of the Frontier [Vote](https://vote.frontier.xyz/) portal stipulates that [$FRONT](https://etherscan.io/token/0xf8C3527CC04340b208C854E985240c02F7B7793f) holders must hold at least 1000 tokens within their wallets to be considered community members that can participate in voting (see [this commit](https://github.com/snapshot-labs/snapshot-spaces/commit/6fbf4681cc0f0ee082d9624b301a8fb33f85375b)). Additionally, those who provide liquidity to either Uniswap or Balancer are also counted (see the strategies available [here](https://docs.snapshot.page/strategies)).\n\nThe rationale for 1000 $FRONT is as follows:\n\n1. Current spot rate of $FRONT on the market is approximately .24 USDT. 1000 tokens, therefore, is 240 USDT and not (subjective) a large barrier to entry into Frontier community decisionmaking.\n2. The top ~450 wallets for $FRONT all hold more than 1000 tokens, give or take a few wallets at the time of writing. \n3. Higher threshold on token count means that someone who is signaling a vote has a vested interest in what we are attempting to accomplish at [Frontier](https://frontier.xyz/).\n\nThere are downsides to this approach, to be sure: \n\n1. If the [spot price](https://www.coingecko.com/en/coins/frontier) of $FRONT rises drastically, then the barrier of entry to becoming a Frontier voter goes down.\n2. 240 USDT is not a small sum of money in some parts of the world.\n3. Some may argue that holding 1 $FRONT should be enough to hold a vote in our community. \n\nThese are valid concerns. While we work on building out our roadmap for community development (Discord channel, long-form discussion forum, etc.), we should conclude on a minimum $FRONT per wallet count for non-trivial decisions about proposals that Core members accept or propose. \n\nDo note that this voting portal, while currently open to any $FRONT holder with a wallet balance greater than 1000, is not \"vote passes; therefore, an implementation will happen\". This is an experiment in community building that we are attempting to handle with voting, long-form discussion, and a mix of chats.\n\n**How many $FRONT held should be accepted into community voting?**\n\nVote below. Voting ends approximately one week from today. $FRONT held at block [11290000](https://etherscan.io/block/countdown/11290000) snapshot will be counted.",
+      "protocol": "frontier",
+      "adapter": "snapshot",
+      "proposer": "0xfC43f5F9dd45258b3AFf31Bdbe6561D97e8B71de",
+      "totalVotes": 0,
+      "blockNumber": 11290000,
+      "externalUrl": "https://snapshot.org/#/frontier/proposal/QmUY4TYPUP3ygqrW6f48kDdmRjH5dCWbCN4xHQt2Cr132Q",
+      "startTime": {
+        "timestamp": 1605546000
+      },
+      "endTime": {
+        "timestamp": 1606150800
+      },
+      "startTimestamp": 1605546000,
+      "endTimestamp": 1606150800,
+      "currentState": "closed",
+      "choices": [
+        "1000",
+        "500",
+        "100",
+        "50",
+        "Greater than 1"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 58415.95242566738,
+          "choice": 0
+        },
+        {
+          "total": 9316.534419829128,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 0.0,
+          "choice": 3
+        },
+        {
+          "total": 0.0,
+          "choice": 4
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

@@ -1,0 +1,1877 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg0MDQ3YWRiMWQyOWNkNTZlYmUwNDU3NDdkYmUzNTU0OGU5MjVlNDE5ODFlMTEyNjY3ZTEyMTNiOWM2YjIyMzA1",
+      "id": "0x4047adb1d29cd56ebe045747dbe35548e925e41981e112667e1213b9c6b22305",
+      "title": "BFBP-C-14: Fund Code4rena Audit for Stable Well Function",
+      "content": "## Proposer\n\nGuy\n\n## Summary\n\nFund a [Code4rena](https://code4rena.com/) audit and mitigation review of a Stable 2 Well Function and an Upgradable Well Implementation. Use 49,500 Beans from the Security Fund to pay for the audit.\n\n## Auditor\n\nCode4rena facilitates community driven contests for smart contract audits. Code4rena has a high quality reputation and no Code4rena audited code has lost any user funds in 3 years of audit contests.\n\nDecentralized security programs with aligned incentives for auditors have proven to have high efficacy in protecting code in the Beanstalk ecosystem (see [Immunefi](https://snapshot.org/#/beanstalkbugbounty.eth)). The Stable 2 Well Function and Upgradable Well Implementation are yet to be unaudited.\n\n## Payment\n\nThe audit contest is planned to start on Monday, July 29th. The award pool for the audit will be $37,500, with a total payment of 49,500 Beans to cover the award pool, the Code4rena fee and mitigation review.",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 20382989,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x4047adb1d29cd56ebe045747dbe35548e925e41981e112667e1213b9c6b22305",
+      "startTime": {
+        "timestamp": 1721905200
+      },
+      "endTime": {
+        "timestamp": 1722078000
+      },
+      "startTimestamp": 1721905200,
+      "endTimestamp": 1722078000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1721904690366,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg2Y2QzMTM3ZTUzMGJhZmM3YzkyM2IyNGZmMmM3OWE5MzY3MzkxMTMzZGY1ODQzODYyMTBkYTQ2ZjVhMjM1ZThl",
+      "id": "0x6cd3137e530bafc7c923b24ff2c79a9367391133df584386210da46f5a235e8e",
+      "title": "BFBP-C-13: Fund Codehawks Audit for Beanstalk 3",
+      "content": "## Proposer\n\nGuy\n\n## Summary\n\nFund a [Codehawks](https://www.codehawks.com/) competitive audit for Beanstalk 3 with 275,000 Beans, which includes implementations of (at least):\n* [RFC: Generalized Convert](https://github.com/BeanstalkFarms/Beanstalk/issues/716);\n* [RFC: Generalized Flood](https://github.com/BeanstalkFarms/Beanstalk/issues/740);\n* [RFC: Tractor](https://github.com/BeanstalkFarms/Beanstalk/issues/734);\n* [RFC: Secure Beanstalk](https://github.com/BeanstalkFarms/Beanstalk/issues/729), which includes:\n    * Upgrading the test suite to support Foundry;\n    * Upgrading the Solidity version of Beanstalk from 0.7.6 to 0.8.20;\n    * Upgrading Beanstalk to Storage V2;\n    * Migrating constants to state that are likely to be adjusted by the DAO in the future;\n* Whitelist v1.1 (discussed later);\n* Field V2 (discussed later); and\n* A series of contracts that can be used to migrate Beanstalk's state to an Ethereum L2.\n\n## Proposal\n\n[Codehawks](https://www.codehawks.com/) is a competitive audit platform facilitated by [Cyfrin](https://cyfrin.io/). The past few Codehawks audits (See [1](https://www.codehawks.com/report/clsxlpte900074r5et7x6kh96), [2](https://www.codehawks.com/report/clu7665bs0001fmt5yahc8tyh), [3](https://www.codehawks.com/report/clv1eptuo0003bcnzce1ap7om), [4](https://www.codehawks.com/contests/clvo5kwin00078k6jhhjobn22)) have shown that having judges with context on the protocol (as Cyfrin does) is a significant value add for determining the validity and severity of reports.\n\nThe prize pool for the Beanstalk 3 audit will be $250,000, with a 10% platform fee of $25,000 for a total cost of $275,000. Given the Beanstalk 3 upgrade (particularly Secure Beanstalk) touches many parts of the Beanstalk codebase, it is prudent to include the entire codebase as in scope of the audit.\n\nThe Beanstalk 3 audit competition is scheduled start on Thursday, May 30, 2024 and end ~5.5 weeks later on Monday, July 8, 2024.\n\n## Additional Notes\n\n### Foundry\n\nBeanstalk currently uses Hardhat as its main testing suite, which lacks many great features for testing such as:\n* Fuzz testing;\n* Differential testing;\n* `ffi` scripts; and\n* Stack traces.\n\nA significant number of whitehats and auditors prefer Foundry over Hardhat due to the tools available to them. \n\nHardhat testing is slow to compile (~1 minute to compile, ~5 minutes to run the test suite, ~5-10 minutes to run a stack trace, etc.) compared to Foundry testing. This leads to inefficient use of developer time.\n\nThus, we propose to migrate all tests from Hardhat to Foundry.\n\n### Solidity 0.8.20\n\nBeanstalk uses Solidity version 0.7.6. As a result, many QoL tools are not available to the Beanstalk development community, such as:\n* Using additional methods provided in EIP-1559;\n* Naming variables from mappings; and\n* Using SafeMath by default (leading to overflow).\n\nMost DeFi protocols use Solidity v0.8 or higher. Upgrading Solidity versions allows the Beanstalk development community to take advantage of tooling that is developed with v0.8.0^ in mind. For example, using Foundry with v0.7.6 requires a number of workarounds in order to properly use it.\n\nFurthermore, whitehats and auditors are generally more familiar with Solidity v0.8.0 and higher.\n\nThus, we propose to upgrade all contracts to v0.8.20. While there are more recent versions, Beanstalk should strike a balance between using a battle tested compiler and the latest version. For reference, Basin is developed in v0.8.20.\n\n### Storage V2\n\nBeanstalk uses diamond storage to read and write variables. With the introduction of Tractor, there are storage slots for the diamond implementation, Tractor, and a general storage slot. The slots for these are currently:\n\n```solidity\nds.slot = DIAMOND_STORAGE_POSITION // keccak256(\"diamond.standard.diamond.storage\");\ns.slot = 0;\nt.slot = TRACTOR_STORAGE_POSITION // keccak256(\"diamond.storage.tractor\"); \n```\n\nThis makes it incredibly difficult to implement changes in Beanstalk storage, compromising security, and generally increasing development timelines.\n\nThus, we propose to organize Beanstalk data into categories and store them separately, and unpack a majority of variables to reduce security risk.\n\n### Whitelist v1.1\n\nWhitelisting a Well requires code changes to the Beanstalk contracts. While the changes can potentially be minimal, they ultimately increase the friction associated with whitelisting a Well. Ideally, the DAO can whitelist a Well with the `init` function of a diamond cut. \n\nThus, we propose to implement a generalized oracle, liquidity weight function and Gauge Point function.\n\n### Field V2\n\nBeanstalk cannot easily add, modify or remove Yield Distributors, i.e., places where new Bean mints are allocated (currently the Silo, Field and Barn). It also cannot easily change the distribution of new Bean mints between various Yield Distributors.\n\nBeanstalk cannot support multiple Pod Lines, it cannot easily add, modify or remove Pod Lines and it cannot control the issuance of debt to particular Pod Lines.\n\nThus, we propose a generalized yield distribution system and Pod Line system. For reference, see [Temp-Check-4](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xc716cb01aeecc01ea4127ace7219e7efe644e8173d228c6b6ff9331c4d373222).\n\n### L2 Migration\n\nBeanstalk is a fairly gaseous protocol. While the costs of interacting with Beanstalk at the time of writing in May 2024 are reasonable, activity on Ethereum L1 is currently low. In the past when Gwei has reached mid to high double digit values, interacting with Beanstalk (such as Mowing, Planting, or Converting) have cost upwards of several hundred US dollars. This prices out smaller Farmers and reduces the efficacy of Beanstalk's peg maintenance mechanisms. \n\nThus, we propose a series of initialization scripts that migrate Beanstalk state to an L2 and a facet to allow smart contract addresses to choose an address on the L2 to claim their assets with. For reference, see [Temp-Check-5](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x93dfc538a66c1c199f5c9f0fd9c0233ce3625c7ada9743bafc8b5fbc0fc38fc7).",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 19976479,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x6cd3137e530bafc7c923b24ff2c79a9367391133df584386210da46f5a235e8e",
+      "startTime": {
+        "timestamp": 1716998400
+      },
+      "endTime": {
+        "timestamp": 1717171200
+      },
+      "startTimestamp": 1716998400,
+      "endTimestamp": 1717171200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716997630008,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg3OTUyOTZhYTRhOGU1MjU2YWVmYjc5MjhiMmQ2MWUxMjUxMjkxZmFjZDY5ZDNjYjcxMzUyYzc5NzIxOTRjNWQy",
+      "id": "0x795296aa4a8e5256aefb7928b2d61e1251291facd69d3cb71352c7972194c5d2",
+      "title": "BFBP-C-12: Fund Codehawks Audit Competitions for 3 Upgrades",
+      "content": "## Proposer\n\nGuy\n\n## Summary\n\nFund [Codehawks](https://www.codehawks.com/) competitive audits for implementations of the following RFCs:\n* [RFC: Whitelist BEANwstETH and Migrate to urBEANwstETH](https://github.com/BeanstalkFarms/Beanstalk/issues/731) for 38,500 Beans; and\n* [RFC: Multi Flow v1.1.0](https://github.com/BeanstalkFarms/Basin/issues/126) for (up to) 20,000 Beans; and\n* [RFC: Misc. Improvements]() for (up to) 30,000 Beans, which includes:\n    * [RFC: On-Chain Fert Metadata](https://github.com/BeanstalkFarms/Beanstalk/issues/741); \n    * [RFC: Soil Issuance Update](https://github.com/BeanstalkFarms/Beanstalk/issues/739); and\n    * [RFC: BDV Decrease](https://github.com/BeanstalkFarms/Beanstalk/issues/728).\n\n## Proposal\n\n[Codehawks](https://www.codehawks.com/) is a competitive audit platform facilitated by [Cyfrin](https://cyfrin.io/). The [Codehawks Seed Gauge audit](https://www.codehawks.com/contests/clsxlpte900074r5et7x6kh96) has shown that having judges with context on the protocol (as Cyfrin does) is a significant value add for determining the validity and severity of the reports. As discussed in past DAO meetings, the implementations for the BEANwstETH upgrade and Multi Flow v1.1.0 are ready for audit.\n\nThe [BEANwstETH audit competition](https://www.codehawks.com/contests/clu7665bs0001fmt5yahc8tyh) started on Monday, April 1, 2024 and is expected to last 2 weeks, followed by the Multi Flow v1.1.0 audit for ~1 week and the Misc. Improvements audit for ~2 weeks.\n\nThe prize pool for the BEANwstETH audit is $35,000, with a 10% platform fee of $3,500 for a total cost of $38,500. The prize pools for the Multi Flow and Misc. Improvements audits have not been finalized but are expected to be around $15,000 and $20,000, respectively. Thus, this proposal conservatively approves spending for each audit up to 20,000 Beans and 30,000 Beans, respectively.",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 19598835,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x795296aa4a8e5256aefb7928b2d61e1251291facd69d3cb71352c7972194c5d2",
+      "startTime": {
+        "timestamp": 1712433600
+      },
+      "endTime": {
+        "timestamp": 1712606400
+      },
+      "startTimestamp": 1712433600,
+      "endTimestamp": 1712606400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1712433141094,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg4YzQ1YjRkNzg0MDRjZWUwMzM4NDk1NGYzOWFjNGY5YThhZDJmMmU4ZjA0M2M5N2I0ZTA3OGM5OWE0YzViZjAz",
+      "id": "0x8c45b4d78404cee03384954f39ac4f9a8ad2f2e8f043c97b4e078c99a4c5bf03",
+      "title": "BFBP-C-11: Fund Codehawks Competitive Audit for Seed Gauge System",
+      "content": "## Proposer\n\nGuy\n\n## Summary\n\nFund a [Codehawks](https://www.codehawks.com/) competitive audit of the final version of the Seed Gauge System. Use 94,500 Beans from the Audit Fund to pay for the audit.\n\n## Context\n\nIt's no secret that the Seed Gauge System has taken longer to develop and secure than initially expected. For reference, the Cyfrin audit of the Seed Gauge System started in mid-October 2023, which was notably before (1) the 2 critical vulnerabilities reported by whitehats that were fixed in [EBIP-10](https://arweave.net/im3PLE28EkO_eMo4fPmtcTYBJFRErxZ_44I_LWPDIB8) and [EBIP-13](https://arweave.net/zKpHhC4c8NhJecrEGHQ8F_vhrLVVEqdGKrQODSoIKbg) and by definition, before (2) findings from the audit were reported by Cyfrin. Beanstalk Farms paid 60,000 Beans this audit per [BFCP-C-10](https://arweave.net/atWg701gYbp6PoJSK5OlgidojmyPIcPJkXqNwN7rJkg).\n\nAs a result of (1), it seems clear that decentralized security programs with aligned incentives for security researchers (like the Immunefi bug bounty program) are essential to securing Beanstalk. However, bug bounty programs typically only secure code after it is deployed on-chain when there are assets at risk. Given the nature of competitive audits, where there are many more auditors and a prize pool that is only rewarded to valid reports, they seem like a preferable pre-deployment alternative to private company audits for securing large, complex codebases like Beanstalk. This was also illustrated by the vulnerabilities found in the [Basin Code4rena audit](https://code4rena.com/reports/2023-07-basin) despite having been audited by 2 private companies beforehand.\n\nAs a result of (2), significant design changes to the Seed Gauge System were necessary. In particular, how Beanstalk was measuring Deposited BDV (i.e., what it measures to determine how to allocate Seed rewards to different whitelisted assets) in the initial version of the code was not sufficiently manipulation resistant. Thus, a 2 Season lag in Earned Bean distribution to new Deposits was implemented alongside the removal of the Vesting Period (added in [BIP-36](https://ragdi2zxddzujoy25uj67bzdqglsuvb6y6rxqbvp26rd263oh2sa.arweave.net/iAw0azcY80S7Gu0T74cjgZcqVD7Ho3gGr9eiPXtuPqQ)) altogether. Since then, there have also been additional changes such as infrastructure improvements to the Deposit Whitelist. In total these changes have resulted in >30% of the code in the final version being new or changed since the initial audit. For these reasons, another audit of some form is necessary.\n\nFinally, the Seed Gauge System is complex and is likely to be the most significant change to the Beanstalk codebase in 2024 (amongst [all of the other RFCs](https://github.com/BeanstalkFarms/Beanstalk/issues)). A more proactive approach to security spending (i.e., pre-deployment, rather than post-deployment in the form of bug bounties) is the best path forward.\n\n## Proposal\n\n[Codehawks](https://www.codehawks.com/) is a competitive audit platform facilitated by [Cyfrin](https://cyfrin.io/). \n\nThe audit competition is scheduled to start next week and last 3-4 weeks. The prize pool for the audit will be $90,000. Cyfrin typically charges a 25% platform fee on the prize pool to facilitate Codehawks competitions, but has decreased the fee to 5% for this audit.\n\nAfter spending the 94,500 Beans proposed in the BFBP, there will be   52,037 Beans remaining in the Audit Fund.",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 19270805,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x8c45b4d78404cee03384954f39ac4f9a8ad2f2e8f043c97b4e078c99a4c5bf03",
+      "startTime": {
+        "timestamp": 1708455600
+      },
+      "endTime": {
+        "timestamp": 1708628400
+      },
+      "startTimestamp": 1708455600,
+      "endTimestamp": 1708628400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1708455635853,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHhlY2I1NDc1ZmM0ZmU5MDExYzBhM2YzOWMyZGE3NTRiNGFlZTQ1ZDkxZjMyODcxMDc0MTQxYjhiMzA2MzQ1ODQw",
+      "id": "0xecb5475fc4fe9011c0a3f39c2da754b4aee45d91f32871074141b8b306345840",
+      "title": "BFBP-C-10: Hire Cyfrin to Audit Two BIPs",
+      "content": "## Proposer\n\nguy\n\n## Summary\n\nHire [Cyfrin](https://www.cyfrin.io/) to perform security audits of the next two BIPs from Beanstalk Farms. Use up to 90,000 Beans in total from the Audit Fund to pay for the two audits.\n\n## Auditor\n\nCyfrin is an audit firm started by [Patrick Collins](https://twitter.com/PatrickAlphaC), a smart contract engineer and educator.\n\nMembers of the Cyfrin team are responsible for creating [two of the most watched Solidity YouTube tutorials](https://www.youtube.com/watch?v=gyMwXuJrbJQ) of all time, [billion dollar DeFi integrations](https://compound.finance/governance/proposals/119), [security content](https://www.youtube.com/watch?v=TmZ8gH-toX0), and have often topped the [Code4rena leaderboard](https://code4rena.com/leaderboard).\n\nCyfrin has already [audited Basin](https://arweave.net/usT3ClfjHwpX32OXnh5De1aH79csX1PMoXJCghXBaps) and now that Cyfrin has completed their audit of [Beanstalk up to BIP-37](https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0xba995682016736af8bfb8cc4a25adec8a46fdc1c09374e0d02af84483954f44a) (final report forthcoming), they can audit new BIPs.\n\nThe next two BIPs from Beanstalk Farms are expected to be:\n* Migrate urBEAN3CRV to urBEANETH\n* Seed Gauge System\n\n## Payment\n\nUpon the passage of this proposal, Beanstalk Farms will send the payment for the first BIP audit. Upon the preparation of a final commit hash for the second BIP audit, Beanstalk Farms will send the payment for the second BIP audit. The total cost of the two audits shall not exceed 90,000 Beans without an additional BFBP.",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 18189470,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0xecb5475fc4fe9011c0a3f39c2da754b4aee45d91f32871074141b8b306345840",
+      "startTime": {
+        "timestamp": 1695362537
+      },
+      "endTime": {
+        "timestamp": 1695535337
+      },
+      "startTimestamp": 1695362537,
+      "endTimestamp": 1695535337,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1695363213035,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHhlYzU1Zjg0ZDQzN2Y5NmU0NzM2MTZiYjYwYTIxYjNhNDk3ZjUzZGFiODA0ZGZiZjM1ZTVmN2U3MDNhZjIyMzA1",
+      "id": "0xec55f84d437f96e473616bb60a21b3a497f53dab804dfbf35e5f7e703af22305",
+      "title": "BFBP-C-8: Fund Basin Code4rena Audit",
+      "content": "## Proposer\n\nguy\n\n## Summary\n\nFund a [Code4rena](https://code4rena.com/) audit of Basin. Use 26,000 USDC and ~28,600 Beans from the Audit Fund to pay for the audit.\n\n## Auditor\n\nCode4rena facilitates community driven contests for smart contract audits. Code4rena has a high quality reputation and no Code4rena audited code has lost any user funds in 2 years of audit contests.\n\nDecentralized security programs with aligned incentives for auditors have proven to have high efficacy in protecting code in the Beanstalk ecosystem (see [Immunefi](https://snapshot.org/#/beanstalkbugbounty.eth)). Although Basin has already been audited by Halborn and Cyfrin, the protocol will be non-upgradable, therefore it is prudent to frontload security work before deployment.\n\n## Payment\n\nThe audit contest is planned to start at the end of June / beginning of July 2023 and last 5 days. The award pool for the audit will be 40,000 USDC. \n\nPayment from Beanstalk Farms will be as follows:\n* 26,000 USDC (which contributes to the award pool);\n* $28,600 worth of Beans based on the Bean price at the time of payment (which contributes to the award pool and covers the Code4rena operating fee); and\n* 10,000 USDC (which is a refundable deposit).",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 17564396,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0xec55f84d437f96e473616bb60a21b3a497f53dab804dfbf35e5f7e703af22305",
+      "startTime": {
+        "timestamp": 1687792500
+      },
+      "endTime": {
+        "timestamp": 1687965300
+      },
+      "startTimestamp": 1687792500,
+      "endTimestamp": 1687965300,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1687792891794,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHhiYTk5NTY4MjAxNjczNmFmOGJmYjhjYzRhMjVhZGVjOGE0NmZkYzFjMDkzNzRlMGQwMmFmODQ0ODM5NTRmNDRh",
+      "id": "0xba995682016736af8bfb8cc4a25adec8a46fdc1c09374e0d02af84483954f44a",
+      "title": "BFBP-C-9: Hire Cyfrin to Audit Beanstalk",
+      "content": "## Proposer\n\nguy\n\n## Summary\n\nHire [Cyfrin](https://www.cyfrin.io/) to perform an end-to-end code audit on Beanstalk. Use ~120,000 Beans from the Audit Fund to pay for the audit.\n\n## Auditor\n\nCyfrin is an audit firm started by [Patrick Collins](https://twitter.com/PatrickAlphaC), a smart contract engineer and educator.\n\nMembers of the Cyfrin team are responsible for creating [two of the most watched Solidity YouTube tutorials](https://www.youtube.com/watch?v=gyMwXuJrbJQ) of all time, [billion dollar DeFi integrations](https://compound.finance/governance/proposals/119), [security content](https://www.youtube.com/watch?v=TmZ8gH-toX0), and have often topped the [Code4rena leaderboard](https://code4rena.com/leaderboard).\n\nCyfrin has already [audited Basin](https://arweave.net/usT3ClfjHwpX32OXnh5De1aH79csX1PMoXJCghXBaps). In order to audit new BIPs, Cyfrin must first audit Beanstalk core.\n\n## Incentive Alignment\n\nCyfrin has agreed to be compensated in Beans and verbally expressed intent to retain long-term Bean exposure with their payment for the Beanstalk core audit. This is a healthy setup that creates mutual interest in the success of Beanstalk.\n\n## Payment\n\nCyfrin begins their audit of the core Beanstalk code on July 18, 2023. Beanstalk Farms has already sent Cyfrin [a deposit of 22,198 Beans](https://etherscan.io/tx/0x511081a8b920466f74741e3270ac9f02d8addf696fb09566ef092a851cbe67ce). Upon the passage of this proposal and preparation of a final commit hash, Beanstalk Farms will send the remainder of the $120,000 quote for the audit, based on the Bean price at the time of payment.",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 17564404,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0xba995682016736af8bfb8cc4a25adec8a46fdc1c09374e0d02af84483954f44a",
+      "startTime": {
+        "timestamp": 1687792500
+      },
+      "endTime": {
+        "timestamp": 1687965300
+      },
+      "startTimestamp": 1687792500,
+      "endTimestamp": 1687965300,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1687792891794,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHhmMzMxZDkzZGU1MWJlNDRkNGU5NjZjMzQyOWRlZDI2MDQ0NWNhZGE0MmRiMjNlNTIxZGIwN2YwYzhjZTA0MzYw",
+      "id": "0xf331d93de51be44d4e966c3429ded260445cada42db23e521db07f0c8ce04360",
+      "title": "BFBP-C-7: Fund One-Month Halborn Retainer",
+      "content": "## Proposer\n\nguy\n\n## Summary\n\nHire [Halborn](https://www.halborn.com/) on a one-month retainer (thru end of June) to provide two smart contract audit workstreams. Use 15,000 USDC and the Bean equivalent of 15,000 USDC from the Audit Fund to pay for the retainer, based on the Bean price at the time of payment.\n\nThese audit streams are intended to be used for the Silo V3 and Basin Integration BIPs.\n\n## Auditor\n\nBeanstalk Farms and Halborn have a longstanding partnership and Halborn has [audited significant amounts of code in the Beanstalk ecosystem](https://github.com/BeanstalkFarms/Beanstalk-Audits). Having an auditor with domain knowledge and context on Beanstalk is ideal.\n\nHalborn, founded in 2019, is a cybersecurity firm with over 100 security engineers who provide security advisory services, penetration testing, smart contract audits, and DevOps and automation consulting.\n\n## Incentive Alignment\n\nHalborn has agreed to accept half of their payment in Beans and expressed intent to retain long-term Bean exposure. This is a healthy setup that creates mutual interest in the success of Beanstalk.\n\n## Payment\n\n15,000 USDC and the Bean equivalent of 15,000 USDC from the Audit Fund, based on the Bean price at the time of payment (paid upfront).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 17380308,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0xf331d93de51be44d4e966c3429ded260445cada42db23e521db07f0c8ce04360",
+      "startTime": {
+        "timestamp": 1685554200
+      },
+      "endTime": {
+        "timestamp": 1685727000
+      },
+      "startTimestamp": 1685554200,
+      "endTimestamp": 1685727000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1685554274480,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHhlODUwNTc1NDI5NzZjYWIwMjViOWYwMDExMGFmNGMzNWVmYWFhZjNlMTE0ZGI3YWIzNTVjNjJiMWU4YzFhYWI1",
+      "id": "0xe85057542976cab025b9f00110af4c35efaaaf3e114db7ab355c62b1e8c1aab5",
+      "title": "BFBP-A-22: Hire pizzaman1337",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nHire pizzaman1337 part-time as a Solidity Engineer.\n\n## Background\n\npizzaman1337 is a mobile software and security engineer with 14 years of development and reverse engineering experience. They were previously at a small startup where they led the company's architectural and technical decisions. They have prior experience in crypto security through reporting bugs through bounty programs.\n\n## Past Contributions to Beanstalk\n\nAs the recipient of multiple development grants from Beanstalk Farms, pizzaman1337 has primarily led technical development of the Silo upgrade that adds support for dynamic Seeds per BDV, which includes:\n* Indexing Deposits based on cumulative Stalk per BDV instead of Season (which lays the foundation for a Gauge System and gives the DAO the ability to change the Seeds per BDV for a whitelisted asset);\n* Migrating Silo Members from Silo V2 to Silo V3; and\n* Significant code review of all upcoming changes in Silo V3.\n\nSee [RFC: Dynamic Seeds per BDV](https://github.com/BeanstalkFarms/Beanstalk/issues/411).\n\n## Role\n\npizzaman1337's role will vary depending on needs, but generally revolve around contract development. Expected work includes:\n* Facilitating conversions between Wells and Curve pools as part of the Basin Integration BIP (Generalized Convert);\n* Unripe λ to λ conversions;\n* Adding a StableSwap Well pricing function to Basin; and\n* Generally building whatever needs to get built from a Solidity perspective.\n\nThis is high leverage work that is critical to improving the efficiency and composability of Beanstalk and Basin.\n\n## Payment\n\n8,000 Beans/month, paid twice per month, starting from April 17th, 2023 (conditional on Beanstalk Farms being funded by the DAO via future BIPs). \n\n## Commitment\n\nPart-time (~20 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 17224240,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0xe85057542976cab025b9f00110af4c35efaaaf3e114db7ab355c62b1e8c1aab5",
+      "startTime": {
+        "timestamp": 1683651720
+      },
+      "endTime": {
+        "timestamp": 1683824520
+      },
+      "startTimestamp": 1683651720,
+      "endTimestamp": 1683824520,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1683652194182,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg5ZDQ4ZjEyNzNjMzFiYjQ0YzNhZmM5MjI5OGYyZGFkMTk3NzAxYzA0ZWI5YmJlZDVmYjNmNjEzNjA2OTZlNzMx",
+      "id": "0x9d48f1273c31bb44c3afc92298f2dad197701c04eb9bbed5fb3f61360696e731",
+      "title": "BFBP-C-6: Fund Two-Month Halborn Retainer",
+      "content": "## Proposer\n\nguy and Silo Chad\n\n## Summary\n\nHire [Halborn](https://www.halborn.com/) on a two-month retainer (April thru May) to provide two smart contract audit workstreams. Use 35,000 USDC and the Bean equivalent of 35,000 USDC from the Audit Fund to pay for the retainer, based on the Bean price at the time of payment.\n\nThese audit streams are intended to be used for:\n* Silo V3;\n* Wells/Pump/Aquifer; and\n* Wells <> Beanstalk Integration.\n\n## Auditor\n\nBeanstalk Farms and Halborn have a longstanding partnership and Halborn has [audited significant amounts of code in the Beanstalk ecosystem](https://github.com/BeanstalkFarms/Beanstalk-Audits). Having an auditor with domain knowledge and context on Beanstalk is ideal.\n\nHalborn, founded in 2019, is a cybersecurity firm with over 100 security engineers who provide security advisory services, penetration testing, smart contract audits, and DevOps and automation consulting.\n\n## Incentive Alignment\n\nHalborn has agreed to accept half of their payment in Beans and expressed intent to retain long-term Bean exposure. This is a healthy setup that creates mutual interest in the success of Beanstalk.\n\n## Payment\n\n17,500 USDC and the Bean equivalent of 17,500 USDC from the Audit Fund per month, based on the Bean price at the time of payment (paid upfront). For example, if the Bean price at the time of payment is $0.9134, the payment sent to Halborn would be 38,318.37 Beans and 35,000 USDC.\n\n> 35,000 / 0.9134 = 38,318.37\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 16983959,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x9d48f1273c31bb44c3afc92298f2dad197701c04eb9bbed5fb3f61360696e731",
+      "startTime": {
+        "timestamp": 1680714900
+      },
+      "endTime": {
+        "timestamp": 1680974100
+      },
+      "startTimestamp": 1680714900,
+      "endTimestamp": 1680974100,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1680714986073,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg1OThiMjM1NjAyMmIxODBjN2QyM2NhZWJlZWFlNGJjYjc1MDMyYmQwMjg4M2E3MmU4NjY5NWM4YTIwMGYzYTMx",
+      "id": "0x598b2356022b180c7d23caebeeae4bcb75032bd02883a72e86695c8a200f3a31",
+      "title": "BFBP-A-21: Hire fullofbeans",
+      "content": "## Proposer\n\nsweetredbeans\n\n## Summary\n\nHire fullofbeans part-time as a Visual Designer.\n\n## Background\n\nfullofbeans is a Visual Designer with several years of experience at well-known tech companies and a crypto exchange. They also have an extensive freelance portfolio.\n\n## Role\n\nIn order to create a world-class user experience for other protocols and users who are considering utilizing the Wells architecture for its manipulation-resistant Oracle framework, it is important that Beanstalk Farms is capable of properly representing the value proposition to users who interact with the newly developed DEX via strong visuals. \n\nGiven that we expect further development in the DEX architecture (supporting more asset types, greater customization for LP providers, etc.),  new users should not perceive the new DEX as the \"Beanstalk DEX\", but as a new DeFi primitive.\n\nfullofbeans will work with sweetredbeans to define the visual identity of the new DEX. Expected work includes:\n* Illustrative work for the homepage which clearly represents the Wells / Pumps architecture;\n* Visual design system for each page in the application, including colors, layout, component styling, and typography decisions; and\n* Logo design for the new DEX.\n\n## Payment\n\n6,300 Beans/month, paid twice per month, starting from March 17th, 2023 through May 11th, 2023. To be extended past May 11th, 2023 upon mutual agreement of both Beanstalk Farms and the Visual Designer.\n\n## Commitment\n\nPart-time (15 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 16871714,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x598b2356022b180c7d23caebeeae4bcb75032bd02883a72e86695c8a200f3a31",
+      "startTime": {
+        "timestamp": 1679349900
+      },
+      "endTime": {
+        "timestamp": 1679609100
+      },
+      "startTimestamp": 1679349900,
+      "endTimestamp": 1679609100,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1679416861631,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgxZTRiZGRhYjBhNTkwY2RlYzU5NzNmNzRkZDg5MTQ5NWQ4YzJjOGI5NmNhNWVkODY0NmE2NDA3ZGJlNmMzMWM1",
+      "id": "0x1e4bddab0a590cdec5973f74dd891495d8c2c8b96ca5ed8646a6407dbe6c31c5",
+      "title": "BFBP-C-5: Fund SCRIB3 Marketing Engagement",
+      "content": "## Proposer\n\nguy, Silo Chad, sweetredbeans, mod323\n\n## Summary\n\nHire [SCRIB3](https://www.scrib3.co/) to initiate a multi-faceted marketing engagement for Beanstalk and its broader ecosystem. Use 30,000 Beans per month from the Beanstalk Farms budget to fund the engagement from March 1, 2023 through June 30, 2023.\n\n## SCRIB3\n\nBeanstalk Farms has connected with SCRIB3, a content studio and marketing agency focused on Web3.\n\nSCRIB3's co-founder, [Ishan](https://twitter.com/Ishanb22), is familiar with Beanstalk as a long-standing community member.\n\nSCRIB3 understands the barriers to adoption for complex DeFi concepts and systems. By leveraging SCRIB3's expertise and resources, Beanstalk can effectively expand its reach and boost understanding of the protocol, accelerating growth and adoption. SCRIB3 has successfully built marketing relationships with established DeFi projects such as [Gains Network](https://gainsnetwork.io/). Since starting their engagement in August 2022, SCRIB3 has significantly increased Gains Network's [social media engagement](https://twitter.com/therossbooth/status/1615747000087240704) and [protocol activity](https://dune.com/unionepro/Everthing-Gains-Network).\n\nSCRIB3 will:\n\n* Create long-form educational content to increase understanding of Beanstalk and its mechanisms. The content will aim to reduce friction and complexity for readers interested in Beanstalk.\n* Help establish a strong and consistent social media presence for Beanstalk, especially on Twitter to reach new potential Farmers and convert website visitors to community members.\n* Leverage media outlets to share the Beanstalk story, introducing Beanstalk to new audiences and attracting more community members. SCRIB3 will highlight Beanstalk's narrative around community resilience.\n\n## Incentive Alignment\n\nSCRIB3 has agreed to be compensated in Beans and verbally expressed intent to retain long-term Bean exposure and actively participate in Beanstalk governance. This is a mutually beneficial arrangement that fosters long-term interest in Beanstalk's success.\n\n## Payment\n\n30,000 Beans per month from the H1 2023 Beanstalk Farms budget. The engagement with SCRIB3 began on March 1st, 2023. This Snapshot approves at most 4 months before a second proposal should be submitted.\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 16801557,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x1e4bddab0a590cdec5973f74dd891495d8c2c8b96ca5ed8646a6407dbe6c31c5",
+      "startTime": {
+        "timestamp": 1678498200
+      },
+      "endTime": {
+        "timestamp": 1678757400
+      },
+      "startTimestamp": 1678498200,
+      "endTimestamp": 1678757400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678498480089,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgxYzFiZjdiZDVjYTI2YTVlMzQxZDFkN2ZjODJjZjJkMDAwMTEyY2ZmZjM4ZDQ3NWI1ZTVkYzEwYmFmZjkzZGE4",
+      "id": "0x1c1bf7bd5ca26a5e341d1d7fc82cf2d000112cfff38d475b5e5dc10baff93da8",
+      "title": "BFBP-A-20: Hire k-xo",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nHire k-xo full-time as a Full-Stack Engineer.\n\n## Background\n\nk-xo previously worked as a full-stack developer at Volt Protocol creating a variety of smart contracts that were rigorously tested (unit, integration, fuzz and invariant) with Foundry and deployed to mainnet and Arbitrum, as well as working on front-end development. \n\nPrior to Volt Protocol, k-xo worked at Nethermind, contributing to the development of an options DeFi protocol. Before that, k-xo spent a year working at a web2 fintech startup.\n\n## Role\n\nk-xo's Beanstalk contributions over the past month have focused on Wells, including:\n\n* Gas comparison testing between Wells and Uniswap;\n* Gas cost estimations of Wells in Pipeline;\n* Test suite improvements;\n* Implementation of the gas-efficient `shift` function for multi-Well swaps; and\n* Solidity code review.\n\nThey also contributed several improvements to the Beanstalk UI.\n\nk-xo's role will vary depending on needs, but generally revolve around the UI, contracts and other supporting projects. Expected work in the near term includes:\n\n- Solidity contributions and code reviews for various Beanstalk upgrades and ecosystem contracts (i.e., new Well functions, Silo V3.1, etc.);\n- Wells BeaNFT contracts; and\n- Integration of new protocol upgrades into the Beanstalk UI.\n\n## Payment\n\n12,500 Beans/month, paid twice per month, starting from Wednesday, March 1st, 2023 (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nFull-time (~40 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 16801548,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x1c1bf7bd5ca26a5e341d1d7fc82cf2d000112cfff38d475b5e5dc10baff93da8",
+      "startTime": {
+        "timestamp": 1678498200
+      },
+      "endTime": {
+        "timestamp": 1678757400
+      },
+      "startTimestamp": 1678498200,
+      "endTimestamp": 1678757400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678498480089,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHhkNGM2ZGQzYjZiODA4YmVlOGZlNDQ2ZmZiNjExMzMyYTg0MmM0Yzg0ZTNlYTJhNjc0NTBlZmM3NDY5ZDZjMTI1",
+      "id": "0xd4c6dd3b6b808bee8fe446ffb611332a842c4c84e3ea2a67450efc7469d6c125",
+      "title": "BFBP-C-4: Hire Cyfrin to Audit Wells",
+      "content": "## Proposer\n\nguy and Silo Chad\n\n## Summary\n\nHire [Cyfrin](https://www.cyfrin.io/) to perform an end-to-end code audit on Wells, Pumps and Aquifer. Use ~32,000 Beans from the Audit Fund to pay for the audit, subject to changes based on the scope of Pumps and Aquifer.\n\n## Auditor\n\nBeanstalk Farms has connected with Cyfrin, an audit firm started by [Patrick Collins](https://twitter.com/PatrickAlphaC), a smart contract engineer and educator who is [familiar with Beanstalk](https://github.com/BeanstalkFarms/Beanstalk/pull/122).\n\nMembers of the Cyfrin team are responsible for creating [two of the most watched Solidity YouTube tutorials](https://www.youtube.com/watch?v=gyMwXuJrbJQ) of all time, [billion dollar DeFi integrations](https://compound.finance/governance/proposals/119), [security content](https://www.youtube.com/watch?v=TmZ8gH-toX0), and more.\n\nOne of the Cyfrin auditors staffed on Wells is currently the #1 ranked auditor on [Code4rena](https://code4rena.com/leaderboard).\n\n## Incentive Alignment\n\nCyfrin has agreed to be compensated in Beans and verbally expressed intent to retain long-term Bean exposure with their payment for the Wells audit. This is a healthy setup that creates mutual interest in the success of Beanstalk.\n\n## Payment\n\nCyfrin began their audit of the core Wells code on Monday, February 6, 2023. Beanstalk Farms expects to deliver a final commit hash for Pumps and Aquifer next week. [Beanstalk Farms sent Cyfrin](https://etherscan.io/tx/0xdce939dd7ec8033156b2b2c87e093c00c36365b28b3ffdb7bea45a57232f040d) a 10,000 Bean upfront deposit to kickoff the audit before [BIP-33](https://github.com/BeanstalkFarms/Beanstalk/pull/285) passed.\n\nThe total quote (pending review of the final Pumps and Aquifer commit hash) is 40,000 USD, which Cyfrin will accept in Beans based on the Bean price at the time of payment.\n\nFor example, if the Bean price at the time of payment is $0.9428, given that Beanstalk Farms has already paid 10,000 Beans, the payment sent to Cyfrin upon passage of this BFBP would be 32,426.81 Beans.\n\n> (40,000 / .9428) - 10,000 = 32,426.81\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 16588370,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0xd4c6dd3b6b808bee8fe446ffb611332a842c4c84e3ea2a67450efc7469d6c125",
+      "startTime": {
+        "timestamp": 1675911720
+      },
+      "endTime": {
+        "timestamp": 1676170920
+      },
+      "startTimestamp": 1675911720,
+      "endTimestamp": 1676170920,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHhhZTdiNWY5N2RlM2ViYjgzNjFkZDhkOTk5MTRmMGViZGQ4ZmVlZTA0YjYyYjhkYzk5MWE1MmRjZjk3OTA3OGQ3",
+      "id": "0xae7b5f97de3ebb8361dd8d99914f0ebdd8feee04b62b8dc991a52dcf979078d7",
+      "title": "BFBP-A-19: Hire tryt0n",
+      "content": "## Proposer\n\nguy\n\n## Summary\n\nHire tryt0n part-time as a Graphic Designer.\n\n## Background\n\ntryt0n has a few years of experience as a graphic designer and has previously worked with other crypto projects as a graphic designer and marketer.\n\n## Role\n\ntryt0n has produced various graphics for Beanstalk Farms over the last couple of months, including:\n* The Beanstalk Farms logo;\n* Banners for Twitter announcements;\n* Graphics for various blog posts; and\n* Videos for Beanthoven songs.\n\nAs part-time Graphic Designer, tryt0n will continue to support Beanstalk Farms marketing efforts with graphics, video work for educational content and icons for design efforts.\n\n## Payment\n\n2,000 Beans/month, paid twice per month, starting from Sunday, January 1st, 2023 (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nPart-time (~10 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 16329773,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0xae7b5f97de3ebb8361dd8d99914f0ebdd8feee04b62b8dc991a52dcf979078d7",
+      "startTime": {
+        "timestamp": 1672792200
+      },
+      "endTime": {
+        "timestamp": 1673051400
+      },
+      "startTimestamp": 1672792200,
+      "endTimestamp": 1673051400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg5YTAwOTY4NmUwNjgxODE3YWRlOGY3YmFjN2FlZTA5OGQ5NDBjMzgzZTQ2YjkyYTNiZDFlNjBjM2NhZmQwYmUw",
+      "id": "0x9a009686e0681817ade8f7bac7aee098d940c383e46b92a3bd1e60c3cafd0be0",
+      "title": "BFBP-A-18: Hire Marshall",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nHire Marshall full-time as a Full-Stack Engineer.\n\n## Background\n\nMarshall has over a decade of experience in full stack web application development and has worked as a Staff Engineer at a well known company. Marshall also has prior experience working in crypto, having previously contributed to a DAO leading development of the core product.\n\n## Role\n\nMarshall's role will vary depending on needs, but generally revolve around Frontend / UI and supporting projects. Expected work includes:\n\n* Development and maintenance of the Beanstalk SDK;\n* Development of new UI features for the Pod Market V2, Wells and/or \"Claim and Do X\" functionality;\n* Building various frontend functionality to reach feature parity with Beanstalk as new BIPs go live; and\n* Generally building whatever needs to get built from a UI perspective.\n\n## Payment\n\n17,000 Beans/month, paid twice per month, starting from Tuesday, January 3rd, 2023 (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nFull-time (~40 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 16329766,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x9a009686e0681817ade8f7bac7aee098d940c383e46b92a3bd1e60c3cafd0be0",
+      "startTime": {
+        "timestamp": 1672792200
+      },
+      "endTime": {
+        "timestamp": 1673051400
+      },
+      "startTimestamp": 1672792200,
+      "endTimestamp": 1673051400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgzNmRmNDlkYmQ4NWNiNGQxODk4NTRmODU4YjMxOGU2NjU5M2I0NTg2ZTJhYWM2ZDU3NWI5N2I3Njk0NGY4ZjA4",
+      "id": "0x36df49dbd85cb4d189854f858b318e66593b4586e2aac6d575b97b76944f8f08",
+      "title": "BFBP-A-17: Increase Al Bean's Pay",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nIncrease Al Bean's pay as full-time Senior Full-Stack Engineer from 18,750 to 25,000 Beans/mo.\n\n## Role\n\nAs Senior Full-Stack Engineer for Beanstalk Farms, Al Bean has led technical development of the [Beanstalk SDK](https://github.com/BeanstalkFarms/Beanstalk-SDK) from inception to beta release. In addition to pure development, this required significant cross functional work in order for the SDK to faciliate the launch of the Root UI.\n\nOver the coming months, the expectation is that Al Bean continue development on the Beanstalk SDK in order to support the full suite of functionality supported in the protocol (first by migrating all existing Beanstalk UI functionality into the SDK, and then extending the SDK's capabilities related to composing transactions).\n\nThis is high leverage work that is critical to improving the developer experience of building on top of Beanstalk.\n\n## Payment\n\n25,000 Beans/month, paid twice per month, starting from December 16th, 2022 (conditional on Beanstalk Farms being funded by the DAO via future BIPs). This agreement is in place of the payment terms outlined in [BFBP-A-10](https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x2ed70de75a9192324a9f28abf7d0202fe670162d9c302f8aae039c57fa733c8f).\n\nIn order to match the high standard of the Beanstalk protocol itself, Beanstalk Farms is motivated to attract and retain the best talent with industry premium wages. Beanstalk Farms is more inclined to hire a few key extremely proficient contributors at a premium price than several contributors at a standard price. Al Bean has already proven this proficiency over the last few months.\n\nBeanstalk Farms believes this hiring philosophy will lead to lean development teams that are highly efficient, fast-paced and much more productive than a standard larger team. This type of wage distribution should allow Beanstalk Farms to maintain a lean budget while properly compensating its premium contributors for their work.\n\n## Commitment\n\nFull-time (40+ hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 16277574,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x36df49dbd85cb4d189854f858b318e66593b4586e2aac6d575b97b76944f8f08",
+      "startTime": {
+        "timestamp": 1672162200
+      },
+      "endTime": {
+        "timestamp": 1672421400
+      },
+      "startTimestamp": 1672162200,
+      "endTimestamp": 1672421400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHhiNzlhMjVkNDZhZjY0MWJkMjRjZTQ4YjU2OTZhMTVlZTM2ZDljMDFiMjY1Yzc5ZWQ4YTA3NjQyZWM2NWU4ZmIy",
+      "id": "0xb79a25d46af641bd24ce48b5696a15ee36d9c01b265c79ed8a07642ec65e8fb2",
+      "title": "BFBP-A-16: Hire aloceros FT",
+      "content": "## Proposer\n\nguy\n\n## Summary\n\nHire aloceros full-time as an Operations Manager.\n\n## Role\n\nAs a part-time Operations Manager for Beanstalk Farms, aloceros has:\n* Redesigned all finance workflows at Beanstalk Farms and Bean Sprout covering payroll, expense management and reporting;\n* Administered these ongoing financial processes, including payroll, payments to vendors, reimbursements, any other BFM and BSM transactions, recordkeeping, and publishing public [Operations Reports](https://github.com/BeanstalkFarms/Beanstalk-Farms-Operations);\n* Contributed to process documentation, account and personnel administration; and\n* Contributed to development and maintenance of documentation, governance proposals, and other publications in the Farmers' Almanac, Agronomics Handbook, GitHub, Discord, Notion and Bi-Weekly Bean.\n\nNear-term goals include:\n* Continuing to increase the clarity and usefulness of financial reporting;\n* Improving technical documentation and public availability of information; and\n* General responsibility for ongoing processes, with the Governance Operations Lead spending more time on research and other greenfield projects. \n\nThis is high leverage work for the operational efficiency of Beanstalk Farms.\n\n## Payment\n\n13,000 Beans/month, paid twice per month, starting from December 1st, 2022 (conditional on Beanstalk Farms being funded by the DAO via future BIPs). This agreement is in place of the payment terms outlined in [BFBP-A-4](https://arweave.net/P2Kqtc1l9GY17vafcNmUJekIfkB-JTflUxk_8bMnESQ).\n\n## Commitment\n\nFull-time (40+ hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 16072400,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0xb79a25d46af641bd24ce48b5696a15ee36d9c01b265c79ed8a07642ec65e8fb2",
+      "startTime": {
+        "timestamp": 1669687200
+      },
+      "endTime": {
+        "timestamp": 1669946400
+      },
+      "startTimestamp": 1669687200,
+      "endTimestamp": 1669946400,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg3YjNhMTcwMzI3ZjdjY2M1NDM0NjI2YjBlMGZkZTc3OWZkZWQ1MDZjMWVkOWY0YWMyYjZhNWMwYWE5YjIyYWYx",
+      "id": "0x7b3a170327f7ccc5434626b0e0fde779fded506c1ed9f4ac2b6a5c0aa9b22af1",
+      "title": "BFBP-A-15: Hire FarmerDan FT",
+      "content": "## Proposer\n\nmod323\n\n## Summary\n\nHire FarmerDan full-time as a Marketing Manager.\n\n## Background\n\nEarlier this year, FarmerDan left his sales job at a mortgage fintech company to explore DeFi full time. After focusing primarily on research for the past 6 months, FarmerDan is looking to contribute his expertise and spread awareness of Beanstalk. \n\n## Past Contributions to Beanstalk\n\n* Beanstalk Merch Lead - Creating and distributing merch-based community engagement and incentives;\n* Layer3 Bounties Lead - drafting, marketing and selecting Beanstalk Layer3 bounty initiatives (20+ total bounties awarded);\n* BF Community Team Lead - assisting in community-led projects and social media management, such as the community poker tournament; and\n* Educational content posted on Twitter.\n \n## Role\n\nFarmerDan's role will be a combination of content creation and marketing. Responsibilities will include:\n\n* Creating and maintaining a content calendar;\n* Managing Beanstalk Farms social accounts;\n* Creating educational content about Beanstalk; \n* Publishing explainer threads on Twitter;\n* Creating UI walkthrough videos for YouTube;\n* Publishing breakdowns of interesting discussions from previous AMAs and other Bean-related podcasts; \n* Managing the [bean.money blog](https://bean.money/blog) and [Bi-Weekly Bean newsletter](https://beanstalkfarms.substack.com); and\n* Leading community engagement, Beanstalk merch giveaways, poker tournaments and similar initiatives\n\n## Payment\n\n10,000 Beans/month, paid twice per month, starting Monday November 28th, 2022. \n \n## Commitment\n\nFull-time (average of 40+ hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 16027144,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x7b3a170327f7ccc5434626b0e0fde779fded506c1ed9f4ac2b6a5c0aa9b22af1",
+      "startTime": {
+        "timestamp": 1669140000
+      },
+      "endTime": {
+        "timestamp": 1669399200
+      },
+      "startTimestamp": 1669140000,
+      "endTimestamp": 1669399200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHhkNGQxNmRhNThmMjc4MTliMDE2YTE3NTcyY2NkZTE2MmRhZWU5MDQ1MDQ0MTJjYmZiNTQyN2Y1MTNiNTIxOTU4",
+      "id": "0xd4d16da58f27819b016a17572ccde162daee904504412cbfb5427f513b521958",
+      "title": "BFBP-C-3: Pay TASC Group for 3 Months",
+      "content": "## Proposer\n\nmod323\n\n## Summary\n\n* Pay 34,752.50 Beans and 34,752.50 USDC to TASC Group for public relations and communications services during the period of September 1 to November 31, 2022.\n\n## Incentive Alignment\n\nTASC Group has agreed to be compensated partially in Beans and verbally expressed intent to retain long-term Bean exposure. This is a healthy setup that creates mutual interest in the success of Beanstalk.\n\n## Rationale \n\nTASC Group has consistently been a great partner to Beanstalk Farms and has landed news about Beanstalk in various reputable publications like [The New York Times](https://www.nytimes.com/2022/09/28/technology/crypto-hacks-defi.html), [Blockworks](https://blockworks.co/playing-the-were-not-terra-stablecoin-game/), [The Wall Street Journal](https://www.wsj.com/articles/hacked-crypto-startups-get-capital-infusions-from-investors-11651053602), [CoinDesk](https://www.coindesk.com/business/2022/06/02/beanstalk-stablecoin-protocol-barn-raise-aims-to-restore-77m-in-lost-funds/), [The Block](https://www.theblock.co/post/146068/hacked-stablecoin-beanstalk-seeks-to-borrow-77-million-to-revive-itself), etc.\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 15872802,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0xd4d16da58f27819b016a17572ccde162daee904504412cbfb5427f513b521958",
+      "startTime": {
+        "timestamp": 1667277300
+      },
+      "endTime": {
+        "timestamp": 1667536500
+      },
+      "startTimestamp": 1667277300,
+      "endTimestamp": 1667536500,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgyNTQ4ZjYzNjZlZGViZjVhYjgzNmFjOGE4YzU4NDA0MzAxYzdlYzBjZjBmZjViOWJlNDg4N2UzYzk2ZmE2MDVh",
+      "id": "0x2548f6366edebf5ab836ac8a8c58404301c7ec0cf0ff5b9be4887e3c96fa605a",
+      "title": "BFBP-A-14: Hire Brean FT",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nHire Brean full-time as a Solidity Engineer.\n\n## Role\n\nAs a part-time Solidity Engineer for Beanstalk Farms, Brean has:\n* Led technical development of the Barn Raise BeaNFTs; and\n* [Shipped code to introduce a Dutch auction in the Field](https://github.com/BeanstalkFarms/Beanstalk/pull/133) (dubbed Morning Auction) and documented the proposed changes via [RFCs](https://github.com/BeanstalkFarms/Beanstalk/issues/86). This code is now being audited by Halborn. \n\nBrean is expected to work on Silo V3 next. This will include development work such as:\n* Bringing the Withdrawal timer down to 0;\n* Distributing Bean seigniorage to Stalkholders over the course of a Season, rather than once per Season at `sunrise()`;\n* Implementing liquid Stalk and Seeds; and\n* Implementing a Stalk Gauge System, among other work.\n\nThis is high leverage work that is critical to improving the efficiency and composability of Beanstalk.\n\n## Payment\n\n15,000 Beans/month, paid twice per month, starting from November 1st, 2022 (conditional on Beanstalk Farms being funded by the DAO via future BIPs). This agreement is in place of the payment terms outlined in [BFBP-A-9](https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x65131548bad23b00b2d7806e75515c623f792f031178a34cbdddf69874077097).\n\n## Commitment\n\nFull-time (40+ hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 15872812,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x2548f6366edebf5ab836ac8a8c58404301c7ec0cf0ff5b9be4887e3c96fa605a",
+      "startTime": {
+        "timestamp": 1667277300
+      },
+      "endTime": {
+        "timestamp": 1667536500
+      },
+      "startTimestamp": 1667277300,
+      "endTimestamp": 1667536500,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgwZjM1MDZmNGU2MTQzYzU4NmRmNDgxODZmMzkzNzliZGVkYmQ5NzVjODhhYzM4NDA3ZTFjNTMxNjlkMzhlYTFj",
+      "id": "0x0f3506f4e6143c586df48186f39379bdedbd975c88ac38407e1c53169d38ea1c",
+      "title": "BFBP-C-2: Development Grants",
+      "content": "## Proposer\n\nSilo Chad\n\n## Proposal\n\n* Pay grants to malteasy and m00n for their work on Pod Market V2 and Function Approvals + Permits, respectively.\n\n## Rationale\n\n### Pod Market V2\n\nmalteasy's work on dynamically priced Pod Orders and Listings is slated to be proposed as part of BIP-28. This is a significant upgrade to Beanstalk that required a number of novel decisions (including the introduction of a new library, see the RFC) and will improve the efficiency of the Pod Market.\n\nPull request: \n* [BIP-28](https://github.com/BeanstalkFarms/Beanstalk/pull/87)\n\nRFC: \n* [Pod Market V2 (Price Functions)](https://github.com/BeanstalkFarms/Beanstalk/issues/88)\n\n### Function Approvals + Permits\n\nm00n's work on Function Approvals and ERC-20 token permits is finalized and expected to be proposed in an upcoming BIP. The ability for Farmers to delegate calls of various Beanstalk functions is a significant improvement in composability and will allow other protocols to provide automation functionality to Farmers.\n\nPull requests:\n* [Function Approvals](https://github.com/BeanstalkFarms/Beanstalk/pull/95)\n* [ERC-20 Token Permits](https://github.com/BeanstalkFarms/Beanstalk/pull/107)\n\nRFCs: \n* [Function Approvals](https://github.com/BeanstalkFarms/Beanstalk/issues/84)\n* [ERC-20 Token Permits](https://github.com/BeanstalkFarms/Beanstalk/issues/115)\n\n## Payment\n\n* 40,000 Beans to malteasy; and\n* 14,000 Beans to m00n.",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 15822800,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x0f3506f4e6143c586df48186f39379bdedbd975c88ac38407e1c53169d38ea1c",
+      "startTime": {
+        "timestamp": 1666674000
+      },
+      "endTime": {
+        "timestamp": 1666933200
+      },
+      "startTimestamp": 1666674000,
+      "endTimestamp": 1666933200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgwMDkzNzViMzE1ZDE1MmU1MzA0MTY5ZjVkMzgzNGE0ZmFjMGZmYTM3MWI0YjRiNTgyOGQ5ODMyODM3OTJmYTYx",
+      "id": "0x009375b315d152e5304169f5d3834a4fac0ffa371b4b4b5828d983283792fa61",
+      "title": "BFBP-A-12: Hire ChillBeans",
+      "content": "## Proposer \n\nsweetredbeans\n\n## Summary\n\nHire ChillBeans part-time as a Product Designer.\n\n## Background\n\nChillBeans currently works full-time as a product designer at a software startup. ChillBeans is a UX generalist and has experience building and managing component libraries.\n\n## Role\n\nChillBeans' responsibilities will vary depending on needs, but expected work will generally include:\n* Visual styling & component work;\n* Ownership over holiday and other special UI theming and colors; and\n* Assisting sweetredbeans in building and managing a generalized component library.\n\n## Payment\n\n3,500 Beans/month, paid twice per month, starting from Monday October 17, 2022 (conditional on Beanstalk Farms being funded by the DAO via future BIPs). \n\n## Commitment\nPart-time (10 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15772612,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x009375b315d152e5304169f5d3834a4fac0ffa371b4b4b5828d983283792fa61",
+      "startTime": {
+        "timestamp": 1666068000
+      },
+      "endTime": {
+        "timestamp": 1666327200
+      },
+      "startTimestamp": 1666068000,
+      "endTimestamp": 1666327200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg2ZmUyNWY0NmQ2NjBkY2UxNjkyODI5ZmQ1YzE3MTI3NDBlMGRhZGYyODNlYWVjOTUzYjU4NGRiZDZmNTZiYzIy",
+      "id": "0x6fe25f46d660dce1692829fd5c1712740e0dadf283eaec953b584dbd6f56bc22",
+      "title": "BFBP-A-13: Hire Kotaro",
+      "content": "## Proposer \n\nsweetredbeans\n\n## Summary\n\nHire Kotaro part-time as a Product Designer.\n\n## Background\n\nKotaro is a Product Designer with 4 years of UX experience. Kotaro is currently working as a product designer for a software startup.\n\n## Past Contributions to Beanstalk \n\nPrior to the exploit, Kotaro contributed to Beanstalk's component library in Figma. They also assisted in ideating improved flows to the existing interfaces within the protocol.\n\n## Role\n\nKotaro has a breadth of product and visual design experience. Expected work will include:\n* Exploring new concepts for Stalk / Seed / Sprout / Pod icons;\n* Assisting with creation and documentation of Beanstalk UI component library;\n* Assisting with general branding development needs; and\n* Various other product design related work.\n\n## Payment\n\n3,500 Beans/month, paid twice per month, starting from Monday October 17, 2022 (conditional on Beanstalk Farms being funded by the DAO via future BIPs). \n\n## Commitment\n\nPart-time (10 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15772619,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x6fe25f46d660dce1692829fd5c1712740e0dadf283eaec953b584dbd6f56bc22",
+      "startTime": {
+        "timestamp": 1666068000
+      },
+      "endTime": {
+        "timestamp": 1666327200
+      },
+      "startTimestamp": 1666068000,
+      "endTimestamp": 1666327200,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg0YTIwZDhhODAwNzY0ODU4NDZiY2FkZDFhY2YxYTE1YjRlMjljMjhiNDY5ZjVhMzcyN2ZmMGU5ZWVhNGYwYjcx",
+      "id": "0x4a20d8a80076485846bcadd1acf1a15b4e29c28b469f5a3727ff0e9eea4f0b71",
+      "title": "BFBP-A-11: Increase CanadianBennett's Hours",
+      "content": "## Proposer\n\naustin\n\n## Summary\n\n* Increase CanadianBennett’s hours to 20 hours per week.\n\n## Role\n\nAs Operations Associate, CanadianBennett’s primary responsibility has been the end-to-end management of Discord meeting operations (recording, uploading, creating timestamps, maintaining the Beanstalk Learning Center, etc.)\n\nOver the last couple weeks, this scope has increased to taking notes for each meeting, creating video clips from meetings to post on YouTube/Twitter (coming soon), among other miscellaneous operations tasks that come up on an ad hoc basis. CanadianBennett has been consistently spending ~20 hours per week on all of these various tasks, although his original hiring proposal was for 10 hours per week. \n\nThis work is critical for improving and maintaining a high level of information dissemination within (and outside of) the community.\n\n## Payment\n\n4,000 Beans/month, paid twice per month, starting from October 15th, 2022 (conditional on Beanstalk Farms being funded by the DAO via future BIPs). This agreement is in place of the payment terms outlined in [BFBP-A-2](https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x5873dc652ee9e8d45e91f2c4cd37e2d35b3993190e1a61c5d9f24099a6acf1ee).\n\n## Commitment\n\nPart-time (average of 20 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 15741890,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x4a20d8a80076485846bcadd1acf1a15b4e29c28b469f5a3727ff0e9eea4f0b71",
+      "startTime": {
+        "timestamp": 1665696786
+      },
+      "endTime": {
+        "timestamp": 1665955986
+      },
+      "startTimestamp": 1665696786,
+      "endTimestamp": 1665955986,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgyZWQ3MGRlNzVhOTE5MjMyNGE5ZjI4YWJmN2QwMjAyZmU2NzAxNjJkOWMzMDJmOGFhZTAzOWM1N2ZhNzMzYzhm",
+      "id": "0x2ed70de75a9192324a9f28abf7d0202fe670162d9c302f8aae039c57fa733c8f",
+      "title": "BFBP-A-10: Hire ALECKS",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nHire ALECKS full-time as a Senior Full-Stack Engineer.\n\n## Background\n\nALECKS has over 15 years of experience in full stack web application development, has worked as a Staff Engineer at a well known recent unicorn. ALECKS also has prior experience working in crypto, having worked for another popular DAO leading development of the core product.\n\n## Role\n\nALECKS’ role will vary depending on needs, but generally revolve around Frontend / UI and supporting projects. Expected work includes:\n\n* Development and maintenance of an open source Beanstalk SDK; and\n* Development of new UI features for the Pod Market V2 and/or the zero fee AMM;\n* Building various frontend functionality to reach feature parity with Beanstalk as new BIPs go live; and\n* Generally building whatever needs to get built from a UI perspective.\n\n## Payment\n\n18,750 Beans/month, paid twice per month, starting from Monday September 19, 2022 (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nFull-time (~40 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15563216,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x2ed70de75a9192324a9f28abf7d0202fe670162d9c302f8aae039c57fa733c8f",
+      "startTime": {
+        "timestamp": 1663537863
+      },
+      "endTime": {
+        "timestamp": 1663969863
+      },
+      "startTimestamp": 1663537863,
+      "endTimestamp": 1663969863,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHhjM2MyMGFiNDM1NTUzNTVlNzZiYWRiNjk5MDg2YzFiZWZmMGVlMGMzOGI1MjZhNjgwZDEzNDA4OTgzYjAzOTMz",
+      "id": "0xc3c20ab43555355e76badb699086c1beff0ee0c38b526a680d13408983b03933",
+      "title": "BFBP-C-1: Bug Bounty Award to sync",
+      "content": "## Proposer\n\nmod323\n\n## Proposal\n\nPay a bug bounty to sync for his discovery of an on-chain TWAP oracle issue that Beanstalk may become vulnerable to after the Ethereum Merge.\n\n## Rationale\n\nsync reached out to Publius with a potential vulnerability. As a formal bug bounty program is not yet live, we have offered sync an unofficial bug bounty of 15,000 Beans for their efforts.\n\n## Vulnerability\n\nAfter the Ethereum Merge occurs, multi-block MEV will be possible, allowing validators to manipulate TWAP oracles by moving the price orders of magnitude higher for at least 1 block in a risk free fashion by either adding 1-sided liquidity and/or buying all the Beans in the pool. For more information see here: https://chainsecurity.com/oracle-manipulation-after-merge/.\n\nBeanstalk currently uses a time weighted average oracle over the course of an hour to calculate deltaB, which determines the amount of Beans or Soil to mint each Season. Thus, node operators will have the potential to manipulate the number of Beans/Soil minted during a Season as soon as the merge happens.\n\nFor more information on the problem and proposed solution, see the following links on GitHub:\n\n- GitHub issue: https://github.com/BeanstalkFarms/Beanstalk/issues/91\n- GitHub Pull Request: https://github.com/BeanstalkFarms/Beanstalk/pull/92\n\n## Payment\n\n15,000 Beans\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 3,
+      "blockNumber": 15522721,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0xc3c20ab43555355e76badb699086c1beff0ee0c38b526a680d13408983b03933",
+      "startTime": {
+        "timestamp": 1663012279
+      },
+      "endTime": {
+        "timestamp": 1663444279
+      },
+      "startTimestamp": 1663012279,
+      "endTimestamp": 1663444279,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 3.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 3.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg2NTEzMTU0OGJhZDIzYjAwYjJkNzgwNmU3NTUxNWM2MjNmNzkyZjAzMTE3OGEzNGNiZGRkZjY5ODc0MDc3MDk3",
+      "id": "0x65131548bad23b00b2d7806e75515c623f792f031178a34cbdddf69874077097",
+      "title": "BFBP-A-9: Hire Brean",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nHire Brean part-time as a Solidity Engineer.\n\n## Background\n\nBrean is an electrical and software engineer, and has contributed to other protocol DAOs in the past. Prior experience was in the areospace and robotics industry focusing on control systems and low level embedded system development.\n\n## Past Contributions to Beanstalk\n\nBrean began contributing to Beanstalk after the exploit and has been working part-time on various engineering projects since then. Contributions to Beanstalk include:\n* Developing [Curve simulation software for Beanstalk](https://github.com/BrianOlympus/Curveswap-Stuff) to determine how the A factor impacts price volatility;\n* Contributed to smart contract testing and UI verification leading up to Replant; and\n* Leading technical development of the [Barn Raise BeaNFTs](https://bean.money/blog/beanft-barn-raise-collection).\n\n## Role\n\nPost-Unpause, Brean has continued to work on the BeaNFT contracts and various engineering efforts. Expected work includes:\n* Continuous development and maintenance of data analysis software for Beanstalk Farms; \n* Contributing to a BIP to introduce a Dutch auction in the Field;\n* Adding a StableSwap variant to the Beanstalk AMM; and\n* Polishing the [WIP technical documentation](https://beanstalk.gitbook.io/beanstalk-protocol/overview/beanstalk) to make it easier for developers to work on Beanstalk.\n\n## Payment\n\n10,000 Beans/month, paid twice per month, starting from the Unpause (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nPart-time (~30 hr/wk). \n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15405803,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x65131548bad23b00b2d7806e75515c623f792f031178a34cbdddf69874077097",
+      "startTime": {
+        "timestamp": 1661384056
+      },
+      "endTime": {
+        "timestamp": 1661816056
+      },
+      "startTimestamp": 1661384056,
+      "endTimestamp": 1661816056,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgzODY5NjBjNmY2Njg5ZjQ2NmI4ZTJkMDI3MzZhNjRhMGRlNDY1NTc1ZDdlMjdmY2Q5OTBlNTI4ZTA1N2ZhY2I3",
+      "id": "0x386960c6f6689f466b8e2d02736a64a0de465575d7e27fcd990e528e057facb7",
+      "title": "BFBP-A-7: Hire funderberker",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nHire funderberker part-time as Middleware Engineer.\n\n## Background\n\nfunderberker is a software engineer who has worked at various companies in the past and has been making technical contributions to Beanstalk since November 2021.\n\n## Past Contributions to Beanstalk\n\nfunderberker was originally hired as Middleware Engineer in the fall of 2021. Contributions since then include:\n* Discord channel bots\n    * Developed all of the bots that send messages in Discord and Telegram—the Seasons, Exchange, Peg Crosses, Contract Events, Pod Market and Fertilizer bots\n* Barn Raise bots\n    * Developed multiple sidebar bots to convey the progress and activity during the Barn Raise and post-Replant\n* Bean Price and BeaNFT bots\n    * Developed sidebar bots to show pertinent live status information\n* [Twitter bots](https://twitter.com/BeanstalkBot)\n    * Set up various bots to broadcast information through Twitter\n* [Supporting Python tooling](https://github.com/BeanstalkFarms/beanstalk-py)\n    * Implemented on top of an extensive set of Python tooling that is generalized and extensible—the code is public and is designed such that it will be available for future Beanstalk project implementations\n* Bot hosting\n    * Configured the cloud-hosted server that all in-house bots run on, which has historically had high uptime\n* Bot maintenance\n    * Updated bot code and Python tooling logic to account for various protocol changes and the Replant\n\n## Role\n\nAs Middleware Engineer, funderberker’s primary responsibility will be the continued development and maintenance of the Discord, Telegram, and Twitter bots, along with the underlying tooling. Most new features of Beanstalk that are released will require new bots or updates to existing systems, which will be funderberker’s responsibility to implement in a timely fashion. \n\nMost of the bots requested by Beanstalk Farms and the community have been implemented in some capacity, so it is very likely that this role expands beyond the current scope of the Python tooling to include additional projects like subgraph or Typescript development.\n\n## Payment\n\n4,000 Beans/month, paid twice per month, starting from the Unpause (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nPart-time (average of 10 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15404874,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x386960c6f6689f466b8e2d02736a64a0de465575d7e27fcd990e528e057facb7",
+      "startTime": {
+        "timestamp": 1661373000
+      },
+      "endTime": {
+        "timestamp": 1661805000
+      },
+      "startTimestamp": 1661373000,
+      "endTimestamp": 1661805000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgxYWE3MGRlMThhMWZlMzJmYjUzZTQzOGJkNDg4M2QxMWE3OWJkZDg0OTY1MWY0N2Y0OGM0Yzk3M2IzNzdkYjA2",
+      "id": "0x1aa70de18a1fe32fb53e438bd4883d11a79bdd849651f47f48c4c973b377db06",
+      "title": "BFBP-A-8: Hire Bean-Sama",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nHire Bean-Sama full-time as a Frontend Engineer.\n\n## Background\n\nBean-Sama is a software engineer who has experience working for various startups and tech companies.\n\nPast experience in crypto includes:\n* Building core internal and external SDKs to support a network of frontends built on top of various smart contracts; and\n* Architecting and building a production frontend from scratch to facilitate on-chain activity like lending, options trading, staking, etc.\n\n## Past Contributions to Beanstalk\n\nBean-Sama allocated some time to contributing to Beanstalk after the exploit, but their time has been historically constrained due to other obligations. Fortunately, they are now able to join Beanstalk Farms in a full-time capacity.\n\nContributions since the exploit include:\n* Building significant portions of the first couple of iterations of the Barn Raise UI prior to Beanstalk UI V2; and\n* Assisted in building small portions of the current Beanstalk UI V2, e.g. Sunrise table on the top of the site.\n\n## Role\n\nBean-Sama will focus on the various engineering work to be done across the frontend and SDKs. Expected work includes:\n* Contributing to the Beanstalk UI V2 and Beanstalk SDKs;\n* Preparing the SDKs and UI V2 for open-sourcing;\n* Building various frontend functionality to reach feature parity with Beanstalk as new BIPs go live; and\n* Generally building whatever needs to get built from a UI perspective.\n\n## Payment\n\n16,000 Beans/month, paid twice per month, starting from Monday September 5, 2022 (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nFull-time (40+ hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15404877,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x1aa70de18a1fe32fb53e438bd4883d11a79bdd849651f47f48c4c973b377db06",
+      "startTime": {
+        "timestamp": 1661373000
+      },
+      "endTime": {
+        "timestamp": 1661805000
+      },
+      "startTimestamp": 1661373000,
+      "endTimestamp": 1661805000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgxNTVlNmUzNGIxMjEzYTBmMGZjZmU2NTQ4ZDRmNDEyOGNlNjEwZjMyYzVjZjY1MTkyMGFmM2QwYmQ5ZDI0MzYz",
+      "id": "0x155e6e34b1213a0f0fcfe6548d4f4128ce610f32c5cf651920af3d0bd9d24363",
+      "title": "BFBP-A-6: Hire TBIQ",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nHire TBIQ part-time as Data Science Lead.\n\n## Background\n\nTBIQ is a machine learning engineer specializing in data science, prior to which they were in academia researching the intersection of software engineering and data visualization. \n\n## Past Contributions to Beanstalk\n\nTBIQ was originally hired as Data Science Lead for Beanstalk Farms in late Q1 2022. Contributions since then include:\n* [Pre-exploit Dune dashboard](https://dune.com/tbiq/Beanstalk) \n    * Created all queries and visualizations available on the official Beanstalk Dune dashboard, which provides a comprehensive data-driven view of the pre-exploit Beanstalk ecosystem. \n    * Adjusted the dashboard to only show pre-exploit data in order to serve as a historical reference.\n* [Pod Market yield curve modeling](https://github.com/TBIQ/pod-market-yc)\n    * Modeled historical Pod Market data, exploring the evolution of the Pod Market yield curve (Place in Line vs. price per Pod) over time. This work served as the basis for an early stage proposal to [FIAT DAO](https://fiatdao.com/) to enable Pods as a collateral type for lending and borrowing within their protocol. This work was halted due to the exploit, but may make sense to pick back up once there is a more efficient Pod Market post-Replant. \n* [Silo APY calculator ](https://dune.com/tbiq/Beanstalk-Silo-APY-Calculator)\n    * Designed and built a Silo APY calculator that provides Farmers with historical context and allows them to make their own assumptions about future variable trends. \n* Ad-hoc data requests\n    * Served as the point of contact for surfacing on-chain metrics for one-off analyses, for both community members and Beanstalk Farms contributors (eligible addresses for Barn Raise BeaNFTs, internal analysis of variables driving demand for Soil, etc.).\n* [Barn Raise Dune dashboard](https://dune.com/tbiq/beanstalk-barn-raise)\n    * Created a dashboard for the Barn Raise that was widely used among the community to monitor and understand progress. \n* State computation and cross validation for the Replant \n    * Leveraged Token Flow, a database product which can be used to query the storage level data of smart contracts over time, to write SQL queries to compute the state of Beanstalk at the pre-exploit block.  \n    * Wrote a series of data pre-processing, standardization, and cross validation scripts that were used in order to compare state variables computed from a combination of event processing logic, on-chain function calls, and Token Flow  queries. This provided us with a high degree of confidence that the state at the time of Replant provided all users with the correct assets. \n\n## Role \n\nTBIQ will continue to build out Beanstalk Farms’ data engineering systems, analytics and visualization capabilities. TBIQ will focus on building on top of the subgraph infrastructure. Expected work includes:\n* Setting up a hosted application that will serve as the Beanstalk data playground (this will serve a similar purpose to Dune, but will instead pull data from the subgraph and have custom visualizations);\n* Building a variety of new visualizations for the data playground;\n* Supporting the maintenance and building of the subgraph;\n* Prototyping visualization ideas that could potentially be integrated into the Beanstalk UI; and\n* Continuing to service high priority ad hoc data analysis and modeling requests from the rest of the Beanstalk Farms team as they surface.\n\n## Payment \n\n9,000 Beans/month, paid twice per month, starting from Monday August 15, 2022 (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nPart-time (average of 25 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15404869,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x155e6e34b1213a0f0fcfe6548d4f4128ce610f32c5cf651920af3d0bd9d24363",
+      "startTime": {
+        "timestamp": 1661373000
+      },
+      "endTime": {
+        "timestamp": 1661805000
+      },
+      "startTimestamp": 1661373000,
+      "endTimestamp": 1661805000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg0ZjVkYWRhMjkyMGEyMzUyMTMyNTA2MmYwMWQ5N2E3Y2VmNDUzMjkyY2M2MmQyOWQ2NTI5M2ZlZTNhYjc0ZjM0",
+      "id": "0x4f5dada2920a23521325062f01d97a7cef453292cc62d29d65293fee3ab74f34",
+      "title": "BFBP-A-5: Hire Cujo",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nHire Cujo part-time as a Middleware Engineer.\n\n## Background\n\nCujo is a data analyst and software engineer, and has contributed to other protocol DAOs in the past.\n\n## Past Contributions to Beanstalk\n\nCujo began contributing to Beanstalk after the exploit and has been working part-time on various engineering projects since then. Contributions to Beanstalk include:\n* Creating and testing the Fertilizer bid processing subgraph for a version of the Barn Raise that did not ultimately come to fruition.\n* Worked with the engineering team to update the main Beanstalk subgraph and incorporate changes post-Replant.\n    * Set up a new schema definition with time series snapshots available for both the Field and Silo; and\n    * Incorporated UI needs for analytics and overall RPC use reduction by enabling the subgraph to be the primary data source for the Pod Market.\n* Set up private testnet infrastructure for testing and subgraph development.\n* Contributed to smart contract testing and UI verification leading up to Replant.\n\n## Role\n\nPost-Unpause, Cujo has continued to work on the Beanstalk subgraph. Expected work includes:\n* Continuing to develop and maintain the subgraph for new BIPs as they are proposed.\n* Supporting the frontend team with subgraph work around for analytics and other frontend functionality.\n* Contributing to code review for subgraph PRs and BIPs as needed.\n\n## Payment\n\n9,000 Beans/month, paid twice per month, starting from the Unpause (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nPart-time (~20 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15404864,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x4f5dada2920a23521325062f01d97a7cef453292cc62d29d65293fee3ab74f34",
+      "startTime": {
+        "timestamp": 1661373000
+      },
+      "endTime": {
+        "timestamp": 1661805000
+      },
+      "startTimestamp": 1661373000,
+      "endTimestamp": 1661805000,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgxNDk4ZjA2NTUzNzJlNjhjOGYzMGJmY2FhMjVjMDMxNTU5ZjdjOGQ1ZGJiOGRmMmZmNGJhYjk1NTAyODVkNTZk",
+      "id": "0x1498f0655372e68c8f30bfcaa25c031559f7c8d5dbb8df2ff4bab9550285d56d",
+      "title": "BFBP-A-1: Hire Cool Bean",
+      "content": "## Proposer\n\nSilo Chad\n\n## Summary\n\nHire Cool Bean full-time as a Senior Frontend Engineer.\n\n## Background\n\nCool Bean is a software engineer who had worked at a large tech company and contributed to several web projects before contributing to Beanstalk.\n\n## Past Contributions to Beanstalk\n\nCool Bean began contributing to [Beanstalk UI V1](https://pre-exploit-beanstalk-ui.netlify.app/) part-time in February 2022 and joined full-time in March. Contributions to Beanstalk UI V1 include:\n* Led the development of the [Silo rebuild](https://pre-exploit-beanstalk-ui.netlify.app/silo);\n* Refactored and standardized components in preparation for open-sourcing the UI codebase;\n* Helped implement a new WalletConnect library; \n* Fixed various bugs and style tweaks; and\n* Built support for Twitter and YouTube embed links on [bean.money](https://bean.money/).\n\nCool Bean continued to contribute (more than) full-time after the exploit. Contributions include:\n* Contributed to the build of multiple versions of the Barn Raise UI while the Path Forward was going through multiple iterations.\n* Contributed to the build of [Beanstalk UI V2](https://app.bean.money/) from scratch—\n    * Built page structure and components for most of the major pages;\n    * Built complex form functionality and implemented contract calls for functions like Sow, Transfer and Harvest;\n    * Designed and built reusable components to minimize code redundancy across the codebase;\n    * Implemented a standardized styling system; and\n    * Helped onboard a new contributor into the codebase.\n\n## Role\n\nPost-Unpause, Cool Bean has continued to build the V2 UI and onboard new contributors. Notable upcoming projects include:\n* Embedding Snapshot governance into the UI;\n* Preparing the site for open-sourcing;\n* Building an improved Pod Marketplace;\n* Integrating new liquidity pools into the site as they are added; and\n* Generally building whatever needs to get built from a UI perspective.\n\n## Payment\n\n25,000 Beans/month, paid twice per month, starting from the Unpause (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n\nAs BIPs continue to be audited, proposed and committed, Beanstalk Farms has a dire need for high quality frontend code to reach feature parity with the Beanstalk contract.\n\nIn order to match the high standard of the protocol, Beanstalk Farms is motivated to attract the best talent with industry premium wages. Beanstalk Farms is more inclined to hire a few key extremely proficient contributors at a premium price than 7 or 8 contributors at a standard price. Cool Bean has already proven this proficiency over the last few months.\n\nBeanstalk Farms believes this hiring philosophy will lead to lean development teams that are highly efficient, fast-paced and much more productive than a standard larger team. This type of wage distribution should allow Beanstalk Farms to maintain a lean budget while properly compensating its premium contributors for their work.\n\n## Commitment\n\nFull-time (40+ hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15393212,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x1498f0655372e68c8f30bfcaa25c031559f7c8d5dbb8df2ff4bab9550285d56d",
+      "startTime": {
+        "timestamp": 1661214600
+      },
+      "endTime": {
+        "timestamp": 1661646600
+      },
+      "startTimestamp": 1661214600,
+      "endTimestamp": 1661646600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHgwYTZiZTNlYTZkNGQ2MjAxM2M5NjFiNDQyNzYwNzVlMjAyOGE3NTQ2M2ZlYmQ2NWNlM2VmZTVmOWYwNTMzNmM4",
+      "id": "0x0a6be3ea6d4d62013c961b44276075e2028a75463febd65ce3efe5f9f05336c8",
+      "title": "BFBP-A-3: Hire ereal",
+      "content": "## Proposer\n\naustin\n\n## Summary\n\nHire ereal part-time as a Content Writer.\n\n## Background\n\nereal works in finance full-time. They have contributed to Beanstalk since November 2021 across several copy-related projects. Between January 2022 and the governance exploit, ereal acted as Head of Copy, and subsequently contributed to various content production and proposal writing projects between the exploit and Replant. \n\n## Past Contributions to Beanstalk\n\n* Authored or co-authored all BIP, liquidity pool and other blog post announcements between January 2022 and the exploit;\n* Authored or co-authored Beanstalk Farms Twitter threads between January 2022 and the exploit;\n* Authored [The Path Forward](https://bean.money/blog/path-forward#:~:text=Beanstalk%20is%20a%20decentralized%20and,anyone%20with%20an%20internet%20connection.);\n* Authored [BFP-66: Hire Halborn to Perform Audit](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x54fad9c756daa38bb4bafadbee2cea6cb98f380fe2d6a62fdf723d0b15430d42);\n* Authored [Bank Runs, Airplanes, and Beanstalk](https://bean.money/blog/bank-runs-airplanes-and-beanstalk);\n* Authored [Beanstalk’s One-Year Anniversary](https://bean.money/blog/beanstalk-one-year-anniversary);\n* Authored proposal for Redacted Cartel to participate in the Barn Raise;\n* Authored [proposal for FRAX Finance](https://gov.frax.finance/t/frax-beanstalk-barn-raise-participation/1503) to participate in the Barn Raise;\t\t\n* Co-authored [BFP-67: Barn Raise Proposal](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xedd9f9c4d5246b0de0c27dca2b37563baacc667bd5fa1b58b8d85d62c49f3293);\n* Co-authored [Anticipated Replant Timeline](https://bean.money/blog/anticipated-replant-timeline);\n* Co-authored BFPs-[68](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x26478e3434ae82ff0820f25d182d6939d9531587c41ba86a8ea25ca0ef0f010d), [69](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x87d874a4a8b079c5dc092d7240e4c34fbb7d93252c9158fcb697bd9adff9bac9), [70](https://snapshot.org/#/beanstalkfarms.eth/proposal/0x54fa850db378e89e78308d082230ca5c9cce921c892008c0d34fcc4c20b535f3), and [71](https://snapshot.org/#/beanstalkfarms.eth/proposal/0xa038d205e72ae3a835995682b18adf9512777ed554c388a7caa5bc4e98d4f8e0);\n* Authored sections of the [Farmers’ Almanac](https://docs.bean.money/introduction/why-beanstalk);\n* Assisted with Beanstalk institutional investor deck; and\n* Assisted with website UI copy.\n\n## Role\n\nereal’s role will be to continue authoring / co-authoring various governance proposals, marketing blog posts, etc. Examples include:\n* Drafting BIPs and BIP blog post announcements;\n* Writing analytical and editorial blog posts;\n* Writing Beanstalk Farms Twitter threads; and\n* Maintaining the Farmers’ Almanac.\n\n## Payment\n\n3,000 Beans/month, paid twice per month, starting from the Unpause (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nPart-time (average of 10 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15393236,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x0a6be3ea6d4d62013c961b44276075e2028a75463febd65ce3efe5f9f05336c8",
+      "startTime": {
+        "timestamp": 1661214600
+      },
+      "endTime": {
+        "timestamp": 1661646600
+      },
+      "startTimestamp": 1661214600,
+      "endTimestamp": 1661646600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg4N2VkNzM0Y2UxN2E3MmQxMjdlMzUzNmFmM2IxOWFlOWRlODMwMjZjYzQ3NDdlMTMyZDQxZmI1NzdkNTQ1NzQ3",
+      "id": "0x87ed734ce17a72d127e3536af3b19ae9de83026cc4747e132d41fb577d545747",
+      "title": "BFBP-A-4: Hire aloceros",
+      "content": "## Proposer\n\naustin\n\n## Summary\n\nHire aloceros part-time as an Operations Manager.\n\n## Background\n\naloceros has a background in banking, corporate finance and management consulting in roles ranging from individual contributor to project manager.\n\n## Past Contributions to Beanstalk\n\naloceros joined Beanstalk Farms pre-exploit as a Project Manager and worked on workflows to improve organizational processes. Since the exploit, they have:\n* Authored significant portions of the Farmers’ Almanac and corresponding bot commands in Discord;\n* Authored the Disclosures statement ([BOP-1](https://snapshot.org/#/beanstalkdao.eth/proposal/0x0d9e422bafaee7f87744c09afe9c2c68af590fc76d8afd13b12b9dfc9328e794));\n* Wrote [How To Guides](https://docs.bean.money/guides/directory) on interacting with the Beanstalk UI;\n* Assisted marketing with outreach research;\n* Assisted with testing;\n* Assisted with assessing and improving security practices;\n* Contributed to the [Beanstalk Learning Center](https://bean.money/learning-center);\n* Worked on the Beanstalk Farms Handbook; and\n* Updated Google Workspace accounts and calendaring systems.\n\n## Role\n\naloceros plans to contribute as a part-time Operations Manager, continuing the work they have performed post-exploit. Expected tasks include:\n* Contributing to ongoing maintenance and improvement of Beanstalk documentation on the Farmers’ Almanac and in other forms;\n* Managing processes around budgeting, payroll and associated governance proposals;\n* Project managing and reviewing the contributions of an Operations Associate; and\n* Anything else that would help Beanstalk Farms operate more effectively or increase the quality and usefulness of information conveyed to Stalkholders.\n\n## Payment\n\n6,500 Beans/month, paid twice per month, starting from Monday August 22, 2022 (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nPart-time (~20 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15393262,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x87ed734ce17a72d127e3536af3b19ae9de83026cc4747e132d41fb577d545747",
+      "startTime": {
+        "timestamp": 1661214600
+      },
+      "endTime": {
+        "timestamp": 1661646600
+      },
+      "startTimestamp": 1661214600,
+      "endTimestamp": 1661646600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YmVhbnN0YWxrZmFybXNidWRnZXRldGg6c25hcHNob3Q6MHg1ODczZGM2NTJlZTllOGQ0NWU5MWYyYzRjZDM3ZTJkMzViMzk5MzE5MGUxYTYxYzVkOWYyNDA5OWE2YWNmMWVl",
+      "id": "0x5873dc652ee9e8d45e91f2c4cd37e2d35b3993190e1a61c5d9f24099a6acf1ee",
+      "title": "BFBP-A-2: Hire CanadianBennett",
+      "content": "## Proposer\n\naustin\n\n## Summary\n\nHire CanadianBennett part-time as an Operations Associate.\n\n## Past Contributions to Beanstalk\n\nCanadianBennett has worked on a variety of projects for Beanstalk Farms since joining in Q1 2022. Listed below are a few:\n* Managing Layer3 bounties;\n* Running operations for the Q1 poker tournament;\n* Creating timestamps for various videos on the [YouTube channel](https://www.youtube.com/c/BeanstalkFarms/videos);\n* Implementing a new Discord verification process;\n* Writing How To Guides for the Farmers’ Almanac; and\n* Organizing the Discord and internal Notion among other things.\n\n## Role\n\nAs Operations Associate, CanadianBennett’s primary responsibility will be to ensure the recording and distribution of all DAO-facing meetings in the Discord. This means:\n* Being present to record Discord meetings;\n* Uploading to [Anchor](https://anchor.fm/beanstalk-farms), [Spotify](https://open.spotify.com/show/70lfZOSaqWjhTFujgkhVOu) and [YouTube](https://www.youtube.com/c/BeanstalkFarms/videos);\n* Creating timestamps on the YouTube uploads; and\n* Maintaining the [Beanstalk Learning Center](https://bean.money/learning-center).\n\nCanadianBennett will also work on various operational tasks that come up on an ad hoc basis.\n\n## Payment\n\n2,000 Beans/month, paid twice per month, starting from the Unpause (conditional on Beanstalk Farms being funded by the DAO via future BIPs).\n\n## Commitment\n\nPart-time (average of 10 hr/wk).\n",
+      "protocol": "beanstalkfarmsbudgeteth",
+      "adapter": "snapshot",
+      "proposer": "0xE5cAe1aB7664d5DC0794D155735B74238fF72fa0",
+      "totalVotes": 4,
+      "blockNumber": 15393217,
+      "externalUrl": "https://snapshot.org/#/beanstalkfarmsbudget.eth/proposal/0x5873dc652ee9e8d45e91f2c4cd37e2d35b3993190e1a61c5d9f24099a6acf1ee",
+      "startTime": {
+        "timestamp": 1661214600
+      },
+      "endTime": {
+        "timestamp": 1661646600
+      },
+      "startTimestamp": 1661214600,
+      "endTimestamp": 1661646600,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "results": [
+        {
+          "total": 4.0,
+          "choice": 0
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 4.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

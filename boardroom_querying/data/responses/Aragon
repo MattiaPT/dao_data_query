@@ -1,0 +1,859 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFteHE3a3pscHF1ZXF4cTljY2VvaHdmcjNveG9xN290aGhlbmxmaHJ4bmVoajk=",
+      "id": "QmXq7KzLPQUeqxQ9cceoHwFR3oxoq7oTHHeNLfhrXNehJ9",
+      "title": "KPI option vote 2 - What upper threshold should be set for the USD denominated AUM in v2 DAOs by the 30th June 2021",
+      "content": "ANT holders voted to allocate 100,000 ANT as collateral towards Aragon's first KPI option in this Snapshot vote: https://snapshot.org/#/aragon/proposal/QmXDBG7ZdCfg4fSRDhSwNSsdXggjsLapP9q3ijArysS56C\n\nThe next step is to determine the upper threshold for the value of USD denominated AUM in v2 DAOs by the option expiry date. Should this threshold be reached, the full amount of the collateral in the option contract will be redeemable. If not, the amount of redeemable collateral will be proportionate to the value of AUM in v2 DAOs at option expiry.  \n\nWhat upper threshold should be set? (Choices are denominated in USD millions)",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0x5799AEb17cBBC576b55288EDc2BD180d61E01dEd",
+      "totalVotes": 0,
+      "blockNumber": 12195021,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmXq7KzLPQUeqxQ9cceoHwFR3oxoq7oTHHeNLfhrXNehJ9",
+      "startTime": {
+        "timestamp": 1617868800
+      },
+      "endTime": {
+        "timestamp": 1618160400
+      },
+      "startTimestamp": 1617868800,
+      "endTimestamp": 1618160400,
+      "currentState": "closed",
+      "choices": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900",
+        "1000"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 7842.391954504266,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 130.83599999999998,
+          "choice": 3
+        },
+        {
+          "total": 6313.865249801977,
+          "choice": 4
+        },
+        {
+          "total": 70.0,
+          "choice": 5
+        },
+        {
+          "total": 0.0,
+          "choice": 6
+        },
+        {
+          "total": 0.0,
+          "choice": 7
+        },
+        {
+          "total": 0.946,
+          "choice": 8
+        },
+        {
+          "total": 0.0,
+          "choice": 9
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtZGdncGJpYWNtaGlianQ5NHg4bXhqeWRhcm9oZ2NhbWd3ZHhmd3NraGhxYXU=",
+      "id": "QmdgGpBiAcmhibJt94x8MxJYDaRohgcAmGWDXFWSKhHQau",
+      "title": "Escrow development for Aragon Court",
+      "content": "### Motivation\n\n[The Greet team](https://forum.aragon.org/t/greet/2617) would like to develop an escrow solution integrated with Aragon Court, covering use cases such as when DAOs need to enter into subjective agreements with third parties. \n\nThe Greet team is proposing to not ask for any upfront payments as part of this deliverable. They would however like to know the opinion of ANT holders as to what they would deem a fair amount of compensation to be issued after Milestone 1 has been completed. \n\nThis vote constitutes a signalling mechanism on the presented proposal made by The Greet team and represents a mere consultation to ANT holders, without any legally-binding obligations from the Aragon Association to finance the proposal. \n\n### **Specification**\n\nIn case the proposal is successfully approved, the Greet team agrees to deliver Milestone 1 before the 30th of June 2021. \n\n### Discussion\n\nYou can view the full proposal for \"Milestone 1\" on the Aragon forum [here](https://forum.aragon.org/t/proposal-trustless-contracts-and-escrow-with-aragon-protocol-for-dispute-resolution/2618).\n\n**How much USDC do you think should be paid for completion of this milestone?**",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0x5799AEb17cBBC576b55288EDc2BD180d61E01dEd",
+      "totalVotes": 0,
+      "blockNumber": 12141742,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmdgGpBiAcmhibJt94x8MxJYDaRohgcAmGWDXFWSKhHQau",
+      "startTime": {
+        "timestamp": 1617123600
+      },
+      "endTime": {
+        "timestamp": 1617382800
+      },
+      "startTimestamp": 1617123600,
+      "endTimestamp": 1617382800,
+      "currentState": "closed",
+      "choices": [
+        "0",
+        "75000",
+        "100000"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 70.0,
+          "choice": 0
+        },
+        {
+          "total": 37212.44324378193,
+          "choice": 1
+        },
+        {
+          "total": 7531.051209882203,
+          "choice": 2
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFteGRiZzd6ZGNmZzRmc3JkaHN3bnNzZHhnZ2pzbGFwcDlxM2lqYXJ5c3M1NmM=",
+      "id": "QmXDBG7ZdCfg4fSRDhSwNSsdXggjsLapP9q3ijArysS56C",
+      "title": "KPI options to upgrade from Aragon v1 to Aragon v2",
+      "content": "### Summary\n\nWe propose using KPI options as a mechanism to incentivise the upgrade from Aragon v1 to Aragon v2. This initial vote will determine the amount of collateral ANT holders think should be allocated to incentivise this upgrade. \n\n### Motivation\n\nANT has now been added as a collateral asset to [UMA](https://umaproject.org/) (see Github merge [here](https://github.com/UMAprotocol/UMIPs/pull/202)). This enables ANT to be used in the creation of KPI options for the Aragon community. KPI options are synthetic tokens that will pay out more rewards if the KPI meets predetermined targets before a preset expiry date. \n\nNearly all DAOs created with Aragon are currently on Aragon v1. With the launch of Aragon v2, we're proposing to use KPI options to incentivise this upgrade.\n\nThese KPI options will be distributed to all Aragon v1 DAOs immediately after the option creation. At the option expiry, Aragon v1 DAOs will then be able to redeem their options for the ANT collateral in the KPI option contract. The amount of collateral they can redeem will be dependent upon: \n\n- The DAO's proportional share of assets denominated in USD relative to all Aragon V2 DAOs as of 30th June 2021\n- How quickly the DAO upgrades to a v2 DAO relative to other v2 DAOs\n\nThe proposal below includes steps for an initial test of KPI options. Should it be successful, we'd propose increasing the collateral underlying the option to a much larger amount and expanding the use of KPI options to meet other targets deemed important by the Aragon community.\n\n### **KPI option details**\n\n**Contract Dates**\n\nThe intended contract start date would be on the 14th April 2021 at 1pm UTC and end on the 30th June 2021 at 1pm UTC.\n\n**KPI Methodology**\n\n- The Key Performance Indicator (KPI) will be total value of assets, denominated in USD in all v2 DAOs by the 30th of June 2021.\n- The KPI options will only be distributed to all v1 DAOs created before this Snapshot proposal was published. \n- We propose to place the KPI option in a bonding curve to incentivise early adopters of Aragon v2.\n\n## Specifications\n\nWe will be undertaking the following community votes with the Aragon community to define the following inputs in the KPI option contract:\n\nVote 1) The value of ANT collateral (0 ANT - 150k ANT)\n\nVote 2) The upper threshold for total value of assets in v2 DAOs as of 30th June 2021, based on the value of ANT collateral (100 million USD - 1 billions USD) determined in \"Vote 1\". \n\n### ** Vote 1: How much ANT do you think should be allocated as collateral to this KPI option?**",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0x5799AEb17cBBC576b55288EDc2BD180d61E01dEd",
+      "totalVotes": 0,
+      "blockNumber": 12136127,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmXDBG7ZdCfg4fSRDhSwNSsdXggjsLapP9q3ijArysS56C",
+      "startTime": {
+        "timestamp": 1617105600
+      },
+      "endTime": {
+        "timestamp": 1617364800
+      },
+      "startTimestamp": 1617105600,
+      "endTimestamp": 1617364800,
+      "currentState": "closed",
+      "choices": [
+        "0",
+        "50000",
+        "100000",
+        "150000"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 111.95007778785482,
+          "choice": 1
+        },
+        {
+          "total": 38266.67809844933,
+          "choice": 2
+        },
+        {
+          "total": 1782.4184541131642,
+          "choice": 3
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtZjJ6OHl4Z2F0cGFlanQxaXVrdDF4dHV5dW10MmlvcWtncWZjNXVnbnRycnE=",
+      "id": "Qmf2Z8YxgaTpaejT1iUKt1xtUyuMt2ioQkGQFC5uGntrRQ",
+      "title": "Merge ANJ with ANT: 0.0175 ANT/ANJ (no lock)",
+      "content": "## Summary\nIf approved by ANT holders, this proposal will result in an offer to ANJ holders to perform a one-way conversion of ANJ to ANT at a rate of 0.0175 ANT per 1 ANJ with no lock requirement.\n\n## Motivation\nThe recent discussions have demonstrated the strength of the $ANJ community and its conviction in the Aragon Court thesis. While $ANT holders ultimately have governance power over the Court, we think it’s important to at least understand $ANJ holders’ views and use these to inform $ANT voting. From our perspective, the worst case outcome for both sides is a contentious $ANJ “fork” in which the community is split and Aragon Protocol now has a competitor with the same name (Aragon Court Classic?). Avoiding this outcome is crucial and, our research indicates, easily achievable.\n\nWe think $ANJ jurors who remain committed to the Court vision post merger are more valuable and are worth paying a higher premium to provide they convincingly signal this commitment. Projects such as Synthetix have exemplified the positive effects that locking up users can have on a community and on bootstrapping a supply-side and we feel there are lessons to be learned here. $ANJ holders who want to exit the system should still be allowed to do so and compensated for the upside they’re giving up, but this should entail a much lower premium.\n\n## Specification\n- New ANT will be minted to offer a conversion price of 0.0175 ANT/ANJ to $ANJ tokenholders who take the one-way conversion offer and DO NOT lock and activate the ANT they receive.\n\n## Discussion\n[https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478](https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478)\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11315445,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/Qmf2Z8YxgaTpaejT1iUKt1xtUyuMt2ioQkGQFC5uGntrRQ",
+      "startTime": {
+        "timestamp": 1606147200
+      },
+      "endTime": {
+        "timestamp": 1606320000
+      },
+      "startTimestamp": 1606147200,
+      "endTimestamp": 1606320000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 134134.161728766,
+          "choice": 0
+        },
+        {
+          "total": 10758.015585449108,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtY3lqcnBxcGhtdnk2YXgyNWd2NXl5YWlidGk2a2c5NWVuYmVveXIxdzF6amM=",
+      "id": "QmcYJrPQPHmvy6ax25gv5yYaiBTi6kg95eNbEoyr1W1ZJC",
+      "title": "Merge ANJ with ANT: 0.015 ANT/ANJ (no lock)",
+      "content": "## Summary\nIf approved by ANT holders, this proposal will result in an offer to ANJ holders to perform a one-way conversion of ANJ to ANT at a rate of 0.015 ANT per 1 ANJ with no lock requirement.\n\n## Motivation\nThe recent discussions have demonstrated the strength of the $ANJ community and its conviction in the Aragon Court thesis. While $ANT holders ultimately have governance power over the Court, we think it’s important to at least understand $ANJ holders’ views and use these to inform $ANT voting. From our perspective, the worst case outcome for both sides is a contentious $ANJ “fork” in which the community is split and Aragon Protocol now has a competitor with the same name (Aragon Court Classic?). Avoiding this outcome is crucial and, our research indicates, easily achievable.\n\nWe think $ANJ jurors who remain committed to the Court vision post merger are more valuable and are worth paying a higher premium to provide they convincingly signal this commitment. Projects such as Synthetix have exemplified the positive effects that locking up users can have on a community and on bootstrapping a supply-side and we feel there are lessons to be learned here. $ANJ holders who want to exit the system should still be allowed to do so and compensated for the upside they’re giving up, but this should entail a much lower premium.\n\n## Specification\n- New ANT will be minted to offer a conversion price of 0.015 ANT/ANJ to $ANJ tokenholders who take the one-way conversion offer and DO NOT lock and activate the ANT they receive.\n\n## Discussion\n[https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478](https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478)\n\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11315445,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmcYJrPQPHmvy6ax25gv5yYaiBTi6kg95eNbEoyr1W1ZJC",
+      "startTime": {
+        "timestamp": 1606147200
+      },
+      "endTime": {
+        "timestamp": 1606320000
+      },
+      "startTimestamp": 1606147200,
+      "endTimestamp": 1606320000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5541.036072696568,
+          "choice": 0
+        },
+        {
+          "total": 142645.23004763242,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtdmZuZHk0bW5qZ2JoZWg1bm1nZmg1eGN6Y3FzZmE2Z3MyYTZzY2ZjZ2phcGs=",
+      "id": "QmVfnDY4MNJGBHeH5NmgfH5xCZcqsFa6gs2a6scfCGJapK",
+      "title": "Merge ANJ with ANT: 0.02 ANT/ANJ (no lock)",
+      "content": "## Summary\nIf approved by ANT holders, this proposal will result in an offer to ANJ holders to perform a one-way conversion of ANJ to ANT at a rate of 0.02 ANT per 1 ANJ with no lock requirement.\n\n## Motivation\nThe recent discussions have demonstrated the strength of the $ANJ community and its conviction in the Aragon Court thesis. While $ANT holders ultimately have governance power over the Court, we think it’s important to at least understand $ANJ holders’ views and use these to inform $ANT voting. From our perspective, the worst case outcome for both sides is a contentious $ANJ “fork” in which the community is split and Aragon Protocol now has a competitor with the same name (Aragon Court Classic?). Avoiding this outcome is crucial and, our research indicates, easily achievable.\n\nWe think $ANJ jurors who remain committed to the Court vision post merger are more valuable and are worth paying a higher premium to provide they convincingly signal this commitment. Projects such as Synthetix have exemplified the positive effects that locking up users can have on a community and on bootstrapping a supply-side and we feel there are lessons to be learned here. $ANJ holders who want to exit the system should still be allowed to do so and compensated for the upside they’re giving up, but this should entail a much lower premium.\n\n## Specification\n- New ANT will be minted to offer a conversion price of 0.02 ANT/ANJ to $ANJ tokenholders who take the one-way conversion offer and DO NOT lock and activate the ANT they receive.\n\n## Discussion\n[https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478](https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478)\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11315445,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmVfnDY4MNJGBHeH5NmgfH5xCZcqsFa6gs2a6scfCGJapK",
+      "startTime": {
+        "timestamp": 1606147200
+      },
+      "endTime": {
+        "timestamp": 1606320000
+      },
+      "startTimestamp": 1606147200,
+      "endTimestamp": 1606320000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 628235.5965029077,
+          "choice": 0
+        },
+        {
+          "total": 12481.417907361656,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtZHdudGVhemZjbDVrdmFqbmJkM3Q1MnFhbnNrc3ZmYXh2bHdxdWVha2Jud2Y=",
+      "id": "QmdWNTEAZFCL5kvaJnBD3T52QanSKSVFAxVLWqUeAKbnwf",
+      "title": "Merge ANJ with ANT: 0.02 ANT/ANJ Proposal",
+      "content": "## Summary\n\nIf approved by ANT holders, this proposal will result in an offer to ANJ holders to perform a one-way conversion of ANJ to ANT at a rate of 0.02 ANT per 1 ANJ. To take advantage of this offer, ANJ holders must commit to locking and activating the ANT they receive in Aragon Protocol for a period of one year.\n\n## Motivation\n\nThe recent discussions have demonstrated the strength of the $ANJ community and its conviction in the Aragon Court thesis. While $ANT holders ultimately have governance power over the Court, we think it’s important to at least understand $ANJ holders’ views and use these to inform $ANT voting. From our perspective, the worst case outcome for both sides is a contentious $ANJ “fork” in which the community is split and Aragon Protocol now has a competitor with the same name (Aragon Court Classic?). Avoiding this outcome is crucial and, our research indicates, easily achievable.\n\nWe think $ANJ jurors who remain committed to the Court vision post merger are more valuable and are worth paying a higher premium to provide they convincingly signal this commitment. Projects such as Synthetix have exemplified the positive effects that locking up users can have on a community and on bootstrapping a supply-side and we feel there are lessons to be learned here. $ANJ holders who want to exit the system should still be allowed to do so and compensated for the upside they’re giving up, but this should entail a much lower premium.\n\nAs such, we seek to give $ANJ holders a chance to express their views and signal what premium they would require in order to convert and lock up their $ANJ to $ANT for 12 months. Our goal is to avoid a splintered community and keep as much as possible of the $ANJ community as part of the future of $ANT.\n\n## Specification\n\n-   New $ANT will be minted to offer a conversion price of 0.02ANT/ANJ to $ANJ tokenholders who take the one-way conversion offer and lock the ANT they receive and activate it in Aragon Protocol for a period of 12 months.\n\n -  The Aragon Association will schedule a follow-up vote by $ANT holders on Monday November 23, 2020 lasting 48 hours to decide what conversion rate $ANJ holders who take the conversion offer but do not lock and activate their $ANT will receive. There will be three options, each option put to a separate vote with “Yes” or “No” as the response. The option that gets the most “Yes” votes AND has more “Yes” than “No” votes will win. A tie will be broken by a vote of the Aragon Association Board of Directors + one advisor. The options that will be put to a vote are:\n      -  New $ANT will be minted to offer a conversion price of 0.015ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n      -  New $ANT will be minted to offer a conversion price of 0.0175ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n      -  New $ANT will be minted to offer a conversion price of 0.02ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n\n## ANJ poll results\n[https://snapshot.page/#/anj/all](https://snapshot.page/#/anj/all)\n\nDiscussion\n\n[https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478](https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478)\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11282870,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmdWNTEAZFCL5kvaJnBD3T52QanSKSVFAxVLWqUeAKbnwf",
+      "startTime": {
+        "timestamp": 1605715200
+      },
+      "endTime": {
+        "timestamp": 1605888000
+      },
+      "startTimestamp": 1605715200,
+      "endTimestamp": 1605888000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 25913.18405316571,
+          "choice": 0
+        },
+        {
+          "total": 41436.53301711951,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtYzdrdno5enFnd2NrNWpweGJpemhhaHhlemp5ZjFucXZrbHEyd2hpejVieDI=",
+      "id": "Qmc7kvz9ZQGWck5jPxbizHahXezjYf1nqvkLQ2WhiZ5bX2",
+      "title": "Merge ANJ with ANT: 0.024 ANT/ANJ Proposal",
+      "content": "## Summary \n\nIf approved by ANT holders, this proposal will result in an offer to ANJ holders to perform a one-way conversion of ANJ to ANT at a rate of 0.024 ANT per 1 ANJ. To take advantage of this offer, ANJ holders must commit to locking and activating the ANT they receive in Aragon Protocol for a period of one year.\n\n## Motivation \n\nThe recent discussions have demonstrated the strength of the $ANJ community and its conviction in the Aragon Court thesis. While $ANT holders ultimately have governance power over the Court, we think it’s important to at least understand $ANJ holders’ views and use these to inform $ANT voting. From our perspective, the worst case outcome for both sides is a contentious $ANJ “fork” in which the community is split and Aragon Protocol now has a competitor with the same name (Aragon Court Classic?). Avoiding this outcome is crucial and, our research indicates, easily achievable.\n\nWe think $ANJ jurors who remain committed to the Court vision post merger are more valuable and are worth paying a higher premium to provide they convincingly signal this commitment. Projects such as Synthetix have exemplified the positive effects that locking up users can have on a community and on bootstrapping a supply-side and we feel there are lessons to be learned here. $ANJ holders who want to exit the system should still be allowed to do so and compensated for the upside they’re giving up, but this should entail a much lower premium.\n\n\nAs such, we seek to give $ANJ holders a chance to express their views and signal what premium they would require in order to convert and lock up their $ANJ to $ANT for 12 months. Our goal is to avoid a splintered community and keep as much as possible of the $ANJ community as part of the future of $ANT.\n\n## Specification\n\n- New $ANT will be minted to offer a conversion price of  0.024ANT/ANJ to $ANJ tokenholders who take the one-way conversion offer and lock the ANT they receive and activate it in Aragon Protocol for a period of 12 months.\n\n- The Aragon Association will schedule a follow-up vote by $ANT holders on Monday November 23, 2020 lasting 48 hours to decide what conversion rate $ANJ holders who take the conversion offer but do not lock and activate their $ANT will receive. There will be three options, each option put to a separate vote with “Yes” or “No” as the response. The option that gets the most “Yes” votes AND has more “Yes” than “No” votes will win. A tie will be broken by a vote of the Aragon Association Board of Directors + one advisor. The options that will be put to a vote are:\n  - New $ANT will be minted to offer a conversion price of 0.015ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.0175ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.02ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n\n## ANJ poll results\n[https://snapshot.page/#/anj/all](https://snapshot.page/#/anj/all)\n\n## Discussion\n\n[https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478](https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478)\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11282870,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/Qmc7kvz9ZQGWck5jPxbizHahXezjYf1nqvkLQ2WhiZ5bX2",
+      "startTime": {
+        "timestamp": 1605715200
+      },
+      "endTime": {
+        "timestamp": 1605888000
+      },
+      "startTimestamp": 1605715200,
+      "endTimestamp": 1605888000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 65687.14956719335,
+          "choice": 0
+        },
+        {
+          "total": 299.1,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtYTN4NXhkYnozdWM3a2ExM3Y1dGNvbXdsa3Fmc2l3MzNrY3BvdmV0ZnQxYzQ=",
+      "id": "Qma3x5xDBz3Uc7Ka13v5tcoMwLKQFsiW33KcpoVetFT1C4",
+      "title": "Merge ANJ with ANT: 0.032 ANT/ANJ Proposal",
+      "content": "## Summary \n\nIf approved by ANT holders, this proposal will result in an offer to ANJ holders to perform a one-way conversion of ANJ to ANT at a rate of 0.032 ANT per 1 ANJ. To take advantage of this offer, ANJ holders must commit to locking and activating the ANT they receive in Aragon Protocol for a period of one year.\n\n## Motivation \n\nThe recent discussions have demonstrated the strength of the $ANJ community and its conviction in the Aragon Court thesis. While $ANT holders ultimately have governance power over the Court, we think it’s important to at least understand $ANJ holders’ views and use these to inform $ANT voting. From our perspective, the worst case outcome for both sides is a contentious $ANJ “fork” in which the community is split and Aragon Protocol now has a competitor with the same name (Aragon Court Classic?). Avoiding this outcome is crucial and, our research indicates, easily achievable.\n\nWe think $ANJ jurors who remain committed to the Court vision post merger are more valuable and are worth paying a higher premium to provide they convincingly signal this commitment. Projects such as Synthetix have exemplified the positive effects that locking up users can have on a community and on bootstrapping a supply-side and we feel there are lessons to be learned here. $ANJ holders who want to exit the system should still be allowed to do so and compensated for the upside they’re giving up, but this should entail a much lower premium.\n\n\nAs such, we seek to give $ANJ holders a chance to express their views and signal what premium they would require in order to convert and lock up their $ANJ to $ANT for 12 months. Our goal is to avoid a splintered community and keep as much as possible of the $ANJ community as part of the future of $ANT.\n\n## Specification\n\n- New $ANT will be minted to offer a conversion price of  0.032ANT/ANJ to $ANJ tokenholders who take the one-way conversion offer and lock the ANT they receive and activate it in Aragon Protocol for a period of 12 months.\n\n- The Aragon Association will schedule a follow-up vote by $ANT holders on Monday November 23, 2020 lasting 48 hours to decide what conversion rate $ANJ holders who take the conversion offer but do not lock and activate their $ANT will receive. There will be three options, each option put to a separate vote with “Yes” or “No” as the response. The option that gets the most “Yes” votes AND has more “Yes” than “No” votes will win. A tie will be broken by a vote of the Aragon Association Board of Directors + one advisor. The options that will be put to a vote are:\n  - New $ANT will be minted to offer a conversion price of 0.015ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.0175ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.02ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n\n## ANJ poll results\n[https://snapshot.page/#/anj/all](https://snapshot.page/#/anj/all)\n\n## Discussion\n\n[https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478](https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478)\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11282870,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/Qma3x5xDBz3Uc7Ka13v5tcoMwLKQFsiW33KcpoVetFT1C4",
+      "startTime": {
+        "timestamp": 1605715200
+      },
+      "endTime": {
+        "timestamp": 1605888000
+      },
+      "startTimestamp": 1605715200,
+      "endTimestamp": 1605888000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 64630.77548833948,
+          "choice": 0
+        },
+        {
+          "total": 18753.953919664506,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtYjJ6d2N1Y2J0bXRnZzFoZnU4Yjhxbno2dmZodzc0bjYxNGRlZGp1d3R0a3U=",
+      "id": "Qmb2ZWCUcbTmTGg1Hfu8b8QNZ6vFhW74n614dEdjuwttku",
+      "title": "Merge ANJ with ANT: 0.044 ANT/ANJ Proposal",
+      "content": "## Summary \n\nIf approved by ANT holders, this proposal will result in an offer to ANJ holders to perform a one-way conversion of ANJ to ANT at a rate of 0.044 ANT per 1 ANJ. To take advantage of this offer, ANJ holders must commit to locking and activating the ANT they receive in Aragon Protocol for a period of one year.\n\n## Motivation \n\nThe recent discussions have demonstrated the strength of the $ANJ community and its conviction in the Aragon Court thesis. While $ANT holders ultimately have governance power over the Court, we think it’s important to at least understand $ANJ holders’ views and use these to inform $ANT voting. From our perspective, the worst case outcome for both sides is a contentious $ANJ “fork” in which the community is split and Aragon Protocol now has a competitor with the same name (Aragon Court Classic?). Avoiding this outcome is crucial and, our research indicates, easily achievable.\n\nWe think $ANJ jurors who remain committed to the Court vision post merger are more valuable and are worth paying a higher premium to provide they convincingly signal this commitment. Projects such as Synthetix have exemplified the positive effects that locking up users can have on a community and on bootstrapping a supply-side and we feel there are lessons to be learned here. $ANJ holders who want to exit the system should still be allowed to do so and compensated for the upside they’re giving up, but this should entail a much lower premium.\n\n\nAs such, we seek to give $ANJ holders a chance to express their views and signal what premium they would require in order to convert and lock up their $ANJ to $ANT for 12 months. Our goal is to avoid a splintered community and keep as much as possible of the $ANJ community as part of the future of $ANT.\n\n## Specification\n\n- New $ANT will be minted to offer a conversion price of  0.044ANT/ANJ to $ANJ tokenholders who take the one-way conversion offer and lock the ANT they receive and activate it in Aragon Protocol for a period of 12 months.\n\n- The Aragon Association will schedule a follow-up vote by $ANT holders on Monday November 23, 2020 lasting 48 hours to decide what conversion rate $ANJ holders who take the conversion offer but do not lock and activate their $ANT will receive. There will be three options, each option put to a separate vote with “Yes” or “No” as the response. The option that gets the most “Yes” votes AND has more “Yes” than “No” votes will win. A tie will be broken by a vote of the Aragon Association Board of Directors + one advisor. The options that will be put to a vote are:\n  - New $ANT will be minted to offer a conversion price of 0.015ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.0175ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.02ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n\n## ANJ poll results\n[https://snapshot.page/#/anj/all](https://snapshot.page/#/anj/all)\n\n## Discussion\n\n[https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478](https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478)\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11282870,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/Qmb2ZWCUcbTmTGg1Hfu8b8QNZ6vFhW74n614dEdjuwttku",
+      "startTime": {
+        "timestamp": 1605715200
+      },
+      "endTime": {
+        "timestamp": 1605888000
+      },
+      "startTimestamp": 1605715200,
+      "endTimestamp": 1605888000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 41046.45407885388,
+          "choice": 0
+        },
+        {
+          "total": 581181.7374808311,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFteXp5ZWhmenBpZ2dxeXd1ZWFldDdldHZ0em5taDZodzJ2dnpwdWxhcGVybnc=",
+      "id": "QmYZyehfZpiGGQYwUEaeT7EtVtzNMh6HW2VVZpULApErnw",
+      "title": "Merge ANJ with ANT: 0.034 ANT/ANJ Proposal",
+      "content": "## Summary \n\nIf approved by ANT holders, this proposal will result in an offer to ANJ holders to perform a one-way conversion of ANJ to ANT at a rate of 0.034 ANT per 1 ANJ. To take advantage of this offer, ANJ holders must commit to locking and activating the ANT they receive in Aragon Protocol for a period of one year.\n\n## Motivation \n\nThe recent discussions have demonstrated the strength of the $ANJ community and its conviction in the Aragon Court thesis. While $ANT holders ultimately have governance power over the Court, we think it’s important to at least understand $ANJ holders’ views and use these to inform $ANT voting. From our perspective, the worst case outcome for both sides is a contentious $ANJ “fork” in which the community is split and Aragon Protocol now has a competitor with the same name (Aragon Court Classic?). Avoiding this outcome is crucial and, our research indicates, easily achievable.\n\nWe think $ANJ jurors who remain committed to the Court vision post merger are more valuable and are worth paying a higher premium to provide they convincingly signal this commitment. Projects such as Synthetix have exemplified the positive effects that locking up users can have on a community and on bootstrapping a supply-side and we feel there are lessons to be learned here. $ANJ holders who want to exit the system should still be allowed to do so and compensated for the upside they’re giving up, but this should entail a much lower premium.\n\n\nAs such, we seek to give $ANJ holders a chance to express their views and signal what premium they would require in order to convert and lock up their $ANJ to $ANT for 12 months. Our goal is to avoid a splintered community and keep as much as possible of the $ANJ community as part of the future of $ANT.\n\n## Specification\n\n- New $ANT will be minted to offer a conversion price of  0.034ANT/ANJ to $ANJ tokenholders who take the one-way conversion offer and lock the ANT they receive and activate it in Aragon Protocol for a period of 12 months.\n\n- The Aragon Association will schedule a follow-up vote by $ANT holders on Monday November 23, 2020 lasting 48 hours to decide what conversion rate $ANJ holders who take the conversion offer but do not lock and activate their $ANT will receive. There will be three options, each option put to a separate vote with “Yes” or “No” as the response. The option that gets the most “Yes” votes AND has more “Yes” than “No” votes will win. A tie will be broken by a vote of the Aragon Association Board of Directors + one advisor. The options that will be put to a vote are:\n  - New $ANT will be minted to offer a conversion price of 0.015ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.0175ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.02ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n\n## ANJ poll results\n[https://snapshot.page/#/anj/all](https://snapshot.page/#/anj/all)\n\n## Discussion\n\n[https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478](https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478)\n\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11282870,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmYZyehfZpiGGQYwUEaeT7EtVtzNMh6HW2VVZpULApErnw",
+      "startTime": {
+        "timestamp": 1605715200
+      },
+      "endTime": {
+        "timestamp": 1605888000
+      },
+      "startTimestamp": 1605715200,
+      "endTimestamp": 1605888000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 64548.48735404745,
+          "choice": 0
+        },
+        {
+          "total": 851.0167111881675,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtdWF6OHBsOHB1bnd5dHZmNzN1dTRkbDJtaHNwZHp2bjRlaGtkbGRjZ2d6ZzU=",
+      "id": "QmUAZ8PL8pUnwYTvf73UU4DL2mhSPdzVn4EHKDLDcggzG5",
+      "title": "Merge ANJ with ANT: 0.028 ANT/ANJ Proposal",
+      "content": "## Summary \n\nIf approved by ANT holders, this proposal will result in an offer to ANJ holders to perform a one-way conversion of ANJ to ANT at a rate of 0.028 ANT per 1 ANJ. To take advantage of this offer, ANJ holders must commit to locking and activating the ANT they receive in Aragon Protocol for a period of one year.\n\n## Motivation \n\nThe recent discussions have demonstrated the strength of the $ANJ community and its conviction in the Aragon Court thesis. While $ANT holders ultimately have governance power over the Court, we think it’s important to at least understand $ANJ holders’ views and use these to inform $ANT voting. From our perspective, the worst case outcome for both sides is a contentious $ANJ “fork” in which the community is split and Aragon Protocol now has a competitor with the same name (Aragon Court Classic?). Avoiding this outcome is crucial and, our research indicates, easily achievable.\n\nWe think $ANJ jurors who remain committed to the Court vision post merger are more valuable and are worth paying a higher premium to provide they convincingly signal this commitment. Projects such as Synthetix have exemplified the positive effects that locking up users can have on a community and on bootstrapping a supply-side and we feel there are lessons to be learned here. $ANJ holders who want to exit the system should still be allowed to do so and compensated for the upside they’re giving up, but this should entail a much lower premium.\n\n\nAs such, we seek to give $ANJ holders a chance to express their views and signal what premium they would require in order to convert and lock up their $ANJ to $ANT for 12 months. Our goal is to avoid a splintered community and keep as much as possible of the $ANJ community as part of the future of $ANT.\n\n## Specification\n\n- New $ANT will be minted to offer a conversion price of  0.028ANT/ANJ to $ANJ tokenholders who take the one-way conversion offer and lock the ANT they receive and activate it in Aragon Protocol for a period of 12 months.\n\n- The Aragon Association will schedule a follow-up vote by $ANT holders on Monday November 23, 2020 lasting 48 hours to decide what conversion rate $ANJ holders who take the conversion offer but do not lock and activate their $ANT will receive. There will be three options, each option put to a separate vote with “Yes” or “No” as the response. The option that gets the most “Yes” votes AND has more “Yes” than “No” votes will win. A tie will be broken by a vote of the Aragon Association Board of Directors + one advisor. The options that will be put to a vote are:\n  - New $ANT will be minted to offer a conversion price of 0.015ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.0175ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.02ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n\n## ANJ poll results\n[https://snapshot.page/#/anj/all](https://snapshot.page/#/anj/all)\n\n## Discussion\n\n[https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478](https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478)\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11282870,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmUAZ8PL8pUnwYTvf73UU4DL2mhSPdzVn4EHKDLDcggzG5",
+      "startTime": {
+        "timestamp": 1605715200
+      },
+      "endTime": {
+        "timestamp": 1605888000
+      },
+      "startTimestamp": 1605715200,
+      "endTimestamp": 1605888000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 65687.14956719335,
+          "choice": 0
+        },
+        {
+          "total": 18753.953919664506,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtdjZmcGlpY3phaW02c2wyc2p0eXlyZWZjdnNiN25oaGtld3A2NjNkbnRhcWo=",
+      "id": "QmV6fpiiczaiM6sL2SjtYYREFcVSb7nhhKEWp663dnTAQJ",
+      "title": "Merge ANJ with ANT: 0.0396 ANT/ANJ Proposal",
+      "content": "## Summary \n\nIf approved by ANT holders, this proposal will result in an offer to ANJ holders to perform a one-way conversion of ANJ to ANT at a rate of 0.0396 ANT per 1 ANJ. To take advantage of this offer, ANJ holders must commit to locking and activating the ANT they receive in Aragon Protocol for a period of one year.\n\n## Motivation \n\nThe recent discussions have demonstrated the strength of the $ANJ community and its conviction in the Aragon Court thesis. While $ANT holders ultimately have governance power over the Court, we think it’s important to at least understand $ANJ holders’ views and use these to inform $ANT voting. From our perspective, the worst case outcome for both sides is a contentious $ANJ “fork” in which the community is split and Aragon Protocol now has a competitor with the same name (Aragon Court Classic?). Avoiding this outcome is crucial and, our research indicates, easily achievable.\n\nWe think $ANJ jurors who remain committed to the Court vision post merger are more valuable and are worth paying a higher premium to provide they convincingly signal this commitment. Projects such as Synthetix have exemplified the positive effects that locking up users can have on a community and on bootstrapping a supply-side and we feel there are lessons to be learned here. $ANJ holders who want to exit the system should still be allowed to do so and compensated for the upside they’re giving up, but this should entail a much lower premium.\n\n\nAs such, we seek to give $ANJ holders a chance to express their views and signal what premium they would require in order to convert and lock up their $ANJ to $ANT for 12 months. Our goal is to avoid a splintered community and keep as much as possible of the $ANJ community as part of the future of $ANT.\n\n## Specification\n\n- New $ANT will be minted to offer a conversion price of  0.0396ANT/ANJ to $ANJ tokenholders who take the one-way conversion offer and lock the ANT they receive and activate it in Aragon Protocol for a period of 12 months.\n\n- The Aragon Association will schedule a follow-up vote by $ANT holders on Monday November 23, 2020 lasting 48 hours to decide what conversion rate $ANJ holders who take the conversion offer but do not lock and activate their $ANT will receive. There will be three options, each option put to a separate vote with “Yes” or “No” as the response. The option that gets the most “Yes” votes AND has more “Yes” than “No” votes will win. A tie will be broken by a vote of the Aragon Association Board of Directors + one advisor. The options that will be put to a vote are:\n  - New $ANT will be minted to offer a conversion price of 0.015ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.0175ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.02ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n\n## ANJ poll results\n[https://snapshot.page/#/anj/all](https://snapshot.page/#/anj/all)\n\n## Discussion\n\n[https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478](https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478)\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11282870,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmV6fpiiczaiM6sL2SjtYYREFcVSb7nhhKEWp663dnTAQJ",
+      "startTime": {
+        "timestamp": 1605715200
+      },
+      "endTime": {
+        "timestamp": 1605888000
+      },
+      "startTimestamp": 1605715200,
+      "endTimestamp": 1605888000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 59929.98447747962,
+          "choice": 0
+        },
+        {
+          "total": 25063.035720566408,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtcXRvazh5cXdjdjlydHRkb2RtNXBnbHZobXkzdWM0cWFkcG1jNXlka3N0bXU=",
+      "id": "QmQtok8YQWcV9RTtDoDm5pGLVHmY3Uc4qADPmC5YDksTmu",
+      "title": "Void the results of the vote to Deploy Aragon Protocol and keep ANJ + Aragon Court",
+      "content": "## Summary\n\nIf approved, this proposal will void the results of [the vote to Deploy Aragon Protocol](https://gov.aragon.org/#/aragon/proposal/QmcLGPwfJtbB1Bt384iyXaK65sxYTERSJuwqRDqLs5Chca) and maintain the status quo, which is to keep Aragon Court with ANJ as the staking token, to keep ANJ connected to ANT via the ANJ bonding curve, and to keep the Aragon Network as the governor of Aragon Court.\n\n## Motivation\n\nSome ANJ holders have expressed a desire to have more input into the decision to deploy Aragon Protocol and deprecate Aragon Court. ANJ holders were not given a chance to signal their preference on the upgrade, and the decision to upgrade was made separately from the decision about what would happen with ANJ and Aragon Court if the proposal to deploy Aragon Protocol with ANT as the staking token was approved.\n\nBy putting this proposal on the ballot alongside other proposals to decide the future of ANJ and Aragon Court, both ANJ and ANT holders will have a chance during the upcoming poll and binding vote, respectively, to choose between all of the potential paths forward: merging ANJ and ANT, giving ANJ holders and Aragon Court greater independence, keeping the status quo, and various versions of each of these options that end up on the ballot. All of these options will be available on the same ballot, on equal footing, so we can get a full picture of the community's preferences with all potential paths forward side by side.\n\nSeveral arguments have been put forward in favor of the status quo:\n\n- The bonding curve relationship between ANT and ANJ ensures long-term incentive alignment while preserving short-term incentive isolation between Aragon Network and Aragon Court that cannot be replicated in a single-token system.\n\n- Related to the first point, with court jurors having a distinct set of incentives from ANT holders there is a better separation of powers that could lead to a fairer treatment of any disputes involving the Aragon Network.\n\n- ANJ's lower market cap can in some ways be seen as a liability (due to lower security in the short term) but in other ways can be seen as an asset (due to the relative ease of building a position and becoming significantly invested in the court's success).\n\n## Specification\n\n- Void the results of the vote to Deploy Aragon Protocol: [https://gov.aragon.org/#/aragon/proposal/QmcLGPwfJtbB1Bt384iyXaK65sxYTERSJuwqRDqLs5Chca](https://gov.aragon.org/#/aragon/proposal/QmcLGPwfJtbB1Bt384iyXaK65sxYTERSJuwqRDqLs5Chca)\n\n- The Aragon Association will continue to fund development, marketing, and distribution efforts for ANJ and Aragon Court.\n\n- The Aragon Association will advise the Governor Council to vote to un-pause the ANJ bonding curve and hand off control of the bonding curve and Aragon Court governance to the Aragon Network DAO once the DAO votes to accept this responsibility.\n\n## ANJ poll results\n[https://snapshot.page/#/anj/all](https://snapshot.page/#/anj/all)\n\n## Discussion\n\n[https://forum.aragon.org/t/void-the-results-of-the-vote-to-deploy-aragon-protocol-and-keep-anj-aragon-court/2477](https://forum.aragon.org/t/void-the-results-of-the-vote-to-deploy-aragon-protocol-and-keep-anj-aragon-court/2477)\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11282870,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmQtok8YQWcV9RTtDoDm5pGLVHmY3Uc4qADPmC5YDksTmu",
+      "startTime": {
+        "timestamp": 1605715200
+      },
+      "endTime": {
+        "timestamp": 1605888000
+      },
+      "startTimestamp": 1605715200,
+      "endTimestamp": 1605888000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 76256.87629618458,
+          "choice": 0
+        },
+        {
+          "total": 1900.007236880791,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtcnFnbWpjamFxbmV4YjZyenpmdmtkamhhZGhxdHptdWRzYmNwZW5qYmNtNGM=",
+      "id": "QmRqGmjCjaqneXb6RZZfVKdJHadHQtZMuDsBcPENjbcm4C",
+      "title": "Merge ANJ with ANT: 0.048 ANT/ANJ Proposal",
+      "content": "## Summary \n\nIf approved by ANT holders, this proposal will result in an offer to ANJ holders to perform a one-way conversion of ANJ to ANT at a rate of 0.048 ANT per 1 ANJ. To take advantage of this offer, ANJ holders must commit to locking and activating the ANT they receive in Aragon Protocol for a period of one year.\n\n## Motivation \n\nThe recent discussions have demonstrated the strength of the $ANJ community and its conviction in the Aragon Court thesis. While $ANT holders ultimately have governance power over the Court, we think it’s important to at least understand $ANJ holders’ views and use these to inform $ANT voting. From our perspective, the worst case outcome for both sides is a contentious $ANJ “fork” in which the community is split and Aragon Protocol now has a competitor with the same name (Aragon Court Classic?). Avoiding this outcome is crucial and, our research indicates, easily achievable.\n\nWe think $ANJ jurors who remain committed to the Court vision post merger are more valuable and are worth paying a higher premium to provide they convincingly signal this commitment. Projects such as Synthetix have exemplified the positive effects that locking up users can have on a community and on bootstrapping a supply-side and we feel there are lessons to be learned here. $ANJ holders who want to exit the system should still be allowed to do so and compensated for the upside they’re giving up, but this should entail a much lower premium.\n\n\nAs such, we seek to give $ANJ holders a chance to express their views and signal what premium they would require in order to convert and lock up their $ANJ to $ANT for 12 months. Our goal is to avoid a splintered community and keep as much as possible of the $ANJ community as part of the future of $ANT.\n\n## Specification\n\n- New $ANT will be minted to offer a conversion price of  0.048ANT/ANJ to $ANJ tokenholders who take the one-way conversion offer and lock the ANT they receive and activate it in Aragon Protocol for a period of 12 months.\n\n- The Aragon Association will schedule a follow-up vote by $ANT holders on Monday November 23, 2020 lasting 48 hours to decide what conversion rate $ANJ holders who take the conversion offer but do not lock and activate their $ANT will receive. There will be three options, each option put to a separate vote with “Yes” or “No” as the response. The option that gets the most “Yes” votes AND has more “Yes” than “No” votes will win. A tie will be broken by a vote of the Aragon Association Board of Directors + one advisor. The options that will be put to a vote are:\n  - New $ANT will be minted to offer a conversion price of 0.015ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.0175ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n  - New $ANT will be minted to offer a conversion price of 0.02ANT/ANJ to $ANJ tokenholders to convert their $ANJ to $ANT with no lock + activation requirement.\n\n## ANJ poll results\n[https://snapshot.page/#/anj/all](https://snapshot.page/#/anj/all)\n\n## Discussion\n\n[https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478](https://forum.aragon.org/t/proposal-next-steps-for-anj-holders/2478)\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xA1d4C9e0a46068AfA3D8424B0618218Bf85ccaAA",
+      "totalVotes": 0,
+      "blockNumber": 11282870,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmRqGmjCjaqneXb6RZZfVKdJHadHQtZMuDsBcPENjbcm4C",
+      "startTime": {
+        "timestamp": 1605715200
+      },
+      "endTime": {
+        "timestamp": 1605888000
+      },
+      "startTimestamp": 1605715200,
+      "endTimestamp": 1605888000,
+      "currentState": "closed",
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "results": [],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 41046.45407885388,
+          "choice": 0
+        },
+        {
+          "total": 103716.6805815082,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtY2xncHdmanRiYjFidDM4NGl5eGFrNjVzeHl0ZXJzanV3cXJkcWxzNWNoY2E=",
+      "id": "QmcLGPwfJtbB1Bt384iyXaK65sxYTERSJuwqRDqLs5Chca",
+      "title": "Should Aragon One deploy Aragon Protocol with ANT as its staking token?",
+      "content": "# Summary\n\nWe propose deploying an upgraded instance of Aragon Court as Aragon Protocol using ANT as its staking token.\n\n# Motivation\n\nThe Aragon Network aims to create a digital jurisdiction where new forms of digital organizations can thrive.\n\nWe saw early on that the need for a dispute resolution protocol was core to that vision's success and started building a subjective oracle protocol (Aragon Court) in late 2018, as well as many other pieces of infrastructure to enable these types of organizations to succeed.\n\nCurrently, governance rights over the Court protocol are granted exclusively to ANT holders, and participation rights (to earn dispute and usage fees) in the Court are granted exclusively to ANJ holders. This separation was deemed necessary to isolate the incentives of Court participation from the incentives of other potential service protocols that might be created and connected to ANT in the future (eg Aragon Chain), and to ensure that the incentives of court participants were divergent enough to provide a check on the decision making power of a majority-rule based voting policy.\n\nThis structure positions the Aragon Network as a hub that deploys capital into the development of various connected protocols with the Court being one such protocol. However, it’s our position that this is not a good path forward for the network as it splits focus and creates factions which must vie for resources and attention. We believe it would be much wiser to focus all resources, attention, and efforts into developing, promoting, and building tooling to support a single *Aragon Protocol*. \n\nWith a singular focus, the separation of rights between ANJ and ANT become unnecessary. We do not need to worry about isolating incentives across multiple potential protocols, and can tune Aragon Protocol using time-based staking parameters to ensure there is sufficient divergence among participants in the protocol and the larger population of ANT holders participating in governance. \n\n# Specification\n\nIf this vote is approved:\n\n- Aragon One will audit and deploy an upgraded version of the original court protocol with some added enhancements such as modified time-based staking parameters, ruling delegation for cold/hot wallet setups, a more flexible payments system (giving the AN DAO ability to introduce custom payment models at runtime), and an improved upgrading process. Aragon One expects, but doesn't commit to, Aragon Protocol to be live and operational before the end of 2020.\n- Aragon One will decide the initial parametrization of Aragon Protocol with its governor being the [interim governance council](https://client.aragon.org/#/network) of the Aragon Network; the council commits to setup a vote for that transfer of power when the Aragon Network DAO is ready. Although Aragon One will choose parameters at its own discretion, the conditions to become a guardian will be similar to those for becoming a juror under the old Aragon Court protocol rules.\n- Aragon One's deployed instance will be referred to as Aragon Protocol and will use ANT as its staking token.\n- Aragon Govern will use Aragon Protocol as its default resolver for optimistic vote challenges and subjective disputes over votes. Other products and projects developed by Aragon One paid for by Aragon Association grants will use Aragon Protocol if there's a need for a subjective oracle.\n- Aragon One will immediately stop maintaining Aragon Court, and instead focus on building and enhancing Aragon Protocol.\n- Aragon One will shut down all infrastructure supporting Aragon Court no less than 45 days from this vote being approved. Given that all code is open source, a motivated party could easily run these services.\n- Aragon Association will not relicense the Aragon Court codebase nor any of its supporting services, and it will be kept available under the GPL-3.0 license or the current license the different components have (some parts are licensed under MIT and will be kept MIT licensed)\n\nAdditional community votes would be required to determine the future of ANJ and Aragon Court, whether there's a merger of some kind, independence from the Aragon Network, or some other path forward. Aragon One is currently collaborating with Delphi Digital on a proposal to merge ANJ with ANT and provide additional rewards to ANJ holders who commit to locking up their ANT once they accept the merger offer. We will share more details about this proposal with the community as soon as possible.\n\n# Urgency\n\nThis proposal represents a critical decision for the community.\n\nReaching a decision where all stakeholders feel comfortable with the outcome is of the utmost importance. However, reaching a decision is a dependency for further development, strategic resource allocation, and the Aragon Govern upcoming launch, because these subsequent decisions depend a great deal on whether we are proceeding as a hub connecting many service protocols, or optimizing our resources to maximize the value of a single protocol.\n\nGiven the importance of this decision, we will be holding another town hall meeting on Aragon's Discord tentatively happening on Thursday November 5th at 5pm UTC (final details to be confirmed closer to the date)",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0x4cB3FD420555A09bA98845f0B816e45cFb230983",
+      "totalVotes": 0,
+      "blockNumber": 11224249,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmcLGPwfJtbB1Bt384iyXaK65sxYTERSJuwqRDqLs5Chca",
+      "startTime": {
+        "timestamp": 1604937600
+      },
+      "endTime": {
+        "timestamp": 1605110400
+      },
+      "startTimestamp": 1604937600,
+      "endTimestamp": 1605110400,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 106589.18285689832,
+          "choice": 0
+        },
+        {
+          "total": 4847.384539378734,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6YXJhZ29uOnNuYXBzaG90OnFtd3hqdm81enhhMnVzZ21tY2xzeWZnd3hucGhrcDJkN25tNHJxZHJpbmpld28=",
+      "id": "QmWXJvo5zXA2uSgMMCLSyFgwxnpHKP2D7NM4RqDriNjEwo",
+      "title": "Should ChainSafe focus on provisioning Aragon on Ethermint rather than launching Aragon Chain?",
+      "content": "# Summary\nAragon One proposes for ChainSafe to discontinue development of Aragon Chain and its ANT-linked staking token ARA, and instead, focus their efforts on deploying Aragon’s DAO infrastructure to the project-agnostic Ethermint Cosmos Zone. Aragon One will continue its work developing community-driven projects like Optimistic Snapshot and other Ethereum centric scaling solutions.\n\n# Rationale\nAragon Chain was originally announced in October 2019 and funded by the Aragon Association after ANT holders signalled their approval on AGP-106. Since the proposal was approved Aragon Chain’s development has mostly consisted of developing Ethermint itself. \n\nThe main motivation for Aragon Chain was to allow Aragon organizations to operate more affordably by reducing the cost of transaction fees otherwise incurred on Ethereum mainnet. During that time we have seen alternatives like xDai, that provide similar cost savings, gain significant traction within the community. \n\nWe’ve also seen off-chain voting solutions like Snapshot quickly become the scalable and low cost voting standard on Ethereum. Emerging L2 solutions like Optimistic Snapshot have quickly become the primary focus of Aragon One’s development efforts and have attracted huge interest from projects in the community.\n\nWe believe the Aragon community and its resources should go towards collaboration on these solutions within the broader Ethereum community, rather than building a standalone Aragon Chain.\n\nThis proposal does not intend to permanently close the door to an Aragon-specific chain. We aim to maintain our close relationship with ChainSafe and stay up-to-date on opportunities for developing an Aragon-specific chain, if and when it makes sense.\n\nWe still believe that Aragon’s tools should be available everywhere, including Ethermint, which we propose should be made available on the soon-to-be-announced Ethermint Chain.\n\n# Specification\nThe poll for this proposal will be held on Snapshot for 48 hours with a 50% approval threshold and no quorum.\n\nIf this proposal is approved, the following will be enacted:\n- ChainSafe and Aragon One discontinue the development of Aragon Chain and ARA.\n- ChainSafe will deploy and maintain Aragon’s tooling to the upcoming Ethermint chain.\n- Aragon One will monitor opportunities for deploying an ANT-linked Aragon chain in the future.\n- Aragon One will continue to support community driven scaling solutions like Optimistic Snapshot and other sidechains where applicable.\n",
+      "protocol": "aragon",
+      "adapter": "snapshot",
+      "proposer": "0xf08b64258465A9896691E23caaF9E6C830ec4b9D",
+      "totalVotes": 0,
+      "blockNumber": 11106600,
+      "externalUrl": "https://snapshot.org/#/aragon/proposal/QmWXJvo5zXA2uSgMMCLSyFgwxnpHKP2D7NM4RqDriNjEwo",
+      "startTime": {
+        "timestamp": 1603202400
+      },
+      "endTime": {
+        "timestamp": 1603375200
+      },
+      "startTimestamp": 1603202400,
+      "endTimestamp": 1603375200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 0.0,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

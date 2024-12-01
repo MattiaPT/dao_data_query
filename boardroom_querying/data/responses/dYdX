@@ -1,0 +1,1105 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweDM4YThkOWNmMzU1NWU5NTYwY2I3MDBkZjM1NTY3ZDVjMGU4MWRiNmFlZjhhZDAzOGU4OWUzOGQxNWUxZmZhNDI=",
+      "id": "0x38a8d9cf3555e9560cb700df35567d5c0e81db6aef8ad038e89e38d15e1ffa42",
+      "title": "DRC - Ambassador Program Continuation",
+      "content": "Summary:\nOn May 1st, 2022, 16 community members enrolled in an Ambassador Program to foster community-led ecosystem growth. Six Burrows were formed: Analytics, Governance, Media, Risk, Student, and User Onboarding and Education.\n\nTo date, documented successes, performance, challenges, future KPIs and goals have been illustrated on the commonwealth forums. Future documentation will also be posted on Notion under Burrow Projects. This is an open workbook where the community can see each project Ambassadors are working on and the KPIs keeping them accountable.\n\nAs of today, 13 Ambassadors and 5 Burrows (Analytics, Governance, Media, Risk and User Onboarding & Education) have expressed interest in continuing as dYdX Ambassadors.\n\nBased on the above, this Snapshot vote has been created by the Ambassadors to determine whether the Ambassador Program should continue into Season 2 (September 1st - November 31st).\n\nContext:\nIn the initial Ambassador Program post, the dYdX Foundation announced that a community vote would occur in Season 2 to establish whether or not to continue with the current Ambassador Program structure and each respective Burrow.\n\nThe dYdX Grants Program recently announced that a portion of the capital ($400,000) in v1.5 will be given to Ambassador Burrows to support the program with funding and assistance. Ambassadors currently receive an hourly rate of $25 per hour capped at 20 hours per week ($2,000 max). Each Burrow receives $10,000 per quarter to fund self-directed initiatives.\n\nAmbassadors are required to showcase the benefits and value that they are creating for the dYdX community. Transparency and alignment are key pillars of the Ambassador Program, with a focus on showcasing the value proposition and the steps taken to maximize impact - See recent Season 1 Reflections & Season 2 plans from the Analytics, Governance, Media, Risk and User Onboarding & Education Burrows.\n\nRationale:\nWhy does the dYdX ecosystem need Ambassadors?\n\ndYdX V4 will be fully decentralized. As the dYdX DAO scales, multiple individuals and working groups will be contributing to the development of the ecosystem. The Ambassador Program was originally formed to replicate DAO working group structures and has arguably done a great job at showcasing the high standards of the dYdX community.\n\nIt’s imperative that dYdX has a strong set of contributors driving growth, sustainability, and adoption of the protocol from a community perspective.",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xccC4e8Ad313dF8150211B1b934725345924ab81D",
+      "totalVotes": 404,
+      "blockNumber": 15480381,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0x38a8d9cf3555e9560cb700df35567d5c0e81db6aef8ad038e89e38d15e1ffa42",
+      "startTime": {
+        "timestamp": 1662503556
+      },
+      "endTime": {
+        "timestamp": 1662849156
+      },
+      "startTimestamp": 1662503556,
+      "endTimestamp": 1662849156,
+      "currentState": "closed",
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "results": [
+        {
+          "total": 2661574.5,
+          "choice": 0
+        },
+        {
+          "total": 1889.6597,
+          "choice": 2
+        },
+        {
+          "total": 132040.12,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "basic",
+      "indexedResult": [
+        {
+          "total": 5161984.879961782,
+          "choice": 0
+        },
+        {
+          "total": 132040.11113355862,
+          "choice": 1
+        },
+        {
+          "total": 1889.6599573216877,
+          "choice": 2
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweDRiYWE3MzJiYWNkYjhlMDVlZmI0ODI1MzVjMjEzYzY4MmQ3NjlkY2JkMmE2ZWYxMTdmYTA3MDQwNGQyNThkZWM=",
+      "id": "0x4baa732bacdb8e05efb482535c213c682d769dcbd2a6ef117fa070404d258dec",
+      "title": "A Further Step Towards More Equitable LP Rewards",
+      "content": "We propose:\n\na) Changing the weights for non BTC/ETH markets to v = 0.6, d = 0.35, and s = 0.05.\nb) For BTC/ETH, v= 0.8, d = 0.15, s = 0.05\nc) Reducing the amount paid for BTC/ETH to 10%/10% rather than 20%/20%, thus giving 80% to the other markets.\n\nThe main direction then is to increase weight towards the Volume term that was added last time by Wintermute's proposal, as well as acknowledge the maturity of BTC/ETH markets and the lower need there to incentivize book-quoting.\n\nOver time as other markets mature we can move further on towards even more simple volume weighting.",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xf90dC46f86c3F78de24408014396843359812044",
+      "totalVotes": 545,
+      "blockNumber": 15310045,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0x4baa732bacdb8e05efb482535c213c682d769dcbd2a6ef117fa070404d258dec",
+      "startTime": {
+        "timestamp": 1660162340
+      },
+      "endTime": {
+        "timestamp": 1660507940
+      },
+      "startTimestamp": 1660162340,
+      "endTimestamp": 1660507940,
+      "currentState": "closed",
+      "choices": [
+        "Revise weights, BTC/ETH to 10/10",
+        "No changes"
+      ],
+      "results": [
+        {
+          "total": 22761860.0,
+          "choice": 0
+        },
+        {
+          "total": 11857.499,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 22761860.115620323,
+          "choice": 0
+        },
+        {
+          "total": 11857.499703430538,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweDI4MTkzZjNjYzhmMGExZDFhOThhN2MzMmVhNGNkNTFiNDk3YzI3YjhkZTZiZGIzNjIwOGM0ZmQ0ODgzYTBjNzM=",
+      "id": "0x28193f3cc8f0a1d1a98a7c32ea4cd51b497c27b8de6bdb36208c4fd4883a0c73",
+      "title": "Simplifying Trading rewards to w=fees, and 25% rewards to be moved to treasury",
+      "content": "The current Trading Rewards formula should be simplified to completely remove the Open Interest term, which as research has found adds nothing productive but takes up trading firms margin in order to put on fake large hedged Open Interest positions.\n\nWe propose moving to a simple rewards = proportion of total fees paid, ie collapsing the formula to simply: w = fees\n\nAlso a reduction of 25% of monthly rewards by sending it to the treasury, which will need to also be ratified by a separate on-chain vote.",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xf90dC46f86c3F78de24408014396843359812044",
+      "totalVotes": 645,
+      "blockNumber": 15220131,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0x28193f3cc8f0a1d1a98a7c32ea4cd51b497c27b8de6bdb36208c4fd4883a0c73",
+      "startTime": {
+        "timestamp": 1658952428
+      },
+      "endTime": {
+        "timestamp": 1659298028
+      },
+      "startTimestamp": 1658952428,
+      "endTimestamp": 1659298028,
+      "currentState": "closed",
+      "choices": [
+        "w=f and reduce rewards by 25%",
+        "No changes"
+      ],
+      "results": [
+        {
+          "total": 22804188.0,
+          "choice": 0
+        },
+        {
+          "total": 200942.67,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 22804191.62209796,
+          "choice": 0
+        },
+        {
+          "total": 200942.71461002983,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweDY1YTVhMGMzNWM0MTk5NGVjZWUwZDQ3MmE0ZTkzZDlhYTMzOTJjNzkwMTUzZWQxYzRmMmZkODMxMzNjNzNiNjg=",
+      "id": "0x65a5a0c35c41994ecee0d472a4e93d9aa3392c790153ed1c4f2fd83133c73b68",
+      "title": "Launch dYdX Grants Program v1.5",
+      "content": "In reference to this discussion:\nhttps://commonwealth.im/dydx/discussion/5808-dydx-grants-program-v15\n\nWe propose funding the dYdX Grants Program with $5.5M DYDX to launch v1.5 of the program for 6 months ahead of the V4 launch.\n\nWe also propose removing Su Zhu and Zhuoxun Yin as dYdX Grants Trust Trustees. The following two members will be appointed as Trustees:\n- Lily Liu\n- Alexios Valonasis\n\nIf approved, a DIP will be submitted to:\n- Transfer $5.5M of DYDX from the Community Treasury to the dYdX Grants Multisig. The amount of DYDX will be determined at the time of DIP submission based on price.\n- Remove Su Zhu and Zhuoxun Yin as Trustees of the dYdX Grants Trust. \n- Appoint Lily Liu and Alexios Valonasis as dYdX Grants Trust Trustees.\n\n\nShould the community launch v1.5 of dYdX Grants with $5.5M of DYDX and two new Trustees?",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xb55a948763e0d386b6dEfcD8070a522216AE42b1",
+      "totalVotes": 432,
+      "blockNumber": 15118269,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0x65a5a0c35c41994ecee0d472a4e93d9aa3392c790153ed1c4f2fd83133c73b68",
+      "startTime": {
+        "timestamp": 1657587934
+      },
+      "endTime": {
+        "timestamp": 1657933534
+      },
+      "startTimestamp": 1657587934,
+      "endTimestamp": 1657933534,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 5753268.0,
+          "choice": 0
+        },
+        {
+          "total": 13893.106,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5753273.937265527,
+          "choice": 0
+        },
+        {
+          "total": 13893.107384353923,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweDZhMGMxMWM2NzQ5NjYxZmE1OWY4ODdlNTIxZGVhZGE4MGQzMGRjYmMwOTYxYWY1NTUyMjdhNWM0ZDBiMDBhNGU=",
+      "id": "0x6a0c11c6749661fa59f887e521deada80d30dcbc0961af555227a5c4d0b00a4e",
+      "title": "Wind down the Borrowing Pool?",
+      "content": "# Summary\n\nWe propose winding down the borrowing pool by –\n(1) turning off rewards rewards generated by staking USDC to the Liquidity Staking Pool, \n(2) removing the deposit functionality for the Liquidity Staking Pool from https://dydx.community/dashboard, and\n(3) sending the remaining rewards (383, 562 DYDX per epoch) allocated to users who stake USDC to the Community Treasury.\n\nThe reasons for proposing to wind down the borrowing pool are -\n(a) the dYdX community is paying DYDX rewards for underutilized USDC capital, \n(b) prospective borrowers provided inadequate disclosure, and \n(c) the structure of the borrowing pool negatively impacts competition among LPs.\n\nDRC: [https://commonwealth.im/dydx/discussion/5661-drc-winding-down-the-borrowing-pool](https://commonwealth.im/dydx/discussion/5661-drc-winding-down-the-borrowing-pool)\n\n# Voting Options\n\n- Yes: Execute the proposed changes by:\n    1. turning off rewards rewards generated by staking USDC to the Liquidity Staking Pool, \n    2. removing the deposit functionality for the Liquidity Staking Pool from https://dydx.community/dashboard, and \n    3. sending the remaining rewards (383, 562 DYDX per epoch) allocated to users who stake USDC to the Community Treasury.\n \n- No: Do nothing.\n\n# Next Steps\n\nIf this Snapshot vote is successful, the full implementation of this proposal (points 1 and 3) requires an on-chain vote and the subject matter falls under the requirements of the Short Timelock Executor (https://docs.dydx.community/dydx-governance/voting-and-governance/governance-parameters).\n",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xc78fc1562005B60a1D62707028606E0E468d8c7e",
+      "totalVotes": 632,
+      "blockNumber": 15058763,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0x6a0c11c6749661fa59f887e521deada80d30dcbc0961af555227a5c4d0b00a4e",
+      "startTime": {
+        "timestamp": 1656794336
+      },
+      "endTime": {
+        "timestamp": 1657139936
+      },
+      "startTimestamp": 1656794336,
+      "endTimestamp": 1657139936,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 16668393.0,
+          "choice": 0
+        },
+        {
+          "total": 3393.7883,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 16668406.996798744,
+          "choice": 0
+        },
+        {
+          "total": 3393.7879555213563,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweDE2YzFmYTFhZDlhZTAwMjQxYzhmNDUxMzEzZDNiMDNhMTdjNjcwZWY1YmYzMzllOTJlNTA4ZTY2MDc4MDQwMGE=",
+      "id": "0x16c1fa1ad9ae00241c8f451313d3b03a17c670ef5bf339e92e508e660780400a",
+      "title": "Epoch 11: Adding 15 New Assets to the Starkware Priority Timelock Executor",
+      "content": "This is a follow-up to the previous proposal, with more assets added: https://snapshot.org/#/dydxgov.eth/proposal/0xf18fef845ef6820243d77b518cdf7c03820c1199e88c375548062d06a8bf0e0c\n\n# Summary\nWe propose adding the following assets to the Starkware Priority Timelock Executor:\n\n1. [ApeCoin (APE)](https://dydx.chaoslabs.xyz/asset-listing/apecoin)\nMotivation: Since launching, APE has been very actively traded across multiple perpetual exchanges, with strong retail demand for NFT related assets.\n24h Perpetual Volumes: $515M\n\n2. [Stepn (GMT)](https://dydx.chaoslabs.xyz/asset-listing/stepn)\nMotivation: Stepn has been widely popular among retail and non-crypto native users, attracting immense trading volumes across spot and perp venues.\n24h Perpetual Volumes: $2,200M\n\n3. [Fantom (FTM)](https://dydx.chaoslabs.xyz/asset-listing/fantom)\nMotivation: Although not as recent to the market, Fantom remains an L1 challenger with consistent volumes and developments that we would benefit from capturing.\n24h Perpetual Volumes: $560M\n\n4. [Axie Infinity (AXS)](https://dydx.chaoslabs.xyz/asset-listing/axie-infinity)\nMotivation: Representing the gaming side of our universe, AXS has also captured a ton of retail flow with high volumes and developments.\n24h Perpetual Volumes: $660M\n\n5. [Optimism (OP)](https://dydx.chaoslabs.xyz/asset-listing/optimism)\nChaos Labs is in the process of adding this asset.\nMotivation: Having just recently launched, OP is experiencing heightened interest and volume as markets adopt this new asset. We think it’s important for dYdX to be a part of this adoption.\n24h Perpetual Volumes: $265M\n\n6. [Waves (WAVES)](https://dydx.chaoslabs.xyz/asset-listing/waves)\nMotivation: Waves is part of the building layer for blockchain technology with consistently high trading volumes across exchanges.\n24h Perpetual Volumes: $650M\n\n7. [Gala (GALA)](https://dydx.chaoslabs.xyz/asset-listing/gala)\nMotivation: A popular gaming platform, GALA captures a ton of trading interest for the growing web3 gaming space.\n24h Perpetual Volumes: $600M\n\n8. [The Sandbox (SAND)](https://dydx.chaoslabs.xyz/asset-listing/the-sandbox)\nMotivation: Another growing gaming platform with additional NFT applications built-in, SAND is also actively traded across perp markets.\n24h Perpetual Volumes: $440M\n\n9. [Decentraland (MANA)](https://dydx.chaoslabs.xyz/asset-listing/decentraland)\nMotivation: Among the first to tackle VR on blockchain, Decentraland has remained among the most popular metaverse with active token trading.\n24h Perpetual Volumes: $400M\n\n10. [Shiba Inu (1000SHIB)](https://dydx.chaoslabs.xyz/asset-listing/shiba-inu)\nMotivation: Although the initial hype has died off, Shiba is still actively traded across perp markets. This asset will follow the market standard of 1000 SHIB minimum orders.\n24h Perpetual Volumes: $300M\n\n11. [Theta Network (THETA)](https://dydx.chaoslabs.xyz/asset-listing/theta-token)\nMotivation: Theta is tackling the Video streaming space of blockchain with promising technology.\n24h Perpetual Volumes: $270M\n\n12. [Reserve Rights (RSR)](https://dydx.chaoslabs.xyz/asset-listing/reserve-rights-token)\nMotivation: RSR serves as the stability mechanism for the Reserve stablecoin, a growing payment protocol.\n24h Perpetual Volumes: $185M\n\n13. [Zilliqa (ZIL)](https://dydx.chaoslabs.xyz/asset-listing/zilliqa)\nMotivation: Although a bit older than the other tokens, ZIL is still actively traded as an alternative L1.\n24h Perpetual Volumes: $150M\n\n14. [VeChain (VET)](https://dydx.chaoslabs.xyz/asset-listing/vechain)\nMotivation: VeChain is attempting to tackle real-world problems through it's L1 smart contract platform with active trading.\n24h Perpetual Volumes: $105M\n\n15. [Ethereum Name Service (ENS)](https://dydx.chaoslabs.xyz/asset-listing/ethereum-name-service)\nMotivation: ENS recently launched its token for the wallet naming service.\n24h Perpetual Volumes: $100M\n\nThese assets have been reviewed by the New Asset Listing group, and received positive feedback from market makers and community members. Please review the assets using the Chaos Labs tool here: https://dydx.chaoslabs.xyz/asset-listing\n\n**If approved**:\n\n- A DIP will be submitted to add these 15 assets to the Starkware Priority Timelock Executor. It also signals community belief that dYdX Trading Inc. should prioritize listing these assets.\n\n\n**Should these assets be added to dYdX?**",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xb55a948763e0d386b6dEfcD8070a522216AE42b1",
+      "totalVotes": 282,
+      "blockNumber": 14975116,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0x16c1fa1ad9ae00241c8f451313d3b03a17c670ef5bf339e92e508e660780400a",
+      "startTime": {
+        "timestamp": 1655495121
+      },
+      "endTime": {
+        "timestamp": 1655840721
+      },
+      "startTimestamp": 1655495121,
+      "endTimestamp": 1655840721,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 13474451.0,
+          "choice": 0
+        },
+        {
+          "total": 387.26764,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 13474449.549188944,
+          "choice": 0
+        },
+        {
+          "total": 387.2676318827416,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweDQxNGU1MTU0ODI1MDgyYTBiNjA0ODNlNTFhMzJjM2M3YTg5YjYxN2Y5YTJhNTRlNGYwNjI0YWQxYTlhYjI2OWI=",
+      "id": "0x414e5154825082a0b60483e51a32c3c7a89b617f9a2a54e4f0624ad1a9ab269b",
+      "title": "Epoch 11: Adding New Assets to the Starkware Priority Timelock Executor",
+      "content": "In reference to: https://commonwealth.im/dydx/discussion/5215-new-assets-for-epoch-11\n\n# Summary\nWe propose adding the following assets to the Starkware Priority Timelock Executor. \n\n1. [ApeCoin (APE)](https://dydx.chaoslabs.xyz/asset-listing/apecoin\n)\nMotivation: Since launching, APE has been very actively traded across multiple perpetual exchanges, with strong retail demand for NFT related assets.\n24h Perpetual Volumes: $515M\n\n2. [Stepn (GMT)](https://dydx.chaoslabs.xyz/asset-listing/stepn\n)\nMotivation: Stepn has been widely popular among retail and non-crypto native users, attracting immense trading volumes across spot and perp venues.\n24h Perpetual Volumes: $2,200M\n\n3. [Fantom (FTM)](https://dydx.chaoslabs.xyz/asset-listing/fantom\n)\nMotivation: Although not as recent to the market, Fantom remains an L1 challenger with consistent volumes and developments that we would benefit from capturing.\n24h Perpetual Volumes: $560M\n\n4. [Axie Infinity (AXS)](https://dydx.chaoslabs.xyz/asset-listing/axie-infinity\n)\nMotivation: Representing the gaming side of our universe, AXS has also captured a ton of retail flow with high volumes and developments.\n24h Perpetual Volumes: $660M\n\n5. Optimism (OP)\nChaos Labs is in the process of adding this asset. \nMotivation: Having just recently launched, OP is experiencing heightened interest and volume as markets adopt this new asset. We think it’s important for dYdX to be a part of this adoption.\n24h Perpetual Volumes: $265M\n\nThese assets have been reviewed by the New Asset Listing group, and received positive feedback from market makers and community members. Please review the assets using the Chaos Labs tool here: https://dydx.chaoslabs.xyz/asset-listing\n\n**If approved:**\n\n- A DIP will be submitted to add these 5 assets to the Starkware Priority Timelock Executor. It also signals community belief that dYdX Trading Inc. should prioritize listing these assets.\n\n**Should these assets be added to dYdX?**",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xb55a948763e0d386b6dEfcD8070a522216AE42b1",
+      "totalVotes": 486,
+      "blockNumber": 14899844,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0x414e5154825082a0b60483e51a32c3c7a89b617f9a2a54e4f0624ad1a9ab269b",
+      "startTime": {
+        "timestamp": 1654383739
+      },
+      "endTime": {
+        "timestamp": 1654729339
+      },
+      "startTimestamp": 1654383739,
+      "endTimestamp": 1654729339,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 11011646.0,
+          "choice": 0
+        },
+        {
+          "total": 2266.4546,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 11011659.769803792,
+          "choice": 0
+        },
+        {
+          "total": 2266.4549086409243,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweGYxOGZlZjg0NWVmNjgyMDI0M2Q3N2I1MThjZGY3YzAzODIwYzExOTllODhjMzc1NTQ4MDYyZDA2YThiZjBlMGM=",
+      "id": "0xf18fef845ef6820243d77b518cdf7c03820c1199e88c375548062d06a8bf0e0c",
+      "title": "DRC: A Step Towards a More Equitable Liquidity Provider Reward Structure",
+      "content": "## Summary\nWintermute recently conducted research on the type of liquidity dYdX incentivizes for on its platform and its implications on reward distribution, LP competition, and the trading environment for users. We found that:\n\n- Liquidity provider rewards have been largely dominated by 2 addresses for a significant period of time\n- dYdX is overpaying for deep liquidity, while more active liquidity is being penalized, i.e., Liquidity providers are rewarded for their ability to show size, rather than compete for market share\n- Introducing maker volume into the calculation of rewards and reducing the weight on stkDYDX, depth & spread, will allow for a more equitable reward share\n-Rewarding maker volume will incentivize active liquidity at the top of the order book; tightening spreads and creating a better trading environment for users\n\nWintermute proposes to introduce maker volume through Proposed Change A with a parameter weight of v = 0.45, as well as reduce the parameter weighting of stkDYDX and depth/spread to s = 0.2 and d = 0.35, respectively.\n\n## Voting options\n1. Yes: Execute proposed change A with weights v = 0.45, d = 0.35, s= 0.2\n2. No: Do nothing\n\n## Links\n[Liquidity Provider Rewards](https://docs.dydx.community/dydx-governance/rewards/liquidity-provider-rewards)\n[Forum Discussion](https://commonwealth.im/dydx/discussion/4407-a-step-towards-a-more-equitable-liquidity-provider-reward-structure)",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xB933AEe47C438f22DE0747D57fc239FE37878Dd1",
+      "totalVotes": 553,
+      "blockNumber": 14696887,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0xf18fef845ef6820243d77b518cdf7c03820c1199e88c375548062d06a8bf0e0c",
+      "startTime": {
+        "timestamp": 1651561768
+      },
+      "endTime": {
+        "timestamp": 1651907368
+      },
+      "startTimestamp": 1651561768,
+      "endTimestamp": 1651907368,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 18258162.0,
+          "choice": 0
+        },
+        {
+          "total": 5209.477,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 18258154.15801769,
+          "choice": 0
+        },
+        {
+          "total": 5209.47705965151,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweGNlNGIxMzM0ZjMzNzk3NWE0MmMzZjc4ZGQxNmZiMjVlMGI2MGU4MTZhMmQ5MzgyZTQwMmI1Mzg0YmVhMzc0NzU=",
+      "id": "0xce4b1334f337975a42c3f78dd16fb25e0b60e816a2d9382e402b5384bea37475",
+      "title": "DRC: Increase Fee Weight Parameter",
+      "content": "### Summary\n\nWe at Xenophon Labs recently conducted research on the trader rewards mechanism. Among our findings were the following:\n\n1. Incentivizing open interest through the trader rewards formula has not shown a noticeable impact on long-term growth of the protocol.\n2. There is evidence that total fees paid by takers will change proportionally with a change in the fee weight parameter; for instance, an increase of 10% of the fee weight parameter is expected to lead to an increase of 10% in the total fees paid by takers.\n\nWe propose increasing the fee weight parameter from `a=0.67` to `a=0.8`, while decreasing the open interest weight parameter from `b=0.28` to `b=0.15`. This should constitute a 19% (`.8/.67`) increase in taker fees.\n\n### Voting Options\n\n- `Yes`: increase the fee weight parameter from `a=0.67` to `a=0.8`, and decrease the open interest weight parameter from `b=0.28` to `b=0.15`.\n- `No`: do nothing.\n\n### Links\n\n- [Trader Rewards Formula Docs](https://docs.dydx.community/dydx-governance/rewards/trading-rewards)\n- [Forum Discussion](https://forums.dydx.community/discussion/4190-discussion-dydx-trader-rewards-mechanism-review)\n- [Research Paper](https://xenophonlabs.com/dydx_trade_rewards.pdf)\n- [Blog Post](https://mirror.xyz/xenophonlabs.eth/I7BeQC37w3RxH3rxQD5nNznmr3-20rDlh5v1naye68w)",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xDf71878436e521e430fACf36ee5e3D74fA519F2c",
+      "totalVotes": 614,
+      "blockNumber": 14610511,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0xce4b1334f337975a42c3f78dd16fb25e0b60e816a2d9382e402b5384bea37475",
+      "startTime": {
+        "timestamp": 1650389757
+      },
+      "endTime": {
+        "timestamp": 1650735357
+      },
+      "startTimestamp": 1650389757,
+      "endTimestamp": 1650735357,
+      "currentState": "closed",
+      "choices": [
+        "YES",
+        "NO"
+      ],
+      "results": [
+        {
+          "total": 8208404.0,
+          "choice": 0
+        },
+        {
+          "total": 1739871.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 8208412.956949241,
+          "choice": 0
+        },
+        {
+          "total": 1739870.6769643803,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweGI5YjU2NDYwZTlkNTI5ZWYxM2VlNWEzNzBlNjBiYmMzYjI2MThjMmRiZjY0NzYxYTU1NDBlNDdhZGZiMTk1ZmM=",
+      "id": "0xb9b56460e9d529ef13ee5a370e60bbc3b2618c2dbf64761a5540e47adfb195fc",
+      "title": "DRC: Implement a Guernsey Purpose Trust for the dYdX Grants Program (DGP)",
+      "content": "In Reference to: \n- https://dydx.foundation/blog/en/legal-framework-non-us-trusts-in-daos\n- https://forums.dydx.community/discussion/4049-drc-implement-a-guernsey-purpose-trust-for-the-dydx-grants-program-dgp\n\nSummary\nWe propose that the dYdX Grants Program (DGP) implement the Guernsey purpose trust structure (the “Purpose Trust”) contemplated in the “Legal Framework for Non-U.S. Decentralized Autonomous Organizations” (the “Framework”) post created by the dYdX Foundation.\n\nAs outlined in the Framework, the Purpose Trust would have trustees, an enforcer and assets transferred to it. We propose that the 8 person multi-sig committee (the “Grants Committee”) act as trustees (the “Trustees”) for this entity, with Reverie acting as the enforcer (the “Enforcer”) and the assets currently in the Grants Committee multi-sig becoming part of the Purpose Trust. (We explain these terms in greater depth below). Operating the DGP under this structure will offer many benefits to the DGP, including greater flexibility to distribute funds to grantees and engage in off-chain activity, minimization of the tax burden for the DAO, and legal protection for the grants lead (Reverie) and the committee members.\n\nUntil now, DAO-funded initiatives have run into significant operational and legal challenges. We believe the Purpose Trust is a big step towards solving those hurdles and paving a path forward for the industry. \n\nShould the DGP implement a Guernsey Purpose Trust?\n",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xb55a948763e0d386b6dEfcD8070a522216AE42b1",
+      "totalVotes": 536,
+      "blockNumber": 14398928,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0xb9b56460e9d529ef13ee5a370e60bbc3b2618c2dbf64761a5540e47adfb195fc",
+      "startTime": {
+        "timestamp": 1647538164
+      },
+      "endTime": {
+        "timestamp": 1647883764
+      },
+      "startTimestamp": 1647538164,
+      "endTimestamp": 1647883764,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 37421172.0,
+          "choice": 0
+        },
+        {
+          "total": 1095.1052,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 37421213.360286035,
+          "choice": 0
+        },
+        {
+          "total": 1095.105265485552,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweDc4NTA2NjU2MWJlMWU1ZDE3MGViMjg5NjBkYTVlZjI2NDNlZTBkMGMzZDU5MGZkNzk3YzAyODUxMmNjNmJlNDM=",
+      "id": "0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43",
+      "title": "Reduce the threshold for receiving liquidity provider rewards to 0.25%",
+      "content": "In reference to https://commonwealth.im/dydx/discussion/3683-drc-reduce-the-threshold-for-receiving-liquidity-provider-rewards to propose a reduction of the threshold receiving liquidity provider rewards to 0.25% share of only maker volume of the dYdX exchange.\n\nIs the community agreeable to this change?",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xdAdEFF709CD9E0E2a94BBFb6532B1B5eFB8a96f8",
+      "totalVotes": 306,
+      "blockNumber": 14163297,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0x785066561be1e5d170eb28960da5ef2643ee0d0c3d590fd797c028512cc6be43",
+      "startTime": {
+        "timestamp": 1644381254
+      },
+      "endTime": {
+        "timestamp": 1644726854
+      },
+      "startTimestamp": 1644381254,
+      "endTimestamp": 1644726854,
+      "currentState": "closed",
+      "choices": [
+        "Keep threshold at 1%",
+        "Reduce threshold to 0.25%"
+      ],
+      "results": [
+        {
+          "total": 44441.984,
+          "choice": 0
+        },
+        {
+          "total": 27108098.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 44441.98743826136,
+          "choice": 0
+        },
+        {
+          "total": 27108100.63102616,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDpxbWRmdG1ubW1rcnZvYWFuZHNlZmV2eGdyMmUybXl1OXZuZmVhYWt1ZHdna2p5",
+      "id": "QmdfTMnmMkRVoaanDsEFEVxgR2E2Myu9vNFeAAkuDWgKJY",
+      "title": "DRC - Liquidity Staking Pool Borrowing Requirements Framework",
+      "content": "In reference to https://commonwealth.im/dydx/proposal/discussion/3150-drc-liquidity-staking-pool-borrowing-requirementsframework to propose an initial framework to determine liquidity provider eligibility to borrow from the Liquidity Staking Pool. \n\nIs the community agreeable to this new framework?",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xe65990EA9857F450b8bB47CacDdce03E247031FF",
+      "totalVotes": 269,
+      "blockNumber": 14092918,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/QmdfTMnmMkRVoaanDsEFEVxgR2E2Myu9vNFeAAkuDWgKJY",
+      "startTime": {
+        "timestamp": 1643443082
+      },
+      "endTime": {
+        "timestamp": 1643788682
+      },
+      "startTimestamp": 1643443082,
+      "endTimestamp": 1643788682,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 1132662.8,
+          "choice": 0
+        },
+        {
+          "total": 10.51,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 1132662.0033870174,
+          "choice": 0
+        },
+        {
+          "total": 10.51,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweDM1MGFlYTY0NDc5MmFjZGFhY2VkNmE1YWE2YjQwNzFkYjIwYzU3NWQxNGY0YTM2N2FiZDdhMzQ3NGZhYTU1MTc=",
+      "id": "0x350aea644792acdaaced6a5aa6b4071db20c575d14f4a367abd7a3474faa5517",
+      "title": "Add Liquidity Providers' Incentive on Spread",
+      "content": "In reference to https://forums.dydx.community/discussion/2519-incentivize-liquidity-providers-on-spread\n\nTarget - Incentivize market makers to provide liquidity that could be accessible to ALL traders by narrowing spread\n\nSuggestion - Adjust the current Qscore formula to add Liquidity Providers' Incentive on Spread\nwhere each order gets Depth/(Spread^2) from current Depth/Spread to address higher importance to spread",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x001023eEb55df44f18706E910227e7288cA5E13B",
+      "totalVotes": 190,
+      "blockNumber": 13982662,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0x350aea644792acdaaced6a5aa6b4071db20c575d14f4a367abd7a3474faa5517",
+      "startTime": {
+        "timestamp": 1641830400
+      },
+      "endTime": {
+        "timestamp": 1642219200
+      },
+      "startTimestamp": 1641830400,
+      "endTimestamp": 1642219200,
+      "currentState": "closed",
+      "choices": [
+        "Yes - Add weight on spread",
+        "No - Keep current formula"
+      ],
+      "results": [
+        {
+          "total": 2918415.8,
+          "choice": 0
+        },
+        {
+          "total": 5931980.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 2918415.3279609643,
+          "choice": 0
+        },
+        {
+          "total": 5931980.00140314,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweGZiY2I4MTA0ZGM0NjljYWUwOTcyN2RlYTg5NTc3Zjg5YjM3ZGY3ODRjM2VmMjcxNWIyNmFiNzdlOWFlMTUxNjE=",
+      "id": "0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161",
+      "title": "Trading & LP Rewards Formulas",
+      "content": "In reference to https://commonwealth.im/dydx/proposal/discussion/2940-drc-update-trading-liquidity-provider-rewards-formulas-to-include-holding-of-stkdydx, should the protocol increase rewards for stakers of DYDX (stkDYDX) as proposed by the dYdX Foundation?",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x1FE0fCBDeB8D0E8B5d540e6250E32EEd35C94BbB",
+      "totalVotes": 316,
+      "blockNumber": 13804327,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0xfbcb8104dc469cae09727dea89577f89b37df784c3ef2715b26ab77e9ae15161",
+      "startTime": {
+        "timestamp": 1639587600
+      },
+      "endTime": {
+        "timestamp": 1640019600
+      },
+      "startTimestamp": 1639587600,
+      "endTimestamp": 1640019600,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 864642.56,
+          "choice": 0
+        },
+        {
+          "total": 1542.6255,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 864642.9533941272,
+          "choice": 0
+        },
+        {
+          "total": 1542.6255752481468,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweGU3NzUxM2JmZWM5ZjU1YjFkNjIwZDk3M2FmMWM0ZGExMjY2Y2VmZmQzMzNjYmIxMjBiYzU0YTkzNTlkMjdhNDA=",
+      "id": "0xe77513bfec9f55b1d620d973af1c4da1266ceffd333cbb120bc54a9359d27a40",
+      "title": "Launch the dYdX Grants Program (DGP)",
+      "content": "In reference to https://forums.dydx.community/proposal/discussion/2511-drc-dydx-grants-program/, should $6.25m of treasury funds be allocated for the creation of a dYdX Grants Program?",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xb55a948763e0d386b6dEfcD8070a522216AE42b1",
+      "totalVotes": 326,
+      "blockNumber": 13766881,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0xe77513bfec9f55b1d620d973af1c4da1266ceffd333cbb120bc54a9359d27a40",
+      "startTime": {
+        "timestamp": 1639069200
+      },
+      "endTime": {
+        "timestamp": 1639501200
+      },
+      "startTimestamp": 1639069200,
+      "endTimestamp": 1639501200,
+      "currentState": "closed",
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "results": [
+        {
+          "total": 18100606.0,
+          "choice": 0
+        },
+        {
+          "total": 198159.08,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 18100604.33911732,
+          "choice": 0
+        },
+        {
+          "total": 198159.032886008,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweDNkNjJkNWI3N2IyYjliZDNhYjFjNDJjMjk2Y2MzNmNjZjg5Zjc3YmVhMjI4MTUwODFlNzg1ZDVkMjhkMzIzNjY=",
+      "id": "0x3d62d5b77b2b9bd3ab1c42c296cc36ccf89f77bea22815081e785d5d28d32366",
+      "title": "Upgrade Smart contract for market maker borrowers from Liquidity Staking Pool",
+      "content": "In reference to https://forums.dydx.community/proposal/discussion/2437-drc-smart-contract-upgrade-for-market-maker-borrowers-from-liquidity-staking-pool/, the smart contract should be upgraded to support deposit cancellation and recovery and ensure that market makers can safely make use of the Liquidity Staking Pool.",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xB933AEe47C438f22DE0747D57fc239FE37878Dd1",
+      "totalVotes": 474,
+      "blockNumber": 13576149,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0x3d62d5b77b2b9bd3ab1c42c296cc36ccf89f77bea22815081e785d5d28d32366",
+      "startTime": {
+        "timestamp": 1636394400
+      },
+      "endTime": {
+        "timestamp": 1636826400
+      },
+      "startTimestamp": 1636394400,
+      "endTimestamp": 1636826400,
+      "currentState": "closed",
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "results": [
+        {
+          "total": 5303093.0,
+          "choice": 0
+        },
+        {
+          "total": 4294.151,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 5303091.6746224025,
+          "choice": 0
+        },
+        {
+          "total": 4294.1512588023015,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDoweDBiNTY5MWQ4ZGNjZGM5MGUxNDVhMTRjZDg5MTUwM2E2ZjdkMjVkY2YwNjhkN2NkNGUwYTNkNjI4YzVlZGRiZmE=",
+      "id": "0x0b5691d8dccdc90e145a14cd891503a6f7d25dcf068d7cd4e0a3d628c5eddbfa",
+      "title": "你支持本次论坛的投票吗",
+      "content": "",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x1BBE4b796b8047e65319aa96e41887DE920d1868",
+      "totalVotes": 97,
+      "blockNumber": 13576069,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/0x0b5691d8dccdc90e145a14cd891503a6f7d25dcf068d7cd4e0a3d628c5eddbfa",
+      "startTime": {
+        "timestamp": 1636344000
+      },
+      "endTime": {
+        "timestamp": 1636603200
+      },
+      "startTimestamp": 1636344000,
+      "endTimestamp": 1636603200,
+      "currentState": "closed",
+      "choices": [
+        "支持",
+        "不支持"
+      ],
+      "results": [
+        {
+          "total": 40085.457,
+          "choice": 0
+        },
+        {
+          "total": 0.009059912,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 40085.46068747481,
+          "choice": 0
+        },
+        {
+          "total": 0.009059911177834529,
+          "choice": 1
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDpxbXh0czdjZ3Z4N2M1djJqZGNqcHNxd2FlenJzdHFjb2dzcXBwNnp6aHp3bG1u",
+      "id": "QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN",
+      "title": "Reduce the threshold for receiving liquidity provider rewards from 5% to a lower %  ",
+      "content": "In reference to https://forums.dydx.community/proposal/discussion/1805-reduce-market-maker-incentives/,  what should be the volume threshold % for MMs to qualify to receive liquidity provider rewards on dYdX?",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0xc5ef1C84EA5C570979DA35eB7C068687d15709ee",
+      "totalVotes": 764,
+      "blockNumber": 13308434,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/QmXtS7CGVX7C5v2JdcJpsqWAeZrStQcogSQpP6zzhzwLmN",
+      "startTime": {
+        "timestamp": 1632715200
+      },
+      "endTime": {
+        "timestamp": 1633060800
+      },
+      "startTimestamp": 1632715200,
+      "endTimestamp": 1633060800,
+      "currentState": "closed",
+      "choices": [
+        " lower MM threshold to 2.5%",
+        " lower MM threshold to 1.0%",
+        "Keep the MM threshold at 5.0%"
+      ],
+      "results": [
+        {
+          "total": 4382999.0,
+          "choice": 0
+        },
+        {
+          "total": 23158.14,
+          "choice": 2
+        },
+        {
+          "total": 27225780.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 4383003.000420554,
+          "choice": 0
+        },
+        {
+          "total": 27225771.732399948,
+          "choice": 1
+        },
+        {
+          "total": 23158.143365471024,
+          "choice": 2
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6ZHlkeGdvdmV0aDpzbmFwc2hvdDpxbWJqNXF4aHIxcHlzaGt0ZGFmNWRqYXI2dnhxbjhkdnhzaGgyZnl3Z3pkY2Ju",
+      "id": "QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn",
+      "title": "Stakers to the Safety Staking Pool in Epoch 0 should receive X% of their DYDX value staked as a form of compensation?",
+      "content": "In reference to https://commonwealth.im/dydx/proposal/discussion/1743-safety-staking-pool-on-pause, stakers to the Safety Staking Pool in Epoch 0 should receive X% of their DYDX value staked as a form of compensation?",
+      "protocol": "dydxgoveth",
+      "adapter": "snapshot",
+      "proposer": "0x89dEd350B2Be3DC2014C71f1E49CDFaD17ccaF7c",
+      "totalVotes": 575,
+      "blockNumber": 13198950,
+      "externalUrl": "https://snapshot.org/#/dydxgov.eth/proposal/QmbJ5QxHr1pyShKTDaF5DjAr6vxQn8DVxshH2fyWgzDCBn",
+      "startTime": {
+        "timestamp": 1631289600
+      },
+      "endTime": {
+        "timestamp": 1631721600
+      },
+      "startTimestamp": 1631289600,
+      "endTimestamp": 1631721600,
+      "currentState": "closed",
+      "choices": [
+        "0%",
+        "10%",
+        "20%",
+        "other"
+      ],
+      "results": [
+        {
+          "total": 235041.61,
+          "choice": 3
+        },
+        {
+          "total": 134120.42,
+          "choice": 0
+        },
+        {
+          "total": 61139.89,
+          "choice": 2
+        },
+        {
+          "total": 16682536.0,
+          "choice": 1
+        }
+      ],
+      "events": [],
+      "type": "single-choice",
+      "indexedResult": [
+        {
+          "total": 134120.40662444395,
+          "choice": 0
+        },
+        {
+          "total": 16682487.634168295,
+          "choice": 1
+        },
+        {
+          "total": 61139.88534707962,
+          "choice": 2
+        },
+        {
+          "total": 235041.51123429663,
+          "choice": 3
+        }
+      ],
+      "summary": null,
+      "privacy": null,
+      "indexedAt": 1678236144000,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

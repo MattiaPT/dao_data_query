@@ -1,0 +1,127 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6cHJlc2lkZXJwczpvbmNoYWluOjB4ZTU1MmQ4ZmUyYjgzNzQ0OWUzMmQ3NTQzNWEwZjNkODJjZGRkNzFlN2I2NTRlOGQzYmQ1ODZmOWQwZDMxMGQyMQ==",
+      "id": "0xe552d8fe2b837449e32d75435a0f3d82cddd71e7b654e8d3bd586f9d0d310d21",
+      "title": "Change minimum auction price",
+      "content": "Changing auction price from minimum 0.606 ETH to 0.1 ETH.",
+      "protocol": "presiderps",
+      "adapter": "onchain",
+      "proposer": "0xC4813d8724Fba151cA102006208a573cA72c566C",
+      "totalVotes": 1,
+      "blockNumber": 19953657,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1716808115
+      },
+      "endTime": {
+        "timestamp": 1717153715
+      },
+      "startTimestamp": 1716808115,
+      "endTimestamp": 1717153715,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 19989453
+          },
+          "event": "queued",
+          "timestamp": 1717154135,
+          "txHash": "0x2389ad8d6eb7cebdf88d973fb5d82147732370b8efeff2d6fdd11f59cb0ae480"
+        },
+        {
+          "time": {
+            "blockNumber": 20004179
+          },
+          "event": "executed",
+          "timestamp": 1717331831,
+          "txHash": "0x47e4e30f945541643ab69f9179efebe1b9f2505d8be314ffe7c6ddaac1c0c856"
+        },
+        {
+          "time": {
+            "blockNumber": 19953657
+          },
+          "event": "pending",
+          "timestamp": 1716721715,
+          "txHash": "0xa1bfe90a976d024829bfcffcd816fc67775a4579ef3aa79707ff79153737255c"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1.0,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1716721717674,
+      "txHash": "0xa1bfe90a976d024829bfcffcd816fc67775a4579ef3aa79707ff79153737255c",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6cHJlc2lkZXJwczpvbmNoYWluOjB4ODkyNzdjY2JkNmNhMDI4NzliYWU3NzJhZWNmZjNkMmY0OWEyMjBkNTU5YWNkODg3YzM0NTNjYjc3ZGRkYTEwNw==",
+      "id": "0x89277ccbd6ca02879bae772aecff3d2f49a220d559acd887c3453cb77ddda107",
+      "title": "Change minimum auction price",
+      "content": "Changing auction price from minimum 0.606 ETH to 0.1 ETH",
+      "protocol": "presiderps",
+      "adapter": "onchain",
+      "proposer": "0x666a632b3AB5c7613F7567353d65a2F641682BD1",
+      "totalVotes": 0,
+      "blockNumber": 16866428,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": 1679371955
+      },
+      "endTime": {
+        "timestamp": 1679717555
+      },
+      "startTimestamp": 1679371955,
+      "endTimestamp": 1679717555,
+      "currentState": "canceled",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16892020
+          },
+          "event": "canceled",
+          "timestamp": 1679596151,
+          "txHash": ""
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681236601930,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}

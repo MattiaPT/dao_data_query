@@ -1,0 +1,513 @@
+{
+  "data": [
+    {
+      "refId": "cHJvcG9zYWw6c3Vkb3N3YXBkYW86b25jaGFpbjo5NjQ3MDg3NTcxMjc2NTExODg1ODI0ODAyMTA0OTk5MTM3MDc3NzkyNjYwMTkyMTI4MzU5OTQ3NzQwOTY1NjE5NjkwNjE4MzQ5NTE0Mg==",
+      "id": "96470875712765118858248021049991370777926601921283599477409656196906183495142",
+      "title": "Wonderland’s Proposal for Sudoswap Shared Pooling",
+      "content": "I'm posting this on behalf of the Wonderland team. The entire proposal can be viewed here (https://defi-wonderland.notion.site/Sudoswap-Wonderland-s-Proposal-for-Sudoswap-Shared-Pooling-5b633b7830f44d0faebfe3b8cb1f4e27).\n\n# Introduction\n\nWe at Wonderland are big supporters of Sudoswap and believe it can become a crucial pillar of DeFi. We plan to contribute to ensuring its success and are thrilled to be introducing the concept of shared pooling to Sudoswap.\n\nShared pooling will allow users to provide liquidity into already existing pools. This should solve many existing pain points, allowing Sudoswap users to dramatically simplify the pool setup process and be free of activity tinkering to achieve the best returns.\n\nShared pooling will also solve major liquidity fragmentation issues and will unlock pool tokenization, which will be helpful in composability, NFT fractionalization, and on-chain NFT pricing oracles.\n\nOur shared pooling innovation should lead to more liquidity being provided to Sudoswap as barriers to entry will be dramatically reduced. Users will be able to target the best-performing pools and the highest returns at reduced costs while their liquidity is actively managed for them.\n\n# Who is Wonderland?\n\nWe are a team of top Web3 researchers, developers, and operators who believe that the future must be open-source, permissionless, and decentralized.\n\nWe partner with some of the most successful and promising protocols in Web3 – including Yearn, Connext, and Keep3r Network – to find solutions to complex engineering challenges and help them reach their full potential.\n\nWe focus on building deep, mutually beneficial partnerships with protocols. We do not clock out to simply “get the job done”. We are an extension of our partners’ teams, delivering unparalleled guidance and support over the long-term, and standing by partners as they navigate the exciting (and sometimes challenging) world of Web3 and decentralized finance. The experienced Wonderland team has seen it all – the good and the bad – and believes being in it together is the way forward in Web3.\n\n## What is Shared pooling?\n\nWhen discussing AMMs, people often envision pools of money where multiple users can provide liquidity. Sudoswap is the most popular NFT AMM, but currently, it only supports single-user pools. In the NFT context, shared pooling allows users to participate in an NFT-ETH pool together. When NFTs are deposited, users no longer own the NFT itself but instead possess a position represented by an LP token.\n\n**But why do we care so much about shared pooling?** \n\nShared pooling is not only a powerful solution to reduce liquidity fragmentation, but also unlocks other benefits that will take NFTs and DeFi to the next level.\n\nFor instance, shared pooling enables the ability to **tokenize pools**, allowing users to invest in an entire collection or gain exposure to multiple NFTs with a single LP token. Additionally, **fractionalization** of NFTs would be possible, enabling investors to gain exposure to the price of an NFT without paying the whole amount.\n\nShared pooling could also enable the creation of an on-chain NFT pricing oracle that could be used for lending, derivatives markets, and other DeFi applications. \n\n**Which NFTs can be shared pooled?**\n\nWhen considering shared pooling for NFTs, it is essential to remember that it only makes sense for NFTs with similar pricing. This is because all NFTs in the pool are offered at the same selling price, and the pool can only buy any NFT at that same price. Although using an off-chain rarity oracle to determine the price is possible, a trustless and permissionless shared pool would only work for price floor NFTs.\n\nBy voting \"FOR\" this proposal, the DAO agrees to set aside 200,000 SUDO via LlamaPay to be distributed to Wonderland upon completion of the task. The tokens will be vested linearly over the course of four months.\n\nBy voting \"AGAINST,\" you do not support this proposal.\n",
+      "protocol": "sudoswapDao",
+      "adapter": "onchain",
+      "proposer": "0x98E1c4E34CCDED4760eF8dA63BCcCdF4a75B3c4B",
+      "totalVotes": 8,
+      "blockNumber": 16856514,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1679165219,
+      "endTimestamp": 1679427275,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 59867.348,
+          "choice": 0
+        },
+        {
+          "total": 703391.6,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16878114
+          },
+          "event": "active",
+          "timestamp": 1679427275,
+          "txHash": "0x7d97ad49ac155154affd642fc4bdda2c0ff91d9745d6ac6b61cafc9ee15fff6d"
+        },
+        {
+          "time": {
+            "blockNumber": 16842114
+          },
+          "event": "pending",
+          "timestamp": 1678990403,
+          "txHash": "0x7d97ad49ac155154affd642fc4bdda2c0ff91d9745d6ac6b61cafc9ee15fff6d"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 59867.348,
+          "choice": 0
+        },
+        {
+          "total": 703391.6,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929464259,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3Vkb3N3YXBkYW86b25jaGFpbjo2MDA4NzYwMjMyMTgyNzM1NTg2NjMwNjAwMjg4NTIwNjM5NjAyMTU0Nzg3MDY0MTQ5MTkyMjE1NTY3MjEwMDk1NzQ4OTA0NzY2MjA4MA==",
+      "id": "60087602321827355866306002885206396021547870641491922155672100957489047662080",
+      "title": "Allow pairs (LP pools) to call eternal proxy (EPS)",
+      "content": "This proposal allows the pairs to call the eternal proxy ESAPI. If passed, this would allow LPs to use EPS to designate a delegate address.\n\nThis is useful for cases like Webaverse where the LP address was whitelisted. LPs would be able to designate an address to mint the NFTs.",
+      "protocol": "sudoswapDao",
+      "adapter": "onchain",
+      "proposer": "0x8f031Ee2855E33fC0BF490E99e5c2Ce95644024D",
+      "totalVotes": 11,
+      "blockNumber": 16843988,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1679013107,
+      "endTimestamp": 1679275379,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 2430224.8,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16865588
+          },
+          "event": "active",
+          "timestamp": 1679275379,
+          "txHash": "0x7895ac9eb2b131006b75e74a74153999dcc54b8346369c90cdfce181cffadc1b"
+        },
+        {
+          "time": {
+            "blockNumber": 16829588
+          },
+          "event": "pending",
+          "timestamp": 1678838147,
+          "txHash": "0x7895ac9eb2b131006b75e74a74153999dcc54b8346369c90cdfce181cffadc1b"
+        },
+        {
+          "time": {
+            "blockNumber": 16865956
+          },
+          "event": "executed",
+          "timestamp": 1679279843,
+          "txHash": "0x3b4bdab3fa08f5ffbf462deb5b392a927ee8da31fa87f95017f370d4636addaf"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 2430224.8,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929464259,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3Vkb3N3YXBkYW86b25jaGFpbjo0MzgwMjYxNjEwOTE1MjI3Mzc3Nzc4MDk0MTA4MzA1NDgxMTA4Njc5OTk3NTAyMTYzODI5MTI2MjIxOTgyODczOTc2MTcyNDg1NTk5",
+      "id": "4380261610915227377778094108305481108679997502163829126221982873976172485599",
+      "title": "Allow pairs (LP pools) to call eternal proxy (EPS)",
+      "content": "This proposal allows the pairs to call the eternal proxy [ESAPI](https://www.eternalproxy.com/setting-up-a-proxy/). If passed, this would allow LPs to use EPS to designate a delegate address. \n\nThis is useful for cases like [Webaverse](https://twitter.com/webaverse/status/1633143502388228096?s=20) where the LP address was whitelisted. LPs would be able to designate an address to mint the NFTs. ",
+      "protocol": "sudoswapDao",
+      "adapter": "onchain",
+      "proposer": "0x8f031Ee2855E33fC0BF490E99e5c2Ce95644024D",
+      "totalVotes": 1,
+      "blockNumber": 16842727,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1678997891,
+      "endTimestamp": 1679260079,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 5000.357,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16864327
+          },
+          "event": "active",
+          "timestamp": 1679260079,
+          "txHash": "0x060b5c17ba98e025dce9ca66690ae18ee98d35240adce294b34c725e32633f86"
+        },
+        {
+          "time": {
+            "blockNumber": 16828327
+          },
+          "event": "pending",
+          "timestamp": 1678822775,
+          "txHash": "0x060b5c17ba98e025dce9ca66690ae18ee98d35240adce294b34c725e32633f86"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 5000.357,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929464259,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3Vkb3N3YXBkYW86b25jaGFpbjo0NTE3NDE3OTI4NzQ0MjU0NDUwNDYxODc4NTg2Nzc0ODk4MTczNDA3ODEwODg3MDM1NzUxNTE3MDQ1MzI3MTI1MjQxODUxOTMzNzcyOA==",
+      "id": "45174179287442544504618785867748981734078108870357515170453271252418519337728",
+      "title": "Burn Unclaimed SUDO From Lockdrop & Airdrop ",
+      "content": "Make sure to delegate your SUDO to yourself or someone **BEFORE** voting starts (at https://www.tally.xyz/gov/sudoswap) since your voting power will not count if not done in time.\n\nAs we approach the end of the lockdrop, there are a few things the DAO needs to discuss. According to the blog posted by the team on September 1 (https://blog.sudoswap.xyz/sudo-distribution.html), “The SUDO that is not distributed during the lockdrop will go back to the treasury.” At the time of writing, roughly 80% of XMON has been locked for SUDO (https://etherscan.io/address/0xada31f59e70ad18665380f21ce49d4c43f9865c2).\n\nI am proposing to burn the unclaimed SUDO from the lockdrop and airdrop. This will lower the circulating and total supply depending on final lockdrop participation rates. The amount of SUDO in the treasury, if this proposal passes, will not deviate from the original intended distribution (https://blog.sudoswap.xyz/sudo-distribution.html).\n\nThis is more of a “temperature check” vote as any execution, if necessary, will need to be determined after the lockdrop ends on 3/1 and airdrop claim ends around 5/1. \n\nBy voting “For” on this proposal, you support burning the unclaimed SUDO from the lockdrop and airdrop.\n\nBy voting “Against,” you do not support this proposal.\n",
+      "protocol": "sudoswapDao",
+      "adapter": "onchain",
+      "proposer": "0x98E1c4E34CCDED4760eF8dA63BCcCdF4a75B3c4B",
+      "totalVotes": 16,
+      "blockNumber": 16687924,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1677116807,
+      "endTimestamp": 1677379487,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 650.0,
+          "choice": 0
+        },
+        {
+          "total": 777915.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16709524
+          },
+          "event": "active",
+          "timestamp": 1677379487,
+          "txHash": "0x638c140ad3429974d86bc31c4a1f400a9ee7a9828289706409a24302fdd2b726"
+        },
+        {
+          "time": {
+            "blockNumber": 16673524
+          },
+          "event": "pending",
+          "timestamp": 1676941751,
+          "txHash": "0x638c140ad3429974d86bc31c4a1f400a9ee7a9828289706409a24302fdd2b726"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 650.0,
+          "choice": 0
+        },
+        {
+          "total": 777915.5,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929464259,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3Vkb3N3YXBkYW86b25jaGFpbjoxMzg0NDg3NzE2MzE5NDMxMDI2NjM4NDkwMTg3Mjc3MDQwOTczMzY1NTA1Mjc2MzIwMzAzMzk3NjM4NzE2NzcxMzcxOTkzMjczOTUzOQ==",
+      "id": "13844877163194310266384901872770409733655052763203033976387167713719932739539",
+      "title": "Make $SUDO Transferable",
+      "content": "The first proposal did not pass as we did not hit quorum. Make sure to delegate your SUDO to yourself or someone **BEFORE** voting starts (at https://www.tally.xyz/gov/sudoswap) since your voting power will not count. The past vote was rejected, mainly due to concerns around SUDO/ETH liquidity.\n\nAs mentioned by recizk.eth: “I have some doubts about using the treasury as buy side in the LP. If the people that got the airdrop dump into it we would buy back a token we gave out for free. In general, for DAOs it’s better to spend token equity (that they have a lot and can print more if needed) than hard money (ETH in treasury).”\n\nTherefore, I believe that it’s better to establish POL after price stabilizes. If we establish POL at launch, the DAO risks providing exit liquidity for large holders & airdroppers. Incentivizing LPs will externalize this risk. There will also be natural demand to LP on UniV3 for SUDO given it’s likely to attract volume.\n\nWe all know Sudoswap is an amazing product that just needs more eyeballs, education, and incentivization. Once there is more interest around the protocol, we should expect more NFT volume data, which we can then use to determine what type of NFT liquidity we should incentivize in the coming months.\n\nGiven the above points, I propose a 3 month liquidity mining program for a UNIv2 SUDO-ETH LP. Targeting 30% APR at $5M TVL, we’d need to emit $375,000 worth of $SUDO over 3 months. If we estimate a price of $2 per SUDO, that is 187,500 SUDO tokens to be distributed to LPs over the 3 month period (1.25% of treasury). $LOOKS has ~$7M liquidity on Uniswap, so targeting $5M seems reasonable. The DAO can then agree on a longer-term solution for POL.\n\nBy voting “For” on this proposal,  SUDO holders are voting to make $SUDO transferable and support a 3 month liquidity mining program for UniV2.\n\nBy voting “Against,” you do not support this proposal.\n",
+      "protocol": "sudoswapDao",
+      "adapter": "onchain",
+      "proposer": "0x98E1c4E34CCDED4760eF8dA63BCcCdF4a75B3c4B",
+      "totalVotes": 62,
+      "blockNumber": 16637392,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1676503415,
+      "endTimestamp": 1676765459,
+      "currentState": "executed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 1557.1458,
+          "choice": 0
+        },
+        {
+          "total": 4184841.5,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16658992
+          },
+          "event": "active",
+          "timestamp": 1676765459,
+          "txHash": "0x73a9adfc5cfcb754fa66563d56896750283752ea5db1517708c7a1c917429aa0"
+        },
+        {
+          "time": {
+            "blockNumber": 16659007
+          },
+          "event": "executed",
+          "timestamp": 1676765651,
+          "txHash": "0x1ecf0100a1c7a71e0ee456f3967bde628a3f5a343a08dd076dde2bf9f853a0f6"
+        },
+        {
+          "time": {
+            "blockNumber": 16622992
+          },
+          "event": "pending",
+          "timestamp": 1676329391,
+          "txHash": "0x73a9adfc5cfcb754fa66563d56896750283752ea5db1517708c7a1c917429aa0"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 1557.1458,
+          "choice": 0
+        },
+        {
+          "total": 4184841.5,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929464259,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3Vkb3N3YXBkYW86b25jaGFpbjozODU4ODYzMTQzMTI1ODA5OTE0NjQyMjcwODk1MTMxMjI1MDI2Nzk1MTMwNTA3MjQzNjgwNjc1NzA5MDg5ODk1MjcwMzU1NzY1OTkzNw==",
+      "id": "38588631431258099146422708951312250267951305072436806757090898952703557659937",
+      "title": "Make $SUDO Transferable",
+      "content": "Will keep this short and sweet - the goal of this proposal is to make $SUDO transferable. Proposals around incentivizing liquidity for $SUDO can come at a later date. First priority is to release $SUDO into circulation as that is table stakes.\n\nAs per the $SUDO announcement blog (https://blog.sudoswap.xyz/sudo-distribution.html): \n“SUDO will initially be non-transferable. A governance proposal to initiate transferability may be put forward through the standard governance process for the sudoAMM protocol, which will be addressed at a later time. This is done as a measure to ensure SUDO does not go into circulation unless and until there can be assurance that there will be sufficient participation from SUDO holders in governance.”\n\nBy voting “For” on this proposal, tokenholders are voting to make $SUDO transferable.\n\nBy voting “Against,” you do not want your $SUDO tokens to be transferable.\n",
+      "protocol": "sudoswapDao",
+      "adapter": "onchain",
+      "proposer": "0x98E1c4E34CCDED4760eF8dA63BCcCdF4a75B3c4B",
+      "totalVotes": 45,
+      "blockNumber": 16550803,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1675457999,
+      "endTimestamp": 1675718531,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [
+        {
+          "total": 822416.2,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 1189267.4,
+          "choice": 1
+        }
+      ],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16572403
+          },
+          "event": "active",
+          "timestamp": 1675718531,
+          "txHash": "0x040785db26abc7a4b8b3ff6399e049954edf656ef41fe973586d1315fb4122ad"
+        },
+        {
+          "time": {
+            "blockNumber": 16536403
+          },
+          "event": "pending",
+          "timestamp": 1675283927,
+          "txHash": "0x040785db26abc7a4b8b3ff6399e049954edf656ef41fe973586d1315fb4122ad"
+        }
+      ],
+      "type": null,
+      "indexedResult": [
+        {
+          "total": 822416.2,
+          "choice": 0
+        },
+        {
+          "total": 0.0,
+          "choice": 2
+        },
+        {
+          "total": 1189267.4,
+          "choice": 1
+        }
+      ],
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929464259,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    },
+    {
+      "refId": "cHJvcG9zYWw6c3Vkb3N3YXBkYW86b25jaGFpbjozMTQxNTY1OTEwNDAyODA3MTg1MDczNTA3Mjc4MTE2ODAwNTc1NzE4MjM0OTc2NjgyNjMxNDkyNzczMTM1NjYxMjg2MDE5NjQ0MDQxNw==",
+      "id": "31415659104028071850735072781168005757182349766826314927731356612860196440417",
+      "title": "Make $SUDO Transferrable",
+      "content": "Will keep this short and sweet - the goal of this proposal is to make $SUDO transferable. Proposals around incentivizing liquidity for $SUDO can come at a later date. First priority is to release $SUDO into circulation as that is table stakes.\n\n**As per the $SUDO announcement blog (https://blog.sudoswap.xyz/sudo-distribution.html): **\n“SUDO will initially be non-transferable. A governance proposal to initiate transferability may be put forward through the standard governance process for the sudoAMM protocol, which will be addressed at a later time. This is done as a measure to ensure SUDO does not go into circulation unless and until there can be assurance that there will be sufficient participation from SUDO holders in governance.”\n\nBy voting “yes” on this proposal, tokenholders are voting to make $SUDO transferable.\n\nBy voting “no,” you do not want your $SUDO tokens to be transferable.\n",
+      "protocol": "sudoswapDao",
+      "adapter": "onchain",
+      "proposer": "0x98E1c4E34CCDED4760eF8dA63BCcCdF4a75B3c4B",
+      "totalVotes": 0,
+      "blockNumber": 16542957,
+      "externalUrl": null,
+      "startTime": {
+        "timestamp": null
+      },
+      "endTime": {
+        "timestamp": null
+      },
+      "startTimestamp": 1675363151,
+      "endTimestamp": 1675623923,
+      "currentState": "closed",
+      "choices": [
+        "AGAINST",
+        "FOR",
+        "ABSTAIN"
+      ],
+      "results": [],
+      "events": [
+        {
+          "time": {
+            "blockNumber": 16564557
+          },
+          "event": "active",
+          "timestamp": 1675623923,
+          "txHash": "0x1311f5c523bffbf02e1e1b22702d3b3399855e5148d8b87cc91e8d6b42b063e9"
+        },
+        {
+          "time": {
+            "blockNumber": 16528557
+          },
+          "event": "pending",
+          "timestamp": 1675189211,
+          "txHash": "0x1311f5c523bffbf02e1e1b22702d3b3399855e5148d8b87cc91e8d6b42b063e9"
+        }
+      ],
+      "type": null,
+      "indexedResult": null,
+      "summary": "",
+      "privacy": "",
+      "indexedAt": 1681929464259,
+      "txHash": "",
+      "quorum": 0,
+      "flagged": null,
+      "executionArgs": "",
+      "executables": "",
+      "chainId": null
+    }
+  ],
+  "nextCursor": null
+}
